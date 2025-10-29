@@ -166,4 +166,4 @@ def sztaki_tsv_noun_tag_wordform_lemma_import_test():
                 word_form = hun_encode(row[0].lower())
                 lemma = hun_encode(row[2].lower())
                 tag = xpostag_set(row[3])
-                yield (lemma, tag, word_form)
+                yield (tag, word_form, lemma)

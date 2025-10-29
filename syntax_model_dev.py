@@ -90,7 +90,7 @@ class FreqTrie:
         """Return the node that represents sequence.
 
         Arguments:
-            sequence (tuple of strings): of the form ('this', 'is')
+            sequence (tuple of strings): e.g. ('this', 'is')
             direction (string): 'fw' or 'bw', indicating whether we are looking
                 for forward neighbors or backward neighbors
 
@@ -159,7 +159,7 @@ class FreqTrie:
             freq = child_node.freq
             if len(new_path) >= min_length:
                 if (not only_completions) or (child in {'<','>'}):
-                    yield (tuple(new_path), freq)
+                    yield normalized_pathfreq(new_path, child, freq, max_length)
             yield from self._neighbors_aux(child_node, direction,
                                            max_length, min_length,
                                            only_completions, new_path)
@@ -242,7 +242,7 @@ class FreqTrie:
         source_scores = defaultdict(float)
         # For each context, find sources that can be substituted by target, i.e.
         # such that we can go (source -> context –> target) with high probability
-        contexts = self._neighbors(sequence, direction)
+        contexts = self._neighbors(sequence, direction, context_length)
         for context, context_target_freq in contexts:
             context_freq = self.freq(context)
             # Probability of going from context to target
@@ -260,6 +260,20 @@ class FreqTrie:
 #-----------------------------#
 # Analogical parser functions #
 #-----------------------------#
+
+context_length = 4
+
+def normalized_pathfreq(new_path, child, freq, max_length):
+    # Non-normalized version
+    #return (tuple(new_path), freq)
+    # Normalized version
+    if max_length < float('inf'):
+        if child in {'<', '>'}:
+            return (tuple(new_path), (freq / max_length) * (1 + max_length - len(new_path)))
+        else:
+            return (tuple(new_path), (freq / max_length))
+    else:
+        return (tuple(new_path), freq)
 
 def combine_path_scores(source_to_context_prob, context_to_target_prob):
     """Combine the conditional probabilities of an analogical path.
@@ -284,16 +298,6 @@ def combine_split_scores(prefix_subst_score, suffix_subst_score):
     """
     return min(prefix_subst_score, suffix_subst_score)
 
-def print_freqs(model, analogy_list):
-    best_analogies = [(' '.join(x[0]), model.freq(x[0])) for x in analogy_list[:10]]
-    max_length = max(max(len(x[0]) for x in best_analogies), len('analogy'))
-    print('')
-    print('analogy' + (max_length - len('analogy')) * ' ' + '  ', 'frequency')
-    print('-' * max_length + '---' + '-' * len('frequency'))
-    for analogy, freq in best_analogies:
-        print(analogy + (max_length - len(analogy)) * ' ' + '  ', freq)
-    print('')
-
 def bilateral_analogies(model: FreqTrie, sequence: tuple[str, ...]):
     left_anl_scores = model.left_analogies(sequence, max_length=len(sequence))
     right_anl_scores = model.right_analogies(sequence, max_length=len(sequence))
@@ -312,8 +316,8 @@ def bigram_analogies(model: FreqTrie, bigram: tuple[str, str]):
         for s2_anl, s2_score in s2_anls:
             n = model.freq(s1_anl + s2_anl)
             if n:
-                anls[s1_anl + s2_anl] = (s1_score * s2_score) * n
-    return nlargest(50, anls.items(), key=itemgetter(1))
+                anls[s1_anl + s2_anl] = (s1_score * s2_score)
+    return nlargest(100, anls.items(), key=itemgetter(1))
 
 def bigram_to_unigrams(model: FreqTrie, bigram: tuple[str, str]):
     bigrams_to_mix = bigram_analogies(model, bigram)
@@ -376,6 +380,7 @@ def recursive_analogies(model, sequence, lookup_dict=None):
     # Base case
     elif len(sequence) == 1:
         anls = [(sequence, 1)]
+        print('checked', sequence)
         lookup_dict[sequence] = anls
         return anls
     # Recursive case
@@ -392,6 +397,7 @@ def recursive_analogies(model, sequence, lookup_dict=None):
                 anl_seq_scores[anl_sequence] += score
         best_anls = nlargest(50, anl_seq_scores.items(), key=itemgetter(1))
         lookup_dict[sequence] = best_anls
+        print('checked', sequence)
         return best_anls
 
 def split_analogies(model, prefix, suffix, rec_prefixes, rec_suffixes):
@@ -411,7 +417,8 @@ def split_analogies(model, prefix, suffix, rec_prefixes, rec_suffixes):
     for prefix_info, suffix_info in product(sorted_prefix_anls, sorted_suffix_anls):
         prefix_anl, prefix_score = prefix_info
         suffix_anl, suffix_score = suffix_info
-        if model.freq(prefix_anl + suffix_anl):
-            score = combine_split_score(prefix_score, suffix_score)
+        n = model.freq(prefix_anl + suffix_anl)
+        if n:
+            score = combine_split_scores(prefix_score, suffix_score) * n
             anls[prefix_anl + suffix_anl] += score
     return nlargest(50, anls.items(), key=itemgetter(1))

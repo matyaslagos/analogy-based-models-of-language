@@ -69,13 +69,13 @@ def anl_bases(self, lemma, target_tag):
 
 def produce_word(model, lemma, target_tag):
     try:
-        return (most_similar_bases(model, lemma, target_tag)[0][0])
+        return most_similar_bases(model, lemma, target_tag)[0][0]
     except:
         return ''
 
 def produce_word_list(model, lemma, target_tag):
     try:
-        return (most_similar_bases(model, lemma, target_tag))
+        return most_similar_bases(model, lemma, target_tag)
     except:
         return ''
 
@@ -83,7 +83,7 @@ def most_similar_bases(self, lemma, target_tag):
     encoded_lemma = cio.hun_encode(lemma)
     tag_dict = {}
     bases = anl_bases(self, encoded_lemma, target_tag)
-    new_wordforms = defaultdict(float)
+    tag_wordforms = defaultdict(lambda: defaultdict(float))
     for tag, anl_lemmas in bases.items():
         transform_dict = defaultdict(Counter)
         tag_trie = self.tagtries[tag]
@@ -113,15 +113,50 @@ def most_similar_bases(self, lemma, target_tag):
                     continue
                 new_suffix = target_anl_lemma_wordform.removeprefix(anl_prefix)
                 transform_dict[original_suffix][new_suffix] += 1
+        # Compute homogeneity for each original suffix
+        suffix_homogeneities = {}
+        total_suffix_homogeneity = 0
         for original_suffix, new_suffixes in transform_dict.items():
+            homogeneity = simpson_index(new_suffixes.values())
+            suffix_homogeneities[original_suffix] = homogeneity
+            total_suffix_homogeneity += homogeneity
+            """original scoring
             stem = lemma_wordform.removesuffix(original_suffix)
-            # ... calculate Simpson diversity for new_suffixes ...
-            new_suffix_count = len(new_suffixes)
-            simpson_index = sum((n / new_suffix_count) ** 2 for n in new_suffixes.values())
-            for new_suffix, freq in new_suffixes.items():
+            type_count = len(new_suffixes)
+            total_transformation_count = sum(new_suffixes.values())
+            for new_suffix, new_suffix_count in new_suffixes.items():
                 new_wordform = stem + new_suffix
-                weight = (freq / new_suffix_count)# * simpson_index
+                weight = (new_suffix_count / type_count)
                 new_wordforms[new_wordform] += weight
+            """
+        # Normalize homogeneities to get weights and compute weighted word form probabilities
+        for original_suffix, new_suffixes in transform_dict.items():
+            weight = suffix_homogeneities[original_suffix] / total_suffix_homogeneity
+            # If defectivity is allowed
+            #weight = suffix_homogeneities[original_suffix] / len(suffix_homogeneities)
+            stem = lemma_wordform.removesuffix(original_suffix)
+            total_transformation_count = sum(new_suffixes.values())
+            for new_suffix, new_suffix_count in new_suffixes.items():
+                new_wordform = stem + new_suffix
+                prob = new_suffix_count / total_transformation_count
+                tag_wordforms[tag][new_wordform] += prob * weight
+    # Compute homogeneity for each tag
+    tag_homogeneities = {}
+    total_tag_homogeneity = 0
+    for tag, wordforms in tag_wordforms.items():
+        homogeneity = simpson_index(wordforms.values())
+        tag_homogeneities[tag] = homogeneity
+        total_tag_homogeneity += homogeneity
+    new_wordforms = defaultdict(float)
+    for tag, wordforms in tag_wordforms.items():
+        weight = tag_homogeneities[tag] / total_tag_homogeneity
+        # If defectivity is allowed
+        #weight = tag_homogeneities[tag] / len(tag_homogeneities)
+        for new_wordform, wordform_prob in wordforms.items():
+            prob = wordform_prob
+            new_wordforms[new_wordform] += prob * weight
+    # If defectivity is allowed
+    #new_wordforms['*'] += 1 - sum(new_wordforms.values())
     return sorted(new_wordforms.items(), key=lambda x: x[1], reverse=True)
 
 def wordform(model, lemma, target_tag):
@@ -134,14 +169,21 @@ def wordform(model, lemma, target_tag):
     word = current_node.label + word
     return word
 
+def simpson_index(counts):
+    norm_const = sum(counts)
+    return sum((count / norm_const) ** 2 for count in counts)
+
 def testing(model, test_corpus):
-    novel_results = {True: set(), False: set()}
-    for lemma, tag, word_form in test_corpus:
+    results = {True: set(), False: set()}
+    for tag, target_word, lemma in test_corpus:
+        # Get token frequency of lemma in training corpus
         lemmafreq = sum(model.lemmas[lemma].values())
-        is_novel = tag not in model.lemmas[lemma]
-        if (lemma not in model.lemmas) or (not is_novel):
+        # If lemma is unattested or target word form is attested, skip
+        if (lemmafreq == 0) or (tag in model.lemmas[lemma]):
             continue
+        # Compare target word form with word form produced by the model
+        # and record outcome of guess
         produced_word = produce_word(model, lemma, tag)
-        guess = produced_word == word_form
-        novel_results[guess].add((word_form, produced_word, lemmafreq, tuple(tag)))
-    return novel_results
+        guess_outcome = produced_word == target_word
+        results[guess_outcome].add((target_word, produced_word, lemmafreq, tuple(tag)))
+    return results
