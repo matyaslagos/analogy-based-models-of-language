@@ -1,6 +1,8 @@
 from collections import defaultdict
 from collections import Counter
+from string import ascii_lowercase
 import custom_io as cio
+import csv
 
 #-----------------------------#
 # MorphModel class definition #
@@ -12,7 +14,7 @@ class MorphModel():
         self.lemmas = defaultdict(Counter)
 
     def setup(self):
-        morph_triples = cio.sztaki_tsv_noun_tag_wordform_lemma_import()
+        morph_triples = import_training_data()
         for tag, word_form, lemma in morph_triples:
             self.tagtries[tag]._insert(word_form, lemma)
             self.lemmas[lemma][tag] += 1
@@ -185,5 +187,42 @@ def testing(model, test_corpus):
         # and record outcome of guess
         produced_word = produce_word(model, lemma, tag)
         guess_outcome = produced_word == target_word
-        results[guess_outcome].add((target_word, produced_word, lemmafreq, tuple(tag)))
+        results[guess_outcome].add((target_word, produced_word, tuple(tag), lemma, lemmafreq))
     return results
+
+
+def import_training_data():
+    sztaki_corpus_path = 'corpora/sztaki_corpus_2017_2018_0001_clean.tsv'
+    with open(sztaki_corpus_path, newline='') as f:
+        reader = csv.reader(
+            (row for row in f if row.strip() and not row.startswith('#')),
+            delimiter='\t'
+        )
+        next(reader, None) # skip first line
+        is_hun_char = lambda x: x.lower() in ascii_lowercase + 'áéíóúöőüű'
+        is_hun_string = lambda x: all(map(is_hun_char, x))
+        for row in reader:
+            if len(row) >= 4 and row[3].startswith('[/N]') and is_hun_string(row[0]):
+                word_form = cio.hun_encode(row[0].lower())
+                lemma = cio.hun_encode(row[2].lower())
+                tag = cio.xpostag_set(row[3])
+                yield (tag, word_form, lemma)
+
+def import_test_data():
+    sztaki_corpus_path = 'corpora/sztaki_corpus_2017_2018_0002_clean.tsv'
+    morph_triples = []
+    with open(sztaki_corpus_path, newline='') as f:
+        reader = csv.reader(
+            (row for row in f if row.strip() and not row.startswith('#')),
+            delimiter='\t'
+        )
+        next(reader, None) # skip first line
+        is_hun_char = lambda x: x.lower() in ascii_lowercase + 'áéíóúöőüű'
+        is_hun_string = lambda x: all(map(is_hun_char, x))
+        for row in reader:
+            if len(row) >= 4 and row[3].startswith('[/N]') and is_hun_string(row[0]):
+                word_form = cio.hun_encode(row[0].lower())
+                lemma = cio.hun_encode(row[2].lower())
+                tag = cio.xpostag_set(row[3])
+                morph_triples.append((tag, word_form, lemma))
+    return morph_triples
