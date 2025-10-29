@@ -17,4 +17,4 @@ test_results = mor.testing(model, test_corpus)
 Dictionary `test_results` has keys `True` and `False` with `set` values containing tuples of form `(target_word, produced_word, lemma_frequency, tag)`.
 E.g. in `test_results[False]`, there could be a tuple `('külsőm', 'külsejem', ('Poss', 'Nom', '1Sg'), 'külső', 39)`, indicating that
 the lemma `'külső'` occurred `39` times in the training data, its `('Poss', 'Nom', '1Sg')` form is `'külsőm'`, and the model
-(wrongly) guessed that this form is `'külsejem'`.
+(wrongly) guessed that this form is `'külsejem'`. So `len(test_results[True])` is the number of correct guesses and `len(test_results[False])` is the number of incorrect guesses.
