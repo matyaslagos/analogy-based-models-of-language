@@ -181,7 +181,7 @@ def testing(model, test_corpus):
         lemma_entry = model.lemmas.get(lemma)
         # If lemma is unattested or is attested with target tag, skip
         # (we only test lemmas that are attested but not with the target tag)
-        if (not lemma_entry) or (tag in lemma_entry]):
+        if (not lemma_entry) or (tag in lemma_entry):
             continue
         # Get token frequency of lemma in training corpus
         lemmafreq = sum(lemma_entry.values())
