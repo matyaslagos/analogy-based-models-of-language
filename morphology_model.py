@@ -180,14 +180,15 @@ def testing(model, test_corpus):
     for tag, target_word, lemma in test_corpus:
         # Get token frequency of lemma in training corpus
         lemmafreq = sum(model.lemmas[lemma].values())
-        # If lemma is unattested or target word form is attested, skip
+        # If lemma is unattested or is attested with target tag, skip
+        # (we only test lemmas that are attested but not with the target tag)
         if (lemmafreq == 0) or (tag in model.lemmas[lemma]):
             continue
         # Compare target word form with word form produced by the model
         # and record outcome of guess
         produced_word = produce_word(model, lemma, tag)
         guess_outcome = produced_word == target_word
-        results[guess_outcome].add((target_word, produced_word, tuple(tag), lemma, lemmafreq))
+        results[guess_outcome].add((target_word, produced_word, tuple(sorted(tag)), lemma, lemmafreq))
     return results
 
 
