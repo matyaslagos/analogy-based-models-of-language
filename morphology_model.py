@@ -1,8 +1,10 @@
 from collections import defaultdict
 from collections import Counter
 from string import ascii_lowercase
+from operator import itemgetter
 import custom_io as cio
 import csv
+import math
 
 #-----------------------------#
 # MorphModel class definition #
@@ -59,109 +61,71 @@ class TagTrie:
 # Analogy-finding functions #
 #---------------------------#
 
-def anl_bases(self, lemma, target_tag):
-    encoded_lemma = cio.hun_encode(lemma)
-    starting_tags = self.lemmas[encoded_lemma]
-    shared_tag_dict = defaultdict(set)
-    candidate_lemmas = self.tagtries[target_tag].root.lemmas.keys()
-    for candidate_lemma in candidate_lemmas:
-        for shared_tag in starting_tags & self.lemmas[candidate_lemma]:
-            shared_tag_dict[shared_tag].add(candidate_lemma)
-    return dict(shared_tag_dict)
+def anl_bases(model, target_lemma, target_tag):
+    encoded_lemma = cio.hun_encode(target_lemma)
+    # Get "analogical tags" (tags that target lemma is attested with)
+    if model.lemmas.get(encoded_lemma):
+        anl_tags = model.lemmas[encoded_lemma]
+    else:
+        anl_tags = Counter({frozenset({'Nom'}): 1})
+    if target_tag in anl_tags:
+        del(anl_tags[target_tag])
+    # Get "analogical lemmas" (lemmas that are attested with target tag)
+    anl_lemmas = model.tagtries[target_tag].root.lemmas.keys()
+    # Pretend we haven't seen target lemma
+    anl_lemmas = anl_lemmas - {encoded_lemma}
+    # For each analogical tag, collect analogical lemmas attested with it
+    anl_tag_dict = defaultdict(set)
+    for anl_lemma in anl_lemmas:
+        for anl_tag in anl_tags & model.lemmas[anl_lemma]:
+            anl_tag_dict[anl_tag].add(anl_lemma)
+    return dict(anl_tag_dict)
 
 def produce_word(model, lemma, target_tag):
     try:
-        return most_similar_bases(model, lemma, target_tag)[0][0]
+        return inflect(model, lemma, target_tag)[0][0]
     except:
         return ''
 
-def produce_word_list(model, lemma, target_tag):
-    try:
-        return most_similar_bases(model, lemma, target_tag)
-    except:
-        return ''
-
-def most_similar_bases(self, lemma, target_tag):
+def inflect(model, lemma, target_tag_set):
+    target_tag = frozenset(target_tag_set)
     encoded_lemma = cio.hun_encode(lemma)
-    tag_dict = {}
-    bases = anl_bases(self, encoded_lemma, target_tag)
-    tag_wordforms = defaultdict(lambda: defaultdict(float))
-    for tag, anl_lemmas in bases.items():
+    bases = anl_bases(model, lemma, target_tag)
+    new_wordforms = defaultdict(float)
+    for anl_tag, anl_lemmas in bases.items():
         transform_dict = defaultdict(Counter)
-        tag_trie = self.tagtries[tag]
-        lemma_wordform = wordform(self, encoded_lemma, tag)
+        tag_trie = model.tagtries[anl_tag]
+        # Find wordform of target lemma for analogical tag
+        lemma_wordform = wordform(model, encoded_lemma, anl_tag)
         for anl_lemma in anl_lemmas:
-            # Record all common suffixes for tagged wordforms of lemma and anl_lemma
-            common_suffixes = set()
-            common_suffix = ''
-            anl_lemma_node = None
-            current_node = tag_trie.root
-            while anl_lemma in current_node.lemmas and encoded_lemma in current_node.lemmas:
-                common_suffix = current_node.label + common_suffix
-                common_suffixes.add(common_suffix)
-                anl_lemma_node = current_node
-                current_node = current_node.lemmas[encoded_lemma]
-            # Find tagged wordform of anl_lemma
-            anl_lemma_wordform = common_suffix
-            while anl_lemma in anl_lemma_node.lemmas:
-                anl_lemma_node = anl_lemma_node.lemmas[anl_lemma]
-                anl_lemma_wordform = anl_lemma_node.label + anl_lemma_wordform
-            # Find wordform of anl_lemma for target tag
-            target_anl_lemma_wordform = wordform(self, anl_lemma, target_tag)
-            # For each common suffix, find and record transformation pair
-            for original_suffix in common_suffixes:
-                anl_prefix = anl_lemma_wordform.removesuffix(original_suffix)
-                if not target_anl_lemma_wordform.startswith(anl_prefix):
+            # Record all common suffixes for analogical wordforms
+            # of target lemma and analogical lemma for current analogical tag
+            anl_lemma_wordform = wordform(model, anl_lemma, anl_tag)
+            base_suffixes = common_suffixes(lemma_wordform, anl_lemma_wordform)
+            # For each common suffix, find and record the suffix substitution
+            # that transforms analogical lemma's word form for analogical tag
+            # into analogical lemma's word form for target tag
+            anl_lemma_target_wordform = wordform(model, anl_lemma, target_tag)
+            for base_suffix in base_suffixes:
+                anl_prefix = anl_lemma_wordform.removesuffix(base_suffix)
+                if not anl_lemma_target_wordform.startswith(anl_prefix):
                     continue
-                new_suffix = target_anl_lemma_wordform.removeprefix(anl_prefix)
-                transform_dict[original_suffix][new_suffix] += 1
-        # Compute homogeneity for each original suffix
-        suffix_homogeneities = {}
-        total_suffix_homogeneity = 0
+                new_suffix = anl_lemma_target_wordform.removeprefix(anl_prefix)
+                transform_dict[base_suffix][new_suffix] += 1
+        # Normalize homogeneities to get weights, compute weighted word form probabilities
         for original_suffix, new_suffixes in transform_dict.items():
-            homogeneity = simpson_index(new_suffixes.values())
-            suffix_homogeneities[original_suffix] = homogeneity
-            total_suffix_homogeneity += homogeneity
-            """original scoring
-            stem = lemma_wordform.removesuffix(original_suffix)
-            type_count = len(new_suffixes)
-            total_transformation_count = sum(new_suffixes.values())
-            for new_suffix, new_suffix_count in new_suffixes.items():
-                new_wordform = stem + new_suffix
-                weight = (new_suffix_count / type_count)
-                new_wordforms[new_wordform] += weight
-            """
-        # Normalize homogeneities to get weights and compute weighted word form probabilities
-        for original_suffix, new_suffixes in transform_dict.items():
-            weight = suffix_homogeneities[original_suffix] / total_suffix_homogeneity
-            # If defectivity is allowed
-            #weight = suffix_homogeneities[original_suffix] / len(suffix_homogeneities)
             stem = lemma_wordform.removesuffix(original_suffix)
             total_transformation_count = sum(new_suffixes.values())
             for new_suffix, new_suffix_count in new_suffixes.items():
                 new_wordform = stem + new_suffix
                 prob = new_suffix_count / total_transformation_count
-                tag_wordforms[tag][new_wordform] += prob * weight
-    # Compute homogeneity for each tag
-    tag_homogeneities = {}
-    total_tag_homogeneity = 0
-    for tag, wordforms in tag_wordforms.items():
-        homogeneity = simpson_index(wordforms.values())
-        tag_homogeneities[tag] = homogeneity
-        total_tag_homogeneity += homogeneity
-    new_wordforms = defaultdict(float)
-    for tag, wordforms in tag_wordforms.items():
-        weight = tag_homogeneities[tag] / total_tag_homogeneity
-        # If defectivity is allowed
-        #weight = tag_homogeneities[tag] / len(tag_homogeneities)
-        for new_wordform, wordform_prob in wordforms.items():
-            prob = wordform_prob
-            new_wordforms[new_wordform] += prob * weight
-    # If defectivity is allowed
-    #new_wordforms['*'] += 1 - sum(new_wordforms.values())
-    return sorted(new_wordforms.items(), key=lambda x: x[1], reverse=True)
+                new_wordforms[new_wordform] += prob
+    best_wordforms = sorted(new_wordforms.items(), key=itemgetter(1), reverse=True)
+    return best_wordforms
 
 def wordform(model, lemma, target_tag):
+    if target_tag == frozenset({'Nom'}):
+        return lemma
     word = ''
     tag_trie = model.tagtries[target_tag]
     current_node = tag_trie.root
@@ -171,48 +135,60 @@ def wordform(model, lemma, target_tag):
     word = current_node.label + word
     return word
 
-def simpson_index(counts):
-    norm_const = sum(counts)
-    return sum((count / norm_const) ** 2 for count in counts)
+def common_suffixes(s1: str, s2: str, include_empty=True):
+    common_suffix_list = [''] if include_empty else []
+    common_suffix = ''
+    for c1, c2 in zip(reversed(s1), reversed(s2)):
+        if c1 != c2:
+            break
+        common_suffix = c1 + common_suffix
+        common_suffix_list.append(common_suffix)
+    return common_suffix_list
 
 def testing(model, test_corpus):
-    results = {True: set(), False: set()}
+    results = {True: set(), False: set(), 'UNK': set()}
     for tag, target_word, lemma in test_corpus:
-        lemma_entry = model.lemmas.get(lemma)
-        # If lemma is unattested or is attested with target tag, skip
-        # (we only test lemmas that are attested but not with the target tag)
-        if (not lemma_entry) or (tag in lemma_entry):
-            continue
         # Get token frequency of lemma in training corpus
-        lemmafreq = sum(lemma_entry.values())
+        lemma_entry = model.lemmas.get(lemma)
+        lemmafreq = 0 if (not lemma_entry) else sum(lemma_entry.values())
+        # Don't try to guess Nom word forms of unattested lemmas
+        if lemmafreq == 0 and tag == frozenset({'Nom'}):
+            results['UNK'].add(
+                (target_word, 'UNK', ', '.join(sorted(tag)), lemma, lemmafreq)
+            )
+            continue
         # Compare target word form with word form produced by the model
         # and record outcome of guess
         produced_word = produce_word(model, lemma, tag)
         guess_outcome = produced_word == target_word
-        results[guess_outcome].add((target_word, produced_word, tuple(sorted(tag)), lemma, lemmafreq))
+        results[guess_outcome].add(
+            (target_word, produced_word, ', '.join(sorted(tag)), lemma, lemmafreq)
+        )
     return results
 
 
 def import_training_data():
-    sztaki_corpus_path = 'corpora/sztaki_corpus_2017_2018_0001_clean.tsv'
-    with open(sztaki_corpus_path, newline='') as f:
-        reader = csv.reader(
-            (row for row in f if row.strip() and not row.startswith('#')),
-            delimiter='\t'
-        )
-        next(reader, None) # skip first line
-        is_hun_char = lambda x: x.lower() in ascii_lowercase + 'áéíóúöőüű'
-        is_hun_string = lambda x: all(map(is_hun_char, x))
-        for row in reader:
-            if len(row) >= 4 and row[3].startswith('[/N]') and is_hun_string(row[0]):
-                word_form = cio.hun_encode(row[0].lower())
-                lemma = cio.hun_encode(row[2].lower())
-                tag = cio.xpostag_set(row[3])
-                yield (tag, word_form, lemma)
+    sztaki_corpus_paths = ['corpora/sztaki_corpus_2017_2018_0001_clean.tsv']
+    for sztaki_corpus_path in sztaki_corpus_paths:
+        with open(sztaki_corpus_path, newline='') as f:
+            reader = csv.reader(
+                (row for row in f if row.strip() and not row.startswith('#')),
+                delimiter='\t'
+            )
+            next(reader, None) # skip first line
+            is_hun_char = lambda x: x.lower() in ascii_lowercase + 'áéíóúöőüű'
+            is_hun_string = lambda x: all(map(is_hun_char, x))
+            for row in reader:
+                if len(row) >= 4 and row[3].startswith('[/N]') and is_hun_string(row[0]):
+                    word_form = cio.hun_encode(row[0].lower())
+                    lemma = cio.hun_encode(row[2].lower())
+                    tag = cio.xpostag_set(row[3])
+                    if word_form and lemma and tag:
+                        yield (tag, word_form, lemma)
 
 def import_test_data():
     sztaki_corpus_path = 'corpora/sztaki_corpus_2017_2018_0002_clean.tsv'
-    morph_triples = []
+    morph_triples = set()
     with open(sztaki_corpus_path, newline='') as f:
         reader = csv.reader(
             (row for row in f if row.strip() and not row.startswith('#')),
@@ -226,5 +202,6 @@ def import_test_data():
                 word_form = cio.hun_encode(row[0].lower())
                 lemma = cio.hun_encode(row[2].lower())
                 tag = cio.xpostag_set(row[3])
-                morph_triples.append((tag, word_form, lemma))
-    return morph_triples
+                if word_form and lemma and tag:
+                    morph_triples.add((tag, word_form, lemma))
+    return list(morph_triples)
