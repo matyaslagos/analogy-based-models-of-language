@@ -27,7 +27,7 @@ len(results['UNK']) # number of unguessable items
 Inspecting the test results:
 ```python
 >>> from pprint import pp # pretty printing
->>> results[False][0]
+>>> pp(results[False][0])
 {'target word': 'rituáléhoz',
  'produced word': 'rituáléhez',
  'tag': {'All'},
