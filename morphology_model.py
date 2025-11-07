@@ -63,9 +63,13 @@ class TagTrie:
 
 def anl_bases(model, target_lemma, target_tag):
     encoded_lemma = cio.hun_encode(target_lemma)
+    lemma_entry = model.lemmas.get(encoded_lemma)
     # Get "analogical tags" (tags that target lemma is attested with)
-    if model.lemmas.get(encoded_lemma):
-        anl_tags = model.lemmas[encoded_lemma].copy()
+    if lemma_entry:
+        if len(lemma_entry) == 1 and next(iter(lemma_entry)) == target_tag:
+            anl_tags = Counter({frozenset({'Nom'}): 1})
+        else:
+            anl_tags = model.lemmas[encoded_lemma].copy()
     else:
         anl_tags = Counter({frozenset({'Nom'}): 1})
     # Pretend we haven't seen target lemma
@@ -157,9 +161,18 @@ def testing(model, test_corpus):
         lemma_entry = model.lemmas.get(lemma)
         lemmafreq = 0 if (not lemma_entry) else sum(lemma_entry.values())
         # Don't try to guess Nom word forms of unattested lemmas
-        if lemmafreq == 0 and tag == frozenset({'Nom'}):
-            results['UNK'].add((target_word, 'UNK', tuple(sorted(tag)), lemma, 0))
-            continue
+        unguessable = (
+            tag == frozenset({'Nom'})
+            and (
+                (lemmafreq == 0)
+                or (lemmafreq > 0
+                    and len(lemma_entry) == 1
+                    and next(iter(lemma_entry)) == frozenset({'Nom'}))
+            )
+        )
+        if unguessable:
+                results['UNK'].add((target_word, 'UNK', tuple(sorted(tag)), lemma, 0))
+                continue
         # Compare target word form with word form produced by the model
         # and record outcome of guess
         produced_word = produce_word(model, lemma, tag)
