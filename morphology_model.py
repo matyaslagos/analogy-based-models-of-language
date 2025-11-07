@@ -66,6 +66,8 @@ def anl_bases(model, target_lemma, target_tag):
     lemma_entry = model.lemmas.get(encoded_lemma)
     # Get "analogical tags" (tags that target lemma is attested with)
     if lemma_entry:
+        # If lemma is only attested with the target tag, try to guess target
+        # word form from Nom word form (i.e. the lemma string)
         if len(lemma_entry) == 1 and next(iter(lemma_entry)) == target_tag:
             anl_tags = Counter({frozenset({'Nom'}): 1})
         else:
