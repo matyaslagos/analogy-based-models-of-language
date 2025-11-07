@@ -12,14 +12,24 @@ model.setup() # ~10 secs, needs file with path 'corpora/sztaki_corpus_2017_2018_
 Generating possible {Pl, Acc} word forms of the lemma "november":
 ```python
 word_forms = mor.inflect(model, 'november', {'Pl', 'Acc'})
+word_forms[0] # tuple of best word form and score
 ```
 Carrying out testing:
 ```python
 test_corpus = mor.import_test_data() # needs file with path 'corpora/sztaki_corpus_2017_2018_0002_clean.tsv'
-test_results = mor.testing(model, test_corpus[:5000]) # ~1min
+results = mor.testing(model, test_corpus[:5000]) # ~1min
 len(results[True]) # number of correct guesses
 len(results[False]) # number of incorrect guesses
 len(results['UNK']) # number of items where {Nom} form of an unattested lemma is target word form
 ```
 Inspecting the test results:
-...
+```python
+>>> from pprint import pp # pretty printing
+>>> results[False][0]
+{'target word': 'rituáléhoz',
+ 'produced word': 'rituáléhez',
+ 'tag': {'All'},
+ 'lemma': 'rituálé',
+ 'lemmafreq': 7}
+```
+
