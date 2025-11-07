@@ -20,8 +20,10 @@ test_corpus = mor.import_test_data() # needs file with path 'corpora/sztaki_corp
 results = mor.testing(model, test_corpus[:5000]) # ~1min
 len(results[True]) # number of correct guesses
 len(results[False]) # number of incorrect guesses
-len(results['UNK']) # number of items where {Nom} form of an unattested lemma is target word form
+len(results['UNK']) # number of unguessable items
 ```
+(Unguessable items are {Nom} word forms of those lemmas that are either unattested or only attested with their {Nom} word forms.)
+
 Inspecting the test results:
 ```python
 >>> from pprint import pp # pretty printing
