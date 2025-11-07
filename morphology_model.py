@@ -65,11 +65,12 @@ def anl_bases(model, target_lemma, target_tag):
     encoded_lemma = cio.hun_encode(target_lemma)
     # Get "analogical tags" (tags that target lemma is attested with)
     if model.lemmas.get(encoded_lemma):
-        anl_tags = model.lemmas[encoded_lemma]
+        anl_tags = model.lemmas[encoded_lemma].copy()
     else:
         anl_tags = Counter({frozenset({'Nom'}): 1})
+    # Pretend we haven't seen target lemma
     if target_tag in anl_tags:
-        del(anl_tags[target_tag])
+        del anl_tags[target_tag]
     # Get "analogical lemmas" (lemmas that are attested with target tag)
     anl_lemmas = model.tagtries[target_tag].root.lemmas.keys()
     # Pretend we haven't seen target lemma
@@ -157,18 +158,26 @@ def testing(model, test_corpus):
         lemmafreq = 0 if (not lemma_entry) else sum(lemma_entry.values())
         # Don't try to guess Nom word forms of unattested lemmas
         if lemmafreq == 0 and tag == frozenset({'Nom'}):
-            results['UNK'].add(
-                (target_word, 'UNK', ', '.join(sorted(tag)), lemma, lemmafreq)
-            )
+            results['UNK'].add((target_word, 'UNK', tuple(sorted(tag)), lemma, 0))
             continue
         # Compare target word form with word form produced by the model
         # and record outcome of guess
         produced_word = produce_word(model, lemma, tag)
         guess_outcome = produced_word == target_word
         results[guess_outcome].add(
-            (target_word, produced_word, ', '.join(sorted(tag)), lemma, lemmafreq)
+            (target_word, produced_word, tuple(sorted(tag)), lemma, lemmafreq)
         )
-    return results
+    output_results = {}
+    for outcome, result_set in results.items():
+        output_set = [
+            {'target word': cio.hun_decode(tw),
+             'produced word': cio.hun_decode(pw),
+             'tag': set(tag),
+             'lemma': cio.hun_decode(lemma),
+             'lemmafreq': lf}
+            for tw, pw, tag, lemma, lf in result_set]
+        output_results[outcome] = output_set
+    return output_results
 
 def import_training_data():
     sztaki_corpus_paths = ['corpora/sztaki_corpus_2017_2018_0001_clean.tsv']
