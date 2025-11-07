@@ -9,12 +9,17 @@ import morphology_model as mor
 model = mor.MorphModel()
 model.setup() # ~10 secs, needs file with path 'corpora/sztaki_corpus_2017_2018_0001_clean.tsv'
 ```
+Generating possible {Pl, Acc} word forms of the lemma "november":
+```python
+word_forms = mor.inflect(model, 'november', {'Pl', 'Acc'})
+```
 Carrying out testing:
 ```python
 test_corpus = mor.import_test_data() # needs file with path 'corpora/sztaki_corpus_2017_2018_0002_clean.tsv'
-test_results = mor.testing(model, test_corpus)
+test_results = mor.testing(model, test_corpus[:5000]) # ~1min
+len(results[True]) # number of correct guesses
+len(results[False]) # number of incorrect guesses
+len(results['UNK']) # number of items where {Nom} form of an unattested lemma is target word form
 ```
-Dictionary `test_results` has keys `True` and `False` with `set` values containing tuples of form `(target_word, produced_word, lemma_frequency, tag)`.
-E.g. in `test_results[False]`, there could be a tuple `('külsőm', 'külsejem', ('Poss', 'Nom', '1Sg'), 'külső', 39)`, indicating that
-the lemma `'külső'` occurred `39` times in the training data, its `('Poss', 'Nom', '1Sg')` form is `'külsőm'`, and the model
-(wrongly) guessed that this form is `'külsejem'`. So `len(test_results[True])` is the number of correct guesses and `len(test_results[False])` is the number of incorrect guesses.
+Inspecting the test results:
+...
