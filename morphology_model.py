@@ -89,6 +89,7 @@ def anl_bases(model, target_lemma, target_tag):
 def produce_word(model, lemma, target_tag):
     try:
         word_forms = inflect(model, lemma, target_tag)
+        # If word forms are tied for first place, consider it a failure
         if len(word_forms) > 1 and word_forms[0][1] == word_forms[1][1]:
             return ''
         else:
@@ -160,17 +161,13 @@ def testing(model, test_corpus):
         # Get token frequency of lemma in training corpus
         lemma_entry = model.lemmas.get(lemma)
         lemmafreq = 0 if (not lemma_entry) else sum(lemma_entry.values())
-        # Don't try to guess Nom word forms of unattested lemmas
-        unguessable = (
-            tag == frozenset({'Nom'})
-            and (
-                (lemmafreq == 0)
-                or (lemmafreq > 0
-                    and len(lemma_entry) == 1
-                    and next(iter(lemma_entry)) == frozenset({'Nom'}))
-            )
-        )
-        if unguessable:
+        # Don't try to guess Nom word forms of unattested lemmas or Nom word forms
+        # of lemmas that are only attested with their Nom word forms
+        unattested = (lemmafreq == 0)
+        only_nom_attested = lemmafreq > 0 \
+                            and len(lemma_entry) == 1 \
+                            and next(iter(lemma_entry)) == frozenset({'Nom'})
+        if tag == frozenset({'Nom'}) and (unattested or only_nom_attested):
                 results['UNK'].add((target_word, 'UNK', tuple(sorted(tag)), lemma, 0))
                 continue
         # Compare target word form with word form produced by the model
