@@ -14,12 +14,14 @@ class MorphModel():
     def __init__(self):
         self.tagtries = defaultdict(lambda: TagTrie())
         self.lemmas = defaultdict(Counter)
+        self.wordforms = {}
 
     def setup(self):
         morph_triples = import_training_data()
         for tag, word_form, lemma in morph_triples:
             self.tagtries[tag]._insert(word_form, lemma)
             self.lemmas[lemma][tag] += 1
+            self.wordforms[(lemma, tag)] = word_form
 
 #--------------------------#
 # TagTrie class definition #
@@ -90,12 +92,12 @@ def anl_bases(model, target_lemma, target_tag):
 
 def produce_word(model, lemma, target_tag):
     try:
-        word_forms = inflect(model, lemma, target_tag)
+        inflected_forms = inflect(model, lemma, target_tag)
         # If word forms are tied for first place, consider it a failure
-        if len(word_forms) > 1 and word_forms[0][1] == word_forms[1][1]:
+        if len(inflected_forms) > 1 and inflected_forms[0][1] == inflected_forms[1][1]:
             return ''
         else:
-            return word_forms[0][0]
+            return inflected_forms[0][0]
     except:
         return ''
 
@@ -138,14 +140,7 @@ def inflect(model, lemma, target_tag_set):
 def wordform(model, lemma, target_tag):
     if target_tag == frozenset({'Nom'}):
         return lemma
-    word = ''
-    tag_trie = model.tagtries[target_tag]
-    current_node = tag_trie.root
-    while lemma in current_node.lemmas:
-        word = current_node.label + word
-        current_node = current_node.lemmas[lemma]
-    word = current_node.label + word
-    return word
+    return model.wordforms[(lemma, target_tag)]
 
 def common_suffixes(s1: str, s2: str, include_empty=True):
     common_suffix_list = [''] if include_empty else []
