@@ -4,7 +4,7 @@
 
 Setting up the model:
 ```python
-# file custom_io.py should be in same folder as morphology_model.py
+# File custom_io.py should be in same folder as morphology_model.py
 import morphology_model as mor
 model = mor.MorphModel()
 model.setup() # ~10 secs, needs file with path 'corpora/sztaki_corpus_2017_2018_0001_clean.tsv'
