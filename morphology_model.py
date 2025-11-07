@@ -83,7 +83,11 @@ def anl_bases(model, target_lemma, target_tag):
 
 def produce_word(model, lemma, target_tag):
     try:
-        return inflect(model, lemma, target_tag)[0][0]
+        word_forms = inflect(model, lemma, target_tag)
+        if len(word_forms) > 1 and word_forms[0][1] == word_forms[1][1]:
+            return ''
+        else:
+            return word_forms[0][0]
     except:
         return ''
 
@@ -165,7 +169,6 @@ def testing(model, test_corpus):
             (target_word, produced_word, ', '.join(sorted(tag)), lemma, lemmafreq)
         )
     return results
-
 
 def import_training_data():
     sztaki_corpus_paths = ['corpora/sztaki_corpus_2017_2018_0001_clean.tsv']
