@@ -109,7 +109,7 @@ def inflect(model, lemma, target_tag_set):
     for anl_tag, anl_lemmas in bases.items():
         transform_dict = defaultdict(Counter)
         tag_trie = model.tagtries[anl_tag]
-        # Find wordform of target lemma for analogical tag
+        # Find word form of target lemma for analogical tag
         lemma_wordform = wordform(model, encoded_lemma, anl_tag)
         for anl_lemma in anl_lemmas:
             # Record all common suffixes for analogical wordforms
