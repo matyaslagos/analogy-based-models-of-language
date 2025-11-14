@@ -28,5 +28,9 @@ Task: write function `concordance_by_label()` for returning list of `[left_conte
 [[['i', 'saw'], ['a', 'nonexecutive', 'director'], ['yesterday']],
  [['did'], ['my', 'letter'], ['arrive']],
  ...]
+>>> concordance_by_label(treebank, 'VP')
+[[['the', 'dog'], ['ran', 'to', 'John'], []],
+ [['i'], ['will', 'be', 'happy'], ['when', 'i', 'arrive']],
+ ...]
 ```
 (More usage info in [NLTK Book](https://www.nltk.org/book/ch08.html#grammar-development))
