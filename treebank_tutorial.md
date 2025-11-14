@@ -25,6 +25,8 @@ Inspect sentences in the corpus sample
 Task: write function `concordance_by_label()` for returning list of `[left_context, sequence, right_context]` triples where `sequence` is a word sequence that was found in a sentence labelled with input label, and `left_context` and `right_context` are its full left and right contexts in the sentence.
 ```python
 >>> concordance_by_label(treebank, 'NP')
-[[['i', 'saw'], ['a', 'nonexecutive', 'director'], ['yesterday']], [['did'], ['my', 'letter'], ['arrive']], ...]
+[[['i', 'saw'], ['a', 'nonexecutive', 'director'], ['yesterday']],
+ [['did'], ['my', 'letter'], ['arrive']],
+ ...]
 ```
 (More usage info in [NLTK Book](https://www.nltk.org/book/ch08.html#grammar-development))
