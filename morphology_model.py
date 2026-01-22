@@ -147,11 +147,13 @@ def inflect_weighted(model, lemma, target_tag_set):
     bases = anl_bases(model, lemma, target_tag)
     new_wordforms = defaultdict(float)
     tag_dict = {}
+    lemma_wordform_by_tag = {}
     for anl_tag, anl_lemmas in bases.items():
         transform_dict = defaultdict(Counter)
         tag_trie = model.tagtries[anl_tag]
         # Find word form of target lemma for analogical tag
         lemma_wordform = wordform(model, encoded_lemma, anl_tag)
+        lemma_wordform_by_tag[anl_tag] = lemma_wordform
         for anl_lemma in anl_lemmas:
             # Record all common suffixes for analogical wordforms
             # of target lemma and analogical lemma for current analogical tag
@@ -164,7 +166,7 @@ def inflect_weighted(model, lemma, target_tag_set):
             for base_suffix in base_suffixes:
                 anl_prefix = anl_lemma_wordform.removesuffix(base_suffix)
                 if not anl_lemma_target_wordform.startswith(anl_prefix):
-                    transform_dict[base_suffix]["*"] += 1
+                    #transform_dict[base_suffix]["*"] += 1
                     continue
                 new_suffix = anl_lemma_target_wordform.removeprefix(anl_prefix)
                 transform_dict[base_suffix][new_suffix] += 1
@@ -184,7 +186,7 @@ def inflect_weighted(model, lemma, target_tag_set):
         tag_weight = tag_substitutions[tag] / total_substitutions
         for original_suffix, new_suffixes in tag_dict[tag].items():
             suffix_weight = suffix_substitutions[(tag, original_suffix)] / tag_substitutions[tag]
-            stem = lemma_wordform.removesuffix(original_suffix)
+            stem = lemma_wordform_by_tag[tag].removesuffix(original_suffix)
             total_new_suffix_count = sum(new_suffixes.values())
             for new_suffix in new_suffixes:
                 if new_suffix != "*":
@@ -272,7 +274,7 @@ def tenfold_crossval(train_bound: int=None):
 
 def import_training_data():
     morph_triples = set()
-    sztaki_corpus_paths = ['corpora/sztaki_corpus_2017_2018_0009_clean.tsv']
+    sztaki_corpus_paths = ['corpora/sztaki_corpus_2017_2018_0001_clean.tsv']
     for sztaki_corpus_path in sztaki_corpus_paths:
         with open(sztaki_corpus_path, newline='') as f:
             reader = csv.reader(
