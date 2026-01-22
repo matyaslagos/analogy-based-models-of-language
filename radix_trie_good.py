@@ -34,10 +34,10 @@ class RadixNode:
                 # Make child node for original label's suffix, copy original children
                 rem_label_child_node = RadixNode(rem_label, self.freq, self.children.copy())
                 # Make child node for sequence's suffix
-                rem_seq_child_node = RadixNode(rem_sequence, freq)
+                rem_sequence_child_node = RadixNode(rem_sequence, freq)
                 # Assign new children
                 self.children = {
-                        rem_sequence[0]: rem_seq_child_node,
+                        rem_sequence[0]: rem_sequence_child_node,
                         rem_label[0]: rem_label_child_node
                     }
                 self.freq += freq
