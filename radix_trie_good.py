@@ -21,10 +21,10 @@ class RadixNode:
         if not sequence:
             return
         label = self.label
-        # Find index of disagreeing token (if any) and update node
+        # Find index of last agreeing token and update node
         split_point = -1
-        for i, (seq_token, label_token) in enumerate(zip(sequence, label)):
-            split_point = i
+        for seq_token, label_token in zip(sequence, label):
+            split_point += 1
             # If disagreement, split node at disagreeing token and rearrange children
             if seq_token != label_token:
                 # Get distinct suffixes
