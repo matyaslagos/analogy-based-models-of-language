@@ -11,6 +11,8 @@ class RadixNode:
             sequence_freq: int = 0,
             sequence_children: Optional[Dict[str, "RadixNode"]] = None
         ):
+        """Node of a radix trie, containing compressed edge in label.
+        """
         self.label = sequence_label
         self.freq = sequence_freq
         self.children = {} if sequence_children is None else sequence_children
@@ -21,40 +23,46 @@ class RadixNode:
         if not sequence:
             return
         label = self.label
-        # Find index of last agreeing token and update node
+        # Find index of last agreeing token and update node accordingly
         split_point = -1
         for seq_token, label_token in zip(sequence, label):
             split_point += 1
-            # If disagreement, split node at disagreeing token and rearrange children
+            # Case 1: sequence and label disagree at some token. Split node at disagreeing
+            # token and rearrange children
             if seq_token != label_token:
-                # Get distinct suffixes
+                # Get remaining suffixes
                 rem_sequence, rem_label = sequence[split_point:], label[split_point:]
                 # Relabel node to common prefix
                 self.label = label[:split_point]
-                # Make child node for original label's suffix, copy original children
+                # Make child node for remaining label, copy original label's children
                 rem_label_child_node = RadixNode(rem_label, self.freq, self.children.copy())
-                # Make child node for sequence's suffix
+                # Make child node for remaining sequence
                 rem_sequence_child_node = RadixNode(rem_sequence, freq)
-                # Assign new children
+                # Assign new children and increment freq
                 self.children = {
                         rem_sequence[0]: rem_sequence_child_node,
                         rem_label[0]: rem_label_child_node
                     }
                 self.freq += freq
                 return
-        # Sequence and label don't disagree: increment frequency and update children 
+        # Sequence and label don't disagree. Sequence is endmarked, so they are either
+        # identical or label is proper prefix of sequence. Increment label's freq, then
+        # check which case holds and handle it
         self.freq += freq
-        # Get remaining suffixes
         rem_sequence, rem_label = sequence[split_point + 1:], label[split_point + 1:]
-        # If sequence is prefix of label, then they are identical (due to endmarking)
+        # Case 2: sequence is prefix of label => they are identical. Do nothing.
         if not rem_sequence:
             return
-        # If label is proper prefix of sequence, then check if node has child headed by
-        # the head of remaining sequence, and insert or create new node accordingly
-        if rem_sequence[0] in self.children:
-            self.children[rem_sequence[0]]._insert(rem_sequence, freq)
+        # Case 3: label is proper prefix of sequence. Check if node has child headed by
+        # head of remaining sequence, and insert or create new node accordingly
+        self._insert_or_make_child(rem_sequence, freq)
+
+    def _insert_or_make_child(self, sequence, freq):
+        sequence_head = sequence[0] 
+        if sequence_head in self.children:
+            self.children[sequence_head]._insert(sequence, freq)
         else:
-            self.children[rem_sequence[0]] = RadixNode(rem_sequence, freq)
+            self.children[sequence_head] = RadixNode(sequence, freq)
 
 class RadixTrie:
     def __init__(self):
