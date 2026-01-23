@@ -64,6 +64,24 @@ class RadixNode:
         else:
             self.children[sequence_head] = RadixNode(sequence, freq)
 
+    def _find(self, sequence) -> Optional[Tuple["RadixNode", int]]:
+        label = self.label
+        # Match sequence with label as long as possible
+        position = -1
+        for seq_token, label_token in zip(sequence, label):
+            if seq_token != label_token:
+                return None
+            position += 1
+        rem_sequence, rem_label = sequence[position + 1:], label[position + 1:]
+        # Sequence ends inside label => return found node and position
+        if not rem_sequence:
+            return (self, position)
+        # Sequence doesn't end inside label => recurse to child if possible
+        try:
+            return self.children[rem_sequence[0]]._find(rem_sequence)
+        except KeyError:
+            return None
+
 class RadixTrie:
     def __init__(self):
         self.fw_root = RadixNode()
@@ -79,6 +97,16 @@ class RadixTrie:
             self.fw_root._insert(sequence[i:], freq)
             self.bw_root._insert(reversed_sequence[i:], freq)
 
+    def _find(self, sequence, direction: Direction = "fw"):
+        if direction == "fw":
+            root, goal_sequence = self.fw_root, sequence
+        else:
+            root, goal_sequence = self.bw_root, tuple(reversed(sequence))
+        return root._find(goal_sequence)
+
+    def freq(self, sequence, direction: Direction = "fw"):
+        return self._find(sequence, direction)[0].freq
+
 test_corpus = [
         tuple("< some dog was barking in the street >".split()),
         tuple("< i was walking around the street >".split()),
@@ -86,3 +114,6 @@ test_corpus = [
         tuple("< some parrot was here >".split())
     ]
 
+def main():
+    model = RadixTrie()
+    model.setup(test_corpus)
