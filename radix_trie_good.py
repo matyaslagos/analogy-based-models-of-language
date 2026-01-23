@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
-
+from collections import deque
 from typing import Optional, Tuple, List, Dict, Iterator, Literal, Union
+from pprint import pp
 
 Direction = Literal["fw", "bw"]
 
@@ -82,6 +83,22 @@ class RadixNode:
         except KeyError:
             return None
 
+    def _continuations(self, position, direction="fw", path=None):
+        if path is None:
+            path = [] if direction == "fw" else deque()
+            position += 1
+        label = self.label
+        for token in label[position:]:
+            if direction == "fw":
+                path.append(token)
+            else:
+                path.leftappend(token)
+            yield (tuple(path), self.freq)
+        old_path = path.copy()
+        for child in self.children.values():
+            yield from child._continuations(0, direction, path)
+            path = old_path
+
 class RadixTrie:
     def __init__(self):
         self.fw_root = RadixNode()
@@ -107,6 +124,7 @@ class RadixTrie:
     def freq(self, sequence, direction: Direction = "fw"):
         return self._find(sequence, direction)[0].freq
 
+
 test_corpus = [
         tuple("< some dog was barking in the street >".split()),
         tuple("< i was walking around the street >".split()),
@@ -117,3 +135,5 @@ test_corpus = [
 def main():
     model = RadixTrie()
     model.setup(test_corpus)
+    node, position = model._find(("some", "dog"))
+    pp(list(node._continuations(position)))
