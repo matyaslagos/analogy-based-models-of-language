@@ -37,12 +37,13 @@ candidates = rt.similar_word_candidates(distr, noun_phrases_sample)
 For each `candidate`, get dictionaries of form `{w: P(w | candidate)}` for neighbor words `w` of `candidate`,
 make vectors out of these dictionaries, and compare with dictionaries of NP list
 
-**TODO**:
+**TODOs**:
 - write `vectorize()` function that converts above dicts into vectors such that coordinates line up, so
 that it can be used like below
 - generalize this script so that:
     - it tests NP lists of increasing sizes
     - it tests all similarity functions in `similarity_metrics`
+
 (note: for `l1_norm` and `jensen_shannon_divergence`, bigger value means _less_ similar)
 ```python
 similarities = {}
