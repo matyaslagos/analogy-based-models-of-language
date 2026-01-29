@@ -30,6 +30,7 @@ np_neighbors_fw = rt.cond_probs_of_neighbors(distr, noun_phrases_sample, "fw") #
 np_neighbors_bw = rt.cond_probs_of_neighbors(distr, noun_phrases_sample, "bw") # left neighbors
 ```
 Get set of words that share at least one left & one right context with NP list
+(others have no chance of being similar to NP list, so we disregard them)
 ```python
 candidates = rt.similar_word_candidates(distr, noun_phrases_sample)
 ```
