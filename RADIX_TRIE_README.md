@@ -19,6 +19,7 @@ shuffle(noun_phrases)
 noun_phrases_sample = noun_phrases[:50] # list of tuples of strings
 ```
 Get dictionaries of form `{w: P(noun_phrases_sample | w)}` for neighbor words `w` of NP list
+(only used for confusion similarities)
 ```python
 np_mix_fw = rt.cond_probs_of_mix(distr, noun_phrases_sample, "fw") # right neighbors
 np_mix_bw = rt.cond_probs_of_mix(distr, noun_phrases_sample, "bw") # left neighbors
@@ -29,14 +30,21 @@ np_neighbors_fw = rt.cond_probs_of_neighbors(distr, noun_phrases_sample, "fw") #
 np_neighbors_bw = rt.cond_probs_of_neighbors(distr, noun_phrases_sample, "bw") # left neighbors
 ```
 Get set of words that share at least one left & one right context with NP list
+(others have no chance of being similar to NP list, so we disregard them)
 ```python
 candidates = rt.similar_word_candidates(distr, noun_phrases_sample)
 ```
 For each `candidate`, get dictionaries of form `{w: P(w | candidate)}` for neighbor words `w` of `candidate`,
 make vectors out of these dictionaries, and compare with dictionaries of NP list
 
-**TODO**: write `vectorize()` function that converts above dicts into vectors such that coordinates line up, so
+**TODOs**:
+- write `vectorize()` function that converts above dicts into vectors such that coordinates line up, so
 that it can be used like below
+- generalize this script so that:
+    - it tests NP lists of increasing sizes
+    - it tests all similarity functions in `similarity_metrics`
+
+(note: for `l1_norm` and `jensen_shannon_divergence`, bigger value means _less_ similar)
 ```python
 similarities = {}
 for candidate in candidates:
