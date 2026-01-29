@@ -19,6 +19,7 @@ shuffle(noun_phrases)
 noun_phrases_sample = noun_phrases[:50] # list of tuples of strings
 ```
 Get dictionaries of form `{w: P(noun_phrases_sample | w)}` for neighbor words `w` of NP list
+(only used for confusion similarities)
 ```python
 np_mix_fw = rt.cond_probs_of_mix(distr, noun_phrases_sample, "fw") # right neighbors
 np_mix_bw = rt.cond_probs_of_mix(distr, noun_phrases_sample, "bw") # left neighbors
