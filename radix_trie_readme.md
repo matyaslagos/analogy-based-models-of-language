@@ -2,6 +2,7 @@ Module imports
 ```python
 import pickle
 import radix_trie as rt
+from pprint import pp
 from random import shuffle
 from similarity_metrics import jaccard_coefficient, min_confusion_probability
 ```
@@ -58,4 +59,9 @@ for candidate in candidates:
     min_conf_sim = min(min_conf_sim_fw, min_conf_sim_bw)
     similarities[candidate] = {"jacc": jaccard_sim, "min_conf": min_conf_sim}
 ```
-
+Sort e.g. min-confusion scores and print 10 most similar words to `noun_phrases_sample`
+```python
+min_conf_sims = {candidate: sims["min_conf"] for candidate, sims in similarities.items()}
+sorted_min_conf_sims = sorted(min_conf_sims.items(), key=lambda x: x[1], reverse=True)
+pp(sorted_min_conf_sims[:10])
+```
