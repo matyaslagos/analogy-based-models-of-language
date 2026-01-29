@@ -33,6 +33,9 @@ candidates = rt.similar_word_candidates(distr, noun_phrases_sample)
 ```
 For each `candidate`, get dictionaries of form `{w: P(w | candidate)}` for neighbor words `w` of `candidate`,
 make vectors out of these dictionaries, and compare with dictionaries of NP list
+
+**TODO**: write `vectorize()` function that converts above dicts into vectors such that coordinates line up, so
+that it can be used like below
 ```python
 similarities = {}
 for candidate in candidates:
