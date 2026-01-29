@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
-from collections import deque
+from collections import deque, defaultdict
 from typing import Optional, Tuple, List, Dict, Iterator, Literal, Union
 from pprint import pp
 from random import shuffle
 import pickle
 
 Direction = Literal["fw", "bw"]
+
+# ------------------------- #
+# Radix trie implementation #
+# ------------------------- # 
 
 class RadixNode:
     def __init__(
@@ -87,64 +91,65 @@ class RadixNode:
         except KeyError:
             return None
 
-def _continuations(self, position, direction="fw", max_length=float("Inf"), path=None):
-    if path is None:
-        path = [] if direction == "fw" else deque()
-    label = self.label[position:]
-    for token in label:
-        if direction == "fw":
-            path.append(token)
-        else:
-            path.appendleft(token)
-        yield path, self.freq
-        if len(path) == max_length:
-            return
-    for child in self.children.values():
-        yield from _continuations(child, 0, direction, max_length, path.copy())
+    def _continuations(self, position, direction="fw", max_length=float("Inf"), path=None):
+        if path is None:
+            path = [] if direction == "fw" else deque()
+        label = self.label[position:]
+        for token in label:
+            if direction == "fw":
+                path.append(token)
+            else:
+                path.appendleft(token)
+            yield path, self.freq
+            if len(path) == max_length:
+                return
+        for child in self.children.values():
+            yield from child._continuations(0, direction, max_length, path.copy())
 
-def _shared_continuations(
-        self, self_position,
-        other, other_position,
-        direction="fw", max_length=float("Inf"), path=None
-    ):
-    if path is None:
-        path = [] if direction == "fw" else deque()
-    self_label, other_label = self.label[self_position:], other.label[other_position:]
-    for self_token, other_token in zip(self_label, other_label):
-        if self_token != other_token:
-            return
-        self_position, other_position = self_position + 1, other_position + 1
-        if direction == "fw":
-            path.append(self_token)
+    def _shared_continuations(
+            self, self_position,
+            other, other_position,
+            direction="fw", max_length=float("Inf"), path=None
+        ):
+        if path is None:
+            path = [] if direction == "fw" else deque()
+        self_label, other_label = self.label[self_position:], other.label[other_position:]
+        for self_token, other_token in zip(self_label, other_label):
+            if self_token != other_token:
+                return
+            self_position, other_position = self_position + 1, other_position + 1
+            if direction == "fw":
+                path.append(self_token)
+            else:
+                path.appendleft(self_token)
+            yield path, self.freq, other.freq
+            if len(path) == max_length:
+                return
+        # Self's label hasn't been fully traversed
+        if self_position < len(self.label):
+            self_next = self.label[self_position]
+            if self_next in other.children:
+                new_node_pairs = [(self, other.children[self_next])]
+                new_self_position, new_other_position = self_position, 0
+        # Other's label hasn't been fully traversed
+        elif other_position < len(other.label):
+            other_next = other.label[other_position]
+            if other_next in self.children:
+                new_node_pairs = [(self.children[other_next], other)]
+                new_self_position, new_other_position = 0, other_position
+        # Both labels have been fully traversed
         else:
-            path.appendleft(self_token)
-        yield path, self.freq, other.freq
-        if len(path) == max_length:
-            return
-    # Self's label hasn't been fully traversed
-    if self_position < len(self.label):
-        self_next = self.label[self_position]
-        if self_next in other.children:
-            new_node_pairs = [(self, other.children[self_next])]
-            new_self_position, new_other_position = self_position, 0
-    # Other's label hasn't been fully traversed
-    elif other_position < len(other.label):
-        other_next = other.label[other_position]
-        if other_next in self.children:
-            new_node_pairs = [(self.children[other_next], other)]
-            new_self_position, new_other_position = 0, other_position
-    # Both labels have been fully traversed
-    else:
-        shared_children = self.children.keys() & other.children.keys()
-        if shared_children:
-            new_node_pairs = [(self.children[child], other.children[child])
-                              for child in shared_children]
-            new_self_position, new_other_position = 0, 0
-    # For each shared continuing node, recursively yield continuations
-    for new_self_node, new_other_node in new_node_pairs:
-        yield from _shared_continuations(new_self_node, new_self_position,
-                                         new_other_node, new_other_position,
-                                         direction, max_length, path.copy())
+            shared_children = self.children.keys() & other.children.keys()
+            if shared_children:
+                new_node_pairs = [(self.children[child], other.children[child])
+                                  for child in shared_children]
+                new_self_position, new_other_position = 0, 0
+        # For each shared continuing node, recursively yield continuations
+        for new_self_node, new_other_node in new_node_pairs:
+            yield from new_self_node._shared_continuations(
+                    new_self_position, new_other_node, new_other_position,
+                    direction, max_length, path.copy()
+                )
 
 
 class RadixTrie:
@@ -174,7 +179,7 @@ class RadixTrie:
 
     def _neighbors(self, sequence, direction: Direction, max_length=float("Inf")):
         node, position = self._find(sequence, direction)
-        return _continuations(node, position + 1, direction, max_length)
+        return node._continuations(position + 1, direction, max_length)
 
     def right_neighbors(self, sequence, max_length=float("Inf")):
         return self._neighbors(sequence, "fw", max_length)
@@ -182,10 +187,13 @@ class RadixTrie:
     def left_neighbors(self, sequence, max_length=float("Inf")):
         return self._neighbors(sequence, "bw", max_length)
 
-    def _shared_neighbors(self, sequence1, sequence2, direction: Direction, max_length=float("Inf")):
+    def _shared_neighbors(self, sequence1, sequence2,
+                          direction: Direction, max_length=float("Inf")):
         node1, position1 = self._find(sequence1, direction)
         node2, position2 = self._find(sequence2, direction)
-        return _shared_continuations(node1, position1 + 1, node2, position2 + 1, direction, max_length)
+        return node1._shared_continuations(
+                position1 + 1, node2, position2 + 1, direction, max_length
+            )
 
     def shared_right_neighbors(self, sequence1, sequence2, max_length=float("Inf")):
         return self._shared_neighbors(sequence1, sequence2, "fw", max_length)
@@ -194,6 +202,11 @@ class RadixTrie:
         return self._shared_neighbors(sequence1, sequence2, "bw", max_length)
 
 
+# ------------------------------------------------------------- #
+# Computing conditional probabilities for mixtures of sequences #
+# ------------------------------------------------------------- #
+
+# Import corpus
 def txt_to_list(filename):
     """Import a txt list of sentences as a list of tuples of words.
 
@@ -209,28 +222,41 @@ def txt_to_list(filename):
         lines = file.readlines()
     return [('<',) + tuple(line.strip().split()) + ('>',) for line in lines]
 
-def main():
-    corpus = txt_to_list("corpora/lassy_corpus.txt")
-    model = RadixTrie()
-    model.setup(corpus)
-    nps = pickle.load(open("corpora/lassy_normalized_nps.pkl", "rb"))
-    shuffle(nps)
-    np_subset = nps[:10]
-    def cond_probs_of_mix(self, sequences, direction):
-        """Get cond probs of mix given any of its neighbors.
-        """
-        other_direction = "bw" if direction == "fw" else "fw"
-        candidate_words = set()
-        cond_probs = defaultdict(float)
+# Get set of words that share at least one left & right context with mixture
+def similar_word_candidates(self, sequences):
+    candidates = {"fw": set(), "bw": set()}
+    for direction, other_direction in [("fw", "bw"), ("bw", "fw")]:
         for sequence in sequences:
-            for neighbor, joint_freq in self._neighbors(sequence, direction, max_length=1):
-                neighbor_freq = self.freq(neighbor)
-                cond_prob = joint_freq / neighbor_freq
-                cond_probs[neighbor] += cond_prob
-                new_candidate_words = {word for word, _
-                                       in self._neighbors(neighbor,
-                                                          other_direction,
-                                                          max_length=1)}
-                candidate_words.update(new_candidate_words)
-        return cond_probs, candidate_words
-    return model
+            for context, _ in self._neighbors(sequence, direction, max_length=1):
+                for candidate, _ in self._neighbors(tuple(context),
+                                                    other_direction,
+                                                    max_length=1):
+                    candidates[direction].add(tuple(candidate))
+    return candidates["fw"] & candidates["bw"]
+
+# Get dict of form {w: P(A | w)} for neighbors w of list A of sequences
+def cond_probs_of_mix(self, sequences, direction):
+    """Return dict of cond probs of mixture of sequences given its neighbors.
+    """
+    cond_probs = defaultdict(float)
+    for sequence in sequences:
+        for neighbor, joint_freq in self._neighbors(sequence, direction, max_length=1):
+            neighbor_freq = self.freq(tuple(neighbor))
+            cond_prob = joint_freq / neighbor_freq
+            cond_probs[tuple(neighbor)] += cond_prob
+    return dict(cond_probs)
+
+# Get dict of form {w: P(w | A)} for neighbors w of list A of sequences
+def cond_probs_of_neighbors(self, sequences, direction):
+    """Return dict of cond probs of neighbors given mixture of sequences.
+    """
+    mix_freq = sum(self.freq(sequence) for sequence in sequences)
+    cond_probs = defaultdict(float)
+    for sequence in sequences:
+        for neighbor, joint_freq in self._neighbors(sequence, direction, max_length=1):
+            cond_prob = joint_freq / mix_freq
+            cond_probs[tuple(neighbor)] += cond_prob
+    return dict(cond_probs)
+
+def main():
+    pass
