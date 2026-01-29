@@ -2,6 +2,8 @@
 from collections import deque
 from typing import Optional, Tuple, List, Dict, Iterator, Literal, Union
 from pprint import pp
+from random import shuffle
+import pickle
 
 Direction = Literal["fw", "bw"]
 
@@ -17,6 +19,8 @@ class RadixNode:
         self.label = sequence_label
         self.freq = sequence_freq
         self.children = {} if sequence_children is None else sequence_children
+        self.prob_of_neighbor = None
+        self.prob_of_mix = None
 
     def _insert(self, sequence: Tuple[str, ...], freq: int = 1) -> None:
         """Insert sequence and increment freq at node.
@@ -83,21 +87,65 @@ class RadixNode:
         except KeyError:
             return None
 
-    def _continuations(self, position, direction="fw", path=None):
-        if path is None:
-            path = [] if direction == "fw" else deque()
-            position += 1
-        label = self.label
-        for token in label[position:]:
-            if direction == "fw":
-                path.append(token)
-            else:
-                path.leftappend(token)
-            yield (tuple(path), self.freq)
-        old_path = path.copy()
-        for child in self.children.values():
-            yield from child._continuations(0, direction, path)
-            path = old_path
+def _continuations(self, position, direction="fw", max_length=float("Inf"), path=None):
+    if path is None:
+        path = [] if direction == "fw" else deque()
+    label = self.label[position:]
+    for token in label:
+        if direction == "fw":
+            path.append(token)
+        else:
+            path.appendleft(token)
+        yield path, self.freq
+        if len(path) == max_length:
+            return
+    for child in self.children.values():
+        yield from _continuations(child, 0, direction, max_length, path.copy())
+
+def _shared_continuations(
+        self, self_position,
+        other, other_position,
+        direction="fw", max_length=float("Inf"), path=None
+    ):
+    if path is None:
+        path = [] if direction == "fw" else deque()
+    self_label, other_label = self.label[self_position:], other.label[other_position:]
+    for self_token, other_token in zip(self_label, other_label):
+        if self_token != other_token:
+            return
+        self_position, other_position = self_position + 1, other_position + 1
+        if direction == "fw":
+            path.append(self_token)
+        else:
+            path.appendleft(self_token)
+        yield path, self.freq, other.freq
+        if len(path) == max_length:
+            return
+    # Self's label hasn't been fully traversed
+    if self_position < len(self.label):
+        self_next = self.label[self_position]
+        if self_next in other.children:
+            new_node_pairs = [(self, other.children[self_next])]
+            new_self_position, new_other_position = self_position, 0
+    # Other's label hasn't been fully traversed
+    elif other_position < len(other.label):
+        other_next = other.label[other_position]
+        if other_next in self.children:
+            new_node_pairs = [(self.children[other_next], other)]
+            new_self_position, new_other_position = 0, other_position
+    # Both labels have been fully traversed
+    else:
+        shared_children = self.children.keys() & other.children.keys()
+        if shared_children:
+            new_node_pairs = [(self.children[child], other.children[child])
+                              for child in shared_children]
+            new_self_position, new_other_position = 0, 0
+    # For each shared continuing node, recursively yield continuations
+    for new_self_node, new_other_node in new_node_pairs:
+        yield from _shared_continuations(new_self_node, new_self_position,
+                                         new_other_node, new_other_position,
+                                         direction, max_length, path.copy())
+
 
 class RadixTrie:
     def __init__(self):
@@ -124,16 +172,65 @@ class RadixTrie:
     def freq(self, sequence, direction: Direction = "fw"):
         return self._find(sequence, direction)[0].freq
 
+    def _neighbors(self, sequence, direction: Direction, max_length=float("Inf")):
+        node, position = self._find(sequence, direction)
+        return _continuations(node, position + 1, direction, max_length)
 
-test_corpus = [
-        tuple("< some dog was barking in the street >".split()),
-        tuple("< i was walking around the street >".split()),
-        tuple("< some dog was running around the table >".split()),
-        tuple("< some parrot was here >".split())
-    ]
+    def right_neighbors(self, sequence, max_length=float("Inf")):
+        return self._neighbors(sequence, "fw", max_length)
+
+    def left_neighbors(self, sequence, max_length=float("Inf")):
+        return self._neighbors(sequence, "bw", max_length)
+
+    def _shared_neighbors(self, sequence1, sequence2, direction: Direction, max_length=float("Inf")):
+        node1, position1 = self._find(sequence1, direction)
+        node2, position2 = self._find(sequence2, direction)
+        return _shared_continuations(node1, position1 + 1, node2, position2 + 1, direction, max_length)
+
+    def shared_right_neighbors(self, sequence1, sequence2, max_length=float("Inf")):
+        return self._shared_neighbors(sequence1, sequence2, "fw", max_length)
+
+    def shared_left_neighbors(self, sequence1, sequence2, max_length=float("Inf")):
+        return self._shared_neighbors(sequence1, sequence2, "bw", max_length)
+
+
+def txt_to_list(filename):
+    """Import a txt list of sentences as a list of tuples of words.
+
+    Argument:
+        filename (string): e.g. 'corpus.txt', the name of a txt file with one sentence
+        per line
+
+    Returns:
+        list of tuples of strings: each sentence is an endmarked tuple of strings,
+        e.g. ('<', 'this', 'is', 'good', '>')
+    """
+    with open(filename, mode='r', encoding='utf-8-sig') as file:
+        lines = file.readlines()
+    return [('<',) + tuple(line.strip().split()) + ('>',) for line in lines]
 
 def main():
+    corpus = txt_to_list("corpora/lassy_corpus.txt")
     model = RadixTrie()
-    model.setup(test_corpus)
-    node, position = model._find(("some", "dog"))
-    pp(list(node._continuations(position)))
+    model.setup(corpus)
+    nps = pickle.load(open("corpora/lassy_normalized_nps.pkl", "rb"))
+    shuffle(nps)
+    np_subset = nps[:10]
+    def cond_probs_of_mix(self, sequences, direction):
+        """Get cond probs of mix given any of its neighbors.
+        """
+        other_direction = "bw" if direction == "fw" else "fw"
+        candidate_words = set()
+        cond_probs = defaultdict(float)
+        for sequence in sequences:
+            for neighbor, joint_freq in self._neighbors(sequence, direction, max_length=1):
+                neighbor_freq = self.freq(neighbor)
+                cond_prob = joint_freq / neighbor_freq
+                cond_probs[neighbor] += cond_prob
+                new_candidate_words = {word for word, _
+                                       in self._neighbors(neighbor,
+                                                          other_direction,
+                                                          max_length=1)}
+                candidate_words.update(new_candidate_words)
+        return cond_probs, candidate_words
+    return model
