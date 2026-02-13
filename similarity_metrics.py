@@ -35,8 +35,8 @@ def jaccard_coefficient(q, r):
 q_vec = [0.1, 0.5, 0.0, 0.8]
 r_vec = [0.2, 0.0, 0.3, 0.7]
 
-print(f"L1 Norm: {l1_norm(q_vec, r_vec):.4f}")
-print(f"Jaccard Coefficient: {jaccard_coefficient(q_vec, r_vec):.4f}")
+#print(f"L1 Norm: {l1_norm(q_vec, r_vec):.4f}")
+#print(f"Jaccard Coefficient: {jaccard_coefficient(q_vec, r_vec):.4f}")
 # --------------------------------------
 
 # Confusion Probability (original)
@@ -63,7 +63,7 @@ q_vec = [0.2, 0.4, 0.1]
 P_m_cond_vec = [0.15, 0.5, 0.05] 
 
 conf_val = confusion_probability(q_vec, P_m_cond_vec)
-print(f"Confusion Probability: {conf_val:.4f}")
+#print(f"Confusion Probability: {conf_val:.4f}")
 # --------------------------------------
 
 # Confusion Probability (min)
@@ -92,7 +92,7 @@ q_vec = [0.2, 0.4, 0.1]
 P_m_cond_vec = [0.15, 0.5, 0.05] 
 
 conf_val = min_confusion_probability(q_vec, P_m_cond_vec)
-print(f"Min Confusion Probability: {conf_val:.4f}")
+#print(f"Min Confusion Probability: {conf_val:.4f}")
 # --------------------------------------
 
 # Other similarity metrics (Cosine Similarity, Jensen-Shannon Divergence)
@@ -125,20 +125,45 @@ def jensen_shannon_divergence(q, r):
     """
     q = np.array(q)
     r = np.array(r)
-    
+
     # Calculate the average distribution: (q + r) / 2
     avg = 0.5 * (q + r)
-    
+
     # JS(q, r) = 0.5 * D(q || avg) + 0.5 * D(r || avg)
     js = 0.5 * kl_divergence(q, avg) + 0.5 * kl_divergence(r, avg)
-    
+
     return js
+
+def skew_divergence(p, q, alpha=0.99):
+    """
+    Calculates the skew divergence between two probability distributions.
+    Based on Lee (1995): https://www.cs.cornell.edu/home/llee/papers/cf.pdf
+
+    Formula: skew_α(P || Q) = D(P || αQ + (1-α)P)
+    where D is the KL divergence.
+
+    Parameters:
+    p (array-like): First probability distribution
+    q (array-like): Second probability distribution
+    alpha (float): Skew parameter, default 0.99 (as in Lee's paper)
+
+    Returns:
+    float: Skew divergence value
+    """
+    p = np.array(p)
+    q = np.array(q)
+
+    # Calculate the mixture: alpha * q + (1 - alpha) * p
+    mixture = alpha * q + (1 - alpha) * p
+
+    # Calculate KL divergence from p to the mixture
+    return kl_divergence(p, mixture)
 
 # --- Example Usage ---
 q_vec = [0.1, 0.5, 0.4]
 r_vec = [0.2, 0.3, 0.5]
 
-print(f"Cosine Similarity: {cosine_similarity(q_vec, r_vec):.4f}")
-print(f"JS Divergence: {jensen_shannon_divergence(q_vec, r_vec):.4f}")
+#print(f"Cosine Similarity: {cosine_similarity(q_vec, r_vec):.4f}")
+#print(f"JS Divergence: {jensen_shannon_divergence(q_vec, r_vec):.4f}")
 
 
