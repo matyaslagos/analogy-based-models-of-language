@@ -4,10 +4,25 @@ import pickle
 import radix_trie_updated as rt
 import similarity_metrics as sm
 from pprint import pp
-from random import shuffle
+from random import shuffle, sample
 from collections import defaultdict
 
 sim_metrics = ["jacc", "min_conf", "l1", "cosine", "js_div", "skew_div"]
+def sim_metric_code(metric):
+    match metric:
+        case "l1":
+            return "s1"
+        case "cosine":
+            return "s2"
+        case "min_conf":
+            return "s3"
+        case "jacc":
+            return "s4"
+        case "js_div":
+            return "s5"
+        case "skew_div":
+            return "s6"
+
 np_sample_sizes = [5, 10, 25, 50, 100]
 
 corpus = rt.txt_to_list("corpora/lassy_corpus.txt")
@@ -18,22 +33,21 @@ distr.setup(corpus)
 pronouns = pickle.load(open("corpora/lassy_pronouns.pkl", "rb"))
 proper_nouns = pickle.load(open("corpora/lassy_proper_nouns.pkl", "rb"))
 
-original_noun_phrases = pickle.load(open("corpora/lassy_real_noun_phrases.pkl", "rb"))
+all_noun_phrases = pickle.load(open("corpora/lassy_real_noun_phrases.pkl", "rb"))
 
-def experiment_run():
+def experiment_run(always_shuffle=False):
 
     # Get sample of noun phrases
-    noun_phrases = original_noun_phrases.copy()
-    shuffle(noun_phrases)
-    
-
-    correct_pct_by_sample_size = {}
-    pronoun_pct_by_sample_size = {}
-    proper_noun_pct_by_sample_size = {}
-    wrong_words_by_sample_size = {}
+    noun_phrases = all_noun_phrases.copy()
+    if not always_shuffle:
+        shuffle(noun_phrases)
+        noun_phrase_samples = {n: noun_phrases[:n] for n in np_sample_sizes}
+    else:
+        noun_phrase_samples = {n: sample(noun_phrases, n) for n in np_sample_sizes}
+    found_words_by_sample_size = {}
     # Test for incresing sample sizes
     for n in np_sample_sizes:
-        noun_phrases_sample = noun_phrases[:n] # list of tuples of strings
+        noun_phrases_sample = noun_phrase_samples[n] # list of tuples of strings
 
         # (a) Get dicts with items of form (w, P(noun_phrases_sample | w)) for neighbor words w of noun_phrases_sample
         # (used later for confusion similarities)
@@ -80,37 +94,23 @@ def experiment_run():
                     sim_bw = rt.compute_similarity(np_conf_bw_vector, candidate_bw_vector, metric)
                     sim = min(sim_fw, sim_bw)
                     similarities[metric][candidate] = sim
-        correct_percentages = {}
-        pronoun_percentages = {}
-        proper_noun_percentages = {}
-        wrong_words_by_metric = {}
+        found_words_by_metric = {}
         for metric, sim_dict in similarities.items():
             if metric in ["l1", "js_div", "skew_div"]:
                 sorted_words = sorted(sim_dict.items(), key=lambda x: x[1])[:20]
             else:
                 sorted_words = sorted(sim_dict.items(), key=lambda x: x[1], reverse=True)[:20]
-            found_pronouns = []
-            found_proper_nouns = []
-            wrong_words = []
+            found_pronouns = {}
+            wrong_words = {}
             for tup in sorted_words:
+                tup_freq = distr.freq(tup[0])
                 if "".join(tup[0]) in pronouns:
-                    found_pronouns.append(tup)
-                elif "".join(tup[0]) in proper_nouns:
-                    found_proper_nouns.append(tup)
+                    found_pronouns[tup[0]] = (tup[1], tup_freq)
                 else:
-                    wrong_words.append(tup)
-            pronoun_percentage = len(found_pronouns) / len(sorted_words)
-            proper_noun_percentage = len(found_proper_nouns) / len(sorted_words)
-            correct_percentage = pronoun_percentage + proper_noun_percentage
-            pronoun_percentages[metric] = pronoun_percentage
-            proper_noun_percentages[metric] = proper_noun_percentage
-            correct_percentages[metric] = correct_percentage
-            wrong_words_by_metric[metric] = wrong_words
-        correct_pct_by_sample_size[n] = correct_percentages
-        pronoun_pct_by_sample_size[n] = pronoun_percentages
-        proper_noun_pct_by_sample_size[n] = proper_noun_percentages
-        wrong_words_by_sample_size[n] = wrong_words_by_metric
-    return correct_pct_by_sample_size, pronoun_pct_by_sample_size, proper_noun_pct_by_sample_size, wrong_words_by_sample_size
+                    wrong_words[tup[0]] = (tup[1], tup_freq)
+            found_words_by_metric[sim_metric_code(metric)] = {"good": found_pronouns, "bad": wrong_words}
+        found_words_by_sample_size[n] = found_words_by_metric
+    return found_words_by_sample_size
 
 def avgs_with_variance(results):
     avg_results = {metric:
@@ -126,24 +126,23 @@ def avgs_with_variance(results):
                  for metric in sim_metrics}
     return avg_results, variances
 
-def main(n):
-    correct_pct = {}
-    pronoun_pct = {}
-    proper_noun_pct = {}
-    wrong_words_per_run = {}
+def main(n, always_shuffle=False):
+    found_words_by_run = {}
     run_number = 1
     while run_number <= n:
         try:
-            correct_pct[run_number], pronoun_pct[run_number], proper_noun_pct[run_number], wrong_words_per_run[run_number] = experiment_run()
+            found_words_by_run[run_number] = experiment_run(always_shuffle)
             print(f"Finished run number {run_number}")
             run_number += 1
         except Exception as e:
             print(f"Run failed with exception {e}")
     averaged_results = {}
-    pickle.dump(wrong_words_per_run, open("lassy_wrong_words.pkl", "wb"))
+    pickle.dump(found_words_by_run, open(f"lassy_full_results_02_19.pkl", "wb"))
+    """
+    pickle.dump(wrong_words_per_run, open("lassy_wrong_words_02_19.pkl", "wb"))
     for result, result_type in [(correct_pct, "correct pct"), (pronoun_pct, "pronoun pct"), (proper_noun_pct, "proper noun pct")]:
         averaged_result, result_variances = avgs_with_variance(result)
         averaged_results[result_type] = averaged_result
-        pickle.dump(averaged_result, open(f"lassy_results_{result_type}_02_09.pkl", "wb"))
-
-    return averaged_results, wrong_words_per_run
+        pickle.dump(averaged_result, open(f"lassy_results_{result_type}_02_19.pkl", "wb"))
+    """
+    return found_words_by_run
