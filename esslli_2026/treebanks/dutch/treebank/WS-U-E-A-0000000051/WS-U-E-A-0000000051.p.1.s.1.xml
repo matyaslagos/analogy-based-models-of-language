@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" buiging="met-e" end="1" graad="basis" id="3" lemma="Haags" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Haags" word="Haagse"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="4" lemma="burgemeester" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="burgemeester" word="burgemeester"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="laken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="laak" word="laakt" wvorm="pv"/>
+      <node begin="3" cat="du" end="6" id="6" rel="obj1">
+        <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="7" lemma="houding" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="dp" root="houding" word="houding"/>
+        <node begin="4" cat="np" end="6" id="8" rel="dp">
+          <node begin="4" buiging="met-e" end="5" graad="basis" id="9" lemma="Israëlisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Israëlisch" word="Israëlische"/>
+          <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="10" lemma="ambassade" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="ambassade" word="ambassade"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>Haagse burgemeester laakt houding Israëlische ambassade</sentence>
+</alpino_ds>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="4" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" buiging="met-e" end="2" graad="sup" id="4" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,met-e,agr,sup)" pt="vnw" rel="mod" root="meest" vwtype="onbep" word="meeste"/>
+        <node begin="2" buiging="met-e" end="3" graad="basis" id="5" lemma="problematisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="problematisch" word="problematische"/>
+        <node begin="3" end="4" getal="mv" graad="basis" id="6" lemma="drinker" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="drinker" word="drinkers"/>
+      </node>
+      <node begin="4" end="5" id="7" lemma="denken" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="denk" word="denken" wvorm="pv"/>
+      <node begin="5" buiging="zonder" end="6" graad="basis" id="8" lemma="negatief" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="negatief" word="negatief"/>
+      <node begin="6" cat="pp" end="8" id="9" rel="pc">
+        <node begin="6" end="7" id="10" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" vztype="init" word="over"/>
+        <node begin="7" end="8" getal="getal" id="11" lemma="zichzelf" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,nadr,3,getal)" pt="vnw" rel="obj1" root="zichzelf" status="nadr" vwtype="refl" word="zichzelf"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="12" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De meeste problematische drinkers denken negatief over zichzelf .</sentence>
+</alpino_ds>

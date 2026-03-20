@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="np" end="5" id="2" rel="--">
+      <node begin="0" end="1" genus="onz" getal="ev" graad="basis" id="3" lemma="Kelmis" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Kelmis" word="Kelmis"/>
+      <node begin="2" cat="pp" end="5" id="4" rel="mod">
+        <node begin="2" end="3" id="5" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+        <node begin="3" cat="mwu" end="5" id="6" rel="obj1">
+          <node begin="3" end="4" id="7" lemma="Hergenrath" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Hergenrath" spectype="deeleigen" word="Hergenrath"/>
+          <node begin="4" end="5" id="8" lemma="Neu-Moresnet" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Neu-Moresnet" spectype="deeleigen" word="Neu-Moresnet"/>
+        </node>
+      </node>
+    </node>
+    <node begin="5" end="6" id="9" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+  </node>
+  <sentence>Kelmis ( met Hergenrath Neu-Moresnet )</sentence>
+</alpino_ds>

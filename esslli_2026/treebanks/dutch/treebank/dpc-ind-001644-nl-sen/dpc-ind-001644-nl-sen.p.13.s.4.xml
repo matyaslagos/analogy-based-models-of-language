@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="du" end="12" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" word="Maar"/>
+      <node begin="1" cat="smain" end="12" id="3" rel="nucl">
+        <node begin="1" end="2" id="4" lemma="nu" pos="adv" postag="BW()" pt="bw" rel="mod" root="nu" word="nu"/>
+        <node begin="2" end="3" id="5" lemma="oogsten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="oogst" word="oogst" wvorm="pv"/>
+        <node begin="3" end="4" genus="masc" getal="ev" id="6" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="hij"/>
+        <node begin="4" cat="pp" end="9" id="7" rel="mod">
+          <node begin="4" end="5" id="8" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+          <node begin="5" cat="np" end="9" id="9" rel="obj1">
+            <node begin="5" buiging="zonder" end="6" graad="basis" id="10" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,basis)" pt="vnw" rel="det" root="veel" vwtype="onbep" word="veel"/>
+            <node begin="6" buiging="met-e" end="7" id="11" lemma="matigen" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="gematigd" word="gematigde" wvorm="vd"/>
+            <node begin="7" buiging="met-e" end="8" graad="basis" id="12" lemma="links" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="links" word="linkse"/>
+            <node begin="8" end="9" getal="mv" graad="basis" id="13" lemma="kiezer" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kiezer" word="kiezers"/>
+          </node>
+        </node>
+        <node begin="9" cat="np" end="12" id="14" rel="obj1">
+          <node begin="9" end="10" getal="ev" id="15" lemma="niks" naamval="stan" pdtype="pron" persoon="3o" pos="noun" postag="VNW(onbep,pron,stan,vol,3o,ev)" pt="vnw" rel="hd" root="niks" status="vol" vwtype="onbep" word="niks"/>
+          <node begin="10" cat="cp" end="12" id="16" rel="obcomp">
+            <node begin="10" conjtype="onder" end="11" id="17" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="dan" word="dan"/>
+            <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="18" lemma="bewondering" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="body" root="bewondering" word="bewondering"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" id="19" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Maar nu oogst hij bij veel gematigde linkse kiezers niks dan bewondering .</sentence>
+</alpino_ds>

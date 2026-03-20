@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="24" id="0" rel="top">
+    <node begin="0" cat="smain" end="23" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" buiging="met-e" end="2" graad="basis" id="4" lemma="Afghaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Afghaans" word="Afghaanse"/>
+        <node begin="2" end="3" getal="mv" graad="basis" id="5" lemma="autoriteit" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="autoriteit" word="autoriteiten"/>
+      </node>
+      <node begin="3" end="4" id="6" lemma="over_dragen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="draag_over" word="dragen" wvorm="pv"/>
+      <node begin="4" end="5" genus="masc" getal="ev" id="7" lemma="hem" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,obl,vol,3,ev,masc)" pt="vnw" rel="obj1" root="hem" status="vol" vwtype="pers" word="hem"/>
+      <node begin="5" end="6" id="8" lemma="meteen" pos="adv" postag="BW()" pt="bw" rel="mod" root="meteen" word="meteen"/>
+      <node begin="6" end="7" id="9" lemma="over" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="over" vztype="fin" word="over"/>
+      <node begin="7" cat="pp" end="23" id="10" rel="obj2">
+        <node begin="7" end="8" id="11" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+        <node begin="8" cat="np" end="23" id="12" rel="obj1">
+          <node begin="8" end="9" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="9" buiging="met-e" end="10" graad="basis" id="14" lemma="Amerikaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Amerikaans" word="Amerikaanse"/>
+          <node begin="10" end="11" getal="mv" graad="basis" id="15" lemma="troep" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="troep" word="troepen"/>
+          <node begin="11" cat="rel" end="23" id="16" rel="mod">
+            <node begin="11" end="12" getal="getal" id="17" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+            <node begin="11" cat="ssub" end="23" id="18" rel="body">
+              <node begin="11" end="12" id="19" index="1" rel="su"/>
+              <node begin="12" cat="pp" end="14" id="20" rel="mod">
+                <node begin="12" end="13" id="21" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+                <node begin="13" end="14" genus="masc" getal="ev" id="22" lemma="hem" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,obl,vol,3,ev,masc)" pt="vnw" rel="obj1" root="hem" status="vol" vwtype="pers" word="hem"/>
+              </node>
+              <node begin="14" cat="np" end="20" id="23" rel="obj1">
+                <node begin="14" end="15" id="24" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="15" buiging="met-e" end="16" graad="sup" id="25" lemma="belangrijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="mod" root="belangrijk" word="belangrijkste"/>
+                <node begin="16" buiging="met-e" end="17" getal-n="zonder-n" id="26" lemma="vangen" pos="noun" positie="nom" postag="WW(vd,nom,met-e,zonder-n)" pt="ww" rel="hd" root="gevangene" word="gevangene" wvorm="vd"/>
+                <node begin="17" cat="pp" end="20" id="27" rel="mod">
+                  <node begin="17" end="18" id="28" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" vztype="init" word="tot"/>
+                  <node begin="18" end="19" id="29" lemma="nu" pos="adv" postag="BW()" pt="bw" rel="obj1" root="nu" word="nu"/>
+                  <node begin="19" end="20" id="30" lemma="toe" pos="part" postag="VZ(fin)" pt="vz" rel="hdf" root="toe" vztype="fin" word="toe"/>
+                </node>
+              </node>
+              <node begin="20" cat="pp" end="22" id="31" rel="predc">
+                <node begin="20" end="21" id="32" lemma="in" pos="fixed" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                <node begin="21" end="22" getal="mv" graad="basis" id="33" lemma="hand" ntype="soort" pos="fixed" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="handen" word="handen"/>
+              </node>
+              <node begin="22" end="23" id="34" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" word="hebben" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="23" end="24" id="35" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De Afghaanse autoriteiten dragen hem meteen over aan de Amerikaanse troepen die met hem de belangrijkste gevangene tot nu toe in handen hebben .</sentence>
+</alpino_ds>

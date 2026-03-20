@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="12" end="13" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="16" end="17" id="2" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="0" cat="smain" end="21" id="3" rel="--">
+      <node begin="0" cat="pp" end="5" id="4" rel="mod">
+        <node begin="0" end="1" id="5" lemma="tijdens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tijdens" vztype="init" word="Tijdens"/>
+        <node begin="1" cat="np" end="5" id="6" rel="obj1">
+          <node begin="1" end="2" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="2" buiging="met-e" end="3" graad="basis" id="8" lemma="geheel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="geheel" word="gehele"/>
+          <node begin="3" cat="mwu" end="5" id="9" rel="hd">
+            <node begin="3" end="4" id="10" lemma="Koude" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Koude" spectype="deeleigen" word="Koude"/>
+            <node begin="4" end="5" id="11" lemma="Oorlog" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Oorlog" spectype="deeleigen" word="Oorlog"/>
+          </node>
+        </node>
+      </node>
+      <node begin="5" end="6" id="12" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+      <node begin="6" end="7" getal="getal" id="13" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+      <node begin="7" cat="pp" end="10" id="14" rel="mod">
+        <node begin="7" end="8" id="15" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+        <node begin="8" cat="np" end="10" id="16" rel="obj1">
+          <node begin="8" buiging="met-e" end="9" getal="mv" graad="basis" id="17" lemma="beide" naamval="stan" pdtype="grad" pos="det" positie="prenom" postag="VNW(onbep,grad,stan,prenom,met-e,mv,basis)" pt="vnw" rel="det" root="beide" vwtype="onbep" word="beide"/>
+          <node begin="9" end="10" getal="mv" graad="basis" id="18" lemma="kant" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kant" word="kanten"/>
+        </node>
+      </node>
+      <node begin="10" cat="np" end="21" id="19" rel="su">
+        <node begin="10" end="11" id="20" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="11" cat="conj" end="16" id="21" rel="mod">
+          <node begin="11" buiging="met-e" end="12" id="22" lemma="voort_duren" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="cnj" root="duur_voort" word="voortdurende" wvorm="od"/>
+          <node begin="13" conjtype="neven" end="14" id="23" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="14" cat="ap" end="16" id="24" rel="cnj">
+            <node begin="14" end="15" id="25" lemma="zeer" pos="adv" postag="BW()" pt="bw" rel="mod" root="zeer" word="zeer"/>
+            <node begin="15" buiging="met-e" end="16" graad="basis" id="26" lemma="duur" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="hd" root="duur" word="dure"/>
+          </node>
+        </node>
+        <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="27" lemma="opbouw" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="opbouw" word="opbouw"/>
+        <node begin="18" cat="pp" end="21" id="28" rel="mod">
+          <node begin="18" end="19" id="29" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="19" cat="np" end="21" id="30" rel="obj1">
+            <node begin="19" end="20" id="31" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="20" end="21" getal="mv" graad="basis" id="32" lemma="strijd_macht" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="strijd_macht" word="strijdmachten"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="21" end="22" id="33" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Tijdens de gehele Koude Oorlog was er aan beide kanten een voortdurende - en zeer dure - opbouw van de strijdmachten .</sentence>
+</alpino_ds>

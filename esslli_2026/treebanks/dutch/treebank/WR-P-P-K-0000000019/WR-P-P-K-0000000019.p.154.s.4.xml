@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="0" cat="smain" end="18" id="1" rel="--">
+      <node begin="0" cat="np" end="4" id="2" index="1" rel="su">
+        <node begin="0" end="1" id="3" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="Een"/>
+        <node begin="1" buiging="met-e" end="2" graad="basis" id="4" lemma="speciaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="speciaal" word="speciale"/>
+        <node begin="2" buiging="met-e" end="3" graad="basis" id="5" lemma="budgettair" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="budgettair" word="budgettaire"/>
+        <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="6" lemma="procedure" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="procedure" word="procedure"/>
+      </node>
+      <node begin="4" end="5" id="7" lemma="zullen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zal" word="zal" wvorm="pv"/>
+      <node begin="0" cat="inf" end="18" id="8" rel="vc">
+        <node begin="0" end="4" id="9" index="1" rel="su"/>
+        <node begin="7" buiging="zonder" end="8" id="10" lemma="moeten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="moet" word="moeten" wvorm="inf"/>
+        <node begin="0" cat="inf" end="18" id="11" rel="vc">
+          <node begin="0" end="4" id="12" index="1" rel="su"/>
+          <node begin="8" buiging="zonder" end="9" id="13" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+          <node begin="0" cat="ppart" end="18" id="14" rel="vc">
+            <node begin="0" end="4" id="15" index="1" rel="obj1"/>
+            <node begin="5" end="6" id="16" lemma="dus" pos="adv" postag="BW()" pt="bw" rel="mod" root="dus" word="dus"/>
+            <node begin="6" buiging="zonder" end="7" id="17" lemma="uit_schrijven" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="schrijf_uit" word="uitgeschreven" wvorm="vd"/>
+            <node begin="9" cat="oti" end="18" id="18" rel="mod">
+              <node begin="9" end="10" id="19" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="om"/>
+              <node begin="10" cat="ti" end="18" id="20" rel="body">
+                <node begin="16" end="17" id="21" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+                <node begin="10" cat="inf" end="18" id="22" rel="body">
+                  <node begin="10" cat="np" end="16" id="23" rel="obj1">
+                    <node begin="10" end="11" id="24" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="11" end="12" getal="mv" graad="basis" id="25" lemma="principe" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="principe" word="principes"/>
+                    <node begin="12" cat="pp" end="16" id="26" rel="mod">
+                      <node begin="12" end="13" id="27" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                      <node begin="13" cat="conj" end="16" id="28" rel="obj1">
+                        <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="29" lemma="meer_jaar_planning" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="meer_jaar_planning" word="meerjarenplanning"/>
+                        <node begin="14" conjtype="neven" end="15" id="30" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                        <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="31" lemma="voorspelbaarheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="voorspelbaarheid" word="voorspelbaarheid"/>
+                      </node>
+                    </node>
+                  </node>
+                  <node begin="17" buiging="zonder" end="18" id="32" lemma="implementeren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="implementeer" word="implementeren" wvorm="inf"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="33" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Een speciale budgettaire procedure zal dus uitgeschreven moeten worden om de principes van meerjarenplanning en voorspelbaarheid te implementeren .</sentence>
+</alpino_ds>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="19" id="2" rel="--">
+      <node begin="2" conjtype="neven" end="3" id="3" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+      <node begin="0" cat="smain" end="19" id="4" rel="cnj">
+        <node begin="0" end="1" genus="masc" getal="ev" id="5" index="1" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="Hij"/>
+        <node begin="1" end="2" id="6" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" word="kan" wvorm="pv"/>
+        <node begin="0" cat="inf" end="19" id="7" index="2" rel="vc">
+          <node begin="0" end="1" id="8" index="1" rel="su"/>
+          <node begin="4" end="5" id="9" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+          <node begin="5" buiging="zonder" end="6" id="10" lemma="in_zien" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="zie_in" word="inzien" wvorm="inf"/>
+          <node begin="7" cat="cp" end="19" id="11" rel="vc">
+            <node begin="7" conjtype="onder" end="8" id="12" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+            <node begin="8" cat="ssub" end="19" id="13" rel="body">
+              <node begin="8" cat="np" end="14" id="14" rel="su">
+                <node begin="8" end="9" id="15" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                <node begin="9" buiging="zonder" end="10" graad="basis" id="16" lemma="belangrijk" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="belangrijk" word="belangrijk"/>
+                <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="17" lemma="deel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="deel" word="deel"/>
+                <node begin="11" cat="pp" end="14" id="18" rel="mod">
+                  <node begin="11" end="12" id="19" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                  <node begin="12" cat="np" end="14" id="20" rel="obj1">
+                    <node begin="12" end="13" id="21" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="13" end="14" getal="mv" graad="basis" id="22" lemma="probleem" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="probleem" word="problemen"/>
+                  </node>
+                </node>
+              </node>
+              <node begin="14" buiging="zonder" end="15" graad="basis" id="23" lemma="juist" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="juist" word="juist"/>
+              <node begin="15" end="16" id="24" lemma="ontstaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ontsta" word="ontstaat" wvorm="pv"/>
+              <node begin="16" cat="pp" end="19" id="25" rel="mod">
+                <node begin="16" end="17" id="26" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+                <node begin="17" cat="np" end="19" id="27" rel="obj1">
+                  <node begin="17" end="18" id="28" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                  <node begin="18" buiging="zonder" end="19" getal-n="zonder-n" id="29" lemma="drinken" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="drink" word="drinken" wvorm="inf"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="0" cat="smain" end="19" id="30" rel="cnj">
+        <node begin="0" end="1" id="31" index="1" rel="su"/>
+        <node begin="3" end="4" id="32" lemma="willen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="wil" word="wil" wvorm="pv"/>
+        <node begin="0" end="19" id="33" index="2" rel="vc"/>
+      </node>
+    </node>
+    <node begin="19" end="20" id="34" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Hij kan of wil niet inzien , dat een belangrijk deel van de problemen juist ontstaat door het drinken .</sentence>
+</alpino_ds>

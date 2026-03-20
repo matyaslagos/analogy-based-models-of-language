@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" buiging="zonder" end="1" id="2" lemma="alledrie" naamval="stan" pdtype="det" pos="adv" positie="vrij" postag="VNW(onbep,det,stan,vrij,zonder)" pt="vnw" rel="predm" root="alledrie" vwtype="onbep" word="Alledrie"/>
+      <node begin="1" end="2" id="3" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+      <node begin="2" end="3" getal="mv" id="4" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="ze"/>
+      <node begin="3" cat="pp" end="7" id="5" rel="pc">
+        <node begin="3" end="4" id="6" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+        <node begin="4" cat="mwu" end="7" id="7" rel="obj1">
+          <node begin="4" end="5" id="8" lemma="Vendex" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Vendex" spectype="deeleigen" word="Vendex"/>
+          <node begin="5" end="6" id="9" lemma="/" pos="name" postag="LET()" pt="let" rel="mwp" root="/" word="/"/>
+          <node begin="6" end="7" id="10" lemma="KBB" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="KBB" spectype="deeleigen" word="KBB"/>
+        </node>
+      </node>
+    </node>
+    <node begin="7" end="8" id="11" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Alledrie zijn ze van Vendex / KBB .</sentence>
+</alpino_ds>

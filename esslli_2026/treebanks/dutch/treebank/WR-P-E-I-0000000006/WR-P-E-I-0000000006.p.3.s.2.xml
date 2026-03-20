@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="4" lemma="oppervlakte" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="oppervlakte" word="oppervlakte"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="bedragen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="bedraag" word="bedroeg" wvorm="pv"/>
+      <node begin="3" cat="pp" end="5" id="6" rel="mod">
+        <node begin="3" end="4" id="7" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="4" end="5" id="8" lemma="1998" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" root="1998" word="1998"/>
+      </node>
+      <node begin="5" cat="np" end="8" id="9" rel="me">
+        <node begin="5" end="6" id="10" lemma="ongeveer" pos="adv" postag="BW()" pt="bw" rel="mod" root="ongeveer" word="ongeveer"/>
+        <node begin="6" end="7" id="11" lemma="28.687" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="28.687" word="28.687"/>
+        <node begin="7" end="8" id="12" lemma="km²" pos="noun" postag="SPEC(symb)" pt="spec" rel="hd" root="km²" spectype="symb" word="km²"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="13" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De oppervlakte bedroeg in 1998 ongeveer 28.687 km² .</sentence>
+</alpino_ds>

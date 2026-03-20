@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="8" end="9" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="17" id="3" rel="--">
+      <node begin="0" cat="du" end="3" id="4" rel="dp">
+        <node begin="0" conjtype="neven" end="1" id="5" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" word="Maar"/>
+        <node begin="1" cat="ap" end="3" id="6" rel="nucl">
+          <node begin="1" buiging="zonder" end="2" graad="basis" id="7" lemma="goed" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="goed" word="goed"/>
+          <node begin="2" end="3" id="8" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+        </node>
+      </node>
+      <node begin="4" cat="du" end="17" id="9" rel="dp">
+        <node begin="4" conjtype="neven" end="5" id="10" lemma="want" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="want" word="want"/>
+        <node begin="5" cat="du" end="17" id="11" rel="nucl">
+          <node begin="5" cat="np" end="8" id="12" rel="sat">
+            <node begin="5" buiging="zonder" end="6" id="13" lemma="zo&apos;n" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="zo&apos;n" vwtype="aanw" word="zo&apos;n"/>
+            <node begin="6" buiging="zonder" end="7" id="14" lemma="uit_breiden" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="mod" root="uitgebreid" word="uitgebreid" wvorm="vd"/>
+            <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="15" lemma="aanbod" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="aanbod" word="aanbod"/>
+          </node>
+          <node begin="9" cat="smain" end="17" id="16" rel="nucl">
+            <node begin="10" end="11" id="17" lemma="raken" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="raak" word="raak" wvorm="pv"/>
+            <node begin="11" end="12" getal="ev" id="18" lemma="je" naamval="nomin" pdtype="pron" persoon="2v" pos="pron" postag="VNW(pers,pron,nomin,red,2v,ev)" pt="vnw" rel="su" root="je" status="red" vwtype="pers" word="je"/>
+            <node begin="12" end="13" id="19" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+            <node begin="13" cat="pp" end="16" id="20" rel="mod">
+              <node begin="13" end="14" id="21" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+              <node begin="14" cat="np" end="16" id="22" rel="obj1">
+                <node begin="14" end="15" id="23" lemma="één" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="één" word="één"/>
+                <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="24" lemma="dag" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="dag" word="dag"/>
+              </node>
+            </node>
+            <node begin="9" cat="pp" end="17" id="25" rel="ld">
+              <node begin="9" end="10" getal="getal" id="26" lemma="daar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="obj1" root="daar" status="vol" vwtype="aanw" word="daar"/>
+              <node begin="16" end="17" id="27" lemma="door" pos="adj" postag="VZ(fin)" pt="vz" rel="hd" root="door" vztype="fin" word="door"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="28" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Maar goed ook , want zo&apos;n uitgebreid aanbod , daar raak je niet in één dag door .</sentence>
+</alpino_ds>

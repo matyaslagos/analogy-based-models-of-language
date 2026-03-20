@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="4" end="5" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="6" end="7" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="8" id="4" rel="--">
+      <node begin="0" cat="np" end="2" id="5" rel="nucl">
+        <node begin="0" buiging="met-e" end="1" graad="sup" id="6" lemma="belangrijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="mod" root="belangrijk" word="Belangrijkste"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="7" lemma="water_loop" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="water_loop" word="waterlopen"/>
+      </node>
+      <node begin="3" cat="conj" end="8" id="8" rel="sat">
+        <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="9" lemma="Dijle" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Dijle" word="Dijle"/>
+        <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="10" lemma="Demer" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Demer" word="Demer"/>
+        <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="11" lemma="Zenne" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Zenne" word="Zenne"/>
+      </node>
+    </node>
+  </node>
+  <sentence>Belangrijkste waterlopen : Dijle , Demer , Zenne</sentence>
+</alpino_ds>

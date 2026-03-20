@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="37" id="0" rel="top">
+    <node begin="9" end="10" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="14" end="15" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="20" end="21" id="3" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="21" end="22" id="4" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="0" cat="conj" end="36" id="5" rel="--">
+      <node begin="0" cat="smain" end="9" id="6" rel="cnj">
+        <node begin="3" end="4" id="7" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+        <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="8" index="1" lemma="Piaggio" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Piaggio" word="Piaggio"/>
+        <node begin="0" cat="ppart" end="9" id="9" rel="vc">
+          <node begin="0" cat="pp" end="3" id="10" rel="mod">
+            <node begin="0" end="1" id="11" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+            <node begin="1" cat="np" end="3" id="12" rel="obj1">
+              <node begin="1" end="2" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="2" end="3" getal="mv" graad="basis" id="14" lemma="verkoop_cijfer" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="verkoop_cijfer" word="verkoopcijfers"/>
+            </node>
+          </node>
+          <node begin="4" end="5" id="15" index="1" rel="obj1"/>
+          <node begin="5" cat="cp" end="8" id="16" rel="predc">
+            <node begin="5" conjtype="onder" end="6" id="17" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+            <node begin="6" cat="np" end="8" id="18" rel="body">
+              <node begin="6" end="7" id="19" lemma="één" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="één" word="één"/>
+              <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="20" lemma="merk" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="merk" word="merk"/>
+            </node>
+          </node>
+          <node begin="8" buiging="zonder" end="9" id="21" lemma="zien" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="zie" word="gezien" wvorm="vd"/>
+        </node>
+      </node>
+      <node begin="10" conjtype="neven" end="11" id="22" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+      <node begin="11" cat="du" end="36" id="23" rel="cnj">
+        <node begin="11" cat="cp" end="20" id="24" rel="tag">
+          <node begin="11" conjtype="onder" end="12" id="25" lemma="zoals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zoals" word="zoals"/>
+          <node begin="12" cat="ssub" end="20" id="26" rel="body">
+            <node begin="12" cat="np" end="19" id="27" rel="su">
+              <node begin="12" cat="mwu" end="14" id="28" rel="hd">
+                <node begin="12" end="13" id="29" lemma="Marco" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Marco" spectype="deeleigen" word="Marco"/>
+                <node begin="13" end="14" id="30" lemma="Rikkers" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Rikkers" spectype="deeleigen" word="Rikkers"/>
+              </node>
+              <node begin="15" cat="np" end="19" id="31" rel="app">
+                <node begin="15" cat="mwu" end="17" id="32" rel="hd">
+                  <node begin="15" end="16" id="33" lemma="general" pos="noun" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="general" spectype="vreemd" word="general"/>
+                  <node begin="16" end="17" id="34" lemma="manager" pos="noun" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="manager" spectype="vreemd" word="manager"/>
+                </node>
+                <node begin="17" cat="mwu" end="19" id="35" rel="mod">
+                  <node begin="17" end="18" id="36" lemma="Piaggio" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Piaggio" spectype="deeleigen" word="Piaggio"/>
+                  <node begin="18" end="19" id="37" lemma="Benelux" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Benelux" spectype="deeleigen" word="Benelux"/>
+                </node>
+              </node>
+            </node>
+            <node begin="19" end="20" id="38" lemma="zeggen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="zeg" word="zegt" wvorm="pv"/>
+          </node>
+        </node>
+        <node begin="22" cat="smain" end="36" id="39" rel="nucl">
+          <node begin="22" end="23" genus="zijd" getal="ev" graad="basis" id="40" lemma="Vespa" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Vespa" word="Vespa"/>
+          <node begin="23" end="24" id="41" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+          <node begin="24" cat="ap" end="36" id="42" rel="predc">
+            <node begin="24" buiging="zonder" end="25" graad="basis" id="43" lemma="verantwoordelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="verantwoordelijk" word="verantwoordelijk"/>
+            <node begin="25" cat="pp" end="36" id="44" rel="pc">
+              <node begin="25" end="26" id="45" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+              <node begin="26" cat="np" end="36" id="46" rel="obj1">
+                <node begin="26" cat="detp" end="29" id="47" rel="det">
+                  <node begin="26" cat="mwu" end="28" id="48" rel="mod">
+                    <node begin="26" buiging="zonder" end="27" graad="comp" id="49" lemma="veel" naamval="stan" pdtype="grad" pos="det" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mwp" root="meer" vwtype="onbep" word="meer"/>
+                    <node begin="27" conjtype="onder" end="28" id="50" lemma="dan" pos="det" postag="VG(onder)" pt="vg" rel="mwp" root="dan" word="dan"/>
+                  </node>
+                  <node begin="28" end="29" id="51" lemma="50" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="hd" root="50" word="50"/>
+                </node>
+                <node begin="29" end="30" genus="onz" getal="ev" graad="basis" id="52" lemma="procent" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="procent" word="procent"/>
+                <node begin="30" cat="pp" end="36" id="53" rel="mod">
+                  <node begin="30" end="31" id="54" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                  <node begin="31" cat="np" end="36" id="55" rel="obj1">
+                    <node begin="31" end="32" id="56" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="32" end="33" getal="mv" graad="basis" id="57" lemma="verkoop_cijfer" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="verkoop_cijfer" word="verkoopcijfers"/>
+                    <node begin="33" cat="pp" end="36" id="58" rel="mod">
+                      <node begin="33" end="34" id="59" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                      <node begin="34" cat="np" end="36" id="60" rel="obj1">
+                        <node begin="34" end="35" id="61" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                        <node begin="35" end="36" genus="zijd" getal="ev" graad="basis" id="62" lemma="groep" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="groep" word="groep"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="36" end="37" id="63" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>In de verkoopcijfers wordt Piaggio als één merk gezien , maar zoals Marco Rikkers , general manager Piaggio Benelux zegt : &apos; Vespa is verantwoordelijk voor meer dan 50 procent van de verkoopcijfers van de groep .</sentence>
+</alpino_ds>

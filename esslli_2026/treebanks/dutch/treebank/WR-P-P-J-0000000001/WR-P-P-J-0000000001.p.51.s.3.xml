@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="35" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="9" end="10" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="23" end="24" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="26" end="27" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="28" end="29" id="5" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="30" end="31" id="6" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="34" id="7" rel="--">
+      <node begin="0" cat="np" end="9" id="8" index="1" rel="su">
+        <node begin="0" buiging="zonder" end="1" graad="basis" id="9" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="det" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,basis)" pt="vnw" rel="det" root="veel" vwtype="onbep" word="Veel"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="10" lemma="prijs_steun" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="prijs_steun" word="prijssteun"/>
+        <node begin="3" cat="pp" end="9" id="11" rel="mod">
+          <node begin="3" end="4" id="12" lemma="soms" pos="adv" postag="BW()" pt="bw" rel="mod" root="soms" word="soms"/>
+          <node begin="4" end="5" id="13" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="5" cat="np" end="9" id="14" rel="obj1">
+            <node begin="5" end="6" id="15" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="16" lemma="vorm" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="vorm" word="vorm"/>
+            <node begin="7" cat="pp" end="9" id="17" rel="mod">
+              <node begin="7" end="8" id="18" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="19" lemma="verwerking_steun" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="verwerking_steun" word="verwerkingssteun"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="10" end="11" id="20" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="34" id="21" rel="vc">
+        <node begin="0" end="9" id="22" index="1" rel="obj1"/>
+        <node begin="11" end="12" id="23" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" word="nog"/>
+        <node begin="12" buiging="zonder" end="13" id="24" lemma="geven" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="geef" word="gegeven" wvorm="vd"/>
+        <node begin="13" cat="pp" end="34" id="25" rel="mod">
+          <node begin="13" end="14" id="26" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="14" cat="conj" end="34" id="27" rel="obj1">
+            <node begin="15" conjtype="neven" end="16" id="28" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="14" cat="np" end="34" id="29" rel="cnj">
+              <node begin="14" end="15" getal="mv" graad="basis" id="30" lemma="gewas" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="gewas" word="gewassen"/>
+              <node begin="17" cat="rel" end="23" id="31" index="2" rel="mod">
+                <node begin="17" end="18" getal="getal" id="32" index="3" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+                <node begin="17" cat="ssub" end="23" id="33" rel="body">
+                  <node begin="17" end="18" id="34" index="3" rel="su"/>
+                  <node begin="21" end="22" id="35" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" word="worden" wvorm="pv"/>
+                  <node begin="17" cat="ppart" end="23" id="36" rel="vc">
+                    <node begin="17" end="18" id="37" index="3" rel="obj1"/>
+                    <node begin="18" end="19" id="38" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+                    <node begin="19" cat="pp" end="21" id="39" rel="mod">
+                      <node begin="19" end="20" id="40" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                      <node begin="20" end="21" getal="mv" graad="basis" id="41" lemma="ontwikkeling_land" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="ontwikkelingsland" word="ontwikkelingslanden"/>
+                    </node>
+                    <node begin="22" buiging="zonder" end="23" id="42" lemma="verbouwen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="verbouw" word="verbouwd" wvorm="vd"/>
+                  </node>
+                </node>
+              </node>
+              <node begin="24" cat="cp" end="34" id="43" index="4" rel="mod">
+                <node begin="24" conjtype="onder" end="25" id="44" lemma="zoals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zoals" word="zoals"/>
+                <node begin="25" cat="conj" end="34" id="45" rel="body">
+                  <node begin="25" end="26" genus="zijd" getal="ev" graad="basis" id="46" lemma="suiker" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="suiker" word="suiker"/>
+                  <node begin="27" end="28" genus="zijd" getal="ev" graad="basis" id="47" lemma="rijst" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="rijst" word="rijst"/>
+                  <node begin="29" end="30" genus="genus" getal="ev" graad="basis" id="48" lemma="katoen" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,genus,stan)" pt="n" rel="cnj" root="katoen" word="katoen"/>
+                  <node begin="31" end="32" genus="zijd" getal="ev" graad="basis" id="49" lemma="tabak" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="tabak" word="tabak"/>
+                  <node begin="32" conjtype="neven" end="33" id="50" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                  <node begin="33" end="34" genus="zijd" getal="ev" graad="basis" id="51" lemma="wijn" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="wijn" word="wijn"/>
+                </node>
+              </node>
+            </node>
+            <node begin="16" cat="np" end="34" id="52" rel="cnj">
+              <node begin="16" end="17" getal="mv" graad="basis" id="53" lemma="product" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="product" word="producten"/>
+              <node begin="17" end="23" id="54" index="2" rel="mod"/>
+              <node begin="24" end="34" id="55" index="4" rel="mod"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="34" end="35" id="56" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Veel prijssteun ( soms in de vorm van verwerkingssteun ) wordt nog gegeven voor gewassen en producten die ook in ontwikkelingslanden worden verbouwd , zoals suiker , rijst , katoen , tabak en wijn .</sentence>
+</alpino_ds>

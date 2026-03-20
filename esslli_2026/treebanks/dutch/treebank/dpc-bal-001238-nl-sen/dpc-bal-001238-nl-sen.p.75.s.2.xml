@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="0" cat="smain" end="21" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="4" lemma="wereld" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="wereld" word="wereld"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="heeft" wvorm="pv"/>
+      <node begin="3" cat="np" end="8" id="6" rel="obj1">
+        <node begin="3" end="4" id="7" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="4" cat="conj" end="7" id="8" rel="mod">
+          <node begin="4" buiging="zonder" end="5" graad="basis" id="9" lemma="sterk" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="cnj" root="sterk" word="sterk"/>
+          <node begin="5" conjtype="neven" end="6" id="10" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="6" buiging="zonder" end="7" graad="basis" id="11" lemma="democratisch" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="cnj" root="democratisch" word="democratisch"/>
+        </node>
+        <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="12" lemma="Rusland" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Rusland" word="Rusland"/>
+      </node>
+      <node begin="8" cat="ap" end="21" id="13" rel="predc">
+        <node begin="8" buiging="zonder" end="9" graad="basis" id="14" lemma="hard" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="hard" word="hard"/>
+        <node begin="9" buiging="zonder" end="10" graad="basis" id="15" lemma="nodig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="nodig" word="nodig"/>
+        <node begin="10" cat="cp" end="21" id="16" rel="mod">
+          <node begin="10" conjtype="onder" end="11" id="17" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+          <node begin="11" cat="np" end="21" id="18" rel="body">
+            <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="19" lemma="partner" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="partner" word="partner"/>
+            <node begin="12" cat="pp" end="21" id="20" rel="mod">
+              <node begin="12" end="13" id="21" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+              <node begin="13" cat="np" end="21" id="22" rel="obj1">
+                <node begin="13" end="14" id="23" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="24" lemma="aanpak" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="aanpak" word="aanpak"/>
+                <node begin="15" cat="pp" end="21" id="25" rel="mod">
+                  <node begin="15" end="16" id="26" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                  <node begin="16" cat="np" end="21" id="27" rel="obj1">
+                    <node begin="16" end="17" getal="mv" graad="basis" id="28" lemma="vraagstuk" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vraagstuk" word="vraagstukken"/>
+                    <node begin="17" cat="rel" end="21" id="29" rel="mod">
+                      <node begin="17" end="18" getal="getal" id="30" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+                      <node begin="17" cat="ssub" end="21" id="31" rel="body">
+                        <node begin="17" end="18" id="32" index="1" rel="su"/>
+                        <node begin="18" end="19" getal="mv" id="33" lemma="ons" naamval="obl" pdtype="pron" persoon="1" pos="pron" postag="VNW(pr,pron,obl,vol,1,mv)" pt="vnw" rel="obj1" root="ons" status="vol" vwtype="pr" word="ons"/>
+                        <node begin="19" end="20" id="34" lemma="allemaal" pos="adv" postag="BW()" pt="bw" rel="predm" root="allemaal" word="allemaal"/>
+                        <node begin="20" end="21" id="35" lemma="raken" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="raak" word="raken" wvorm="pv"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="21" end="22" id="36" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De wereld heeft een sterk en democratisch Rusland hard nodig als partner in de aanpak van vraagstukken die ons allemaal raken .</sentence>
+</alpino_ds>

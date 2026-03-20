@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="0" cat="smain" end="20" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="predc">
+        <node begin="0" end="1" genus="onz" getal="ev" graad="basis" id="3" lemma="doel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="doel" word="Doel"/>
+        <node begin="1" end="2" id="4" lemma="hiervan" pos="pp" postag="BW()" pt="bw" rel="mod" root="hiervan" word="hiervan"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="3" cat="conj" end="20" id="6" rel="su">
+        <node begin="3" cat="ti" end="13" id="7" rel="cnj">
+          <node begin="3" end="4" id="8" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+          <node begin="4" cat="inf" end="13" id="9" rel="body">
+            <node begin="4" buiging="zonder" end="5" id="10" lemma="komen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="kom" word="komen" wvorm="inf"/>
+            <node begin="5" cat="pp" end="13" id="11" rel="pc">
+              <node begin="5" end="6" id="12" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" vztype="init" word="tot"/>
+              <node begin="6" cat="np" end="13" id="13" rel="obj1">
+                <node begin="6" end="7" id="14" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                <node begin="7" buiging="zonder" end="8" graad="basis" id="15" lemma="marien" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="marien" word="marien"/>
+                <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="16" lemma="milieu" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="milieu" word="milieu"/>
+                <node begin="9" cat="rel" end="13" id="17" rel="mod">
+                  <node begin="9" end="10" id="18" index="1" lemma="waarin" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waarin" word="waarin"/>
+                  <node begin="9" cat="ssub" end="13" id="19" rel="body">
+                    <node begin="9" end="10" id="20" index="1" rel="ld"/>
+                    <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="21" lemma="eutrofiëring" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="su" root="eutrofiëring" word="eutrofiëring"/>
+                    <node begin="11" end="12" id="22" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+                    <node begin="12" end="13" id="23" lemma="voor_komen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="kom_voor" word="voorkomt" wvorm="pv"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="13" conjtype="neven" end="14" id="24" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="14" cat="ti" end="20" id="25" rel="cnj">
+          <node begin="18" end="19" id="26" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+          <node begin="14" cat="inf" end="20" id="27" rel="body">
+            <node begin="14" cat="np" end="16" id="28" rel="obj1">
+              <node begin="14" buiging="zonder" end="15" id="29" lemma="die" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,rest)" pt="vnw" rel="det" root="die" vwtype="aanw" word="die"/>
+              <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="30" lemma="toestand" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="toestand" word="toestand"/>
+            </node>
+            <node begin="16" cat="mwu" end="18" id="31" rel="svp">
+              <node begin="16" end="17" id="32" lemma="in" pos="fixed" postag="VZ(init)" pt="vz" rel="mwp" root="in" vztype="init" word="in"/>
+              <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="33" lemma="stand" naamval="stan" ntype="soort" pos="fixed" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="stand" word="stand"/>
+            </node>
+            <node begin="19" buiging="zonder" end="20" id="34" lemma="houden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="houd" word="houden" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="20" end="21" id="35" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Doel hiervan is te komen tot een marien milieu waarin eutrofiëring niet voorkomt en die toestand in stand te houden .</sentence>
+</alpino_ds>

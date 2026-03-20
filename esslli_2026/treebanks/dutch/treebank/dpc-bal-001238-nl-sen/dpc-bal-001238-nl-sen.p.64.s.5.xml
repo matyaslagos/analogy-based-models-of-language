@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="du" end="16" id="2" rel="--">
+      <node begin="0" cat="mwu" end="2" id="3" rel="tag">
+        <node begin="0" conjtype="neven" end="1" id="4" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="mwp" root="Maar" word="Maar"/>
+        <node begin="1" end="2" id="5" lemma="toch" pos="adv" postag="BW()" pt="bw" rel="mwp" root="toch" word="toch"/>
+      </node>
+      <node begin="3" cat="smain" end="16" id="6" rel="nucl">
+        <node begin="3" cat="pp" end="6" id="7" rel="mod">
+          <node begin="3" end="4" id="8" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+          <node begin="4" end="5" id="9" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="10" lemma="Nederland" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Nederland" word="Nederland"/>
+        </node>
+        <node begin="6" end="7" id="11" lemma="leven" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="leef" word="leven" wvorm="pv"/>
+        <node begin="7" cat="np" end="12" id="12" rel="su">
+          <node begin="7" end="8" getal="mv" graad="basis" id="13" lemma="mens" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="mens" word="mensen"/>
+          <node begin="8" cat="pp" end="12" id="14" rel="mod">
+            <node begin="8" end="9" id="15" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+            <node begin="9" cat="np" end="12" id="16" rel="obj1">
+              <node begin="9" cat="ppres" end="11" id="17" rel="mod">
+                <node begin="9" buiging="zonder" end="10" graad="basis" id="18" lemma="heel" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="heel" word="heel"/>
+                <node begin="10" buiging="met-e" end="11" graad="basis" id="19" lemma="verschillend" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="hd" root="verschil" word="verschillende"/>
+              </node>
+              <node begin="11" end="12" getal="mv" graad="basis" id="20" lemma="achtergrond" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="achtergrond" word="achtergronden"/>
+            </node>
+          </node>
+        </node>
+        <node begin="12" cat="conj" end="16" id="21" rel="ld">
+          <node begin="13" conjtype="neven" end="14" id="22" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="12" cat="pp" end="16" id="23" rel="cnj">
+            <node begin="12" end="13" id="24" lemma="naast" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naast" vztype="init" word="naast"/>
+            <node begin="15" end="16" getal="mv" id="25" index="1" lemma="elkaar" naamval="obl" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(recip,pron,obl,vol,persoon,mv)" pt="vnw" rel="obj1" root="elkaar" status="vol" vwtype="recip" word="elkaar"/>
+          </node>
+          <node begin="14" cat="pp" end="16" id="26" rel="cnj">
+            <node begin="14" end="15" id="27" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+            <node begin="15" end="16" id="28" index="1" rel="obj1"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="29" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Maar toch : ook in Nederland leven mensen met heel verschillende achtergronden naast en door elkaar .</sentence>
+</alpino_ds>

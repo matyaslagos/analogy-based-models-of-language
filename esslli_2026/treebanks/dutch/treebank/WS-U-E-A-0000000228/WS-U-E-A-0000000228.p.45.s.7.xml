@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="18" id="2" rel="--">
+      <node begin="0" cat="smain" end="10" id="3" rel="cnj">
+        <node begin="0" cat="np" end="4" id="4" index="1" rel="su">
+          <node begin="0" end="1" getal="mv" graad="basis" id="5" lemma="pijnstiller" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="pijnstiller" word="Pijnstillers"/>
+          <node begin="1" cat="rel" end="4" id="6" rel="mod">
+            <node begin="1" end="2" getal="getal" id="7" index="2" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+            <node begin="1" cat="ssub" end="4" id="8" rel="body">
+              <node begin="1" end="2" id="9" index="2" rel="su"/>
+              <node begin="2" buiging="zonder" end="3" graad="basis" id="10" lemma="aanvankelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="aanvankelijk" word="aanvankelijk"/>
+              <node begin="3" end="4" id="11" lemma="werken" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="werk" word="werkten" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+        <node begin="5" end="6" id="12" lemma="keren" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="keer" word="keren" wvorm="pv"/>
+        <node begin="6" end="7" getal="getal" id="13" lemma="zich" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="se" root="zich" status="red" vwtype="refl" word="zich"/>
+        <node begin="7" cat="pp" end="10" id="14" rel="pc">
+          <node begin="7" end="8" id="15" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" vztype="init" word="tegen"/>
+          <node begin="8" cat="np" end="10" id="16" rel="obj1">
+            <node begin="8" end="9" id="17" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="18" lemma="patiënt" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="patiënt" word="patiënt"/>
+          </node>
+        </node>
+      </node>
+      <node begin="10" conjtype="neven" end="11" id="19" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="0" cat="sv1" end="18" id="20" rel="cnj">
+        <node begin="0" end="4" id="21" index="1" rel="su"/>
+        <node begin="11" end="12" id="22" lemma="veroorzaken" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="veroorzaak" word="veroorzaken" wvorm="pv"/>
+        <node begin="12" cat="np" end="18" id="23" rel="obj1">
+          <node begin="12" buiging="met-e" end="13" graad="basis" id="24" lemma="zwaar" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="zwaar" word="zware"/>
+          <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="25" lemma="hoofd_pijn" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="hoofd_pijn" word="hoofdpijn"/>
+          <node begin="14" cat="rel" end="18" id="26" rel="mod">
+            <node begin="14" end="15" getal="getal" id="27" index="3" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+            <node begin="14" cat="ssub" end="18" id="28" rel="body">
+              <node begin="14" end="15" id="29" index="3" rel="su"/>
+              <node begin="15" cat="np" end="17" id="30" rel="mod">
+                <node begin="15" buiging="met-e" end="16" id="31" lemma="elk" naamval="stan" npagr="evz" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,evz)" pt="vnw" rel="det" root="elk" vwtype="onbep" word="elke"/>
+                <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="32" lemma="dag" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="dag" word="dag"/>
+              </node>
+              <node begin="17" end="18" id="33" lemma="terug_komen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="kom_terug" word="terugkomt" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="34" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Pijnstillers die aanvankelijk werkten , keren zich tegen de patiënt en veroorzaken zware hoofdpijn die elke dag terugkomt .</sentence>
+</alpino_ds>

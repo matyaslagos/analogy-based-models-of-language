@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="0" cat="smain" end="17" id="1" rel="--">
+      <node begin="0" buiging="zonder" end="1" graad="basis" id="2" lemma="recent" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="recent" word="Recent"/>
+      <node begin="1" end="2" id="3" lemma="krijgen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="krijg" word="kregen" wvorm="pv"/>
+      <node begin="2" cat="np" end="7" id="4" rel="su">
+        <node begin="2" end="3" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="3" end="4" getal="mv" graad="basis" id="6" lemma="huis" ntype="soort" pos="name" postag="N(soort,mv,basis)" pt="n" rel="hd" root="Huizen" word="Huizen"/>
+        <node begin="4" cat="pp" end="7" id="7" rel="mod">
+          <node begin="4" end="5" id="8" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="5" cat="np" end="7" id="9" rel="obj1">
+            <node begin="5" end="6" id="10" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="11" lemma="Nederlands" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Nederlands" word="Nederlands"/>
+          </node>
+        </node>
+      </node>
+      <node begin="7" cat="np" end="10" id="12" rel="obj1">
+        <node begin="7" end="8" id="13" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="8" buiging="met-e" end="9" graad="basis" id="14" lemma="specifiek" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="specifiek" word="specifieke"/>
+        <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="15" lemma="opdracht" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="opdracht" word="opdracht"/>
+      </node>
+      <node begin="10" cat="pp" end="17" id="16" rel="mod">
+        <node begin="10" cat="mwu" end="14" id="17" rel="hd">
+          <node begin="10" end="11" id="18" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="in" vztype="init" word="in"/>
+          <node begin="11" end="12" id="19" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="prep" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" word="het"/>
+          <node begin="12" end="13" genus="onz" getal="ev" graad="basis" id="20" lemma="kader" naamval="stan" ntype="soort" pos="prep" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="kader" word="kader"/>
+          <node begin="13" end="14" id="21" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="van" vztype="init" word="van"/>
+        </node>
+        <node begin="14" cat="np" end="17" id="22" rel="obj1">
+          <node begin="14" end="15" id="23" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="15" buiging="met-e" end="16" graad="basis" id="24" lemma="Vlaams" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Vlaams" word="Vlaamse"/>
+          <node begin="16" end="17" genus="onz" getal="ev" graad="basis" id="25" lemma="inburgering_beleid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="inburgeringsbeleid" word="inburgeringsbeleid"/>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="26" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Recent kregen de Huizen van het Nederlands een specifieke opdracht in het kader van het Vlaamse inburgeringsbeleid .</sentence>
+</alpino_ds>

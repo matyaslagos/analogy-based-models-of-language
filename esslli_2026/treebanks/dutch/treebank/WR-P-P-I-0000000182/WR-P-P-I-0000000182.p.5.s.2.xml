@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="43" id="0" rel="top">
+    <node begin="14" end="15" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="20" end="21" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="42" id="3" rel="--">
+      <node begin="0" cat="pp" end="7" id="4" rel="mod">
+        <node begin="0" end="1" id="5" lemma="alvast" pos="adv" postag="BW()" pt="bw" rel="mod" root="alvast" word="Alvast"/>
+        <node begin="1" end="2" id="6" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="2" cat="np" end="7" id="7" rel="obj1">
+          <node begin="2" end="3" id="8" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="9" lemma="klad_versie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="klad_versie" word="kladversie"/>
+          <node begin="4" cat="pp" end="7" id="10" rel="mod">
+            <node begin="4" end="5" id="11" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="5" cat="np" end="7" id="12" rel="obj1">
+              <node begin="5" end="6" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="14" lemma="Andersen_audit" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="Andersen-audit" word="Andersen-audit"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="7" end="8" id="15" lemma="staan" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="sta" word="stond" wvorm="pv"/>
+      <node begin="8" cat="ti" end="10" id="16" rel="vc">
+        <node begin="8" end="9" id="17" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+        <node begin="9" buiging="zonder" end="10" id="18" lemma="lezen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="body" root="lees" word="lezen" wvorm="inf"/>
+      </node>
+      <node begin="10" cat="cp" end="42" id="19" rel="su">
+        <node begin="10" conjtype="onder" end="11" id="20" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+        <node begin="11" cat="ssub" end="42" id="21" rel="body">
+          <node begin="11" cat="np" end="20" id="22" rel="su">
+            <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="23" lemma="adjunct_kabinet_chef" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="adjunct-kabinetschef" word="adjunct-kabinetschef"/>
+            <node begin="12" cat="mwu" end="14" id="24" rel="app">
+              <node begin="12" end="13" id="25" lemma="Renaud" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Renaud" spectype="deeleigen" word="Renaud"/>
+              <node begin="13" end="14" id="26" lemma="Klee" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Klee" spectype="deeleigen" word="Klee"/>
+            </node>
+            <node begin="15" cat="ap" end="20" id="27" rel="mod">
+              <node begin="15" buiging="zonder" end="16" graad="basis" id="28" lemma="bevoegd" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="bevoegd" word="bevoegd"/>
+              <node begin="16" cat="pp" end="20" id="29" rel="mod">
+                <node begin="16" end="17" id="30" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+                <node begin="17" cat="conj" end="20" id="31" rel="obj1">
+                  <node begin="17" end="18" getal="mv" graad="basis" id="32" lemma="consument_zaak" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="consument_zaak" word="consumentenzaken"/>
+                  <node begin="18" conjtype="neven" end="19" id="33" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                  <node begin="19" end="20" genus="zijd" getal="ev" graad="basis" id="34" lemma="voedsel_veiligheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="voedsel_veiligheid" word="voedselveiligheid"/>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="21" buiging="zonder" end="22" graad="basis" id="35" lemma="aanwezig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="aanwezig" word="aanwezig"/>
+          <node begin="22" end="23" id="36" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="was" word="was" wvorm="pv"/>
+          <node begin="23" cat="pp" end="42" id="37" rel="mod">
+            <node begin="23" end="24" id="38" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+            <node begin="24" cat="np" end="42" id="39" rel="obj1">
+              <node begin="24" end="25" id="40" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="25" buiging="met-e" end="26" graad="basis" id="41" lemma="fameus" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="fameus" word="fameuze"/>
+              <node begin="26" end="27" genus="zijd" getal="ev" graad="basis" id="42" lemma="vergadering" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="vergadering" word="vergadering"/>
+              <node begin="27" cat="pp" end="30" id="43" rel="mod">
+                <node begin="27" end="28" id="44" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="28" cat="mwu" end="30" id="45" rel="obj1">
+                  <node begin="28" end="29" id="46" lemma="30" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="30" word="30"/>
+                  <node begin="29" end="30" genus="zijd" getal="ev" graad="basis" id="47" lemma="januari" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="januari" word="januari"/>
+                </node>
+              </node>
+              <node begin="30" cat="rel" end="42" id="48" rel="mod">
+                <node begin="30" end="31" id="49" index="1" lemma="waarop" pos="prep" postag="BW()" pt="bw" rel="rhd" root="waarop" word="waarop"/>
+                <node begin="30" cat="ssub" end="42" id="50" rel="body">
+                  <node begin="31" cat="mwu" end="33" id="51" index="2" rel="su">
+                    <node begin="31" end="32" id="52" lemma="Houins" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Houins" spectype="deeleigen" word="Houins"/>
+                    <node begin="32" end="33" id="53" lemma="Cobbaert" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Cobbaert" spectype="deeleigen" word="Cobbaert"/>
+                  </node>
+                  <node begin="33" end="34" id="54" lemma="zullen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="zal" word="zou" wvorm="pv"/>
+                  <node begin="30" cat="inf" end="42" id="55" rel="vc">
+                    <node begin="31" end="33" id="56" index="2" rel="su"/>
+                    <node begin="34" buiging="zonder" end="35" id="57" lemma="hebben" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="heb" word="hebben" wvorm="inf"/>
+                    <node begin="30" cat="ppart" end="42" id="58" rel="vc">
+                      <node begin="30" end="31" id="59" index="1" rel="mod"/>
+                      <node begin="31" end="33" id="60" index="2" rel="su"/>
+                      <node begin="35" buiging="zonder" end="36" id="61" lemma="verbieden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="verboden" word="verboden" wvorm="vd"/>
+                      <node begin="36" cat="ti" end="42" id="62" rel="vc">
+                        <node begin="40" end="41" id="63" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+                        <node begin="36" cat="inf" end="42" id="64" rel="body">
+                          <node begin="36" buiging="zonder" end="37" graad="comp" id="65" lemma="ver" pos="adv" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="ver" word="verder"/>
+                          <node begin="37" cat="pp" end="40" id="66" rel="pc">
+                            <node begin="37" end="38" id="67" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+                            <node begin="38" cat="np" end="40" id="68" rel="obj1">
+                              <node begin="38" buiging="met-e" end="39" id="69" lemma="besmetten" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="besmet" word="besmette" wvorm="vd"/>
+                              <node begin="39" end="40" getal="mv" graad="basis" id="70" lemma="staal" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="stalen" word="stalen"/>
+                            </node>
+                          </node>
+                          <node begin="41" buiging="zonder" end="42" id="71" lemma="zoeken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="zoek" word="zoeken" wvorm="inf"/>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="42" end="43" id="72" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Alvast in een kladversie van de Andersen-audit stond te lezen dat adjunct-kabinetschef Renaud Klee , bevoegd voor consumentenzaken en voedselveiligheid , aanwezig was op de fameuze vergadering van 30 januari waarop Houins Cobbaert zou hebben verboden verder naar besmette stalen te zoeken .</sentence>
+</alpino_ds>

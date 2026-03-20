@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" buiging="zonder" end="1" graad="basis" id="3" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,basis)" pt="vnw" rel="det" root="veel" vwtype="onbep" word="Veel"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="4" lemma="faillissement" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="faillissement" word="faillissementen"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="komen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kom" word="komen" wvorm="pv"/>
+      <node begin="3" cat="pp" end="6" id="6" rel="pc">
+        <node begin="3" end="4" id="7" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+        <node begin="4" cat="np" end="6" id="8" rel="obj1">
+          <node begin="4" buiging="zonder" end="5" graad="basis" id="9" lemma="slecht" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="slecht" word="slecht"/>
+          <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="10" lemma="ondernemerschap" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="ondernemer_schap" word="ondernemersschap"/>
+        </node>
+      </node>
+    </node>
+    <node begin="6" end="7" id="11" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Veel faillissementen komen door slecht ondernemersschap .</sentence>
+</alpino_ds>

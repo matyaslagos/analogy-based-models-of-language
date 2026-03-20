@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="0" cat="du" end="8" id="2" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="3" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" word="Maar"/>
+      <node begin="1" cat="smain" end="8" id="4" rel="nucl">
+        <node begin="1" cat="np" end="4" id="5" rel="su">
+          <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="6" lemma="topman" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="topman" word="topman"/>
+          <node begin="2" cat="mwu" end="4" id="7" rel="app">
+            <node begin="2" end="3" id="8" lemma="Rijkman" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Rijkman" spectype="deeleigen" word="Rijkman"/>
+            <node begin="3" end="4" id="9" lemma="Groenink" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Groenink" spectype="deeleigen" word="Groenink"/>
+          </node>
+        </node>
+        <node begin="5" end="6" id="10" lemma="af_willen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="wil_af" word="wil" wvorm="pv"/>
+        <node begin="6" cat="pp" end="8" id="11" rel="pc">
+          <node begin="6" end="7" getal="getal" id="12" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="noun" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="obj1" root="er" status="red" vwtype="aanw" word="er"/>
+          <node begin="7" end="8" id="13" lemma="vanaf" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="vanaf" vztype="fin" word="vanaf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" id="14" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Maar topman Rijkman Groenink - wil er vanaf .</sentence>
+</alpino_ds>

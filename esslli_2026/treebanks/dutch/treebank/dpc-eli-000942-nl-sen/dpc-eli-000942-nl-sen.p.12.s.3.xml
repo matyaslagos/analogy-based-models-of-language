@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" end="1" genus="genus" getal="ev" graad="basis" id="2" index="1" lemma="Optruma" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="su" root="OPTRUMA" word="OPTRUMA"/>
+      <node begin="1" end="2" id="3" lemma="mogen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="mag" word="mag" wvorm="pv"/>
+      <node begin="0" cat="inf" end="8" id="4" rel="vc">
+        <node begin="0" end="1" id="5" index="1" rel="su"/>
+        <node begin="6" buiging="zonder" end="7" id="6" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+        <node begin="0" cat="ppart" end="8" id="7" rel="vc">
+          <node begin="0" end="1" id="8" index="1" rel="obj1"/>
+          <node begin="2" cat="pp" end="6" id="9" rel="mod">
+            <node begin="2" end="3" id="10" lemma="gedurende" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="gedurende" vztype="init" word="gedurende"/>
+            <node begin="3" cat="np" end="6" id="11" rel="obj1">
+              <node begin="3" end="4" id="12" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="4" buiging="met-e" end="5" graad="basis" id="13" lemma="lang" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="lang" word="lange"/>
+              <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="14" lemma="periode" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="periode" word="periode"/>
+            </node>
+          </node>
+          <node begin="7" buiging="zonder" end="8" id="15" lemma="gebruiken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="gebruik" word="gebruikt" wvorm="vd"/>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" id="16" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>OPTRUMA mag gedurende een lange periode worden gebruikt .</sentence>
+</alpino_ds>

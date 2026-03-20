@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="smain" end="15" id="1" rel="--">
+      <node begin="2" end="3" id="2" lemma="moeten" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="moet" word="moesten" wvorm="pv"/>
+      <node begin="4" cat="np" end="11" id="3" index="1" rel="su">
+        <node begin="4" end="5" id="4" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="5" end="6" getal="mv" graad="basis" id="5" lemma="oud_minister" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="oud_minister" word="oud-ministers"/>
+        <node begin="6" cat="conj" end="11" id="6" rel="app">
+          <node begin="6" cat="mwu" end="8" id="7" rel="cnj">
+            <node begin="6" end="7" id="8" lemma="Van" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Van" spectype="deeleigen" word="Van"/>
+            <node begin="7" end="8" id="9" lemma="Aartsen" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Aartsen" spectype="deeleigen" word="Aartsen"/>
+          </node>
+          <node begin="8" conjtype="neven" end="9" id="10" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="9" cat="mwu" end="11" id="11" rel="cnj">
+            <node begin="9" end="10" id="12" lemma="De" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="De" spectype="deeleigen" word="De"/>
+            <node begin="10" end="11" id="13" lemma="Grave" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Grave" spectype="deeleigen" word="Grave"/>
+          </node>
+        </node>
+      </node>
+      <node begin="0" cat="inf" end="15" id="14" rel="vc">
+        <node begin="0" cat="pp" end="2" id="15" rel="mod">
+          <node begin="0" end="1" id="16" lemma="naast" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naast" vztype="init" word="Naast"/>
+          <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="17" lemma="Kok" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" root="Kok" word="Kok"/>
+        </node>
+        <node begin="3" end="4" id="18" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+        <node begin="4" end="11" id="19" index="1" rel="su"/>
+        <node begin="11" cat="pp" end="14" id="20" rel="ld">
+          <node begin="11" end="12" id="21" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="12" cat="np" end="14" id="22" rel="obj1">
+            <node begin="12" end="13" id="23" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="24" lemma="rechtbank" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="rechtbank" word="rechtbank"/>
+          </node>
+        </node>
+        <node begin="14" buiging="zonder" end="15" id="25" lemma="verschijnen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="verschijn" word="verschijnen" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="15" end="16" id="26" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Naast Kok moesten ook de oud-ministers Van Aartsen en De Grave voor de rechtbank verschijnen .</sentence>
+</alpino_ds>

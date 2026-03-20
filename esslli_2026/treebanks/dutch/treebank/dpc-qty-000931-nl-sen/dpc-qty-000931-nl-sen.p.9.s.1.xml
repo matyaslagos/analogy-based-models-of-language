@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="3" end="4" id="2" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="0" cat="du" end="8" id="3" rel="--">
+      <node begin="0" cat="mwu" end="2" id="4" rel="tag">
+        <node begin="0" end="1" id="5" lemma="Philippe" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Philippe" spectype="deeleigen" word="Philippe"/>
+        <node begin="1" end="2" id="6" lemma="Samyn" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Samyn" spectype="deeleigen" word="Samyn"/>
+      </node>
+      <node begin="4" cat="smain" end="8" id="7" rel="nucl">
+        <node begin="4" end="5" getal="getal" id="8" lemma="hier" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="mod" root="hier" status="vol" vwtype="aanw" word="Hier"/>
+        <node begin="5" end="6" id="9" lemma="vergissen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="vergis" word="vergist" wvorm="pv"/>
+        <node begin="6" end="7" getal="getal" id="10" lemma="u" naamval="nomin" pdtype="pron" persoon="2b" pos="pron" postag="VNW(pers,pron,nomin,vol,2b,getal)" pt="vnw" rel="su" root="u" status="vol" vwtype="pers" word="u"/>
+        <node begin="7" end="8" getal="getal" id="11" lemma="zich" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="se" root="zich" status="red" vwtype="refl" word="zich"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="12" lemma="!" pos="punct" postag="LET()" pt="let" rel="--" root="!" word="!"/>
+  </node>
+  <sentence>Philippe Samyn : &quot; Hier vergist u zich !</sentence>
+</alpino_ds>

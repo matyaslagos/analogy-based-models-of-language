@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="smain" end="12" id="1" rel="--">
+      <node begin="0" end="1" getal="getal" id="2" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="Er"/>
+      <node begin="1" end="2" id="3" lemma="blijven" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="blijf" word="bleef" wvorm="pv"/>
+      <node begin="2" cat="np" end="7" id="4" rel="obj2">
+        <node begin="2" buiging="zonder" end="3" getal="mv" id="5" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+        <node begin="3" buiging="met-e" end="4" graad="basis" id="6" lemma="oud" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="oud" word="oude"/>
+        <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="7" lemma="boeg_beeld" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="boeg_beeld" word="boegbeeld"/>
+        <node begin="5" cat="mwu" end="7" id="8" rel="app">
+          <node begin="5" end="6" id="9" lemma="Helmut" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Helmut" spectype="deeleigen" word="Helmut"/>
+          <node begin="6" end="7" id="10" lemma="Kohl" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Kohl" spectype="deeleigen" word="Kohl"/>
+        </node>
+      </node>
+      <node begin="7" cat="np" end="12" id="11" rel="su">
+        <node begin="7" buiging="zonder" end="8" id="12" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="geen"/>
+        <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="13" lemma="uitkomst" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="uitkomst" word="uitkomst"/>
+        <node begin="8" cat="ap" end="12" id="14" rel="mod">
+          <node begin="8" buiging="met-e" end="9" graad="basis" id="15" lemma="ander" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="hd" root="ander" word="andere"/>
+          <node begin="10" cat="cp" end="12" id="16" rel="obcomp">
+            <node begin="10" conjtype="onder" end="11" id="17" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="dan" word="dan"/>
+            <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="18" lemma="ontslag" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="body" root="ontslag" word="ontslag"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" id="19" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Er bleef hun oude boegbeeld Helmut Kohl geen andere uitkomst dan ontslag .</sentence>
+</alpino_ds>

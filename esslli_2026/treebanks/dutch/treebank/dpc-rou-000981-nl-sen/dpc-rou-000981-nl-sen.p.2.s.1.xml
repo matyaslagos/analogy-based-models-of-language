@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="whsub" end="6" id="1" rel="--">
+      <node begin="0" end="1" id="2" index="1" lemma="hoe" pos="adj" postag="BW()" pt="bw" rel="whd" root="hoe" word="Hoe"/>
+      <node begin="0" cat="ssub" end="6" id="3" rel="body">
+        <node begin="1" end="2" genus="genus" getal="ev" graad="basis" id="4" index="2" lemma="Rituals" naamval="stan" ntype="eigen" pos="det" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="su" root="Rituals" word="Rituals"/>
+        <node begin="4" end="5" id="5" lemma="willen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="wil" word="wil" wvorm="pv"/>
+        <node begin="0" cat="inf" end="6" id="6" rel="vc">
+          <node begin="0" end="1" id="7" index="1" rel="mod"/>
+          <node begin="1" end="2" id="8" index="2" rel="su"/>
+          <node begin="2" cat="pp" end="4" id="9" rel="mod">
+            <node begin="2" end="3" id="10" lemma="ondanks/dankzij" pos="prep" postag="SPEC(enof)" pt="spec" rel="hd" root="ondanks/dankzij" spectype="enof" word="ondanks/dankzij"/>
+            <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="11" lemma="Unilever" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Unilever" word="Unilever"/>
+          </node>
+          <node begin="5" buiging="zonder" end="6" id="12" lemma="groeien" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="groei" word="groeien" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>Hoe Rituals ondanks/dankzij Unilever wil groeien</sentence>
+</alpino_ds>

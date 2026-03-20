@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="du" end="15" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="en" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="en" word="En"/>
+      <node begin="1" cat="smain" end="15" id="3" rel="nucl">
+        <node begin="1" end="2" getal="ev" id="4" index="1" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="noun" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" root="dat" status="vol" vwtype="aanw" word="dat"/>
+        <node begin="2" end="3" id="5" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="1" cat="ppart" end="15" id="6" rel="vc">
+          <node begin="1" end="2" id="7" index="1" rel="su"/>
+          <node begin="3" cat="pp" end="7" id="8" rel="mod">
+            <node begin="3" end="4" id="9" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="4" cat="np" end="7" id="10" rel="obj1">
+              <node begin="4" end="5" id="11" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="5" buiging="met-e" end="6" graad="basis" id="12" lemma="recent" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="recent" word="recente"/>
+              <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="13" lemma="verleden" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="verleden" word="verleden"/>
+            </node>
+          </node>
+          <node begin="7" cat="ap" end="9" id="14" rel="mod">
+            <node begin="7" end="8" id="15" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mod" root="al" word="al"/>
+            <node begin="8" buiging="zonder" end="9" graad="comp" id="16" lemma="vaak" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="vaak" word="vaker"/>
+          </node>
+          <node begin="9" cat="np" end="14" id="17" rel="predc">
+            <node begin="9" end="10" id="18" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="19" lemma="begin" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="begin" word="begin"/>
+            <node begin="11" cat="pp" end="14" id="20" rel="mod">
+              <node begin="11" end="12" id="21" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="12" cat="np" end="14" id="22" rel="obj1">
+                <node begin="12" end="13" id="23" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="24" lemma="vertrouwen_crisis" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="vertrouwen_crisis" word="vertrouwenscrisis"/>
+              </node>
+            </node>
+          </node>
+          <node begin="14" buiging="zonder" end="15" id="25" lemma="blijken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="blijk" word="gebleken" wvorm="vd"/>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="26" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>En dat is in het recente verleden al vaker het begin van een vertrouwenscrisis gebleken .</sentence>
+</alpino_ds>

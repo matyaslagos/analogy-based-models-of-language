@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="smain" end="15" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" index="1" rel="su">
+        <node begin="0" buiging="met-e" end="1" graad="basis" id="3" lemma="leerplichtig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Leerplichtige" word="Leerplichtige"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="4" lemma="leerling" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="leerling" word="leerlingen"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="moeten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="moet" word="moeten" wvorm="pv"/>
+      <node begin="0" cat="inf" end="15" id="6" rel="vc">
+        <node begin="0" end="2" id="7" index="1" rel="su"/>
+        <node begin="3" cat="pp" end="5" id="8" rel="mod">
+          <node begin="3" end="4" id="9" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="10" lemma="principe" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="principe" word="principe"/>
+        </node>
+        <node begin="5" cat="np" end="13" id="11" rel="mod">
+          <node begin="5" buiging="met-e" end="6" id="12" lemma="al" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,agr)" pt="vnw" rel="det" root="alle" vwtype="onbep" word="alle"/>
+          <node begin="6" end="7" getal="mv" graad="basis" id="13" lemma="school_dag" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="school_dag" word="schooldagen"/>
+          <node begin="7" cat="pp" end="10" id="14" rel="mod">
+            <node begin="7" end="8" id="15" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="8" cat="mwu" end="10" id="16" rel="obj1">
+              <node begin="8" end="9" id="17" lemma="1" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="1" word="1"/>
+              <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="18" lemma="september" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="september" word="september"/>
+            </node>
+          </node>
+          <node begin="10" cat="pp" end="13" id="19" rel="mod">
+            <node begin="10" end="11" id="20" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" vztype="init" word="tot"/>
+            <node begin="11" cat="mwu" end="13" id="21" rel="obj1">
+              <node begin="11" end="12" id="22" lemma="30" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="30" word="30"/>
+              <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="23" lemma="juni" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="juni" word="juni"/>
+            </node>
+          </node>
+        </node>
+        <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="24" lemma="les" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="les" word="les"/>
+        <node begin="14" buiging="zonder" end="15" id="25" lemma="volgen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="volg" word="volgen" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="15" end="16" id="26" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Leerplichtige leerlingen moeten in principe alle schooldagen van 1 september tot 30 juni les volgen .</sentence>
+</alpino_ds>

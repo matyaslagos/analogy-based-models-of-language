@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="5" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="^" pos="noun" postag="SPEC(symb)" pt="spec" rel="--" root="^" spectype="symb" word="^"/>
+    <node begin="3" end="4" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="1" cat="du" end="5" id="3" rel="--">
+      <node begin="1" cat="inf" end="3" id="4" rel="dp">
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="5" lemma="Nederlander" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="predc" root="Nederlander" word="Nederlander"/>
+        <node begin="2" buiging="zonder" end="3" id="6" lemma="zijn" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ben" word="zijn" wvorm="inf"/>
+      </node>
+      <node begin="4" conjtype="neven" end="5" id="7" lemma="en" pos="tag" postag="VG(neven)" pt="vg" rel="dp" root="en" word="én"/>
+    </node>
+  </node>
+  <sentence>^ Nederlander zijn , én</sentence>
+</alpino_ds>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="11" id="2" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="3" lemma="en" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="en" word="En"/>
+      <node begin="1" cat="smain" end="11" id="4" rel="nucl">
+        <node begin="1" cat="np" end="3" id="5" rel="su">
+          <node begin="1" end="2" id="6" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="7" lemma="relatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="relatie" word="relatie"/>
+        </node>
+        <node begin="3" end="4" id="8" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="4" cat="np" end="11" id="9" rel="predc">
+          <node begin="4" end="5" getal="ev" id="10" lemma="iets" naamval="stan" pdtype="pron" persoon="3o" pos="noun" postag="VNW(onbep,pron,stan,vol,3o,ev)" pt="vnw" rel="hd" root="iets" status="vol" vwtype="onbep" word="iets"/>
+          <node begin="6" cat="rel" end="11" id="11" rel="mod">
+            <node begin="6" end="7" getal="getal" id="12" index="1" lemma="waar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(vb,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="rhd" root="waar" status="vol" vwtype="vb" word="waar"/>
+            <node begin="6" cat="ssub" end="11" id="13" rel="body">
+              <node begin="7" cat="np" end="9" id="14" rel="su">
+                <node begin="7" buiging="met-e" end="8" getal="mv" graad="basis" id="15" lemma="beide" naamval="stan" pdtype="grad" pos="det" positie="prenom" postag="VNW(onbep,grad,stan,prenom,met-e,mv,basis)" pt="vnw" rel="det" root="beide" vwtype="onbep" word="beide"/>
+                <node begin="8" end="9" getal="mv" graad="basis" id="16" lemma="partij" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="partij" word="partijen"/>
+              </node>
+              <node begin="6" cat="pp" end="10" id="17" rel="pc">
+                <node begin="6" end="7" id="18" index="1" rel="obj1"/>
+                <node begin="9" end="10" id="19" lcat="p(pp)" lemma="aan" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="aan" vztype="fin" word="aan"/>
+              </node>
+              <node begin="10" end="11" id="20" lemma="bij_dragen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="draag_bij" word="bijdragen" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" id="21" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>En een relatie is iets , waar beide partijen aan bijdragen .</sentence>
+</alpino_ds>

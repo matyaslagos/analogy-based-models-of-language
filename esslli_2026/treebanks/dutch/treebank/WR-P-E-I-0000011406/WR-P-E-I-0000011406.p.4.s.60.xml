@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="39" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="15" end="16" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="30" end="31" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="38" id="4" rel="--">
+      <node begin="0" cat="smain" end="6" id="5" rel="nucl">
+        <node begin="0" cat="np" end="2" id="6" rel="su">
+          <node begin="0" end="1" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+          <node begin="1" end="2" getal="mv" graad="basis" id="8" lemma="Israëliër" ntype="eigen" pos="noun" postag="N(eigen,mv,basis)" pt="n" rel="hd" root="Israëliër" word="Israëliërs"/>
+        </node>
+        <node begin="2" end="3" id="9" lemma="ontvouwen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="ontvouw" word="ontvouwden" wvorm="pv"/>
+        <node begin="3" cat="np" end="6" id="10" rel="obj1">
+          <node begin="3" end="4" id="11" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="4" buiging="zonder" end="5" graad="basis" id="12" lemma="hybride" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="hybride" word="hybride"/>
+          <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="13" lemma="aanval_strategie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="aanval_strategie" word="aanvalsstrategie"/>
+        </node>
+      </node>
+      <node begin="7" cat="conj" end="38" id="14" rel="sat">
+        <node begin="7" cat="conj" end="15" id="15" rel="cnj">
+          <node begin="9" conjtype="neven" end="10" id="16" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="7" cat="np" end="15" id="17" rel="cnj">
+            <node begin="7" end="8" id="18" index="1" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="8" buiging="zonder" end="9" getal-n="zonder-n" id="19" lemma="bombarderen" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="bombardeer" word="bombarderen" wvorm="inf"/>
+            <node begin="11" cat="pp" end="14" id="20" index="2" rel="mod">
+              <node begin="11" end="12" id="21" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="12" cat="np" end="14" id="22" rel="obj1">
+                <node begin="12" end="13" id="23" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="13" end="14" getal="mv" graad="basis" id="24" lemma="vliegtuig" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vliegtuig" word="vliegtuigen"/>
+              </node>
+            </node>
+            <node begin="14" end="15" id="25" index="3" lemma="zelf" pos="adv" postag="BW()" pt="bw" rel="mod" root="zelf" word="zelf"/>
+          </node>
+          <node begin="7" cat="np" end="15" id="26" rel="cnj">
+            <node begin="7" end="8" id="27" index="1" rel="det"/>
+            <node begin="10" buiging="zonder" end="11" getal-n="zonder-n" id="28" lemma="beschieten" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="beschiet" word="beschieten" wvorm="inf"/>
+            <node begin="11" end="14" id="29" index="2" rel="mod"/>
+            <node begin="14" end="15" id="30" index="3" rel="mod"/>
+          </node>
+        </node>
+        <node begin="16" conjtype="neven" end="17" id="31" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="17" cat="du" end="38" id="32" rel="cnj">
+          <node begin="17" cat="np" end="30" id="33" rel="nucl">
+            <node begin="17" end="18" getal="mv" graad="basis" id="34" lemma="bom" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="bom" word="bommen"/>
+            <node begin="18" cat="rel" end="30" id="35" rel="mod">
+              <node begin="18" end="19" getal="getal" id="36" index="4" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+              <node begin="18" cat="ssub" end="30" id="37" rel="body">
+                <node begin="18" end="19" id="38" index="4" rel="su"/>
+                <node begin="19" cat="np" end="21" id="39" rel="obj1">
+                  <node begin="19" end="20" id="40" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="20" end="21" getal="mv" graad="basis" id="41" lemma="landingsbaan" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="landingsbaan" word="landingsbanen"/>
+                </node>
+                <node begin="21" buiging="zonder" end="22" graad="basis" id="42" lemma="onbruikbaar" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="onbruikbaar" word="onbruikbaar"/>
+                <node begin="22" end="23" id="43" lemma="maken" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="maak" word="maakten" wvorm="pv"/>
+                <node begin="23" cat="cp" end="30" id="44" rel="mod">
+                  <node begin="23" conjtype="onder" end="24" id="45" lemma="zodat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zodat" word="zodat"/>
+                  <node begin="24" cat="ssub" end="30" id="46" rel="body">
+                    <node begin="24" cat="np" end="26" id="47" index="5" rel="su">
+                      <node begin="24" buiging="met-e" end="25" id="48" lemma="on_beschadigen" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="onbeschadigd" word="onbeschadigde" wvorm="vd"/>
+                      <node begin="25" end="26" getal="mv" graad="basis" id="49" lemma="vliegtuig" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vliegtuig" word="vliegtuigen"/>
+                    </node>
+                    <node begin="27" end="28" id="50" lemma="zullen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="zal" word="zouden" wvorm="pv"/>
+                    <node begin="24" cat="inf" end="30" id="51" rel="vc">
+                      <node begin="24" end="26" id="52" index="5" rel="su"/>
+                      <node begin="28" buiging="zonder" end="29" id="53" lemma="kunnen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="kan" word="kunnen" wvorm="inf"/>
+                      <node begin="24" cat="inf" end="30" id="54" rel="vc">
+                        <node begin="24" end="26" id="55" index="5" rel="su"/>
+                        <node begin="26" end="27" id="56" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+                        <node begin="29" buiging="zonder" end="30" id="57" lemma="op_stijgen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="stijg_op" word="opstijgen" wvorm="inf"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="31" cat="np" end="38" id="58" rel="sat">
+            <node begin="31" end="32" id="59" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="32" buiging="zonder" end="33" graad="basis" id="60" lemma="gemakkelijk" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="gemakkelijk" word="gemakkelijk"/>
+            <node begin="33" end="34" genus="onz" getal="ev" graad="basis" id="61" lemma="doelwit" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="doelwit" word="doelwit"/>
+            <node begin="34" cat="pp" end="38" id="62" rel="mod">
+              <node begin="34" end="35" id="63" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+              <node begin="35" cat="np" end="38" id="64" rel="obj1">
+                <node begin="35" end="36" id="65" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="36" buiging="met-e" end="37" id="66" lemma="volgen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="volg" word="volgende" wvorm="od"/>
+                <node begin="37" end="38" genus="zijd" getal="ev" graad="basis" id="67" lemma="golf" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="golf" word="golf"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="38" end="39" id="68" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De Israëliërs ontvouwden een hybride aanvalsstrategie : het bombarderen en beschieten van de vliegtuigen zelf , en bommen die de landingsbanen onbruikbaar maakten zodat onbeschadigde vliegtuigen niet zouden kunnen opstijgen , een gemakkelijk doelwit voor de volgende golf .</sentence>
+</alpino_ds>

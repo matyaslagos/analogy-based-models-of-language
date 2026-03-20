@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="smain" end="15" id="1" rel="--">
+      <node begin="0" cat="cp" end="10" id="2" rel="mod">
+        <node begin="0" conjtype="onder" end="1" id="3" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="Als"/>
+        <node begin="1" cat="ssub" end="10" id="4" rel="body">
+          <node begin="1" cat="np" end="3" id="5" index="1" rel="su">
+            <node begin="1" end="2" id="6" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="7" lemma="munt" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="munt" word="munt"/>
+          </node>
+          <node begin="8" end="9" id="8" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+          <node begin="1" cat="ppart" end="10" id="9" rel="vc">
+            <node begin="1" end="3" id="10" index="1" rel="obj1"/>
+            <node begin="3" cat="conj" end="8" id="11" rel="ld">
+              <node begin="3" cat="pp" end="5" id="12" rel="cnj">
+                <node begin="3" end="4" id="13" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+                <node begin="4" buiging="zonder" end="5" graad="basis" id="14" lemma="links" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="obj1" root="links" word="links"/>
+              </node>
+              <node begin="5" conjtype="neven" end="6" id="15" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+              <node begin="6" cat="pp" end="8" id="16" rel="cnj">
+                <node begin="6" end="7" id="17" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+                <node begin="7" buiging="zonder" end="8" graad="basis" id="18" lemma="rechts" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="obj1" root="rechts" word="rechts"/>
+              </node>
+            </node>
+            <node begin="9" buiging="zonder" end="10" id="19" lemma="draaien" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="draai" word="gedraaid" wvorm="vd"/>
+          </node>
+        </node>
+      </node>
+      <node begin="10" end="11" id="20" lemma="verschijnen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="verschijn" word="verschijnt" wvorm="pv"/>
+      <node begin="11" cat="conj" end="15" id="21" rel="su">
+        <node begin="11" cat="mwu" end="13" id="22" rel="cnj">
+          <node begin="11" end="12" id="23" lemma="Willem" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Willem" spectype="deeleigen" word="Willem"/>
+          <node begin="12" end="13" id="24" lemma="Alexander" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Alexander" spectype="deeleigen" word="Alexander"/>
+        </node>
+        <node begin="13" conjtype="neven" end="14" id="25" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+        <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="26" lemma="Maxima" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Maxima" word="Maxima"/>
+      </node>
+    </node>
+    <node begin="15" end="16" id="27" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Als de munt naar links of naar rechts wordt gedraaid verschijnt Willem Alexander of Maxima .</sentence>
+</alpino_ds>

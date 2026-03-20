@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="sv1" end="12" id="1" rel="--">
+      <node begin="0" end="1" id="2" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="Is" wvorm="pv"/>
+      <node begin="1" cat="np" end="7" id="3" rel="su">
+        <node begin="1" end="2" id="4" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="2" buiging="met-e" end="3" graad="sup" id="5" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="mod" root="nieuw" word="nieuwste"/>
+        <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="6" lemma="versie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="versie" word="versie"/>
+        <node begin="4" cat="pp" end="7" id="7" rel="mod">
+          <node begin="4" end="5" id="8" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="5" cat="mwu" end="7" id="9" rel="obj1">
+            <node begin="5" end="6" id="10" lemma="Nieuwe" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Nieuwe" spectype="deeleigen" word="Nieuwe"/>
+            <node begin="6" end="7" id="11" lemma="Buren" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Buren" spectype="deeleigen" word="Buren"/>
+          </node>
+        </node>
+      </node>
+      <node begin="7" cat="np" end="12" id="12" rel="predc">
+        <node begin="7" end="8" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="DE" word="DE"/>
+        <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="14" lemma="NT2_methode" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="NT2-methode" word="NT2-methode"/>
+        <node begin="9" cat="pp" end="12" id="15" rel="mod">
+          <node begin="9" end="10" id="16" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="10" cat="np" end="12" id="17" rel="obj1">
+            <node begin="10" buiging="met-e" end="11" graad="basis" id="18" lemma="succesvol" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="succesvol" word="succesvolle"/>
+            <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="19" lemma="inburgering" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="inburgering" word="inburgering"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" id="20" lemma="?" pos="punct" postag="LET()" pt="let" rel="--" root="?" word="?"/>
+  </node>
+  <sentence>Is de nieuwste versie van Nieuwe Buren DE NT2-methode voor succesvolle inburgering ?</sentence>
+</alpino_ds>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="10" id="0" rel="top">
+    <node begin="0" cat="smain" end="9" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" buiging="met-e" end="1" graad="basis" id="3" lemma="bekend" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="bekend" word="Bekende"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="4" lemma="leermeester" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="leermeester" word="leermeesters"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="zijn" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="ben" word="waren" wvorm="pv"/>
+      <node begin="3" cat="conj" end="9" id="6" rel="predc">
+        <node begin="3" cat="mwu" end="5" id="7" rel="cnj">
+          <node begin="3" end="4" id="8" lemma="Mahasi" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Mahasi" spectype="deeleigen" word="Mahasi"/>
+          <node begin="4" end="5" id="9" lemma="Sayadaw" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Sayadaw" spectype="deeleigen" word="Sayadaw"/>
+        </node>
+        <node begin="5" conjtype="neven" end="6" id="10" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="6" cat="mwu" end="9" id="11" rel="cnj">
+          <node begin="6" end="7" id="12" lemma="U" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="U" spectype="deeleigen" word="U"/>
+          <node begin="7" end="8" id="13" lemma="Ba" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Ba" spectype="deeleigen" word="Ba"/>
+          <node begin="8" end="9" id="14" lemma="Khin" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Khin" spectype="deeleigen" word="Khin"/>
+        </node>
+      </node>
+    </node>
+    <node begin="9" end="10" id="15" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Bekende leermeesters waren Mahasi Sayadaw en U Ba Khin .</sentence>
+</alpino_ds>

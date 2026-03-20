@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="34" id="0" rel="top">
+    <node begin="9" end="10" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="17" end="18" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="33" id="3" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="4" lemma="en" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="en" word="En"/>
+      <node begin="1" cat="smain" end="33" id="5" rel="nucl">
+        <node begin="1" cat="pp" end="9" id="6" rel="mod">
+          <node begin="1" end="2" id="7" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+          <node begin="2" end="3" id="8" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="3" cat="whrel" end="9" id="9" rel="obj1">
+            <node begin="3" end="4" getal="getal" id="10" index="1" lemma="wie" naamval="stan" pdtype="pron" persoon="3p" pos="pron" postag="VNW(vb,pron,stan,vol,3p,getal)" pt="vnw" rel="rhd" root="wie" status="vol" vwtype="vb" word="wie"/>
+            <node begin="3" cat="ssub" end="9" id="11" rel="body">
+              <node begin="3" end="4" id="12" index="1" rel="su"/>
+              <node begin="4" end="5" genus="onz" getal="ev" id="13" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="noun" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="obj1" root="het" status="red" vwtype="pers" word="het"/>
+              <node begin="5" end="6" id="14" lemma="liever" pos="adj" postag="BW()" pt="bw" rel="mod" root="lief" word="liever"/>
+              <node begin="6" cat="pp" end="8" id="15" rel="pc">
+                <node begin="6" end="7" id="16" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+                <node begin="7" buiging="zonder" end="8" getal-n="zonder-n" id="17" lemma="kijken" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="obj1" root="kijk" word="kijken" wvorm="inf"/>
+              </node>
+              <node begin="8" end="9" id="18" lemma="houden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="houd" word="houdt" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+        <node begin="10" end="11" id="19" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+        <node begin="11" end="12" getal="getal" id="20" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+        <node begin="12" cat="pp" end="14" id="21" rel="mod">
+          <node begin="12" end="13" id="22" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="23" lemma="Brussel" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Brussel" word="Brussel"/>
+        </node>
+        <node begin="14" cat="np" end="33" id="24" rel="su">
+          <node begin="14" cat="detp" end="16" id="25" rel="det">
+            <node begin="14" buiging="zonder" end="15" graad="basis" id="26" lemma="heel" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="heel" word="heel"/>
+            <node begin="15" end="16" getal="ev" id="27" lemma="wat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(onbep,pron,stan,vol,3o,ev)" pt="vnw" rel="hd" root="wat" status="vol" vwtype="onbep" word="wat"/>
+          </node>
+          <node begin="16" end="17" getal="mv" graad="basis" id="28" lemma="sport_manifestatie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="sport_manifestatie" word="sportmanifestaties"/>
+          <node begin="18" cat="cp" end="33" id="29" rel="mod">
+            <node begin="18" conjtype="onder" end="19" id="30" lemma="zoals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zoals" word="zoals"/>
+            <node begin="19" cat="conj" end="33" id="31" rel="body">
+              <node begin="19" cat="np" end="24" id="32" rel="cnj">
+                <node begin="19" end="20" id="33" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="20" end="21" genus="zijd" getal="ev" graad="basis" id="34" lemma="atletiek_meeting" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="atletiekmeeting" word="atletiekmeeting"/>
+                <node begin="21" cat="mwu" end="24" id="35" rel="app">
+                  <node begin="21" end="22" id="36" lemma="Memorial" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Memorial" spectype="deeleigen" word="Memorial"/>
+                  <node begin="22" end="23" id="37" lemma="Van" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Van" spectype="deeleigen" word="Van"/>
+                  <node begin="23" end="24" id="38" lemma="Damme" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Damme" spectype="deeleigen" word="Damme"/>
+                </node>
+              </node>
+              <node begin="24" conjtype="neven" end="25" id="39" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+              <node begin="25" cat="np" end="33" id="40" rel="cnj">
+                <node begin="25" end="26" id="41" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="26" end="27" genus="zijd" getal="ev" graad="basis" id="42" lemma="wieler_wedstrijd" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="wielerwedstrijd" word="wielerwedstrijd"/>
+                <node begin="27" cat="mwu" end="33" id="43" rel="app">
+                  <node begin="27" end="28" genus="zijd" getal="ev" graad="basis" id="44" lemma="Parijs_Brussel" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Parijs-Brussel" word="Parijs-Brussel"/>
+                  <node begin="28" end="29" id="45" lemma="/" pos="punct" postag="LET()" pt="let" rel="mwp" root="/" word="/"/>
+                  <node begin="29" buiging="met-e" end="30" graad="basis" id="46" lemma="groot" naamval="stan" pos="name" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mwp" root="Grote" word="Grote"/>
+                  <node begin="30" end="31" genus="zijd" getal="ev" graad="basis" id="47" lemma="prijs" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Prijs" word="Prijs"/>
+                  <node begin="31" end="32" id="48" lemma="Eddy" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Eddy" spectype="deeleigen" word="Eddy"/>
+                  <node begin="32" end="33" id="49" lemma="Merckx" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Merckx" spectype="deeleigen" word="Merckx"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="33" end="34" id="50" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>En ook voor wie het liever bij kijken houdt , zijn er in Brussel heel wat sportmanifestaties , zoals de atletiekmeeting Memorial Van Damme of de wielerwedstrijd Parijs-Brussel / Grote Prijs Eddy Merckx .</sentence>
+</alpino_ds>

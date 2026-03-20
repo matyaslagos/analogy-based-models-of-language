@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="14" id="2" rel="--">
+      <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="3" lemma="Lee" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Lee" word="Lee"/>
+      <node begin="1" end="2" id="4" lemma="besluiten" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="besluit" word="besloot" wvorm="pv"/>
+      <node begin="2" cat="pp" end="14" id="5" rel="pc">
+        <node begin="2" end="3" id="6" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" vztype="init" word="tot"/>
+        <node begin="3" cat="np" end="14" id="7" rel="obj1">
+          <node begin="3" end="4" id="8" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="9" lemma="charge" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="charge" word="charge"/>
+          <node begin="5" cat="pp" end="8" id="10" rel="mod">
+            <node begin="5" end="6" id="11" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+            <node begin="6" cat="np" end="8" id="12" rel="obj1">
+              <node begin="6" end="7" id="13" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="14" lemma="midden" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="midden" word="midden"/>
+            </node>
+          </node>
+          <node begin="9" cat="ap" end="14" id="15" rel="mod">
+            <node begin="9" buiging="zonder" end="10" graad="basis" id="16" lemma="recht" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="recht" word="recht"/>
+            <node begin="10" cat="pp" end="14" id="17" rel="mod">
+              <node begin="10" end="11" id="18" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+              <node begin="11" cat="mwu" end="13" id="19" rel="obj1">
+                <node begin="11" end="12" id="20" lemma="Cemetery" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Cemetery" spectype="deeleigen" word="Cemetery"/>
+                <node begin="12" end="13" id="21" lemma="Ridge" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Ridge" spectype="deeleigen" word="Ridge"/>
+              </node>
+              <node begin="13" end="14" id="22" lemma="af" pos="part" postag="VZ(fin)" pt="vz" rel="hdf" root="af" vztype="fin" word="af"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="23" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Lee besloot tot een charge door het midden , recht op Cemetery Ridge af .</sentence>
+</alpino_ds>

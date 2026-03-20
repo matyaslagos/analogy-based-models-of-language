@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="smain" end="12" id="1" rel="--">
+      <node begin="3" end="4" id="2" lemma="worden" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="word" word="werden" wvorm="pv"/>
+      <node begin="7" cat="np" end="11" id="3" index="1" rel="su">
+        <node begin="7" cat="detp" end="10" id="4" rel="det">
+          <node begin="7" cat="mwu" end="9" id="5" rel="mod">
+            <node begin="7" buiging="zonder" end="8" graad="comp" id="6" lemma="veel" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mwp" root="meer" vwtype="onbep" word="meer"/>
+            <node begin="8" conjtype="onder" end="9" id="7" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="mwp" root="dan" word="dan"/>
+          </node>
+          <node begin="9" end="10" id="8" lemma="honderd" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="hd" root="honderd" word="honderd"/>
+        </node>
+        <node begin="10" end="11" getal="mv" graad="basis" id="9" lemma="moslim_burger" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="moslim_burger" word="moslimburgers"/>
+      </node>
+      <node begin="0" cat="ppart" end="12" id="10" rel="vc">
+        <node begin="0" cat="pp" end="3" id="11" rel="mod">
+          <node begin="0" end="1" id="12" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+          <node begin="1" cat="np" end="3" id="13" rel="obj1">
+            <node begin="1" buiging="zonder" end="2" id="14" lemma="dat" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dat" vwtype="aanw" word="dat"/>
+            <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="15" lemma="dorp" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="dorp" word="dorp"/>
+          </node>
+        </node>
+        <node begin="4" cat="pp" end="7" id="16" rel="mod">
+          <node begin="4" end="5" id="17" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="5" cat="np" end="7" id="18" rel="obj1">
+            <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="19" lemma="april" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="april" word="april"/>
+            <node begin="6" end="7" id="20" lemma="1993" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mod" root="1993" word="1993"/>
+          </node>
+        </node>
+        <node begin="7" end="11" id="21" index="1" rel="obj1"/>
+        <node begin="11" buiging="zonder" end="12" id="22" lemma="vermoorden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="vermoord" word="vermoord" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="12" end="13" id="23" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>In dat dorp werden in april 1993 meer dan honderd moslimburgers vermoord .</sentence>
+</alpino_ds>

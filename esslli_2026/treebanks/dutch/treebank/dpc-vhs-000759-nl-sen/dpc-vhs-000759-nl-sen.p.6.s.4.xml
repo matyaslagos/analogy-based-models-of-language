@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="0" cat="smain" end="17" id="1" rel="--">
+      <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="2" lemma="Egmont" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Egmont" word="Egmont"/>
+      <node begin="1" end="2" id="3" lemma="verwijzen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="verwijs" word="verwijst" wvorm="pv"/>
+      <node begin="2" cat="pp" end="6" id="4" rel="mod">
+        <node begin="2" end="3" id="5" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="3" cat="np" end="6" id="6" rel="obj1">
+          <node begin="3" end="4" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="4" end="5" id="8" lemma="één" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="eerste" word="eerste"/>
+          <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="9" lemma="plaats" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="plaats" word="plaats"/>
+        </node>
+      </node>
+      <node begin="6" cat="pp" end="17" id="10" rel="pc">
+        <node begin="6" end="7" id="11" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+        <node begin="7" cat="np" end="17" id="12" rel="obj1">
+          <node begin="7" end="8" id="13" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="8" buiging="met-e" end="9" id="14" lemma="groeien" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="groei" word="groeiende" wvorm="od"/>
+          <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="15" lemma="Egmont" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" root="Egmont" word="Egmont"/>
+          <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="16" lemma="complex" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="complex" word="complex"/>
+          <node begin="11" cat="rel" end="17" id="17" rel="mod">
+            <node begin="11" end="12" getal="ev" id="18" index="1" lemma="dat" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(betr,pron,stan,vol,3,ev)" pt="vnw" rel="rhd" root="dat" status="vol" vwtype="betr" word="dat"/>
+            <node begin="11" cat="ssub" end="17" id="19" rel="body">
+              <node begin="11" end="12" id="20" index="1" rel="su"/>
+              <node begin="12" end="13" getal="getal" id="21" lemma="zich" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="se" root="zich" status="red" vwtype="refl" word="zich"/>
+              <node begin="13" cat="pp" end="16" id="22" rel="mod">
+                <node begin="13" end="14" id="23" lemma="rond" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="rond" vztype="init" word="rond"/>
+                <node begin="14" cat="mwu" end="16" id="24" rel="obj1">
+                  <node begin="14" buiging="met-e" end="15" graad="basis" id="25" lemma="buitenlands" naamval="stan" pos="name" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mwp" root="Buitenlandse" word="Buitenlandse"/>
+                  <node begin="15" end="16" getal="mv" graad="basis" id="26" lemma="zaak" ntype="soort" pos="name" postag="N(soort,mv,basis)" pt="n" rel="mwp" root="Zaken" word="Zaken"/>
+                </node>
+              </node>
+              <node begin="16" end="17" id="27" lemma="ontwikkelen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ontwikkel" word="ontwikkelt" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="28" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Egmont verwijst in de eerste plaats naar het groeiende Egmont complex dat zich rond Buitenlandse Zaken ontwikkelt .</sentence>
+</alpino_ds>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="9" end="10" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="10" end="11" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="18" id="4" rel="--">
+      <node begin="0" cat="np" end="2" id="5" rel="su">
+        <node begin="0" buiging="met-e" end="1" id="6" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="Deze"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="7" lemma="instrumentering" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="instrumentering" word="instrumentering"/>
+      </node>
+      <node begin="2" end="3" id="8" lemma="maken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="maak" word="maakt" wvorm="pv"/>
+      <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="9" lemma="gebruik" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="gebruik" word="gebruik"/>
+      <node begin="4" cat="pp" end="18" id="10" rel="pc">
+        <node begin="4" end="5" id="11" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+        <node begin="5" cat="np" end="18" id="12" rel="obj1">
+          <node begin="5" end="6" getal="mv" graad="basis" id="13" lemma="AI_techniek" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="AI_techniek" word="AI-technieken"/>
+          <node begin="7" cat="mwu" end="9" id="14" rel="mod">
+            <node begin="7" buiging="met-e" end="8" graad="basis" id="15" lemma="artificieel" naamval="stan" pos="name" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mwp" root="Artificiële" word="Artificiële"/>
+            <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="16" lemma="intelligentie" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Intelligentie" word="Intelligentie"/>
+          </node>
+          <node begin="11" cat="rel" end="18" id="17" rel="mod">
+            <node begin="11" end="12" getal="getal" id="18" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+            <node begin="11" cat="ssub" end="18" id="19" rel="body">
+              <node begin="11" end="12" id="20" index="1" rel="su"/>
+              <node begin="12" cat="np" end="14" id="21" rel="obj1">
+                <node begin="12" end="13" id="22" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="13" end="14" getal="mv" graad="basis" id="23" lemma="robot" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="robot" word="robots"/>
+              </node>
+              <node begin="14" cat="pp" end="17" id="24" rel="pc">
+                <node begin="14" end="15" id="25" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+                <node begin="15" cat="np" end="17" id="26" rel="obj1">
+                  <node begin="15" buiging="zonder" end="16" graad="basis" id="27" lemma="eigen" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="eigen" word="eigen"/>
+                  <node begin="16" end="17" getal="mv" graad="basis" id="28" lemma="algoritme" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="algoritme" word="algoritmen"/>
+                </node>
+              </node>
+              <node begin="17" end="18" id="29" lemma="uit_rusten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="rust_uit" word="uitrust" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="30" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Deze instrumentering maakt gebruik van AI-technieken ( Artificiële Intelligentie ) , die de robots met eigen algoritmen uitrust .</sentence>
+</alpino_ds>

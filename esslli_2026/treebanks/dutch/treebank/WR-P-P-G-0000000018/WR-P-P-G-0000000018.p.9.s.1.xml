@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="11" end="12" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="19" id="3" rel="--">
+      <node begin="0" cat="np" end="2" id="4" rel="su">
+        <node begin="0" end="1" genus="onz" getal="ev" graad="basis" id="5" lemma="artikel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="artikel" word="Artikel"/>
+        <node begin="1" end="2" id="6" lemma="2" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="app" root="2" word="2"/>
+      </node>
+      <node begin="2" end="3" id="7" lemma="beogen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="beoog" word="beoogt" wvorm="pv"/>
+      <node begin="3" cat="np" end="19" id="8" rel="obj1">
+        <node begin="3" end="4" id="9" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="10" lemma="wijziging" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="wijziging" word="wijziging"/>
+        <node begin="5" cat="pp" end="19" id="11" rel="mod">
+          <node begin="5" end="6" id="12" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="6" cat="np" end="19" id="13" rel="obj1">
+            <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="14" lemma="artikel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="artikel" word="artikel"/>
+            <node begin="7" end="8" id="15" lemma="3" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="app" root="3" word="3"/>
+            <node begin="9" cat="np" end="11" id="16" rel="app">
+              <node begin="9" end="10" id="17" lemma="één" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="eerste" word="eerste"/>
+              <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="18" lemma="lid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="lid" word="lid"/>
+            </node>
+            <node begin="12" cat="pp" end="19" id="19" rel="mod">
+              <node begin="12" end="13" id="20" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="13" cat="np" end="19" id="21" rel="obj1">
+                <node begin="13" end="14" id="22" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="23" lemma="wapen_wet" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="wapen_wet" word="wapenwet"/>
+                <node begin="15" cat="pp" end="19" id="24" rel="mod">
+                  <node begin="15" end="16" id="25" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                  <node begin="16" cat="mwu" end="19" id="26" rel="obj1">
+                    <node begin="16" end="17" id="27" lemma="3" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="3" word="3"/>
+                    <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="28" lemma="januari" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="januari" word="januari"/>
+                    <node begin="18" end="19" id="29" lemma="1933" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="1933" word="1933"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="30" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Artikel 2 beoogt een wijziging van artikel 3 , eerste lid , van de wapenwet van 3 januari 1933 .</sentence>
+</alpino_ds>

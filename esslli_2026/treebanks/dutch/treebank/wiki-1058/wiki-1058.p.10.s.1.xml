@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="conj" end="14" id="2" rel="--">
+      <node begin="2" conjtype="neven" end="3" id="3" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="0" cat="np" end="6" id="4" rel="cnj">
+        <node begin="0" end="1" id="5" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+        <node begin="1" buiging="zonder" end="2" graad="basis" id="6" lemma="klein" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="Klein" word="Klein"/>
+        <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="7" index="1" lemma="Begijnhof" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Begijnhof" word="Begijnhof"/>
+      </node>
+      <node begin="3" cat="np" end="14" id="8" rel="cnj">
+        <node begin="3" end="4" id="9" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+        <node begin="4" buiging="zonder" end="5" graad="basis" id="10" lemma="groot" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="Groot" word="Groot"/>
+        <node begin="5" end="6" id="11" index="1" rel="hd"/>
+        <node begin="7" cat="smain" end="14" id="12" rel="mod">
+          <node begin="7" cat="np" end="9" id="13" rel="su">
+            <node begin="7" buiging="zonder" end="8" id="14" lemma="dit" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dit" vwtype="aanw" word="dit"/>
+            <node begin="8" buiging="met-e" end="9" getal-n="zonder-n" graad="sup" id="15" lemma="laat" naamval="stan" pos="adj" positie="nom" postag="ADJ(nom,sup,met-e,zonder-n,stan)" pt="adj" rel="hd" root="laat" word="laatste"/>
+          </node>
+          <node begin="9" end="10" id="16" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+          <node begin="10" cat="np" end="14" id="17" rel="predc">
+            <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="18" lemma="UNESCO" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" root="UNESCO" word="UNESCO"/>
+            <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="19" lemma="wereld_erfgoed" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="wereld_erf_goed" word="werelderfgoed"/>
+            <node begin="12" cat="mwu" end="14" id="20" rel="app">
+              <node begin="12" end="13" id="21" lemma="ID" pos="name" postag="SPEC(symb)" pt="spec" rel="mwp" root="ID" spectype="symb" word="ID"/>
+              <node begin="13" end="14" id="22" lemma="855-003" numtype="hoofd" pos="name" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="855-003" word="855-003"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="23" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+  </node>
+  <sentence>Het Klein en het Groot Begijnhof ( dit laatste is UNESCO werelderfgoed ID 855-003 )</sentence>
+</alpino_ds>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="0" cat="smain" end="18" id="1" rel="--">
+      <node begin="0" cat="np" end="4" id="2" rel="su">
+        <node begin="0" cat="mwu" end="2" id="3" rel="hd">
+          <node begin="0" end="1" id="4" lemma="Winston" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Winston" spectype="deeleigen" word="Winston"/>
+          <node begin="1" end="2" id="5" lemma="County" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="County" spectype="deeleigen" word="County"/>
+        </node>
+        <node begin="2" cat="pp" end="4" id="6" rel="mod">
+          <node begin="2" end="3" id="7" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="8" lemma="Alabama" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Alabama" word="Alabama"/>
+        </node>
+      </node>
+      <node begin="4" end="5" id="9" lemma="gaan" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ga" word="ging" wvorm="pv"/>
+      <node begin="5" cat="ap" end="18" id="10" rel="predc">
+        <node begin="5" end="6" id="11" lemma="zelfs" pos="adv" postag="BW()" pt="bw" rel="mod" root="zelfs" word="zelfs"/>
+        <node begin="6" end="7" id="12" lemma="zover" pos="adj" postag="BW()" pt="bw" rel="hd" root="zover" word="zover"/>
+        <node begin="7" cat="ti" end="18" id="13" rel="obcomp">
+          <node begin="10" end="11" id="14" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+          <node begin="7" cat="inf" end="18" id="15" rel="body">
+            <node begin="9" end="10" id="16" lemma="uit" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="uit" vztype="fin" word="uit"/>
+            <node begin="11" buiging="zonder" end="12" id="17" lemma="uit_vaardigen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="vaardig_uit" word="vaardigen" wvorm="inf"/>
+            <node begin="7" cat="np" end="18" id="18" rel="obj1">
+              <node begin="7" end="8" id="19" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="20" lemma="proclamatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="proclamatie" word="proclamatie"/>
+              <node begin="12" cat="rel" end="18" id="21" rel="mod">
+                <node begin="12" end="13" id="22" index="1" lemma="waarin" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waarin" word="waarin"/>
+                <node begin="12" cat="ssub" end="18" id="23" rel="body">
+                  <node begin="12" end="13" id="24" index="1" rel="mod"/>
+                  <node begin="13" end="14" genus="onz" getal="ev" id="25" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" root="het" status="red" vwtype="pers" word="het"/>
+                  <node begin="14" end="15" getal="getal" id="26" lemma="zich" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="se" root="zich" status="red" vwtype="refl" word="zich"/>
+                  <node begin="15" end="16" id="27" lemma="af_scheiden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="scheid_af" word="afscheidde" wvorm="pv"/>
+                  <node begin="16" cat="pp" end="18" id="28" rel="pc">
+                    <node begin="16" end="17" id="29" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                    <node begin="17" end="18" genus="onz" getal="ev" graad="basis" id="30" lemma="Alabama" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Alabama" word="Alabama"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="31" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Winston County in Alabama ging zelfs zover een proclamatie uit te vaardigen waarin het zich afscheidde van Alabama .</sentence>
+</alpino_ds>

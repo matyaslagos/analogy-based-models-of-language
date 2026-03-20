@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="8" id="2" rel="--">
+      <node begin="0" end="1" id="3" lemma="vandaag" pos="adv" postag="BW()" pt="bw" rel="mod" root="vandaag" word="Vandaag"/>
+      <node begin="1" end="2" id="4" lemma="beginnen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="begin" word="begint" wvorm="pv"/>
+      <node begin="2" end="3" genus="fem" getal="ev" id="5" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,ev,fem)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="ze"/>
+      <node begin="3" cat="cp" end="8" id="6" rel="predm">
+        <node begin="3" conjtype="onder" end="4" id="7" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+        <node begin="4" cat="np" end="8" id="8" rel="body">
+          <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="9" lemma="ASD&apos;er" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="ASD&apos;er" word="ASD&apos;er"/>
+          <node begin="6" cat="np" end="8" id="10" rel="app">
+            <node begin="6" buiging="zonder" end="7" id="11" lemma="aan_stormen" pos="adj" positie="prenom" postag="WW(od,prenom,zonder)" pt="ww" rel="mod" root="storm_aan" word="aanstormend" wvorm="od"/>
+            <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="12" lemma="docent" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="docent" word="docent"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" id="13" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Vandaag begint ze als ASD&apos;er , aanstormend docent .</sentence>
+</alpino_ds>

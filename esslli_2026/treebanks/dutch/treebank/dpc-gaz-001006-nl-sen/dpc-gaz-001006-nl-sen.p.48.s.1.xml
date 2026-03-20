@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="0" cat="smain" end="18" id="1" rel="--">
+      <node begin="0" cat="np" end="9" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" cat="mwu" end="3" id="4" rel="hd">
+          <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="5" lemma="nano-CT" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="nano-CT" word="nano-CT"/>
+          <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="6" lemma="scanner" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="scanner" word="scanner"/>
+        </node>
+        <node begin="3" cat="pp" end="9" id="7" rel="mod">
+          <node begin="3" end="4" id="8" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="4" cat="np" end="9" id="9" rel="obj1">
+            <node begin="4" end="5" id="10" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="11" lemma="centrum" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="centrum" word="centrum"/>
+            <node begin="6" cat="pp" end="9" id="12" rel="mod">
+              <node begin="6" end="7" id="13" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+              <node begin="7" cat="mwu" end="9" id="14" rel="obj1">
+                <node begin="7" end="8" getal="mv" graad="basis" id="15" lemma="X-straal" ntype="soort" pos="name" postag="N(soort,mv,basis)" pt="n" rel="mwp" root="X-Stralen" word="X-Stralen"/>
+                <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="16" lemma="tomografie" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Tomografie" word="Tomografie"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="9" end="10" id="17" lemma="vertonen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="vertoon" word="vertoont" wvorm="pv"/>
+      <node begin="10" cat="np" end="18" id="18" rel="obj1">
+        <node begin="10" buiging="met-e" end="11" id="19" lemma="enkel" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="enkel" vwtype="onbep" word="enkele"/>
+        <node begin="11" end="12" getal="mv" graad="basis" id="20" lemma="verschil" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="verschil" word="verschillen"/>
+        <node begin="12" cat="pp" end="18" id="21" rel="mod">
+          <node begin="12" end="13" id="22" lemma="ten opzichte van" pos="prep" postag="SPEC(afk)" pt="spec" rel="hd" root="ten_opzichte_van" spectype="afk" word="t.o.v."/>
+          <node begin="13" cat="conj" end="18" id="23" rel="obj1">
+            <node begin="13" end="14" getal="mv" graad="basis" id="24" lemma="ziekenhuis_scanner" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="ziekenhuis_scanner" word="ziekenhuis-scanners"/>
+            <node begin="14" conjtype="neven" end="15" id="25" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="15" cat="np" end="18" id="26" rel="cnj">
+              <node begin="15" buiging="met-e" end="16" graad="basis" id="27" lemma="commercieel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="commercieel" word="commerciële"/>
+              <node begin="16" cat="mwu" end="18" id="28" rel="hd">
+                <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="29" lemma="micro_CT" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="micro_CT" word="micro-CT"/>
+                <node begin="17" end="18" getal="mv" graad="basis" id="30" lemma="scanner" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mwp" root="scanner" word="scanners"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="31" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De nano-CT scanner van het centrum voor X-Stralen Tomografie vertoont enkele verschillen t.o.v. ziekenhuis-scanners en commerciële micro-CT scanners .</sentence>
+</alpino_ds>

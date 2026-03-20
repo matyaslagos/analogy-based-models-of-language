@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="smain" end="15" id="1" rel="--">
+      <node begin="0" cat="np" end="5" id="2" rel="su">
+        <node begin="0" buiging="met-e" end="1" id="3" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="Deze"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="4" lemma="bundel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="bundel" word="bundel"/>
+        <node begin="2" cat="pp" end="5" id="5" rel="mod">
+          <node begin="2" end="3" id="6" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="3" cat="np" end="5" id="7" rel="obj1">
+            <node begin="3" end="4" id="8" lemma="8500" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="8500" word="8500"/>
+            <node begin="4" end="5" getal="mv" graad="basis" id="9" lemma="vers" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vers" word="verzen"/>
+          </node>
+        </node>
+      </node>
+      <node begin="5" end="6" id="10" lemma="laten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="laat" word="laat" wvorm="pv"/>
+      <node begin="6" cat="inf" end="15" id="11" rel="vc">
+        <node begin="6" end="7" getal="getal" id="12" lemma="zich" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="obj1" root="zich" status="red" vwtype="refl" word="zich"/>
+        <node begin="7" buiging="zonder" end="8" id="13" lemma="vergelijken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="vergelijk" word="vergelijken" wvorm="inf"/>
+        <node begin="8" cat="pp" end="15" id="14" rel="pc">
+          <node begin="8" end="9" id="15" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+          <node begin="9" cat="np" end="15" id="16" rel="obj1">
+            <node begin="9" end="10" getal="getal" id="17" lemma="die" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(aanw,pron,stan,vol,3,getal)" pt="vnw" rel="hd" root="die" status="vol" vwtype="aanw" word="die"/>
+            <node begin="10" cat="pp" end="13" id="18" rel="mod">
+              <node begin="10" end="11" id="19" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="11" cat="mwu" end="13" id="20" rel="obj1">
+                <node begin="11" end="12" id="21" lemma="Henricus" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Henricus" spectype="deeleigen" word="Henricus"/>
+                <node begin="12" end="13" id="22" lemma="Neuhusius" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Neuhusius" spectype="deeleigen" word="Neuhusius"/>
+              </node>
+            </node>
+            <node begin="13" cat="pp" end="15" id="23" rel="mod">
+              <node begin="13" end="14" id="24" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" vztype="init" word="uit"/>
+              <node begin="14" end="15" id="25" lemma="1656" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" root="1656" word="1656"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="26" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Deze bundel van 8500 verzen laat zich vergelijken met die van Henricus Neuhusius uit 1656 .</sentence>
+</alpino_ds>

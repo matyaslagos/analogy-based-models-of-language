@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="5" id="0" rel="top">
+    <node begin="0" cat="ppart" end="4" id="1" rel="--">
+      <node begin="0" buiging="zonder" end="1" id="2" lemma="maken" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="gemaakt" word="Gemaakt" wvorm="vd"/>
+      <node begin="1" cat="pp" end="4" id="3" rel="mod">
+        <node begin="1" end="2" id="4" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+        <node begin="2" cat="np" end="4" id="5" rel="obj1">
+          <node begin="2" buiging="met-e" end="3" graad="basis" id="6" lemma="Brits" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Brits" word="Britse"/>
+          <node begin="3" end="4" getal="mv" graad="basis" id="7" lemma="foto_verkenner" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="foto_verkenner" word="fotoverkenners"/>
+        </node>
+      </node>
+    </node>
+    <node begin="4" end="5" id="8" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Gemaakt door Britse fotoverkenners .</sentence>
+</alpino_ds>

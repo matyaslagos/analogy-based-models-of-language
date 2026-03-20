@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="10" id="0" rel="top">
+    <node begin="0" cat="smain" end="9" id="1" rel="--">
+      <node begin="0" end="1" getal="getal" id="2" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="Er"/>
+      <node begin="1" end="2" id="3" lemma="rijzen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="rijs" word="rijzen" wvorm="pv"/>
+      <node begin="2" cat="np" end="9" id="4" rel="su">
+        <node begin="2" end="3" getal="mv" graad="basis" id="5" lemma="twijfel" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="twijfel" word="twijfels"/>
+        <node begin="3" cat="cp" end="9" id="6" rel="vc">
+          <node begin="3" conjtype="onder" end="4" id="7" lemma="of" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="of" word="of"/>
+          <node begin="4" cat="ssub" end="9" id="8" rel="body">
+            <node begin="4" end="5" genus="masc" getal="ev" id="9" index="1" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="hij"/>
+            <node begin="7" end="8" id="10" lemma="zullen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zal" word="zal" wvorm="pv"/>
+            <node begin="4" cat="inf" end="9" id="11" rel="vc">
+              <node begin="4" end="5" id="12" index="1" rel="su"/>
+              <node begin="5" cat="pp" end="7" id="13" rel="mod">
+                <node begin="5" end="6" id="14" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+                <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="15" lemma="tijd" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="tijd" word="tijd"/>
+              </node>
+              <node begin="8" buiging="zonder" end="9" id="16" lemma="aan_komen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="kom_aan" word="aankomen" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="9" end="10" id="17" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Er rijzen twijfels of hij op tijd zal aankomen .</sentence>
+</alpino_ds>

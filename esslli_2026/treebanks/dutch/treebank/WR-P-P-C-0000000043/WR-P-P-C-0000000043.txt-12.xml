@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="0" cat="smain" end="18" id="1" rel="--">
+      <node begin="0" cat="np" end="6" id="2" rel="obj1">
+        <node begin="0" buiging="zonder" end="1" graad="comp" id="3" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,comp)" pt="vnw" rel="det" root="meer" vwtype="onbep" word="Meer"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="4" lemma="informatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="informatie" word="informatie"/>
+        <node begin="2" cat="pp" end="6" id="5" rel="mod">
+          <node begin="2" end="3" id="6" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" vztype="init" word="over"/>
+          <node begin="3" cat="np" end="6" id="7" rel="obj1">
+            <node begin="3" end="4" id="8" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="9" lemma="tegemoetkoming" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="tegemoetkoming" word="tegemoetkoming"/>
+            <node begin="5" end="6" getal="mv" graad="basis" id="10" lemma="ouder" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="app" root="ouder" word="ouders"/>
+          </node>
+        </node>
+      </node>
+      <node begin="6" end="7" id="11" lemma="lezen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="lees" word="leest" wvorm="pv"/>
+      <node begin="7" end="8" getal="getal" id="12" lemma="u" naamval="nomin" pdtype="pron" persoon="2b" pos="pron" postag="VNW(pers,pron,nomin,vol,2b,getal)" pt="vnw" rel="su" root="u" status="vol" vwtype="pers" word="u"/>
+      <node begin="8" cat="pp" end="18" id="13" rel="mod">
+        <node begin="8" end="9" id="14" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="9" cat="np" end="18" id="15" rel="obj1">
+          <node begin="9" end="10" id="16" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="17" lemma="folder" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="folder" word="folder"/>
+          <node begin="11" cat="mwu" end="18" id="18" rel="app">
+            <node begin="11" end="12" getal="getal" id="19" lemma="u" naamval="nomin" pdtype="pron" persoon="2b" pos="name" postag="VNW(pers,pron,nomin,vol,2b,getal)" pt="vnw" rel="mwp" root="U" status="vol" vwtype="pers" word="U"/>
+            <node begin="12" end="13" id="20" lemma="hebben" pos="name" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="mwp" root="hebt" word="hebt" wvorm="pv"/>
+            <node begin="13" buiging="met-e" end="14" id="21" lemma="school_gaan" pos="name" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mwp" root="schoolgaande" word="schoolgaande" wvorm="od"/>
+            <node begin="14" end="15" getal="mv" graad="basis" id="22" lemma="kind" ntype="soort" pos="name" postag="N(soort,mv,basis)" pt="n" rel="mwp" root="kinderen" word="kinderen"/>
+            <node begin="15" end="16" id="23" lemma="onder" pos="name" postag="VZ(init)" pt="vz" rel="mwp" root="onder" vztype="init" word="onder"/>
+            <node begin="16" end="17" id="24" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="name" postag="LID(bep,stan,rest)" pt="lid" rel="mwp" root="de" word="de"/>
+            <node begin="17" end="18" id="25" lemma="18" numtype="hoofd" pos="name" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="18" word="18"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="26" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Meer informatie over de tegemoetkoming ouders leest u in de folder U hebt schoolgaande kinderen onder de 18 .</sentence>
+</alpino_ds>

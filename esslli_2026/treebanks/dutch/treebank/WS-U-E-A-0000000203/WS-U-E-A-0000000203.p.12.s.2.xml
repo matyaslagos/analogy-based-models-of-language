@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="1" end="2" id="2" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" word="hebben" wvorm="pv"/>
+      <node begin="2" cat="np" end="4" id="3" index="1" rel="su">
+        <node begin="2" end="3" getal-n="mv-n" graad="basis" id="4" lemma="honderd_duizend" numtype="hoofd" pos="noun" positie="nom" postag="TW(hoofd,nom,mv-n,basis)" pt="tw" rel="hd" root="honderdduizenden" word="honderdduizenden"/>
+        <node begin="3" end="4" getal="mv" graad="basis" id="5" lemma="vluchteling" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mod" root="vluchteling" word="vluchtelingen"/>
+      </node>
+      <node begin="0" cat="ppart" end="8" id="6" rel="vc">
+        <node begin="0" end="1" getal="getal" id="7" lemma="daar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="mod" root="daar" status="vol" vwtype="aanw" word="Daar"/>
+        <node begin="2" end="4" id="8" index="1" rel="su"/>
+        <node begin="4" cat="np" end="7" id="9" rel="obj1">
+          <node begin="4" end="5" id="10" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="5" buiging="zonder" end="6" graad="basis" id="11" lemma="veilig" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="veilig" word="veilig"/>
+          <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="12" lemma="heenkomen" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="heenkomen" word="heenkomen"/>
+        </node>
+        <node begin="7" buiging="zonder" end="8" id="13" lemma="zoeken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="zoek" word="gezocht" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="14" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Daar hebben honderdduizenden vluchtelingen een veilig heenkomen gezocht .</sentence>
+</alpino_ds>

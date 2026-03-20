@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="10" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="9" id="2" rel="--">
+      <node begin="0" cat="np" end="2" id="3" rel="su">
+        <node begin="0" buiging="zonder" end="1" id="4" lemma="overdekken" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="mod" root="overdekt" word="Overdekt" wvorm="vd"/>
+        <node begin="1" buiging="zonder" end="2" getal-n="zonder-n" id="5" lemma="snowboarden" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="snowboarden" word="snowboarden" wvorm="inf"/>
+      </node>
+      <node begin="2" end="3" id="6" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="3" end="4" id="7" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+      <node begin="4" cat="conj" end="9" id="8" rel="predc">
+        <node begin="4" cat="ap" end="6" id="9" rel="cnj">
+          <node begin="4" buiging="zonder" end="5" graad="basis" id="10" lemma="erg" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="erg" word="erg"/>
+          <node begin="5" buiging="zonder" end="6" graad="basis" id="11" lemma="populair" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="populair" word="populair"/>
+        </node>
+        <node begin="7" conjtype="neven" end="8" id="12" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+        <node begin="8" buiging="zonder" end="9" graad="basis" id="13" lemma="prijzig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="cnj" root="prijzig" word="prijzig"/>
+      </node>
+    </node>
+    <node begin="9" end="10" id="14" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Overdekt snowboarden is ook erg populair , maar prijzig .</sentence>
+</alpino_ds>

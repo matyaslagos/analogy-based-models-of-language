@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="5" end="6" id="2" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="0" cat="np" end="7" id="3" rel="--">
+      <node begin="0" cat="mwu" end="2" id="4" rel="hd">
+        <node begin="0" end="1" id="5" lemma="Magritte" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Magritte" spectype="deeleigen" word="Magritte"/>
+        <node begin="1" end="2" id="6" lemma="Museum" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Museum" spectype="deeleigen" word="Museum"/>
+      </node>
+      <node begin="3" cat="mwu" end="5" id="7" rel="mod">
+        <node begin="3" end="4" id="8" lemma="Esseghemstraat" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Esseghemstraat" spectype="deeleigen" word="Esseghemstraat"/>
+        <node begin="4" end="5" id="9" lemma="135" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="135" spectype="deeleigen" word="135"/>
+      </node>
+      <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="10" lemma="Brussel" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="mod" root="Brussel" word="Brussel"/>
+    </node>
+  </node>
+  <sentence>Magritte Museum - Esseghemstraat 135 - Brussel</sentence>
+</alpino_ds>

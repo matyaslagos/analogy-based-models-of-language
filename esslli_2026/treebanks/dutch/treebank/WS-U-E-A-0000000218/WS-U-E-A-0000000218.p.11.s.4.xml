@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="0" cat="smain" end="21" id="1" rel="--">
+      <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="2" lemma="Allawi" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Allawi" word="Allawi"/>
+      <node begin="1" end="2" id="3" lemma="op_roepen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="roep_op" word="riep" wvorm="pv"/>
+      <node begin="2" cat="np" end="7" id="4" index="1" rel="obj1">
+        <node begin="2" end="3" id="5" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+        <node begin="3" buiging="met-e" end="4" graad="basis" id="6" lemma="opstandig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="opstandig" word="opstandige"/>
+        <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="7" lemma="Mehdi_leger" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Mehdi_leger" word="Mehdi-leger"/>
+        <node begin="5" cat="pp" end="7" id="8" rel="mod">
+          <node begin="5" end="6" id="9" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="10" lemma="al-Sadr" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" root="al-Sadr" word="al-Sadr"/>
+        </node>
+      </node>
+      <node begin="7" end="8" id="11" lemma="op" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="op" vztype="fin" word="op"/>
+      <node begin="2" cat="conj" end="21" id="12" rel="vc">
+        <node begin="2" cat="ti" end="15" id="13" rel="cnj">
+          <node begin="13" end="14" id="14" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+          <node begin="2" cat="inf" end="15" id="15" rel="body">
+            <node begin="2" end="7" id="16" index="1" rel="su"/>
+            <node begin="8" cat="np" end="13" id="17" rel="obj1">
+              <node begin="8" end="9" id="18" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="9" end="10" getal="mv" graad="basis" id="19" lemma="heiligdom" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="heiligdom" word="heiligdommen"/>
+              <node begin="10" cat="pp" end="13" id="20" rel="mod">
+                <node begin="10" end="11" id="21" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                <node begin="11" cat="np" end="13" id="22" rel="obj1">
+                  <node begin="11" end="12" id="23" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="24" lemma="stad" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="stad" word="stad"/>
+                </node>
+              </node>
+            </node>
+            <node begin="14" buiging="zonder" end="15" id="25" lemma="verlaten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="verlaat" word="verlaten" wvorm="inf"/>
+          </node>
+        </node>
+        <node begin="15" conjtype="neven" end="16" id="26" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="2" cat="ti" end="21" id="27" rel="cnj">
+          <node begin="19" end="20" id="28" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+          <node begin="2" cat="inf" end="21" id="29" rel="body">
+            <node begin="2" end="7" id="30" index="1" rel="su"/>
+            <node begin="16" cat="np" end="18" id="31" rel="obj1">
+              <node begin="16" end="17" id="32" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="17" end="18" getal="mv" graad="basis" id="33" lemma="wapen" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="wapen" word="wapens"/>
+            </node>
+            <node begin="18" end="19" id="34" lemma="neer" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="neer" vztype="fin" word="neer"/>
+            <node begin="20" buiging="zonder" end="21" id="35" lemma="neer_leggen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="leg_neer" word="leggen" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="21" end="22" id="36" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Allawi riep het opstandige Mehdi-leger van al-Sadr op de heiligdommen in de stad te verlaten en de wapens neer te leggen .</sentence>
+</alpino_ds>

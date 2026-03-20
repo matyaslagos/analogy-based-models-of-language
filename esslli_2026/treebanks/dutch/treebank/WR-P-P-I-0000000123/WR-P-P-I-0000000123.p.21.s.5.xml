@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="10" end="11" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="14" id="2" rel="--">
+      <node begin="0" end="1" id="3" lemma="daarnaast" pos="pp" postag="BW()" pt="bw" rel="mod" root="daarnaast" word="Daarnaast"/>
+      <node begin="1" end="2" id="4" lemma="in_schakelen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="schakel_in" word="schakelde" wvorm="pv"/>
+      <node begin="2" end="3" genus="fem" getal="ev" id="5" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,ev,fem)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="ze"/>
+      <node begin="7" end="8" id="6" lemma="in" pos="prep" postag="VZ(fin)" pt="vz" rel="svp" root="in" vztype="fin" word="in"/>
+      <node begin="3" cat="np" end="14" id="7" rel="obj1">
+        <node begin="3" end="4" id="8" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="9" lemma="rist" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="rist" word="rist"/>
+        <node begin="5" cat="np" end="14" id="10" rel="mod">
+          <node begin="5" buiging="met-e" end="6" graad="basis" id="11" lemma="tijdelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="tijdelijk" word="tijdelijke"/>
+          <node begin="6" end="7" getal="mv" graad="basis" id="12" lemma="werknemer" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="werknemer" word="werknemers"/>
+          <node begin="8" cat="cp" end="14" id="13" rel="mod">
+            <node begin="8" conjtype="onder" end="9" id="14" lemma="zoals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zoals" word="zoals"/>
+            <node begin="9" cat="conj" end="14" id="15" rel="body">
+              <node begin="9" end="10" getal="mv" graad="basis" id="16" lemma="vaar_man" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="vaar_lieden" word="vaarlui"/>
+              <node begin="11" end="12" getal="mv" graad="basis" id="17" lemma="hotel_uitbater" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="hotel_uitbater" word="hoteluitbaters"/>
+              <node begin="12" conjtype="neven" end="13" id="18" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+              <node begin="13" end="14" getal="mv" graad="basis" id="19" lemma="gids" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="gids" word="gidsen"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="20" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Daarnaast schakelde ze een rist tijdelijke werknemers in zoals vaarlui , hoteluitbaters of gidsen .</sentence>
+</alpino_ds>

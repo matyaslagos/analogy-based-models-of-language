@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="30" id="0" rel="top">
+    <node begin="14" end="15" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="16" end="17" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="17" end="18" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="20" end="21" id="4" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="22" end="23" id="5" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="26" end="27" id="6" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="smain" end="28" id="7" rel="--">
+      <node begin="0" cat="np" end="3" id="8" rel="su">
+        <node begin="0" end="1" id="9" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+        <node begin="1" buiging="met-e" end="2" graad="basis" id="10" lemma="zogenaamd" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="zogenaamd" word="zogenaamde"/>
+        <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="11" lemma="Agusta-Dassault_schandaal" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="Agusta/Dassault_schandaal" word="Agusta/Dassault-schandaal"/>
+      </node>
+      <node begin="3" end="4" id="12" lemma="betekenen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="beteken" word="betekende" wvorm="pv"/>
+      <node begin="4" cat="mwu" end="6" id="13" rel="mod">
+        <node begin="4" end="5" id="14" lemma="onder" pos="adv" postag="VZ(init)" pt="vz" rel="mwp" root="onder" vztype="init" word="onder"/>
+        <node begin="5" buiging="zonder" end="6" graad="comp" id="15" lemma="veel" naamval="stan" pdtype="grad" pos="adv" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mwp" root="meer" vwtype="onbep" word="meer"/>
+      </node>
+      <node begin="6" cat="np" end="28" id="16" rel="obj1">
+        <node begin="6" end="7" id="17" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+        <node begin="7" buiging="met-e" end="8" graad="basis" id="18" lemma="politiek" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="politiek" word="politieke"/>
+        <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="19" lemma="einde" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="einde" word="einde"/>
+        <node begin="9" cat="pp" end="28" id="20" rel="mod">
+          <node begin="9" end="10" id="21" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="10" cat="np" end="28" id="22" rel="obj1">
+            <node begin="10" end="11" id="23" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="11" end="12" getal="mv" graad="basis" id="24" lemma="top_socialist" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="top_socialist" word="topsocialisten"/>
+            <node begin="12" cat="conj" end="28" id="25" rel="app">
+              <node begin="12" cat="np" end="16" id="26" rel="cnj">
+                <node begin="12" cat="mwu" end="14" id="27" rel="hd">
+                  <node begin="12" end="13" id="28" lemma="Willy" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Willy" spectype="deeleigen" word="Willy"/>
+                  <node begin="13" end="14" id="29" lemma="Claes" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Claes" spectype="deeleigen" word="Claes"/>
+                </node>
+                <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="30" lemma="SP" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" root="SP" word="SP"/>
+              </node>
+              <node begin="18" cat="np" end="22" id="31" rel="cnj">
+                <node begin="18" cat="mwu" end="20" id="32" rel="hd">
+                  <node begin="18" end="19" id="33" lemma="Guy" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Guy" spectype="deeleigen" word="Guy"/>
+                  <node begin="19" end="20" id="34" lemma="Coëme" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Coëme" spectype="deeleigen" word="Coëme"/>
+                </node>
+                <node begin="21" end="22" genus="zijd" getal="ev" graad="basis" id="35" lemma="PS" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" root="PS" word="PS"/>
+              </node>
+              <node begin="23" conjtype="neven" end="24" id="36" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="24" cat="np" end="28" id="37" rel="cnj">
+                <node begin="24" cat="mwu" end="26" id="38" rel="hd">
+                  <node begin="24" end="25" id="39" lemma="Guy" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Guy" spectype="deeleigen" word="Guy"/>
+                  <node begin="25" end="26" id="40" lemma="Spitaels" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Spitaels" spectype="deeleigen" word="Spitaels"/>
+                </node>
+                <node begin="27" end="28" genus="zijd" getal="ev" graad="basis" id="41" lemma="PS" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" root="PS" word="PS"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="28" end="29" id="42" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="29" end="30" id="43" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het zogenaamde Agusta/Dassault-schandaal betekende onder meer het politieke einde van de topsocialisten Willy Claes ( SP ) , Guy Coëme ( PS ) en Guy Spitaels ( PS ) .</sentence>
+</alpino_ds>

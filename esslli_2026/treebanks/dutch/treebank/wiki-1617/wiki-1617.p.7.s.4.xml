@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="17" id="2" rel="--">
+      <node begin="0" cat="np" end="5" id="3" rel="su">
+        <node begin="0" end="1" id="4" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" buiging="met-e" end="2" graad="basis" id="5" lemma="huidig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="huidig" word="huidige"/>
+        <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="6" lemma="directeur" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="directeur" word="directeur"/>
+        <node begin="3" cat="pp" end="5" id="7" rel="mod">
+          <node begin="3" end="4" id="8" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="4" end="5" genus="genus" getal="ev" graad="basis" id="9" lemma="Spirit" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="obj1" root="Spirit" word="Spirit"/>
+        </node>
+      </node>
+      <node begin="5" end="6" id="10" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="6" cat="np" end="17" id="11" rel="predc">
+        <node begin="6" cat="mwu" end="8" id="12" rel="hd">
+          <node begin="6" end="7" id="13" lemma="Stijn" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Stijn" spectype="deeleigen" word="Stijn"/>
+          <node begin="7" end="8" id="14" lemma="Coppejans" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Coppejans" spectype="deeleigen" word="Coppejans"/>
+        </node>
+        <node begin="9" cat="conj" end="17" id="15" rel="app">
+          <node begin="9" cat="np" end="13" id="16" rel="cnj">
+            <node begin="9" end="10" id="17" index="1" lemma="tevens" pos="adv" postag="BW()" pt="bw" rel="mod" root="tevens" word="tevens"/>
+            <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="18" lemma="schepen" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="schepen" word="schepen"/>
+            <node begin="11" cat="pp" end="13" id="19" rel="mod">
+              <node begin="11" end="12" id="20" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+              <node begin="12" end="13" genus="onz" getal="ev" graad="basis" id="21" lemma="Kaprijke" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Kaprijke" word="Kaprijke"/>
+            </node>
+          </node>
+          <node begin="13" conjtype="neven" end="14" id="22" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="9" cat="np" end="17" id="23" rel="cnj">
+            <node begin="9" end="10" id="24" index="1" rel="mod"/>
+            <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="25" lemma="oud_voorzitter" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="oud_voorzitter" word="oud-voorzitter"/>
+            <node begin="15" cat="pp" end="17" id="26" rel="mod">
+              <node begin="15" end="16" id="27" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="16" end="17" genus="genus" getal="ev" graad="basis" id="28" lemma="Prego" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="obj1" root="Prego" word="Prego"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="29" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De huidige directeur van Spirit is Stijn Coppejans , tevens schepen in Kaprijke en oud-voorzitter van Prego .</sentence>
+</alpino_ds>

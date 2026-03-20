@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="30" id="0" rel="top">
+    <node begin="9" end="10" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="12" end="13" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="18" end="19" id="3" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="23" end="24" id="4" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="27" end="28" id="5" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="0" cat="smain" end="29" id="6" rel="--">
+      <node begin="19" end="20" id="7" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+      <node begin="20" end="21" getal="ev" id="8" index="1" lemma="dit" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" root="dit" status="vol" vwtype="aanw" word="dit"/>
+      <node begin="0" cat="ppart" end="29" id="9" rel="vc">
+        <node begin="0" cat="pp" end="18" id="10" rel="mod">
+          <node begin="0" end="1" id="11" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" vztype="init" word="Na"/>
+          <node begin="1" cat="np" end="18" id="12" rel="obj1">
+            <node begin="1" end="2" id="13" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="2" buiging="met-e" end="3" graad="basis" id="14" lemma="lang" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="lang" word="lange"/>
+            <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="15" lemma="discussie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="discussie" word="discussie"/>
+            <node begin="4" cat="pp" end="9" id="16" rel="mod">
+              <node begin="4" end="5" id="17" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" vztype="init" word="over"/>
+              <node begin="5" cat="np" end="9" id="18" rel="obj1">
+                <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="19" lemma="invoering" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="invoering" word="invoering"/>
+                <node begin="6" cat="pp" end="9" id="20" rel="mod">
+                  <node begin="6" end="7" id="21" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                  <node begin="7" cat="np" end="9" id="22" rel="obj1">
+                    <node begin="7" end="8" id="23" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                    <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="24" lemma="migrant_stem_recht" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="migrant_stem_recht" word="migrantenstemrecht"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node begin="10" cat="conj" end="18" id="25" rel="mod">
+              <node begin="10" cat="du" end="12" id="26" rel="cnj">
+                <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="27" lemma="VLD" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="dp" root="VLD" word="VLD"/>
+                <node begin="11" end="12" id="28" lemma="tegen" pos="adj" postag="VZ(fin)" pt="vz" rel="dp" root="tegen" vztype="fin" word="tegen"/>
+              </node>
+              <node begin="13" cat="du" end="18" id="29" rel="cnj">
+                <node begin="13" cat="np" end="17" id="30" rel="dp">
+                  <node begin="13" end="14" id="31" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="14" buiging="met-e" end="15" graad="basis" id="32" lemma="ander" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ander" word="andere"/>
+                  <node begin="15" end="16" id="33" lemma="drie" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="drie" word="drie"/>
+                  <node begin="16" end="17" getal="mv" graad="basis" id="34" lemma="coalitie_partner" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="coalitiepartner" word="coalitiepartners"/>
+                </node>
+                <node begin="17" end="18" id="35" lemma="voor" pos="adj" postag="VZ(fin)" pt="vz" rel="dp" root="voor" vztype="fin" word="voor"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="20" end="21" id="36" index="1" rel="obj1"/>
+        <node begin="21" cat="pp" end="23" id="37" rel="mod">
+          <node begin="21" end="22" id="38" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="22" end="23" genus="zijd" getal="ev" graad="basis" id="39" lemma="februari" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" root="februari" word="februari"/>
+        </node>
+        <node begin="24" cat="pp" end="27" id="40" rel="mod">
+          <node begin="24" end="25" id="41" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+          <node begin="25" cat="np" end="27" id="42" rel="obj1">
+            <node begin="25" buiging="zonder" end="26" graad="basis" id="43" lemma="lokaal" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="lokaal" word="lokaal"/>
+            <node begin="26" end="27" genus="onz" getal="ev" graad="basis" id="44" lemma="niveau" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="niveau" word="niveau"/>
+          </node>
+        </node>
+        <node begin="28" buiging="zonder" end="29" id="45" lemma="in_voeren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="voer_in" word="ingevoerd" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="29" end="30" id="46" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Na een lange discussie over invoering van het migrantenstemrecht ( VLD tegen , de andere drie coalitiepartners voor ) werd dit in februari ( op lokaal niveau ) ingevoerd .</sentence>
+</alpino_ds>

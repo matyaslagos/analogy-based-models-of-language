@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="24" id="0" rel="top">
+    <node begin="15" end="16" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="23" id="2" rel="--">
+      <node begin="0" cat="smain" end="15" id="3" rel="cnj">
+        <node begin="5" end="6" id="4" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" word="kán" wvorm="pv"/>
+        <node begin="6" cat="np" end="8" id="5" index="1" rel="su">
+          <node begin="6" end="7" id="6" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="7" lemma="neuroloog" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="neuroloog" word="neuroloog"/>
+        </node>
+        <node begin="0" cat="inf" end="15" id="8" rel="vc">
+          <node begin="0" cat="pp" end="5" id="9" rel="mod">
+            <node begin="0" end="1" id="10" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="Bij"/>
+            <node begin="1" cat="np" end="5" id="11" rel="obj1">
+              <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="12" lemma="wijziging" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="wijziging" word="wijziging"/>
+              <node begin="2" cat="pp" end="5" id="13" rel="mod">
+                <node begin="2" end="3" id="14" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="3" cat="np" end="5" id="15" rel="obj1">
+                  <node begin="3" end="4" id="16" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="4" end="5" getal="mv" graad="basis" id="17" lemma="medicijn" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="medicijn" word="medicijnen"/>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="6" end="8" id="18" index="1" rel="su"/>
+          <node begin="10" buiging="zonder" end="11" id="19" lemma="adviseren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="adviseer" word="adviseren" wvorm="inf"/>
+          <node begin="8" cat="np" end="15" id="20" rel="obj1">
+            <node begin="8" end="9" id="21" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="22" lemma="rij_stop" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="rij_stop" word="rijstop"/>
+            <node begin="11" cat="pp" end="15" id="23" rel="mod">
+              <node begin="11" end="12" id="24" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="12" cat="np" end="15" id="25" rel="obj1">
+                <node begin="12" buiging="zonder" end="13" graad="basis" id="26" lemma="maximaal" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="maximaal" word="maximaal"/>
+                <node begin="13" end="14" id="27" lemma="drie" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="drie" word="drie"/>
+                <node begin="14" end="15" getal="mv" graad="basis" id="28" lemma="maand" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="maand" word="maanden"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="16" conjtype="neven" end="17" id="29" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+      <node begin="17" cat="smain" end="23" id="30" rel="cnj">
+        <node begin="18" end="19" id="31" lemma="zullen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zal" word="zal" wvorm="pv"/>
+        <node begin="19" cat="np" end="21" id="32" index="2" rel="su">
+          <node begin="19" buiging="zonder" end="20" id="33" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="geen"/>
+          <node begin="20" end="21" genus="zijd" getal="ev" graad="basis" id="34" lemma="rij_stop" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="rij_stop" word="rijstop"/>
+        </node>
+        <node begin="17" cat="inf" end="23" id="35" rel="vc">
+          <node begin="17" end="18" id="36" lemma="meestal" pos="adv" postag="BW()" pt="bw" rel="mod" root="meestal" word="meestal"/>
+          <node begin="19" end="21" id="37" index="2" rel="su"/>
+          <node begin="21" buiging="zonder" end="22" graad="basis" id="38" lemma="nodig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="nodig" word="nodig"/>
+          <node begin="22" buiging="zonder" end="23" id="39" lemma="zijn" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ben" word="zijn" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="23" end="24" id="40" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Bij wijziging van de medicijnen kán de neuroloog een rijstop adviseren van maximaal drie maanden , maar meestal zal geen rijstop nodig zijn .</sentence>
+</alpino_ds>

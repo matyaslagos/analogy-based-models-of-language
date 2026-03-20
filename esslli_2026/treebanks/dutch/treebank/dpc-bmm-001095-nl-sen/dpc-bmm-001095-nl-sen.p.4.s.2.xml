@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="smain" end="12" id="2" rel="--">
+      <node begin="3" end="4" id="3" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+      <node begin="4" cat="np" end="6" id="4" index="1" rel="su">
+        <node begin="4" end="5" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="6" lemma="reductie_doelstelling" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="reductie_doelstelling" word="reductiedoelstelling"/>
+      </node>
+      <node begin="0" cat="ppart" end="12" id="7" rel="vc">
+        <node begin="0" cat="pp" end="3" id="8" rel="mod">
+          <node begin="0" end="1" id="9" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="Voor"/>
+          <node begin="1" end="2" genus="genus" getal="ev" graad="basis" id="10" lemma="fosfor" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,genus,stan)" pt="n" rel="obj1" root="fosfor" word="fosfor"/>
+          <node begin="2" end="3" id="11" lemma="daarentegen" pos="adv" postag="BW()" pt="bw" rel="mod" root="daarentegen" word="daarentegen"/>
+        </node>
+        <node begin="4" end="6" id="12" index="1" rel="obj1"/>
+        <node begin="6" buiging="zonder" end="7" graad="basis" id="13" lemma="volledig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="volledig" word="volledig"/>
+        <node begin="7" buiging="zonder" end="8" id="14" lemma="halen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="haal" word="gehaald" wvorm="vd"/>
+        <node begin="9" cat="np" end="12" id="15" rel="mod">
+          <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="16" lemma="vermindering" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="vermindering" word="vermindering"/>
+          <node begin="10" cat="pp" end="12" id="17" rel="mod">
+            <node begin="10" end="11" id="18" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+            <node begin="11" end="12" id="19" lemma="60%" pos="num" postag="SPEC(symb)" pt="spec" rel="obj1" root="60%" spectype="symb" word="60%"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" id="20" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="13" end="14" id="21" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Voor fosfor daarentegen werd de reductiedoelstelling volledig gehaald ( vermindering met 60% ) .</sentence>
+</alpino_ds>

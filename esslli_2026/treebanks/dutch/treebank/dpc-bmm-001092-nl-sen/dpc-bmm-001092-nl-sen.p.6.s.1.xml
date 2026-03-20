@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="9" end="10" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="np" end="19" id="2" rel="--">
+      <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="3" lemma="licht_sterkte" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="licht_sterkte" word="Lichtsterkte"/>
+      <node begin="1" cat="ppart" end="9" id="4" rel="mod">
+        <node begin="1" buiging="zonder" end="2" id="5" lemma="meten" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="gemeten" word="gemeten" wvorm="vd"/>
+        <node begin="2" cat="pp" end="6" id="6" rel="mod">
+          <node begin="2" end="3" id="7" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+          <node begin="3" cat="np" end="6" id="8" rel="obj1">
+            <node begin="3" end="4" id="9" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="4" end="5" genus="genus" getal="ev" graad="basis" id="10" lemma="SeaWiFS" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="mod" root="SeaWiFS" word="SeaWiFS"/>
+            <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="11" lemma="sensor" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="sensor" word="sensor"/>
+          </node>
+        </node>
+        <node begin="6" cat="pp" end="9" id="12" rel="mod">
+          <node begin="6" end="7" id="13" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+          <node begin="7" cat="np" end="9" id="14" rel="obj1">
+            <node begin="7" buiging="met-e" end="8" graad="basis" id="15" lemma="verschillend" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="verschil" word="verschillende"/>
+            <node begin="8" end="9" getal="mv" graad="basis" id="16" lemma="golflengte" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="golflengte" word="golflengtes"/>
+          </node>
+        </node>
+      </node>
+      <node begin="10" cat="ppart" end="19" id="17" rel="mod">
+        <node begin="10" buiging="zonder" end="11" id="18" lemma="toe_passen" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="toegepast" word="toegepast" wvorm="vd"/>
+        <node begin="11" cat="pp" end="19" id="19" rel="pc">
+          <node begin="11" end="12" id="20" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+          <node begin="12" cat="np" end="19" id="21" rel="obj1">
+            <node begin="12" end="13" id="22" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="13" buiging="zonder" end="14" graad="basis" id="23" lemma="zelfde" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="zelfde" word="zelfde"/>
+            <node begin="14" end="15" genus="onz" getal="ev" graad="basis" id="24" lemma="beeld" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="beeld" word="beeld"/>
+            <node begin="15" cat="pp" end="19" id="25" rel="mod">
+              <node begin="15" end="16" id="26" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="16" cat="np" end="19" id="27" rel="obj1">
+                <node begin="16" end="17" id="28" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="17" buiging="met-e" end="18" graad="basis" id="29" lemma="Belgisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Belgisch" word="Belgische"/>
+                <node begin="18" end="19" genus="zijd" getal="ev" graad="basis" id="30" lemma="kust" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="kust" word="kust"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="31" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Lichtsterkte gemeten door de SeaWiFS sensor op verschillende golflengtes , toegepast op een zelfde beeld van de Belgische kust .</sentence>
+</alpino_ds>

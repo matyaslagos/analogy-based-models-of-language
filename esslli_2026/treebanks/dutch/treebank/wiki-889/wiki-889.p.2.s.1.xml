@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="31" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="12" end="13" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="13" end="14" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="17" end="18" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="21" end="22" id="5" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="30" id="6" rel="--">
+      <node begin="0" cat="np" end="21" id="7" rel="su">
+        <node begin="0" cat="mwu" end="7" id="8" rel="hd">
+          <node begin="0" end="1" id="9" lemma="Albert" pos="det" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Albert" spectype="deeleigen" word="Albert"/>
+          <node begin="1" end="2" id="10" lemma="Félix" pos="det" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Félix" spectype="deeleigen" word="Félix"/>
+          <node begin="2" end="3" id="11" lemma="Humbert" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Humbert" spectype="deeleigen" word="Humbert"/>
+          <node begin="3" end="4" id="12" lemma="Théodore" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Théodore" spectype="deeleigen" word="Théodore"/>
+          <node begin="4" end="5" id="13" lemma="Christian" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Christian" spectype="deeleigen" word="Christian"/>
+          <node begin="5" end="6" id="14" lemma="Eugène" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Eugène" spectype="deeleigen" word="Eugène"/>
+          <node begin="6" end="7" id="15" lemma="Marie" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Marie" spectype="deeleigen" word="Marie"/>
+        </node>
+        <node begin="8" cat="du" end="12" id="16" rel="mod">
+          <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="17" lemma="Brussel" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="dp" root="Brussel" word="Brussel"/>
+          <node begin="9" cat="mwu" end="12" id="18" rel="dp">
+            <node begin="9" end="10" id="19" lemma="6" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="6" word="6"/>
+            <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="20" lemma="juni" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="juni" word="juni"/>
+            <node begin="11" end="12" id="21" lemma="1934" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="1934" word="1934"/>
+          </node>
+        </node>
+        <node begin="14" cat="conj" end="21" id="22" rel="app">
+          <node begin="14" cat="mwu" end="17" id="23" rel="cnj">
+            <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="24" lemma="prins" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="prins" word="Prins"/>
+            <node begin="15" end="16" id="25" lemma="van" pos="name" postag="VZ(init)" pt="vz" rel="mwp" root="van" vztype="init" word="van"/>
+            <node begin="16" end="17" genus="onz" getal="ev" graad="basis" id="26" lemma="België" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="mwp" root="België" word="België"/>
+          </node>
+          <node begin="18" cat="mwu" end="21" id="27" rel="cnj">
+            <node begin="18" end="19" genus="zijd" getal="ev" graad="basis" id="28" lemma="prins" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Prins" word="Prins"/>
+            <node begin="19" end="20" id="29" lemma="van" pos="name" postag="VZ(init)" pt="vz" rel="mwp" root="van" vztype="init" word="van"/>
+            <node begin="20" end="21" genus="onz" getal="ev" graad="basis" id="30" lemma="Luik" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="mwp" root="Luik" word="Luik"/>
+          </node>
+        </node>
+      </node>
+      <node begin="22" end="23" id="31" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="23" cat="pp" end="27" id="32" rel="mod">
+        <node begin="23" end="24" id="33" lemma="sinds" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="sinds" vztype="init" word="sinds"/>
+        <node begin="24" cat="mwu" end="27" id="34" rel="obj1">
+          <node begin="24" end="25" id="35" lemma="9" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="9" word="9"/>
+          <node begin="25" end="26" genus="zijd" getal="ev" graad="basis" id="36" lemma="augustus" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="augustus" word="augustus"/>
+          <node begin="26" end="27" id="37" lemma="1993" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="1993" word="1993"/>
+        </node>
+      </node>
+      <node begin="27" cat="mwu" end="30" id="38" rel="predc">
+        <node begin="27" end="28" genus="zijd" getal="ev" graad="basis" id="39" lemma="koning" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Koning" word="Koning"/>
+        <node begin="28" end="29" id="40" lemma="de" lwtype="bep" naamval="gen" npagr="rest3" pos="name" postag="LID(bep,gen,rest3)" pt="lid" rel="mwp" root="der" word="der"/>
+        <node begin="29" end="30" getal="mv" graad="basis" id="41" lemma="Belg" ntype="eigen" pos="name" postag="N(eigen,mv,basis)" pt="n" rel="mwp" root="Belgen" word="Belgen"/>
+      </node>
+    </node>
+    <node begin="30" end="31" id="42" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Albert Félix Humbert Théodore Christian Eugène Marie ( Brussel 6 juni 1934 ) , Prins van België , Prins van Luik , is sinds 9 augustus 1993 Koning der Belgen .</sentence>
+</alpino_ds>

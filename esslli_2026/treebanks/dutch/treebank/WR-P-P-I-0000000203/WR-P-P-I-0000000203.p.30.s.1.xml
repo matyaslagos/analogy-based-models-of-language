@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="24" id="0" rel="top">
+    <node begin="9" end="10" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="13" end="14" id="2" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="du" end="23" id="3" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="4" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" word="Maar"/>
+      <node begin="1" cat="smain" end="23" id="5" rel="nucl">
+        <node begin="1" cat="np" end="9" id="6" rel="su">
+          <node begin="1" buiging="zonder" end="2" getal="ev" id="7" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pt="vnw" rel="det" root="zijn" status="vol" vwtype="bez" word="zijn"/>
+          <node begin="2" buiging="met-e" end="3" graad="sup" id="8" lemma="groot" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="mod" root="groot" word="grootste"/>
+          <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="9" lemma="uitvinding" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="uitvinding" word="uitvinding"/>
+          <node begin="4" cat="rel" end="9" id="10" rel="mod">
+            <node begin="4" end="5" getal="getal" id="11" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+            <node begin="4" cat="ssub" end="9" id="12" rel="body">
+              <node begin="4" end="5" id="13" index="1" rel="su"/>
+              <node begin="5" buiging="zonder" end="6" graad="basis" id="14" lemma="echt" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="echt" word="echt"/>
+              <node begin="6" cat="np" end="8" id="15" rel="obj1">
+                <node begin="6" buiging="met-e" end="7" id="16" lemma="al" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,agr)" pt="vnw" rel="det" root="alle" vwtype="onbep" word="alle"/>
+                <node begin="7" end="8" getal="mv" graad="basis" id="17" lemma="eeuw" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="eeuw" word="eeuwen"/>
+              </node>
+              <node begin="8" end="9" id="18" lemma="trotseren" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="trotseer" word="trotseerde" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+        <node begin="10" end="11" id="19" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+        <node begin="11" cat="np" end="23" id="20" rel="predc">
+          <node begin="11" end="12" id="21" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="22" lemma="Mercator_projectie" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Mercatorprojectie" word="Mercatorprojectie"/>
+          <node begin="14" cat="np" end="23" id="23" rel="app">
+            <node begin="14" end="15" id="24" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="25" lemma="voorstelling" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="voorstelling" word="voorstelling"/>
+            <node begin="16" cat="pp" end="23" id="26" rel="mod">
+              <node begin="16" end="17" id="27" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="17" cat="np" end="23" id="28" rel="obj1">
+                <node begin="17" end="18" id="29" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                <node begin="18" end="19" genus="zijd" getal="ev" graad="basis" id="30" lemma="bol" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="bol" word="bol"/>
+                <node begin="19" cat="pp" end="23" id="31" rel="mod">
+                  <node begin="19" end="20" id="32" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+                  <node begin="20" cat="np" end="23" id="33" rel="obj1">
+                    <node begin="20" end="21" id="34" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                    <node begin="21" buiging="zonder" end="22" graad="basis" id="35" lemma="plat" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="plat" word="plat"/>
+                    <node begin="22" end="23" genus="onz" getal="ev" graad="basis" id="36" lemma="vlak" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="vlak" word="vlak"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="23" end="24" id="37" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Maar zijn grootste uitvinding die echt alle eeuwen trotseerde , was de Mercatorprojectie : de voorstelling van een bol op een plat vlak .</sentence>
+</alpino_ds>

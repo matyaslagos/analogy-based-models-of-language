@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="33" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="7" end="8" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="10" end="11" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="32" id="4" rel="--">
+      <node begin="0" cat="np" end="10" id="5" rel="su">
+        <node begin="0" cat="mwu" end="2" id="6" rel="hd">
+          <node begin="0" end="1" id="7" lemma="Gabby" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Gabby" spectype="deeleigen" word="Gabby"/>
+          <node begin="1" end="2" id="8" lemma="Bron" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Bron" spectype="deeleigen" word="Bron"/>
+        </node>
+        <node begin="3" cat="np" end="7" id="9" rel="app">
+          <node begin="3" end="4" id="10" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="4" buiging="met-e" end="5" graad="basis" id="11" lemma="toenmalig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="toenmalig" word="toenmalige"/>
+          <node begin="5" buiging="met-e" end="6" graad="basis" id="12" lemma="Israëlisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Israëlisch" word="Israëlische"/>
+          <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="13" lemma="reservist" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="reservist" word="reservist"/>
+        </node>
+        <node begin="8" cat="np" end="10" id="14" rel="app">
+          <node begin="8" buiging="zonder" end="9" graad="basis" id="15" lemma="tegenwoordig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="tegenwoordig" word="tegenwoordig"/>
+          <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="16" lemma="journalist" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="journalist" word="journalist"/>
+        </node>
+      </node>
+      <node begin="11" end="12" id="17" lemma="vertellen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="vertel" word="vertelde" wvorm="pv"/>
+      <node begin="12" cat="cp" end="32" id="18" rel="vc">
+        <node begin="12" conjtype="onder" end="13" id="19" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+        <node begin="13" cat="ssub" end="32" id="20" rel="body">
+          <node begin="13" end="14" genus="masc" getal="ev" id="21" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="hij"/>
+          <node begin="14" cat="pp" end="17" id="22" rel="mod">
+            <node begin="14" end="15" id="23" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+            <node begin="15" cat="mwu" end="17" id="24" rel="obj1">
+              <node begin="15" end="16" id="25" lemma="8" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="8" word="8"/>
+              <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="26" lemma="juni" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="juni" word="juni"/>
+            </node>
+          </node>
+          <node begin="18" end="19" id="27" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+          <node begin="17" cat="np" end="24" id="28" rel="predc">
+            <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="29" lemma="getuige" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="getuige" word="getuige"/>
+            <node begin="19" cat="pp" end="24" id="30" rel="mod">
+              <node begin="19" end="20" id="31" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="20" cat="np" end="24" id="32" rel="obj1">
+                <node begin="20" end="21" id="33" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="21" end="22" genus="zijd" getal="ev" graad="basis" id="34" lemma="executie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="executie" word="executie"/>
+                <node begin="22" cat="pp" end="24" id="35" rel="mod">
+                  <node begin="22" end="23" id="36" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                  <node begin="23" buiging="met-e" end="24" getal-n="mv-n" id="37" lemma="krijg_vangen" pos="noun" positie="nom" postag="WW(vd,nom,met-e,mv-n)" pt="ww" rel="obj1" root="krijgsgevangene" word="krijgsgevangenen" wvorm="vd"/>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="24" cat="pp" end="32" id="38" rel="mod">
+            <node begin="24" end="25" id="39" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="25" cat="np" end="32" id="40" rel="obj1">
+              <node begin="25" end="26" id="41" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="26" end="27" genus="zijd" getal="ev" graad="basis" id="42" lemma="buurt" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="buurt" word="buurt"/>
+              <node begin="27" cat="pp" end="32" id="43" rel="mod">
+                <node begin="27" end="28" id="44" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="28" cat="np" end="32" id="45" rel="obj1">
+                  <node begin="28" end="29" id="46" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                  <node begin="29" end="30" genus="onz" getal="ev" graad="basis" id="47" lemma="vliegveld" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="vliegveld" word="vliegveld"/>
+                  <node begin="30" cat="pp" end="32" id="48" rel="mod">
+                    <node begin="30" end="31" id="49" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                    <node begin="31" end="32" genus="onz" getal="ev" graad="basis" id="50" lemma="al-Arish" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Al-Arish" word="Al-Arish"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="32" end="33" id="51" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Gabby Bron , een toenmalige Israëlische reservist , tegenwoordig journalist , vertelde dat hij op 8 juni getuige was van de executie van krijgsgevangenen in de buurt van het vliegveld van Al-Arish .</sentence>
+</alpino_ds>

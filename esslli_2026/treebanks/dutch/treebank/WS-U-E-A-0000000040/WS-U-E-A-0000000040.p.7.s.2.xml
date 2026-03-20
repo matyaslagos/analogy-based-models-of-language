@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="0" cat="smain" end="16" id="1" rel="--">
+      <node begin="0" cat="ppart" end="9" id="2" rel="mod">
+        <node begin="0" buiging="zonder" end="1" id="3" lemma="dwingen" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="gedwongen" word="Gedwongen" wvorm="vd"/>
+        <node begin="1" cat="pp" end="9" id="4" rel="mod">
+          <node begin="1" end="2" id="5" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+          <node begin="2" cat="conj" end="9" id="6" rel="obj1">
+            <node begin="2" cat="np" end="5" id="7" rel="cnj">
+              <node begin="2" end="3" id="8" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="3" buiging="met-e" end="4" graad="basis" id="9" lemma="fel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="fel" word="felle"/>
+              <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="10" lemma="concurrentie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="concurrentie" word="concurrentie"/>
+            </node>
+            <node begin="5" conjtype="neven" end="6" id="11" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="6" cat="np" end="9" id="12" rel="cnj">
+              <node begin="6" end="7" id="13" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="7" buiging="met-e" end="8" id="14" lemma="dalen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="daal" word="dalende" wvorm="od"/>
+              <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="15" lemma="omzet" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="omzet" word="omzet"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="9" end="10" id="16" lemma="kiezen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="kies" word="kiest" wvorm="pv"/>
+      <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="17" lemma="Philips" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" root="Philips" word="Philips"/>
+      <node begin="11" cat="pp" end="16" id="18" rel="pc">
+        <node begin="11" end="12" id="19" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+        <node begin="12" cat="np" end="16" id="20" rel="obj1">
+          <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="21" lemma="samenwerking" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="samenwerking" word="samenwerking"/>
+          <node begin="13" cat="pp" end="16" id="22" rel="mod">
+            <node begin="13" end="14" id="23" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+            <node begin="14" cat="np" end="16" id="24" rel="obj1">
+              <node begin="14" buiging="met-e" end="15" graad="basis" id="25" lemma="ander" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ander" word="andere"/>
+              <node begin="15" end="16" getal="mv" graad="basis" id="26" lemma="bedrijf" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="bedrijf" word="bedrijven"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="27" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Gedwongen door de felle concurrentie en een dalende omzet kiest Philips voor samenwerking met andere bedrijven .</sentence>
+</alpino_ds>

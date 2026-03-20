@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="du" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="dp">
+        <node begin="0" buiging="met-e" end="1" graad="basis" id="3" lemma="zwaar" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="zwaar" word="Zware"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="4" lemma="nederlaag" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="nederlaag" word="nederlaag"/>
+      </node>
+      <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="5" lemma="Schröder" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="dp" root="Schröder" word="Schröder"/>
+      <node begin="3" cat="pp" end="8" id="6" rel="dp">
+        <node begin="3" end="4" id="7" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+        <node begin="4" cat="np" end="8" id="8" rel="obj1">
+          <node begin="4" end="5" getal-n="zonder-n" id="9" lemma="één" numtype="rang" pos="num" positie="nom" postag="TW(rang,nom,zonder-n)" pt="tw" rel="hd" root="eerste" word="eerste"/>
+          <node begin="5" cat="pp" end="8" id="10" rel="mod">
+            <node begin="5" end="6" id="11" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="6" cat="np" end="8" id="12" rel="obj1">
+              <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="13" lemma="reeks" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="reeks" word="reeks"/>
+              <node begin="7" end="8" getal="mv" graad="basis" id="14" lemma="deelstaat_verkiezing" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mod" root="deelstaat_verkiezing" word="deelstaatverkiezingen"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" id="15" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Zware nederlaag Schröder bij eerste van reeks deelstaatverkiezingen .</sentence>
+</alpino_ds>

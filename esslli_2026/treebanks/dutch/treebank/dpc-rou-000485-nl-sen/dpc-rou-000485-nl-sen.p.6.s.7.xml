@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="17" id="2" rel="--">
+      <node begin="0" end="1" genus="masc" getal="ev" id="3" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="Hij"/>
+      <node begin="1" end="2" id="4" lemma="doen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="doe" word="doet" wvorm="pv"/>
+      <node begin="2" cat="inf" end="7" id="5" rel="vc">
+        <node begin="2" buiging="zonder" end="3" id="6" lemma="verlangen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="verlang" word="verlangen" wvorm="inf"/>
+        <node begin="3" cat="pp" end="7" id="7" rel="pc">
+          <node begin="3" end="4" id="8" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+          <node begin="4" cat="conj" end="7" id="9" rel="obj1">
+            <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="10" lemma="zomer" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="zomer" word="zomer"/>
+            <node begin="5" conjtype="neven" end="6" id="11" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="12" lemma="zon" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="zon" word="zon"/>
+          </node>
+        </node>
+      </node>
+      <node begin="8" cat="cp" end="17" id="13" rel="mod">
+        <node begin="8" conjtype="onder" end="9" id="14" lemma="hoewel" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="hoewel" word="hoewel"/>
+        <node begin="9" cat="ssub" end="17" id="15" rel="body">
+          <node begin="9" cat="np" end="14" id="16" rel="su">
+            <node begin="9" buiging="zonder" end="10" graad="basis" id="17" lemma="open" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="open" word="open"/>
+            <node begin="10" buiging="zonder" end="11" getal-n="zonder-n" id="18" lemma="rijden" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="rijd" word="rijden" wvorm="inf"/>
+            <node begin="11" cat="pp" end="14" id="19" rel="mod">
+              <node begin="11" end="12" id="20" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+              <node begin="12" cat="np" end="14" id="21" rel="obj1">
+                <node begin="12" buiging="met-e" end="13" graad="basis" id="22" lemma="vol" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="vol" word="volle"/>
+                <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="23" lemma="zon" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="zon" word="zon"/>
+              </node>
+            </node>
+          </node>
+          <node begin="14" buiging="zonder" end="15" id="24" lemma="garanderen" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="mod" root="gegarandeerd" word="gegarandeerd" wvorm="vd"/>
+          <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="25" lemma="zonnebrand" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="zonnebrand" word="zonnebrand"/>
+          <node begin="16" end="17" id="26" lemma="op_leveren" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="lever_op" word="oplevert" wvorm="pv"/>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="27" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Hij doet verlangen naar zomer en zon , hoewel open rijden in volle zon gegarandeerd zonnebrand oplevert .</sentence>
+</alpino_ds>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="smain" end="5" id="1" rel="--">
+      <node begin="0" cat="mwu" end="2" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="Jeff" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Jeff" spectype="deeleigen" word="Jeff"/>
+        <node begin="1" end="2" id="4" lemma="Broeckx" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Broeckx" spectype="deeleigen" word="Broeckx"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="verzorgen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="verzorg" word="verzorgde" wvorm="pv"/>
+      <node begin="3" cat="np" end="5" id="6" rel="obj1">
+        <node begin="3" end="4" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="4" end="5" getal="mv" graad="basis" id="8" lemma="tekening" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="tekening" word="tekeningen"/>
+      </node>
+    </node>
+    <node begin="5" end="6" id="9" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Jeff Broeckx verzorgde de tekeningen .</sentence>
+</alpino_ds>

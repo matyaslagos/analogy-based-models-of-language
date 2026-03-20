@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="du" end="11" id="2" rel="--">
+      <node begin="0" cat="mwu" end="2" id="3" rel="dp">
+        <node begin="0" end="1" id="4" lemma="Noord" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Noord" spectype="deeleigen" word="Noord"/>
+        <node begin="1" end="2" id="5" lemma="Luzon" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Luzon" spectype="deeleigen" word="Luzon"/>
+      </node>
+      <node begin="3" cat="smain" end="11" id="6" rel="dp">
+        <node begin="3" cat="pp" end="7" id="7" rel="mod">
+          <node begin="3" end="4" id="8" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+          <node begin="4" cat="np" end="7" id="9" rel="obj1">
+            <node begin="4" end="5" id="10" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="5" buiging="met-e" end="6" graad="basis" id="11" lemma="noord_oostelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="noord_oostelijk" word="noord-oostelijke"/>
+            <node begin="6" end="7" getal="mv" graad="basis" id="12" lemma="provincie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="provincie" word="provincies"/>
+          </node>
+        </node>
+        <node begin="7" end="8" id="13" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+        <node begin="8" cat="np" end="10" id="14" rel="su">
+          <node begin="8" buiging="met-e" end="9" graad="basis" id="15" lemma="communistisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="communistisch" word="communistische"/>
+          <node begin="9" end="10" getal="mv" graad="basis" id="16" lemma="rebel" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="rebel" word="rebellen"/>
+        </node>
+        <node begin="10" buiging="zonder" end="11" graad="basis" id="17" lemma="actief" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="actief" word="actief"/>
+      </node>
+    </node>
+    <node begin="11" end="12" id="18" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Noord Luzon : In de noord-oostelijke provincies zijn communistische rebellen actief .</sentence>
+</alpino_ds>

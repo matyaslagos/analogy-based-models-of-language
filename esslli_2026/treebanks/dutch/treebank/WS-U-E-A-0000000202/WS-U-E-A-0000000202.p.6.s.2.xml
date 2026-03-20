@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="du" end="8" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="en" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="en" word="En"/>
+      <node begin="1" cat="smain" end="8" id="3" rel="nucl">
+        <node begin="1" end="2" id="4" lemma="daarmee" pos="pp" postag="BW()" pt="bw" rel="mod" root="daarmee" word="daarmee"/>
+        <node begin="2" end="3" id="5" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="3" cat="np" end="7" id="6" rel="su">
+          <node begin="3" end="4" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="4" end="5" id="8" lemma="88" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="88ste" word="88ste"/>
+          <node begin="5" buiging="met-e" end="6" graad="basis" id="9" lemma="Nijmeegs" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Nijmeegs" word="Nijmeegse"/>
+          <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="10" lemma="Vierdaagse" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Vierdaagse" word="Vierdaagse"/>
+        </node>
+        <node begin="7" buiging="zonder" end="8" graad="basis" id="11" lemma="voorbij" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="voorbij" word="voorbij"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="12" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>En daarmee is de 88ste Nijmeegse Vierdaagse voorbij .</sentence>
+</alpino_ds>

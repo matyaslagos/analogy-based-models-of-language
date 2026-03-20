@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="10" end="11" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="16" id="2" rel="--">
+      <node begin="0" end="1" genus="onz" getal="ev" id="3" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="noun" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="sup" root="het" status="red" vwtype="pers" word="Het"/>
+      <node begin="1" end="2" id="4" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="2" end="3" id="5" lemma="daarom" pos="pp" postag="BW()" pt="bw" rel="mod" root="daarom" word="daarom"/>
+      <node begin="3" buiging="zonder" end="4" graad="basis" id="6" lemma="raadzaam" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="raadzaam" word="raadzaam"/>
+      <node begin="4" cat="ti" end="16" id="7" rel="su">
+        <node begin="8" end="9" id="8" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+        <node begin="4" cat="inf" end="16" id="9" rel="body">
+          <node begin="7" end="8" id="10" lemma="mee" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="mee" vztype="fin" word="mee"/>
+          <node begin="9" buiging="zonder" end="10" id="11" lemma="mee_nemen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="neem_mee" word="nemen" wvorm="inf"/>
+          <node begin="4" cat="np" end="16" id="12" rel="obj1">
+            <node begin="4" cat="ap" end="6" id="13" rel="mod">
+              <node begin="4" buiging="zonder" end="5" graad="basis" id="14" lemma="voldoende" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="voldoende" word="voldoende"/>
+              <node begin="5" buiging="zonder" end="6" graad="basis" id="15" lemma="contant" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="hd" root="contant" word="contant"/>
+            </node>
+            <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="16" lemma="geld" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="geld" word="geld"/>
+            <node begin="11" cat="cp" end="16" id="17" rel="mod">
+              <node begin="11" conjtype="onder" end="12" id="18" lemma="zoals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zoals" word="zoals"/>
+              <node begin="12" cat="conj" end="16" id="19" rel="body">
+                <node begin="12" end="13" getal="mv" graad="basis" id="20" lemma="euro" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="euro" word="euro&apos;s"/>
+                <node begin="13" conjtype="neven" end="14" id="21" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+                <node begin="14" cat="np" end="16" id="22" rel="cnj">
+                  <node begin="14" buiging="met-e" end="15" graad="basis" id="23" lemma="Amerikaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Amerikaans" word="Amerikaanse"/>
+                  <node begin="15" end="16" getal="mv" graad="basis" id="24" lemma="dollar" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="dollar" word="dollars"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="25" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het is daarom raadzaam voldoende contant geld mee te nemen , zoals euro&apos;s of Amerikaanse dollars .</sentence>
+</alpino_ds>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="25" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="5" end="6" id="2" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="16" end="17" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="24" id="4" rel="--">
+      <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="5" lemma="Brel" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Brel" word="Brel"/>
+      <node begin="1" end="2" id="6" lemma="beschrijven" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="beschrijf" word="beschrijft" wvorm="pv"/>
+      <node begin="2" cat="pp" end="5" id="7" rel="mod">
+        <node begin="2" end="3" id="8" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="9" lemma="Orly" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Orly" word="Orly"/>
+      </node>
+      <node begin="6" buiging="zonder" end="7" graad="basis" id="10" lemma="minutieus" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="minutieus" word="minutieus"/>
+      <node begin="7" cat="whsub" end="24" id="11" rel="vc">
+        <node begin="7" end="8" id="12" index="1" lemma="hoe" pos="adj" postag="BW()" pt="bw" rel="whd" root="hoe" word="hoe"/>
+        <node begin="7" cat="ssub" end="24" id="13" rel="body">
+          <node begin="7" end="8" id="14" index="1" rel="mod"/>
+          <node begin="8" cat="np" end="10" id="15" rel="su">
+            <node begin="8" end="9" id="16" lemma="twee" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="twee" word="twee"/>
+            <node begin="9" end="10" getal="mv" graad="basis" id="17" lemma="geliefde" ntype="soort" pos="adj" postag="N(soort,mv,basis)" pt="n" rel="hd" root="geliefd" word="geliefden"/>
+          </node>
+          <node begin="10" end="11" getal="mv" id="18" lemma="elkaar" naamval="obl" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(recip,pron,obl,vol,persoon,mv)" pt="vnw" rel="obj2" root="elkaar" status="vol" vwtype="recip" word="elkaar"/>
+          <node begin="11" cat="pp" end="14" id="19" rel="mod">
+            <node begin="11" end="12" id="20" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+            <node begin="12" cat="np" end="14" id="21" rel="obj1">
+              <node begin="12" end="13" id="22" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="23" lemma="vliegveld" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="vliegveld" word="vliegveld"/>
+            </node>
+          </node>
+          <node begin="14" end="15" genus="onz" getal="ev" graad="basis" id="24" lemma="vaarwel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="vaarwel" word="vaarwel"/>
+          <node begin="15" end="16" id="25" lemma="zeggen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="zeg" word="zeggen" wvorm="pv"/>
+          <node begin="17" cat="cp" end="24" id="26" rel="mod">
+            <node begin="17" conjtype="onder" end="18" id="27" lemma="terwijl" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="terwijl" word="terwijl"/>
+            <node begin="18" cat="ssub" end="24" id="28" rel="body">
+              <node begin="18" end="19" genus="masc" getal="ev" id="29" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="hij"/>
+              <node begin="19" end="20" getal="mv" id="30" lemma="hen" naamval="obl" pdtype="pron" persoon="3p" pos="pron" postag="VNW(pers,pron,obl,vol,3p,mv)" pt="vnw" rel="obj1" root="hen" status="vol" vwtype="pers" word="hen"/>
+              <node begin="20" cat="pp" end="23" id="31" rel="mod">
+                <node begin="20" end="21" id="32" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="21" cat="np" end="23" id="33" rel="obj1">
+                  <node begin="21" end="22" id="34" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                  <node begin="22" end="23" genus="zijd" getal="ev" graad="basis" id="35" lemma="afstand" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="afstand" word="afstand"/>
+                </node>
+              </node>
+              <node begin="23" end="24" id="36" lemma="gade_slaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="sla_gade" word="gadeslaat" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="24" end="25" id="37" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Brel beschrijft in &apos; Orly &apos; minutieus hoe twee geliefden elkaar op het vliegveld vaarwel zeggen , terwijl hij hen van een afstand gadeslaat .</sentence>
+</alpino_ds>

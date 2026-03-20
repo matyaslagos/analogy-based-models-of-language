@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="12" id="2" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="3" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" word="Maar"/>
+      <node begin="1" cat="du" end="12" id="4" rel="nucl">
+        <node begin="1" cat="cp" end="5" id="5" rel="sat">
+          <node begin="1" conjtype="onder" end="2" id="6" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+          <node begin="2" cat="ssub" end="5" id="7" rel="body">
+            <node begin="2" end="3" getal="mv" id="8" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="ze"/>
+            <node begin="3" end="4" genus="onz" getal="ev" id="9" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="obj1" root="het" status="red" vwtype="pers" word="het"/>
+            <node begin="4" end="5" id="10" lemma="doen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="doe" word="doen" wvorm="pv"/>
+          </node>
+        </node>
+        <node begin="6" cat="smain" end="12" id="11" rel="nucl">
+          <node begin="7" end="8" id="12" lemma="zullen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zal" word="zal" wvorm="pv"/>
+          <node begin="8" end="9" genus="onz" getal="ev" id="13" index="1" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" root="het" status="red" vwtype="pers" word="het"/>
+          <node begin="6" cat="inf" end="12" id="14" rel="vc">
+            <node begin="6" end="7" id="15" lemma="dan" pos="adv" postag="BW()" pt="bw" rel="mod" root="dan" word="dan"/>
+            <node begin="8" end="9" id="16" index="1" rel="su"/>
+            <node begin="9" end="10" getal="mv" id="17" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="obj2" root="ze" status="red" vwtype="pers" word="ze"/>
+            <node begin="10" buiging="zonder" end="11" graad="basis" id="18" lemma="zuur" pos="fixed" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="zuur" word="zuur"/>
+            <node begin="11" buiging="zonder" end="12" id="19" lemma="op_breken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="breek_op" word="opbreken" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" id="20" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Maar als ze het doen , dan zal het ze zuur opbreken .</sentence>
+</alpino_ds>

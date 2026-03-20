@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="9" end="10" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="13" end="14" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="20" id="3" rel="--">
+      <node begin="0" cat="smain" end="13" id="4" rel="nucl">
+        <node begin="0" cat="np" end="2" id="5" index="1" rel="su">
+          <node begin="0" buiging="met-e" end="1" id="6" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="Deze"/>
+          <node begin="1" end="2" getal="mv" graad="basis" id="7" lemma="groep" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="groep" word="groepen"/>
+        </node>
+        <node begin="2" end="3" id="8" lemma="kunnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kan" word="kunnen" wvorm="pv"/>
+        <node begin="0" cat="inf" end="13" id="9" rel="vc">
+          <node begin="0" end="2" id="10" index="1" rel="su"/>
+          <node begin="5" buiging="zonder" end="6" id="11" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+          <node begin="0" cat="ppart" end="13" id="12" rel="vc">
+            <node begin="0" end="2" id="13" index="1" rel="obj1"/>
+            <node begin="3" buiging="zonder" end="4" graad="comp" id="14" lemma="goed" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="goed" word="beter"/>
+            <node begin="4" buiging="zonder" end="5" id="15" lemma="bedienen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="bedien" word="bediend" wvorm="vd"/>
+            <node begin="6" cat="pp" end="13" id="16" rel="mod">
+              <node begin="6" end="7" id="17" lemma="via" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="via" vztype="init" word="via"/>
+              <node begin="7" cat="np" end="13" id="18" rel="obj1">
+                <node begin="7" buiging="met-e" end="8" graad="basis" id="19" lemma="regulier" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="regulier" word="reguliere"/>
+                <node begin="8" end="9" getal="mv" graad="basis" id="20" lemma="kanaal" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kanaal" word="kanalen"/>
+                <node begin="10" cat="cp" end="13" id="21" rel="mod">
+                  <node begin="10" conjtype="onder" end="11" id="22" lemma="zoals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zoals" word="zoals"/>
+                  <node begin="11" cat="np" end="13" id="23" rel="body">
+                    <node begin="11" buiging="met-e" end="12" graad="basis" id="24" lemma="openbaar" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="openbaar" word="openbare"/>
+                    <node begin="12" end="13" getal="mv" graad="basis" id="25" lemma="bibliotheek" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="bibliotheek" word="bibliotheken"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="14" cat="smain" end="20" id="26" rel="tag">
+        <node begin="14" end="15" id="27" lemma="zo" pos="adv" postag="BW()" pt="bw" rel="su" root="zo" word="zo"/>
+        <node begin="15" end="16" id="28" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="16" cat="np" end="20" id="29" rel="predc">
+          <node begin="16" end="17" id="30" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="31" lemma="conclusie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="conclusie" word="conclusie"/>
+          <node begin="18" cat="pp" end="20" id="32" rel="mod">
+            <node begin="18" end="19" id="33" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" vztype="init" word="uit"/>
+            <node begin="19" end="20" genus="onz" getal="ev" graad="basis" id="34" lemma="onderzoek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="onderzoek" word="onderzoek"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="20" end="21" id="35" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Deze groepen kunnen beter bediend worden via reguliere kanalen , zoals openbare bibliotheken , zo is de conclusie uit onderzoek .</sentence>
+</alpino_ds>

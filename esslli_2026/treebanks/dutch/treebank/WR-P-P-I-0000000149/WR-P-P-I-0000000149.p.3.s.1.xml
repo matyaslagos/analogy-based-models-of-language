@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="24" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="13" end="14" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="23" id="3" rel="--">
+      <node begin="0" end="1" getal="mv" graad="basis" id="4" index="1" lemma="studie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="studie" word="Studies"/>
+      <node begin="1" end="2" id="5" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" word="hebben" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="23" id="6" rel="vc">
+        <node begin="0" end="1" id="7" index="1" rel="su"/>
+        <node begin="2" buiging="zonder" end="3" id="8" lemma="aan_tonen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="toon_aan" word="aangetoond" wvorm="vd"/>
+        <node begin="3" cat="cp" end="23" id="9" rel="vc">
+          <node begin="3" conjtype="onder" end="4" id="10" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+          <node begin="4" cat="ssub" end="23" id="11" rel="body">
+            <node begin="4" cat="np" end="13" id="12" index="2" rel="su">
+              <node begin="4" cat="detp" end="6" id="13" rel="det">
+                <node begin="4" end="5" id="14" lemma="nogal" pos="adv" postag="BW()" pt="bw" rel="mod" root="nogal" word="nogal"/>
+                <node begin="5" end="6" getal="ev" id="15" lemma="wat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(onbep,pron,stan,vol,3o,ev)" pt="vnw" rel="hd" root="wat" status="vol" vwtype="onbep" word="wat"/>
+              </node>
+              <node begin="6" end="7" getal="mv" graad="basis" id="16" lemma="probleem" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="probleem" word="problemen"/>
+              <node begin="8" cat="cp" end="13" id="17" rel="mod">
+                <node begin="8" conjtype="onder" end="9" id="18" lemma="zoals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zoals" word="zoals"/>
+                <node begin="9" cat="conj" end="13" id="19" rel="body">
+                  <node begin="9" cat="np" end="11" id="20" rel="cnj">
+                    <node begin="9" buiging="met-e" end="10" graad="basis" id="21" lemma="coronair" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="coronaire" word="coronaire"/>
+                    <node begin="10" end="11" getal="mv" graad="basis" id="22" lemma="vaat_ziekte" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vaat_ziekte" word="vaatziekten"/>
+                  </node>
+                  <node begin="11" conjtype="neven" end="12" id="23" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                  <node begin="12" end="13" getal="mv" graad="basis" id="24" lemma="trombose" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="trombosen" word="trombosen"/>
+                </node>
+              </node>
+            </node>
+            <node begin="16" end="17" id="25" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+            <node begin="4" cat="ti" end="23" id="26" rel="vc">
+              <node begin="14" end="15" id="27" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+              <node begin="4" cat="inf" end="23" id="28" rel="body">
+                <node begin="4" end="13" id="29" index="2" rel="obj1"/>
+                <node begin="15" buiging="zonder" end="16" id="30" lemma="wijten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="wijt" word="wijten" wvorm="inf"/>
+                <node begin="17" cat="pp" end="23" id="31" rel="pc">
+                  <node begin="17" end="18" id="32" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+                  <node begin="18" cat="np" end="23" id="33" rel="obj1">
+                    <node begin="18" buiging="met-e" end="19" graad="comp" id="34" lemma="hoog" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,comp,met-e,stan)" pt="adj" rel="mod" root="hoog" word="hogere"/>
+                    <node begin="19" end="20" getal="mv" graad="basis" id="35" lemma="PAI_concentratie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="PAI_concentratie" word="PAI-concentraties"/>
+                    <node begin="20" cat="pp" end="23" id="36" rel="mod">
+                      <node begin="20" end="21" id="37" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                      <node begin="21" cat="np" end="23" id="38" rel="obj1">
+                        <node begin="21" end="22" id="39" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                        <node begin="22" end="23" genus="onz" getal="ev" graad="basis" id="40" lemma="bloed" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="bloed" word="bloed"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="23" end="24" id="41" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Studies hebben aangetoond dat nogal wat problemen , zoals coronaire vaatziekten en trombosen , te wijten zijn aan hogere PAI-concentraties in het bloed .</sentence>
+</alpino_ds>

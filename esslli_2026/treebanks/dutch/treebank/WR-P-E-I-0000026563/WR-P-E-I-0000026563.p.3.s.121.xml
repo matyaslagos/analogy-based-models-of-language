@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="smain" end="15" id="1" rel="--">
+      <node begin="0" end="1" genus="onz" getal="ev" id="2" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" root="het" status="red" vwtype="pers" word="Het"/>
+      <node begin="1" end="2" id="3" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="2" cat="np" end="15" id="4" rel="predc">
+        <node begin="2" end="3" id="5" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="6" lemma="album" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="album" word="album"/>
+        <node begin="4" cat="rel" end="15" id="7" rel="mod">
+          <node begin="4" end="5" getal="ev" id="8" index="1" lemma="dat" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(betr,pron,stan,vol,3,ev)" pt="vnw" rel="rhd" root="dat" status="vol" vwtype="betr" word="dat"/>
+          <node begin="4" cat="ssub" end="15" id="9" rel="body">
+            <node begin="4" end="5" id="10" index="1" rel="su"/>
+            <node begin="5" end="6" id="11" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+            <node begin="4" cat="ppart" end="15" id="12" rel="vc">
+              <node begin="4" end="5" id="13" index="1" rel="obj1"/>
+              <node begin="6" buiging="zonder" end="7" id="14" lemma="kenmerken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="kenmerk" word="gekenmerkt" wvorm="vd"/>
+              <node begin="7" cat="pp" end="15" id="15" rel="mod">
+                <node begin="7" end="8" id="16" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+                <node begin="8" cat="conj" end="15" id="17" rel="obj1">
+                  <node begin="8" cat="np" end="10" id="18" rel="cnj">
+                    <node begin="8" buiging="met-e" end="9" graad="basis" id="19" lemma="diep" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="diep" word="diepe"/>
+                    <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="20" lemma="funk" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="funk" word="funk"/>
+                  </node>
+                  <node begin="10" conjtype="neven" end="11" id="21" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                  <node begin="11" cat="np" end="15" id="22" rel="cnj">
+                    <node begin="11" end="12" id="23" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                    <node begin="12" buiging="met-e" end="13" graad="basis" id="24" lemma="hoog" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="hoog" word="hoge"/>
+                    <node begin="13" buiging="met-e" end="14" graad="basis" id="25" lemma="seksueel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="seksueel" word="seksuele"/>
+                    <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="26" lemma="lading" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="lading" word="lading"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="27" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het is een album dat wordt gekenmerkt door diepe funk en een hoge seksuele lading .</sentence>
+</alpino_ds>

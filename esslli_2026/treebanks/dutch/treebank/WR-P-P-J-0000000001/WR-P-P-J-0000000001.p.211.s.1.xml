@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="du" end="15" id="1" rel="--">
+      <node begin="0" end="1" id="2" lemma="29" pos="num" postag="SPEC(symb)" pt="spec" rel="tag" root="29" spectype="symb" word="29"/>
+      <node begin="1" cat="smain" end="15" id="3" rel="nucl">
+        <node begin="4" end="5" id="4" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+        <node begin="1" cat="ppart" end="15" id="5" rel="vc">
+          <node begin="1" cat="pp" end="4" id="6" rel="mod">
+            <node begin="1" end="2" id="7" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+            <node begin="2" cat="np" end="4" id="8" rel="obj1">
+              <node begin="2" end="3" id="9" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="10" lemma="WTO_systematiek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="WTO_systematiek" word="WTO-systematiek"/>
+            </node>
+          </node>
+          <node begin="5" cat="pp" end="8" id="11" rel="mod">
+            <node begin="5" end="6" id="12" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+            <node begin="6" cat="np" end="8" id="13" rel="obj1">
+              <node begin="6" buiging="met-e" end="7" graad="basis" id="14" lemma="binnenlands" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="binnenlands" word="binnenlandse"/>
+              <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="15" lemma="steun" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="steun" word="steun"/>
+            </node>
+          </node>
+          <node begin="10" buiging="zonder" end="11" id="16" lemma="maken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="maak" word="gemaakt" wvorm="vd"/>
+          <node begin="8" cat="np" end="15" id="17" index="1" rel="obj1">
+            <node begin="8" end="9" id="18" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="19" lemma="onderscheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="onderscheid" word="onderscheid"/>
+            <node begin="11" cat="pp" end="15" id="20" rel="mod">
+              <node begin="11" end="12" id="21" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" vztype="init" word="tussen"/>
+              <node begin="12" cat="np" end="15" id="22" rel="obj1">
+                <node begin="12" end="13" id="23" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="13" buiging="met-e" end="14" id="24" lemma="volgen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="volg" word="volgende" wvorm="od"/>
+                <node begin="14" end="15" getal="mv" graad="basis" id="25" lemma="categorie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="categorie" word="categorieën"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="8" end="15" id="26" index="1" rel="su"/>
+      </node>
+    </node>
+    <node begin="15" end="16" id="27" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+  </node>
+  <sentence>29 In de WTO-systematiek wordt bij binnenlandse steun een onderscheid gemaakt tussen de volgende categorieën :</sentence>
+</alpino_ds>

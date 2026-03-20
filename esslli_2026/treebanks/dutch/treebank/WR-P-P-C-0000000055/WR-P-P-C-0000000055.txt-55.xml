@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="0" cat="smain" end="16" id="1" rel="--">
+      <node begin="0" end="1" genus="onz" getal="ev" id="2" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="sup" root="het" status="red" vwtype="pers" word="Het"/>
+      <node begin="1" end="2" id="3" lemma="maken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="maak" word="maakt" wvorm="pv"/>
+      <node begin="2" end="3" id="4" lemma="bijvoorbeeld" pos="adv" postag="BW()" pt="bw" rel="mod" root="bijvoorbeeld" word="bijvoorbeeld"/>
+      <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="5" lemma="verschil" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="verschil" word="verschil"/>
+      <node begin="4" cat="conj" end="16" id="6" rel="su">
+        <node begin="4" cat="cp" end="10" id="7" rel="cnj">
+          <node begin="4" conjtype="onder" end="5" id="8" lemma="of" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="of" word="of"/>
+          <node begin="5" cat="ssub" end="10" id="9" rel="body">
+            <node begin="5" end="6" getal="ev" id="10" lemma="iemand" naamval="stan" pdtype="pron" persoon="3p" pos="noun" postag="VNW(onbep,pron,stan,vol,3p,ev)" pt="vnw" rel="su" root="iemand" status="vol" vwtype="onbep" word="iemand"/>
+            <node begin="6" cat="np" end="8" id="11" index="1" rel="obj1">
+              <node begin="6" buiging="zonder" end="7" getal="ev" id="12" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pt="vnw" rel="det" root="zijn" status="vol" vwtype="bez" word="zijn"/>
+              <node begin="7" end="8" getal="mv" graad="basis" id="13" lemma="aanval" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="aanval" word="aanvallen"/>
+            </node>
+            <node begin="8" end="9" id="14" lemma="voelen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="voel" word="voelt" wvorm="pv"/>
+            <node begin="6" cat="inf" end="10" id="15" rel="vc">
+              <node begin="6" end="8" id="16" index="1" rel="su"/>
+              <node begin="9" buiging="zonder" end="10" id="17" lemma="aan_komen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="kom_aan" word="aankomen" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+        <node begin="10" conjtype="neven" end="11" id="18" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="11" cat="whsub" end="16" id="19" rel="cnj">
+          <node begin="11" end="12" id="20" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+          <node begin="12" end="13" id="21" index="2" lemma="hoe" pos="adj" postag="BW()" pt="bw" rel="whd" root="hoe" word="hoe"/>
+          <node begin="12" cat="ssub" end="16" id="22" rel="body">
+            <node begin="12" end="13" id="23" index="2" rel="mod"/>
+            <node begin="13" cat="np" end="15" id="24" rel="su">
+              <node begin="13" buiging="zonder" end="14" id="25" lemma="die" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,rest)" pt="vnw" rel="det" root="die" vwtype="aanw" word="die"/>
+              <node begin="14" end="15" getal="mv" graad="basis" id="26" lemma="aanval" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="aanval" word="aanvallen"/>
+            </node>
+            <node begin="15" end="16" id="27" lemma="verlopen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="verloop" word="verlopen" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="28" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het maakt bijvoorbeeld verschil of iemand zijn aanvallen voelt aankomen en ook hoe die aanvallen verlopen .</sentence>
+</alpino_ds>

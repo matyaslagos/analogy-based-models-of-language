@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="0" cat="smain" end="20" id="1" rel="--">
+      <node begin="0" end="1" getal="ev" id="2" index="1" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="pron" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" root="dat" status="vol" vwtype="aanw" word="Dat"/>
+      <node begin="1" end="2" id="3" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" word="kan" wvorm="pv"/>
+      <node begin="0" cat="inf" end="20" id="4" rel="vc">
+        <node begin="0" end="1" id="5" index="1" rel="su"/>
+        <node begin="4" buiging="zonder" end="5" id="6" lemma="leiden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="leid" word="leiden" wvorm="inf"/>
+        <node begin="2" cat="pp" end="20" id="7" rel="pc">
+          <node begin="2" end="3" getal="getal" id="8" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="pobj1" root="er" status="red" vwtype="aanw" word="er"/>
+          <node begin="3" end="4" id="9" lemma="tot" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="tot" vztype="fin" word="toe"/>
+          <node begin="5" cat="cp" end="20" id="10" rel="vc">
+            <node begin="5" conjtype="onder" end="6" id="11" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+            <node begin="6" cat="conj" end="20" id="12" rel="body">
+              <node begin="7" conjtype="neven" end="8" id="13" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+              <node begin="6" cat="ssub" end="10" id="14" rel="cnj">
+                <node begin="6" end="7" getal="mv" id="15" index="2" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="ze"/>
+                <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="16" lemma="contact" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="contact" word="contact"/>
+                <node begin="9" end="10" id="17" lemma="op_nemen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="neem_op" word="opnemen" wvorm="pv"/>
+              </node>
+              <node begin="10" conjtype="neven" end="11" id="18" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+              <node begin="6" cat="ssub" end="20" id="19" rel="cnj">
+                <node begin="6" end="7" id="20" index="2" rel="su"/>
+                <node begin="11" cat="mwu" end="14" id="21" rel="mod">
+                  <node begin="11" end="12" id="22" lemma="af" pos="adv" postag="VZ(fin)" pt="vz" rel="mwp" root="af" vztype="fin" word="af"/>
+                  <node begin="12" conjtype="neven" end="13" id="23" lemma="en" pos="adv" postag="VG(neven)" pt="vg" rel="mwp" root="en" word="en"/>
+                  <node begin="13" end="14" id="24" lemma="toe" pos="adv" postag="VZ(fin)" pt="vz" rel="mwp" root="toe" vztype="fin" word="toe"/>
+                </node>
+                <node begin="14" end="15" id="25" lemma="toch" pos="adv" postag="BW()" pt="bw" rel="mod" root="toch" word="toch"/>
+                <node begin="15" end="16" id="26" lemma="weer" pos="adv" postag="BW()" pt="bw" rel="mod" root="weer" word="weer"/>
+                <node begin="16" end="17" id="27" lemma="terug_komen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kom_terug" word="terugkomen" wvorm="pv"/>
+                <node begin="17" cat="pp" end="20" id="28" rel="ld">
+                  <node begin="17" end="18" id="29" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+                  <node begin="18" cat="np" end="20" id="30" rel="obj1">
+                    <node begin="18" buiging="met-e" end="19" graad="basis" id="31" lemma="vertrouwd" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="vertrouwd" word="vertrouwde"/>
+                    <node begin="19" end="20" getal="mv" graad="basis" id="32" lemma="plaats" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="plaats" word="plaatsen"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="20" end="21" id="33" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dat kan er toe leiden dat ze of contact opnemen of af en toe toch weer terugkomen naar vertrouwde plaatsen .</sentence>
+</alpino_ds>

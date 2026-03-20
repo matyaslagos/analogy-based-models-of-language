@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="14" id="2" rel="--">
+      <node begin="0" cat="smain" end="7" id="3" rel="cnj">
+        <node begin="0" buiging="zonder" end="1" graad="basis" id="4" lemma="binnenlands" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="binnenlands" word="Binnenlands"/>
+        <node begin="1" end="2" id="5" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+        <node begin="2" cat="np" end="7" id="6" rel="su">
+          <node begin="2" buiging="zonder" end="3" graad="basis" id="7" lemma="weinig" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,basis)" pt="vnw" rel="det" root="weinig" vwtype="onbep" word="weinig"/>
+          <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="8" lemma="verzet" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="verzet" word="verzet"/>
+          <node begin="4" cat="pp" end="7" id="9" rel="mod">
+            <node begin="4" end="5" id="10" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" vztype="init" word="tegen"/>
+            <node begin="5" cat="np" end="7" id="11" rel="obj1">
+              <node begin="5" end="6" id="12" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="13" lemma="nazisme" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="Nazisme" word="Nazisme"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="8" conjtype="neven" end="9" id="14" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+      <node begin="9" cat="smain" end="14" id="15" rel="cnj">
+        <node begin="9" end="10" getal="ev" id="16" lemma="dit" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" root="dit" status="vol" vwtype="aanw" word="dit"/>
+        <node begin="10" end="11" id="17" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+        <node begin="11" end="12" id="18" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+        <node begin="12" cat="ap" end="14" id="19" rel="predc">
+          <node begin="12" buiging="zonder" end="13" graad="basis" id="20" lemma="geheel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="geheel" word="geheel"/>
+          <node begin="13" buiging="zonder" end="14" graad="basis" id="21" lemma="afwezig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="afwezig" word="afwezig"/>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Binnenlands was weinig verzet tegen het Nazisme , maar dit was niet geheel afwezig .</sentence>
+</alpino_ds>

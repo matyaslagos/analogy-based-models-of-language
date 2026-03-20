@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="12" id="1" rel="--">
+      <node begin="0" cat="np" end="5" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" cat="ppart" end="4" id="4" rel="mod">
+          <node begin="1" cat="pp" end="3" id="5" rel="mod">
+            <node begin="1" end="2" id="6" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+            <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="7" lemma="Duitsland" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Duitsland" word="Duitsland"/>
+          </node>
+          <node begin="3" buiging="met-e" end="4" id="8" lemma="op_leggen" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="hd" root="opgelegd" word="opgelegde" wvorm="vd"/>
+        </node>
+        <node begin="4" end="5" getal="mv" graad="basis" id="9" lemma="herstel_betaling" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="herstel_betaling" word="herstelbetalingen"/>
+      </node>
+      <node begin="5" end="6" id="10" lemma="vergen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="verg" word="vergden" wvorm="pv"/>
+      <node begin="6" cat="np" end="8" id="11" rel="obj1">
+        <node begin="6" end="7" id="12" lemma="zeer" pos="adv" postag="BW()" pt="bw" rel="mod" root="zeer" word="zeer"/>
+        <node begin="7" buiging="zonder" end="8" graad="basis" id="13" lemma="veel" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,basis)" pt="vnw" rel="hd" root="veel" vwtype="onbep" word="veel"/>
+      </node>
+      <node begin="8" cat="pp" end="12" id="14" rel="pc">
+        <node begin="8" end="9" id="15" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+        <node begin="9" cat="np" end="12" id="16" rel="obj1">
+          <node begin="9" end="10" id="17" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="10" buiging="met-e" end="11" graad="basis" id="18" lemma="Duits" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Duits" word="Duitse"/>
+          <node begin="11" end="12" getal="mv" graad="basis" id="19" lemma="economie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="economie" word="economieën"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>De aan Duitsland opgelegde herstelbetalingen vergden zeer veel van de Duitse economieën</sentence>
+</alpino_ds>

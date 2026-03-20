@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="12" end="13" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="18" id="2" rel="--">
+      <node begin="0" cat="np" end="12" id="3" index="1" rel="su">
+        <node begin="0" cat="conj" end="3" id="4" rel="mod">
+          <node begin="0" end="1" id="5" lemma="Basis-" pos="prefix" postag="SPEC(afgebr)" pt="spec" rel="cnj" root="Basis" spectype="afgebr" word="Basis-"/>
+          <node begin="1" conjtype="neven" end="2" id="6" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="2" buiging="met-e" end="3" graad="basis" id="7" lemma="secundair" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="secundair" word="secundaire"/>
+        </node>
+        <node begin="3" end="4" getal="mv" graad="basis" id="8" lemma="school" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="school" word="scholen"/>
+        <node begin="4" cat="rel" end="12" id="9" rel="mod">
+          <node begin="4" end="5" getal="getal" id="10" index="2" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+          <node begin="4" cat="ssub" end="12" id="11" rel="body">
+            <node begin="4" end="5" id="12" index="2" rel="su"/>
+            <node begin="4" cat="conj" end="11" id="13" rel="vc">
+              <node begin="4" cat="ppart" end="9" id="14" rel="cnj">
+                <node begin="4" end="5" id="15" index="2" rel="obj1"/>
+                <node begin="5" cat="pp" end="8" id="16" index="3" rel="mod">
+                  <node begin="5" end="6" id="17" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+                  <node begin="6" cat="np" end="8" id="18" rel="obj1">
+                    <node begin="6" end="7" id="19" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="20" lemma="overheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="overheid" word="overheid"/>
+                  </node>
+                </node>
+                <node begin="8" buiging="zonder" end="9" id="21" lemma="financieren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="financier" word="gefinancierd" wvorm="vd"/>
+              </node>
+              <node begin="9" conjtype="neven" end="10" id="22" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+              <node begin="4" cat="ppart" end="11" id="23" rel="cnj">
+                <node begin="4" end="5" id="24" index="2" rel="obj1"/>
+                <node begin="5" end="8" id="25" index="3" rel="mod"/>
+                <node begin="10" buiging="zonder" end="11" id="26" lemma="subsidiëren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="subsidieer" word="gesubsidieerd" wvorm="vd"/>
+              </node>
+            </node>
+            <node begin="11" end="12" id="27" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" word="worden" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+      <node begin="13" end="14" id="28" lemma="mogen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="mag" word="mogen" wvorm="pv"/>
+      <node begin="0" cat="inf" end="18" id="29" rel="vc">
+        <node begin="0" end="12" id="30" index="1" rel="su"/>
+        <node begin="14" end="15" id="31" lemma="dus" pos="adv" postag="BW()" pt="bw" rel="mod" root="dus" word="dus"/>
+        <node begin="15" cat="np" end="17" id="32" rel="obj1">
+          <node begin="15" buiging="zonder" end="16" id="33" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="geen"/>
+          <node begin="16" end="17" genus="onz" getal="ev" graad="basis" id="34" lemma="inschrijving_geld" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="inschrijvingsgeld" word="inschrijvingsgeld"/>
+        </node>
+        <node begin="17" buiging="zonder" end="18" id="35" lemma="vragen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="vraag" word="vragen" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="18" end="19" id="36" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Basis- en secundaire scholen die door de overheid gefinancierd of gesubsidieerd worden , mogen dus geen inschrijvingsgeld vragen .</sentence>
+</alpino_ds>

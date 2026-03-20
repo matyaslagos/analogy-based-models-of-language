@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="35" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="14" end="15" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="24" end="25" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="34" id="4" rel="--">
+      <node begin="0" cat="np" end="2" id="5" rel="su">
+        <node begin="0" buiging="met-e" end="1" graad="basis" id="6" lemma="landelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="landelijk" word="Landelijke"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="7" lemma="onderwijs_organisatie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="onderwijs_organisatie" word="onderwijsorganisaties"/>
+      </node>
+      <node begin="2" end="3" id="8" lemma="op_roepen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="roep_op" word="roepen" wvorm="pv"/>
+      <node begin="3" cat="np" end="7" id="9" index="1" rel="obj1">
+        <node begin="3" buiging="met-e" end="4" id="10" lemma="al" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,agr)" pt="vnw" rel="det" root="alle" vwtype="onbep" word="alle"/>
+        <node begin="4" end="5" getal="mv" graad="basis" id="11" lemma="school" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="school" word="scholen"/>
+        <node begin="5" cat="pp" end="7" id="12" rel="mod">
+          <node begin="5" end="6" id="13" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="14" lemma="Nederland" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Nederland" word="Nederland"/>
+        </node>
+      </node>
+      <node begin="7" end="8" id="15" lemma="op" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="op" vztype="fin" word="op"/>
+      <node begin="3" cat="ti" end="34" id="16" rel="vc">
+        <node begin="12" end="13" id="17" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+        <node begin="3" cat="inf" end="34" id="18" rel="body">
+          <node begin="3" end="7" id="19" index="1" rel="su"/>
+          <node begin="9" cat="np" end="11" id="20" rel="mod">
+            <node begin="9" end="10" id="21" lemma="1" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="1" word="1"/>
+            <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="22" lemma="minuut" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="minuut" word="minuut"/>
+          </node>
+          <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="23" lemma="stilte" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="stilte" word="stilte"/>
+          <node begin="13" buiging="zonder" end="14" id="24" lemma="houden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="houd" word="houden" wvorm="inf"/>
+          <node begin="15" cat="oti" end="34" id="25" rel="mod">
+            <node begin="15" end="16" id="26" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="om"/>
+            <node begin="16" cat="conj" end="34" id="27" rel="body">
+              <node begin="16" cat="ti" end="24" id="28" rel="cnj">
+                <node begin="22" end="23" id="29" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+                <node begin="16" cat="inf" end="24" id="30" rel="body">
+                  <node begin="16" cat="np" end="22" id="31" rel="obj1">
+                    <node begin="16" end="17" id="32" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="33" lemma="moord" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="moord" word="moord"/>
+                    <node begin="18" cat="pp" end="22" id="34" rel="mod">
+                      <node begin="18" end="19" id="35" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+                      <node begin="19" cat="mwu" end="22" id="36" rel="obj1">
+                        <node begin="19" end="20" id="37" lemma="Hans" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Hans" spectype="deeleigen" word="Hans"/>
+                        <node begin="20" end="21" id="38" lemma="van" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="van" spectype="deeleigen" word="van"/>
+                        <node begin="21" end="22" id="39" lemma="Wieren" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Wieren" spectype="deeleigen" word="Wieren"/>
+                      </node>
+                    </node>
+                  </node>
+                  <node begin="23" buiging="zonder" end="24" id="40" lemma="herdenken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="herdenk" word="herdenken" wvorm="inf"/>
+                </node>
+              </node>
+              <node begin="25" conjtype="neven" end="26" id="41" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="26" cat="ti" end="34" id="42" rel="cnj">
+                <node begin="27" end="28" id="43" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+                <node begin="26" cat="inf" end="34" id="44" rel="body">
+                  <node begin="26" end="27" genus="zijd" getal="ev" graad="basis" id="45" lemma="aandacht" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="aandacht" word="aandacht"/>
+                  <node begin="28" buiging="zonder" end="29" id="46" lemma="vragen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="vraag" word="vragen" wvorm="inf"/>
+                  <node begin="29" cat="pp" end="34" id="47" rel="pc">
+                    <node begin="29" end="30" id="48" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+                    <node begin="30" cat="np" end="34" id="49" rel="obj1">
+                      <node begin="30" end="31" id="50" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                      <node begin="31" end="32" genus="zijd" getal="ev" graad="basis" id="51" lemma="veiligheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="veiligheid" word="veiligheid"/>
+                      <node begin="32" cat="pp" end="34" id="52" rel="mod">
+                        <node begin="32" end="33" id="53" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+                        <node begin="33" end="34" getal="mv" graad="basis" id="54" lemma="school" ntype="soort" pos="verb" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="school" word="scholen"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="34" end="35" id="55" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Landelijke onderwijsorganisaties roepen alle scholen in Nederland op , 1 minuut stilte te houden , om de moord op Hans van Wieren te herdenken , en aandacht te vragen voor de veiligheid op scholen .</sentence>
+</alpino_ds>

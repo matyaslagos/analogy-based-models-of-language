@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="2" end="3" id="2" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="9" end="10" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="16" id="4" rel="--">
+      <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="5" lemma="Boutmans" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="tag" root="Boutmans" word="Boutmans"/>
+      <node begin="3" cat="conj" end="16" id="6" rel="nucl">
+        <node begin="3" cat="smain" end="9" id="7" rel="cnj">
+          <node begin="3" cat="np" end="7" id="8" index="1" rel="su">
+            <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="9" lemma="ontwikkeling_hulp" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="ontwikkeling_hulp" word="Ontwikkelingshulp"/>
+            <node begin="4" cat="pp" end="7" id="10" rel="mod">
+              <node begin="4" end="5" id="11" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+              <node begin="5" cat="np" end="7" id="12" rel="obj1">
+                <node begin="5" buiging="met-e" end="6" id="13" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="deze"/>
+                <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="14" lemma="situatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="situatie" word="situatie"/>
+              </node>
+            </node>
+          </node>
+          <node begin="7" end="8" id="15" lemma="blijven" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="blijf" word="blijft" wvorm="pv"/>
+          <node begin="8" buiging="zonder" end="9" graad="basis" id="16" lemma="nuttig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="nuttig" word="nuttig"/>
+        </node>
+        <node begin="10" conjtype="neven" end="11" id="17" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+        <node begin="3" cat="sv1" end="16" id="18" rel="cnj">
+          <node begin="3" end="7" id="19" index="1" rel="su"/>
+          <node begin="11" end="12" id="20" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+          <node begin="12" cat="conj" end="16" id="21" rel="predc">
+            <node begin="12" buiging="zonder" end="13" graad="comp" id="22" lemma="duur" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="cnj" root="duur" word="duurder"/>
+            <node begin="13" conjtype="neven" end="14" id="23" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="14" cat="ap" end="16" id="24" rel="cnj">
+              <node begin="14" buiging="zonder" end="15" graad="comp" id="25" lemma="weinig" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mod" root="minder" vwtype="onbep" word="minder"/>
+              <node begin="15" buiging="zonder" end="16" graad="basis" id="26" lemma="efficiënt" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="efficiënt" word="efficiënt"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="27" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+    <node begin="17" end="18" id="28" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+  </node>
+  <sentence>Boutmans : &apos; Ontwikkelingshulp in deze situatie blijft nuttig , maar wordt duurder en minder efficiënt . &apos;</sentence>
+</alpino_ds>

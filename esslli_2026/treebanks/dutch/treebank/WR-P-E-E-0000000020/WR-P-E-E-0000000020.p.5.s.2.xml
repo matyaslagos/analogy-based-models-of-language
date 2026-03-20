@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="smain" end="12" id="1" rel="--">
+      <node begin="0" cat="pp" end="3" id="2" rel="mod">
+        <node begin="0" end="1" id="3" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="Bij"/>
+        <node begin="1" cat="np" end="3" id="4" rel="obj1">
+          <node begin="1" buiging="zonder" end="2" id="5" lemma="dat" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dat" vwtype="aanw" word="dat"/>
+          <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="6" lemma="ontwerp_proces" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="ontwerp_proces" word="ontwerpproces"/>
+        </node>
+      </node>
+      <node begin="3" end="4" id="7" lemma="samen_werken" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="werk_samen" word="werken" wvorm="pv"/>
+      <node begin="4" cat="np" end="7" id="8" rel="su">
+        <node begin="4" cat="ppart" end="6" id="9" rel="mod">
+          <node begin="4" buiging="zonder" end="5" graad="basis" id="10" lemma="technisch" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="technisch" word="technisch"/>
+          <node begin="5" buiging="met-e" end="6" id="11" lemma="op_leiden" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="hd" root="opgeleid" word="opgeleide" wvorm="vd"/>
+        </node>
+        <node begin="6" end="7" getal="mv" graad="basis" id="12" lemma="student" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="student" word="studenten"/>
+      </node>
+      <node begin="7" end="8" id="13" lemma="samen" pos="part" postag="BW()" pt="bw" rel="svp" root="samen" word="samen"/>
+      <node begin="8" cat="pp" end="12" id="14" rel="pc">
+        <node begin="8" end="9" id="15" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+        <node begin="9" cat="conj" end="12" id="16" rel="obj1">
+          <node begin="9" end="10" getal="mv" graad="basis" id="17" lemma="ontwerper" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="ontwerper" word="ontwerpers"/>
+          <node begin="10" conjtype="neven" end="11" id="18" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="11" end="12" getal="mv" graad="basis" id="19" lemma="media_kunstenaar" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="medium_kunstenaar" word="mediakunstenaars"/>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" id="20" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Bij dat ontwerpproces werken technisch opgeleide studenten samen met ontwerpers en mediakunstenaars .</sentence>
+</alpino_ds>

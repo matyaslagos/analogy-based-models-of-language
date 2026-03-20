@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="0" cat="mwu" end="2" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="De" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="De" spectype="deeleigen" word="De"/>
+        <node begin="1" end="2" id="4" lemma="Morgan" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Morgan" spectype="deeleigen" word="Morgan"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="hebben" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="heb" word="had" wvorm="pv"/>
+      <node begin="3" cat="np" end="6" id="6" rel="obj1">
+        <node begin="3" buiging="zonder" end="4" graad="basis" id="7" lemma="allerlei" pos="det" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="det" root="allerlei" word="allerlei"/>
+        <node begin="4" buiging="met-e" end="5" graad="basis" id="8" lemma="raar" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="raar" word="rare"/>
+        <node begin="5" end="6" getal="mv" graad="basis" id="9" lemma="gewoonte" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="gewoonte" word="gewoontes"/>
+      </node>
+    </node>
+    <node begin="6" end="7" id="10" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De Morgan had allerlei rare gewoontes .</sentence>
+</alpino_ds>

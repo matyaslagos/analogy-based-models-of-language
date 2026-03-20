@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="17" id="2" rel="--">
+      <node begin="3" end="4" id="3" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" word="kan" wvorm="pv"/>
+      <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="4" index="1" lemma="Nederland" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" root="Nederland" word="Nederland"/>
+      <node begin="0" cat="inf" end="17" id="5" rel="vc">
+        <node begin="0" cat="pp" end="3" id="6" rel="mod">
+          <node begin="0" end="1" id="7" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="Bij"/>
+          <node begin="1" cat="np" end="3" id="8" rel="obj1">
+            <node begin="1" buiging="zonder" end="2" id="9" lemma="die" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,rest)" pt="vnw" rel="det" root="die" vwtype="aanw" word="die"/>
+            <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="10" lemma="gelegenheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="gelegenheid" word="gelegenheid"/>
+          </node>
+        </node>
+        <node begin="4" end="5" id="11" index="1" rel="su"/>
+        <node begin="5" buiging="zonder" end="6" id="12" lemma="aan_dringen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="dring_aan" word="aandringen" wvorm="inf"/>
+        <node begin="6" cat="pp" end="17" id="13" rel="pc">
+          <node begin="6" end="7" id="14" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+          <node begin="7" cat="np" end="17" id="15" rel="obj1">
+            <node begin="7" end="8" getal="mv" graad="basis" id="16" lemma="herziening" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="herziening" word="herzieningen"/>
+            <node begin="9" cat="pp" end="17" id="17" rel="mod">
+              <node begin="9" end="10" id="18" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+              <node begin="10" cat="np" end="17" id="19" rel="obj1">
+                <node begin="10" end="11" id="20" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="21" lemma="voorkeur" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="voorkeur" word="voorkeur"/>
+                <node begin="12" cat="pp" end="17" id="22" rel="mod">
+                  <node begin="12" end="13" id="23" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+                  <node begin="13" cat="np" end="17" id="24" rel="obj1">
+                    <node begin="13" end="14" getal="mv" graad="basis" id="25" lemma="reductie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="reductie" word="reducties"/>
+                    <node begin="14" cat="pp" end="17" id="26" rel="mod">
+                      <node begin="14" end="15" id="27" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                      <node begin="15" cat="np" end="17" id="28" rel="obj1">
+                        <node begin="15" end="16" id="29" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                        <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="30" lemma="verwerking_steun" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="verwerking_steun" word="verwerkingssteun"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="31" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Bij die gelegenheid kan Nederland aandringen op herzieningen , met een voorkeur voor reducties in de verwerkingssteun .</sentence>
+</alpino_ds>

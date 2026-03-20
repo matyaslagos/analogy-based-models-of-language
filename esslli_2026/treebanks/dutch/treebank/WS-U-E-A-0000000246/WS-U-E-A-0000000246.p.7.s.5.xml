@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="0" cat="smain" end="7" id="2" rel="--">
+      <node begin="0" cat="np" end="5" id="3" index="1" rel="su">
+        <node begin="0" buiging="zonder" end="1" graad="basis" id="4" lemma="ruim" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="ruim" word="Ruim"/>
+        <node begin="1" end="2" id="5" lemma="2-en-een-half" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="2-en-een_half" word="2-en-een-half"/>
+        <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="6" lemma="miljoen" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="miljoen" word="miljoen"/>
+        <node begin="4" end="5" getal="mv" graad="basis" id="7" lemma="mens" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mod" root="mens" word="mensen"/>
+      </node>
+      <node begin="5" end="6" id="8" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="7" id="9" rel="vc">
+        <node begin="0" end="5" id="10" index="1" rel="obj1"/>
+        <node begin="6" buiging="zonder" end="7" id="11" lemma="evacueren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="evacueer" word="ge-evacueerd" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="7" end="8" id="12" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Ruim 2-en-een-half - miljoen mensen zijn ge-evacueerd .</sentence>
+</alpino_ds>

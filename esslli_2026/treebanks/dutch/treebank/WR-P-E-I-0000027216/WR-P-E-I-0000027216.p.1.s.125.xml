@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="25" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="17" end="18" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="0" cat="smain" end="24" id="3" rel="--">
+      <node begin="1" end="2" id="4" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+      <node begin="18" cat="np" end="21" id="5" index="1" rel="su">
+        <node begin="18" end="19" id="6" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="19" buiging="zonder" end="20" graad="basis" id="7" lemma="Russisch" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="Russisch" word="Russisch"/>
+        <node begin="20" end="21" genus="onz" getal="ev" graad="basis" id="8" lemma="gezantschap" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="gezantschap" word="gezantschap"/>
+      </node>
+      <node begin="0" cat="ppart" end="24" id="9" rel="vc">
+        <node begin="0" end="1" id="10" lemma="toen" pos="adv" postag="BW()" pt="bw" rel="mod" root="toen" word="Toen"/>
+        <node begin="2" cat="pp" end="4" id="11" rel="mod">
+          <node begin="2" end="3" id="12" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="3" end="4" id="13" lemma="1878" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" root="1878" word="1878"/>
+        </node>
+        <node begin="5" cat="pp" end="17" id="14" rel="mod">
+          <node begin="5" end="6" id="15" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="6" cat="np" end="17" id="16" rel="obj1">
+            <node begin="6" end="7" id="17" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="7" end="8" getal="mv" graad="basis" id="18" lemma="spanning" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="spanning" word="spanningen"/>
+            <node begin="8" cat="rel" end="17" id="19" rel="mod">
+              <node begin="8" end="9" getal="getal" id="20" index="2" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+              <node begin="8" cat="ssub" end="17" id="21" rel="body">
+                <node begin="8" end="9" id="22" index="2" rel="su"/>
+                <node begin="15" end="16" id="23" lemma="zullen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="zal" word="zouden" wvorm="pv"/>
+                <node begin="8" cat="inf" end="17" id="24" rel="vc">
+                  <node begin="8" end="9" id="25" index="2" rel="su"/>
+                  <node begin="9" cat="pp" end="14" id="26" rel="pc">
+                    <node begin="9" end="10" id="27" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" vztype="init" word="tot"/>
+                    <node begin="10" cat="np" end="14" id="28" rel="obj1">
+                      <node begin="10" end="11" id="29" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                      <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="30" lemma="congres" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="Congres" word="Congres"/>
+                      <node begin="12" cat="pp" end="14" id="31" rel="mod">
+                        <node begin="12" end="13" id="32" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                        <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="33" lemma="Berlijn" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Berlijn" word="Berlijn"/>
+                      </node>
+                    </node>
+                  </node>
+                  <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="34" lemma="aanleiding" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="aanleiding" word="aanleiding"/>
+                  <node begin="16" buiging="zonder" end="17" id="35" lemma="geven" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="geef" word="geven" wvorm="inf"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="18" end="21" id="36" index="1" rel="obj1"/>
+        <node begin="21" cat="pp" end="23" id="37" rel="ld">
+          <node begin="21" end="22" id="38" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+          <node begin="22" end="23" genus="onz" getal="ev" graad="basis" id="39" lemma="Kaboel" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Kaboel" word="Kaboel"/>
+        </node>
+        <node begin="23" buiging="zonder" end="24" id="40" lemma="zenden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="zend" word="gezonden" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="24" end="25" id="41" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Toen werd in 1878 ( in de spanningen die tot het Congres van Berlijn aanleiding zouden geven ) een Russisch gezantschap naar Kaboel gezonden .</sentence>
+</alpino_ds>

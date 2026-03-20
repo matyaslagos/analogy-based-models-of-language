@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="5" id="0" rel="top">
+    <node begin="0" cat="np" end="5" id="1" rel="--">
+      <node begin="0" buiging="met-e" end="1" graad="basis" id="2" lemma="ondergronds" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ondergronds" word="Ondergrondse"/>
+      <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="3" lemma="parking" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="parking" word="parking"/>
+      <node begin="2" cat="np" end="5" id="4" rel="mod">
+        <node begin="2" cat="mwu" end="4" id="5" rel="hd">
+          <node begin="2" end="3" id="6" lemma="Grote" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Grote" spectype="deeleigen" word="Grote"/>
+          <node begin="3" end="4" id="7" lemma="Markt" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Markt" spectype="deeleigen" word="Markt"/>
+        </node>
+        <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="8" lemma="Mechelen" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="mod" root="Mechelen" word="Mechelen"/>
+      </node>
+    </node>
+  </node>
+  <sentence>Ondergrondse parking Grote Markt Mechelen</sentence>
+</alpino_ds>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="10" id="2" rel="--">
+      <node begin="0" cat="np" end="3" id="3" rel="cnj">
+        <node begin="0" buiging="zonder" end="1" id="4" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="Geen"/>
+        <node begin="1" buiging="met-e" end="2" graad="basis" id="5" lemma="Olympisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="olympisch" word="olympische"/>
+        <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="6" lemma="sport" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="sport" word="sport"/>
+      </node>
+      <node begin="4" conjtype="neven" end="5" id="7" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+      <node begin="5" cat="du" end="10" id="8" rel="cnj">
+        <node begin="5" end="6" id="9" lemma="mischien" pos="noun" postag="BW()" pt="bw" rel="dp" root="mischien" word="mischien"/>
+        <node begin="6" end="7" id="10" lemma="toch" pos="adv" postag="BW()" pt="bw" rel="dp" root="toch" word="toch"/>
+        <node begin="7" cat="ap" end="10" id="11" rel="dp">
+          <node begin="7" cat="np" end="9" id="12" rel="obj1">
+            <node begin="7" end="8" id="13" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="14" lemma="medaille" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="medaille" word="medaille"/>
+          </node>
+          <node begin="9" buiging="zonder" end="10" graad="basis" id="15" lemma="waard" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="waard" word="waard"/>
+        </node>
+      </node>
+    </node>
+    <node begin="10" end="11" id="16" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Geen olympische sport , maar mischien toch een medaille waard .</sentence>
+</alpino_ds>

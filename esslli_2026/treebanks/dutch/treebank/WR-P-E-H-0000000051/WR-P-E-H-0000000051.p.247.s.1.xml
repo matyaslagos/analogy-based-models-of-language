@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="28" id="0" rel="top">
+    <node begin="11" end="12" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="14" end="15" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="20" end="21" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="27" id="4" rel="--">
+      <node begin="0" cat="smain" end="11" id="5" rel="nucl">
+        <node begin="0" cat="np" end="4" id="6" index="1" rel="su">
+          <node begin="0" end="1" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+          <node begin="1" buiging="met-e" end="2" graad="basis" id="8" lemma="Belgisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Belgisch" word="Belgische"/>
+          <node begin="2" buiging="met-e" end="3" graad="basis" id="9" lemma="binnenlands" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="binnenlands" word="binnenlandse"/>
+          <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="10" lemma="politiek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="politiek" word="politiek"/>
+        </node>
+        <node begin="4" end="5" id="11" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+        <node begin="0" cat="ppart" end="11" id="12" rel="vc">
+          <node begin="0" end="4" id="13" index="1" rel="obj1"/>
+          <node begin="5" end="6" id="14" lemma="vanouds" pos="adv" postag="BW()" pt="bw" rel="mod" root="vanouds" word="vanouds"/>
+          <node begin="6" buiging="zonder" end="7" id="15" lemma="domineren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="domineer" word="gedomineerd" wvorm="vd"/>
+          <node begin="7" cat="pp" end="11" id="16" rel="mod">
+            <node begin="7" end="8" id="17" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+            <node begin="8" cat="np" end="11" id="18" rel="obj1">
+              <node begin="8" end="9" id="19" lemma="drie" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="drie" word="drie"/>
+              <node begin="9" buiging="met-e" end="10" graad="basis" id="20" lemma="politiek" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="politiek" word="politieke"/>
+              <node begin="10" end="11" getal="mv" graad="basis" id="21" lemma="groepering" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="groepering" word="groeperingen"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="12" cat="conj" end="27" id="22" rel="sat">
+        <node begin="17" conjtype="neven" end="18" id="23" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="12" cat="np" end="27" id="24" rel="cnj">
+          <node begin="12" end="13" id="25" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="13" end="14" getal="mv" graad="basis" id="26" lemma="christen-democraat" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="christen-democraat" word="christen-democraten"/>
+          <node begin="21" cat="rel" end="27" id="27" index="2" rel="mod">
+            <node begin="21" end="22" getal="getal" id="28" index="3" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+            <node begin="21" cat="ssub" end="27" id="29" rel="body">
+              <node begin="21" end="22" id="30" index="3" rel="su"/>
+              <node begin="22" cat="pp" end="25" id="31" rel="mod">
+                <node begin="22" end="23" id="32" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                <node begin="23" cat="np" end="25" id="33" rel="obj1">
+                  <node begin="23" buiging="met-e" end="24" id="34" lemma="wisselen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="wisselend" word="wisselende" wvorm="od"/>
+                  <node begin="24" end="25" getal="mv" graad="basis" id="35" lemma="coalitie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="coalitie" word="coalities"/>
+                </node>
+              </node>
+              <node begin="25" end="26" genus="onz" getal="ev" graad="basis" id="36" lemma="België" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="België" word="België"/>
+              <node begin="26" end="27" id="37" lemma="regeren" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="regeer" word="regeren" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+        <node begin="15" cat="np" end="27" id="38" rel="cnj">
+          <node begin="15" end="16" id="39" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="16" end="17" getal="mv" graad="basis" id="40" lemma="socialist" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="socialist" word="socialisten"/>
+          <node begin="21" end="27" id="41" index="2" rel="mod"/>
+        </node>
+        <node begin="18" cat="np" end="27" id="42" rel="cnj">
+          <node begin="18" end="19" id="43" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="19" end="20" getal="mv" graad="basis" id="44" lemma="liberaal" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="liberaal" word="liberalen"/>
+          <node begin="21" end="27" id="45" index="2" rel="mod"/>
+        </node>
+      </node>
+    </node>
+    <node begin="27" end="28" id="46" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De Belgische binnenlandse politiek wordt vanouds gedomineerd door drie politieke groeperingen : de christen-democraten , de socialisten en de liberalen , die in wisselende coalities België regeren .</sentence>
+</alpino_ds>

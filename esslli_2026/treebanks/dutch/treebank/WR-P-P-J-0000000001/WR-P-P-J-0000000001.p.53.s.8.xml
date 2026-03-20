@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="3" end="4" id="2" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="7" id="3" rel="vc">
+        <node begin="0" cat="pp" end="3" id="4" rel="mod">
+          <node begin="0" end="1" id="5" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+          <node begin="1" cat="np" end="3" id="6" rel="obj1">
+            <node begin="1" buiging="met-e" end="2" id="7" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="deze"/>
+            <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="8" lemma="paragraaf" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="paragraaf" word="paragraaf"/>
+          </node>
+        </node>
+        <node begin="4" end="5" id="9" lemma="hierop" pos="pp" postag="BW()" pt="bw" rel="pc" root="hierop" word="hierop"/>
+        <node begin="5" buiging="zonder" end="6" graad="comp" id="10" lemma="nader" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="nader" word="nader"/>
+        <node begin="6" buiging="zonder" end="7" id="11" lemma="in_gaan" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="ga_in" word="ingegaan" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="7" end="8" id="12" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>In deze paragraaf wordt hierop nader ingegaan .</sentence>
+</alpino_ds>

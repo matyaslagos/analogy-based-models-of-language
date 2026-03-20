@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="smain" end="5" id="1" rel="--">
+      <node begin="0" end="1" getal="mv" graad="basis" id="2" lemma="beveiliging_medewerker" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="beveiliging_medewerker" word="Beveiligingsmedewerkers"/>
+      <node begin="1" end="2" id="3" lemma="langs_gaan" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ga_langs" word="gaan" wvorm="pv"/>
+      <node begin="2" cat="np" end="4" id="4" rel="ld">
+        <node begin="2" buiging="met-e" end="3" id="5" lemma="al" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,agr)" pt="vnw" rel="det" root="alle" vwtype="onbep" word="alle"/>
+        <node begin="3" end="4" getal="mv" graad="dim" id="6" lemma="post_vak" ntype="soort" pos="noun" postag="N(soort,mv,dim)" pt="n" rel="hd" root="post_vak_DIM" word="postvakjes"/>
+      </node>
+      <node begin="4" end="5" id="7" lemma="langs" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="langs" vztype="fin" word="langs"/>
+    </node>
+    <node begin="5" end="6" id="8" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Beveiligingsmedewerkers gaan alle postvakjes langs .</sentence>
+</alpino_ds>

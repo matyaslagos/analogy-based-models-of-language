@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="np" end="6" id="1" rel="--">
+      <node begin="0" end="1" id="2" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="Een"/>
+      <node begin="1" buiging="met-e" end="2" graad="basis" id="3" lemma="opmerkelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="opmerkelijk" word="opmerkelijke"/>
+      <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="4" lemma="stap" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="stap" word="stap"/>
+      <node begin="3" cat="pp" end="6" id="5" rel="mod">
+        <node begin="3" end="4" id="6" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+        <node begin="4" cat="np" end="6" id="7" rel="obj1">
+          <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="8" lemma="supermarkt_concern" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="supermarkt_concern" word="supermarktconcern"/>
+          <node begin="5" end="6" genus="genus" getal="ev" graad="basis" id="9" lemma="Ahold" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="app" root="Ahold" word="Ahold"/>
+        </node>
+      </node>
+    </node>
+    <node begin="6" end="7" id="10" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Een opmerkelijke stap van supermarktconcern Ahold .</sentence>
+</alpino_ds>

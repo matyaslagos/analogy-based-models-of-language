@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="8" end="9" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="0" cat="smain" end="17" id="3" rel="--">
+      <node begin="0" end="1" id="4" lemma="daarnaast" pos="pp" postag="BW()" pt="bw" rel="mod" root="daarnaast" word="Daarnaast"/>
+      <node begin="1" end="2" id="5" lemma="proberen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="probeer" word="probeerde" wvorm="pv"/>
+      <node begin="2" cat="np" end="8" id="6" index="1" rel="su">
+        <node begin="2" end="3" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="3" cat="mwu" end="6" id="8" rel="hd">
+          <node begin="3" end="4" id="9" lemma="Cellules" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Cellules" spectype="deeleigen" word="Cellules"/>
+          <node begin="4" end="5" id="10" lemma="Communistes" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Communistes" spectype="deeleigen" word="Communistes"/>
+          <node begin="5" end="6" id="11" lemma="Combattantes" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Combattantes" spectype="deeleigen" word="Combattantes"/>
+        </node>
+        <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="12" lemma="C.C.C." naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" root="C.C.C." word="C.C.C."/>
+      </node>
+      <node begin="9" cat="pp" end="12" id="13" rel="mod">
+        <node begin="9" end="10" id="14" lemma="rond" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="rond" vztype="init" word="rond"/>
+        <node begin="10" cat="np" end="12" id="15" rel="obj1">
+          <node begin="10" buiging="zonder" end="11" graad="basis" id="16" lemma="dezelfde" pos="det" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="det" root="dezelfde" word="dezelfde"/>
+          <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="17" lemma="periode" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="periode" word="periode"/>
+        </node>
+      </node>
+      <node begin="12" end="13" id="18" lemma="eveneens" pos="adv" postag="BW()" pt="bw" rel="mod" root="eveneens" word="eveneens"/>
+      <node begin="2" cat="ti" end="17" id="19" rel="vc">
+        <node begin="15" end="16" id="20" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+        <node begin="2" cat="inf" end="17" id="21" rel="body">
+          <node begin="2" end="8" id="22" index="1" rel="su"/>
+          <node begin="13" cat="np" end="15" id="23" rel="obj1">
+            <node begin="13" end="14" id="24" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="14" end="15" genus="onz" getal="ev" graad="basis" id="25" lemma="land" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="land" word="land"/>
+          </node>
+          <node begin="16" buiging="zonder" end="17" id="26" lemma="destabiliseren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="destabiliseer" word="destabiliseren" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="27" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Daarnaast probeerde de Cellules Communistes Combattantes ( C.C.C. ) rond dezelfde periode eveneens het land te destabiliseren .</sentence>
+</alpino_ds>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="11" id="2" rel="--">
+      <node begin="0" end="1" genus="onz" getal="ev" graad="basis" id="3" lemma="Z33" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" root="Z33" word="Z33"/>
+      <node begin="1" end="2" id="4" lemma="focussen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="focus" word="focust" wvorm="pv"/>
+      <node begin="2" end="3" getal="getal" id="5" lemma="zich" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="se" root="zich" status="red" vwtype="refl" word="zich"/>
+      <node begin="3" cat="pp" end="11" id="6" rel="pc">
+        <node begin="3" end="4" id="7" lemma="vooral" pos="adv" postag="BW()" pt="bw" rel="mod" root="vooral" word="vooral"/>
+        <node begin="4" end="5" id="8" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+        <node begin="5" cat="conj" end="11" id="9" rel="obj1">
+          <node begin="5" end="6" getal="mv" graad="basis" id="10" lemma="medium" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="medium" word="media"/>
+          <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="11" lemma="vormgeving" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="vormgeving" word="vormgeving"/>
+          <node begin="8" conjtype="neven" end="9" id="12" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="9" cat="np" end="11" id="13" rel="cnj">
+            <node begin="9" buiging="met-e" end="10" graad="basis" id="14" lemma="beeldend" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="beeldend" word="beeldende"/>
+            <node begin="10" end="11" getal="mv" graad="basis" id="15" lemma="kunst" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kunst" word="kunsten"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" id="16" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Z33 focust zich vooral op media , vormgeving en beeldende kunsten .</sentence>
+</alpino_ds>

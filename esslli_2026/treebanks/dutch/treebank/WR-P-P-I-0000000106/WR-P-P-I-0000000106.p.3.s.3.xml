@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="12" id="2" rel="--">
+      <node begin="0" end="1" id="3" lemma="vooreerst" pos="adv" postag="BW()" pt="bw" rel="mod" root="vooreerst" word="Vooreerst"/>
+      <node begin="1" end="2" id="4" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="2" cat="np" end="4" id="5" rel="su">
+        <node begin="2" buiging="met-e" end="3" id="6" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="deze"/>
+        <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="7" lemma="regering" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="regering" word="regering"/>
+      </node>
+      <node begin="4" cat="ap" end="6" id="8" rel="predc">
+        <node begin="4" end="5" id="9" lemma="allesbehalve" pos="adv" postag="BW()" pt="bw" rel="mod" root="allesbehalve" word="allesbehalve"/>
+        <node begin="5" buiging="zonder" end="6" graad="basis" id="10" lemma="saai" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="saai" word="saai"/>
+      </node>
+      <node begin="7" cat="cp" end="12" id="11" rel="mod">
+        <node begin="7" buiging="zonder" end="8" graad="basis" id="12" lemma="precies" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="precies" word="precies"/>
+        <node begin="8" conjtype="onder" end="9" id="13" lemma="omdat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="omdat" word="omdat"/>
+        <node begin="9" cat="ssub" end="12" id="14" rel="body">
+          <node begin="9" end="10" genus="fem" getal="ev" id="15" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,ev,fem)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="ze"/>
+          <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="16" lemma="coherentie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="coherentie" word="coherentie"/>
+          <node begin="11" end="12" id="17" lemma="missen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="mis" word="mist" wvorm="pv"/>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" id="18" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Vooreerst is deze regering allesbehalve saai , precies omdat ze coherentie mist .</sentence>
+</alpino_ds>

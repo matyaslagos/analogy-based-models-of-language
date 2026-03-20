@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="0" cat="smain" end="20" id="1" rel="--">
+      <node begin="0" cat="pp" end="3" id="2" rel="mod">
+        <node begin="0" end="1" id="3" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+        <node begin="1" cat="np" end="3" id="4" rel="obj1">
+          <node begin="1" buiging="met-e" end="2" id="5" lemma="sommig" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="sommige" vwtype="onbep" word="sommige"/>
+          <node begin="2" end="3" getal="mv" graad="basis" id="6" lemma="geval" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="geval" word="gevallen"/>
+        </node>
+      </node>
+      <node begin="3" end="4" id="7" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="4" cat="np" end="7" id="8" rel="su">
+        <node begin="4" end="5" id="9" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+        <node begin="5" buiging="met-e" end="6" graad="basis" id="10" lemma="cognitief" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="cognitief" word="cognitieve"/>
+        <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="11" lemma="systeem" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="systeem" word="systeem"/>
+      </node>
+      <node begin="7" end="8" id="12" lemma="dus" pos="adv" postag="BW()" pt="bw" rel="mod" root="dus" word="dus"/>
+      <node begin="8" cat="ap" end="20" id="13" rel="predc">
+        <node begin="8" cat="mwu" end="10" id="14" rel="hd">
+          <node begin="8" end="9" id="15" lemma="in" pos="adj" postag="VZ(init)" pt="vz" rel="mwp" root="in" vztype="init" word="in"/>
+          <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="16" lemma="staat" naamval="stan" ntype="soort" pos="adj" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="staat" word="staat"/>
+        </node>
+        <node begin="10" cat="ti" end="20" id="17" rel="vc">
+          <node begin="12" end="13" id="18" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+          <node begin="10" cat="inf" end="20" id="19" rel="body">
+            <node begin="10" cat="np" end="12" id="20" rel="obj1">
+              <node begin="10" end="11" id="21" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="22" lemma="gezicht" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="gezicht" word="gezicht"/>
+            </node>
+            <node begin="13" buiging="zonder" end="14" id="23" lemma="herkennen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="herken" word="herkennen" wvorm="inf"/>
+            <node begin="14" cat="pp" end="20" id="24" rel="mod">
+              <node begin="14" end="15" id="25" lemma="zonder" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="zonder" vztype="init" word="zonder"/>
+              <node begin="15" cat="cp" end="20" id="26" rel="vc">
+                <node begin="15" conjtype="onder" end="16" id="27" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+                <node begin="16" cat="ssub" end="20" id="28" rel="body">
+                  <node begin="16" cat="np" end="18" id="29" rel="su">
+                    <node begin="16" end="17" id="30" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="31" lemma="persoon" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="persoon" word="persoon"/>
+                  </node>
+                  <node begin="18" end="19" genus="onz" getal="ev" id="32" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="obj1" root="het" status="red" vwtype="pers" word="het"/>
+                  <node begin="19" end="20" id="33" lemma="weten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="weet" word="weet" wvorm="pv"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="20" end="21" id="34" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>In sommige gevallen is het cognitieve systeem dus in staat een gezicht te herkennen zonder dat de persoon het weet .</sentence>
+</alpino_ds>

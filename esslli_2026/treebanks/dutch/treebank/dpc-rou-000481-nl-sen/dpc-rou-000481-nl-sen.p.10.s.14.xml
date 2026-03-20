@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="15" id="2" rel="--">
+      <node begin="0" cat="smain" end="3" id="3" rel="cnj">
+        <node begin="0" end="1" getal="ev" id="4" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" root="dat" status="vol" vwtype="aanw" word="Dat"/>
+        <node begin="1" end="2" id="5" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="2" buiging="zonder" end="3" graad="basis" id="6" lemma="raar" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="raar" word="raar"/>
+      </node>
+      <node begin="4" conjtype="neven" end="5" id="7" lemma="want" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="want" word="want"/>
+      <node begin="5" cat="smain" end="15" id="8" rel="cnj">
+        <node begin="5" cat="pp" end="7" id="9" rel="mod">
+          <node begin="5" end="6" id="10" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+          <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="11" lemma="Piaggio" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" root="Piaggio" word="Piaggio"/>
+        </node>
+        <node begin="7" end="8" id="12" lemma="richten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="richt" word="richten" wvorm="pv"/>
+        <node begin="8" end="9" getal="mv" id="13" lemma="we" naamval="nomin" pdtype="pron" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,red,1,mv)" pt="vnw" rel="su" root="we" status="red" vwtype="pers" word="we"/>
+        <node begin="9" end="10" getal="mv" id="14" lemma="ons" naamval="obl" pdtype="pron" persoon="1" pos="pron" postag="VNW(pr,pron,obl,vol,1,mv)" pt="vnw" rel="se" root="ons" status="vol" vwtype="pr" word="ons"/>
+        <node begin="10" cat="pp" end="15" id="15" rel="pc">
+          <node begin="10" end="11" id="16" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+          <node begin="11" cat="np" end="15" id="17" rel="obj1">
+            <node begin="11" end="12" id="18" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="12" cat="ap" end="14" id="19" rel="mod">
+              <node begin="12" buiging="zonder" end="13" graad="basis" id="20" lemma="veel" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,basis)" pt="vnw" rel="mod" root="veel" vwtype="onbep" word="veel"/>
+              <node begin="13" buiging="met-e" end="14" graad="comp" id="21" lemma="groot" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,comp,met-e,stan)" pt="adj" rel="hd" root="groot" word="grotere"/>
+            </node>
+            <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="22" lemma="doel_groep" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="doel_groep" word="doelgroep"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="23" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+    <node begin="16" end="17" id="24" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+  </node>
+  <sentence>Dat is raar , want met Piaggio richten we ons op een veel grotere doelgroep . &apos;</sentence>
+</alpino_ds>

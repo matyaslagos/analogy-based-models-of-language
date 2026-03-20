@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="0" cat="smain" end="18" id="1" rel="--">
+      <node begin="0" cat="conj" end="12" id="2" rel="su">
+        <node begin="0" cat="np" end="5" id="3" rel="cnj">
+          <node begin="0" end="1" id="4" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+          <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="5" lemma="controle" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="controle" word="controle"/>
+          <node begin="2" cat="pp" end="5" id="6" rel="mod">
+            <node begin="2" end="3" id="7" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="3" cat="np" end="5" id="8" rel="obj1">
+              <node begin="3" end="4" id="9" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="10" lemma="onderwijs_kwaliteit" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="onderwijskwaliteit" word="onderwijskwaliteit"/>
+            </node>
+          </node>
+        </node>
+        <node begin="5" conjtype="neven" end="6" id="11" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="6" cat="np" end="12" id="12" rel="cnj">
+          <node begin="6" end="7" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="14" lemma="erkenning" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="erkenning" word="erkenning"/>
+          <node begin="8" cat="pp" end="12" id="15" rel="mod">
+            <node begin="8" end="9" id="16" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="9" cat="conj" end="12" id="17" rel="obj1">
+              <node begin="9" end="10" getal="mv" graad="basis" id="18" lemma="onderwijs_instelling" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="onderwijsinstelling" word="onderwijsinstellingen"/>
+              <node begin="10" conjtype="neven" end="11" id="19" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="11" end="12" getal="mv" graad="basis" id="20" lemma="CLB" ntype="soort" pos="name" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="CLB&apos;s" word="CLB&apos;s"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="12" end="13" id="21" lemma="vormen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="vorm" word="vormen" wvorm="pv"/>
+      <node begin="13" cat="np" end="18" id="22" rel="obj1">
+        <node begin="13" end="14" id="23" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="14" end="15" getal="mv" graad="basis" id="24" lemma="kern_taak" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kerntaak" word="kerntaken"/>
+        <node begin="15" cat="pp" end="18" id="25" rel="mod">
+          <node begin="15" end="16" id="26" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="16" cat="np" end="18" id="27" rel="obj1">
+            <node begin="16" end="17" id="28" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="29" lemma="inspectie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="inspectie" word="inspectie"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="30" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De controle van de onderwijskwaliteit en de erkenning van onderwijsinstellingen en CLB&apos;s vormen de kerntaken van de inspectie .</sentence>
+</alpino_ds>

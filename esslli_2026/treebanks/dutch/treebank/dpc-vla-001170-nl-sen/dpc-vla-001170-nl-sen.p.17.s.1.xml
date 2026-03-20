@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="24" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+    <node begin="14" end="15" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="23" id="3" rel="--">
+      <node begin="0" end="1" id="4" lemma="2" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="tag" root="2" word="2"/>
+      <node begin="2" cat="smain" end="23" id="5" rel="nucl">
+        <node begin="2" end="3" getal="getal" id="6" index="1" lemma="u" naamval="nomin" pdtype="pron" persoon="2b" pos="pron" postag="VNW(pers,pron,nomin,vol,2b,getal)" pt="vnw" rel="su" root="u" status="vol" vwtype="pers" word="u"/>
+        <node begin="3" end="4" id="7" lemma="moeten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="moet" word="moet" wvorm="pv"/>
+        <node begin="4" cat="cp" end="6" id="8" rel="predm">
+          <node begin="4" conjtype="onder" end="5" id="9" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+          <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="10" lemma="ouder" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="body" root="ouder" word="ouder"/>
+        </node>
+        <node begin="2" cat="inf" end="23" id="11" rel="vc">
+          <node begin="2" end="3" id="12" index="1" rel="su"/>
+          <node begin="6" buiging="zonder" end="7" id="13" lemma="in_stemmen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="stem_in" word="instemmen" wvorm="inf"/>
+          <node begin="7" cat="pp" end="23" id="14" rel="pc">
+            <node begin="7" end="8" id="15" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+            <node begin="8" cat="conj" end="23" id="16" rel="obj1">
+              <node begin="11" conjtype="neven" end="12" id="17" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="8" cat="np" end="23" id="18" rel="cnj">
+                <node begin="8" end="9" id="19" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                <node begin="9" buiging="zonder" end="10" graad="basis" id="20" lemma="pedagogisch" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="pedagogisch" word="pedagogisch"/>
+                <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="21" lemma="project" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="project" word="project"/>
+                <node begin="15" cat="rel" end="23" id="22" index="2" rel="mod">
+                  <node begin="15" end="16" getal="getal" id="23" index="3" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+                  <node begin="15" cat="ssub" end="23" id="24" rel="body">
+                    <node begin="15" end="16" id="25" index="3" rel="su"/>
+                    <node begin="21" end="22" id="26" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" word="worden" wvorm="pv"/>
+                    <node begin="15" cat="ppart" end="23" id="27" rel="vc">
+                      <node begin="15" end="16" id="28" index="3" rel="obj1"/>
+                      <node begin="16" end="17" getal="getal" id="29" lemma="u" naamval="obl" pdtype="pron" persoon="2" pos="pron" postag="VNW(pr,pron,obl,vol,2,getal)" pt="vnw" rel="obj2" root="u" status="vol" vwtype="pr" word="u"/>
+                      <node begin="17" cat="pp" end="21" id="30" rel="mod">
+                        <node begin="17" end="18" id="31" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+                        <node begin="18" cat="np" end="21" id="32" rel="obj1">
+                          <node begin="18" end="19" id="33" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                          <node begin="19" end="20" id="34" lemma="één" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="eerste" word="eerste"/>
+                          <node begin="20" end="21" genus="zijd" getal="ev" graad="basis" id="35" lemma="inschrijving" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="inschrijving" word="inschrijving"/>
+                        </node>
+                      </node>
+                      <node begin="22" buiging="zonder" end="23" id="36" lemma="voor_leggen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="leg_voor" word="voorgelegd" wvorm="vd"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node begin="12" cat="np" end="23" id="37" rel="cnj">
+                <node begin="12" end="13" id="38" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="39" lemma="school_reglement" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="schoolreglement" word="schoolreglement"/>
+                <node begin="15" end="23" id="40" index="2" rel="mod"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="23" end="24" id="41" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>2 . u moet als ouder instemmen met het pedagogisch project en het schoolreglement , die u bij een eerste inschrijving worden voorgelegd .</sentence>
+</alpino_ds>

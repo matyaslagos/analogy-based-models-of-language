@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="31" id="0" rel="top">
+    <node begin="9" end="10" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="16" end="17" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="25" end="26" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="30" id="4" rel="--">
+      <node begin="0" end="1" id="5" lemma="voorts" pos="adv" postag="BW()" pt="bw" rel="mod" root="voorts" word="Voorts"/>
+      <node begin="1" end="2" id="6" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="2" end="3" getal="getal" id="7" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+      <node begin="6" end="7" id="8" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" word="nog"/>
+      <node begin="3" cat="conj" end="30" id="9" rel="su">
+        <node begin="3" cat="np" end="9" id="10" rel="cnj">
+          <node begin="3" cat="pp" end="6" id="11" rel="mod">
+            <node begin="3" end="4" id="12" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="4" cat="np" end="6" id="13" rel="obj1">
+              <node begin="4" end="5" id="14" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="15" lemma="stad_park" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="stad_park" word="stadspark"/>
+            </node>
+          </node>
+          <node begin="7" cat="mwu" end="9" id="16" rel="hd">
+            <node begin="7" end="8" id="17" lemma="Kasteel" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Kasteel" spectype="deeleigen" word="Kasteel"/>
+            <node begin="8" end="9" id="18" lemma="Liedts" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Liedts" spectype="deeleigen" word="Liedts"/>
+          </node>
+        </node>
+        <node begin="10" conjtype="neven" end="11" id="19" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="11" cat="np" end="30" id="20" rel="cnj">
+          <node begin="11" end="12" id="21" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="12" buiging="met-e" end="13" graad="basis" id="22" lemma="oud" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="oud" word="oude"/>
+          <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="23" lemma="trein_station" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="trein_station" word="treinstation"/>
+          <node begin="14" cat="pp" end="16" id="24" rel="mod">
+            <node begin="14" end="15" id="25" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="15" end="16" genus="onz" getal="ev" graad="basis" id="26" lemma="Oudenaarde" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Oudenaarde" word="Oudenaarde"/>
+          </node>
+          <node begin="17" cat="rel" end="25" id="27" rel="mod">
+            <node begin="17" end="18" getal="ev" id="28" index="1" lemma="dat" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(betr,pron,stan,vol,3,ev)" pt="vnw" rel="rhd" root="dat" status="vol" vwtype="betr" word="dat"/>
+            <node begin="17" cat="ssub" end="25" id="29" rel="body">
+              <node begin="17" end="18" id="30" index="1" rel="su"/>
+              <node begin="18" cat="mwu" end="20" id="31" rel="mod">
+                <node begin="18" end="19" id="32" lemma="in" pos="adv" postag="VZ(init)" pt="vz" rel="mwp" root="in" vztype="init" word="in"/>
+                <node begin="19" end="20" getal="ev" graad="basis" id="33" lemma="feit" naamval="dat" ntype="soort" pos="adv" postag="N(soort,ev,basis,dat)" pt="n" rel="mwp" root="feite" word="feite"/>
+              </node>
+              <node begin="20" cat="pp" end="24" id="34" rel="ld">
+                <node begin="20" end="21" id="35" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+                <node begin="21" cat="np" end="24" id="36" rel="obj1">
+                  <node begin="21" end="22" id="37" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                  <node begin="22" end="23" genus="onz" getal="ev" graad="basis" id="38" lemma="grond_gebied" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="grondgebied" word="grondgebied"/>
+                  <node begin="23" end="24" genus="onz" getal="ev" graad="basis" id="39" lemma="Bevere" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="app" root="Bevere" word="Bevere"/>
+                </node>
+              </node>
+              <node begin="24" end="25" id="40" lemma="liggen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="lig" word="ligt" wvorm="pv"/>
+            </node>
+          </node>
+          <node begin="26" cat="pp" end="30" id="41" rel="mod">
+            <node begin="26" end="27" id="42" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" vztype="init" word="uit"/>
+            <node begin="27" cat="np" end="30" id="43" rel="obj1">
+              <node begin="27" end="28" id="44" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="28" cat="mwu" end="30" id="45" rel="hd">
+                <node begin="28" end="29" id="46" lemma="Belle" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Belle" spectype="deeleigen" word="Belle"/>
+                <node begin="29" end="30" id="47" lemma="époque" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="époque" spectype="deeleigen" word="époque"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="30" end="31" id="48" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Voorts is er in het stadspark nog Kasteel Liedts , en het oude treinstation van Oudenaarde , dat in feite op het grondgebied Bevere ligt , uit de Belle époque .</sentence>
+</alpino_ds>

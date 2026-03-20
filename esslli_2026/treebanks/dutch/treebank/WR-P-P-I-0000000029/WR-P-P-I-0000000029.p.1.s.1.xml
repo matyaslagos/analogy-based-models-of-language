@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="0" cat="smain" end="20" id="1" rel="--">
+      <node begin="0" cat="np" end="5" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+        <node begin="1" buiging="met-e" end="2" graad="basis" id="4" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" word="nieuwe"/>
+        <node begin="2" buiging="met-e" end="3" graad="basis" id="5" lemma="landelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="landelijk" word="landelijke"/>
+        <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="6" lemma="radio_station" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="radio_station" word="radiostation"/>
+        <node begin="4" end="5" genus="genus" getal="ev" graad="basis" id="7" lemma="4FM" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="app" root="4FM" word="4FM"/>
+      </node>
+      <node begin="5" end="6" id="8" lemma="in_dienen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="dien_in" word="dient" wvorm="pv"/>
+      <node begin="6" cat="pp" end="12" id="9" rel="mod">
+        <node begin="6" end="7" id="10" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+        <node begin="7" cat="np" end="12" id="11" rel="obj1">
+          <node begin="7" end="8" id="12" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="8" buiging="met-e" end="9" graad="basis" id="13" lemma="Brussels" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Brussels" word="Brusselse"/>
+          <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="14" lemma="procureur" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="procureur" word="procureur"/>
+          <node begin="10" cat="np" end="12" id="15" rel="mod">
+            <node begin="10" end="11" id="16" lemma="de" lwtype="bep" naamval="gen" npagr="evmo" pos="det" postag="LID(bep,gen,evmo)" pt="lid" rel="det" root="de" word="des"/>
+            <node begin="11" end="12" getal="ev" graad="basis" id="17" lemma="koning" naamval="gen" ntype="soort" pos="noun" postag="N(soort,ev,basis,gen)" pt="n" rel="hd" root="koning" word="konings"/>
+          </node>
+        </node>
+      </node>
+      <node begin="12" cat="np" end="14" id="18" rel="obj1">
+        <node begin="12" end="13" id="19" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="20" lemma="klacht" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="klacht" word="klacht"/>
+      </node>
+      <node begin="14" end="15" id="21" lemma="in" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="in" vztype="fin" word="in"/>
+      <node begin="15" cat="pp" end="18" id="22" rel="mod">
+        <node begin="15" end="16" id="23" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" vztype="init" word="tegen"/>
+        <node begin="16" cat="mwu" end="18" id="24" rel="obj1">
+          <node begin="16" end="17" id="25" lemma="Radio" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Radio" spectype="deeleigen" word="Radio"/>
+          <node begin="17" end="18" id="26" lemma="Contact" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Contact" spectype="deeleigen" word="Contact"/>
+        </node>
+      </node>
+      <node begin="18" cat="pp" end="20" id="27" rel="mod">
+        <node begin="18" end="19" id="28" lemma="wegens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="wegens" vztype="init" word="wegens"/>
+        <node begin="19" end="20" genus="zijd" getal="ev" graad="basis" id="29" lemma="laster" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="laster" word="laster"/>
+      </node>
+    </node>
+    <node begin="20" end="21" id="30" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het nieuwe landelijke radiostation 4FM dient bij de Brusselse procureur des konings een klacht in tegen Radio Contact wegens laster .</sentence>
+</alpino_ds>

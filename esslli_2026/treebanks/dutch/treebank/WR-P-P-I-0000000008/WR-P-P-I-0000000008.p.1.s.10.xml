@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="23" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="13" end="14" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="0" cat="smain" end="22" id="3" rel="--">
+      <node begin="0" cat="conj" end="13" id="4" rel="su">
+        <node begin="2" conjtype="neven" end="3" id="5" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="0" cat="np" end="7" id="6" rel="cnj">
+          <node begin="0" end="1" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+          <node begin="1" end="2" getal="mv" graad="basis" id="8" lemma="bedrag" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="bedrag" word="bedragen"/>
+          <node begin="5" cat="pp" end="7" id="9" index="1" rel="mod">
+            <node begin="5" end="6" id="10" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="11" lemma="Rombouts" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" root="Rombouts" word="Rombouts"/>
+          </node>
+        </node>
+        <node begin="3" cat="np" end="13" id="12" rel="cnj">
+          <node begin="3" end="4" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="14" lemma="ontslag_premie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="ontslag_premie" word="ontslagpremie"/>
+          <node begin="5" end="7" id="15" index="1" rel="mod"/>
+          <node begin="8" cat="np" end="13" id="16" rel="mod">
+            <node begin="8" cat="conj" end="12" id="17" rel="det">
+              <node begin="8" cat="detp" end="10" id="18" rel="cnj">
+                <node begin="8" buiging="zonder" end="9" id="19" index="2" lemma="zo&apos;n" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,agr)" pt="vnw" rel="mod" root="zo&apos;n" vwtype="aanw" word="zo&apos;n"/>
+                <node begin="9" end="10" id="20" lemma="30" pos="num" postag="SPEC(afgebr)" pt="spec" rel="hd" root="30" spectype="afgebr" word="30"/>
+              </node>
+              <node begin="10" conjtype="neven" end="11" id="21" lemma="à" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="à" word="à"/>
+              <node begin="8" cat="detp" end="12" id="22" rel="cnj">
+                <node begin="8" end="9" id="23" index="2" rel="mod"/>
+                <node begin="11" end="12" id="24" lemma="40.000" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="hd" root="40.000" word="40.000"/>
+              </node>
+            </node>
+            <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="25" lemma="euro" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="euro" word="euro"/>
+          </node>
+        </node>
+      </node>
+      <node begin="14" end="15" id="26" lemma="uit_lokken" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="lok_uit" word="lokken" wvorm="pv"/>
+      <node begin="15" cat="pp" end="18" id="27" rel="mod">
+        <node begin="15" end="16" id="28" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+        <node begin="16" cat="np" end="18" id="29" rel="obj1">
+          <node begin="16" buiging="zonder" end="17" getal="mv" id="30" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+          <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="31" lemma="omvang" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="omvang" word="omvang"/>
+        </node>
+      </node>
+      <node begin="18" cat="np" end="21" id="32" rel="obj1">
+        <node begin="18" buiging="met-e" end="19" id="33" lemma="verontwaardigen" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="verontwaardigd" word="verontwaardigde" wvorm="vd"/>
+        <node begin="19" buiging="met-e" end="20" graad="basis" id="34" lemma="politiek" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="politiek" word="politieke"/>
+        <node begin="20" end="21" getal="mv" graad="basis" id="35" lemma="reactie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="reactie" word="reacties"/>
+      </node>
+      <node begin="21" end="22" id="36" lemma="uit" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="uit" vztype="fin" word="uit"/>
+    </node>
+    <node begin="22" end="23" id="37" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De bedragen en de ontslagpremie van Rombouts ( zo&apos;n 30 à 40.000 euro ) lokken door hun omvang verontwaardigde politieke reacties uit .</sentence>
+</alpino_ds>

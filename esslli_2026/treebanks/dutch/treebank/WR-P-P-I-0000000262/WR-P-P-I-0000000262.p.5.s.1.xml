@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="24" id="0" rel="top">
+    <node begin="10" end="11" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="12" end="13" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="17" end="18" id="3" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="0" cat="smain" end="23" id="4" rel="--">
+      <node begin="1" end="2" id="5" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="2" cat="np" end="20" id="6" index="1" rel="su">
+        <node begin="2" end="3" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="8" lemma="verhouding" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="verhouding" word="verhouding"/>
+        <node begin="4" cat="pp" end="17" id="9" rel="mod">
+          <node begin="4" end="5" id="10" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" vztype="init" word="tussen"/>
+          <node begin="5" cat="conj" end="17" id="11" rel="obj1">
+            <node begin="5" cat="np" end="7" id="12" rel="cnj">
+              <node begin="5" end="6" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="14" lemma="bruto_marge" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="bruto_marge" word="brutomarge"/>
+            </node>
+            <node begin="7" conjtype="neven" end="8" id="15" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="8" cat="np" end="17" id="16" rel="cnj">
+              <node begin="8" end="9" id="17" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="9" end="10" getal="mv" graad="basis" id="18" lemma="personeel_kost" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="personeel_kosten" word="personeelskosten"/>
+              <node begin="11" cat="conj" end="17" id="19" rel="mod">
+                <node begin="11" end="12" getal="mv" graad="basis" id="20" lemma="bezoldiging" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="bezoldiging" word="bezoldigingen"/>
+                <node begin="13" cat="np" end="15" id="21" rel="cnj">
+                  <node begin="13" buiging="met-e" end="14" graad="basis" id="22" lemma="sociaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="sociaal" word="sociale"/>
+                  <node begin="14" end="15" getal="mv" graad="basis" id="23" lemma="last" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="last" word="lasten"/>
+                </node>
+                <node begin="15" conjtype="neven" end="16" id="24" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                <node begin="16" end="17" getal="mv" graad="basis" id="25" lemma="pensioen" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="pensioen" word="pensioenen"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="18" cat="pp" end="20" id="26" rel="mod">
+          <node begin="18" end="19" id="27" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="19" end="20" genus="genus" getal="ev" graad="basis" id="28" lemma="S&amp;P" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="obj1" root="S&amp;P" word="S&amp;P"/>
+        </node>
+      </node>
+      <node begin="0" cat="ppart" end="23" id="29" rel="vc">
+        <node begin="0" end="1" id="30" lemma="daarenboven" pos="adv" postag="BW()" pt="bw" rel="mod" root="daarenboven" word="Daarenboven"/>
+        <node begin="2" end="20" id="31" index="1" rel="su"/>
+        <node begin="20" cat="ap" end="22" id="32" rel="predc">
+          <node begin="20" buiging="zonder" end="21" id="33" lemma="op_vallen" pos="adj" positie="vrij" postag="WW(od,vrij,zonder)" pt="ww" rel="mod" root="opvallend" word="opvallend" wvorm="od"/>
+          <node begin="21" buiging="zonder" end="22" graad="comp" id="34" lemma="gunstig" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="gunstig" word="gunstiger"/>
+        </node>
+        <node begin="22" buiging="zonder" end="23" id="35" lemma="worden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="word" word="geworden" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="23" end="24" id="36" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Daarenboven is de verhouding tussen de brutomarge en de personeelskosten ( bezoldigingen , sociale lasten en pensioenen ) voor S&amp;P opvallend gunstiger geworden .</sentence>
+</alpino_ds>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="15" id="2" rel="--">
+      <node begin="0" cat="smain" end="7" id="3" rel="nucl">
+        <node begin="0" end="1" getal="ev" id="4" lemma="dit" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" root="dit" status="vol" vwtype="aanw" word="Dit"/>
+        <node begin="1" end="2" id="5" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+        <node begin="2" cat="pp" end="4" id="6" rel="mod">
+          <node begin="2" end="3" id="7" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="3" end="4" getal="mv" graad="basis" id="8" lemma="onderduiker" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="onderduiker" word="onderduikers"/>
+        </node>
+        <node begin="4" cat="np" end="7" id="9" rel="predc">
+          <node begin="4" end="5" id="10" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="5" buiging="met-e" end="6" graad="basis" id="11" lemma="groot" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="groot" word="grote"/>
+          <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="12" lemma="klap" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="klap" word="klap"/>
+        </node>
+      </node>
+      <node begin="8" cat="whq" end="15" id="13" rel="sat">
+        <node begin="8" end="9" id="14" index="1" lemma="hoe" pos="adj" postag="BW()" pt="bw" rel="whd" root="hoe" word="hoe"/>
+        <node begin="8" cat="sv1" end="15" id="15" rel="body">
+          <node begin="9" end="10" id="16" lemma="moeten" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="moet" word="moesten" wvorm="pv"/>
+          <node begin="10" end="11" getal="mv" id="17" index="2" lemma="zij" naamval="nomin" pdtype="pron" persoon="3p" pos="pron" postag="VNW(pers,pron,nomin,vol,3p,mv)" pt="vnw" rel="su" root="zij" status="vol" vwtype="pers" word="zij"/>
+          <node begin="8" cat="inf" end="15" id="18" rel="vc">
+            <node begin="8" end="9" id="19" index="1" rel="mod"/>
+            <node begin="10" end="11" id="20" index="2" rel="su"/>
+            <node begin="11" end="12" id="21" lemma="nu" pos="adv" postag="BW()" pt="bw" rel="mod" root="nu" word="nu"/>
+            <node begin="12" cat="pp" end="14" id="22" rel="pc">
+              <node begin="12" end="13" id="23" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+              <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="24" lemma="eten" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="eten" word="eten"/>
+            </node>
+            <node begin="14" buiging="zonder" end="15" id="25" lemma="komen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="kom" word="komen" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="26" lemma="?" pos="punct" postag="LET()" pt="let" rel="--" root="?" word="?"/>
+  </node>
+  <sentence>Dit was voor onderduikers een grote klap , hoe moesten zij nu aan eten komen ?</sentence>
+</alpino_ds>

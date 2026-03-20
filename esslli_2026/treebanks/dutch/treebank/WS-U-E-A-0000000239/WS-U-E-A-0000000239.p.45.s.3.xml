@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="0" cat="smain" end="17" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" buiging="zonder" end="1" graad="basis" id="3" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,basis)" pt="vnw" rel="det" root="veel" vwtype="onbep" word="VEEL"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="4" lemma="Tsjetsjeen" ntype="eigen" pos="noun" postag="N(eigen,mv,basis)" pt="n" rel="hd" root="Tsjetsjeen" word="TSJETSJENEN"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="nemen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="neem" word="NEMEN" wvorm="pv"/>
+      <node begin="3" end="4" id="6" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="NIET"/>
+      <node begin="4" cat="np" end="11" id="7" rel="obj1">
+        <node begin="4" end="5" id="8" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="DE"/>
+        <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="9" lemma="moeite" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="moeite" word="MOEITE"/>
+        <node begin="6" cat="ti" end="11" id="10" rel="vc">
+          <node begin="9" end="10" id="11" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="TE"/>
+          <node begin="6" cat="inf" end="11" id="12" rel="body">
+            <node begin="6" cat="pp" end="9" id="13" rel="ld">
+              <node begin="6" end="7" id="14" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="NAAR"/>
+              <node begin="7" cat="np" end="9" id="15" rel="obj1">
+                <node begin="7" end="8" id="16" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="DE"/>
+                <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="17" lemma="stembus" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="stembus" word="STEMBUS"/>
+              </node>
+            </node>
+            <node begin="10" buiging="zonder" end="11" id="18" lemma="gaan" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ga" word="GAAN" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+      <node begin="11" cat="cp" end="17" id="19" rel="mod">
+        <node begin="11" conjtype="onder" end="12" id="20" lemma="omdat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="omdat" word="OMDAT"/>
+        <node begin="12" cat="ssub" end="17" id="21" rel="body">
+          <node begin="12" cat="ti" end="16" id="22" rel="vc">
+            <node begin="14" end="15" id="23" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="TE"/>
+            <node begin="12" cat="inf" end="16" id="24" rel="body">
+              <node begin="12" end="13" getal="getal" id="25" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="ER"/>
+              <node begin="13" buiging="zonder" end="14" graad="basis" id="26" lemma="weinig" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,basis)" pt="vnw" rel="mod" root="weinig" vwtype="onbep" word="WEINIG"/>
+              <node begin="15" buiging="zonder" end="16" id="27" lemma="kiezen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="kies" word="KIEZEN" wvorm="inf"/>
+            </node>
+          </node>
+          <node begin="16" end="17" id="28" lemma="vallen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="val" word="VALT" wvorm="pv"/>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="29" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>VEEL TSJETSJENEN NEMEN NIET DE MOEITE NAAR DE STEMBUS TE GAAN OMDAT ER WEINIG TE KIEZEN VALT .</sentence>
+</alpino_ds>

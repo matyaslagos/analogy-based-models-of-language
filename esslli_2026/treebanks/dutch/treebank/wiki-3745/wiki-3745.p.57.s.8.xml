@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="np" end="8" id="2" rel="--">
+      <node begin="0" cat="mwu" end="3" id="3" rel="hd">
+        <node begin="0" end="1" id="4" lemma="Hendrik" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Hendrik" spectype="deeleigen" word="Hendrik"/>
+        <node begin="1" end="2" id="5" lemma="van" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="van" spectype="deeleigen" word="van"/>
+        <node begin="2" end="3" id="6" lemma="Veldeke" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Veldeke" spectype="deeleigen" word="Veldeke"/>
+      </node>
+      <node begin="4" cat="conj" end="8" id="7" rel="app">
+        <node begin="4" cat="np" end="6" id="8" rel="cnj">
+          <node begin="4" buiging="zonder" end="5" graad="basis" id="9" lemma="middeleeuws" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="middeleeuws" word="middeleeuws"/>
+          <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="10" lemma="schrijver" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="schrijver" word="schrijver"/>
+        </node>
+        <node begin="6" conjtype="neven" end="7" id="11" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="12" lemma="minne_zanger" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="min_zanger" word="minnezanger"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="13" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Hendrik van Veldeke , middeleeuws schrijver en minnezanger .</sentence>
+</alpino_ds>

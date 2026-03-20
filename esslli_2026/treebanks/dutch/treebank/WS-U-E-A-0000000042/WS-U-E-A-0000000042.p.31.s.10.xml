@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="0" end="1" id="2" lemma="zo" pos="adv" postag="BW()" pt="bw" rel="su" root="zo" word="Zo"/>
+      <node begin="1" end="2" id="3" lemma="blijken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="blijk" word="bleek" wvorm="pv"/>
+      <node begin="2" end="3" id="4" lemma="vandaag" pos="adv" postag="BW()" pt="bw" rel="mod" root="vandaag" word="vandaag"/>
+      <node begin="3" end="4" id="5" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+      <node begin="4" cat="pp" end="11" id="6" rel="pc">
+        <node begin="4" end="5" id="7" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" vztype="init" word="uit"/>
+        <node begin="5" cat="np" end="11" id="8" rel="obj1">
+          <node begin="5" end="6" getal="mv" graad="basis" id="9" lemma="cijfer" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="cijfer" word="cijfers"/>
+          <node begin="6" cat="pp" end="11" id="10" rel="mod">
+            <node begin="6" end="7" id="11" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="7" cat="np" end="11" id="12" rel="obj1">
+              <node begin="7" end="8" getal="mv" graad="basis" id="13" lemma="telecom_reus" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="telecom_reus" word="telecomreuzen"/>
+              <node begin="8" cat="cp" end="11" id="14" rel="mod">
+                <node begin="8" conjtype="onder" end="9" id="15" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+                <node begin="9" cat="mwu" end="11" id="16" rel="body">
+                  <node begin="9" end="10" id="17" lemma="France" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="France" spectype="deeleigen" word="France"/>
+                  <node begin="10" end="11" id="18" lemma="Telecom" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Telecom" spectype="deeleigen" word="Telecom"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" id="19" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Zo bleek vandaag ook uit cijfers van telecomreuzen als France Telecom .</sentence>
+</alpino_ds>

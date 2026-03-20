@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="|" pos="punct" postag="LET()" pt="let" rel="--" root="|" word="|"/>
+    <node begin="0" cat="du" end="9" id="2" rel="--">
+      <node begin="0" cat="du" end="3" id="3" rel="dp">
+        <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="4" lemma="tekst" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="dp" root="tekst" word="Tekst"/>
+        <node begin="1" cat="mwu" end="3" id="5" rel="dp">
+          <node begin="1" end="2" id="6" lemma="Chantal" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Chantal" spectype="deeleigen" word="Chantal"/>
+          <node begin="2" end="3" id="7" lemma="Samson" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Samson" spectype="deeleigen" word="Samson"/>
+        </node>
+      </node>
+      <node begin="4" cat="du" end="9" id="8" rel="dp">
+        <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="9" lemma="fotografie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="dp" root="fotografie" word="Fotografie"/>
+        <node begin="5" cat="mwu" end="9" id="10" rel="dp">
+          <node begin="5" end="6" id="11" lemma="Stefan" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Stefan" spectype="deeleigen" word="Stefan"/>
+          <node begin="6" end="7" id="12" lemma="Op" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Op" spectype="deeleigen" word="Op"/>
+          <node begin="7" end="8" id="13" lemma="De" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="De" spectype="deeleigen" word="De"/>
+          <node begin="8" end="9" id="14" lemma="Beeck" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Beeck" spectype="deeleigen" word="Beeck"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>Tekst Chantal Samson | Fotografie Stefan Op De Beeck</sentence>
+</alpino_ds>

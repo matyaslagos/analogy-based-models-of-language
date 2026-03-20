@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="np" end="6" id="1" rel="--">
+      <node begin="0" end="1" id="2" lemma="printenv@us.ibm.com" pos="noun" postag="SPEC(symb)" pt="spec" rel="hd" root="printenv@us.ibm.com" spectype="symb" word="printenv@us.ibm.com"/>
+      <node begin="1" cat="pp" end="6" id="3" rel="mod">
+        <node begin="1" end="2" id="4" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="Voor"/>
+        <node begin="2" cat="conj" end="6" id="5" rel="obj1">
+          <node begin="2" cat="mwu" end="4" id="6" rel="cnj">
+            <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="7" lemma="IBM" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="mwp" root="IBM" word="IBM"/>
+            <node begin="3" end="4" getal="mv" graad="basis" id="8" lemma="printer" ntype="soort" pos="name" postag="N(soort,mv,basis)" pt="n" rel="mwp" root="Printers" word="Printers"/>
+          </node>
+          <node begin="4" conjtype="neven" end="5" id="9" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="5" end="6" getal="mv" graad="basis" id="10" lemma="MFP" ntype="soort" pos="name" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="MFPs" word="MFPs"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>printenv@us.ibm.com Voor IBM Printers en MFPs</sentence>
+</alpino_ds>

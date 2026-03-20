@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="34" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="9" end="10" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="17" end="18" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="24" end="25" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="26" end="27" id="5" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="28" end="29" id="6" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="0" cat="smain" end="33" id="7" rel="--">
+      <node begin="2" end="3" id="8" lemma="proberen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="probeer" word="probeert" wvorm="pv"/>
+      <node begin="3" cat="np" end="9" id="9" index="1" rel="su">
+        <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="10" lemma="Sybok" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Sybok" word="Sybok"/>
+        <node begin="5" cat="np" end="9" id="11" rel="app">
+          <node begin="5" end="6" id="12" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="13" lemma="half_broer" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="halfbroer" word="halfbroer"/>
+          <node begin="7" cat="pp" end="9" id="14" rel="mod">
+            <node begin="7" end="8" id="15" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="16" lemma="Spock" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" root="Spock" word="Spock"/>
+          </node>
+        </node>
+      </node>
+      <node begin="0" cat="ti" end="33" id="17" rel="vc">
+        <node begin="15" end="16" id="18" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+        <node begin="0" cat="inf" end="33" id="19" rel="body">
+          <node begin="0" cat="pp" end="2" id="20" rel="mod">
+            <node begin="0" end="1" id="21" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+            <node begin="1" end="2" id="22" lemma="2287" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" root="2287" word="2287"/>
+          </node>
+          <node begin="3" end="9" id="23" index="1" rel="su"/>
+          <node begin="16" buiging="zonder" end="17" id="24" lemma="bereiken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="bereik" word="bereiken" wvorm="inf"/>
+          <node begin="10" cat="np" end="33" id="25" rel="obj1">
+            <node begin="10" end="11" id="26" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="27" lemma="centrum" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="centrum" word="centrum"/>
+            <node begin="12" cat="pp" end="15" id="28" rel="mod">
+              <node begin="12" end="13" id="29" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="13" cat="np" end="15" id="30" rel="obj1">
+                <node begin="13" end="14" id="31" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                <node begin="14" end="15" genus="onz" getal="ev" graad="basis" id="32" lemma="heelal" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="heelal" word="heelal"/>
+              </node>
+            </node>
+            <node begin="18" cat="rel" end="33" id="33" rel="mod">
+              <node begin="18" end="19" getal="getal" id="34" index="2" lemma="waar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(vb,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="rhd" root="waar" status="vol" vwtype="vb" word="waar"/>
+              <node begin="18" cat="ssub" end="33" id="35" rel="body">
+                <node begin="19" end="20" genus="masc" getal="ev" id="36" index="3" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="hij"/>
+                <node begin="20" end="21" id="37" lemma="hopen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="hoop" word="hoopt" wvorm="pv"/>
+                <node begin="18" cat="ti" end="33" id="38" rel="vc">
+                  <node begin="31" end="32" id="39" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+                  <node begin="18" cat="inf" end="33" id="40" rel="body">
+                    <node begin="18" end="19" id="41" index="2" rel="mod"/>
+                    <node begin="19" end="20" id="42" index="3" rel="su"/>
+                    <node begin="21" cat="np" end="31" id="43" rel="obj1">
+                      <node begin="21" end="22" id="44" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                      <node begin="22" end="23" genus="zijd" getal="ev" graad="basis" id="45" lemma="planeet" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="planeet" word="planeet"/>
+                      <node begin="23" end="24" genus="onz" getal="ev" graad="basis" id="46" lemma="Eden" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="app" root="Eden" word="Eden"/>
+                      <node begin="25" cat="np" end="31" id="47" rel="app">
+                        <node begin="25" end="26" id="48" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                        <node begin="27" end="28" genus="zijd" getal="ev" graad="basis" id="49" lemma="woon_plaats" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="woon_plaats" word="woonplaats"/>
+                        <node begin="29" cat="pp" end="31" id="50" rel="mod">
+                          <node begin="29" end="30" id="51" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                          <node begin="30" end="31" genus="zijd" getal="ev" graad="basis" id="52" lemma="God" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" root="god" word="God"/>
+                        </node>
+                      </node>
+                    </node>
+                    <node begin="32" buiging="zonder" end="33" id="53" lemma="vinden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="vind" word="vinden" wvorm="inf"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="33" end="34" id="54" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>In 2287 probeert Sybok , de halfbroer van Spock , het centrum van het heelal te bereiken , waar hij hoopt de planeet Eden , de &quot; woonplaats &quot; van God te vinden .</sentence>
+</alpino_ds>

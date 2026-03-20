@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="du" end="14" id="2" rel="--">
+      <node begin="0" cat="smain" end="5" id="3" rel="tag">
+        <node begin="0" cat="np" end="2" id="4" rel="su">
+          <node begin="0" buiging="zonder" end="1" getal="ev" id="5" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,red,3,ev,prenom,zonder,agr)" pt="vnw" rel="det" root="zijn" status="red" vwtype="bez" word="Z&apos;n"/>
+          <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="6" lemma="enthousiasme" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="enthousiasme" word="enthousiasme"/>
+        </node>
+        <node begin="2" end="3" id="7" lemma="laten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="laat" word="laat" wvorm="pv"/>
+        <node begin="3" end="4" getal="getal" id="8" index="1" lemma="zich" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="obj1" root="zich" status="red" vwtype="refl" word="zich"/>
+        <node begin="3" cat="inf" end="5" id="9" rel="vc">
+          <node begin="3" end="4" id="10" index="1" rel="su"/>
+          <node begin="4" buiging="zonder" end="5" id="11" lemma="verklaren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="verklaar" word="verklaren" wvorm="inf"/>
+        </node>
+      </node>
+      <node begin="6" cat="smain" end="14" id="12" rel="nucl">
+        <node begin="6" cat="np" end="13" id="13" rel="su">
+          <node begin="6" end="7" id="14" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="7" buiging="met-e" end="8" graad="sup" id="15" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,met-e,agr,sup)" pt="vnw" rel="mod" root="meest" vwtype="onbep" word="meeste"/>
+          <node begin="8" end="9" getal="mv" graad="basis" id="16" lemma="missie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="missie" word="missies"/>
+          <node begin="9" cat="pp" end="13" id="17" rel="mod">
+            <node begin="9" end="10" id="18" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+            <node begin="10" cat="np" end="13" id="19" rel="obj1">
+              <node begin="10" end="11" id="20" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="11" buiging="met-e" end="12" graad="basis" id="21" lemma="rood" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="rood" word="rode"/>
+              <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="22" lemma="planeet" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="planeet" word="planeet"/>
+            </node>
+          </node>
+        </node>
+        <node begin="13" end="14" id="23" lemma="mislukken" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="misluk" word="mislukken" wvorm="pv"/>
+      </node>
+    </node>
+    <node begin="14" end="15" id="24" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Z&apos;n enthousiasme laat zich verklaren : de meeste missies naar de rode planeet mislukken .</sentence>
+</alpino_ds>

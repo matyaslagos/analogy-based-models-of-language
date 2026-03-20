@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" end="1" getal="mv" graad="basis" id="2" lemma="handel_rechter" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="handel_rechter" word="Handelsrechters"/>
+      <node begin="1" end="2" id="3" lemma="staan" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="sta" word="staan" wvorm="pv"/>
+      <node begin="2" cat="np" end="4" id="4" rel="mod">
+        <node begin="2" buiging="met-e" end="3" id="5" lemma="deze" naamval="gen" npagr="rest3" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,gen,prenom,met-e,rest3)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="dezer"/>
+        <node begin="3" end="4" getal="mv" graad="basis" id="6" lemma="dag" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="dag" word="dagen"/>
+      </node>
+      <node begin="4" cat="mwu" end="6" id="7" rel="svp">
+        <node begin="4" buiging="zonder" end="5" getal="mv" id="8" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="fixed" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="mwp" root="hun" status="vol" vwtype="bez" word="hun"/>
+        <node begin="5" end="6" genus="onz" getal="ev" graad="dim" id="9" lemma="man" naamval="stan" ntype="soort" pos="fixed" postag="N(soort,ev,dim,onz,stan)" pt="n" rel="mwp" root="man_DIM" word="mannetje"/>
+      </node>
+      <node begin="6" end="7" id="10" lemma="wel" pos="adv" postag="BW()" pt="bw" rel="mod" root="wel" word="wel"/>
+    </node>
+    <node begin="7" end="8" id="11" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Handelsrechters staan dezer dagen hun mannetje wel .</sentence>
+</alpino_ds>

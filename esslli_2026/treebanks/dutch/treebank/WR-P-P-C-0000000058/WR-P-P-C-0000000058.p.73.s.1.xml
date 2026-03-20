@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="34" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="8" end="9" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="12" end="13" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="33" id="4" rel="--">
+      <node begin="0" cat="smain" end="18" id="5" rel="cnj">
+        <node begin="0" cat="np" end="12" id="6" index="1" rel="su">
+          <node begin="0" end="1" id="7" lemma="Reliability@imec" pos="name" postag="SPEC(symb)" pt="spec" rel="hd" root="Reliability@imec" spectype="symb" word="Reliability@imec"/>
+          <node begin="2" cat="np" end="12" id="8" rel="app">
+            <node begin="2" end="3" id="9" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="10" lemma="centrum" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="centrum" word="centrum"/>
+            <node begin="4" cat="pp" end="12" id="11" rel="mod">
+              <node begin="4" end="5" id="12" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+              <node begin="5" cat="conj" end="12" id="13" rel="obj1">
+                <node begin="5" cat="np" end="8" id="14" rel="cnj">
+                  <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="15" lemma="betrouwbaarheid_analyse" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="betrouwbaarheid_analyse" word="betrouwbaarheidsanalyse"/>
+                  <node begin="6" cat="pp" end="8" id="16" rel="mod">
+                    <node begin="6" end="7" id="17" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                    <node begin="7" end="8" getal="mv" graad="basis" id="18" lemma="chip" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="chip" word="chips"/>
+                  </node>
+                </node>
+                <node begin="9" end="10" getal="mv" graad="basis" id="19" lemma="chip_verpakking" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="chip_verpakking" word="chipverpakkingen"/>
+                <node begin="10" conjtype="neven" end="11" id="20" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                <node begin="11" end="12" getal="mv" graad="basis" id="21" lemma="micro_systeem" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="micro_systeem" word="microsystemen"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="13" end="14" id="22" lemma="uit_voeren" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="voer_uit" word="voert" wvorm="pv"/>
+        <node begin="14" end="15" id="23" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+        <node begin="15" cat="np" end="17" id="24" rel="obj1">
+          <node begin="15" end="16" id="25" lemma="alleen" pos="adv" postag="BW()" pt="bw" rel="mod" root="alleen" word="alleen"/>
+          <node begin="16" end="17" getal="mv" graad="basis" id="26" lemma="betrouwbaarheid_test" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="betrouwbaarheid_test" word="betrouwbaarheidstesten"/>
+        </node>
+        <node begin="17" end="18" id="27" lemma="uit" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="uit" vztype="fin" word="uit"/>
+      </node>
+      <node begin="18" conjtype="neven" end="19" id="28" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+      <node begin="0" cat="sv1" end="33" id="29" rel="cnj">
+        <node begin="0" end="12" id="30" index="1" rel="su"/>
+        <node begin="19" end="20" id="31" lemma="geven" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="geef" word="geeft" wvorm="pv"/>
+        <node begin="20" end="21" id="32" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+        <node begin="21" cat="np" end="31" id="33" rel="obj1">
+          <node begin="21" end="22" id="34" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="22" buiging="met-e" end="23" graad="basis" id="35" lemma="grondig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="grondig" word="grondige"/>
+          <node begin="23" end="24" genus="zijd" getal="ev" graad="basis" id="36" lemma="analyse" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="analyse" word="analyse"/>
+          <node begin="24" cat="conj" end="31" id="37" rel="mod">
+            <node begin="24" cat="pp" end="27" id="38" rel="cnj">
+              <node begin="24" end="25" id="39" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="25" cat="np" end="27" id="40" rel="obj1">
+                <node begin="25" end="26" id="41" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="26" end="27" getal="mv" graad="basis" id="42" lemma="materiaal" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="materiaal" word="materialen"/>
+              </node>
+            </node>
+            <node begin="27" conjtype="neven" end="28" id="43" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="28" cat="pp" end="31" id="44" rel="cnj">
+              <node begin="28" end="29" id="45" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="29" cat="np" end="31" id="46" rel="obj1">
+                <node begin="29" end="30" id="47" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="30" end="31" getal="mv" graad="basis" id="48" lemma="oorzaak" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="oorzaak" word="oorzaken"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="31" cat="pp" end="33" id="49" rel="pc">
+          <node begin="31" end="32" id="50" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+          <node begin="32" end="33" genus="zijd" getal="ev" graad="basis" id="51" lemma="faling" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="faling" word="faling"/>
+        </node>
+      </node>
+    </node>
+    <node begin="33" end="34" id="52" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Reliability@imec , het centrum voor betrouwbaarheidsanalyse van chips , chipverpakkingen en microsystemen , voert niet alleen betrouwbaarheidstesten uit maar geeft ook een grondige analyse van de materialen en van de oorzaken bij faling .</sentence>
+</alpino_ds>

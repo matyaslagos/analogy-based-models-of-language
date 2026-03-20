@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" buiging="met-e" end="2" graad="basis" id="4" lemma="Nederlands" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Nederlands" word="Nederlandse"/>
+        <node begin="2" end="3" getal="mv" graad="basis" id="5" lemma="militair" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="militair" word="militairen"/>
+      </node>
+      <node begin="3" end="4" id="6" lemma="patrouilleren" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="patrouilleer" word="patrouilleerden" wvorm="pv"/>
+      <node begin="4" end="5" id="7" lemma="vandaag" pos="adv" postag="BW()" pt="bw" rel="mod" root="vandaag" word="vandaag"/>
+      <node begin="5" cat="pp" end="8" id="8" rel="mod">
+        <node begin="5" end="6" id="9" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="6" cat="mwu" end="8" id="10" rel="obj1">
+          <node begin="6" end="7" id="11" lemma="As" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="As" spectype="deeleigen" word="As"/>
+          <node begin="7" end="8" id="12" lemma="Samawah" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Samawah" spectype="deeleigen" word="Samawah"/>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" id="13" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De Nederlandse militairen patrouilleerden vandaag in As Samawah .</sentence>
+</alpino_ds>

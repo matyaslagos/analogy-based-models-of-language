@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="40" id="0" rel="top">
+    <node begin="16" end="17" id="1" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+    <node begin="29" end="30" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="33" end="34" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="35" end="36" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="39" id="5" rel="--">
+      <node begin="0" cat="smain" end="16" id="6" rel="dp">
+        <node begin="0" cat="np" end="3" id="7" rel="su">
+          <node begin="0" end="1" id="8" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+          <node begin="1" cat="mwu" end="3" id="9" rel="hd">
+            <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="10" lemma="kunst_centrum" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="Kunstencentrum" word="Kunstencentrum"/>
+            <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="11" lemma="België" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="mwp" root="BELGIË" word="BELGIË"/>
+          </node>
+        </node>
+        <node begin="3" end="4" id="12" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="4" cat="np" end="16" id="13" rel="predc">
+          <node begin="4" end="5" id="14" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="5" buiging="zonder" end="6" id="15" lemma="erkennen" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="mod" root="erkend" word="erkend" wvorm="vd"/>
+          <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="16" lemma="kunst_centrum" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="kunst_centrum" word="kunstencentrum"/>
+          <node begin="7" cat="pp" end="16" id="17" rel="mod">
+            <node begin="7" end="8" id="18" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+            <node begin="8" cat="np" end="16" id="19" rel="obj1">
+              <node begin="8" end="9" id="20" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="9" cat="conj" end="12" id="21" rel="mod">
+                <node begin="9" buiging="zonder" end="10" graad="basis" id="22" lemma="jong" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="cnj" root="jong" word="jong"/>
+                <node begin="10" conjtype="neven" end="11" id="23" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                <node begin="11" buiging="zonder" end="12" graad="basis" id="24" lemma="veelzijdig" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="cnj" root="veelzijdig" word="veelzijdig"/>
+              </node>
+              <node begin="12" end="13" genus="onz" getal="ev" graad="basis" id="25" lemma="aanbod" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="aanbod" word="aanbod"/>
+              <node begin="13" cat="pp" end="16" id="26" rel="mod">
+                <node begin="13" end="14" id="27" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="14" cat="np" end="16" id="28" rel="obj1">
+                  <node begin="14" buiging="met-e" end="15" graad="basis" id="29" lemma="cultureel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="cultureel" word="culturele"/>
+                  <node begin="15" end="16" getal="mv" graad="basis" id="30" lemma="activiteit" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="activiteit" word="activiteiten"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="17" cat="smain" end="39" id="31" rel="dp">
+        <node begin="17" end="18" genus="onz" getal="ev" id="32" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" root="het" status="red" vwtype="pers" word="het"/>
+        <node begin="18" end="19" id="33" lemma="presenteren" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="presenteer" word="presenteert" wvorm="pv"/>
+        <node begin="19" cat="pp" end="21" id="34" rel="mod">
+          <node begin="19" end="20" id="35" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+          <node begin="20" end="21" genus="zijd" getal="ev" graad="basis" id="36" lemma="jaarbasis" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="jaarbasis" word="jaarbasis"/>
+        </node>
+        <node begin="21" cat="np" end="39" id="37" rel="obj1">
+          <node begin="21" end="22" id="38" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="22" end="23" genus="onz" getal="ev" graad="basis" id="39" lemma="200-tal" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="200-tal" word="200-tal"/>
+          <node begin="23" cat="np" end="39" id="40" rel="mod">
+            <node begin="23" buiging="met-e" end="24" graad="basis" id="41" lemma="publiek" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="publiek" word="publieke"/>
+            <node begin="24" end="25" getal="mv" graad="basis" id="42" lemma="voorstelling" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="voorstelling" word="voorstellingen"/>
+            <node begin="25" cat="pp" end="39" id="43" rel="mod">
+              <node begin="25" end="26" id="44" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+              <node begin="26" cat="conj" end="39" id="45" rel="obj1">
+                <node begin="26" cat="conj" end="29" id="46" rel="cnj">
+                  <node begin="26" end="27" id="47" lemma="video-" pos="prefix" postag="SPEC(afgebr)" pt="spec" rel="cnj" root="video" spectype="afgebr" word="video-"/>
+                  <node begin="27" conjtype="neven" end="28" id="48" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                  <node begin="28" end="29" genus="zijd" getal="ev" graad="basis" id="49" lemma="film" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="film" word="film"/>
+                </node>
+                <node begin="30" cat="conj" end="33" id="50" rel="cnj">
+                  <node begin="30" end="31" genus="zijd" getal="ev" graad="basis" id="51" lemma="dans" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="dans" word="dans"/>
+                  <node begin="31" conjtype="neven" end="32" id="52" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                  <node begin="32" end="33" genus="onz" getal="ev" graad="basis" id="53" lemma="theater" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="cnj" root="theater" word="theater"/>
+                </node>
+                <node begin="34" end="35" getal="mv" graad="basis" id="54" lemma="concert" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="concert" word="concerten"/>
+                <node begin="36" end="37" getal="mv" graad="basis" id="55" lemma="expositie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="expositie" word="exposities"/>
+                <node begin="37" conjtype="neven" end="38" id="56" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                <node begin="38" end="39" getal="mv" graad="basis" id="57" lemma="performance" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="performance" word="performances"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="39" end="40" id="58" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het Kunstencentrum BELGIË is een erkend kunstencentrum met een jong en veelzijdig aanbod van culturele activiteiten . het presenteert op jaarbasis een 200-tal publieke voorstellingen met video- en film , dans en theater , concerten , exposities en performances .</sentence>
+</alpino_ds>

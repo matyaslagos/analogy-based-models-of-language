@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="0" cat="pp" end="4" id="2" rel="mod">
+        <node begin="0" end="1" id="3" lemma="volgens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="volgens" vztype="init" word="Volgens"/>
+        <node begin="1" cat="np" end="4" id="4" rel="obj1">
+          <node begin="1" end="2" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="2" buiging="met-e" end="3" graad="basis" id="6" lemma="Duits" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Duits" word="Duitse"/>
+          <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="7" lemma="groep" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="groep" word="groep"/>
+        </node>
+      </node>
+      <node begin="4" end="5" id="8" lemma="bieden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="bied" word="biedt" wvorm="pv"/>
+      <node begin="5" end="6" genus="genus" getal="ev" graad="basis" id="9" lemma="Sobelair" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="su" root="Sobelair" word="Sobelair"/>
+      <node begin="6" cat="np" end="14" id="10" rel="obj1">
+        <node begin="6" cat="ap" end="8" id="11" rel="det">
+          <node begin="6" end="7" id="12" lemma="te" pos="adv" postag="BW()" pt="bw" rel="mod" root="te" word="te"/>
+          <node begin="7" buiging="zonder" end="8" graad="basis" id="13" lemma="weinig" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,basis)" pt="vnw" rel="hd" root="weinig" vwtype="onbep" word="weinig"/>
+        </node>
+        <node begin="8" end="9" getal="mv" graad="basis" id="14" lemma="garantie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="garantie" word="garanties"/>
+        <node begin="9" cat="pp" end="14" id="15" rel="mod">
+          <node begin="9" end="10" id="16" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="10" cat="np" end="14" id="17" rel="obj1">
+            <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="18" lemma="overleving" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="overleving" word="overleving"/>
+            <node begin="11" cat="pp" end="14" id="19" rel="mod">
+              <node begin="11" end="12" id="20" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+              <node begin="12" cat="np" end="14" id="21" rel="obj1">
+                <node begin="12" buiging="met-e" end="13" graad="basis" id="22" lemma="lang" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="lang" word="lange"/>
+                <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="23" lemma="termijn" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="termijn" word="termijn"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="24" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Volgens de Duitse groep biedt Sobelair te weinig garanties voor overleving op lange termijn .</sentence>
+</alpino_ds>

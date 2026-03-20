@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="6" end="7" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="21" id="3" rel="--">
+      <node begin="0" cat="smain" end="13" id="4" rel="cnj">
+        <node begin="0" cat="np" end="6" id="5" index="1" rel="su">
+          <node begin="0" cat="mwu" end="2" id="6" rel="hd">
+            <node begin="0" end="1" id="7" lemma="Magnus" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Magnus" spectype="deeleigen" word="Magnus"/>
+            <node begin="1" end="2" id="8" lemma="Stoker" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Stoker" spectype="deeleigen" word="Stoker"/>
+          </node>
+          <node begin="3" cat="np" end="6" id="9" rel="app">
+            <node begin="3" end="4" id="10" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="4" buiging="met-e" end="5" graad="basis" id="11" lemma="ander" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ander" word="andere"/>
+            <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="12" lemma="kandidaat" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="kandidaat" word="kandidaat"/>
+          </node>
+        </node>
+        <node begin="7" end="8" id="13" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="8" end="9" id="14" lemma="hierover" pos="pp" postag="BW()" pt="bw" rel="mod" root="hierover" word="hierover"/>
+        <node begin="9" cat="conj" end="13" id="15" rel="predc">
+          <node begin="9" cat="ppart" end="11" id="16" rel="cnj">
+            <node begin="9" end="10" id="17" index="2" lemma="zeer" pos="adv" postag="BW()" pt="bw" rel="mod" root="zeer" word="zeer"/>
+            <node begin="10" buiging="zonder" end="11" id="18" lemma="teleur_stellen" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="teleurgesteld" word="teleurgesteld" wvorm="vd"/>
+          </node>
+          <node begin="11" conjtype="neven" end="12" id="19" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="9" cat="ap" end="13" id="20" rel="cnj">
+            <node begin="9" end="10" id="21" index="2" rel="mod"/>
+            <node begin="12" buiging="zonder" end="13" graad="basis" id="22" lemma="kwaad" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="kwaad" word="kwaad"/>
+          </node>
+        </node>
+      </node>
+      <node begin="13" conjtype="neven" end="14" id="23" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="0" cat="smain" end="21" id="24" rel="cnj">
+        <node begin="0" end="6" id="25" index="1" rel="su"/>
+        <node begin="14" end="15" id="26" lemma="maken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="maak" word="maakt" wvorm="pv"/>
+        <node begin="15" cat="np" end="21" id="27" rel="obj1">
+          <node begin="15" buiging="met-e" end="16" id="28" lemma="kleineren" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="kleineer" word="kleinerende" wvorm="od"/>
+          <node begin="16" end="17" getal="mv" graad="basis" id="29" lemma="opmerking" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="opmerking" word="opmerkingen"/>
+          <node begin="17" cat="pp" end="21" id="30" rel="mod">
+            <node begin="17" end="18" id="31" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" vztype="init" word="over"/>
+            <node begin="18" cat="conj" end="21" id="32" rel="obj1">
+              <node begin="18" end="19" genus="zijd" getal="ev" graad="basis" id="33" lemma="Ron" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Ron" word="Ron"/>
+              <node begin="19" conjtype="neven" end="20" id="34" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="20" end="21" genus="zijd" getal="ev" graad="basis" id="35" lemma="Ginny" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Ginny" word="Ginny"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="21" end="22" id="36" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Magnus Stoker , de andere kandidaat , is hierover zeer teleurgesteld en kwaad en maakt kleinerende opmerkingen over Ron en Ginny .</sentence>
+</alpino_ds>

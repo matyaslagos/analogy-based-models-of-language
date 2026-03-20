@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="13" end="14" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="18" end="19" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="21" id="3" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="4" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" word="Maar"/>
+      <node begin="1" cat="smain" end="21" id="5" rel="nucl">
+        <node begin="1" cat="pp" end="8" id="6" rel="mod">
+          <node begin="1" end="2" id="7" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="2" cat="np" end="8" id="8" rel="obj1">
+            <node begin="2" end="3" id="9" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="3" buiging="zonder" end="4" graad="basis" id="10" lemma="rechtstreeks" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="rechtstreeks" word="rechtstreeks"/>
+            <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="11" lemma="duel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="duel" word="duel"/>
+            <node begin="5" cat="pp" end="8" id="12" rel="mod">
+              <node begin="5" end="6" id="13" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+              <node begin="6" cat="np" end="8" id="14" rel="obj1">
+                <node begin="6" end="7" id="15" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="16" lemma="slot_afstand" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="slot_afstand" word="slotafstand"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="8" end="9" id="17" lemma="geven" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="geef" word="gaf" wvorm="pv"/>
+        <node begin="9" end="10" genus="fem" getal="ev" id="18" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,ev,fem)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="ze"/>
+        <node begin="10" cat="np" end="18" id="19" rel="obj2">
+          <node begin="10" buiging="zonder" end="11" getal="ev" id="20" lemma="haar" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pt="vnw" rel="det" root="haar" status="vol" vwtype="bez" word="haar"/>
+          <node begin="11" buiging="met-e" end="12" graad="sup" id="21" lemma="belangrijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="mod" root="belangrijk" word="belangrijkste"/>
+          <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="22" lemma="concurrente" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="concurrente" word="concurrente"/>
+          <node begin="14" cat="np" end="18" id="23" rel="app">
+            <node begin="14" end="15" id="24" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="15" buiging="met-e" end="16" graad="basis" id="25" lemma="Duits" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Duits" word="Duitse"/>
+            <node begin="16" cat="mwu" end="18" id="26" rel="hd">
+              <node begin="16" end="17" id="27" lemma="Claudia" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Claudia" spectype="deeleigen" word="Claudia"/>
+              <node begin="17" end="18" id="28" lemma="Pechstein" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Pechstein" spectype="deeleigen" word="Pechstein"/>
+            </node>
+          </node>
+        </node>
+        <node begin="19" cat="mwu" end="21" id="29" rel="svp">
+          <node begin="19" end="20" id="30" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="fixed" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" word="het"/>
+          <node begin="20" buiging="zonder" end="21" getal-n="zonder-n" id="31" lemma="na_kijken" pos="fixed" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="mwp" root="nakijken" word="nakijken" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="21" end="22" id="32" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Maar in een rechtstreeks duel op de slotafstand gaf ze haar belangrijkste concurrente , de Duitse Claudia Pechstein , het nakijken .</sentence>
+</alpino_ds>

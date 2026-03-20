@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="24" id="0" rel="top">
+    <node begin="10" end="11" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="12" end="13" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="14" end="15" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="23" id="4" rel="--">
+      <node begin="0" cat="np" end="4" id="5" rel="predc">
+        <node begin="0" end="1" id="6" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="Een"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="7" lemma="punt" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="punt" word="punt"/>
+        <node begin="2" cat="pp" end="4" id="8" rel="mod">
+          <node begin="2" end="3" id="9" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="10" lemma="debat" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="debat" word="debat"/>
+        </node>
+      </node>
+      <node begin="4" end="5" id="11" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="5" end="6" id="12" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+      <node begin="6" cat="np" end="23" id="13" rel="su">
+        <node begin="6" end="7" id="14" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+        <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="15" lemma="belang" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="belang" word="belang"/>
+        <node begin="8" cat="pp" end="23" id="16" rel="mod">
+          <node begin="8" end="9" id="17" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="9" cat="np" end="23" id="18" rel="obj1">
+            <node begin="9" end="10" getal="mv" graad="basis" id="19" lemma="koolstof_reservoir" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="koolstof_reservoir" word="koolstofreservoirs"/>
+            <node begin="11" cat="np" end="23" id="20" rel="app">
+              <node begin="11" end="12" getal="mv" graad="basis" id="21" lemma="bos" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="bos" word="bossen"/>
+              <node begin="13" end="14" id="22" lemma="bijvoorbeeld" pos="adv" postag="BW()" pt="bw" rel="mod" root="bijvoorbeeld" word="bijvoorbeeld"/>
+              <node begin="15" cat="rel" end="23" id="23" rel="mod">
+                <node begin="15" end="16" getal="getal" id="24" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+                <node begin="15" cat="ssub" end="23" id="25" rel="body">
+                  <node begin="15" end="16" id="26" index="1" rel="su"/>
+                  <node begin="16" cat="pp" end="18" id="27" rel="mod">
+                    <node begin="16" end="17" id="28" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+                    <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="29" lemma="foto_synthese" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="fotosynthese" word="fotosynthese"/>
+                  </node>
+                  <node begin="18" end="19" genus="zijd" getal="ev" graad="basis" id="30" lemma="koolstofdioxide" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="koolstofdioxide" word="koolstofdioxide"/>
+                  <node begin="19" cat="pp" end="22" id="31" rel="ld">
+                    <node begin="19" end="20" id="32" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" vztype="init" word="uit"/>
+                    <node begin="20" cat="np" end="22" id="33" rel="obj1">
+                      <node begin="20" end="21" id="34" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                      <node begin="21" end="22" genus="zijd" getal="ev" graad="basis" id="35" lemma="lucht" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="lucht" word="lucht"/>
+                    </node>
+                  </node>
+                  <node begin="22" end="23" id="36" lemma="halen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="haal" word="halen" wvorm="pv"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="23" end="24" id="37" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Een punt van debat is ook het belang van koolstofreservoirs : bossen , bijvoorbeeld , die door fotosynthese koolstofdioxide uit de lucht halen .</sentence>
+</alpino_ds>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" buiging="zonder" end="1" graad="basis" id="2" lemma="incidenteel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="incidenteel" word="Incidenteel"/>
+      <node begin="1" end="2" id="3" lemma="vallen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="val" word="vallen" wvorm="pv"/>
+      <node begin="2" buiging="met-e" end="3" getal-n="mv-n" graad="basis" id="4" lemma="dood" pos="adj" positie="nom" postag="ADJ(nom,basis,met-e,mv-n)" pt="adj" rel="su" root="dood" word="doden"/>
+      <node begin="3" cat="pp" end="7" id="5" rel="mod">
+        <node begin="3" end="4" id="6" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+        <node begin="4" cat="np" end="7" id="7" rel="obj1">
+          <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="8" lemma="verzet" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="verzet" word="verzet"/>
+          <node begin="5" cat="pp" end="7" id="9" rel="mod">
+            <node begin="5" end="6" id="10" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" vztype="init" word="tegen"/>
+            <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="11" lemma="beroving" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="beroving" word="beroving"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="7" end="8" id="12" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Incidenteel vallen doden bij verzet tegen beroving .</sentence>
+</alpino_ds>

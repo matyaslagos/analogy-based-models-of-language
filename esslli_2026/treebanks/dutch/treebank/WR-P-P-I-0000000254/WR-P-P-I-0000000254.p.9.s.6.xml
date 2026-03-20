@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="11" end="12" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="18" id="3" rel="--">
+      <node begin="0" cat="np" end="11" id="4" rel="su">
+        <node begin="0" end="1" genus="genus" getal="ev" graad="basis" id="5" lemma="NTT" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="hd" root="NTT" word="NTT"/>
+        <node begin="1" end="2" id="6" lemma="daarentegen" pos="adv" postag="BW()" pt="bw" rel="mod" root="daarentegen" word="daarentegen"/>
+        <node begin="3" cat="np" end="11" id="7" rel="app">
+          <node begin="3" end="4" id="8" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="4" buiging="met-e" end="5" id="9" lemma="privatiseren" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="geprivatiseerd" word="geprivatiseerde" wvorm="vd"/>
+          <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="10" lemma="opvolger" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="opvolger" word="opvolger"/>
+          <node begin="6" cat="pp" end="11" id="11" rel="mod">
+            <node begin="6" end="7" id="12" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="7" cat="mwu" end="11" id="13" rel="obj1">
+              <node begin="7" end="8" id="14" lemma="Nippon" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Nippon" spectype="deeleigen" word="Nippon"/>
+              <node begin="8" end="9" id="15" lemma="Telegraph" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Telegraph" spectype="deeleigen" word="Telegraph"/>
+              <node begin="9" end="10" id="16" lemma="and" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="and" spectype="deeleigen" word="and"/>
+              <node begin="10" end="11" id="17" lemma="Telephone" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Telephone" spectype="deeleigen" word="Telephone"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="12" end="13" id="18" lemma="vast_houden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="houd_vast" word="houdt" wvorm="pv"/>
+      <node begin="13" buiging="zonder" end="14" graad="basis" id="19" lemma="vast" pos="part" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="svp" root="vast" word="vast"/>
+      <node begin="14" cat="pp" end="18" id="20" rel="pc">
+        <node begin="14" end="15" id="21" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+        <node begin="15" cat="np" end="18" id="22" rel="obj1">
+          <node begin="15" end="16" id="23" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="16" buiging="zonder" end="17" graad="basis" id="24" lemma="traditioneel" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="traditioneel" word="traditioneel"/>
+          <node begin="17" end="18" genus="onz" getal="ev" graad="basis" id="25" lemma="management" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="management" word="management"/>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="26" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>NTT daarentegen , de geprivatiseerde opvolger van Nippon Telegraph and Telephone , houdt vast aan het traditioneel management .</sentence>
+</alpino_ds>

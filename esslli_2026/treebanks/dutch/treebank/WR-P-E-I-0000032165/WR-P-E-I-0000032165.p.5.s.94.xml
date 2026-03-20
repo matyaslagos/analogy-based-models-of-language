@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="46" id="0" rel="top">
+    <node begin="25" end="26" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="45" id="2" rel="--">
+      <node begin="0" cat="smain" end="25" id="3" rel="cnj">
+        <node begin="0" cat="mwu" end="2" id="4" rel="su">
+          <node begin="0" end="1" id="5" lemma="Amartya" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Amartya" spectype="deeleigen" word="Amartya"/>
+          <node begin="1" end="2" id="6" lemma="Sen" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Sen" spectype="deeleigen" word="Sen"/>
+        </node>
+        <node begin="2" end="3" id="7" lemma="theoretiseren" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="theoretiseerde" word="theoretiseerde" wvorm="pv"/>
+        <node begin="3" cat="pp" end="8" id="8" rel="mod">
+          <node begin="3" end="4" id="9" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="4" cat="np" end="8" id="10" rel="obj1">
+            <node begin="4" buiging="zonder" end="5" getal="ev" id="11" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pt="vnw" rel="det" root="zijn" status="vol" vwtype="bez" word="zijn"/>
+            <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="12" lemma="werk" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="werk" word="werk"/>
+            <node begin="6" cat="pp" end="8" id="13" rel="mod">
+              <node begin="6" end="7" id="14" lemma="aangaande" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aangaande" vztype="init" word="aangaande"/>
+              <node begin="7" end="8" getal="mv" graad="basis" id="15" lemma="honger_nood" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="honger_nood" word="hongersnoden"/>
+            </node>
+          </node>
+        </node>
+        <node begin="8" cat="cp" end="25" id="16" rel="vc">
+          <node begin="8" conjtype="onder" end="9" id="17" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+          <node begin="9" cat="ssub" end="25" id="18" rel="body">
+            <node begin="9" end="10" getal="mv" graad="basis" id="19" index="1" lemma="honger_nood" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="honger_nood" word="hongersnoden"/>
+            <node begin="23" end="24" id="20" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" word="worden" wvorm="pv"/>
+            <node begin="9" cat="ppart" end="25" id="21" rel="vc">
+              <node begin="9" end="10" id="22" index="1" rel="obj1"/>
+              <node begin="10" cat="conj" end="23" id="23" rel="mod">
+                <node begin="10" cat="pp" end="18" id="24" rel="cnj">
+                  <node begin="10" end="11" id="25" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+                  <node begin="11" cat="np" end="18" id="26" rel="obj1">
+                    <node begin="11" end="12" id="27" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                    <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="28" lemma="verhoging" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="verhoging" word="verhoging"/>
+                    <node begin="13" cat="pp" end="18" id="29" rel="mod">
+                      <node begin="13" end="14" id="30" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                      <node begin="14" cat="np" end="18" id="31" rel="obj1">
+                        <node begin="14" end="15" id="32" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                        <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="33" lemma="prijs" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="prijs" word="prijs"/>
+                        <node begin="16" cat="pp" end="18" id="34" rel="mod">
+                          <node begin="16" end="17" id="35" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                          <node begin="17" end="18" genus="onz" getal="ev" graad="basis" id="36" lemma="voedsel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="voedsel" word="voedsel"/>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node begin="18" conjtype="neven" end="19" id="37" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                <node begin="19" cat="pp" end="23" id="38" rel="cnj">
+                  <node begin="19" end="20" id="39" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+                  <node begin="20" end="21" id="40" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+                  <node begin="21" cat="np" end="23" id="41" rel="obj1">
+                    <node begin="21" end="22" genus="onz" getal="ev" graad="basis" id="42" lemma="voedsel_tekort" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="voedsel_tekort" word="voedseltekort"/>
+                    <node begin="22" end="23" id="43" lemma="zelf" pos="adv" postag="BW()" pt="bw" rel="mod" root="zelf" word="zelf"/>
+                  </node>
+                </node>
+              </node>
+              <node begin="24" buiging="zonder" end="25" id="44" lemma="veroorzaken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="veroorzaak" word="veroorzaakt" wvorm="vd"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="26" conjtype="neven" end="27" id="45" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="27" cat="cp" end="45" id="46" rel="cnj">
+        <node begin="27" end="28" id="47" lemma="vandaar" pos="adv" postag="BW()" pt="bw" rel="mod" root="vandaar" word="vandaar"/>
+        <node begin="28" conjtype="onder" end="29" id="48" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+        <node begin="29" cat="ssub" end="45" id="49" rel="body">
+          <node begin="29" cat="np" end="34" id="50" rel="su">
+            <node begin="29" end="30" id="51" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="30" end="31" genus="zijd" getal="ev" graad="basis" id="52" lemma="wortel_oorzaak" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="wortel_oorzaak" word="worteloorzaak"/>
+            <node begin="31" cat="pp" end="34" id="53" rel="mod">
+              <node begin="31" end="32" id="54" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="32" cat="np" end="34" id="55" rel="obj1">
+                <node begin="32" buiging="met-e" end="33" id="56" lemma="handel_baseren" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="handelgebaseerde" word="handelgebaseerde" wvorm="vd"/>
+                <node begin="33" end="34" getal="mv" graad="basis" id="57" lemma="honger_nood" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="honger_nood" word="hongersnoden"/>
+              </node>
+            </node>
+          </node>
+          <node begin="34" cat="np" end="44" id="58" rel="predc">
+            <node begin="34" end="35" id="59" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="35" end="36" genus="zijd" getal="ev" graad="basis" id="60" lemma="onevenwichtigheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="onevenwichtigheid" word="onevenwichtigheid"/>
+            <node begin="36" cat="pp" end="38" id="61" rel="mod">
+              <node begin="36" end="37" id="62" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+              <node begin="37" end="38" genus="zijd" getal="ev" graad="basis" id="63" lemma="rijkdom" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="rijkdom" word="rijkdom"/>
+            </node>
+            <node begin="38" cat="pp" end="44" id="64" rel="mod">
+              <node begin="38" end="39" id="65" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" vztype="init" word="tussen"/>
+              <node begin="39" cat="conj" end="44" id="66" rel="obj1">
+                <node begin="39" cat="np" end="41" id="67" rel="cnj">
+                  <node begin="39" end="40" id="68" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="40" end="41" genus="zijd" getal="ev" graad="basis" id="69" lemma="voedsel_exporteur" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="voedsel_exporteur" word="voedselexporteur"/>
+                </node>
+                <node begin="41" conjtype="neven" end="42" id="70" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                <node begin="42" cat="np" end="44" id="71" rel="cnj">
+                  <node begin="42" end="43" id="72" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="43" end="44" genus="zijd" getal="ev" graad="basis" id="73" lemma="voedsel_importeur" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="voedsel_importeur" word="voedselimporteur"/>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="44" end="45" id="74" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        </node>
+      </node>
+    </node>
+    <node begin="45" end="46" id="75" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Amartya Sen theoretiseerde in zijn werk aangaande hongersnoden dat hongersnoden door een verhoging van de prijs van voedsel en niet door voedseltekort zelf worden veroorzaakt , en vandaar dat de worteloorzaak van handelgebaseerde hongersnoden een onevenwichtigheid in rijkdom tussen de voedselexporteur en de voedselimporteur is .</sentence>
+</alpino_ds>

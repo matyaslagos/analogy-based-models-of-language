@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="10" end="11" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="13" id="2" rel="--">
+      <node begin="0" cat="conj" end="5" id="3" rel="su">
+        <node begin="0" cat="np" end="3" id="4" rel="cnj">
+          <node begin="0" end="1" id="5" index="1" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+          <node begin="1" buiging="met-e" end="2" graad="basis" id="6" index="2" lemma="geheim" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="geheim" word="geheime"/>
+          <node begin="2" end="3" getal="mv" graad="basis" id="7" lemma="agent" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="agent" word="agenten"/>
+        </node>
+        <node begin="3" conjtype="neven" end="4" id="8" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="0" cat="np" end="5" id="9" rel="cnj">
+          <node begin="0" end="1" id="10" index="1" rel="det"/>
+          <node begin="1" end="2" id="11" index="2" rel="mod"/>
+          <node begin="4" end="5" getal="mv" graad="basis" id="12" lemma="spion" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="spion" word="spionnen"/>
+        </node>
+      </node>
+      <node begin="5" end="6" id="13" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+      <node begin="6" cat="np" end="13" id="14" rel="predc">
+        <node begin="6" end="7" getal="mv" graad="basis" id="15" lemma="computer_whizzkid" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="computerwhizzkids" word="computerwhizzkids"/>
+        <node begin="7" cat="pp" end="13" id="16" rel="mod">
+          <node begin="7" end="8" id="17" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+          <node begin="8" cat="np" end="13" id="18" rel="obj1">
+            <node begin="8" end="9" id="19" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="9" buiging="met-e" end="10" graad="basis" id="20" lemma="loom" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="loom" word="lome"/>
+            <node begin="11" buiging="met-e" end="12" graad="basis" id="21" lemma="glazig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="glazig" word="glazige"/>
+            <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="22" lemma="blik" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="blik" word="blik"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="23" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De geheime agenten en spionnen zijn computerwhizzkids met een lome , glazige blik .</sentence>
+</alpino_ds>

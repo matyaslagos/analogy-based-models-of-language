@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="0" end="1" genus="onz" getal="ev" id="2" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="noun" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="sup" root="het" status="red" vwtype="pers" word="Het"/>
+      <node begin="1" end="2" id="3" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="2" buiging="zonder" end="3" graad="basis" id="4" lemma="onbegrijpelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="onbegrijpelijk" word="onbegrijpelijk"/>
+      <node begin="3" cat="cp" end="11" id="5" rel="su">
+        <node begin="3" conjtype="onder" end="4" id="6" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+        <node begin="4" cat="ssub" end="11" id="7" rel="body">
+          <node begin="4" cat="np" end="6" id="8" index="1" rel="su">
+            <node begin="4" end="5" id="9" lemma="zo" pos="adv" postag="BW()" pt="bw" rel="mod" root="zo" word="zo"/>
+            <node begin="5" end="6" getal="ev" id="10" lemma="iemand" naamval="stan" pdtype="pron" persoon="3p" pos="noun" postag="VNW(onbep,pron,stan,vol,3p,ev)" pt="vnw" rel="hd" root="iemand" status="vol" vwtype="onbep" word="iemand"/>
+          </node>
+          <node begin="4" cat="ppart" end="10" id="11" rel="vc">
+            <node begin="4" end="6" id="12" index="1" rel="obj1"/>
+            <node begin="6" end="7" id="13" lemma="nu" pos="adv" postag="BW()" pt="bw" rel="mod" root="nu" word="nu"/>
+            <node begin="7" cat="ap" end="9" id="14" rel="mod">
+              <node begin="7" end="8" id="15" lemma="zo" pos="adv" postag="BW()" pt="bw" rel="mod" root="zo" word="zo"/>
+              <node begin="8" buiging="zonder" end="9" graad="basis" id="16" lemma="zwaar" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="zwaar" word="zwaar"/>
+            </node>
+            <node begin="9" buiging="zonder" end="10" id="17" lemma="beschadigen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="beschadig" word="beschadigd" wvorm="vd"/>
+          </node>
+          <node begin="10" end="11" id="18" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" id="19" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het is onbegrijpelijk dat zo iemand nu zo zwaar beschadigd wordt .</sentence>
+</alpino_ds>

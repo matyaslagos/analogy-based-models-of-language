@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="sv1" end="5" id="1" rel="--">
+      <node begin="0" end="1" id="2" lemma="storten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="stort" word="Stort" wvorm="pv"/>
+      <node begin="1" cat="pp" end="5" id="3" rel="ld">
+        <node begin="1" end="2" id="4" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+        <node begin="2" cat="np" end="5" id="5" rel="obj1">
+          <node begin="2" end="3" id="6" lemma="giro" pos="noun" postag="SPEC(vreemd)" pt="spec" rel="hd" root="giro" spectype="vreemd" word="giro"/>
+          <node begin="3" cat="mwu" end="5" id="7" rel="app">
+            <node begin="3" end="4" id="8" lemma="222" pos="num" postag="SPEC(symb)" pt="spec" rel="mwp" root="222" spectype="symb" word="222"/>
+            <node begin="4" end="5" id="9" lemma="111" pos="num" postag="SPEC(symb)" pt="spec" rel="mwp" root="111" spectype="symb" word="111"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="5" end="6" id="10" lemma="!" pos="punct" postag="LET()" pt="let" rel="--" root="!" word="!"/>
+  </node>
+  <sentence>Stort op giro 222 111 !</sentence>
+</alpino_ds>

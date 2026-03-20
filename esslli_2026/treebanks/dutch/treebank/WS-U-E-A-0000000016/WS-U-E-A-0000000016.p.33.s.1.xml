@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="11" end="12" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="du" end="16" id="2" rel="--">
+      <node begin="0" cat="smain" end="11" id="3" rel="nucl">
+        <node begin="0" cat="np" end="2" id="4" rel="mod">
+          <node begin="0" buiging="zonder" end="1" id="5" lemma="dit" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dit" vwtype="aanw" word="Dit"/>
+          <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="6" lemma="keer" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="keer" word="keer"/>
+        </node>
+        <node begin="2" end="3" id="7" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+        <node begin="3" cat="np" end="10" id="8" rel="su">
+          <node begin="3" end="4" id="9" lemma="twee" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="twee" word="twee"/>
+          <node begin="4" end="5" getal="mv" graad="basis" id="10" lemma="aktualiteit_rubriek" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="actualiteit_rubriek" word="aktualiteitenrubrieken"/>
+          <node begin="5" cat="pp" end="9" id="11" rel="mod">
+            <node begin="5" end="6" id="12" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="6" cat="np" end="9" id="13" rel="obj1">
+              <node begin="6" end="7" id="14" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="7" buiging="met-e" end="8" graad="basis" id="15" lemma="publiek" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="publiek" word="publieke"/>
+              <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="16" lemma="omroep" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="omroep" word="omroep"/>
+            </node>
+          </node>
+          <node begin="9" end="10" id="17" lemma="zelf" pos="adv" postag="BW()" pt="bw" rel="mod" root="zelf" word="zelf"/>
+        </node>
+        <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="18" lemma="nieuws" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="predc" root="nieuws" word="nieuws"/>
+      </node>
+      <node begin="12" cat="conj" end="16" id="19" rel="sat">
+        <node begin="12" end="13" genus="onz" getal="ev" graad="basis" id="20" lemma="Netwerk" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Netwerk" word="Netwerk"/>
+        <node begin="13" conjtype="neven" end="14" id="21" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="14" cat="mwu" end="16" id="22" rel="cnj">
+          <node begin="14" end="15" id="23" lemma="twee" numtype="hoofd" pos="name" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="Twee" word="Twee"/>
+          <node begin="15" end="16" id="24" lemma="vandaag" pos="name" postag="BW()" pt="bw" rel="mwp" root="Vandaag" word="Vandaag"/>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="25" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dit keer zijn twee aktualiteitenrubrieken van de publieke omroep zelf nieuws : Netwerk en Twee Vandaag .</sentence>
+</alpino_ds>

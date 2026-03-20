@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="du" end="15" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" word="Maar"/>
+      <node begin="1" cat="smain" end="15" id="3" rel="nucl">
+        <node begin="1" cat="pp" end="9" id="4" rel="ld">
+          <node begin="1" end="2" id="5" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+          <node begin="2" cat="np" end="9" id="6" rel="obj1">
+            <node begin="2" end="3" getal-n="zonder-n" graad="basis" id="7" lemma="één" numtype="hoofd" pos="pron" positie="nom" postag="TW(hoofd,nom,zonder-n,basis)" pt="tw" rel="hd" root="één" word="een"/>
+            <node begin="3" cat="pp" end="9" id="8" rel="mod">
+              <node begin="3" end="4" id="9" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="4" cat="np" end="9" id="10" rel="obj1">
+                <node begin="4" end="5" id="11" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="5" end="6" getal="mv" graad="basis" id="12" lemma="exemplaar" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="exemplaar" word="exemplaren"/>
+                <node begin="6" cat="pp" end="9" id="13" rel="mod">
+                  <node begin="6" end="7" id="14" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                  <node begin="7" cat="np" end="9" id="15" rel="obj1">
+                    <node begin="7" buiging="zonder" end="8" id="16" lemma="die" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,rest)" pt="vnw" rel="det" root="die" vwtype="aanw" word="die"/>
+                    <node begin="8" end="9" getal="mv" graad="basis" id="17" lemma="verslag" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="verslag" word="verslagen"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="9" end="10" id="18" lemma="staan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="sta" word="staat" wvorm="pv"/>
+        <node begin="10" cat="np" end="15" id="19" rel="su">
+          <node begin="10" end="11" id="20" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="11" cat="ppres" end="14" id="21" rel="mod">
+            <node begin="11" cat="pp" end="13" id="22" rel="mod">
+              <node begin="11" end="12" id="23" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+              <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="24" lemma="Vandenbroucke" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" root="Vandenbroucke" word="Vandenbroucke"/>
+            </node>
+            <node begin="13" buiging="met-e" end="14" graad="basis" id="25" lemma="vervelend" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="hd" root="vervelend" word="vervelende"/>
+          </node>
+          <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="26" lemma="aantekening" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="aantekening" word="aantekening"/>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="27" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Maar op een van de exemplaren van die verslagen staat een voor Vandenbroucke vervelende aantekening .</sentence>
+</alpino_ds>

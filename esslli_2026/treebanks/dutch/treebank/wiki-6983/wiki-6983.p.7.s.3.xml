@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="6" end="7" id="2" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="du" end="8" id="3" rel="--">
+      <node begin="0" cat="np" end="2" id="4" rel="dp">
+        <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="5" lemma="NUHO" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" root="NUHO" word="NUHO"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="6" lemma="journalistiek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="journalistiek" word="journalistiek"/>
+      </node>
+      <node begin="3" cat="np" end="8" id="7" rel="dp">
+        <node begin="3" cat="mwu" end="6" id="8" rel="hd">
+          <node begin="3" buiging="met-e" end="4" graad="comp" id="9" lemma="hoog" naamval="stan" pos="name" positie="prenom" postag="ADJ(prenom,comp,met-e,stan)" pt="adj" rel="mwp" root="Hogere" word="Hogere"/>
+          <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="10" lemma="handel_school" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Handelsschool" word="Handelsschool"/>
+          <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="11" lemma="Erasmus" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Erasmus" word="Erasmus"/>
+        </node>
+        <node begin="7" end="8" id="12" lemma="1985" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mod" root="1985" word="1985"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="13" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+  </node>
+  <sentence>NUHO journalistiek , Hogere Handelsschool Erasmus ( 1985 )</sentence>
+</alpino_ds>

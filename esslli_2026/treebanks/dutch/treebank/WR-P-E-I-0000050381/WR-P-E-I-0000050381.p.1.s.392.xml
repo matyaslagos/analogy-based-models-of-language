@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="28" id="0" rel="top">
+    <node begin="18" end="19" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="27" id="2" rel="--">
+      <node begin="2" end="3" id="3" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="heeft" wvorm="pv"/>
+      <node begin="3" cat="np" end="18" id="4" index="1" rel="su">
+        <node begin="3" end="4" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="4" buiging="met-e" end="5" graad="basis" id="6" lemma="groot" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="groot" word="grote"/>
+        <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="7" lemma="som" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="som" word="som"/>
+        <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="8" lemma="geld" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mod" root="geld" word="geld"/>
+        <node begin="7" cat="rel" end="18" id="9" rel="mod">
+          <node begin="7" end="8" getal="getal" id="10" index="2" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+          <node begin="7" cat="ssub" end="18" id="11" rel="body">
+            <node begin="8" cat="np" end="11" id="12" index="3" rel="su">
+              <node begin="8" end="9" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="9" buiging="met-e" end="10" graad="basis" id="14" lemma="Duits" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Duits" word="Duitse"/>
+              <node begin="10" end="11" getal="mv" graad="basis" id="15" lemma="burger" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="burger" word="burgers"/>
+            </node>
+            <node begin="11" end="12" id="16" lemma="moeten" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="moet" word="moesten" wvorm="pv"/>
+            <node begin="7" cat="inf" end="18" id="17" rel="vc">
+              <node begin="7" end="8" id="18" index="2" rel="obj1"/>
+              <node begin="8" end="11" id="19" index="3" rel="su"/>
+              <node begin="12" buiging="zonder" end="13" id="20" lemma="op_brengen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="breng_op" word="opbrengen" wvorm="inf"/>
+              <node begin="13" cat="oti" end="18" id="21" rel="mod">
+                <node begin="13" end="14" id="22" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="om"/>
+                <node begin="14" cat="ti" end="18" id="23" rel="body">
+                  <node begin="16" end="17" id="24" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+                  <node begin="14" cat="inf" end="18" id="25" rel="body">
+                    <node begin="14" cat="np" end="16" id="26" rel="obj1">
+                      <node begin="14" end="15" id="27" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                      <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="28" lemma="oorlog_schuld" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="oorlog_schuld" word="oorlogsschuld"/>
+                    </node>
+                    <node begin="17" buiging="zonder" end="18" id="29" lemma="voldoen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="voldoe" word="voldoen" wvorm="inf"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="0" cat="ppart" end="27" id="30" rel="vc">
+        <node begin="0" cat="mwu" end="2" id="31" rel="mod">
+          <node begin="0" buiging="zonder" end="1" getal="ev" id="32" lemma="mijn" naamval="gen" npagr="evmo" pdtype="det" persoon="1" pos="adv" positie="prenom" postag="VNW(bez,det,gen,vol,1,ev,prenom,zonder,evmo)" pt="vnw" rel="mwp" root="mijns" status="vol" vwtype="bez" word="Mijns"/>
+          <node begin="1" end="2" getal="ev" graad="basis" id="33" lemma="in_zien" naamval="gen" ntype="soort" pos="adv" postag="N(soort,ev,basis,gen)" pt="n" rel="mwp" root="inziens" word="inziens"/>
+        </node>
+        <node begin="3" end="18" id="34" index="1" rel="su"/>
+        <node begin="19" buiging="zonder" end="20" id="35" lemma="mee_spelen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="speel_mee" word="meegespeeld" wvorm="vd"/>
+        <node begin="20" cat="pp" end="27" id="36" rel="mod">
+          <node begin="20" end="21" id="37" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+          <node begin="21" cat="np" end="27" id="38" rel="obj1">
+            <node begin="21" end="22" id="39" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="22" buiging="zonder" end="23" getal-n="zonder-n" id="40" lemma="ontstaan" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="ontsta" word="ontstaan" wvorm="inf"/>
+            <node begin="23" cat="pp" end="27" id="41" rel="mod">
+              <node begin="23" end="24" id="42" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="24" cat="np" end="27" id="43" rel="obj1">
+                <node begin="24" end="25" id="44" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="25" cat="mwu" end="27" id="45" rel="hd">
+                  <node begin="25" end="26" id="46" lemma="Tweede" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Tweede" spectype="deeleigen" word="Tweede"/>
+                  <node begin="26" end="27" id="47" lemma="Wereldoorlog" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Wereldoorlog" spectype="deeleigen" word="Wereldoorlog"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="27" end="28" id="48" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Mijns inziens heeft de grote som geld die de Duitse burgers moesten opbrengen om de oorlogsschuld te voldoen , meegespeeld bij het ontstaan van de Tweede Wereldoorlog .</sentence>
+</alpino_ds>

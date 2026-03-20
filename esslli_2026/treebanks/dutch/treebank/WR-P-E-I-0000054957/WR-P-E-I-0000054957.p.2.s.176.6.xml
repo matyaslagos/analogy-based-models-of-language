@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="13" end="14" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="21" id="2" rel="--">
+      <node begin="0" cat="conj" end="13" id="3" rel="cnj">
+        <node begin="0" cat="smain" end="6" id="4" rel="cnj">
+          <node begin="0" cat="mwu" end="2" id="5" index="1" rel="su">
+            <node begin="0" end="1" id="6" lemma="Friedrich" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Friedrich" spectype="deeleigen" word="Friedrich"/>
+            <node begin="1" end="2" id="7" lemma="Ebert" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Ebert" spectype="deeleigen" word="Ebert"/>
+          </node>
+          <node begin="2" end="3" id="8" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+          <node begin="3" cat="np" end="6" id="9" rel="predc">
+            <node begin="3" end="4" id="10" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="4" buiging="met-e" end="5" id="11" lemma="matigen" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="gematigd" word="gematigde" wvorm="vd"/>
+            <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="12" lemma="socialist" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="socialist" word="socialist"/>
+          </node>
+        </node>
+        <node begin="6" conjtype="neven" end="7" id="13" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="0" cat="smain" end="13" id="14" rel="cnj">
+          <node begin="0" end="2" id="15" index="1" rel="su"/>
+          <node begin="7" end="8" id="16" lemma="zien" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="zie" word="zag" wvorm="pv"/>
+          <node begin="8" buiging="zonder" end="9" graad="basis" id="17" lemma="aanvankelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="aanvankelijk" word="aanvankelijk"/>
+          <node begin="9" buiging="zonder" end="10" graad="basis" id="18" lemma="weinig" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,basis)" pt="vnw" rel="obj1" root="weinig" vwtype="onbep" word="weinig"/>
+          <node begin="10" cat="pp" end="13" id="19" rel="pc">
+            <node begin="10" end="11" id="20" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="11" cat="np" end="13" id="21" rel="obj1">
+              <node begin="11" end="12" id="22" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="23" lemma="republiek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="republiek" word="republiek"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="14" conjtype="neven" end="15" id="24" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+      <node begin="15" cat="cp" end="21" id="25" rel="cnj">
+        <node begin="15" conjtype="onder" end="16" id="26" lemma="toen" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="toen" word="toen"/>
+        <node begin="16" cat="ssub" end="21" id="27" rel="body">
+          <node begin="16" cat="np" end="18" id="28" rel="su">
+            <node begin="16" end="17" id="29" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="30" lemma="republiek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="republiek" word="republiek"/>
+          </node>
+          <node begin="18" cat="np" end="20" id="31" rel="predc">
+            <node begin="18" end="19" id="32" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="19" end="20" genus="onz" getal="ev" graad="basis" id="33" lemma="feit" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="feit" word="feit"/>
+          </node>
+          <node begin="20" end="21" id="34" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+        </node>
+      </node>
+    </node>
+    <node begin="21" end="22" id="35" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Friedrich Ebert was een gematigde socialist en zag aanvankelijk weinig in een republiek , maar toen de republiek een feit was .</sentence>
+</alpino_ds>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="34" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="10" end="11" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="14" end="15" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="27" end="28" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="33" id="5" rel="--">
+      <node begin="28" end="29" id="6" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+      <node begin="30" cat="np" end="32" id="7" index="1" rel="su">
+        <node begin="30" buiging="zonder" end="31" graad="basis" id="8" lemma="informeel" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="informeel" word="informeel"/>
+        <node begin="31" end="32" genus="onz" getal="ev" graad="basis" id="9" lemma="overleg" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="overleg" word="overleg"/>
+      </node>
+      <node begin="0" cat="ppart" end="33" id="10" rel="vc">
+        <node begin="0" cat="pp" end="27" id="11" rel="mod">
+          <node begin="0" end="1" id="12" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" vztype="init" word="Over"/>
+          <node begin="1" cat="np" end="27" id="13" rel="obj1">
+            <node begin="1" buiging="met-e" end="2" graad="basis" id="14" lemma="verschillend" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="verschil" word="verschillende"/>
+            <node begin="2" end="3" getal="mv" graad="basis" id="15" lemma="deel_gebied" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="deelgebied" word="deelgebieden"/>
+            <node begin="3" cat="pp" end="6" id="16" rel="mod">
+              <node begin="3" end="4" id="17" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="4" cat="np" end="6" id="18" rel="obj1">
+                <node begin="4" end="5" id="19" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="20" lemma="milieu_beleid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="milieubeleid" word="milieubeleid"/>
+              </node>
+            </node>
+            <node begin="7" cat="cp" end="27" id="21" rel="mod">
+              <node begin="7" conjtype="onder" end="8" id="22" lemma="zoals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zoals" word="zoals"/>
+              <node begin="8" cat="conj" end="27" id="23" rel="body">
+                <node begin="8" cat="np" end="10" id="24" rel="cnj">
+                  <node begin="8" end="9" id="25" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="26" lemma="klimaat_problematiek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="klimaat_problematiek" word="klimaatproblematiek"/>
+                </node>
+                <node begin="11" cat="conj" end="14" id="27" rel="cnj">
+                  <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="28" lemma="bodem_verontreiniging" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="bodem_verontreiniging" word="bodemverontreiniging"/>
+                  <node begin="12" conjtype="neven" end="13" id="29" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                  <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="30" lemma="water_kwaliteit_zorg" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="water_kwaliteit_zorg" word="waterkwaliteitszorg"/>
+                </node>
+                <node begin="15" cat="np" end="23" id="31" rel="cnj">
+                  <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="32" lemma="inzet" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="inzet" word="inzet"/>
+                  <node begin="16" cat="pp" end="23" id="33" rel="mod">
+                    <node begin="16" end="17" id="34" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                    <node begin="17" cat="np" end="23" id="35" rel="obj1">
+                      <node begin="17" cat="conj" end="20" id="36" rel="mod">
+                        <node begin="17" buiging="met-e" end="18" graad="basis" id="37" lemma="juridisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="juridisch" word="juridische"/>
+                        <node begin="18" conjtype="neven" end="19" id="38" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                        <node begin="19" buiging="zonder" end="20" graad="basis" id="39" lemma="economisch" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="cnj" root="economisch" word="economisch"/>
+                      </node>
+                      <node begin="20" end="21" getal="mv" graad="basis" id="40" lemma="instrument" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="instrument" word="instrumenten"/>
+                      <node begin="21" cat="pp" end="23" id="41" rel="mod">
+                        <node begin="21" end="22" id="42" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+                        <node begin="22" end="23" genus="onz" getal="ev" graad="basis" id="43" lemma="milieu_beleid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="milieubeleid" word="milieubeleid"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node begin="23" conjtype="neven" end="24" id="44" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                <node begin="24" cat="np" end="27" id="45" rel="cnj">
+                  <node begin="24" end="25" genus="zijd" getal="ev" graad="basis" id="46" lemma="stimulering" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="stimulering" word="stimulering"/>
+                  <node begin="25" cat="pp" end="27" id="47" rel="mod">
+                    <node begin="25" end="26" id="48" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                    <node begin="26" end="27" genus="zijd" getal="ev" graad="basis" id="49" lemma="milieu_technologie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="milieu_technologie" word="milieutechnologie"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="29" buiging="zonder" end="30" graad="basis" id="50" lemma="regelmatig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="regelmatig" word="regelmatig"/>
+        <node begin="30" end="32" id="51" index="1" rel="obj1"/>
+        <node begin="32" buiging="zonder" end="33" id="52" lemma="voeren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="voer" word="gevoerd" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="33" end="34" id="53" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Over verschillende deelgebieden van het milieubeleid , zoals de klimaatproblematiek , bodemverontreiniging en waterkwaliteitszorg , inzet van juridische en economisch instrumenten voor milieubeleid en stimulering van milieutechnologie , wordt regelmatig informeel overleg gevoerd .</sentence>
+</alpino_ds>

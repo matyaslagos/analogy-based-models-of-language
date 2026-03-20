@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma=";" pos="punct" postag="LET()" pt="let" rel="--" root=";" word=";"/>
+    <node begin="5" end="6" id="2" lemma="·" pos="tag" postag="LET()" pt="let" rel="--" root="·" word="·"/>
+    <node begin="0" cat="du" end="17" id="3" rel="--">
+      <node begin="0" cat="smain" end="4" id="4" rel="dp">
+        <node begin="0" end="1" getal="mv" graad="basis" id="5" lemma="oorsprong_regel" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="oorsprong_regel" word="Oorsprongsregels"/>
+        <node begin="1" end="2" id="6" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+        <node begin="2" end="3" id="7" lemma="evenmin" pos="adv" postag="BW()" pt="bw" rel="mod" root="evenmin" word="evenmin"/>
+        <node begin="3" buiging="zonder" end="4" graad="basis" id="8" lemma="nodig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="nodig" word="nodig"/>
+      </node>
+      <node begin="6" cat="du" end="17" id="9" rel="dp">
+        <node begin="6" cat="np" end="15" id="10" rel="dp">
+          <node begin="6" buiging="met-e" end="7" graad="basis" id="11" lemma="intern" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="intern" word="interne"/>
+          <node begin="7" end="8" getal="mv" graad="basis" id="12" lemma="grens" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="grens" word="grenzen"/>
+          <node begin="8" cat="conj" end="15" id="13" rel="mod">
+            <node begin="8" cat="pp" end="10" id="14" rel="cnj">
+              <node begin="8" end="9" id="15" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+              <node begin="9" end="10" getal="mv" graad="basis" id="16" lemma="douane_doeleinde" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="douane_doeleinde" word="douanedoeleinden"/>
+            </node>
+            <node begin="10" conjtype="neven" end="11" id="17" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+            <node begin="11" cat="pp" end="15" id="18" rel="cnj">
+              <node begin="11" end="12" id="19" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+              <node begin="12" cat="np" end="15" id="20" rel="obj1">
+                <node begin="12" end="13" id="21" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                <node begin="13" buiging="zonder" end="14" graad="basis" id="22" lemma="buitenlands" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="buitenlands" word="buitenlands"/>
+                <node begin="14" end="15" genus="onz" getal="ev" graad="basis" id="23" lemma="handel_beleid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="handel_beleid" word="handelsbeleid"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="15" buiging="zonder" end="16" graad="basis" id="24" lemma="overbodig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="dp" root="overbodig" word="overbodig"/>
+        <node begin="16" end="17" id="25" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="dp" root="ben" word="zijn" wvorm="pv"/>
+      </node>
+    </node>
+    <node begin="17" end="18" id="26" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Oorsprongsregels zijn evenmin nodig ; · interne grenzen voor douanedoeleinden of voor het buitenlands handelsbeleid overbodig zijn .</sentence>
+</alpino_ds>

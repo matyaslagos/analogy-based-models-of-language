@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="55" id="0" rel="top">
+    <node begin="13" end="14" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="15" end="16" id="2" lemma="4" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="--" root="4" word="4"/>
+    <node begin="17" end="18" id="3" lemma=";" pos="punct" postag="LET()" pt="let" rel="--" root=";" word=";"/>
+    <node begin="24" end="25" id="4" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="35" end="36" id="5" lemma="4" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="--" root="4" word="4"/>
+    <node begin="37" end="38" id="6" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="44" end="45" id="7" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="49" end="50" id="8" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="smain" end="53" id="9" rel="--">
+      <node begin="0" cat="np" end="2" id="10" index="1" rel="su">
+        <node begin="0" buiging="zonder" end="1" graad="basis" id="11" lemma="eenzelfde" pos="det" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="det" root="eenzelfde" word="Eenzelfde"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="12" lemma="beeld" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="beeld" word="beeld"/>
+      </node>
+      <node begin="2" end="3" id="13" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="0" cat="ti" end="53" id="14" rel="vc">
+        <node begin="3" end="4" id="15" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+        <node begin="0" cat="inf" end="53" id="16" rel="body">
+          <node begin="0" end="2" id="17" index="1" rel="obj1"/>
+          <node begin="4" buiging="zonder" end="5" id="18" lemma="zien" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="zie" word="zien" wvorm="inf"/>
+          <node begin="5" cat="pp" end="53" id="19" rel="ld">
+            <node begin="5" end="6" id="20" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="6" cat="np" end="53" id="21" rel="obj1">
+              <node begin="6" end="7" id="22" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="23" lemma="koop_sector" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="koop_sector" word="koopsector"/>
+              <node begin="8" cat="rel" end="49" id="24" rel="mod">
+                <node begin="8" end="9" id="25" index="2" lemma="waarbij" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waarbij" word="waarbij"/>
+                <node begin="8" cat="conj" end="49" id="26" rel="body">
+                  <node begin="29" conjtype="neven" end="30" id="27" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                  <node begin="8" cat="ssub" end="49" id="28" rel="cnj">
+                    <node begin="8" end="9" id="29" index="2" rel="mod"/>
+                    <node begin="9" cat="pp" end="24" id="30" rel="mod">
+                      <node begin="9" end="10" id="31" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                      <node begin="10" cat="np" end="24" id="32" rel="obj1">
+                        <node begin="10" end="11" id="33" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                        <node begin="11" buiging="met-e" end="12" graad="sup" id="34" lemma="laag" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="mod" root="laag" word="laagste"/>
+                        <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="35" lemma="inkomen_klasse" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="inkomen_klasse" word="inkomensklasse"/>
+                        <node begin="14" cat="pp" end="17" id="36" rel="mod">
+                          <node begin="14" end="15" id="37" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" vztype="init" word="tot"/>
+                          <node begin="16" end="17" id="38" lemma="12.000" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" root="12.000" word="12.000"/>
+                        </node>
+                        <node begin="18" cat="np" end="24" id="39" rel="mod">
+                          <node begin="18" end="19" id="40" lemma="9" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="9" word="9"/>
+                          <node begin="19" end="20" id="41" lemma="%" pos="noun" postag="SPEC(symb)" pt="spec" rel="hd" root="%" spectype="symb" word="%"/>
+                          <node begin="20" cat="pp" end="24" id="42" rel="mod">
+                            <node begin="20" end="21" id="43" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                            <node begin="21" cat="np" end="24" id="44" rel="obj1">
+                              <node begin="21" end="22" getal="mv" graad="basis" id="45" lemma="huishouden" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="huishouden" word="huishoudens"/>
+                              <node begin="22" cat="pp" end="24" id="46" rel="mod">
+                                <node begin="22" end="23" id="47" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                                <node begin="23" end="24" genus="zijd" getal="ev" graad="basis" id="48" lemma="koop_sector" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="koop_sector" word="koopsector"/>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node begin="25" cat="np" end="28" id="49" rel="su">
+                      <node begin="25" end="26" id="50" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                      <node begin="26" buiging="met-e" end="27" graad="basis" id="51" lemma="gemiddeld" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="gemiddeld" word="gemiddelde"/>
+                      <node begin="27" end="28" genus="zijd" getal="ev" graad="basis" id="52" lemma="punt_score" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="punt_score" word="puntenscore"/>
+                    </node>
+                    <node begin="28" end="29" id="53" lemma="2,2" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" root="2,2" word="2,2"/>
+                    <node begin="48" end="49" id="54" index="3" lemma="bedragen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="bedraag" word="bedraagt" wvorm="pv"/>
+                  </node>
+                  <node begin="8" cat="ssub" end="49" id="55" rel="cnj">
+                    <node begin="8" end="9" id="56" index="2" rel="mod"/>
+                    <node begin="30" cat="pp" end="44" id="57" rel="mod">
+                      <node begin="30" end="31" id="58" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                      <node begin="31" cat="np" end="44" id="59" rel="obj1">
+                        <node begin="31" end="32" id="60" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                        <node begin="32" buiging="met-e" end="33" graad="sup" id="61" lemma="hoog" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="mod" root="hoog" word="hoogste"/>
+                        <node begin="33" end="34" genus="zijd" getal="ev" graad="basis" id="62" lemma="inkomen_klasse" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="inkomen_klasse" word="inkomensklasse"/>
+                        <node begin="34" cat="pp" end="37" id="63" rel="mod">
+                          <node begin="34" end="35" id="64" lemma="boven" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="boven" vztype="init" word="boven"/>
+                          <node begin="36" end="37" id="65" lemma="36.000" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" root="36.000" word="36.000"/>
+                        </node>
+                        <node begin="38" cat="np" end="44" id="66" rel="mod">
+                          <node begin="38" end="39" id="67" lemma="29" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="29" word="29"/>
+                          <node begin="39" end="40" id="68" lemma="%" pos="noun" postag="SPEC(symb)" pt="spec" rel="hd" root="%" spectype="symb" word="%"/>
+                          <node begin="40" cat="pp" end="44" id="69" rel="mod">
+                            <node begin="40" end="41" id="70" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                            <node begin="41" cat="np" end="44" id="71" rel="obj1">
+                              <node begin="41" end="42" getal="mv" graad="basis" id="72" lemma="huishouden" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="huishouden" word="huishoudens"/>
+                              <node begin="42" cat="pp" end="44" id="73" rel="mod">
+                                <node begin="42" end="43" id="74" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                                <node begin="43" end="44" genus="zijd" getal="ev" graad="basis" id="75" lemma="koop_sector" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="koop_sector" word="koopsector"/>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node begin="45" cat="np" end="47" id="76" rel="su">
+                      <node begin="45" end="46" id="77" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                      <node begin="46" end="47" genus="zijd" getal="ev" graad="basis" id="78" lemma="score" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="score" word="score"/>
+                    </node>
+                    <node begin="47" end="48" id="79" lemma="3,1" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" root="3,1" word="3,1"/>
+                    <node begin="48" end="49" id="80" index="3" rel="hd"/>
+                  </node>
+                </node>
+              </node>
+              <node begin="50" cat="sv1" end="53" id="81" rel="mod">
+                <node begin="50" end="51" id="82" lemma="zien" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zie" word="zie" wvorm="pv"/>
+                <node begin="51" cat="np" end="53" id="83" rel="obj1">
+                  <node begin="51" end="52" genus="zijd" getal="ev" graad="basis" id="84" lemma="figuur" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="figuur" word="figuur"/>
+                  <node begin="52" end="53" id="85" lemma="7.6" pos="num" postag="SPEC(symb)" pt="spec" rel="app" root="7.6" spectype="symb" word="7.6"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="53" end="54" id="86" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="54" end="55" id="87" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Eenzelfde beeld is te zien in de koopsector waarbij in de laagste inkomensklasse ( tot 4 12.000 ; 9 % van huishoudens in koopsector ) de gemiddelde puntenscore 2,2 en in de hoogste inkomensklasse boven 4 36.000 ( 29 % van huishoudens in koopsector ) de score 3,1 bedraagt ( zie figuur 7.6 ) .</sentence>
+</alpino_ds>

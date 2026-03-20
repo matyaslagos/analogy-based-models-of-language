@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="14" end="15" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="20" id="2" rel="--">
+      <node begin="0" cat="np" end="3" id="3" index="1" rel="su">
+        <node begin="0" end="1" id="4" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" cat="mwu" end="3" id="5" rel="hd">
+          <node begin="1" end="2" id="6" lemma="Europese" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Europese" spectype="deeleigen" word="Europese"/>
+          <node begin="2" end="3" id="7" lemma="Raad" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Raad" spectype="deeleigen" word="Raad"/>
+        </node>
+      </node>
+      <node begin="3" end="4" id="8" lemma="zullen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zal" word="zal" wvorm="pv"/>
+      <node begin="0" cat="inf" end="20" id="9" rel="vc">
+        <node begin="0" end="3" id="10" index="1" rel="su"/>
+        <node begin="6" buiging="zonder" end="7" id="11" lemma="laten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="laat" word="laten" wvorm="inf"/>
+        <node begin="4" cat="inf" end="20" id="12" rel="vc">
+          <node begin="4" end="5" getal="getal" id="13" lemma="zich" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="obj1" root="zich" status="red" vwtype="refl" word="zich"/>
+          <node begin="5" buiging="zonder" end="6" graad="basis" id="14" lemma="terecht" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="terecht" word="terecht"/>
+          <node begin="7" buiging="zonder" end="8" id="15" lemma="leiden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="leid" word="leiden" wvorm="inf"/>
+          <node begin="8" cat="pp" end="20" id="16" rel="mod">
+            <node begin="8" end="9" id="17" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+            <node begin="9" cat="np" end="20" id="18" rel="obj1">
+              <node begin="9" end="10" id="19" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="20" lemma="verslag" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="verslag" word="verslag"/>
+              <node begin="11" cat="pp" end="14" id="21" rel="mod">
+                <node begin="11" end="12" id="22" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="12" cat="np" end="14" id="23" rel="obj1">
+                  <node begin="12" end="13" id="24" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="25" lemma="commissie" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Commissie" word="Commissie"/>
+                </node>
+              </node>
+              <node begin="15" cat="rel" end="20" id="26" rel="mod">
+                <node begin="15" end="16" getal="ev" id="27" index="2" lemma="dat" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(betr,pron,stan,vol,3,ev)" pt="vnw" rel="rhd" root="dat" status="vol" vwtype="betr" word="dat"/>
+                <node begin="15" cat="ssub" end="20" id="28" rel="body">
+                  <node begin="15" end="16" id="29" index="2" rel="su"/>
+                  <node begin="18" end="19" id="30" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+                  <node begin="15" cat="ppart" end="20" id="31" rel="vc">
+                    <node begin="15" end="16" id="32" index="2" rel="obj1"/>
+                    <node begin="16" cat="np" end="18" id="33" rel="mod">
+                      <node begin="16" buiging="zonder" end="17" id="34" lemma="dit" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dit" vwtype="aanw" word="dit"/>
+                      <node begin="17" end="18" genus="onz" getal="ev" graad="basis" id="35" lemma="najaar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="najaar" word="najaar"/>
+                    </node>
+                    <node begin="19" buiging="zonder" end="20" id="36" lemma="verwachten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="verwacht" word="verwacht" wvorm="vd"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="20" end="21" id="37" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De Europese Raad zal zich terecht laten leiden door het verslag van de Commissie , dat dit najaar wordt verwacht .</sentence>
+</alpino_ds>

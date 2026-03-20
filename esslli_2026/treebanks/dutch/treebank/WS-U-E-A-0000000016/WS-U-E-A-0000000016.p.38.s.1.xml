@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="np" end="6" id="2" rel="--">
+      <node begin="0" end="1" genus="onz" getal="ev" graad="basis" id="3" lemma="Boston" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Boston" word="Boston"/>
+      <node begin="2" cat="np" end="6" id="4" rel="app">
+        <node begin="2" cat="mwu" end="4" id="5" rel="det">
+          <node begin="2" end="3" id="6" lemma="min" pos="adj" postag="BW()" pt="bw" rel="mwp" root="min" word="min"/>
+          <node begin="3" end="4" id="7" lemma="20" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="mwp" root="20" word="20"/>
+        </node>
+        <node begin="4" end="5" getal="mv" graad="basis" id="8" lemma="graad" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="graad" word="graden"/>
+        <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="9" lemma="celcius" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" root="Celsius" word="celcius"/>
+      </node>
+    </node>
+    <node begin="6" end="7" id="10" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Boston : min 20 graden celcius .</sentence>
+</alpino_ds>

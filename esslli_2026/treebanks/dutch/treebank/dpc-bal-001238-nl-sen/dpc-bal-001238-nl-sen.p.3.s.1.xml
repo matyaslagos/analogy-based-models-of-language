@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="3" end="4" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="15" end="16" id="3" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="smain" end="17" id="4" rel="--">
+      <node begin="0" cat="np" end="5" id="5" index="1" rel="su">
+        <node begin="0" end="1" id="6" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="2" buiging="met-e" end="3" graad="basis" id="7" lemma="Engels_talig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Engels_talig" word="Engelstalige"/>
+        <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="8" lemma="speech" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="speech" word="speech"/>
+      </node>
+      <node begin="5" end="6" id="9" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="17" id="10" rel="vc">
+        <node begin="0" end="5" id="11" index="1" rel="obj1"/>
+        <node begin="6" buiging="zonder" end="7" id="12" lemma="houden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="houd" word="gehouden" wvorm="vd"/>
+        <node begin="7" cat="pp" end="17" id="13" rel="mod">
+          <node begin="7" end="8" id="14" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+          <node begin="8" cat="np" end="17" id="15" rel="obj1">
+            <node begin="8" end="9" id="16" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="9" cat="mwu" end="15" id="17" rel="hd">
+              <node begin="9" end="10" id="18" lemma="Moscow" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Moscow" spectype="deeleigen" word="Moscow"/>
+              <node begin="10" end="11" id="19" lemma="State" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="State" spectype="deeleigen" word="State"/>
+              <node begin="11" end="12" id="20" lemma="Institute" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Institute" spectype="deeleigen" word="Institute"/>
+              <node begin="12" end="13" id="21" lemma="of" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="of" spectype="deeleigen" word="of"/>
+              <node begin="13" end="14" id="22" lemma="International" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="International" spectype="deeleigen" word="International"/>
+              <node begin="14" end="15" id="23" lemma="Relations" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Relations" spectype="deeleigen" word="Relations"/>
+            </node>
+            <node begin="16" end="17" genus="onz" getal="ev" graad="basis" id="24" lemma="MGIMO" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="mod" root="MGIMO" word="MGIMO"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="25" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+  </node>
+  <sentence>De ( Engelstalige ) speech is gehouden op het Moscow State Institute of International Relations ( MGIMO )</sentence>
+</alpino_ds>

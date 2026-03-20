@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="smain" end="5" id="1" rel="--">
+      <node begin="0" cat="mwu" end="2" id="2" index="1" rel="su">
+        <node begin="0" end="1" id="3" lemma="Van" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Van" spectype="deeleigen" word="Van"/>
+        <node begin="1" end="2" id="4" lemma="Alebeek" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Alebeek" spectype="deeleigen" word="Alebeek"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="blijven" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="blijf" word="bleef" wvorm="pv"/>
+      <node begin="0" cat="inf" end="5" id="6" rel="vc">
+        <node begin="0" end="2" id="7" index="1" rel="su"/>
+        <node begin="3" buiging="zonder" end="4" graad="basis" id="8" lemma="onwennig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="onwennig" word="onwennig"/>
+        <node begin="4" buiging="zonder" end="5" id="9" lemma="lachen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="lach" word="lachen" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="5" end="6" id="10" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Van Alebeek bleef onwennig lachen .</sentence>
+</alpino_ds>

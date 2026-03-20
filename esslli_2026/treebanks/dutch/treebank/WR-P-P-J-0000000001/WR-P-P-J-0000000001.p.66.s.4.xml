@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="12" end="13" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="20" id="3" rel="--">
+      <node begin="0" cat="smain" end="5" id="4" rel="nucl">
+        <node begin="0" cat="pp" end="3" id="5" rel="mod">
+          <node begin="0" end="1" id="6" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" vztype="init" word="Tot"/>
+          <node begin="1" cat="np" end="3" id="7" rel="obj1">
+            <node begin="1" buiging="zonder" end="2" id="8" lemma="die" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,rest)" pt="vnw" rel="det" root="die" vwtype="aanw" word="die"/>
+            <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="9" lemma="tijd" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="tijd" word="tijd"/>
+          </node>
+        </node>
+        <node begin="3" end="4" id="10" lemma="gelden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="geld" word="gelden" wvorm="pv"/>
+        <node begin="4" end="5" getal="mv" graad="basis" id="11" lemma="invoer_contingent" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="invoer_contingent" word="invoercontingenten"/>
+      </node>
+      <node begin="6" cat="np" end="20" id="12" rel="sat">
+        <node begin="6" end="7" id="13" lemma="74.000" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="74.000" word="74.000"/>
+        <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="14" lemma="ton" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="ton" word="ton"/>
+        <node begin="8" cat="pp" end="12" id="15" rel="mod">
+          <node begin="8" end="9" id="16" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="9" cat="np" end="12" id="17" rel="obj1">
+            <node begin="9" buiging="met-e" end="10" id="18" lemma="al" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,agr)" pt="vnw" rel="det" root="alle" vwtype="onbep" word="alle"/>
+            <node begin="10" end="11" getal="mv" graad="basis" id="19" lemma="MOL" ntype="soort" pos="name" postag="N(soort,mv,basis)" pt="n" rel="hd" root="MOLs" word="MOLs"/>
+            <node begin="11" end="12" id="20" lemma="samen" pos="adv" postag="BW()" pt="bw" rel="mod" root="samen" word="samen"/>
+          </node>
+        </node>
+        <node begin="13" cat="pp" end="20" id="21" rel="mod">
+          <node begin="13" end="14" id="22" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+          <node begin="14" cat="np" end="20" id="23" rel="obj1">
+            <node begin="14" end="15" id="24" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="15" buiging="met-e" end="16" graad="basis" id="25" lemma="jaarlijks" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="jaarlijks" word="jaarlijkse"/>
+            <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="26" lemma="groei" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="groei" word="groei"/>
+            <node begin="17" cat="pp" end="20" id="27" rel="mod">
+              <node begin="17" end="18" id="28" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="18" cat="np" end="20" id="29" rel="obj1">
+                <node begin="18" end="19" id="30" lemma="15" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="15" word="15"/>
+                <node begin="19" end="20" id="31" lemma="%" pos="noun" postag="SPEC(symb)" pt="spec" rel="hd" root="%" spectype="symb" word="%"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="20" end="21" id="32" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Tot die tijd gelden invoercontingenten : 74.000 ton voor alle MOLs samen , met een jaarlijkse groei van 15 % .</sentence>
+</alpino_ds>

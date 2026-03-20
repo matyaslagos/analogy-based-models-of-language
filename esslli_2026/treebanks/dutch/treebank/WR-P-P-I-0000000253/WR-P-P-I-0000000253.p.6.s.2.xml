@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="smain" end="15" id="1" rel="--">
+      <node begin="0" cat="pp" end="4" id="2" rel="mod">
+        <node begin="0" end="1" id="3" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+        <node begin="1" cat="np" end="4" id="4" rel="obj1">
+          <node begin="1" end="2" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="2" cat="mwu" end="4" id="6" rel="hd">
+            <node begin="2" end="3" id="7" lemma="Verenigde" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Verenigde" spectype="deeleigen" word="Verenigde"/>
+            <node begin="3" end="4" id="8" lemma="Staten" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Staten" spectype="deeleigen" word="Staten"/>
+          </node>
+        </node>
+      </node>
+      <node begin="4" end="5" id="9" lemma="leren" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="leer" word="leerde" wvorm="pv"/>
+      <node begin="5" end="6" genus="masc" getal="ev" id="10" index="1" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="hij"/>
+      <node begin="5" cat="inf" end="15" id="11" rel="vc">
+        <node begin="5" end="6" id="12" index="1" rel="su"/>
+        <node begin="9" buiging="zonder" end="10" id="13" lemma="beseffen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="besef" word="beseffen" wvorm="inf"/>
+        <node begin="6" cat="np" end="15" id="14" rel="obj1">
+          <node begin="6" end="7" id="15" lemma="vooral" pos="adv" postag="BW()" pt="bw" rel="mod" root="vooral" word="vooral"/>
+          <node begin="7" end="8" id="16" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="17" lemma="belang" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="belang" word="belang"/>
+          <node begin="10" cat="conj" end="15" id="18" rel="mod">
+            <node begin="10" cat="pp" end="12" id="19" rel="cnj">
+              <node begin="10" end="11" id="20" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="21" lemma="reclame" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="reclame" word="reclame"/>
+            </node>
+            <node begin="12" conjtype="neven" end="13" id="22" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="13" cat="pp" end="15" id="23" rel="cnj">
+              <node begin="13" end="14" id="24" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="25" lemma="image_building" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="image_buil_ding" word="imagebuilding"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="26" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>In de Verenigde Staten leerde hij vooral het belang beseffen van reclame en van imagebuilding .</sentence>
+</alpino_ds>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="2" end="3" id="2" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="1" cat="smain" end="14" id="3" rel="--">
+      <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="4" lemma="Che" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Che" word="Che"/>
+      <node begin="3" end="4" id="5" lemma="geven" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="geef" word="gaf" wvorm="pv"/>
+      <node begin="4" end="5" id="6" lemma="mede" pos="adv" postag="BW()" pt="bw" rel="mod" root="mede" word="mede"/>
+      <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="7" lemma="richting" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="richting" word="richting"/>
+      <node begin="6" cat="pp" end="14" id="8" rel="obj2">
+        <node begin="6" end="7" id="9" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+        <node begin="7" cat="np" end="14" id="10" rel="obj1">
+          <node begin="7" end="8" id="11" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="8" buiging="met-e" end="9" graad="basis" id="12" lemma="links" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="links" word="linkse"/>
+          <node begin="9" buiging="met-e" end="10" graad="basis" id="13" lemma="pro_communistisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="pro_communistisch" word="procommunistische"/>
+          <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="14" lemma="pad" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="pad" word="pad"/>
+          <node begin="11" cat="pp" end="14" id="15" rel="mod">
+            <node begin="11" end="12" id="16" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="12" cat="np" end="14" id="17" rel="obj1">
+              <node begin="12" end="13" id="18" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="19" lemma="Castro_regime" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="Castro_regime" word="Castro-regime"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="20" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>&apos; Che &apos; gaf mede richting aan het linkse procommunistische pad van het Castro-regime .</sentence>
+</alpino_ds>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="du" end="12" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" word="Maar"/>
+      <node begin="1" cat="smain" end="12" id="3" rel="nucl">
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="4" index="1" lemma="onderzoek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="su" root="onderzoek" word="onderzoek"/>
+        <node begin="2" end="3" id="5" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="heeft" wvorm="pv"/>
+        <node begin="1" cat="ppart" end="12" id="6" rel="vc">
+          <node begin="1" end="2" id="7" index="1" rel="su"/>
+          <node begin="3" buiging="zonder" end="4" id="8" lemma="aan_tonen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="toon_aan" word="aangetoond" wvorm="vd"/>
+          <node begin="4" cat="cp" end="12" id="9" rel="vc">
+            <node begin="4" conjtype="onder" end="5" id="10" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+            <node begin="5" cat="ssub" end="12" id="11" rel="body">
+              <node begin="5" end="6" getal="getal" id="12" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+              <node begin="6" cat="advp" end="8" id="13" rel="mod">
+                <node begin="6" end="7" id="14" lemma="wel" pos="adv" postag="BW()" pt="bw" rel="hd" root="wel" word="wel"/>
+                <node begin="7" buiging="zonder" end="8" graad="basis" id="15" lemma="degelijk" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="degelijk" word="degelijk"/>
+              </node>
+              <node begin="8" end="9" getal="ev" graad="basis" id="16" lemma="spraak" naamval="dat" ntype="soort" pos="noun" postag="N(soort,ev,basis,dat)" pt="n" rel="su" root="sprake" word="sprake"/>
+              <node begin="9" end="10" id="17" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+              <node begin="10" cat="pp" end="12" id="18" rel="pc">
+                <node begin="10" end="11" id="19" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="20" lemma="brandstichting" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="brandstichting" word="brandstichting"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" id="21" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Maar onderzoek heeft aangetoond dat er wel degelijk sprake is van brandstichting .</sentence>
+</alpino_ds>

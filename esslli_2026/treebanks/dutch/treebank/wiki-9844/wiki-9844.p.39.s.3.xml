@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="4" end="5" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="5" end="6" id="3" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="du" end="9" id="4" rel="--">
+      <node begin="0" cat="np" end="4" id="5" rel="dp">
+        <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="6" lemma="Chinees" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Chinees" word="Chinees"/>
+        <node begin="2" cat="np" end="4" id="7" rel="mod">
+          <node begin="2" buiging="met-e" end="3" graad="basis" id="8" lemma="Taiwanees" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Taiwanees" word="Taiwanese"/>
+          <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="9" lemma="versie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="versie" word="versie"/>
+        </node>
+      </node>
+      <node begin="6" cat="mwu" end="9" id="10" rel="dp">
+        <node begin="6" end="7" id="11" lemma="Dada" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Dada" spectype="deeleigen" word="Dada"/>
+        <node begin="7" end="8" id="12" lemma="&amp;" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="&amp;" spectype="deeleigen" word="&amp;"/>
+        <node begin="8" end="9" id="13" lemma="Beibei" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Beibei" spectype="deeleigen" word="Beibei"/>
+      </node>
+    </node>
+  </node>
+  <sentence>Chinees ( Taiwanese versie ) : Dada &amp; Beibei</sentence>
+</alpino_ds>

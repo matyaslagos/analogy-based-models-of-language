@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="4" end="5" id="2" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="14" id="3" rel="vc">
+        <node begin="0" cat="pp" end="4" id="4" rel="mod">
+          <node begin="0" end="1" id="5" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+          <node begin="1" cat="np" end="4" id="6" rel="obj1">
+            <node begin="1" buiging="met-e" end="2" id="7" lemma="elk" naamval="stan" npagr="evz" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,evz)" pt="vnw" rel="det" root="elk" vwtype="onbep" word="elke"/>
+            <node begin="2" buiging="met-e" end="3" graad="basis" id="8" lemma="verticaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="verticaal" word="verticale"/>
+            <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="9" lemma="lat" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="lat" word="lat"/>
+          </node>
+        </node>
+        <node begin="7" buiging="zonder" end="8" id="10" lemma="boorden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="boor" word="geboord" wvorm="vd"/>
+        <node begin="5" cat="np" end="14" id="11" index="1" rel="obj1">
+          <node begin="5" end="6" id="12" lemma="18" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="18" word="18"/>
+          <node begin="6" end="7" getal="mv" graad="dim" id="13" lemma="gat" ntype="soort" pos="noun" postag="N(soort,mv,dim)" pt="n" rel="hd" root="gat_DIM" word="gaatjes"/>
+          <node begin="8" cat="rel" end="14" id="14" rel="mod">
+            <node begin="8" end="9" id="15" index="2" lemma="waardoorheen" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waardoorheen" word="waardoorheen"/>
+            <node begin="8" cat="ssub" end="14" id="16" rel="body">
+              <node begin="9" cat="np" end="12" id="17" index="3" rel="su">
+                <node begin="9" buiging="met-e" end="10" graad="basis" id="18" lemma="klein" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="klein" word="kleine"/>
+                <node begin="10" buiging="zonder" end="11" graad="basis" id="19" lemma="houten" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="houten" word="houten"/>
+                <node begin="11" end="12" getal="mv" graad="dim" id="20" lemma="stok" ntype="soort" pos="noun" postag="N(soort,mv,dim)" pt="n" rel="hd" root="stok_DIM" word="stokjes"/>
+              </node>
+              <node begin="12" end="13" id="21" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+              <node begin="8" cat="ppart" end="14" id="22" rel="vc">
+                <node begin="8" end="9" id="23" index="2" rel="ld"/>
+                <node begin="9" end="12" id="24" index="3" rel="obj1"/>
+                <node begin="13" buiging="zonder" end="14" id="25" lemma="steken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="steek" word="gestoken" wvorm="vd"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="5" end="14" id="26" index="1" rel="su"/>
+    </node>
+    <node begin="14" end="15" id="27" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>In elke verticale lat zijn 18 gaatjes geboord waardoorheen kleine houten stokjes zijn gestoken .</sentence>
+</alpino_ds>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="23" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="8" end="9" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="12" end="13" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="16" end="17" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="22" id="5" rel="--">
+      <node begin="0" cat="smain" end="6" id="6" rel="nucl">
+        <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="7" lemma="Karel" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Karel" word="Karel"/>
+        <node begin="1" end="2" id="8" lemma="uit_breiden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="breid_uit" word="breidde" wvorm="pv"/>
+        <node begin="2" cat="np" end="4" id="9" rel="obj1">
+          <node begin="2" end="3" id="10" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="3" end="4" getal="mv" graad="basis" id="11" lemma="Nederland" ntype="eigen" pos="name" postag="N(eigen,mv,basis)" pt="n" rel="hd" root="Nederlanden" word="Nederlanden"/>
+        </node>
+        <node begin="4" buiging="zonder" end="5" graad="comp" id="12" lemma="ver" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="ver" word="verder"/>
+        <node begin="5" end="6" id="13" lemma="uit" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="uit" vztype="fin" word="uit"/>
+      </node>
+      <node begin="7" cat="conj" end="22" id="14" rel="sat">
+        <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="15" lemma="Doornik" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Doornik" word="Doornik"/>
+        <node begin="9" cat="np" end="16" id="16" rel="cnj">
+          <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="17" lemma="Utrecht" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Utrecht" word="Utrecht"/>
+          <node begin="10" cat="pp" end="16" id="18" rel="mod">
+            <node begin="10" end="11" id="19" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+            <node begin="11" cat="conj" end="16" id="20" rel="obj1">
+              <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="21" lemma="Overijssel" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Overijssel" word="Overijssel"/>
+              <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="22" lemma="Drenthe" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Drenthe" word="Drenthe"/>
+              <node begin="14" conjtype="neven" end="15" id="23" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="15" end="16" genus="onz" getal="ev" graad="basis" id="24" lemma="Groningen" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Groningen" word="Groningen"/>
+            </node>
+          </node>
+        </node>
+        <node begin="17" cat="conj" end="22" id="25" rel="cnj">
+          <node begin="17" cat="np" end="20" id="26" rel="cnj">
+            <node begin="17" end="18" id="27" index="1" lemma="tenslotte" pos="adv" postag="BW()" pt="bw" rel="mod" root="tenslotte" word="tenslotte"/>
+            <node begin="18" end="19" id="28" index="2" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+            <node begin="19" end="20" genus="onz" getal="ev" graad="basis" id="29" lemma="Gelre" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Gelre" word="Gelre"/>
+          </node>
+          <node begin="20" conjtype="neven" end="21" id="30" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="17" cat="np" end="22" id="31" rel="cnj">
+            <node begin="17" end="18" id="32" index="1" rel="mod"/>
+            <node begin="18" end="19" id="33" index="2" rel="mod"/>
+            <node begin="21" end="22" genus="onz" getal="ev" graad="basis" id="34" lemma="Zutphen" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Zutphen" word="Zutphen"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="22" end="23" id="35" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Karel breidde de Nederlanden verder uit : Doornik , Utrecht met Overijssel , Drenthe en Groningen , tenslotte ook Gelre en Zutphen .</sentence>
+</alpino_ds>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="0" cat="smain" end="18" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="predc">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="4" lemma="verwachting" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="verwachting" word="verwachting"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="3" cat="cp" end="18" id="6" rel="su">
+        <node begin="3" conjtype="onder" end="4" id="7" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+        <node begin="4" cat="ssub" end="18" id="8" rel="body">
+          <node begin="4" cat="np" end="6" id="9" index="1" rel="su">
+            <node begin="4" end="5" id="10" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="11" lemma="prijs_slag" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="prijs_slag" word="prijzenslag"/>
+          </node>
+          <node begin="16" end="17" id="12" lemma="zullen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zal" word="zal" wvorm="pv"/>
+          <node begin="4" cat="inf" end="18" id="13" rel="vc">
+            <node begin="4" end="6" id="14" index="1" rel="su"/>
+            <node begin="6" cat="pp" end="14" id="15" rel="mod">
+              <node begin="6" end="7" id="16" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+              <node begin="7" cat="conj" end="14" id="17" rel="obj1">
+                <node begin="8" conjtype="neven" end="9" id="18" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+                <node begin="7" cat="np" end="14" id="19" rel="cnj">
+                  <node begin="7" end="8" getal-n="zonder-n" graad="basis" id="20" lemma="1" numtype="hoofd" pos="num" positie="nom" postag="TW(hoofd,nom,zonder-n,basis)" pt="tw" rel="hd" root="1" word="1"/>
+                  <node begin="10" cat="pp" end="14" id="21" index="2" rel="mod">
+                    <node begin="10" end="11" id="22" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                    <node begin="11" cat="np" end="14" id="23" rel="obj1">
+                      <node begin="11" end="12" id="24" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                      <node begin="12" buiging="met-e" end="13" graad="basis" id="25" lemma="mobiel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="mobiel" word="mobiele"/>
+                      <node begin="13" end="14" getal="mv" graad="basis" id="26" lemma="telecom_aanbieder" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="telecom_aanbieder" word="telecomaanbieders"/>
+                    </node>
+                  </node>
+                </node>
+                <node begin="9" cat="detp" end="14" id="27" rel="cnj">
+                  <node begin="9" end="10" id="28" lemma="2" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="hd" root="2" word="2"/>
+                  <node begin="10" end="14" id="29" index="2" rel="mod"/>
+                </node>
+              </node>
+            </node>
+            <node begin="14" cat="np" end="16" id="30" rel="predc">
+              <node begin="14" end="15" id="31" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="32" lemma="nek_slag" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="nek_slag" word="nekslag"/>
+            </node>
+            <node begin="17" buiging="zonder" end="18" id="33" lemma="zijn" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ben" word="zijn" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="34" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De verwachting is dat de prijzenslag voor 1 of 2 van de mobiele telecomaanbieders de nekslag zal zijn .</sentence>
+</alpino_ds>

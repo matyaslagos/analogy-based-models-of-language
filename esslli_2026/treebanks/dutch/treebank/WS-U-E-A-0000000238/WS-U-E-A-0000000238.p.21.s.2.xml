@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="np" end="6" id="1" rel="--">
+      <node begin="0" end="1" id="2" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="Ook"/>
+      <node begin="1" end="2" id="3" lemma="bijvoorbeeld" pos="adv" postag="BW()" pt="bw" rel="mod" root="bijvoorbeeld" word="bijvoorbeeld"/>
+      <node begin="2" cat="mwu" end="4" id="4" rel="hd">
+        <node begin="2" buiging="zonder" end="3" graad="basis" id="5" lemma="oud" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mwp" root="oud" word="oud"/>
+        <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="6" lemma="minister" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="minister" word="minister"/>
+      </node>
+      <node begin="4" cat="mwu" end="6" id="7" rel="app">
+        <node begin="4" end="5" id="8" lemma="Neelie" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Neelie" spectype="deeleigen" word="Neelie"/>
+        <node begin="5" end="6" id="9" lemma="Kroes" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Kroes" spectype="deeleigen" word="Kroes"/>
+      </node>
+    </node>
+    <node begin="6" end="7" id="10" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Ook bijvoorbeeld oud minister Neelie Kroes .</sentence>
+</alpino_ds>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="7" id="2" rel="--">
+      <node begin="0" cat="np" end="2" id="3" rel="cnj">
+        <node begin="0" buiging="zonder" end="1" id="4" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="Geen"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="5" lemma="Hollywood" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Hollywood" word="Hollywood"/>
+      </node>
+      <node begin="3" conjtype="neven" end="4" id="6" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+      <node begin="4" cat="np" end="7" id="7" rel="cnj">
+        <node begin="4" buiging="zonder" end="5" graad="basis" id="8" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,basis)" pt="vnw" rel="det" root="veel" vwtype="onbep" word="veel"/>
+        <node begin="5" buiging="met-e" end="6" graad="basis" id="9" lemma="onafhankelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="onafhankelijk" word="onafhankelijke"/>
+        <node begin="6" end="7" getal="mv" graad="basis" id="10" lemma="film" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="film" word="films"/>
+      </node>
+    </node>
+    <node begin="7" end="8" id="11" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Geen Hollywood , maar veel onafhankelijke films .</sentence>
+</alpino_ds>

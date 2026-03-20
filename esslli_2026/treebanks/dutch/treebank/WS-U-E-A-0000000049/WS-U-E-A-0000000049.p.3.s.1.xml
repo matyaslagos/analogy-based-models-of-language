@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" buiging="met-e" end="1" graad="basis" id="3" lemma="Iraans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Iraans" word="Iraanse"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="4" lemma="dood_trein" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="dodentrein" word="dodentrein"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="door_razen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="raas_door" word="raasde" wvorm="pv"/>
+      <node begin="3" cat="np" end="5" id="6" rel="mod">
+        <node begin="3" end="4" id="7" lemma="vijftig" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="vijftig" word="vijftig"/>
+        <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="8" lemma="kilo_meter" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="kilometer" word="kilometer"/>
+      </node>
+      <node begin="5" buiging="zonder" end="6" id="9" lemma="on_bemannen" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="predm" root="onbemand" word="onbemand" wvorm="vd"/>
+      <node begin="6" end="7" id="10" lemma="door" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="door" vztype="fin" word="door"/>
+    </node>
+  </node>
+  <sentence>Iraanse dodentrein raasde vijftig kilometer onbemand door</sentence>
+</alpino_ds>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="smain" end="15" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" buiging="met-e" end="2" graad="sup" id="4" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,met-e,agr,sup)" pt="vnw" rel="mod" root="meest" vwtype="onbep" word="meeste"/>
+        <node begin="2" end="3" getal="mv" graad="basis" id="5" lemma="collega_linguïst" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="collega-linguïsten" word="collega-linguïsten"/>
+      </node>
+      <node begin="3" end="4" id="6" lemma="in_zien" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="zie_in" word="zien" wvorm="pv"/>
+      <node begin="4" buiging="zonder" end="5" graad="basis" id="7" lemma="heus" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="heus" word="heus"/>
+      <node begin="5" end="6" id="8" lemma="wel" pos="adv" postag="BW()" pt="bw" rel="mod" root="wel" word="wel"/>
+      <node begin="6" end="7" id="9" lemma="in" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="in" vztype="fin" word="in"/>
+      <node begin="7" cat="cp" end="15" id="10" rel="vc">
+        <node begin="7" conjtype="onder" end="8" id="11" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+        <node begin="8" cat="ssub" end="15" id="12" rel="body">
+          <node begin="8" end="9" getal="mv" id="13" lemma="we" naamval="nomin" pdtype="pron" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,red,1,mv)" pt="vnw" rel="su" root="we" status="red" vwtype="pers" word="we"/>
+          <node begin="9" cat="ap" end="14" id="14" rel="predc">
+            <node begin="9" cat="pp" end="13" id="15" rel="pc">
+              <node begin="9" end="10" id="16" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+              <node begin="10" cat="np" end="13" id="17" rel="obj1">
+                <node begin="10" buiging="zonder" end="11" graad="basis" id="18" lemma="waardevol" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="waardevol" word="waardevol"/>
+                <node begin="11" buiging="zonder" end="12" graad="basis" id="19" lemma="taalkundig" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="taalkundig" word="taalkundig"/>
+                <node begin="12" end="13" genus="onz" getal="ev" graad="basis" id="20" lemma="onderzoek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="onderzoek" word="onderzoek"/>
+              </node>
+            </node>
+            <node begin="13" buiging="zonder" end="14" graad="basis" id="21" lemma="bezig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="bezig" word="bezig"/>
+          </node>
+          <node begin="14" end="15" id="22" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="23" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De meeste collega-linguïsten zien heus wel in dat we met waardevol taalkundig onderzoek bezig zijn .</sentence>
+</alpino_ds>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="42" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="8" end="9" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="15" end="16" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="25" end="26" id="4" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="27" end="28" id="5" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="34" end="35" id="6" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="36" end="37" id="7" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="0" cat="smain" end="41" id="8" rel="--">
+      <node begin="0" cat="cp" end="15" id="9" rel="mod">
+        <node begin="0" conjtype="onder" end="1" id="10" lemma="opdat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="opdat" word="Opdat"/>
+        <node begin="1" cat="ssub" end="15" id="11" rel="body">
+          <node begin="1" cat="np" end="8" id="12" index="1" rel="su">
+            <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="13" lemma="minister" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="minister" word="minister"/>
+            <node begin="2" cat="pp" end="4" id="14" rel="mod">
+              <node begin="2" end="3" id="15" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="16" lemma="justitie" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="Justitie" word="Justitie"/>
+            </node>
+            <node begin="4" cat="mwu" end="6" id="17" rel="app">
+              <node begin="4" end="5" id="18" lemma="Marc" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Marc" spectype="deeleigen" word="Marc"/>
+              <node begin="5" end="6" id="19" lemma="Verwilghen" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Verwilghen" spectype="deeleigen" word="Verwilghen"/>
+            </node>
+            <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="20" lemma="VLD" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" root="VLD" word="VLD"/>
+          </node>
+          <node begin="12" end="13" id="21" lemma="zullen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="zal" word="zou" wvorm="pv"/>
+          <node begin="1" cat="inf" end="15" id="22" rel="vc">
+            <node begin="1" end="8" id="23" index="1" rel="su"/>
+            <node begin="13" buiging="zonder" end="14" id="24" lemma="kunnen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="kan" word="kunnen" wvorm="inf"/>
+            <node begin="1" cat="inf" end="15" id="25" rel="vc">
+              <node begin="1" end="8" id="26" index="1" rel="su"/>
+              <node begin="9" end="10" getal="mv" graad="basis" id="27" lemma="cipier" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="cipier" word="cipiers"/>
+              <node begin="10" cat="pp" end="12" id="28" rel="predc">
+                <node begin="10" end="11" id="29" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="30" lemma="dienst" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="dienst" word="dienst"/>
+              </node>
+              <node begin="14" buiging="zonder" end="15" id="31" lemma="nemen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="neem" word="nemen" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="16" end="17" id="32" lemma="door_breken" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="doorbreek" word="doorbreken" wvorm="pv"/>
+      <node begin="17" cat="conj" end="36" id="33" rel="su">
+        <node begin="17" cat="np" end="27" id="34" rel="cnj">
+          <node begin="17" end="18" id="35" index="2" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="18" end="19" getal="mv" graad="basis" id="36" index="3" lemma="minister" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="minister" word="ministers"/>
+          <node begin="19" cat="pp" end="21" id="37" rel="mod">
+            <node begin="19" end="20" id="38" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="20" end="21" getal="mv" graad="basis" id="39" lemma="ambtenaar_zaak" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="Ambtenarenzaken" word="Ambtenarenzaken"/>
+          </node>
+          <node begin="21" cat="mwu" end="25" id="40" rel="app">
+            <node begin="21" end="22" id="41" lemma="Luc" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Luc" spectype="deeleigen" word="Luc"/>
+            <node begin="22" end="23" id="42" lemma="Van" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Van" spectype="deeleigen" word="Van"/>
+            <node begin="23" end="24" id="43" lemma="den" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="den" spectype="deeleigen" word="den"/>
+            <node begin="24" end="25" id="44" lemma="Bossche" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Bossche" spectype="deeleigen" word="Bossche"/>
+          </node>
+          <node begin="26" end="27" genus="zijd" getal="ev" graad="basis" id="45" lemma="SP.A" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" root="SP.A" word="SP.A"/>
+        </node>
+        <node begin="28" conjtype="neven" end="29" id="46" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="17" cat="np" end="36" id="47" rel="cnj">
+          <node begin="17" end="18" id="48" index="2" rel="det"/>
+          <node begin="18" end="19" id="49" index="3" rel="hd"/>
+          <node begin="29" cat="pp" end="31" id="50" rel="mod">
+            <node begin="29" end="30" id="51" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="30" end="31" genus="zijd" getal="ev" graad="basis" id="52" lemma="begroting" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="begroting" word="Begroting"/>
+          </node>
+          <node begin="31" cat="mwu" end="34" id="53" rel="app">
+            <node begin="31" end="32" id="54" lemma="Johan" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Johan" spectype="deeleigen" word="Johan"/>
+            <node begin="32" end="33" id="55" lemma="Vande" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Vande" spectype="deeleigen" word="Vande"/>
+            <node begin="33" end="34" id="56" lemma="Lanotte" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Lanotte" spectype="deeleigen" word="Lanotte"/>
+          </node>
+          <node begin="35" end="36" genus="zijd" getal="ev" graad="basis" id="57" lemma="SP.A" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" root="SP.A" word="SP.A"/>
+        </node>
+      </node>
+      <node begin="37" cat="np" end="41" id="58" rel="obj1">
+        <node begin="37" end="38" id="59" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="38" end="39" genus="zijd" getal="ev" graad="basis" id="60" lemma="vacature_stop" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="vacature_stop" word="vacaturestop"/>
+        <node begin="39" cat="pp" end="41" id="61" rel="mod">
+          <node begin="39" end="40" id="62" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="40" end="41" getal="mv" graad="basis" id="63" lemma="ambtenaar" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="ambtenaar" word="ambtenaren"/>
+        </node>
+      </node>
+    </node>
+    <node begin="41" end="42" id="64" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Opdat minister van Justitie Marc Verwilghen ( VLD ) cipiers in dienst zou kunnen nemen , doorbreken de ministers van Ambtenarenzaken Luc Van den Bossche ( SP.A ) en van Begroting Johan Vande Lanotte ( SP.A ) de vacaturestop voor ambtenaren .</sentence>
+</alpino_ds>

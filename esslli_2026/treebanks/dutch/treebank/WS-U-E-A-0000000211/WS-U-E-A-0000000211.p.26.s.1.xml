@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="19" end="20" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="21" id="2" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="3" lemma="en" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="en" word="En"/>
+      <node begin="1" cat="smain" end="21" id="4" rel="nucl">
+        <node begin="1" end="2" id="5" lemma="dan" pos="adv" postag="BW()" pt="bw" rel="mod" root="dan" word="dan"/>
+        <node begin="2" end="3" id="6" lemma="binnen_komen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="kom_binnen" word="komt" wvorm="pv"/>
+        <node begin="3" end="4" id="7" lemma="zojuist" pos="adv" postag="BW()" pt="bw" rel="mod" root="zojuist" word="zojuist"/>
+        <node begin="4" end="5" id="8" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" word="nog"/>
+        <node begin="7" end="8" id="9" lemma="binnen" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="binnen" vztype="fin" word="binnen"/>
+        <node begin="5" cat="np" end="21" id="10" rel="su">
+          <node begin="5" end="6" id="11" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="12" lemma="bericht" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="bericht" word="bericht"/>
+          <node begin="8" cat="pp" end="21" id="13" rel="mod">
+            <node begin="8" end="9" id="14" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" vztype="init" word="over"/>
+            <node begin="9" cat="np" end="21" id="15" rel="obj1">
+              <node begin="9" end="10" id="16" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="17" lemma="brand" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="brand" word="brand"/>
+              <node begin="11" cat="pp" end="21" id="18" rel="mod">
+                <node begin="11" end="12" id="19" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                <node begin="12" cat="np" end="21" id="20" rel="obj1">
+                  <node begin="12" end="13" id="21" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                  <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="22" lemma="supermarkt" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="super_markt" word="supermarkt"/>
+                  <node begin="14" cat="pp" end="21" id="23" rel="mod">
+                    <node begin="14" end="15" id="24" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+                    <node begin="15" cat="np" end="21" id="25" rel="obj1">
+                      <node begin="15" end="16" id="26" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                      <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="27" lemma="hoofdstad" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="hoofdstad" word="hoofdstad"/>
+                      <node begin="17" cat="pp" end="19" id="28" rel="mod">
+                        <node begin="17" end="18" id="29" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                        <node begin="18" end="19" genus="onz" getal="ev" graad="basis" id="30" lemma="Paraguay" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Paraguay" word="Paraguay"/>
+                      </node>
+                      <node begin="20" end="21" genus="onz" getal="ev" graad="basis" id="31" lemma="Asuncion" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="app" root="Asuncion" word="Asuncion"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="21" end="22" id="32" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>En dan komt zojuist nog een bericht binnen over een brand in een supermarkt bij de hoofdstad van Paraguay , Asuncion .</sentence>
+</alpino_ds>

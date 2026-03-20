@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="0" end="1" getal="mv" graad="basis" id="2" lemma="bord" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="bord" word="Borden"/>
+      <node begin="1" end="2" id="3" lemma="aan_geven" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="geef_aan" word="gaven" wvorm="pv"/>
+      <node begin="2" cat="np" end="5" id="4" rel="obj1">
+        <node begin="2" end="3" id="5" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="3" buiging="met-e" end="4" id="6" lemma="aan_passen" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="aangepast" word="aangepaste" wvorm="vd"/>
+        <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="7" lemma="maximum_snelheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="maximum_snelheid" word="maximum-snelheid"/>
+      </node>
+      <node begin="5" end="6" id="8" lemma="aan" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="aan" vztype="fin" word="aan"/>
+    </node>
+    <node begin="6" end="7" id="9" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Borden gaven een aangepaste maximum-snelheid aan .</sentence>
+</alpino_ds>

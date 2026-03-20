@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="28" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="17" end="18" id="2" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="19" end="20" id="3" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="0" cat="du" end="27" id="4" rel="--">
+      <node begin="0" cat="ap" end="2" id="5" rel="dp">
+        <node begin="0" buiging="zonder" end="1" graad="comp" id="6" lemma="sterk" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="sterker" word="Sterker"/>
+        <node begin="1" end="2" id="7" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" word="nog"/>
+      </node>
+      <node begin="3" cat="smain" end="27" id="8" rel="dp">
+        <node begin="6" end="7" id="9" lemma="zullen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="zal" word="zou" wvorm="pv"/>
+        <node begin="7" cat="np" end="14" id="10" index="1" rel="su">
+          <node begin="7" end="8" id="11" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="8" buiging="met-e" end="9" graad="basis" id="12" lemma="Brussels" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Brussels" word="Brusselse"/>
+          <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="13" lemma="procureur" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="procureur" word="procureur"/>
+          <node begin="10" cat="np" end="12" id="14" rel="mod">
+            <node begin="10" end="11" id="15" lemma="de" lwtype="bep" naamval="gen" npagr="evmo" pos="det" postag="LID(bep,gen,evmo)" pt="lid" rel="det" root="de" word="des"/>
+            <node begin="11" end="12" getal="ev" graad="basis" id="16" lemma="koning" naamval="gen" ntype="soort" pos="name" postag="N(soort,ev,basis,gen)" pt="n" rel="hd" root="Konings" word="Konings"/>
+          </node>
+          <node begin="12" cat="mwu" end="14" id="17" rel="app">
+            <node begin="12" end="13" id="18" lemma="Benoît" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Benoît" spectype="deeleigen" word="Benoît"/>
+            <node begin="13" end="14" id="19" lemma="Dejemeppe" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Dejemeppe" spectype="deeleigen" word="Dejemeppe"/>
+          </node>
+        </node>
+        <node begin="3" cat="inf" end="27" id="20" rel="vc">
+          <node begin="3" cat="ap" end="6" id="21" rel="mod">
+            <node begin="3" cat="np" end="5" id="22" rel="me">
+              <node begin="3" buiging="met-e" end="4" id="23" lemma="enkel" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="enkel" vwtype="onbep" word="enkele"/>
+              <node begin="4" end="5" getal="mv" graad="basis" id="24" lemma="maand" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="maand" word="maanden"/>
+            </node>
+            <node begin="5" buiging="zonder" end="6" graad="comp" id="25" lemma="laat" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="laat" word="later"/>
+          </node>
+          <node begin="7" end="14" id="26" index="1" rel="su"/>
+          <node begin="14" cat="np" end="19" id="27" rel="obj2">
+            <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="28" lemma="regering_formateur" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="regeringsformateur" word="regeringsformateur"/>
+            <node begin="15" cat="mwu" end="17" id="29" rel="app">
+              <node begin="15" end="16" id="30" lemma="Guy" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Guy" spectype="deeleigen" word="Guy"/>
+              <node begin="16" end="17" id="31" lemma="Verhofstadt" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Verhofstadt" spectype="deeleigen" word="Verhofstadt"/>
+            </node>
+            <node begin="18" end="19" genus="zijd" getal="ev" graad="basis" id="32" lemma="VLD" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" root="VLD" word="VLD"/>
+          </node>
+          <node begin="20" buiging="zonder" end="21" id="33" lemma="verzekeren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="verzeker" word="verzekeren" wvorm="inf"/>
+          <node begin="21" cat="cp" end="27" id="34" rel="vc">
+            <node begin="21" conjtype="onder" end="22" id="35" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+            <node begin="22" cat="ssub" end="27" id="36" rel="body">
+              <node begin="22" end="23" genus="zijd" getal="ev" graad="basis" id="37" index="2" lemma="Vandenbroucke" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Vandenbroucke" word="Vandenbroucke"/>
+              <node begin="24" end="25" id="38" lemma="zullen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="zal" word="zou" wvorm="pv"/>
+              <node begin="22" cat="inf" end="27" id="39" rel="vc">
+                <node begin="22" end="23" id="40" index="2" rel="su"/>
+                <node begin="25" buiging="zonder" end="26" id="41" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+                <node begin="22" cat="ppart" end="27" id="42" rel="vc">
+                  <node begin="22" end="23" id="43" index="2" rel="obj1"/>
+                  <node begin="23" end="24" id="44" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+                  <node begin="26" buiging="zonder" end="27" id="45" lemma="vervolgen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="vervolg" word="vervolgd" wvorm="vd"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="27" end="28" id="46" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Sterker nog : enkele maanden later zou de Brusselse procureur des Konings Benoît Dejemeppe regeringsformateur Guy Verhofstadt ( VLD ) verzekeren dat Vandenbroucke niet zou worden vervolgd .</sentence>
+</alpino_ds>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="du" end="16" id="2" rel="--">
+      <node begin="0" cat="smain" end="3" id="3" rel="tag">
+        <node begin="0" end="1" id="4" lemma="dan" pos="adv" postag="BW()" pt="bw" rel="mod" root="dan" word="Dan"/>
+        <node begin="1" end="2" id="5" lemma="zeggen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="zeg" word="zeggen" wvorm="pv"/>
+        <node begin="2" end="3" getal="mv" id="6" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="ze"/>
+      </node>
+      <node begin="4" cat="smain" end="16" id="7" rel="nucl">
+        <node begin="4" end="5" genus="onz" getal="ev" id="8" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="noun" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="sup" root="het" status="red" vwtype="pers" word="Het"/>
+        <node begin="5" end="6" id="9" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="6" end="7" id="10" lemma="toch" pos="adv" postag="BW()" pt="bw" rel="mod" root="toch" word="toch"/>
+        <node begin="7" buiging="zonder" end="8" id="11" lemma="beschamen" pos="adj" positie="vrij" postag="WW(od,vrij,zonder)" pt="ww" rel="predc" root="beschamend" word="beschamend" wvorm="od"/>
+        <node begin="8" cat="cp" end="16" id="12" rel="su">
+          <node begin="8" conjtype="onder" end="9" id="13" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+          <node begin="9" cat="ssub" end="16" id="14" rel="body">
+            <node begin="9" cat="np" end="11" id="15" index="1" rel="su">
+              <node begin="9" buiging="met-e" end="10" getal="mv" id="16" lemma="ons" naamval="stan" npagr="rest" pdtype="det" persoon="1" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,1,mv,prenom,met-e,rest)" pt="vnw" rel="det" root="onze" status="vol" vwtype="bez" word="onze"/>
+              <node begin="10" end="11" getal="mv" graad="basis" id="17" lemma="kind" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kind" word="kinderen"/>
+            </node>
+            <node begin="14" end="15" id="18" lemma="moeten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="moet" word="moeten" wvorm="pv"/>
+            <node begin="9" cat="inf" end="16" id="19" rel="vc">
+              <node begin="9" end="11" id="20" index="1" rel="su"/>
+              <node begin="11" cat="pp" end="14" id="21" rel="ld">
+                <node begin="11" end="12" id="22" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                <node begin="12" cat="np" end="14" id="23" rel="obj1">
+                  <node begin="12" end="13" id="24" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="25" lemma="kou" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="kou" word="kou"/>
+                </node>
+              </node>
+              <node begin="15" buiging="zonder" end="16" id="26" lemma="zitten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="zit" word="zitten" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="27" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dan zeggen ze : Het is toch beschamend dat onze kinderen in de kou moeten zitten .</sentence>
+</alpino_ds>

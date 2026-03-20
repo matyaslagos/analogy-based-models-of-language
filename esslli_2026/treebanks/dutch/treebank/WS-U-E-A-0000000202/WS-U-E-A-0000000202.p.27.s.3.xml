@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+    <node begin="6" buiging="zonder" end="7" id="2" lemma="kijken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="--" root="kijk" word="kijken" wvorm="inf"/>
+    <node begin="0" cat="du" end="11" id="3" rel="--">
+      <node begin="0" cat="smain" end="5" id="4" rel="dp">
+        <node begin="0" end="1" id="5" lemma="dus" pos="adv" postag="BW()" pt="bw" rel="mod" root="dus" word="Dus"/>
+        <node begin="1" end="2" id="6" lemma="in_grijpen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="grijp" word="greep" wvorm="pv"/>
+        <node begin="2" cat="np" end="4" id="7" rel="su">
+          <node begin="2" end="3" id="8" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="9" lemma="pakket_politie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="pakket_politie" word="pakketpolitie"/>
+        </node>
+        <node begin="4" end="5" id="10" lemma="in" pos="prep" postag="VZ(fin)" pt="vz" rel="svp" root="in" vztype="fin" word="in"/>
+      </node>
+      <node begin="7" cat="du" end="11" id="11" rel="dp">
+        <node begin="7" end="8" id="12" lemma="dan" pos="adv" postag="BW()" pt="bw" rel="dlink" root="dan" word="Dan"/>
+        <node begin="8" cat="np" end="11" id="13" rel="nucl">
+          <node begin="8" end="9" id="14" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="15" lemma="recht_zaak" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="recht_zaak" word="rechtszaak"/>
+          <node begin="10" end="11" id="16" lemma="zelf" pos="adv" postag="BW()" pt="bw" rel="mod" root="zelf" word="zelf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" id="17" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dus greep de pakketpolitie in . kijken Dan de rechtszaak zelf .</sentence>
+</alpino_ds>

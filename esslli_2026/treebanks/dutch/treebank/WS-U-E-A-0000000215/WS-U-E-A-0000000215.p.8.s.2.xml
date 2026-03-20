@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="0" cat="smain" end="18" id="1" rel="--">
+      <node begin="4" end="5" id="2" lemma="hebben" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="heb" word="hadden" wvorm="pv"/>
+      <node begin="5" end="6" getal="mv" graad="basis" id="3" index="1" lemma="dief" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="dief" word="dieven"/>
+      <node begin="0" cat="ppart" end="18" id="4" rel="vc">
+        <node begin="0" cat="pp" end="4" id="5" rel="mod">
+          <node begin="0" end="1" id="6" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+          <node begin="1" cat="np" end="4" id="7" rel="obj1">
+            <node begin="1" end="2" id="8" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="9" lemma="regio" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="regio" word="regio"/>
+            <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="10" lemma="Apeldoorn" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="app" root="Apeldoorn" word="Apeldoorn"/>
+          </node>
+        </node>
+        <node begin="5" end="6" id="11" index="1" rel="su"/>
+        <node begin="6" end="7" genus="onz" getal="ev" id="12" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="obj1" root="het" status="red" vwtype="pers" word="het"/>
+        <node begin="7" cat="np" end="10" id="13" rel="mod">
+          <node begin="7" end="8" id="14" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="8" buiging="zonder" end="9" id="15" lemma="af_lopen" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="mod" root="afgelopen" word="afgelopen" wvorm="vd"/>
+          <node begin="9" end="10" getal="mv" graad="basis" id="16" lemma="maand" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="maandend" word="maandend"/>
+        </node>
+        <node begin="10" end="11" id="17" lemma="vooral" pos="adv" postag="BW()" pt="bw" rel="mod" root="vooral" word="vooral"/>
+        <node begin="11" buiging="zonder" end="12" id="18" lemma="munten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="munt" word="gemunt" wvorm="vd"/>
+        <node begin="12" cat="pp" end="18" id="19" rel="pc">
+          <node begin="12" end="13" id="20" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+          <node begin="13" cat="np" end="18" id="21" rel="obj1">
+            <node begin="13" end="14" getal="mv" graad="basis" id="22" lemma="stoel" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="stoel" word="stoelen"/>
+            <node begin="14" cat="pp" end="18" id="23" rel="mod">
+              <node begin="14" end="15" id="24" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" vztype="init" word="uit"/>
+              <node begin="15" cat="np" end="18" id="25" rel="obj1">
+                <node begin="15" end="16" id="26" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="16" cat="mwu" end="18" id="27" rel="hd">
+                  <node begin="16" end="17" id="28" lemma="Renault" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Renault" spectype="deeleigen" word="Renault"/>
+                  <node begin="17" end="18" id="29" lemma="Espace" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Espace" spectype="deeleigen" word="Espace"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="30" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>In de regio Apeldoorn hadden dieven het de afgelopen maandend vooral gemunt op stoelen uit de Renault Espace .</sentence>
+</alpino_ds>

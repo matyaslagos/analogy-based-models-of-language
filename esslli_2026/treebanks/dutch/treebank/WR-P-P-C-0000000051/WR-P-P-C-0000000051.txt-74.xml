@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="0" end="1" id="2" lemma="wel" pos="adv" postag="BW()" pt="bw" rel="mod" root="wel" word="Wel"/>
+      <node begin="1" end="2" id="3" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="2" buiging="zonder" end="3" graad="basis" id="4" lemma="bekend" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="bekend" word="bekend"/>
+      <node begin="3" cat="cp" end="14" id="5" rel="su">
+        <node begin="3" conjtype="onder" end="4" id="6" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+        <node begin="4" cat="ssub" end="14" id="7" rel="body">
+          <node begin="4" cat="np" end="8" id="8" index="1" rel="su">
+            <node begin="4" buiging="met-e" end="5" id="9" lemma="sommig" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="sommige" vwtype="onbep" word="sommige"/>
+            <node begin="5" end="6" getal="mv" graad="basis" id="10" lemma="vorm" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vorm" word="vormen"/>
+            <node begin="6" cat="pp" end="8" id="11" rel="mod">
+              <node begin="6" end="7" id="12" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="13" lemma="epilepsie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="epilepsie" word="epilepsie"/>
+            </node>
+          </node>
+          <node begin="11" end="12" id="14" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+          <node begin="4" cat="ppart" end="14" id="15" rel="vc">
+            <node begin="4" end="8" id="16" index="1" rel="obj1"/>
+            <node begin="9" buiging="zonder" end="10" graad="basis" id="17" lemma="erfelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="erfelijk" word="erfelijk"/>
+            <node begin="10" buiging="zonder" end="11" id="18" lemma="bepalen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="bepaal" word="bepaald" wvorm="vd"/>
+            <node begin="8" cat="ap" end="14" id="19" rel="mod">
+              <node begin="8" buiging="zonder" end="9" graad="comp" id="20" lemma="sterk" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="sterk" word="sterker"/>
+              <node begin="12" cat="cp" end="14" id="21" rel="obcomp">
+                <node begin="12" conjtype="onder" end="13" id="22" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="dan" word="dan"/>
+                <node begin="13" buiging="met-e" end="14" getal-n="zonder-n" graad="basis" id="23" lemma="ander" naamval="stan" pos="adj" positie="nom" postag="ADJ(nom,basis,met-e,zonder-n,stan)" pt="adj" rel="body" root="ander" word="andere"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="24" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Wel is bekend dat sommige vormen van epilepsie sterker erfelijk bepaald zijn dan andere .</sentence>
+</alpino_ds>

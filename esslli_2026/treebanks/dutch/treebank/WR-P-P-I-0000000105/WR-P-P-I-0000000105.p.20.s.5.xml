@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="0" end="1" getal="mv" id="2" index="1" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="Ze"/>
+      <node begin="1" end="2" id="3" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" word="hebben" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="14" id="4" rel="vc">
+        <node begin="0" end="1" id="5" index="1" rel="su"/>
+        <node begin="2" cat="conj" end="6" id="6" rel="mod">
+          <node begin="2" cat="ppart" end="4" id="7" rel="cnj">
+            <node begin="2" buiging="zonder" end="3" graad="basis" id="8" index="2" lemma="heel" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="heel" word="heel"/>
+            <node begin="3" buiging="zonder" end="4" id="9" lemma="richten" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="gericht" word="gericht" wvorm="vd"/>
+          </node>
+          <node begin="4" conjtype="neven" end="5" id="10" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="2" cat="ap" end="6" id="11" rel="cnj">
+            <node begin="2" end="3" id="12" index="2" rel="mod"/>
+            <node begin="5" buiging="zonder" end="6" graad="basis" id="13" lemma="planmatig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="planmatig" word="planmatig"/>
+          </node>
+        </node>
+        <node begin="6" end="7" getal="mv" graad="basis" id="14" lemma="volk_café" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="volk_café" word="volkscafés"/>
+        <node begin="7" buiging="zonder" end="8" id="15" lemma="bezoeken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="bezoek" word="bezocht" wvorm="vd"/>
+        <node begin="8" cat="oti" end="14" id="16" rel="mod">
+          <node begin="8" end="9" id="17" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="om"/>
+          <node begin="9" cat="ti" end="14" id="18" rel="body">
+            <node begin="12" end="13" id="19" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+            <node begin="9" cat="inf" end="14" id="20" rel="body">
+              <node begin="9" end="10" getal="getal" id="21" lemma="daar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="mod" root="daar" status="vol" vwtype="aanw" word="daar"/>
+              <node begin="10" cat="np" end="12" id="22" rel="obj1">
+                <node begin="10" buiging="zonder" end="11" getal="mv" id="23" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+                <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="24" lemma="gif" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="gif" word="gif"/>
+              </node>
+              <node begin="13" buiging="zonder" end="14" id="25" lemma="spuien" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="spui" word="spuien" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="26" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Ze hebben heel gericht en planmatig volkscafés bezocht om daar hun gif te spuien .</sentence>
+</alpino_ds>

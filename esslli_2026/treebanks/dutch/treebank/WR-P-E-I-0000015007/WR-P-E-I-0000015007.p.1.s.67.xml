@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="28" id="0" rel="top">
+    <node begin="9" end="10" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="18" end="19" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="20" end="21" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="27" id="4" rel="--">
+      <node begin="0" cat="np" end="2" id="5" rel="su">
+        <node begin="0" buiging="met-e" end="1" id="6" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="Deze"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="7" lemma="staat" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="staat" word="staat"/>
+      </node>
+      <node begin="2" end="3" id="8" lemma="bevatten" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="bevat" word="bevatte" wvorm="pv"/>
+      <node begin="3" cat="pp" end="9" id="9" rel="mod">
+        <node begin="3" end="4" id="10" lemma="naast" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naast" vztype="init" word="naast"/>
+        <node begin="4" cat="np" end="9" id="11" rel="obj1">
+          <node begin="4" end="5" id="12" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="13" lemma="leef_gebied" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="leef_gebied" word="leefgebied"/>
+          <node begin="6" cat="pp" end="9" id="14" rel="mod">
+            <node begin="6" end="7" id="15" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="7" cat="np" end="9" id="16" rel="obj1">
+              <node begin="7" end="8" id="17" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="8" end="9" getal="mv" graad="basis" id="18" lemma="Maroniet" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="Maronieten" word="Maronieten"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="10" end="11" id="19" lemma="tevens" pos="adv" postag="BW()" pt="bw" rel="mod" root="tevens" word="tevens"/>
+      <node begin="11" cat="np" end="27" id="20" rel="obj1">
+        <node begin="11" cat="ap" end="13" id="21" rel="mod">
+          <node begin="11" buiging="zonder" end="12" graad="basis" id="22" lemma="voornamelijk" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="voornamelijk" word="voornamelijk"/>
+          <node begin="12" buiging="met-e" end="13" graad="basis" id="23" lemma="islamitisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="hd" root="islamitisch" word="islamitische"/>
+        </node>
+        <node begin="13" end="14" getal="mv" graad="basis" id="24" lemma="gebied" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="gebied" word="gebieden"/>
+        <node begin="14" cat="cp" end="27" id="25" rel="mod">
+          <node begin="14" conjtype="onder" end="15" id="26" lemma="zoals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zoals" word="zoals"/>
+          <node begin="15" cat="conj" end="27" id="27" rel="body">
+            <node begin="15" cat="np" end="24" id="28" rel="cnj">
+              <node begin="15" end="16" id="29" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="16" end="17" getal="mv" graad="basis" id="30" lemma="haven_stad" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="havenstad" word="havensteden"/>
+              <node begin="17" cat="conj" end="24" id="31" rel="app">
+                <node begin="17" end="18" genus="onz" getal="ev" graad="basis" id="32" lemma="Tripoli" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Tripoli" word="Tripoli"/>
+                <node begin="19" end="20" genus="onz" getal="ev" graad="basis" id="33" lemma="Beiroet" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Beiroet" word="Beiroet"/>
+                <node begin="21" end="22" genus="onz" getal="ev" graad="basis" id="34" lemma="Sidon" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Sidon" word="Sidon"/>
+                <node begin="22" conjtype="neven" end="23" id="35" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                <node begin="23" end="24" genus="onz" getal="ev" graad="basis" id="36" lemma="Tyrus" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Tyrus" word="Tyrus"/>
+              </node>
+            </node>
+            <node begin="24" conjtype="neven" end="25" id="37" lemma="alsmede" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="alsmede" word="alsmede"/>
+            <node begin="25" cat="np" end="27" id="38" rel="cnj">
+              <node begin="25" end="26" id="39" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="26" end="27" genus="zijd" getal="ev" graad="basis" id="40" lemma="Bekaavallei" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Bekaa_vallei" word="Bekaa-vallei"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="27" end="28" id="41" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Deze staat bevatte naast het leefgebied van de Maronieten , tevens voornamelijk islamitische gebieden zoals de havensteden Tripoli , Beiroet , Sidon en Tyrus alsmede de Bekaa-vallei .</sentence>
+</alpino_ds>

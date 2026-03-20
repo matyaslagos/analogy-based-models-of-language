@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="26" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="16" end="17" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="25" id="3" rel="--">
+      <node begin="5" end="6" id="4" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="6" cat="np" end="16" id="5" index="1" rel="su">
+        <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="6" lemma="Unilever" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Unilever" word="Unilever"/>
+        <node begin="8" cat="np" end="16" id="7" rel="app">
+          <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="8" lemma="producent" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="producent" word="producent"/>
+          <node begin="9" cat="pp" end="16" id="9" rel="mod">
+            <node begin="9" end="10" id="10" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="10" cat="conj" end="16" id="11" rel="obj1">
+              <node begin="10" cat="np" end="12" id="12" rel="cnj">
+                <node begin="10" end="11" id="13" index="2" lemma="ondermeer" pos="adv" postag="BW()" pt="bw" rel="mod" root="ondermeer" word="ondermeer"/>
+                <node begin="11" end="12" id="14" lemma="voedings-" pos="prefix" postag="SPEC(afgebr)" pt="spec" rel="hd" root="voedings" spectype="afgebr" word="voedings-"/>
+              </node>
+              <node begin="12" conjtype="neven" end="13" id="15" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="10" cat="np" end="14" id="16" rel="cnj">
+                <node begin="10" end="11" id="17" index="2" rel="mod"/>
+                <node begin="13" end="14" getal="mv" graad="basis" id="18" lemma="was_middel" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="was_middel" word="wasmiddelen"/>
+              </node>
+              <node begin="14" conjtype="neven" end="15" id="19" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="10" cat="np" end="16" id="20" rel="cnj">
+                <node begin="10" end="11" id="21" index="2" rel="mod"/>
+                <node begin="15" end="16" getal="mv" graad="dim" id="22" lemma="ijs" ntype="soort" pos="noun" postag="N(soort,mv,dim)" pt="n" rel="hd" root="ijsje" word="ijsjes"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="0" cat="ppart" end="25" id="23" rel="vc">
+        <node begin="0" cat="ap" end="5" id="24" rel="mod">
+          <node begin="0" cat="mwu" end="3" id="25" rel="hd">
+            <node begin="0" end="1" id="26" lemma="voor" pos="adj" postag="VZ(init)" pt="vz" rel="mwp" root="voor" vztype="init" word="Voor"/>
+            <node begin="1" end="2" id="27" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="adj" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" word="het"/>
+            <node begin="2" end="3" getal-n="zonder-n" id="28" lemma="één" numtype="rang" pos="adj" positie="nom" postag="TW(rang,nom,zonder-n)" pt="tw" rel="mwp" root="eerst" word="eerst"/>
+          </node>
+          <node begin="3" cat="pp" end="5" id="29" rel="mod">
+            <node begin="3" end="4" id="30" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="4" end="5" getal="mv" graad="basis" id="31" lemma="jaar" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="jaar" word="jaren"/>
+          </node>
+        </node>
+        <node begin="6" end="16" id="32" index="1" rel="su"/>
+        <node begin="18" end="19" id="33" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+        <node begin="20" buiging="zonder" end="21" id="34" lemma="slagen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="slaag" word="geslaagd" wvorm="vd"/>
+        <node begin="6" cat="pp" end="25" id="35" rel="pc">
+          <node begin="17" end="18" getal="getal" id="36" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="noun" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="pobj1" root="er" status="red" vwtype="aanw" word="er"/>
+          <node begin="19" end="20" id="37" lemma="in" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="in" vztype="fin" word="in"/>
+          <node begin="6" cat="ti" end="25" id="38" rel="vc">
+            <node begin="23" end="24" id="39" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+            <node begin="6" cat="inf" end="25" id="40" rel="body">
+              <node begin="6" end="16" id="41" index="1" rel="su"/>
+              <node begin="21" cat="np" end="23" id="42" rel="obj1">
+                <node begin="21" buiging="zonder" end="22" graad="comp" id="43" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,comp)" pt="vnw" rel="det" root="meer" vwtype="onbep" word="meer"/>
+                <node begin="22" end="23" getal="mv" graad="basis" id="44" lemma="product" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="product" word="producten"/>
+              </node>
+              <node begin="24" buiging="zonder" end="25" id="45" lemma="verkopen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="verkoop" word="verkopen" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="25" end="26" id="46" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Voor het eerst in jaren is Unilever , producent van ondermeer voedings- en wasmiddelen en ijsjes , er niet in geslaagd meer producten te verkopen .</sentence>
+</alpino_ds>

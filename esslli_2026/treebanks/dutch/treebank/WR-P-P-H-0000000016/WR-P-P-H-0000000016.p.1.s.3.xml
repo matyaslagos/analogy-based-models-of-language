@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="smain" end="10" id="1" rel="--">
+      <node begin="0" cat="np" end="4" id="2" index="1" rel="su">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" cat="mwu" end="4" id="4" rel="hd">
+          <node begin="1" end="2" id="5" lemma="Verenigde" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Verenigde" spectype="deeleigen" word="Verenigde"/>
+          <node begin="2" end="3" id="6" lemma="Arabische" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Arabische" spectype="deeleigen" word="Arabische"/>
+          <node begin="3" end="4" id="7" lemma="Emiraten" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Emiraten" spectype="deeleigen" word="Emiraten"/>
+        </node>
+      </node>
+      <node begin="4" end="5" id="8" lemma="worden" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="word" word="werden" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="10" id="9" rel="vc">
+        <node begin="0" end="4" id="10" index="1" rel="obj1"/>
+        <node begin="5" cat="pp" end="9" id="11" rel="mod">
+          <node begin="5" end="6" id="12" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+          <node begin="6" cat="np" end="8" id="13" rel="obj1">
+            <node begin="6" end="7" id="14" lemma="90" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="90" word="90"/>
+            <node begin="7" end="8" getal="mv" graad="basis" id="15" lemma="run" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="run" word="runs"/>
+          </node>
+          <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="16" lemma="verschil" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="predc" root="verschil" word="verschil"/>
+        </node>
+        <node begin="9" buiging="zonder" end="10" id="17" lemma="verslaan" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="versla" word="verslagen" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="10" end="11" id="18" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De Verenigde Arabische Emiraten werden met 90 runs verschil verslagen .</sentence>
+</alpino_ds>

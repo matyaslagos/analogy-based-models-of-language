@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="21" id="2" rel="--">
+      <node begin="0" end="1" id="3" lemma="andersom" pos="adj" postag="BW()" pt="bw" rel="tag" root="andersom" word="Andersom"/>
+      <node begin="2" cat="smain" end="21" id="4" rel="nucl">
+        <node begin="13" end="14" id="5" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+        <node begin="14" cat="np" end="16" id="6" index="1" rel="su">
+          <node begin="14" buiging="zonder" end="15" id="7" lemma="dit" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dit" vwtype="aanw" word="dit"/>
+          <node begin="15" end="16" genus="onz" getal="ev" graad="basis" id="8" lemma="product" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="product" word="product"/>
+        </node>
+        <node begin="2" cat="ppart" end="21" id="9" rel="vc">
+          <node begin="2" cat="cp" end="13" id="10" rel="mod">
+            <node begin="2" conjtype="onder" end="3" id="11" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+            <node begin="3" cat="ssub" end="13" id="12" rel="body">
+              <node begin="3" cat="pp" end="5" id="13" rel="mod">
+                <node begin="3" end="4" id="14" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="15" lemma="Nederland" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Nederland" word="Nederland"/>
+              </node>
+              <node begin="5" cat="np" end="8" id="16" rel="su">
+                <node begin="5" end="6" id="17" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                <node begin="6" buiging="zonder" end="7" graad="basis" id="18" lemma="ander" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="ander" word="ander"/>
+                <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="19" lemma="product" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="product" word="product"/>
+              </node>
+              <node begin="9" end="10" id="20" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+              <node begin="8" cat="ap" end="13" id="21" rel="predc">
+                <node begin="8" buiging="zonder" end="9" graad="comp" id="22" lemma="goedkoop" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="goedkoop" word="goedkoper"/>
+                <node begin="10" cat="cp" end="13" id="23" rel="obcomp">
+                  <node begin="10" conjtype="onder" end="11" id="24" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="dan" word="dan"/>
+                  <node begin="11" cat="pp" end="13" id="25" rel="body">
+                    <node begin="11" end="12" id="26" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                    <node begin="12" end="13" genus="onz" getal="ev" graad="basis" id="27" lemma="België" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="België" word="België"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="14" end="16" id="28" index="1" rel="obj1"/>
+          <node begin="16" cat="pp" end="19" id="29" rel="mod">
+            <node begin="16" end="17" id="30" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+            <node begin="17" cat="np" end="19" id="31" rel="obj1">
+              <node begin="17" end="18" id="32" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="18" end="19" getal="mv" graad="basis" id="33" lemma="Belg" ntype="eigen" pos="noun" postag="N(eigen,mv,basis)" pt="n" rel="hd" root="Belg" word="Belgen"/>
+            </node>
+          </node>
+          <node begin="19" end="20" getal="getal" id="34" lemma="hier" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="mod" root="hier" status="vol" vwtype="aanw" word="hier"/>
+          <node begin="20" buiging="zonder" end="21" id="35" lemma="kopen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="koop" word="gekocht" wvorm="vd"/>
+        </node>
+      </node>
+    </node>
+    <node begin="21" end="22" id="36" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Andersom , als in Nederland een ander product goedkoper was dan in België werd dit product door de Belgen hier gekocht .</sentence>
+</alpino_ds>

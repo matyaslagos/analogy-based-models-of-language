@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="24" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="23" id="2" rel="--">
+      <node begin="6" end="7" id="3" lemma="laten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="laat" word="laat" wvorm="pv"/>
+      <node begin="7" cat="np" end="9" id="4" rel="su">
+        <node begin="7" end="8" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="6" lemma="ballade" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="ballade" word="ballade"/>
+      </node>
+      <node begin="10" cat="np" end="12" id="7" index="1" rel="obj1">
+        <node begin="10" buiging="zonder" end="11" id="8" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="geen"/>
+        <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="9" lemma="twijfel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="twijfel" word="twijfel"/>
+      </node>
+      <node begin="0" cat="inf" end="23" id="10" rel="vc">
+        <node begin="0" cat="cp" end="5" id="11" rel="mod">
+          <node begin="0" conjtype="onder" end="1" id="12" lemma="hoewel" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="hoewel" word="Hoewel"/>
+          <node begin="1" cat="ppart" end="5" id="13" rel="body">
+            <node begin="1" end="2" id="14" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+            <node begin="2" cat="mwu" end="4" id="15" rel="mod">
+              <node begin="2" end="3" id="16" lemma="met" pos="adv" postag="VZ(init)" pt="vz" rel="mwp" root="met" vztype="init" word="met"/>
+              <node begin="3" end="4" getal="ev" graad="basis" id="17" lemma="naam" naamval="dat" ntype="soort" pos="adv" postag="N(soort,ev,basis,dat)" pt="n" rel="mwp" root="name" word="name"/>
+            </node>
+            <node begin="4" buiging="zonder" end="5" id="18" lemma="noemen" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="genoemd" word="genoemd" wvorm="vd"/>
+          </node>
+        </node>
+        <node begin="10" end="12" id="19" index="1" rel="su"/>
+        <node begin="13" buiging="zonder" end="14" id="20" lemma="bestaan" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="besta" word="bestaan" wvorm="inf"/>
+        <node begin="9" cat="pp" end="23" id="21" rel="pc">
+          <node begin="9" end="10" getal="getal" id="22" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="noun" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="pobj1" root="er" status="red" vwtype="aanw" word="er"/>
+          <node begin="12" end="13" id="23" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" vztype="init" word="over"/>
+          <node begin="14" cat="cp" end="23" id="24" rel="vc">
+            <node begin="14" conjtype="onder" end="15" id="25" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+            <node begin="15" cat="conj" end="23" id="26" rel="body">
+              <node begin="15" cat="ssub" end="19" id="27" rel="cnj">
+                <node begin="15" cat="np" end="17" id="28" rel="su">
+                  <node begin="15" end="16" id="29" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="30" lemma="moordenaar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="moordenaar" word="moordenaar"/>
+                </node>
+                <node begin="17" buiging="zonder" end="18" graad="basis" id="31" lemma="blank" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="blank" word="blank"/>
+                <node begin="18" end="19" id="32" index="2" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+              </node>
+              <node begin="19" conjtype="neven" end="20" id="33" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="18" cat="ssub" end="23" id="34" rel="cnj">
+                <node begin="18" end="19" id="35" index="2" rel="hd"/>
+                <node begin="20" cat="np" end="22" id="36" rel="su">
+                  <node begin="20" end="21" id="37" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                  <node begin="21" end="22" genus="onz" getal="ev" graad="basis" id="38" lemma="slachtoffer" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="slachtoffer" word="slachtoffer"/>
+                </node>
+                <node begin="22" buiging="zonder" end="23" graad="basis" id="39" lemma="zwart" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="zwart" word="zwart"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="23" end="24" id="40" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Hoewel niet met name genoemd , laat de ballade er geen twijfel over bestaan dat de moordenaar blank is en het slachtoffer zwart .</sentence>
+</alpino_ds>

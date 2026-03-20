@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="6" end="7" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="8" end="9" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="10" end="11" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="12" end="13" id="5" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="14" end="15" id="6" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="18" id="7" rel="--">
+      <node begin="0" cat="np" end="2" id="8" rel="predc">
+        <node begin="0" buiging="met-e" end="1" graad="basis" id="9" lemma="bekend" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="bekend" word="Bekende"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="10" lemma="soort" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="soort" word="soorten"/>
+      </node>
+      <node begin="2" end="3" id="11" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+      <node begin="3" cat="conj" end="18" id="12" rel="su">
+        <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="13" lemma="tarwe" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="tarwe" word="tarwe"/>
+        <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="14" lemma="gerst" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="gerst" word="gerst"/>
+        <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="15" lemma="maïs" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="maïs" word="maïs"/>
+        <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="16" lemma="rijst" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="rijst" word="rijst"/>
+        <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="17" lemma="haver" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="haver" word="haver"/>
+        <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="18" lemma="gierst" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="gierst" word="gierst"/>
+        <node begin="15" end="16" genus="genus" getal="ev" graad="basis" id="19" lemma="sorghum" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,genus,stan)" pt="n" rel="cnj" root="sorghum" word="sorghum"/>
+        <node begin="16" conjtype="neven" end="17" id="20" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="17" end="18" genus="onz" getal="ev" graad="basis" id="21" lemma="teff" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="cnj" root="teff" word="teff"/>
+      </node>
+    </node>
+    <node begin="18" end="19" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Bekende soorten zijn tarwe , gerst , maïs , rijst , haver , gierst , sorghum en teff .</sentence>
+</alpino_ds>

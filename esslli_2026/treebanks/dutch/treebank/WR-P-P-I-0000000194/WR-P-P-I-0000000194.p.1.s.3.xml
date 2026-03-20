@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="12" id="2" rel="--">
+      <node begin="0" cat="smain" end="7" id="3" rel="dp">
+        <node begin="0" cat="np" end="4" id="4" rel="su">
+          <node begin="0" buiging="zonder" end="1" graad="basis" id="5" lemma="huidig" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="Huidig" word="Huidig"/>
+          <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="6" lemma="Bloso_baas" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="Bloso_baas" word="Bloso-baas"/>
+          <node begin="2" cat="mwu" end="4" id="7" rel="app">
+            <node begin="2" end="3" id="8" lemma="Carla" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Carla" spectype="deeleigen" word="Carla"/>
+            <node begin="3" end="4" id="9" lemma="Galle" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Galle" spectype="deeleigen" word="Galle"/>
+          </node>
+        </node>
+        <node begin="4" end="5" id="10" index="1" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+        <node begin="5" buiging="zonder" end="6" graad="basis" id="11" lemma="destijds" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="destijds" word="destijds"/>
+        <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="12" lemma="partij_secretaris" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="predc" root="partij_secretaris" word="partijsecretaris"/>
+      </node>
+      <node begin="4" cat="smain" end="12" id="13" rel="dp">
+        <node begin="4" end="5" id="14" index="1" rel="hd"/>
+        <node begin="8" cat="np" end="11" id="15" rel="su">
+          <node begin="8" buiging="met-e" end="9" getal-n="zonder-n" id="16" lemma="mede_beschuldigen" pos="noun" positie="nom" postag="WW(vd,nom,met-e,zonder-n)" pt="ww" rel="hd" root="medebeschuldigde" word="medebeschuldigde" wvorm="vd"/>
+          <node begin="9" cat="mwu" end="11" id="17" rel="app">
+            <node begin="9" end="10" id="18" lemma="Etienne" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Etienne" spectype="deeleigen" word="Etienne"/>
+            <node begin="10" end="11" id="19" lemma="Mangé" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Mangé" spectype="deeleigen" word="Mangé"/>
+          </node>
+        </node>
+        <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="20" lemma="penningmeester" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="predc" root="penningmeester" word="penningmeester"/>
+      </node>
+    </node>
+    <node begin="12" end="13" id="21" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Huidig Bloso-baas Carla Galle was destijds partijsecretaris , medebeschuldigde Etienne Mangé penningmeester .</sentence>
+</alpino_ds>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="smain" end="15" id="1" rel="--">
+      <node begin="0" end="1" getal="ev" id="2" index="1" lemma="ik" naamval="nomin" pdtype="pron" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,vol,1,ev)" pt="vnw" rel="su" root="ik" status="vol" vwtype="pers" word="Ik"/>
+      <node begin="1" end="2" id="3" lemma="hebben" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="heb" word="heb" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="15" id="4" rel="vc">
+        <node begin="0" end="1" id="5" index="1" rel="su"/>
+        <node begin="2" end="3" id="6" lemma="ondertussen" pos="adv" postag="BW()" pt="bw" rel="mod" root="ondertussen" word="ondertussen"/>
+        <node begin="3" cat="pp" end="5" id="7" rel="mod">
+          <node begin="3" end="4" id="8" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+          <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="9" lemma="ondervinding" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="ondervinding" word="ondervinding"/>
+        </node>
+        <node begin="5" buiging="zonder" end="6" id="10" lemma="leren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="leer" word="geleerd" wvorm="vd"/>
+        <node begin="6" cat="cp" end="15" id="11" rel="vc">
+          <node begin="6" conjtype="onder" end="7" id="12" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+          <node begin="7" cat="conj" end="15" id="13" rel="body">
+            <node begin="12" conjtype="neven" end="13" id="14" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="7" cat="ssub" end="15" id="15" rel="cnj">
+              <node begin="7" end="8" getal="ev" id="16" index="2" lemma="ik" naamval="nomin" pdtype="pron" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,vol,1,ev)" pt="vnw" rel="su" root="ik" status="vol" vwtype="pers" word="ik"/>
+              <node begin="11" end="12" id="17" lemma="moeten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="moet" word="moet" wvorm="pv"/>
+              <node begin="7" cat="inf" end="15" id="18" index="3" rel="vc">
+                <node begin="7" end="8" id="19" index="2" rel="su"/>
+                <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="20" lemma="tijd" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="tijd" word="tijd"/>
+                <node begin="8" cat="pp" end="11" id="21" rel="mod">
+                  <node begin="8" end="9" getal="getal" id="22" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="obj1" root="er" status="red" vwtype="aanw" word="er"/>
+                  <node begin="10" end="11" id="23" lemma="voor" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="voor" vztype="fin" word="voor"/>
+                </node>
+                <node begin="14" buiging="zonder" end="15" id="24" lemma="maken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="maak" word="maken" wvorm="inf"/>
+              </node>
+            </node>
+            <node begin="7" cat="ssub" end="15" id="25" rel="cnj">
+              <node begin="7" end="8" id="26" index="2" rel="su"/>
+              <node begin="13" end="14" id="27" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" word="kan" wvorm="pv"/>
+              <node begin="7" end="15" id="28" index="3" rel="vc"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="29" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Ik heb ondertussen door ondervinding geleerd dat ik er tijd voor moet en kan maken .</sentence>
+</alpino_ds>

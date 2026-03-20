@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="0" cat="conj" end="16" id="1" rel="--">
+      <node begin="0" cat="sv1" end="3" id="2" rel="cnj">
+        <node begin="0" end="1" id="3" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" word="Worden" wvorm="pv"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="4" index="1" lemma="invoer_tarief" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="invoer_tarief" word="invoertarieven"/>
+        <node begin="1" cat="ppart" end="3" id="5" rel="vc">
+          <node begin="1" end="2" id="6" index="1" rel="obj1"/>
+          <node begin="2" buiging="zonder" end="3" id="7" lemma="verlagen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="verlaag" word="verlaagd" wvorm="vd"/>
+        </node>
+      </node>
+      <node begin="3" conjtype="neven" end="4" id="8" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+      <node begin="4" cat="sv1" end="16" id="9" rel="cnj">
+        <node begin="4" end="5" id="10" lemma="komen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kom" word="komen" wvorm="pv"/>
+        <node begin="5" end="6" getal="getal" id="11" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+        <node begin="6" cat="np" end="16" id="12" rel="su">
+          <node begin="6" buiging="met-e" end="7" graad="comp" id="13" lemma="groot" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,comp,met-e,stan)" pt="adj" rel="mod" root="groot" word="grotere"/>
+          <node begin="7" end="8" getal="mv" graad="basis" id="14" lemma="tarief_contingent" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="tarief_contingent" word="tariefcontingenten"/>
+          <node begin="8" cat="pp" end="16" id="15" rel="mod">
+            <node begin="8" end="9" id="16" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+            <node begin="9" cat="np" end="16" id="17" rel="obj1">
+              <node begin="9" end="10" getal="mv" graad="basis" id="18" lemma="product" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="product" word="producten"/>
+              <node begin="10" cat="rel" end="16" id="19" rel="mod">
+                <node begin="10" end="11" id="20" index="2" lemma="waarvoor" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waarvoor" word="waarvoor"/>
+                <node begin="10" cat="ssub" end="16" id="21" rel="body">
+                  <node begin="10" end="11" id="22" index="2" rel="mod"/>
+                  <node begin="11" end="12" getal="mv" graad="basis" id="23" lemma="ontwikkeling_land" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="ontwikkelingsland" word="ontwikkelingslanden"/>
+                  <node begin="12" cat="np" end="15" id="24" rel="obj1">
+                    <node begin="12" end="13" id="25" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                    <node begin="13" buiging="zonder" end="14" graad="basis" id="26" lemma="comparatief" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="comparatief" word="comparatief"/>
+                    <node begin="14" end="15" genus="onz" getal="ev" graad="basis" id="27" lemma="voordeel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="voordeel" word="voordeel"/>
+                  </node>
+                  <node begin="15" end="16" id="28" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" word="hebben" wvorm="pv"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="29" lemma="?" pos="punct" postag="LET()" pt="let" rel="--" root="?" word="?"/>
+  </node>
+  <sentence>Worden invoertarieven verlaagd of komen er grotere tariefcontingenten voor producten waarvoor ontwikkelingslanden een comparatief voordeel hebben ?</sentence>
+</alpino_ds>

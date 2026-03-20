@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="25" id="0" rel="top">
+    <node begin="10" end="11" id="1" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="12" end="13" id="2" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="0" cat="smain" end="24" id="3" rel="--">
+      <node begin="0" end="1" genus="onz" getal="ev" id="4" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="noun" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="sup" root="het" status="red" vwtype="pers" word="Het"/>
+      <node begin="1" end="2" id="5" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="2" cat="ap" end="4" id="6" rel="predc">
+        <node begin="2" end="3" id="7" lemma="zeer" pos="adv" postag="BW()" pt="bw" rel="mod" root="zeer" word="zeer"/>
+        <node begin="3" buiging="zonder" end="4" graad="basis" id="8" lemma="waarschijnlijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="waarschijnlijk" word="waarschijnlijk"/>
+      </node>
+      <node begin="4" cat="cp" end="24" id="9" rel="su">
+        <node begin="4" conjtype="onder" end="5" id="10" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+        <node begin="5" cat="ssub" end="24" id="11" rel="body">
+          <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="12" lemma="Henty-Creer" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Henty-Creer" word="Henty-Creer"/>
+          <node begin="6" end="7" id="13" lemma="wachten" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="wacht" word="wachtte" wvorm="pv"/>
+          <node begin="7" cat="pp" end="16" id="14" rel="pc">
+            <node begin="7" end="8" id="15" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+            <node begin="8" cat="np" end="16" id="16" rel="obj1">
+              <node begin="8" end="9" id="17" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="9" buiging="met-e" end="10" id="18" lemma="volgen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="volg" word="volgende" wvorm="od"/>
+              <node begin="11" end="12" id="19" lemma="Safe-to-attack" pos="noun" postag="SPEC(vreemd)" pt="spec" rel="mod" root="Safe-to-attack" spectype="vreemd" word="Safe-to-attack"/>
+              <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="20" lemma="periode" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="periode" word="periode"/>
+              <node begin="14" cat="pp" end="16" id="21" rel="mod">
+                <node begin="14" end="15" id="22" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" vztype="init" word="na"/>
+                <node begin="15" end="16" id="23" lemma="0900" pos="num" postag="SPEC(symb)" pt="spec" rel="obj1" root="0900" spectype="symb" word="0900"/>
+              </node>
+            </node>
+          </node>
+          <node begin="16" cat="oti" end="24" id="24" rel="mod">
+            <node begin="16" end="17" id="25" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="om"/>
+            <node begin="17" cat="inf" end="24" id="26" rel="body">
+              <node begin="21" buiging="zonder" end="22" id="27" lemma="proberen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="probeer" word="proberen" wvorm="inf"/>
+              <node begin="17" cat="ti" end="24" id="28" rel="vc">
+                <node begin="22" end="23" id="29" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+                <node begin="17" cat="inf" end="24" id="30" rel="body">
+                  <node begin="17" end="18" id="31" lemma="dan" pos="adv" postag="BW()" pt="bw" rel="mod" root="dan" word="dan"/>
+                  <node begin="18" cat="pp" end="21" id="32" rel="ld">
+                    <node begin="18" end="19" id="33" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+                    <node begin="19" cat="np" end="21" id="34" rel="obj1">
+                      <node begin="19" end="20" id="35" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                      <node begin="20" end="21" getal="mv" graad="basis" id="36" lemma="net" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="net" word="netten"/>
+                    </node>
+                  </node>
+                  <node begin="23" buiging="zonder" end="24" id="37" lemma="glippen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="glip" word="glippen" wvorm="inf"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="24" end="25" id="38" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het is zeer waarschijnlijk dat Henty-Creer wachtte op de volgende &quot; Safe-to-attack &quot; periode na 0900 om dan door de netten proberen te glippen .</sentence>
+</alpino_ds>

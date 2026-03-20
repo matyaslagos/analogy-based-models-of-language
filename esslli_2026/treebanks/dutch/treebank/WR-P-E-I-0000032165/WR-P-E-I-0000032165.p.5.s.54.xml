@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="26" id="0" rel="top">
+    <node begin="9" end="10" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="25" id="2" rel="--">
+      <node begin="0" cat="smain" end="9" id="3" rel="cnj">
+        <node begin="0" cat="np" end="2" id="4" index="1" rel="su">
+          <node begin="0" end="1" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+          <node begin="1" end="2" getal="mv" graad="basis" id="6" lemma="muntstuk" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="muntstuk" word="muntstukken"/>
+        </node>
+        <node begin="2" end="3" id="7" lemma="worden" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="word" word="werden" wvorm="pv"/>
+        <node begin="0" cat="ppart" end="9" id="8" rel="vc">
+          <node begin="0" end="2" id="9" index="1" rel="obj1"/>
+          <node begin="3" buiging="zonder" end="4" id="10" lemma="slaan" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="sla" word="geslagen" wvorm="vd"/>
+          <node begin="4" cat="pp" end="9" id="11" rel="mod">
+            <node begin="4" end="5" id="12" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="5" cat="np" end="9" id="13" rel="obj1">
+              <node begin="5" cat="conj" end="8" id="14" rel="mod">
+                <node begin="5" buiging="met-e" end="6" graad="comp" id="15" lemma="klein" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,comp,met-e,stan)" pt="adj" rel="cnj" root="klein" word="kleinere"/>
+                <node begin="6" conjtype="neven" end="7" id="16" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                <node begin="7" buiging="met-e" end="8" graad="comp" id="17" lemma="klein" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,comp,met-e,stan)" pt="adj" rel="cnj" root="klein" word="kleinere"/>
+              </node>
+              <node begin="8" end="9" getal="mv" graad="basis" id="18" lemma="bedrag" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="bedrag" word="bedragen"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="10" conjtype="neven" end="11" id="19" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="11" cat="smain" end="25" id="20" rel="cnj">
+        <node begin="11" end="12" getal="getal" id="21" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+        <node begin="12" end="13" id="22" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+        <node begin="13" cat="np" end="25" id="23" rel="su">
+          <node begin="13" end="14" id="24" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="14" buiging="met-e" end="15" graad="basis" id="25" lemma="snel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="snel" word="snelle"/>
+          <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="26" lemma="verbreiding" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="verbreiding" word="verbreiding"/>
+          <node begin="16" cat="pp" end="25" id="27" rel="mod">
+            <node begin="16" end="17" id="28" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="17" cat="conj" end="25" id="29" rel="obj1">
+              <node begin="18" conjtype="neven" end="19" id="30" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="17" cat="np" end="25" id="31" rel="cnj">
+                <node begin="17" end="18" id="32" lemma="bank-" pos="prefix" postag="SPEC(afgebr)" pt="spec" rel="hd" root="bank" spectype="afgebr" word="bank-"/>
+                <node begin="20" cat="rel" end="25" id="33" index="2" rel="mod">
+                  <node begin="20" buiging="met-e" end="21" getal-n="zonder-n" id="34" index="3" lemma="welk" naamval="stan" pdtype="det" pos="det" positie="nom" postag="VNW(vb,det,stan,nom,met-e,zonder-n)" pt="vnw" rel="rhd" root="welk" vwtype="vb" word="welke"/>
+                  <node begin="20" cat="ssub" end="25" id="35" rel="body">
+                    <node begin="20" end="21" id="36" index="3" rel="su"/>
+                    <node begin="23" end="24" id="37" lemma="worden" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="word" word="werden" wvorm="pv"/>
+                    <node begin="20" cat="ppart" end="25" id="38" rel="vc">
+                      <node begin="20" end="21" id="39" index="3" rel="obj1"/>
+                      <node begin="21" cat="cp" end="23" id="40" rel="predc">
+                        <node begin="21" conjtype="onder" end="22" id="41" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+                        <node begin="22" end="23" genus="onz" getal="ev" graad="basis" id="42" lemma="geld" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="body" root="geld" word="geld"/>
+                      </node>
+                      <node begin="24" buiging="zonder" end="25" id="43" lemma="gebruiken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="gebruik" word="gebruikt" wvorm="vd"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node begin="19" cat="np" end="25" id="44" rel="cnj">
+                <node begin="19" end="20" getal="mv" graad="basis" id="45" lemma="voorraad_nota" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="voorraad_nota" word="voorraadnota&apos;s"/>
+                <node begin="20" end="25" id="46" index="2" rel="mod"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="25" end="26" id="47" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De muntstukken werden geslagen in kleinere en kleinere bedragen , en er was een snelle verbreiding van bank- en voorraadnota&apos;s welke als geld werden gebruikt .</sentence>
+</alpino_ds>

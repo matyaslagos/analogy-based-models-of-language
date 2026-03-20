@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="4" end="5" id="2" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="7" id="3" rel="vc">
+        <node begin="0" cat="pp" end="4" id="4" rel="mod">
+          <node begin="0" end="1" id="5" lemma="rond" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="rond" vztype="init" word="Rond"/>
+          <node begin="1" cat="np" end="4" id="6" rel="obj1">
+            <node begin="1" end="2" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="2" cat="mwu" end="4" id="8" rel="hd">
+              <node begin="2" end="3" id="9" lemma="Imam" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Imam" spectype="deeleigen" word="Imam"/>
+              <node begin="3" end="4" id="10" lemma="Ali-moskee" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Ali-moskee" spectype="deeleigen" word="Ali-moskee"/>
+            </node>
+          </node>
+        </node>
+        <node begin="5" buiging="zonder" end="6" graad="basis" id="11" lemma="hevig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="hevig" word="hevig"/>
+        <node begin="6" buiging="zonder" end="7" id="12" lemma="vechten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="vecht" word="gevochten" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="7" end="8" id="13" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Rond de Imam Ali-moskee wordt hevig gevochten .</sentence>
+</alpino_ds>

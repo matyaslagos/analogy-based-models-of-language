@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="38" id="0" rel="top">
+    <node begin="15" end="16" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="37" id="2" rel="--">
+      <node begin="0" cat="np" end="4" id="3" rel="su">
+        <node begin="0" buiging="zonder" end="1" getal-n="zonder-n" id="4" lemma="geen" naamval="stan" pdtype="det" pos="det" positie="nom" postag="VNW(onbep,det,stan,nom,zonder,zonder-n)" pt="vnw" rel="hd" root="geen" vwtype="onbep" word="Geen"/>
+        <node begin="1" cat="pp" end="4" id="5" rel="mod">
+          <node begin="1" end="2" id="6" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="2" cat="np" end="4" id="7" rel="obj1">
+            <node begin="2" buiging="met-e" end="3" id="8" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="deze"/>
+            <node begin="3" end="4" getal="mv" graad="basis" id="9" lemma="staat" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="staat" word="staten"/>
+          </node>
+        </node>
+      </node>
+      <node begin="4" end="5" id="10" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+      <node begin="5" end="6" id="11" lemma="echter" pos="adv" postag="BW()" pt="bw" rel="mod" root="echter" word="echter"/>
+      <node begin="6" cat="ap" end="15" id="12" rel="predc">
+        <node begin="6" buiging="zonder" end="7" graad="basis" id="13" lemma="bereid" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="bereid" word="bereid"/>
+        <node begin="7" cat="ti" end="15" id="14" rel="vc">
+          <node begin="13" end="14" id="15" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+          <node begin="7" cat="inf" end="15" id="16" rel="body">
+            <node begin="7" cat="np" end="10" id="17" rel="obj1">
+              <node begin="7" end="8" id="18" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="19" lemma="Theravada" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="mod" root="Theravada" word="Theravada"/>
+              <node begin="9" end="10" getal="mv" graad="basis" id="20" lemma="geschrift" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="geschrift" word="geschriften"/>
+            </node>
+            <node begin="10" cat="pp" end="12" id="21" rel="obj2">
+              <node begin="10" end="11" id="22" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+              <node begin="11" end="12" genus="masc" getal="ev" id="23" lemma="hem" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,obl,vol,3,ev,masc)" pt="vnw" rel="obj1" root="hem" status="vol" vwtype="pers" word="hem"/>
+            </node>
+            <node begin="12" buiging="zonder" end="13" graad="basis" id="24" lemma="beschikbaar" pos="fixed" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="svp" root="beschikbaar" word="beschikbaar"/>
+            <node begin="14" buiging="zonder" end="15" id="25" lemma="stellen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="stel" word="stellen" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+      <node begin="16" cat="whrel" end="37" id="26" rel="mod">
+        <node begin="16" end="17" id="27" index="1" lemma="waarna" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waarna" word="waarna"/>
+        <node begin="16" cat="ssub" end="37" id="28" rel="body">
+          <node begin="16" end="17" id="29" index="1" rel="mod"/>
+          <node begin="17" end="18" genus="masc" getal="ev" id="30" index="2" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="hij"/>
+          <node begin="18" end="19" id="31" lemma="besluiten" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="besluit" word="besloot" wvorm="pv"/>
+          <node begin="17" cat="ti" end="37" id="32" rel="vc">
+            <node begin="24" end="25" id="33" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+            <node begin="17" cat="inf" end="37" id="34" rel="body">
+              <node begin="17" end="18" id="35" index="2" rel="su"/>
+              <node begin="19" cat="np" end="24" id="36" rel="obj1">
+                <node begin="19" end="20" id="37" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="20" cat="mwu" end="23" id="38" rel="mod">
+                  <node begin="20" end="21" genus="onz" getal="ev" graad="basis" id="39" lemma="Pyu" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="mwp" root="Pyu" word="Pyu"/>
+                  <node begin="21" conjtype="neven" end="22" id="40" lemma="en" pos="name" postag="VG(neven)" pt="vg" rel="mwp" root="en" word="en"/>
+                  <node begin="22" end="23" getal="mv" graad="basis" id="41" lemma="Mon" ntype="eigen" pos="name" postag="N(eigen,mv,basis)" pt="n" rel="mwp" root="Mon" word="Mon"/>
+                </node>
+                <node begin="23" end="24" getal="mv" graad="basis" id="42" lemma="koninkrijk" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="koninkrijk" word="koninkrijken"/>
+              </node>
+              <node begin="25" buiging="zonder" end="26" id="43" lemma="veroveren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="verover" word="veroveren" wvorm="inf"/>
+              <node begin="26" cat="oti" end="37" id="44" rel="mod">
+                <node begin="26" end="27" id="45" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="om"/>
+                <node begin="27" cat="ti" end="37" id="46" rel="body">
+                  <node begin="35" end="36" id="47" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+                  <node begin="27" cat="inf" end="37" id="48" rel="body">
+                    <node begin="27" end="28" id="49" lemma="zo" pos="adv" postag="BW()" pt="bw" rel="mod" root="zo" word="zo"/>
+                    <node begin="28" cat="np" end="33" id="50" rel="obj1">
+                      <node begin="28" end="29" id="51" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                      <node begin="29" end="30" getal="mv" graad="basis" id="52" lemma="geschrift" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="geschrift" word="geschriften"/>
+                      <node begin="30" cat="pp" end="33" id="53" rel="mod">
+                        <node begin="30" end="31" id="54" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                        <node begin="31" cat="np" end="33" id="55" rel="obj1">
+                          <node begin="31" end="32" id="56" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                          <node begin="32" end="33" genus="onz" getal="ev" graad="basis" id="57" lemma="Theravada" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Theravada" word="Theravada"/>
+                        </node>
+                      </node>
+                    </node>
+                    <node begin="33" cat="pp" end="35" id="58" rel="predc">
+                      <node begin="33" end="34" id="59" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                      <node begin="34" end="35" genus="onz" getal="ev" graad="basis" id="60" lemma="bezit" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="bezit" word="bezit"/>
+                    </node>
+                    <node begin="36" buiging="zonder" end="37" id="61" lemma="krijgen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="krijg" word="krijgen" wvorm="inf"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="37" end="38" id="62" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Geen van deze staten was echter bereid de Theravada geschriften aan hem beschikbaar te stellen , waarna hij besloot de Pyu en Mon koninkrijken te veroveren om zo de geschriften van het Theravada in bezit te krijgen .</sentence>
+</alpino_ds>

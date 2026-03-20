@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="conj" end="15" id="1" rel="--">
+      <node begin="0" cat="smain" end="8" id="2" rel="cnj">
+        <node begin="0" cat="np" end="3" id="3" index="1" rel="su">
+          <node begin="0" end="1" id="4" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+          <node begin="1" buiging="met-e" end="2" graad="basis" id="5" lemma="presidentieel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="presidentieel" word="presidentiële"/>
+          <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="6" lemma="bevel_schrift" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="bevel_schrift" word="bevelschrift"/>
+        </node>
+        <node begin="3" end="4" id="7" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+        <node begin="0" cat="ppart" end="8" id="8" rel="vc">
+          <node begin="0" end="3" id="9" index="1" rel="obj1"/>
+          <node begin="4" cat="mwu" end="7" id="10" rel="svp">
+            <node begin="4" end="5" id="11" lemma="in" pos="fixed" postag="VZ(init)" pt="vz" rel="mwp" root="in" vztype="init" word="in"/>
+            <node begin="5" end="6" id="12" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="fixed" postag="LID(bep,stan,rest)" pt="lid" rel="mwp" root="de" word="de"/>
+            <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="13" lemma="wind" naamval="stan" ntype="soort" pos="fixed" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="wind" word="wind"/>
+          </node>
+          <node begin="7" buiging="zonder" end="8" id="14" lemma="slaan" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="sla" word="geslagen" wvorm="vd"/>
+        </node>
+      </node>
+      <node begin="8" conjtype="neven" end="9" id="15" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="9" cat="smain" end="15" id="16" rel="cnj">
+        <node begin="9" end="10" getal="ev" id="17" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" root="dat" status="vol" vwtype="aanw" word="dat"/>
+        <node begin="10" end="11" id="18" lemma="strekken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="strek" word="strekt" wvorm="pv"/>
+        <node begin="11" cat="mwu" end="13" id="19" rel="obj2">
+          <node begin="11" end="12" id="20" lemma="Le" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Le" spectype="vreemd" word="Le"/>
+          <node begin="12" end="13" id="21" lemma="Monde" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Monde" spectype="vreemd" word="Monde"/>
+        </node>
+        <node begin="13" cat="mwu" end="15" id="22" rel="svp">
+          <node begin="13" end="14" id="23" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="tot" vztype="init" word="tot"/>
+          <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="24" lemma="eer" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="eer" word="eer"/>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="25" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het presidentiële bevelschrift werd in de wind geslagen en dat strekt Le Monde tot eer .</sentence>
+</alpino_ds>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" end="1" genus="genus" getal="ev" graad="basis" id="2" lemma="Cymbalta" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="su" root="CYMBALTA" word="CYMBALTA"/>
+      <node begin="1" end="2" id="3" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="2" cat="conj" end="7" id="4" rel="predc">
+        <node begin="2" cat="np" end="5" id="5" rel="cnj">
+          <node begin="2" end="3" id="6" index="1" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="3" buiging="met-e" end="4" id="7" index="2" lemma="combineren" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="gecombineerd" word="gecombineerde" wvorm="vd"/>
+          <node begin="4" end="5" id="8" lemma="serotonine-" pos="prefix" postag="SPEC(afgebr)" pt="spec" rel="hd" root="serotonine" spectype="afgebr" word="serotonine-"/>
+        </node>
+        <node begin="5" conjtype="neven" end="6" id="9" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="2" cat="np" end="7" id="10" rel="cnj">
+          <node begin="2" end="3" id="11" index="1" rel="det"/>
+          <node begin="3" end="4" id="12" index="2" rel="mod"/>
+          <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="13" lemma="noradrenaline_heropname_remmer" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="noradrenaline-heropnameremmer" word="noradrenaline-heropnameremmer"/>
+        </node>
+      </node>
+    </node>
+    <node begin="7" end="8" id="14" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>CYMBALTA is een gecombineerde serotonine- en noradrenaline-heropnameremmer .</sentence>
+</alpino_ds>

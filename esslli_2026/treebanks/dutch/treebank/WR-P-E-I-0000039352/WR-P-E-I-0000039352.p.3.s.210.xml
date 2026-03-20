@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="smain" end="14" id="2" rel="--">
+      <node begin="0" end="1" getal="mv" id="3" index="1" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="Ze"/>
+      <node begin="1" end="2" id="4" lemma="kunnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kan" word="kunnen" wvorm="pv"/>
+      <node begin="0" cat="inf" end="14" id="5" rel="vc">
+        <node begin="0" end="1" id="6" index="1" rel="su"/>
+        <node begin="2" cat="mwu" end="4" id="7" rel="mod">
+          <node begin="2" end="3" id="8" lemma="in" pos="adv" postag="VZ(init)" pt="vz" rel="mwp" root="in" vztype="init" word="in"/>
+          <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="9" lemma="wezen" naamval="stan" ntype="soort" pos="adv" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="wezen" word="wezen"/>
+        </node>
+        <node begin="4" buiging="zonder" end="5" id="10" lemma="deel_nemen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="neem_deel" word="deelnemen" wvorm="inf"/>
+        <node begin="5" cat="pp" end="14" id="11" rel="mod">
+          <node begin="5" end="6" id="12" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="6" cat="np" end="14" id="13" rel="obj1">
+            <node begin="6" end="7" id="14" lemma="twee" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="twee" word="twee"/>
+            <node begin="7" end="8" getal="mv" graad="basis" id="15" lemma="categorie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="categorie" word="categorieën"/>
+            <node begin="9" cat="np" end="14" id="16" rel="app">
+              <node begin="9" cat="conj" end="13" id="17" rel="mod">
+                <node begin="9" buiging="met-e" end="10" graad="sup" id="18" lemma="model" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="cnj" root="Modelste" word="Modelste"/>
+                <node begin="10" conjtype="neven" end="11" id="19" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+                <node begin="11" cat="ppart" end="13" id="20" rel="cnj">
+                  <node begin="11" buiging="met-e" end="12" graad="sup" id="21" lemma="mooi" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="mod" root="mooi" word="mooiste"/>
+                  <node begin="12" buiging="met-e" end="13" id="22" lemma="kleden" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="hd" root="gekleed" word="geklede" wvorm="vd"/>
+                </node>
+              </node>
+              <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="23" lemma="generaal" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="generaal" word="generaal"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="24" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Ze kunnen in wezen deelnemen in twee categorieën : Modelste of mooiste geklede generaal .</sentence>
+</alpino_ds>

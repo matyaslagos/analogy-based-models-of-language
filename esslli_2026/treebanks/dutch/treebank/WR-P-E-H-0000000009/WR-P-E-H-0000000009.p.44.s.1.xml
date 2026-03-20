@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="11" end="12" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="13" end="14" id="2" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="0" cat="smain" end="15" id="3" rel="--">
+      <node begin="0" cat="pp" end="2" id="4" rel="mod">
+        <node begin="0" end="1" id="5" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="6" lemma="Angola" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Angola" word="Angola"/>
+      </node>
+      <node begin="2" end="3" id="7" lemma="bestaan" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="besta" word="bestaan" wvorm="pv"/>
+      <node begin="3" cat="pp" end="7" id="8" rel="mod">
+        <node begin="3" end="4" id="9" lemma="buiten" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="buiten" vztype="init" word="buiten"/>
+        <node begin="4" cat="np" end="7" id="10" rel="obj1">
+          <node begin="4" end="5" id="11" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="12" lemma="provincie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="provincie" word="provincie"/>
+          <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="13" lemma="Cabinda" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="app" root="Cabinda" word="Cabinda"/>
+        </node>
+      </node>
+      <node begin="7" cat="np" end="11" id="14" rel="su">
+        <node begin="7" buiging="zonder" end="8" id="15" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="geen"/>
+        <node begin="8" buiging="met-e" end="9" graad="basis" id="16" lemma="specifiek" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="specifiek" word="specifieke"/>
+        <node begin="9" buiging="met-e" end="10" graad="basis" id="17" lemma="terroristisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="terroristisch" word="terroristische"/>
+        <node begin="10" end="11" getal="mv" graad="basis" id="18" lemma="dreiging" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="dreiging" word="dreigingen"/>
+      </node>
+      <node begin="12" cat="sv1" end="15" id="19" rel="mod">
+        <node begin="12" end="13" id="20" lemma="zien" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zie" word="zie" wvorm="pv"/>
+        <node begin="14" end="15" getal="mv" graad="basis" id="21" lemma="actualiteit" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="actualiteit" word="Actualiteiten"/>
+      </node>
+    </node>
+    <node begin="15" end="16" id="22" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="16" end="17" id="23" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="17" end="18" id="24" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>In Angola bestaan buiten de provincie Cabinda geen specifieke terroristische dreigingen ( zie &apos; Actualiteiten &apos; ) .</sentence>
+</alpino_ds>

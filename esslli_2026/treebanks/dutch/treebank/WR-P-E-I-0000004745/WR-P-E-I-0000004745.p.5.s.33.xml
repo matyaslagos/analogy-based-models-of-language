@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="13" end="14" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="21" id="3" rel="--">
+      <node begin="0" buiging="zonder" end="1" graad="comp" id="4" lemma="laat" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="laat" word="Later"/>
+      <node begin="1" end="2" id="5" lemma="trouwen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="trouw" word="trouwde" wvorm="pv"/>
+      <node begin="2" end="3" genus="masc" getal="ev" id="6" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="hij"/>
+      <node begin="3" cat="pp" end="21" id="7" rel="pc">
+        <node begin="3" end="4" id="8" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+        <node begin="4" cat="np" end="21" id="9" rel="obj1">
+          <node begin="4" cat="mwu" end="6" id="10" rel="hd">
+            <node begin="4" end="5" id="11" lemma="Aleida" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Aleida" spectype="deeleigen" word="Aleida"/>
+            <node begin="5" end="6" id="12" lemma="March" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="March" spectype="deeleigen" word="March"/>
+          </node>
+          <node begin="7" cat="np" end="13" id="13" rel="app">
+            <node begin="7" end="8" id="14" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="15" lemma="lid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="lid" word="lid"/>
+            <node begin="9" cat="pp" end="13" id="16" rel="mod">
+              <node begin="9" end="10" id="17" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="10" cat="np" end="13" id="18" rel="obj1">
+                <node begin="10" end="11" getal="ev" graad="basis" id="19" lemma="Castro" naamval="gen" ntype="eigen" pos="det" postag="N(eigen,ev,basis,gen)" pt="n" rel="det" root="Castro" word="Castro&apos;s"/>
+                <node begin="11" buiging="met-e" end="12" graad="basis" id="20" lemma="revolutionair" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="revolutionair" word="revolutionaire"/>
+                <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="21" lemma="beweging" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="beweging" word="beweging"/>
+              </node>
+            </node>
+          </node>
+          <node begin="14" cat="rel" end="21" id="22" rel="mod">
+            <node begin="14" cat="pp" end="16" id="23" index="1" rel="rhd">
+              <node begin="14" end="15" id="24" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+              <node begin="15" end="16" getal="getal" id="25" lemma="wie" naamval="stan" pdtype="pron" persoon="3p" pos="pron" postag="VNW(vb,pron,stan,vol,3p,getal)" pt="vnw" rel="obj1" root="wie" status="vol" vwtype="vb" word="wie"/>
+            </node>
+            <node begin="14" cat="ssub" end="21" id="26" rel="body">
+              <node begin="16" end="17" genus="masc" getal="ev" id="27" index="2" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="hij"/>
+              <node begin="19" end="20" id="28" lemma="zullen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="zal" word="zou" wvorm="pv"/>
+              <node begin="14" cat="inf" end="21" id="29" rel="vc">
+                <node begin="14" end="16" id="30" index="1" rel="mod"/>
+                <node begin="16" end="17" id="31" index="2" rel="su"/>
+                <node begin="17" cat="np" end="19" id="32" rel="obj1">
+                  <node begin="17" end="18" id="33" lemma="vier" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="vier" word="vier"/>
+                  <node begin="18" end="19" getal="mv" graad="basis" id="34" lemma="kind" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kind" word="kinderen"/>
+                </node>
+                <node begin="20" buiging="zonder" end="21" id="35" lemma="krijgen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="krijg" word="krijgen" wvorm="inf"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="21" end="22" id="36" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Later trouwde hij met Aleida March , een lid van Castro&apos;s revolutionaire beweging , met wie hij vier kinderen zou krijgen .</sentence>
+</alpino_ds>

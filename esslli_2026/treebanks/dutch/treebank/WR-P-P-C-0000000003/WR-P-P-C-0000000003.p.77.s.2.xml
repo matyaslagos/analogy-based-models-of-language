@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="25" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="4" end="5" id="2" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="9" end="10" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="19" end="20" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="24" id="5" rel="--">
+      <node begin="0" cat="np" end="3" id="6" rel="dp">
+        <node begin="0" end="1" genus="onz" getal="ev" graad="basis" id="7" lemma="internet" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="internet" word="Internet"/>
+        <node begin="2" end="3" id="8" lemma="http://www.postbus51.nl" pos="noun" postag="SPEC(symb)" pt="spec" rel="app" root="http://www.postbus51.nl" spectype="symb" word="http://www.postbus51.nl"/>
+      </node>
+      <node begin="3" cat="np" end="6" id="9" rel="dp">
+        <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="10" lemma="e-mail" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="e-mail" word="E-mail"/>
+        <node begin="5" end="6" id="11" lemma="vragen@postbus51.nl" pos="noun" postag="SPEC(symb)" pt="spec" rel="app" root="vragen@postbus51.nl" spectype="symb" word="vragen@postbus51.nl"/>
+      </node>
+      <node begin="6" cat="mwu" end="9" id="12" rel="dp">
+        <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="13" lemma="ministerie" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="Ministerie" word="Ministerie"/>
+        <node begin="7" end="8" id="14" lemma="van" pos="name" postag="VZ(init)" pt="vz" rel="mwp" root="van" vztype="init" word="van"/>
+        <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="15" lemma="justitie" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Justitie" word="Justitie"/>
+      </node>
+      <node begin="10" cat="mwu" end="12" id="16" rel="dp">
+        <node begin="10" end="11" id="17" lemma="Directie" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Directie" spectype="deeleigen" word="Directie"/>
+        <node begin="11" end="12" id="18" lemma="Voorlichting" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Voorlichting" spectype="deeleigen" word="Voorlichting"/>
+      </node>
+      <node begin="12" cat="du" end="17" id="19" rel="dp">
+        <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="20" lemma="afdeling" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="dp" root="afdeling" word="Afdeling"/>
+        <node begin="13" cat="conj" end="17" id="21" rel="dp">
+          <node begin="14" conjtype="neven" end="15" id="22" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="13" cat="np" end="17" id="23" rel="cnj">
+            <node begin="13" end="14" id="24" lemma="in-" pos="prefix" postag="SPEC(afgebr)" pt="spec" rel="mod" root="in" spectype="afgebr" word="in-"/>
+            <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="25" index="1" lemma="communicatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="communicatie" word="communicatie"/>
+          </node>
+          <node begin="15" cat="np" end="17" id="26" rel="cnj">
+            <node begin="15" buiging="met-e" end="16" graad="basis" id="27" lemma="extern" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="extern" word="externe"/>
+            <node begin="16" end="17" id="28" index="1" rel="hd"/>
+          </node>
+        </node>
+      </node>
+      <node begin="17" cat="np" end="19" id="29" rel="dp">
+        <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="30" lemma="postbus" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="Postbus" word="Postbus"/>
+        <node begin="18" end="19" id="31" lemma="20301" numtype="hoofd" pos="name" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="app" root="20301" word="20301"/>
+      </node>
+      <node begin="20" cat="mwu" end="22" id="32" rel="dp">
+        <node begin="20" end="21" id="33" lemma="2500" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="2500" word="2500"/>
+        <node begin="21" end="22" id="34" lemma="EH" pos="name" postag="SPEC(symb)" pt="spec" rel="mwp" root="EH" spectype="symb" word="EH"/>
+      </node>
+      <node begin="22" cat="mwu" end="24" id="35" rel="dp">
+        <node begin="22" end="23" id="36" lemma="Den" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Den" spectype="deeleigen" word="Den"/>
+        <node begin="23" end="24" id="37" lemma="Haag" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Haag" spectype="deeleigen" word="Haag"/>
+      </node>
+    </node>
+    <node begin="24" end="25" id="38" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Internet : http://www.postbus51.nl E-mail : vragen@postbus51.nl Ministerie van Justitie , Directie Voorlichting Afdeling in- en externe communicatie Postbus 20301 , 2500 EH Den Haag .</sentence>
+</alpino_ds>

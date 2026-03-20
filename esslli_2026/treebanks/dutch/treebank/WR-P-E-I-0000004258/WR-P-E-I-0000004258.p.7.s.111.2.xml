@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="8" id="2" rel="--">
+      <node begin="0" cat="conj" end="5" id="3" rel="su">
+        <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="4" lemma="Ron" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Ron" word="Ron"/>
+        <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="5" lemma="Hermelien" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Hermelien" word="Hermelien"/>
+        <node begin="3" conjtype="neven" end="4" id="6" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="7" lemma="Harry" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Harry" word="Harry"/>
+      </node>
+      <node begin="5" end="6" id="8" lemma="ontvangen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ontvang" word="ontvangen" wvorm="pv"/>
+      <node begin="6" cat="np" end="8" id="9" rel="obj1">
+        <node begin="6" buiging="zonder" end="7" getal="mv" id="10" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+        <node begin="7" end="8" getal="mv" graad="basis" id="11" lemma="S.L.I.J.M.B.A.L._resultaat" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="S.L.I.J.M.B.A.L._resultaat" word="S.L.I.J.M.B.A.L.-resultaten"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="12" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Ron , Hermelien en Harry ontvangen hun S.L.I.J.M.B.A.L.-resultaten .</sentence>
+</alpino_ds>

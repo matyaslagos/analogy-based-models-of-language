@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="24" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="10" end="11" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="11" end="12" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="15" end="16" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="23" id="5" rel="--">
+      <node begin="0" cat="np" end="2" id="6" rel="su">
+        <node begin="0" buiging="met-e" end="1" graad="basis" id="7" lemma="ander" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ander" word="Andere"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="8" lemma="industrie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="industrie" word="industrieën"/>
+      </node>
+      <node begin="2" end="3" id="9" lemma="omvatten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="omvat" word="omvatten" wvorm="pv"/>
+      <node begin="3" cat="conj" end="23" id="10" rel="obj1">
+        <node begin="3" cat="np" end="10" id="11" rel="cnj">
+          <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="12" lemma="diamant_slijperij" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="diamantslijperij" word="diamantslijperij"/>
+          <node begin="5" cat="smain" end="10" id="13" rel="mod">
+            <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="14" lemma="Antwerpen" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" root="Antwerpen" word="Antwerpen"/>
+            <node begin="6" end="7" id="15" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+            <node begin="7" cat="np" end="10" id="16" rel="predc">
+              <node begin="7" end="8" id="17" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="8" buiging="zonder" end="9" graad="basis" id="18" lemma="belangrijk" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="belangrijk" word="belangrijk"/>
+              <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="19" lemma="diamant_centrum" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="diamant_centrum" word="diamantcentrum"/>
+            </node>
+          </node>
+        </node>
+        <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="20" lemma="cement" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="cement" word="cement"/>
+        <node begin="13" conjtype="neven" end="14" id="21" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="22" lemma="glas_productie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="glas_productie" word="glasproductie"/>
+        <node begin="16" conjtype="neven" end="17" id="23" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="17" cat="np" end="23" id="24" rel="cnj">
+          <node begin="17" end="18" id="25" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="18" end="19" genus="zijd" getal="ev" graad="basis" id="26" lemma="verwerking" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="verwerking" word="verwerking"/>
+          <node begin="19" cat="pp" end="23" id="27" rel="mod">
+            <node begin="19" end="20" id="28" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="20" cat="conj" end="23" id="29" rel="obj1">
+              <node begin="20" end="21" genus="zijd" getal="ev" graad="basis" id="30" lemma="leer" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="leer" word="leer"/>
+              <node begin="21" conjtype="neven" end="22" id="31" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="22" end="23" genus="onz" getal="ev" graad="basis" id="32" lemma="hout" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="cnj" root="hout" word="hout"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="23" end="24" id="33" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Andere industrieën omvatten diamantslijperij ( Antwerpen is een belangrijk diamantcentrum ) , cement en glasproductie , en de verwerking van leer en hout .</sentence>
+</alpino_ds>

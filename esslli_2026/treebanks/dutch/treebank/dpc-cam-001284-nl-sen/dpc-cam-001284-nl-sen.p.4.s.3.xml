@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="0" cat="smain" end="17" id="1" rel="--">
+      <node begin="0" cat="ap" end="3" id="2" rel="mod">
+        <node begin="0" buiging="zonder" end="1" graad="basis" id="3" lemma="specifiek" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="specifiek" word="Specifiek"/>
+        <node begin="1" cat="pp" end="3" id="4" rel="mod">
+          <node begin="1" end="2" id="5" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="2" buiging="met-e" end="3" getal-n="mv-n" graad="basis" id="6" lemma="blind" pos="adj" positie="nom" postag="ADJ(nom,basis,met-e,mv-n)" pt="adj" rel="obj1" root="blind" word="blinden"/>
+        </node>
+      </node>
+      <node begin="3" end="4" id="7" lemma="bestaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="besta" word="bestaat" wvorm="pv"/>
+      <node begin="4" end="5" getal="getal" id="8" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+      <node begin="5" cat="np" end="17" id="9" rel="su">
+        <node begin="5" end="6" id="10" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="11" lemma="manier" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="manier" word="manier"/>
+        <node begin="7" cat="oti" end="17" id="12" rel="vc">
+          <node begin="7" end="8" id="13" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="om"/>
+          <node begin="8" cat="ti" end="17" id="14" rel="body">
+            <node begin="15" end="16" id="15" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+            <node begin="8" cat="inf" end="17" id="16" rel="body">
+              <node begin="8" cat="np" end="13" id="17" rel="obj1">
+                <node begin="8" end="9" id="18" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="19" lemma="informatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="informatie" word="informatie"/>
+                <node begin="10" cat="pp" end="13" id="20" rel="mod">
+                  <node begin="10" end="11" id="21" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+                  <node begin="11" cat="np" end="13" id="22" rel="obj1">
+                    <node begin="11" end="12" id="23" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                    <node begin="12" end="13" genus="onz" getal="ev" graad="basis" id="24" lemma="scherm" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="scherm" word="scherm"/>
+                  </node>
+                </node>
+              </node>
+              <node begin="13" cat="pp" end="15" id="25" rel="mod">
+                <node begin="13" end="14" id="26" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                <node begin="14" end="15" genus="onz" getal="ev" graad="basis" id="27" lemma="braille" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="braille" word="braille"/>
+              </node>
+              <node begin="16" buiging="zonder" end="17" id="28" lemma="lezen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="lees" word="lezen" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="29" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Specifiek voor blinden bestaat er een manier om de informatie op het scherm in braille te lezen .</sentence>
+</alpino_ds>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="19" id="2" rel="--">
+      <node begin="0" cat="cp" end="6" id="3" rel="mod">
+        <node begin="0" conjtype="onder" end="1" id="4" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="Als"/>
+        <node begin="1" cat="ssub" end="6" id="5" rel="body">
+          <node begin="1" end="2" getal="ev" id="6" lemma="je" naamval="nomin" pdtype="pron" persoon="2v" pos="pron" postag="VNW(pers,pron,nomin,red,2v,ev)" pt="vnw" rel="su" root="je" status="red" vwtype="pers" word="je"/>
+          <node begin="2" cat="pp" end="5" id="7" rel="mod">
+            <node begin="2" end="3" id="8" lemma="om" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="om" vztype="init" word="om"/>
+            <node begin="3" cat="np" end="5" id="9" rel="obj1">
+              <node begin="3" buiging="met-e" end="4" id="10" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="deze"/>
+              <node begin="4" end="5" getal="mv" graad="basis" id="11" lemma="reden" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="reden" word="redenen"/>
+            </node>
+          </node>
+          <node begin="5" end="6" id="12" lemma="drinken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="drink" word="drinkt" wvorm="pv"/>
+        </node>
+      </node>
+      <node begin="7" end="8" id="13" lemma="lopen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="loop" word="loop" wvorm="pv"/>
+      <node begin="8" end="9" getal="ev" id="14" lemma="je" naamval="nomin" pdtype="pron" persoon="2v" pos="pron" postag="VNW(pers,pron,nomin,red,2v,ev)" pt="vnw" rel="su" root="je" status="red" vwtype="pers" word="je"/>
+      <node begin="9" cat="np" end="19" id="15" rel="obj1">
+        <node begin="9" end="10" id="16" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+        <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="17" lemma="risico" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="risico" word="risico"/>
+        <node begin="11" cat="cp" end="19" id="18" rel="vc">
+          <node begin="11" conjtype="onder" end="12" id="19" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+          <node begin="12" cat="ssub" end="19" id="20" rel="body">
+            <node begin="12" end="13" getal="ev" id="21" index="1" lemma="je" naamval="nomin" pdtype="pron" persoon="2v" pos="pron" postag="VNW(pers,pron,nomin,red,2v,ev)" pt="vnw" rel="su" root="je" status="red" vwtype="pers" word="je"/>
+            <node begin="17" end="18" id="22" lemma="gaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ga" word="gaat" wvorm="pv"/>
+            <node begin="12" cat="inf" end="19" id="23" rel="vc">
+              <node begin="12" end="13" id="24" index="1" rel="su"/>
+              <node begin="13" cat="ap" end="16" id="25" rel="mod">
+                <node begin="13" buiging="zonder" end="14" graad="basis" id="26" lemma="heel" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="heel" word="heel"/>
+                <node begin="14" cat="mwu" end="16" id="27" rel="hd">
+                  <node begin="14" buiging="zonder" end="15" graad="basis" id="28" lemma="geleidelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mwp" root="geleidelijk" word="geleidelijk"/>
+                  <node begin="15" end="16" id="29" lemma="aan" pos="adj" postag="VZ(fin)" pt="vz" rel="mwp" root="aan" vztype="fin" word="aan"/>
+                </node>
+              </node>
+              <node begin="16" buiging="zonder" end="17" graad="comp" id="30" lemma="veel" naamval="stan" pdtype="grad" pos="noun" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="obj1" root="meer" vwtype="onbep" word="meer"/>
+              <node begin="18" buiging="zonder" end="19" id="31" lemma="drinken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="drink" word="drinken" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="32" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Als je om deze redenen drinkt , loop je het risico dat je heel geleidelijk aan meer gaat drinken .</sentence>
+</alpino_ds>

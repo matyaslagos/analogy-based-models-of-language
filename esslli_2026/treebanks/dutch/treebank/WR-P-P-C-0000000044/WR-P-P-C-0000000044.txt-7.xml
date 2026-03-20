@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="10" id="0" rel="top">
+    <node begin="0" cat="smain" end="9" id="1" rel="--">
+      <node begin="2" end="3" id="2" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+      <node begin="3" end="4" getal="mv" graad="basis" id="3" index="1" lemma="brand_wond" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="brand_wond" word="brandwonden"/>
+      <node begin="0" cat="ti" end="9" id="4" rel="vc">
+        <node begin="7" end="8" id="5" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+        <node begin="0" cat="inf" end="9" id="6" rel="body">
+          <node begin="0" cat="pp" end="2" id="7" rel="mod">
+            <node begin="0" end="1" id="8" lemma="ondanks" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="ondanks" vztype="init" word="Ondanks"/>
+            <node begin="1" end="2" getal="mv" graad="basis" id="9" lemma="veiligheidsmaatregel" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="veiligheidsmaatregel" word="veiligheidsmaatregelen"/>
+          </node>
+          <node begin="3" end="4" id="10" index="1" rel="obj1"/>
+          <node begin="4" end="5" id="11" lemma="helaas" pos="adv" postag="BW()" pt="bw" rel="mod" root="helaas" word="helaas"/>
+          <node begin="5" cat="advp" end="7" id="12" rel="mod">
+            <node begin="5" end="6" id="13" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+            <node begin="6" end="7" id="14" lemma="altijd" pos="adv" postag="BW()" pt="bw" rel="hd" root="altijd" word="altijd"/>
+          </node>
+          <node begin="8" buiging="zonder" end="9" id="15" lemma="voorkomen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="voorkom" word="voorkomen" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="9" end="10" id="16" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Ondanks veiligheidsmaatregelen zijn brandwonden helaas niet altijd te voorkomen .</sentence>
+</alpino_ds>

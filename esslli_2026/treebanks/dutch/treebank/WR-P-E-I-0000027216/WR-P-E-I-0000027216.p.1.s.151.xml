@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="32" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="31" id="2" rel="--">
+      <node begin="0" cat="smain" end="7" id="3" rel="cnj">
+        <node begin="1" end="2" id="4" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+        <node begin="2" cat="mwu" end="4" id="5" index="1" rel="su">
+          <node begin="2" end="3" id="6" lemma="Nasr" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Nasr" spectype="deeleigen" word="Nasr"/>
+          <node begin="3" end="4" id="7" lemma="Allah" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Allah" spectype="deeleigen" word="Allah"/>
+        </node>
+        <node begin="0" cat="ppart" end="7" id="8" rel="vc">
+          <node begin="0" buiging="zonder" end="1" graad="basis" id="9" lemma="aanvankelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="aanvankelijk" word="Aanvankelijk"/>
+          <node begin="2" end="4" id="10" index="1" rel="obj1"/>
+          <node begin="4" cat="pp" end="6" id="11" rel="pc">
+            <node begin="4" end="5" id="12" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" vztype="init" word="tot"/>
+            <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="13" lemma="emir" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="emir" word="emir"/>
+          </node>
+          <node begin="6" buiging="zonder" end="7" id="14" lemma="uit_roepen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="roep_uit" word="uitgeroepen" wvorm="vd"/>
+        </node>
+      </node>
+      <node begin="8" conjtype="neven" end="9" id="15" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+      <node begin="9" cat="conj" end="31" id="16" rel="cnj">
+        <node begin="9" cat="smain" end="25" id="17" rel="cnj">
+          <node begin="9" cat="np" end="17" id="18" index="2" rel="su">
+            <node begin="9" end="10" id="19" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="20" lemma="zoon" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="zoon" word="zoon"/>
+            <node begin="11" cat="mwu" end="13" id="21" rel="app">
+              <node begin="11" end="12" id="22" lemma="Aman" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Aman" spectype="deeleigen" word="Aman"/>
+              <node begin="12" end="13" id="23" lemma="Allah" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Allah" spectype="deeleigen" word="Allah"/>
+            </node>
+            <node begin="13" cat="pp" end="17" id="24" rel="mod">
+              <node begin="13" end="14" id="25" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="14" cat="np" end="17" id="26" rel="obj1">
+                <node begin="14" end="15" id="27" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="15" buiging="met-e" end="16" id="28" lemma="vermoorden" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="vermoord" word="vermoorde" wvorm="vd"/>
+                <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="29" lemma="emir" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="emir" word="emir"/>
+              </node>
+            </node>
+          </node>
+          <node begin="17" end="18" id="30" lemma="laten" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="laat" word="liet" wvorm="pv"/>
+          <node begin="18" end="19" genus="masc" getal="ev" id="31" index="3" lemma="hem" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,obl,vol,3,ev,masc)" pt="vnw" rel="obj1" root="hem" status="vol" vwtype="pers" word="hem"/>
+          <node begin="18" cat="inf" end="25" id="32" rel="vc">
+            <node begin="18" end="19" id="33" index="3" rel="obj1"/>
+            <node begin="19" cat="pp" end="24" id="34" rel="mod">
+              <node begin="19" cat="mwu" end="22" id="35" rel="hd">
+                <node begin="19" end="20" id="36" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="met" vztype="init" word="met"/>
+                <node begin="20" end="21" genus="zijd" getal="ev" graad="basis" id="37" lemma="steun" naamval="stan" ntype="soort" pos="prep" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="steun" word="steun"/>
+                <node begin="21" end="22" id="38" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="van" vztype="init" word="van"/>
+              </node>
+              <node begin="22" cat="np" end="24" id="39" rel="obj1">
+                <node begin="22" end="23" id="40" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                <node begin="23" end="24" genus="onz" getal="ev" graad="basis" id="41" lemma="leger" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="leger" word="leger"/>
+              </node>
+            </node>
+            <node begin="24" buiging="zonder" end="25" id="42" lemma="arresteren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="arresteer" word="arresteren" wvorm="inf"/>
+          </node>
+        </node>
+        <node begin="25" conjtype="neven" end="26" id="43" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="9" cat="smain" end="31" id="44" rel="cnj">
+          <node begin="9" end="17" id="45" index="2" rel="su"/>
+          <node begin="26" end="27" id="46" lemma="op_volgen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="volg_op" word="volgde" wvorm="pv"/>
+          <node begin="27" end="28" id="47" lemma="zelf" pos="adv" postag="BW()" pt="bw" rel="predm" root="zelf" word="zelf"/>
+          <node begin="28" cat="np" end="30" id="48" rel="obj1">
+            <node begin="28" buiging="zonder" end="29" getal="ev" id="49" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pt="vnw" rel="det" root="zijn" status="vol" vwtype="bez" word="zijn"/>
+            <node begin="29" end="30" genus="zijd" getal="ev" graad="basis" id="50" lemma="vader" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="vader" word="vader"/>
+          </node>
+          <node begin="30" end="31" id="51" lemma="op" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="op" vztype="fin" word="op"/>
+        </node>
+      </node>
+    </node>
+    <node begin="31" end="32" id="52" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Aanvankelijk werd Nasr Allah tot emir uitgeroepen , maar de zoon Aman Allah van de vermoorde emir liet hem met steun van het leger arresteren en volgde zelf zijn vader op .</sentence>
+</alpino_ds>

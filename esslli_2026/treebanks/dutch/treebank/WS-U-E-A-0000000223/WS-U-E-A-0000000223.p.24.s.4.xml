@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="conj" end="14" id="1" rel="--">
+      <node begin="0" cat="smain" end="11" id="2" rel="cnj">
+        <node begin="0" end="1" getal="mv" id="3" index="1" lemma="zij" naamval="nomin" pdtype="pron" persoon="3p" pos="pron" postag="VNW(pers,pron,nomin,vol,3p,mv)" pt="vnw" rel="su" root="zij" status="vol" vwtype="pers" word="Zij"/>
+        <node begin="1" end="2" id="4" lemma="beginnen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="begin" word="begonnen" wvorm="pv"/>
+        <node begin="2" cat="np" end="11" id="5" rel="obj1">
+          <node begin="2" end="3" id="6" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="7" lemma="recht_zaak" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="recht_zaak" word="rechtszaak"/>
+          <node begin="4" cat="pp" end="11" id="8" rel="mod">
+            <node begin="4" end="5" id="9" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" vztype="init" word="tegen"/>
+            <node begin="5" cat="conj" end="11" id="10" rel="obj1">
+              <node begin="5" cat="np" end="7" id="11" rel="cnj">
+                <node begin="5" end="6" id="12" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="13" lemma="staat" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="staat" word="staat"/>
+              </node>
+              <node begin="7" conjtype="neven" end="8" id="14" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="8" cat="np" end="11" id="15" rel="cnj">
+                <node begin="8" end="9" id="16" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="9" buiging="met-e" end="10" graad="basis" id="17" lemma="koninklijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="koninklijk" word="Koninklijke"/>
+                <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="18" lemma="familie" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="Familie" word="Familie"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="11" conjtype="neven" end="12" id="19" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="0" cat="sv1" end="14" id="20" rel="cnj">
+        <node begin="0" end="1" id="21" index="1" rel="su"/>
+        <node begin="12" end="13" id="22" lemma="eisen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="eis" word="eisten" wvorm="pv"/>
+        <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="23" lemma="schadeloosstelling" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="schadeloosstelling" word="schadeloosstelling"/>
+      </node>
+    </node>
+    <node begin="14" end="15" id="24" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Zij begonnen een rechtszaak tegen de staat en de Koninklijke Familie en eisten schadeloosstelling .</sentence>
+</alpino_ds>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="np" end="6" id="2" rel="--">
+      <node begin="0" cat="mwu" end="3" id="3" rel="hd">
+        <node begin="0" end="1" id="4" lemma="Alexandre" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Alexandre" spectype="deeleigen" word="Alexandre"/>
+        <node begin="1" end="2" id="5" lemma="Dumas" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Dumas" spectype="deeleigen" word="Dumas"/>
+        <node begin="2" end="3" id="6" lemma="père" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="père" spectype="deeleigen" word="père"/>
+      </node>
+      <node begin="4" cat="np" end="6" id="7" rel="app">
+        <node begin="4" buiging="zonder" end="5" graad="basis" id="8" lemma="Frans" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="Frans" word="Frans"/>
+        <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="9" lemma="schrijver" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="schrijver" word="schrijver"/>
+      </node>
+    </node>
+  </node>
+  <sentence>Alexandre Dumas père , Frans schrijver</sentence>
+</alpino_ds>

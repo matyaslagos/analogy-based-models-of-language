@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="1" end="2" id="2" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" word="worden" wvorm="pv"/>
+      <node begin="2" end="3" getal="mv" id="3" index="1" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="ze"/>
+      <node begin="0" cat="conj" end="11" id="4" rel="vc">
+        <node begin="0" cat="ppart" end="6" id="5" rel="cnj">
+          <node begin="0" end="1" id="6" index="2" lemma="soms" pos="adv" postag="BW()" pt="bw" rel="mod" root="soms" word="Soms"/>
+          <node begin="2" end="3" id="7" index="1" rel="obj1"/>
+          <node begin="3" cat="pp" end="5" id="8" index="3" rel="mod">
+            <node begin="3" end="4" id="9" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+            <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="10" lemma="bestelling" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="bestelling" word="bestelling"/>
+          </node>
+          <node begin="5" buiging="zonder" end="6" id="11" lemma="jatten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="jat" word="gejat" wvorm="vd"/>
+        </node>
+        <node begin="6" conjtype="neven" end="7" id="12" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+        <node begin="0" cat="ppart" end="11" id="13" rel="cnj">
+          <node begin="0" end="1" id="14" index="2" rel="mod"/>
+          <node begin="2" end="3" id="15" index="1" rel="obj1"/>
+          <node begin="3" end="5" id="16" index="3" rel="mod"/>
+          <node begin="7" buiging="zonder" end="8" id="17" lemma="aan_bieden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="bied_aan" word="aangeboden" wvorm="vd"/>
+          <node begin="8" cat="pp" end="11" id="18" rel="mod">
+            <node begin="8" end="9" id="19" lemma="via" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="via" vztype="init" word="via"/>
+            <node begin="9" cat="np" end="11" id="20" rel="obj1">
+              <node begin="9" end="10" id="21" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="22" lemma="internet" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="internet" word="internet"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" id="23" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Soms worden ze op bestelling gejat of aangeboden via het internet .</sentence>
+</alpino_ds>

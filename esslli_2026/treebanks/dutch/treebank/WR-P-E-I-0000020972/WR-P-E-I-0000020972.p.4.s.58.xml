@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="smain" end="13" id="1" rel="--">
+      <node begin="1" end="2" id="2" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" word="worden" wvorm="pv"/>
+      <node begin="2" cat="np" end="5" id="3" index="1" rel="su">
+        <node begin="2" end="3" id="4" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="3" buiging="met-e" end="4" id="5" lemma="verzwakken" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="verzwakt" word="verzwakte" wvorm="vd"/>
+        <node begin="4" end="5" getal="mv" graad="basis" id="6" lemma="hommel" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="hommel" word="hommels"/>
+      </node>
+      <node begin="0" cat="ppart" end="13" id="7" rel="vc">
+        <node begin="0" end="1" id="8" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="Ook"/>
+        <node begin="2" end="5" id="9" index="1" rel="obj1"/>
+        <node begin="5" end="6" id="10" lemma="dan" pos="adv" postag="BW()" pt="bw" rel="mod" root="dan" word="dan"/>
+        <node begin="6" end="7" id="11" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" word="nog"/>
+        <node begin="7" end="8" id="12" lemma="eens" pos="adv" postag="BW()" pt="bw" rel="mod" root="eens" word="eens"/>
+        <node begin="8" cat="pp" end="12" id="13" rel="mod">
+          <node begin="8" end="9" id="14" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+          <node begin="9" cat="conj" end="12" id="15" rel="obj1">
+            <node begin="9" end="10" getal="mv" graad="basis" id="16" lemma="vogel" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="vogel" word="vogels"/>
+            <node begin="10" conjtype="neven" end="11" id="17" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="11" end="12" getal="mv" graad="basis" id="18" lemma="wesp" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="wesp" word="wespen"/>
+          </node>
+        </node>
+        <node begin="12" buiging="zonder" end="13" id="19" lemma="belagen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="belaag" word="belaagd" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="13" end="14" id="20" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Ook worden de verzwakte hommels dan nog eens door vogels en wespen belaagd .</sentence>
+</alpino_ds>

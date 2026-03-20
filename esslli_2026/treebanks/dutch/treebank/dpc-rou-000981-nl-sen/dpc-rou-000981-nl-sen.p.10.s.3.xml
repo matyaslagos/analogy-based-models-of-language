@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="19" id="2" rel="--">
+      <node begin="0" buiging="zonder" end="1" graad="basis" id="3" lemma="natuurlijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="natuurlijk" word="Natuurlijk"/>
+      <node begin="1" end="2" id="4" lemma="mee_spelen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="speel_mee" word="speelt" wvorm="pv"/>
+      <node begin="2" end="3" id="5" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+      <node begin="3" cat="np" end="5" id="6" rel="su">
+        <node begin="3" end="4" id="7" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+        <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="8" lemma="buik_gevoel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="buik_gevoel" word="buikgevoel"/>
+      </node>
+      <node begin="5" end="6" id="9" lemma="mee" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="mee" vztype="fin" word="mee"/>
+      <node begin="7" cat="cp" end="19" id="10" rel="mod">
+        <node begin="7" buiging="zonder" end="8" graad="basis" id="11" lemma="zeker" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="zeker" word="zeker"/>
+        <node begin="8" conjtype="onder" end="9" id="12" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+        <node begin="9" cat="ssub" end="19" id="13" rel="body">
+          <node begin="14" end="15" getal="mv" graad="basis" id="14" index="1" lemma="idee" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="idee" word="ideeën"/>
+          <node begin="17" end="18" id="15" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" word="worden" wvorm="pv"/>
+          <node begin="9" cat="ppart" end="19" id="16" rel="vc">
+            <node begin="9" end="10" getal="getal" id="17" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+            <node begin="10" cat="pp" end="14" id="18" rel="mod">
+              <node begin="10" end="11" id="19" lemma="helemaal" pos="adv" postag="BW()" pt="bw" rel="mod" root="helemaal" word="helemaal"/>
+              <node begin="11" end="12" id="20" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+              <node begin="12" cat="np" end="14" id="21" rel="obj1">
+                <node begin="12" end="13" id="22" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="23" lemma="begin" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="begin" word="begin"/>
+              </node>
+            </node>
+            <node begin="14" end="15" id="24" index="1" rel="obj1"/>
+            <node begin="15" cat="pp" end="17" id="25" rel="ld">
+              <node begin="15" end="16" id="26" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+              <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="27" lemma="tafel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="tafel" word="tafel"/>
+            </node>
+            <node begin="18" buiging="zonder" end="19" id="28" lemma="gooien" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="gooi" word="gegooid" wvorm="vd"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="29" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+    <node begin="20" end="21" id="30" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+  </node>
+  <sentence>Natuurlijk speelt ook het buikgevoel mee , zeker als er helemaal in het begin ideeën op tafel worden gegooid . &quot;</sentence>
+</alpino_ds>

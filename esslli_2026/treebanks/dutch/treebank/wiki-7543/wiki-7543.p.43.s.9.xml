@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="4" end="5" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="5" end="6" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="np" end="8" id="4" rel="--">
+      <node begin="0" cat="mwu" end="2" id="5" rel="hd">
+        <node begin="0" end="1" id="6" lemma="Wim" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Wim" spectype="deeleigen" word="Wim"/>
+        <node begin="1" end="2" id="7" lemma="Vanhuffel" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Vanhuffel" spectype="deeleigen" word="Vanhuffel"/>
+      </node>
+      <node begin="3" end="4" id="8" lemma="25/05/79" pos="num" postag="SPEC(symb)" pt="spec" rel="mod" root="25/05/79" spectype="symb" word="25/05/79"/>
+      <node begin="6" cat="np" end="8" id="9" rel="app">
+        <node begin="6" buiging="zonder" end="7" graad="basis" id="10" lemma="Belgisch" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="Belgisch" word="Belgisch"/>
+        <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="11" lemma="wielrenner" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="wielrenner" word="wielrenner"/>
+      </node>
+    </node>
+  </node>
+  <sentence>Wim Vanhuffel ( 25/05/79 ) , Belgisch wielrenner</sentence>
+</alpino_ds>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="du" end="14" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="en" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="en" word="En"/>
+      <node begin="1" cat="sv1" end="14" id="3" rel="nucl">
+        <node begin="1" cat="np" end="5" id="4" rel="su">
+          <node begin="1" end="2" id="5" lemma="zelfs" pos="adv" postag="BW()" pt="bw" rel="mod" root="zelfs" word="zelfs"/>
+          <node begin="2" end="3" id="6" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="3" buiging="met-e" end="4" graad="basis" id="7" lemma="Olympisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="olympisch" word="olympische"/>
+          <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="8" lemma="tram" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="tram" word="tram"/>
+        </node>
+        <node begin="5" end="6" id="9" lemma="rijden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="rij" word="rijdt" wvorm="pv"/>
+        <node begin="6" cat="np" end="8" id="10" rel="obj1">
+          <node begin="6" buiging="zonder" end="7" getal="ev" id="11" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,red,3,ev,prenom,zonder,agr)" pt="vnw" rel="det" root="zijn" status="red" vwtype="bez" word="z´n"/>
+          <node begin="7" end="8" genus="onz" getal="ev" graad="dim" id="12" lemma="rit" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,dim,onz,stan)" pt="n" rel="hd" root="rit_DIM" word="ritje"/>
+        </node>
+        <node begin="8" cat="conj" end="14" id="13" rel="ld">
+          <node begin="8" cat="pp" end="11" id="14" rel="cnj">
+            <node begin="8" end="9" id="15" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+            <node begin="9" cat="np" end="11" id="16" rel="obj1">
+              <node begin="9" end="10" id="17" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="18" lemma="kust" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="kust" word="kust"/>
+            </node>
+          </node>
+          <node begin="11" conjtype="neven" end="12" id="19" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="12" cat="advp" end="14" id="20" rel="cnj">
+            <node begin="12" end="13" id="21" lemma="weer" pos="adv" postag="BW()" pt="bw" rel="mod" root="weer" word="weer"/>
+            <node begin="13" end="14" id="22" lemma="terug" pos="adv" postag="BW()" pt="bw" rel="hd" root="terug" word="terug"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="23" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>En zelfs de olympische tram rijdt z´n ritje naar de kust en weer terug .</sentence>
+</alpino_ds>

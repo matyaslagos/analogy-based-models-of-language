@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="8" end="9" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="10" end="11" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="14" end="15" id="4" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="smain" end="19" id="5" rel="--">
+      <node begin="0" cat="conj" end="3" id="6" rel="su">
+        <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="7" lemma="Dylan" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Dylan" word="Dylan"/>
+        <node begin="1" conjtype="neven" end="2" id="8" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="9" lemma="Lownd" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Lownd" word="Lownd"/>
+      </node>
+      <node begin="3" end="4" id="10" lemma="krijgen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="krijg" word="kregen" wvorm="pv"/>
+      <node begin="4" cat="np" end="19" id="11" rel="obj1">
+        <node begin="4" end="5" id="12" lemma="vier" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="vier" word="vier"/>
+        <node begin="5" end="6" getal="mv" graad="basis" id="13" lemma="kind" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kind" word="kinderen"/>
+        <node begin="7" cat="conj" end="19" id="14" rel="app">
+          <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="15" lemma="Jesse" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Jesse" word="Jesse"/>
+          <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="16" lemma="Anna" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Anna" word="Anna"/>
+          <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="17" lemma="Samuel" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Samuel" word="Samuel"/>
+          <node begin="12" conjtype="neven" end="13" id="18" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="13" cat="np" end="19" id="19" rel="cnj">
+            <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="20" lemma="Jakob" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Jakob" word="Jakob"/>
+            <node begin="15" cat="du" end="19" id="21" rel="mod">
+              <node begin="15" buiging="zonder" end="16" id="22" lemma="geboren" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="dp" root="geboren" word="geboren" wvorm="vd"/>
+              <node begin="16" cat="mwu" end="19" id="23" rel="dp">
+                <node begin="16" end="17" id="24" lemma="9" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="9" word="9"/>
+                <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="25" lemma="december" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="december" word="december"/>
+                <node begin="18" end="19" id="26" lemma="1969" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="1969" word="1969"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="27" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="20" end="21" id="28" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dylan en Lownd kregen vier kinderen : Jesse , Anna , Samuel en Jakob ( geboren 9 december 1969 ) .</sentence>
+</alpino_ds>

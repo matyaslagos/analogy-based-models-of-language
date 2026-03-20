@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="1" end="2" id="2" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" word="worden" wvorm="pv"/>
+      <node begin="2" end="3" getal="mv" graad="basis" id="3" index="1" lemma="infrarood_golf" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="infrarood_golf" word="infraroodgolven"/>
+      <node begin="0" cat="ppart" end="11" id="4" rel="vc">
+        <node begin="0" end="1" id="5" lemma="zo" pos="adv" postag="BW()" pt="bw" rel="mod" root="zo" word="Zo"/>
+        <node begin="2" end="3" id="6" index="1" rel="obj1"/>
+        <node begin="3" end="4" id="7" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+        <node begin="4" buiging="zonder" end="5" id="8" lemma="beïnvloeden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="beïnvloed" word="beïnvloed" wvorm="vd"/>
+        <node begin="5" cat="pp" end="11" id="9" rel="mod">
+          <node begin="5" end="6" id="10" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+          <node begin="6" cat="conj" end="11" id="11" rel="obj1">
+            <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="12" lemma="mist" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="mist" word="mist"/>
+            <node begin="7" conjtype="neven" end="8" id="13" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="8" cat="np" end="11" id="14" rel="cnj">
+              <node begin="8" buiging="met-e" end="9" graad="basis" id="15" lemma="ander" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ander" word="andere"/>
+              <node begin="9" buiging="met-e" end="10" graad="basis" id="16" lemma="atmosferisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="atmosferisch" word="atmosferische"/>
+              <node begin="10" end="11" getal="mv" graad="basis" id="17" lemma="omstandigheid" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="omstandigheid" word="omstandigheden"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" id="18" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Zo worden infraroodgolven niet beïnvloed door mist en andere atmosferische omstandigheden .</sentence>
+</alpino_ds>

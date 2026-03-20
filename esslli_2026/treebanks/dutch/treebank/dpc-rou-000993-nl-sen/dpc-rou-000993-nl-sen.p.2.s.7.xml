@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="30" id="0" rel="top">
+    <node begin="12" end="13" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="22" end="23" id="2" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="24" end="25" id="3" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="0" cat="smain" end="29" id="4" rel="--">
+      <node begin="13" end="14" id="5" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="heeft" wvorm="pv"/>
+      <node begin="14" cat="np" end="24" id="6" index="1" rel="su">
+        <node begin="14" end="15" id="7" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+        <node begin="15" cat="mwu" end="22" id="8" rel="hd">
+          <node begin="15" end="16" id="9" lemma="Franse" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Franse" spectype="deeleigen" word="Franse"/>
+          <node begin="16" end="17" id="10" lemma="Instituut" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Instituut" spectype="deeleigen" word="Instituut"/>
+          <node begin="17" end="18" id="11" lemma="voor" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="voor" spectype="deeleigen" word="voor"/>
+          <node begin="18" end="19" id="12" lemma="Statistieken" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Statistieken" spectype="deeleigen" word="Statistieken"/>
+          <node begin="19" end="20" id="13" lemma="en" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="en" spectype="deeleigen" word="en"/>
+          <node begin="20" end="21" id="14" lemma="Economische" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Economische" spectype="deeleigen" word="Economische"/>
+          <node begin="21" end="22" id="15" lemma="Studies" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Studies" spectype="deeleigen" word="Studies"/>
+        </node>
+        <node begin="23" end="24" genus="onz" getal="ev" graad="basis" id="16" lemma="INSEE" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="mod" root="INSEE" word="INSEE"/>
+      </node>
+      <node begin="0" cat="ppart" end="29" id="17" rel="vc">
+        <node begin="0" cat="oti" end="12" id="18" rel="mod">
+          <node begin="0" end="1" id="19" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="Om"/>
+          <node begin="1" cat="ti" end="12" id="20" rel="body">
+            <node begin="1" end="2" id="21" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+            <node begin="2" cat="inf" end="12" id="22" rel="body">
+              <node begin="2" buiging="zonder" end="3" id="23" lemma="berekenen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="bereken" word="berekenen" wvorm="inf"/>
+              <node begin="3" cat="whsub" end="12" id="24" rel="vc">
+                <node begin="3" cat="np" end="5" id="25" index="2" rel="whd">
+                  <node begin="3" buiging="met-e" end="4" id="26" lemma="welk" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(vb,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="welk" vwtype="vb" word="welke"/>
+                  <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="27" lemma="impact" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="impact" word="impact"/>
+                </node>
+                <node begin="3" cat="ssub" end="12" id="28" rel="body">
+                  <node begin="3" end="5" id="29" index="2" rel="obj1"/>
+                  <node begin="5" cat="np" end="7" id="30" rel="su">
+                    <node begin="5" end="6" id="31" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="6" end="7" getal="mv" graad="basis" id="32" lemma="prijs_stijging" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="prijs_stijging" word="prijsstijgingen"/>
+                  </node>
+                  <node begin="7" end="8" id="33" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" word="hebben" wvorm="pv"/>
+                  <node begin="8" cat="pp" end="12" id="34" rel="mod">
+                    <node begin="8" end="9" id="35" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+                    <node begin="9" cat="np" end="12" id="36" rel="obj1">
+                      <node begin="9" buiging="zonder" end="10" getal="getal" id="37" lemma="u" naamval="stan" npagr="agr" pdtype="det" persoon="2" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,2,getal,prenom,zonder,agr)" pt="vnw" rel="det" root="u" status="vol" vwtype="bez" word="uw"/>
+                      <node begin="10" buiging="zonder" end="11" graad="basis" id="38" lemma="persoonlijk" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="persoonlijk" word="persoonlijk"/>
+                      <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="39" lemma="verbruik" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="verbruik" word="verbruik"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="14" end="24" id="40" index="1" rel="su"/>
+        <node begin="25" cat="np" end="28" id="41" rel="obj1">
+          <node begin="25" end="26" id="42" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="26" buiging="met-e" end="27" graad="basis" id="43" lemma="persoonlijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="persoonlijk" word="persoonlijke"/>
+          <node begin="27" end="28" genus="zijd" getal="ev" graad="basis" id="44" lemma="inflatie_simulator" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="inflatie_simulator" word="inflatiesimulator"/>
+        </node>
+        <node begin="28" buiging="zonder" end="29" id="45" lemma="ontwerpen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="ontwerp" word="ontworpen" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="29" end="30" id="46" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Om te berekenen welke impact de prijsstijgingen hebben op uw persoonlijk verbruik , heeft het Franse Instituut voor Statistieken en Economische Studies ( INSEE ) een persoonlijke inflatiesimulator ontworpen .</sentence>
+</alpino_ds>

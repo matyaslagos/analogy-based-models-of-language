@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="*" pos="tag" postag="LET()" pt="let" rel="--" root="*" word="*"/>
+    <node begin="3" end="4" id="2" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="5" end="6" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="7" end="8" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="1" cat="np" end="9" id="5" rel="--">
+      <node begin="1" cat="mwu" end="3" id="6" rel="hd">
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="7" lemma="audio" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Audio" word="Audio"/>
+        <node begin="2" end="3" getal="mv" graad="basis" id="8" lemma="codec" ntype="soort" pos="name" postag="N(soort,mv,basis)" pt="n" rel="mwp" root="Codecs" word="Codecs"/>
+      </node>
+      <node begin="4" cat="conj" end="9" id="9" rel="app">
+        <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="10" lemma="PCM" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="PCM" word="PCM"/>
+        <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="11" lemma="ADPCM" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="ADPCM" word="ADPCM"/>
+        <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="12" lemma="MPEG" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="MPEG" word="MPEG"/>
+      </node>
+    </node>
+  </node>
+  <sentence>* Audio Codecs : PCM , ADPCM , MPEG</sentence>
+</alpino_ds>

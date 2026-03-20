@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="0" cat="smain" end="17" id="1" rel="--">
+      <node begin="3" end="4" id="2" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="17" id="3" rel="vc">
+        <node begin="0" cat="pp" end="3" id="4" rel="mod">
+          <node begin="0" end="1" id="5" lemma="tijdens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tijdens" vztype="init" word="Tijdens"/>
+          <node begin="1" cat="np" end="3" id="6" rel="obj1">
+            <node begin="1" end="2" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="8" lemma="conferentie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="conferentie" word="conferentie"/>
+          </node>
+        </node>
+        <node begin="4" buiging="zonder" end="5" id="9" lemma="in_gaan" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="ga_in" word="ingegaan" wvorm="vd"/>
+        <node begin="5" cat="pp" end="17" id="10" rel="pc">
+          <node begin="5" end="6" id="11" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+          <node begin="6" cat="whrel" end="17" id="12" rel="obj1">
+            <node begin="6" end="7" id="13" index="1" lemma="hoe" pos="adj" postag="BW()" pt="bw" rel="rhd" root="hoe" word="hoe"/>
+            <node begin="6" cat="ssub" end="17" id="14" rel="body">
+              <node begin="7" end="8" getal="mv" graad="basis" id="15" index="2" lemma="bibliotheek" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="bibliotheek" word="bibliotheken"/>
+              <node begin="10" end="11" id="16" lemma="kunnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kan" word="kunnen" wvorm="pv"/>
+              <node begin="6" cat="inf" end="17" id="17" rel="vc">
+                <node begin="6" end="7" id="18" index="1" rel="mod"/>
+                <node begin="7" end="8" id="19" index="2" rel="su"/>
+                <node begin="9" end="10" id="20" lemma="terzijde" pos="fixed" postag="BW()" pt="bw" rel="svp" root="terzijde" word="terzijde"/>
+                <node begin="11" buiging="zonder" end="12" id="21" lemma="staan" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="sta" word="staan" wvorm="inf"/>
+                <node begin="8" cat="np" end="17" id="22" rel="obj1">
+                  <node begin="8" end="9" getal="mv" graad="basis" id="23" lemma="mens" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="mens" word="mensen"/>
+                  <node begin="12" cat="rel" end="17" id="24" rel="mod">
+                    <node begin="12" end="13" getal="getal" id="25" index="3" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+                    <node begin="12" cat="ssub" end="17" id="26" rel="body">
+                      <node begin="12" end="13" id="27" index="3" rel="su"/>
+                      <node begin="13" end="14" getal="mv" graad="basis" id="28" lemma="probleem" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="probleem" word="problemen"/>
+                      <node begin="14" end="15" id="29" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" word="hebben" wvorm="pv"/>
+                      <node begin="15" cat="pp" end="17" id="30" rel="pc">
+                        <node begin="15" end="16" id="31" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+                        <node begin="16" buiging="zonder" end="17" getal-n="zonder-n" id="32" lemma="lezen" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="obj1" root="lees" word="lezen" wvorm="inf"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="33" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Tijdens de conferentie wordt ingegaan op hoe bibliotheken mensen terzijde kunnen staan die problemen hebben met lezen .</sentence>
+</alpino_ds>

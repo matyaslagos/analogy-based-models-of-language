@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="32" id="0" rel="top">
+    <node begin="11" end="12" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="du" end="31" id="2" rel="--">
+      <node begin="0" cat="du" end="11" id="3" rel="nucl">
+        <node begin="0" conjtype="neven" end="1" id="4" lemma="en" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="en" word="En"/>
+        <node begin="1" cat="oti" end="11" id="5" rel="nucl">
+          <node begin="1" end="2" id="6" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="om"/>
+          <node begin="2" cat="ti" end="11" id="7" rel="body">
+            <node begin="9" end="10" id="8" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+            <node begin="2" cat="inf" end="11" id="9" rel="body">
+              <node begin="2" end="3" id="10" lemma="meteen" pos="adv" postag="BW()" pt="bw" rel="mod" root="meteen" word="meteen"/>
+              <node begin="3" cat="np" end="6" id="11" rel="obj1">
+                <node begin="3" end="4" id="12" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                <node begin="4" buiging="zonder" end="5" graad="basis" id="13" lemma="wijdverbreid" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="wijdverbreid" word="wijdverbreid"/>
+                <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="14" lemma="misverstand" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="misverstand" word="misverstand"/>
+              </node>
+              <node begin="6" cat="pp" end="9" id="15" rel="ld">
+                <node begin="6" end="7" id="16" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" vztype="init" word="uit"/>
+                <node begin="7" cat="np" end="9" id="17" rel="obj1">
+                  <node begin="7" end="8" id="18" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="19" lemma="wereld" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="wereld" word="wereld"/>
+                </node>
+              </node>
+              <node begin="10" buiging="zonder" end="11" id="20" lemma="helpen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="help" word="helpen" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="12" cat="smain" end="31" id="21" rel="sat">
+        <node begin="12" cat="cp" end="19" id="22" rel="mod">
+          <node begin="12" conjtype="onder" end="13" id="23" lemma="behalve" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="behalve" word="behalve"/>
+          <node begin="13" cat="pp" end="19" id="24" rel="body">
+            <node begin="13" end="14" id="25" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+            <node begin="14" cat="np" end="19" id="26" rel="obj1">
+              <node begin="14" end="15" getal="mv" graad="basis" id="27" lemma="ambtenaar" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="ambtenaar" word="ambtenaren"/>
+              <node begin="15" cat="pp" end="19" id="28" rel="mod">
+                <node begin="15" end="16" id="29" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="16" cat="np" end="19" id="30" rel="obj1">
+                  <node begin="16" end="17" id="31" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="17" cat="mwu" end="19" id="32" rel="hd">
+                    <node begin="17" end="18" id="33" lemma="Vlaamse" pos="adj" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Vlaams" spectype="deeleigen" word="Vlaamse"/>
+                    <node begin="18" end="19" id="34" lemma="Gemeenschapscommissie" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Gemeenschapscommissie" spectype="deeleigen" word="Gemeenschapscommissie"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="19" end="20" id="35" lemma="bestaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="besta" word="bestaat" wvorm="pv"/>
+        <node begin="20" end="21" getal="getal" id="36" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+        <node begin="21" cat="np" end="31" id="37" rel="su">
+          <node begin="21" buiging="zonder" end="22" id="38" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="geen"/>
+          <node begin="22" end="23" genus="zijd" getal="ev" graad="basis" id="39" lemma="premie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="premie" word="premie"/>
+          <node begin="23" cat="pp" end="31" id="40" rel="mod">
+            <node begin="23" end="24" id="41" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+            <node begin="24" cat="np" end="31" id="42" rel="obj1">
+              <node begin="24" end="25" getal="mv" graad="basis" id="43" lemma="Vlaming" ntype="eigen" pos="noun" postag="N(eigen,mv,basis)" pt="n" rel="hd" root="Vlaming" word="Vlamingen"/>
+              <node begin="25" cat="rel" end="31" id="44" rel="mod">
+                <node begin="25" end="26" getal="getal" id="45" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+                <node begin="25" cat="ssub" end="31" id="46" rel="body">
+                  <node begin="25" end="26" id="47" index="1" rel="su"/>
+                  <node begin="29" end="30" id="48" lemma="komen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kom" word="komen" wvorm="pv"/>
+                  <node begin="25" cat="inf" end="31" id="49" rel="vc">
+                    <node begin="25" end="26" id="50" index="1" rel="su"/>
+                    <node begin="26" end="27" getal="getal" id="51" lemma="zich" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="se" root="zich" status="red" vwtype="refl" word="zich"/>
+                    <node begin="27" cat="pp" end="29" id="52" rel="ld">
+                      <node begin="27" end="28" id="53" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                      <node begin="28" end="29" genus="onz" getal="ev" graad="basis" id="54" lemma="Brussel" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Brussel" word="Brussel"/>
+                    </node>
+                    <node begin="30" buiging="zonder" end="31" id="55" lemma="vestigen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="vestig" word="vestigen" wvorm="inf"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="31" end="32" id="56" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>En om meteen een wijdverbreid misverstand uit de wereld te helpen : behalve voor ambtenaren van de Vlaamse Gemeenschapscommissie bestaat er geen premie voor Vlamingen die zich in Brussel komen vestigen .</sentence>
+</alpino_ds>

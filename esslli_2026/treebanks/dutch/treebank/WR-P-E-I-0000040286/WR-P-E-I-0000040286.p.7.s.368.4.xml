@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="5" end="6" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="6" end="7" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="8" id="4" rel="--">
+      <node begin="0" cat="np" end="5" id="5" rel="dp">
+        <node begin="0" end="1" genus="onz" getal="ev" graad="basis" id="6" lemma="massagraf" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="massagraf" word="Massagraf"/>
+        <node begin="1" cat="pp" end="5" id="7" rel="mod">
+          <node begin="1" end="2" id="8" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="2" cat="np" end="5" id="9" rel="obj1">
+            <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="10" lemma="Bergen-Belsen" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Bergen-Belsen" word="Bergen-Belsen"/>
+            <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="11" lemma="concentratie_kamp" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mod" root="concentratie_kamp" word="concentratiekamp"/>
+          </node>
+        </node>
+      </node>
+      <node begin="7" end="8" id="12" lemma="1945" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="dp" root="1945" word="1945"/>
+    </node>
+  </node>
+  <sentence>Massagraf in Bergen-Belsen ( concentratiekamp ) , 1945</sentence>
+</alpino_ds>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="smain" end="12" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="4" lemma="waterval_groep" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="waterval_groep" word="watervalgroep"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="vallen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="val" word="viel" wvorm="pv"/>
+      <node begin="3" cat="ap" end="10" id="6" rel="mod">
+        <node begin="3" buiging="zonder" end="4" graad="basis" id="7" lemma="gemiddeld" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="gemiddeld" word="gemiddeld"/>
+        <node begin="4" cat="np" end="6" id="8" rel="me">
+          <node begin="4" end="5" id="9" lemma="twintig" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="twintig" word="twintig"/>
+          <node begin="5" end="6" getal="mv" graad="basis" id="10" lemma="minuut" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="minuut" word="minuten"/>
+        </node>
+        <node begin="6" buiging="zonder" end="7" graad="comp" id="11" lemma="vroeg" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="vroeg" word="vroeger"/>
+        <node begin="7" cat="cp" end="10" id="12" rel="obcomp">
+          <node begin="7" conjtype="onder" end="8" id="13" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="dan" word="dan"/>
+          <node begin="8" cat="np" end="10" id="14" rel="body">
+            <node begin="8" buiging="met-e" end="9" getal="mv" graad="basis" id="15" lemma="beide" naamval="stan" pdtype="grad" pos="adv" positie="prenom" postag="VNW(onbep,grad,stan,prenom,met-e,mv,basis)" pt="vnw" rel="det" root="beide" vwtype="onbep" word="beide"/>
+            <node begin="9" buiging="met-e" end="10" getal-n="zonder-n" graad="basis" id="16" lemma="ander" naamval="stan" pos="adj" positie="nom" postag="ADJ(nom,basis,met-e,zonder-n,stan)" pt="adj" rel="hd" root="ander" word="andere"/>
+          </node>
+        </node>
+      </node>
+      <node begin="10" cat="pp" end="12" id="17" rel="predc">
+        <node begin="10" end="11" id="18" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="19" lemma="slaap" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="slaap" word="slaap"/>
+      </node>
+    </node>
+    <node begin="12" end="13" id="20" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De watervalgroep viel gemiddeld twintig minuten vroeger dan beide andere in slaap .</sentence>
+</alpino_ds>

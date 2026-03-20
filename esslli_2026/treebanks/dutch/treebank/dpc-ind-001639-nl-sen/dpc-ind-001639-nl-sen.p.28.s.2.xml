@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="0" cat="smain" end="16" id="1" rel="--">
+      <node begin="0" end="1" getal="getal" id="2" lemma="daar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="mod" root="daar" status="vol" vwtype="aanw" word="Daar"/>
+      <node begin="1" end="2" id="3" lemma="maken" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="maak" word="maakten" wvorm="pv"/>
+      <node begin="2" cat="np" end="11" id="4" rel="su">
+        <node begin="2" end="3" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="3" end="4" id="6" lemma="twee" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="twee" word="twee"/>
+        <node begin="4" buiging="met-e" end="5" id="7" lemma="bemannen" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="bemand" word="bemande" wvorm="vd"/>
+        <node begin="5" end="6" getal="mv" graad="basis" id="8" lemma="mini_onderzeeër" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="mini_onderzeeër" word="mini-onderzeeërs"/>
+        <node begin="6" cat="conj" end="11" id="9" rel="app">
+          <node begin="6" cat="mwu" end="8" id="10" rel="cnj">
+            <node begin="6" end="7" id="11" lemma="Mir" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Mir" spectype="deeleigen" word="Mir"/>
+            <node begin="7" end="8" id="12" lemma="1" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="1" spectype="deeleigen" word="1"/>
+          </node>
+          <node begin="8" conjtype="neven" end="9" id="13" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="9" cat="mwu" end="11" id="14" rel="cnj">
+            <node begin="9" end="10" id="15" lemma="Mir" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Mir" spectype="deeleigen" word="Mir"/>
+            <node begin="10" end="11" id="16" lemma="2" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="2" spectype="deeleigen" word="2"/>
+          </node>
+        </node>
+      </node>
+      <node begin="11" cat="np" end="16" id="17" rel="obj1">
+        <node begin="11" end="12" id="18" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="19" lemma="test_duik" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="test_duik" word="testduik"/>
+        <node begin="13" cat="pp" end="16" id="20" rel="mod">
+          <node begin="13" end="14" id="21" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+          <node begin="14" cat="np" end="16" id="22" rel="obj1">
+            <node begin="14" end="15" id="23" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="24" lemma="zeebodem" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="zeebodem" word="zeebodem"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="25" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Daar maakten de twee bemande mini-onderzeeërs Mir 1 en Mir 2 een testduik naar de zeebodem .</sentence>
+</alpino_ds>

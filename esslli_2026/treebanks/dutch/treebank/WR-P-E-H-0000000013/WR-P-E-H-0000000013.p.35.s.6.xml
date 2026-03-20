@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="14" end="15" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="19" id="3" rel="--">
+      <node begin="0" cat="smain" end="14" id="4" rel="cnj">
+        <node begin="1" end="2" id="5" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+        <node begin="0" cat="ppart" end="14" id="6" rel="vc">
+          <node begin="0" buiging="zonder" end="1" id="7" lemma="aan_raden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="raad_aan" word="Aangeraden" wvorm="vd"/>
+          <node begin="2" cat="ti" end="14" id="8" rel="vc">
+            <node begin="5" end="6" id="9" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+            <node begin="2" cat="inf" end="14" id="10" rel="body">
+              <node begin="2" end="3" getal="mv" graad="basis" id="11" lemma="taxi" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="taxi&apos;s" word="taxi&apos;s"/>
+              <node begin="3" cat="pp" end="5" id="12" rel="mod">
+                <node begin="3" end="4" id="13" lemma="per" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="per" vztype="init" word="per"/>
+                <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="14" lemma="telefoon" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="telefoon" word="telefoon"/>
+              </node>
+              <node begin="6" buiging="zonder" end="7" id="15" lemma="bestellen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="bestel" word="bestellen" wvorm="inf"/>
+              <node begin="8" cat="cp" end="14" id="16" rel="mod">
+                <node begin="8" conjtype="onder" end="9" id="17" lemma="aangezien" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="aangezien" word="aangezien"/>
+                <node begin="9" cat="ssub" end="14" id="18" rel="body">
+                  <node begin="9" buiging="met-e" end="10" getal-n="zonder-n" id="19" lemma="deze" naamval="stan" pdtype="det" pos="det" positie="nom" postag="VNW(aanw,det,stan,nom,met-e,zonder-n)" pt="vnw" rel="su" root="deze" vwtype="aanw" word="deze"/>
+                  <node begin="10" end="11" id="20" lemma="doorgaans" pos="adv" postag="BW()" pt="bw" rel="mod" root="doorgaans" word="doorgaans"/>
+                  <node begin="11" cat="ap" end="13" id="21" rel="predc">
+                    <node begin="11" buiging="zonder" end="12" graad="comp" id="22" lemma="veel" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mod" root="meer" vwtype="onbep" word="meer"/>
+                    <node begin="12" buiging="zonder" end="13" graad="basis" id="23" lemma="betrouwbaar" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="betrouwbaar" word="betrouwbaar"/>
+                  </node>
+                  <node begin="13" end="14" id="24" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="15" conjtype="neven" end="16" id="25" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+      <node begin="16" cat="smain" end="19" id="26" rel="cnj">
+        <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="27" lemma="voorzichtigheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="su" root="voorzichtigheid" word="voorzichtigheid"/>
+        <node begin="17" end="18" id="28" lemma="blijven" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="blijf" word="blijft" wvorm="pv"/>
+        <node begin="18" buiging="zonder" end="19" id="29" lemma="bieden" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="predc" root="geboden" word="geboden" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="19" end="20" id="30" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Aangeraden wordt taxi&apos;s per telefoon te bestellen , aangezien deze doorgaans meer betrouwbaar zijn , maar voorzichtigheid blijft geboden .</sentence>
+</alpino_ds>

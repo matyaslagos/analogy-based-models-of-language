@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="smain" end="15" id="1" rel="--">
+      <node begin="3" end="4" id="2" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+      <node begin="4" cat="np" end="6" id="3" index="1" rel="su">
+        <node begin="4" end="5" id="4" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="name" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="5" lemma="Ronde" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Ronde" word="Ronde"/>
+      </node>
+      <node begin="0" cat="ppart" end="15" id="6" rel="vc">
+        <node begin="0" cat="pp" end="3" id="7" rel="mod">
+          <node begin="0" end="1" id="8" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+          <node begin="1" cat="np" end="3" id="9" rel="obj1">
+            <node begin="1" end="2" id="10" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="2" end="3" getal="mv" graad="basis" id="11" lemma="begin_jaar" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="begin_jaar" word="beginjaren"/>
+          </node>
+        </node>
+        <node begin="4" end="6" id="12" index="1" rel="obj1"/>
+        <node begin="6" end="7" id="13" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" word="nog"/>
+        <node begin="7" buiging="zonder" end="8" graad="basis" id="14" lemma="vaak" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="vaak" word="vaak"/>
+        <node begin="11" buiging="zonder" end="12" id="15" lemma="verrijden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="verrijd" word="verreden" wvorm="vd"/>
+        <node begin="8" cat="pp" end="15" id="16" rel="mod">
+          <node begin="8" end="9" id="17" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+          <node begin="9" cat="np" end="15" id="18" rel="obj1">
+            <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="19" lemma="dag" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="dag" word="dag"/>
+            <node begin="9" cat="detp" end="15" id="20" rel="det">
+              <node begin="9" buiging="zonder" end="10" graad="basis" id="21" lemma="dezelfde" pos="det" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="hd" root="dezelfde" word="dezelfde"/>
+              <node begin="12" cat="cp" end="15" id="22" rel="obcomp">
+                <node begin="12" conjtype="onder" end="13" id="23" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+                <node begin="13" cat="mwu" end="15" id="24" rel="body">
+                  <node begin="13" end="14" id="25" lemma="Milaan-San" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Milaan-San" spectype="deeleigen" word="Milaan-San"/>
+                  <node begin="14" end="15" id="26" lemma="Remo" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Remo" spectype="deeleigen" word="Remo"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="27" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>In de beginjaren werd de Ronde nog vaak op dezelfde dag verreden als Milaan-San Remo .</sentence>
+</alpino_ds>

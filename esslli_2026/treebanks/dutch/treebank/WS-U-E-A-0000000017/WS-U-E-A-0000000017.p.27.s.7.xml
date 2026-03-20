@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="1" end="2" id="2" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" word="worden" wvorm="pv"/>
+      <node begin="2" cat="np" end="5" id="3" index="1" rel="su">
+        <node begin="2" buiging="zonder" end="3" id="4" lemma="zo&apos;n" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="zo&apos;n" vwtype="aanw" word="zo&apos;n"/>
+        <node begin="3" end="4" id="5" lemma="10_duizend" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="10-duizend" word="10-duizend"/>
+        <node begin="4" end="5" getal="mv" graad="basis" id="6" lemma="civetkat" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="civetkatten" word="civetkatten"/>
+      </node>
+      <node begin="0" cat="ppart" end="6" id="7" rel="vc">
+        <node begin="0" end="1" id="8" lemma="daarom" pos="adv" postag="BW()" pt="bw" rel="mod" root="daarom" word="Daarom"/>
+        <node begin="2" end="5" id="9" index="1" rel="obj1"/>
+        <node begin="5" buiging="zonder" end="6" id="10" lemma="af_maken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="maak_af" word="afgemaakt" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="6" end="7" id="11" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Daarom worden zo&apos;n 10-duizend civetkatten afgemaakt .</sentence>
+</alpino_ds>

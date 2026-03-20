@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="7" end="8" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="15" id="3" rel="--">
+      <node begin="0" cat="np" end="2" id="4" rel="tag">
+        <node begin="0" end="1" id="5" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="6" lemma="gevolg" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="gevolg" word="gevolg"/>
+      </node>
+      <node begin="3" cat="conj" end="15" id="7" rel="nucl">
+        <node begin="3" cat="smain" end="7" id="8" rel="cnj">
+          <node begin="3" cat="np" end="5" id="9" rel="su">
+            <node begin="3" buiging="zonder" end="4" getal="mv" id="10" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+            <node begin="4" end="5" getal="mv" graad="basis" id="11" lemma="kind" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kind" word="kinderen"/>
+          </node>
+          <node begin="5" end="6" id="12" index="1" lemma="worden" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="word" word="werden" wvorm="pv"/>
+          <node begin="6" buiging="zonder" end="7" graad="basis" id="13" lemma="twee_talig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="tweetalig" word="tweetalig"/>
+        </node>
+        <node begin="8" conjtype="neven" end="9" id="14" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+        <node begin="5" cat="smain" end="15" id="15" rel="cnj">
+          <node begin="5" end="6" id="16" index="1" rel="hd"/>
+          <node begin="9" cat="np" end="11" id="17" rel="su">
+            <node begin="9" buiging="zonder" end="10" getal="mv" id="18" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+            <node begin="10" end="11" getal="mv" graad="basis" id="19" lemma="kleinkind" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kleinkind" word="kleinkinderen"/>
+          </node>
+          <node begin="11" buiging="zonder" end="12" graad="comp" id="20" lemma="laat" pos="adv" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="laat" word="later"/>
+          <node begin="12" buiging="zonder" end="13" graad="basis" id="21" lemma="vaak" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="vaak" word="vaak"/>
+          <node begin="13" cat="ap" end="15" id="22" rel="predc">
+            <node begin="13" buiging="zonder" end="14" graad="basis" id="23" lemma="eentalig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="eentalig" word="eentalig"/>
+            <node begin="14" buiging="zonder" end="15" graad="basis" id="24" lemma="Frans" pos="noun" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="Frans" word="Frans"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="25" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het gevolg : hun kinderen werden tweetalig , maar hun kleinkinderen later vaak eentalig Frans .</sentence>
+</alpino_ds>

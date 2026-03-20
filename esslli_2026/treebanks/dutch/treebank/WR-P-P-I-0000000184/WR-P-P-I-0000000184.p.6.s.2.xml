@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="2" end="3" id="2" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="3" end="4" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="1" cat="du" end="8" id="4" rel="--">
+      <node begin="1" end="2" id="5" lemma="neen" pos="noun" postag="TSW()" pt="tsw" rel="nucl" root="Neen" word="Neen"/>
+      <node begin="4" cat="sv1" end="8" id="6" rel="tag">
+        <node begin="4" end="5" id="7" lemma="vinden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="vind" word="vindt" wvorm="pv"/>
+        <node begin="5" cat="np" end="8" id="8" rel="su">
+          <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="9" lemma="Agalev_secretaris" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="Agalev_secretaris" word="Agalev-secretaris"/>
+          <node begin="6" cat="mwu" end="8" id="10" rel="app">
+            <node begin="6" end="7" id="11" lemma="Jos" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Jos" spectype="deeleigen" word="Jos"/>
+            <node begin="7" end="8" id="12" lemma="Geysels" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Geysels" spectype="deeleigen" word="Geysels"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" id="13" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>&apos; Neen &apos; , vindt Agalev-secretaris Jos Geysels .</sentence>
+</alpino_ds>

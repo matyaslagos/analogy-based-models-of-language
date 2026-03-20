@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="40" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="11" end="12" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="3" lemma="quote" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="--" root="QUOTE" word="QUOTE"/>
+    <node begin="23" end="24" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="39" id="5" rel="--">
+      <node begin="0" cat="du" end="17" id="6" rel="dp">
+        <node begin="0" conjtype="neven" end="1" id="7" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" word="Maar"/>
+        <node begin="1" cat="du" end="17" id="8" rel="nucl">
+          <node begin="1" cat="smain" end="7" id="9" rel="nucl">
+            <node begin="1" cat="np" end="3" id="10" rel="su">
+              <node begin="1" buiging="met-e" end="2" graad="basis" id="11" lemma="betrouwbaar" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="betrouwbaar" word="betrouwbare"/>
+              <node begin="2" end="3" getal="mv" graad="basis" id="12" lemma="reis_tijd" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="reis_tijd" word="reistijden"/>
+            </node>
+            <node begin="3" end="4" id="13" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+            <node begin="4" end="5" id="14" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+            <node begin="5" cat="np" end="7" id="15" rel="predc">
+              <node begin="5" end="6" id="16" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+              <node begin="6" end="7" getal="ev" id="17" lemma="alles" naamval="stan" pdtype="pron" persoon="3o" pos="noun" postag="VNW(onbep,pron,stan,vol,3o,ev)" pt="vnw" rel="hd" root="alles" status="vol" vwtype="onbep" word="alles"/>
+            </node>
+          </node>
+          <node begin="8" cat="sv1" end="17" id="18" rel="tag">
+            <node begin="8" end="9" id="19" lemma="vinden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="vind" word="vindt" wvorm="pv"/>
+            <node begin="9" cat="np" end="17" id="20" rel="su">
+              <node begin="9" cat="mwu" end="11" id="21" rel="hd">
+                <node begin="9" end="10" id="22" lemma="Wim" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Wim" spectype="deeleigen" word="Wim"/>
+                <node begin="10" end="11" id="23" lemma="Derksen" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Derksen" spectype="deeleigen" word="Derksen"/>
+              </node>
+              <node begin="12" cat="np" end="17" id="24" rel="app">
+                <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="25" lemma="directeur" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="directeur" word="directeur"/>
+                <node begin="13" cat="pp" end="17" id="26" rel="mod">
+                  <node begin="13" end="14" id="27" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                  <node begin="14" cat="np" end="17" id="28" rel="obj1">
+                    <node begin="14" end="15" id="29" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                    <node begin="15" cat="mwu" end="17" id="30" rel="hd">
+                      <node begin="15" end="16" id="31" lemma="Ruimtelijk" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Ruimtelijk" spectype="deeleigen" word="Ruimtelijk"/>
+                      <node begin="16" end="17" id="32" lemma="Planbureau" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Planbureau" spectype="deeleigen" word="Planbureau"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="18" cat="conj" end="39" id="33" rel="dp">
+        <node begin="18" cat="smain" end="23" id="34" rel="cnj">
+          <node begin="18" cat="np" end="20" id="35" rel="su">
+            <node begin="18" end="19" id="36" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+            <node begin="19" end="20" getal="mv" graad="basis" id="37" lemma="file" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="file" word="files"/>
+          </node>
+          <node begin="20" end="21" id="38" lemma="verdwijnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="verdwijn" word="verdwijnen" wvorm="pv"/>
+          <node begin="21" end="22" id="39" lemma="dus" pos="adv" postag="BW()" pt="bw" rel="mod" root="dus" word="dus"/>
+          <node begin="22" end="23" id="40" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+        </node>
+        <node begin="24" conjtype="neven" end="25" id="41" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+        <node begin="25" cat="smain" end="39" id="42" rel="cnj">
+          <node begin="25" cat="pp" end="28" id="43" rel="mod">
+            <node begin="25" end="26" id="44" lemma="volgens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="volgens" vztype="init" word="volgens"/>
+            <node begin="26" cat="np" end="28" id="45" rel="obj1">
+              <node begin="26" end="27" id="46" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="27" end="28" genus="onz" getal="ev" graad="basis" id="47" lemma="kabinet" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="Kabinet" word="Kabinet"/>
+            </node>
+          </node>
+          <node begin="28" end="29" id="48" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+          <node begin="29" cat="np" end="33" id="49" rel="su">
+            <node begin="29" end="30" genus="zijd" getal="ev" graad="basis" id="50" lemma="zekerheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="zekerheid" word="zekerheid"/>
+            <node begin="30" cat="pp" end="33" id="51" rel="mod">
+              <node begin="30" end="31" id="52" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" vztype="init" word="over"/>
+              <node begin="31" cat="np" end="33" id="53" rel="obj1">
+                <node begin="31" end="32" id="54" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="32" end="33" genus="zijd" getal="ev" graad="basis" id="55" lemma="reis_tijd" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="reis_tijd" word="reistijd"/>
+              </node>
+            </node>
+          </node>
+          <node begin="33" end="34" id="56" lemma="wel" pos="adv" postag="BW()" pt="bw" rel="mod" root="wel" word="wel"/>
+          <node begin="34" cat="ap" end="39" id="57" rel="predc">
+            <node begin="34" buiging="zonder" end="35" graad="basis" id="58" lemma="veel" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,basis)" pt="vnw" rel="mod" root="veel" vwtype="onbep" word="veel"/>
+            <node begin="35" buiging="zonder" end="36" graad="comp" id="59" lemma="goed" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="goed" word="beter"/>
+            <node begin="36" cat="pp" end="39" id="60" rel="pc">
+              <node begin="36" end="37" id="61" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+              <node begin="37" cat="np" end="39" id="62" rel="obj1">
+                <node begin="37" end="38" id="63" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="38" end="39" genus="zijd" getal="ev" graad="basis" id="64" lemma="economie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="economie" word="economie"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="39" end="40" id="65" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Maar betrouwbare reistijden zijn ook niet alles , vindt Wim Derksen , directeur van het Ruimtelijk Planbureau QUOTE De files verdwijnen dus niet , maar volgens het Kabinet is zekerheid over de reistijd wel veel beter voor de economie .</sentence>
+</alpino_ds>

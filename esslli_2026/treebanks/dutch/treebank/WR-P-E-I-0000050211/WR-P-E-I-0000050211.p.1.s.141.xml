@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="9" end="10" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="16" id="2" rel="--">
+      <node begin="0" end="1" getal="mv" id="3" index="1" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="Ze"/>
+      <node begin="1" end="2" id="4" lemma="lijken" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="lijk" word="lijken" wvorm="pv"/>
+      <node begin="0" cat="conj" end="16" id="5" rel="vc">
+        <node begin="3" cat="mwu" end="5" id="6" rel="crd">
+          <node begin="3" end="4" id="7" lemma="niet" pos="vg" postag="BW()" pt="bw" rel="mwp" root="niet" word="niet"/>
+          <node begin="4" end="5" id="8" lemma="alleen" pos="vg" postag="BW()" pt="bw" rel="mwp" root="alleen" word="alleen"/>
+        </node>
+        <node begin="0" cat="ti" end="9" id="9" rel="cnj">
+          <node begin="7" end="8" id="10" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+          <node begin="0" cat="inf" end="9" id="11" rel="body">
+            <node begin="0" end="1" id="12" index="1" rel="su"/>
+            <node begin="2" end="3" id="13" index="2" lemma="nu" pos="adv" postag="BW()" pt="bw" rel="mod" root="nu" word="nu"/>
+            <node begin="5" cat="np" end="7" id="14" index="3" rel="obj1">
+              <node begin="5" end="6" id="15" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="16" lemma="dak" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="dak" word="dak"/>
+            </node>
+            <node begin="8" buiging="zonder" end="9" id="17" lemma="ondersteunen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ondersteun" word="ondersteunen" wvorm="inf"/>
+          </node>
+        </node>
+        <node begin="10" conjtype="neven" end="11" id="18" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+        <node begin="0" cat="ti" end="16" id="19" rel="cnj">
+          <node begin="14" end="15" id="20" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+          <node begin="0" cat="inf" end="16" id="21" rel="body">
+            <node begin="0" end="1" id="22" index="1" rel="su"/>
+            <node begin="2" end="3" id="23" index="2" rel="mod"/>
+            <node begin="5" end="7" id="24" index="3" rel="obj1"/>
+            <node begin="11" end="12" id="25" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+            <node begin="12" end="13" id="26" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" word="nog"/>
+            <node begin="13" end="14" id="27" lemma="eens" pos="adv" postag="BW()" pt="bw" rel="mod" root="eens" word="eens"/>
+            <node begin="15" buiging="zonder" end="16" id="28" lemma="verplaatsen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="verplaats" word="verplaatsen" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="29" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Ze lijken nu niet alleen het dak te ondersteunen , maar ook nog eens te verplaatsen .</sentence>
+</alpino_ds>

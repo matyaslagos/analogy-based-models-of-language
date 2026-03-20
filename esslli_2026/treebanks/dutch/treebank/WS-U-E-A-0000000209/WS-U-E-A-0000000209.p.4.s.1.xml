@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="10" id="2" rel="--">
+      <node begin="0" cat="smain" end="8" id="3" rel="dp">
+        <node begin="0" cat="pp" end="4" id="4" rel="mod">
+          <node begin="0" end="1" id="5" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+          <node begin="1" cat="np" end="4" id="6" rel="obj1">
+            <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="7" lemma="België" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="België" word="België"/>
+            <node begin="2" cat="pp" end="4" id="8" rel="mod">
+              <node begin="2" end="3" id="9" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+              <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="10" lemma="Ghislengien" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Ghislengien" word="Ghislengien"/>
+            </node>
+          </node>
+        </node>
+        <node begin="4" end="5" id="11" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="5" cat="np" end="8" id="12" rel="su">
+          <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="13" lemma="redacteur" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="redacteur" word="redacteur"/>
+          <node begin="6" cat="mwu" end="8" id="14" rel="app">
+            <node begin="6" end="7" id="15" lemma="Wouter" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Wouter" spectype="deeleigen" word="Wouter"/>
+            <node begin="7" end="8" id="16" lemma="Meier" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Meier" spectype="deeleigen" word="Meier"/>
+          </node>
+        </node>
+      </node>
+      <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="17" lemma="Wouter" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="dp" root="Wouter" word="Wouter"/>
+    </node>
+    <node begin="10" end="11" id="18" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="11" end="12" id="19" lemma="1" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="--" root="1" word="1"/>
+    <node begin="12" end="13" id="20" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>In België bij Ghislengien is redacteur Wouter Meier , Wouter , 1 .</sentence>
+</alpino_ds>

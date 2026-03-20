@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="20" id="2" rel="--">
+      <node begin="0" cat="ap" end="8" id="3" rel="mod">
+        <node begin="0" buiging="zonder" end="1" graad="basis" id="4" lemma="afhankelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="afhankelijk" word="Afhankelijk"/>
+        <node begin="1" cat="pp" end="8" id="5" rel="pc">
+          <node begin="1" end="2" id="6" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="2" cat="np" end="8" id="7" rel="obj1">
+            <node begin="2" end="3" id="8" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="9" lemma="middel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="middel" word="middel"/>
+            <node begin="4" cat="rel" end="8" id="10" rel="mod">
+              <node begin="4" end="5" id="11" index="1" lemma="waarmee" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waarmee" word="waarmee"/>
+              <node begin="4" cat="ssub" end="8" id="12" rel="body">
+                <node begin="4" end="5" id="13" index="1" rel="pc"/>
+                <node begin="5" end="6" getal="ev" id="14" lemma="je" naamval="nomin" pdtype="pron" persoon="2v" pos="pron" postag="VNW(pers,pron,nomin,red,2v,ev)" pt="vnw" rel="su" root="je" status="red" vwtype="pers" word="je"/>
+                <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="15" lemma="alcohol" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="alcohol" word="alcohol"/>
+                <node begin="7" end="8" id="16" lemma="combineren" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="combineer" word="combineert" wvorm="pv"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="9" end="10" id="17" lemma="op_treden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="treed_op" word="treden" wvorm="pv"/>
+      <node begin="12" end="13" id="18" lemma="op" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="op" vztype="fin" word="op"/>
+      <node begin="10" cat="np" end="20" id="19" rel="su">
+        <node begin="10" buiging="zonder" end="11" graad="basis" id="20" lemma="extra" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="extra" word="extra"/>
+        <node begin="11" end="12" getal="mv" graad="basis" id="21" lemma="effect" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="effect" word="effecten"/>
+        <node begin="13" cat="rel" end="20" id="22" rel="mod">
+          <node begin="13" end="14" getal="getal" id="23" index="2" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+          <node begin="13" cat="ssub" end="20" id="24" rel="body">
+            <node begin="13" end="14" id="25" index="2" rel="su"/>
+            <node begin="18" end="19" id="26" lemma="kunnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kan" word="kunnen" wvorm="pv"/>
+            <node begin="13" cat="inf" end="20" id="27" rel="vc">
+              <node begin="13" end="14" id="28" index="2" rel="su"/>
+              <node begin="14" cat="ap" end="18" id="29" rel="mod">
+                <node begin="14" buiging="zonder" end="15" graad="basis" id="30" lemma="nadelig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="nadelig" word="nadelig"/>
+                <node begin="15" cat="pp" end="18" id="31" rel="mod">
+                  <node begin="15" end="16" id="32" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+                  <node begin="16" cat="np" end="18" id="33" rel="obj1">
+                    <node begin="16" end="17" id="34" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="35" lemma="gezondheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="gezondheid" word="gezondheid"/>
+                  </node>
+                </node>
+              </node>
+              <node begin="19" buiging="zonder" end="20" id="36" lemma="werken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="werk" word="werken" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="20" end="21" id="37" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Afhankelijk van het middel waarmee je alcohol combineert , treden extra effecten op die nadelig op de gezondheid kunnen werken .</sentence>
+</alpino_ds>

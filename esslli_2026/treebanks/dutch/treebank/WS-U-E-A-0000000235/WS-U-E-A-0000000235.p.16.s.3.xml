@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="smain" end="13" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" index="1" rel="su">
+        <node begin="0" buiging="met-e" end="1" graad="basis" id="3" lemma="militant" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="militant" word="Militante"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="4" lemma="sjiiet" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="sji&apos;iten" word="sji&apos;iten"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="13" id="6" rel="vc">
+        <node begin="0" end="2" id="7" index="1" rel="obj1"/>
+        <node begin="3" end="4" getal="getal" id="8" lemma="daar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="mod" root="daar" status="vol" vwtype="aanw" word="daar"/>
+        <node begin="4" cat="pp" end="7" id="9" rel="mod">
+          <node begin="4" end="5" id="10" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="5" cat="np" end="7" id="11" rel="obj1">
+            <node begin="5" buiging="met-e" end="6" graad="basis" id="12" lemma="fel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="fel" word="felle"/>
+            <node begin="6" end="7" getal="mv" graad="basis" id="13" lemma="gevecht" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="gevecht" word="gevechten"/>
+          </node>
+        </node>
+        <node begin="7" buiging="zonder" end="8" id="14" lemma="verwikkelen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="verwikkel" word="verwikkeld" wvorm="vd"/>
+        <node begin="8" cat="pp" end="13" id="15" rel="mod">
+          <node begin="8" end="9" id="16" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+          <node begin="9" cat="np" end="13" id="17" rel="obj1">
+            <node begin="9" cat="conj" end="12" id="18" rel="mod">
+              <node begin="9" buiging="met-e" end="10" graad="basis" id="19" lemma="Iraaks" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="Iraaks" word="Iraakse"/>
+              <node begin="10" conjtype="neven" end="11" id="20" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="11" buiging="met-e" end="12" graad="basis" id="21" lemma="Amerikaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="Amerikaans" word="Amerikaanse"/>
+            </node>
+            <node begin="12" end="13" getal="mv" graad="basis" id="22" lemma="troep" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="troep" word="troepen"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="23" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Militante sji&apos;iten zijn daar in felle gevechten verwikkeld met Iraakse en Amerikaanse troepen .</sentence>
+</alpino_ds>

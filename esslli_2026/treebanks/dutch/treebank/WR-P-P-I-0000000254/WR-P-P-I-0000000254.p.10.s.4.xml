@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="19" id="2" rel="--">
+      <node begin="0" cat="cp" end="8" id="3" rel="su">
+        <node begin="0" conjtype="onder" end="1" id="4" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="Dat"/>
+        <node begin="1" cat="ssub" end="8" id="5" rel="body">
+          <node begin="1" cat="np" end="3" id="6" rel="su">
+            <node begin="1" end="2" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="8" lemma="yen" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="yen" word="yen"/>
+          </node>
+          <node begin="3" cat="pp" end="6" id="9" rel="mod">
+            <node begin="3" end="4" id="10" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+            <node begin="4" cat="np" end="6" id="11" rel="obj1">
+              <node begin="4" end="5" id="12" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="5" end="6" getal="mv" graad="basis" id="13" lemma="wissel_markt" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="wissel_markt" word="wisselmarkten"/>
+            </node>
+          </node>
+          <node begin="6" buiging="zonder" end="7" graad="basis" id="14" lemma="zwak" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="zwak" word="zwak"/>
+          <node begin="7" end="8" id="15" lemma="noteren" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="noteer" word="noteert" wvorm="pv"/>
+        </node>
+      </node>
+      <node begin="9" end="10" id="16" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="10" cat="pp" end="12" id="17" rel="mod">
+        <node begin="10" end="11" id="18" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+        <node begin="11" end="12" genus="masc" getal="ev" id="19" lemma="hem" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,obl,vol,3,ev,masc)" pt="vnw" rel="obj1" root="hem" status="vol" vwtype="pers" word="hem"/>
+      </node>
+      <node begin="14" buiging="zonder" end="15" graad="comp" id="20" lemma="veel" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mod" root="meer" vwtype="onbep" word="meer"/>
+      <node begin="12" cat="np" end="19" id="21" rel="predc">
+        <node begin="12" buiging="zonder" end="13" id="22" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="geen"/>
+        <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="23" lemma="reden" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="reden" word="reden"/>
+        <node begin="15" cat="oti" end="19" id="24" rel="vc">
+          <node begin="15" end="16" id="25" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="om"/>
+          <node begin="16" cat="ti" end="19" id="26" rel="body">
+            <node begin="17" end="18" id="27" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+            <node begin="16" cat="inf" end="19" id="28" rel="body">
+              <node begin="16" end="17" genus="onz" getal="ev" graad="basis" id="29" lemma="harakiri" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="harakiri" word="harakiri"/>
+              <node begin="18" buiging="zonder" end="19" id="30" lemma="plegen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="pleeg" word="plegen" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="31" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dat de yen op de wisselmarkten zwak noteert , is voor hem geen reden meer om harakiri te plegen .</sentence>
+</alpino_ds>

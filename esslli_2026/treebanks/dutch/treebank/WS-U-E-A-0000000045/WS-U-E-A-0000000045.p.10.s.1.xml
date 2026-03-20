@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="0" cat="np" end="10" id="2" index="1" rel="su">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="4" lemma="positie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="positie" word="positie"/>
+        <node begin="2" cat="pp" end="10" id="5" rel="mod">
+          <node begin="2" end="3" id="6" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="3" cat="np" end="10" id="7" rel="obj1">
+            <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="8" lemma="topman" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="topman" word="topman"/>
+            <node begin="4" cat="mwu" end="6" id="9" rel="app">
+              <node begin="4" end="5" id="10" lemma="Tjibbe" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Tjibbe" spectype="deeleigen" word="Tjibbe"/>
+              <node begin="5" end="6" id="11" lemma="Joustra" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Joustra" spectype="deeleigen" word="Joustra"/>
+            </node>
+            <node begin="6" cat="pp" end="10" id="12" rel="mod">
+              <node begin="6" end="7" id="13" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="7" cat="np" end="10" id="14" rel="obj1">
+                <node begin="7" end="8" id="15" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="16" lemma="uitkering_instantie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="uitkerings_instantie" word="uitkerings-instantie"/>
+                <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="17" lemma="U-W-V" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="app" root="U-W-V" word="U-W-V"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="10" end="11" id="18" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="14" id="19" rel="vc">
+        <node begin="0" end="10" id="20" index="1" rel="su"/>
+        <node begin="11" cat="ap" end="13" id="21" rel="predc">
+          <node begin="11" buiging="zonder" end="12" graad="basis" id="22" lemma="uiterst" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="uiterst" word="uiterst"/>
+          <node begin="12" buiging="zonder" end="13" graad="basis" id="23" lemma="wankel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="wankel" word="wankel"/>
+        </node>
+        <node begin="13" buiging="zonder" end="14" id="24" lemma="worden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="word" word="geworden" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="14" end="15" id="25" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De positie van topman Tjibbe Joustra van de uitkerings-instantie U-W-V is uiterst wankel geworden .</sentence>
+</alpino_ds>

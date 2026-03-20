@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="du" end="12" id="2" rel="--">
+      <node begin="0" cat="smain" end="5" id="3" rel="nucl">
+        <node begin="0" end="1" getal="ev" id="4" index="1" lemma="iedereen" naamval="stan" pdtype="pron" persoon="3p" pos="pron" postag="VNW(onbep,pron,stan,vol,3p,ev)" pt="vnw" rel="su" root="iedereen" status="vol" vwtype="onbep" word="Iedereen"/>
+        <node begin="1" end="2" id="5" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" word="kan" wvorm="pv"/>
+        <node begin="0" cat="inf" end="5" id="6" rel="vc">
+          <node begin="0" end="1" id="7" index="1" rel="su"/>
+          <node begin="2" cat="np" end="4" id="8" rel="obj1">
+            <node begin="2" end="3" id="9" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="10" lemma="be_domein" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="be_domein" word="be-domein"/>
+          </node>
+          <node begin="4" buiging="zonder" end="5" id="11" lemma="registreren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="registreer" word="registreren" wvorm="inf"/>
+        </node>
+      </node>
+      <node begin="6" cat="conj" end="12" id="12" rel="sat">
+        <node begin="6" end="7" id="13" lemma="zowel" pos="vg" postag="BW()" pt="bw" rel="crd" root="zowel" word="zowel"/>
+        <node begin="7" end="8" getal="mv" graad="basis" id="14" lemma="bedrijf" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="bedrijf" word="bedrijven"/>
+        <node begin="8" conjtype="onder" end="9" id="15" lemma="als" pos="vg" postag="VG(onder)" pt="vg" rel="crd" root="als" word="als"/>
+        <node begin="9" end="10" getal="mv" graad="basis" id="16" lemma="organisatie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="organisatie" word="organisaties"/>
+        <node begin="10" conjtype="onder" end="11" id="17" lemma="als" pos="vg" postag="VG(onder)" pt="vg" rel="crd" root="als" word="als"/>
+        <node begin="11" end="12" getal="mv" graad="basis" id="18" lemma="particulier" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="particulier" word="particulieren"/>
+      </node>
+    </node>
+    <node begin="12" end="13" id="19" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Iedereen kan een be-domein registreren : zowel bedrijven als organisaties als particulieren .</sentence>
+</alpino_ds>

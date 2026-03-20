@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="1" cat="smain" end="6" id="2" rel="--">
+      <node begin="1" end="2" id="3" lemma="eerst" pos="adv" postag="BW()" pt="bw" rel="mod" root="eerst" word="Eerst"/>
+      <node begin="2" end="3" id="4" lemma="regelen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="regel" word="regelen" wvorm="pv"/>
+      <node begin="3" end="4" getal="mv" id="5" lemma="we" naamval="nomin" pdtype="pron" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,red,1,mv)" pt="vnw" rel="su" root="we" status="red" vwtype="pers" word="we"/>
+      <node begin="4" cat="np" end="6" id="6" rel="obj1">
+        <node begin="4" end="5" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="5" end="6" getal="mv" graad="basis" id="8" lemma="kern_taak" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kern_taak" word="kerntaken"/>
+      </node>
+    </node>
+    <node begin="6" end="7" id="9" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>&apos; Eerst regelen we de kerntaken .</sentence>
+</alpino_ds>

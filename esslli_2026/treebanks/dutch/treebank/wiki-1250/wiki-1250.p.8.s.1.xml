@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="np" end="6" id="2" rel="--">
+      <node begin="0" end="1" id="3" lemma="één" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="eerste" word="Eerste"/>
+      <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="4" lemma="kamer_lid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="kamer_lid" word="Kamerlid"/>
+      <node begin="3" cat="mwu" end="6" id="5" rel="app">
+        <node begin="3" end="4" id="6" lemma="Hendrik" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Hendrik" spectype="deeleigen" word="Hendrik"/>
+        <node begin="4" end="5" id="7" lemma="ten" pos="prep" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="ten" spectype="deeleigen" word="ten"/>
+        <node begin="5" end="6" id="8" lemma="Hoeve" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Hoeve" spectype="deeleigen" word="Hoeve"/>
+      </node>
+    </node>
+    <node begin="6" end="7" id="9" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Eerste Kamerlid : Hendrik ten Hoeve .</sentence>
+</alpino_ds>

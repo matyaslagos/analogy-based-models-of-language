@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+    <node begin="0" cat="du" end="8" id="2" rel="--">
+      <node begin="0" end="1" id="3" lemma="7" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="tag" root="7" word="7"/>
+      <node begin="2" cat="np" end="8" id="4" rel="nucl">
+        <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="5" lemma="beschrijving" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="beschrijving" word="Beschrijving"/>
+        <node begin="3" cat="pp" end="8" id="6" rel="mod">
+          <node begin="3" end="4" id="7" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="4" cat="np" end="8" id="8" rel="obj1">
+            <node begin="4" end="5" id="9" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="5" cat="ti" end="7" id="10" rel="mod">
+              <node begin="5" end="6" id="11" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+              <node begin="6" buiging="zonder" end="7" id="12" lemma="presteren" pos="verb" positie="prenom" postag="WW(inf,prenom,zonder)" pt="ww" rel="body" root="presteer" word="presteren" wvorm="inf"/>
+            </node>
+            <node begin="7" end="8" getal="mv" graad="basis" id="13" lemma="dienst" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="dienst" word="diensten"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" id="14" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>7 . Beschrijving van de te presteren diensten .</sentence>
+</alpino_ds>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="37" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="^" pos="noun" postag="SPEC(symb)" pt="spec" rel="--" root="^" spectype="symb" word="^"/>
+    <node begin="9" end="10" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="1" cat="du" end="36" id="3" rel="--">
+      <node begin="1" cat="conj" end="9" id="4" rel="sat">
+        <node begin="1" cat="sv1" end="4" id="5" rel="cnj">
+          <node begin="1" end="2" id="6" lemma="zijn" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ben" word="bent" wvorm="pv"/>
+          <node begin="2" end="3" getal="getal" id="7" lemma="u" naamval="nomin" pdtype="pron" persoon="2b" pos="pron" postag="VNW(pers,pron,nomin,vol,2b,getal)" pt="vnw" rel="su" root="u" status="vol" vwtype="pers" word="u"/>
+          <node begin="3" buiging="zonder" end="4" id="8" lemma="on_huwen" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="predc" root="ongehuwd" word="ongehuwd" wvorm="vd"/>
+        </node>
+        <node begin="4" conjtype="neven" end="5" id="9" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+        <node begin="5" cat="sv1" end="9" id="10" rel="cnj">
+          <node begin="5" end="6" id="11" lemma="leven" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="leef" word="leeft" wvorm="pv"/>
+          <node begin="6" end="7" getal="getal" id="12" lemma="u" naamval="nomin" pdtype="pron" persoon="2b" pos="pron" postag="VNW(pers,pron,nomin,vol,2b,getal)" pt="vnw" rel="su" root="u" status="vol" vwtype="pers" word="u"/>
+          <node begin="7" cat="ppart" end="9" id="13" rel="mod">
+            <node begin="7" buiging="zonder" end="8" graad="basis" id="14" lemma="duurzaam" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="duurzaam" word="duurzaam"/>
+            <node begin="8" buiging="zonder" end="9" id="15" lemma="scheiden" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="gescheiden" word="gescheiden" wvorm="vd"/>
+          </node>
+        </node>
+      </node>
+      <node begin="10" cat="smain" end="36" id="16" rel="nucl">
+        <node begin="11" end="12" id="17" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" word="kan" wvorm="pv"/>
+        <node begin="10" cat="inf" end="36" id="18" rel="vc">
+          <node begin="19" buiging="zonder" end="20" id="19" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+          <node begin="10" cat="ppart" end="36" id="20" rel="vc">
+            <node begin="10" end="11" id="21" lemma="dan" pos="adv" postag="BW()" pt="bw" rel="mod" root="dan" word="dan"/>
+            <node begin="12" end="13" getal="getal" id="22" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+            <node begin="13" cat="pp" end="17" id="23" rel="mod">
+              <node begin="13" end="14" id="24" lemma="volgens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="volgens" vztype="init" word="volgens"/>
+              <node begin="14" cat="np" end="17" id="25" rel="obj1">
+                <node begin="14" end="15" id="26" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="15" cat="mwu" end="17" id="27" rel="hd">
+                  <node begin="15" end="16" id="28" lemma="Wet" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Wet" spectype="deeleigen" word="Wet"/>
+                  <node begin="16" end="17" id="29" lemma="BEU" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="BEU" spectype="deeleigen" word="BEU"/>
+                </node>
+              </node>
+            </node>
+            <node begin="20" buiging="zonder" end="21" id="30" lemma="betalen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="betaal" word="betaald" wvorm="vd"/>
+            <node begin="17" cat="np" end="36" id="31" index="1" rel="obj1">
+              <node begin="17" end="18" id="32" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="18" end="19" genus="onz" getal="ev" graad="basis" id="33" lemma="AOW_pensioen" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="AOW_pensioen" word="AOW-pensioen"/>
+              <node begin="21" cat="pp" end="36" id="34" rel="mod">
+                <node begin="21" end="22" id="35" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="22" cat="np" end="36" id="36" rel="obj1">
+                  <node begin="22" buiging="zonder" end="23" graad="basis" id="37" lemma="maximaal" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="maximaal" word="maximaal"/>
+                  <node begin="23" end="24" id="38" lemma="50%" pos="num" postag="SPEC(symb)" pt="spec" rel="hd" root="50%" spectype="symb" word="50%"/>
+                  <node begin="24" cat="pp" end="28" id="39" rel="mod">
+                    <node begin="24" end="25" id="40" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                    <node begin="25" cat="np" end="28" id="41" rel="obj1">
+                      <node begin="25" end="26" id="42" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                      <node begin="26" buiging="zonder" end="27" graad="basis" id="43" lemma="netto" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="netto" word="netto"/>
+                      <node begin="27" end="28" genus="onz" getal="ev" graad="basis" id="44" lemma="minimum_loon" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="minimum_loon" word="minimumloon"/>
+                    </node>
+                  </node>
+                  <node begin="28" cat="pp" end="36" id="45" rel="mod">
+                    <node begin="28" cat="mwu" end="31" id="46" rel="hd">
+                      <node begin="28" end="29" id="47" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="in" vztype="init" word="in"/>
+                      <node begin="29" end="30" genus="zijd" getal="ev" graad="basis" id="48" lemma="plaats" naamval="stan" ntype="soort" pos="prep" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="plaats" word="plaats"/>
+                      <node begin="30" end="31" id="49" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="van" vztype="init" word="van"/>
+                    </node>
+                    <node begin="31" cat="np" end="36" id="50" rel="obj1">
+                      <node begin="31" end="32" id="51" lemma="70%" pos="num" postag="SPEC(symb)" pt="spec" rel="hd" root="70%" spectype="symb" word="70%"/>
+                      <node begin="32" cat="pp" end="36" id="52" rel="mod">
+                        <node begin="32" end="33" id="53" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                        <node begin="33" cat="np" end="36" id="54" rel="obj1">
+                          <node begin="33" end="34" id="55" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                          <node begin="34" buiging="zonder" end="35" graad="basis" id="56" lemma="netto" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="netto" word="netto"/>
+                          <node begin="35" end="36" genus="onz" getal="ev" graad="basis" id="57" lemma="minimum_loon" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="minimum_loon" word="minimumloon"/>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="17" end="36" id="58" index="1" rel="su"/>
+        </node>
+        <node begin="17" end="36" id="59" index="1" rel="su"/>
+      </node>
+    </node>
+    <node begin="36" end="37" id="60" lemma=";" pos="punct" postag="LET()" pt="let" rel="--" root=";" word=";"/>
+  </node>
+  <sentence>^ bent u ongehuwd of leeft u duurzaam gescheiden , dan kan er volgens de Wet BEU een AOW-pensioen worden betaald van maximaal 50% van het netto minimumloon in plaats van 70% van het netto minimumloon ;</sentence>
+</alpino_ds>

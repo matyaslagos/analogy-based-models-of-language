@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="0" cat="smain" end="17" id="1" rel="--">
+      <node begin="0" cat="cp" end="6" id="2" rel="mod">
+        <node begin="0" end="1" id="3" lemma="net" pos="adv" postag="BW()" pt="bw" rel="mod" root="net" word="Net"/>
+        <node begin="1" conjtype="onder" end="2" id="4" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+        <node begin="2" cat="ssub" end="6" id="5" rel="body">
+          <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="6" index="1" lemma="Milosevic" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Milosevic" word="Milosevic"/>
+          <node begin="4" end="5" id="7" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="heeft" wvorm="pv"/>
+          <node begin="2" cat="ppart" end="6" id="8" rel="vc">
+            <node begin="2" end="3" id="9" index="1" rel="su"/>
+            <node begin="3" end="4" id="10" lemma="steeds" pos="adv" postag="BW()" pt="bw" rel="mod" root="steeds" word="steeds"/>
+            <node begin="5" buiging="zonder" end="6" id="11" lemma="doen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="doe" word="gedaan" wvorm="vd"/>
+          </node>
+        </node>
+      </node>
+      <node begin="6" end="7" id="12" lemma="proberen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="probeer" word="probeerde" wvorm="pv"/>
+      <node begin="7" end="8" genus="fem" getal="ev" id="13" index="2" lemma="zij" naamval="nomin" pdtype="pron" persoon="3v" pos="pron" postag="VNW(pers,pron,nomin,vol,3v,ev,fem)" pt="vnw" rel="su" root="zij" status="vol" vwtype="pers" word="zij"/>
+      <node begin="7" cat="ti" end="17" id="14" rel="vc">
+        <node begin="11" end="12" id="15" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+        <node begin="7" cat="inf" end="17" id="16" rel="body">
+          <node begin="7" end="8" id="17" index="2" rel="su"/>
+          <node begin="12" buiging="zonder" end="13" id="18" lemma="houden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="houd" word="houden" wvorm="inf"/>
+          <node begin="8" cat="np" end="17" id="19" rel="obj1">
+            <node begin="8" end="9" id="20" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="9" buiging="zonder" end="10" graad="basis" id="21" lemma="politiek" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="politiek" word="politiek"/>
+            <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="22" lemma="betoog" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="betoog" word="betoog"/>
+            <node begin="13" cat="rel" end="17" id="23" rel="mod">
+              <node begin="13" end="14" id="24" index="3" lemma="waarin" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waarin" word="waarin"/>
+              <node begin="13" cat="ssub" end="17" id="25" rel="body">
+                <node begin="13" end="14" id="26" index="3" rel="mod"/>
+                <node begin="14" end="15" genus="fem" getal="ev" id="27" lemma="zij" naamval="nomin" pdtype="pron" persoon="3v" pos="pron" postag="VNW(pers,pron,nomin,vol,3v,ev,fem)" pt="vnw" rel="su" root="zij" status="vol" vwtype="pers" word="zij"/>
+                <node begin="15" end="16" genus="masc" getal="ev" id="28" lemma="hem" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,obl,vol,3,ev,masc)" pt="vnw" rel="obj1" root="hem" status="vol" vwtype="pers" word="hem"/>
+                <node begin="16" end="17" id="29" lemma="vrij_pleiten" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="vrij_pleit" word="vrijpleitte" wvorm="pv"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="30" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Net als Milosevic steeds heeft gedaan probeerde zij een politiek betoog te houden waarin zij hem vrijpleitte .</sentence>
+</alpino_ds>

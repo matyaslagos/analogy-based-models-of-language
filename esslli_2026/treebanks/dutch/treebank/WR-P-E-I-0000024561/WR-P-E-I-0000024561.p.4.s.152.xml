@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="1" cat="smain" end="12" id="2" rel="--">
+      <node begin="1" cat="np" end="4" id="3" rel="su">
+        <node begin="1" end="2" getal="ev" graad="basis" id="4" lemma="Brel" naamval="gen" ntype="eigen" pos="det" postag="N(eigen,ev,basis,gen)" pt="n" rel="det" root="Brel" word="Brels"/>
+        <node begin="2" buiging="met-e" end="3" graad="sup" id="5" lemma="aller_laat" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="mod" root="laat" word="allerlaatste"/>
+        <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="6" lemma="optreden" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="optreden" word="optreden"/>
+      </node>
+      <node begin="4" end="5" id="7" lemma="plaats_vinden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="vind_plaats" word="vond" wvorm="pv"/>
+      <node begin="5" cat="pp" end="9" id="8" rel="mod">
+        <node begin="5" end="6" id="9" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+        <node begin="6" cat="mwu" end="9" id="10" rel="obj1">
+          <node begin="6" end="7" id="11" lemma="16" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="16" word="16"/>
+          <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="12" lemma="mei" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="mei" word="mei"/>
+          <node begin="8" end="9" id="13" lemma="1967" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="1967" word="1967"/>
+        </node>
+      </node>
+      <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="14" lemma="plaats" naamval="stan" ntype="soort" pos="part" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="svp" root="plaats" word="plaats"/>
+      <node begin="10" cat="pp" end="12" id="15" rel="mod">
+        <node begin="10" end="11" id="16" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="17" lemma="Roubaix" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Roubaix" word="Roubaix"/>
+      </node>
+    </node>
+    <node begin="12" end="13" id="18" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+    <node begin="13" end="14" id="19" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+  </node>
+  <sentence>( Brels allerlaatste optreden vond op 16 mei 1967 plaats in Roubaix . )</sentence>
+</alpino_ds>

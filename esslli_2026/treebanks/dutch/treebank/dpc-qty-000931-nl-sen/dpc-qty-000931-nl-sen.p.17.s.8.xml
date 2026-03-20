@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="15" end="16" id="1" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="17" end="18" id="2" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="0" cat="smain" end="20" id="3" rel="--">
+      <node begin="0" cat="pp" end="4" id="4" rel="mod">
+        <node begin="0" end="1" id="5" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="Van"/>
+        <node begin="1" cat="np" end="4" id="6" rel="obj1">
+          <node begin="1" end="2" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="2" buiging="met-e" end="3" graad="basis" id="8" lemma="groot" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="groot" word="grote"/>
+          <node begin="3" end="4" getal="mv" graad="basis" id="9" lemma="architect_team" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="architect_team" word="architectenteams"/>
+        </node>
+      </node>
+      <node begin="4" end="5" id="10" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="5" cat="mwu" end="8" id="11" rel="su">
+        <node begin="5" end="6" id="12" lemma="Samyn" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Samyn" spectype="deeleigen" word="Samyn"/>
+        <node begin="6" end="7" id="13" lemma="and" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="and" spectype="deeleigen" word="and"/>
+        <node begin="7" end="8" id="14" lemma="Partners" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Partners" spectype="deeleigen" word="Partners"/>
+      </node>
+      <node begin="8" buiging="zonder" end="9" graad="basis" id="15" lemma="vermoedelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="vermoedelijk" word="vermoedelijk"/>
+      <node begin="9" cat="np" end="20" id="16" rel="predc">
+        <node begin="9" end="10" getal-n="zonder-n" graad="basis" id="17" lemma="één" numtype="hoofd" pos="pron" positie="nom" postag="TW(hoofd,nom,zonder-n,basis)" pt="tw" rel="hd" root="één" word="een"/>
+        <node begin="10" cat="pp" end="20" id="18" rel="mod">
+          <node begin="10" end="11" id="19" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="11" cat="np" end="20" id="20" rel="obj1">
+            <node begin="11" end="12" id="21" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="12" buiging="met-e" end="13" getal-n="zonder-n" graad="basis" id="22" lemma="weinig" naamval="stan" pdtype="grad" pos="adj" positie="nom" postag="VNW(onbep,grad,stan,nom,met-e,zonder-n,basis)" pt="vnw" rel="hd" root="weinig" vwtype="onbep" word="weinige"/>
+            <node begin="13" cat="rel" end="20" id="23" rel="mod">
+              <node begin="13" end="14" getal="getal" id="24" index="1" lemma="waar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(vb,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="rhd" root="waar" status="vol" vwtype="vb" word="waar"/>
+              <node begin="13" cat="ssub" end="20" id="25" rel="body">
+                <node begin="13" end="14" id="26" index="1" rel="mod"/>
+                <node begin="14" cat="np" end="17" id="27" rel="su">
+                  <node begin="14" end="15" id="28" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="29" lemma="baas" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="baas" word="baas"/>
+                </node>
+                <node begin="18" end="19" getal="ev" id="30" lemma="alles" naamval="stan" pdtype="pron" persoon="3o" pos="noun" postag="VNW(onbep,pron,stan,vol,3o,ev)" pt="vnw" rel="obj1" root="alles" status="vol" vwtype="onbep" word="alles"/>
+                <node begin="19" end="20" id="31" lemma="tekenen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="teken" word="tekent" wvorm="pv"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="20" end="21" id="32" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Van de grote architectenteams is Samyn and Partners vermoedelijk een van de weinige waar de &apos; baas &apos; alles tekent .</sentence>
+</alpino_ds>

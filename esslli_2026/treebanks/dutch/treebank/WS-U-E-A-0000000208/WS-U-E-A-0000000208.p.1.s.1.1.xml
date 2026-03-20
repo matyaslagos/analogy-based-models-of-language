@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="np" end="7" id="1" rel="--">
+      <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="2" lemma="straf" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="straf" word="Straf"/>
+      <node begin="1" cat="pp" end="3" id="3" rel="mod">
+        <node begin="1" end="2" id="4" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+        <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="5" lemma="oud_PSV_directeur" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="oud-PSV_directeur" word="oud-PSV-directeur"/>
+      </node>
+      <node begin="3" cat="ap" end="7" id="6" rel="mod">
+        <node begin="3" buiging="zonder" end="4" graad="comp" id="7" lemma="zwaar" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="zwaar" word="zwaarder"/>
+        <node begin="4" cat="cp" end="7" id="8" rel="obcomp">
+          <node begin="4" conjtype="onder" end="5" id="9" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="dan" word="dan"/>
+          <node begin="5" cat="ssub" end="7" id="10" rel="body">
+            <node begin="5" end="6" id="11" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+            <node begin="6" buiging="zonder" end="7" id="12" lemma="eisen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="vc" root="eis" word="geëist" wvorm="vd"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="7" end="8" id="13" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Straf voor oud-PSV-directeur zwaarder dan was geëist .</sentence>
+</alpino_ds>

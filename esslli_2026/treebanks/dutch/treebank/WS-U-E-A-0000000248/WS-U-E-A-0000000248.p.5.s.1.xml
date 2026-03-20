@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="du" end="19" id="2" rel="--">
+      <node begin="0" cat="smain" end="5" id="3" rel="sat">
+        <node begin="0" cat="np" end="2" id="4" rel="su">
+          <node begin="0" end="1" id="5" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="Een"/>
+          <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="6" lemma="ding" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="ding" word="ding"/>
+        </node>
+        <node begin="2" end="3" id="7" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="3" end="4" id="8" lemma="wel" pos="adv" postag="BW()" pt="bw" rel="mod" root="wel" word="wel"/>
+        <node begin="4" buiging="zonder" end="5" graad="basis" id="9" lemma="duidelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="duidelijk" word="duidelijk"/>
+      </node>
+      <node begin="6" cat="smain" end="19" id="10" rel="nucl">
+        <node begin="6" cat="np" end="10" id="11" index="1" rel="su">
+          <node begin="6" end="7" id="12" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+          <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="13" lemma="gijzeling" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="gijzeling" word="gijzeling"/>
+          <node begin="8" cat="pp" end="10" id="14" rel="mod">
+            <node begin="8" end="9" id="15" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="16" lemma="Beslan" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Beslan" word="Beslan"/>
+          </node>
+        </node>
+        <node begin="10" end="11" id="17" lemma="zullen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zal" word="zal" wvorm="pv"/>
+        <node begin="6" cat="inf" end="19" id="18" rel="vc">
+          <node begin="6" end="10" id="19" index="1" rel="su"/>
+          <node begin="11" buiging="zonder" end="12" graad="basis" id="20" lemma="diep" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="diep" word="diep"/>
+          <node begin="12" buiging="zonder" end="13" id="21" lemma="in_grijpen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="grijp_in" word="ingrijpen" wvorm="inf"/>
+          <node begin="13" cat="pp" end="19" id="22" rel="ld">
+            <node begin="13" end="14" id="23" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="14" cat="np" end="19" id="24" rel="obj1">
+              <node begin="14" end="15" id="25" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="15" end="16" genus="onz" getal="ev" graad="basis" id="26" lemma="leven" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="leven" word="leven"/>
+              <node begin="16" cat="pp" end="19" id="27" rel="mod">
+                <node begin="16" end="17" id="28" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="17" cat="np" end="19" id="29" rel="obj1">
+                  <node begin="17" end="18" id="30" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="18" end="19" getal="mv" graad="basis" id="31" lemma="kind" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kind" word="kinderen"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="32" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Een ding is wel duidelijk : De gijzeling in Beslan zal diep ingrijpen in het leven van de kinderen .</sentence>
+</alpino_ds>

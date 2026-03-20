@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="25" id="0" rel="top">
+    <node begin="0" cat="smain" end="24" id="1" rel="--">
+      <node begin="9" end="10" id="2" lemma="moeten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="moet" word="moeten" wvorm="pv"/>
+      <node begin="10" cat="conj" end="20" id="3" index="1" rel="su">
+        <node begin="10" cat="np" end="16" id="4" rel="cnj">
+          <node begin="10" end="11" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="11" end="12" getal="mv" graad="basis" id="6" lemma="uur" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="uur" word="uren"/>
+          <node begin="12" cat="rel" end="16" id="7" rel="mod">
+            <node begin="12" end="13" id="8" index="2" lemma="waarop" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waarop" word="waarop"/>
+            <node begin="12" cat="ssub" end="16" id="9" rel="body">
+              <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="10" index="3" lemma="alcohol" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="su" root="alcohol" word="alcohol"/>
+              <node begin="14" end="15" id="11" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+              <node begin="12" cat="ppart" end="16" id="12" rel="vc">
+                <node begin="12" end="13" id="13" index="2" rel="mod"/>
+                <node begin="13" end="14" id="14" index="3" rel="obj1"/>
+                <node begin="15" buiging="zonder" end="16" id="15" lemma="schenken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="schenk" word="geschonken" wvorm="vd"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="16" conjtype="neven" end="17" id="16" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="17" cat="np" end="20" id="17" rel="cnj">
+          <node begin="17" end="18" id="18" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="18" buiging="met-e" end="19" graad="basis" id="19" lemma="wettelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="wettelijk" word="wettelijke"/>
+          <node begin="19" end="20" getal="mv" graad="basis" id="20" lemma="leeftijd_grens" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="leeftijdsgrens" word="leeftijdsgrenzen"/>
+        </node>
+      </node>
+      <node begin="0" cat="inf" end="24" id="21" rel="vc">
+        <node begin="10" end="20" id="22" index="1" rel="su"/>
+        <node begin="22" buiging="zonder" end="23" id="23" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+        <node begin="0" cat="ppart" end="24" id="24" rel="vc">
+          <node begin="10" end="20" id="25" index="1" rel="obj1"/>
+          <node begin="0" cat="ap" end="22" id="26" rel="mod">
+            <node begin="0" cat="pp" end="9" id="27" rel="pc">
+              <node begin="0" end="1" id="28" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="Voor"/>
+              <node begin="1" cat="np" end="9" id="29" rel="obj1">
+                <node begin="1" end="2" id="30" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="2" end="3" getal="mv" graad="basis" id="31" lemma="bezoeker" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="bezoeker" word="bezoekers"/>
+                <node begin="3" cat="pp" end="9" id="32" rel="mod">
+                  <node begin="3" end="4" id="33" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                  <node begin="4" cat="np" end="9" id="34" rel="obj1">
+                    <node begin="4" end="5" id="35" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                    <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="36" lemma="vereniging" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="vereniging" word="vereniging"/>
+                    <node begin="6" cat="pp" end="9" id="37" rel="mod">
+                      <node begin="6" end="7" id="38" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+                      <node begin="7" cat="np" end="9" id="39" rel="obj1">
+                        <node begin="7" end="8" id="40" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                        <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="41" lemma="kantine" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="kantine" word="kantine"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node begin="20" buiging="zonder" end="21" graad="basis" id="42" lemma="duidelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="duidelijk" word="duidelijk"/>
+            <node begin="21" buiging="zonder" end="22" graad="basis" id="43" lemma="zichtbaar" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="zichtbaar" word="zichtbaar"/>
+          </node>
+          <node begin="23" buiging="zonder" end="24" id="44" lemma="op_hangen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="hang_op" word="opgehangen" wvorm="vd"/>
+        </node>
+      </node>
+    </node>
+    <node begin="24" end="25" id="45" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Voor de bezoekers van een vereniging met een kantine moeten de uren waarop alcohol wordt geschonken en de wettelijke leeftijdsgrenzen duidelijk zichtbaar worden opgehangen .</sentence>
+</alpino_ds>

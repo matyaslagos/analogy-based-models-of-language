@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="smain" end="10" id="1" rel="--">
+      <node begin="0" cat="mwu" end="3" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="Le" pos="noun" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="le" spectype="vreemd" word="Le"/>
+        <node begin="1" end="2" id="4" lemma="petit" pos="noun" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="petit" spectype="vreemd" word="petit"/>
+        <node begin="2" end="3" id="5" lemma="juge" pos="noun" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="juge" spectype="vreemd" word="juge"/>
+      </node>
+      <node begin="3" end="4" id="6" lemma="geven" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="geef" word="gaf" wvorm="pv"/>
+      <node begin="5" cat="np" end="7" id="7" rel="mod">
+        <node begin="5" buiging="met-e" end="6" graad="basis" id="8" lemma="vorig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="vorig" word="vorige"/>
+        <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="9" lemma="week" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="week" word="week"/>
+      </node>
+      <node begin="7" cat="mwu" end="9" id="10" rel="svp">
+        <node begin="7" end="8" id="11" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="mwp" root="de" word="de"/>
+        <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="12" lemma="brui" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="brui" word="brui"/>
+      </node>
+      <node begin="4" cat="pp" end="10" id="13" rel="pc">
+        <node begin="4" end="5" getal="getal" id="14" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="noun" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="obj1" root="er" status="red" vwtype="aanw" word="er"/>
+        <node begin="9" end="10" id="15" lemma="aan" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="aan" vztype="fin" word="aan"/>
+      </node>
+    </node>
+    <node begin="10" end="11" id="16" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Le petit juge gaf er vorige week de brui aan .</sentence>
+</alpino_ds>

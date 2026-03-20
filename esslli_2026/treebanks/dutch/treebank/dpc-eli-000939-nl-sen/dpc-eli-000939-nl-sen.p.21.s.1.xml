@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="0" cat="smain" end="16" id="1" rel="--">
+      <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="2" lemma="diabetes" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="su" root="diabetes" word="Diabetes"/>
+      <node begin="1" end="2" id="3" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="2" cat="np" end="16" id="4" rel="predc">
+        <node begin="2" end="3" id="5" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="6" lemma="ziekte" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="ziekte" word="ziekte"/>
+        <node begin="4" cat="rel" end="16" id="7" rel="mod">
+          <node begin="4" end="5" id="8" index="1" lemma="waarbij" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waarbij" word="waarbij"/>
+          <node begin="4" cat="ssub" end="16" id="9" rel="body">
+            <node begin="4" end="5" id="10" index="1" rel="mod"/>
+            <node begin="5" cat="np" end="7" id="11" rel="su">
+              <node begin="5" end="6" id="12" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="13" lemma="lichaam" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="lichaam" word="lichaam"/>
+            </node>
+            <node begin="7" end="8" id="14" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+            <node begin="10" end="11" id="15" lemma="aan_maken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="maak_aan" word="aanmaakt" wvorm="pv"/>
+            <node begin="8" cat="np" end="16" id="16" rel="obj1">
+              <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="17" lemma="insuline" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="insuline" word="insuline"/>
+              <node begin="8" cat="detp" end="16" id="18" rel="det">
+                <node begin="8" buiging="zonder" end="9" graad="basis" id="19" lemma="voldoende" pos="det" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="hd" root="voldoende" word="voldoende"/>
+                <node begin="11" cat="oti" end="16" id="20" rel="obcomp">
+                  <node begin="11" end="12" id="21" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="om"/>
+                  <node begin="12" cat="ti" end="16" id="22" rel="body">
+                    <node begin="14" end="15" id="23" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+                    <node begin="12" cat="inf" end="16" id="24" rel="body">
+                      <node begin="12" cat="np" end="14" id="25" rel="obj1">
+                        <node begin="12" end="13" id="26" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                        <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="27" lemma="bloed_suiker_spiegel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="bloed_suiker_spiegel" word="bloedsuikerspiegel"/>
+                      </node>
+                      <node begin="15" buiging="zonder" end="16" id="28" lemma="reguleren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="reguleer" word="reguleren" wvorm="inf"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="29" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Diabetes is een ziekte waarbij het lichaam niet voldoende insuline aanmaakt om de bloedsuikerspiegel te reguleren .</sentence>
+</alpino_ds>

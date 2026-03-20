@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+        <node begin="1" cat="mwu" end="3" id="4" rel="hd">
+          <node begin="1" end="2" id="5" lemma="Witte" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Witte" spectype="deeleigen" word="Witte"/>
+          <node begin="2" end="3" id="6" lemma="Huis" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Huis" spectype="deeleigen" word="Huis"/>
+        </node>
+      </node>
+      <node begin="3" end="4" id="7" lemma="weg_wuiven" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="wuif_weg" word="wuift" wvorm="pv"/>
+      <node begin="4" cat="np" end="6" id="8" rel="obj1">
+        <node begin="4" end="5" id="9" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="5" end="6" getal="mv" graad="basis" id="10" lemma="beschuldiging" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="beschuldiging" word="beschuldigingen"/>
+      </node>
+      <node begin="6" end="7" id="11" lemma="weg" pos="part" postag="BW()" pt="bw" rel="svp" root="weg" word="weg"/>
+    </node>
+    <node begin="7" end="8" id="12" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het Witte Huis wuift de beschuldigingen weg .</sentence>
+</alpino_ds>

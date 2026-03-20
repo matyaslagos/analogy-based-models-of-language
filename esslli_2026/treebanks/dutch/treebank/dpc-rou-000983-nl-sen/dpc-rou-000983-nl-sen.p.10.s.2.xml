@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="24" id="0" rel="top">
+    <node begin="0" cat="smain" end="23" id="1" rel="--">
+      <node begin="0" cat="np" end="13" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="4" lemma="kantoor" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="kantoor" word="kantoor"/>
+        <node begin="2" cat="pp" end="6" id="5" rel="mod">
+          <node begin="2" end="3" id="6" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="3" cat="mwu" end="6" id="7" rel="obj1">
+            <node begin="3" end="4" id="8" lemma="Peggy" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Peggy" spectype="deeleigen" word="Peggy"/>
+            <node begin="4" end="5" id="9" lemma="De" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="De" spectype="deeleigen" word="De"/>
+            <node begin="5" end="6" id="10" lemma="Coeyer" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Coeyer" spectype="deeleigen" word="Coeyer"/>
+          </node>
+        </node>
+        <node begin="6" cat="pp" end="13" id="11" rel="mod">
+          <node begin="6" end="7" id="12" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="7" cat="np" end="13" id="13" rel="obj1">
+            <node begin="7" end="8" id="14" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="8" buiging="met-e" end="9" graad="basis" id="15" lemma="Londerzeels" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Londerzeelse" word="Londerzeelse"/>
+            <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="16" lemma="hoofd_zetel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="hoofd_zetel" word="hoofdzetel"/>
+            <node begin="10" cat="pp" end="13" id="17" rel="mod">
+              <node begin="10" end="11" id="18" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="11" cat="mwu" end="13" id="19" rel="obj1">
+                <node begin="11" end="12" id="20" lemma="Palm" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Palm" spectype="deeleigen" word="Palm"/>
+                <node begin="12" end="13" id="21" lemma="Breweries" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Breweries" spectype="deeleigen" word="Breweries"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="13" end="14" id="22" lemma="uit_puilen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="puil_uit" word="puilt" wvorm="pv"/>
+      <node begin="14" end="15" id="23" lemma="uit" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="uit" vztype="fin" word="uit"/>
+      <node begin="15" cat="pp" end="23" id="24" rel="pc">
+        <node begin="15" end="16" id="25" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+        <node begin="16" cat="conj" end="23" id="26" rel="obj1">
+          <node begin="16" cat="np" end="21" id="27" rel="cnj">
+            <node begin="16" end="17" id="28" index="1" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="17" cat="conj" end="20" id="29" index="2" rel="mod">
+              <node begin="17" buiging="met-e" end="18" graad="basis" id="30" lemma="oud" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="oud" word="oude"/>
+              <node begin="18" conjtype="neven" end="19" id="31" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="19" buiging="met-e" end="20" graad="basis" id="32" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="nieuw" word="nieuwe"/>
+            </node>
+            <node begin="20" end="21" getal="mv" graad="basis" id="33" lemma="campagne_poster" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="campagne_poster" word="campagneposters"/>
+          </node>
+          <node begin="21" conjtype="neven" end="22" id="34" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="16" cat="np" end="23" id="35" rel="cnj">
+            <node begin="16" end="17" id="36" index="1" rel="det"/>
+            <node begin="17" end="20" id="37" index="2" rel="mod"/>
+            <node begin="22" end="23" genus="onz" getal="ev" graad="basis" id="38" lemma="reclame_materiaal" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="reclame_materiaal" word="reclamemateriaal"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="23" end="24" id="39" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het kantoor van Peggy De Coeyer in de Londerzeelse hoofdzetel van Palm Breweries puilt uit van de oude en nieuwe campagneposters en reclamemateriaal .</sentence>
+</alpino_ds>

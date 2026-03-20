@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" end="1" genus="genus" getal="ev" graad="basis" id="2" lemma="MOSTforWATER" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="su" root="MOSTforWATER" word="MOSTforWATER"/>
+      <node begin="1" end="2" id="3" lemma="staan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="sta" word="staat" wvorm="pv"/>
+      <node begin="2" cat="pp" end="8" id="4" rel="pc">
+        <node begin="2" end="3" id="5" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+        <node begin="3" cat="mwu" end="8" id="6" rel="obj1">
+          <node begin="3" end="4" id="7" lemma="Model-based" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Model-based" spectype="vreemd" word="Model-based"/>
+          <node begin="4" end="5" id="8" lemma="Optimization" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Optimization" spectype="vreemd" word="Optimization"/>
+          <node begin="5" end="6" id="9" lemma="Services" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Services" spectype="vreemd" word="Services"/>
+          <node begin="6" end="7" id="10" lemma="&amp;" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="&amp;" spectype="vreemd" word="&amp;"/>
+          <node begin="7" end="8" id="11" lemma="Technology" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Technology" spectype="vreemd" word="Technology"/>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" id="12" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>MOSTforWATER staat voor Model-based Optimization Services &amp; Technology .</sentence>
+</alpino_ds>

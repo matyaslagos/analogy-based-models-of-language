@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="17" id="2" rel="--">
+      <node begin="0" cat="np" end="6" id="3" rel="cnj">
+        <node begin="0" end="1" id="4" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" buiging="met-e" end="2" id="5" lemma="een" naamval="stan" npagr="evz" pdtype="det" pos="adj" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,evz)" pt="vnw" rel="mod" root="ene" vwtype="onbep" word="ene"/>
+        <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="6" lemma="groep" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="groep" word="groep"/>
+        <node begin="3" cat="pp" end="6" id="7" rel="mod">
+          <node begin="3" end="4" id="8" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="4" cat="np" end="6" id="9" rel="obj1">
+            <node begin="4" buiging="met-e" end="5" graad="basis" id="10" lemma="militair" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="militair" word="militaire"/>
+            <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="11" lemma="outfit" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="outfit" word="outfit"/>
+          </node>
+        </node>
+      </node>
+      <node begin="7" cat="np" end="11" id="12" rel="cnj">
+        <node begin="7" end="8" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="8" buiging="met-e" end="9" getal-n="zonder-n" graad="basis" id="14" lemma="ander" naamval="stan" pos="adj" positie="nom" postag="ADJ(nom,basis,met-e,zonder-n,stan)" pt="adj" rel="hd" root="ander" word="andere"/>
+        <node begin="9" cat="pp" end="11" id="15" rel="mod">
+          <node begin="9" end="10" id="16" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="10" end="11" getal="mv" graad="basis" id="17" lemma="gilde_kostuum" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="gilde_kostuum" word="gildekostuums"/>
+        </node>
+      </node>
+      <node begin="11" conjtype="neven" end="12" id="18" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="12" cat="np" end="17" id="19" rel="cnj">
+        <node begin="12" end="13" id="20" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="13" buiging="met-e" end="14" graad="basis" id="21" lemma="klein" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="klein" word="kleine"/>
+        <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="22" lemma="minderheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="minderheid" word="minderheid"/>
+        <node begin="15" cat="pp" end="17" id="23" rel="mod">
+          <node begin="15" end="16" id="24" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="16" end="17" getal="mv" graad="basis" id="25" lemma="fantasie_uniform" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="fantasie_uniform" word="fantasie-uniformen"/>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="26" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De ene groep in militaire outfit , de andere in gildekostuums en een kleine minderheid in fantasie-uniformen .</sentence>
+</alpino_ds>

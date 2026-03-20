@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="13" end="14" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="14" end="15" id="2" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="0" cat="du" end="17" id="3" rel="--">
+      <node begin="0" cat="smain" end="13" id="4" rel="nucl">
+        <node begin="0" buiging="zonder" end="1" graad="basis" id="5" lemma="jaarlijks" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="jaarlijks" word="Jaarlijks"/>
+        <node begin="1" end="2" id="6" lemma="besteden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="besteed" word="besteden" wvorm="pv"/>
+        <node begin="2" end="3" getal="mv" id="7" lemma="we" naamval="nomin" pdtype="pron" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,red,1,mv)" pt="vnw" rel="su" root="we" status="red" vwtype="pers" word="we"/>
+        <node begin="3" cat="pp" end="7" id="8" rel="mod">
+          <node begin="3" end="4" id="9" lemma="via" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="via" vztype="init" word="via"/>
+          <node begin="4" cat="np" end="7" id="10" rel="obj1">
+            <node begin="4" end="5" id="11" lemma="twee" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="twee" word="twee"/>
+            <node begin="5" buiging="met-e" end="6" graad="basis" id="12" lemma="speciaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="speciaal" word="speciale"/>
+            <node begin="6" end="7" getal="mv" graad="basis" id="13" lemma="trust_fonds" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="Trustfondsen" word="Trustfondsen"/>
+          </node>
+        </node>
+        <node begin="7" cat="np" end="11" id="14" rel="obj1">
+          <node begin="7" end="8" id="15" lemma="ongeveer" pos="adv" postag="BW()" pt="bw" rel="mod" root="ongeveer" word="ongeveer"/>
+          <node begin="8" end="9" id="16" lemma="1,75" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="1,75" word="1,75"/>
+          <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="17" lemma="miljoen" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="miljoen" word="miljoen"/>
+          <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="18" lemma="euro" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mod" root="euro" word="euro"/>
+        </node>
+        <node begin="11" cat="pp" end="13" id="19" rel="pc">
+          <node begin="11" end="12" id="20" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+          <node begin="12" end="13" getal="mv" graad="basis" id="21" lemma="Unesco_project" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="UNESCO_project" word="UNESCO-projecten"/>
+        </node>
+      </node>
+      <node begin="15" cat="sv1" end="17" id="22" rel="tag">
+        <node begin="15" end="16" id="23" lemma="zeggen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="zeg" word="zegt" wvorm="pv"/>
+        <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="24" lemma="Bourgeois" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Bourgeois" word="Bourgeois"/>
+      </node>
+    </node>
+    <node begin="17" end="18" id="25" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Jaarlijks besteden we via twee speciale Trustfondsen ongeveer 1,75 miljoen euro aan UNESCO-projecten , &quot; zegt Bourgeois .</sentence>
+</alpino_ds>

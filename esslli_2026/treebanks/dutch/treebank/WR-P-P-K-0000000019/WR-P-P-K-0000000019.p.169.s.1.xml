@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="1" cat="conj" end="15" id="2" rel="--">
+      <node begin="4" conjtype="neven" end="5" id="3" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="1" cat="ti" end="15" id="4" rel="cnj">
+        <node begin="2" end="3" id="5" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+        <node begin="1" cat="inf" end="15" id="6" rel="body">
+          <node begin="1" end="2" getal="mv" graad="basis" id="7" index="1" lemma="mens_recht_schending" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="mens_recht_schending" word="Mensenrechtenschendingen"/>
+          <node begin="3" buiging="zonder" end="4" id="8" lemma="monitoren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="monitoor" word="monitoren" wvorm="inf"/>
+          <node begin="8" cat="pp" end="15" id="9" index="2" rel="mod">
+            <node begin="8" end="9" id="10" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+            <node begin="9" cat="np" end="15" id="11" rel="obj1">
+              <node begin="9" buiging="met-e" end="10" graad="basis" id="12" lemma="specifiek" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="specifiek" word="specifieke"/>
+              <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="13" lemma="aandacht" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="aandacht" word="aandacht"/>
+              <node begin="11" cat="pp" end="15" id="14" rel="mod">
+                <node begin="11" end="12" id="15" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+                <node begin="12" cat="np" end="15" id="16" rel="obj1">
+                  <node begin="12" end="13" getal="mv" graad="basis" id="17" lemma="regio" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="regio" word="regio&apos;s"/>
+                  <node begin="13" cat="pp" end="15" id="18" rel="mod">
+                    <node begin="13" end="14" id="19" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                    <node begin="14" end="15" genus="onz" getal="ev" graad="basis" id="20" lemma="conflict" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="conflict" word="conflict"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="1" cat="ti" end="15" id="21" rel="cnj">
+        <node begin="6" end="7" id="22" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+        <node begin="1" cat="inf" end="15" id="23" rel="body">
+          <node begin="1" end="2" id="24" index="1" rel="obj1"/>
+          <node begin="5" end="6" id="25" lemma="aan" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="aan" vztype="fin" word="aan"/>
+          <node begin="7" buiging="zonder" end="8" id="26" lemma="aan_kaarten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="kaart_aan" word="kaarten" wvorm="inf"/>
+          <node begin="8" end="15" id="27" index="2" rel="mod"/>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="28" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>- Mensenrechtenschendingen te monitoren en aan te kaarten met specifieke aandacht voor regio&apos;s in conflict .</sentence>
+</alpino_ds>

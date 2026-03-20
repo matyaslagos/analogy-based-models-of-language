@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="du" end="15" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="en" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="en" word="En"/>
+      <node begin="1" cat="smain" end="15" id="3" rel="nucl">
+        <node begin="1" end="2" genus="onz" getal="ev" id="4" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="noun" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="sup" root="het" status="red" vwtype="pers" word="het"/>
+        <node begin="2" end="3" id="5" lemma="uit_zien" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="zie_uit" word="ziet" wvorm="pv"/>
+        <node begin="4" end="5" id="6" lemma="dus" pos="adv" postag="BW()" pt="bw" rel="mod" root="dus" word="dus"/>
+        <node begin="3" cat="pp" end="6" id="7" rel="pc">
+          <node begin="3" end="4" getal="getal" id="8" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="noun" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="obj1" root="er" status="red" vwtype="aanw" word="er"/>
+          <node begin="5" end="6" id="9" lemma="naar" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="naar" vztype="fin" word="naar"/>
+        </node>
+        <node begin="6" end="7" id="10" lemma="uit" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="uit" vztype="fin" word="uit"/>
+        <node begin="7" cat="cp" end="15" id="11" rel="su">
+          <node begin="7" conjtype="onder" end="8" id="12" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+          <node begin="8" cat="ssub" end="15" id="13" rel="body">
+            <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="14" index="1" lemma="wit" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Witte" word="Witte"/>
+            <node begin="10" end="11" id="15" lemma="zelf" pos="adv" postag="BW()" pt="bw" rel="predm" root="zelf" word="zelf"/>
+            <node begin="13" end="14" id="16" lemma="moeten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="moet" word="moet" wvorm="pv"/>
+            <node begin="8" cat="inf" end="15" id="17" rel="vc">
+              <node begin="8" end="9" id="18" index="1" rel="su"/>
+              <node begin="9" cat="pp" end="12" id="19" rel="pc">
+                <node begin="9" end="10" getal="getal" id="20" lemma="daar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="noun" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="obj1" root="daar" status="vol" vwtype="aanw" word="daar"/>
+                <node begin="11" end="12" id="21" lemma="voor" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="voor" vztype="fin" word="voor"/>
+              </node>
+              <node begin="12" end="13" id="22" lemma="op" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="op" vztype="fin" word="op"/>
+              <node begin="14" buiging="zonder" end="15" id="23" lemma="op_draaien" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="draai_op" word="draaien" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="24" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>En het ziet er dus naar uit dat Witte daar zelf voor op moet draaien .</sentence>
+</alpino_ds>

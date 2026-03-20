@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="27" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="6" end="7" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="16" end="17" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="26" id="4" rel="--">
+      <node begin="0" cat="np" end="20" id="5" rel="su">
+        <node begin="0" buiging="met-e" end="1" getal-n="mv-n" graad="comp" id="6" lemma="jong" pos="noun" positie="nom" postag="ADJ(nom,comp,met-e,mv-n)" pt="adj" rel="hd" root="jongere" word="Jongeren"/>
+        <node begin="1" cat="rel" end="20" id="7" rel="mod">
+          <node begin="1" end="2" id="8" index="1" lemma="waarvan" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waarvan" word="waarvan"/>
+          <node begin="1" cat="ssub" end="20" id="9" rel="body">
+            <node begin="2" cat="np" end="11" id="10" index="2" rel="su">
+              <node begin="2" end="3" id="11" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="3" cat="conj" end="10" id="12" rel="mod">
+                <node begin="3" buiging="met-e" end="4" graad="basis" id="13" lemma="fysiek" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="fysiek" word="fysieke"/>
+                <node begin="5" buiging="met-e" end="6" graad="basis" id="14" lemma="psychologisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="psychologisch" word="psychologische"/>
+                <node begin="7" buiging="met-e" end="8" graad="basis" id="15" lemma="sociaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="sociaal" word="sociale"/>
+                <node begin="8" conjtype="neven" end="9" id="16" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+                <node begin="9" buiging="met-e" end="10" graad="basis" id="17" lemma="intellectueel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="intellectueel" word="intellectuele"/>
+              </node>
+              <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="18" lemma="ontwikkeling" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="ontwikkeling" word="ontwikkeling"/>
+            </node>
+            <node begin="12" end="13" id="19" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+            <node begin="1" cat="ppart" end="20" id="20" rel="vc">
+              <node begin="1" end="2" id="21" index="1" rel="mod"/>
+              <node begin="2" end="11" id="22" index="2" rel="obj1"/>
+              <node begin="11" buiging="zonder" end="12" id="23" lemma="belemmeren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="belemmer" word="belemmerd" wvorm="vd"/>
+              <node begin="13" cat="pp" end="20" id="24" rel="mod">
+                <node begin="13" end="14" id="25" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+                <node begin="14" cat="conj" end="20" id="26" rel="obj1">
+                  <node begin="14" cat="np" end="16" id="27" rel="cnj">
+                    <node begin="14" end="15" id="28" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                    <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="29" lemma="handicap" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="handicap" word="handicap"/>
+                  </node>
+                  <node begin="17" cat="conj" end="20" id="30" rel="cnj">
+                    <node begin="17" end="18" id="31" lemma="leer-" pos="prefix" postag="SPEC(afgebr)" pt="spec" rel="cnj" root="leer" spectype="afgebr" word="leer-"/>
+                    <node begin="18" conjtype="neven" end="19" id="32" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+                    <node begin="19" end="20" getal="mv" graad="basis" id="33" lemma="opvoeding_mogelijkheid" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="opvoedingsmogelijkheid" word="opvoedingsmogelijkheden"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="20" end="21" id="34" lemma="terecht_kunnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kan_terecht" word="kunnen" wvorm="pv"/>
+      <node begin="21" buiging="zonder" end="22" graad="basis" id="35" lemma="terecht" pos="part" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="svp" root="terecht" word="terecht"/>
+      <node begin="22" cat="pp" end="26" id="36" rel="ld">
+        <node begin="22" end="23" id="37" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="23" cat="np" end="26" id="38" rel="obj1">
+          <node begin="23" end="24" id="39" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="24" buiging="zonder" end="25" graad="basis" id="40" lemma="buitengewoon" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="buitengewoon" word="buitengewoon"/>
+          <node begin="25" end="26" genus="onz" getal="ev" graad="basis" id="41" lemma="onderwijs" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="onderwijs" word="onderwijs"/>
+        </node>
+      </node>
+    </node>
+    <node begin="26" end="27" id="42" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Jongeren waarvan de fysieke , psychologische , sociale of intellectuele ontwikkeling belemmerd wordt door een handicap , leer- of opvoedingsmogelijkheden kunnen terecht in het buitengewoon onderwijs .</sentence>
+</alpino_ds>

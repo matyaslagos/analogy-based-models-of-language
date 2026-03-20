@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="conj" end="11" id="1" rel="--">
+      <node begin="0" cat="smain" end="7" id="2" rel="cnj">
+        <node begin="0" cat="pp" end="4" id="3" index="1" rel="mod">
+          <node begin="0" end="1" id="4" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="Op"/>
+          <node begin="1" cat="np" end="4" id="5" rel="obj1">
+            <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="6" lemma="tal" naamval="stan" ntype="soort" pos="det" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="tal" word="tal"/>
+            <node begin="2" cat="pp" end="4" id="7" rel="mod">
+              <node begin="2" end="3" id="8" lemma="van" pos="det" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="3" end="4" getal="mv" graad="basis" id="9" lemma="plaats" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="plaats" word="plaatsen"/>
+            </node>
+          </node>
+        </node>
+        <node begin="4" end="5" id="10" lemma="staan" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="sta" word="stonden" wvorm="pv"/>
+        <node begin="5" end="6" getal="mv" graad="basis" id="11" lemma="straat" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="straat" word="straten"/>
+        <node begin="6" buiging="zonder" end="7" graad="basis" id="12" lemma="blank" pos="fixed" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="svp" root="blank" word="blank"/>
+      </node>
+      <node begin="7" conjtype="neven" end="8" id="13" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="0" cat="sv1" end="11" id="14" rel="cnj">
+        <node begin="0" end="4" id="15" index="1" rel="mod"/>
+        <node begin="8" end="9" id="16" lemma="vol_lopen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="loop_vol" word="liepen" wvorm="pv"/>
+        <node begin="9" end="10" getal="mv" graad="basis" id="17" lemma="kelder" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="kelder" word="kelders"/>
+        <node begin="10" buiging="zonder" end="11" graad="basis" id="18" lemma="vol" pos="part" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="svp" root="vol" word="vol"/>
+      </node>
+    </node>
+    <node begin="11" end="12" id="19" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Op tal van plaatsen stonden straten blank en liepen kelders vol .</sentence>
+</alpino_ds>

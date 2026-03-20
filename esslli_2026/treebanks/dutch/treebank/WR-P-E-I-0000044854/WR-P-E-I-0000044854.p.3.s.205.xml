@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="26" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="7" end="8" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="16" end="17" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="25" id="4" rel="--">
+      <node begin="0" cat="pp" end="10" id="5" rel="pc">
+        <node begin="0" end="1" id="6" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+        <node begin="1" cat="np" end="10" id="7" rel="obj1">
+          <node begin="1" end="2" id="8" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="9" lemma="Zuidstraat" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Zuidstraat" word="Zuidstraat"/>
+          <node begin="4" cat="mwu" end="7" id="10" rel="mod">
+            <node begin="4" end="5" id="11" lemma="rue" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="rue" spectype="deeleigen" word="rue"/>
+            <node begin="5" end="6" id="12" lemma="M." pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="M." spectype="deeleigen" word="M."/>
+            <node begin="6" end="7" id="13" lemma="Cornette" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Cornette" spectype="deeleigen" word="Cornette"/>
+          </node>
+          <node begin="8" cat="np" end="10" id="14" rel="app">
+            <node begin="8" end="9" id="15" lemma="nummer" pos="noun" postag="SPEC(afk)" pt="spec" rel="hd" root="nummer" spectype="afk" word="nr."/>
+            <node begin="9" end="10" id="16" lemma="12" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="app" root="12" word="12"/>
+          </node>
+        </node>
+      </node>
+      <node begin="10" end="11" id="17" lemma="herkennen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="herken" word="herkent" wvorm="pv"/>
+      <node begin="11" end="12" genus="masc" getal="ev" id="18" lemma="men" naamval="nomin" pdtype="pron" persoon="3p" pos="pron" postag="VNW(pers,pron,nomin,red,3p,ev,masc)" pt="vnw" rel="su" root="men" status="red" vwtype="pers" word="men"/>
+      <node begin="12" cat="np" end="25" id="19" rel="obj1">
+        <node begin="12" end="13" id="20" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="21" lemma="gevel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="gevel" word="gevel"/>
+        <node begin="14" cat="pp" end="25" id="22" rel="mod">
+          <node begin="14" end="15" id="23" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+          <node begin="15" cat="conj" end="25" id="24" rel="obj1">
+            <node begin="15" end="16" getal="mv" graad="basis" id="25" lemma="tudornis" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="tudornissen" word="tudornissen"/>
+            <node begin="17" cat="np" end="19" id="26" rel="cnj">
+              <node begin="17" buiging="met-e" end="18" graad="basis" id="27" lemma="centraal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="centraal" word="centrale"/>
+              <node begin="18" end="19" genus="zijd" getal="ev" graad="basis" id="28" lemma="dak_kapel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="dak_kapel" word="dakkapel"/>
+            </node>
+            <node begin="19" conjtype="neven" end="20" id="29" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="20" cat="np" end="25" id="30" rel="cnj">
+              <node begin="20" end="21" id="31" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="21" end="22" genus="onz" getal="ev" graad="basis" id="32" lemma="zadel_dak" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="zadel_dak" word="zadeldak"/>
+              <node begin="22" cat="pp" end="25" id="33" rel="mod">
+                <node begin="22" end="23" id="34" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" vztype="init" word="tussen"/>
+                <node begin="23" cat="np" end="25" id="35" rel="obj1">
+                  <node begin="23" end="24" id="36" lemma="twee" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="twee" word="twee"/>
+                  <node begin="24" end="25" getal="mv" graad="basis" id="37" lemma="trap_gevel" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="trap_gevel" word="trapgevels"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="25" end="26" id="38" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>In de Zuidstraat ( rue M. Cornette ) nr. 12 herkent men een gevel met tudornissen , centrale dakkapel en een zadeldak tussen twee trapgevels .</sentence>
+</alpino_ds>

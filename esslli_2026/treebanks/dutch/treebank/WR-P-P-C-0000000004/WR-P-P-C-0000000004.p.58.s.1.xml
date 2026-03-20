@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="29" id="0" rel="top">
+    <node begin="14" end="15" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="smain" end="27" id="2" rel="--">
+      <node begin="0" end="1" getal="ev" id="3" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" root="dat" status="vol" vwtype="aanw" word="Dat"/>
+      <node begin="1" end="2" id="4" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="3" buiging="zonder" end="4" graad="basis" id="5" lemma="nodig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="nodig" word="nodig"/>
+      <node begin="2" cat="cp" end="14" id="6" rel="mod">
+        <node begin="2" end="3" id="7" lemma="alleen" pos="adj" postag="BW()" pt="bw" rel="mod" root="alleen" word="alleen"/>
+        <node begin="4" conjtype="onder" end="5" id="8" lemma="wanneer" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="wanneer" word="wanneer"/>
+        <node begin="5" cat="ssub" end="14" id="9" rel="body">
+          <node begin="5" end="6" getal="getal" id="10" index="1" lemma="u" naamval="nomin" pdtype="pron" persoon="2b" pos="pron" postag="VNW(pers,pron,nomin,vol,2b,getal)" pt="vnw" rel="su" root="u" status="vol" vwtype="pers" word="u"/>
+          <node begin="12" end="13" id="11" lemma="willen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="wil" word="wilt" wvorm="pv"/>
+          <node begin="5" cat="inf" end="14" id="12" rel="vc">
+            <node begin="5" end="6" id="13" index="1" rel="su"/>
+            <node begin="6" cat="np" end="11" id="14" rel="obj1">
+              <node begin="6" end="7" id="15" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="16" lemma="positie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="positie" word="positie"/>
+              <node begin="8" cat="pp" end="11" id="17" rel="mod">
+                <node begin="8" end="9" id="18" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="9" cat="np" end="11" id="19" rel="obj1">
+                  <node begin="9" end="10" id="20" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="10" end="11" getal="mv" graad="basis" id="21" lemma="kind" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kind" word="kinderen"/>
+                </node>
+              </node>
+            </node>
+            <node begin="11" end="12" id="22" lemma="anders" pos="adj" postag="BW()" pt="bw" rel="mod" root="anders" word="anders"/>
+            <node begin="13" buiging="zonder" end="14" id="23" lemma="regelen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="regel" word="regelen" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+      <node begin="15" cat="smain" end="27" id="24" rel="mod">
+        <node begin="15" end="16" getal="getal" id="25" index="2" lemma="u" naamval="nomin" pdtype="pron" persoon="2b" pos="pron" postag="VNW(pers,pron,nomin,vol,2b,getal)" pt="vnw" rel="su" root="u" status="vol" vwtype="pers" word="u"/>
+        <node begin="16" end="17" id="26" lemma="kunnen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="kan" word="kunt" wvorm="pv"/>
+        <node begin="17" end="18" id="27" lemma="bijvoorbeeld" pos="adv" postag="BW()" pt="bw" rel="mod" root="bijvoorbeeld" word="bijvoorbeeld"/>
+        <node begin="15" cat="conj" end="27" id="28" rel="vc">
+          <node begin="15" cat="inf" end="24" id="29" rel="cnj">
+            <node begin="15" end="16" id="30" index="2" rel="su"/>
+            <node begin="18" cat="np" end="23" id="31" index="3" rel="obj1">
+              <node begin="18" end="19" id="32" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="19" end="20" getal="mv" graad="basis" id="33" lemma="wil_recht" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="wil_recht" word="wilsrechten"/>
+              <node begin="20" cat="pp" end="23" id="34" rel="mod">
+                <node begin="20" end="21" id="35" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="21" cat="np" end="23" id="36" rel="obj1">
+                  <node begin="21" end="22" id="37" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="22" end="23" getal="mv" graad="basis" id="38" lemma="kind" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kind" word="kinderen"/>
+                </node>
+              </node>
+            </node>
+            <node begin="23" buiging="zonder" end="24" id="39" lemma="beperken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="beperk" word="beperken" wvorm="inf"/>
+          </node>
+          <node begin="24" conjtype="neven" end="25" id="40" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+          <node begin="15" cat="np" end="27" id="41" rel="cnj">
+            <node begin="15" end="16" id="42" index="2" rel="su"/>
+            <node begin="18" end="23" id="43" index="3" rel="obj1"/>
+            <node begin="25" buiging="zonder" end="26" graad="basis" id="44" lemma="juist" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="juist" word="juist"/>
+            <node begin="26" buiging="zonder" end="27" getal-n="zonder-n" id="45" lemma="uit_breiden" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="breid_uit" word="uitbreiden" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="27" end="28" id="46" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="28" end="29" id="47" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dat is alleen nodig wanneer u de positie van de kinderen anders wilt regelen ( u kunt bijvoorbeeld de wilsrechten van de kinderen beperken of juist uitbreiden ) .</sentence>
+</alpino_ds>

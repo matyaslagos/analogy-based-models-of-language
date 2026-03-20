@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="25" id="0" rel="top">
+    <node begin="19" end="20" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="21" end="22" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="0" cat="smain" end="24" id="3" rel="--">
+      <node begin="0" cat="np" end="5" id="4" rel="su">
+        <node begin="0" end="1" id="5" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+        <node begin="1" buiging="met-e" end="2" graad="basis" id="6" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" word="nieuwe"/>
+        <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="7" lemma="fok_reglement" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="fokregelement" word="fokregelement"/>
+        <node begin="3" cat="pp" end="5" id="8" rel="mod">
+          <node begin="3" end="4" id="9" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="4" end="5" getal="mv" graad="basis" id="10" lemma="rottweiler" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="rottweilers" word="rottweilers"/>
+        </node>
+      </node>
+      <node begin="5" end="6" id="11" lemma="voor_schrijven" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="schrijf_voor" word="schrijft" wvorm="pv"/>
+      <node begin="6" end="7" id="12" lemma="voor" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="voor" vztype="fin" word="voor"/>
+      <node begin="7" cat="cp" end="24" id="13" rel="vc">
+        <node begin="7" conjtype="onder" end="8" id="14" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+        <node begin="8" cat="ssub" end="24" id="15" rel="body">
+          <node begin="11" end="12" id="16" lemma="mogen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="mag" word="mag" wvorm="pv"/>
+          <node begin="8" cat="inf" end="24" id="17" rel="vc">
+            <node begin="12" buiging="zonder" end="13" id="18" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+            <node begin="8" cat="ppart" end="24" id="19" rel="vc">
+              <node begin="8" end="9" id="20" lemma="alleen" pos="adj" postag="BW()" pt="bw" rel="mod" root="alleen" word="alleen"/>
+              <node begin="13" buiging="zonder" end="14" id="21" lemma="fokken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="fok" word="gefokt" wvorm="vd"/>
+              <node begin="9" cat="pp" end="24" id="22" rel="mod">
+                <node begin="9" end="10" id="23" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+                <node begin="10" cat="np" end="24" id="24" rel="obj1">
+                  <node begin="10" end="11" getal="mv" graad="basis" id="25" lemma="hond" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="hond" word="honden"/>
+                  <node begin="14" cat="rel" end="24" id="26" rel="mod">
+                    <node begin="14" end="15" getal="getal" id="27" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+                    <node begin="14" cat="ssub" end="24" id="28" rel="body">
+                      <node begin="14" end="15" id="29" index="1" rel="su"/>
+                      <node begin="22" end="23" id="30" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" word="hebben" wvorm="pv"/>
+                      <node begin="14" cat="ppart" end="24" id="31" rel="vc">
+                        <node begin="14" end="15" id="32" index="1" rel="su"/>
+                        <node begin="15" cat="np" end="21" id="33" rel="obj1">
+                          <node begin="15" end="16" id="34" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                          <node begin="16" cat="mwu" end="19" id="35" rel="hd">
+                            <node begin="16" buiging="zonder" end="17" graad="basis" id="36" lemma="maatschappelijk" pos="name" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mwp" root="Maatschappelijk" word="Maatschappelijk"/>
+                            <node begin="17" buiging="zonder" end="18" graad="basis" id="37" lemma="aanvaardbaar" pos="name" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mwp" root="Aanvaardbaar" word="Aanvaardbaar"/>
+                            <node begin="18" end="19" genus="zijd" getal="ev" graad="basis" id="38" lemma="gedrag_test" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Gedragstest" word="Gedragstest"/>
+                          </node>
+                          <node begin="20" end="21" genus="zijd" getal="ev" graad="basis" id="39" lemma="MAG" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" root="MAG" word="MAG"/>
+                        </node>
+                        <node begin="23" buiging="zonder" end="24" id="40" lemma="doorstaan" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="doorsta" word="doorstaan" wvorm="vd"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="24" end="25" id="41" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het nieuwe fokregelement voor rottweilers schrijft voor dat alleen met honden mag worden gefokt die de Maatschappelijk Aanvaardbaar Gedragstest ( MAG ) hebben doorstaan .</sentence>
+</alpino_ds>

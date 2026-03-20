@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="0" cat="smain" end="16" id="1" rel="--">
+      <node begin="6" end="7" id="2" lemma="moeten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="moet" word="moeten" wvorm="pv"/>
+      <node begin="7" end="8" getal="mv" id="3" index="1" lemma="zij" naamval="nomin" pdtype="pron" persoon="3p" pos="pron" postag="VNW(pers,pron,nomin,vol,3p,mv)" pt="vnw" rel="su" root="zij" status="vol" vwtype="pers" word="zij"/>
+      <node begin="0" cat="conj" end="16" id="4" rel="vc">
+        <node begin="0" cat="inf" end="12" id="5" rel="cnj">
+          <node begin="0" cat="oti" end="6" id="6" index="2" rel="mod">
+            <node begin="0" end="1" id="7" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="Om"/>
+            <node begin="1" cat="ti" end="6" id="8" rel="body">
+              <node begin="3" end="4" id="9" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+              <node begin="1" cat="inf" end="6" id="10" rel="body">
+                <node begin="4" buiging="zonder" end="5" id="11" lemma="kunnen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="kan" word="kunnen" wvorm="inf"/>
+                <node begin="1" cat="inf" end="6" id="12" rel="vc">
+                  <node begin="1" cat="np" end="3" id="13" rel="obj1">
+                    <node begin="1" end="2" id="14" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                    <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="15" lemma="diploma" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="diploma" word="diploma"/>
+                  </node>
+                  <node begin="5" buiging="zonder" end="6" id="16" lemma="krijgen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="krijg" word="krijgen" wvorm="inf"/>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="7" end="8" id="17" index="1" rel="su"/>
+          <node begin="8" cat="np" end="11" id="18" rel="obj1">
+            <node begin="8" end="9" id="19" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="9" buiging="met-e" end="10" graad="basis" id="20" lemma="speciaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="speciaal" word="speciale"/>
+            <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="21" lemma="cursus" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="cursus" word="cursus"/>
+          </node>
+          <node begin="11" buiging="zonder" end="12" id="22" lemma="volgen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="volg" word="volgen" wvorm="inf"/>
+        </node>
+        <node begin="12" conjtype="neven" end="13" id="23" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="0" cat="inf" end="16" id="24" rel="cnj">
+          <node begin="0" end="6" id="25" index="2" rel="mod"/>
+          <node begin="7" end="8" id="26" index="1" rel="su"/>
+          <node begin="13" cat="np" end="15" id="27" rel="obj1">
+            <node begin="13" end="14" id="28" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="14" end="15" genus="onz" getal="ev" graad="basis" id="29" lemma="examen" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="examen" word="examen"/>
+          </node>
+          <node begin="15" buiging="zonder" end="16" id="30" lemma="af_leggen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="leg_af" word="afleggen" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="31" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Om het diploma te kunnen krijgen moeten zij een speciale cursus volgen en een examen afleggen .</sentence>
+</alpino_ds>

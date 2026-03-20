@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="1" end="2" id="2" lemma="moeten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="moet" word="moet" wvorm="pv"/>
+      <node begin="3" cat="np" end="6" id="3" index="1" rel="su">
+        <node begin="3" end="4" id="4" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="4" buiging="zonder" end="5" graad="basis" id="5" lemma="bescheiden" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="bescheiden" word="bescheiden"/>
+        <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="6" lemma="inschrijving_geld" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="inschrijvingsgeld" word="inschrijvingsgeld"/>
+      </node>
+      <node begin="0" cat="inf" end="8" id="7" rel="vc">
+        <node begin="3" end="6" id="8" index="1" rel="su"/>
+        <node begin="0" cat="ppart" end="7" id="9" rel="vc">
+          <node begin="0" end="1" getal="getal" id="10" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="Er"/>
+          <node begin="2" end="3" id="11" lemma="alleen" pos="adj" postag="BW()" pt="bw" rel="mod" root="alleen" word="alleen"/>
+          <node begin="3" end="6" id="12" index="1" rel="obj1"/>
+          <node begin="6" buiging="zonder" end="7" id="13" lemma="betalen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="betaal" word="betaald" wvorm="vd"/>
+        </node>
+        <node begin="7" buiging="zonder" end="8" id="14" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="15" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Er moet alleen een bescheiden inschrijvingsgeld betaald worden .</sentence>
+</alpino_ds>

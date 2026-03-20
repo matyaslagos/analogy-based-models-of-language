@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="7" end="8" id="2" lemma="worden" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="word" word="werden" wvorm="pv"/>
+      <node begin="8" cat="np" end="10" id="3" index="1" rel="su">
+        <node begin="8" buiging="met-e" end="9" id="4" lemma="omringen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="omring" word="omringende" wvorm="od"/>
+        <node begin="9" end="10" getal="mv" graad="basis" id="5" lemma="gemeente" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="gemeente" word="gemeenten"/>
+      </node>
+      <node begin="0" cat="ppart" end="11" id="6" rel="vc">
+        <node begin="0" cat="cp" end="7" id="7" rel="mod">
+          <node begin="0" conjtype="onder" end="1" id="8" lemma="naarmate" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="naarmate" word="Naarmate"/>
+          <node begin="1" cat="ssub" end="7" id="9" rel="body">
+            <node begin="1" cat="conj" end="6" id="10" rel="su">
+              <node begin="1" cat="np" end="3" id="11" rel="cnj">
+                <node begin="1" end="2" id="12" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="13" lemma="verstedelijking" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="verstedelijking" word="verstedelijking"/>
+              </node>
+              <node begin="3" conjtype="neven" end="4" id="14" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="4" cat="np" end="6" id="15" rel="cnj">
+                <node begin="4" end="5" id="16" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="17" lemma="verfransing" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="verfransing" word="verfransing"/>
+              </node>
+            </node>
+            <node begin="6" end="7" id="18" lemma="op_rukken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ruk_op" word="oprukte" wvorm="pv"/>
+          </node>
+        </node>
+        <node begin="8" end="10" id="19" index="1" rel="obj1"/>
+        <node begin="10" buiging="zonder" end="11" id="20" lemma="annexeren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="annexeer" word="geannexeerd" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="11" end="12" id="21" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Naarmate de verstedelijking en de verfransing oprukte werden omringende gemeenten geannexeerd .</sentence>
+</alpino_ds>

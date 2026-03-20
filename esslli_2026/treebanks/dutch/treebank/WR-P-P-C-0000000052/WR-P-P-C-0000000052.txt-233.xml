@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="smain" end="12" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="su">
+        <node begin="0" buiging="zonder" end="1" graad="basis" id="3" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,basis)" pt="vnw" rel="det" root="veel" vwtype="onbep" word="Veel"/>
+        <node begin="1" buiging="met-e" end="2" id="4" lemma="uit_gaan" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="uitgaand" word="uitgaande" wvorm="od"/>
+        <node begin="2" buiging="met-e" end="3" getal-n="mv-n" graad="comp" id="5" lemma="jong" pos="noun" positie="nom" postag="ADJ(nom,comp,met-e,mv-n)" pt="adj" rel="hd" root="jongere" word="jongeren"/>
+      </node>
+      <node begin="3" end="4" id="6" lemma="krijgen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="krijg" word="krijgen" wvorm="pv"/>
+      <node begin="4" cat="ti" end="6" id="7" rel="svp">
+        <node begin="4" end="5" id="8" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+        <node begin="5" buiging="zonder" end="6" id="9" lemma="maken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="body" root="maak" word="maken" wvorm="inf"/>
+      </node>
+      <node begin="6" cat="pp" end="12" id="10" rel="pc">
+        <node begin="6" end="7" id="11" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+        <node begin="7" cat="np" end="12" id="12" rel="obj1">
+          <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="13" lemma="agressie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="agressie" word="agressie"/>
+          <node begin="8" cat="pp" end="12" id="14" rel="mod">
+            <node begin="8" cat="mwu" end="11" id="15" rel="hd">
+              <node begin="8" conjtype="onder" end="9" id="16" lemma="als" pos="prep" postag="VG(onder)" pt="vg" rel="mwp" root="als" word="als"/>
+              <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="17" lemma="gevolg" naamval="stan" ntype="soort" pos="prep" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="gevolg" word="gevolg"/>
+              <node begin="10" end="11" id="18" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="van" vztype="init" word="van"/>
+            </node>
+            <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="19" lemma="alcohol" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="alcohol" word="alcohol"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" id="20" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Veel uitgaande jongeren krijgen te maken met agressie als gevolg van alcohol .</sentence>
+</alpino_ds>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" cat="mwu" end="2" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="Neelie" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Neelie" spectype="deeleigen" word="Neelie"/>
+        <node begin="1" end="2" id="4" lemma="Kroes" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Kroes" spectype="deeleigen" word="Kroes"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="gaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ga" word="gaat" wvorm="pv"/>
+      <node begin="3" cat="cp" end="5" id="6" rel="predm">
+        <node begin="3" conjtype="onder" end="4" id="7" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+        <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="8" lemma="euro_commissaris" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="body" root="euro_commissaris" word="eurocommissaris"/>
+      </node>
+      <node begin="5" cat="pp" end="7" id="9" rel="ld">
+        <node begin="5" end="6" id="10" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+        <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="11" lemma="Brussel" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Brussel" word="Brussel"/>
+      </node>
+    </node>
+  </node>
+  <sentence>Neelie Kroes gaat als eurocommissaris naar Brussel</sentence>
+</alpino_ds>

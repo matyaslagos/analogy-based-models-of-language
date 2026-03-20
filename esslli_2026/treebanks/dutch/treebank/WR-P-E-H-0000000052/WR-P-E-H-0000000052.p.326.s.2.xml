@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="51" id="0" rel="top">
+    <node begin="29" end="30" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="35" end="36" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="36" end="37" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="50" id="4" rel="--">
+      <node begin="0" buiging="zonder" end="1" graad="basis" id="5" lemma="regelmatig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="regelmatig" word="Regelmatig"/>
+      <node begin="1" end="2" id="6" lemma="plaats_vinden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="vind_plaats" word="vindt" wvorm="pv"/>
+      <node begin="2" end="3" id="7" lemma="nu" pos="adv" postag="BW()" pt="bw" rel="mod" root="nu" word="nu"/>
+      <node begin="3" cat="np" end="5" id="8" rel="su">
+        <node begin="3" buiging="zonder" end="4" graad="basis" id="9" lemma="ambtelijk" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="ambtelijk" word="ambtelijk"/>
+        <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="10" lemma="overleg" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="overleg" word="overleg"/>
+      </node>
+      <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="11" lemma="plaats" naamval="stan" ntype="soort" pos="part" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="svp" root="plaats" word="plaats"/>
+      <node begin="6" cat="pp" end="18" id="12" rel="mod">
+        <node begin="6" end="7" id="13" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+        <node begin="7" cat="np" end="18" id="14" rel="obj1">
+          <node begin="7" end="8" getal="mv" graad="basis" id="15" lemma="vertegenwoordiger" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vertegenwoordiger" word="vertegenwoordigers"/>
+          <node begin="8" cat="pp" end="18" id="16" rel="mod">
+            <node begin="8" end="9" id="17" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="9" cat="np" end="18" id="18" rel="obj1">
+              <node begin="9" end="10" id="19" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="10" end="11" getal="mv" graad="basis" id="20" lemma="ministerie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="ministerie" word="ministeries"/>
+              <node begin="11" cat="pp" end="18" id="21" rel="mod">
+                <node begin="11" end="12" id="22" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="12" cat="np" end="18" id="23" rel="obj1">
+                  <node begin="12" cat="mwu" end="14" id="24" rel="hd">
+                    <node begin="12" buiging="met-e" end="13" graad="basis" id="25" lemma="binnenlands" naamval="stan" pos="name" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mwp" root="Binnenlandse" word="Binnenlandse"/>
+                    <node begin="13" end="14" getal="mv" graad="basis" id="26" lemma="zaak" ntype="soort" pos="name" postag="N(soort,mv,basis)" pt="n" rel="mwp" root="Zaken" word="Zaken"/>
+                  </node>
+                  <node begin="14" cat="pp" end="18" id="27" rel="mod">
+                    <node begin="14" end="15" id="28" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                    <node begin="15" cat="conj" end="18" id="29" rel="obj1">
+                      <node begin="15" end="16" genus="onz" getal="ev" graad="basis" id="30" lemma="Noordrijn-Westfalen" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Noordrijn-Westfalen" word="Noordrijn-Westfalen"/>
+                      <node begin="16" conjtype="neven" end="17" id="31" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                      <node begin="17" end="18" genus="onz" getal="ev" graad="basis" id="32" lemma="Nedersaksen" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Nedersaksen" word="Nedersaksen"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="18" cat="pp" end="50" id="33" rel="mod">
+        <node begin="18" end="19" id="34" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" vztype="init" word="over"/>
+        <node begin="19" cat="conj" end="50" id="35" rel="obj1">
+          <node begin="19" cat="conj" end="35" id="36" rel="cnj">
+            <node begin="19" cat="np" end="24" id="37" rel="cnj">
+              <node begin="19" end="20" id="38" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="20" end="21" genus="zijd" getal="ev" graad="basis" id="39" lemma="implementatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="implementatie" word="implementatie"/>
+              <node begin="21" cat="pp" end="24" id="40" rel="mod">
+                <node begin="21" end="22" id="41" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="22" cat="np" end="24" id="42" rel="obj1">
+                  <node begin="22" end="23" id="43" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                  <node begin="23" end="24" genus="onz" getal="ev" graad="basis" id="44" lemma="verdrag" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="verdrag" word="verdrag"/>
+                </node>
+              </node>
+            </node>
+            <node begin="24" conjtype="neven" end="25" id="45" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="25" cat="np" end="35" id="46" rel="cnj">
+              <node begin="25" end="26" id="47" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="26" buiging="met-e" end="27" graad="basis" id="48" lemma="politieel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="politiële" word="politiële"/>
+              <node begin="27" end="28" genus="zijd" getal="ev" graad="basis" id="49" lemma="samenwerking" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="samenwerking" word="samenwerking"/>
+              <node begin="28" end="29" id="50" lemma="daaromtrent" pos="pp" postag="BW()" pt="bw" rel="mod" root="daaromtrent" word="daaromtrent"/>
+              <node begin="30" cat="np" end="35" id="51" rel="mod">
+                <node begin="30" buiging="zonder" end="31" graad="basis" id="52" lemma="mobiel" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="mobiel" word="mobiel"/>
+                <node begin="31" end="32" genus="onz" getal="ev" graad="basis" id="53" lemma="toezicht" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="toezicht" word="toezicht"/>
+                <node begin="32" cat="pp" end="35" id="54" rel="mod">
+                  <node begin="32" end="33" id="55" lemma="achter" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="achter" vztype="init" word="achter"/>
+                  <node begin="33" cat="np" end="35" id="56" rel="obj1">
+                    <node begin="33" end="34" id="57" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="34" end="35" genus="zijd" getal="ev" graad="basis" id="58" lemma="grens" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="grens" word="grens"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="37" cat="np" end="45" id="59" rel="cnj">
+            <node begin="37" end="38" id="60" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="38" end="39" genus="zijd" getal="ev" graad="basis" id="61" lemma="samenwerking" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="samenwerking" word="samenwerking"/>
+            <node begin="39" cat="pp" end="45" id="62" rel="mod">
+              <node begin="39" end="40" id="63" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+              <node begin="40" cat="np" end="45" id="64" rel="obj1">
+                <node begin="40" end="41" id="65" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="41" end="42" genus="zijd" getal="ev" graad="basis" id="66" lemma="aanpak" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="aanpak" word="aanpak"/>
+                <node begin="42" cat="pp" end="45" id="67" rel="mod">
+                  <node begin="42" end="43" id="68" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                  <node begin="43" cat="np" end="45" id="69" rel="obj1">
+                    <node begin="43" end="44" id="70" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                    <node begin="44" end="45" genus="onz" getal="ev" graad="basis" id="71" lemma="drug_toerisme" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="drug_toerisme" word="drugstoerisme"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="45" conjtype="neven" end="46" id="72" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="46" cat="np" end="50" id="73" rel="cnj">
+            <node begin="46" end="47" id="74" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="47" end="48" genus="zijd" getal="ev" graad="basis" id="75" lemma="afhandeling" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="afhandeling" word="afhandeling"/>
+            <node begin="48" cat="pp" end="50" id="76" rel="mod">
+              <node begin="48" end="49" id="77" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="49" end="50" getal="mv" graad="basis" id="78" lemma="asiel_verzoek" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="asiel_verzoek" word="asielverzoeken"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="50" end="51" id="79" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Regelmatig vindt nu ambtelijk overleg plaats met vertegenwoordigers van de ministeries van Binnenlandse Zaken van Noordrijn-Westfalen en Nedersaksen over de implementatie van het verdrag en de politiële samenwerking daaromtrent ( mobiel toezicht achter de grens ) , de samenwerking bij de aanpak van het drugstoerisme en de afhandeling van asielverzoeken .</sentence>
+</alpino_ds>

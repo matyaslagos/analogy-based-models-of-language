@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="11" end="12" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="19" id="2" rel="--">
+      <node begin="0" cat="smain" end="11" id="3" rel="nucl">
+        <node begin="0" cat="np" end="4" id="4" rel="su">
+          <node begin="0" end="1" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+          <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="6" lemma="inspanning" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="inspanning" word="inspanning"/>
+          <node begin="2" cat="pp" end="4" id="7" rel="mod">
+            <node begin="2" end="3" id="8" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="3" end="4" getal="mv" graad="basis" id="9" lemma="bedrijf" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="bedrijf" word="bedrijven"/>
+          </node>
+        </node>
+        <node begin="4" end="5" id="10" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="5" end="6" id="11" lemma="bovendien" pos="adv" postag="BW()" pt="bw" rel="mod" root="bovendien" word="bovendien"/>
+        <node begin="6" cat="ppart" end="11" id="12" rel="mod">
+          <node begin="6" buiging="zonder" end="7" graad="basis" id="13" lemma="sterk" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="sterk" word="sterk"/>
+          <node begin="7" buiging="zonder" end="8" id="14" lemma="richten" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="gericht" word="gericht" wvorm="vd"/>
+          <node begin="8" cat="pp" end="11" id="15" rel="pc">
+            <node begin="8" end="9" id="16" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+            <node begin="9" cat="np" end="11" id="17" rel="obj1">
+              <node begin="9" buiging="met-e" end="10" graad="basis" id="18" lemma="specifiek" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="specifiek" word="specifieke"/>
+              <node begin="10" end="11" getal="mv" graad="basis" id="19" lemma="wetenschap" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="wetenschap" word="wetenschappen"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="12" cat="cp" end="19" id="20" rel="sat">
+        <node begin="12" end="13" id="21" lemma="namelijk" pos="comp" postag="BW()" pt="bw" rel="cmp" root="namelijk" word="namelijk"/>
+        <node begin="13" cat="np" end="19" id="22" rel="body">
+          <node begin="13" end="14" getal="getal" id="23" lemma="die" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(aanw,pron,stan,vol,3,getal)" pt="vnw" rel="hd" root="die" status="vol" vwtype="aanw" word="die"/>
+          <node begin="14" cat="rel" end="19" id="24" rel="mod">
+            <node begin="14" end="15" id="25" index="1" lemma="waarin" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waarin" word="waarin"/>
+            <node begin="14" cat="ssub" end="19" id="26" rel="body">
+              <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="27" index="2" lemma="winst" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="su" root="winst" word="winst"/>
+              <node begin="14" cat="ti" end="18" id="28" rel="vc">
+                <node begin="16" end="17" id="29" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+                <node begin="14" cat="inf" end="18" id="30" rel="body">
+                  <node begin="14" end="15" id="31" index="1" rel="mod"/>
+                  <node begin="15" end="16" id="32" index="2" rel="obj1"/>
+                  <node begin="17" buiging="zonder" end="18" id="33" lemma="verwachten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="verwacht" word="verwachten" wvorm="inf"/>
+                </node>
+              </node>
+              <node begin="18" end="19" id="34" lemma="vallen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="val" word="valt" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="35" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De inspanning van bedrijven is bovendien sterk gericht op specifieke wetenschappen , namelijk die waarin winst te verwachten valt .</sentence>
+</alpino_ds>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" end="1" genus="fem" getal="ev" id="2" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,ev,fem)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="Ze"/>
+      <node begin="1" end="2" id="3" lemma="schuiven" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="schuif" word="schuift" wvorm="pv"/>
+      <node begin="2" cat="mwu" end="4" id="4" rel="obj1">
+        <node begin="2" end="3" id="5" lemma="Edmund" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Edmund" spectype="deeleigen" word="Edmund"/>
+        <node begin="3" end="4" id="6" lemma="Stoiber" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Stoiber" spectype="deeleigen" word="Stoiber"/>
+      </node>
+      <node begin="4" cat="pp" end="6" id="7" rel="ld">
+        <node begin="4" end="5" id="8" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+        <node begin="5" end="6" id="9" lemma="voren" pos="adv" postag="BW()" pt="bw" rel="obj1" root="voren" word="voren"/>
+      </node>
+      <node begin="6" cat="cp" end="8" id="10" rel="predm">
+        <node begin="6" conjtype="onder" end="7" id="11" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+        <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="12" lemma="kandidaat_kanselier" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="body" root="kandidaat_kanselier" word="kandidaat-kanselier"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="13" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Ze schuift Edmund Stoiber naar voren als kandidaat-kanselier .</sentence>
+</alpino_ds>

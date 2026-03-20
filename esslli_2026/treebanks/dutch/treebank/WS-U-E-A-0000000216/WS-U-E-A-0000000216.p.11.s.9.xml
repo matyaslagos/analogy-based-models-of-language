@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="16" id="2" rel="--">
+      <node begin="0" cat="mwu" end="2" id="3" rel="crd">
+        <node begin="0" end="1" id="4" lemma="niet" pos="vg" postag="BW()" pt="bw" rel="mwp" root="niet" word="Niet"/>
+        <node begin="1" end="2" id="5" lemma="zozeer" pos="vg" postag="BW()" pt="bw" rel="mwp" root="zozeer" word="zozeer"/>
+      </node>
+      <node begin="2" cat="np" end="7" id="6" rel="cnj">
+        <node begin="2" end="3" id="7" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+        <node begin="3" buiging="zonder" end="4" getal-n="zonder-n" id="8" lemma="testen" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="test" word="testen" wvorm="inf"/>
+        <node begin="4" cat="pp" end="7" id="9" rel="mod">
+          <node begin="4" end="5" id="10" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="5" cat="np" end="7" id="11" rel="obj1">
+            <node begin="5" end="6" id="12" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="13" lemma="discotheek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="discotheek" word="discotheek"/>
+          </node>
+        </node>
+      </node>
+      <node begin="8" cat="mwu" end="10" id="14" rel="crd">
+        <node begin="8" conjtype="onder" end="9" id="15" lemma="als" pos="vg" postag="VG(onder)" pt="vg" rel="mwp" root="als" word="als"/>
+        <node begin="9" end="10" id="16" lemma="wel" pos="vg" postag="BW()" pt="bw" rel="mwp" root="wel" word="wel"/>
+      </node>
+      <node begin="10" cat="np" end="16" id="17" rel="cnj">
+        <node begin="10" buiging="met-e" end="11" getal-n="mv-n" graad="comp" id="18" lemma="risico_jong" pos="noun" positie="nom" postag="ADJ(nom,comp,met-e,mv-n)" pt="adj" rel="obj1" root="risico_jongere" word="risicojongeren"/>
+        <node begin="11" cat="pp" end="15" id="19" rel="mod">
+          <node begin="11" end="12" id="20" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="12" cat="np" end="15" id="21" rel="obj1">
+            <node begin="12" buiging="zonder" end="13" getal="mv" id="22" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+            <node begin="13" buiging="zonder" end="14" graad="basis" id="23" lemma="eigen" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="eigen" word="eigen"/>
+            <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="24" lemma="omgeving" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="omgeving" word="omgeving"/>
+          </node>
+        </node>
+        <node begin="15" buiging="zonder" end="16" getal-n="zonder-n" id="25" lemma="op_zoeken" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="zoek_op" word="opzoeken" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="16" end="17" id="26" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Niet zozeer het testen in een discotheek , als wel risicojongeren in hun eigen omgeving opzoeken .</sentence>
+</alpino_ds>

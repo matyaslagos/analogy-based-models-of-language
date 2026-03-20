@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="34" id="0" rel="top">
+    <node begin="20" end="21" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="22" end="23" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="28" end="29" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="33" id="4" rel="--">
+      <node begin="0" cat="pp" end="3" id="5" rel="mod">
+        <node begin="0" end="1" id="6" lemma="naast" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naast" vztype="init" word="Naast"/>
+        <node begin="1" cat="np" end="3" id="7" rel="obj1">
+          <node begin="1" end="2" id="8" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="2" end="3" getal="mv" graad="basis" id="9" lemma="routine_parameter" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="routine_parameter" word="routineparameters"/>
+        </node>
+      </node>
+      <node begin="3" end="4" id="10" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="heeft" wvorm="pv"/>
+      <node begin="4" cat="np" end="6" id="11" rel="su">
+        <node begin="4" end="5" id="12" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+        <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="13" lemma="BMM_laboratorium" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="BMM_laboratorium" word="BMM-laboratorium"/>
+      </node>
+      <node begin="6" end="7" id="14" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+      <node begin="7" cat="conj" end="33" id="15" rel="obj1">
+        <node begin="9" conjtype="neven" end="10" id="16" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="7" cat="np" end="33" id="17" rel="cnj">
+          <node begin="7" end="8" id="18" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="19" lemma="mogelijkheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="mogelijkheid" word="mogelijkheid"/>
+          <node begin="12" cat="pp" end="33" id="20" index="1" rel="mod">
+            <node begin="12" end="13" id="21" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+            <node begin="13" cat="np" end="33" id="22" rel="obj1">
+              <node begin="13" end="14" id="23" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="14" buiging="zonder" end="15" getal-n="zonder-n" id="24" lemma="bepalen" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="bepaal" word="bepalen" wvorm="inf"/>
+              <node begin="15" cat="pp" end="33" id="25" rel="mod">
+                <node begin="15" end="16" id="26" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="16" cat="np" end="33" id="27" rel="obj1">
+                  <node begin="16" buiging="met-e" end="17" graad="basis" id="28" lemma="ander" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ander" word="andere"/>
+                  <node begin="17" end="18" getal="mv" graad="basis" id="29" lemma="parameter" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="parameter" word="parameters"/>
+                  <node begin="18" cat="cp" end="33" id="30" rel="mod">
+                    <node begin="18" conjtype="onder" end="19" id="31" lemma="zoals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zoals" word="zoals"/>
+                    <node begin="19" cat="conj" end="33" id="32" rel="body">
+                      <node begin="19" cat="np" end="22" id="33" rel="cnj">
+                        <node begin="19" end="20" getal="mv" graad="basis" id="34" lemma="PCB" ntype="soort" pos="name" postag="N(soort,mv,basis)" pt="n" rel="hd" root="PCB&apos;s" word="PCB&apos;s"/>
+                        <node begin="21" end="22" getal="mv" graad="basis" id="35" lemma="polychloorbifenyl" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mod" root="polychloorbifenylen" word="polychloorbifenylen"/>
+                      </node>
+                      <node begin="23" conjtype="neven" end="24" id="36" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                      <node begin="24" cat="np" end="33" id="37" rel="cnj">
+                        <node begin="24" end="25" getal="mv" graad="basis" id="38" lemma="pesticide" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="pesticiden" word="pesticiden"/>
+                        <node begin="25" cat="pp" end="33" id="39" rel="mod">
+                          <node begin="25" end="26" id="40" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                          <node begin="26" cat="np" end="33" id="41" rel="obj1">
+                            <node begin="26" buiging="met-e" end="27" graad="basis" id="42" lemma="marien" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="marien" word="mariene"/>
+                            <node begin="27" end="28" getal="mv" graad="basis" id="43" lemma="matrix" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="matrix" word="matrices"/>
+                            <node begin="29" cat="cp" end="33" id="44" rel="mod">
+                              <node begin="29" buiging="zonder" end="30" graad="basis" id="45" lemma="inclusief" pos="comp" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="cmp" root="inclusief" word="inclusief"/>
+                              <node begin="30" cat="conj" end="33" id="46" rel="body">
+                                <node begin="30" end="31" getal="mv" graad="basis" id="47" lemma="vogel" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="vogel" word="vogels"/>
+                                <node begin="31" conjtype="neven" end="32" id="48" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                                <node begin="32" end="33" getal="mv" graad="basis" id="49" lemma="zee_zoogdier" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="zee_zoogdier" word="zeezoogdieren"/>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="10" cat="np" end="33" id="50" rel="cnj">
+          <node begin="10" end="11" id="51" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="52" lemma="expertise" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="expertise" word="expertise"/>
+          <node begin="12" end="33" id="53" index="1" rel="mod"/>
+        </node>
+      </node>
+    </node>
+    <node begin="33" end="34" id="54" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Naast de routineparameters heeft het BMM-laboratorium ook de mogelijkheid en de expertise voor het bepalen van andere parameters zoals PCB&apos;s ( polychloorbifenylen ) en pesticiden in mariene matrices , inclusief vogels en zeezoogdieren .</sentence>
+</alpino_ds>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="30" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="..." pos="punct" postag="LET()" pt="let" rel="--" root="..." word="..."/>
+    <node begin="10" end="11" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="24" end="25" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="29" id="4" rel="--">
+      <node begin="0" cat="smain" end="8" id="5" rel="dp">
+        <node begin="0" cat="pp" end="3" id="6" rel="ld">
+          <node begin="0" end="1" id="7" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+          <node begin="1" cat="mwu" end="3" id="8" rel="obj1">
+            <node begin="1" end="2" id="9" lemma="Den" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Den" spectype="deeleigen" word="Den"/>
+            <node begin="2" end="3" id="10" lemma="Haag" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Haag" spectype="deeleigen" word="Haag"/>
+          </node>
+        </node>
+        <node begin="3" end="4" id="11" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="4" cat="np" end="8" id="12" rel="su">
+          <node begin="4" buiging="zonder" end="5" graad="basis" id="13" lemma="politiek" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="politiek" word="politiek"/>
+          <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="14" lemma="redacteur" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="redacteur" word="redacteur"/>
+          <node begin="6" cat="mwu" end="8" id="15" rel="app">
+            <node begin="6" end="7" id="16" lemma="Bram" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Bram" spectype="deeleigen" word="Bram"/>
+            <node begin="7" end="8" id="17" lemma="Schilham" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Schilham" spectype="deeleigen" word="Schilham"/>
+          </node>
+        </node>
+      </node>
+      <node begin="9" cat="du" end="29" id="18" rel="dp">
+        <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="19" lemma="Bram" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="tag" root="Bram" word="Bram"/>
+        <node begin="11" cat="whq" end="29" id="20" rel="nucl">
+          <node begin="11" cat="ap" end="13" id="21" index="1" rel="whd">
+            <node begin="11" end="12" id="22" lemma="hoe" pos="adj" postag="BW()" pt="bw" rel="mod" root="hoe" word="hoe"/>
+            <node begin="12" buiging="zonder" end="13" graad="basis" id="23" lemma="bijzonder" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="bijzonder" word="bijzonder"/>
+          </node>
+          <node begin="11" cat="sv1" end="29" id="24" rel="body">
+            <node begin="11" end="13" id="25" index="1" rel="predc"/>
+            <node begin="13" end="14" id="26" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+            <node begin="14" end="15" genus="onz" getal="ev" id="27" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="noun" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="sup" root="het" status="red" vwtype="pers" word="het"/>
+            <node begin="15" cat="cp" end="29" id="28" rel="su">
+              <node begin="15" conjtype="onder" end="16" id="29" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+              <node begin="16" cat="ssub" end="29" id="30" rel="body">
+                <node begin="16" cat="np" end="24" id="31" rel="su">
+                  <node begin="16" end="17" id="32" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                  <node begin="17" buiging="met-e" end="18" graad="basis" id="33" lemma="groot" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="groot" word="grote"/>
+                  <node begin="18" end="19" genus="zijd" getal="ev" graad="basis" id="34" lemma="partij" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="partij" word="partij"/>
+                  <node begin="19" cat="rel" end="24" id="35" rel="mod">
+                    <node begin="19" end="20" getal="getal" id="36" index="2" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+                    <node begin="19" cat="ssub" end="24" id="37" rel="body">
+                      <node begin="19" end="20" id="38" index="2" rel="su"/>
+                      <node begin="22" end="23" id="39" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="heeft" wvorm="pv"/>
+                      <node begin="19" cat="ppart" end="24" id="40" rel="vc">
+                        <node begin="19" end="20" id="41" index="2" rel="su"/>
+                        <node begin="20" buiging="zonder" end="21" graad="basis" id="42" lemma="vaak" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="vaak" word="vaak"/>
+                        <node begin="21" end="22" genus="zijd" getal="ev" graad="basis" id="43" lemma="regering_verantwoordelijkheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="regering_verantwoordelijkheid" word="regeringsverantwoordelijkheid"/>
+                        <node begin="23" buiging="zonder" end="24" id="44" lemma="dragen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="draag" word="gedragen" wvorm="vd"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node begin="25" cat="np" end="28" id="45" rel="obj1">
+                  <node begin="25" end="26" id="46" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                  <node begin="26" buiging="met-e" end="27" graad="basis" id="47" lemma="dergelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="dergelijk" word="dergelijke"/>
+                  <node begin="27" end="28" genus="zijd" getal="ev" graad="basis" id="48" lemma="oproep" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="oproep" word="oproep"/>
+                </node>
+                <node begin="28" end="29" id="49" lemma="doen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="doe" word="doet" wvorm="pv"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="29" end="30" id="50" lemma="...." pos="punct" postag="LET()" pt="let" rel="--" root="...." word="...."/>
+  </node>
+  <sentence>In Den Haag is politiek redacteur Bram Schilham ... Bram , hoe bijzonder is het dat een grote partij die vaak regeringsverantwoordelijkheid heeft gedragen , een dergelijke oproep doet ....</sentence>
+</alpino_ds>

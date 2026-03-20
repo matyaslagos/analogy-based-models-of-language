@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="0" cat="smain" end="19" id="1" rel="--">
+      <node begin="0" cat="mwu" end="2" id="2" index="1" rel="su">
+        <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="3" lemma="Partner" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Partner" word="Partner"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="4" lemma="management" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="management" word="management"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="zullen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zal" word="zal" wvorm="pv"/>
+      <node begin="0" cat="inf" end="19" id="6" rel="vc">
+        <node begin="0" end="2" id="7" index="1" rel="su"/>
+        <node begin="5" buiging="zonder" end="6" id="8" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+        <node begin="3" cat="np" end="9" id="9" rel="predc">
+          <node begin="3" end="4" id="10" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="11" lemma="spil" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="spil" word="spil"/>
+          <node begin="6" cat="pp" end="9" id="12" rel="mod">
+            <node begin="6" end="7" id="13" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="7" cat="np" end="9" id="14" rel="obj1">
+              <node begin="7" buiging="met-e" end="8" id="15" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="deze"/>
+              <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="16" lemma="plug-and-play_filosofie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="plug-and-play_filosofie" word="plug-and-play-filosofie"/>
+            </node>
+          </node>
+        </node>
+        <node begin="9" cat="cp" end="19" id="17" rel="mod">
+          <node begin="9" conjtype="onder" end="10" id="18" lemma="zodra" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zodra" word="zodra"/>
+          <node begin="10" cat="ssub" end="19" id="19" rel="body">
+            <node begin="11" end="12" getal="mv" graad="basis" id="20" index="2" lemma="relatie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="relatie" word="relaties"/>
+            <node begin="14" end="15" id="21" lemma="moeten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="moet" word="moeten" wvorm="pv"/>
+            <node begin="10" cat="inf" end="19" id="22" rel="vc">
+              <node begin="11" end="12" id="23" index="2" rel="su"/>
+              <node begin="15" buiging="zonder" end="16" id="24" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+              <node begin="10" cat="conj" end="19" id="25" rel="vc">
+                <node begin="10" cat="ppart" end="17" id="26" rel="cnj">
+                  <node begin="10" end="11" getal="getal" id="27" index="3" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+                  <node begin="11" end="12" id="28" index="2" rel="obj1"/>
+                  <node begin="12" cat="pp" end="14" id="29" index="4" rel="mod">
+                    <node begin="12" end="13" id="30" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+                    <node begin="13" end="14" getal="mv" graad="basis" id="31" lemma="partner" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="partner" word="partners"/>
+                  </node>
+                  <node begin="16" buiging="zonder" end="17" id="32" lemma="sluiten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="sluit" word="gesloten" wvorm="vd"/>
+                </node>
+                <node begin="17" conjtype="neven" end="18" id="33" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+                <node begin="10" cat="ppart" end="19" id="34" rel="cnj">
+                  <node begin="10" end="11" id="35" index="3" rel="mod"/>
+                  <node begin="11" end="12" id="36" index="2" rel="obj1"/>
+                  <node begin="12" end="14" id="37" index="4" rel="mod"/>
+                  <node begin="18" buiging="zonder" end="19" id="38" lemma="verbreken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="verbreek" word="verbroken" wvorm="vd"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="39" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Partner management zal de spil worden in deze plug-and-play-filosofie zodra er relaties met partners moeten worden gesloten of verbroken .</sentence>
+</alpino_ds>

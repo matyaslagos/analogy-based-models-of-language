@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="du" end="6" id="2" rel="--">
+      <node begin="0" cat="mwu" end="3" id="3" rel="nucl">
+        <node begin="0" end="1" id="4" lemma="Brussels" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Brussels" spectype="deeleigen" word="Brussels"/>
+        <node begin="1" end="2" id="5" lemma="Hoofdstedelijk" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Hoofdstedelijk" spectype="deeleigen" word="Hoofdstedelijk"/>
+        <node begin="2" end="3" id="6" lemma="Parlement" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Parlement" spectype="deeleigen" word="Parlement"/>
+      </node>
+      <node begin="4" cat="np" end="6" id="7" rel="sat">
+        <node begin="4" end="5" id="8" lemma="89" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="89" word="89"/>
+        <node begin="5" end="6" getal="mv" graad="basis" id="9" lemma="lid" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="lid" word="leden"/>
+      </node>
+    </node>
+    <node begin="6" end="7" id="10" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+  </node>
+  <sentence>Brussels Hoofdstedelijk Parlement ( 89 leden )</sentence>
+</alpino_ds>

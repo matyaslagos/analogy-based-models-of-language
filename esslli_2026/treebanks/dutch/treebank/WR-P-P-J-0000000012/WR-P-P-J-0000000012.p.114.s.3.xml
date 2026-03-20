@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="20" id="2" rel="--">
+      <node begin="0" cat="smain" end="7" id="3" rel="cnj">
+        <node begin="1" end="2" id="4" lemma="kunnen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="kan" word="kon" wvorm="pv"/>
+        <node begin="2" end="3" genus="masc" getal="ev" id="5" index="1" lemma="men" naamval="nomin" pdtype="pron" persoon="3p" pos="pron" postag="VNW(pers,pron,nomin,red,3p,ev,masc)" pt="vnw" rel="su" root="men" status="red" vwtype="pers" word="men"/>
+        <node begin="0" cat="inf" end="7" id="6" rel="vc">
+          <node begin="0" end="1" id="7" lemma="hiertegen" pos="pp" postag="BW()" pt="bw" rel="pc" root="hiertegen" word="Hiertegen"/>
+          <node begin="2" end="3" id="8" index="1" rel="su"/>
+          <node begin="3" cat="np" end="6" id="9" rel="obj1">
+            <node begin="3" buiging="zonder" end="4" id="10" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="geen"/>
+            <node begin="4" buiging="zonder" end="5" id="11" lemma="enkel" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="enkel" vwtype="onbep" word="enkel"/>
+            <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="12" lemma="bezwaar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="bezwaar" word="bezwaar"/>
+          </node>
+          <node begin="6" buiging="zonder" end="7" id="13" lemma="hebben" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="heb" word="hebben" wvorm="inf"/>
+        </node>
+      </node>
+      <node begin="8" conjtype="neven" end="9" id="14" lemma="want" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="want" word="want"/>
+      <node begin="9" cat="smain" end="20" id="15" rel="cnj">
+        <node begin="9" cat="pp" end="12" id="16" rel="mod">
+          <node begin="9" end="10" id="17" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="10" cat="np" end="12" id="18" rel="obj1">
+            <node begin="10" end="11" id="19" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="11" end="12" getal="mv" graad="basis" id="20" lemma="gewest_regering" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="gewest_regering" word="gewestregeringen"/>
+          </node>
+        </node>
+        <node begin="12" end="13" id="21" lemma="zijn" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="ben" word="waren" wvorm="pv"/>
+        <node begin="13" cat="np" end="15" id="22" rel="su">
+          <node begin="13" buiging="zonder" end="14" id="23" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="geen"/>
+          <node begin="14" end="15" getal="mv" graad="basis" id="24" lemma="minister" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="minister" word="ministers"/>
+        </node>
+        <node begin="15" cat="ap" end="17" id="25" rel="predc">
+          <node begin="15" buiging="zonder" end="16" graad="basis" id="26" lemma="uitdrukkelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="uitdrukkelijk" word="uitdrukkelijk"/>
+          <node begin="16" buiging="zonder" end="17" graad="basis" id="27" lemma="bevoegd" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="bevoegd" word="bevoegd"/>
+        </node>
+        <node begin="17" cat="pp" end="20" id="28" rel="mod">
+          <node begin="17" end="18" id="29" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="18" cat="np" end="20" id="30" rel="obj1">
+            <node begin="18" buiging="met-e" end="19" graad="basis" id="31" lemma="duurzaam" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="duurzaam" word="duurzame"/>
+            <node begin="19" end="20" genus="zijd" getal="ev" graad="basis" id="32" lemma="ontwikkeling" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="ontwikkeling" word="ontwikkeling"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="20" end="21" id="33" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Hiertegen kon men geen enkel bezwaar hebben , want in de gewestregeringen waren geen ministers uitdrukkelijk bevoegd voor duurzame ontwikkeling .</sentence>
+</alpino_ds>

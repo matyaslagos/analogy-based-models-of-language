@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="9" id="1" rel="--">
+      <node begin="0" end="1" getal="mv" graad="basis" id="2" lemma="Sovjet_soldaat" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="sovjet_soldaat" word="Sovjetsoldaten"/>
+      <node begin="1" end="2" id="3" lemma="hijsen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="hijs" word="hijsen" wvorm="pv"/>
+      <node begin="2" cat="np" end="4" id="4" rel="obj1">
+        <node begin="2" buiging="zonder" end="3" getal="mv" id="5" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+        <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="6" lemma="vlag" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="vlag" word="vlag"/>
+      </node>
+      <node begin="4" cat="pp" end="9" id="7" rel="ld">
+        <node begin="4" end="5" id="8" lemma="boven" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="boven" vztype="init" word="boven"/>
+        <node begin="5" cat="np" end="9" id="9" rel="obj1">
+          <node begin="5" end="6" id="10" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="11" lemma="Rijksdag" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Rijksdag" word="Rijksdag"/>
+          <node begin="7" cat="pp" end="9" id="12" rel="mod">
+            <node begin="7" end="8" id="13" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="14" lemma="Berlijn" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Berlijn" word="Berlijn"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>Sovjetsoldaten hijsen hun vlag boven de Rijksdag in Berlijn</sentence>
+</alpino_ds>

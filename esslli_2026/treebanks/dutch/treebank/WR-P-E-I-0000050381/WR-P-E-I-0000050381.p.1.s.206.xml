@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="24" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="9" end="10" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="13" end="14" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="23" id="4" rel="--">
+      <node begin="0" cat="smain" end="13" id="5" rel="cnj">
+        <node begin="2" end="3" id="6" lemma="zullen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zal" word="zal" wvorm="pv"/>
+        <node begin="3" cat="np" end="9" id="7" index="1" rel="su">
+          <node begin="3" end="4" id="8" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="4" buiging="met-e" end="5" graad="basis" id="9" lemma="toenmalig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="toenmalig" word="toenmalige"/>
+          <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="10" lemma="predikant" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="predikant" word="predikant"/>
+          <node begin="7" cat="mwu" end="9" id="11" rel="app">
+            <node begin="7" end="8" id="12" lemma="Lambertus" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Lambertus" spectype="deeleigen" word="Lambertus"/>
+            <node begin="8" end="9" id="13" lemma="Latonius" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Latonius" spectype="deeleigen" word="Latonius"/>
+          </node>
+        </node>
+        <node begin="0" cat="inf" end="13" id="14" rel="vc">
+          <node begin="3" end="9" id="15" index="1" rel="su"/>
+          <node begin="0" cat="ppart" end="12" id="16" rel="vc">
+            <node begin="0" cat="np" end="2" id="17" rel="obj1">
+              <node begin="0" buiging="zonder" end="1" graad="basis" id="18" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,basis)" pt="vnw" rel="det" root="veel" vwtype="onbep" word="Veel"/>
+              <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="19" lemma="werk" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="werk" word="werk"/>
+            </node>
+            <node begin="3" end="9" id="20" index="1" rel="su"/>
+            <node begin="10" end="11" id="21" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+            <node begin="11" buiging="zonder" end="12" id="22" lemma="hebben" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="heb" word="gehad" wvorm="vd"/>
+          </node>
+          <node begin="12" buiging="zonder" end="13" id="23" lemma="hebben" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="heb" word="hebben" wvorm="inf"/>
+        </node>
+      </node>
+      <node begin="14" conjtype="neven" end="15" id="24" lemma="want" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="want" word="want"/>
+      <node begin="15" cat="smain" end="23" id="25" rel="cnj">
+        <node begin="15" cat="pp" end="17" id="26" rel="ld">
+          <node begin="15" end="16" id="27" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="16" end="17" genus="onz" getal="ev" graad="basis" id="28" lemma="Wolder" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Wolder" word="Wolder"/>
+        </node>
+        <node begin="17" end="18" id="29" lemma="wonen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="woon" word="woonden" wvorm="pv"/>
+        <node begin="18" cat="np" end="23" id="30" rel="su">
+          <node begin="18" end="19" id="31" lemma="maar" pos="adv" postag="BW()" pt="bw" rel="mod" root="maar" word="maar"/>
+          <node begin="19" end="20" id="32" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="20" end="21" genus="onz" getal="ev" graad="basis" id="33" lemma="viertal" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="viertal" word="viertal"/>
+          <node begin="21" cat="np" end="23" id="34" rel="mod">
+            <node begin="21" buiging="met-e" end="22" id="35" lemma="hervormen" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="hervormd" word="hervormde" wvorm="vd"/>
+            <node begin="22" end="23" getal="mv" graad="basis" id="36" lemma="familie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="familie" word="families"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="23" end="24" id="37" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Veel werk zal de toenmalige predikant , Lambertus Latonius , niet gehad hebben , want in Wolder woonden maar een viertal hervormde families .</sentence>
+</alpino_ds>

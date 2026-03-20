@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="18" id="2" rel="--">
+      <node begin="0" cat="pp" end="2" id="3" rel="mod">
+        <node begin="0" end="1" id="4" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="5" lemma="Noord-Europa" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Noord-Europa" word="Noord-Europa"/>
+      </node>
+      <node begin="2" end="3" id="6" lemma="domineren" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="domineer" word="domineerde" wvorm="pv"/>
+      <node begin="3" cat="np" end="18" id="7" rel="su">
+        <node begin="3" end="4" id="8" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+        <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="9" lemma="genootschap" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="genootschap" word="genootschap"/>
+        <node begin="5" cat="pp" end="8" id="10" rel="mod">
+          <node begin="5" end="6" id="11" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="6" cat="np" end="8" id="12" rel="obj1">
+            <node begin="6" end="7" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="14" lemma="Hanze" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Hanze" word="Hanze"/>
+          </node>
+        </node>
+        <node begin="9" cat="rel" end="18" id="15" rel="mod">
+          <node begin="9" end="10" getal="ev" id="16" index="1" lemma="dat" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(betr,pron,stan,vol,3,ev)" pt="vnw" rel="rhd" root="dat" status="vol" vwtype="betr" word="dat"/>
+          <node begin="9" cat="ssub" end="18" id="17" rel="body">
+            <node begin="9" end="10" id="18" index="1" rel="su"/>
+            <node begin="10" cat="np" end="17" id="19" rel="obj1">
+              <node begin="10" end="11" getal="mv" graad="basis" id="20" lemma="goed" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="goed" word="goederen"/>
+              <node begin="11" cat="pp" end="17" id="21" rel="mod">
+                <node begin="11" end="12" id="22" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" vztype="init" word="uit"/>
+                <node begin="12" cat="conj" end="17" id="23" rel="obj1">
+                  <node begin="12" end="13" genus="onz" getal="ev" graad="basis" id="24" lemma="Scandinavië" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Scandinavië" word="Scandinavië"/>
+                  <node begin="13" conjtype="neven" end="14" id="25" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                  <node begin="14" cat="np" end="17" id="26" rel="cnj">
+                    <node begin="14" end="15" id="27" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="15" buiging="met-e" end="16" graad="basis" id="28" lemma="Russisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Russisch" word="Russische"/>
+                    <node begin="16" end="17" getal="mv" graad="basis" id="29" lemma="gebied" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="gebied" word="gebieden"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node begin="17" end="18" id="30" lemma="verhandelen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="verhandel" word="verhandelde" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="31" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>In Noord-Europa domineerde het genootschap van de Hanze , dat goederen uit Scandinavië en de Russische gebieden verhandelde .</sentence>
+</alpino_ds>

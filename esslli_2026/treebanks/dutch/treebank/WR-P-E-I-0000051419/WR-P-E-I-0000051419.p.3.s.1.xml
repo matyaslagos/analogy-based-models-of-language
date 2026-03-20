@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" index="1" rel="su">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="4" lemma="X-boot" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="X_boot" word="X-boot"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="moeten" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="moet" word="moest" wvorm="pv"/>
+      <node begin="0" cat="inf" end="8" id="6" rel="vc">
+        <node begin="0" end="2" id="7" index="1" rel="su"/>
+        <node begin="6" buiging="zonder" end="7" id="8" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+        <node begin="0" cat="ppart" end="8" id="9" rel="vc">
+          <node begin="0" end="2" id="10" index="1" rel="obj1"/>
+          <node begin="3" cat="pp" end="6" id="11" rel="mod">
+            <node begin="3" end="4" id="12" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+            <node begin="4" cat="np" end="6" id="13" rel="obj1">
+              <node begin="4" buiging="met-e" end="5" graad="basis" id="14" lemma="gewoon" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="gewoon" word="gewone"/>
+              <node begin="5" end="6" getal="mv" graad="basis" id="15" lemma="onderzeeër" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="onderzeeër" word="onderzeeërs"/>
+            </node>
+          </node>
+          <node begin="7" buiging="zonder" end="8" id="16" lemma="slepen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="sleep" word="gesleept" wvorm="vd"/>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" id="17" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De X-boot moest door gewone onderzeeërs worden gesleept .</sentence>
+</alpino_ds>

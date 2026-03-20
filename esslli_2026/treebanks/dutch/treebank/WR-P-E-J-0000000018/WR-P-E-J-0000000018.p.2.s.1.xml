@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="100" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="6" end="7" id="2" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="25" end="26" id="3" lemma=";" pos="punct" postag="LET()" pt="let" rel="--" root=";" word=";"/>
+    <node begin="26" end="27" id="4" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="57" end="58" id="5" lemma=";" pos="punct" postag="LET()" pt="let" rel="--" root=";" word=";"/>
+    <node begin="58" end="59" id="6" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="77" end="78" id="7" lemma=";" pos="punct" postag="LET()" pt="let" rel="--" root=";" word=";"/>
+    <node begin="78" end="79" id="8" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="0" cat="smain" end="99" id="9" rel="--">
+      <node begin="0" cat="np" end="2" id="10" rel="su">
+        <node begin="0" end="1" id="11" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="12" lemma="goedkeuring" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="goedkeuring" word="goedkeuring"/>
+      </node>
+      <node begin="2" end="3" id="13" lemma="betreffen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="betref" word="betreft" wvorm="pv"/>
+      <node begin="3" cat="np" end="99" id="14" rel="obj1">
+        <node begin="3" buiging="met-e" end="4" id="15" lemma="volgen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="volg" word="volgende" wvorm="od"/>
+        <node begin="4" end="5" getal="mv" graad="basis" id="16" lemma="ontwerp_verdrag" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="ontwerp_verdrag" word="ontwerpverdragen"/>
+        <node begin="7" cat="conj" end="99" id="17" rel="app">
+          <node begin="7" cat="np" end="25" id="18" rel="cnj">
+            <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="19" lemma="verdrag" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="verdrag" word="Verdrag"/>
+            <node begin="8" cat="pp" end="17" id="20" rel="mod">
+              <node begin="8" end="9" id="21" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" vztype="init" word="tussen"/>
+              <node begin="9" cat="conj" end="17" id="22" rel="obj1">
+                <node begin="9" cat="np" end="12" id="23" rel="cnj">
+                  <node begin="9" end="10" id="24" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                  <node begin="10" cat="mwu" end="12" id="25" rel="hd">
+                    <node begin="10" end="11" id="26" lemma="Vlaamse" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Vlaamse" spectype="deeleigen" word="Vlaamse"/>
+                    <node begin="11" end="12" id="27" lemma="Gewest" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Gewest" spectype="deeleigen" word="Gewest"/>
+                  </node>
+                </node>
+                <node begin="12" conjtype="neven" end="13" id="28" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                <node begin="13" cat="np" end="17" id="29" rel="cnj">
+                  <node begin="13" end="14" id="30" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                  <node begin="14" cat="mwu" end="17" id="31" rel="hd">
+                    <node begin="14" end="15" id="32" lemma="Koninkrijk" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Koninkrijk" spectype="deeleigen" word="Koninkrijk"/>
+                    <node begin="15" end="16" id="33" lemma="der" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="der" spectype="deeleigen" word="der"/>
+                    <node begin="16" end="17" id="34" lemma="Nederlanden" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Nederlanden" spectype="deeleigen" word="Nederlanden"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node begin="17" cat="ppres" end="25" id="35" rel="mod">
+              <node begin="17" buiging="zonder" end="18" id="36" lcat="ppres" lemma="betreffen" pos="prep" positie="vrij" postag="WW(od,vrij,zonder)" pt="ww" rel="hd" root="betreffende" word="betreffende" wvorm="od"/>
+              <node begin="18" cat="np" end="25" id="37" rel="obj1">
+                <node begin="18" end="19" id="38" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="19" end="20" genus="zijd" getal="ev" graad="basis" id="39" lemma="uitvoering" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="uitvoering" word="uitvoering"/>
+                <node begin="20" cat="pp" end="25" id="40" rel="mod">
+                  <node begin="20" end="21" id="41" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                  <node begin="21" cat="np" end="25" id="42" rel="obj1">
+                    <node begin="21" end="22" id="43" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="22" end="23" genus="zijd" getal="ev" graad="basis" id="44" lemma="ontwikkeling_schets" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="Ontwikkelingsschets" word="Ontwikkelingsschets"/>
+                    <node begin="23" end="24" id="45" lemma="2010" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mod" root="2010" word="2010"/>
+                    <node begin="24" end="25" genus="onz" getal="ev" graad="basis" id="46" lemma="Schelde_estuarium" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="app" root="Schelde-estuarium" word="Schelde-estuarium"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="27" cat="np" end="57" id="47" rel="cnj">
+            <node begin="27" end="28" genus="onz" getal="ev" graad="basis" id="48" lemma="verdrag" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="verdrag" word="Verdrag"/>
+            <node begin="28" cat="pp" end="43" id="49" rel="mod">
+              <node begin="28" end="29" id="50" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" vztype="init" word="tussen"/>
+              <node begin="29" cat="conj" end="43" id="51" rel="obj1">
+                <node begin="29" cat="du" end="37" id="52" rel="cnj">
+                  <node begin="29" cat="conj" end="36" id="53" rel="dp">
+                    <node begin="29" cat="np" end="32" id="54" rel="cnj">
+                      <node begin="29" end="30" id="55" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                      <node begin="30" cat="mwu" end="32" id="56" rel="hd">
+                        <node begin="30" end="31" id="57" lemma="Vlaamse" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Vlaamse" spectype="deeleigen" word="Vlaamse"/>
+                        <node begin="31" end="32" id="58" lemma="Gemeenschap" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Gemeenschap" spectype="deeleigen" word="Gemeenschap"/>
+                      </node>
+                    </node>
+                    <node begin="32" conjtype="neven" end="33" id="59" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                    <node begin="33" cat="np" end="36" id="60" rel="cnj">
+                      <node begin="33" end="34" id="61" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                      <node begin="34" cat="mwu" end="36" id="62" rel="hd">
+                        <node begin="34" end="35" id="63" lemma="Vlaamse" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Vlaamse" spectype="deeleigen" word="Vlaamse"/>
+                        <node begin="35" end="36" id="64" lemma="Gewest" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Gewest" spectype="deeleigen" word="Gewest"/>
+                      </node>
+                    </node>
+                  </node>
+                  <node begin="36" end="37" id="65" lemma="enerzijds" pos="adv" postag="BW()" pt="bw" rel="dp" root="enerzijds" word="enerzijds"/>
+                </node>
+                <node begin="37" conjtype="neven" end="38" id="66" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                <node begin="38" cat="du" end="43" id="67" rel="cnj">
+                  <node begin="38" cat="np" end="42" id="68" rel="dp">
+                    <node begin="38" end="39" id="69" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                    <node begin="39" cat="mwu" end="42" id="70" rel="hd">
+                      <node begin="39" end="40" id="71" lemma="Koninkrijk" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Koninkrijk" spectype="deeleigen" word="Koninkrijk"/>
+                      <node begin="40" end="41" id="72" lemma="der" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="der" spectype="deeleigen" word="der"/>
+                      <node begin="41" end="42" id="73" lemma="Nederlanden" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Nederlanden" spectype="deeleigen" word="Nederlanden"/>
+                    </node>
+                  </node>
+                  <node begin="42" end="43" id="74" lemma="anderzijds" pos="adv" postag="BW()" pt="bw" rel="dp" root="anderzijds" word="anderzijds"/>
+                </node>
+              </node>
+            </node>
+            <node begin="43" cat="pp" end="57" id="75" rel="mod">
+              <node begin="43" end="44" id="76" lemma="inzake" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="inzake" vztype="init" word="inzake"/>
+              <node begin="44" cat="np" end="57" id="77" rel="obj1">
+                <node begin="44" end="45" id="78" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="45" end="46" genus="zijd" getal="ev" graad="basis" id="79" lemma="samenwerking" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="samenwerking" word="samenwerking"/>
+                <node begin="46" cat="pp" end="57" id="80" rel="mod">
+                  <node begin="46" cat="mwu" end="50" id="81" rel="hd">
+                    <node begin="46" end="47" id="82" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="op" vztype="init" word="op"/>
+                    <node begin="47" end="48" id="83" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="prep" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" word="het"/>
+                    <node begin="48" end="49" genus="onz" getal="ev" graad="basis" id="84" lemma="gebied" naamval="stan" ntype="soort" pos="prep" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="gebied" word="gebied"/>
+                    <node begin="49" end="50" id="85" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="van" vztype="init" word="van"/>
+                  </node>
+                  <node begin="50" cat="conj" end="57" id="86" rel="obj1">
+                    <node begin="52" conjtype="neven" end="53" id="87" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                    <node begin="50" cat="np" end="57" id="88" rel="cnj">
+                      <node begin="50" end="51" id="89" index="1" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                      <node begin="51" end="52" genus="onz" getal="ev" graad="basis" id="90" lemma="beleid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="beleid" word="beleid"/>
+                      <node begin="54" cat="pp" end="57" id="91" index="2" rel="mod">
+                        <node begin="54" end="55" id="92" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                        <node begin="55" cat="np" end="57" id="93" rel="obj1">
+                          <node begin="55" end="56" id="94" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                          <node begin="56" end="57" genus="onz" getal="ev" graad="basis" id="95" lemma="Schelde_estuarium" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="Schelde-estuarium" word="Schelde-estuarium"/>
+                        </node>
+                      </node>
+                    </node>
+                    <node begin="50" cat="np" end="57" id="96" rel="cnj">
+                      <node begin="50" end="51" id="97" index="1" rel="det"/>
+                      <node begin="53" end="54" genus="onz" getal="ev" graad="basis" id="98" lemma="beheer" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="beheer" word="beheer"/>
+                      <node begin="54" end="57" id="99" index="2" rel="mod"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="59" cat="np" end="77" id="100" rel="cnj">
+            <node begin="59" end="60" genus="onz" getal="ev" graad="basis" id="101" lemma="verdrag" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="verdrag" word="Verdrag"/>
+            <node begin="60" cat="pp" end="69" id="102" rel="mod">
+              <node begin="60" end="61" id="103" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" vztype="init" word="tussen"/>
+              <node begin="61" cat="conj" end="69" id="104" rel="obj1">
+                <node begin="61" cat="np" end="64" id="105" rel="cnj">
+                  <node begin="61" end="62" id="106" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                  <node begin="62" cat="mwu" end="64" id="107" rel="hd">
+                    <node begin="62" end="63" id="108" lemma="Vlaamse" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Vlaamse" spectype="deeleigen" word="Vlaamse"/>
+                    <node begin="63" end="64" id="109" lemma="Gewest" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Gewest" spectype="deeleigen" word="Gewest"/>
+                  </node>
+                </node>
+                <node begin="64" conjtype="neven" end="65" id="110" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                <node begin="65" cat="np" end="69" id="111" rel="cnj">
+                  <node begin="65" end="66" id="112" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                  <node begin="66" cat="mwu" end="69" id="113" rel="hd">
+                    <node begin="66" end="67" id="114" lemma="Koninkrijk" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Koninkrijk" spectype="deeleigen" word="Koninkrijk"/>
+                    <node begin="67" end="68" id="115" lemma="der" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="der" spectype="deeleigen" word="der"/>
+                    <node begin="68" end="69" id="116" lemma="Nederlanden" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Nederlanden" spectype="deeleigen" word="Nederlanden"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node begin="69" cat="pp" end="77" id="117" rel="mod">
+              <node begin="69" end="70" id="118" lemma="inzake" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="inzake" vztype="init" word="inzake"/>
+              <node begin="70" cat="np" end="77" id="119" rel="obj1">
+                <node begin="70" end="71" id="120" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                <node begin="71" buiging="zonder" end="72" graad="basis" id="121" lemma="gemeenschappelijk" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="gemeenschappelijk" word="gemeenschappelijk"/>
+                <node begin="72" buiging="zonder" end="73" graad="basis" id="122" lemma="nautisch" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="nautisch" word="nautisch"/>
+                <node begin="73" end="74" genus="onz" getal="ev" graad="basis" id="123" lemma="beheer" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="beheer" word="beheer"/>
+                <node begin="74" cat="pp" end="77" id="124" rel="mod">
+                  <node begin="74" end="75" id="125" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                  <node begin="75" cat="np" end="77" id="126" rel="obj1">
+                    <node begin="75" end="76" id="127" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                    <node begin="76" end="77" genus="onz" getal="ev" graad="basis" id="128" lemma="Schelde_gebied" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="Scheldegebied" word="Scheldegebied"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="79" cat="np" end="99" id="129" rel="cnj">
+            <node begin="79" end="80" genus="onz" getal="ev" graad="basis" id="130" lemma="verdrag" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="verdrag" word="Verdrag"/>
+            <node begin="80" cat="pp" end="89" id="131" rel="mod">
+              <node begin="80" end="81" id="132" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" vztype="init" word="tussen"/>
+              <node begin="81" cat="conj" end="89" id="133" rel="obj1">
+                <node begin="81" cat="np" end="84" id="134" rel="cnj">
+                  <node begin="81" end="82" id="135" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                  <node begin="82" cat="mwu" end="84" id="136" rel="hd">
+                    <node begin="82" end="83" id="137" lemma="Vlaamse" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Vlaamse" spectype="deeleigen" word="Vlaamse"/>
+                    <node begin="83" end="84" id="138" lemma="Gewest" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Gewest" spectype="deeleigen" word="Gewest"/>
+                  </node>
+                </node>
+                <node begin="84" conjtype="neven" end="85" id="139" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                <node begin="85" cat="np" end="89" id="140" rel="cnj">
+                  <node begin="85" end="86" id="141" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                  <node begin="86" cat="mwu" end="89" id="142" rel="hd">
+                    <node begin="86" end="87" id="143" lemma="Koninkrijk" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Koninkrijk" spectype="deeleigen" word="Koninkrijk"/>
+                    <node begin="87" end="88" id="144" lemma="der" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="der" spectype="deeleigen" word="der"/>
+                    <node begin="88" end="89" id="145" lemma="Nederlanden" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Nederlanden" spectype="deeleigen" word="Nederlanden"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node begin="89" cat="pp" end="99" id="146" rel="mod">
+              <node begin="89" end="90" id="147" lemma="inzake" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="inzake" vztype="init" word="inzake"/>
+              <node begin="90" cat="np" end="99" id="148" rel="obj1">
+                <node begin="90" end="91" id="149" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="91" end="92" genus="zijd" getal="ev" graad="basis" id="150" lemma="beëindiging" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="beëindiging" word="beëindiging"/>
+                <node begin="92" cat="pp" end="99" id="151" rel="mod">
+                  <node begin="92" end="93" id="152" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                  <node begin="93" cat="np" end="99" id="153" rel="obj1">
+                    <node begin="93" end="94" id="154" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="94" buiging="met-e" end="95" graad="basis" id="155" lemma="onderling" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="onderling" word="onderlinge"/>
+                    <node begin="95" end="96" genus="zijd" getal="ev" graad="basis" id="156" lemma="koppeling" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="koppeling" word="koppeling"/>
+                    <node begin="96" cat="pp" end="99" id="157" rel="mod">
+                      <node begin="96" end="97" id="158" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                      <node begin="97" cat="np" end="99" id="159" rel="obj1">
+                        <node begin="97" end="98" id="160" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                        <node begin="98" end="99" getal="mv" graad="basis" id="161" lemma="loods_geld_tarief" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="loods_geld_tarief" word="loodsgeldtarieven"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="99" end="100" id="162" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De goedkeuring betreft volgende ontwerpverdragen : - Verdrag tussen het Vlaamse Gewest en het Koninkrijk der Nederlanden betreffende de uitvoering van de Ontwikkelingsschets 2010 Schelde-estuarium ; - Verdrag tussen de Vlaamse Gemeenschap en het Vlaamse Gewest enerzijds en het Koninkrijk der Nederlanden anderzijds inzake de samenwerking op het gebied van het beleid en beheer in het Schelde-estuarium ; - Verdrag tussen het Vlaamse Gewest en het Koninkrijk der Nederlanden inzake het gemeenschappelijk nautisch beheer in het Scheldegebied ; - Verdrag tussen het Vlaamse Gewest en het Koninkrijk der Nederlanden inzake de beëindiging van de onderlinge koppeling van de loodsgeldtarieven .</sentence>
+</alpino_ds>

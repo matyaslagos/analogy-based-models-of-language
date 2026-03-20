@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="9" end="10" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="12" end="13" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="16" id="3" rel="--">
+      <node begin="0" cat="np" end="2" id="4" rel="su">
+        <node begin="0" end="1" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="6" lemma="borgtocht" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="borgtocht" word="borgtocht"/>
+      </node>
+      <node begin="2" end="3" id="7" lemma="bedragen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="bedraag" word="bedraagt" wvorm="pv"/>
+      <node begin="3" cat="np" end="16" id="8" rel="me">
+        <node begin="3" end="4" id="9" lemma="5" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="5" word="5"/>
+        <node begin="4" end="5" id="10" lemma="%" pos="noun" postag="SPEC(symb)" pt="spec" rel="hd" root="procent" spectype="symb" word="%"/>
+        <node begin="5" cat="pp" end="16" id="11" rel="mod">
+          <node begin="5" end="6" id="12" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="6" cat="np" end="16" id="13" rel="obj1">
+            <node begin="6" end="7" id="14" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="7" buiging="zonder" end="8" graad="basis" id="15" lemma="totaal" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="totaal" word="totaal"/>
+            <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="16" lemma="bedrag" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="bedrag" word="bedrag"/>
+            <node begin="10" cat="pp" end="12" id="17" rel="mod">
+              <node begin="10" end="11" id="18" lemma="exclusief" pos="prep" postag="SPEC(afk)" pt="spec" rel="hd" root="exclusief" spectype="afk" word="excl."/>
+              <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="19" lemma="BTW" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="BTW" word="BTW"/>
+            </node>
+            <node begin="13" cat="pp" end="16" id="20" rel="mod">
+              <node begin="13" end="14" id="21" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="14" cat="np" end="16" id="22" rel="obj1">
+                <node begin="14" end="15" id="23" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="24" lemma="bestelling" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="bestelling" word="bestelling"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="25" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De borgtocht bedraagt 5 % van het totaal bedrag , excl. BTW , van de bestelling .</sentence>
+</alpino_ds>

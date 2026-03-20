@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="24" id="0" rel="top">
+    <node begin="11" end="12" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="23" id="2" rel="--">
+      <node begin="0" cat="smain" end="11" id="3" rel="dp">
+        <node begin="1" end="2" id="4" lemma="zijn" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="ben" word="waren" wvorm="pv"/>
+        <node begin="2" end="3" id="5" lemma="trouwens" pos="adv" postag="BW()" pt="bw" rel="mod" root="trouwens" word="trouwens"/>
+        <node begin="3" cat="np" end="7" id="6" rel="su">
+          <node begin="3" cat="ap" end="5" id="7" rel="mod">
+            <node begin="3" end="4" id="8" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+            <node begin="4" end="5" id="9" lemma="alleen" pos="adj" postag="BW()" pt="bw" rel="hd" root="alleen" word="alleen"/>
+          </node>
+          <node begin="5" end="6" id="10" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="6" end="7" getal="mv" graad="basis" id="11" lemma="monnik" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="monnik" word="monniken"/>
+        </node>
+        <node begin="0" cat="np" end="11" id="12" rel="predc">
+          <node begin="0" end="1" genus="onz" getal="ev" id="13" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="noun" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="hd" root="het" status="red" vwtype="pers" word="Het"/>
+          <node begin="7" cat="rel" end="11" id="14" rel="mod">
+            <node begin="7" end="8" getal="getal" id="15" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+            <node begin="7" cat="ssub" end="11" id="16" rel="body">
+              <node begin="7" end="8" id="17" index="1" rel="su"/>
+              <node begin="8" cat="np" end="10" id="18" rel="obj1">
+                <node begin="8" end="9" id="19" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="20" lemma="land" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="land" word="land"/>
+              </node>
+              <node begin="10" end="11" id="21" lemma="bewerken" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="bewerk" word="bewerkten" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="12" cat="smain" end="23" id="22" rel="dp">
+        <node begin="12" cat="conj" end="16" id="23" rel="su">
+          <node begin="12" cat="np" end="14" id="24" rel="cnj">
+            <node begin="12" buiging="zonder" end="13" graad="basis" id="25" index="2" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,basis)" pt="vnw" rel="det" root="veel" vwtype="onbep" word="veel"/>
+            <node begin="13" end="14" getal="mv" graad="basis" id="26" lemma="lijfeigene" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="lijfeigene" word="lijfeigenen"/>
+          </node>
+          <node begin="14" conjtype="neven" end="15" id="27" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="12" cat="np" end="16" id="28" rel="cnj">
+            <node begin="12" end="13" id="29" index="2" rel="det"/>
+            <node begin="15" end="16" getal="mv" graad="basis" id="30" lemma="handwerksman" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="handwerksman" word="handwerkslieden"/>
+          </node>
+        </node>
+        <node begin="16" end="17" id="31" lemma="verdienen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="verdien" word="verdienden" wvorm="pv"/>
+        <node begin="17" end="18" getal="getal" id="32" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+        <node begin="18" cat="np" end="23" id="33" rel="obj1">
+          <node begin="18" end="19" id="34" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="19" end="20" genus="onz" getal="ev" graad="basis" id="35" lemma="zout" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="zout" word="zout"/>
+          <node begin="20" cat="pp" end="23" id="36" rel="mod">
+            <node begin="20" end="21" id="37" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="21" cat="np" end="23" id="38" rel="obj1">
+              <node begin="21" buiging="zonder" end="22" getal="mv" id="39" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+              <node begin="22" end="23" genus="zijd" getal="ev" graad="basis" id="40" lemma="pap" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="pap" word="pap"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="23" end="24" id="41" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het waren trouwens niet alleen de monniken die het land bewerkten , veel lijfeigenen en handwerkslieden verdienden er het zout in hun pap .</sentence>
+</alpino_ds>

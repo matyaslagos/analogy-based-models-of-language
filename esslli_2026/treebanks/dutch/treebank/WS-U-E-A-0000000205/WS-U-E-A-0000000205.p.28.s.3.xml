@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="11" end="12" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="16" id="2" rel="--">
+      <node begin="1" end="2" id="3" lemma="moeten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="moet" word="moet" wvorm="pv"/>
+      <node begin="2" end="3" genus="masc" getal="ev" id="4" index="1" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="hij"/>
+      <node begin="0" cat="inf" end="16" id="5" rel="vc">
+        <node begin="0" end="1" id="6" lemma="daarin" pos="pp" postag="BW()" pt="bw" rel="mod" root="daarin" word="Daarin"/>
+        <node begin="2" end="3" id="7" index="1" rel="su"/>
+        <node begin="3" end="4" genus="onz" getal="ev" id="8" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="obj1" root="het" status="red" vwtype="pers" word="het"/>
+        <node begin="4" buiging="zonder" end="5" id="9" lemma="op_nemen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="neem_op" word="opnemen" wvorm="inf"/>
+        <node begin="5" cat="pp" end="16" id="10" rel="mod">
+          <node begin="5" end="6" id="11" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" vztype="init" word="tegen"/>
+          <node begin="6" cat="np" end="16" id="12" rel="obj1">
+            <node begin="6" end="7" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="7" buiging="met-e" end="8" graad="basis" id="14" lemma="huidig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="huidig" word="huidige"/>
+            <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="15" lemma="president" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="president" word="president"/>
+            <node begin="9" cat="mwu" end="11" id="16" rel="app">
+              <node begin="9" end="10" id="17" lemma="Megawati" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Megawati" spectype="deeleigen" word="Megawati"/>
+              <node begin="10" end="11" id="18" lemma="Soekarno-putri" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Soekarno-putri" spectype="deeleigen" word="Soekarno-putri"/>
+            </node>
+            <node begin="12" cat="rel" end="16" id="19" rel="mod">
+              <node begin="12" end="13" getal="getal" id="20" index="2" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+              <node begin="12" cat="ssub" end="16" id="21" rel="body">
+                <node begin="12" end="13" id="22" index="2" rel="su"/>
+                <node begin="13" end="14" id="23" lemma="nu" pos="adv" postag="BW()" pt="bw" rel="mod" root="nu" word="nu"/>
+                <node begin="14" end="15" getal-n="zonder-n" id="24" lemma="twee" numtype="rang" pos="num" positie="nom" postag="TW(rang,nom,zonder-n)" pt="tw" rel="predc" root="tweede" word="tweede"/>
+                <node begin="15" end="16" id="25" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="26" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Daarin moet hij het opnemen tegen de huidige president Megawati Soekarno-putri , die nu tweede werd .</sentence>
+</alpino_ds>

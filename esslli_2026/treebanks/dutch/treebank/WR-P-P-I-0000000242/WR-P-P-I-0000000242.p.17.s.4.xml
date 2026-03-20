@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="11" end="12" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="15" id="3" rel="--">
+      <node begin="0" end="1" getal="mv" graad="basis" id="4" index="1" lemma="MDC_aanhanger" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="MDC_aanhanger" word="MDC-aanhangers"/>
+      <node begin="1" end="2" id="5" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="15" id="6" rel="vc">
+        <node begin="0" end="1" id="7" index="1" rel="obj1"/>
+        <node begin="2" end="3" id="8" lemma="dus" pos="adv" postag="BW()" pt="bw" rel="mod" root="dus" word="dus"/>
+        <node begin="3" end="4" id="9" lemma="wel" pos="adv" postag="BW()" pt="bw" rel="mod" root="wel" word="wel"/>
+        <node begin="4" buiging="zonder" end="5" id="10" lemma="verplichten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="verplicht" word="verplicht" wvorm="vd"/>
+        <node begin="0" cat="ti" end="15" id="11" rel="vc">
+          <node begin="9" end="10" id="12" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+          <node begin="0" cat="inf" end="15" id="13" rel="body">
+            <node begin="0" end="1" id="14" index="1" rel="su"/>
+            <node begin="5" cat="np" end="9" id="15" rel="obj1">
+              <node begin="5" buiging="met-e" end="6" graad="basis" id="16" lemma="klein" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="klein" word="kleine"/>
+              <node begin="7" buiging="met-e" end="8" graad="basis" id="17" lemma="discreet" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="discreet" word="discrete"/>
+              <node begin="8" end="9" getal="mv" graad="basis" id="18" lemma="meeting" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="meeting" word="meetings"/>
+            </node>
+            <node begin="10" buiging="zonder" end="11" id="19" lemma="houden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="houd" word="houden" wvorm="inf"/>
+            <node begin="12" cat="pp" end="15" id="20" rel="ld">
+              <node begin="12" end="13" id="21" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+              <node begin="13" cat="np" end="15" id="22" rel="obj1">
+                <node begin="13" end="14" getal="mv" id="23" lemma="elkaar" naamval="obl" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(recip,pron,obl,vol,persoon,mv)" pt="vnw" rel="hd" root="elkaar" status="vol" vwtype="recip" word="elkaar"/>
+                <node begin="14" end="15" id="24" lemma="thuis" pos="adv" postag="BW()" pt="bw" rel="mod" root="thuis" word="thuis"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="25" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>MDC-aanhangers zijn dus wel verplicht kleine , discrete meetings te houden , bij elkaar thuis .</sentence>
+</alpino_ds>

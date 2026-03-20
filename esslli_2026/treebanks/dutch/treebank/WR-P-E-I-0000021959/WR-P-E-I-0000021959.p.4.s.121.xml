@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="9" end="10" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="19" id="3" rel="--">
+      <node begin="0" buiging="zonder" end="1" graad="comp" id="4" lemma="laat" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="laat" word="Later"/>
+      <node begin="1" end="2" id="5" lemma="verhuizen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="verhuis" word="verhuisde" wvorm="pv"/>
+      <node begin="2" end="3" genus="masc" getal="ev" id="6" lemma="men" naamval="nomin" pdtype="pron" persoon="3p" pos="pron" postag="VNW(pers,pron,nomin,red,3p,ev,masc)" pt="vnw" rel="su" root="men" status="red" vwtype="pers" word="men"/>
+      <node begin="3" cat="pp" end="16" id="7" rel="mod">
+        <node begin="3" end="4" id="8" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" vztype="init" word="over"/>
+        <node begin="4" cat="conj" end="16" id="9" rel="obj1">
+          <node begin="4" cat="np" end="6" id="10" rel="cnj">
+            <node begin="4" end="5" id="11" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="12" lemma="Minderbroederstraat" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Minderbroederstraat" word="Minderbroederstraat"/>
+          </node>
+          <node begin="7" cat="np" end="9" id="13" rel="cnj">
+            <node begin="7" end="8" id="14" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="15" lemma="Tiensestraat" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Tiensestraat" word="Tiensestraat"/>
+          </node>
+          <node begin="10" cat="np" end="13" id="16" rel="cnj">
+            <node begin="10" end="11" id="17" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="11" cat="mwu" end="13" id="18" rel="hd">
+              <node begin="11" end="12" id="19" lemma="Blijde" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Blijde" spectype="deeleigen" word="Blijde"/>
+              <node begin="12" end="13" id="20" lemma="Inkomststraat" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Inkomststraat" spectype="deeleigen" word="Inkomststraat"/>
+            </node>
+          </node>
+          <node begin="13" conjtype="neven" end="14" id="21" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="14" cat="np" end="16" id="22" rel="cnj">
+            <node begin="14" end="15" id="23" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="24" lemma="Vaartstraat" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Vaartstraat" word="Vaartstraat"/>
+          </node>
+        </node>
+      </node>
+      <node begin="16" cat="pp" end="19" id="25" rel="ld">
+        <node begin="16" end="17" id="26" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+        <node begin="17" cat="np" end="19" id="27" rel="obj1">
+          <node begin="17" end="18" id="28" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="18" end="19" genus="zijd" getal="ev" graad="basis" id="29" lemma="Parijsstraat" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Parijsstraat" word="Parijsstraat"/>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="30" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Later verhuisde men over de Minderbroederstraat , de Tiensestraat , de Blijde Inkomststraat en de Vaartstraat naar de Parijsstraat .</sentence>
+</alpino_ds>

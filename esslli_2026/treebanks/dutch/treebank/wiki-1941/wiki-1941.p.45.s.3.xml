@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma="«" pos="punct" postag="LET()" pt="let" rel="--" root="«" word="«"/>
+    <node begin="7" end="8" id="2" lemma="»" pos="punct" postag="LET()" pt="let" rel="--" root="»" word="»"/>
+    <node begin="8" end="9" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="11" end="12" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="15" id="5" rel="--">
+      <node begin="0" cat="np" end="7" id="6" rel="dp">
+        <node begin="0" end="1" genus="onz" getal="ev" graad="basis" id="7" lemma="artikel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="artikel" word="Artikel"/>
+        <node begin="2" cat="mwu" end="7" id="8" rel="app">
+          <node begin="2" buiging="zonder" end="3" graad="basis" id="9" lemma="Lijmen-achtig" pos="name" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mwp" root="Lijmen-achtig" word="Lijmen-achtig"/>
+          <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="10" lemma="toneelstuk" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="toneelstuk" word="toneelstuk"/>
+          <node begin="4" end="5" id="11" lemma="van" pos="name" postag="VZ(init)" pt="vz" rel="mwp" root="van" vztype="init" word="van"/>
+          <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="12" lemma="Elsschot" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Elsschot" word="Elsschot"/>
+          <node begin="6" buiging="zonder" end="7" id="13" lemma="ontdekken" pos="name" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="mwp" root="ontdekt" word="ontdekt" wvorm="vd"/>
+        </node>
+      </node>
+      <node begin="9" cat="du" end="15" id="14" rel="dp">
+        <node begin="9" cat="mwu" end="11" id="15" rel="dp">
+          <node begin="9" end="10" id="16" lemma="NRC" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="NRC" spectype="deeleigen" word="NRC"/>
+          <node begin="10" end="11" id="17" lemma="Handelsblad" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Handelsblad" spectype="deeleigen" word="Handelsblad"/>
+        </node>
+        <node begin="12" cat="mwu" end="15" id="18" rel="dp">
+          <node begin="12" end="13" id="19" lemma="18" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="18" word="18"/>
+          <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="20" lemma="september" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="september" word="september"/>
+          <node begin="14" end="15" id="21" lemma="2003" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="2003" word="2003"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>Artikel « Lijmen-achtig toneelstuk van Elsschot ontdekt » , NRC Handelsblad , 18 september 2003</sentence>
+</alpino_ds>

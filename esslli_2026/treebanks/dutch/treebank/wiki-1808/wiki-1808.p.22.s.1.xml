@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="5" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="np" end="4" id="2" rel="--">
+      <node begin="0" cat="mwu" end="2" id="3" rel="hd">
+        <node begin="0" end="1" id="4" lemma="Bart" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Bart" spectype="deeleigen" word="Bart"/>
+        <node begin="1" end="2" id="5" lemma="Somers" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Somers" spectype="deeleigen" word="Somers"/>
+      </node>
+      <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="6" lemma="voorzitter" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mod" root="voorzitter" word="voorzitter"/>
+    </node>
+    <node begin="4" end="5" id="7" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+  </node>
+  <sentence>Bart Somers ( voorzitter )</sentence>
+</alpino_ds>

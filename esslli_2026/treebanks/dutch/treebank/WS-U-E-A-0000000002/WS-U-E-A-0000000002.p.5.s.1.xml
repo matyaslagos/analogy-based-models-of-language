@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="7" end="8" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="14" id="3" rel="--">
+      <node begin="0" cat="np" end="3" id="4" rel="mod">
+        <node begin="0" buiging="zonder" end="1" id="5" lemma="ieder" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="ieder" vwtype="onbep" word="Ieder"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="6" lemma="jaar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="jaar" word="jaar"/>
+        <node begin="2" end="3" id="7" lemma="weer" pos="adv" postag="BW()" pt="bw" rel="mod" root="weer" word="weer"/>
+      </node>
+      <node begin="4" cat="pp" end="7" id="8" rel="mod">
+        <node begin="4" end="5" id="9" lemma="rond" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="rond" vztype="init" word="rond"/>
+        <node begin="5" cat="np" end="7" id="10" rel="obj1">
+          <node begin="5" end="6" id="11" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="12" lemma="jaarwisseling" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="jaarwisseling" word="jaarwisseling"/>
+        </node>
+      </node>
+      <node begin="8" end="9" id="13" lemma="verschijnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="verschijn" word="verschijnen" wvorm="pv"/>
+      <node begin="9" cat="np" end="14" id="14" rel="su">
+        <node begin="9" buiging="zonder" end="10" id="15" lemma="die" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,rest)" pt="vnw" rel="det" root="die" vwtype="aanw" word="die"/>
+        <node begin="10" end="11" getal="mv" graad="basis" id="16" lemma="rapportage" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="rapportage" word="rapportages"/>
+        <node begin="11" cat="pp" end="14" id="17" rel="mod">
+          <node begin="11" end="12" id="18" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="12" cat="np" end="14" id="19" rel="obj1">
+            <node begin="12" end="13" id="20" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="13" end="14" getal="mv" graad="basis" id="21" lemma="politie_korps" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="politie_korps" word="politiekorpsen"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Ieder jaar weer , rond de jaarwisseling , verschijnen die rapportages van de politiekorpsen .</sentence>
+</alpino_ds>

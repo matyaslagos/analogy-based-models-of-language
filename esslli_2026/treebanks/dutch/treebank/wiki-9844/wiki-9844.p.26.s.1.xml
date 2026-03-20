@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="smain" end="12" id="1" rel="--">
+      <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="2" lemma="Vandersteen" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Vandersteen" word="Vandersteen"/>
+      <node begin="1" end="2" id="3" lemma="stellen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="stel" word="stelde" wvorm="pv"/>
+      <node begin="2" cat="pp" end="4" id="4" rel="mod">
+        <node begin="2" end="3" id="5" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+        <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="6" lemma="testament" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="testament" word="testament"/>
+      </node>
+      <node begin="4" cat="np" end="7" id="7" rel="obj1">
+        <node begin="4" end="5" id="8" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="9" lemma="aantal" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="aantal" word="aantal"/>
+        <node begin="6" end="7" getal="mv" graad="basis" id="10" lemma="voorwaarde" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mod" root="voorwaarde" word="voorwaarden"/>
+      </node>
+      <node begin="7" cat="pp" end="12" id="11" rel="pc">
+        <node begin="7" end="8" id="12" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+        <node begin="8" cat="np" end="12" id="13" rel="obj1">
+          <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="14" lemma="voortzetting" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="voortzetting" word="voortzetting"/>
+          <node begin="9" cat="pp" end="12" id="15" rel="mod">
+            <node begin="9" end="10" id="16" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="10" cat="np" end="12" id="17" rel="obj1">
+              <node begin="10" end="11" id="18" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="19" lemma="reeks" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="reeks" word="reeks"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" id="20" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Vandersteen stelde bij testament een aantal voorwaarden aan voortzetting van de reeks .</sentence>
+</alpino_ds>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="4" end="5" id="2" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="np" end="6" id="3" rel="--">
+      <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="4" lemma="klacht_lijn" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="klacht_lijn" word="Klachtenlijn"/>
+      <node begin="2" cat="mwu" end="4" id="5" rel="app">
+        <node begin="2" end="3" id="6" lemma="0800" pos="num" postag="SPEC(symb)" pt="spec" rel="mwp" root="0800" spectype="symb" word="0800"/>
+        <node begin="3" end="4" id="7" lemma="0488" pos="num" postag="SPEC(symb)" pt="spec" rel="mwp" root="0488" spectype="symb" word="0488"/>
+      </node>
+      <node begin="5" buiging="zonder" end="6" graad="basis" id="8" lemma="gratis" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="gratis" word="gratis"/>
+    </node>
+    <node begin="6" end="7" id="9" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+  </node>
+  <sentence>Klachtenlijn : 0800 0488 ( gratis )</sentence>
+</alpino_ds>

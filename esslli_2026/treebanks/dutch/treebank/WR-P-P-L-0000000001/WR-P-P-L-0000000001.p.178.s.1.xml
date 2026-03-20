@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="10" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="1" cat="smain" end="9" id="2" rel="--">
+      <node begin="1" cat="np" end="3" id="3" index="1" rel="su">
+        <node begin="1" buiging="met-e" end="2" graad="basis" id="4" lemma="begaan" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="begaan" word="Begane"/>
+        <node begin="2" end="3" getal="mv" graad="basis" id="5" lemma="grond_vloer" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="grond_vloer" word="grondvloeren"/>
+      </node>
+      <node begin="3" end="4" id="6" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+      <node begin="1" cat="ppart" end="9" id="7" rel="vc">
+        <node begin="1" end="3" id="8" index="1" rel="obj1"/>
+        <node begin="4" buiging="zonder" end="5" id="9" lemma="isoleren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="isoleer" word="geïsoleerd" wvorm="vd"/>
+        <node begin="5" cat="pp" end="9" id="10" rel="mod">
+          <node begin="5" end="6" id="11" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+          <node begin="6" cat="np" end="9" id="12" rel="obj1">
+            <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="13" lemma="bouw_jaar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="bouw_jaar" word="bouwjaar"/>
+            <node begin="7" cat="pp" end="9" id="14" rel="mod">
+              <node begin="7" end="8" id="15" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" vztype="init" word="na"/>
+              <node begin="8" end="9" id="16" lemma="1983" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" root="1983" word="1983"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="9" end="10" id="17" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>- Begane grondvloeren zijn geïsoleerd bij bouwjaar na 1983 .</sentence>
+</alpino_ds>

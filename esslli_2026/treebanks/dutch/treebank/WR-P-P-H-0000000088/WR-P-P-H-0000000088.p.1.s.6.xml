@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="10" end="11" id="2" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="12" end="13" id="3" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="0" cat="conj" end="16" id="4" rel="--">
+      <node begin="0" cat="smain" end="5" id="5" rel="cnj">
+        <node begin="0" cat="np" end="2" id="6" rel="su">
+          <node begin="0" end="1" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+          <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="8" lemma="ploeg" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="ploeg" word="ploeg"/>
+        </node>
+        <node begin="2" end="3" id="9" lemma="staan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="sta" word="staat" wvorm="pv"/>
+        <node begin="3" end="4" id="10" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" word="nog"/>
+        <node begin="4" end="5" getal-n="zonder-n" id="11" lemma="vier" numtype="rang" pos="num" positie="nom" postag="TW(rang,nom,zonder-n)" pt="tw" rel="predc" root="vierde" word="vierde"/>
+      </node>
+      <node begin="6" conjtype="neven" end="7" id="12" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+      <node begin="7" cat="smain" end="16" id="13" rel="cnj">
+        <node begin="7" end="8" id="14" lemma="inmiddels" pos="adv" postag="BW()" pt="bw" rel="mod" root="inmiddels" word="inmiddels"/>
+        <node begin="8" end="9" id="15" lemma="gelijk_staan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="sta_gelijk" word="staat" wvorm="pv"/>
+        <node begin="9" cat="np" end="12" id="16" rel="su">
+          <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="17" lemma="Uruguay" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Uruguay" word="Uruguay"/>
+          <node begin="11" end="12" getal-n="zonder-n" id="18" lemma="vijf" numtype="rang" pos="num" positie="nom" postag="TW(rang,nom,zonder-n)" pt="tw" rel="mod" root="vijfde" word="vijfde"/>
+        </node>
+        <node begin="13" cat="pp" end="15" id="19" rel="mod">
+          <node begin="13" end="14" id="20" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="14" end="15" getal="mv" graad="basis" id="21" lemma="punt" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="punt" word="punten"/>
+        </node>
+        <node begin="15" buiging="zonder" end="16" graad="basis" id="22" lemma="gelijk" pos="part" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="svp" root="gelijk" word="gelijk"/>
+      </node>
+    </node>
+    <node begin="16" end="17" id="23" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De ploeg staat nog vierde , maar inmiddels staat Uruguay ( vijfde ) in punten gelijk .</sentence>
+</alpino_ds>

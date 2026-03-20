@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="12" end="13" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="18" id="2" rel="--">
+      <node begin="0" cat="np" end="3" id="3" rel="su">
+        <node begin="0" end="1" id="4" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" buiging="met-e" end="2" graad="basis" id="5" lemma="Nederlands" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Nederlands" word="Nederlandse"/>
+        <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="6" lemma="kanker_registratie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="Kankerregistratie" word="Kankerregistratie"/>
+      </node>
+      <node begin="3" end="4" id="7" lemma="vast_stellen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="stel_vast" word="stelde" wvorm="pv"/>
+      <node begin="4" buiging="zonder" end="5" graad="basis" id="8" lemma="vast" pos="part" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="svp" root="vast" word="vast"/>
+      <node begin="5" cat="cp" end="18" id="9" rel="vc">
+        <node begin="5" conjtype="onder" end="6" id="10" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+        <node begin="6" cat="ssub" end="18" id="11" rel="body">
+          <node begin="6" cat="np" end="16" id="12" index="1" rel="su">
+            <node begin="7" end="8" id="13" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="14" lemma="aantal" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="aantal" word="aantal"/>
+            <node begin="6" cat="np" end="16" id="15" rel="mod">
+              <node begin="9" end="10" getal="mv" graad="basis" id="16" lemma="geval" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="geval" word="gevallen"/>
+              <node begin="6" cat="pp" end="16" id="17" rel="mod">
+                <node begin="10" end="11" id="18" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="6" cat="conj" end="16" id="19" rel="obj1">
+                  <node begin="6" cat="np" end="12" id="20" rel="cnj">
+                    <node begin="6" end="7" id="21" index="2" lemma="vooral" pos="adv" postag="BW()" pt="bw" rel="mod" root="vooral" word="vooral"/>
+                    <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="22" lemma="prostaat_kanker" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="prostaat_kanker" word="prostaatkanker"/>
+                  </node>
+                  <node begin="6" cat="np" end="14" id="23" rel="cnj">
+                    <node begin="6" end="7" id="24" index="2" rel="mod"/>
+                    <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="25" lemma="borst_kanker" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="borst_kanker" word="borstkanker"/>
+                  </node>
+                  <node begin="14" conjtype="neven" end="15" id="26" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                  <node begin="6" cat="np" end="16" id="27" rel="cnj">
+                    <node begin="6" end="7" id="28" index="2" rel="mod"/>
+                    <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="29" lemma="darm_kanker" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="darm_kanker" word="darmkanker"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="16" end="17" id="30" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+          <node begin="6" cat="ppart" end="18" id="31" rel="vc">
+            <node begin="6" end="16" id="32" index="1" rel="su"/>
+            <node begin="17" buiging="zonder" end="18" id="33" lemma="toe_nemen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="neem_toe" word="toegenomen" wvorm="vd"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="34" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De Nederlandse Kankerregistratie stelde vast dat vooral het aantal gevallen van prostaatkanker , borstkanker en darmkanker is toegenomen .</sentence>
+</alpino_ds>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="7" end="8" id="2" lemma="..." pos="punct" postag="LET()" pt="let" rel="--" root="..." word="..."/>
+    <node begin="15" end="16" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="21" id="4" rel="--">
+      <node begin="0" cat="smain" end="4" id="5" rel="cnj">
+        <node begin="0" buiging="zonder" end="1" graad="basis" id="6" lemma="vaak" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="vaak" word="Vaak"/>
+        <node begin="1" end="2" id="7" lemma="gaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ga" word="gaat" wvorm="pv"/>
+        <node begin="2" end="3" genus="onz" getal="ev" id="8" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" root="het" status="red" vwtype="pers" word="het"/>
+        <node begin="3" buiging="zonder" end="4" graad="basis" id="9" lemma="goed" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="goed" word="goed"/>
+      </node>
+      <node begin="5" conjtype="neven" end="6" id="10" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+      <node begin="6" cat="smain" end="21" id="11" rel="cnj">
+        <node begin="6" end="7" id="12" lemma="soms" pos="adv" postag="BW()" pt="bw" rel="mod" root="soms" word="soms"/>
+        <node begin="8" cat="cp" end="15" id="13" rel="mod">
+          <node begin="8" conjtype="onder" end="9" id="14" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+          <node begin="9" cat="ssub" end="15" id="15" rel="body">
+            <node begin="9" end="10" getal="ev" id="16" lemma="je" naamval="nomin" pdtype="pron" persoon="2v" pos="pron" postag="VNW(pers,pron,nomin,red,2v,ev)" pt="vnw" rel="su" root="je" status="red" vwtype="pers" word="je"/>
+            <node begin="11" cat="pp" end="13" id="17" rel="mod">
+              <node begin="11" end="12" id="18" lemma="pas" pos="adv" postag="BW()" pt="bw" rel="mod" root="pas" word="pas"/>
+              <node begin="12" end="13" id="19" lemma="achteraf" pos="pp" postag="BW()" pt="bw" rel="hd" root="achteraf" word="achteraf"/>
+            </node>
+            <node begin="10" cat="pp" end="14" id="20" rel="pc">
+              <node begin="10" end="11" getal="getal" id="21" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="obj1" root="er" status="red" vwtype="aanw" word="er"/>
+              <node begin="13" end="14" id="22" lemma="over" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="over" vztype="fin" word="over"/>
+            </node>
+            <node begin="14" end="15" id="23" lemma="na_denken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="denk_na" word="nadenkt" wvorm="pv"/>
+          </node>
+        </node>
+        <node begin="16" end="17" id="24" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="17" end="18" genus="onz" getal="ev" id="25" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" root="het" status="red" vwtype="pers" word="het"/>
+        <node begin="18" end="19" id="26" lemma="misschien" pos="adv" postag="BW()" pt="bw" rel="mod" root="misschien" word="misschien"/>
+        <node begin="19" cat="ap" end="21" id="27" rel="predc">
+          <node begin="19" end="20" id="28" lemma="te" pos="adv" postag="BW()" pt="bw" rel="mod" root="te" word="te"/>
+          <node begin="20" buiging="zonder" end="21" graad="basis" id="29" lemma="laat" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="laat" word="laat"/>
+        </node>
+      </node>
+    </node>
+    <node begin="21" end="22" id="30" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Vaak gaat het goed , maar soms ... als je er pas achteraf over nadenkt , is het misschien te laat .</sentence>
+</alpino_ds>

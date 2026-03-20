@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="0" cat="pp" end="2" id="2" rel="mod">
+        <node begin="0" end="1" id="3" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+        <node begin="1" end="2" id="4" lemma="1991" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" root="1991" word="1991"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+      <node begin="3" cat="mwu" end="5" id="6" rel="su">
+        <node begin="3" end="4" id="7" lemma="Jean-Luc" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Jean-Luc" spectype="deeleigen" word="Jean-Luc"/>
+        <node begin="4" end="5" id="8" lemma="Dehaene" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Dehaene" spectype="deeleigen" word="Dehaene"/>
+      </node>
+      <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="9" lemma="premier" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="predc" root="premier" word="premier"/>
+    </node>
+    <node begin="6" end="7" id="10" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>In 1991 wordt Jean-Luc Dehaene premier .</sentence>
+</alpino_ds>

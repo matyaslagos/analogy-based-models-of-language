@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="7" end="8" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="17" id="3" rel="--">
+      <node begin="0" cat="smain" end="7" id="4" rel="cnj">
+        <node begin="0" cat="conj" end="5" id="5" rel="su">
+          <node begin="0" end="1" genus="onz" getal="ev" graad="basis" id="6" lemma="Estland" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Estland" word="Estland"/>
+          <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="7" lemma="Letland" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Letland" word="Letland"/>
+          <node begin="3" conjtype="neven" end="4" id="8" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="9" lemma="Litouwen" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Litouwen" word="Litouwen"/>
+        </node>
+        <node begin="5" end="6" id="10" lemma="worden" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="word" word="werden" wvorm="pv"/>
+        <node begin="6" buiging="zonder" end="7" graad="basis" id="11" lemma="onafhankelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="onafhankelijk" word="onafhankelijk"/>
+      </node>
+      <node begin="8" conjtype="neven" end="9" id="12" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+      <node begin="9" cat="smain" end="17" id="13" rel="cnj">
+        <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="14" lemma="Polen" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" root="Polen" word="Polen"/>
+        <node begin="10" end="11" id="15" lemma="bezetten" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="bezet" word="bezette" wvorm="pv"/>
+        <node begin="11" end="12" id="16" lemma="wel" pos="adv" postag="BW()" pt="bw" rel="mod" root="wel" word="wel"/>
+        <node begin="12" cat="np" end="17" id="17" rel="obj1">
+          <node begin="12" end="13" id="18" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="13" buiging="met-e" end="14" graad="basis" id="19" lemma="oud" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="oud" word="oude"/>
+          <node begin="14" buiging="met-e" end="15" graad="basis" id="20" lemma="Litouws" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Litouws" word="Litouwse"/>
+          <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="21" lemma="hoofdstad" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="hoofdstad" word="hoofdstad"/>
+          <node begin="16" end="17" genus="onz" getal="ev" graad="basis" id="22" lemma="Vilnioes" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="app" root="Vilnioes" word="Vilnioes"/>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="23" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Estland , Letland en Litouwen werden onafhankelijk , maar Polen bezette wel de oude Litouwse hoofdstad Vilnioes .</sentence>
+</alpino_ds>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="0" cat="np" end="7" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" cat="ppart" end="4" id="4" rel="mod">
+          <node begin="1" cat="pp" end="3" id="5" rel="mod">
+            <node begin="1" end="2" id="6" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="2" end="3" id="7" lemma="1999" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" root="1999" word="1999"/>
+          </node>
+          <node begin="3" buiging="met-e" end="4" id="8" lemma="benoemen" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="hd" root="benoemd" word="benoemde" wvorm="vd"/>
+        </node>
+        <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="9" lemma="directeur-generaal" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="directeur-generaal" word="directeur-generaal"/>
+        <node begin="5" cat="mwu" end="7" id="10" rel="app">
+          <node begin="5" end="6" id="11" lemma="Hugo" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Hugo" spectype="deeleigen" word="Hugo"/>
+          <node begin="6" end="7" id="12" lemma="Beersmans" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Beersmans" spectype="deeleigen" word="Beersmans"/>
+        </node>
+      </node>
+      <node begin="7" end="8" id="13" lemma="zitten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zit" word="zit" wvorm="pv"/>
+      <node begin="8" buiging="zonder" end="9" graad="basis" id="14" lemma="voorlopig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="voorlopig" word="voorlopig"/>
+      <node begin="9" buiging="zonder" end="10" graad="basis" id="15" lemma="werkloos" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="werkloos" word="werkloos"/>
+      <node begin="10" end="11" id="16" lemma="thuis" pos="adv" postag="BW()" pt="bw" rel="mod" root="thuis" word="thuis"/>
+    </node>
+    <node begin="11" end="12" id="17" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De in 1999 benoemde directeur-generaal Hugo Beersmans zit voorlopig werkloos thuis .</sentence>
+</alpino_ds>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="28" id="0" rel="top">
+    <node begin="11" end="12" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="21" end="22" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="26" id="3" rel="--">
+      <node begin="0" buiging="met-e" end="1" getal-n="zonder-n" id="4" lemma="deze" naamval="stan" pdtype="det" pos="det" positie="nom" postag="VNW(aanw,det,stan,nom,met-e,zonder-n)" pt="vnw" rel="su" root="deze" vwtype="aanw" word="Deze"/>
+      <node begin="1" end="2" id="5" lemma="bestaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="besta" word="bestaat" wvorm="pv"/>
+      <node begin="2" buiging="zonder" end="3" graad="basis" id="6" lemma="hoofdzakelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="hoofdzakelijk" word="hoofdzakelijk"/>
+      <node begin="3" cat="pp" end="11" id="7" rel="pc">
+        <node begin="3" end="4" id="8" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" vztype="init" word="uit"/>
+        <node begin="4" cat="np" end="11" id="9" rel="obj1">
+          <node begin="4" end="5" getal="mv" graad="basis" id="10" lemma="lid" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="lid" word="leden"/>
+          <node begin="5" cat="pp" end="11" id="11" rel="mod">
+            <node begin="5" end="6" id="12" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="6" cat="np" end="11" id="13" rel="obj1">
+              <node begin="6" end="7" id="14" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="7" cat="mwu" end="11" id="15" rel="hd">
+                <node begin="7" end="8" id="16" lemma="Paul" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Paul" spectype="deeleigen" word="Paul"/>
+                <node begin="8" end="9" id="17" lemma="Butterfield" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Butterfield" spectype="deeleigen" word="Butterfield"/>
+                <node begin="9" end="10" id="18" lemma="Blues" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Blues" spectype="deeleigen" word="Blues"/>
+                <node begin="10" end="11" id="19" lemma="Band" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Band" spectype="deeleigen" word="Band"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="12" cat="smain" end="26" id="20" rel="mod">
+        <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="21" lemma="Dylan" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Dylan" word="Dylan"/>
+        <node begin="13" end="14" id="22" lemma="op_treden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="treed_op" word="trad" wvorm="pv"/>
+        <node begin="14" cat="ap" end="16" id="23" rel="mod">
+          <node begin="14" end="15" id="24" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mod" root="al" word="al"/>
+          <node begin="15" buiging="zonder" end="16" graad="comp" id="25" lemma="eerder" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="eerder" word="eerder"/>
+        </node>
+        <node begin="16" cat="np" end="18" id="26" rel="mod">
+          <node begin="16" end="17" id="27" lemma="twee" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="twee" word="twee"/>
+          <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="28" lemma="keer" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="keer" word="keer"/>
+        </node>
+        <node begin="18" end="19" id="29" lemma="op" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="op" vztype="fin" word="op"/>
+        <node begin="19" cat="pp" end="21" id="30" rel="mod">
+          <node begin="19" end="20" id="31" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="20" end="21" genus="onz" getal="ev" graad="basis" id="32" lemma="Newport" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Newport" word="Newport"/>
+        </node>
+        <node begin="22" cat="pp" end="26" id="33" rel="mod">
+          <node begin="22" end="23" id="34" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="23" cat="conj" end="26" id="35" rel="obj1">
+            <node begin="23" end="24" id="36" lemma="1963" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="cnj" root="1963" word="1963"/>
+            <node begin="24" conjtype="neven" end="25" id="37" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="25" end="26" id="38" lemma="1964" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="cnj" root="1964" word="1964"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="26" end="27" id="39" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="27" end="28" id="40" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Deze bestaat hoofdzakelijk uit leden van de Paul Butterfield Blues Band ( Dylan trad al eerder twee keer op in Newport , in 1963 en 1964 ) .</sentence>
+</alpino_ds>

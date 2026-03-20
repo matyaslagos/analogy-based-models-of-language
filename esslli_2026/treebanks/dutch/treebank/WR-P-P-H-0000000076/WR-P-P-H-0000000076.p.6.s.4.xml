@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="14" end="15" id="2" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="0" cat="smain" end="18" id="3" rel="--">
+      <node begin="0" cat="np" end="2" id="4" rel="su">
+        <node begin="0" end="1" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="6" lemma="kind_band" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="kinderband" word="kinderband"/>
+      </node>
+      <node begin="2" end="3" id="7" lemma="kiezen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="kies" word="koos" wvorm="pv"/>
+      <node begin="3" end="4" id="8" lemma="daarom" pos="pp" postag="BW()" pt="bw" rel="mod" root="daarom" word="daarom"/>
+      <node begin="4" cat="pp" end="18" id="9" rel="pc">
+        <node begin="4" end="5" id="10" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+        <node begin="5" cat="conj" end="18" id="11" rel="obj1">
+          <node begin="5" cat="np" end="14" id="12" rel="cnj">
+            <node begin="5" buiging="met-e" end="6" graad="basis" id="13" lemma="eenvoudig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="eenvoudig" word="eenvoudige"/>
+            <node begin="6" end="7" getal="mv" graad="basis" id="14" lemma="tekst" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="tekst" word="teksten"/>
+            <node begin="8" cat="conj" end="14" id="15" rel="mod">
+              <node begin="8" end="9" id="16" lemma="zowel" pos="vg" postag="BW()" pt="bw" rel="crd" root="zowel" word="zowel"/>
+              <node begin="9" cat="np" end="11" id="17" rel="cnj">
+                <node begin="9" buiging="met-e" end="10" graad="basis" id="18" lemma="traditioneel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="traditioneel" word="traditionele"/>
+                <node begin="10" end="11" getal="mv" graad="dim" id="19" lemma="kind_lied" ntype="soort" pos="noun" postag="N(soort,mv,dim)" pt="n" rel="hd" root="kinderliedjes" word="kinderliedjes"/>
+              </node>
+              <node begin="11" conjtype="onder" end="12" id="20" lemma="als" pos="vg" postag="VG(onder)" pt="vg" rel="crd" root="als" word="als"/>
+              <node begin="12" cat="np" end="14" id="21" rel="cnj">
+                <node begin="12" buiging="zonder" end="13" graad="basis" id="22" lemma="eigen" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="eigen" word="eigen"/>
+                <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="23" lemma="werk" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="werk" word="werk"/>
+              </node>
+            </node>
+          </node>
+          <node begin="15" conjtype="neven" end="16" id="24" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="16" cat="np" end="18" id="25" rel="cnj">
+            <node begin="16" buiging="met-e" end="17" id="26" lemma="swingen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="swing" word="swingende" wvorm="od"/>
+            <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="27" lemma="muziek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="muziek" word="muziek"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="28" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De kinderband koos daarom voor eenvoudige teksten - zowel traditionele kinderliedjes als eigen werk - en swingende muziek .</sentence>
+</alpino_ds>

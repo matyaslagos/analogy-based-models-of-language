@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="4" end="5" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="5" end="6" id="3" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="du" end="11" id="4" rel="--">
+      <node begin="0" cat="np" end="4" id="5" rel="dp">
+        <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="6" lemma="Chinees" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Chinees" word="Chinees"/>
+        <node begin="2" cat="du" end="4" id="7" rel="mod">
+          <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="8" lemma="versie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="dp" root="Versie" word="Versie"/>
+          <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="9" lemma="vasteland" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="dp" root="vasteland" word="vasteland"/>
+        </node>
+      </node>
+      <node begin="6" cat="mwu" end="11" id="10" rel="dp">
+        <node begin="6" end="7" id="11" lemma="Bo" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Bo" spectype="deeleigen" word="Bo"/>
+        <node begin="7" end="8" id="12" lemma="bu" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="bu" spectype="deeleigen" word="bu"/>
+        <node begin="8" end="9" id="13" lemma="&amp;" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="&amp;" spectype="deeleigen" word="&amp;"/>
+        <node begin="9" end="10" id="14" lemma="Bo" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Bo" spectype="deeleigen" word="Bo"/>
+        <node begin="10" end="11" id="15" lemma="be" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="be" spectype="deeleigen" word="be"/>
+      </node>
+    </node>
+    <node begin="11" end="12" id="16" lemma="te" pos="adv" postag="VZ(init)" pt="vz" rel="--" root="te" vztype="init" word="te"/>
+  </node>
+  <sentence>Chinees ( Versie vasteland ) : Bo bu &amp; Bo be te</sentence>
+</alpino_ds>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="1" end="2" id="2" lemma="zullen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zal" word="zal" wvorm="pv"/>
+      <node begin="3" cat="np" end="5" id="3" index="1" rel="su">
+        <node begin="3" end="4" id="4" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="5" lemma="informatie_campagne" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="informatie_campagne" word="informatiecampagne"/>
+      </node>
+      <node begin="0" cat="inf" end="7" id="6" rel="vc">
+        <node begin="3" end="5" id="7" index="1" rel="su"/>
+        <node begin="0" cat="ppart" end="6" id="8" rel="vc">
+          <node begin="0" end="1" id="9" lemma="daarom" pos="pp" postag="BW()" pt="bw" rel="mod" root="daarom" word="Daarom"/>
+          <node begin="2" end="3" id="10" lemma="binnenkort" pos="adv" postag="BW()" pt="bw" rel="mod" root="binnenkort" word="binnenkort"/>
+          <node begin="3" end="5" id="11" index="1" rel="obj1"/>
+          <node begin="5" buiging="zonder" end="6" id="12" lemma="op_zetten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="zet_op" word="opgezet" wvorm="vd"/>
+        </node>
+        <node begin="6" buiging="zonder" end="7" id="13" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="7" end="8" id="14" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Daarom zal binnenkort een informatiecampagne opgezet worden .</sentence>
+</alpino_ds>

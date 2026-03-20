@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="8" id="2" rel="--">
+      <node begin="0" cat="np" end="3" id="3" rel="dp">
+        <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="4" lemma="luitenant" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="luitenant" word="Luitenant"/>
+        <node begin="1" cat="mwu" end="3" id="5" rel="app">
+          <node begin="1" end="2" id="6" lemma="Jerzy" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Jerzy" spectype="deeleigen" word="Jerzy"/>
+          <node begin="2" end="3" id="7" lemma="Dyrda" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Dyrda" spectype="deeleigen" word="Dyrda"/>
+        </node>
+      </node>
+      <node begin="4" cat="du" end="8" id="8" rel="dp">
+        <node begin="4" end="5" getal="getal" id="9" lemma="hier" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="dp" root="hier" status="vol" vwtype="aanw" word="hier"/>
+        <node begin="5" end="6" id="10" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="dp" root="nog" word="nog"/>
+        <node begin="6" cat="cp" end="8" id="11" rel="dp">
+          <node begin="6" conjtype="onder" end="7" id="12" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+          <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="13" lemma="valscherm_instructeur" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="body" root="val_scherm_instructeur" word="valscherminstructeur"/>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" id="14" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Luitenant Jerzy Dyrda , hier nog als valscherminstructeur .</sentence>
+</alpino_ds>

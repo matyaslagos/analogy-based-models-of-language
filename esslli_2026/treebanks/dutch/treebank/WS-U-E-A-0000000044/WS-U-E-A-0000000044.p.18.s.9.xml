@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="10" end="11" id="1" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="12" end="13" id="2" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="0" cat="smain" end="18" id="3" rel="--">
+      <node begin="0" cat="np" end="2" id="4" index="1" rel="su">
+        <node begin="0" end="1" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="6" lemma="krant" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="krant" word="krant"/>
+      </node>
+      <node begin="2" end="3" id="7" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="heeft" wvorm="pv"/>
+      <node begin="0" cat="inf" end="18" id="8" rel="vc">
+        <node begin="0" end="2" id="9" index="1" rel="su"/>
+        <node begin="5" buiging="zonder" end="6" id="10" lemma="kunnen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="kan" word="kunnen" wvorm="inf"/>
+        <node begin="0" cat="inf" end="18" id="11" rel="vc">
+          <node begin="0" end="2" id="12" index="1" rel="su"/>
+          <node begin="3" cat="mwu" end="5" id="13" rel="svp">
+            <node begin="3" end="4" id="14" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="mwp" root="de" word="de"/>
+            <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="15" lemma="hand" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="hand" word="hand"/>
+          </node>
+          <node begin="6" buiging="zonder" end="7" id="16" lemma="leggen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="leg" word="leggen" wvorm="inf"/>
+          <node begin="7" cat="pp" end="18" id="17" rel="pc">
+            <node begin="7" end="8" id="18" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+            <node begin="8" cat="np" end="18" id="19" rel="obj1">
+              <node begin="8" end="9" id="20" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="9" buiging="met-e" end="10" graad="basis" id="21" lemma="geheim" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="geheim" word="geheime"/>
+              <node begin="11" end="12" id="22" lemma="sideletters" pos="noun" postag="SPEC(vreemd)" pt="spec" rel="hd" root="sideletters" spectype="vreemd" word="sideletters"/>
+              <node begin="13" cat="rel" end="18" id="23" rel="mod">
+                <node begin="13" end="14" getal="getal" id="24" index="2" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+                <node begin="13" cat="ssub" end="18" id="25" rel="body">
+                  <node begin="13" end="14" id="26" index="2" rel="su"/>
+                  <node begin="14" cat="np" end="16" id="27" rel="obj1">
+                    <node begin="14" end="15" id="28" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="29" lemma="fraude" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="fraude" word="fraude"/>
+                  </node>
+                  <node begin="16" buiging="zonder" end="17" graad="basis" id="30" lemma="mogelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="mogelijk" word="mogelijk"/>
+                  <node begin="17" end="18" id="31" lemma="maken" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="maak" word="maakten" wvorm="pv"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="32" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De krant heeft de hand kunnen leggen op de geheime &apos; sideletters &apos; die de fraude mogelijk maakten .</sentence>
+</alpino_ds>

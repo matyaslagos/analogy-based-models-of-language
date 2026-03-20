@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="29" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="28" id="2" rel="--">
+      <node begin="0" cat="smain" end="5" id="3" rel="cnj">
+        <node begin="0" cat="np" end="3" id="4" rel="su">
+          <node begin="0" buiging="zonder" end="1" graad="basis" id="5" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,basis)" pt="vnw" rel="det" root="veel" vwtype="onbep" word="Veel"/>
+          <node begin="1" buiging="met-e" end="2" graad="basis" id="6" lemma="Arabisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Arabisch" word="Arabische"/>
+          <node begin="2" end="3" getal="mv" graad="basis" id="7" lemma="staat" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="staat" word="staten"/>
+        </node>
+        <node begin="3" end="4" id="8" lemma="worden" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="word" word="werden" wvorm="pv"/>
+        <node begin="4" buiging="zonder" end="5" graad="basis" id="9" lemma="onafhankelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="onafhankelijk" word="onafhankelijk"/>
+      </node>
+      <node begin="6" cat="smain" end="13" id="10" rel="cnj">
+        <node begin="6" end="7" genus="masc" getal="ev" id="11" lemma="men" naamval="nomin" pdtype="pron" persoon="3p" pos="pron" postag="VNW(pers,pron,nomin,red,3p,ev,masc)" pt="vnw" rel="su" root="men" status="red" vwtype="pers" word="men"/>
+        <node begin="7" end="8" id="12" lemma="hebben" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="heb" word="had" wvorm="pv"/>
+        <node begin="8" cat="np" end="11" id="13" rel="obj1">
+          <node begin="8" end="9" id="14" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="9" buiging="zonder" end="10" id="15" lemma="inspireren" pos="adj" positie="prenom" postag="WW(od,prenom,zonder)" pt="ww" rel="mod" root="inspireer" word="inspirerend" wvorm="od"/>
+          <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="16" lemma="voorbeeld" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="voorbeeld" word="voorbeeld"/>
+        </node>
+        <node begin="11" cat="pp" end="13" id="17" rel="mod">
+          <node begin="11" end="12" id="18" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="19" lemma="Nasser" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" root="Nasser" word="Nasser"/>
+        </node>
+      </node>
+      <node begin="13" conjtype="neven" end="14" id="20" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="14" cat="smain" end="28" id="21" rel="cnj">
+        <node begin="14" cat="np" end="21" id="22" rel="su">
+          <node begin="14" end="15" getal="mv" graad="basis" id="23" lemma="project" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="project" word="projecten"/>
+          <node begin="15" cat="cp" end="21" id="24" rel="mod">
+            <node begin="15" conjtype="onder" end="16" id="25" lemma="zoals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zoals" word="zoals"/>
+            <node begin="16" cat="np" end="21" id="26" rel="body">
+              <node begin="16" end="17" id="27" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="17" buiging="met-e" end="18" graad="basis" id="28" lemma="hoog" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="hoog" word="Hoge"/>
+              <node begin="18" end="19" genus="zijd" getal="ev" graad="basis" id="29" lemma="dam" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="dam" word="dam"/>
+              <node begin="19" cat="pp" end="21" id="30" rel="mod">
+                <node begin="19" end="20" id="31" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="20" end="21" genus="onz" getal="ev" graad="basis" id="32" lemma="Aswan" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Aswan" word="Aswan"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="21" end="22" id="33" lemma="geven" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="geef" word="gaven" wvorm="pv"/>
+        <node begin="22" cat="np" end="25" id="34" rel="obj2">
+          <node begin="22" end="23" id="35" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="23" buiging="met-e" end="24" graad="basis" id="36" lemma="Arabisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Arabisch" word="Arabische"/>
+          <node begin="24" end="25" genus="zijd" getal="ev" graad="basis" id="37" lemma="burger" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="burger" word="burger"/>
+        </node>
+        <node begin="25" cat="np" end="28" id="38" rel="obj1">
+          <node begin="25" end="26" id="39" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="26" buiging="zonder" end="27" graad="basis" id="40" lemma="trots" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="trots" word="trots"/>
+          <node begin="27" end="28" genus="onz" getal="ev" graad="basis" id="41" lemma="gevoel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="gevoel" word="gevoel"/>
+        </node>
+      </node>
+    </node>
+    <node begin="28" end="29" id="42" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Veel Arabische staten werden onafhankelijk , men had een inspirerend voorbeeld in Nasser en projecten zoals de Hoge dam van Aswan gaven de Arabische burger een trots gevoel .</sentence>
+</alpino_ds>

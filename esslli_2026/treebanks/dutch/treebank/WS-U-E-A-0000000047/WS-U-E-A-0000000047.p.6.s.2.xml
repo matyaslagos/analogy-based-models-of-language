@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="smain" end="12" id="1" rel="--">
+      <node begin="2" end="3" id="2" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="heeft" wvorm="pv"/>
+      <node begin="3" cat="np" end="10" id="3" index="1" rel="su">
+        <node begin="3" end="4" id="4" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+        <node begin="4" end="5" id="5" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="6" lemma="aantal" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="aantal" word="aantal"/>
+        <node begin="6" cat="conj" end="10" id="7" rel="mod">
+          <node begin="6" cat="np" end="8" id="8" rel="cnj">
+            <node begin="6" buiging="met-e" end="7" graad="basis" id="9" index="2" lemma="alternatief" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="alternatief" word="alternatieve"/>
+            <node begin="7" end="8" getal="mv" graad="basis" id="10" lemma="arts" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="arts" word="artsen"/>
+          </node>
+          <node begin="8" conjtype="neven" end="9" id="11" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="6" cat="np" end="10" id="12" rel="cnj">
+            <node begin="6" end="7" id="13" index="2" rel="mod"/>
+            <node begin="9" end="10" getal="mv" graad="basis" id="14" lemma="therapeut" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="therapeut" word="therapeuten"/>
+          </node>
+        </node>
+      </node>
+      <node begin="0" cat="ppart" end="12" id="15" rel="vc">
+        <node begin="0" cat="cp" end="2" id="16" rel="mod">
+          <node begin="0" conjtype="onder" end="1" id="17" lemma="behalve" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="behalve" word="Behalve"/>
+          <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="18" lemma="Jomanda" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="body" root="Jomanda" word="Jomanda"/>
+        </node>
+        <node begin="3" end="10" id="19" index="1" rel="su"/>
+        <node begin="10" buiging="zonder" end="11" graad="basis" id="20" lemma="strafbaar" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="strafbaar" word="strafbaar"/>
+        <node begin="11" buiging="zonder" end="12" id="21" lemma="handelen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="handel" word="gehandeld" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="12" end="13" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Behalve Jomanda heeft ook een aantal alternatieve artsen en therapeuten strafbaar gehandeld .</sentence>
+</alpino_ds>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="conj" end="13" id="1" rel="--">
+      <node begin="0" cat="whq" end="7" id="2" rel="cnj">
+        <node begin="0" end="1" id="3" index="1" lemma="hoeveel" numtype="hoofd" pos="adj" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="whd" root="hoeveel" word="Hoeveel"/>
+        <node begin="0" cat="sv1" end="7" id="4" rel="body">
+          <node begin="1" end="2" id="5" lemma="mogen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="mag" word="mag" wvorm="pv"/>
+          <node begin="2" end="3" getal="ev" id="6" index="2" lemma="je" naamval="nomin" pdtype="pron" persoon="2v" pos="pron" postag="VNW(pers,pron,nomin,red,2v,ev)" pt="vnw" rel="su" root="je" status="red" vwtype="pers" word="je"/>
+          <node begin="0" cat="inf" end="7" id="7" rel="vc">
+            <node begin="0" end="1" id="8" index="1" rel="obj1"/>
+            <node begin="2" end="3" id="9" index="2" rel="su"/>
+            <node begin="3" buiging="zonder" end="4" id="10" lemma="drinken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="drink" word="drinken" wvorm="inf"/>
+            <node begin="4" cat="pp" end="7" id="11" rel="mod">
+              <node begin="4" end="5" id="12" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+              <node begin="5" cat="np" end="7" id="13" rel="obj1">
+                <node begin="5" end="6" id="14" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="15" lemma="verkeer" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="verkeer" word="verkeer"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="7" conjtype="neven" end="8" id="16" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="8" cat="whq" end="13" id="17" rel="cnj">
+        <node begin="8" end="9" id="18" index="3" lemma="waarom" pos="adv" postag="BW()" pt="bw" rel="whd" root="waarom" word="waarom"/>
+        <node begin="8" cat="sv1" end="13" id="19" rel="body">
+          <node begin="8" end="9" id="20" index="3" rel="mod"/>
+          <node begin="9" end="10" id="21" lemma="krijgen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="krijg" word="krijg" wvorm="pv"/>
+          <node begin="10" end="11" getal="ev" id="22" lemma="je" naamval="nomin" pdtype="pron" persoon="2v" pos="pron" postag="VNW(pers,pron,nomin,red,2v,ev)" pt="vnw" rel="su" root="je" status="red" vwtype="pers" word="je"/>
+          <node begin="11" cat="np" end="13" id="23" rel="obj1">
+            <node begin="11" end="12" id="24" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="25" lemma="kater" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="kater" word="kater"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="26" lemma="?" pos="punct" postag="LET()" pt="let" rel="--" root="?" word="?"/>
+  </node>
+  <sentence>Hoeveel mag je drinken in het verkeer en waarom krijg je een kater ?</sentence>
+</alpino_ds>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="10" id="2" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="3" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" word="Maar"/>
+      <node begin="2" cat="smain" end="10" id="4" rel="nucl">
+        <node begin="4" end="5" id="5" lemma="gaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ga" word="gaat" wvorm="pv"/>
+        <node begin="5" cat="np" end="7" id="6" index="1" rel="su">
+          <node begin="5" buiging="zonder" end="6" getal="ev" id="7" lemma="je" naamval="stan" npagr="agr" pdtype="det" persoon="2v" pos="det" positie="prenom" postag="VNW(bez,det,stan,red,2v,ev,prenom,zonder,agr)" pt="vnw" rel="det" root="je" status="red" vwtype="bez" word="je"/>
+          <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="8" lemma="lichaam" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="lichaam" word="lichaam"/>
+        </node>
+        <node begin="2" cat="inf" end="10" id="9" rel="vc">
+          <node begin="2" cat="pp" end="4" id="10" rel="mod">
+            <node begin="2" end="3" id="11" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+            <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="12" lemma="alcohol" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="alcohol" word="alcohol"/>
+          </node>
+          <node begin="5" end="7" id="13" index="1" rel="su"/>
+          <node begin="7" end="8" id="14" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+          <node begin="8" buiging="zonder" end="9" graad="comp" id="15" lemma="langzaam" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="langzaam" word="langzamer"/>
+          <node begin="9" buiging="zonder" end="10" id="16" lemma="werken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="werk" word="werken" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="10" end="11" id="17" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Maar , door alcohol gaat je lichaam ook langzamer werken .</sentence>
+</alpino_ds>

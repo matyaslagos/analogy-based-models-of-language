@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="24" id="0" rel="top">
+    <node begin="14" end="15" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="23" id="2" rel="--">
+      <node begin="0" end="1" getal="getal" id="3" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="Er"/>
+      <node begin="1" end="2" id="4" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+      <node begin="2" cat="np" end="23" id="5" rel="su">
+        <node begin="2" end="3" getal="mv" graad="basis" id="6" lemma="waarnemer" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="waarnemer" word="waarnemers"/>
+        <node begin="3" cat="rel" end="23" id="7" rel="mod">
+          <node begin="3" end="4" getal="getal" id="8" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+          <node begin="3" cat="ssub" end="23" id="9" rel="body">
+            <node begin="3" end="4" id="10" index="1" rel="su"/>
+            <node begin="4" end="5" id="11" lemma="vol_houden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="houd_vol" word="volhouden" wvorm="pv"/>
+            <node begin="5" cat="conj" end="23" id="12" rel="vc">
+              <node begin="5" cat="cp" end="14" id="13" rel="cnj">
+                <node begin="5" conjtype="onder" end="6" id="14" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+                <node begin="6" cat="ssub" end="14" id="15" rel="body">
+                  <node begin="6" end="7" genus="masc" getal="ev" id="16" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="hij"/>
+                  <node begin="8" buiging="zonder" end="9" graad="basis" id="17" lemma="eigenlijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="eigenlijk" word="eigenlijk"/>
+                  <node begin="9" end="10" getal="ev" id="18" lemma="niets" naamval="stan" pdtype="pron" persoon="3o" pos="noun" postag="VNW(onbep,pron,stan,vol,3o,ev)" pt="vnw" rel="obj1" root="niets" status="vol" vwtype="onbep" word="niets"/>
+                  <node begin="7" cat="pp" end="11" id="19" rel="pc">
+                    <node begin="7" end="8" getal="getal" id="20" lemma="daar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="noun" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="obj1" root="daar" status="vol" vwtype="aanw" word="daar"/>
+                    <node begin="10" end="11" id="21" lemma="met" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="met" vztype="fin" word="mee"/>
+                  </node>
+                  <node begin="11" cat="ti" end="13" id="22" rel="svp">
+                    <node begin="11" end="12" id="23" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+                    <node begin="12" buiging="zonder" end="13" id="24" lemma="maken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="body" root="maak" word="maken" wvorm="inf"/>
+                  </node>
+                  <node begin="13" end="14" id="25" lemma="hebben" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="heb" word="had" wvorm="pv"/>
+                </node>
+              </node>
+              <node begin="15" cat="cp" end="23" id="26" rel="cnj">
+                <node begin="15" conjtype="onder" end="16" id="27" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+                <node begin="16" cat="ssub" end="23" id="28" rel="body">
+                  <node begin="16" cat="np" end="18" id="29" rel="su">
+                    <node begin="16" end="17" id="30" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="31" lemma="tijd" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="tijd" word="tijd"/>
+                  </node>
+                  <node begin="19" buiging="zonder" end="20" graad="basis" id="32" lemma="gewoon" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="gewoon" word="gewoon"/>
+                  <node begin="18" cat="ap" end="22" id="33" rel="predc">
+                    <node begin="20" buiging="zonder" end="21" graad="basis" id="34" lemma="rijp" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="rijp" word="rijp"/>
+                    <node begin="18" cat="pp" end="22" id="35" rel="pc">
+                      <node begin="18" end="19" getal="getal" id="36" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="noun" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="obj1" root="er" status="red" vwtype="aanw" word="er"/>
+                      <node begin="21" end="22" id="37" lemma="voor" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="voor" vztype="fin" word="voor"/>
+                    </node>
+                  </node>
+                  <node begin="22" end="23" id="38" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="23" end="24" id="39" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Er zijn waarnemers die volhouden dat hij daar eigenlijk niets mee te maken had , dat de tijd er gewoon rijp voor was .</sentence>
+</alpino_ds>

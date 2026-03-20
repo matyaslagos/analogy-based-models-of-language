@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="smain" end="13" id="1" rel="--">
+      <node begin="0" cat="np" end="4" id="2" rel="su">
+        <node begin="0" cat="mwu" end="2" id="3" rel="det">
+          <node begin="0" end="1" id="4" lemma="De" pos="det" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="De" spectype="deeleigen" word="De"/>
+          <node begin="1" end="2" getal="ev" graad="basis" id="5" lemma="Morgan" naamval="gen" ntype="eigen" pos="det" postag="N(eigen,ev,basis,gen)" pt="n" rel="mwp" root="Morgan" word="Morgans"/>
+        </node>
+        <node begin="2" cat="mwu" end="4" id="6" rel="hd">
+          <node begin="2" end="3" id="7" lemma="London" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="London" spectype="deeleigen" word="London"/>
+          <node begin="3" end="4" id="8" lemma="University" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="University" spectype="deeleigen" word="University"/>
+        </node>
+      </node>
+      <node begin="4" end="5" id="9" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+      <node begin="5" end="6" id="10" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+      <node begin="6" cat="np" end="13" id="11" rel="predc">
+        <node begin="6" buiging="zonder" end="7" getal-n="zonder-n" graad="basis" id="12" lemma="hetzelfde" pos="det" positie="nom" postag="ADJ(nom,basis,zonder,zonder-n)" pt="adj" rel="hd" root="hetzelfde" word="hetzelfde"/>
+        <node begin="7" cat="cp" end="13" id="13" rel="obcomp">
+          <node begin="7" conjtype="onder" end="8" id="14" lemma="als" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+          <node begin="8" cat="np" end="13" id="15" rel="body">
+            <node begin="8" end="9" id="16" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="9" buiging="met-e" end="10" graad="basis" id="17" lemma="huidig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="huidig" word="huidige"/>
+            <node begin="10" cat="mwu" end="13" id="18" rel="hd">
+              <node begin="10" end="11" id="19" lemma="University" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="University" spectype="deeleigen" word="University"/>
+              <node begin="11" end="12" id="20" lemma="of" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="of" spectype="deeleigen" word="of"/>
+              <node begin="12" end="13" id="21" lemma="London" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="London" spectype="deeleigen" word="London"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De Morgans London University was niet hetzelfde als de huidige University of London .</sentence>
+</alpino_ds>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="5" end="6" id="2" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="14" id="3" rel="vc">
+        <node begin="0" cat="np" end="5" id="4" index="1" rel="obj2">
+          <node begin="0" end="1" getal="mv" graad="basis" id="5" lemma="reiziger" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="reiziger" word="Reizigers"/>
+          <node begin="1" cat="conj" end="5" id="6" rel="mod">
+            <node begin="2" conjtype="neven" end="3" id="7" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="1" cat="pp" end="5" id="8" rel="cnj">
+              <node begin="1" end="2" id="9" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+              <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="10" index="2" lemma="Indonesië" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Indonesië" word="Indonesië"/>
+            </node>
+            <node begin="3" cat="pp" end="5" id="11" rel="cnj">
+              <node begin="3" end="4" id="12" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+              <node begin="4" end="5" id="13" index="2" rel="obj1"/>
+            </node>
+          </node>
+        </node>
+        <node begin="6" buiging="zonder" end="7" id="14" lemma="adviseren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="adviseer" word="geadviseerd" wvorm="vd"/>
+        <node begin="0" cat="ti" end="14" id="15" rel="vc">
+          <node begin="12" end="13" id="16" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+          <node begin="0" cat="inf" end="14" id="17" rel="body">
+            <node begin="0" end="5" id="18" index="1" rel="su"/>
+            <node begin="7" cat="np" end="12" id="19" rel="obj1">
+              <node begin="7" buiging="met-e" end="8" id="20" lemma="al" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,agr)" pt="vnw" rel="det" root="alle" vwtype="onbep" word="alle"/>
+              <node begin="8" buiging="met-e" end="9" graad="basis" id="21" lemma="elementair" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="elementair" word="elementaire"/>
+              <node begin="9" end="10" getal="mv" graad="basis" id="22" lemma="voorzorgsmaatregel" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="voorzorgsmaatregel" word="voorzorgsmaatregelen"/>
+              <node begin="10" cat="pp" end="12" id="23" rel="mod">
+                <node begin="10" end="11" id="24" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" vztype="init" word="tegen"/>
+                <node begin="11" end="12" getal="mv" graad="basis" id="25" lemma="mug_beet" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="mug_beet" word="muggenbeten"/>
+              </node>
+            </node>
+            <node begin="13" buiging="zonder" end="14" id="26" lemma="nemen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="neem" word="nemen" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="27" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Reizigers naar en in Indonesië wordt geadviseerd alle elementaire voorzorgsmaatregelen tegen muggenbeten te nemen .</sentence>
+</alpino_ds>

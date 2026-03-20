@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="24" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="10" end="11" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="14" end="15" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="23" id="4" rel="--">
+      <node begin="0" end="1" getal="ev" id="5" index="1" lemma="dit" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" root="dit" status="vol" vwtype="aanw" word="Dit"/>
+      <node begin="1" end="2" id="6" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" word="kan" wvorm="pv"/>
+      <node begin="0" cat="inf" end="23" id="7" rel="vc">
+        <node begin="0" end="1" id="8" index="1" rel="su"/>
+        <node begin="2" end="3" id="9" lemma="bijvoorbeeld" pos="adv" postag="BW()" pt="bw" rel="mod" root="bijvoorbeeld" word="bijvoorbeeld"/>
+        <node begin="3" cat="conj" end="22" id="10" rel="predc">
+          <node begin="3" cat="np" end="6" id="11" rel="cnj">
+            <node begin="3" end="4" id="12" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="4" buiging="met-e" end="5" graad="basis" id="13" lemma="snel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="snel" word="snelle"/>
+            <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="14" lemma="groei" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="groei" word="groei"/>
+          </node>
+          <node begin="7" cat="conj" end="14" id="15" rel="cnj">
+            <node begin="7" cat="np" end="10" id="16" rel="cnj">
+              <node begin="7" end="8" id="17" index="2" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="8" buiging="met-e" end="9" graad="basis" id="18" index="3" lemma="hoog" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="hoog" word="hoge"/>
+              <node begin="9" end="10" id="19" lemma="melk-" pos="prefix" postag="SPEC(afgebr)" pt="spec" rel="hd" root="melk" spectype="afgebr" word="melk-"/>
+            </node>
+            <node begin="7" cat="np" end="12" id="20" rel="cnj">
+              <node begin="7" end="8" id="21" index="2" rel="det"/>
+              <node begin="8" end="9" id="22" index="3" rel="mod"/>
+              <node begin="11" end="12" id="23" lemma="vlees-" pos="prefix" postag="SPEC(afgebr)" pt="spec" rel="hd" root="vlees" spectype="afgebr" word="vlees-"/>
+            </node>
+            <node begin="12" conjtype="neven" end="13" id="24" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+            <node begin="7" cat="np" end="14" id="25" rel="cnj">
+              <node begin="7" end="8" id="26" index="2" rel="det"/>
+              <node begin="8" end="9" id="27" index="3" rel="mod"/>
+              <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="28" lemma="ei_productie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="eiproductie" word="eiproductie"/>
+            </node>
+          </node>
+          <node begin="15" cat="np" end="18" id="29" rel="cnj">
+            <node begin="15" end="16" id="30" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="16" end="17" genus="onz" getal="ev" graad="basis" id="31" lemma="type" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="type" word="type"/>
+            <node begin="17" end="18" genus="onz" getal="ev" graad="basis" id="32" lemma="vlees" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mod" root="vlees" word="vlees"/>
+          </node>
+          <node begin="18" conjtype="neven" end="19" id="33" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+          <node begin="19" cat="np" end="22" id="34" rel="cnj">
+            <node begin="19" end="20" genus="zijd" getal="ev" graad="basis" id="35" lemma="bestendigheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="bestendig_heid" word="bestendigheid"/>
+            <node begin="20" cat="pp" end="22" id="36" rel="mod">
+              <node begin="20" end="21" id="37" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" vztype="init" word="tegen"/>
+              <node begin="21" end="22" getal="mv" graad="basis" id="38" lemma="ziekte" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="ziekte" word="ziekten"/>
+            </node>
+          </node>
+        </node>
+        <node begin="22" buiging="zonder" end="23" id="39" lemma="zijn" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ben" word="zijn" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="23" end="24" id="40" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dit kan bijvoorbeeld een snelle groei , een hoge melk- , vlees- of eiproductie , het type vlees of bestendigheid tegen ziekten zijn .</sentence>
+</alpino_ds>

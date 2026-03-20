@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="33" id="0" rel="top">
+    <node begin="24" end="25" id="1" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="29" end="30" id="2" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="0" cat="smain" end="32" id="3" rel="--">
+      <node begin="0" end="1" id="4" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="Ook"/>
+      <node begin="1" end="2" id="5" lemma="bevatten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="bevat" word="bevat" wvorm="pv"/>
+      <node begin="2" end="3" genus="onz" getal="ev" id="6" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" root="het" status="red" vwtype="pers" word="het"/>
+      <node begin="3" cat="conj" end="32" id="7" rel="obj1">
+        <node begin="3" cat="np" end="20" id="8" rel="cnj">
+          <node begin="3" end="4" id="9" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="10" lemma="SPS_verdrag" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mod" root="SPS-verdrag" word="SPS-verdrag"/>
+          <node begin="5" end="6" getal="mv" graad="basis" id="11" lemma="bepaling" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="bepaling" word="bepalingen"/>
+          <node begin="6" cat="pp" end="20" id="12" rel="mod">
+            <node begin="6" end="7" id="13" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" vztype="init" word="over"/>
+            <node begin="7" cat="np" end="20" id="14" rel="obj1">
+              <node begin="7" end="8" id="15" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="8" buiging="zonder" end="9" getal-n="zonder-n" id="16" lemma="verschaffen" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="verschaf" word="verschaffen" wvorm="inf"/>
+              <node begin="9" cat="pp" end="12" id="17" rel="mod">
+                <node begin="9" end="10" id="18" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="10" cat="np" end="12" id="19" rel="obj1">
+                  <node begin="10" buiging="met-e" end="11" graad="basis" id="20" lemma="technisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="technisch" word="technische"/>
+                  <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="21" lemma="assistentie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="assistentie" word="assistentie"/>
+                </node>
+              </node>
+              <node begin="12" cat="pp" end="14" id="22" rel="mod">
+                <node begin="12" end="13" id="23" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+                <node begin="13" end="14" getal="mv" graad="basis" id="24" lemma="ontwikkeling_land" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="ontwikkelingsland" word="ontwikkelingslanden"/>
+              </node>
+              <node begin="14" cat="oti" end="20" id="25" rel="mod">
+                <node begin="14" end="15" id="26" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="om"/>
+                <node begin="15" cat="ti" end="20" id="27" rel="body">
+                  <node begin="15" end="16" id="28" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+                  <node begin="16" cat="inf" end="20" id="29" rel="body">
+                    <node begin="16" buiging="zonder" end="17" id="30" lemma="kunnen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="kan" word="kunnen" wvorm="inf"/>
+                    <node begin="17" cat="inf" end="20" id="31" rel="vc">
+                      <node begin="17" buiging="zonder" end="18" id="32" lemma="voldoen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="voldoe" word="voldoen" wvorm="inf"/>
+                      <node begin="18" cat="pp" end="20" id="33" rel="pc">
+                        <node begin="18" end="19" id="34" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+                        <node begin="19" end="20" getal="mv" graad="basis" id="35" lemma="SPS_maatregel" ntype="soort" pos="name" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="SPS-maatregelen" word="SPS-maatregelen"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="20" conjtype="neven" end="21" id="36" lemma="alsmede" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="alsmede" word="alsmede"/>
+        <node begin="21" cat="np" end="32" id="37" rel="cnj">
+          <node begin="21" end="22" id="38" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="22" end="23" genus="onz" getal="ev" graad="basis" id="39" lemma="regime" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="regime" word="regime"/>
+          <node begin="23" cat="pp" end="29" id="40" rel="mod">
+            <node begin="23" end="24" id="41" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+            <node begin="25" cat="mwu" end="29" id="42" rel="obj1">
+              <node begin="25" end="26" id="43" lemma="special" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="special" spectype="vreemd" word="special"/>
+              <node begin="26" end="27" id="44" lemma="and" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="and" spectype="vreemd" word="and"/>
+              <node begin="27" end="28" id="45" lemma="differential" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="differential" spectype="vreemd" word="differential"/>
+              <node begin="28" end="29" id="46" lemma="treatment" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="treatment" spectype="vreemd" word="treatment"/>
+            </node>
+          </node>
+          <node begin="30" cat="pp" end="32" id="47" rel="mod">
+            <node begin="30" end="31" id="48" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="31" end="32" getal="mv" graad="basis" id="49" lemma="ontwikkeling_land" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="ontwikkelingsland" word="ontwikkelingslanden"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="32" end="33" id="50" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Ook bevat het de SPS-verdrag bepalingen over het verschaffen van technische assistentie aan ontwikkelingslanden om te kunnen voldoen aan SPS-maatregelen alsmede een regime voor &quot; special and differential treatment &quot; van ontwikkelingslanden .</sentence>
+</alpino_ds>

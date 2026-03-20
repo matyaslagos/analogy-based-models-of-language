@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="17" id="2" rel="--">
+      <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="3" lemma="Smithuijsen" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Smithuijsen" word="Smithuijsen"/>
+      <node begin="1" end="2" id="4" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="2" cat="ap" end="6" id="5" rel="predc">
+        <node begin="2" buiging="zonder" end="3" graad="basis" id="6" lemma="blij" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="blij" word="blij"/>
+        <node begin="3" cat="pp" end="6" id="7" rel="pc">
+          <node begin="3" end="4" id="8" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+          <node begin="4" cat="np" end="6" id="9" rel="obj1">
+            <node begin="4" buiging="met-e" end="5" id="10" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="deze"/>
+            <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="11" lemma="ontwikkeling" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="ontwikkeling" word="ontwikkeling"/>
+          </node>
+        </node>
+      </node>
+      <node begin="7" cat="cp" end="17" id="12" rel="mod">
+        <node begin="7" conjtype="onder" end="8" id="13" lemma="omdat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="omdat" word="omdat"/>
+        <node begin="8" cat="ssub" end="17" id="14" rel="body">
+          <node begin="8" cat="np" end="11" id="15" index="1" rel="su">
+            <node begin="8" end="9" id="16" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="9" buiging="met-e" end="10" graad="basis" id="17" lemma="klassiek" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="klassiek" word="klassieke"/>
+            <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="18" lemma="muziek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="muziek" word="muziek"/>
+          </node>
+          <node begin="14" end="15" id="19" lemma="dreigen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="dreig" word="dreigt" wvorm="pv"/>
+          <node begin="8" cat="ti" end="17" id="20" rel="vc">
+            <node begin="15" end="16" id="21" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+            <node begin="8" cat="inf" end="17" id="22" rel="body">
+              <node begin="8" end="11" id="23" index="1" rel="su"/>
+              <node begin="11" end="12" id="24" lemma="anders" pos="adj" postag="BW()" pt="bw" rel="mod" root="anders" word="anders"/>
+              <node begin="12" cat="ppart" end="14" id="25" rel="predc">
+                <node begin="12" buiging="zonder" end="13" graad="basis" id="26" lemma="erg" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="erg" word="erg"/>
+                <node begin="13" buiging="zonder" end="14" id="27" lemma="isoleren" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="geïsoleerd" word="geïsoleerd" wvorm="vd"/>
+              </node>
+              <node begin="16" buiging="zonder" end="17" id="28" lemma="raken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="raak" word="raken" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="29" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Smithuijsen is blij met deze ontwikkeling , omdat de klassieke muziek anders erg geïsoleerd dreigt te raken .</sentence>
+</alpino_ds>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="13" end="14" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="0" cat="smain" end="15" id="2" rel="--">
+      <node begin="0" cat="np" end="3" id="3" rel="su">
+        <node begin="0" end="1" id="4" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" cat="mwu" end="3" id="5" rel="hd">
+          <node begin="1" end="2" id="6" lemma="Europese" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Europese" spectype="deeleigen" word="Europese"/>
+          <node begin="2" end="3" id="7" lemma="Unie" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Unie" spectype="deeleigen" word="Unie"/>
+        </node>
+      </node>
+      <node begin="3" end="4" id="8" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="4" cat="np" end="15" id="9" rel="predc">
+        <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="10" lemma="voortrekker" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="voor_trekker" word="voortrekker"/>
+        <node begin="5" cat="pp" end="15" id="11" rel="mod">
+          <node begin="5" end="6" id="12" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="6" cat="np" end="15" id="13" rel="obj1">
+            <node begin="6" buiging="met-e" end="7" id="14" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="deze"/>
+            <node begin="7" buiging="met-e" end="8" graad="comp" id="15" lemma="ver" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,comp,met-e,stan)" pt="adj" rel="mod" root="ver" word="verdere"/>
+            <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="16" lemma="liberalisering" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="liberalisering" word="liberalisering"/>
+            <node begin="9" cat="pp" end="15" id="17" rel="mod">
+              <node begin="9" end="10" id="18" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="10" cat="conj" end="15" id="19" rel="obj1">
+                <node begin="10" cat="np" end="12" id="20" rel="cnj">
+                  <node begin="10" end="11" id="21" index="1" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="22" lemma="wereld_handel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="wereld_handel" word="wereldhandel"/>
+                </node>
+                <node begin="12" conjtype="neven" end="13" id="23" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                <node begin="10" cat="np" end="15" id="24" rel="cnj">
+                  <node begin="10" end="11" id="25" index="1" rel="det"/>
+                  <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="26" lemma="economie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="economie" word="economie"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="27" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De Europese Unie is voortrekker van deze verdere liberalisering van de wereldhandel en - economie .</sentence>
+</alpino_ds>

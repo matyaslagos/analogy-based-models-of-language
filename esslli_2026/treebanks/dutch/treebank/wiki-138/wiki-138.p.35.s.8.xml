@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="4" end="5" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="8" id="3" rel="--">
+      <node begin="0" cat="mwu" end="2" id="4" rel="cnj">
+        <node begin="0" end="1" id="5" lemma="Leen" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Leen" spectype="deeleigen" word="Leen"/>
+        <node begin="1" end="2" id="6" lemma="Demaré" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Demaré" spectype="deeleigen" word="Demaré"/>
+      </node>
+      <node begin="3" end="4" id="7" lemma="1962" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="cnj" root="1962" word="1962"/>
+      <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="8" lemma="radio_presentatrice" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="radio_presentatrice" word="radiopresentatrice"/>
+      <node begin="6" conjtype="neven" end="7" id="9" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="10" lemma="tv_figuur" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="TV_figuur" word="TV-figuur"/>
+    </node>
+  </node>
+  <sentence>Leen Demaré , 1962 , radiopresentatrice en TV-figuur</sentence>
+</alpino_ds>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="12" id="2" rel="--">
+      <node begin="0" cat="pp" end="2" id="3" rel="dp">
+        <node begin="0" end="1" id="4" lemma="onder" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="onder" vztype="init" word="Onder"/>
+        <node begin="1" end="2" getal="mv" id="5" lemma="hen" naamval="obl" pdtype="pron" persoon="3p" pos="pron" postag="VNW(pers,pron,obl,vol,3p,mv)" pt="vnw" rel="obj1" root="hen" status="vol" vwtype="pers" word="hen"/>
+      </node>
+      <node begin="2" buiging="zonder" end="3" graad="basis" id="6" lemma="natuurlijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="dp" root="natuurlijk" word="natuurlijk"/>
+      <node begin="3" end="4" id="7" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="dp" root="ook" word="ook"/>
+      <node begin="4" cat="np" end="12" id="8" rel="dp">
+        <node begin="4" cat="mwu" end="6" id="9" rel="hd">
+          <node begin="4" end="5" id="10" lemma="Neelie" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Neelie" spectype="deeleigen" word="Neelie"/>
+          <node begin="5" end="6" id="11" lemma="Kroes" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Kroes" spectype="deeleigen" word="Kroes"/>
+        </node>
+        <node begin="7" cat="np" end="12" id="12" rel="app">
+          <node begin="7" end="8" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="8" buiging="met-e" end="9" graad="basis" id="14" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" word="nieuwe"/>
+          <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="15" lemma="commissaris" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="commissaris" word="commissaris"/>
+          <node begin="10" cat="pp" end="12" id="16" rel="mod">
+            <node begin="10" end="11" id="17" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+            <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="18" lemma="mededinging" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="Mededinging" word="Mededinging"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" id="19" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Onder hen natuurlijk ook Neelie Kroes , de nieuwe commissaris voor Mededinging .</sentence>
+</alpino_ds>

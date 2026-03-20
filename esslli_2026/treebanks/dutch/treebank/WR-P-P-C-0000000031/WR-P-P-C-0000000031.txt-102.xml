@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="36" id="0" rel="top">
+    <node begin="10" end="11" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="15" end="16" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="23" end="24" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="35" id="4" rel="--">
+      <node begin="0" cat="cp" end="10" id="5" rel="mod">
+        <node begin="0" conjtype="onder" end="1" id="6" lemma="hoewel" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="hoewel" word="Hoewel"/>
+        <node begin="1" cat="ssub" end="10" id="7" rel="body">
+          <node begin="1" cat="np" end="8" id="8" index="1" rel="su">
+            <node begin="1" end="2" id="9" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="2" end="3" getal="mv" graad="basis" id="10" lemma="douane_recht" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="douane_recht" word="douanerechten"/>
+            <node begin="3" cat="pp" end="8" id="11" rel="mod">
+              <node begin="3" end="4" id="12" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+              <node begin="4" cat="np" end="8" id="13" rel="obj1">
+                <node begin="4" end="5" id="14" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="15" lemma="handel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="handel" word="handel"/>
+                <node begin="6" cat="pp" end="8" id="16" rel="mod">
+                  <node begin="6" end="7" id="17" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" vztype="init" word="tussen"/>
+                  <node begin="7" end="8" getal="mv" graad="basis" id="18" lemma="lidstaat" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="lidstaat" word="lidstaten"/>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="8" end="9" id="19" lemma="zijn" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="ben" word="waren" wvorm="pv"/>
+          <node begin="1" cat="ppart" end="10" id="20" rel="vc">
+            <node begin="1" end="8" id="21" index="1" rel="obj1"/>
+            <node begin="9" buiging="zonder" end="10" id="22" lemma="af_schaffen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="schaf_af" word="afgeschaft" wvorm="vd"/>
+          </node>
+        </node>
+      </node>
+      <node begin="11" end="12" id="23" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+      <node begin="12" end="13" getal="getal" id="24" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+      <node begin="13" cat="pp" end="15" id="25" rel="mod">
+        <node begin="13" end="14" id="26" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="27" lemma="werkelijkheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="werkelijkheid" word="werkelijkheid"/>
+      </node>
+      <node begin="16" cat="whrel" end="23" id="28" rel="mod">
+        <node begin="16" end="17" getal="ev" id="29" index="2" lemma="wat" naamval="stan" pdtype="pron" persoon="3o" pos="pron" postag="VNW(vb,pron,stan,vol,3o,ev)" pt="vnw" rel="rhd" root="wat" status="vol" vwtype="vb" word="wat"/>
+        <node begin="16" cat="ssub" end="23" id="30" rel="body">
+          <node begin="16" end="17" id="31" index="2" rel="su"/>
+          <node begin="17" cat="conj" end="22" id="32" rel="obj1">
+            <node begin="17" cat="np" end="20" id="33" rel="cnj">
+              <node begin="17" end="18" id="34" index="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="18" buiging="met-e" end="19" graad="basis" id="35" index="4" lemma="administratief" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="administratief" word="administratieve"/>
+              <node begin="19" end="20" getal="mv" graad="basis" id="36" lemma="formaliteit" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="formaliteit" word="formaliteiten"/>
+            </node>
+            <node begin="20" conjtype="neven" end="21" id="37" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="17" cat="np" end="22" id="38" rel="cnj">
+              <node begin="17" end="18" id="39" index="3" rel="det"/>
+              <node begin="18" end="19" id="40" index="4" rel="mod"/>
+              <node begin="21" end="22" getal="mv" graad="basis" id="41" lemma="procedure" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="procedure" word="procedures"/>
+            </node>
+          </node>
+          <node begin="22" end="23" id="42" lemma="betreffen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="betref" word="betreft" wvorm="pv"/>
+        </node>
+      </node>
+      <node begin="24" cat="np" end="35" id="43" rel="su">
+        <node begin="24" buiging="zonder" end="25" graad="basis" id="44" lemma="weinig" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,basis)" pt="vnw" rel="det" root="weinig" vwtype="onbep" word="weinig"/>
+        <node begin="25" end="26" genus="onz" getal="ev" graad="basis" id="45" lemma="verschil" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="verschil" word="verschil"/>
+        <node begin="26" cat="pp" end="35" id="46" rel="mod">
+          <node begin="26" end="27" id="47" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" vztype="init" word="tussen"/>
+          <node begin="27" cat="conj" end="35" id="48" rel="obj1">
+            <node begin="27" cat="np" end="30" id="49" rel="cnj">
+              <node begin="27" end="28" id="50" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="28" buiging="met-e" end="29" graad="basis" id="51" lemma="intra_communautair" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="intracommunautaire" word="intracommunautaire"/>
+              <node begin="29" end="30" genus="zijd" getal="ev" graad="basis" id="52" lemma="handel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="handel" word="handel"/>
+            </node>
+            <node begin="30" conjtype="neven" end="31" id="53" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="31" cat="np" end="35" id="54" rel="cnj">
+              <node begin="31" end="32" id="55" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="32" end="33" genus="zijd" getal="ev" graad="basis" id="56" lemma="handel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="handel" word="handel"/>
+              <node begin="33" cat="pp" end="35" id="57" rel="mod">
+                <node begin="33" end="34" id="58" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+                <node begin="34" end="35" getal="mv" graad="basis" id="59" lemma="niet_lidstaat" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="niet_lidstaat" word="niet-lidstaten"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="35" end="36" id="60" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Hoewel de douanerechten in de handel tussen lidstaten waren afgeschaft , was er in werkelijkheid , wat de administratieve formaliteiten en procedures betreft , weinig verschil tussen de intracommunautaire handel en de handel met niet-lidstaten .</sentence>
+</alpino_ds>

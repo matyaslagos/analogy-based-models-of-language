@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="29" id="0" rel="top">
+    <node begin="18" end="19" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="23" end="24" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="0" cat="smain" end="28" id="3" rel="--">
+      <node begin="0" cat="np" end="2" id="4" index="1" rel="su">
+        <node begin="0" buiging="zonder" end="1" id="5" lemma="dit" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dit" vwtype="aanw" word="Dit"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="6" lemma="gebied" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="gebied" word="gebied"/>
+      </node>
+      <node begin="2" end="3" id="7" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="28" id="8" rel="vc">
+        <node begin="0" end="2" id="9" index="1" rel="obj1"/>
+        <node begin="3" end="4" id="10" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+        <node begin="4" end="5" id="11" lemma="wel" pos="adv" postag="BW()" pt="bw" rel="mod" root="wel" word="wel"/>
+        <node begin="5" end="6" id="12" lemma="eens" pos="adv" postag="BW()" pt="bw" rel="mod" root="eens" word="eens"/>
+        <node begin="6" cat="np" end="9" id="13" rel="predc">
+          <node begin="6" end="7" id="14" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="7" buiging="met-e" end="8" graad="basis" id="15" lemma="Belgisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Belgisch" word="Belgische"/>
+          <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="16" lemma="Eifel" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Eifel" word="Eifel"/>
+        </node>
+        <node begin="9" buiging="zonder" end="10" id="17" lemma="noemen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="noem" word="genoemd" wvorm="vd"/>
+        <node begin="10" cat="cp" end="28" id="18" rel="mod">
+          <node begin="10" conjtype="onder" end="11" id="19" lemma="omdat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="omdat" word="omdat"/>
+          <node begin="11" cat="ssub" end="28" id="20" rel="body">
+            <node begin="11" end="12" genus="onz" getal="ev" id="21" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" root="het" status="red" vwtype="pers" word="het"/>
+            <node begin="12" cat="np" end="27" id="22" rel="predc">
+              <node begin="12" cat="np" end="14" id="23" rel="det">
+                <node begin="12" end="13" id="24" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                <node begin="13" end="14" genus="genus" getal="ev" graad="basis" id="25" lemma="soort" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,genus,stan)" pt="n" rel="hd" root="soort" word="soort"/>
+              </node>
+              <node begin="14" end="15" genus="onz" getal="ev" graad="basis" id="26" lemma="overgang_gebied" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="overgang_gebied" word="overgangsgebied"/>
+              <node begin="15" cat="pp" end="27" id="27" rel="mod">
+                <node begin="15" end="16" id="28" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" vztype="init" word="tussen"/>
+                <node begin="16" cat="conj" end="27" id="29" rel="obj1">
+                  <node begin="16" cat="np" end="23" id="30" rel="cnj">
+                    <node begin="16" end="17" id="31" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="17" end="18" getal="mv" graad="basis" id="32" lemma="Ardennen" ntype="eigen" pos="name" postag="N(eigen,mv,basis)" pt="n" rel="hd" root="Ardennen" word="Ardennen"/>
+                    <node begin="19" cat="rel" end="23" id="33" rel="mod">
+                      <node begin="19" end="20" getal="getal" id="34" index="2" lemma="waar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(vb,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="rhd" root="waar" status="vol" vwtype="vb" word="waar"/>
+                      <node begin="19" cat="ssub" end="23" id="35" rel="body">
+                        <node begin="19" end="20" id="36" index="2" rel="ld"/>
+                        <node begin="20" end="21" genus="onz" getal="ev" id="37" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" root="het" status="red" vwtype="pers" word="het"/>
+                        <node begin="21" buiging="zonder" end="22" graad="basis" id="38" lemma="eigenlijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="eigenlijk" word="eigenlijk"/>
+                        <node begin="22" end="23" id="39" lemma="bijbehoren" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="behoor_bij" word="bijbehoort" wvorm="pv"/>
+                      </node>
+                    </node>
+                  </node>
+                  <node begin="24" conjtype="neven" end="25" id="40" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                  <node begin="25" cat="np" end="27" id="41" rel="cnj">
+                    <node begin="25" end="26" id="42" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="26" end="27" genus="zijd" getal="ev" graad="basis" id="43" lemma="Eifel" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Eifel" word="Eifel"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node begin="27" end="28" id="44" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="28" end="29" id="45" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dit gebied wordt ook wel eens de Belgische Eifel genoemd omdat het een soort overgangsgebied tussen de Ardennen ( waar het eigenlijk bijbehoort ) en de Eifel is .</sentence>
+</alpino_ds>

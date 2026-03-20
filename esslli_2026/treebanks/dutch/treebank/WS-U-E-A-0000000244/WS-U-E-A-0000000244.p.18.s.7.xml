@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="0" cat="smain" end="16" id="1" rel="--">
+      <node begin="0" cat="whrel" end="8" id="2" rel="predc">
+        <node begin="0" end="1" id="3" index="1" lemma="hoe" pos="adj" postag="BW()" pt="bw" rel="rhd" root="hoe" word="Hoe"/>
+        <node begin="0" cat="ssub" end="8" id="4" rel="body">
+          <node begin="0" end="1" id="5" index="1" rel="mod"/>
+          <node begin="1" end="2" genus="onz" getal="ev" id="6" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" root="het" status="red" vwtype="pers" word="het"/>
+          <node begin="2" end="3" id="7" lemma="nu" pos="adv" postag="BW()" pt="bw" rel="mod" root="nu" word="nu"/>
+          <node begin="3" buiging="zonder" end="4" graad="comp" id="8" lemma="ver" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="ver" word="verder"/>
+          <node begin="4" end="5" id="9" lemma="moeten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="moet" word="moet" wvorm="pv"/>
+          <node begin="5" cat="pp" end="8" id="10" rel="mod">
+            <node begin="5" end="6" id="11" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+            <node begin="6" cat="np" end="8" id="12" rel="obj1">
+              <node begin="6" end="7" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="14" lemma="fractie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="fractie" word="fractie"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="8" end="9" id="15" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="9" cat="np" end="12" id="16" rel="su">
+        <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="17" lemma="onderwerp" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="onderwerp" word="onderwerp"/>
+        <node begin="10" cat="pp" end="12" id="18" rel="mod">
+          <node begin="10" end="11" id="19" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="20" lemma="gesprek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="gesprek" word="gesprek"/>
+        </node>
+      </node>
+      <node begin="12" cat="pp" end="16" id="21" rel="mod">
+        <node begin="12" end="13" id="22" lemma="tijdens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tijdens" vztype="init" word="tijdens"/>
+        <node begin="13" cat="np" end="16" id="23" rel="obj1">
+          <node begin="13" end="14" id="24" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="14" buiging="met-e" end="15" graad="basis" id="25" lemma="jaarlijks" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="jaarlijks" word="jaarlijkse"/>
+          <node begin="15" end="16" genus="onz" getal="ev" graad="basis" id="26" lemma="fractie_weekend" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="fractie_weekend" word="fractieweekend"/>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="27" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Hoe het nu verder moet met de fractie is onderwerp van gesprek tijdens het jaarlijkse fractieweekend .</sentence>
+</alpino_ds>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="0" cat="np" end="9" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="4" lemma="vestiging" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="vestiging" word="vestiging"/>
+        <node begin="2" cat="pp" end="6" id="5" rel="mod">
+          <node begin="2" end="3" id="6" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="3" cat="np" end="6" id="7" rel="obj1">
+            <node begin="3" buiging="met-e" end="4" graad="basis" id="8" lemma="talrijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="talrijk" word="talrijke"/>
+            <node begin="4" buiging="met-e" end="5" graad="basis" id="9" lemma="begoed" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="begoed" word="begoede"/>
+            <node begin="5" end="6" getal="mv" graad="basis" id="10" lemma="familie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="familie" word="families"/>
+          </node>
+        </node>
+        <node begin="6" cat="pp" end="9" id="11" rel="mod">
+          <node begin="6" end="7" id="12" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="7" cat="np" end="9" id="13" rel="obj1">
+            <node begin="7" buiging="met-e" end="8" graad="basis" id="14" lemma="prachtig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="prachtig" word="prachtige"/>
+            <node begin="8" end="9" getal="mv" graad="basis" id="15" lemma="herenhuis" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="herenhuis" word="herenhuizen"/>
+          </node>
+        </node>
+      </node>
+      <node begin="9" end="10" id="16" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+      <node begin="11" cat="np" end="13" id="17" rel="predc">
+        <node begin="11" end="12" id="18" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="12" end="13" genus="onz" getal="ev" graad="basis" id="19" lemma="gevolg" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="gevolg" word="gevolg"/>
+      </node>
+      <node begin="10" cat="pp" end="14" id="20" rel="pc">
+        <node begin="10" end="11" getal="getal" id="21" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="noun" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="obj1" root="er" status="red" vwtype="aanw" word="er"/>
+        <node begin="13" end="14" id="22" lemma="van" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="van" vztype="fin" word="van"/>
+      </node>
+    </node>
+    <node begin="14" end="15" id="23" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De vestiging van talrijke begoede families in prachtige herenhuizen was er een gevolg van .</sentence>
+</alpino_ds>

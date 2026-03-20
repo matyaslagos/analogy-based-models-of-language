@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="0" cat="smain" end="17" id="1" rel="--">
+      <node begin="0" end="1" genus="fem" getal="ev" id="2" lemma="zij" naamval="nomin" pdtype="pron" persoon="3v" pos="pron" postag="VNW(pers,pron,nomin,vol,3v,ev,fem)" pt="vnw" rel="su" root="zij" status="vol" vwtype="pers" word="Zij"/>
+      <node begin="1" end="2" id="3" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+      <node begin="2" cat="pp" end="17" id="4" rel="predc">
+        <node begin="2" end="3" id="5" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+        <node begin="3" cat="np" end="17" id="6" rel="obj1">
+          <node begin="3" buiging="met-e" end="4" graad="basis" id="7" lemma="groot" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="groot" word="grote"/>
+          <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="8" lemma="betekenis" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="betekenis" word="betekenis"/>
+          <node begin="5" cat="pp" end="17" id="9" rel="mod">
+            <node begin="5" end="6" id="10" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+            <node begin="6" cat="conj" end="17" id="11" rel="obj1">
+              <node begin="8" conjtype="neven" end="9" id="12" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="6" cat="np" end="17" id="13" rel="cnj">
+                <node begin="6" end="7" id="14" index="1" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="15" lemma="ontwikkeling" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="ontwikkeling" word="ontwikkeling"/>
+                <node begin="10" cat="pp" end="17" id="16" index="2" rel="mod">
+                  <node begin="10" end="11" id="17" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                  <node begin="11" cat="conj" end="17" id="18" rel="obj1">
+                    <node begin="11" end="12" getal="mv" graad="basis" id="19" lemma="plaat_speler" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="plaat_speler" word="platenspelers"/>
+                    <node begin="12" cat="conj" end="15" id="20" rel="cnj">
+                      <node begin="12" end="13" id="21" lemma="spoelen-" pos="prefix" postag="SPEC(afgebr)" pt="spec" rel="cnj" root="spoelen" spectype="afgebr" word="spoelen-"/>
+                      <node begin="13" conjtype="neven" end="14" id="22" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                      <node begin="14" end="15" getal="mv" graad="basis" id="23" lemma="cassette_recorder" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="cassetterecorder" word="cassetterecorders"/>
+                    </node>
+                    <node begin="15" conjtype="neven" end="16" id="24" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                    <node begin="16" end="17" getal="mv" graad="basis" id="25" lemma="cd_speler" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="cd_speler" word="cd-spelers"/>
+                  </node>
+                </node>
+              </node>
+              <node begin="6" cat="np" end="17" id="26" rel="cnj">
+                <node begin="6" end="7" id="27" index="1" rel="det"/>
+                <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="28" lemma="productie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="productie" word="productie"/>
+                <node begin="10" end="17" id="29" index="2" rel="mod"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="30" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Zij was van grote betekenis voor de ontwikkeling en productie van platenspelers spoelen- en cassetterecorders en cd-spelers .</sentence>
+</alpino_ds>

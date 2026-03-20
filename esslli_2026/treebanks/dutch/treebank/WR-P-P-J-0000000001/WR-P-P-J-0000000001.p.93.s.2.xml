@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="0" cat="smain" end="18" id="1" rel="--">
+      <node begin="0" cat="pp" end="5" id="2" rel="mod">
+        <node begin="0" end="1" id="3" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+        <node begin="1" cat="np" end="5" id="4" rel="obj1">
+          <node begin="1" buiging="met-e" end="2" id="5" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="deze"/>
+          <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="6" lemma="fase" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="fase" word="fase"/>
+          <node begin="3" cat="pp" end="5" id="7" rel="mod">
+            <node begin="3" end="4" id="8" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="4" end="5" getal="mv" graad="basis" id="9" lemma="onderhandeling" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="onderhandeling" word="onderhandelingen"/>
+          </node>
+        </node>
+      </node>
+      <node begin="5" end="6" id="10" lemma="gaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ga" word="gaat" wvorm="pv"/>
+      <node begin="6" end="7" genus="onz" getal="ev" id="11" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" root="het" status="red" vwtype="pers" word="het"/>
+      <node begin="7" cat="mwu" end="9" id="12" rel="mod">
+        <node begin="7" end="8" id="13" lemma="onder" pos="adv" postag="VZ(init)" pt="vz" rel="mwp" root="onder" vztype="init" word="onder"/>
+        <node begin="8" buiging="zonder" end="9" graad="comp" id="14" lemma="veel" naamval="stan" pdtype="grad" pos="adv" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mwp" root="meer" vwtype="onbep" word="meer"/>
+      </node>
+      <node begin="9" cat="pp" end="18" id="15" rel="pc">
+        <node begin="9" end="10" id="16" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" vztype="init" word="over"/>
+        <node begin="10" cat="np" end="18" id="17" rel="obj1">
+          <node begin="10" end="11" id="18" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="19" lemma="vraag" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="vraag" word="vraag"/>
+          <node begin="12" cat="whsub" end="18" id="20" rel="vc">
+            <node begin="12" end="13" id="21" index="1" lemma="hoe" pos="adj" postag="BW()" pt="bw" rel="whd" root="hoe" word="hoe"/>
+            <node begin="12" cat="ssub" end="18" id="22" rel="body">
+              <node begin="13" end="14" getal="mv" graad="basis" id="23" index="2" lemma="reductie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="reductie" word="reducties"/>
+              <node begin="15" end="16" id="24" lemma="zullen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="zal" word="zouden" wvorm="pv"/>
+              <node begin="12" cat="inf" end="18" id="25" rel="vc">
+                <node begin="13" end="14" id="26" index="2" rel="su"/>
+                <node begin="16" buiging="zonder" end="17" id="27" lemma="moeten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="moet" word="moeten" wvorm="inf"/>
+                <node begin="12" cat="inf" end="18" id="28" rel="vc">
+                  <node begin="12" end="13" id="29" index="1" rel="mod"/>
+                  <node begin="13" end="14" id="30" index="2" rel="su"/>
+                  <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="31" lemma="vorm" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="vorm" word="vorm"/>
+                  <node begin="17" buiging="zonder" end="18" id="32" lemma="krijgen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="krijg" word="krijgen" wvorm="inf"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="33" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>In deze fase van onderhandelingen gaat het onder meer over de vraag hoe reducties vorm zouden moeten krijgen .</sentence>
+</alpino_ds>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="du" end="19" id="2" rel="--">
+      <node begin="0" buiging="zonder" end="1" id="3" lemma="op_letten" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="tag" root="opgelet" word="Opgelet" wvorm="vd"/>
+      <node begin="2" cat="smain" end="19" id="4" rel="nucl">
+        <node begin="2" cat="np" end="4" id="5" rel="su">
+          <node begin="2" buiging="met-e" end="3" graad="basis" id="6" lemma="foutloos" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="foutloos" word="foutloze"/>
+          <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="7" lemma="communicatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="communicatie" word="communicatie"/>
+        </node>
+        <node begin="4" end="5" id="8" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="5" end="6" id="9" lemma="dan" pos="adv" postag="BW()" pt="bw" rel="mod" root="dan" word="dan"/>
+        <node begin="6" end="7" id="10" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+        <node begin="7" cat="ap" end="19" id="11" rel="predc">
+          <node begin="7" buiging="zonder" end="8" graad="basis" id="12" lemma="essentieel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="essentieel" word="essentieel"/>
+          <node begin="8" cat="pp" end="19" id="13" rel="mod">
+            <node begin="8" end="9" id="14" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+            <node begin="9" cat="np" end="19" id="15" rel="obj1">
+              <node begin="9" end="10" id="16" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="10" buiging="zonder" end="11" getal-n="zonder-n" id="17" lemma="veroveren" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="verover" word="veroveren" wvorm="inf"/>
+              <node begin="11" cat="pp" end="19" id="18" rel="mod">
+                <node begin="11" end="12" id="19" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="12" cat="conj" end="19" id="20" rel="obj1">
+                  <node begin="12" cat="np" end="15" id="21" rel="cnj">
+                    <node begin="12" end="13" id="22" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                    <node begin="13" buiging="met-e" end="14" graad="basis" id="23" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" word="nieuwe"/>
+                    <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="24" lemma="markt" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="markt" word="markt"/>
+                  </node>
+                  <node begin="15" conjtype="neven" end="16" id="25" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+                  <node begin="16" cat="np" end="19" id="26" rel="cnj">
+                    <node begin="16" end="17" id="27" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                    <node begin="17" buiging="zonder" end="18" graad="basis" id="28" lemma="nieuw" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="nieuw" word="nieuw"/>
+                    <node begin="18" end="19" genus="onz" getal="ev" graad="basis" id="29" lemma="land" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="land" word="land"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="30" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Opgelet : foutloze communicatie is dan ook essentieel bij het veroveren van een nieuwe markt of een nieuw land .</sentence>
+</alpino_ds>

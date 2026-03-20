@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="5" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="0" cat="du" end="5" id="2" rel="--">
+      <node begin="0" end="1" id="3" lemma="Museobanus.be" pos="name" postag="SPEC(symb)" pt="spec" rel="sat" root="Museobanus.be" spectype="symb" word="Museobanus.be"/>
+      <node begin="2" cat="np" end="5" id="4" rel="nucl">
+        <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="5" lemma="fan_site" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="fan_site" word="fan-site"/>
+        <node begin="3" cat="pp" end="5" id="6" rel="mod">
+          <node begin="3" end="4" id="7" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" vztype="init" word="over"/>
+          <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="8" lemma="Urbanus" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" root="urbanus" word="urbanus"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>Museobanus.be - fan-site over urbanus</sentence>
+</alpino_ds>

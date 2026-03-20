@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="du" end="8" id="2" rel="--">
+      <node begin="0" cat="np" end="6" id="3" rel="dp">
+        <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="4" lemma="plaats" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="plaats" word="Plaats"/>
+        <node begin="1" cat="pp" end="4" id="5" rel="mod">
+          <node begin="1" end="2" id="6" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="2" cat="mwu" end="4" id="7" rel="obj1">
+            <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="8" lemma="top" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Top" word="Top"/>
+            <node begin="3" end="4" id="9" lemma="100.000" naamval="stan" numtype="hoofd" pos="name" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="mwp" root="100.000" word="100.000"/>
+          </node>
+        </node>
+        <node begin="4" cat="pp" end="6" id="10" rel="mod">
+          <node begin="4" end="5" id="11" lemma="volgens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="volgens" vztype="init" word="volgens"/>
+          <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="12" lemma="omzet" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="omzet" word="omzet"/>
+        </node>
+      </node>
+      <node begin="7" end="8" id="13" lemma="1285" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="dp" root="1285" word="1285"/>
+    </node>
+  </node>
+  <sentence>Plaats in Top 100.000 volgens omzet : 1285</sentence>
+</alpino_ds>

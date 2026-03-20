@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="30" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="17" end="18" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="22" end="23" id="3" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="23" end="24" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="1" cat="du" end="29" id="5" rel="--">
+      <node begin="1" cat="smain" end="22" id="6" rel="nucl">
+        <node begin="1" cat="np" end="17" id="7" rel="su">
+          <node begin="1" end="2" id="8" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="Een"/>
+          <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="9" lemma="land" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="land" word="land"/>
+          <node begin="3" cat="rel" end="17" id="10" rel="mod">
+            <node begin="3" end="4" getal="ev" id="11" index="1" lemma="dat" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(betr,pron,stan,vol,3,ev)" pt="vnw" rel="rhd" root="dat" status="vol" vwtype="betr" word="dat"/>
+            <node begin="3" cat="ssub" end="17" id="12" rel="body">
+              <node begin="3" end="4" id="13" index="1" rel="su"/>
+              <node begin="4" cat="advp" end="7" id="14" rel="mod">
+                <node begin="4" buiging="zonder" end="5" graad="basis" id="15" lemma="waar" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="waar" word="waar"/>
+                <node begin="5" cat="mwu" end="7" id="16" rel="mod">
+                  <node begin="5" end="6" id="17" lemma="dan" pos="adv" postag="BW()" pt="bw" rel="mwp" root="dan" word="dan"/>
+                  <node begin="6" end="7" id="18" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mwp" root="ook" word="ook"/>
+                </node>
+              </node>
+              <node begin="9" end="10" id="19" lemma="gaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ga" word="gaat" wvorm="pv"/>
+              <node begin="7" cat="ap" end="12" id="20" rel="predc">
+                <node begin="7" cat="mwu" end="9" id="21" rel="hd">
+                  <node begin="7" end="8" id="22" lemma="op" pos="adj" postag="VZ(init)" pt="vz" rel="mwp" root="op" vztype="init" word="op"/>
+                  <node begin="8" buiging="zonder" end="9" graad="basis" id="23" lemma="zoek" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mwp" root="zoek" word="zoek"/>
+                </node>
+                <node begin="10" cat="pp" end="12" id="24" rel="pc">
+                  <node begin="10" end="11" id="25" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+                  <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="26" lemma="olie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="olie" word="olie"/>
+                </node>
+              </node>
+              <node begin="12" cat="cp" end="17" id="27" rel="mod">
+                <node begin="12" conjtype="onder" end="13" id="28" lemma="terwijl" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="terwijl" word="terwijl"/>
+                <node begin="13" cat="ssub" end="17" id="29" rel="body">
+                  <node begin="13" cat="np" end="15" id="30" rel="su">
+                    <node begin="13" end="14" id="31" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="32" lemma="aarde" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="aarde" word="aarde"/>
+                  </node>
+                  <node begin="15" buiging="zonder" end="16" graad="comp" id="33" lemma="ver" pos="adv" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="verder" word="verder"/>
+                  <node begin="16" end="17" id="34" lemma="op_warmen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="warm_op" word="opwarmt" wvorm="pv"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="18" end="19" id="35" lemma="gedragen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="gedraag" word="gedraagt" wvorm="pv"/>
+        <node begin="19" end="20" getal="getal" id="36" lemma="zich" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="se" root="zich" status="red" vwtype="refl" word="zich"/>
+        <node begin="20" cat="ap" end="22" id="37" rel="predc">
+          <node begin="20" end="21" id="38" lemma="uitermate" pos="adv" postag="BW()" pt="bw" rel="mod" root="uitermate" word="uitermate"/>
+          <node begin="21" buiging="zonder" end="22" graad="basis" id="39" lemma="onverantwoordelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="onverantwoordelijk" word="onverantwoordelijk"/>
+        </node>
+      </node>
+      <node begin="24" cat="sv1" end="29" id="40" rel="tag">
+        <node begin="24" end="25" id="41" lemma="zeggen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="zeg" word="zegt" wvorm="pv"/>
+        <node begin="25" cat="np" end="29" id="42" rel="su">
+          <node begin="25" cat="mwu" end="27" id="43" rel="hd">
+            <node begin="25" end="26" id="44" lemma="Ben" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Ben" spectype="deeleigen" word="Ben"/>
+            <node begin="26" end="27" id="45" lemma="Stewart" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Stewart" spectype="deeleigen" word="Stewart"/>
+          </node>
+          <node begin="27" cat="pp" end="29" id="46" rel="mod">
+            <node begin="27" end="28" id="47" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="28" end="29" genus="genus" getal="ev" graad="basis" id="48" lemma="Greenpeace" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="obj1" root="Greenpeace" word="Greenpeace"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="29" end="30" id="49" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>&quot; Een land dat waar dan ook op zoek gaat naar olie terwijl de aarde verder opwarmt , gedraagt zich uitermate onverantwoordelijk &quot; , zegt Ben Stewart van Greenpeace .</sentence>
+</alpino_ds>

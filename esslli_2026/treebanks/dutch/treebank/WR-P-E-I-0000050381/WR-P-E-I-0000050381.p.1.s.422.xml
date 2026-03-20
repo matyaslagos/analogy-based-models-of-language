@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="28" id="0" rel="top">
+    <node begin="14" end="15" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="27" id="2" rel="--">
+      <node begin="0" cat="smain" end="20" id="3" rel="cnj">
+        <node begin="0" cat="cp" end="14" id="4" rel="mod">
+          <node begin="0" conjtype="onder" end="1" id="5" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="Als"/>
+          <node begin="1" cat="conj" end="14" id="6" rel="body">
+            <node begin="1" cat="ssub" end="9" id="7" rel="cnj">
+              <node begin="1" end="2" genus="masc" getal="ev" id="8" index="1" lemma="men" naamval="nomin" pdtype="pron" persoon="3p" pos="pron" postag="VNW(pers,pron,nomin,red,3p,ev,masc)" pt="vnw" rel="su" root="men" status="red" vwtype="pers" word="men"/>
+              <node begin="7" end="8" id="9" lemma="hebben" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="heb" word="had" wvorm="pv"/>
+              <node begin="1" cat="ppart" end="9" id="10" rel="vc">
+                <node begin="1" end="2" id="11" index="1" rel="su"/>
+                <node begin="2" cat="pp" end="5" id="12" rel="mod">
+                  <node begin="2" end="3" id="13" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+                  <node begin="3" cat="np" end="5" id="14" rel="obj1">
+                    <node begin="3" end="4" id="15" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="16" lemma="slager" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="slager" word="slager"/>
+                  </node>
+                </node>
+                <node begin="5" end="6" id="17" lemma="dus" pos="adv" postag="BW()" pt="bw" rel="mod" root="dus" word="dus"/>
+                <node begin="6" end="7" getal="mv" graad="dim" id="18" lemma="soep_been" ntype="soort" pos="noun" postag="N(soort,mv,dim)" pt="n" rel="obj1" root="soep_been_DIM" word="soepbeentjes"/>
+                <node begin="8" buiging="zonder" end="9" id="19" lemma="halen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="haal" word="gehaald" wvorm="vd"/>
+              </node>
+            </node>
+            <node begin="9" conjtype="neven" end="10" id="20" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="1" cat="ssub" end="14" id="21" rel="cnj">
+              <node begin="1" end="2" id="22" index="1" rel="su"/>
+              <node begin="12" end="13" id="23" lemma="hebben" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="heb" word="had" wvorm="pv"/>
+              <node begin="1" cat="ppart" end="14" id="24" rel="vc">
+                <node begin="1" end="2" id="25" index="1" rel="su"/>
+                <node begin="10" cat="np" end="12" id="26" rel="obj1">
+                  <node begin="10" end="11" id="27" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="28" lemma="soep" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="soep" word="soep"/>
+                </node>
+                <node begin="13" buiging="zonder" end="14" id="29" lemma="koken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="kook" word="gekookt" wvorm="vd"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="15" end="16" id="30" lemma="in_leveren" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="lever_in" word="leverde" wvorm="pv"/>
+        <node begin="16" end="17" genus="masc" getal="ev" id="31" lemma="men" naamval="nomin" pdtype="pron" persoon="3p" pos="pron" postag="VNW(pers,pron,nomin,red,3p,ev,masc)" pt="vnw" rel="su" root="men" status="red" vwtype="pers" word="men"/>
+        <node begin="17" cat="np" end="19" id="32" rel="obj1">
+          <node begin="17" end="18" id="33" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="18" end="19" getal="mv" graad="dim" id="34" lemma="been" ntype="soort" pos="noun" postag="N(soort,mv,dim)" pt="n" rel="hd" root="been_DIM" word="beentjes"/>
+        </node>
+        <node begin="19" end="20" id="35" lemma="in" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="in" vztype="fin" word="in"/>
+      </node>
+      <node begin="20" conjtype="neven" end="21" id="36" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="21" cat="smain" end="27" id="37" rel="cnj">
+        <node begin="22" end="23" id="38" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+        <node begin="24" end="25" genus="zijd" getal="ev" graad="basis" id="39" index="2" lemma="zeep" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="su" root="zeep" word="zeep"/>
+        <node begin="21" cat="ppart" end="27" id="40" rel="vc">
+          <node begin="23" end="24" id="41" lemma="dus" pos="adv" postag="BW()" pt="bw" rel="mod" root="dus" word="dus"/>
+          <node begin="24" end="25" id="42" index="2" rel="obj1"/>
+          <node begin="21" cat="pp" end="26" id="43" rel="pc">
+            <node begin="21" end="22" getal="getal" id="44" lemma="daar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="noun" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="obj1" root="daar" status="vol" vwtype="aanw" word="daar"/>
+            <node begin="25" end="26" id="45" lemma="van" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="van" vztype="fin" word="van"/>
+          </node>
+          <node begin="26" buiging="zonder" end="27" id="46" lemma="maken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="maak" word="gemaakt" wvorm="vd"/>
+        </node>
+      </node>
+    </node>
+    <node begin="27" end="28" id="47" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Als men bij de slager dus soepbeentjes had gehaald en de soep had gekookt , leverde men de beentjes in en daar werd dus zeep van gemaakt .</sentence>
+</alpino_ds>

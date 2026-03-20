@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="6" end="7" id="2" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="7" end="8" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="10" end="11" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="11" end="12" id="5" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="1" cat="du" end="19" id="6" rel="--">
+      <node begin="8" cat="sv1" end="10" id="7" rel="tag">
+        <node begin="8" end="9" id="8" lemma="zeggen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="zeg" word="zegt" wvorm="pv"/>
+        <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="9" lemma="Meys" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Meys" word="Meys"/>
+      </node>
+      <node begin="1" cat="conj" end="19" id="10" rel="nucl">
+        <node begin="1" cat="smain" end="6" id="11" rel="cnj">
+          <node begin="1" cat="np" end="3" id="12" rel="su">
+            <node begin="1" end="2" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+            <node begin="2" end="3" getal="mv" graad="basis" id="14" lemma="bedoeling" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="bedoeling" word="bedoelingen"/>
+          </node>
+          <node begin="3" end="4" id="15" lemma="zijn" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="ben" word="waren" wvorm="pv"/>
+          <node begin="4" end="5" id="16" lemma="ongetwijfeld" pos="adv" postag="BW()" pt="bw" rel="mod" root="ongetwijfeld" word="ongetwijfeld"/>
+          <node begin="5" buiging="zonder" end="6" graad="basis" id="17" lemma="goed" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="goed" word="goed"/>
+        </node>
+        <node begin="12" conjtype="neven" end="13" id="18" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+        <node begin="13" cat="smain" end="19" id="19" rel="cnj">
+          <node begin="13" cat="np" end="15" id="20" rel="su">
+            <node begin="13" end="14" id="21" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="14" end="15" getal="mv" graad="basis" id="22" lemma="kost" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kosten" word="kosten"/>
+          </node>
+          <node begin="15" end="16" id="23" lemma="blijken" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="blijk" word="bleken" wvorm="pv"/>
+          <node begin="16" cat="np" end="19" id="24" rel="predc">
+            <node begin="16" end="17" id="25" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="17" buiging="zonder" end="18" graad="basis" id="26" lemma="serieus" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="serieus" word="serieus"/>
+            <node begin="18" end="19" genus="onz" getal="ev" graad="basis" id="27" lemma="obstakel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="obstakel" word="obstakel"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="28" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>&quot; De bedoelingen waren ongetwijfeld goed &quot; , zegt Meys , &quot; maar de kosten bleken een serieus obstakel .</sentence>
+</alpino_ds>

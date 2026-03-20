@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="np" end="10" id="1" rel="--">
+      <node begin="0" buiging="zonder" end="1" graad="comp" id="2" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,comp)" pt="vnw" rel="det" root="meer" vwtype="onbep" word="Meer"/>
+      <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="3" lemma="aandacht" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="aandacht" word="aandacht"/>
+      <node begin="2" cat="pp" end="10" id="4" rel="mod">
+        <node begin="2" end="3" id="5" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+        <node begin="3" cat="np" end="10" id="6" rel="obj1">
+          <node begin="3" end="4" getal="mv" graad="basis" id="7" lemma="kind" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kind" word="kinderen"/>
+          <node begin="4" cat="pp" end="10" id="8" rel="mod">
+            <node begin="4" end="5" id="9" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="5" cat="np" end="10" id="10" rel="obj1">
+              <node begin="5" end="6" getal="mv" graad="basis" id="11" lemma="ouder" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="ouder" word="ouders"/>
+              <node begin="6" cat="pp" end="10" id="12" rel="mod">
+                <node begin="6" end="7" id="13" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+                <node begin="7" cat="conj" end="10" id="14" rel="obj1">
+                  <node begin="7" buiging="met-e" end="8" graad="basis" id="15" lemma="psychisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="psychisch" word="psychische"/>
+                  <node begin="8" conjtype="neven" end="9" id="16" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                  <node begin="9" end="10" getal="mv" graad="basis" id="17" lemma="verslaving_probleem" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="verslaving_probleem" word="verslavingsproblemen"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="10" end="11" id="18" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Meer aandacht voor kinderen van ouders met psychische en verslavingsproblemen .</sentence>
+</alpino_ds>

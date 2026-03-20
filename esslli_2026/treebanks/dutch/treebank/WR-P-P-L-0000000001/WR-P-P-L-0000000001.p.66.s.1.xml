@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="conj" end="7" id="1" rel="--">
+      <node begin="0" cat="smain" end="4" id="2" rel="cnj">
+        <node begin="0" cat="np" end="2" id="3" index="1" rel="su">
+          <node begin="0" buiging="met-e" end="1" graad="basis" id="4" lemma="particulier" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="particulier" word="Particuliere"/>
+          <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="5" lemma="huur_sector" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="huur_sector" word="huursector"/>
+        </node>
+        <node begin="2" end="3" id="6" lemma="achter_lopen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="loop_achter" word="loopt" wvorm="pv"/>
+        <node begin="3" end="4" id="7" lemma="achter" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="achter" vztype="fin" word="achter"/>
+      </node>
+      <node begin="4" conjtype="neven" end="5" id="8" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+      <node begin="0" cat="smain" end="7" id="9" rel="cnj">
+        <node begin="0" end="2" id="10" index="1" rel="su"/>
+        <node begin="5" end="6" id="11" lemma="in_lopen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="loop_in" word="loopt" wvorm="pv"/>
+        <node begin="6" end="7" id="12" lemma="in" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="in" vztype="fin" word="in"/>
+      </node>
+    </node>
+  </node>
+  <sentence>Particuliere huursector loopt achter maar loopt in</sentence>
+</alpino_ds>

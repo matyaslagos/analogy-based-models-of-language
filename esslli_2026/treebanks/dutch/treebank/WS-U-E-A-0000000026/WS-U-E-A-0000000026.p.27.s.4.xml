@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="10" end="11" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="17" id="2" rel="--">
+      <node begin="0" end="1" id="3" lemma="vandaag" pos="adv" postag="BW()" pt="bw" rel="mod" root="vandaag" word="Vandaag"/>
+      <node begin="1" end="2" id="4" lemma="komen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="kom" word="kwamen" wvorm="pv"/>
+      <node begin="2" cat="pp" end="5" id="5" rel="mod">
+        <node begin="2" end="3" id="6" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+        <node begin="3" cat="np" end="5" id="7" rel="obj1">
+          <node begin="3" buiging="met-e" end="4" graad="basis" id="8" lemma="verschillend" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="verschil" word="verschillende"/>
+          <node begin="4" end="5" getal="mv" graad="basis" id="9" lemma="aanslag" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="aanslag" word="aanslagen"/>
+        </node>
+      </node>
+      <node begin="7" cat="mwu" end="10" id="10" rel="svp">
+        <node begin="7" end="8" id="11" lemma="om" pos="fixed" postag="VZ(init)" pt="vz" rel="mwp" root="om" vztype="init" word="om"/>
+        <node begin="8" end="9" id="12" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="fixed" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" word="het"/>
+        <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="13" lemma="leven" naamval="stan" ntype="soort" pos="fixed" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="leven" word="leven"/>
+      </node>
+      <node begin="5" cat="np" end="17" id="14" rel="su">
+        <node begin="5" end="6" id="15" lemma="zeven" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="zeven" word="zeven"/>
+        <node begin="6" end="7" getal="mv" graad="basis" id="16" lemma="mens" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="mens" word="mensen"/>
+        <node begin="11" cat="rel" end="17" id="17" rel="mod">
+          <node begin="11" cat="pp" end="13" id="18" rel="rhd">
+            <node begin="11" end="12" id="19" lemma="onder" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="onder" vztype="init" word="onder"/>
+            <node begin="12" end="13" getal="getal" id="20" lemma="wie" naamval="stan" pdtype="pron" persoon="3p" pos="pron" postag="VNW(vb,pron,stan,vol,3p,getal)" pt="vnw" rel="obj1" root="wie" status="vol" vwtype="vb" word="wie"/>
+          </node>
+          <node begin="13" cat="np" end="17" id="21" rel="body">
+            <node begin="13" end="14" id="22" lemma="twee" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="twee" word="twee"/>
+            <node begin="14" end="15" getal="mv" graad="basis" id="23" lemma="journalist" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="journalist" word="journalisten"/>
+            <node begin="15" cat="pp" end="17" id="24" rel="mod">
+              <node begin="15" end="16" id="25" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="26" lemma="CNN" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" root="CNN" word="CNN"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="27" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Vandaag kwamen bij verschillende aanslagen zeven mensen om het leven , onder wie twee journalisten van CNN .</sentence>
+</alpino_ds>

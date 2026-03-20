@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="du" end="7" id="2" rel="--">
+      <node begin="0" cat="np" end="3" id="3" rel="nucl">
+        <node begin="0" buiging="zonder" end="1" graad="basis" id="4" lemma="eigen" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="eigen" word="Eigen"/>
+        <node begin="1" buiging="met-e" end="2" graad="basis" id="5" lemma="Brussels" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Brussels" word="Brusselse"/>
+        <node begin="2" end="3" getal="mv" graad="basis" id="6" lemma="instelling" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="instelling" word="instellingen"/>
+      </node>
+      <node begin="4" cat="conj" end="7" id="7" rel="sat">
+        <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="8" lemma="agglomeratie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="agglomeratie" word="agglomeratie"/>
+        <node begin="5" conjtype="neven" end="6" id="9" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="10" lemma="gewest" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="cnj" root="gewest" word="gewest"/>
+      </node>
+    </node>
+  </node>
+  <sentence>Eigen Brusselse instellingen : agglomeratie en gewest</sentence>
+</alpino_ds>

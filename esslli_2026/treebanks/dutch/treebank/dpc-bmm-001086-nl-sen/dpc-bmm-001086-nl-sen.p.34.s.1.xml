@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="np" end="6" id="1" rel="--">
+      <node begin="0" buiging="met-e" end="1" graad="basis" id="2" lemma="zichtbaar" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="zichtbaar" word="Zichtbare"/>
+      <node begin="1" end="2" getal="mv" graad="basis" id="3" lemma="zand_bank" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="zand_bank" word="zandbanken"/>
+      <node begin="2" cat="pp" end="6" id="4" rel="mod">
+        <node begin="2" end="3" id="5" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+        <node begin="3" cat="np" end="6" id="6" rel="obj1">
+          <node begin="3" cat="ap" end="5" id="7" rel="mod">
+            <node begin="3" buiging="zonder" end="4" graad="basis" id="8" lemma="heel" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="heel" word="heel"/>
+            <node begin="4" buiging="zonder" end="5" graad="basis" id="9" lemma="laag" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="hd" root="laag" word="laag"/>
+          </node>
+          <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="10" lemma="water" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="water" word="water"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>Zichtbare zandbanken bij heel laag water</sentence>
+</alpino_ds>

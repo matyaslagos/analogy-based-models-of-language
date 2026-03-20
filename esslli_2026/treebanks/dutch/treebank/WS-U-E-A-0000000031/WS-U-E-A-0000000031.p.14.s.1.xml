@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="smain" end="12" id="1" rel="--">
+      <node begin="0" end="1" getal="ev" id="2" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" root="dat" status="vol" vwtype="aanw" word="Dat"/>
+      <node begin="1" end="2" id="3" lemma="gebeuren" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="gebeur" word="gebeurde" wvorm="pv"/>
+      <node begin="2" cat="pp" end="5" id="4" rel="mod">
+        <node begin="2" end="3" id="5" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="3" cat="np" end="5" id="6" rel="obj1">
+          <node begin="3" end="4" id="7" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="8" lemma="munitie_depot" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="munitie_depot" word="munitiedepot"/>
+        </node>
+      </node>
+      <node begin="5" cat="pp" end="12" id="9" rel="mod">
+        <node begin="5" cat="np" end="8" id="10" rel="mod">
+          <node begin="5" cat="detp" end="7" id="11" rel="det">
+            <node begin="5" buiging="zonder" end="6" id="12" lemma="zo&apos;n" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,agr)" pt="vnw" rel="mod" root="zo&apos;n" vwtype="aanw" word="zo&apos;n"/>
+            <node begin="6" end="7" id="13" lemma="tweehonderd" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="hd" root="tweehonderd" word="tweehonderd"/>
+          </node>
+          <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="14" lemma="kilo_meter" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="kilo_meter" word="kilometer"/>
+        </node>
+        <node begin="8" cat="mwu" end="11" id="15" rel="hd">
+          <node begin="8" end="9" id="16" lemma="te" pos="prep" postag="VZ(versm)" pt="vz" rel="mwp" root="ten" vztype="versm" word="ten"/>
+          <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="17" lemma="zuidwesten" naamval="stan" ntype="soort" pos="prep" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="zuidwesten" word="zuidwesten"/>
+          <node begin="10" end="11" id="18" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="van" vztype="init" word="van"/>
+        </node>
+        <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="19" lemma="Karbala" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Karbala" word="Karbala"/>
+      </node>
+    </node>
+    <node begin="12" end="13" id="20" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dat gebeurde in een munitiedepot zo&apos;n tweehonderd kilometer ten zuidwesten van Karbala .</sentence>
+</alpino_ds>

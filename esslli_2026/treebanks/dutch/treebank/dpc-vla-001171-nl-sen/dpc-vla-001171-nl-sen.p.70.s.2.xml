@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="np" end="12" id="2" rel="--">
+      <node begin="0" buiging="met-e" end="1" id="3" lemma="enkel" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="enkel" vwtype="onbep" word="Enkele"/>
+      <node begin="1" end="2" getal="mv" graad="basis" id="4" lemma="begrip" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="begrip" word="begrippen"/>
+      <node begin="2" cat="oti" end="6" id="5" rel="mod">
+        <node begin="2" end="3" id="6" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="om"/>
+        <node begin="3" cat="ti" end="6" id="7" rel="body">
+          <node begin="4" end="5" id="8" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+          <node begin="3" cat="inf" end="6" id="9" rel="body">
+            <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="10" lemma="spraak_verwarring" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="spraakverwarring" word="spraakverwarring"/>
+            <node begin="5" buiging="zonder" end="6" id="11" lemma="voorkomen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="voorkom" word="voorkomen" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+      <node begin="7" cat="pp" end="12" id="12" rel="mod">
+        <node begin="7" end="8" id="13" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+        <node begin="8" cat="pp" end="10" id="14" rel="mod">
+          <node begin="8" end="9" id="15" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" vztype="init" word="tussen"/>
+          <node begin="9" end="10" getal="mv" graad="dim" id="16" lemma="haakje" ntype="soort" pos="noun" postag="N(soort,mv,dim)" pt="n" rel="obj1" root="haak_DIM" word="haakjes"/>
+        </node>
+        <node begin="10" cat="np" end="12" id="17" rel="obj1">
+          <node begin="10" end="11" id="18" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="11" end="12" getal="mv" graad="basis" id="19" lemma="post_nummer" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="postnummer" word="postnummers"/>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" id="20" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+  </node>
+  <sentence>Enkele begrippen om spraakverwarring te voorkomen , met tussen haakjes de postnummers :</sentence>
+</alpino_ds>

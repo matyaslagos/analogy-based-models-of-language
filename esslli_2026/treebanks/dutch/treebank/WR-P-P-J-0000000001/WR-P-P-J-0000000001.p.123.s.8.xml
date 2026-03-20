@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="7" end="8" id="2" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="10" end="11" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="13" id="4" rel="--">
+      <node begin="0" cat="pp" end="2" id="5" rel="mod">
+        <node begin="0" end="1" id="6" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="7" lemma="Midden-Amerika" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Midden-Amerika" word="Midden-Amerika"/>
+      </node>
+      <node begin="2" end="3" id="8" lemma="bevorderen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="bevorder" word="bevordert" wvorm="pv"/>
+      <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="9" lemma="Nederland" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" root="Nederland" word="Nederland"/>
+      <node begin="5" cat="mwu" end="7" id="10" rel="obj1">
+        <node begin="5" end="6" id="11" lemma="fair" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="fair" spectype="vreemd" word="fair"/>
+        <node begin="6" end="7" id="12" lemma="trade" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="trade" spectype="vreemd" word="trade"/>
+      </node>
+      <node begin="8" cat="pp" end="13" id="13" rel="mod">
+        <node begin="8" end="9" id="14" lemma="via" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="via" vztype="init" word="via"/>
+        <node begin="9" cat="np" end="13" id="15" rel="obj1">
+          <node begin="9" end="10" getal="mv" graad="basis" id="16" lemma="supermarkt" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="super_markt" word="supermarkten"/>
+          <node begin="11" cat="cp" end="13" id="17" rel="mod">
+            <node begin="11" conjtype="onder" end="12" id="18" lemma="zoals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zoals" word="zoals"/>
+            <node begin="12" end="13" genus="genus" getal="ev" graad="basis" id="19" lemma="Ahold" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="body" root="Ahold" word="Ahold"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="20" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>In Midden-Amerika bevordert Nederland &apos; fair trade &apos; via supermarkten , zoals Ahold .</sentence>
+</alpino_ds>

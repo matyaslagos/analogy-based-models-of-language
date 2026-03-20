@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="3" end="4" id="2" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="1" cat="du" end="9" id="3" rel="--">
+      <node begin="1" cat="mwu" end="3" id="4" rel="nucl">
+        <node begin="1" end="2" id="5" lemma="not" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="not" spectype="vreemd" word="not"/>
+        <node begin="2" end="3" id="6" lemma="allowed" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="allowed" spectype="vreemd" word="allowed"/>
+      </node>
+      <node begin="4" cat="ap" end="9" id="7" rel="sat">
+        <node begin="4" end="5" id="8" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+        <node begin="5" buiging="zonder" end="6" graad="basis" id="9" lemma="geldig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="geldig" word="geldig"/>
+        <node begin="6" cat="pp" end="9" id="10" rel="mod">
+          <node begin="6" end="7" id="11" lemma="binnen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="binnen" vztype="init" word="binnen"/>
+          <node begin="7" cat="np" end="9" id="12" rel="obj1">
+            <node begin="7" end="8" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="14" lemma=".be_zone" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root=".be_zone" word=".be-zone"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>- not allowed : niet geldig binnen de .be-zone</sentence>
+</alpino_ds>

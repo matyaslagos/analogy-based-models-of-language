@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="0" cat="conj" end="7" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="zowel" pos="vg" postag="BW()" pt="bw" rel="crd" root="zowel" word="Zowel"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="4" lemma="Mangé" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Mangé" word="Mangé"/>
+        <node begin="2" conjtype="onder" end="3" id="5" lemma="als" pos="vg" postag="VG(onder)" pt="vg" rel="crd" root="als" word="als"/>
+        <node begin="3" cat="np" end="7" id="6" rel="cnj">
+          <node begin="3" buiging="zonder" end="4" getal="ev" id="7" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pt="vnw" rel="det" root="zijn" status="vol" vwtype="bez" word="zijn"/>
+          <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="8" lemma="advocaat" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="advocaat" word="advocaat"/>
+          <node begin="5" cat="mwu" end="7" id="9" rel="app">
+            <node begin="5" end="6" id="10" lemma="Patrick" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Patrick" spectype="deeleigen" word="Patrick"/>
+            <node begin="6" end="7" id="11" lemma="Devers" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Devers" spectype="deeleigen" word="Devers"/>
+          </node>
+        </node>
+      </node>
+      <node begin="7" end="8" id="12" lemma="zitten" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="zit" word="zaten" wvorm="pv"/>
+      <node begin="8" cat="pp" end="14" id="13" rel="mod">
+        <node begin="8" end="9" id="14" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="9" cat="np" end="14" id="15" rel="obj1">
+          <node begin="9" end="10" id="16" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="17" lemma="bestuur" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="bestuur" word="bestuur"/>
+          <node begin="11" cat="pp" end="14" id="18" rel="mod">
+            <node begin="11" end="12" id="19" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="12" cat="np" end="14" id="20" rel="obj1">
+              <node begin="12" buiging="zonder" end="13" id="21" lemma="die" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,rest)" pt="vnw" rel="det" root="die" vwtype="aanw" word="die"/>
+              <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="22" lemma="vzw" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="vzw" word="vzw"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="23" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Zowel Mangé als zijn advocaat Patrick Devers zaten in het bestuur van die vzw .</sentence>
+</alpino_ds>

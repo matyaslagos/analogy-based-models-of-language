@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="9" end="10" id="2" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="0" cat="sv1" end="13" id="3" rel="--">
+      <node begin="0" end="1" id="4" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="Wees" wvorm="pv"/>
+      <node begin="1" cat="ap" end="3" id="5" rel="predc">
+        <node begin="1" buiging="zonder" end="2" graad="basis" id="6" lemma="extra" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="extra" word="extra"/>
+        <node begin="2" buiging="zonder" end="3" graad="basis" id="7" lemma="voorzichtig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="voorzichtig" word="voorzichtig"/>
+      </node>
+      <node begin="3" cat="pp" end="13" id="8" rel="mod">
+        <node begin="3" end="4" id="9" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+        <node begin="4" cat="np" end="13" id="10" rel="obj1">
+          <node begin="4" end="5" getal="mv" graad="basis" id="11" lemma="plaats" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="plaats" word="plaatsen"/>
+          <node begin="5" cat="rel" end="13" id="12" rel="mod">
+            <node begin="5" end="6" getal="getal" id="13" index="1" lemma="waar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(vb,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="rhd" root="waar" status="vol" vwtype="vb" word="waar"/>
+            <node begin="5" cat="ssub" end="13" id="14" rel="body">
+              <node begin="5" end="6" id="15" index="1" rel="ld"/>
+              <node begin="6" cat="np" end="9" id="16" rel="su">
+                <node begin="6" buiging="zonder" end="7" graad="basis" id="17" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,basis)" pt="vnw" rel="det" root="veel" vwtype="onbep" word="veel"/>
+                <node begin="8" end="9" getal="mv" graad="basis" id="18" lemma="westerling" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="westerling" word="westerlingen"/>
+              </node>
+              <node begin="10" cat="mwu" end="12" id="19" rel="svp">
+                <node begin="10" end="11" id="20" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="bij" vztype="init" word="bij"/>
+                <node begin="11" end="12" getal="mv" id="21" lemma="elkaar" naamval="obl" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(recip,pron,obl,vol,persoon,mv)" pt="vnw" rel="mwp" root="elkaar" status="vol" vwtype="recip" word="elkaar"/>
+              </node>
+              <node begin="12" end="13" id="22" lemma="komen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kom" word="komen" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="23" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Wees extra voorzichtig op plaatsen waar veel &apos; westerlingen &apos; bij elkaar komen .</sentence>
+</alpino_ds>

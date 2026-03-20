@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="25" id="0" rel="top">
+    <node begin="9" end="10" id="1" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="15" end="16" id="2" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="16" end="17" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="24" id="4" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="5" lemma="en" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="en" word="En"/>
+      <node begin="1" cat="smain" end="24" id="6" rel="nucl">
+        <node begin="1" end="2" id="7" lemma="voorts" pos="adv" postag="BW()" pt="bw" rel="mod" root="voorts" word="voorts"/>
+        <node begin="2" end="3" id="8" lemma="over_leveren" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="lever_over" word="leverde" wvorm="pv"/>
+        <node begin="3" end="4" genus="masc" getal="ev" id="9" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="hij"/>
+        <node begin="4" end="5" getal="getal" id="10" lemma="zich" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="obj1" root="zich" status="red" vwtype="refl" word="zich"/>
+        <node begin="5" cat="advp" end="7" id="11" rel="mod">
+          <node begin="5" end="6" id="12" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="hd" root="nog" word="nog"/>
+          <node begin="6" buiging="zonder" end="7" graad="comp" id="13" lemma="veel" naamval="stan" pdtype="grad" pos="adv" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mod" root="meer" vwtype="onbep" word="meer"/>
+        </node>
+        <node begin="7" end="8" id="14" lemma="over" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="over" vztype="fin" word="over"/>
+        <node begin="8" cat="pp" end="15" id="15" rel="pc">
+          <node begin="8" end="9" id="16" lemma="aan" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="aan" vztype="fin" word="aan"/>
+          <node begin="10" cat="mwu" end="15" id="17" rel="obj1">
+            <node begin="10" end="11" id="18" lemma="The" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="The" spectype="vreemd" word="The"/>
+            <node begin="11" end="12" id="19" lemma="Art" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Art" spectype="vreemd" word="Art"/>
+            <node begin="12" end="13" id="20" lemma="of" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="of" spectype="vreemd" word="of"/>
+            <node begin="13" end="14" id="21" lemma="Being" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Being" spectype="vreemd" word="Being"/>
+            <node begin="14" end="15" id="22" lemma="Freddy" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Freddy" spectype="vreemd" word="Freddy"/>
+          </node>
+        </node>
+        <node begin="17" cat="cp" end="24" id="23" rel="mod">
+          <node begin="17" conjtype="onder" end="18" id="24" lemma="zoals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zoals" word="zoals"/>
+          <node begin="18" cat="ssub" end="24" id="25" rel="body">
+            <node begin="18" cat="np" end="21" id="26" rel="su">
+              <node begin="18" end="19" id="27" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="19" cat="mwu" end="21" id="28" rel="hd">
+                <node begin="19" end="20" id="29" lemma="Haagse" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Haagse" spectype="deeleigen" word="Haagse"/>
+                <node begin="20" end="21" id="30" lemma="Post" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Post" spectype="deeleigen" word="Post"/>
+              </node>
+            </node>
+            <node begin="21" end="22" genus="onz" getal="ev" id="31" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="obj1" root="het" status="red" vwtype="pers" word="het"/>
+            <node begin="22" end="23" id="32" lemma="ooit" pos="adv" postag="BW()" pt="bw" rel="mod" root="ooit" word="ooit"/>
+            <node begin="23" end="24" id="33" lemma="formuleren" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="formuleer" word="formuleerde" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="24" end="25" id="34" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>En voorts leverde hij zich nog meer over aan &apos; The Art of Being Freddy &apos; , zoals de Haagse Post het ooit formuleerde .</sentence>
+</alpino_ds>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="1" cat="du" end="5" id="2" rel="--">
+      <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="3" lemma="progestativum" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="dp" root="progestativum" word="progestativum"/>
+      <node begin="2" cat="ap" end="5" id="4" rel="dp">
+        <node begin="2" cat="ap" end="4" id="5" rel="mod">
+          <node begin="2" end="3" id="6" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+          <node begin="3" buiging="zonder" end="4" graad="basis" id="7" lemma="specifiek" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="specifiek" word="specifiek"/>
+        </node>
+        <node begin="4" buiging="zonder" end="5" graad="basis" id="8" lemma="anti_androgeen" pos="noun" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="antiandrogeen" word="antiandrogeen"/>
+      </node>
+    </node>
+    <node begin="5" end="6" id="9" lemma="contra" pos="name" postag="VZ(init)" pt="vz" rel="--" root="Contra" vztype="init" word="Contra"/>
+  </node>
+  <sentence>- progestativum niet specifiek antiandrogeen Contra</sentence>
+</alpino_ds>

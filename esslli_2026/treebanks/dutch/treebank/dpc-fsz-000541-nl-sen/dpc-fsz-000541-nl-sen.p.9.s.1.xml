@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma=")" pos="tag" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="5" end="6" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="12" id="3" rel="--">
+      <node begin="0" end="1" id="4" lemma="e" pos="tag" postag="SPEC(symb)" pt="spec" rel="tag" root="e" spectype="symb" word="e"/>
+      <node begin="2" cat="np" end="12" id="5" rel="nucl">
+        <node begin="2" end="3" getal="mv" graad="basis" id="6" lemma="apparaat" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="apparaat" word="apparaten"/>
+        <node begin="3" cat="pp" end="5" id="7" rel="mod">
+          <node begin="3" end="4" id="8" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="4" buiging="zonder" end="5" getal-n="zonder-n" id="9" lemma="doven" pos="adj" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="obj1" root="doof" word="doven" wvorm="inf"/>
+        </node>
+        <node begin="6" cat="conj" end="12" id="10" rel="app">
+          <node begin="6" cat="np" end="9" id="11" rel="cnj">
+            <node begin="6" cat="ppart" end="8" id="12" index="1" rel="mod">
+              <node begin="6" buiging="zonder" end="7" graad="comp" id="13" lemma="veel" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mod" root="meer" vwtype="onbep" word="meer"/>
+              <node begin="7" buiging="zonder" end="8" id="14" lemma="bepalen" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="hd" root="bepaald" word="bepaald" wvorm="vd"/>
+            </node>
+            <node begin="8" end="9" id="15" lemma="hoor-" pos="prefix" postag="SPEC(afgebr)" pt="spec" rel="hd" root="hoor" spectype="afgebr" word="hoor-"/>
+          </node>
+          <node begin="9" conjtype="neven" end="10" id="16" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="6" cat="np" end="12" id="17" rel="cnj">
+            <node begin="6" end="8" id="18" index="1" rel="mod"/>
+            <node begin="10" buiging="met-e" end="11" graad="basis" id="19" lemma="fonetisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="fonetische" word="fonetische"/>
+            <node begin="11" end="12" getal="mv" graad="basis" id="20" lemma="apparaat" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="apparaat" word="apparaten"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" id="21" lemma=";" pos="punct" postag="LET()" pt="let" rel="--" root=";" word=";"/>
+  </node>
+  <sentence>e ) apparaten voor doven , meer bepaald hoor- en fonetische apparaten ;</sentence>
+</alpino_ds>

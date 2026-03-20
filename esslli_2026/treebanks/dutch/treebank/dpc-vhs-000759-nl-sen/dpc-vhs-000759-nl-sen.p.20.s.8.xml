@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="cp" end="17" id="2" rel="--">
+      <node begin="0" end="1" id="3" lemma="namelijk" pos="comp" postag="BW()" pt="bw" rel="cmp" root="namelijk" word="Namelijk"/>
+      <node begin="1" cat="conj" end="17" id="4" rel="body">
+        <node begin="1" cat="np" end="4" id="5" rel="cnj">
+          <node begin="1" end="2" id="6" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="2" buiging="met-e" end="3" graad="basis" id="7" lemma="daad_krachtig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="daad_krachtig" word="daadkrachtige"/>
+          <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="8" lemma="unie" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="Unie" word="Unie"/>
+        </node>
+        <node begin="5" cat="np" end="17" id="9" rel="cnj">
+          <node begin="5" end="6" id="10" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="11" lemma="unie" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="Unie" word="Unie"/>
+          <node begin="7" cat="rel" end="17" id="12" rel="mod">
+            <node begin="7" end="8" getal="getal" id="13" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+            <node begin="7" cat="ssub" end="17" id="14" rel="body">
+              <node begin="7" end="8" id="15" index="1" rel="su"/>
+              <node begin="10" end="11" id="16" lemma="geven" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="geef" word="geeft" wvorm="pv"/>
+              <node begin="8" cat="np" end="17" id="17" rel="obj1">
+                <node begin="8" end="9" id="18" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="19" lemma="antwoord" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="antwoord" word="antwoord"/>
+                <node begin="11" cat="pp" end="17" id="20" rel="mod">
+                  <node begin="11" end="12" id="21" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+                  <node begin="12" cat="conj" end="17" id="22" rel="obj1">
+                    <node begin="12" cat="np" end="14" id="23" rel="cnj">
+                      <node begin="12" buiging="zonder" end="13" getal="mv" id="24" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+                      <node begin="13" end="14" getal="mv" graad="basis" id="25" lemma="bezorgdheid" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="bezorgdheden" word="bezorgdheden"/>
+                    </node>
+                    <node begin="14" conjtype="neven" end="15" id="26" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                    <node begin="15" cat="np" end="17" id="27" rel="cnj">
+                      <node begin="15" buiging="zonder" end="16" getal="mv" id="28" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+                      <node begin="16" end="17" getal="mv" graad="basis" id="29" lemma="vraag" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vraag" word="vragen"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="30" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Namelijk een daadkrachtige Unie , een Unie die een antwoord geeft op hun bezorgdheden en hun vragen .</sentence>
+</alpino_ds>

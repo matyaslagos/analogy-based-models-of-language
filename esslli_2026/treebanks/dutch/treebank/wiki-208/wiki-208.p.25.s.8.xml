@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="14" end="15" id="2" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="du" end="16" id="3" rel="--">
+      <node begin="0" cat="np" end="8" id="4" rel="dp">
+        <node begin="0" buiging="met-e" end="1" graad="sup" id="5" lemma="oud" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="mod" root="oud" word="Oudste"/>
+        <node begin="1" buiging="met-e" end="2" graad="basis" id="6" lemma="ambachtelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ambachtelijk" word="ambachtelijke"/>
+        <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="7" lemma="tekst" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="tekst" word="tekst"/>
+        <node begin="3" cat="pp" end="6" id="8" rel="mod">
+          <node begin="3" end="4" id="9" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="4" cat="np" end="6" id="10" rel="obj1">
+            <node begin="4" end="5" id="11" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="12" lemma="Frans" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Frans" word="Frans"/>
+          </node>
+        </node>
+        <node begin="7" end="8" id="13" lemma="1194" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mod" root="1194" word="1194"/>
+      </node>
+      <node begin="8" cat="np" end="16" id="14" rel="dp">
+        <node begin="8" buiging="met-e" end="9" graad="sup" id="15" lemma="oud" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="mod" root="oud" word="Oudste"/>
+        <node begin="9" buiging="met-e" end="10" graad="basis" id="16" lemma="ambachtelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ambachtelijk" word="ambachtelijke"/>
+        <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="17" lemma="tekst" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="tekst" word="tekst"/>
+        <node begin="11" cat="pp" end="14" id="18" rel="mod">
+          <node begin="11" end="12" id="19" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="12" cat="np" end="14" id="20" rel="obj1">
+            <node begin="12" end="13" id="21" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="noun" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="22" lemma="Diets" naamval="stan" ntype="eigen" pos="adj" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Diets" word="Diets"/>
+          </node>
+        </node>
+        <node begin="15" end="16" id="23" lemma="1236" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mod" root="1236" word="1236"/>
+      </node>
+    </node>
+  </node>
+  <sentence>Oudste ambachtelijke tekst in het Frans : 1194 Oudste ambachtelijke tekst in het Diets : 1236</sentence>
+</alpino_ds>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="13" id="2" rel="--">
+      <node begin="0" cat="whrel" end="4" id="3" rel="dp">
+        <node begin="0" end="1" getal="getal" id="4" index="1" lemma="wie" naamval="stan" pdtype="pron" persoon="3p" pos="pron" postag="VNW(vb,pron,stan,vol,3p,getal)" pt="vnw" rel="rhd" root="wie" status="vol" vwtype="vb" word="Wie"/>
+        <node begin="0" cat="ssub" end="4" id="5" rel="body">
+          <node begin="0" end="1" id="6" index="1" rel="su"/>
+          <node begin="1" end="2" getal="getal" id="7" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+          <node begin="2" end="3" id="8" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+          <node begin="3" end="4" id="9" lemma="winnen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="win" word="wint" wvorm="pv"/>
+        </node>
+      </node>
+      <node begin="5" cat="smain" end="13" id="10" rel="dp">
+        <node begin="8" end="9" id="11" lemma="zullen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zal" word="zal" wvorm="pv"/>
+        <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="12" index="2" lemma="Zimbabwe" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" root="Zimbabwe" word="Zimbabwe"/>
+        <node begin="5" cat="inf" end="13" id="13" rel="vc">
+          <node begin="5" cat="pp" end="8" id="14" rel="pc">
+            <node begin="5" end="6" id="15" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="6" cat="np" end="8" id="16" rel="obj1">
+              <node begin="6" buiging="met-e" end="7" id="17" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="deze"/>
+              <node begin="7" end="8" getal="mv" graad="basis" id="18" lemma="verkiezing" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="verkiezing" word="verkiezingen"/>
+            </node>
+          </node>
+          <node begin="9" end="10" id="19" index="2" rel="su"/>
+          <node begin="10" end="11" id="20" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+          <node begin="11" buiging="zonder" end="12" graad="basis" id="21" lemma="gemakkelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="gemakkelijk" word="gemakkelijk"/>
+          <node begin="12" buiging="zonder" end="13" id="22" lemma="herstellen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="herstel" word="herstellen" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="23" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Wie er ook wint , van deze verkiezingen zal Zimbabwe niet gemakkelijk herstellen .</sentence>
+</alpino_ds>

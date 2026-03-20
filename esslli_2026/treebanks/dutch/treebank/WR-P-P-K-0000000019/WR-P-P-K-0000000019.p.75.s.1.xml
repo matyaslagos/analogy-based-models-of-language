@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="24" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="1" cat="conj" end="23" id="2" rel="--">
+      <node begin="1" cat="smain" end="8" id="3" rel="cnj">
+        <node begin="1" cat="np" end="4" id="4" index="1" rel="su">
+          <node begin="1" end="2" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+          <node begin="2" cat="mwu" end="4" id="6" rel="hd">
+            <node begin="2" end="3" id="7" lemma="Europese" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Europese" spectype="deeleigen" word="Europese"/>
+            <node begin="3" end="4" id="8" lemma="Commissie" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Commissie" spectype="deeleigen" word="Commissie"/>
+          </node>
+        </node>
+        <node begin="4" end="5" id="9" lemma="verdedigen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="verdedig" word="verdedigt" wvorm="pv"/>
+        <node begin="5" cat="np" end="8" id="10" rel="obj1">
+          <node begin="5" buiging="zonder" end="6" id="11" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="geen"/>
+          <node begin="6" buiging="met-e" end="7" graad="basis" id="12" lemma="nationaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nationaal" word="nationale"/>
+          <node begin="7" end="8" getal="mv" graad="basis" id="13" lemma="belang" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="belang" word="belangen"/>
+        </node>
+      </node>
+      <node begin="8" conjtype="neven" end="9" id="14" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="1" cat="sv1" end="23" id="15" rel="cnj">
+        <node begin="1" end="4" id="16" index="1" rel="su"/>
+        <node begin="9" end="10" id="17" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" word="kan" wvorm="pv"/>
+        <node begin="1" cat="inf" end="15" id="18" rel="vc">
+          <node begin="1" end="4" id="19" index="1" rel="su"/>
+          <node begin="10" end="11" id="20" lemma="daardoor" pos="pp" postag="BW()" pt="bw" rel="mod" root="daardoor" word="daardoor"/>
+          <node begin="11" cat="np" end="14" id="21" rel="obj1">
+            <node begin="11" end="12" id="22" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="12" buiging="met-e" end="13" graad="basis" id="23" lemma="belangrijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="belangrijk" word="belangrijke"/>
+            <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="24" lemma="rol" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="rol" word="rol"/>
+          </node>
+          <node begin="14" buiging="zonder" end="15" id="25" lemma="spelen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="speel" word="spelen" wvorm="inf"/>
+        </node>
+        <node begin="15" cat="cp" end="23" id="26" rel="predm">
+          <node begin="15" conjtype="onder" end="16" id="27" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+          <node begin="16" cat="np" end="23" id="28" rel="body">
+            <node begin="16" cat="ap" end="18" id="29" rel="mod">
+              <node begin="16" buiging="zonder" end="17" graad="basis" id="30" lemma="politiek" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="politiek" word="politiek"/>
+              <node begin="17" buiging="met-e" end="18" graad="basis" id="31" lemma="neutraal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="hd" root="neutraal" word="neutrale"/>
+            </node>
+            <node begin="18" end="19" genus="zijd" getal="ev" graad="basis" id="32" lemma="partner" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="partner" word="partner"/>
+            <node begin="19" cat="pp" end="23" id="33" rel="mod">
+              <node begin="19" end="20" id="34" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+              <node begin="20" cat="np" end="23" id="35" rel="obj1">
+                <node begin="20" end="21" id="36" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                <node begin="21" buiging="zonder" end="22" graad="basis" id="37" lemma="buitenlands" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="buitenlands" word="buitenlands"/>
+                <node begin="22" end="23" genus="onz" getal="ev" graad="basis" id="38" lemma="beleid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="beleid" word="beleid"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="23" end="24" id="39" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>- De Europese Commissie verdedigt geen nationale belangen en kan daardoor een belangrijke rol spelen als politiek neutrale partner in het buitenlands beleid .</sentence>
+</alpino_ds>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="smain" end="5" id="1" rel="--">
+      <node begin="0" end="1" id="2" lemma="ooit" pos="adv" postag="BW()" pt="bw" rel="mod" root="ooit" word="Ooit"/>
+      <node begin="1" end="2" id="3" lemma="zijn" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="ben" word="waren" wvorm="pv"/>
+      <node begin="2" end="3" getal="getal" id="4" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+      <node begin="3" cat="np" end="5" id="5" rel="su">
+        <node begin="3" buiging="met-e" end="4" graad="basis" id="6" lemma="echt" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="echt" word="echte"/>
+        <node begin="4" end="5" getal="mv" graad="basis" id="7" lemma="circus_voorstelling" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="circus_voor_stelling" word="circusvoorstellingen"/>
+      </node>
+    </node>
+    <node begin="5" end="6" id="8" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Ooit waren er echte circusvoorstellingen .</sentence>
+</alpino_ds>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="10" end="11" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="15" id="3" rel="--">
+      <node begin="0" cat="pp" end="4" id="4" rel="mod">
+        <node begin="0" cat="mwu" end="3" id="5" rel="hd">
+          <node begin="0" end="1" id="6" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="Bij" vztype="init" word="Bij"/>
+          <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="7" lemma="gebrek" naamval="stan" ntype="soort" pos="prep" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="gebrek" word="gebrek"/>
+          <node begin="2" end="3" id="8" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="aan" vztype="init" word="aan"/>
+        </node>
+        <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="9" lemma="zuurstof" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="zuurstof" word="zuurstof"/>
+      </node>
+      <node begin="4" end="5" id="10" lemma="verbranden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="verbrand" word="verbranden" wvorm="pv"/>
+      <node begin="5" cat="np" end="14" id="11" rel="su">
+        <node begin="5" buiging="met-e" end="6" id="12" lemma="koolstof_houden" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="koolstofhoudende" word="koolstofhoudende" wvorm="od"/>
+        <node begin="6" end="7" getal="mv" graad="basis" id="13" lemma="stof" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="stof" word="stoffen"/>
+        <node begin="8" cat="cp" end="14" id="14" rel="mod">
+          <node begin="8" conjtype="onder" end="9" id="15" lemma="zoals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zoals" word="zoals"/>
+          <node begin="9" cat="conj" end="14" id="16" rel="body">
+            <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="17" lemma="gas" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="cnj" root="gas" word="gas"/>
+            <node begin="11" end="12" getal="mv" graad="basis" id="18" lemma="kool" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="kool" word="kolen"/>
+            <node begin="12" conjtype="neven" end="13" id="19" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+            <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="20" lemma="hout" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="cnj" root="hout" word="hout"/>
+          </node>
+        </node>
+      </node>
+      <node begin="14" buiging="zonder" end="15" graad="basis" id="21" lemma="onvolledig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="onvolledig" word="onvolledig"/>
+    </node>
+    <node begin="15" end="16" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Bij gebrek aan zuurstof verbranden koolstofhoudende stoffen , zoals gas , kolen of hout onvolledig .</sentence>
+</alpino_ds>

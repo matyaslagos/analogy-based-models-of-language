@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="·" pos="punct" postag="LET()" pt="let" rel="--" root="·" word="·"/>
+    <node begin="3" end="4" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="1" cat="sv1" end="13" id="3" rel="--">
+      <node begin="1" end="2" id="4" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="Zijn" wvorm="pv"/>
+      <node begin="2" cat="conj" end="7" id="5" index="1" rel="su">
+        <node begin="2" end="3" getal="mv" graad="dim" id="6" lemma="uitstap" ntype="soort" pos="noun" postag="N(soort,mv,dim)" pt="n" rel="cnj" root="uitstap_DIM" word="uitstapjes"/>
+        <node begin="4" end="5" getal="mv" graad="dim" id="7" lemma="feest" ntype="soort" pos="noun" postag="N(soort,mv,dim)" pt="n" rel="cnj" root="feest_DIM" word="feestjes"/>
+        <node begin="5" conjtype="neven" end="6" id="8" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+        <node begin="6" end="7" getal="mv" graad="basis" id="9" lemma="vakantie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="vakantie" word="vakanties"/>
+      </node>
+      <node begin="2" cat="ppart" end="13" id="10" rel="vc">
+        <node begin="2" end="7" id="11" index="1" rel="obj1"/>
+        <node begin="7" end="8" id="12" lemma="wel" pos="adv" postag="BW()" pt="bw" rel="mod" root="wel" word="wel"/>
+        <node begin="8" end="9" id="13" lemma="eens" pos="adv" postag="BW()" pt="bw" rel="mod" root="eens" word="eens"/>
+        <node begin="9" buiging="zonder" end="10" id="14" lemma="verpesten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="verpest" word="verpest" wvorm="vd"/>
+        <node begin="10" cat="pp" end="13" id="15" rel="mod">
+          <node begin="10" end="11" id="16" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+          <node begin="11" cat="np" end="13" id="17" rel="obj1">
+            <node begin="11" end="12" id="18" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="12" buiging="zonder" end="13" getal-n="zonder-n" id="19" lemma="drinken" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="drink" word="drinken" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="20" lemma="?" pos="punct" postag="LET()" pt="let" rel="--" root="?" word="?"/>
+  </node>
+  <sentence>· Zijn uitstapjes , feestjes of vakanties wel eens verpest door het drinken ?</sentence>
+</alpino_ds>

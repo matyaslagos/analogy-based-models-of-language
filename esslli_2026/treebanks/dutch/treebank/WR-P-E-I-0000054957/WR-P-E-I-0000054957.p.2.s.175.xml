@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="smain" end="10" id="1" rel="--">
+      <node begin="0" cat="mwu" end="3" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="Keizer" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Keizer" spectype="deeleigen" word="Keizer"/>
+        <node begin="1" end="2" id="4" lemma="Wilhelm" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Wilhelm" spectype="deeleigen" word="Wilhelm"/>
+        <node begin="2" end="3" id="5" lemma="II" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="II" spectype="deeleigen" word="II"/>
+      </node>
+      <node begin="3" end="4" id="6" lemma="uit_wijken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="wijk_uit" word="week" wvorm="pv"/>
+      <node begin="4" cat="pp" end="7" id="7" rel="mod">
+        <node begin="4" end="5" id="8" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+        <node begin="5" cat="mwu" end="7" id="9" rel="obj1">
+          <node begin="5" end="6" id="10" lemma="10" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="10" word="10"/>
+          <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="11" lemma="november" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="november" word="november"/>
+        </node>
+      </node>
+      <node begin="7" end="8" id="12" lemma="uit" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="uit" vztype="fin" word="uit"/>
+      <node begin="8" cat="pp" end="10" id="13" rel="ld">
+        <node begin="8" end="9" id="14" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+        <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="15" lemma="Nederland" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Nederland" word="Nederland"/>
+      </node>
+    </node>
+    <node begin="10" end="11" id="16" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Keizer Wilhelm II week op 10 november uit naar Nederland .</sentence>
+</alpino_ds>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="10" id="0" rel="top">
+    <node begin="0" cat="smain" end="9" id="1" rel="--">
+      <node begin="0" cat="conj" end="5" id="2" index="1" rel="su">
+        <node begin="0" cat="np" end="2" id="3" rel="cnj">
+          <node begin="0" end="1" id="4" index="2" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="Ook"/>
+          <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="5" lemma="Lufthansa" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Lufthansa" word="Lufthansa"/>
+        </node>
+        <node begin="2" conjtype="neven" end="3" id="6" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="0" cat="np" end="5" id="7" rel="cnj">
+          <node begin="0" end="1" id="8" index="2" rel="mod"/>
+          <node begin="3" cat="mwu" end="5" id="9" rel="hd">
+            <node begin="3" end="4" id="10" lemma="Air" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Air" spectype="deeleigen" word="Air"/>
+            <node begin="4" end="5" id="11" lemma="France" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="France" spectype="deeleigen" word="France"/>
+          </node>
+        </node>
+      </node>
+      <node begin="5" end="6" id="12" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" word="hebben" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="9" id="13" rel="vc">
+        <node begin="0" end="5" id="14" index="1" rel="su"/>
+        <node begin="6" cat="np" end="8" id="15" rel="obj1">
+          <node begin="6" end="7" id="16" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="17" lemma="prijs" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="prijs" word="prijs"/>
+        </node>
+        <node begin="8" buiging="zonder" end="9" id="18" lemma="verhogen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="verhoog" word="verhoogd" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="9" end="10" id="19" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Ook Lufthansa en Air France hebben de prijs verhoogd .</sentence>
+</alpino_ds>

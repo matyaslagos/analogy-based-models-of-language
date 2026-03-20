@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="26" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="14" end="15" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="19" end="20" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="25" id="4" rel="--">
+      <node begin="0" end="1" genus="masc" getal="ev" id="5" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="Hij"/>
+      <node begin="1" end="2" id="6" lemma="over_dragen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="draag_over" word="droeg" wvorm="pv"/>
+      <node begin="2" cat="np" end="14" id="7" rel="obj1">
+        <node begin="2" buiging="zonder" end="3" getal="ev" id="8" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pt="vnw" rel="det" root="zijn" status="vol" vwtype="bez" word="zijn"/>
+        <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="9" lemma="geestdrift" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="geestdrift" word="geestdrift"/>
+        <node begin="5" cat="pp" end="14" id="10" rel="mod">
+          <node begin="5" end="6" id="11" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="6" cat="np" end="14" id="12" rel="obj1">
+            <node begin="6" end="7" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="7" end="8" getal="mv" graad="basis" id="14" lemma="plek" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="plek" word="plekken"/>
+            <node begin="8" cat="rel" end="14" id="15" rel="mod">
+              <node begin="8" end="9" getal="getal" id="16" index="1" lemma="waar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(vb,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="rhd" root="waar" status="vol" vwtype="vb" word="waar"/>
+              <node begin="8" cat="ssub" end="14" id="17" rel="body">
+                <node begin="9" end="10" genus="masc" getal="ev" id="18" index="2" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="hij"/>
+                <node begin="11" end="12" id="19" lemma="zelf" pos="adv" postag="BW()" pt="bw" rel="predm" root="zelf" word="zelf"/>
+                <node begin="8" cat="ppart" end="13" id="20" rel="vc">
+                  <node begin="8" end="9" id="21" index="1" rel="mod"/>
+                  <node begin="9" end="10" id="22" index="2" rel="su"/>
+                  <node begin="10" buiging="zonder" end="11" graad="basis" id="23" lemma="destijds" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="destijds" word="destijds"/>
+                  <node begin="12" buiging="zonder" end="13" id="24" lemma="schilderen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="schilder" word="geschilderd" wvorm="vd"/>
+                </node>
+                <node begin="13" end="14" id="25" lemma="hebben" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="heb" word="had" wvorm="pv"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="15" end="16" id="26" lemma="over" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="over" vztype="fin" word="over"/>
+      <node begin="16" cat="pp" end="25" id="27" rel="mod">
+        <node begin="16" end="17" id="28" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+        <node begin="17" cat="conj" end="25" id="29" rel="obj1">
+          <node begin="17" cat="mwu" end="19" id="30" rel="cnj">
+            <node begin="17" end="18" id="31" lemma="Emile" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Emile" spectype="deeleigen" word="Emile"/>
+            <node begin="18" end="19" id="32" lemma="Jacques" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Jacques" spectype="deeleigen" word="Jacques"/>
+          </node>
+          <node begin="20" cat="mwu" end="22" id="33" rel="cnj">
+            <node begin="20" end="21" id="34" lemma="Armand" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Armand" spectype="deeleigen" word="Armand"/>
+            <node begin="21" end="22" id="35" lemma="Maclot" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Maclot" spectype="deeleigen" word="Maclot"/>
+          </node>
+          <node begin="22" conjtype="neven" end="23" id="36" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="23" cat="mwu" end="25" id="37" rel="cnj">
+            <node begin="23" end="24" id="38" lemma="Paul" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Paul" spectype="deeleigen" word="Paul"/>
+            <node begin="24" end="25" id="39" lemma="Leduc" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Leduc" spectype="deeleigen" word="Leduc"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="25" end="26" id="40" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Hij droeg zijn geestdrift , voor de plekken waar hij destijds zelf geschilderd had , over op Emile Jacques , Armand Maclot en Paul Leduc .</sentence>
+</alpino_ds>

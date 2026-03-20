@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="11" end="12" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="14" id="2" rel="--">
+      <node begin="0" cat="smain" end="11" id="3" rel="nucl">
+        <node begin="0" cat="np" end="6" id="4" index="1" rel="su">
+          <node begin="0" end="1" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="DE"/>
+          <node begin="1" end="2" getal="mv" graad="basis" id="6" lemma="lichaamsdeel" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="lichaamsdeel" word="LICHAAMSDELEN"/>
+          <node begin="2" cat="pp" end="6" id="7" rel="mod">
+            <node begin="2" end="3" id="8" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="VAN"/>
+            <node begin="3" cat="np" end="6" id="9" rel="obj1">
+              <node begin="3" end="4" id="10" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="DE"/>
+              <node begin="4" buiging="met-e" end="5" graad="basis" id="11" lemma="vermoedelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="vermoedelijk" word="VERMOEDELIJKE"/>
+              <node begin="5" end="6" getal="mv" graad="basis" id="12" lemma="terrorist" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="terrorist" word="TERRORISTEN"/>
+            </node>
+          </node>
+        </node>
+        <node begin="6" end="7" id="13" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="ZIJN" wvorm="pv"/>
+        <node begin="0" cat="ppart" end="11" id="14" rel="vc">
+          <node begin="0" end="6" id="15" index="1" rel="obj1"/>
+          <node begin="7" buiging="zonder" end="8" id="16" lemma="terug_vinden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="vind_terug" word="TERUGGEVONDEN" wvorm="vd"/>
+          <node begin="8" cat="pp" end="11" id="17" rel="ld">
+            <node begin="8" end="9" id="18" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" vztype="init" word="TUSSEN"/>
+            <node begin="9" cat="np" end="11" id="19" rel="obj1">
+              <node begin="9" end="10" id="20" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="DE"/>
+              <node begin="10" end="11" getal="mv" graad="basis" id="21" lemma="wrak_stuk" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="wrak_stuk" word="WRAKSTUKKEN"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="12" cat="ap" end="14" id="22" rel="sat">
+        <node begin="12" buiging="zonder" end="13" graad="basis" id="23" lemma="praktisch" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="practisch" word="PRAKTISCH"/>
+        <node begin="13" buiging="zonder" end="14" graad="basis" id="24" lemma="onherkenbaar" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="onherkenbaar" word="ONHERKENBAAR"/>
+      </node>
+    </node>
+    <node begin="14" end="15" id="25" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>DE LICHAAMSDELEN VAN DE VERMOEDELIJKE TERRORISTEN ZIJN TERUGGEVONDEN TUSSEN DE WRAKSTUKKEN , PRAKTISCH ONHERKENBAAR .</sentence>
+</alpino_ds>

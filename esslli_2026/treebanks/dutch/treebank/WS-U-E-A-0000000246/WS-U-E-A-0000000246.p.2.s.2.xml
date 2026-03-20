@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="8" id="2" rel="--">
+      <node begin="0" cat="conj" end="5" id="3" rel="dp">
+        <node begin="0" end="1" genus="onz" getal="ev" graad="basis" id="4" lemma="verdriet" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="cnj" root="verdriet" word="Verdriet"/>
+        <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="5" lemma="rouw" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="rouw" word="rouw"/>
+        <node begin="3" conjtype="neven" end="4" id="6" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="7" lemma="wanhoop" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="wanhoop" word="wanhoop"/>
+      </node>
+      <node begin="5" cat="pp" end="7" id="8" rel="dp">
+        <node begin="5" end="6" id="9" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="10" lemma="Beslan" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Beslan" word="Beslan"/>
+      </node>
+      <node begin="7" end="8" id="11" lemma="vandaag" pos="adv" postag="BW()" pt="bw" rel="dp" root="vandaag" word="vandaag"/>
+    </node>
+    <node begin="8" end="9" id="12" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Verdriet , rouw en wanhoop in Beslan vandaag .</sentence>
+</alpino_ds>

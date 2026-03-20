@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="11" end="12" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="18" id="3" rel="--">
+      <node begin="0" cat="np" end="2" id="4" rel="su">
+        <node begin="0" end="1" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="6" lemma="Amsterdammer" ntype="eigen" pos="noun" postag="N(eigen,mv,basis)" pt="n" rel="hd" root="Amsterdammer" word="Amsterdammers"/>
+      </node>
+      <node begin="2" end="3" id="7" lemma="spelen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="speel" word="spelen" wvorm="pv"/>
+      <node begin="3" end="4" id="8" lemma="dus" pos="adv" postag="BW()" pt="bw" rel="mod" root="dus" word="dus"/>
+      <node begin="4" cat="pp" end="18" id="9" rel="mod">
+        <node begin="4" end="5" id="10" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" vztype="init" word="tegen"/>
+        <node begin="5" cat="conj" end="18" id="11" rel="obj1">
+          <node begin="5" cat="mwu" end="7" id="12" rel="cnj">
+            <node begin="5" end="6" id="13" lemma="Bayern" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Bayern" spectype="deeleigen" word="Bayern"/>
+            <node begin="6" end="7" id="14" lemma="München" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="München" spectype="deeleigen" word="München"/>
+          </node>
+          <node begin="8" cat="np" end="11" id="15" rel="cnj">
+            <node begin="8" end="9" id="16" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="9" buiging="met-e" end="10" graad="basis" id="17" lemma="Italiaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Italiaans" word="Italiaanse"/>
+            <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="18" lemma="Juventus" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Juventus" word="Juventus"/>
+          </node>
+          <node begin="12" conjtype="neven" end="13" id="19" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="13" cat="np" end="18" id="20" rel="cnj">
+            <node begin="13" cat="mwu" end="16" id="21" rel="hd">
+              <node begin="13" end="14" id="22" lemma="Maccabi" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Maccabi" spectype="deeleigen" word="Maccabi"/>
+              <node begin="14" end="15" id="23" lemma="Tel" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Tel" spectype="deeleigen" word="Tel"/>
+              <node begin="15" end="16" id="24" lemma="Aviv" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Aviv" spectype="deeleigen" word="Aviv"/>
+            </node>
+            <node begin="16" cat="pp" end="18" id="25" rel="mod">
+              <node begin="16" end="17" id="26" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" vztype="init" word="uit"/>
+              <node begin="17" end="18" genus="onz" getal="ev" graad="basis" id="27" lemma="Israël" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Israel" word="Israel"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="28" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De Amsterdammers spelen dus tegen Bayern München , het Italiaanse Juventus , en Maccabi Tel Aviv uit Israel .</sentence>
+</alpino_ds>

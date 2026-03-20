@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="0" cat="smain" end="18" id="1" rel="--">
+      <node begin="0" buiging="zonder" end="1" graad="comp" id="2" lemma="laat" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="laat" word="Later"/>
+      <node begin="1" end="2" id="3" lemma="samen_komen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="kom_samen" word="kwamen" wvorm="pv"/>
+      <node begin="2" cat="conj" end="6" id="4" rel="su">
+        <node begin="2" cat="mwu" end="4" id="5" rel="cnj">
+          <node begin="2" end="3" id="6" lemma="Johannes" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Johannes" spectype="deeleigen" word="Johannes"/>
+          <node begin="3" end="4" id="7" lemma="Paulus" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Paulus" spectype="deeleigen" word="Paulus"/>
+        </node>
+        <node begin="4" conjtype="neven" end="5" id="8" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="9" lemma="Christodoulos" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Christodoulos" word="Christodoulos"/>
+      </node>
+      <node begin="9" end="10" id="10" lemma="samen" pos="part" postag="BW()" pt="bw" rel="svp" root="samen" word="samen"/>
+      <node begin="6" cat="pp" end="18" id="11" rel="mod">
+        <node begin="6" end="7" id="12" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+        <node begin="7" cat="np" end="18" id="13" rel="obj1">
+          <node begin="7" end="8" id="14" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="15" lemma="plek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="plek" word="plek"/>
+          <node begin="10" cat="rel" end="18" id="16" rel="mod">
+            <node begin="10" end="11" getal="getal" id="17" index="1" lemma="waar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(vb,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="rhd" root="waar" status="vol" vwtype="vb" word="waar"/>
+            <node begin="10" cat="ssub" end="18" id="18" rel="body">
+              <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="19" index="2" lemma="Paulus" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Paulus" word="Paulus"/>
+              <node begin="16" end="17" id="20" lemma="hebben" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="heb" word="had" wvorm="pv"/>
+              <node begin="10" cat="ppart" end="18" id="21" rel="vc">
+                <node begin="10" end="11" id="22" index="1" rel="mod"/>
+                <node begin="11" end="12" id="23" index="2" rel="su"/>
+                <node begin="12" end="13" id="24" lemma="eens" pos="adv" postag="BW()" pt="bw" rel="mod" root="eens" word="eens"/>
+                <node begin="13" cat="pp" end="16" id="25" rel="pc">
+                  <node begin="13" end="14" id="26" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+                  <node begin="14" cat="np" end="16" id="27" rel="obj1">
+                    <node begin="14" buiging="met-e" end="15" graad="basis" id="28" lemma="Atheens" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Atheense" word="Atheense"/>
+                    <node begin="15" end="16" getal="mv" graad="basis" id="29" lemma="christen" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="christen" word="christenen"/>
+                  </node>
+                </node>
+                <node begin="17" buiging="zonder" end="18" id="30" lemma="prediken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="predik" word="gepredikt" wvorm="vd"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="31" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Later kwamen Johannes Paulus en Christodoulos op een plek samen waar Paulus eens aan Atheense christenen had gepredikt .</sentence>
+</alpino_ds>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="sv1" end="16" id="2" rel="--">
+      <node begin="0" end="1" id="3" lemma="bedenken" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="bedenk" word="Bedenk" wvorm="pv"/>
+      <node begin="1" end="2" id="4" lemma="wel" pos="adv" postag="BW()" pt="bw" rel="mod" root="wel" word="wel"/>
+      <node begin="2" cat="cp" end="16" id="5" rel="vc">
+        <node begin="2" conjtype="onder" end="3" id="6" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+        <node begin="3" cat="ssub" end="16" id="7" rel="body">
+          <node begin="3" end="4" getal="getal" id="8" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+          <node begin="4" cat="np" end="15" id="9" rel="su">
+            <node begin="4" buiging="zonder" end="5" graad="basis" id="10" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,basis)" pt="vnw" rel="det" root="veel" vwtype="onbep" word="veel"/>
+            <node begin="5" buiging="met-e" end="6" graad="basis" id="11" lemma="verschillend" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="verschil" word="verschillende"/>
+            <node begin="6" end="7" getal="mv" graad="basis" id="12" lemma="maat" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="maat" word="maten"/>
+            <node begin="7" cat="conj" end="12" id="13" rel="mod">
+              <node begin="7" end="8" getal="mv" graad="basis" id="14" lemma="glas" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="glas" word="glazen"/>
+              <node begin="9" end="10" getal="mv" graad="dim" id="15" lemma="fles" ntype="soort" pos="noun" postag="N(soort,mv,dim)" pt="n" rel="cnj" root="fles_DIM" word="flesjes"/>
+              <node begin="10" conjtype="neven" end="11" id="16" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="11" end="12" getal="mv" graad="dim" id="17" lemma="blik" ntype="soort" pos="noun" postag="N(soort,mv,dim)" pt="n" rel="cnj" root="blik_DIM" word="blikjes"/>
+            </node>
+            <node begin="12" cat="pp" end="15" id="18" rel="mod">
+              <node begin="12" end="13" id="19" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+              <node begin="13" cat="np" end="15" id="20" rel="obj1">
+                <node begin="13" buiging="met-e" end="14" id="21" lemma="uiteen_lopen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="loop_uiteen" word="uiteenlopende" wvorm="od"/>
+                <node begin="14" end="15" getal="mv" graad="basis" id="22" lemma="alcohol_percentage" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="alcohol_percentage" word="alcoholpercentages"/>
+              </node>
+            </node>
+          </node>
+          <node begin="15" end="16" id="23" lemma="bestaan" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="besta" word="bestaan" wvorm="pv"/>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="24" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Bedenk wel dat er veel verschillende maten glazen , flesjes en blikjes met uiteenlopende alcoholpercentages bestaan .</sentence>
+</alpino_ds>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="27" id="0" rel="top">
+    <node begin="9" end="10" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="18" end="19" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="26" id="3" rel="--">
+      <node begin="0" cat="smain" end="9" id="4" rel="cnj">
+        <node begin="0" cat="np" end="6" id="5" rel="su">
+          <node begin="0" end="1" id="6" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="Een"/>
+          <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="7" lemma="uitspraak" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="uitspraak" word="uitspraak"/>
+          <node begin="2" cat="pp" end="6" id="8" rel="mod">
+            <node begin="2" end="3" id="9" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="3" cat="np" end="6" id="10" rel="obj1">
+              <node begin="3" end="4" id="11" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="4" cat="mwu" end="6" id="12" rel="hd">
+                <node begin="4" end="5" id="13" lemma="Internationaal" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Internationaal" spectype="deeleigen" word="Internationaal"/>
+                <node begin="5" end="6" id="14" lemma="Gerechtshof" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Gerechtshof" spectype="deeleigen" word="Gerechtshof"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="6" end="7" id="15" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="7" end="8" id="16" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+        <node begin="8" buiging="zonder" end="9" id="17" lemma="binden" pos="adj" positie="vrij" postag="WW(od,vrij,zonder)" pt="ww" rel="predc" root="bindend" word="bindend" wvorm="od"/>
+      </node>
+      <node begin="10" conjtype="neven" end="11" id="18" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+      <node begin="11" cat="smain" end="26" id="19" rel="cnj">
+        <node begin="11" cat="cp" end="18" id="20" rel="mod">
+          <node begin="11" conjtype="onder" end="12" id="21" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+          <node begin="12" cat="ssub" end="18" id="22" rel="body">
+            <node begin="12" end="13" getal="mv" id="23" index="1" lemma="zij" naamval="nomin" pdtype="pron" persoon="3p" pos="pron" postag="VNW(pers,pron,nomin,vol,3p,mv)" pt="vnw" rel="su" root="zij" status="vol" vwtype="pers" word="zij"/>
+            <node begin="16" end="17" id="24" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" word="worden" wvorm="pv"/>
+            <node begin="12" cat="ppart" end="18" id="25" rel="vc">
+              <node begin="12" end="13" id="26" index="1" rel="obj1"/>
+              <node begin="13" cat="mwu" end="16" id="27" rel="svp">
+                <node begin="13" end="14" id="28" lemma="in" pos="fixed" postag="VZ(init)" pt="vz" rel="mwp" root="in" vztype="init" word="in"/>
+                <node begin="14" end="15" id="29" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="fixed" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" word="het"/>
+                <node begin="15" end="16" genus="onz" getal="ev" graad="basis" id="30" lemma="gelijk" naamval="stan" ntype="soort" pos="fixed" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="gelijk" word="gelijk"/>
+              </node>
+              <node begin="17" buiging="zonder" end="18" id="31" lemma="stellen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="stel" word="gesteld" wvorm="vd"/>
+            </node>
+          </node>
+        </node>
+        <node begin="19" end="20" id="32" lemma="boeken" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="boek" word="boeken" wvorm="pv"/>
+        <node begin="20" cat="np" end="22" id="33" rel="su">
+          <node begin="20" end="21" id="34" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="21" end="22" getal="mv" graad="basis" id="35" lemma="Palestijn" ntype="eigen" pos="noun" postag="N(eigen,mv,basis)" pt="n" rel="hd" root="Palestijn" word="Palestijnen"/>
+        </node>
+        <node begin="22" cat="np" end="26" id="36" rel="obj1">
+          <node begin="22" end="23" id="37" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="23" buiging="met-e" end="24" graad="basis" id="38" lemma="groot" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="groot" word="grote"/>
+          <node begin="24" buiging="met-e" end="25" graad="basis" id="39" lemma="publicitair" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="publicitaire" word="publicitaire"/>
+          <node begin="25" end="26" genus="zijd" getal="ev" graad="basis" id="40" lemma="overwinning" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="overwinning" word="overwinning"/>
+        </node>
+      </node>
+    </node>
+    <node begin="26" end="27" id="41" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Een uitspraak van het Internationaal Gerechtshof is niet bindend , maar als zij in het gelijk worden gesteld , boeken de Palestijnen een grote publicitaire overwinning .</sentence>
+</alpino_ds>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="1" cat="np" end="14" id="2" rel="--">
+      <node begin="1" end="2" id="3" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+      <node begin="2" buiging="zonder" end="3" getal-n="zonder-n" id="4" lemma="in_spreken" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="spreek_in" word="inspreken" wvorm="inf"/>
+      <node begin="3" cat="pp" end="14" id="5" rel="mod">
+        <node begin="3" end="4" id="6" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+        <node begin="4" cat="np" end="14" id="7" rel="obj1">
+          <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="8" lemma="halte_informatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="halte_informatie" word="halte-informatie"/>
+          <node begin="5" cat="pp" end="14" id="9" rel="mod">
+            <node begin="5" end="6" id="10" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="6" cat="np" end="14" id="11" rel="obj1">
+              <node begin="6" end="7" id="12" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="7" end="8" getal="mv" graad="basis" id="13" lemma="bus" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="bus" word="bussen"/>
+              <node begin="8" cat="pp" end="14" id="14" rel="mod">
+                <node begin="8" end="9" id="15" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="9" cat="np" end="14" id="16" rel="obj1">
+                  <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="17" lemma="Novio" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Novio" word="Novio"/>
+                  <node begin="10" cat="np" end="14" id="18" rel="mod">
+                    <node begin="10" buiging="zonder" end="11" graad="basis" id="19" lemma="openbaar" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="openbaar" word="openbaar"/>
+                    <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="20" lemma="vervoer_bedrijf" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="vervoer_bedrijf" word="vervoersbedrijf"/>
+                    <node begin="12" cat="pp" end="14" id="21" rel="mod">
+                      <node begin="12" end="13" id="22" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                      <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="23" lemma="Gelderland" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Gelderland" word="Gelderland"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="24" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>- Het inspreken van halte-informatie in de bussen van Novio openbaar vervoersbedrijf in Gelderland .</sentence>
+</alpino_ds>

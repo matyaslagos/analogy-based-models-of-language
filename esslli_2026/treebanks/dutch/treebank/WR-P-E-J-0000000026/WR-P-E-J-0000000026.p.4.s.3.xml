@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="12" id="2" rel="--">
+      <node begin="0" cat="np" end="4" id="3" rel="su">
+        <node begin="0" end="1" getal="mv" graad="basis" id="4" lemma="mens" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="mens" word="Mensen"/>
+        <node begin="1" cat="pp" end="4" id="5" rel="mod">
+          <node begin="1" end="2" id="6" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+          <node begin="2" cat="np" end="4" id="7" rel="obj1">
+            <node begin="2" buiging="met-e" end="3" graad="basis" id="8" lemma="verschillend" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="verschil" word="verschillende"/>
+            <node begin="3" end="4" getal="mv" graad="basis" id="9" lemma="achtergrond" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="achtergrond" word="achtergronden"/>
+          </node>
+        </node>
+      </node>
+      <node begin="4" end="5" id="10" lemma="zorgen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="zorg" word="zorgen" wvorm="pv"/>
+      <node begin="5" cat="pp" end="12" id="11" rel="pc">
+        <node begin="5" end="6" id="12" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+        <node begin="6" cat="conj" end="12" id="13" rel="obj1">
+          <node begin="6" cat="np" end="8" id="14" rel="cnj">
+            <node begin="6" buiging="met-e" end="7" graad="basis" id="15" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" word="nieuwe"/>
+            <node begin="7" end="8" getal="mv" graad="basis" id="16" lemma="idee" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="idee" word="ideeën"/>
+          </node>
+          <node begin="9" end="10" getal="mv" graad="basis" id="17" lemma="opvatting" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="opvatting" word="opvattingen"/>
+          <node begin="10" conjtype="neven" end="11" id="18" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="11" end="12" getal="mv" graad="basis" id="19" lemma="inval_hoek" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="invalshoek" word="invalshoeken"/>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" id="20" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Mensen met verschillende achtergronden zorgen voor nieuwe ideeën , opvattingen en invalshoeken .</sentence>
+</alpino_ds>

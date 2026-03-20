@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" end="1" id="2" lemma="hiertegen" pos="pp" postag="BW()" pt="bw" rel="pc" root="hiertegen" word="Hiertegen"/>
+      <node begin="1" end="2" id="3" lemma="ondernemen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="onderneem" word="ondernamen" wvorm="pv"/>
+      <node begin="2" cat="np" end="4" id="4" rel="su">
+        <node begin="2" end="3" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="3" buiging="met-e" end="4" getal-n="mv-n" graad="basis" id="6" lemma="geallieerd" pos="adj" positie="nom" postag="ADJ(nom,basis,met-e,mv-n)" pt="adj" rel="hd" root="geallieerd" word="geallieerden"/>
+      </node>
+      <node begin="4" end="5" id="7" lemma="echter" pos="adv" postag="BW()" pt="bw" rel="mod" root="echter" word="echter"/>
+      <node begin="5" cat="np" end="7" id="8" rel="obj1">
+        <node begin="5" buiging="zonder" end="6" id="9" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="geen"/>
+        <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="10" lemma="actie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="actie" word="actie"/>
+      </node>
+    </node>
+    <node begin="7" end="8" id="11" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Hiertegen ondernamen de geallieerden echter geen actie .</sentence>
+</alpino_ds>

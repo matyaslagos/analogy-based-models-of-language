@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="cp" end="11" id="1" rel="--">
+      <node begin="0" conjtype="onder" end="1" id="2" lemma="zoals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zoals" word="Zoals"/>
+      <node begin="1" cat="pp" end="11" id="3" rel="body">
+        <node begin="1" end="2" id="4" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+        <node begin="2" cat="np" end="11" id="5" rel="obj1">
+          <node begin="2" buiging="zonder" end="3" id="6" lemma="die" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,rest)" pt="vnw" rel="det" root="die" vwtype="aanw" word="die"/>
+          <node begin="3" buiging="met-e" end="4" id="7" lemma="een" naamval="stan" npagr="evz" pdtype="det" pos="adj" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,evz)" pt="vnw" rel="mod" root="ene" vwtype="onbep" word="ene"/>
+          <node begin="4" buiging="met-e" end="5" graad="basis" id="8" lemma="Surinaams" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Surinaams" word="Surinaamse"/>
+          <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="9" lemma="sporter" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="sporter" word="sporter"/>
+          <node begin="6" cat="rel" end="11" id="10" rel="mod">
+            <node begin="6" end="7" getal="getal" id="11" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+            <node begin="6" cat="ssub" end="11" id="12" rel="body">
+              <node begin="6" end="7" id="13" index="1" rel="su"/>
+              <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="14" lemma="goud" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="goud" word="goud"/>
+              <node begin="8" end="9" id="15" lemma="winnen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="win" word="won" wvorm="pv"/>
+              <node begin="9" cat="pp" end="11" id="16" rel="mod">
+                <node begin="9" end="10" id="17" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="18" lemma="Seoul" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Seoul" word="Seoul"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" id="19" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Zoals bij die ene Surinaamse sporter die goud won in Seoul .</sentence>
+</alpino_ds>

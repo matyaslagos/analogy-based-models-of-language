@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="10" end="11" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="15" end="16" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="21" id="3" rel="--">
+      <node begin="0" cat="smain" end="15" id="4" rel="cnj">
+        <node begin="0" end="1" genus="fem" getal="ev" id="5" index="1" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,ev,fem)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="Ze"/>
+        <node begin="1" end="2" id="6" lemma="liggen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="lig" word="ligt" wvorm="pv"/>
+        <node begin="2" buiging="zonder" end="3" graad="basis" id="7" lemma="centraal" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="centraal" word="centraal"/>
+        <node begin="3" cat="pp" end="10" id="8" rel="mod">
+          <node begin="3" end="4" id="9" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" vztype="init" word="tussen"/>
+          <node begin="4" cat="np" end="10" id="10" rel="obj1">
+            <node begin="4" end="5" id="11" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="5" buiging="met-e" end="6" graad="basis" id="12" lemma="groot" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="groot" word="grote"/>
+            <node begin="6" end="7" getal="mv" graad="basis" id="13" lemma="stad" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="stad" word="steden"/>
+            <node begin="7" cat="conj" end="10" id="14" rel="app">
+              <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="15" lemma="Antwerpen" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Antwerpen" word="Antwerpen"/>
+              <node begin="8" conjtype="neven" end="9" id="16" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="17" lemma="Brussel" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Brussel" word="Brussel"/>
+            </node>
+          </node>
+        </node>
+        <node begin="11" cat="pp" end="15" id="18" rel="ld">
+          <node begin="11" end="12" id="19" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+          <node begin="12" cat="np" end="15" id="20" rel="obj1">
+            <node begin="12" end="13" id="21" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="22" lemma="rivier" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="rivier" word="rivier"/>
+            <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="23" lemma="Dijle" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" root="Dijle" word="Dijle"/>
+          </node>
+        </node>
+      </node>
+      <node begin="16" conjtype="neven" end="17" id="24" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="0" cat="smain" end="21" id="25" rel="cnj">
+        <node begin="0" end="1" id="26" index="1" rel="su"/>
+        <node begin="17" end="18" id="27" lemma="tellen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="tel" word="telt" wvorm="pv"/>
+        <node begin="18" buiging="zonder" end="19" graad="basis" id="28" lemma="ruim" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="ruim" word="ruim"/>
+        <node begin="19" cat="np" end="21" id="29" rel="obj1">
+          <node begin="19" end="20" id="30" lemma="78.000" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="78.000" word="78.000"/>
+          <node begin="20" end="21" getal="mv" graad="basis" id="31" lemma="inwoner" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="inwoner" word="inwoners"/>
+        </node>
+      </node>
+    </node>
+    <node begin="21" end="22" id="32" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Ze ligt centraal tussen de grote steden Antwerpen en Brussel , aan de rivier Dijle , en telt ruim 78.000 inwoners .</sentence>
+</alpino_ds>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="15" end="16" id="2" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="16" end="17" id="3" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="1" cat="smain" end="21" id="4" rel="--">
+      <node begin="1" cat="np" end="3" id="5" rel="su">
+        <node begin="1" end="2" id="6" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="Een"/>
+        <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="7" lemma="Afrikaan" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Afrikaan" word="Afrikaan"/>
+      </node>
+      <node begin="3" end="4" id="8" lemma="voor_stellen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="stel_voor" word="stelde" wvorm="pv"/>
+      <node begin="4" end="5" getal="ev" id="9" lemma="me" naamval="obl" pdtype="pron" persoon="1" pos="pron" postag="VNW(pr,pron,obl,red,1,ev)" pt="vnw" rel="obj1" root="me" status="red" vwtype="pr" word="me"/>
+      <node begin="5" end="6" id="10" lemma="ooit" pos="adv" postag="BW()" pt="bw" rel="mod" root="ooit" word="ooit"/>
+      <node begin="6" cat="pp" end="11" id="11" rel="obj2">
+        <node begin="6" end="7" id="12" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+        <node begin="7" cat="np" end="11" id="13" rel="obj1">
+          <node begin="7" end="8" id="14" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="8" buiging="met-e" end="9" graad="basis" id="15" lemma="ander" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ander" word="andere"/>
+          <node begin="9" buiging="met-e" end="10" graad="basis" id="16" lemma="Afrikaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Afrikaans" word="Afrikaanse"/>
+          <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="17" lemma="student" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="student" word="student"/>
+        </node>
+      </node>
+      <node begin="11" end="12" id="18" lemma="voor" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="voor" vztype="fin" word="voor"/>
+      <node begin="12" cat="pp" end="21" id="19" rel="mod">
+        <node begin="12" end="13" id="20" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+        <node begin="13" cat="np" end="21" id="21" rel="obj1">
+          <node begin="13" end="14" id="22" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="14" end="15" getal="mv" graad="basis" id="23" lemma="woord" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="woord" word="woorden"/>
+          <node begin="17" cat="mwu" end="21" id="24" rel="app">
+            <node begin="17" end="18" id="25" lemma="This" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="This" spectype="vreemd" word="This"/>
+            <node begin="18" end="19" id="26" lemma="is" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="is" spectype="vreemd" word="is"/>
+            <node begin="19" end="20" id="27" lemma="Caroline" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Caroline" spectype="vreemd" word="Caroline"/>
+            <node begin="20" end="21" id="28" lemma="Nijs" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Nijs" spectype="vreemd" word="Nijs"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="21" end="22" id="29" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>&quot; Een Afrikaan stelde me ooit aan een andere Afrikaanse student voor met de woorden : &quot; This is Caroline Nijs .</sentence>
+</alpino_ds>

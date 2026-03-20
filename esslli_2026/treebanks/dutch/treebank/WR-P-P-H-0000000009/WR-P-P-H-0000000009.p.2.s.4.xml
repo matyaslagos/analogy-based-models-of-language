@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="smain" end="12" id="1" rel="--">
+      <node begin="0" cat="ap" end="3" id="2" rel="mod">
+        <node begin="0" cat="np" end="2" id="3" rel="me">
+          <node begin="0" end="1" id="4" lemma="tien" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="tien" word="Tien"/>
+          <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="5" lemma="jaar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="jaar" word="jaar"/>
+        </node>
+        <node begin="2" buiging="zonder" end="3" graad="comp" id="6" lemma="eerder" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="eerder" word="eerder"/>
+      </node>
+      <node begin="3" end="4" id="7" lemma="maken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="maak" word="maakte" wvorm="pv"/>
+      <node begin="4" end="5" genus="masc" getal="ev" id="8" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="hij"/>
+      <node begin="5" end="6" id="9" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+      <node begin="6" end="7" id="10" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mod" root="al" word="al"/>
+      <node begin="7" end="8" id="11" lemma="eens" pos="adv" postag="BW()" pt="bw" rel="mod" root="eens" word="eens"/>
+      <node begin="8" cat="np" end="12" id="12" rel="obj1">
+        <node begin="8" end="9" id="13" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="14" lemma="documentaire" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="documentaire" word="documentaire"/>
+        <node begin="10" cat="pp" end="12" id="15" rel="mod">
+          <node begin="10" end="11" id="16" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" vztype="init" word="over"/>
+          <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="17" lemma="Wahid" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" root="Wahid" word="Wahid"/>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" id="18" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Tien jaar eerder maakte hij ook al eens een documentaire over Wahid .</sentence>
+</alpino_ds>

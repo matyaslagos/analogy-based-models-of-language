@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="0" buiging="zonder" end="1" getal-n="zonder-n" graad="basis" id="2" lemma="hetzelfde" pos="det" positie="nom" postag="ADJ(nom,basis,zonder,zonder-n)" pt="adj" rel="su" root="hetzelfde" word="Hetzelfde"/>
+      <node begin="1" end="2" id="3" lemma="gelden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="geld" word="geldt" wvorm="pv"/>
+      <node begin="2" cat="pp" end="11" id="4" rel="pc">
+        <node begin="2" end="3" id="5" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+        <node begin="3" cat="conj" end="11" id="6" rel="obj1">
+          <node begin="3" cat="np" end="8" id="7" rel="cnj">
+            <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="8" lemma="tal" naamval="stan" ntype="soort" pos="det" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="tal" word="tal"/>
+            <node begin="4" cat="pp" end="8" id="9" rel="mod">
+              <node begin="4" end="5" id="10" lemma="van" pos="det" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="5" cat="np" end="8" id="11" rel="obj1">
+                <node begin="5" buiging="met-e" end="6" graad="basis" id="12" lemma="ander" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ander" word="andere"/>
+                <node begin="6" buiging="met-e" end="7" graad="basis" id="13" lemma="Olympisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="olympisch" word="Olympische"/>
+                <node begin="7" end="8" getal="mv" graad="basis" id="14" lemma="stadion" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="stadion" word="stadions"/>
+              </node>
+            </node>
+          </node>
+          <node begin="8" conjtype="neven" end="9" id="15" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="9" cat="np" end="11" id="16" rel="cnj">
+            <node begin="9" buiging="met-e" end="10" graad="basis" id="17" lemma="ander" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ander" word="andere"/>
+            <node begin="10" end="11" getal="mv" graad="basis" id="18" lemma="faciliteit" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="faciliteit" word="faciliteiten"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" id="19" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Hetzelfde geldt voor tal van andere Olympische stadions en andere faciliteiten .</sentence>
+</alpino_ds>

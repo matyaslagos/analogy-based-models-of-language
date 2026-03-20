@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="8" id="2" rel="--">
+      <node begin="0" cat="smain" end="5" id="3" rel="nucl">
+        <node begin="0" cat="mwu" end="2" id="4" rel="su">
+          <node begin="0" end="1" id="5" lemma="Irene" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Irene" spectype="deeleigen" word="Irene"/>
+          <node begin="1" end="2" id="6" lemma="Schijf" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Schijf" spectype="deeleigen" word="Schijf"/>
+        </node>
+        <node begin="2" end="3" id="7" lemma="stoppen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="stop" word="stopt" wvorm="pv"/>
+        <node begin="3" cat="np" end="5" id="8" rel="mod">
+          <node begin="3" buiging="met-e" end="4" id="9" lemma="ieder" naamval="stan" npagr="evz" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,evz)" pt="vnw" rel="det" root="ieder" vwtype="onbep" word="iedere"/>
+          <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="10" lemma="dag" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="dag" word="dag"/>
+        </node>
+      </node>
+      <node begin="6" cat="sv1" end="8" id="11" rel="tag">
+        <node begin="6" end="7" id="12" lemma="zeggen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="zeg" word="zegt" wvorm="pv"/>
+        <node begin="7" end="8" genus="fem" getal="ev" id="13" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,ev,fem)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="ze"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="14" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Irene Schijf stopt iedere dag , zegt ze .</sentence>
+</alpino_ds>

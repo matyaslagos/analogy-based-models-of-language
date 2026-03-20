@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="0" cat="smain" end="19" id="1" rel="--">
+      <node begin="0" cat="np" end="4" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="4" lemma="strijder" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="strijder" word="strijders"/>
+        <node begin="2" cat="pp" end="4" id="5" rel="mod">
+          <node begin="2" end="3" id="6" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="7" lemma="al-Sadr" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" root="Al-Sadr" word="Al-Sadr"/>
+        </node>
+      </node>
+      <node begin="4" end="5" id="8" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+      <node begin="5" buiging="zonder" end="6" graad="basis" id="9" lemma="hoogstwaarschijnlijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="hoogstwaarschijnlijk" word="hoogstwaarschijnlijk"/>
+      <node begin="6" cat="ap" end="19" id="10" rel="predc">
+        <node begin="6" buiging="zonder" end="7" graad="basis" id="11" lemma="verantwoordelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="verantwoordelijk" word="verantwoordelijk"/>
+        <node begin="7" cat="pp" end="19" id="12" rel="pc">
+          <node begin="7" end="8" id="13" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="8" cat="np" end="19" id="14" rel="obj1">
+            <node begin="8" end="9" id="15" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="16" lemma="hinderlaag" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="hinderlaag" word="hinderlaag"/>
+            <node begin="10" cat="rel" end="19" id="17" rel="mod">
+              <node begin="10" end="11" id="18" index="1" lemma="waarbij" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waarbij" word="waarbij"/>
+              <node begin="10" cat="ssub" end="19" id="19" rel="body">
+                <node begin="11" cat="np" end="14" id="20" index="2" rel="su">
+                  <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="21" lemma="wachtmeester" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="wachtmeester" word="wachtmeester"/>
+                  <node begin="12" cat="mwu" end="14" id="22" rel="app">
+                    <node begin="12" end="13" id="23" lemma="Jeroen" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Jeroen" spectype="deeleigen" word="Jeroen"/>
+                    <node begin="13" end="14" id="24" lemma="Severs" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Severs" spectype="deeleigen" word="Severs"/>
+                  </node>
+                </node>
+                <node begin="17" end="18" id="25" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+                <node begin="10" cat="ppart" end="19" id="26" rel="vc">
+                  <node begin="10" end="11" id="27" index="1" rel="mod"/>
+                  <node begin="11" end="14" id="28" index="2" rel="obj1"/>
+                  <node begin="14" cat="np" end="17" id="29" rel="mod">
+                    <node begin="14" buiging="met-e" end="15" graad="basis" id="30" lemma="vorig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="vorig" word="vorige"/>
+                    <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="31" lemma="week" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="week" word="week"/>
+                    <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="32" lemma="zaterdag" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" root="zaterdag" word="zaterdag"/>
+                  </node>
+                  <node begin="18" buiging="zonder" end="19" id="33" lemma="doden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="dood" word="gedood" wvorm="vd"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="34" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De strijders van Al-Sadr zijn hoogstwaarschijnlijk verantwoordelijk voor de hinderlaag waarbij wachtmeester Jeroen Severs vorige week zaterdag werd gedood .</sentence>
+</alpino_ds>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="8" end="9" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="12" id="3" rel="--">
+      <node begin="0" cat="du" end="4" id="4" rel="nucl">
+        <node begin="0" conjtype="neven" end="1" id="5" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" word="Maar"/>
+        <node begin="1" cat="smain" end="4" id="6" rel="nucl">
+          <node begin="1" end="2" getal="mv" id="7" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="ze"/>
+          <node begin="2" end="3" id="8" lemma="revancheren" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="revancheer" word="revancheerden" wvorm="pv"/>
+          <node begin="3" end="4" getal="getal" id="9" lemma="zich" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="se" root="zich" status="red" vwtype="refl" word="zich"/>
+        </node>
+      </node>
+      <node begin="5" cat="du" end="12" id="10" rel="sat">
+        <node begin="5" cat="smain" end="8" id="11" rel="nucl">
+          <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="12" lemma="Athene" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" root="Athene" word="Athene"/>
+          <node begin="6" end="7" id="13" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+          <node begin="7" buiging="zonder" end="8" graad="basis" id="14" lemma="klaar" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="klaar" word="klaar"/>
+        </node>
+        <node begin="9" cat="conj" end="12" id="15" rel="sat">
+          <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="16" lemma="spik" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="spik" word="spik"/>
+          <node begin="10" conjtype="neven" end="11" id="17" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="18" lemma="span" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="cnj" root="span" word="span"/>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" id="19" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Maar ze revancheerden zich : Athene is klaar , spik en span .</sentence>
+</alpino_ds>

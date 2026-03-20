@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="25" id="0" rel="top">
+    <node begin="18" end="19" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="21" end="22" id="2" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="du" end="23" id="3" rel="--">
+      <node begin="0" cat="smain" end="18" id="4" rel="nucl">
+        <node begin="0" cat="np" end="3" id="5" index="1" rel="su">
+          <node begin="0" end="1" getal="mv" graad="basis" id="6" lemma="studie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="studie" word="Studies"/>
+          <node begin="1" cat="pp" end="3" id="7" rel="mod">
+            <node begin="1" end="2" id="8" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+            <node begin="2" end="3" getal="mv" graad="basis" id="9" lemma="rat" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="rat" word="ratten"/>
+          </node>
+        </node>
+        <node begin="3" end="4" id="10" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" word="hebben" wvorm="pv"/>
+        <node begin="0" cat="ppart" end="18" id="11" rel="vc">
+          <node begin="0" end="3" id="12" index="1" rel="su"/>
+          <node begin="4" buiging="zonder" end="5" id="13" lemma="aan_tonen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="toon_aan" word="aangetoond" wvorm="vd"/>
+          <node begin="5" cat="cp" end="18" id="14" rel="vc">
+            <node begin="5" conjtype="onder" end="6" id="15" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+            <node begin="6" cat="ssub" end="18" id="16" rel="body">
+              <node begin="6" cat="np" end="8" id="17" rel="su">
+                <node begin="6" buiging="met-e" end="7" graad="basis" id="18" lemma="specifiek" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="specifiek" word="specifieke"/>
+                <node begin="7" end="8" getal="mv" graad="basis" id="19" lemma="molecule" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="molecule" word="moleculen"/>
+              </node>
+              <node begin="8" buiging="zonder" end="9" graad="basis" id="20" lemma="noodzakelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="noodzakelijk" word="noodzakelijk"/>
+              <node begin="9" end="10" id="21" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+              <node begin="10" cat="oti" end="18" id="22" rel="mod">
+                <node begin="10" end="11" id="23" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="om"/>
+                <node begin="11" cat="ti" end="18" id="24" rel="body">
+                  <node begin="16" end="17" id="25" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+                  <node begin="11" cat="inf" end="18" id="26" rel="body">
+                    <node begin="11" cat="np" end="16" id="27" rel="obj1">
+                      <node begin="11" end="12" id="28" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                      <node begin="12" end="13" getal="mv" graad="basis" id="29" lemma="verbinding" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="verbinding" word="verbindingen"/>
+                      <node begin="13" cat="pp" end="16" id="30" rel="mod">
+                        <node begin="13" end="14" id="31" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" vztype="init" word="tussen"/>
+                        <node begin="14" cat="np" end="16" id="32" rel="obj1">
+                          <node begin="14" end="15" id="33" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                          <node begin="15" end="16" getal="mv" graad="basis" id="34" lemma="neuron" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="neuronen" word="neuronen"/>
+                        </node>
+                      </node>
+                    </node>
+                    <node begin="17" buiging="zonder" end="18" id="35" lemma="versterken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="versterk" word="versterken" wvorm="inf"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="19" cat="np" end="23" id="36" rel="sat">
+        <node begin="19" end="20" id="37" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="20" end="21" getal="mv" graad="basis" id="38" lemma="NMDA_receptor" ntype="soort" pos="name" postag="N(soort,mv,basis)" pt="n" rel="hd" root="NMDA-receptoren" word="NMDA-receptoren"/>
+        <node begin="22" end="23" genus="onz" getal="ev" graad="basis" id="39" lemma="N-methyl-D-asparaat" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mod" root="N-methyl-D-asparaat" word="N-methyl-D-asparaat"/>
+      </node>
+    </node>
+    <node begin="23" end="24" id="40" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="24" end="25" id="41" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Studies bij ratten hebben aangetoond dat specifieke moleculen noodzakelijk zijn om de verbindingen tussen de neuronen te versterken : de NMDA-receptoren ( N-methyl-D-asparaat ) .</sentence>
+</alpino_ds>

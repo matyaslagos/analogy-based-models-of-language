@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="11" end="12" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="16" id="2" rel="--">
+      <node begin="0" cat="np" end="3" id="3" rel="su">
+        <node begin="0" end="1" id="4" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" buiging="met-e" end="2" graad="sup" id="5" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,met-e,agr,sup)" pt="vnw" rel="mod" root="meest" vwtype="onbep" word="meeste"/>
+        <node begin="2" end="3" getal="mv" graad="basis" id="6" lemma="vluchteling" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vluchteling" word="vluchtelingen"/>
+      </node>
+      <node begin="3" end="4" id="7" lemma="zoeken" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="zoek" word="zoeken" wvorm="pv"/>
+      <node begin="4" cat="np" end="6" id="8" rel="obj1">
+        <node begin="4" end="5" id="9" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="10" lemma="onderkomen" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="onderkomen" word="onderkomen"/>
+      </node>
+      <node begin="6" cat="pp" end="16" id="11" rel="mod">
+        <node begin="6" end="7" id="12" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="7" cat="np" end="16" id="13" rel="obj1">
+          <node begin="7" end="8" id="14" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="8" buiging="met-e" end="9" graad="basis" id="15" lemma="Rwandees" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Rwandees" word="Rwandese"/>
+          <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="16" lemma="stad" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="stad" word="stad"/>
+          <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="17" lemma="Gysenyi" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="app" root="Gysenyi" word="Gysenyi"/>
+          <node begin="12" cat="rel" end="16" id="18" rel="mod">
+            <node begin="12" end="13" getal="getal" id="19" index="1" lemma="waar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(vb,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="rhd" root="waar" status="vol" vwtype="vb" word="waar"/>
+            <node begin="12" cat="ssub" end="16" id="20" rel="body">
+              <node begin="12" end="13" id="21" index="1" rel="mod"/>
+              <node begin="13" end="14" getal="mv" graad="basis" id="22" lemma="hulp_organisatie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="hulp_organisatie" word="hulporganisaties"/>
+              <node begin="14" end="15" getal="mv" graad="basis" id="23" lemma="kamp" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="kamp" word="kampen"/>
+              <node begin="15" end="16" id="24" lemma="op_zetten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="zet_op" word="opzetten" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="25" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De meeste vluchtelingen zoeken een onderkomen in de Rwandese stad Gysenyi , waar hulporganisaties kampen opzetten .</sentence>
+</alpino_ds>

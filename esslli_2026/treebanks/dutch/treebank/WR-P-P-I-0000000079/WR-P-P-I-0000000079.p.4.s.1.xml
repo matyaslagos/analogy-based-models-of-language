@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="du" end="11" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" word="Maar"/>
+      <node begin="1" cat="smain" end="11" id="3" rel="nucl">
+        <node begin="1" cat="np" end="4" id="4" rel="su">
+          <node begin="1" end="2" id="5" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="2" buiging="met-e" end="3" id="6" lemma="bepalen" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="bepaald" word="bepaalde" wvorm="vd"/>
+          <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="7" lemma="bodem_bacterie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="bodem_bacterie" word="bodembacterie"/>
+        </node>
+        <node begin="4" end="5" id="8" lemma="elimineren" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="elimineer" word="elimineerde" wvorm="pv"/>
+        <node begin="5" end="6" id="9" lemma="alvast" pos="adv" postag="BW()" pt="bw" rel="mod" root="alvast" word="alvast"/>
+        <node begin="6" cat="pp" end="8" id="10" rel="mod">
+          <node begin="6" end="7" id="11" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+          <node begin="7" end="8" getal="mv" graad="basis" id="12" lemma="muis" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="muis" word="muizen"/>
+        </node>
+        <node begin="8" cat="ap" end="10" id="13" rel="mod">
+          <node begin="8" buiging="zonder" end="9" graad="basis" id="14" lemma="heel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="heel" word="heel"/>
+          <node begin="9" buiging="zonder" end="10" graad="basis" id="15" lemma="efficiënt" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="efficiënt" word="efficiënt"/>
+        </node>
+        <node begin="10" end="11" getal="mv" graad="basis" id="16" lemma="tumor" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="tumor" word="tumoren"/>
+      </node>
+    </node>
+    <node begin="11" end="12" id="17" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Maar een bepaalde bodembacterie elimineerde alvast bij muizen heel efficiënt tumoren .</sentence>
+</alpino_ds>

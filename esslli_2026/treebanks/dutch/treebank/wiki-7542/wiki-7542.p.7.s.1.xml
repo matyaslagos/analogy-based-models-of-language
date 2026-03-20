@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="13" end="14" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="21" id="2" rel="--">
+      <node begin="0" cat="smain" end="13" id="3" rel="dp">
+        <node begin="0" cat="mwu" end="2" id="4" rel="su">
+          <node begin="0" end="1" id="5" lemma="Karel" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Karel" spectype="deeleigen" word="Karel"/>
+          <node begin="1" end="2" id="6" lemma="V" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="V" spectype="deeleigen" word="V"/>
+        </node>
+        <node begin="2" end="3" id="7" lemma="verheffen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="verhef" word="verhief" wvorm="pv"/>
+        <node begin="3" cat="mwu" end="7" id="8" rel="obj1">
+          <node begin="3" end="4" id="9" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" word="het"/>
+          <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="10" lemma="land" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="Land" word="Land"/>
+          <node begin="5" end="6" id="11" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="van" vztype="init" word="van"/>
+          <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="12" lemma="Gavere" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="mwp" root="Gavere" word="Gavere"/>
+        </node>
+        <node begin="7" cat="pp" end="11" id="13" rel="mod">
+          <node begin="7" end="8" id="14" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="8" cat="np" end="11" id="15" rel="obj1">
+            <node begin="8" end="9" id="16" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="9" end="10" id="17" lemma="zestien" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="zestiende" word="Zestiende"/>
+            <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="18" lemma="eeuw" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="eeuw" word="eeuw"/>
+          </node>
+        </node>
+        <node begin="11" cat="pp" end="13" id="19" rel="pc">
+          <node begin="11" end="12" id="20" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" vztype="init" word="tot"/>
+          <node begin="12" end="13" genus="onz" getal="ev" graad="basis" id="21" lemma="prinsdom" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="prinsdom" word="prinsdom"/>
+        </node>
+      </node>
+      <node begin="14" cat="smain" end="21" id="22" rel="dp">
+        <node begin="14" cat="mwu" end="17" id="23" rel="su">
+          <node begin="14" end="15" id="24" lemma="Lamoraal" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Lamoraal" spectype="deeleigen" word="Lamoraal"/>
+          <node begin="15" end="16" id="25" lemma="van" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="van" spectype="deeleigen" word="van"/>
+          <node begin="16" end="17" id="26" lemma="Egmont" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Egmont" spectype="deeleigen" word="Egmont"/>
+        </node>
+        <node begin="17" end="18" id="27" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+        <node begin="18" cat="np" end="21" id="28" rel="predc">
+          <node begin="18" end="19" id="29" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="19" end="20" id="30" lemma="één" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="eerste" word="eerste"/>
+          <node begin="20" end="21" genus="zijd" getal="ev" graad="basis" id="31" lemma="prins" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="prins" word="prins"/>
+        </node>
+      </node>
+    </node>
+    <node begin="21" end="22" id="32" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Karel V verhief het Land van Gavere in de Zestiende eeuw tot prinsdom , Lamoraal van Egmont werd de eerste prins .</sentence>
+</alpino_ds>

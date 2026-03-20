@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="0" cat="smain" end="17" id="1" rel="--">
+      <node begin="0" cat="pp" end="5" id="2" rel="mod">
+        <node begin="0" end="1" id="3" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="Bij"/>
+        <node begin="1" cat="conj" end="5" id="4" rel="obj1">
+          <node begin="1" cat="np" end="3" id="5" rel="cnj">
+            <node begin="1" buiging="met-e" end="2" graad="basis" id="6" lemma="onregelmatig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="onregelmatig" word="onregelmatige"/>
+            <node begin="2" end="3" getal="mv" graad="basis" id="7" lemma="dienst" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="dienst" word="diensten"/>
+          </node>
+          <node begin="3" conjtype="neven" end="4" id="8" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+          <node begin="4" end="5" getal="mv" graad="basis" id="9" lemma="nacht_dienst" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="nacht_dienst" word="nachtdiensten"/>
+        </node>
+      </node>
+      <node begin="5" end="6" id="10" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="6" end="7" genus="onz" getal="ev" id="11" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="noun" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="sup" root="het" status="red" vwtype="pers" word="het"/>
+      <node begin="7" cat="pp" end="10" id="12" rel="predc">
+        <node begin="7" end="8" id="13" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+        <node begin="8" cat="np" end="10" id="14" rel="obj1">
+          <node begin="8" buiging="zonder" end="9" graad="basis" id="15" lemma="groot" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="groot" word="groot"/>
+          <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="16" lemma="belang" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="belang" word="belang"/>
+        </node>
+      </node>
+      <node begin="10" cat="cp" end="17" id="17" rel="su">
+        <node begin="10" conjtype="onder" end="11" id="18" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+        <node begin="11" cat="ssub" end="17" id="19" rel="body">
+          <node begin="11" end="12" getal="getal" id="20" index="1" lemma="u" naamval="nomin" pdtype="pron" persoon="2b" pos="pron" postag="VNW(pers,pron,nomin,vol,2b,getal)" pt="vnw" rel="su" root="u" status="vol" vwtype="pers" word="u"/>
+          <node begin="15" end="16" id="21" lemma="blijven" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="blijf" word="blijft" wvorm="pv"/>
+          <node begin="11" cat="inf" end="17" id="22" rel="vc">
+            <node begin="11" end="12" id="23" index="1" rel="su"/>
+            <node begin="12" cat="np" end="14" id="24" rel="obj1">
+              <node begin="12" buiging="zonder" end="13" getal="getal" id="25" lemma="u" naamval="stan" npagr="agr" pdtype="det" persoon="2" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,2,getal,prenom,zonder,agr)" pt="vnw" rel="det" root="u" status="vol" vwtype="bez" word="uw"/>
+              <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="26" lemma="medicatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="medicatie" word="medicatie"/>
+            </node>
+            <node begin="14" buiging="zonder" end="15" graad="basis" id="27" lemma="regelmatig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="regelmatig" word="regelmatig"/>
+            <node begin="16" buiging="zonder" end="17" id="28" lemma="in_nemen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="neem_in" word="innemen" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="29" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Bij onregelmatige diensten of nachtdiensten is het van groot belang dat u uw medicatie regelmatig blijft innemen .</sentence>
+</alpino_ds>

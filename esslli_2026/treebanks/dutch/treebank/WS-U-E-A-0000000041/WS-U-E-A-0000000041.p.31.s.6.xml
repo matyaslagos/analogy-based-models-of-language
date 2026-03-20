@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="0" cat="conj" end="4" id="2" rel="su">
+        <node begin="0" cat="np" end="2" id="3" rel="cnj">
+          <node begin="0" end="1" id="4" index="1" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+          <node begin="1" end="2" id="5" lemma="auto-" pos="prefix" postag="SPEC(afgebr)" pt="spec" rel="hd" root="auto" spectype="afgebr" word="auto-"/>
+        </node>
+        <node begin="2" conjtype="neven" end="3" id="6" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+        <node begin="0" cat="np" end="4" id="7" rel="cnj">
+          <node begin="0" end="1" id="8" index="1" rel="det"/>
+          <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="9" lemma="villa_eigenaar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="villa_eigenaar" word="villa-eigenaar"/>
+        </node>
+      </node>
+      <node begin="4" end="5" id="10" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="5" cat="np" end="11" id="11" rel="predc">
+        <node begin="5" buiging="zonder" end="6" id="12" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="geen"/>
+        <node begin="6" buiging="met-e" end="7" getal-n="zonder-n" id="13" lemma="verdenken" pos="noun" positie="nom" postag="WW(vd,nom,met-e,zonder-n)" pt="ww" rel="hd" root="verdachte" word="verdachte" wvorm="vd"/>
+        <node begin="7" cat="pp" end="11" id="14" rel="mod">
+          <node begin="7" end="8" id="15" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="8" cat="np" end="11" id="16" rel="obj1">
+            <node begin="8" end="9" id="17" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="9" buiging="zonder" end="10" graad="basis" id="18" lemma="strafbaar" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="strafbaar" word="strafbaar"/>
+            <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="19" lemma="feit" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="feit" word="feit"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" id="20" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De auto- of villa-eigenaar is geen verdachte van een strafbaar feit .</sentence>
+</alpino_ds>

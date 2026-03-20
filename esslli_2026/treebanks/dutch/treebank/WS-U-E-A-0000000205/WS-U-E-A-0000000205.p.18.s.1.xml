@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="--" root="tussen" vztype="init" word="tussen"/>
+    <node begin="0" cat="smain" end="19" id="2" rel="--">
+      <node begin="12" end="13" id="3" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+      <node begin="13" cat="np" end="15" id="4" index="1" rel="su">
+        <node begin="13" end="14" id="5" lemma="vier" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="vier" word="vier"/>
+        <node begin="14" end="15" getal="mv" graad="basis" id="6" lemma="mens" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="mens" word="mensen"/>
+      </node>
+      <node begin="0" cat="ppart" end="19" id="7" rel="vc">
+        <node begin="0" cat="pp" end="12" id="8" rel="mod">
+          <node begin="0" end="1" id="9" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="Bij"/>
+          <node begin="1" cat="np" end="12" id="10" rel="obj1">
+            <node begin="1" end="2" id="11" lemma="twee" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="twee" word="twee"/>
+            <node begin="2" buiging="met-e" end="3" graad="basis" id="12" lemma="zwaar" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="zwaar" word="zware"/>
+            <node begin="3" end="4" getal="mv" graad="basis" id="13" lemma="ongeval" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="ongeval" word="ongevallen"/>
+            <node begin="4" cat="pp" end="12" id="14" rel="mod">
+              <node begin="4" end="5" id="15" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+              <node begin="5" cat="np" end="12" id="16" rel="obj1">
+                <node begin="5" end="6" id="17" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="18" lemma="snel_weg" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="snel_weg" word="snelweg"/>
+                <node begin="8" cat="pp" end="12" id="19" rel="mod">
+                  <node begin="8" end="9" id="20" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" vztype="init" word="tussen"/>
+                  <node begin="9" cat="conj" end="12" id="21" rel="obj1">
+                    <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="22" lemma="Breda" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Breda" word="Breda"/>
+                    <node begin="10" conjtype="neven" end="11" id="23" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                    <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="24" lemma="Antwerpen" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Antwerpen" word="Antwerpen"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="13" end="15" id="25" index="1" rel="su"/>
+        <node begin="15" cat="mwu" end="18" id="26" rel="svp">
+          <node begin="15" end="16" id="27" lemma="om" pos="fixed" postag="VZ(init)" pt="vz" rel="mwp" root="om" vztype="init" word="om"/>
+          <node begin="16" end="17" id="28" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="fixed" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" word="het"/>
+          <node begin="17" end="18" genus="onz" getal="ev" graad="basis" id="29" lemma="leven" naamval="stan" ntype="soort" pos="fixed" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="leven" word="leven"/>
+        </node>
+        <node begin="18" buiging="zonder" end="19" id="30" lemma="komen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="kom" word="gekomen" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="19" end="20" id="31" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Bij twee zware ongevallen op de snelweg tussen tussen Breda en Antwerpen zijn vier mensen om het leven gekomen .</sentence>
+</alpino_ds>

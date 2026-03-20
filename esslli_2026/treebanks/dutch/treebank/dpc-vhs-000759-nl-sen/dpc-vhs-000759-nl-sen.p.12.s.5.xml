@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="10" end="11" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="14" id="3" rel="--">
+      <node begin="3" end="4" id="4" lemma="kortom" pos="tag" postag="BW()" pt="bw" rel="tag" root="kortom" word="kortom"/>
+      <node begin="0" cat="pp" end="14" id="5" rel="nucl">
+        <node begin="0" end="1" id="6" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="Voor"/>
+        <node begin="1" cat="np" end="14" id="7" rel="obj1">
+          <node begin="1" end="2" id="8" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="9" lemma="continent" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="continent" word="continent"/>
+          <node begin="4" cat="rel" end="14" id="10" rel="mod">
+            <node begin="4" end="5" getal="ev" id="11" index="1" lemma="dat" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(betr,pron,stan,vol,3,ev)" pt="vnw" rel="rhd" root="dat" status="vol" vwtype="betr" word="dat"/>
+            <node begin="4" cat="ssub" end="14" id="12" rel="body">
+              <node begin="4" end="5" id="13" index="1" rel="su"/>
+              <node begin="5" end="6" id="14" lemma="op_komen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="kom_op" word="opkomt" wvorm="pv"/>
+              <node begin="6" cat="pp" end="14" id="15" rel="pc">
+                <node begin="6" end="7" id="16" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+                <node begin="7" cat="conj" end="14" id="17" rel="obj1">
+                  <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="18" lemma="recht" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="cnj" root="recht" word="recht"/>
+                  <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="19" lemma="verdraagzaamheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="verdraagzaamheid" word="verdraagzaamheid"/>
+                  <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="20" lemma="vrijheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="vrijheid" word="vrijheid"/>
+                  <node begin="12" conjtype="neven" end="13" id="21" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                  <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="22" lemma="democratie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="democratie" word="democratie"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="23" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Voor een continent kortom dat opkomt voor recht , verdraagzaamheid , vrijheid en democratie .</sentence>
+</alpino_ds>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="5" id="0" rel="top">
+    <node begin="0" cat="du" end="5" id="1" rel="--">
+      <node begin="0" cat="pp" end="3" id="2" rel="dp">
+        <node begin="0" end="1" id="3" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="Van"/>
+        <node begin="1" cat="np" end="3" id="4" rel="obj1">
+          <node begin="1" buiging="met-e" end="2" graad="basis" id="5" lemma="liberaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="liberaal" word="Liberale"/>
+          <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="6" lemma="partij" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="partij" word="partij"/>
+        </node>
+      </node>
+      <node begin="3" cat="pp" end="5" id="7" rel="dp">
+        <node begin="3" end="4" id="8" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+        <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="9" lemma="PVV" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" root="PVV" word="PVV"/>
+      </node>
+    </node>
+  </node>
+  <sentence>Van Liberale partij naar PVV</sentence>
+</alpino_ds>

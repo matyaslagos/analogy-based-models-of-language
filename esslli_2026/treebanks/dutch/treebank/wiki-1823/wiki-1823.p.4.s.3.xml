@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="29" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="7" end="8" id="2" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="17" end="18" id="3" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="19" end="20" id="4" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="21" end="22" id="5" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="23" end="24" id="6" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="0" cat="smain" end="28" id="7" rel="--">
+      <node begin="2" end="3" id="8" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+      <node begin="3" cat="np" end="7" id="9" index="1" rel="su">
+        <node begin="3" end="4" id="10" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="11" lemma="term" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="term" word="term"/>
+        <node begin="6" end="7" id="12" lemma="Flandre" pos="name" postag="SPEC(vreemd)" pt="spec" rel="app" root="Flandre" spectype="vreemd" word="Flandre"/>
+      </node>
+      <node begin="0" cat="ppart" end="28" id="13" rel="vc">
+        <node begin="0" cat="pp" end="2" id="14" rel="mod">
+          <node begin="0" end="1" id="15" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+          <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="16" lemma="Frankrijk" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Frankrijk" word="Frankrijk"/>
+        </node>
+        <node begin="3" end="7" id="17" index="1" rel="obj1"/>
+        <node begin="8" end="9" id="18" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+        <node begin="9" buiging="zonder" end="10" id="19" lemma="gebruiken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="gebruik" word="gebruikt" wvorm="vd"/>
+        <node begin="10" cat="cp" end="28" id="20" rel="predc">
+          <node begin="10" conjtype="onder" end="11" id="21" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+          <node begin="11" cat="conj" end="28" id="22" rel="body">
+            <node begin="11" cat="np" end="23" id="23" rel="cnj">
+              <node begin="11" end="12" id="24" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="12" end="13" genus="onz" getal="ev" graad="basis" id="25" lemma="geheel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="geheel" word="geheel"/>
+              <node begin="13" cat="pp" end="23" id="26" rel="mod">
+                <node begin="13" end="14" id="27" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="14" cat="np" end="23" id="28" rel="obj1">
+                  <node begin="14" end="15" id="29" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="15" buiging="met-e" end="16" graad="basis" id="30" lemma="Frans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Frans" word="Franse"/>
+                  <node begin="16" end="17" getal="mv" graad="basis" id="31" lemma="departement" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="departement" word="departementen"/>
+                  <node begin="18" cat="conj" end="23" id="32" rel="app">
+                    <node begin="18" end="19" id="33" lemma="Nord" pos="name" postag="SPEC(vreemd)" pt="spec" rel="cnj" root="Nord" spectype="vreemd" word="Nord"/>
+                    <node begin="20" conjtype="neven" end="21" id="34" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                    <node begin="22" end="23" genus="onz" getal="ev" graad="basis" id="35" lemma="Pas-de-Calais" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Pas-de-Calais" word="Pas-de-Calais"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node begin="24" conjtype="neven" end="25" id="36" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="25" cat="np" end="28" id="37" rel="cnj">
+              <node begin="25" end="26" id="38" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="26" buiging="met-e" end="27" graad="basis" id="39" lemma="Belgisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Belgisch" word="Belgische"/>
+              <node begin="27" end="28" genus="onz" getal="ev" graad="basis" id="40" lemma="Vlaanderen" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Vlaanderen" word="Vlaanderen"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="28" end="29" id="41" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>In Frankrijk wordt de term &apos; Flandre &apos; ook gebruikt als het geheel van de Franse departementen &apos; Nord &apos; en &apos; Pas-de-Calais &apos; en het Belgische Vlaanderen .</sentence>
+</alpino_ds>

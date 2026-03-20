@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="24" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="9" end="10" id="2" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="12" end="13" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="14" end="15" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="18" end="19" id="5" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="0" cat="smain" end="23" id="6" rel="--">
+      <node begin="0" cat="cp" end="5" id="7" rel="mod">
+        <node begin="0" conjtype="onder" end="1" id="8" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="Als"/>
+        <node begin="1" cat="ssub" end="5" id="9" rel="body">
+          <node begin="1" end="2" getal="getal" id="10" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(aanw,pron,stan,vol,3,getal)" pt="vnw" rel="su" root="die" status="vol" vwtype="aanw" word="die"/>
+          <node begin="1" cat="ppart" end="4" id="11" rel="vc">
+            <node begin="1" end="2" id="12" index="1" rel="su"/>
+            <node begin="2" end="3" id="13" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mod" root="al" word="al"/>
+            <node begin="3" buiging="zonder" end="4" id="14" lemma="sterven" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="sterf" word="gestorven" wvorm="vd"/>
+          </node>
+          <node begin="4" end="5" id="15" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+        </node>
+      </node>
+      <node begin="6" end="7" id="16" lemma="komen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kom" word="komen" wvorm="pv"/>
+      <node begin="7" cat="np" end="18" id="17" rel="su">
+        <node begin="7" buiging="zonder" end="8" getal="mv" id="18" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+        <node begin="8" end="9" id="19" lemma="(klein)kinderen" pos="noun" postag="SPEC(enof)" pt="spec" rel="hd" root="kind" spectype="enof" word="(klein)kinderen"/>
+        <node begin="10" cat="conj" end="18" id="20" rel="mod">
+          <node begin="10" cat="np" end="12" id="21" rel="cnj">
+            <node begin="10" end="11" id="22" index="2" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="11" end="12" getal="mv" graad="basis" id="23" lemma="oom" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="oom" word="ooms"/>
+          </node>
+          <node begin="10" cat="np" end="14" id="24" rel="cnj">
+            <node begin="10" end="11" id="25" index="2" rel="det"/>
+            <node begin="13" end="14" getal="mv" graad="basis" id="26" lemma="tante" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="tante" word="tantes"/>
+          </node>
+          <node begin="10" cat="np" end="16" id="27" rel="cnj">
+            <node begin="10" end="11" id="28" index="2" rel="det"/>
+            <node begin="15" end="16" getal="mv" graad="basis" id="29" lemma="neef" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="neef" word="neven"/>
+          </node>
+          <node begin="16" conjtype="neven" end="17" id="30" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="10" cat="np" end="18" id="31" rel="cnj">
+            <node begin="10" end="11" id="32" index="2" rel="det"/>
+            <node begin="17" end="18" getal="mv" graad="basis" id="33" lemma="nicht" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="nicht" word="nichten"/>
+          </node>
+        </node>
+      </node>
+      <node begin="19" cat="mwu" end="23" id="34" rel="mod">
+        <node begin="19" end="20" id="35" lemma="daarvoor" pos="pp" postag="BW()" pt="bw" rel="mwp" root="daarvoor" word="daarvoor"/>
+        <node begin="20" end="21" id="36" lemma="in" pos="pp" postag="VZ(init)" pt="vz" rel="mwp" root="in" vztype="init" word="in"/>
+        <node begin="21" end="22" id="37" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="pp" postag="LID(bep,stan,rest)" pt="lid" rel="mwp" root="de" word="de"/>
+        <node begin="22" end="23" genus="zijd" getal="ev" graad="basis" id="38" lemma="plaats" naamval="stan" ntype="soort" pos="pp" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="plaats" word="plaats"/>
+      </node>
+    </node>
+    <node begin="23" end="24" id="39" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Als die al gestorven zijn , komen hun (klein)kinderen ( de ooms , tantes , neven en nichten ) daarvoor in de plaats .</sentence>
+</alpino_ds>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="du" end="14" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" word="Maar"/>
+      <node begin="1" cat="smain" end="14" id="3" rel="nucl">
+        <node begin="1" cat="np" end="3" id="4" rel="predc">
+          <node begin="1" end="2" id="5" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="2" buiging="met-e" end="3" getal-n="zonder-n" graad="basis" id="6" lemma="gek" naamval="stan" pos="adj" positie="nom" postag="ADJ(nom,basis,met-e,zonder-n,stan)" pt="adj" rel="hd" root="gek" word="gekke"/>
+        </node>
+        <node begin="3" end="4" id="7" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="4" cat="cp" end="14" id="8" rel="su">
+          <node begin="4" conjtype="onder" end="5" id="9" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+          <node begin="5" cat="ssub" end="14" id="10" rel="body">
+            <node begin="5" cat="np" end="9" id="11" rel="su">
+              <node begin="5" end="6" id="12" lemma="twee" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="twee" word="twee"/>
+              <node begin="6" buiging="met-e" end="7" graad="basis" id="13" lemma="exclusief" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="exclusief" word="exclusieve"/>
+              <node begin="7" buiging="met-e" end="8" graad="basis" id="14" lemma="Nederlands" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Nederlands" word="Nederlandse"/>
+              <node begin="8" end="9" getal="mv" graad="basis" id="15" lemma="auto_fabrikant" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="auto_fabrikant" word="autofabrikanten"/>
+            </node>
+            <node begin="9" end="10" genus="onz" getal="ev" id="16" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="noun" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="obj1" root="het" status="red" vwtype="pers" word="het"/>
+            <node begin="10" cat="ap" end="13" id="17" rel="predc">
+              <node begin="10" buiging="zonder" end="11" graad="basis" id="18" lemma="juist" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="juist" word="juist"/>
+              <node begin="11" buiging="zonder" end="12" graad="basis" id="19" lemma="erg" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="erg" word="erg"/>
+              <node begin="12" buiging="zonder" end="13" graad="basis" id="20" lemma="goed" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="goed" word="goed"/>
+            </node>
+            <node begin="13" end="14" id="21" lemma="doen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="doe" word="doen" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Maar het gekke is dat twee exclusieve Nederlandse autofabrikanten het juist erg goed doen .</sentence>
+</alpino_ds>

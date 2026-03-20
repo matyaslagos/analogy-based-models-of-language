@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="13" id="2" rel="--">
+      <node begin="0" end="1" getal="ev" id="3" lemma="dit" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" root="dit" status="vol" vwtype="aanw" word="Dit"/>
+      <node begin="1" end="2" id="4" lemma="betekenen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="beteken" word="betekent" wvorm="pv"/>
+      <node begin="2" cat="conj" end="13" id="5" rel="obj1">
+        <node begin="2" cat="np" end="4" id="6" rel="cnj">
+          <node begin="2" buiging="zonder" end="3" graad="comp" id="7" lemma="weinig" naamval="stan" npagr="agr" pdtype="grad" pos="det" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,comp)" pt="vnw" rel="det" root="minder" vwtype="onbep" word="minder"/>
+          <node begin="3" end="4" getal="mv" graad="basis" id="8" lemma="handel_barrière" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="handel_barrière" word="handelsbarrières"/>
+        </node>
+        <node begin="5" end="6" id="9" lemma="dus" pos="adv" postag="BW()" pt="bw" rel="crd" root="dus" word="dus"/>
+        <node begin="6" cat="conj" end="13" id="10" rel="cnj">
+          <node begin="6" cat="np" end="8" id="11" rel="cnj">
+            <node begin="6" buiging="met-e" end="7" graad="comp" id="12" lemma="laag" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,comp,met-e,stan)" pt="adj" rel="mod" root="laag" word="lagere"/>
+            <node begin="7" end="8" getal="mv" graad="basis" id="13" lemma="import_tarief" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="import_tarief" word="importtarieven"/>
+          </node>
+          <node begin="8" conjtype="neven" end="9" id="14" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+          <node begin="9" cat="np" end="13" id="15" rel="cnj">
+            <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="16" lemma="afschaffing" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="afschaffing" word="afschaffing"/>
+            <node begin="10" cat="pp" end="13" id="17" rel="mod">
+              <node begin="10" end="11" id="18" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="11" cat="np" end="13" id="19" rel="obj1">
+                <node begin="11" end="12" id="20" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="12" end="13" getal="mv" graad="basis" id="21" lemma="quota_beperking" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="quotum_beperking" word="quotabeperkingen"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dit betekent minder handelsbarrières , dus lagere importtarieven of afschaffing van de quotabeperkingen .</sentence>
+</alpino_ds>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="smain" end="15" id="1" rel="--">
+      <node begin="0" cat="cp" end="2" id="2" rel="predm">
+        <node begin="0" conjtype="onder" end="1" id="3" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="Als"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="4" lemma="ouder" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="body" root="ouder" word="ouder"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="moeten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="moet" word="moet" wvorm="pv"/>
+      <node begin="3" end="4" getal="getal" id="6" index="1" lemma="u" naamval="nomin" pdtype="pron" persoon="2b" pos="pron" postag="VNW(pers,pron,nomin,vol,2b,getal)" pt="vnw" rel="su" root="u" status="vol" vwtype="pers" word="u"/>
+      <node begin="3" cat="inf" end="15" id="7" rel="vc">
+        <node begin="3" end="4" id="8" index="1" rel="su"/>
+        <node begin="6" buiging="zonder" end="7" id="9" lemma="toe_zien" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="zie_toe" word="toezien" wvorm="inf"/>
+        <node begin="4" cat="pp" end="15" id="10" rel="pc">
+          <node begin="4" end="5" getal="getal" id="11" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="noun" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="pobj1" root="er" status="red" vwtype="aanw" word="er"/>
+          <node begin="5" end="6" id="12" lemma="op" pos="pp" postag="VZ(fin)" pt="vz" rel="hd" root="op" vztype="fin" word="op"/>
+          <node begin="7" cat="cp" end="15" id="13" rel="vc">
+            <node begin="7" conjtype="onder" end="8" id="14" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+            <node begin="8" cat="ssub" end="15" id="15" rel="body">
+              <node begin="8" cat="np" end="11" id="16" rel="su">
+                <node begin="8" buiging="zonder" end="9" getal="getal" id="17" lemma="u" naamval="stan" npagr="agr" pdtype="det" persoon="2" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,2,getal,prenom,zonder,agr)" pt="vnw" rel="det" root="u" status="vol" vwtype="bez" word="uw"/>
+                <node begin="9" buiging="zonder" end="10" graad="basis" id="18" lemma="minderjarig" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="minderjarig" word="minderjarig"/>
+                <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="19" lemma="kind" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="kind" word="kind"/>
+              </node>
+              <node begin="11" buiging="zonder" end="12" graad="basis" id="20" lemma="regelmatig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="regelmatig" word="regelmatig"/>
+              <node begin="12" cat="np" end="14" id="21" rel="obj1">
+                <node begin="12" end="13" id="22" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="13" end="14" getal="mv" graad="basis" id="23" lemma="les" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="les" word="lessen"/>
+              </node>
+              <node begin="14" end="15" id="24" lemma="volgen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="volg" word="volgt" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="25" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Als ouder moet u er op toezien dat uw minderjarig kind regelmatig de lessen volgt .</sentence>
+</alpino_ds>

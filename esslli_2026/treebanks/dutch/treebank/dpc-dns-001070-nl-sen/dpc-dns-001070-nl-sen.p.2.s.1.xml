@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="0" cat="smain" end="20" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" index="1" rel="su">
+        <node begin="0" end="1" id="3" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="4" lemma="inschrijving_geld" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="inschrijving_geld" word="inschrijvingsgeld"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="moeten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="moet" word="moet" wvorm="pv"/>
+      <node begin="0" cat="inf" end="20" id="6" rel="vc">
+        <node begin="0" end="2" id="7" index="1" rel="su"/>
+        <node begin="4" buiging="zonder" end="5" id="8" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+        <node begin="0" cat="ppart" end="20" id="9" rel="vc">
+          <node begin="0" end="2" id="10" index="1" rel="obj1"/>
+          <node begin="3" buiging="zonder" end="4" id="11" lemma="betalen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="betaal" word="betaald" wvorm="vd"/>
+          <node begin="5" cat="pp" end="20" id="12" rel="obj2">
+            <node begin="5" end="6" id="13" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+            <node begin="6" cat="np" end="20" id="14" rel="obj1">
+              <node begin="6" end="7" id="15" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="16" lemma="agent" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="agent" word="agent"/>
+              <node begin="8" cat="rel" end="20" id="17" rel="mod">
+                <node begin="8" cat="pp" end="10" id="18" index="2" rel="rhd">
+                  <node begin="8" end="9" id="19" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+                  <node begin="9" end="10" getal="getal" id="20" lemma="wie" naamval="stan" pdtype="pron" persoon="3p" pos="pron" postag="VNW(vb,pron,stan,vol,3p,getal)" pt="vnw" rel="obj1" root="wie" status="vol" vwtype="vb" word="wie"/>
+                </node>
+                <node begin="8" cat="ssub" end="20" id="21" rel="body">
+                  <node begin="10" end="11" getal="getal" id="22" index="3" lemma="u" naamval="nomin" pdtype="pron" persoon="2b" pos="pron" postag="VNW(pers,pron,nomin,vol,2b,getal)" pt="vnw" rel="su" root="u" status="vol" vwtype="pers" word="u"/>
+                  <node begin="13" end="14" id="23" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="hebt" wvorm="pv"/>
+                  <node begin="8" cat="ppart" end="20" id="24" rel="vc">
+                    <node begin="8" end="10" id="25" index="2" rel="pc"/>
+                    <node begin="10" end="11" id="26" index="3" rel="su"/>
+                    <node begin="14" buiging="zonder" end="15" id="27" lemma="doen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="doe" word="gedaan" wvorm="vd"/>
+                    <node begin="11" cat="np" end="20" id="28" rel="obj1">
+                      <node begin="11" end="12" id="29" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                      <node begin="12" end="13" genus="onz" getal="ev" graad="basis" id="30" lemma="beroep" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="beroep" word="beroep"/>
+                      <node begin="15" cat="oti" end="20" id="31" rel="vc">
+                        <node begin="15" end="16" id="32" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="om"/>
+                        <node begin="16" cat="ti" end="20" id="33" rel="body">
+                          <node begin="18" end="19" id="34" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+                          <node begin="16" cat="inf" end="20" id="35" rel="body">
+                            <node begin="16" cat="np" end="18" id="36" rel="obj1">
+                              <node begin="16" buiging="zonder" end="17" getal="getal" id="37" lemma="u" naamval="stan" npagr="agr" pdtype="det" persoon="2" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,2,getal,prenom,zonder,agr)" pt="vnw" rel="det" root="u" status="vol" vwtype="bez" word="uw"/>
+                              <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="38" lemma="domein_naam" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="domeinnaam" word="domeinnaam"/>
+                            </node>
+                            <node begin="19" buiging="zonder" end="20" id="39" lemma="registreren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="registreer" word="registreren" wvorm="inf"/>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="20" end="21" id="40" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het inschrijvingsgeld moet betaald worden aan de agent op wie u een beroep hebt gedaan om uw domeinnaam te registreren .</sentence>
+</alpino_ds>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="10" end="11" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="12" end="13" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="14" id="3" rel="--">
+      <node begin="0" cat="np" end="2" id="4" rel="su">
+        <node begin="0" buiging="met-e" end="1" id="5" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="Deze"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="6" lemma="kost" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kosten" word="kosten"/>
+      </node>
+      <node begin="2" end="3" id="7" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+      <node begin="3" end="4" id="8" lemma="bijvoorbeeld" pos="adv" postag="BW()" pt="bw" rel="mod" root="bijvoorbeeld" word="bijvoorbeeld"/>
+      <node begin="4" cat="conj" end="14" id="9" rel="predc">
+        <node begin="6" conjtype="neven" end="7" id="10" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+        <node begin="4" cat="np" end="14" id="11" rel="cnj">
+          <node begin="4" end="5" id="12" index="1" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="5" buiging="zonder" end="6" getal-n="zonder-n" id="13" lemma="aan_kopen" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="koop_aan" word="aankopen" wvorm="inf"/>
+          <node begin="8" cat="pp" end="14" id="14" index="2" rel="mod">
+            <node begin="8" end="9" id="15" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="9" cat="conj" end="14" id="16" rel="obj1">
+              <node begin="9" end="10" getal="mv" graad="basis" id="17" lemma="materiaal" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="materiaal" word="materialen"/>
+              <node begin="11" end="12" getal="mv" graad="basis" id="18" lemma="verwarming_kost" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="verwarming_kosten" word="verwarmingskosten"/>
+              <node begin="13" end="14" getal="mv" graad="basis" id="19" lemma="telefoon_kost" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="telefoon_kosten" word="telefoonkosten"/>
+            </node>
+          </node>
+        </node>
+        <node begin="4" cat="np" end="14" id="20" rel="cnj">
+          <node begin="4" end="5" id="21" index="1" rel="det"/>
+          <node begin="7" buiging="zonder" end="8" getal-n="zonder-n" id="22" lemma="huren" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="huur" word="huren" wvorm="inf"/>
+          <node begin="8" end="14" id="23" index="2" rel="mod"/>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="24" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="15" end="16" id="25" lemma="..." pos="punct" postag="LET()" pt="let" rel="--" root="..." word="..."/>
+  </node>
+  <sentence>Deze kosten zijn bijvoorbeeld het aankopen of huren van materialen , verwarmingskosten , telefoonkosten , ...</sentence>
+</alpino_ds>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="8" end="9" id="2" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="0" cat="du" end="11" id="3" rel="--">
+      <node begin="0" cat="np" end="8" id="4" rel="dp">
+        <node begin="0" buiging="zonder" end="1" graad="comp" id="5" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="det" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,comp)" pt="vnw" rel="det" root="meer" vwtype="onbep" word="Meer"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="6" lemma="info" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="info" word="info"/>
+        <node begin="2" cat="pp" end="8" id="7" rel="mod">
+          <node begin="2" end="3" id="8" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" vztype="init" word="over"/>
+          <node begin="4" cat="mwu" end="8" id="9" rel="obj1">
+            <node begin="4" end="5" id="10" lemma="The" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="The" spectype="deeleigen" word="The"/>
+            <node begin="5" end="6" id="11" lemma="Accessible" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Accessible" spectype="deeleigen" word="Accessible"/>
+            <node begin="6" end="7" id="12" lemma="Libraries" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Libraries" spectype="deeleigen" word="Libraries"/>
+            <node begin="7" end="8" id="13" lemma="Meeting" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Meeting" spectype="deeleigen" word="Meeting"/>
+          </node>
+        </node>
+      </node>
+      <node begin="9" cat="pp" end="11" id="14" rel="dp">
+        <node begin="9" end="10" id="15" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+        <node begin="10" end="11" id="16" lemma="http://regionbibliotek.vgregion.se/ifla" pos="noun" postag="SPEC(symb)" pt="spec" rel="obj1" root="http://regionbibliotek.vgregion.se/ifla" spectype="symb" word="http://regionbibliotek.vgregion.se/ifla"/>
+      </node>
+    </node>
+    <node begin="11" end="12" id="17" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Meer info over &apos; The Accessible Libraries Meeting &apos; op http://regionbibliotek.vgregion.se/ifla .</sentence>
+</alpino_ds>

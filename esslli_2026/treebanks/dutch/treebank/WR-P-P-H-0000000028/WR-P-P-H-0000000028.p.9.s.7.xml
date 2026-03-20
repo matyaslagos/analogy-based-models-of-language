@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" cat="mwu" end="3" id="4" rel="hd">
+          <node begin="1" end="2" id="5" lemma="East" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="East" spectype="deeleigen" word="East"/>
+          <node begin="2" end="3" id="6" lemma="Surreys" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Surreys" spectype="deeleigen" word="Surreys"/>
+        </node>
+      </node>
+      <node begin="3" end="4" id="7" lemma="tekort_doen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="doe" word="deden" wvorm="pv"/>
+      <node begin="4" end="5" getal="getal" id="8" lemma="zichzelf" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,nadr,3,getal)" pt="vnw" rel="obj1" root="zichzelf" status="nadr" vwtype="refl" word="zichzelf"/>
+      <node begin="5" end="6" id="9" lemma="nooit" pos="adv" postag="BW()" pt="bw" rel="mod" root="nooit" word="nooit"/>
+      <node begin="6" cat="mwu" end="8" id="10" rel="svp">
+        <node begin="6" end="7" id="11" lemma="te" pos="adv" postag="BW()" pt="bw" rel="mwp" root="te" word="te"/>
+        <node begin="7" buiging="zonder" end="8" graad="basis" id="12" lemma="kort" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mwp" root="kort" word="kort"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="13" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De East Surreys deden zichzelf nooit te kort .</sentence>
+</alpino_ds>

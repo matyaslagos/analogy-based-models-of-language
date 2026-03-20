@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="smain" end="10" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" end="1" getal-n="mv-n" graad="basis" id="3" lemma="honderd" numtype="hoofd" pos="noun" positie="nom" postag="TW(hoofd,nom,mv-n,basis)" pt="tw" rel="hd" root="honderden" word="Honderden"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="4" lemma="sikh" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mod" root="sikhs" word="sikhs"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="volgen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="volg" word="volgden" wvorm="pv"/>
+      <node begin="3" cat="np" end="5" id="6" rel="obj1">
+        <node begin="3" end="4" id="7" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+        <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="8" lemma="boek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="boek" word="boek"/>
+      </node>
+      <node begin="5" cat="pp" end="10" id="9" rel="mod">
+        <node begin="5" end="6" id="10" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+        <node begin="6" cat="np" end="10" id="11" rel="obj1">
+          <node begin="6" end="7" id="12" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="13" lemma="binnen_stad" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="binnenstad" word="binnenstad"/>
+          <node begin="8" cat="pp" end="10" id="14" rel="mod">
+            <node begin="8" end="9" id="15" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="16" lemma="Amsterdam" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Amsterdam" word="Amsterdam"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="10" end="11" id="17" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Honderden sikhs volgden het boek door de binnenstad van Amsterdam .</sentence>
+</alpino_ds>

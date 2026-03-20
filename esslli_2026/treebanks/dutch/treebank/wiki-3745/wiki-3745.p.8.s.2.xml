@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="25" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="8" end="9" id="2" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="18" end="19" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="24" id="4" rel="--">
+      <node begin="0" cat="np" end="8" id="5" rel="su">
+        <node begin="0" buiging="met-e" end="1" id="6" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="Deze"/>
+        <node begin="2" cat="mwu" end="8" id="7" rel="hd">
+          <node begin="2" end="3" id="8" lemma="Manufacture" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Manufacture" spectype="deeleigen" word="Manufacture"/>
+          <node begin="3" end="4" id="9" lemma="de" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="de" spectype="deeleigen" word="de"/>
+          <node begin="4" end="5" id="10" lemma="Céramiques" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Céramiques" spectype="deeleigen" word="Céramiques"/>
+          <node begin="5" end="6" id="11" lemma="Décoratives" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Décoratives" spectype="deeleigen" word="Décoratives"/>
+          <node begin="6" end="7" id="12" lemma="de" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="de" spectype="deeleigen" word="de"/>
+          <node begin="7" end="8" id="13" lemma="Hasselt" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Hasselt" spectype="deeleigen" word="Hasselt"/>
+        </node>
+      </node>
+      <node begin="9" end="10" id="14" lemma="produceren" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="produceer" word="produceerde" wvorm="pv"/>
+      <node begin="10" cat="pp" end="14" id="15" rel="mod">
+        <node begin="10" end="11" id="16" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" vztype="init" word="tussen"/>
+        <node begin="11" cat="conj" end="14" id="17" rel="obj1">
+          <node begin="11" end="12" id="18" lemma="1895" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="cnj" root="1895" word="1895"/>
+          <node begin="12" conjtype="neven" end="13" id="19" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="13" end="14" id="20" lemma="1954" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="cnj" root="1954" word="1954"/>
+        </node>
+      </node>
+      <node begin="14" end="15" id="21" lemma="vooral" pos="adv" postag="BW()" pt="bw" rel="mod" root="vooral" word="vooral"/>
+      <node begin="15" cat="conj" end="24" id="22" rel="obj1">
+        <node begin="16" conjtype="neven" end="17" id="23" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="15" cat="np" end="24" id="24" rel="cnj">
+          <node begin="15" end="16" getal="mv" graad="basis" id="25" lemma="sier_voorwerp" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="sier_voorwerp" word="siervoorwerpen"/>
+          <node begin="19" cat="cp" end="24" id="26" index="1" rel="mod">
+            <node begin="19" conjtype="onder" end="20" id="27" lemma="zoals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zoals" word="zoals"/>
+            <node begin="20" cat="conj" end="24" id="28" rel="body">
+              <node begin="20" cat="np" end="22" id="29" rel="cnj">
+                <node begin="20" buiging="met-e" end="21" id="30" index="2" lemma="glazuren" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="geglazuurd" word="geglazuurde" wvorm="vd"/>
+                <node begin="21" end="22" genus="zijd" getal="ev" graad="basis" id="31" lemma="baksteen" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="baksteen" word="baksteen"/>
+              </node>
+              <node begin="22" conjtype="neven" end="23" id="32" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="20" cat="np" end="24" id="33" rel="cnj">
+                <node begin="20" end="21" id="34" index="2" rel="mod"/>
+                <node begin="23" end="24" getal="mv" graad="basis" id="35" lemma="wand_tegel" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="wand_tegel" word="wandtegels"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="17" cat="np" end="24" id="36" rel="cnj">
+          <node begin="17" end="18" genus="onz" getal="ev" graad="basis" id="37" lemma="bouw_aardewerk" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="bouw_aarde_werk" word="bouwaardewerk"/>
+          <node begin="19" end="24" id="38" index="1" rel="mod"/>
+        </node>
+      </node>
+    </node>
+    <node begin="24" end="25" id="39" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Deze &apos; Manufacture de Céramiques Décoratives de Hasselt &apos; produceerde tussen 1895 en 1954 vooral siervoorwerpen en bouwaardewerk , zoals geglazuurde baksteen en wandtegels .</sentence>
+</alpino_ds>

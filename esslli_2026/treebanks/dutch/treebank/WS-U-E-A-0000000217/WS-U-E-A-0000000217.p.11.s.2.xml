@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="smain" end="13" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" index="1" rel="su">
+        <node begin="0" end="1" id="3" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="Ook"/>
+        <node begin="1" buiging="met-e" end="2" id="4" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="deze"/>
+        <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="5" lemma="video" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="video" word="video"/>
+      </node>
+      <node begin="3" end="4" id="6" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="13" id="7" rel="vc">
+        <node begin="0" end="3" id="8" index="1" rel="obj1"/>
+        <node begin="4" buiging="zonder" end="5" id="9" lemma="aan_kondigen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="kondig_aan" word="aangekondigd" wvorm="vd"/>
+        <node begin="5" cat="cp" end="13" id="10" rel="predc">
+          <node begin="5" conjtype="onder" end="6" id="11" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+          <node begin="6" cat="np" end="13" id="12" rel="body">
+            <node begin="6" end="7" id="13" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="14" lemma="actie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="actie" word="actie"/>
+            <node begin="8" cat="pp" end="13" id="15" rel="mod">
+              <node begin="8" end="9" id="16" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="9" cat="np" end="13" id="17" rel="obj1">
+                <node begin="9" end="10" id="18" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="10" buiging="met-e" end="11" graad="basis" id="19" lemma="berucht" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="berucht" word="beruchte"/>
+                <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="20" lemma="terrorist" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="terrorist" word="terrorist"/>
+                <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="21" lemma="al-Zarqawi" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" root="al-Zarqawi" word="al-Zarqawi"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Ook deze video werd aangekondigd als een actie van de beruchte terrorist al-Zarqawi .</sentence>
+</alpino_ds>

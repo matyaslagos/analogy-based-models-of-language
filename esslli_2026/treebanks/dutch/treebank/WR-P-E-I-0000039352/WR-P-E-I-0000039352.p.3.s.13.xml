@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="14" end="15" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="21" id="3" rel="--">
+      <node begin="0" end="1" id="4" lemma="daarna" pos="pp" postag="BW()" pt="bw" rel="mod" root="daarna" word="Daarna"/>
+      <node begin="1" end="2" id="5" lemma="volgen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="volg" word="volgen" wvorm="pv"/>
+      <node begin="2" cat="conj" end="14" id="6" rel="su">
+        <node begin="2" cat="np" end="4" id="7" rel="cnj">
+          <node begin="2" end="3" id="8" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="9" lemma="Wilhelmus" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Wilhelmus" word="Wilhelmus"/>
+        </node>
+        <node begin="5" cat="np" end="7" id="10" rel="cnj">
+          <node begin="5" end="6" id="11" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="12" lemma="Brabançonne" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Brabançonne" word="Brabançonne"/>
+        </node>
+        <node begin="7" conjtype="neven" end="8" id="13" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="8" cat="np" end="14" id="14" rel="cnj">
+          <node begin="8" end="9" id="15" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="16" lemma="volkslied" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="volkslied" word="volkslied"/>
+          <node begin="10" cat="pp" end="14" id="17" rel="mod">
+            <node begin="10" end="11" id="18" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="11" cat="np" end="14" id="19" rel="obj1">
+              <node begin="11" end="12" id="20" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="12" buiging="met-e" end="13" getal="mv" graad="basis" id="21" lemma="beide" naamval="stan" pdtype="grad" pos="det" positie="prenom" postag="VNW(onbep,grad,stan,prenom,met-e,mv,basis)" pt="vnw" rel="det" root="beide" vwtype="onbep" word="beide"/>
+              <node begin="13" end="14" getal="mv" graad="basis" id="22" lemma="Limburg" ntype="eigen" pos="name" postag="N(eigen,mv,basis)" pt="n" rel="hd" root="Limburgen" word="Limburgen"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="15" cat="cp" end="21" id="23" rel="mod">
+        <node begin="15" conjtype="onder" end="16" id="24" lemma="terwijl" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="terwijl" word="terwijl"/>
+        <node begin="16" cat="ssub" end="21" id="25" rel="body">
+          <node begin="16" cat="np" end="19" id="26" index="1" rel="su">
+            <node begin="16" end="17" id="27" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="17" buiging="met-e" end="18" graad="basis" id="28" lemma="respectievelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="respectievelijk" word="respectievelijke"/>
+            <node begin="18" end="19" getal="mv" graad="basis" id="29" lemma="vlag" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vlag" word="vlaggen"/>
+          </node>
+          <node begin="19" end="20" id="30" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" word="worden" wvorm="pv"/>
+          <node begin="16" cat="ppart" end="21" id="31" rel="vc">
+            <node begin="16" end="19" id="32" index="1" rel="obj1"/>
+            <node begin="20" buiging="zonder" end="21" id="33" lemma="hijsen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="hijs" word="gehesen" wvorm="vd"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="21" end="22" id="34" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Daarna volgen het Wilhelmus , de Brabançonne en het volkslied van de beide Limburgen , terwijl de respectievelijke vlaggen worden gehesen .</sentence>
+</alpino_ds>

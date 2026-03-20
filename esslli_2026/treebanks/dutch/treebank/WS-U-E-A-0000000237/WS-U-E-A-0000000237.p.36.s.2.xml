@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="smain" end="15" id="1" rel="--">
+      <node begin="0" cat="np" end="5" id="2" index="1" rel="su">
+        <node begin="0" end="1" getal="mv" graad="basis" id="3" lemma="mens" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="mens" word="Mensen"/>
+        <node begin="1" cat="pp" end="5" id="4" rel="mod">
+          <node begin="1" end="2" id="5" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+          <node begin="2" cat="np" end="5" id="6" rel="obj1">
+            <node begin="2" end="3" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="3" buiging="met-e" end="4" graad="sup" id="8" lemma="laag" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="mod" root="laag" word="laagste"/>
+            <node begin="4" end="5" getal="mv" graad="basis" id="9" lemma="inkomen" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="inkomen" word="inkomens"/>
+          </node>
+        </node>
+      </node>
+      <node begin="5" end="6" id="10" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" word="worden" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="15" id="11" rel="vc">
+        <node begin="0" end="5" id="12" index="1" rel="obj1"/>
+        <node begin="6" cat="pp" end="9" id="13" rel="mod">
+          <node begin="6" end="7" id="14" lemma="vanaf" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="vanaf" vztype="init" word="vanaf"/>
+          <node begin="7" cat="mwu" end="9" id="15" rel="obj1">
+            <node begin="7" end="8" id="16" lemma="1" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="1" word="1"/>
+            <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="17" lemma="oktober" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="oktober" word="oktober"/>
+          </node>
+        </node>
+        <node begin="9" cat="pp" end="14" id="18" rel="mod">
+          <node begin="9" end="10" id="19" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="10" cat="np" end="14" id="20" rel="obj1">
+            <node begin="10" end="11" getal="mv" graad="basis" id="21" lemma="probleem_buurt" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="probleem_buurt" word="probleembuurten"/>
+            <node begin="11" cat="pp" end="14" id="22" rel="mod">
+              <node begin="11" end="12" id="23" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+              <node begin="12" cat="np" end="14" id="24" rel="obj1">
+                <node begin="12" buiging="zonder" end="13" id="25" lemma="die" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,rest)" pt="vnw" rel="det" root="die" vwtype="aanw" word="die"/>
+                <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="26" lemma="stad" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="stad" word="stad"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="14" buiging="zonder" end="15" id="27" lemma="weren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="weer" word="geweerd" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="15" end="16" id="28" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Mensen met de laagste inkomens worden vanaf 1 oktober in probleembuurten in die stad geweerd .</sentence>
+</alpino_ds>

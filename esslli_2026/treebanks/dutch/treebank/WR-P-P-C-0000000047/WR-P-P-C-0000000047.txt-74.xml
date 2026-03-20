@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="*" pos="tag" postag="LET()" pt="let" rel="--" root="*" word="*"/>
+    <node begin="1" end="2" id="2" lemma="*" pos="tag" postag="LET()" pt="let" rel="--" root="*" word="*"/>
+    <node begin="11" end="12" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="2" cat="smain" end="16" id="4" rel="--">
+      <node begin="2" cat="np" end="4" id="5" rel="su">
+        <node begin="2" end="3" id="6" lemma="drie" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="drie" word="Drie"/>
+        <node begin="3" end="4" getal="mv" graad="basis" id="7" lemma="shooter" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="shooters" word="shooters"/>
+      </node>
+      <node begin="4" end="5" id="8" lemma="bevatten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="bevat" word="bevatten" wvorm="pv"/>
+      <node begin="5" cat="np" end="16" id="9" rel="obj1">
+        <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="10" lemma="alcohol" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="alcohol" word="alcohol"/>
+        <node begin="5" cat="detp" end="16" id="11" rel="det">
+          <node begin="5" end="6" id="12" lemma="evenveel" naamval="stan" numtype="hoofd" pos="adj" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="hd" root="evenveel" word="evenveel"/>
+          <node begin="7" cat="cp" end="16" id="13" rel="obcomp">
+            <node begin="7" conjtype="onder" end="8" id="14" lemma="als" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+            <node begin="8" cat="np" end="16" id="15" rel="body">
+              <node begin="8" end="9" id="16" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="17" lemma="standaard_glas" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="standaard_glas" word="standaardglas"/>
+              <node begin="10" cat="conj" end="16" id="18" rel="mod">
+                <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="19" lemma="bier" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="cnj" root="bier" word="bier"/>
+                <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="20" lemma="wijn" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="wijn" word="wijn"/>
+                <node begin="13" conjtype="neven" end="14" id="21" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+                <node begin="14" cat="np" end="16" id="22" rel="cnj">
+                  <node begin="14" buiging="met-e" end="15" graad="basis" id="23" lemma="sterk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="sterk" word="sterke"/>
+                  <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="24" lemma="drank" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="drank" word="drank"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="25" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>* * Drie shooters bevatten evenveel alcohol als een standaardglas bier , wijn of sterke drank .</sentence>
+</alpino_ds>

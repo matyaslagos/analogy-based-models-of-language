@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="15" end="16" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="19" id="3" rel="--">
+      <node begin="0" cat="conj" end="15" id="4" rel="su">
+        <node begin="1" conjtype="neven" end="2" id="5" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="0" cat="np" end="15" id="6" rel="cnj">
+          <node begin="0" end="1" getal="mv" graad="basis" id="7" lemma="leerkracht" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="leer_kracht" word="Leerkrachten"/>
+          <node begin="4" cat="rel" end="15" id="8" index="1" rel="mod">
+            <node begin="4" end="5" getal="getal" id="9" index="2" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+            <node begin="4" cat="ssub" end="15" id="10" rel="body">
+              <node begin="4" end="5" id="11" index="2" rel="su"/>
+              <node begin="5" cat="pp" end="8" id="12" rel="mod">
+                <node begin="5" end="6" id="13" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                <node begin="6" cat="np" end="8" id="14" rel="obj1">
+                  <node begin="6" buiging="met-e" end="7" graad="basis" id="15" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,met-e,agr,basis)" pt="vnw" rel="mod" root="vele" vwtype="onbep" word="vele"/>
+                  <node begin="7" end="8" getal="mv" graad="basis" id="16" lemma="dorp" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="dorp" word="dorpen"/>
+                </node>
+              </node>
+              <node begin="8" cat="np" end="14" id="17" rel="predc">
+                <node begin="8" end="9" id="18" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="9" cat="conj" end="13" id="19" rel="mod">
+                  <node begin="9" buiging="met-e" end="10" graad="sup" id="20" lemma="bekend" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="cnj" root="bekend" word="bekendste"/>
+                  <node begin="10" conjtype="neven" end="11" id="21" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                  <node begin="11" cat="ppart" end="13" id="22" rel="cnj">
+                    <node begin="11" buiging="zonder" end="12" graad="sup" id="23" lemma="goed" pos="adj" positie="vrij" postag="ADJ(vrij,sup,zonder)" pt="adj" rel="mod" root="goed" word="best"/>
+                    <node begin="12" buiging="met-e" end="13" id="24" lemma="op_leiden" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="hd" root="opgeleid" word="opgeleide" wvorm="vd"/>
+                  </node>
+                </node>
+                <node begin="13" end="14" getal="mv" graad="basis" id="25" lemma="mens" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="mens" word="mensen"/>
+              </node>
+              <node begin="14" end="15" id="26" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+        <node begin="2" cat="np" end="15" id="27" rel="cnj">
+          <node begin="2" end="3" getal="mv" graad="basis" id="28" lemma="verpleegster" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="verpleegster" word="verpleegsters"/>
+          <node begin="4" end="15" id="29" index="1" rel="mod"/>
+        </node>
+      </node>
+      <node begin="16" end="17" id="30" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+      <node begin="17" cat="np" end="19" id="31" rel="predc">
+        <node begin="17" buiging="met-e" end="18" id="32" lemma="prefereren" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="geprefereerd" word="geprefereerde" wvorm="vd"/>
+        <node begin="18" end="19" getal="mv" graad="basis" id="33" lemma="slachtoffer" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="slachtoffer" word="slachtoffers"/>
+      </node>
+    </node>
+    <node begin="19" end="20" id="34" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Leerkrachten en verpleegsters , die in vele dorpen de bekendste en best opgeleide mensen zijn , zijn geprefereerde slachtoffers .</sentence>
+</alpino_ds>

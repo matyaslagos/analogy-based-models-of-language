@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="7" end="8" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="10" end="11" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="21" id="4" rel="--">
+      <node begin="11" end="12" id="5" lemma="kunnen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="kan" word="kon" wvorm="pv"/>
+      <node begin="12" cat="np" end="14" id="6" index="1" rel="su">
+        <node begin="12" end="13" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="13" end="14" getal="mv" graad="basis" id="8" lemma="VS" ntype="eigen" pos="name" postag="N(eigen,mv,basis)" pt="n" rel="hd" root="VS" word="VS"/>
+      </node>
+      <node begin="0" cat="inf" end="21" id="9" rel="vc">
+        <node begin="0" cat="cp" end="10" id="10" rel="mod">
+          <node begin="0" conjtype="onder" end="1" id="11" lemma="toen" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="toen" word="Toen"/>
+          <node begin="1" cat="ssub" end="10" id="12" rel="body">
+            <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="13" index="2" lemma="Castro" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Castro" word="Castro"/>
+            <node begin="8" end="9" id="14" lemma="gaan" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ga" word="ging" wvorm="pv"/>
+            <node begin="1" cat="inf" end="10" id="15" rel="vc">
+              <node begin="1" end="2" id="16" index="2" rel="su"/>
+              <node begin="2" cat="np" end="7" id="17" rel="obj1">
+                <node begin="2" buiging="met-e" end="3" graad="basis" id="18" lemma="Amerikaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Amerikaans" word="Amerikaanse"/>
+                <node begin="3" end="4" getal="mv" graad="basis" id="19" lemma="bedrijf" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="bedrijf" word="bedrijven"/>
+                <node begin="5" cat="cp" end="7" id="20" rel="mod">
+                  <node begin="5" conjtype="onder" end="6" id="21" lemma="zoals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zoals" word="zoals"/>
+                  <node begin="6" end="7" getal="mv" graad="basis" id="22" lemma="raffinaderij" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="body" root="raffinaderij" word="raffinaderijen"/>
+                </node>
+              </node>
+              <node begin="9" buiging="zonder" end="10" id="23" lemma="bezetten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="bezet" word="bezetten" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+        <node begin="12" end="14" id="24" index="1" rel="su"/>
+        <node begin="14" cat="np" end="16" id="25" rel="obj1">
+          <node begin="14" buiging="zonder" end="15" id="26" lemma="dit" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dit" vwtype="aanw" word="dit"/>
+          <node begin="15" end="16" genus="onz" getal="ev" graad="basis" id="27" lemma="regime" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="regime" word="regime"/>
+        </node>
+        <node begin="16" end="17" id="28" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mod" root="al" word="al"/>
+        <node begin="17" cat="advp" end="20" id="29" rel="mod">
+          <node begin="17" end="18" id="30" lemma="helemaal" pos="adv" postag="BW()" pt="bw" rel="mod" root="helemaal" word="helemaal"/>
+          <node begin="18" end="19" id="31" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="hd" root="niet" word="niet"/>
+          <node begin="19" buiging="zonder" end="20" graad="comp" id="32" lemma="veel" naamval="stan" pdtype="grad" pos="adv" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mod" root="meer" vwtype="onbep" word="meer"/>
+        </node>
+        <node begin="20" buiging="zonder" end="21" id="33" lemma="negeren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="negeer" word="negeren" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="21" end="22" id="34" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Toen Castro Amerikaanse bedrijven , zoals raffinaderijen , ging bezetten , kon de VS dit regime al helemaal niet meer negeren .</sentence>
+</alpino_ds>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="16" end="17" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="smain" end="20" id="2" rel="--">
+      <node begin="0" end="1" genus="onz" getal="ev" id="3" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" root="het" status="red" vwtype="pers" word="Het"/>
+      <node begin="1" end="2" id="4" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+      <node begin="2" cat="np" end="16" id="5" rel="predc">
+        <node begin="2" end="3" id="6" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="3" buiging="met-e" end="4" graad="basis" id="7" lemma="episch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="episch" word="epische"/>
+        <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="8" lemma="wedstrijd" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="wedstrijd" word="wedstrijd"/>
+        <node begin="5" cat="pp" end="16" id="9" rel="mod">
+          <node begin="5" end="6" id="10" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="6" cat="np" end="16" id="11" rel="obj1">
+            <node begin="6" cat="detp" end="9" id="12" rel="det">
+              <node begin="6" cat="mwu" end="8" id="13" rel="mod">
+                <node begin="6" buiging="zonder" end="7" graad="comp" id="14" lemma="veel" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mwp" root="meer" vwtype="onbep" word="meer"/>
+                <node begin="7" conjtype="onder" end="8" id="15" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="mwp" root="dan" word="dan"/>
+              </node>
+              <node begin="8" end="9" id="16" lemma="drie" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="hd" root="drie" word="drie"/>
+            </node>
+            <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="17" lemma="uur" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="uur" word="uur"/>
+            <node begin="10" cat="pp" end="16" id="18" rel="mod">
+              <node begin="10" end="11" id="19" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+              <node begin="11" cat="np" end="16" id="20" rel="obj1">
+                <node begin="11" end="12" id="21" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="12" buiging="met-e" end="13" graad="basis" id="22" lemma="heet" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="heet" word="hete"/>
+                <node begin="13" cat="mwu" end="16" id="23" rel="hd">
+                  <node begin="13" end="14" id="24" lemma="Rod" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Rod" spectype="deeleigen" word="Rod"/>
+                  <node begin="14" end="15" id="25" lemma="Laver" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Laver" spectype="deeleigen" word="Laver"/>
+                  <node begin="15" end="16" id="26" lemma="Arena" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Arena" spectype="deeleigen" word="Arena"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="17" cat="conj" end="20" id="27" rel="mod">
+        <node begin="17" end="18" id="28" lemma="7-5" pos="noun" postag="SPEC(symb)" pt="spec" rel="cnj" root="7-5" spectype="symb" word="7-5"/>
+        <node begin="18" end="19" id="29" lemma="5-7" pos="noun" postag="SPEC(symb)" pt="spec" rel="cnj" root="5-7" spectype="symb" word="5-7"/>
+        <node begin="19" end="20" id="30" lemma="9-7" pos="noun" postag="SPEC(symb)" pt="spec" rel="cnj" root="9-7" spectype="symb" word="9-7"/>
+      </node>
+    </node>
+    <node begin="20" end="21" id="31" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="21" end="22" id="32" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het wordt een epische wedstrijd van meer dan drie uur in de hete Rod Laver Arena ( 7-5 5-7 9-7 ) .</sentence>
+</alpino_ds>

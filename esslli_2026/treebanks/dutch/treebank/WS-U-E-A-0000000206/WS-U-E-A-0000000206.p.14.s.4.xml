@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="smain" end="13" id="1" rel="--">
+      <node begin="0" end="1" getal="ev" id="2" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" root="dat" status="vol" vwtype="aanw" word="Dat"/>
+      <node begin="1" end="2" id="3" lemma="blijken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="blijk" word="bleek" wvorm="pv"/>
+      <node begin="2" end="3" id="4" lemma="althans" pos="comp" postag="BW()" pt="bw" rel="mod" root="althans" word="althans"/>
+      <node begin="3" cat="cp" end="13" id="5" rel="mod">
+        <node begin="3" conjtype="onder" end="4" id="6" lemma="toen" pos="adv" postag="VG(onder)" pt="vg" rel="cmp" root="toen" word="toen"/>
+        <node begin="4" cat="ssub" end="13" id="7" rel="body">
+          <node begin="4" cat="np" end="7" id="8" rel="su">
+            <node begin="4" buiging="met-e" end="5" graad="basis" id="9" lemma="jong" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="jong" word="jonge"/>
+            <node begin="5" buiging="met-e" end="6" graad="basis" id="10" lemma="Engels" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Engels" word="Engelse"/>
+            <node begin="6" buiging="met-e" end="7" getal-n="mv-n" id="11" lemma="vangen" pos="noun" positie="nom" postag="WW(vd,nom,met-e,mv-n)" pt="ww" rel="hd" root="gevangene" word="gevangenen" wvorm="vd"/>
+          </node>
+          <node begin="7" buiging="zonder" end="8" graad="basis" id="12" lemma="maand_lang" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="maandenlang" word="maandenlang"/>
+          <node begin="8" cat="np" end="12" id="13" rel="obj1">
+            <node begin="8" buiging="zonder" end="9" graad="basis" id="14" lemma="zogeheten" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="zogeheten" word="zogeheten"/>
+            <node begin="9" end="10" getal="mv" graad="basis" id="15" lemma="voedingssuplement" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="voedingssuplementen" word="voedingssuplementen"/>
+            <node begin="10" cat="cp" end="12" id="16" rel="mod">
+              <node begin="10" conjtype="onder" end="11" id="17" lemma="zoals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zoals" word="zoals"/>
+              <node begin="11" end="12" getal="mv" graad="basis" id="18" lemma="vitamine_pil" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="body" root="vitamine_pil" word="vitaminepillen"/>
+            </node>
+          </node>
+          <node begin="12" end="13" id="19" lemma="slikken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="slik" word="slikte" wvorm="pv"/>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="20" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dat bleek althans toen jonge Engelse gevangenen maandenlang zogeheten voedingssuplementen zoals vitaminepillen slikte .</sentence>
+</alpino_ds>

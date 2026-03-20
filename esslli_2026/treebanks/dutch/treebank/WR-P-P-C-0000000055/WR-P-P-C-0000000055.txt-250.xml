@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="15" id="2" rel="--">
+      <node begin="0" cat="conj" end="9" id="3" index="1" rel="su">
+        <node begin="4" conjtype="neven" end="5" id="4" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+        <node begin="0" cat="np" end="9" id="5" rel="cnj">
+          <node begin="0" end="1" id="6" index="2" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="Een"/>
+          <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="7" lemma="neuroloog" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="neuroloog" word="neuroloog"/>
+          <node begin="7" cat="pp" end="9" id="8" index="3" rel="mod">
+            <node begin="7" end="8" id="9" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="10" lemma="Kempenhaeghe" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" root="Kempenhaeghe" word="Kempenhaeghe"/>
+          </node>
+        </node>
+        <node begin="0" cat="np" end="9" id="11" rel="cnj">
+          <node begin="0" end="1" id="12" index="2" rel="det"/>
+          <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="13" lemma="psycholoog" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="psycholoog" word="psycholoog"/>
+          <node begin="7" end="9" id="14" index="3" rel="mod"/>
+        </node>
+        <node begin="0" cat="np" end="9" id="15" rel="cnj">
+          <node begin="0" end="1" id="16" index="2" rel="det"/>
+          <node begin="5" buiging="zonder" end="6" graad="basis" id="17" lemma="maatschappelijk" pos="noun" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="maatschappelijk" word="maatschappelijk"/>
+          <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="18" lemma="werker" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="werker" word="werker"/>
+          <node begin="7" end="9" id="19" index="3" rel="mod"/>
+        </node>
+      </node>
+      <node begin="9" end="10" id="20" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" word="kan" wvorm="pv"/>
+      <node begin="0" cat="inf" end="15" id="21" rel="vc">
+        <node begin="0" end="9" id="22" index="1" rel="su"/>
+        <node begin="10" end="11" getal="getal" id="23" lemma="u" naamval="obl" pdtype="pron" persoon="2" pos="pron" postag="VNW(pr,pron,obl,vol,2,getal)" pt="vnw" rel="obj1" root="u" status="vol" vwtype="pr" word="u"/>
+        <node begin="11" buiging="zonder" end="12" id="24" lemma="door_verwijzen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="verwijs_door" word="doorverwijzen" wvorm="inf"/>
+        <node begin="12" cat="pp" end="15" id="25" rel="pc">
+          <node begin="12" end="13" id="26" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+          <node begin="13" cat="np" end="15" id="27" rel="obj1">
+            <node begin="13" end="14" id="28" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="14" end="15" genus="onz" getal="ev" graad="basis" id="29" lemma="hulp_verlening_programma" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="hulpverlening_programma" word="hulpverleningsprogramma"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="30" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Een neuroloog , psycholoog of maatschappelijk werker van Kempenhaeghe kan u doorverwijzen naar het hulpverleningsprogramma .</sentence>
+</alpino_ds>

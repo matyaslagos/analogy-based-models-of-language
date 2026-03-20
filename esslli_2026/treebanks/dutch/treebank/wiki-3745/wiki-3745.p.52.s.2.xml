@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="4" lemma="complex" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="complex" word="complex"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="bieden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="bied" word="biedt" wvorm="pv"/>
+      <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="6" lemma="plaats" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="plaats" word="plaats"/>
+      <node begin="4" cat="pp" end="8" id="7" rel="mod">
+        <node begin="4" end="5" id="8" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+        <node begin="5" cat="np" end="8" id="9" rel="obj1">
+          <node begin="5" cat="detp" end="7" id="10" rel="det">
+            <node begin="5" buiging="zonder" end="6" id="11" lemma="zo&apos;n" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,agr)" pt="vnw" rel="mod" root="zo&apos;n" vwtype="aanw" word="zo&apos;n"/>
+            <node begin="6" end="7" id="12" lemma="250" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="hd" root="250" word="250"/>
+          </node>
+          <node begin="7" end="8" getal="mv" graad="basis" id="13" lemma="hulp_verlener" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="hulpverlener" word="hulpverleners"/>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" id="14" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het complex biedt plaats voor zo&apos;n 250 hulpverleners .</sentence>
+</alpino_ds>

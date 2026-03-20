@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="«" pos="punct" postag="LET()" pt="let" rel="--" root="«" word="«"/>
+    <node begin="3" end="4" id="2" lemma="»" pos="punct" postag="LET()" pt="let" rel="--" root="»" word="»"/>
+    <node begin="4" end="5" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="7" end="8" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="1" cat="du" end="9" id="5" rel="--">
+      <node begin="1" cat="mwu" end="3" id="6" rel="dp">
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="7" lemma="Antwerpen" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="mwp" root="Antwerpen" word="Antwerpen"/>
+        <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="8" lemma="troef" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Troef" word="Troef"/>
+      </node>
+      <node begin="5" cat="mwu" end="7" id="9" rel="dp">
+        <node begin="5" end="6" id="10" lemma="Uitgeverij" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Uitgeverij" spectype="deeleigen" word="Uitgeverij"/>
+        <node begin="6" end="7" id="11" lemma="Egmont" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Egmont" spectype="deeleigen" word="Egmont"/>
+      </node>
+      <node begin="8" end="9" id="12" lemma="2006" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="dp" root="2006" word="2006"/>
+    </node>
+  </node>
+  <sentence>« Antwerpen Troef » , Uitgeverij Egmont , 2006</sentence>
+</alpino_ds>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="14" end="15" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="18" id="2" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="3" lemma="want" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="want" word="Want"/>
+      <node begin="1" cat="smain" end="18" id="4" rel="nucl">
+        <node begin="5" end="6" id="5" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="heeft" wvorm="pv"/>
+        <node begin="6" cat="np" end="11" id="6" index="1" rel="su">
+          <node begin="6" end="7" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="8" lemma="regering" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="regering" word="regering"/>
+          <node begin="8" cat="pp" end="11" id="9" rel="mod">
+            <node begin="8" end="9" id="10" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="9" cat="np" end="11" id="11" rel="obj1">
+              <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="12" lemma="president" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="president" word="president"/>
+              <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="13" lemma="Megawati" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" root="Megawati" word="Megawati"/>
+            </node>
+          </node>
+        </node>
+        <node begin="1" cat="ppart" end="18" id="14" rel="vc">
+          <node begin="1" cat="pp" end="5" id="15" rel="mod">
+            <node begin="1" end="2" id="16" lemma="sinds" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="sinds" vztype="init" word="sinds"/>
+            <node begin="2" cat="advp" end="5" id="17" rel="obj1">
+              <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="18" lemma="begin" naamval="stan" ntype="soort" pos="adv" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="begin" word="begin"/>
+              <node begin="3" cat="np" end="5" id="19" rel="mod">
+                <node begin="3" buiging="zonder" end="4" id="20" lemma="dit" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dit" vwtype="aanw" word="dit"/>
+                <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="21" lemma="jaar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="jaar" word="jaar"/>
+              </node>
+            </node>
+          </node>
+          <node begin="6" end="11" id="22" index="1" rel="su"/>
+          <node begin="11" cat="np" end="13" id="23" rel="obj1">
+            <node begin="11" end="12" id="24" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="12" end="13" genus="onz" getal="ev" graad="basis" id="25" lemma="import_verbod" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="import_verbod" word="importverbod"/>
+          </node>
+          <node begin="13" buiging="zonder" end="14" id="26" lemma="af_kondigen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="kondig_af" word="afgekondigd" wvorm="vd"/>
+          <node begin="15" cat="pp" end="18" id="27" rel="mod">
+            <node begin="15" end="16" id="28" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+            <node begin="16" end="17" id="29" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+            <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="30" lemma="voedsel_hulp" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="voedsel_hulp" word="voedselhulp"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="31" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Want sinds begin dit jaar heeft de regering van president Megawati een importverbod afgekondigd , ook voor voedselhulp .</sentence>
+</alpino_ds>

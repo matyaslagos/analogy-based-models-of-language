@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="28" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="8" end="9" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="9" end="10" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="17" end="18" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="27" id="5" rel="--">
+      <node begin="18" end="19" id="6" lemma="zullen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="zal" word="zullen" wvorm="pv"/>
+      <node begin="19" cat="np" end="24" id="7" index="1" rel="su">
+        <node begin="19" end="20" getal="mv" graad="basis" id="8" lemma="initiatief" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="initiatief" word="initiatieven"/>
+        <node begin="20" cat="cp" end="24" id="9" rel="mod">
+          <node begin="20" conjtype="onder" end="21" id="10" lemma="zoals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zoals" word="zoals"/>
+          <node begin="21" cat="np" end="24" id="11" rel="body">
+            <node begin="21" end="22" id="12" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="22" buiging="zonder" end="23" id="13" lemma="persoon_binden" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="mod" root="persoonsgebonden" word="persoonsgebonden" wvorm="vd"/>
+            <node begin="23" end="24" genus="onz" getal="ev" graad="basis" id="14" lemma="budget" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="budget" word="budget"/>
+          </node>
+        </node>
+      </node>
+      <node begin="0" cat="inf" end="27" id="15" rel="vc">
+        <node begin="0" cat="pp" end="17" id="16" rel="mod">
+          <node begin="0" end="1" id="17" lemma="volgens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="volgens" vztype="init" word="Volgens"/>
+          <node begin="1" cat="np" end="17" id="18" rel="obj1">
+            <node begin="1" buiging="zonder" end="2" graad="basis" id="19" lemma="Vlaams" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="Vlaams" word="Vlaams"/>
+            <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="20" lemma="parlement_lid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="parlement_lid" word="parlementslid"/>
+            <node begin="3" cat="mwu" end="6" id="21" rel="app">
+              <node begin="3" end="4" id="22" lemma="Ann" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Ann" spectype="deeleigen" word="Ann"/>
+              <node begin="4" end="5" id="23" lemma="De" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="De" spectype="deeleigen" word="De"/>
+              <node begin="5" end="6" id="24" lemma="Martelaer" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Martelaer" spectype="deeleigen" word="Martelaer"/>
+            </node>
+            <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="25" lemma="Agalev" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="mod" root="Agalev" word="Agalev"/>
+            <node begin="10" cat="np" end="17" id="26" rel="app">
+              <node begin="10" end="11" getal-n="zonder-n" graad="basis" id="27" lemma="één" numtype="hoofd" pos="pron" positie="nom" postag="TW(hoofd,nom,zonder-n,basis)" pt="tw" rel="hd" root="één" word="een"/>
+              <node begin="11" cat="pp" end="17" id="28" rel="mod">
+                <node begin="11" end="12" id="29" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="12" cat="np" end="17" id="30" rel="obj1">
+                  <node begin="12" end="13" id="31" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="13" end="14" getal="mv" graad="basis" id="32" lemma="indiener" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="indiener" word="indieners"/>
+                  <node begin="14" cat="pp" end="17" id="33" rel="mod">
+                    <node begin="14" end="15" id="34" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                    <node begin="15" cat="np" end="17" id="35" rel="obj1">
+                      <node begin="15" end="16" id="36" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                      <node begin="16" end="17" genus="onz" getal="ev" graad="basis" id="37" lemma="PGB_decreet" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="PGB_decreet" word="PGB-decreet"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="19" end="24" id="38" index="1" rel="su"/>
+        <node begin="24" end="25" getal="ev" id="39" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="pron" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="obj1" root="dat" status="vol" vwtype="aanw" word="dat"/>
+        <node begin="25" end="26" id="40" lemma="vanzelf" pos="adv" postag="BW()" pt="bw" rel="mod" root="vanzelf" word="vanzelf"/>
+        <node begin="26" buiging="zonder" end="27" id="41" lemma="op_lossen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="los_op" word="oplossen" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="27" end="28" id="42" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Volgens Vlaams parlementslid Ann De Martelaer ( Agalev ) , een van de indieners van het PGB-decreet , zullen initiatieven zoals het persoonsgebonden budget dat vanzelf oplossen .</sentence>
+</alpino_ds>

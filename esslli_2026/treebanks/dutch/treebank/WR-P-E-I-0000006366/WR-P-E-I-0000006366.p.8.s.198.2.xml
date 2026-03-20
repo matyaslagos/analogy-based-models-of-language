@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="4" end="5" id="2" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" word="worden" wvorm="pv"/>
+      <node begin="0" cat="conj" end="11" id="3" rel="vc">
+        <node begin="5" end="6" id="4" lemma="zowel" pos="vg" postag="BW()" pt="bw" rel="crd" root="zowel" word="zowel"/>
+        <node begin="0" cat="ppart" end="8" id="5" rel="cnj">
+          <node begin="0" cat="pp" end="4" id="6" index="1" rel="mod">
+            <node begin="0" end="1" id="7" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="Op"/>
+            <node begin="1" cat="np" end="4" id="8" rel="obj1">
+              <node begin="1" end="2" id="9" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="2" buiging="zonder" end="3" id="10" lemma="mengen" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="mod" root="gemengd" word="gemengd" wvorm="vd"/>
+              <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="11" lemma="bedrijf" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="bedrijf" word="bedrijf"/>
+            </node>
+          </node>
+          <node begin="6" end="7" getal="mv" graad="basis" id="12" lemma="gewas" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="gewas" word="gewassen"/>
+          <node begin="7" buiging="zonder" end="8" id="13" lemma="verbouwen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="verbouw" word="verbouwd" wvorm="vd"/>
+        </node>
+        <node begin="8" conjtype="onder" end="9" id="14" lemma="als" pos="vg" postag="VG(onder)" pt="vg" rel="crd" root="als" word="als"/>
+        <node begin="0" cat="ppart" end="11" id="15" rel="cnj">
+          <node begin="0" end="4" id="16" index="1" rel="mod"/>
+          <node begin="9" end="10" getal="mv" graad="basis" id="17" lemma="dier" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="dier" word="dieren"/>
+          <node begin="10" buiging="zonder" end="11" id="18" lemma="houden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="houd" word="gehouden" wvorm="vd"/>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" id="19" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Op een gemengd bedrijf worden zowel gewassen verbouwd als dieren gehouden .</sentence>
+</alpino_ds>

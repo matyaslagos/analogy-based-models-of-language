@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="32" id="0" rel="top">
+    <node begin="10" end="11" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="21" end="22" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="31" id="3" rel="--">
+      <node begin="1" end="2" id="4" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+      <node begin="2" cat="np" end="4" id="5" index="1" rel="su">
+        <node begin="2" end="3" id="6" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="7" lemma="Jeugdbeweging" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Jeugdbeweging" word="Jeugdbeweging"/>
+      </node>
+      <node begin="0" cat="ppart" end="31" id="8" rel="vc">
+        <node begin="0" end="1" id="9" lemma="anderzijds" pos="adv" postag="BW()" pt="bw" rel="mod" root="anderzijds" word="Anderzijds"/>
+        <node begin="2" end="4" id="10" index="1" rel="su"/>
+        <node begin="4" buiging="zonder" end="5" id="11" lemma="uiteen_vallen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="val_uiteen" word="uiteengevallen" wvorm="vd"/>
+        <node begin="5" cat="pp" end="31" id="12" rel="pc">
+          <node begin="5" end="6" id="13" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="6" cat="np" end="31" id="14" rel="obj1">
+            <node begin="6" end="7" id="15" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="7" buiging="zonder" end="8" graad="basis" id="16" lemma="groot" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="groot" word="groot"/>
+            <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="17" lemma="aantal" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="aantal" word="aantal"/>
+            <node begin="9" cat="np" end="31" id="18" rel="mod">
+              <node begin="9" end="10" getal="mv" graad="basis" id="19" lemma="vereniging" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vereniging" word="verenigingen"/>
+              <node begin="11" cat="rel" end="21" id="20" rel="mod">
+                <node begin="11" end="12" getal="getal" id="21" index="2" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+                <node begin="11" cat="conj" end="21" id="22" rel="body">
+                  <node begin="11" cat="ssub" end="17" id="23" rel="cnj">
+                    <node begin="11" end="12" id="24" index="2" rel="su"/>
+                    <node begin="14" end="15" id="25" lemma="worden" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="word" word="werden" wvorm="pv"/>
+                    <node begin="11" cat="ppart" end="17" id="26" rel="vc">
+                      <node begin="11" end="12" id="27" index="2" rel="obj1"/>
+                      <node begin="12" end="13" id="28" lemma="meestal" pos="adv" postag="BW()" pt="bw" rel="mod" root="meestal" word="meestal"/>
+                      <node begin="13" buiging="zonder" end="14" id="29" lemma="leiden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="geleid" word="geleid" wvorm="vd"/>
+                      <node begin="15" cat="pp" end="17" id="30" rel="mod">
+                        <node begin="15" end="16" id="31" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+                        <node begin="16" buiging="met-e" end="17" getal-n="mv-n" graad="comp" id="32" lemma="oud" pos="adj" positie="nom" postag="ADJ(nom,comp,met-e,mv-n)" pt="adj" rel="obj1" root="oud" word="ouderen"/>
+                      </node>
+                    </node>
+                  </node>
+                  <node begin="17" conjtype="neven" end="18" id="33" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                  <node begin="11" cat="ssub" end="21" id="34" rel="cnj">
+                    <node begin="11" end="12" id="35" index="2" rel="su"/>
+                    <node begin="18" buiging="zonder" end="19" graad="basis" id="36" lemma="feitelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="feitelijk" word="feitelijk"/>
+                    <node begin="19" end="20" getal="mv" graad="basis" id="37" lemma="jeugd_zorg_organisatie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="predc" root="jeugd_zorg_organisatie" word="jeugdzorgorganisaties"/>
+                    <node begin="20" end="21" id="38" lemma="zijn" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="ben" word="waren" wvorm="pv"/>
+                  </node>
+                </node>
+              </node>
+              <node begin="22" cat="ppart" end="31" id="39" rel="mod">
+                <node begin="22" end="23" id="40" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+                <node begin="23" buiging="zonder" end="24" id="41" lemma="bezielen" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="bezield" word="bezield" wvorm="vd"/>
+                <node begin="24" cat="pp" end="31" id="42" rel="mod">
+                  <node begin="24" end="25" id="43" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+                  <node begin="25" cat="np" end="31" id="44" rel="obj1">
+                    <node begin="25" end="26" id="45" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                    <node begin="26" cat="ppart" end="30" id="46" rel="mod">
+                      <node begin="26" cat="pp" end="29" id="47" rel="mod">
+                        <node begin="26" end="27" id="48" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+                        <node begin="27" cat="np" end="29" id="49" rel="obj1">
+                          <node begin="27" buiging="met-e" end="28" id="50" lemma="al" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,agr)" pt="vnw" rel="det" root="alle" vwtype="onbep" word="alle"/>
+                          <node begin="28" end="29" getal="mv" graad="basis" id="51" lemma="lid" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="lid" word="leden"/>
+                        </node>
+                      </node>
+                      <node begin="29" buiging="zonder" end="30" id="52" lemma="beleven" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="hd" root="beleefd" word="beleefd" wvorm="vd"/>
+                    </node>
+                    <node begin="30" end="31" genus="onz" getal="ev" graad="basis" id="53" lemma="ideaal" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="ideaal" word="ideaal"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="31" end="32" id="54" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Anderzijds was de Jeugdbeweging uiteengevallen in een groot aantal verenigingen , die meestal geleid werden door ouderen en feitelijk jeugdzorgorganisaties waren , niet bezield door een door alle leden beleefd ideaal .</sentence>
+</alpino_ds>

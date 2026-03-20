@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="smain" end="13" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="slechts" pos="adv" postag="BW()" pt="bw" rel="mod" root="slechts" word="Slechts"/>
+        <node begin="1" buiging="zonder" end="2" graad="basis" id="4" lemma="weinig" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,basis)" pt="vnw" rel="det" root="weinig" vwtype="onbep" word="weinig"/>
+        <node begin="2" end="3" getal="mv" graad="basis" id="5" lemma="Belg" ntype="eigen" pos="noun" postag="N(eigen,mv,basis)" pt="n" rel="hd" root="Belg" word="Belgen"/>
+      </node>
+      <node begin="3" end="4" id="6" lemma="laten" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="laat" word="lieten" wvorm="pv"/>
+      <node begin="4" end="5" id="7" lemma="dus" pos="adv" postag="BW()" pt="bw" rel="mod" root="dus" word="dus"/>
+      <node begin="5" cat="np" end="7" id="8" rel="obj1">
+        <node begin="5" end="6" id="9" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="10" lemma="traan" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="traan" word="traan"/>
+      </node>
+      <node begin="7" cat="cp" end="13" id="11" rel="mod">
+        <node begin="7" conjtype="onder" end="8" id="12" lemma="toen" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="toen" word="toen"/>
+        <node begin="8" cat="ssub" end="13" id="13" rel="body">
+          <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="14" index="1" lemma="Lumumba" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Lumumba" word="Lumumba"/>
+          <node begin="11" end="12" id="15" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+          <node begin="8" cat="ppart" end="13" id="16" rel="vc">
+            <node begin="8" end="9" id="17" index="1" rel="obj1"/>
+            <node begin="9" cat="ap" end="11" id="18" rel="mod">
+              <node begin="9" end="10" getal="ev" id="19" lemma="wat" naamval="stan" pdtype="pron" persoon="3o" pos="adv" postag="VNW(onbep,pron,stan,vol,3o,ev)" pt="vnw" rel="mod" root="wat" status="vol" vwtype="onbep" word="wat"/>
+              <node begin="10" buiging="zonder" end="11" graad="comp" id="20" lemma="laat" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="laat" word="later"/>
+            </node>
+            <node begin="12" buiging="zonder" end="13" id="21" lemma="vermoorden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="vermoord" word="vermoord" wvorm="vd"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Slechts weinig Belgen lieten dus een traan toen Lumumba wat later werd vermoord .</sentence>
+</alpino_ds>

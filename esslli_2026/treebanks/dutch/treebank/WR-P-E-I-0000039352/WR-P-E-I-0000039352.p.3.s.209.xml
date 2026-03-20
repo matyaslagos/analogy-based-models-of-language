@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="15" id="2" rel="--">
+      <node begin="0" cat="cp" end="7" id="3" rel="mod">
+        <node begin="0" conjtype="onder" end="1" id="4" lemma="omdat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="omdat" word="Omdat"/>
+        <node begin="1" cat="ssub" end="7" id="5" rel="body">
+          <node begin="1" end="2" getal="mv" id="6" lemma="zij" naamval="nomin" pdtype="pron" persoon="3p" pos="pron" postag="VNW(pers,pron,nomin,vol,3p,mv)" pt="vnw" rel="su" root="zij" status="vol" vwtype="pers" word="zij"/>
+          <node begin="2" cat="np" end="6" id="7" rel="obj1">
+            <node begin="2" end="3" id="8" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="3" cat="ap" end="5" id="9" rel="mod">
+              <node begin="3" buiging="zonder" end="4" graad="basis" id="10" lemma="relatief" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="relatief" word="relatief"/>
+              <node begin="4" buiging="met-e" end="5" graad="basis" id="11" lemma="zeldzaam" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="hd" root="zeldzaam" word="zeldzame"/>
+            </node>
+            <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="12" lemma="rang" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="rang" word="rang"/>
+          </node>
+          <node begin="6" end="7" id="13" lemma="bekleden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="bekleed" word="bekleden" wvorm="pv"/>
+        </node>
+      </node>
+      <node begin="8" end="9" id="14" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+      <node begin="9" cat="np" end="11" id="15" rel="su">
+        <node begin="9" buiging="zonder" end="10" getal="mv" id="16" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+        <node begin="10" end="11" getal="mv" graad="basis" id="17" lemma="uniform" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="uniform" word="uniformen"/>
+      </node>
+      <node begin="11" end="12" id="18" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+      <node begin="12" cat="pp" end="14" id="19" rel="mod">
+        <node begin="12" end="13" id="20" lemma="per" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="per" vztype="init" word="per"/>
+        <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="21" lemma="definitie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="definitie" word="definitie"/>
+      </node>
+      <node begin="14" buiging="zonder" end="15" graad="basis" id="22" lemma="standaard" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="standaard" word="standaard"/>
+    </node>
+    <node begin="15" end="16" id="23" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Omdat zij een relatief zeldzame rang bekleden , zijn hun uniformen niet per definitie standaard .</sentence>
+</alpino_ds>

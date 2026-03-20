@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="11" end="12" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="18" id="2" rel="--">
+      <node begin="0" cat="np" end="2" id="3" rel="su">
+        <node begin="0" end="1" id="4" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="5" lemma="steunpunt_programma" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="steunpuntenprogramma" word="steunpuntenprogramma"/>
+      </node>
+      <node begin="2" end="3" id="6" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="3" cat="np" end="18" id="7" rel="predc">
+        <node begin="3" end="4" id="8" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="9" lemma="hervorming" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="hervorming" word="hervorming"/>
+        <node begin="5" cat="pp" end="18" id="10" rel="mod">
+          <node begin="5" end="6" id="11" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="6" cat="np" end="18" id="12" rel="obj1">
+            <node begin="6" end="7" id="13" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="7" buiging="met-e" end="8" graad="comp" id="14" lemma="vroeg" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,comp,met-e,stan)" pt="adj" rel="mod" root="vroeg" word="vroegere"/>
+            <node begin="8" cat="mwu" end="11" id="15" rel="hd">
+              <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="16" lemma="programma" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="Programma" word="Programma"/>
+              <node begin="9" buiging="zonder" end="10" graad="basis" id="17" lemma="beleid_gericht" pos="name" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mwp" root="Beleidsgericht" word="Beleidsgericht"/>
+              <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="18" lemma="onderzoek" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="Onderzoek" word="Onderzoek"/>
+            </node>
+            <node begin="12" cat="rel" end="18" id="19" rel="mod">
+              <node begin="12" end="13" id="20" index="1" lemma="waarbij" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waarbij" word="waarbij"/>
+              <node begin="12" cat="ssub" end="18" id="21" rel="body">
+                <node begin="16" end="17" id="22" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+                <node begin="12" cat="ppart" end="18" id="23" rel="vc">
+                  <node begin="12" end="13" id="24" index="1" rel="mod"/>
+                  <node begin="13" cat="pp" end="16" id="25" rel="mod">
+                    <node begin="13" end="14" id="26" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+                    <node begin="14" cat="np" end="16" id="27" rel="obj1">
+                      <node begin="14" buiging="met-e" end="15" graad="basis" id="28" lemma="projectmatig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="projectmatig" word="projectmatige"/>
+                      <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="29" lemma="basis" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="basis" word="basis"/>
+                    </node>
+                  </node>
+                  <node begin="17" buiging="zonder" end="18" id="30" lemma="werken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="werk" word="gewerkt" wvorm="vd"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="31" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het steunpuntenprogramma is een hervorming van het vroegere Programma Beleidsgericht Onderzoek , waarbij op projectmatige basis werd gewerkt .</sentence>
+</alpino_ds>

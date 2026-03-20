@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="6" end="7" id="2" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="du" end="8" id="3" rel="--">
+      <node begin="0" cat="mwu" end="2" id="4" rel="dp">
+        <node begin="0" end="1" id="5" lemma="Fernand" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Fernand" spectype="deeleigen" word="Fernand"/>
+        <node begin="1" end="2" id="6" lemma="Costermans" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Costermans" spectype="deeleigen" word="Costermans"/>
+      </node>
+      <node begin="3" cat="np" end="8" id="7" rel="dp">
+        <node begin="3" cat="mwu" end="6" id="8" rel="hd">
+          <node begin="3" end="4" id="9" lemma="Jaak" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Jaak" spectype="deeleigen" word="Jaak"/>
+          <node begin="4" end="5" id="10" lemma="Van" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Van" spectype="deeleigen" word="Van"/>
+          <node begin="5" end="6" id="11" lemma="Assche" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Assche" spectype="deeleigen" word="Assche"/>
+        </node>
+        <node begin="7" end="8" id="12" lemma="2000-" pos="num" postag="SPEC(symb)" pt="spec" rel="mod" root="2000-" spectype="symb" word="2000-"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="13" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+  </node>
+  <sentence>Fernand Costermans - Jaak Van Assche ( 2000- )</sentence>
+</alpino_ds>

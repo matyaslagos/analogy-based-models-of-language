@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="np" end="12" id="1" rel="--">
+      <node begin="0" end="1" id="2" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+      <node begin="1" buiging="met-e" end="2" graad="basis" id="3" lemma="hoog" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="hoog" word="hoge"/>
+      <node begin="2" end="3" getal="mv" graad="basis" id="4" lemma="trein_tarief" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="trein_tarief" word="treintarieven"/>
+      <node begin="3" cat="pp" end="12" id="5" rel="mod">
+        <node begin="3" end="4" id="6" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+        <node begin="4" cat="conj" end="12" id="7" rel="obj1">
+          <node begin="4" cat="whrel" end="10" id="8" rel="cnj">
+            <node begin="4" end="5" getal="getal" id="9" index="1" lemma="wie" naamval="stan" pdtype="pron" persoon="3p" pos="pron" postag="VNW(vb,pron,stan,vol,3p,getal)" pt="vnw" rel="rhd" root="wie" status="vol" vwtype="vb" word="wie"/>
+            <node begin="4" cat="ssub" end="10" id="10" rel="body">
+              <node begin="4" end="5" id="11" index="1" rel="su"/>
+              <node begin="5" cat="pp" end="7" id="12" rel="mod">
+                <node begin="5" end="6" id="13" lemma="vanuit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="vanuit" vztype="init" word="vanuit"/>
+                <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="14" lemma="Vlaanderen" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Vlaanderen" word="Vlaanderen"/>
+              </node>
+              <node begin="7" cat="pp" end="9" id="15" rel="ld">
+                <node begin="7" end="8" id="16" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+                <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="17" lemma="Frankrijk" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Frankrijk" word="Frankrijk"/>
+              </node>
+              <node begin="9" end="10" id="18" lemma="reizen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="reis" word="reist" wvorm="pv"/>
+            </node>
+          </node>
+          <node begin="10" conjtype="neven" end="11" id="19" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+          <node begin="11" end="12" id="20" lemma="andersom" pos="adv" postag="BW()" pt="bw" rel="cnj" root="andersom" word="andersom"/>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" id="21" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>de hoge treintarieven voor wie vanuit Vlaanderen naar Frankrijk reist of andersom .</sentence>
+</alpino_ds>

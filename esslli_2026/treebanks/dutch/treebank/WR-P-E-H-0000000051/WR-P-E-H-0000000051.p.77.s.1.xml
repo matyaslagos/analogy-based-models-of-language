@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="·" pos="tag" postag="LET()" pt="let" rel="--" root="·" word="·"/>
+    <node begin="3" end="4" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="7" end="8" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="1" cat="conj" end="9" id="4" rel="--">
+      <node begin="1" cat="np" end="3" id="5" rel="cnj">
+        <node begin="1" buiging="met-e" end="2" graad="basis" id="6" lemma="ontwikkeling_relevant" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ontwikkeling_relevant" word="Ontwikkelingsrelevante"/>
+        <node begin="2" end="3" getal="mv" graad="basis" id="7" lemma="factor" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="factor" word="factoren"/>
+      </node>
+      <node begin="4" cat="mwu" end="7" id="8" rel="cnj">
+        <node begin="4" end="5" id="9" lemma="Human" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Human" spectype="vreemd" word="Human"/>
+        <node begin="5" end="6" id="10" lemma="Development" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Development" spectype="vreemd" word="Development"/>
+        <node begin="6" end="7" id="11" lemma="Report" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Report" spectype="vreemd" word="Report"/>
+      </node>
+      <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="12" lemma="UNDP" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="UNDP" word="UNDP"/>
+    </node>
+  </node>
+  <sentence>· Ontwikkelingsrelevante factoren , Human Development Report , UNDP</sentence>
+</alpino_ds>

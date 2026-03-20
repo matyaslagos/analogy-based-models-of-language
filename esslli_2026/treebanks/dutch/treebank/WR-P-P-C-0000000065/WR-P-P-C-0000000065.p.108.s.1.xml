@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="10" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="np" end="10" id="2" rel="--">
+      <node begin="0" end="1" id="3" lemma="telefoon" pos="noun" postag="SPEC(afk)" pt="spec" rel="hd" root="telefoon_nummer" spectype="afk" word="Tel."/>
+      <node begin="2" cat="mwu" end="10" id="4" rel="app">
+        <node begin="2" end="3" id="5" lemma="(" pos="punct" postag="LET()" pt="let" rel="mwp" root="(" word="("/>
+        <node begin="3" end="4" id="6" lemma="+" pos="punct" postag="SPEC(symb)" pt="spec" rel="mwp" root="+" spectype="symb" word="+"/>
+        <node begin="4" end="5" id="7" lemma="32" pos="num" postag="SPEC(symb)" pt="spec" rel="mwp" root="32" spectype="symb" word="32"/>
+        <node begin="5" end="6" id="8" lemma=")" pos="punct" postag="LET()" pt="let" rel="mwp" root=")" word=")"/>
+        <node begin="6" end="7" id="9" lemma="87" pos="num" postag="SPEC(symb)" pt="spec" rel="mwp" root="87" spectype="symb" word="87"/>
+        <node begin="7" end="8" id="10" lemma="59" pos="num" postag="SPEC(symb)" pt="spec" rel="mwp" root="59" spectype="symb" word="59"/>
+        <node begin="8" end="9" id="11" lemma="63" pos="num" postag="SPEC(symb)" pt="spec" rel="mwp" root="63" spectype="symb" word="63"/>
+        <node begin="9" end="10" id="12" lemma="46" pos="num" postag="SPEC(symb)" pt="spec" rel="mwp" root="46" spectype="symb" word="46"/>
+      </node>
+    </node>
+  </node>
+  <sentence>Tel. : ( + 32 ) 87 59 63 46</sentence>
+</alpino_ds>

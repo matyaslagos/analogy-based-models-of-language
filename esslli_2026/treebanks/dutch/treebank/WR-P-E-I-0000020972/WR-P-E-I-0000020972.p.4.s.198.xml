@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="0" cat="smain" end="17" id="1" rel="--">
+      <node begin="0" cat="pp" end="3" id="2" rel="mod">
+        <node begin="0" end="1" id="3" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="Bij"/>
+        <node begin="1" cat="np" end="3" id="4" rel="obj1">
+          <node begin="1" buiging="zonder" end="2" graad="basis" id="5" lemma="warm" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="warm" word="warm"/>
+          <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="6" lemma="weer" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="weer" word="weer"/>
+        </node>
+      </node>
+      <node begin="3" end="4" id="7" lemma="zorgen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="zorg" word="zorgt" wvorm="pv"/>
+      <node begin="4" cat="np" end="6" id="8" rel="su">
+        <node begin="4" end="5" id="9" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="10" lemma="hommel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="hommel" word="hommel"/>
+      </node>
+      <node begin="6" cat="pp" end="9" id="11" rel="mod">
+        <node begin="6" end="7" id="12" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="7" cat="np" end="9" id="13" rel="obj1">
+          <node begin="7" end="8" id="14" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="15" lemma="nest_kast_opening" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="nest_kast_opening" word="nestkastopening"/>
+        </node>
+      </node>
+      <node begin="9" cat="cp" end="15" id="16" rel="mod">
+        <node begin="9" end="10" id="17" lemma="door" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="door" vztype="init" word="door"/>
+        <node begin="10" cat="ti" end="15" id="18" rel="body">
+          <node begin="13" end="14" id="19" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+          <node begin="10" cat="inf" end="15" id="20" rel="body">
+            <node begin="10" cat="np" end="12" id="21" rel="obj1">
+              <node begin="10" end="11" id="22" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="11" end="12" getal="mv" graad="basis" id="23" lemma="vleugel" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vleugel" word="vleugels"/>
+            </node>
+            <node begin="12" buiging="zonder" end="13" graad="basis" id="24" lemma="snel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="snel" word="snel"/>
+            <node begin="14" buiging="zonder" end="15" id="25" lemma="bewegen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="beweeg" word="bewegen" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+      <node begin="15" cat="pp" end="17" id="26" rel="pc">
+        <node begin="15" end="16" id="27" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+        <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="28" lemma="ventilatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="ventilatie" word="ventilatie"/>
+      </node>
+    </node>
+    <node begin="17" end="18" id="29" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Bij warm weer zorgt een hommel in de nestkastopening door de vleugels snel te bewegen voor ventilatie .</sentence>
+</alpino_ds>

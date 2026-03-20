@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="0" cat="smain" end="16" id="1" rel="--">
+      <node begin="1" end="2" id="2" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" word="worden" wvorm="pv"/>
+      <node begin="2" cat="np" end="11" id="3" index="1" rel="su">
+        <node begin="2" end="3" id="4" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="3" cat="ap" end="5" id="5" rel="mod">
+          <node begin="3" buiging="zonder" end="4" graad="basis" id="6" lemma="bijzonder" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="bijzonder" word="bijzonder"/>
+          <node begin="4" buiging="met-e" end="5" graad="basis" id="7" lemma="aanzienlijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="hd" root="aanzienlijk" word="aanzienlijke"/>
+        </node>
+        <node begin="5" buiging="zonder" end="6" graad="basis" id="8" lemma="extra" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="extra" word="extra"/>
+        <node begin="6" end="7" getal="mv" graad="basis" id="9" lemma="middel" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="middel" word="middelen"/>
+        <node begin="7" cat="pp" end="11" id="10" rel="mod">
+          <node begin="7" end="8" id="11" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="8" cat="np" end="11" id="12" rel="obj1">
+            <node begin="8" end="9" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="9" buiging="met-e" end="10" graad="basis" id="14" lemma="hoofdstedelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="hoofdstedelijk" word="hoofdstedelijke"/>
+            <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="15" lemma="dotatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="dotatie" word="dotatie"/>
+          </node>
+        </node>
+      </node>
+      <node begin="0" cat="ppart" end="16" id="16" rel="vc">
+        <node begin="0" end="1" id="17" lemma="zo" pos="adv" postag="BW()" pt="bw" rel="mod" root="zo" word="Zo"/>
+        <node begin="2" end="11" id="18" index="1" rel="obj1"/>
+        <node begin="11" buiging="zonder" end="12" id="19" lemma="verdelen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="verdeel" word="verdeeld" wvorm="vd"/>
+        <node begin="12" cat="pp" end="16" id="20" rel="pc">
+          <node begin="12" end="13" id="21" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" vztype="init" word="over"/>
+          <node begin="13" cat="np" end="16" id="22" rel="obj1">
+            <node begin="13" buiging="met-e" end="14" id="23" lemma="al" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,agr)" pt="vnw" rel="det" root="alle" vwtype="onbep" word="alle"/>
+            <node begin="14" buiging="met-e" end="15" graad="basis" id="24" lemma="Brussels" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Brussels" word="Brusselse"/>
+            <node begin="15" end="16" getal="mv" graad="basis" id="25" lemma="gemeente" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="gemeente" word="gemeenten"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="26" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Zo worden de bijzonder aanzienlijke extra middelen van de hoofdstedelijke dotatie verdeeld over alle Brusselse gemeenten .</sentence>
+</alpino_ds>

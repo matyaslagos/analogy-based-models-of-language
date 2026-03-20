@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="cp" end="7" id="1" rel="--">
+      <node begin="0" conjtype="onder" end="1" id="2" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="Dat"/>
+      <node begin="1" cat="ssub" end="7" id="3" rel="body">
+        <node begin="1" cat="np" end="3" id="4" index="1" rel="su">
+          <node begin="1" end="2" id="5" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="6" lemma="behandelaar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="behandelaar" word="behandelaar"/>
+        </node>
+        <node begin="5" end="6" id="7" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" word="kan" wvorm="pv"/>
+        <node begin="1" cat="inf" end="7" id="8" rel="vc">
+          <node begin="1" end="3" id="9" index="1" rel="su"/>
+          <node begin="3" end="4" getal="getal" id="10" lemma="je" naamval="obl" pdtype="pron" persoon="2v" pos="det" postag="VNW(pr,pron,obl,red,2v,getal)" pt="vnw" rel="obj2" root="je" status="red" vwtype="pr" word="je"/>
+          <node begin="4" end="5" getal="ev" id="11" lemma="niks" naamval="stan" pdtype="pron" persoon="3o" pos="noun" postag="VNW(onbep,pron,stan,vol,3o,ev)" pt="vnw" rel="obj1" root="niks" status="vol" vwtype="onbep" word="niks"/>
+          <node begin="6" buiging="zonder" end="7" id="12" lemma="leren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="leer" word="leren" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="7" end="8" id="13" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dat een behandelaar je niks kan leren .</sentence>
+</alpino_ds>

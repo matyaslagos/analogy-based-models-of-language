@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="9" end="10" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="19" id="2" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="3" lemma="en" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="en" word="En"/>
+      <node begin="1" cat="smain" end="19" id="4" rel="nucl">
+        <node begin="2" end="3" id="5" lemma="gaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ga" word="gaat" wvorm="pv"/>
+        <node begin="3" cat="np" end="5" id="6" index="1" rel="su">
+          <node begin="3" end="4" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="8" lemma="KNVB" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="KNVB" word="KNVB"/>
+        </node>
+        <node begin="1" cat="inf" end="19" id="9" rel="vc">
+          <node begin="1" end="2" id="10" lemma="binnenkort" pos="adv" postag="BW()" pt="bw" rel="mod" root="binnenkort" word="binnenkort"/>
+          <node begin="3" end="5" id="11" index="1" rel="su"/>
+          <node begin="5" end="6" id="12" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+          <node begin="6" cat="pp" end="13" id="13" rel="mod">
+            <node begin="6" end="7" id="14" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+            <node begin="7" cat="np" end="13" id="15" rel="obj1">
+              <node begin="7" end="8" getal="ev" graad="basis" id="16" lemma="Advocaat" naamval="gen" ntype="eigen" pos="det" postag="N(eigen,ev,basis,gen)" pt="n" rel="det" root="Advocaat" word="Advocaats"/>
+              <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="17" lemma="assistent" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="assistent" word="assistent"/>
+              <node begin="10" cat="mwu" end="13" id="18" rel="app">
+                <node begin="10" end="11" id="19" lemma="Willem" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Willem" spectype="deeleigen" word="Willem"/>
+                <node begin="11" end="12" id="20" lemma="van" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="van" spectype="deeleigen" word="van"/>
+                <node begin="12" end="13" id="21" lemma="Hanegem" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Hanegem" spectype="deeleigen" word="Hanegem"/>
+              </node>
+            </node>
+          </node>
+          <node begin="13" buiging="zonder" end="14" id="22" lemma="onderhandelen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="onderhandel" word="onderhandelen" wvorm="inf"/>
+          <node begin="14" cat="pp" end="19" id="23" rel="pc">
+            <node begin="14" end="15" id="24" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" vztype="init" word="over"/>
+            <node begin="15" cat="np" end="19" id="25" rel="obj1">
+              <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="26" lemma="verlenging" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="verlenging" word="verlenging"/>
+              <node begin="16" cat="pp" end="19" id="27" rel="mod">
+                <node begin="16" end="17" id="28" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="17" cat="np" end="19" id="29" rel="obj1">
+                  <node begin="17" end="18" getal="ev" id="30" lemma="die" naamval="gen" pdtype="pron" persoon="3m" pos="det" postag="VNW(aanw,pron,gen,vol,3m,ev)" pt="vnw" rel="det" root="diens" status="vol" vwtype="aanw" word="diens"/>
+                  <node begin="18" end="19" genus="onz" getal="ev" graad="basis" id="31" lemma="contract" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="contract" word="contract"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="32" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>En binnenkort gaat de KNVB ook met Advocaats assistent , Willem van Hanegem onderhandelen over verlenging van diens contract .</sentence>
+</alpino_ds>

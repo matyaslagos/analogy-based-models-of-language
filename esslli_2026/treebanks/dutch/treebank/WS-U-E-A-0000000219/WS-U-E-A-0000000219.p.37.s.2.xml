@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="14" end="15" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="1" cat="du" end="19" id="3" rel="--">
+      <node begin="1" cat="smain" end="14" id="4" rel="dp">
+        <node begin="2" end="3" id="5" lemma="dreigen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="dreig" word="dreigt" wvorm="pv"/>
+        <node begin="1" cat="ti" end="14" id="6" rel="vc">
+          <node begin="6" end="7" id="7" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+          <node begin="1" cat="inf" end="14" id="8" rel="body">
+            <node begin="1" end="2" getal="getal" id="9" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="Er"/>
+            <node begin="7" buiging="zonder" end="8" id="10" lemma="komen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="kom" word="komen" wvorm="inf"/>
+            <node begin="3" cat="np" end="14" id="11" index="1" rel="su">
+              <node begin="3" end="4" id="12" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="4" buiging="met-e" end="5" graad="basis" id="13" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" word="nieuwe"/>
+              <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="14" lemma="partij" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="partij" word="partij"/>
+              <node begin="8" cat="rel" end="14" id="15" rel="mod">
+                <node begin="8" end="9" getal="getal" id="16" index="2" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+                <node begin="8" cat="ssub" end="14" id="17" rel="body">
+                  <node begin="8" end="9" id="18" index="2" rel="su"/>
+                  <node begin="9" end="10" getal="getal" id="19" lemma="zich" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="obj1" root="zich" status="red" vwtype="refl" word="zich"/>
+                  <node begin="10" end="11" id="20" lemma="af_splitsen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="splits_af" word="afsplitst" wvorm="pv"/>
+                  <node begin="11" cat="pp" end="14" id="21" rel="mod">
+                    <node begin="11" end="12" id="22" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                    <node begin="12" cat="np" end="14" id="23" rel="obj1">
+                      <node begin="12" end="13" id="24" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                      <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="25" lemma="SPD" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="SPD" word="SPD"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="3" end="14" id="26" index="1" rel="su"/>
+      </node>
+      <node begin="15" cat="whq" end="19" id="27" rel="dp">
+        <node begin="15" cat="ap" end="17" id="28" index="3" rel="whd">
+          <node begin="15" end="16" id="29" lemma="hoe" pos="adj" postag="BW()" pt="bw" rel="mod" root="hoe" word="hoe"/>
+          <node begin="16" buiging="zonder" end="17" graad="basis" id="30" lemma="serieus" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="serieus" word="serieus"/>
+        </node>
+        <node begin="15" cat="sv1" end="19" id="31" rel="body">
+          <node begin="15" end="17" id="32" index="3" rel="predc"/>
+          <node begin="17" end="18" id="33" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+          <node begin="18" end="19" getal="ev" id="34" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" root="dat" status="vol" vwtype="aanw" word="dat"/>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="35" lemma="?" pos="punct" postag="LET()" pt="let" rel="--" root="?" word="?"/>
+  </node>
+  <sentence>- Er dreigt een nieuwe partij te komen die zich afsplitst van de SPD , hoe serieus is dat ?</sentence>
+</alpino_ds>

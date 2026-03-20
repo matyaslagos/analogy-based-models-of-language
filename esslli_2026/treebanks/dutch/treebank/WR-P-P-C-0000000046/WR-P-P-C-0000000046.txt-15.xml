@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="24" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="5" end="6" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="7" end="8" id="3" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="10" end="11" id="4" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="0" cat="smain" end="23" id="5" rel="--">
+      <node begin="0" cat="conj" end="14" id="6" index="1" rel="su">
+        <node begin="1" conjtype="neven" end="2" id="7" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="0" cat="np" end="14" id="8" rel="cnj">
+          <node begin="0" end="1" getal="mv" graad="basis" id="9" lemma="club" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="club" word="Clubs"/>
+          <node begin="4" cat="conj" end="10" id="10" index="2" rel="mod">
+            <node begin="4" end="5" id="11" lemma="studenten-" pos="prefix" postag="SPEC(afgebr)" pt="spec" rel="cnj" root="studenten" spectype="afgebr" word="studenten-"/>
+            <node begin="6" end="7" id="12" lemma="sport" pos="prefix" postag="SPEC(afgebr)" pt="spec" rel="cnj" root="sport" spectype="afgebr" word="sport"/>
+            <node begin="8" conjtype="neven" end="9" id="13" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="9" end="10" getal="mv" graad="basis" id="14" lemma="buurt_vereniging" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="buurt_vereniging" word="buurtverenigingen"/>
+          </node>
+          <node begin="11" cat="rel" end="14" id="15" index="3" rel="mod">
+            <node begin="11" end="12" getal="getal" id="16" index="4" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+            <node begin="11" cat="ssub" end="14" id="17" rel="body">
+              <node begin="11" end="12" id="18" index="4" rel="su"/>
+              <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="19" lemma="alcohol" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="alcohol" word="alcohol"/>
+              <node begin="13" end="14" id="20" lemma="schenken" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="schenk" word="schenken" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+        <node begin="2" cat="np" end="14" id="21" rel="cnj">
+          <node begin="2" end="3" getal="mv" graad="basis" id="22" lemma="vereniging" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vereniging" word="verenigingen"/>
+          <node begin="4" end="10" id="23" index="2" rel="mod"/>
+          <node begin="11" end="14" id="24" index="3" rel="mod"/>
+        </node>
+      </node>
+      <node begin="14" end="15" id="25" lemma="moeten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="moet" word="moeten" wvorm="pv"/>
+      <node begin="0" cat="inf" end="23" id="26" rel="vc">
+        <node begin="0" end="14" id="27" index="1" rel="su"/>
+        <node begin="17" buiging="zonder" end="18" id="28" lemma="hebben" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="heb" word="hebben" wvorm="inf"/>
+        <node begin="15" cat="np" end="23" id="29" rel="obj1">
+          <node begin="15" end="16" id="30" lemma="twee" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="twee" word="twee"/>
+          <node begin="16" buiging="met-e" end="17" getal-n="mv-n" id="31" lemma="leiding_geven" pos="adj" positie="nom" postag="WW(od,nom,met-e,mv-n)" pt="ww" rel="hd" root="leidinggevend" word="leidinggevenden" wvorm="od"/>
+          <node begin="18" cat="pp" end="23" id="32" rel="mod">
+            <node begin="18" end="19" id="33" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+            <node begin="19" cat="np" end="23" id="34" rel="obj1">
+              <node begin="19" end="20" id="35" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="20" end="21" genus="onz" getal="ev" graad="basis" id="36" lemma="diploma" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="diploma" word="diploma"/>
+              <node begin="21" cat="mwu" end="23" id="37" rel="app">
+                <node begin="21" buiging="met-e" end="22" graad="basis" id="38" lemma="sociaal" naamval="stan" pos="name" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mwp" root="Sociale" word="Sociale"/>
+                <node begin="22" end="23" genus="zijd" getal="ev" graad="basis" id="39" lemma="hygiene" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Hygiëne" word="Hygiëne"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="23" end="24" id="40" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Clubs en verenigingen ( studenten- , sport - en buurtverenigingen ) die alcohol schenken moeten twee leidinggevenden hebben met het diploma Sociale Hygiëne .</sentence>
+</alpino_ds>

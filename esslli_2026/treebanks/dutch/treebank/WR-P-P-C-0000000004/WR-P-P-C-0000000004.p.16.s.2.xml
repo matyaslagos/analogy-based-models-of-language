@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="8" end="9" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="21" id="3" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="4" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" word="Maar"/>
+      <node begin="2" cat="smain" end="21" id="5" rel="nucl">
+        <node begin="9" end="10" id="6" lemma="mogen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="mag" word="mag" wvorm="pv"/>
+        <node begin="10" cat="np" end="12" id="7" index="1" rel="su">
+          <node begin="10" end="11" id="8" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="9" lemma="echt_genoot" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="echtgenoot" word="echtgenoot"/>
+        </node>
+        <node begin="16" end="17" id="10" lemma="zelf" pos="adv" postag="BW()" pt="bw" rel="predm" root="zelf" word="zelf"/>
+        <node begin="2" cat="inf" end="21" id="11" rel="vc">
+          <node begin="10" end="12" id="12" index="1" rel="su"/>
+          <node begin="19" buiging="zonder" end="20" id="13" lemma="blijven" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="blijf" word="blijven" wvorm="inf"/>
+          <node begin="2" cat="inf" end="21" id="14" rel="vc">
+            <node begin="2" cat="cp" end="8" id="15" rel="mod">
+              <node begin="2" conjtype="onder" end="3" id="16" lemma="hoewel" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="hoewel" word="hoewel"/>
+              <node begin="3" cat="ssub" end="8" id="17" rel="body">
+                <node begin="3" cat="np" end="5" id="18" rel="su">
+                  <node begin="3" end="4" id="19" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="4" end="5" getal="mv" graad="basis" id="20" lemma="kind" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kind" word="kinderen"/>
+                </node>
+                <node begin="5" end="6" id="21" lemma="nu" pos="adv" postag="BW()" pt="bw" rel="mod" root="nu" word="nu"/>
+                <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="22" lemma="eigenaar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="predc" root="eigenaar" word="eigenaar"/>
+                <node begin="7" end="8" id="23" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+              </node>
+            </node>
+            <node begin="10" end="12" id="24" index="1" rel="su"/>
+            <node begin="12" cat="pp" end="15" id="25" rel="mod">
+              <node begin="12" end="13" id="26" lemma="tijdens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tijdens" vztype="init" word="tijdens"/>
+              <node begin="13" cat="np" end="15" id="27" rel="obj1">
+                <node begin="13" buiging="zonder" end="14" getal="ev" id="28" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pt="vnw" rel="det" root="zijn" status="vol" vwtype="bez" word="zijn"/>
+                <node begin="14" end="15" genus="onz" getal="ev" graad="basis" id="29" lemma="leven" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="leven" word="leven"/>
+              </node>
+            </node>
+            <node begin="15" end="16" id="30" lemma="wel" pos="adv" postag="BW()" pt="bw" rel="mod" root="wel" word="wél"/>
+            <node begin="17" cat="np" end="19" id="31" rel="obj1">
+              <node begin="17" end="18" id="32" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="18" end="19" getal="mv" graad="basis" id="33" lemma="goed" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="goed" word="goederen"/>
+            </node>
+            <node begin="20" buiging="zonder" end="21" id="34" lemma="gebruiken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="gebruik" word="gebruiken" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="21" end="22" id="35" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Maar : hoewel de kinderen nu eigenaar zijn , mag de echtgenoot tijdens zijn leven wél zelf de goederen blijven gebruiken .</sentence>
+</alpino_ds>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="15" end="16" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="19" id="2" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="3" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" word="Maar"/>
+      <node begin="1" cat="smain" end="19" id="4" rel="nucl">
+        <node begin="1" end="2" genus="masc" getal="ev" id="5" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="hij"/>
+        <node begin="2" end="3" id="6" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+        <node begin="3" cat="ap" end="19" id="7" rel="predc">
+          <node begin="3" end="4" id="8" lemma="vooral" pos="adv" postag="BW()" pt="bw" rel="mod" root="vooral" word="vooral"/>
+          <node begin="4" buiging="zonder" end="5" graad="basis" id="9" lemma="bekend" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="bekend" word="bekend"/>
+          <node begin="5" cat="cp" end="19" id="10" rel="mod">
+            <node begin="5" conjtype="onder" end="6" id="11" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+            <node begin="6" cat="np" end="19" id="12" rel="body">
+              <node begin="6" end="7" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="7" end="8" id="14" lemma="één" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="eerste" word="eerste"/>
+              <node begin="8" buiging="met-e" end="9" graad="basis" id="15" lemma="Haags" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Haags" word="Haagse"/>
+              <node begin="9" buiging="met-e" end="10" graad="basis" id="16" lemma="politiek" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="politiek" word="politieke"/>
+              <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="17" lemma="verslaggever" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="verslaggever" word="verslaggever"/>
+              <node begin="11" cat="pp" end="19" id="18" rel="mod">
+                <node begin="11" end="12" id="19" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+                <node begin="12" cat="np" end="19" id="20" rel="obj1">
+                  <node begin="12" end="13" id="21" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="13" buiging="met-e" end="14" graad="basis" id="22" lemma="toenmalig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="toenmalig" word="toenmalige"/>
+                  <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="23" lemma="NTS" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="NTS" word="NTS"/>
+                  <node begin="16" cat="np" end="19" id="24" rel="app">
+                    <node begin="16" end="17" id="25" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="17" buiging="met-e" end="18" graad="comp" id="26" lemma="laat" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,comp,met-e,stan)" pt="adj" rel="mod" root="laat" word="latere"/>
+                    <node begin="18" end="19" genus="zijd" getal="ev" graad="basis" id="27" lemma="NOS" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="NOS" word="NOS"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="28" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Maar hij werd vooral bekend als de eerste Haagse politieke verslaggever voor de toenmalige NTS , de latere NOS .</sentence>
+</alpino_ds>

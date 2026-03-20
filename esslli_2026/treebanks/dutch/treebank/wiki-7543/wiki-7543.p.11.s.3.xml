@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="52" id="0" rel="top">
+    <node begin="27" end="28" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="51" id="2" rel="--">
+      <node begin="0" cat="np" end="2" id="3" rel="su">
+        <node begin="0" buiging="met-e" end="1" graad="basis" id="4" lemma="ander" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ander" word="Andere"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="5" lemma="oorlog_monument" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="oorlogsmonument" word="oorlogsmonumenten"/>
+      </node>
+      <node begin="2" end="3" id="6" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+      <node begin="3" cat="conj" end="51" id="7" rel="predc">
+        <node begin="3" cat="np" end="18" id="8" rel="cnj">
+          <node begin="3" end="4" id="9" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="10" lemma="herdenking_zuil" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="herdenkingszuil" word="herdenkingszuil"/>
+          <node begin="5" cat="pp" end="18" id="11" rel="mod">
+            <node begin="5" end="6" id="12" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+            <node begin="6" cat="np" end="18" id="13" rel="obj1">
+              <node begin="6" buiging="met-e" end="7" graad="basis" id="14" lemma="Amerikaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Amerikaans" word="Amerikaanse"/>
+              <node begin="7" end="8" getal="mv" graad="basis" id="15" lemma="infanterie_soldaat" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="infanteriesoldaat" word="infanteriesoldaten"/>
+              <node begin="8" cat="rel" end="18" id="16" rel="mod">
+                <node begin="8" end="9" getal="getal" id="17" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+                <node begin="8" cat="ssub" end="18" id="18" rel="body">
+                  <node begin="8" end="9" id="19" index="1" rel="su"/>
+                  <node begin="9" cat="pp" end="13" id="20" rel="mod">
+                    <node begin="9" end="10" id="21" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                    <node begin="10" cat="np" end="13" id="22" rel="obj1">
+                      <node begin="10" end="11" id="23" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                      <node begin="11" cat="mwu" end="13" id="24" rel="hd">
+                        <node begin="11" end="12" id="25" lemma="Eerste" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Eerste" spectype="deeleigen" word="Eerste"/>
+                        <node begin="12" end="13" id="26" lemma="Wereldoorlog" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Wereldoorlog" spectype="deeleigen" word="Wereldoorlog"/>
+                      </node>
+                    </node>
+                  </node>
+                  <node begin="13" cat="pp" end="15" id="27" rel="ld">
+                    <node begin="13" end="14" id="28" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                    <node begin="14" end="15" genus="onz" getal="ev" graad="basis" id="29" lemma="Oudenaarde" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Oudenaarde" word="Oudenaarde"/>
+                  </node>
+                  <node begin="15" cat="np" end="17" id="30" rel="obj1">
+                    <node begin="15" end="16" id="31" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="32" lemma="Schelde" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Schelde" word="Schelde"/>
+                  </node>
+                  <node begin="17" end="18" id="33" lemma="over_steken" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="steek_over" word="overstaken" wvorm="pv"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="18" conjtype="neven" end="19" id="34" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="19" cat="np" end="51" id="35" rel="cnj">
+          <node begin="19" end="20" id="36" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="20" end="21" genus="onz" getal="ev" graad="basis" id="37" lemma="monument" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="monument" word="monument"/>
+          <node begin="21" cat="pp" end="23" id="38" rel="mod">
+            <node begin="21" end="22" id="39" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="22" end="23" genus="zijd" getal="ev" graad="basis" id="40" lemma="Tacambaro" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" root="Tacambaro" word="Tacambaro"/>
+          </node>
+          <node begin="23" cat="pp" end="27" id="41" rel="mod">
+            <node begin="23" end="24" id="42" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+            <node begin="24" cat="np" end="27" id="43" rel="obj1">
+              <node begin="24" end="25" id="44" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="25" buiging="met-e" end="26" graad="basis" id="45" lemma="gelijknamig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="gelijknamig" word="gelijknamige"/>
+              <node begin="26" end="27" genus="onz" getal="ev" graad="basis" id="46" lemma="plein" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="plein" word="plein"/>
+            </node>
+          </node>
+          <node begin="28" cat="conj" end="51" id="47" rel="mod">
+            <node begin="28" cat="ppart" end="41" id="48" rel="cnj">
+              <node begin="28" buiging="zonder" end="29" id="49" lemma="op_richten" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="opgericht" word="opgericht" wvorm="vd"/>
+              <node begin="29" cat="pp" end="41" id="50" rel="mod">
+                <node begin="29" end="30" id="51" lemma="te" pos="prep" postag="VZ(versm)" pt="vz" rel="hd" root="te" vztype="versm" word="ter"/>
+                <node begin="30" cat="np" end="41" id="52" rel="obj1">
+                  <node begin="30" end="31" genus="zijd" getal="ev" graad="basis" id="53" lemma="nagedachtenis" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="nagedachtenis" word="nagedachtenis"/>
+                  <node begin="31" cat="pp" end="41" id="54" rel="mod">
+                    <node begin="31" end="32" id="55" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                    <node begin="32" cat="np" end="41" id="56" rel="obj1">
+                      <node begin="32" buiging="met-e" end="33" id="57" lemma="enkel" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="enkel" vwtype="onbep" word="enkele"/>
+                      <node begin="33" end="34" getal="mv" graad="basis" id="58" lemma="tiental" ntype="soort" pos="det" postag="N(soort,mv,basis)" pt="n" rel="hd" root="tientallen" word="tientallen"/>
+                      <node begin="34" cat="np" end="41" id="59" rel="mod">
+                        <node begin="34" end="35" getal="mv" graad="basis" id="60" lemma="Oudenaardenaar" ntype="soort" pos="name" postag="N(soort,mv,basis)" pt="n" rel="hd" root="Oudenaardenaren" word="Oudenaardenaren"/>
+                        <node begin="35" cat="rel" end="41" id="61" rel="mod">
+                          <node begin="35" end="36" getal="getal" id="62" index="2" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+                          <node begin="35" cat="ssub" end="41" id="63" rel="body">
+                            <node begin="35" end="36" id="64" index="2" rel="su"/>
+                            <node begin="36" cat="pp" end="40" id="65" rel="mod">
+                              <node begin="36" end="37" id="66" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                              <node begin="37" cat="np" end="40" id="67" rel="obj1">
+                                <node begin="37" end="38" id="68" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                                <node begin="38" buiging="met-e" end="39" graad="basis" id="69" lemma="Mexicaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Mexicaans" word="Mexicaanse"/>
+                                <node begin="39" end="40" genus="zijd" getal="ev" graad="basis" id="70" lemma="vrijheid_oorlog" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="vrijheidsoorlog" word="vrijheidsoorlog"/>
+                              </node>
+                            </node>
+                            <node begin="40" end="41" id="71" lemma="om_komen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="kom_om" word="omkwamen" wvorm="pv"/>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node begin="41" conjtype="neven" end="42" id="72" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="42" cat="ppres" end="51" id="73" rel="cnj">
+              <node begin="42" buiging="zonder" end="43" id="74" lemma="bestaan" pos="adj" positie="vrij" postag="WW(od,vrij,zonder)" pt="ww" rel="hd" root="besta" word="bestaande" wvorm="od"/>
+              <node begin="43" cat="pp" end="51" id="75" rel="pc">
+                <node begin="43" end="44" id="76" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" vztype="init" word="uit"/>
+                <node begin="44" cat="np" end="51" id="77" rel="obj1">
+                  <node begin="44" end="45" id="78" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                  <node begin="45" buiging="met-e" end="46" id="79" lemma="liggen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="lig" word="liggende" wvorm="od"/>
+                  <node begin="46" end="47" genus="zijd" getal="ev" graad="basis" id="80" lemma="vrouw" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="vrouw" word="vrouw"/>
+                  <node begin="47" cat="rel" end="51" id="81" rel="mod">
+                    <node begin="47" end="48" getal="getal" id="82" index="3" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+                    <node begin="47" cat="ssub" end="51" id="83" rel="body">
+                      <node begin="47" end="48" id="84" index="3" rel="su"/>
+                      <node begin="48" cat="pp" end="50" id="85" rel="ld">
+                        <node begin="48" end="49" genus="zijd" getal="ev" graad="basis" id="86" lemma="richting" naamval="stan" ntype="soort" pos="prep" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="richting" word="richting"/>
+                        <node begin="49" end="50" genus="onz" getal="ev" graad="basis" id="87" lemma="Mexico" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Mexico" word="Mexico"/>
+                      </node>
+                      <node begin="50" end="51" id="88" lemma="blikken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="blik" word="blikt" wvorm="pv"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="51" end="52" id="89" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Andere oorlogsmonumenten zijn een herdenkingszuil voor Amerikaanse infanteriesoldaten die in de Eerste Wereldoorlog in Oudenaarde de Schelde overstaken en het monument van Tacambaro op het gelijknamige plein , opgericht ter nagedachtenis van enkele tientallen Oudenaardenaren die in de Mexicaanse vrijheidsoorlog omkwamen en bestaande uit een liggende vrouw die richting Mexico blikt .</sentence>
+</alpino_ds>

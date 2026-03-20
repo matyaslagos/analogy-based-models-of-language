@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="29" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="--" pos="punct" postag="LET()" pt="let" rel="--" root="--" word="--"/>
+    <node begin="12" end="13" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="17" end="18" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="1" cat="smain" end="28" id="4" rel="--">
+      <node begin="1" cat="np" end="17" id="5" index="1" rel="su">
+        <node begin="1" end="2" genus="masc" getal="ev" id="6" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="hd" root="hij" status="vol" vwtype="pers" word="Hij"/>
+        <node begin="2" cat="rel" end="17" id="7" rel="mod">
+          <node begin="2" end="3" getal="getal" id="8" index="2" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+          <node begin="2" cat="ssub" end="17" id="9" rel="body">
+            <node begin="2" end="3" id="10" index="2" rel="su"/>
+            <node begin="3" cat="pp" end="12" id="11" rel="mod">
+              <node begin="3" cat="mwu" end="6" id="12" rel="hd">
+                <node begin="3" end="4" id="13" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="door" vztype="init" word="door"/>
+                <node begin="4" buiging="zonder" end="5" getal-n="zonder-n" id="14" lemma="toe_doen" pos="noun" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="mwp" root="toedoen" word="toedoen" wvorm="inf"/>
+                <node begin="5" end="6" id="15" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="van" vztype="init" word="van"/>
+              </node>
+              <node begin="6" cat="np" end="12" id="16" rel="obj1">
+                <node begin="6" end="7" id="17" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="18" lemma="gezelschap_dier" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="gezelschap_dier" word="gezelschapsdier"/>
+                <node begin="8" cat="rel" end="12" id="19" rel="mod">
+                  <node begin="8" end="9" id="20" index="3" lemma="waarvoor" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waarvoor" word="waarvoor"/>
+                  <node begin="8" cat="ssub" end="12" id="21" rel="body">
+                    <node begin="9" end="10" genus="masc" getal="ev" id="22" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="hij"/>
+                    <node begin="8" cat="ap" end="11" id="23" rel="predc">
+                      <node begin="8" end="9" id="24" index="3" rel="pc"/>
+                      <node begin="10" buiging="zonder" end="11" graad="basis" id="25" lemma="verantwoordelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="verantwoordelijk" word="verantwoordelijk"/>
+                    </node>
+                    <node begin="11" end="12" id="26" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node begin="13" buiging="zonder" end="14" graad="basis" id="27" lemma="opzettelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="opzettelijk" word="opzettelijk"/>
+            <node begin="14" cat="np" end="16" id="28" rel="obj1">
+              <node begin="14" end="15" getal="ev" id="29" lemma="iemand" naamval="gen" pdtype="pron" persoon="3p" pos="det" postag="VNW(onbep,pron,gen,vol,3p,ev)" pt="vnw" rel="det" root="iemand" status="vol" vwtype="onbep" word="iemands"/>
+              <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="30" lemma="dood" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="dood" word="dood"/>
+            </node>
+            <node begin="16" end="17" id="31" lemma="veroorzaken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="veroorzaak" word="veroorzaakt" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+      <node begin="18" end="19" id="32" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+      <node begin="1" cat="ppart" end="28" id="33" rel="vc">
+        <node begin="1" end="17" id="34" index="1" rel="obj1"/>
+        <node begin="19" buiging="zonder" end="20" id="35" lemma="straffen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="straf" word="gestraft" wvorm="vd"/>
+        <node begin="20" cat="pp" end="28" id="36" rel="mod">
+          <node begin="20" end="21" id="37" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+          <node begin="21" cat="np" end="28" id="38" rel="obj1">
+            <node begin="21" end="22" genus="zijd" getal="ev" graad="basis" id="39" lemma="opsluiting" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="opsluiting" word="opsluiting"/>
+            <node begin="22" cat="pp" end="25" id="40" rel="mod">
+              <node begin="22" end="23" id="41" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="23" cat="np" end="25" id="42" rel="obj1">
+                <node begin="23" end="24" id="43" lemma="twintig" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="twintig" word="twintig"/>
+                <node begin="24" end="25" genus="onz" getal="ev" graad="basis" id="44" lemma="jaar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="jaar" word="jaar"/>
+              </node>
+            </node>
+            <node begin="25" cat="pp" end="28" id="45" rel="mod">
+              <node begin="25" end="26" id="46" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" vztype="init" word="tot"/>
+              <node begin="26" cat="np" end="28" id="47" rel="obj1">
+                <node begin="26" end="27" id="48" lemma="dertig" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="dertig" word="dertig"/>
+                <node begin="27" end="28" genus="onz" getal="ev" graad="basis" id="49" lemma="jaar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="jaar" word="jaar"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="28" end="29" id="50" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>-- Hij die door toedoen van het gezelschapsdier waarvoor hij verantwoordelijk is , opzettelijk iemands dood veroorzaakt , wordt gestraft met opsluiting van twintig jaar tot dertig jaar .</sentence>
+</alpino_ds>

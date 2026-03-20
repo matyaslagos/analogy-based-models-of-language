@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="10" end="11" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="13" end="14" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="20" id="3" rel="--">
+      <node begin="0" cat="smain" end="10" id="4" rel="nucl">
+        <node begin="1" end="2" id="5" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+        <node begin="2" cat="np" end="4" id="6" index="1" rel="su">
+          <node begin="2" end="3" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="3" end="4" getal="mv" graad="basis" id="8" lemma="woning" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="woning" word="woningen"/>
+        </node>
+        <node begin="0" cat="ppart" end="10" id="9" rel="vc">
+          <node begin="0" buiging="zonder" end="1" graad="comp" id="10" lemma="ver" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="ver" word="Verder"/>
+          <node begin="2" end="4" id="11" index="1" rel="obj1"/>
+          <node begin="4" buiging="zonder" end="5" id="12" lemma="onder_verdelen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="onderverdeel" word="onderverdeeld" wvorm="vd"/>
+          <node begin="5" cat="conj" end="10" id="13" rel="mod">
+            <node begin="5" cat="pp" end="7" id="14" rel="cnj">
+              <node begin="5" end="6" id="15" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+              <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="16" lemma="eigendom_categorie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="eigendom_categorie" word="eigendomscategorie"/>
+            </node>
+            <node begin="7" conjtype="neven" end="8" id="17" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="8" cat="pp" end="10" id="18" rel="cnj">
+              <node begin="8" end="9" id="19" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+              <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="20" lemma="bouw_jaar_klasse" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="bouw_jaar_klasse" word="bouwjaarklasse"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="11" cat="conj" end="20" id="21" rel="sat">
+        <node begin="11" cat="pp" end="13" id="22" rel="cnj">
+          <node begin="11" end="12" id="23" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="12" end="13" id="24" lemma="1946" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" root="1946" word="1946"/>
+        </node>
+        <node begin="14" cat="conj" end="17" id="25" rel="cnj">
+          <node begin="14" end="15" id="26" lemma="1946" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="cnj" root="1946" word="1946"/>
+          <node begin="15" conjtype="neven" end="16" id="27" lemma="tot" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="tot" word="tot"/>
+          <node begin="16" end="17" id="28" lemma="1971" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="cnj" root="1971" word="1971"/>
+        </node>
+        <node begin="17" conjtype="neven" end="18" id="29" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="18" cat="pp" end="20" id="30" rel="cnj">
+          <node begin="18" end="19" id="31" lemma="vanaf" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="vanaf" vztype="init" word="vanaf"/>
+          <node begin="19" end="20" id="32" lemma="1971" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" root="1971" word="1971"/>
+        </node>
+      </node>
+    </node>
+    <node begin="20" end="21" id="33" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Verder zijn de woningen onderverdeeld naar eigendomscategorie en naar bouwjaarklasse : voor 1946 , 1946 tot 1971 en vanaf 1971 .</sentence>
+</alpino_ds>

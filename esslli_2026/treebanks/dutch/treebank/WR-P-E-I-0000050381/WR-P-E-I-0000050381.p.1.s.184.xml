@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="10" end="11" id="1" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="13" end="14" id="2" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="0" cat="smain" end="16" id="3" rel="--">
+      <node begin="0" buiging="zonder" end="1" graad="basis" id="4" lemma="opmerkelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="opmerkelijk" word="Opmerkelijk"/>
+      <node begin="1" end="2" id="5" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="2" cat="cp" end="16" id="6" rel="su">
+        <node begin="2" conjtype="onder" end="3" id="7" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+        <node begin="3" cat="ssub" end="16" id="8" rel="body">
+          <node begin="6" cat="np" end="13" id="9" index="1" rel="su">
+            <node begin="6" end="7" id="10" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+            <node begin="7" end="8" id="11" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="8" buiging="met-e" end="9" graad="basis" id="12" lemma="socialistisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Socialistische" word="Socialistische"/>
+            <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="13" lemma="bouw_vereniging" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="Bouwvereniging" word="Bouwvereniging"/>
+            <node begin="11" cat="mwu" end="13" id="14" rel="app">
+              <node begin="11" buiging="zonder" end="12" graad="comp" id="15" lemma="goed" pos="name" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mwp" root="Beter" word="Beter"/>
+              <node begin="12" buiging="zonder" end="13" id="16" lemma="wonen" pos="name" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="mwp" root="Wonen" word="Wonen" wvorm="inf"/>
+            </node>
+          </node>
+          <node begin="14" end="15" id="17" lemma="mogen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="mag" word="mocht" wvorm="pv"/>
+          <node begin="3" cat="inf" end="16" id="18" rel="vc">
+            <node begin="3" cat="pp" end="6" id="19" rel="mod">
+              <node begin="3" end="4" id="20" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+              <node begin="4" cat="np" end="6" id="21" rel="obj1">
+                <node begin="4" buiging="zonder" end="5" id="22" lemma="dit" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dit" vwtype="aanw" word="dit"/>
+                <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="23" lemma="Blauwdorp" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Blauwdorp" word="Blauwdorp"/>
+              </node>
+            </node>
+            <node begin="6" end="13" id="24" index="1" rel="su"/>
+            <node begin="15" buiging="zonder" end="16" id="25" lemma="bouwen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="bouw" word="bouwen" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="26" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Opmerkelijk is dat in dit Blauwdorp ook de Socialistische Bouwvereniging &quot; Beter Wonen &quot; mocht bouwen .</sentence>
+</alpino_ds>

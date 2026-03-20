@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="smain" end="13" id="1" rel="--">
+      <node begin="0" end="1" genus="onz" getal="ev" id="2" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="noun" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="sup" root="het" status="red" vwtype="pers" word="Het"/>
+      <node begin="1" end="2" id="3" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="2" buiging="zonder" end="3" graad="basis" id="4" lemma="belangrijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="belangrijk" word="belangrijk"/>
+      <node begin="3" cat="cp" end="13" id="5" rel="su">
+        <node begin="3" conjtype="onder" end="4" id="6" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+        <node begin="4" cat="ssub" end="13" id="7" rel="body">
+          <node begin="4" end="5" getal="mv" graad="basis" id="8" index="1" lemma="leraar" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="leraar" word="leraren"/>
+          <node begin="11" end="12" id="9" lemma="kunnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kan" word="kunnen" wvorm="pv"/>
+          <node begin="4" cat="inf" end="13" id="10" rel="vc">
+            <node begin="4" end="5" id="11" index="1" rel="su"/>
+            <node begin="5" end="6" getal="getal" id="12" lemma="zich" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="obj1" root="zich" status="red" vwtype="refl" word="zich"/>
+            <node begin="6" cat="pp" end="11" id="13" rel="pc">
+              <node begin="6" end="7" id="14" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+              <node begin="7" cat="conj" end="11" id="15" rel="obj1">
+                <node begin="7" buiging="zonder" end="8" getal-n="zonder-n" id="16" lemma="les_geven" pos="noun" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="cnj" root="lesgeven" word="lesgeven" wvorm="inf"/>
+                <node begin="8" conjtype="neven" end="9" id="17" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                <node begin="9" cat="np" end="11" id="18" rel="cnj">
+                  <node begin="9" buiging="zonder" end="10" getal="mv" id="19" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+                  <node begin="10" end="11" getal="mv" graad="basis" id="20" lemma="leerling" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="leerling" word="leerlingen"/>
+                </node>
+              </node>
+            </node>
+            <node begin="12" buiging="zonder" end="13" id="21" lemma="bezig_houden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="houd_bezig" word="bezighouden" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het is belangrijk dat leraren zich met lesgeven en hun leerlingen kunnen bezighouden .</sentence>
+</alpino_ds>

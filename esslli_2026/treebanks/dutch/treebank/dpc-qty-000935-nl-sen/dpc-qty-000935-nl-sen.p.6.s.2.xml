@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="0" end="1" getal="mv" id="2" index="1" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="Ze"/>
+      <node begin="1" end="2" id="3" lemma="moeten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="moet" word="moeten" wvorm="pv"/>
+      <node begin="0" cat="inf" end="14" id="4" rel="vc">
+        <node begin="0" end="1" id="5" index="1" rel="su"/>
+        <node begin="4" buiging="zonder" end="5" id="6" lemma="zijn" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ben" word="zijn" wvorm="inf"/>
+        <node begin="2" cat="ap" end="14" id="7" rel="predc">
+          <node begin="2" cat="mwu" end="4" id="8" rel="hd">
+            <node begin="2" end="3" id="9" lemma="in" pos="adj" postag="VZ(init)" pt="vz" rel="mwp" root="in" vztype="init" word="in"/>
+            <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="10" lemma="staat" naamval="stan" ntype="soort" pos="adj" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="staat" word="staat"/>
+          </node>
+          <node begin="5" cat="ti" end="14" id="11" rel="vc">
+            <node begin="12" end="13" id="12" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+            <node begin="5" cat="inf" end="14" id="13" rel="body">
+              <node begin="5" cat="np" end="11" id="14" rel="obj1">
+                <node begin="5" end="6" id="15" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                <node begin="6" buiging="zonder" end="7" graad="basis" id="16" lemma="volledig" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="volledig" word="volledig"/>
+                <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="17" lemma="pallet" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="pallet" word="pallet"/>
+                <node begin="8" cat="pp" end="11" id="18" rel="mod">
+                  <node begin="8" end="9" id="19" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                  <node begin="9" cat="np" end="11" id="20" rel="obj1">
+                    <node begin="9" buiging="met-e" end="10" id="21" lemma="integreren" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="geïntegreerd" word="geïntegreerde" wvorm="vd"/>
+                    <node begin="10" end="11" getal="mv" graad="basis" id="22" lemma="patrimonium_oplossing" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="patrimoniumoplossingen" word="patrimoniumoplossingen"/>
+                  </node>
+                </node>
+              </node>
+              <node begin="11" end="12" id="23" lemma="aan" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="aan" vztype="fin" word="aan"/>
+              <node begin="13" buiging="zonder" end="14" id="24" lemma="aan_bieden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="bied_aan" word="bieden" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="25" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Ze moeten in staat zijn een volledig pallet van geïntegreerde patrimoniumoplossingen aan te bieden .</sentence>
+</alpino_ds>

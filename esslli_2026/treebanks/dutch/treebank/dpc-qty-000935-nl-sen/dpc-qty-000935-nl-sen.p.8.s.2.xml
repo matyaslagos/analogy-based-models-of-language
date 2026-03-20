@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="du" end="11" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="en" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="en" word="En"/>
+      <node begin="1" cat="conj" end="11" id="3" rel="nucl">
+        <node begin="1" cat="np" end="6" id="4" rel="cnj">
+          <node begin="1" end="2" getal="ev" id="5" lemma="dit" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="hd" root="dit" status="vol" vwtype="aanw" word="dit"/>
+          <node begin="2" cat="pp" end="6" id="6" rel="mod">
+            <node begin="2" end="3" id="7" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+            <node begin="3" cat="np" end="6" id="8" rel="obj1">
+              <node begin="3" end="4" id="9" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="4" buiging="met-e" end="5" graad="basis" id="10" lemma="volledig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="volledig" word="volledige"/>
+              <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="11" lemma="beslissing_keten" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="beslissing_keet" word="beslissingsketen"/>
+            </node>
+          </node>
+        </node>
+        <node begin="6" conjtype="neven" end="7" id="12" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="7" cat="ppres" end="11" id="13" rel="cnj">
+          <node begin="7" cat="ap" end="9" id="14" rel="mod">
+            <node begin="7" end="8" id="15" lemma="steeds" pos="adv" postag="BW()" pt="bw" rel="mod" root="steeds" word="steeds"/>
+            <node begin="8" buiging="zonder" end="9" graad="comp" id="16" lemma="vaak" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="vaak" word="vaker"/>
+          </node>
+          <node begin="9" end="10" id="17" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+          <node begin="10" buiging="zonder" end="11" id="18" lemma="grens_overschrijden" pos="adj" positie="prenom" postag="WW(od,prenom,zonder)" pt="ww" rel="hd" root="grensoverschrijdend" word="grensoverschrijdend" wvorm="od"/>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" id="19" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>En dit voor de volledige beslissingsketen en steeds vaker ook grensoverschrijdend .</sentence>
+</alpino_ds>

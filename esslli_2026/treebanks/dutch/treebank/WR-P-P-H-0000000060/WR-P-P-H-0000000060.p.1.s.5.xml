@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="12" id="2" rel="--">
+      <node begin="0" end="1" getal="ev" id="3" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" root="dat" status="vol" vwtype="aanw" word="Dat"/>
+      <node begin="1" end="2" id="4" lemma="ontvoeren" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ontvoer" word="ontvoert" wvorm="pv"/>
+      <node begin="2" buiging="zonder" end="3" id="5" lemma="regelen" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="mod" root="regelen" word="geregeld" wvorm="vd"/>
+      <node begin="3" end="4" getal="mv" graad="basis" id="6" lemma="mens" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="mens" word="mensen"/>
+      <node begin="4" cat="pp" end="12" id="7" rel="mod">
+        <node begin="4" end="5" id="8" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+        <node begin="5" cat="np" end="12" id="9" rel="obj1">
+          <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="10" lemma="los_geld" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="losgeld" word="losgeld"/>
+          <node begin="7" cat="np" end="12" id="11" rel="app">
+            <node begin="7" end="8" getal-n="zonder-n" graad="basis" id="12" lemma="één" numtype="hoofd" pos="pron" positie="nom" postag="TW(hoofd,nom,zonder-n,basis)" pt="tw" rel="hd" root="een" word="een"/>
+            <node begin="8" cat="pp" end="12" id="13" rel="mod">
+              <node begin="8" end="9" id="14" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="9" cat="np" end="12" id="15" rel="obj1">
+                <node begin="9" buiging="zonder" end="10" getal="mv" id="16" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+                <node begin="10" buiging="met-e" end="11" graad="sup" id="17" lemma="voornaam" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="mod" root="voornaam" word="voornaamste"/>
+                <node begin="11" end="12" getal="mv" graad="basis" id="18" lemma="inkomst_bron" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="bron" word="inkomstenbronnen"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" id="19" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dat ontvoert geregeld mensen voor losgeld , een van hun voornaamste inkomstenbronnen .</sentence>
+</alpino_ds>

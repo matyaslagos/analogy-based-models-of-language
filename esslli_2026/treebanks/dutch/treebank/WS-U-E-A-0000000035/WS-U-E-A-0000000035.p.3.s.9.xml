@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="0" cat="du" end="17" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="en" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="en" word="En"/>
+      <node begin="1" cat="smain" end="17" id="3" rel="nucl">
+        <node begin="1" cat="np" end="8" id="4" index="1" rel="su">
+          <node begin="1" buiging="zonder" end="2" id="5" lemma="dat" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dat" vwtype="aanw" word="dat"/>
+          <node begin="2" buiging="met-e" end="3" graad="basis" id="6" lemma="compleet" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="compleet" word="complete"/>
+          <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="7" lemma="conglomeraat" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="conglomeraat" word="conglomeraat"/>
+          <node begin="4" cat="pp" end="8" id="8" rel="mod">
+            <node begin="4" end="5" id="9" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+            <node begin="5" cat="conj" end="8" id="10" rel="obj1">
+              <node begin="5" end="6" getal="mv" graad="basis" id="11" lemma="winkel" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="winkel" word="winkels"/>
+              <node begin="6" conjtype="neven" end="7" id="12" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="7" end="8" getal="mv" graad="basis" id="13" lemma="warenhuis" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="warenhuis" word="warenhuizen"/>
+            </node>
+          </node>
+        </node>
+        <node begin="8" end="9" id="14" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+        <node begin="1" cat="ppart" end="17" id="15" rel="vc">
+          <node begin="1" end="8" id="16" index="1" rel="obj1"/>
+          <node begin="9" end="10" id="17" lemma="dus" pos="adv" postag="BW()" pt="bw" rel="mod" root="dus" word="dus"/>
+          <node begin="10" buiging="zonder" end="11" graad="basis" id="18" lemma="waarschijnlijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="waarschijnlijk" word="waarschijnlijk"/>
+          <node begin="11" buiging="zonder" end="12" id="19" lemma="verkopen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="verkoop" word="verkocht" wvorm="vd"/>
+          <node begin="12" cat="pp" end="17" id="20" rel="obj2">
+            <node begin="12" end="13" id="21" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+            <node begin="13" cat="np" end="17" id="22" rel="obj1">
+              <node begin="13" cat="conj" end="16" id="23" rel="det">
+                <node begin="13" end="14" id="24" lemma="één" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="cnj" root="één" word="één"/>
+                <node begin="14" conjtype="neven" end="15" id="25" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+                <node begin="15" buiging="zonder" end="16" graad="comp" id="26" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,comp)" pt="vnw" rel="cnj" root="meer" vwtype="onbep" word="meer"/>
+              </node>
+              <node begin="16" end="17" getal="mv" graad="basis" id="27" lemma="investering_maatschappij" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="investering_maatschappij" word="investeringsmaatschappijen"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="28" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>En dat complete conglomeraat aan winkels en warenhuizen wordt dus waarschijnlijk verkocht aan één of meer investeringsmaatschappijen .</sentence>
+</alpino_ds>

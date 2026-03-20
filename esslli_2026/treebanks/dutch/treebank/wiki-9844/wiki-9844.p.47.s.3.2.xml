@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="smain" end="15" id="1" rel="--">
+      <node begin="0" cat="conj" end="4" id="2" rel="su">
+        <node begin="0" cat="np" end="2" id="3" rel="cnj">
+          <node begin="0" end="1" id="4" index="1" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+          <node begin="1" end="2" getal="mv" graad="basis" id="5" lemma="decor" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="decor" word="decors"/>
+        </node>
+        <node begin="2" conjtype="neven" end="3" id="6" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="0" cat="np" end="4" id="7" rel="cnj">
+          <node begin="0" end="1" id="8" index="1" rel="det"/>
+          <node begin="3" end="4" getal="mv" graad="basis" id="9" lemma="rekwisiet" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="rekwisieten" word="rekwisieten"/>
+        </node>
+      </node>
+      <node begin="4" end="5" id="10" lemma="komen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="kom" word="kwamen" wvorm="pv"/>
+      <node begin="5" cat="pp" end="13" id="11" rel="mod">
+        <node begin="5" cat="mwu" end="8" id="12" rel="hd">
+          <node begin="5" end="6" id="13" lemma="op" pos="fixed" postag="VZ(init)" pt="vz" rel="mwp" root="op" vztype="init" word="op"/>
+          <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="14" lemma="basis" naamval="stan" ntype="soort" pos="fixed" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="basis" word="basis"/>
+          <node begin="7" end="8" id="15" lemma="van" pos="fixed" postag="VZ(init)" pt="vz" rel="mwp" root="van" vztype="init" word="van"/>
+        </node>
+        <node begin="8" cat="np" end="13" id="16" rel="obj1">
+          <node begin="8" buiging="met-e" end="9" id="17" lemma="detailleren" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="gedetailleerd" word="gedetailleerde" wvorm="vd"/>
+          <node begin="9" end="10" getal="mv" graad="basis" id="18" lemma="ontwerp" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="ontwerp" word="ontwerpen"/>
+          <node begin="10" cat="pp" end="13" id="19" rel="mod">
+            <node begin="10" end="11" id="20" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="11" cat="mwu" end="13" id="21" rel="obj1">
+              <node begin="11" end="12" id="22" lemma="Studio" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Studio" spectype="deeleigen" word="Studio"/>
+              <node begin="12" end="13" id="23" lemma="Vandersteen" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Vandersteen" spectype="deeleigen" word="Vandersteen"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="13" cat="mwu" end="15" id="24" rel="svp">
+        <node begin="13" end="14" id="25" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="tot" vztype="init" word="tot"/>
+        <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="26" lemma="stand" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="stand" word="stand"/>
+      </node>
+    </node>
+    <node begin="15" end="16" id="27" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De decors en rekwisieten kwamen op basis van gedetailleerde ontwerpen van Studio Vandersteen tot stand .</sentence>
+</alpino_ds>

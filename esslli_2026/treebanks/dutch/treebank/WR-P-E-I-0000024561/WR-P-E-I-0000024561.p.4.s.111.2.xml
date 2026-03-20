@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="4" end="5" id="2" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="5" end="6" id="3" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="0" cat="np" end="7" id="4" rel="--">
+      <node begin="0" cat="mwu" end="2" id="5" rel="hd">
+        <node begin="0" end="1" id="6" lemma="BARCLAY" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="BARCLAY" spectype="deeleigen" word="BARCLAY"/>
+        <node begin="1" end="2" id="7" lemma="N°6" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="N°6" spectype="deeleigen" word="N°6"/>
+      </node>
+      <node begin="3" cat="np" end="7" id="8" rel="mod">
+        <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="9" lemma="cd_titel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="CD_titel" word="CD-titel"/>
+        <node begin="6" end="7" id="10" lemma="J&apos;arrive" pos="name" postag="SPEC(vreemd)" pt="spec" rel="app" root="J&apos;arrive" spectype="vreemd" word="J&apos;arrive"/>
+      </node>
+    </node>
+    <node begin="7" end="8" id="11" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="8" end="9" id="12" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+  </node>
+  <sentence>BARCLAY N°6 ( CD-titel : &apos; J&apos;arrive &apos; )</sentence>
+</alpino_ds>

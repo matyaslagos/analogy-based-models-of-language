@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" buiging="met-e" end="1" id="3" lemma="sommig" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="sommige" vwtype="onbep" word="Sommige"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="4" lemma="orkest" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="orkest" word="orkesten"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="tellen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="tel" word="tellen" wvorm="pv"/>
+      <node begin="3" cat="np" end="6" id="6" rel="obj1">
+        <node begin="3" cat="detp" end="5" id="7" rel="det">
+          <node begin="3" buiging="zonder" end="4" id="8" lemma="zo&apos;n" naamval="stan" npagr="agr" pdtype="det" pos="adv" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,agr)" pt="vnw" rel="mod" root="zo&apos;n" vwtype="aanw" word="zo&apos;n"/>
+          <node begin="4" end="5" id="9" lemma="tweehonderd" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="hd" root="tweehonderd" word="tweehonderd"/>
+        </node>
+        <node begin="5" end="6" getal="mv" graad="basis" id="10" lemma="lid" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="lid" word="leden"/>
+      </node>
+    </node>
+    <node begin="6" end="7" id="11" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Sommige orkesten tellen zo&apos;n tweehonderd leden .</sentence>
+</alpino_ds>

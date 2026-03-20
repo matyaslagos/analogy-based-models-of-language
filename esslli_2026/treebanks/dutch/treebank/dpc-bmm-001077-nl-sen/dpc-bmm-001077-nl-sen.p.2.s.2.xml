@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="26" id="0" rel="top">
+    <node begin="10" end="11" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="13" end="14" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="14" end="15" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="25" id="4" rel="--">
+      <node begin="0" cat="np" end="3" id="5" rel="su">
+        <node begin="0" cat="ap" end="2" id="6" rel="det">
+          <node begin="0" end="1" id="7" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" word="Nog"/>
+          <node begin="1" buiging="zonder" end="2" graad="comp" id="8" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,comp)" pt="vnw" rel="hd" root="meer" vwtype="onbep" word="meer"/>
+        </node>
+        <node begin="2" end="3" getal="mv" graad="basis" id="9" lemma="vergelijking" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vergelijking" word="vergelijkingen"/>
+      </node>
+      <node begin="3" end="4" id="10" lemma="beschrijven" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="beschrijf" word="beschrijven" wvorm="pv"/>
+      <node begin="4" cat="whsub" end="25" id="11" rel="vc">
+        <node begin="4" end="5" id="12" index="1" lemma="hoe" pos="adj" postag="BW()" pt="bw" rel="whd" root="hoe" word="hoe"/>
+        <node begin="4" cat="ssub" end="25" id="13" rel="body">
+          <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="14" index="2" lemma="fytoplankton" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="su" root="fytoplankton" word="fytoplankton"/>
+          <node begin="7" end="8" id="15" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+          <node begin="4" cat="ppart" end="25" id="16" rel="vc">
+            <node begin="4" end="5" id="17" index="1" rel="mod"/>
+            <node begin="5" end="6" id="18" index="2" rel="obj1"/>
+            <node begin="6" buiging="zonder" end="7" id="19" lemma="op_eten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="eet_op" word="opgegeten" wvorm="vd"/>
+            <node begin="8" cat="pp" end="25" id="20" rel="mod">
+              <node begin="8" end="9" id="21" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+              <node begin="9" cat="np" end="25" id="22" rel="obj1">
+                <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="23" lemma="zoöplankton" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="zoöplankton" word="zoöplankton"/>
+                <node begin="11" cat="np" end="25" id="24" rel="mod">
+                  <node begin="11" buiging="met-e" end="12" graad="basis" id="25" lemma="microscopisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="microscopisch" word="microscopische"/>
+                  <node begin="12" end="13" getal="mv" graad="basis" id="26" lemma="zee_dier" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="zee_dier" word="zeedieren"/>
+                  <node begin="15" cat="rel" end="25" id="27" rel="mod">
+                    <node begin="15" end="16" getal="getal" id="28" index="3" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+                    <node begin="15" cat="ssub" end="25" id="29" rel="body">
+                      <node begin="15" end="16" id="30" index="3" rel="su"/>
+                      <node begin="20" end="21" id="31" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" word="worden" wvorm="pv"/>
+                      <node begin="15" cat="ppart" end="25" id="32" rel="vc">
+                        <node begin="15" end="16" id="33" index="3" rel="obj1"/>
+                        <node begin="16" cat="pp" end="19" id="34" rel="mod">
+                          <node begin="16" end="17" id="35" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                          <node begin="17" cat="np" end="19" id="36" rel="obj1">
+                            <node begin="17" end="18" id="37" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                            <node begin="18" end="19" genus="onz" getal="ev" graad="basis" id="38" lemma="water" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="water" word="water"/>
+                          </node>
+                        </node>
+                        <node begin="19" buiging="zonder" end="20" id="39" lemma="vervoeren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="vervoer" word="vervoerd" wvorm="vd"/>
+                        <node begin="21" cat="pp" end="25" id="40" rel="mod">
+                          <node begin="21" end="22" id="41" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+                          <node begin="22" cat="conj" end="25" id="42" rel="obj1">
+                            <node begin="22" end="23" getal="mv" graad="basis" id="43" lemma="zee_stroming" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="zee_stroming" word="zeestromingen"/>
+                            <node begin="23" conjtype="neven" end="24" id="44" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                            <node begin="24" end="25" getal="mv" graad="basis" id="45" lemma="turbulentie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="turbulentie" word="turbulenties"/>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="25" end="26" id="46" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Nog meer vergelijkingen beschrijven hoe fytoplankton opgegeten wordt door zoöplankton ( microscopische zeedieren ) , die in het water vervoerd worden door zeestromingen en turbulenties .</sentence>
+</alpino_ds>

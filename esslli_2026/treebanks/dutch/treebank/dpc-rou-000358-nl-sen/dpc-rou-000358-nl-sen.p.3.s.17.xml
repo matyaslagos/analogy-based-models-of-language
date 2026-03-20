@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="25" id="0" rel="top">
+    <node begin="12" end="13" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="16" end="17" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="24" id="3" rel="--">
+      <node begin="0" cat="smain" end="12" id="4" rel="nucl">
+        <node begin="0" cat="np" end="2" id="5" rel="mod">
+          <node begin="0" buiging="zonder" end="1" id="6" lemma="dit" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dit" vwtype="aanw" word="Dit"/>
+          <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="7" lemma="seizoen" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="seizoen" word="seizoen"/>
+        </node>
+        <node begin="2" end="3" id="8" lemma="toe_gaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ga_toe" word="gaat" wvorm="pv"/>
+        <node begin="3" end="4" genus="onz" getal="ev" id="9" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" root="het" status="red" vwtype="pers" word="het"/>
+        <node begin="5" cat="whrel" end="8" id="10" rel="mod">
+          <node begin="5" end="6" getal="ev" id="11" index="1" lemma="wat" naamval="stan" pdtype="pron" persoon="3o" pos="pron" postag="VNW(vb,pron,stan,vol,3o,ev)" pt="vnw" rel="rhd" root="wat" status="vol" vwtype="vb" word="wat"/>
+          <node begin="5" cat="ssub" end="8" id="12" rel="body">
+            <node begin="5" end="6" id="13" index="1" rel="su"/>
+            <node begin="6" end="7" getal="ev" id="14" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="obj1" root="dat" status="vol" vwtype="aanw" word="dat"/>
+            <node begin="7" end="8" id="15" lemma="betreffen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="betref" word="betreft" wvorm="pv"/>
+          </node>
+        </node>
+        <node begin="8" cat="ap" end="10" id="16" rel="predc">
+          <node begin="8" buiging="zonder" end="9" graad="basis" id="17" lemma="heel" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="heel" word="heel"/>
+          <node begin="9" end="10" id="18" lemma="anders" pos="adj" postag="BW()" pt="bw" rel="hd" root="anders" word="anders"/>
+        </node>
+        <node begin="4" cat="pp" end="11" id="19" rel="pc">
+          <node begin="4" end="5" getal="getal" id="20" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="obj1" root="er" status="red" vwtype="aanw" word="er"/>
+          <node begin="10" end="11" id="21" lemma="aan" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="aan" vztype="fin" word="aan"/>
+        </node>
+        <node begin="11" end="12" id="22" lemma="toe" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="toe" vztype="fin" word="toe"/>
+      </node>
+      <node begin="13" cat="conj" end="24" id="23" rel="sat">
+        <node begin="13" cat="np" end="16" id="24" rel="cnj">
+          <node begin="13" end="14" id="25" lemma="4-1" pos="num" postag="SPEC(symb)" pt="spec" rel="hd" root="4-1" spectype="symb" word="4-1"/>
+          <node begin="14" cat="pp" end="16" id="26" rel="mod">
+            <node begin="14" end="15" id="27" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" vztype="init" word="tegen"/>
+            <node begin="15" end="16" genus="onz" getal="ev" graad="basis" id="28" lemma="Rijsel" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Rijsel" word="Rijsel"/>
+          </node>
+        </node>
+        <node begin="17" cat="np" end="20" id="29" rel="cnj">
+          <node begin="17" end="18" id="30" lemma="1-4" pos="num" postag="SPEC(symb)" pt="spec" rel="hd" root="1-4" spectype="symb" word="1-4"/>
+          <node begin="18" cat="pp" end="20" id="31" rel="mod">
+            <node begin="18" end="19" id="32" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+            <node begin="19" end="20" genus="onz" getal="ev" graad="basis" id="33" lemma="Marseille" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Marseille" word="Marseille"/>
+          </node>
+        </node>
+        <node begin="20" conjtype="neven" end="21" id="34" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="21" cat="np" end="24" id="35" rel="cnj">
+          <node begin="21" end="22" id="36" lemma="0-4" pos="num" postag="SPEC(symb)" pt="spec" rel="hd" root="0-4" spectype="symb" word="0-4"/>
+          <node begin="22" cat="pp" end="24" id="37" rel="mod">
+            <node begin="22" end="23" id="38" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+            <node begin="23" end="24" genus="onz" getal="ev" graad="basis" id="39" lemma="Lens" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Lens" word="Lens"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="24" end="25" id="40" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dit seizoen gaat het er wat dat betreft heel anders aan toe : 4-1 tegen Rijsel , 1-4 op Marseille en 0-4 op Lens .</sentence>
+</alpino_ds>

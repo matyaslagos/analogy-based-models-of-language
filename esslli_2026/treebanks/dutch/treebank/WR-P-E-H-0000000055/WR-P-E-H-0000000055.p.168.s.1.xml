@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="4" end="5" id="2" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="0" cat="np" end="6" id="3" rel="--">
+      <node begin="0" end="1" id="4" lemma="13,1" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="hd" root="13,1" word="13,1"/>
+      <node begin="2" cat="du" end="6" id="5" rel="mod">
+        <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="6" lemma="schatting" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="dp" root="schatting" word="schatting"/>
+        <node begin="3" cat="conj" end="6" id="7" rel="dp">
+          <node begin="3" end="4" id="8" lemma="2000" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="cnj" root="2000" word="2000"/>
+          <node begin="5" end="6" id="9" lemma="2005" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="cnj" root="2005" word="2005"/>
+        </node>
+      </node>
+    </node>
+    <node begin="6" end="7" id="10" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+  </node>
+  <sentence>13,1 ( schatting 2000 - 2005 )</sentence>
+</alpino_ds>

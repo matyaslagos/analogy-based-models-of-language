@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="10" end="11" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="18" id="2" rel="--">
+      <node begin="0" cat="cp" end="10" id="3" rel="mod">
+        <node begin="0" conjtype="onder" end="1" id="4" lemma="aangezien" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="aangezien" word="Aangezien"/>
+        <node begin="1" cat="ssub" end="10" id="5" rel="body">
+          <node begin="1" cat="np" end="3" id="6" rel="su">
+            <node begin="1" end="2" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="8" lemma="vrouw" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="vrouw" word="vrouw"/>
+          </node>
+          <node begin="3" cat="pp" end="6" id="9" rel="mod">
+            <node begin="3" end="4" id="10" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="4" cat="np" end="6" id="11" rel="obj1">
+              <node begin="4" buiging="zonder" end="5" id="12" lemma="die" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,rest)" pt="vnw" rel="det" root="die" vwtype="aanw" word="die"/>
+              <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="13" lemma="tijd" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="tijd" word="tijd"/>
+            </node>
+          </node>
+          <node begin="6" cat="np" end="9" id="14" rel="obj1">
+            <node begin="6" end="7" id="15" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="7" buiging="met-e" end="8" graad="basis" id="16" lemma="ondergeschikt" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ondergeschikt" word="ondergeschikte"/>
+            <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="17" lemma="rol" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="rol" word="rol"/>
+          </node>
+          <node begin="9" end="10" id="18" lemma="spelen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="speel" word="speelde" wvorm="pv"/>
+        </node>
+      </node>
+      <node begin="11" end="12" id="19" lemma="komen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="kom" word="kwamen" wvorm="pv"/>
+      <node begin="12" end="13" getal="mv" id="20" lemma="zij" naamval="nomin" pdtype="pron" persoon="3p" pos="pron" postag="VNW(pers,pron,nomin,vol,3p,mv)" pt="vnw" rel="su" root="zij" status="vol" vwtype="pers" word="zij"/>
+      <node begin="13" end="14" id="21" lemma="enkel" pos="adj" postag="BW()" pt="bw" rel="mod" root="enkel" word="enkel"/>
+      <node begin="14" cat="cp" end="16" id="22" rel="predm">
+        <node begin="14" conjtype="onder" end="15" id="23" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+        <node begin="15" end="16" genus="onz" getal="ev" graad="basis" id="24" lemma="redding_onderwerp" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="body" root="redding_onderwerp" word="reddingsonderwerp"/>
+      </node>
+      <node begin="16" cat="pp" end="18" id="25" rel="predc">
+        <node begin="16" end="17" id="26" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="17" end="18" genus="onz" getal="ev" graad="basis" id="27" lemma="beeld" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="beeld" word="beeld"/>
+      </node>
+    </node>
+    <node begin="18" end="19" id="28" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Aangezien de vrouw in die tijd een ondergeschikte rol speelde , kwamen zij enkel als reddingsonderwerp in beeld .</sentence>
+</alpino_ds>

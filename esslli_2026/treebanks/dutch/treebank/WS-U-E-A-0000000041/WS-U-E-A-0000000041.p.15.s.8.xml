@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="du" end="7" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="en" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="en" word="En"/>
+      <node begin="1" cat="du" end="7" id="3" rel="nucl">
+        <node begin="1" end="2" id="4" lemma="dus" pos="comp" postag="BW()" pt="bw" rel="dlink" root="dus" word="dus"/>
+        <node begin="2" cat="pp" end="7" id="5" rel="nucl">
+          <node begin="2" end="3" id="6" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+          <node begin="3" end="4" id="7" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="4" cat="conj" end="7" id="8" rel="obj1">
+            <node begin="4" end="5" getal="mv" graad="basis" id="9" lemma="homo_paar" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="homopaar" word="homoparen"/>
+            <node begin="5" conjtype="neven" end="6" id="10" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="6" buiging="met-e" end="7" getal-n="mv-n" id="11" lemma="alleen_staan" pos="adj" positie="nom" postag="WW(od,nom,met-e,mv-n)" pt="ww" rel="cnj" root="alleenstaand" word="alleenstaanden" wvorm="od"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="7" end="8" id="12" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>En dus niet voor homoparen en alleenstaanden .</sentence>
+</alpino_ds>

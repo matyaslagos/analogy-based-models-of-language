@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="5" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="np" end="5" id="2" rel="--">
+      <node begin="0" end="1" getal="mv" graad="basis" id="3" lemma="web_adres" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="Web_adres" word="Webadressen"/>
+      <node begin="2" cat="conj" end="5" id="4" rel="app">
+        <node begin="2" end="3" id="5" lemma="www.benjijsterkerdandrank.nl" pos="noun" postag="SPEC(symb)" pt="spec" rel="cnj" root="www.benjijsterkerdandrank.nl" spectype="symb" word="www.benjijsterkerdandrank.nl"/>
+        <node begin="3" conjtype="neven" end="4" id="6" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="4" end="5" id="7" lemma="www.alcoholvoorlichting.nl" pos="noun" postag="SPEC(symb)" pt="spec" rel="cnj" root="www.alcoholvoorlichting.nl" spectype="symb" word="www.alcoholvoorlichting.nl"/>
+      </node>
+    </node>
+  </node>
+  <sentence>Webadressen : www.benjijsterkerdandrank.nl en www.alcoholvoorlichting.nl</sentence>
+</alpino_ds>

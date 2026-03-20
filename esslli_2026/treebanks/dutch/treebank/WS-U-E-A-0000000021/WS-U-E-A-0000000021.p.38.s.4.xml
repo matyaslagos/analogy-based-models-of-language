@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="12" id="2" rel="--">
+      <node begin="0" cat="smain" end="9" id="3" rel="dp">
+        <node begin="4" end="5" id="4" lemma="kunnen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="kan" word="kunt" wvorm="pv"/>
+        <node begin="5" end="6" getal="getal" id="5" index="1" lemma="u" naamval="nomin" pdtype="pron" persoon="2b" pos="pron" postag="VNW(pers,pron,nomin,vol,2b,getal)" pt="vnw" rel="su" root="u" status="vol" vwtype="pers" word="u"/>
+        <node begin="0" cat="inf" end="9" id="6" rel="vc">
+          <node begin="0" cat="cp" end="3" id="7" rel="mod">
+            <node begin="0" conjtype="onder" end="1" id="8" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="Als"/>
+            <node begin="1" cat="ssub" end="3" id="9" rel="body">
+              <node begin="1" end="2" getal="getal" id="10" lemma="u" naamval="nomin" pdtype="pron" persoon="2b" pos="pron" postag="VNW(pers,pron,nomin,vol,2b,getal)" pt="vnw" rel="su" root="u" status="vol" vwtype="pers" word="u"/>
+              <node begin="2" end="3" id="11" lemma="willen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="wil" word="wilt" wvorm="pv"/>
+            </node>
+          </node>
+          <node begin="5" end="6" id="12" index="1" rel="su"/>
+          <node begin="6" buiging="zonder" end="7" id="13" lemma="mee_discussiëren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="meediscussieren" word="meediscussieren" wvorm="inf"/>
+          <node begin="7" cat="pp" end="9" id="14" rel="mod">
+            <node begin="7" end="8" id="15" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+            <node begin="8" end="9" id="16" lemma="www.nosjournaal.nl" pos="noun" postag="SPEC(symb)" pt="spec" rel="obj1" root="www.nosjournaal.nl" spectype="symb" word="www.nosjournaal.nl"/>
+          </node>
+        </node>
+      </node>
+      <node begin="9" cat="smain" end="12" id="17" rel="dp">
+        <node begin="9" end="10" getal="ev" id="18" lemma="dit" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" root="dit" status="vol" vwtype="aanw" word="Dit"/>
+        <node begin="10" end="11" id="19" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+        <node begin="11" end="12" genus="onz" getal="ev" id="20" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="predc" root="het" status="red" vwtype="pers" word="het"/>
+      </node>
+    </node>
+    <node begin="12" end="13" id="21" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Als u wilt , kunt u meediscussieren op www.nosjournaal.nl Dit was het .</sentence>
+</alpino_ds>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="11" end="12" id="2" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="14" end="15" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="19" id="4" rel="--">
+      <node begin="0" cat="smain" end="11" id="5" rel="nucl">
+        <node begin="0" cat="np" end="7" id="6" rel="su">
+          <node begin="0" end="1" id="7" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="Een"/>
+          <node begin="1" end="2" id="8" lemma="drie" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="derde" word="derde"/>
+          <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="9" lemma="voorbeeld" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="voorbeeld" word="voorbeeld"/>
+          <node begin="3" cat="rel" end="7" id="10" rel="mod">
+            <node begin="3" end="4" getal="ev" id="11" index="1" lemma="dat" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(betr,pron,stan,vol,3,ev)" pt="vnw" rel="rhd" root="dat" status="vol" vwtype="betr" word="dat"/>
+            <node begin="3" cat="ssub" end="7" id="12" rel="body">
+              <node begin="4" end="5" getal="ev" id="13" index="2" lemma="ik" naamval="nomin" pdtype="pron" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,vol,1,ev)" pt="vnw" rel="su" root="ik" status="vol" vwtype="pers" word="ik"/>
+              <node begin="5" end="6" id="14" lemma="willen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="wil" word="wil" wvorm="pv"/>
+              <node begin="3" cat="inf" end="7" id="15" rel="vc">
+                <node begin="3" end="4" id="16" index="1" rel="obj1"/>
+                <node begin="4" end="5" id="17" index="2" rel="su"/>
+                <node begin="6" buiging="zonder" end="7" id="18" lemma="noemen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="noem" word="noemen" wvorm="inf"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="8" end="9" id="19" lemma="houden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="houd" word="houdt" wvorm="pv"/>
+        <node begin="9" end="10" id="20" lemma="hiermee" pos="pp" postag="BW()" pt="bw" rel="pc" root="hiermee" word="hiermee"/>
+        <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="21" lemma="verband" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="verband" word="verband"/>
+      </node>
+      <node begin="12" cat="np" end="19" id="22" rel="sat">
+        <node begin="12" end="13" id="23" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="13" cat="conj" end="18" id="24" rel="mod">
+          <node begin="13" buiging="met-e" end="14" graad="basis" id="25" lemma="betrouwbaar" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="betrouwbaar" word="betrouwbare"/>
+          <node begin="15" buiging="met-e" end="16" graad="basis" id="26" lemma="efficiënt" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="efficiënt" word="efficiënte"/>
+          <node begin="16" conjtype="neven" end="17" id="27" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="17" buiging="met-e" end="18" graad="basis" id="28" lemma="duurzaam" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="duurzaam" word="duurzame"/>
+        </node>
+        <node begin="18" end="19" genus="zijd" getal="ev" graad="basis" id="29" lemma="energie_huishouding" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="energie_huishouding" word="energiehuishouding"/>
+      </node>
+    </node>
+    <node begin="19" end="20" id="30" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Een derde voorbeeld dat ik wil noemen , houdt hiermee verband : een betrouwbare , efficiënte en duurzame energiehuishouding .</sentence>
+</alpino_ds>

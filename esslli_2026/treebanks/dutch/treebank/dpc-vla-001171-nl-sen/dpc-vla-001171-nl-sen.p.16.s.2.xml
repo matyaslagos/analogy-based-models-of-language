@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="du" end="7" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" word="Maar"/>
+      <node begin="1" cat="smain" end="7" id="3" rel="nucl">
+        <node begin="1" cat="np" end="3" id="4" index="1" rel="su">
+          <node begin="1" buiging="zonder" end="2" graad="basis" id="5" lemma="weinig" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,basis)" pt="vnw" rel="det" root="weinig" vwtype="onbep" word="weinig"/>
+          <node begin="2" end="3" getal="mv" graad="basis" id="6" lemma="mens" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="mens" word="mensen"/>
+        </node>
+        <node begin="3" end="4" id="7" lemma="zullen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="zal" word="zullen" wvorm="pv"/>
+        <node begin="1" cat="inf" end="7" id="8" rel="vc">
+          <node begin="1" end="3" id="9" index="1" rel="su"/>
+          <node begin="4" buiging="zonder" end="5" graad="basis" id="10" lemma="volmondig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="volmondig" word="volmondig"/>
+          <node begin="5" end="6" id="11" lemma="ja" pos="noun" postag="TSW()" pt="tsw" rel="obj1" root="ja" word="ja"/>
+          <node begin="6" buiging="zonder" end="7" id="12" lemma="zeggen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="zeg" word="zeggen" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="7" end="8" id="13" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Maar weinig mensen zullen volmondig ja zeggen .</sentence>
+</alpino_ds>

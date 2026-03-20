@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="du" end="5" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="ofwel" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="ofwel" word="Ofwel"/>
+      <node begin="1" cat="sv1" end="5" id="3" rel="nucl">
+        <node begin="1" end="2" id="4" lemma="zitten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zit" word="zit" wvorm="pv"/>
+        <node begin="2" end="3" genus="genus" getal="ev" graad="basis" id="5" lemma="S&amp;P" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="su" root="S&amp;P" word="S&amp;P"/>
+        <node begin="3" cat="pp" end="5" id="6" rel="predc">
+          <node begin="3" end="4" id="7" lemma="vol" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="vol" vztype="init" word="vol"/>
+          <node begin="4" end="5" getal="mv" graad="basis" id="8" lemma="neofiet" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="neofieten" word="neofieten"/>
+        </node>
+      </node>
+    </node>
+    <node begin="5" end="6" id="9" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Ofwel zit S&amp;P vol neofieten .</sentence>
+</alpino_ds>

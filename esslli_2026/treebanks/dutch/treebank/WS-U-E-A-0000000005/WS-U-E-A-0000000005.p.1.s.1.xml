@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" end="1" getal-n="mv-n" graad="basis" id="2" lemma="duizend" numtype="hoofd" pos="noun" positie="nom" postag="TW(hoofd,nom,mv-n,basis)" pt="tw" rel="su" root="duizenden" word="Duizenden"/>
+      <node begin="1" end="2" id="3" lemma="op_zeggen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="zeg_op" word="zeggen" wvorm="pv"/>
+      <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="4" lemma="thuis_zorg" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="thuiszorg" word="thuiszorg"/>
+      <node begin="3" end="4" id="5" lemma="op" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="op" vztype="fin" word="op"/>
+      <node begin="4" cat="pp" end="8" id="6" rel="mod">
+        <node begin="4" end="5" id="7" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+        <node begin="5" cat="np" end="8" id="8" rel="obj1">
+          <node begin="5" buiging="met-e" end="6" graad="comp" id="9" lemma="hoog" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,comp,met-e,stan)" pt="adj" rel="mod" root="hoog" word="hogere"/>
+          <node begin="6" buiging="zonder" end="7" graad="basis" id="10" lemma="eigen" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="eigen" word="eigen"/>
+          <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="11" lemma="bijdrage" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="bijdrage" word="bijdrage"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>Duizenden zeggen thuiszorg op door hogere eigen bijdrage</sentence>
+</alpino_ds>

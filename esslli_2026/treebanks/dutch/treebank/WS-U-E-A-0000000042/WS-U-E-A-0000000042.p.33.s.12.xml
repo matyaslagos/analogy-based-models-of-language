@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="du" end="6" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="en" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="en" word="En"/>
+      <node begin="1" cat="np" end="6" id="3" rel="nucl">
+        <node begin="1" buiging="zonder" end="2" graad="basis" id="4" lemma="goed" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="goed" word="goed"/>
+        <node begin="2" buiging="zonder" end="3" graad="basis" id="5" lemma="zedelijk" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="zedelijk" word="zedelijk"/>
+        <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="6" lemma="gedrag" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="gedrag" word="gedrag"/>
+        <node begin="4" cat="cp" end="6" id="7" rel="mod">
+          <node begin="4" conjtype="onder" end="5" id="8" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+          <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="9" lemma="toelating_eis" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="body" root="toelating_eis" word="toelatingseis"/>
+        </node>
+      </node>
+    </node>
+    <node begin="6" end="7" id="10" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>En goed zedelijk gedrag als toelatingseis .</sentence>
+</alpino_ds>

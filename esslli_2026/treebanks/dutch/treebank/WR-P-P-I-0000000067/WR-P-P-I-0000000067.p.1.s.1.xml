@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="25" id="0" rel="top">
+    <node begin="20" end="21" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="smain" end="23" id="2" rel="--">
+      <node begin="0" cat="mwu" end="2" id="3" index="1" rel="su">
+        <node begin="0" end="1" id="4" lemma="Edmund" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Edmund" spectype="deeleigen" word="Edmund"/>
+        <node begin="1" end="2" id="5" lemma="Stoiber" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Stoiber" spectype="deeleigen" word="Stoiber"/>
+      </node>
+      <node begin="2" end="3" id="6" lemma="zullen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zal" word="zal" wvorm="pv"/>
+      <node begin="0" cat="inf" end="23" id="7" rel="vc">
+        <node begin="0" end="2" id="8" index="1" rel="su"/>
+        <node begin="3" cat="np" end="5" id="9" rel="obj1">
+          <node begin="3" end="4" id="10" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="11" lemma="strijd" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="strijd" word="strijd"/>
+        </node>
+        <node begin="5" buiging="zonder" end="6" id="12" lemma="aan_gaan" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ga_aan" word="aangaan" wvorm="inf"/>
+        <node begin="6" cat="pp" end="23" id="13" rel="pc">
+          <node begin="6" end="7" id="14" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+          <node begin="7" cat="np" end="23" id="15" rel="obj1">
+            <node begin="7" end="8" id="16" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="8" buiging="met-e" end="9" graad="basis" id="17" lemma="Duits" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Duits" word="Duitse"/>
+            <node begin="9" buiging="met-e" end="10" graad="basis" id="18" lemma="sociaal_democratisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="sociaal-democratisch" word="sociaal-democratische"/>
+            <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="19" lemma="bondskanselier" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="bondskanselier" word="bondskanselier"/>
+            <node begin="11" cat="mwu" end="13" id="20" rel="app">
+              <node begin="11" end="12" id="21" lemma="Gerhard" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Gerhard" spectype="deeleigen" word="Gerhard"/>
+              <node begin="12" end="13" id="22" lemma="Schröder" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Schröder" spectype="deeleigen" word="Schröder"/>
+            </node>
+            <node begin="13" cat="pp" end="23" id="23" rel="mod">
+              <node begin="13" end="14" id="24" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+              <node begin="14" cat="np" end="23" id="25" rel="obj1">
+                <node begin="14" end="15" id="26" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="15" end="16" getal="mv" graad="basis" id="27" lemma="verkiezing" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="verkiezing" word="verkiezingen"/>
+                <node begin="16" cat="pp" end="23" id="28" rel="mod">
+                  <node begin="16" end="17" id="29" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+                  <node begin="17" cat="np" end="23" id="30" rel="obj1">
+                    <node begin="17" end="18" id="31" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                    <node begin="18" buiging="met-e" end="19" graad="basis" id="32" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" word="nieuwe"/>
+                    <node begin="19" end="20" genus="zijd" getal="ev" graad="basis" id="33" lemma="kanselier" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="kanselier" word="kanselier"/>
+                    <node begin="21" cat="mwu" end="23" id="34" rel="mod">
+                      <node begin="21" end="22" id="35" lemma="22" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="22" word="22"/>
+                      <node begin="22" end="23" genus="zijd" getal="ev" graad="basis" id="36" lemma="september" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="september" word="september"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="23" end="24" id="37" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="24" end="25" id="38" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Edmund Stoiber zal de strijd aangaan met de Duitse sociaal-democratische bondskanselier Gerhard Schröder bij de verkiezingen voor een nieuwe kanselier ( 22 september ) .</sentence>
+</alpino_ds>

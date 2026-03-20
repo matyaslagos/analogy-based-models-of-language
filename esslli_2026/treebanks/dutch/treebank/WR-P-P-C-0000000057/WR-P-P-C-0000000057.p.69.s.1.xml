@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="31" id="0" rel="top">
+    <node begin="16" end="17" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="20" end="21" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="25" end="26" id="3" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="smain" end="29" id="4" rel="--">
+      <node begin="0" cat="np" end="6" id="5" rel="su">
+        <node begin="0" cat="mwu" end="2" id="6" rel="mod">
+          <node begin="0" buiging="zonder" end="1" graad="comp" id="7" lemma="veel" naamval="stan" pdtype="grad" pos="det" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mwp" root="meer" vwtype="onbep" word="Meer"/>
+          <node begin="1" conjtype="onder" end="2" id="8" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="mwp" root="dan" word="dan"/>
+        </node>
+        <node begin="2" end="3" getal-n="zonder-n" graad="basis" id="9" lemma="driekwart" numtype="hoofd" pos="num" positie="nom" postag="TW(hoofd,nom,zonder-n,basis)" pt="tw" rel="hd" root="driekwart" word="driekwart"/>
+        <node begin="3" cat="pp" end="6" id="10" rel="mod">
+          <node begin="3" end="4" id="11" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="4" cat="np" end="6" id="12" rel="obj1">
+            <node begin="4" end="5" id="13" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="14" lemma="budget" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="budget" word="budget"/>
+          </node>
+        </node>
+      </node>
+      <node begin="6" end="7" id="15" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="7" cat="ap" end="29" id="16" rel="predc">
+        <node begin="7" buiging="zonder" end="8" graad="basis" id="17" lemma="afkomstig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="afkomstig" word="afkomstig"/>
+        <node begin="8" cat="pp" end="29" id="18" rel="pc">
+          <node begin="8" end="9" id="19" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="9" cat="np" end="29" id="20" rel="obj1">
+            <node begin="9" end="10" getal="mv" graad="basis" id="21" lemma="samenwerking_verband" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="samenwerkingsverband" word="samenwerkingsverbanden"/>
+            <node begin="10" cat="pp" end="29" id="22" rel="mod">
+              <node begin="10" end="11" id="23" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+              <node begin="11" cat="conj" end="29" id="24" rel="obj1">
+                <node begin="11" cat="np" end="16" id="25" rel="cnj">
+                  <node begin="11" end="12" getal="mv" graad="basis" id="26" lemma="bedrijf" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="bedrijf" word="bedrijven"/>
+                  <node begin="12" cat="pp" end="16" id="27" rel="mod">
+                    <node begin="12" end="13" id="28" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" vztype="init" word="uit"/>
+                    <node begin="13" cat="conj" end="16" id="29" rel="obj1">
+                      <node begin="13" end="14" id="30" lemma="binnen-" pos="prefix" postag="SPEC(afgebr)" pt="spec" rel="cnj" root="binnen" spectype="afgebr" word="binnen-"/>
+                      <node begin="14" conjtype="neven" end="15" id="31" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                      <node begin="15" end="16" genus="onz" getal="ev" graad="basis" id="32" lemma="buitenland" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="cnj" root="buitenland" word="buitenland"/>
+                    </node>
+                  </node>
+                </node>
+                <node begin="17" cat="np" end="20" id="33" rel="cnj">
+                  <node begin="17" end="18" id="34" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="18" cat="mwu" end="20" id="35" rel="hd">
+                    <node begin="18" end="19" id="36" lemma="Europese" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Europese" spectype="deeleigen" word="Europese"/>
+                    <node begin="19" end="20" id="37" lemma="Commissie" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Commissie" spectype="deeleigen" word="Commissie"/>
+                  </node>
+                </node>
+                <node begin="21" cat="mwu" end="23" id="38" rel="cnj">
+                  <node begin="21" end="22" genus="genus" getal="ev" graad="basis" id="39" lemma="MEDEA" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="mwp" root="MEDEA" word="MEDEA"/>
+                  <node begin="22" end="23" id="40" lemma="+" pos="prep" postag="SPEC(symb)" pt="spec" rel="mwp" root="+" spectype="symb" word="+"/>
+                </node>
+                <node begin="23" conjtype="neven" end="24" id="41" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                <node begin="24" cat="np" end="29" id="42" rel="cnj">
+                  <node begin="24" end="25" genus="onz" getal="ev" graad="basis" id="43" lemma="ESA" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="ESA" word="ESA"/>
+                  <node begin="26" cat="mwu" end="29" id="44" rel="mod">
+                    <node begin="26" end="27" id="45" lemma="European" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="European" spectype="deeleigen" word="European"/>
+                    <node begin="27" end="28" id="46" lemma="Space" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Space" spectype="deeleigen" word="Space"/>
+                    <node begin="28" end="29" id="47" lemma="Agency" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Agency" spectype="deeleigen" word="Agency"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="29" end="30" id="48" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="30" end="31" id="49" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Meer dan driekwart van het budget is afkomstig van samenwerkingsverbanden met bedrijven uit binnen- en buitenland , de Europese Commissie , MEDEA + en ESA ( European Space Agency ) .</sentence>
+</alpino_ds>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="4" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="np" end="4" id="2" rel="--">
+      <node begin="0" cat="mwu" end="2" id="3" rel="hd">
+        <node begin="0" end="1" id="4" lemma="Bob" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Bob" spectype="deeleigen" word="Bob"/>
+        <node begin="1" end="2" id="5" lemma="Benny" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Benny" spectype="deeleigen" word="Benny"/>
+      </node>
+      <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="6" lemma="zanger" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="app" root="zanger" word="zanger"/>
+    </node>
+  </node>
+  <sentence>Bob Benny , zanger</sentence>
+</alpino_ds>

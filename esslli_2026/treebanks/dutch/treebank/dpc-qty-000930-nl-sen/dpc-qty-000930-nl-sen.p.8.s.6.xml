@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="35" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="10" end="11" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="18" end="19" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="20" end="21" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="22" end="23" id="5" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="34" id="6" rel="--">
+      <node begin="0" cat="np" end="5" id="7" rel="su">
+        <node begin="0" end="1" getal="mv" graad="basis" id="8" lemma="thema" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="thema" word="Thema&apos;s"/>
+        <node begin="1" cat="rel" end="5" id="9" rel="mod">
+          <node begin="1" end="2" getal="getal" id="10" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+          <node begin="1" cat="ssub" end="5" id="11" rel="body">
+            <node begin="1" end="2" id="12" index="1" rel="su"/>
+            <node begin="2" cat="mwu" end="4" id="13" rel="svp">
+              <node begin="2" end="3" id="14" lemma="aan" pos="fixed" postag="VZ(init)" pt="vz" rel="mwp" root="aan" vztype="init" word="aan"/>
+              <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="15" lemma="bod" naamval="stan" ntype="soort" pos="fixed" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="bod" word="bod"/>
+            </node>
+            <node begin="4" end="5" id="16" lemma="komen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kom" word="komen" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+      <node begin="5" end="6" id="17" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+      <node begin="6" cat="conj" end="34" id="18" rel="predc">
+        <node begin="6" cat="np" end="8" id="19" rel="cnj">
+          <node begin="6" end="7" id="20" index="2" lemma="onder veel" pos="adv" postag="SPEC(afk)" pt="spec" rel="mod" root="onder_meer" spectype="afk" word="o.m."/>
+          <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="21" lemma="vermogen_planning" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="vermogen_planning" word="vermogensplanning"/>
+        </node>
+        <node begin="6" cat="np" end="10" id="22" rel="cnj">
+          <node begin="6" end="7" id="23" index="2" rel="mod"/>
+          <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="24" lemma="familie_recht" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="familie_recht" word="familierecht"/>
+        </node>
+        <node begin="6" cat="conj" end="18" id="25" rel="cnj">
+          <node begin="13" conjtype="neven" end="14" id="26" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="6" cat="np" end="18" id="27" rel="cnj">
+            <node begin="6" end="7" id="28" index="2" rel="mod"/>
+            <node begin="11" buiging="met-e" end="12" graad="basis" id="29" index="3" lemma="wettelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="wettelijk" word="wettelijke"/>
+            <node begin="12" end="13" getal="mv" graad="basis" id="30" lemma="aspect" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="aspect" word="aspecten"/>
+            <node begin="15" cat="pp" end="18" id="31" index="4" rel="mod">
+              <node begin="15" end="16" id="32" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="16" cat="np" end="18" id="33" rel="obj1">
+                <node begin="16" end="17" id="34" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                <node begin="17" end="18" genus="onz" getal="ev" graad="basis" id="35" lemma="vastgoed_vermogen" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="vastgoed_vermogen" word="vastgoedvermogen"/>
+              </node>
+            </node>
+          </node>
+          <node begin="6" cat="np" end="18" id="36" rel="cnj">
+            <node begin="6" end="7" id="37" index="2" rel="mod"/>
+            <node begin="11" end="12" id="38" index="3" rel="mod"/>
+            <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="39" lemma="fiscaliteit" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="fiscaliteit" word="fiscaliteit"/>
+            <node begin="15" end="18" id="40" index="4" rel="mod"/>
+          </node>
+        </node>
+        <node begin="6" cat="np" end="20" id="41" rel="cnj">
+          <node begin="6" end="7" id="42" index="2" rel="mod"/>
+          <node begin="19" end="20" getal="mv" graad="basis" id="43" lemma="effect" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="effect" word="effecten"/>
+        </node>
+        <node begin="6" cat="np" end="22" id="44" rel="cnj">
+          <node begin="6" end="7" id="45" index="2" rel="mod"/>
+          <node begin="21" end="22" genus="zijd" getal="ev" graad="basis" id="46" lemma="vennootschap_belasting" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="vennootschap_belasting" word="vennootschapsbelasting"/>
+        </node>
+        <node begin="6" cat="conj" end="29" id="47" rel="cnj">
+          <node begin="25" conjtype="neven" end="26" id="48" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="6" cat="np" end="29" id="49" rel="cnj">
+            <node begin="6" end="7" id="50" index="2" rel="mod"/>
+            <node begin="23" end="24" id="51" index="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="24" end="25" genus="zijd" getal="ev" graad="basis" id="52" lemma="groei" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="groei" word="groei"/>
+            <node begin="27" cat="pp" end="29" id="53" index="6" rel="mod">
+              <node begin="27" end="28" id="54" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="28" end="29" getal="mv" graad="basis" id="55" lemma="familie_bedrijf" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="familie_bedrijf" word="familiebedrijven"/>
+            </node>
+          </node>
+          <node begin="6" cat="np" end="29" id="56" rel="cnj">
+            <node begin="6" end="7" id="57" index="2" rel="mod"/>
+            <node begin="23" end="24" id="58" index="5" rel="det"/>
+            <node begin="26" end="27" genus="zijd" getal="ev" graad="basis" id="59" lemma="overdracht" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="overdracht" word="overdracht"/>
+            <node begin="27" end="29" id="60" index="6" rel="mod"/>
+          </node>
+        </node>
+        <node begin="29" conjtype="neven" end="30" id="61" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+        <node begin="6" cat="np" end="34" id="62" rel="cnj">
+          <node begin="6" end="7" id="63" index="2" rel="mod"/>
+          <node begin="30" end="31" genus="zijd" getal="ev" graad="basis" id="64" lemma="afstand" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="afstand" word="afstand"/>
+          <node begin="31" cat="pp" end="34" id="65" rel="mod">
+            <node begin="31" end="32" id="66" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="32" cat="np" end="34" id="67" rel="obj1">
+              <node begin="32" end="33" id="68" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="33" end="34" genus="onz" getal="ev" graad="basis" id="69" lemma="kunst_patrimonium" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="kunstpatrimonium" word="kunstpatrimonium"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="34" end="35" id="70" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Thema&apos;s die aan bod komen zijn o.m. vermogensplanning , familierecht , wettelijke aspecten en fiscaliteit van het vastgoedvermogen , effecten , vennootschapsbelasting , de groei en overdracht van familiebedrijven of afstand van een kunstpatrimonium .</sentence>
+</alpino_ds>

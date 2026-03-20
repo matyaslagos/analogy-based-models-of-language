@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="32" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="19" end="20" id="2" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="21" end="22" id="3" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="24" end="25" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="31" id="5" rel="--">
+      <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="6" lemma="Wells" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Wells" word="Wells"/>
+      <node begin="1" end="2" id="7" lemma="nemen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="neem" word="nam" wvorm="pv"/>
+      <node begin="2" cat="np" end="14" id="8" rel="obj1">
+        <node begin="2" end="3" getal="mv" graad="basis" id="9" lemma="staal" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="staal" word="stalen"/>
+        <node begin="3" cat="pp" end="14" id="10" rel="mod">
+          <node begin="3" end="4" id="11" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="4" cat="conj" end="14" id="12" rel="obj1">
+            <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="13" lemma="Carter" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Carter" word="Carter"/>
+            <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="14" lemma="Bono" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Bono" word="Bono"/>
+            <node begin="7" conjtype="neven" end="8" id="15" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="8" cat="np" end="14" id="16" rel="cnj">
+              <node begin="8" end="9" id="17" lemma="bijna" pos="adv" postag="BW()" pt="bw" rel="mod" root="bijna" word="bijna"/>
+              <node begin="9" buiging="zonder" end="10" id="18" lemma="elk" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="elk" vwtype="onbep" word="elk"/>
+              <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="19" lemma="directie_lid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="directie_lid" word="directielid"/>
+              <node begin="11" cat="pp" end="14" id="20" rel="mod">
+                <node begin="11" end="12" id="21" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="12" cat="np" end="14" id="22" rel="obj1">
+                  <node begin="12" end="13" id="23" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                  <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="24" lemma="magazine" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="magazine" word="magazine"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="14" cat="oti" end="31" id="25" rel="mod">
+        <node begin="14" end="15" id="26" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="om"/>
+        <node begin="15" cat="ti" end="31" id="27" rel="body">
+          <node begin="15" end="16" id="28" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+          <node begin="16" cat="inf" end="31" id="29" rel="body">
+            <node begin="16" buiging="zonder" end="17" id="30" lemma="onderzoeken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="onderzoek" word="onderzoeken" wvorm="inf"/>
+            <node begin="17" cat="whsub" end="31" id="31" rel="vc">
+              <node begin="17" cat="pp" end="21" id="32" index="1" rel="whd">
+                <node begin="17" end="18" id="33" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" vztype="init" word="tot"/>
+                <node begin="18" cat="np" end="21" id="34" rel="obj1">
+                  <node begin="18" buiging="met-e" end="19" id="35" lemma="welk" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(vb,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="welk" vwtype="vb" word="welke"/>
+                  <node begin="20" end="21" genus="zijd" getal="ev" graad="basis" id="36" lemma="haplo_groep" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="haplogroep" word="haplogroep"/>
+                </node>
+              </node>
+              <node begin="17" cat="ssub" end="31" id="37" rel="body">
+                <node begin="17" end="21" id="38" index="1" rel="ld"/>
+                <node begin="22" end="23" getal="mv" id="39" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="ze"/>
+                <node begin="23" end="24" id="40" lemma="horen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="hoor" word="hoorden" wvorm="pv"/>
+                <node begin="25" cat="conj" end="31" id="41" rel="mod">
+                  <node begin="25" end="26" id="42" lemma="zowel" pos="vg" postag="BW()" pt="bw" rel="crd" root="zowel" word="zowel"/>
+                  <node begin="26" cat="pp" end="28" id="43" rel="cnj">
+                    <node begin="26" end="27" id="44" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+                    <node begin="27" end="28" id="45" lemma="moeders-" pos="prefix" postag="SPEC(afgebr)" pt="spec" rel="obj1" root="moeders" spectype="afgebr" word="moeders-"/>
+                  </node>
+                  <node begin="28" conjtype="onder" end="29" id="46" lemma="als" pos="vg" postag="VG(onder)" pt="vg" rel="crd" root="als" word="als"/>
+                  <node begin="29" cat="pp" end="31" id="47" rel="cnj">
+                    <node begin="29" end="30" id="48" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+                    <node begin="30" end="31" genus="zijd" getal="ev" graad="basis" id="49" lemma="vader_kant" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="vader_kant" word="vaderskant"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="31" end="32" id="50" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Wells nam stalen van Carter , Bono en bijna elk directielid van het magazine om te onderzoeken tot welke &apos; haplogroep &apos; ze hoorden , zowel aan moeders- als aan vaderskant .</sentence>
+</alpino_ds>

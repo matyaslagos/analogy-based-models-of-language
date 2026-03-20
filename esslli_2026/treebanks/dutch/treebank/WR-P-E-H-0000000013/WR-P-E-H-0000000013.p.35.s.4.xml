@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="5" id="2" rel="su">
+        <node begin="0" end="1" getal="mv" graad="basis" id="3" lemma="passagier" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="passagier" word="Passagiers"/>
+        <node begin="1" cat="pp" end="5" id="4" rel="mod">
+          <node begin="1" end="2" id="5" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="2" cat="conj" end="5" id="6" rel="obj1">
+            <node begin="2" end="3" getal="mv" graad="basis" id="7" lemma="riksja" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="riksja" word="riksja&apos;s"/>
+            <node begin="3" conjtype="neven" end="4" id="8" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="4" end="5" getal="mv" graad="basis" id="9" lemma="baby_taxi" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="baby-taxi" word="baby-taxi&apos;s"/>
+          </node>
+        </node>
+      </node>
+      <node begin="5" end="6" id="10" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+      <node begin="6" cat="ap" end="8" id="11" rel="predc">
+        <node begin="6" buiging="zonder" end="7" graad="basis" id="12" lemma="bijzonder" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="bijzonder" word="bijzonder"/>
+        <node begin="7" buiging="zonder" end="8" graad="basis" id="13" lemma="kwetsbaar" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="kwetsbaar" word="kwetsbaar"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="14" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Passagiers in riksja&apos;s en baby-taxi&apos;s zijn bijzonder kwetsbaar .</sentence>
+</alpino_ds>

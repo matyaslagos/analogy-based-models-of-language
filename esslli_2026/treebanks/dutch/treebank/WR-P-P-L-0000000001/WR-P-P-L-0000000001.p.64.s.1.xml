@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="5" id="0" rel="top">
+    <node begin="0" cat="du" end="5" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="dp">
+        <node begin="0" buiging="met-e" end="1" graad="comp" id="3" lemma="oud" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,comp,met-e,stan)" pt="adj" rel="mod" root="oud" word="Oudere"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="4" lemma="woning" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="woning" word="woningen"/>
+      </node>
+      <node begin="2" cat="np" end="5" id="5" rel="dp">
+        <node begin="2" cat="detp" end="4" id="6" rel="det">
+          <node begin="2" buiging="zonder" end="3" graad="basis" id="7" lemma="opmerkelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="opmerkelijk" word="opmerkelijk"/>
+          <node begin="3" buiging="zonder" end="4" graad="basis" id="8" lemma="weinig" naamval="stan" npagr="agr" pdtype="grad" pos="det" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,basis)" pt="vnw" rel="hd" root="weinig" vwtype="onbep" word="weinig"/>
+        </node>
+        <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="9" lemma="spouw_isolatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="spouwisolatie" word="spouwisolatie"/>
+      </node>
+    </node>
+  </node>
+  <sentence>Oudere woningen opmerkelijk weinig spouwisolatie</sentence>
+</alpino_ds>

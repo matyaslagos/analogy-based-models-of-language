@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="0" cat="np" end="16" id="1" rel="--">
+      <node begin="0" end="1" id="2" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+      <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="3" lemma="truc" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="truc" word="truc"/>
+      <node begin="2" cat="rel" end="16" id="4" rel="mod">
+        <node begin="2" end="3" getal="getal" id="5" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+        <node begin="2" cat="ssub" end="16" id="6" rel="body">
+          <node begin="2" end="3" id="7" index="1" rel="obj1"/>
+          <node begin="3" cat="mwu" end="5" id="8" rel="su">
+            <node begin="3" end="4" id="9" lemma="Bill" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Bill" spectype="deeleigen" word="Bill"/>
+            <node begin="4" end="5" id="10" lemma="Clinton" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Clinton" spectype="deeleigen" word="Clinton"/>
+          </node>
+          <node begin="5" cat="pp" end="7" id="11" rel="mod">
+            <node begin="5" end="6" id="12" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="6" end="7" id="13" lemma="1992" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" root="1992" word="1992"/>
+          </node>
+          <node begin="7" cat="pp" end="11" id="14" rel="mod">
+            <node begin="7" end="8" id="15" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="8" cat="np" end="11" id="16" rel="obj1">
+              <node begin="8" end="9" id="17" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="9" cat="mwu" end="11" id="18" rel="hd">
+                <node begin="9" end="10" id="19" lemma="Verenigde" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Verenigde" spectype="deeleigen" word="Verenigde"/>
+                <node begin="10" end="11" id="20" lemma="Staten" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Staten" spectype="deeleigen" word="Staten"/>
+              </node>
+            </node>
+          </node>
+          <node begin="11" cat="pp" end="15" id="21" rel="pc">
+            <node begin="11" end="12" id="22" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+            <node begin="12" cat="mwu" end="15" id="23" rel="obj1">
+              <node begin="12" end="13" id="24" lemma="George" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="George" spectype="deeleigen" word="George"/>
+              <node begin="13" end="14" id="25" lemma="Bush" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Bush" spectype="deeleigen" word="Bush"/>
+              <node begin="14" end="15" id="26" lemma="Sr." pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Sr." spectype="deeleigen" word="Sr."/>
+            </node>
+          </node>
+          <node begin="15" end="16" id="27" lemma="uit_halen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="haal_uit" word="uithaalde" wvorm="pv"/>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="28" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De truc die Bill Clinton in 1992 in de Verenigde Staten met George Bush Sr. uithaalde .</sentence>
+</alpino_ds>

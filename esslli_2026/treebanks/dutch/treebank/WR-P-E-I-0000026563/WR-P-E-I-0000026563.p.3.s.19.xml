@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="32" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="6" end="7" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="16" end="17" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="21" end="22" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="28" end="29" id="5" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="31" id="6" rel="--">
+      <node begin="0" cat="np" end="6" id="7" rel="predc">
+        <node begin="0" buiging="zonder" end="1" getal="ev" id="8" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pt="vnw" rel="det" root="zijn" status="vol" vwtype="bez" word="Zijn"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="9" lemma="vader" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="vader" word="vader"/>
+        <node begin="3" cat="mwu" end="6" id="10" rel="mod">
+          <node begin="3" end="4" id="11" lemma="John" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="John" spectype="deeleigen" word="John"/>
+          <node begin="4" end="5" id="12" lemma="L." pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="L." spectype="deeleigen" word="L."/>
+          <node begin="5" end="6" id="13" lemma="Nelson" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Nelson" spectype="deeleigen" word="Nelson"/>
+        </node>
+      </node>
+      <node begin="7" end="8" id="14" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+      <node begin="8" cat="conj" end="31" id="15" rel="su">
+        <node begin="10" conjtype="neven" end="11" id="16" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="8" cat="np" end="31" id="17" rel="cnj">
+          <node begin="8" end="9" id="18" index="1" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="19" lemma="band_leider" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="band_leider" word="bandleider"/>
+          <node begin="12" cat="pp" end="31" id="20" index="2" rel="mod">
+            <node begin="12" end="13" id="21" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="13" cat="np" end="31" id="22" rel="obj1">
+              <node begin="13" end="14" id="23" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="14" buiging="met-e" end="15" graad="basis" id="24" lemma="lokaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="lokaal" word="lokale"/>
+              <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="25" lemma="jazzcombo" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="jazzcombo" word="jazzcombo"/>
+              <node begin="17" cat="np" end="21" id="26" rel="app">
+                <node begin="17" end="18" id="27" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="18" cat="mwu" end="21" id="28" rel="hd">
+                  <node begin="18" end="19" id="29" lemma="Prince" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Prince" spectype="deeleigen" word="Prince"/>
+                  <node begin="19" end="20" id="30" lemma="Rogers" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Rogers" spectype="deeleigen" word="Rogers"/>
+                  <node begin="20" end="21" id="31" lemma="Trio" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Trio" spectype="deeleigen" word="Trio"/>
+                </node>
+              </node>
+              <node begin="22" cat="ppart" end="31" id="32" rel="mod">
+                <node begin="22" buiging="zonder" end="23" id="33" lemma="vernoemen" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="vernoemd" word="vernoemd" wvorm="vd"/>
+                <node begin="23" cat="pp" end="31" id="34" rel="mod">
+                  <node begin="23" end="24" id="35" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+                  <node begin="24" cat="np" end="31" id="36" rel="obj1">
+                    <node begin="24" end="25" id="37" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="25" end="26" genus="zijd" getal="ev" graad="basis" id="38" lemma="podium_naam" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="podium_naam" word="podiumnaam"/>
+                    <node begin="26" cat="pp" end="28" id="39" rel="mod">
+                      <node begin="26" end="27" id="40" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                      <node begin="27" end="28" genus="zijd" getal="ev" graad="basis" id="41" lemma="John" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" root="John" word="John"/>
+                    </node>
+                    <node begin="29" cat="mwu" end="31" id="42" rel="app">
+                      <node begin="29" end="30" id="43" lemma="Prince" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Prince" spectype="deeleigen" word="Prince"/>
+                      <node begin="30" end="31" id="44" lemma="Roger" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Roger" spectype="deeleigen" word="Roger"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="8" cat="np" end="31" id="45" rel="cnj">
+          <node begin="8" end="9" id="46" index="1" rel="det"/>
+          <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="47" lemma="pianist" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="pianist" word="pianist"/>
+          <node begin="12" end="31" id="48" index="2" rel="mod"/>
+        </node>
+      </node>
+    </node>
+    <node begin="31" end="32" id="49" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Zijn vader ( John L. Nelson ) was de bandleider en pianist van een lokale jazzcombo , de Prince Rogers Trio , vernoemd naar de podiumnaam van John , Prince Roger .</sentence>
+</alpino_ds>

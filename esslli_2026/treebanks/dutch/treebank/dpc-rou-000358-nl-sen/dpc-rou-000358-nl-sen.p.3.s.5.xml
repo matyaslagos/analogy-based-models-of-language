@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="37" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="22" end="23" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="1" cat="smain" end="35" id="3" rel="--">
+      <node begin="1" cat="cp" end="22" id="4" rel="mod">
+        <node begin="1" conjtype="onder" end="2" id="5" lemma="toen" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="toen" word="Toen"/>
+        <node begin="2" cat="conj" end="22" id="6" rel="body">
+          <node begin="2" cat="ssub" end="10" id="7" rel="cnj">
+            <node begin="2" cat="mwu" end="4" id="8" rel="su">
+              <node begin="2" end="3" id="9" lemma="Eddy" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Eddy" spectype="deeleigen" word="Eddy"/>
+              <node begin="3" end="4" id="10" lemma="Merckx" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Merckx" spectype="deeleigen" word="Merckx"/>
+            </node>
+            <node begin="6" end="7" id="11" lemma="winnen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="win" word="won" wvorm="pv"/>
+            <node begin="4" cat="np" end="10" id="12" rel="obj1">
+              <node begin="4" buiging="met-e" end="5" id="13" lemma="al" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,agr)" pt="vnw" rel="det" root="alle" vwtype="onbep" word="alle"/>
+              <node begin="5" end="6" getal="mv" graad="basis" id="14" lemma="wedstrijd" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="wedstrijd" word="wedstrijden"/>
+              <node begin="7" cat="rel" end="10" id="15" rel="mod">
+                <node begin="7" end="8" id="16" index="1" lemma="waaraan" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waaraan" word="waaraan"/>
+                <node begin="7" cat="ssub" end="10" id="17" rel="body">
+                  <node begin="7" end="8" id="18" index="1" rel="pc"/>
+                  <node begin="8" end="9" genus="masc" getal="ev" id="19" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="hij"/>
+                  <node begin="9" end="10" id="20" lemma="deel_nemen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="neem_deel" word="deelnam" wvorm="pv"/>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="10" conjtype="neven" end="11" id="21" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="11" cat="ssub" end="22" id="22" rel="cnj">
+            <node begin="11" cat="np" end="18" id="23" rel="su">
+              <node begin="11" end="12" id="24" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="25" lemma="tegenstand" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="tegenstand" word="tegenstand"/>
+              <node begin="13" cat="pp" end="18" id="26" rel="mod">
+                <node begin="13" end="14" id="27" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                <node begin="14" cat="np" end="18" id="28" rel="obj1">
+                  <node begin="14" end="15" id="29" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="15" cat="mwu" end="18" id="30" rel="hd">
+                    <node begin="15" end="16" id="31" lemma="Ronde" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Ronde" spectype="deeleigen" word="Ronde"/>
+                    <node begin="16" end="17" id="32" lemma="van" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="van" spectype="deeleigen" word="van"/>
+                    <node begin="17" end="18" id="33" lemma="Frankrijk" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Frankrijk" spectype="deeleigen" word="Frankrijk"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node begin="18" cat="pp" end="21" id="34" rel="mod">
+              <node begin="18" end="19" id="35" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+              <node begin="19" cat="np" end="21" id="36" rel="obj1">
+                <node begin="19" end="20" id="37" lemma="twintig" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="twintig" word="twintig"/>
+                <node begin="20" end="21" getal="mv" graad="basis" id="38" lemma="minuut" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="minuut" word="minuten"/>
+              </node>
+            </node>
+            <node begin="21" end="22" id="39" lemma="fietsen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="fiets" word="fietste" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+      <node begin="23" end="24" id="40" lemma="zeggen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="zeg" word="zei" wvorm="pv"/>
+      <node begin="24" end="25" genus="masc" getal="ev" id="41" lemma="men" naamval="nomin" pdtype="pron" persoon="3p" pos="pron" postag="VNW(pers,pron,nomin,red,3p,ev,masc)" pt="vnw" rel="su" root="men" status="red" vwtype="pers" word="men"/>
+      <node begin="25" end="26" id="42" lemma="toch" pos="adv" postag="BW()" pt="bw" rel="mod" root="toch" word="toch"/>
+      <node begin="26" end="27" id="43" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+      <node begin="27" end="28" id="44" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+      <node begin="28" cat="cp" end="35" id="45" rel="vc">
+        <node begin="28" conjtype="onder" end="29" id="46" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+        <node begin="29" cat="ssub" end="35" id="47" rel="body">
+          <node begin="29" cat="np" end="32" id="48" rel="su">
+            <node begin="29" end="30" id="49" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="30" buiging="met-e" end="31" graad="basis" id="50" lemma="ander" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ander" word="andere"/>
+            <node begin="31" end="32" getal="mv" graad="basis" id="51" lemma="renner" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="renner" word="renners"/>
+          </node>
+          <node begin="32" cat="ap" end="34" id="52" rel="predc">
+            <node begin="32" end="33" id="53" lemma="te" pos="adv" postag="BW()" pt="bw" rel="mod" root="te" word="te"/>
+            <node begin="33" buiging="zonder" end="34" graad="basis" id="54" lemma="zwak" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="zwak" word="zwak"/>
+          </node>
+          <node begin="34" end="35" id="55" lemma="zijn" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="ben" word="waren" wvorm="pv"/>
+        </node>
+      </node>
+    </node>
+    <node begin="35" end="36" id="56" lemma="?" pos="punct" postag="LET()" pt="let" rel="--" root="?" word="?"/>
+    <node begin="36" end="37" id="57" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+  </node>
+  <sentence>&quot; Toen Eddy Merckx alle wedstrijden won waaraan hij deelnam en de tegenstand in de Ronde van Frankrijk op twintig minuten fietste , zei men toch ook niet dat de andere renners te zwak waren ? &quot;</sentence>
+</alpino_ds>

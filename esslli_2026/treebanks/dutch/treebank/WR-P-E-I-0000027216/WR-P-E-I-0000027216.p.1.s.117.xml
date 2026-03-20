@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="31" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="13" end="14" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="19" end="20" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="22" end="23" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="30" id="5" rel="--">
+      <node begin="0" cat="smain" end="5" id="6" rel="cnj">
+        <node begin="1" end="2" id="7" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+        <node begin="2" cat="np" end="4" id="8" index="1" rel="su">
+          <node begin="2" buiging="zonder" end="3" getal="mv" id="9" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+          <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="10" lemma="opstand" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="opstand" word="opstand"/>
+        </node>
+        <node begin="0" cat="ppart" end="5" id="11" rel="vc">
+          <node begin="0" buiging="zonder" end="1" graad="basis" id="12" lemma="aanvankelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="aanvankelijk" word="Aanvankelijk"/>
+          <node begin="2" end="4" id="13" index="1" rel="obj1"/>
+          <node begin="4" buiging="zonder" end="5" id="14" lemma="neer_slaan" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="sla_neer" word="neergeslagen" wvorm="vd"/>
+        </node>
+      </node>
+      <node begin="6" conjtype="neven" end="7" id="15" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+      <node begin="7" cat="conj" end="30" id="16" rel="cnj">
+        <node begin="7" cat="smain" end="22" id="17" rel="cnj">
+          <node begin="7" cat="pp" end="9" id="18" index="2" rel="mod">
+            <node begin="7" end="8" id="19" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="8" end="9" id="20" lemma="1866" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" root="1866" word="1866"/>
+          </node>
+          <node begin="9" end="10" id="21" lemma="verslaan" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="versla" word="versloeg" wvorm="pv"/>
+          <node begin="10" cat="np" end="19" id="22" index="3" rel="su">
+            <node begin="10" cat="mwu" end="13" id="23" rel="hd">
+              <node begin="10" end="11" id="24" lemma="Abd" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Abd" spectype="deeleigen" word="Abd"/>
+              <node begin="11" end="12" id="25" lemma="al-Rahman" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="al-Rahman" spectype="deeleigen" word="al-Rahman"/>
+              <node begin="12" end="13" id="26" lemma="Khan" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Khan" spectype="deeleigen" word="Khan"/>
+            </node>
+            <node begin="14" cat="np" end="19" id="27" rel="app">
+              <node begin="14" end="15" id="28" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="29" lemma="zoon" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="zoon" word="zoon"/>
+              <node begin="16" cat="pp" end="19" id="30" rel="mod">
+                <node begin="16" end="17" id="31" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="17" cat="mwu" end="19" id="32" rel="obj1">
+                  <node begin="17" end="18" id="33" lemma="Afzal" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Afzal" spectype="deeleigen" word="Afzal"/>
+                  <node begin="18" end="19" id="34" lemma="Khan" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Khan" spectype="deeleigen" word="Khan"/>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="20" cat="mwu" end="22" id="35" rel="obj1">
+            <node begin="20" end="21" id="36" lemma="Sher" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Sher" spectype="deeleigen" word="Sher"/>
+            <node begin="21" end="22" id="37" lemma="Ali" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Ali" spectype="deeleigen" word="Ali"/>
+          </node>
+        </node>
+        <node begin="23" conjtype="neven" end="24" id="38" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="7" cat="smain" end="30" id="39" rel="cnj">
+          <node begin="7" end="9" id="40" index="2" rel="mod"/>
+          <node begin="10" end="19" id="41" index="3" rel="su"/>
+          <node begin="24" end="25" id="42" lemma="zetten" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="zet" word="zette" wvorm="pv"/>
+          <node begin="25" cat="np" end="27" id="43" rel="obj1">
+            <node begin="25" buiging="zonder" end="26" getal="ev" id="44" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pt="vnw" rel="det" root="zijn" status="vol" vwtype="bez" word="zijn"/>
+            <node begin="26" end="27" genus="zijd" getal="ev" graad="basis" id="45" lemma="vader" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="vader" word="vader"/>
+          </node>
+          <node begin="27" cat="pp" end="30" id="46" rel="ld">
+            <node begin="27" end="28" id="47" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+            <node begin="28" cat="np" end="30" id="48" rel="obj1">
+              <node begin="28" end="29" id="49" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="29" end="30" genus="zijd" getal="ev" graad="basis" id="50" lemma="troon" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="troon" word="troon"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="30" end="31" id="51" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Aanvankelijk werd hun opstand neergeslagen , maar in 1866 versloeg Abd al-Rahman Khan , een zoon van Afzal Khan , Sher Ali , en zette zijn vader op de troon .</sentence>
+</alpino_ds>

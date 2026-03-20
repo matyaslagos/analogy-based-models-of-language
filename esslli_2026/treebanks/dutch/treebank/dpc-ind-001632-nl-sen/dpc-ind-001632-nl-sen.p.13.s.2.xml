@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="32" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="5" end="6" id="2" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="19" end="20" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="31" id="4" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="5" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" word="Maar"/>
+      <node begin="1" cat="du" end="31" id="6" rel="nucl">
+        <node begin="1" cat="smain" end="4" id="7" rel="tag">
+          <node begin="1" end="2" genus="masc" getal="ev" id="8" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="hij"/>
+          <node begin="2" end="3" id="9" lemma="toe_voegen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="voeg_toe" word="voegt" wvorm="pv"/>
+          <node begin="3" end="4" id="10" lemma="toe" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="toe" vztype="fin" word="toe"/>
+        </node>
+        <node begin="6" cat="smain" end="31" id="11" rel="nucl">
+          <node begin="6" cat="np" end="19" id="12" rel="predc">
+            <node begin="6" end="7" id="13" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+            <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="14" lemma="probleem" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="probleem" word="probleem"/>
+            <node begin="8" cat="pp" end="19" id="15" rel="mod">
+              <node begin="8" end="9" id="16" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+              <node begin="9" cat="np" end="19" id="17" rel="obj1">
+                <node begin="9" end="10" getal="mv" graad="basis" id="18" lemma="instrument" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="instrument" word="instrumenten"/>
+                <node begin="10" cat="rel" end="19" id="19" rel="mod">
+                  <node begin="10" end="11" getal="getal" id="20" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+                  <node begin="10" cat="ssub" end="19" id="21" rel="body">
+                    <node begin="10" end="11" id="22" index="1" rel="su"/>
+                    <node begin="13" end="14" id="23" lemma="berekenen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="bereken" word="berekenen" wvorm="pv"/>
+                    <node begin="11" cat="np" end="19" id="24" rel="obj1">
+                      <node begin="11" end="12" id="25" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                      <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="26" lemma="kans" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="kans" word="kans"/>
+                      <node begin="14" cat="cp" end="19" id="27" rel="vc">
+                        <node begin="14" conjtype="onder" end="15" id="28" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+                        <node begin="15" cat="ssub" end="19" id="29" rel="body">
+                          <node begin="15" end="16" getal="ev" id="30" index="2" lemma="je" naamval="nomin" pdtype="pron" persoon="2v" pos="pron" postag="VNW(pers,pron,nomin,red,2v,ev)" pt="vnw" rel="su" root="je" status="red" vwtype="pers" word="je"/>
+                          <node begin="17" end="18" id="31" lemma="zullen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="zal" word="zult" wvorm="pv"/>
+                          <node begin="15" cat="inf" end="19" id="32" rel="vc">
+                            <node begin="15" end="16" id="33" index="2" rel="su"/>
+                            <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="34" lemma="dementie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="dementie" word="dementie"/>
+                            <node begin="18" buiging="zonder" end="19" id="35" lemma="ontwikkelen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ontwikkel" word="ontwikkelen" wvorm="inf"/>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="20" end="21" id="36" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+          <node begin="21" cat="cp" end="31" id="37" rel="su">
+            <node begin="21" conjtype="onder" end="22" id="38" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+            <node begin="22" cat="ssub" end="31" id="39" rel="body">
+              <node begin="22" cat="np" end="24" id="40" index="3" rel="su">
+                <node begin="22" end="23" id="41" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="23" end="24" getal="mv" graad="basis" id="42" lemma="medicus" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="medicus" word="medici"/>
+              </node>
+              <node begin="26" end="27" id="43" lemma="gaan" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ga" word="gaan" wvorm="pv"/>
+              <node begin="22" cat="inf" end="31" id="44" rel="vc">
+                <node begin="22" end="24" id="45" index="3" rel="su"/>
+                <node begin="24" cat="ap" end="26" id="46" rel="mod">
+                  <node begin="24" end="25" id="47" lemma="te" pos="adv" postag="BW()" pt="bw" rel="mod" root="te" word="te"/>
+                  <node begin="25" buiging="zonder" end="26" graad="basis" id="48" lemma="hard" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="hard" word="hard"/>
+                </node>
+                <node begin="27" buiging="zonder" end="28" id="49" lemma="vertrouwen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="vertrouw" word="vertrouwen" wvorm="inf"/>
+                <node begin="28" cat="pp" end="31" id="50" rel="pc">
+                  <node begin="28" end="29" id="51" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+                  <node begin="29" cat="np" end="31" id="52" rel="obj1">
+                    <node begin="29" end="30" id="53" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                    <node begin="30" end="31" genus="zijd" getal="ev" graad="basis" id="54" lemma="cijfer_diagnose" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="cijfer_diagnose" word="cijferdiagnose"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="31" end="32" id="55" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Maar hij voegt toe : &quot; Het probleem met instrumenten die de kans berekenen dat je dementie zult ontwikkelen , is dat de medici te hard gaan vertrouwen op een cijferdiagnose .</sentence>
+</alpino_ds>

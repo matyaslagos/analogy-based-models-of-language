@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="4" end="5" id="2" lemma="kunnen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="kan" word="konden" wvorm="pv"/>
+      <node begin="5" cat="np" end="7" id="3" index="1" rel="su">
+        <node begin="5" buiging="zonder" end="6" id="4" lemma="smelten" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="mod" root="gesmolten" word="gesmolten" wvorm="vd"/>
+        <node begin="6" end="7" getal="mv" graad="basis" id="5" lemma="kogel_fragment" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kogel_fragment" word="kogelfragmenten"/>
+      </node>
+      <node begin="0" cat="inf" end="8" id="6" rel="vc">
+        <node begin="0" cat="pp" end="4" id="7" rel="ld">
+          <node begin="0" end="1" id="8" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="Door"/>
+          <node begin="1" cat="conj" end="4" id="9" rel="obj1">
+            <node begin="1" end="2" getal="mv" graad="basis" id="10" lemma="kier" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="kier" word="kieren"/>
+            <node begin="2" conjtype="neven" end="3" id="11" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="3" end="4" getal="mv" graad="basis" id="12" lemma="kijk_sleuf" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="kijksleuven" word="kijksleuven"/>
+          </node>
+        </node>
+        <node begin="5" end="7" id="13" index="1" rel="su"/>
+        <node begin="7" buiging="zonder" end="8" id="14" lemma="heen_dringen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="dring_heen" word="heendringen" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="15" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Door kieren en kijksleuven konden gesmolten kogelfragmenten heendringen .</sentence>
+</alpino_ds>

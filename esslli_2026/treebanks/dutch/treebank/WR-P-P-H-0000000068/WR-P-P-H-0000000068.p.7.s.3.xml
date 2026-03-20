@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="24" id="0" rel="top">
+    <node begin="14" end="15" id="1" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="16" end="17" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="20" end="21" id="3" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="0" cat="smain" end="23" id="4" rel="--">
+      <node begin="4" end="5" id="5" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="23" id="6" rel="vc">
+        <node begin="0" cat="pp" end="4" id="7" rel="mod">
+          <node begin="0" end="1" id="8" lemma="volgens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="volgens" vztype="init" word="Volgens"/>
+          <node begin="1" cat="np" end="4" id="9" rel="obj1">
+            <node begin="1" end="2" id="10" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="11" lemma="vak_blad" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="vak_blad" word="vakblad"/>
+            <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="12" lemma="Distrifood" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" root="Distrifood" word="Distrifood"/>
+          </node>
+        </node>
+        <node begin="5" end="6" getal="getal" id="13" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+        <node begin="6" buiging="zonder" end="7" id="14" lemma="werken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="werk" word="gewerkt" wvorm="vd"/>
+        <node begin="7" cat="pp" end="23" id="15" rel="pc">
+          <node begin="7" end="8" id="16" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+          <node begin="8" cat="np" end="23" id="17" rel="obj1">
+            <node begin="8" end="9" id="18" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="9" buiging="zonder" end="10" graad="basis" id="19" lemma="nieuw" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="nieuw" word="nieuw"/>
+            <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="20" lemma="actie_plan" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="actie_plan" word="actieplan"/>
+            <node begin="11" cat="rel" end="23" id="21" rel="mod">
+              <node begin="11" end="12" id="22" index="1" lemma="waarbij" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waarbij" word="waarbij"/>
+              <node begin="11" cat="ssub" end="23" id="23" rel="body">
+                <node begin="12" cat="np" end="14" id="24" index="2" rel="su">
+                  <node begin="12" end="13" id="25" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="13" end="14" getal="mv" graad="basis" id="26" lemma="winkel" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="winkel" word="winkels"/>
+                </node>
+                <node begin="21" end="22" id="27" lemma="moeten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="moet" word="moeten" wvorm="pv"/>
+                <node begin="11" cat="inf" end="23" id="28" rel="vc">
+                  <node begin="11" end="12" id="29" index="1" rel="mod"/>
+                  <node begin="12" end="14" id="30" index="2" rel="su"/>
+                  <node begin="15" cat="conj" end="20" id="31" rel="predc">
+                    <node begin="15" buiging="zonder" end="16" graad="comp" id="32" lemma="vol" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="cnj" root="vol" word="voller"/>
+                    <node begin="17" buiging="zonder" end="18" graad="comp" id="33" lemma="vers" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="cnj" root="vers" word="verser"/>
+                    <node begin="18" conjtype="neven" end="19" id="34" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                    <node begin="19" buiging="zonder" end="20" graad="comp" id="35" lemma="voordelig" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="cnj" root="voordelig" word="voordeliger"/>
+                  </node>
+                  <node begin="22" buiging="zonder" end="23" id="36" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="23" end="24" id="37" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Volgens het vakblad Distrifood wordt er gewerkt aan een nieuw actieplan waarbij de winkels &apos; voller , verser en voordeliger &apos; moeten worden .</sentence>
+</alpino_ds>

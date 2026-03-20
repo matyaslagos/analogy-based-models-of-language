@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="0" cat="smain" end="17" id="1" rel="--">
+      <node begin="0" cat="np" end="11" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+        <node begin="1" buiging="zonder" end="2" getal-n="zonder-n" id="4" lemma="drinken" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="drink" word="drinken" wvorm="inf"/>
+        <node begin="2" cat="pp" end="8" id="5" rel="mod">
+          <node begin="2" end="3" id="6" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="3" cat="np" end="8" id="7" rel="obj1">
+            <node begin="3" cat="conj" end="6" id="8" rel="det">
+              <node begin="3" end="4" id="9" lemma="één" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="cnj" root="één" word="één"/>
+              <node begin="4" conjtype="neven" end="5" id="10" lemma="tot" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="tot" word="tot"/>
+              <node begin="5" end="6" id="11" lemma="drie" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="cnj" root="drie" word="drie"/>
+            </node>
+            <node begin="6" end="7" getal="mv" graad="basis" id="12" lemma="glas" ntype="soort" pos="adj" postag="N(soort,mv,basis)" pt="n" rel="mod" root="glazen" word="glazen"/>
+            <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="13" lemma="alcohol" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="alcohol" word="alcohol"/>
+          </node>
+        </node>
+        <node begin="8" cat="pp" end="11" id="14" rel="mod">
+          <node begin="8" end="9" id="15" lemma="binnen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="binnen" vztype="init" word="binnen"/>
+          <node begin="9" cat="np" end="11" id="16" rel="obj1">
+            <node begin="9" end="10" id="17" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="18" lemma="uur" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="uur" word="uur"/>
+          </node>
+        </node>
+      </node>
+      <node begin="11" end="12" id="19" lemma="werken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="werk" word="werkt" wvorm="pv"/>
+      <node begin="12" cat="pp" end="16" id="20" rel="mod">
+        <node begin="12" end="13" id="21" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+        <node begin="13" cat="np" end="16" id="22" rel="obj1">
+          <node begin="13" end="14" id="23" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="14" buiging="met-e" end="15" graad="sup" id="24" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,met-e,agr,sup)" pt="vnw" rel="mod" root="meest" vwtype="onbep" word="meeste"/>
+          <node begin="15" buiging="met-e" end="16" getal-n="mv-n" graad="basis" id="25" lemma="volwassen" pos="noun" positie="nom" postag="ADJ(nom,basis,met-e,mv-n)" pt="adj" rel="hd" root="volwassene" word="volwassenen"/>
+        </node>
+      </node>
+      <node begin="16" buiging="zonder" end="17" id="26" lemma="op_wekken" pos="adj" positie="vrij" postag="WW(od,vrij,zonder)" pt="ww" rel="predc" root="opwekkend" word="opwekkend" wvorm="od"/>
+    </node>
+    <node begin="17" end="18" id="27" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het drinken van één tot drie glazen alcohol binnen een uur werkt voor de meeste volwassenen opwekkend .</sentence>
+</alpino_ds>

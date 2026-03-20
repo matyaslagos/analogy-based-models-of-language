@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="np" end="6" id="2" rel="--">
+      <node begin="0" cat="mwu" end="3" id="3" rel="hd">
+        <node begin="0" end="1" id="4" lemma="Allez" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Allez" spectype="deeleigen" word="Allez"/>
+        <node begin="1" end="2" id="5" lemma="Allez" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Allez" spectype="deeleigen" word="Allez"/>
+        <node begin="2" end="3" id="6" lemma="Zimbabwe" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Zimbabwe" spectype="deeleigen" word="Zimbabwe"/>
+      </node>
+      <node begin="4" cat="np" end="6" id="7" rel="app">
+        <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="8" lemma="reeks" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="reeks" word="reeks"/>
+        <node begin="5" end="6" id="9" lemma="3" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="app" root="3" word="3"/>
+      </node>
+    </node>
+  </node>
+  <sentence>Allez Allez Zimbabwe , reeks 3</sentence>
+</alpino_ds>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="7" id="2" rel="--">
+      <node begin="0" cat="du" end="4" id="3" rel="dp">
+        <node begin="0" cat="conj" end="3" id="4" rel="dp">
+          <node begin="0" buiging="zonder" end="1" getal-n="zonder-n" graad="basis" id="5" lemma="groen" pos="adj" positie="nom" postag="ADJ(nom,basis,zonder,zonder-n)" pt="adj" rel="cnj" root="groen" word="Groen"/>
+          <node begin="1" conjtype="neven" end="2" id="6" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="2" buiging="zonder" end="3" getal-n="zonder-n" graad="basis" id="7" lemma="rood" pos="adj" positie="nom" postag="ADJ(nom,basis,zonder,zonder-n)" pt="adj" rel="cnj" root="rood" word="rood"/>
+        </node>
+        <node begin="3" buiging="zonder" end="4" graad="basis" id="8" lemma="tevreden" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="dp" root="tevreden" word="tevreden"/>
+      </node>
+      <node begin="5" cat="du" end="7" id="9" rel="dp">
+        <node begin="5" buiging="zonder" end="6" graad="basis" id="10" lemma="blauw" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="dp" root="blauw" word="blauw"/>
+        <node begin="6" end="7" id="11" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="dp" root="ook" word="ook"/>
+      </node>
+    </node>
+    <node begin="7" end="8" id="12" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Groen en rood tevreden , blauw ook .</sentence>
+</alpino_ds>

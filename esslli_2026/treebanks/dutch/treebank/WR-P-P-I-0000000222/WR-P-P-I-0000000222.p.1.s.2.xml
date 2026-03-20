@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" end="1" id="2" lemma="daardoor" pos="pp" postag="BW()" pt="bw" rel="mod" root="daardoor" word="Daardoor"/>
+      <node begin="1" end="2" id="3" lemma="blijven" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="blijf" word="blijven" wvorm="pv"/>
+      <node begin="2" cat="np" end="7" id="4" rel="su">
+        <node begin="2" end="3" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="3" end="4" getal="mv" graad="basis" id="6" lemma="tarief" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="tarief" word="tarieven"/>
+        <node begin="4" cat="pp" end="7" id="7" rel="mod">
+          <node begin="4" end="5" id="8" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="5" cat="np" end="7" id="9" rel="obj1">
+            <node begin="5" end="6" id="10" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="6" end="7" getal="mv" graad="basis" id="11" lemma="behandeling" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="behandeling" word="behandelingen"/>
+          </node>
+        </node>
+      </node>
+      <node begin="7" buiging="zonder" end="8" graad="basis" id="12" lemma="vrij" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="vrij" word="vrij"/>
+    </node>
+    <node begin="8" end="9" id="13" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Daardoor blijven de tarieven van de behandelingen vrij .</sentence>
+</alpino_ds>

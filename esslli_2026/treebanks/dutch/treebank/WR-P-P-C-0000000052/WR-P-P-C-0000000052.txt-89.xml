@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="0" cat="smain" end="19" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" index="1" rel="su">
+        <node begin="0" end="1" id="3" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="Een"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="4" lemma="kater" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="kater" word="kater"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="0" cat="ti" end="19" id="6" rel="vc">
+        <node begin="4" end="5" id="7" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+        <node begin="0" cat="inf" end="19" id="8" rel="body">
+          <node begin="0" end="2" id="9" index="1" rel="obj1"/>
+          <node begin="3" end="4" id="10" lemma="alleen" pos="adj" postag="BW()" pt="bw" rel="mod" root="alleen" word="alleen"/>
+          <node begin="5" buiging="zonder" end="6" id="11" lemma="voorkomen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="voorkom" word="voorkomen" wvorm="inf"/>
+          <node begin="6" cat="cp" end="19" id="12" rel="mod">
+            <node begin="6" end="7" id="13" lemma="door" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="door" vztype="init" word="door"/>
+            <node begin="7" cat="conj" end="19" id="14" rel="body">
+              <node begin="7" cat="ti" end="11" id="15" rel="cnj">
+                <node begin="9" end="10" id="16" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+                <node begin="7" cat="inf" end="11" id="17" rel="body">
+                  <node begin="7" cat="np" end="9" id="18" rel="obj1">
+                    <node begin="7" buiging="zonder" end="8" graad="comp" id="19" lemma="weinig" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,comp)" pt="vnw" rel="det" root="minder" vwtype="onbep" word="minder"/>
+                    <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="20" lemma="alcohol" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="alcohol" word="alcohol"/>
+                  </node>
+                  <node begin="10" buiging="zonder" end="11" id="21" lemma="drinken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="drink" word="drinken" wvorm="inf"/>
+                </node>
+              </node>
+              <node begin="11" conjtype="neven" end="12" id="22" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="12" cat="ti" end="19" id="23" rel="cnj">
+                <node begin="17" end="18" id="24" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+                <node begin="12" cat="inf" end="19" id="25" rel="body">
+                  <node begin="12" cat="conj" end="16" id="26" rel="obj1">
+                    <node begin="12" cat="np" end="14" id="27" rel="cnj">
+                      <node begin="12" end="13" id="28" index="2" lemma="genoeg" pos="det" postag="BW()" pt="bw" rel="det" root="genoeg" word="genoeg"/>
+                      <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="29" lemma="water" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="water" word="water"/>
+                    </node>
+                    <node begin="14" conjtype="neven" end="15" id="30" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+                    <node begin="12" cat="np" end="16" id="31" rel="cnj">
+                      <node begin="12" end="13" id="32" index="2" rel="det"/>
+                      <node begin="15" buiging="zonder" end="16" getal-n="zonder-n" graad="basis" id="33" lemma="fris" pos="noun" positie="nom" postag="ADJ(nom,basis,zonder,zonder-n)" pt="adj" rel="hd" root="fris" word="fris"/>
+                    </node>
+                  </node>
+                  <node begin="16" end="17" id="34" lemma="tussendoor" pos="adv" postag="BW()" pt="bw" rel="mod" root="tussendoor" word="tussendoor"/>
+                  <node begin="18" buiging="zonder" end="19" id="35" lemma="nemen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="neem" word="nemen" wvorm="inf"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="36" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Een kater is alleen te voorkomen door minder alcohol te drinken en genoeg water of fris tussendoor te nemen .</sentence>
+</alpino_ds>

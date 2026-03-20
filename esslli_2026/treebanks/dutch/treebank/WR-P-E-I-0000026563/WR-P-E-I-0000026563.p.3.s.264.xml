@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="25" id="0" rel="top">
+    <node begin="17" end="18" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="22" end="23" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="0" cat="smain" end="24" id="3" rel="--">
+      <node begin="0" cat="advp" end="4" id="4" rel="mod">
+        <node begin="0" end="1" genus="onz" getal="ev" graad="basis" id="5" lemma="eind" naamval="stan" ntype="soort" pos="adv" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="eind" word="Eind"/>
+        <node begin="1" cat="np" end="4" id="6" rel="mod">
+          <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="7" lemma="augustus" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="augustus" word="augustus"/>
+          <node begin="2" cat="np" end="4" id="8" rel="mod">
+            <node begin="2" buiging="zonder" end="3" id="9" lemma="dat" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dat" vwtype="aanw" word="dat"/>
+            <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="10" lemma="jaar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="jaar" word="jaar"/>
+          </node>
+        </node>
+      </node>
+      <node begin="4" end="5" id="11" lemma="uit_brengen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="breng_uit" word="bracht" wvorm="pv"/>
+      <node begin="5" end="6" genus="genus" getal="ev" graad="basis" id="12" lemma="Warner" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="su" root="Warner" word="Warner"/>
+      <node begin="6" cat="np" end="22" id="13" rel="obj1">
+        <node begin="6" end="7" id="14" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+        <node begin="7" cat="ppres" end="12" id="15" rel="mod">
+          <node begin="7" end="8" id="16" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" word="nog"/>
+          <node begin="8" cat="pp" end="11" id="17" rel="ld">
+            <node begin="8" end="9" id="18" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+            <node begin="9" cat="np" end="11" id="19" rel="obj1">
+              <node begin="9" end="10" id="20" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="10" end="11" getal="mv" graad="basis" id="21" lemma="schap" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="schap" word="schappen"/>
+            </node>
+          </node>
+          <node begin="11" buiging="met-e" end="12" id="22" lemma="liggen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="hd" root="lig" word="liggende" wvorm="od"/>
+        </node>
+        <node begin="12" cat="ppart" end="14" id="23" rel="mod">
+          <node begin="12" buiging="zonder" end="13" graad="basis" id="24" lemma="contractueel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="contractueel" word="contractueel"/>
+          <node begin="13" buiging="met-e" end="14" id="25" lemma="verplichten" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="hd" root="verplicht" word="verplichte" wvorm="vd"/>
+        </node>
+        <node begin="14" end="15" genus="onz" getal="ev" graad="basis" id="26" lemma="Prince_album" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="Prince_album" word="Prince-album"/>
+        <node begin="15" cat="np" end="22" id="27" rel="app">
+          <node begin="15" cat="mwu" end="17" id="28" rel="hd">
+            <node begin="15" end="16" id="29" lemma="The" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="The" spectype="vreemd" word="The"/>
+            <node begin="16" end="17" id="30" lemma="Vault" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Vault" spectype="vreemd" word="Vault"/>
+          </node>
+          <node begin="18" cat="mwu" end="22" id="31" rel="mod">
+            <node begin="18" end="19" id="32" lemma="Old" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Old" spectype="vreemd" word="Old"/>
+            <node begin="19" end="20" id="33" lemma="Friends" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Friends" spectype="vreemd" word="Friends"/>
+            <node begin="20" end="21" id="34" lemma="4" pos="num" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="4" spectype="vreemd" word="4"/>
+            <node begin="21" end="22" id="35" lemma="Sale" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Sale" spectype="vreemd" word="Sale"/>
+          </node>
+        </node>
+      </node>
+      <node begin="23" end="24" id="36" lemma="uit" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="uit" vztype="fin" word="uit"/>
+    </node>
+    <node begin="24" end="25" id="37" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Eind augustus dat jaar bracht Warner het nog op de schappen liggende contractueel verplichte Prince-album The Vault ( Old Friends 4 Sale ) uit .</sentence>
+</alpino_ds>

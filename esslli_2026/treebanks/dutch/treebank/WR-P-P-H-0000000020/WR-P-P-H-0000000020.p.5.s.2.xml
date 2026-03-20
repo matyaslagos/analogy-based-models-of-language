@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="35" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="19" end="20" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="34" id="3" rel="--">
+      <node begin="0" cat="np" end="19" id="4" rel="su">
+        <node begin="0" end="1" id="5" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="6" lemma="volk" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="volk" word="volk"/>
+        <node begin="3" cat="rel" end="19" id="7" rel="mod">
+          <node begin="3" end="4" getal="ev" id="8" index="1" lemma="dat" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(betr,pron,stan,vol,3,ev)" pt="vnw" rel="rhd" root="dat" status="vol" vwtype="betr" word="dat"/>
+          <node begin="3" cat="ssub" end="19" id="9" rel="body">
+            <node begin="3" end="4" id="10" index="1" rel="su"/>
+            <node begin="4" cat="pp" end="13" id="11" rel="mod">
+              <node begin="4" end="5" id="12" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" vztype="init" word="na"/>
+              <node begin="5" cat="np" end="13" id="13" rel="obj1">
+                <node begin="5" end="6" id="14" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                <node begin="6" buiging="zonder" end="7" getal-n="zonder-n" id="15" lemma="af_haken" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="haak_af" word="afhaken" wvorm="inf"/>
+                <node begin="7" cat="pp" end="13" id="16" rel="mod">
+                  <node begin="7" end="8" id="17" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                  <node begin="8" cat="conj" end="13" id="18" rel="obj1">
+                    <node begin="8" cat="mwu" end="10" id="19" rel="cnj">
+                      <node begin="8" end="9" id="20" lemma="Jan" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Jan" spectype="deeleigen" word="Jan"/>
+                      <node begin="9" end="10" id="21" lemma="Tops" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Tops" spectype="deeleigen" word="Tops"/>
+                    </node>
+                    <node begin="10" conjtype="neven" end="11" id="22" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                    <node begin="11" cat="mwu" end="13" id="23" rel="cnj">
+                      <node begin="11" end="12" id="24" lemma="Jeroen" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Jeroen" spectype="deeleigen" word="Jeroen"/>
+                      <node begin="12" end="13" id="25" lemma="Dubbeldam" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Dubbeldam" spectype="deeleigen" word="Dubbeldam"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="26" lemma="behoefte" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="behoefte" word="behoefte"/>
+            <node begin="14" end="15" id="27" lemma="hebben" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="heb" word="had" wvorm="pv"/>
+            <node begin="15" cat="pp" end="19" id="28" rel="pc">
+              <node begin="15" end="16" id="29" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+              <node begin="16" cat="np" end="19" id="30" rel="obj1">
+                <node begin="16" end="17" id="31" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                <node begin="17" buiging="met-e" end="18" graad="basis" id="32" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" word="nieuwe"/>
+                <node begin="18" end="19" genus="zijd" getal="ev" graad="basis" id="33" lemma="held" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="held" word="held"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="20" end="21" id="34" lemma="zien" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="zie" word="zag" wvorm="pv"/>
+      <node begin="21" cat="whsub" end="34" id="35" rel="vc">
+        <node begin="21" end="22" id="36" index="2" lemma="hoe" pos="adj" postag="BW()" pt="bw" rel="whd" root="hoe" word="hoe"/>
+        <node begin="21" cat="ssub" end="34" id="37" rel="body">
+          <node begin="21" end="22" id="38" index="2" rel="mod"/>
+          <node begin="22" cat="mwu" end="25" id="39" rel="su">
+            <node begin="22" end="23" id="40" lemma="Van" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Van" spectype="deeleigen" word="Van"/>
+            <node begin="23" end="24" id="41" lemma="der" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="der" spectype="deeleigen" word="der"/>
+            <node begin="24" end="25" id="42" lemma="Schans" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Schans" spectype="deeleigen" word="Schans"/>
+          </node>
+          <node begin="25" end="26" getal="getal" id="43" lemma="zich" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="se" root="zich" status="red" vwtype="refl" word="zich"/>
+          <node begin="26" cat="pp" end="33" id="44" rel="ld">
+            <node begin="26" end="27" id="45" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+            <node begin="27" cat="np" end="33" id="46" rel="obj1">
+              <node begin="27" end="28" id="47" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="28" end="29" id="48" lemma="één" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="eerste" word="eerste"/>
+              <node begin="29" end="30" genus="zijd" getal="ev" graad="basis" id="49" lemma="plaats" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="plaats" word="plaats"/>
+              <node begin="30" cat="pp" end="33" id="50" rel="mod">
+                <node begin="30" end="31" id="51" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                <node begin="31" cat="np" end="33" id="52" rel="obj1">
+                  <node begin="31" end="32" id="53" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="32" end="33" genus="zijd" getal="ev" graad="basis" id="54" lemma="tussen_klassering" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="tussenklassering" word="tussenklassering"/>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="33" end="34" id="55" lemma="nestelen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="nestel" word="nestelde" wvorm="pv"/>
+        </node>
+      </node>
+    </node>
+    <node begin="34" end="35" id="56" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het volk , dat na het afhaken van Jan Tops en Jeroen Dubbeldam behoefte had aan een nieuwe held , zag hoe Van der Schans zich op de eerste plaats in de tussenklassering nestelde .</sentence>
+</alpino_ds>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="du" end="8" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="en" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="en" word="En"/>
+      <node begin="1" cat="ssub" end="8" id="3" rel="nucl">
+        <node begin="5" end="6" id="4" lemma="straks" pos="adv" postag="BW()" pt="bw" rel="mod" root="straks" word="straks"/>
+        <node begin="6" end="7" id="5" lemma="moeten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="moet" word="moeten" wvorm="pv"/>
+        <node begin="1" cat="inf" end="8" id="6" rel="vc">
+          <node begin="1" cat="np" end="5" id="7" rel="obj1">
+            <node begin="1" cat="ppart" end="4" id="8" rel="mod">
+              <node begin="1" cat="pp" end="3" id="9" rel="mod">
+                <node begin="1" end="2" id="10" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+                <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="11" lemma="moeite" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="moeite" word="moeite"/>
+              </node>
+              <node begin="3" buiging="zonder" end="4" id="12" lemma="werven" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="hd" root="geworven" word="geworven" wvorm="vd"/>
+            </node>
+            <node begin="4" end="5" getal="mv" graad="basis" id="13" lemma="personeel_lid" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="personeel_lid" word="personeelsleden"/>
+          </node>
+          <node begin="7" buiging="zonder" end="8" id="14" lemma="ontslaan" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ontsla" word="ontslaan" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" id="15" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>En met moeite geworven personeelsleden straks moeten ontslaan .</sentence>
+</alpino_ds>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="8" end="9" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="18" id="3" rel="--">
+      <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="4" lemma="agenda" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="sat" root="agenda" word="AGENDA"/>
+      <node begin="2" cat="smain" end="18" id="5" rel="nucl">
+        <node begin="9" end="10" id="6" lemma="moeten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="moet" word="moet" wvorm="pv"/>
+        <node begin="10" end="11" getal="getal" id="7" index="1" lemma="u" naamval="nomin" pdtype="pron" persoon="2b" pos="pron" postag="VNW(pers,pron,nomin,vol,2b,getal)" pt="vnw" rel="su" root="u" status="vol" vwtype="pers" word="u"/>
+        <node begin="2" cat="inf" end="18" id="8" rel="vc">
+          <node begin="2" cat="oti" end="8" id="9" rel="mod">
+            <node begin="2" end="3" id="10" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="om"/>
+            <node begin="3" cat="ti" end="8" id="11" rel="body">
+              <node begin="6" end="7" id="12" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+              <node begin="3" cat="inf" end="8" id="13" rel="body">
+                <node begin="3" cat="np" end="5" id="14" rel="obj1">
+                  <node begin="3" end="4" id="15" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="16" lemma="boodschap" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="boodschap" word="boodschap"/>
+                </node>
+                <node begin="5" end="6" id="17" lemma="over" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="over" vztype="fin" word="over"/>
+                <node begin="7" buiging="zonder" end="8" id="18" lemma="over_brengen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="breng_over" word="brengen" wvorm="inf"/>
+              </node>
+            </node>
+          </node>
+          <node begin="10" end="11" id="19" index="1" rel="su"/>
+          <node begin="11" end="12" id="20" lemma="eerst" pos="adv" postag="BW()" pt="bw" rel="mod" root="eerst" word="eerst"/>
+          <node begin="14" buiging="zonder" end="15" id="21" lemma="trekken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="trek" word="trekken" wvorm="inf"/>
+          <node begin="12" cat="np" end="18" id="22" rel="obj1">
+            <node begin="12" end="13" id="23" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="24" lemma="aandacht" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="aandacht" word="aandacht"/>
+            <node begin="15" cat="pp" end="18" id="25" rel="mod">
+              <node begin="15" end="16" id="26" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="16" cat="np" end="18" id="27" rel="obj1">
+                <node begin="16" buiging="zonder" end="17" getal="getal" id="28" lemma="u" naamval="stan" npagr="agr" pdtype="det" persoon="2" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,2,getal,prenom,zonder,agr)" pt="vnw" rel="det" root="u" status="vol" vwtype="bez" word="uw"/>
+                <node begin="17" end="18" genus="onz" getal="ev" graad="basis" id="29" lemma="publiek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="publiek" word="publiek"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="30" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>AGENDA : om de boodschap over te brengen , moet u eerst de aandacht trekken van uw publiek .</sentence>
+</alpino_ds>

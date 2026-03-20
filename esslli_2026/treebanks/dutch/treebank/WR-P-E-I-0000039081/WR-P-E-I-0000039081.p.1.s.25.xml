@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="39" id="0" rel="top">
+    <node begin="9" end="10" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="12" end="13" id="2" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="15" end="16" id="3" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="16" end="17" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="19" end="20" id="5" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="21" end="22" id="6" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="25" end="26" id="7" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="27" end="28" id="8" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="0" cat="smain" end="38" id="9" rel="--">
+      <node begin="0" end="1" getal="getal" id="10" lemma="hier" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="mod" root="hier" status="vol" vwtype="aanw" word="Hier"/>
+      <node begin="1" end="2" id="11" lemma="bespreken" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="bespreek" word="bespraken" wvorm="pv"/>
+      <node begin="2" cat="np" end="27" id="12" rel="su">
+        <node begin="2" end="3" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="3" end="4" id="14" lemma="drie" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="drie" word="drie"/>
+        <node begin="4" end="5" getal="mv" graad="basis" id="15" lemma="leider" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="leider" word="leiders"/>
+        <node begin="5" cat="pp" end="9" id="16" rel="mod">
+          <node begin="5" end="6" id="17" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="6" cat="np" end="9" id="18" rel="obj1">
+            <node begin="6" end="7" id="19" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="7" buiging="met-e" end="8" graad="sup" id="20" lemma="groot" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="mod" root="groot" word="grootste"/>
+            <node begin="8" end="9" getal="mv" graad="basis" id="21" lemma="macht" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="macht" word="machten"/>
+          </node>
+        </node>
+        <node begin="10" cat="conj" end="27" id="22" rel="app">
+          <node begin="10" cat="np" end="15" id="23" rel="cnj">
+            <node begin="10" cat="mwu" end="12" id="24" rel="hd">
+              <node begin="10" end="11" id="25" lemma="Winston" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Winston" spectype="deeleigen" word="Winston"/>
+              <node begin="11" end="12" id="26" lemma="Churchill" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Churchill" spectype="deeleigen" word="Churchill"/>
+            </node>
+            <node begin="13" cat="mwu" end="15" id="27" rel="mod">
+              <node begin="13" end="14" id="28" lemma="Verenigd" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Verenigd" spectype="deeleigen" word="Verenigd"/>
+              <node begin="14" end="15" id="29" lemma="Koninkrijk" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Koninkrijk" spectype="deeleigen" word="Koninkrijk"/>
+            </node>
+          </node>
+          <node begin="17" cat="np" end="21" id="30" rel="cnj">
+            <node begin="17" cat="mwu" end="19" id="31" rel="hd">
+              <node begin="17" end="18" id="32" lemma="Franklin" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Franklin" spectype="deeleigen" word="Franklin"/>
+              <node begin="18" end="19" id="33" lemma="Roosevelt" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Roosevelt" spectype="deeleigen" word="Roosevelt"/>
+            </node>
+            <node begin="20" end="21" getal="mv" graad="basis" id="34" lemma="VS" ntype="eigen" pos="name" postag="N(eigen,mv,basis)" pt="n" rel="mod" root="VS" word="VS"/>
+          </node>
+          <node begin="22" conjtype="neven" end="23" id="35" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="23" cat="np" end="27" id="36" rel="cnj">
+            <node begin="23" cat="mwu" end="25" id="37" rel="hd">
+              <node begin="23" end="24" id="38" lemma="Jozef" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Jozef" spectype="deeleigen" word="Jozef"/>
+              <node begin="24" end="25" id="39" lemma="Stalin" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Stalin" spectype="deeleigen" word="Stalin"/>
+            </node>
+            <node begin="26" end="27" genus="zijd" getal="ev" graad="basis" id="40" lemma="USSR" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" root="USSR" word="USSR"/>
+          </node>
+        </node>
+      </node>
+      <node begin="28" cat="np" end="38" id="41" rel="obj1">
+        <node begin="28" end="29" id="42" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="29" end="30" genus="zijd" getal="ev" graad="basis" id="43" lemma="situatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="situatie" word="situatie"/>
+        <node begin="30" cat="rel" end="38" id="44" rel="mod">
+          <node begin="30" end="31" getal="getal" id="45" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+          <node begin="30" cat="ssub" end="38" id="46" rel="body">
+            <node begin="30" end="31" id="47" index="1" rel="su"/>
+            <node begin="36" end="37" id="48" lemma="zullen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="zal" word="zou" wvorm="pv"/>
+            <node begin="30" cat="inf" end="38" id="49" rel="vc">
+              <node begin="30" end="31" id="50" index="1" rel="su"/>
+              <node begin="31" cat="pp" end="36" id="51" rel="mod">
+                <node begin="31" cat="mwu" end="34" id="52" rel="hd">
+                  <node begin="31" end="32" id="53" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="na" vztype="init" word="na"/>
+                  <node begin="32" end="33" genus="zijd" getal="ev" graad="basis" id="54" lemma="afloop" naamval="stan" ntype="soort" pos="prep" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="afloop" word="afloop"/>
+                  <node begin="33" end="34" id="55" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="van" vztype="init" word="van"/>
+                </node>
+                <node begin="34" cat="np" end="36" id="56" rel="obj1">
+                  <node begin="34" end="35" id="57" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="35" end="36" genus="zijd" getal="ev" graad="basis" id="58" lemma="oorlog" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="oorlog" word="oorlog"/>
+                </node>
+              </node>
+              <node begin="37" buiging="zonder" end="38" id="59" lemma="ontstaan" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ontsta" word="ontstaan" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="38" end="39" id="60" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Hier bespraken de drie leiders van de grootste machten , Winston Churchill ( Verenigd Koninkrijk ) , Franklin Roosevelt ( VS ) en Jozef Stalin ( USSR ) de situatie die na afloop van de oorlog zou ontstaan .</sentence>
+</alpino_ds>

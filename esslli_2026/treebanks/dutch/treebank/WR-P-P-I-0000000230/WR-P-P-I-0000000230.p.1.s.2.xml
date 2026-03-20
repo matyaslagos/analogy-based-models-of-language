@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="0" cat="du" end="16" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="en" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="en" word="En"/>
+      <node begin="1" cat="smain" end="16" id="3" rel="nucl">
+        <node begin="1" end="2" getal="mv" id="4" lemma="wij" naamval="nomin" pdtype="pron" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,vol,1,mv)" pt="vnw" rel="su" root="wij" status="vol" vwtype="pers" word="wij"/>
+        <node begin="2" end="3" id="5" lemma="helpen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="help" word="helpen" wvorm="pv"/>
+        <node begin="3" end="4" getal="mv" id="6" lemma="hen" naamval="obl" pdtype="pron" persoon="3p" pos="pron" postag="VNW(pers,pron,obl,vol,3p,mv)" pt="vnw" rel="obj1" root="hen" status="vol" vwtype="pers" word="hen"/>
+        <node begin="4" end="5" id="7" lemma="daarenboven" pos="adv" postag="BW()" pt="bw" rel="mod" root="daarenboven" word="daarenboven"/>
+        <node begin="5" end="6" id="8" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" word="nog"/>
+        <node begin="6" cat="mwu" end="8" id="9" rel="svp">
+          <node begin="6" end="7" id="10" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="fixed" postag="LID(onbep,stan,agr)" pt="lid" rel="mwp" root="een" word="een"/>
+          <node begin="7" end="8" genus="onz" getal="ev" graad="dim" id="11" lemma="hand" naamval="stan" ntype="soort" pos="fixed" postag="N(soort,ev,dim,onz,stan)" pt="n" rel="mwp" root="handje" word="handje"/>
+        </node>
+        <node begin="8" cat="pp" end="16" id="12" rel="mod">
+          <node begin="8" end="9" id="13" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+          <node begin="9" cat="np" end="16" id="14" rel="obj1">
+            <node begin="9" end="10" getal="mv" graad="basis" id="15" lemma="ding" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="ding" word="dingen"/>
+            <node begin="10" cat="rel" end="16" id="16" rel="mod">
+              <node begin="10" end="11" getal="getal" id="17" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+              <node begin="10" cat="ssub" end="16" id="18" rel="body">
+                <node begin="10" end="11" id="19" index="1" rel="obj1"/>
+                <node begin="11" end="12" getal="mv" id="20" lemma="zij" naamval="nomin" pdtype="pron" persoon="3p" pos="pron" postag="VNW(pers,pron,nomin,vol,3p,mv)" pt="vnw" rel="su" root="zij" status="vol" vwtype="pers" word="zij"/>
+                <node begin="12" end="13" id="21" lemma="dan" pos="adv" postag="BW()" pt="bw" rel="mod" root="dan" word="dan"/>
+                <node begin="13" end="14" id="22" lemma="weer" pos="adv" postag="BW()" pt="bw" rel="mod" root="weer" word="weer"/>
+                <node begin="14" end="15" id="23" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+                <node begin="15" end="16" id="24" lemma="kunnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kan" word="kunnen" wvorm="pv"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="25" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>En wij helpen hen daarenboven nog een handje met dingen die zij dan weer niet kunnen .</sentence>
+</alpino_ds>

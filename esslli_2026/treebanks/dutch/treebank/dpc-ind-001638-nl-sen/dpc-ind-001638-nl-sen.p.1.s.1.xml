@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="0" end="1" genus="onz" getal="ev" graad="basis" id="2" lemma="Hollywood" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" root="Hollywood" word="Hollywood"/>
+      <node begin="1" end="2" id="3" lemma="verkeren" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="verkeer" word="verkeert" wvorm="pv"/>
+      <node begin="2" cat="ap" end="6" id="4" rel="predc">
+        <node begin="2" cat="mwu" end="4" id="5" rel="hd">
+          <node begin="2" end="3" id="6" lemma="in" pos="adj" postag="VZ(init)" pt="vz" rel="mwp" root="in" vztype="init" word="in"/>
+          <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="7" lemma="staat" naamval="stan" ntype="soort" pos="adj" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="staat" word="staat"/>
+        </node>
+        <node begin="4" cat="pp" end="6" id="8" rel="pc">
+          <node begin="4" end="5" id="9" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="10" lemma="oorlog" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="oorlog" word="oorlog"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>Hollywood verkeert in staat van oorlog</sentence>
+</alpino_ds>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="5" id="0" rel="top">
+    <node begin="0" cat="np" end="5" id="1" rel="--">
+      <node begin="0" buiging="met-e" end="1" graad="basis" id="2" lemma="centraal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="centraal" word="Centrale"/>
+      <node begin="1" end="2" getal="mv" graad="basis" id="3" lemma="autoriteit" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="autoriteit" word="autoriteiten"/>
+      <node begin="2" cat="pp" end="5" id="4" rel="mod">
+        <node begin="2" end="3" id="5" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+        <node begin="3" cat="np" end="5" id="6" rel="obj1">
+          <node begin="3" end="4" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="4" end="5" getal="mv" graad="basis" id="8" lemma="gemeenschap" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="gemeenschap" word="gemeenschappen"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>Centrale autoriteiten van de gemeenschappen</sentence>
+</alpino_ds>

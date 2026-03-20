@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="11" end="12" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="20" id="2" rel="--">
+      <node begin="0" cat="smain" end="11" id="3" rel="cnj">
+        <node begin="0" cat="np" end="7" id="4" rel="su">
+          <node begin="0" end="1" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+          <node begin="1" end="2" getal="mv" graad="basis" id="6" lemma="resultaat" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="resultaat" word="resultaten"/>
+          <node begin="2" cat="pp" end="4" id="7" rel="mod">
+            <node begin="2" end="3" id="8" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+            <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="9" lemma="UMTS" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" root="UMTS" word="UMTS"/>
+          </node>
+          <node begin="4" cat="pp" end="7" id="10" rel="mod">
+            <node begin="4" end="5" id="11" lemma="elders" pos="adv" postag="BW()" pt="bw" rel="mod" root="elders" word="elders"/>
+            <node begin="5" end="6" id="12" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="13" lemma="Europa" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Europa" word="Europa"/>
+          </node>
+        </node>
+        <node begin="7" end="8" id="14" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+        <node begin="8" cat="advp" end="10" id="15" rel="mod">
+          <node begin="8" end="9" id="16" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" word="nog"/>
+          <node begin="9" end="10" id="17" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="hd" root="niet" word="niet"/>
+        </node>
+        <node begin="10" buiging="zonder" end="11" id="18" lemma="bemoedigen" pos="adj" positie="vrij" postag="WW(od,vrij,zonder)" pt="ww" rel="predc" root="bemoedig" word="bemoedigend" wvorm="od"/>
+      </node>
+      <node begin="12" conjtype="neven" end="13" id="19" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+      <node begin="13" cat="smain" end="20" id="20" rel="cnj">
+        <node begin="13" cat="np" end="15" id="21" index="1" rel="su">
+          <node begin="13" end="14" id="22" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="23" lemma="telecom_sector" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="telecom_sector" word="telecomsector"/>
+        </node>
+        <node begin="15" end="16" id="24" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="16" end="17" id="25" lemma="wel" pos="adv" postag="BW()" pt="bw" rel="mod" root="wel" word="wel"/>
+        <node begin="13" cat="ahi" end="20" id="26" rel="vc">
+          <node begin="17" cat="mwu" end="19" id="27" rel="cmp">
+            <node begin="17" end="18" id="28" lemma="aan" pos="comp" postag="VZ(init)" pt="vz" rel="mwp" root="aan" vztype="init" word="aan"/>
+            <node begin="18" end="19" id="29" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="comp" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" word="het"/>
+          </node>
+          <node begin="13" cat="inf" end="20" id="30" rel="body">
+            <node begin="13" end="15" id="31" index="1" rel="su"/>
+            <node begin="19" buiging="zonder" end="20" id="32" lemma="op_krabbelen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="krabbel_op" word="opkrabbelen" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="20" end="21" id="33" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De resultaten met UMTS elders in Europa zijn nog niet bemoedigend , maar de telecomsector is wel aan het opkrabbelen .</sentence>
+</alpino_ds>

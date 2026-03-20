@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" end="1" id="2" lemma="dan" pos="adv" postag="BW()" pt="bw" rel="mod" root="dan" word="Dan"/>
+      <node begin="1" end="2" id="3" lemma="komen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kom" word="komen" wvorm="pv"/>
+      <node begin="3" cat="np" end="6" id="4" rel="su">
+        <node begin="3" end="4" id="5" lemma="maar" pos="adv" postag="BW()" pt="bw" rel="mod" root="maar" word="maar"/>
+        <node begin="4" end="5" id="6" lemma="11_duizend" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="11-duizend" word="11-duizend"/>
+        <node begin="5" buiging="met-e" end="6" getal-n="mv-n" graad="basis" id="7" lemma="arbeid_ongeschikt" pos="noun" positie="nom" postag="ADJ(nom,basis,met-e,mv-n)" pt="adj" rel="hd" root="arbeids-ongeschikten" word="arbeids-ongeschikten"/>
+      </node>
+      <node begin="2" cat="pp" end="7" id="8" rel="ld">
+        <node begin="2" end="3" getal="getal" id="9" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="noun" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="obj1" root="er" status="red" vwtype="aanw" word="er"/>
+        <node begin="6" end="7" id="10" lemma="bij" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="bij" vztype="fin" word="bij"/>
+      </node>
+    </node>
+    <node begin="7" end="8" id="11" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dan komen er maar 11-duizend arbeids-ongeschikten bij .</sentence>
+</alpino_ds>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" buiging="zonder" end="1" getal-n="zonder-n" graad="basis" id="2" lemma="hetzelfde" pos="det" positie="nom" postag="ADJ(nom,basis,zonder,zonder-n)" pt="adj" rel="su" root="hetzelfde" word="Hetzelfde"/>
+      <node begin="1" end="2" id="3" lemma="over_komen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="overkom" word="overkwam" wvorm="pv"/>
+      <node begin="2" end="3" id="4" lemma="onlangs" pos="adv" postag="BW()" pt="bw" rel="mod" root="onlangs" word="onlangs"/>
+      <node begin="3" cat="np" end="8" id="5" rel="obj2">
+        <node begin="3" cat="conj" end="6" id="6" rel="mod">
+          <node begin="3" buiging="met-e" end="4" graad="basis" id="7" lemma="Amerikaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="Amerikaans" word="Amerikaanse"/>
+          <node begin="4" conjtype="neven" end="5" id="8" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="5" buiging="met-e" end="6" graad="basis" id="9" lemma="Duits" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="Duits" word="Duitse"/>
+        </node>
+        <node begin="6" buiging="met-e" end="7" graad="basis" id="10" lemma="militair" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="militair" word="militaire"/>
+        <node begin="7" end="8" getal="mv" graad="basis" id="11" lemma="computer" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="computer" word="computers"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="12" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Hetzelfde overkwam onlangs Amerikaanse en Duitse militaire computers .</sentence>
+</alpino_ds>

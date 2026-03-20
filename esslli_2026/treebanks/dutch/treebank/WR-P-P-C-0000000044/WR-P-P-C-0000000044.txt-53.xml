@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="conj" end="13" id="1" rel="--">
+      <node begin="0" cat="smain" end="8" id="2" rel="cnj">
+        <node begin="0" cat="pp" end="3" id="3" rel="mod">
+          <node begin="0" end="1" id="4" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="Met"/>
+          <node begin="1" cat="np" end="3" id="5" rel="obj1">
+            <node begin="1" end="2" id="6" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="7" lemma="ruk" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="ruk" word="ruk"/>
+          </node>
+        </node>
+        <node begin="3" end="4" id="8" lemma="los_scheuren" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="scheur_los" word="scheurde" wvorm="pv"/>
+        <node begin="4" end="5" genus="masc" getal="ev" id="9" index="1" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="hij"/>
+        <node begin="5" cat="np" end="7" id="10" rel="obj1">
+          <node begin="5" end="6" id="11" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="12" lemma="keuken_gordijn" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="keuken_gordijn" word="keukengordijn"/>
+        </node>
+        <node begin="7" buiging="zonder" end="8" graad="basis" id="13" lemma="los" pos="part" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="svp" root="los" word="los"/>
+      </node>
+      <node begin="8" conjtype="neven" end="9" id="14" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="4" cat="smain" end="13" id="15" rel="cnj">
+        <node begin="4" end="5" id="16" index="1" rel="su"/>
+        <node begin="9" end="10" id="17" lemma="doven" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="doof" word="doofde" wvorm="pv"/>
+        <node begin="10" end="11" id="18" lemma="zo" pos="adv" postag="BW()" pt="bw" rel="mod" root="zo" word="zo"/>
+        <node begin="11" cat="np" end="13" id="19" rel="obj1">
+          <node begin="11" end="12" id="20" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="12" end="13" getal="mv" graad="basis" id="21" lemma="vlam" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vlam" word="vlammen"/>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Met een ruk scheurde hij het keukengordijn los en doofde zo de vlammen .</sentence>
+</alpino_ds>

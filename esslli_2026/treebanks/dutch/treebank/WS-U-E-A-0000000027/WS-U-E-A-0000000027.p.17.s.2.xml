@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="10" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="9" id="2" rel="--">
+      <node begin="0" cat="np" end="2" id="3" rel="su">
+        <node begin="0" end="1" id="4" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="5" lemma="water" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="water" word="water"/>
+      </node>
+      <node begin="2" end="3" id="6" lemma="stromen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="stroom" word="stroomt" wvorm="pv"/>
+      <node begin="3" end="4" id="7" lemma="eruit" pos="pp" postag="BW()" pt="bw" rel="mod" root="eruit" word="eruit"/>
+      <node begin="5" cat="ap" end="9" id="8" rel="mod">
+        <node begin="5" end="6" id="9" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" word="nog"/>
+        <node begin="6" buiging="zonder" end="7" graad="comp" id="10" lemma="snel" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="snel" word="sneller"/>
+        <node begin="7" cat="cp" end="9" id="11" rel="obcomp">
+          <node begin="7" conjtype="onder" end="8" id="12" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="dan" word="dan"/>
+          <node begin="8" end="9" id="13" lemma="gisteren" pos="adv" postag="BW()" pt="bw" rel="body" root="gisteren" word="gisteren"/>
+        </node>
+      </node>
+    </node>
+    <node begin="9" end="10" id="14" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het water stroomt eruit , nog sneller dan gisteren .</sentence>
+</alpino_ds>

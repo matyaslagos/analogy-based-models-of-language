@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="25" id="0" rel="top">
+    <node begin="11" end="12" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="17" end="18" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="24" id="3" rel="--">
+      <node begin="0" cat="cp" end="11" id="4" rel="mod">
+        <node begin="0" conjtype="onder" end="1" id="5" lemma="aangezien" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="aangezien" word="Aangezien"/>
+        <node begin="1" cat="conj" end="11" id="6" rel="body">
+          <node begin="5" conjtype="neven" end="6" id="7" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="1" cat="ssub" end="11" id="8" rel="cnj">
+            <node begin="1" end="2" getal="mv" graad="basis" id="9" index="1" lemma="school" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="school" word="scholen"/>
+            <node begin="2" cat="mwu" end="4" id="10" rel="mod">
+              <node begin="2" end="3" id="11" lemma="de" lwtype="bep" naamval="gen" npagr="evmo" pos="adv" postag="LID(bep,gen,evmo)" pt="lid" rel="mwp" root="&apos;s" word="&apos;s"/>
+              <node begin="3" end="4" getal="ev" graad="basis" id="12" lemma="morgen" naamval="gen" ntype="soort" pos="adv" postag="N(soort,ev,basis,gen)" pt="n" rel="mwp" root="morgens" word="morgens"/>
+            </node>
+            <node begin="4" end="5" id="13" lemma="starten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="start" word="starten" wvorm="pv"/>
+            <node begin="9" cat="pp" end="11" id="14" index="2" rel="mod">
+              <node begin="9" end="10" id="15" lemma="tijdens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tijdens" vztype="init" word="tijdens"/>
+              <node begin="10" end="11" getal="mv" graad="basis" id="16" lemma="spitsuur" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="spitsuur" word="spitsuren"/>
+            </node>
+          </node>
+          <node begin="1" cat="ssub" end="11" id="17" rel="cnj">
+            <node begin="1" end="2" id="18" index="1" rel="su"/>
+            <node begin="6" cat="mwu" end="8" id="19" rel="mod">
+              <node begin="6" end="7" id="20" lemma="de" lwtype="bep" naamval="gen" npagr="evmo" pos="adv" postag="LID(bep,gen,evmo)" pt="lid" rel="mwp" root="&apos;s" word="&apos;s"/>
+              <node begin="7" end="8" getal="ev" graad="basis" id="21" lemma="avond" naamval="gen" ntype="soort" pos="adv" postag="N(soort,ev,basis,gen)" pt="n" rel="mwp" root="avonds" word="avonds"/>
+            </node>
+            <node begin="8" end="9" id="22" lemma="eindigen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="eindig" word="eindigen" wvorm="pv"/>
+            <node begin="9" end="11" id="23" index="2" rel="mod"/>
+          </node>
+        </node>
+      </node>
+      <node begin="12" end="13" id="24" lemma="leiden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="leid" word="leidt" wvorm="pv"/>
+      <node begin="13" end="14" getal="ev" id="25" lemma="dit" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" root="dit" status="vol" vwtype="aanw" word="dit"/>
+      <node begin="14" cat="pp" end="17" id="26" rel="pc">
+        <node begin="14" end="15" id="27" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" vztype="init" word="tot"/>
+        <node begin="15" cat="np" end="17" id="28" rel="obj1">
+          <node begin="15" buiging="met-e" end="16" graad="basis" id="29" lemma="groot" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="groot" word="grote"/>
+          <node begin="16" end="17" getal="mv" graad="basis" id="30" lemma="verkeer_stroom" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="verkeer_stroom" word="verkeersstromen"/>
+        </node>
+      </node>
+      <node begin="18" cat="pp" end="24" id="31" rel="mod">
+        <node begin="18" buiging="zonder" end="19" graad="basis" id="32" lemma="zeker" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="zeker" word="zeker"/>
+        <node begin="19" end="20" id="33" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="20" cat="np" end="24" id="34" rel="obj1">
+          <node begin="20" end="21" id="35" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="21" end="22" genus="zijd" getal="ev" graad="basis" id="36" lemma="omgeving" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="omgeving" word="omgeving"/>
+          <node begin="22" cat="pp" end="24" id="37" rel="mod">
+            <node begin="22" end="23" id="38" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="23" end="24" getal="mv" graad="basis" id="39" lemma="school" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="school" word="scholen"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="24" end="25" id="40" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Aangezien scholen &apos;s morgens starten en &apos;s avonds eindigen tijdens spitsuren , leidt dit tot grote verkeersstromen , zeker in de omgeving van scholen .</sentence>
+</alpino_ds>

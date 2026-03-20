@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="28" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="14" end="15" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="18" end="19" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="22" end="23" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="27" id="5" rel="--">
+      <node begin="0" cat="np" end="2" id="6" index="1" rel="su">
+        <node begin="0" end="1" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="8" lemma="film" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="film" word="film"/>
+      </node>
+      <node begin="2" end="3" id="9" lemma="zullen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zal" word="zal" wvorm="pv"/>
+      <node begin="0" cat="inf" end="27" id="10" rel="vc">
+        <node begin="0" end="2" id="11" index="1" rel="su"/>
+        <node begin="3" buiging="zonder" end="4" graad="basis" id="12" lemma="uiteindelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="uiteindelijk" word="uiteindelijk"/>
+        <node begin="5" cat="cp" end="14" id="13" rel="mod">
+          <node begin="5" conjtype="onder" end="6" id="14" lemma="wanneer" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="wanneer" word="wanneer"/>
+          <node begin="6" cat="ssub" end="14" id="15" rel="body">
+            <node begin="6" end="7" getal="getal" id="16" index="2" lemma="die" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(aanw,pron,stan,vol,3,getal)" pt="vnw" rel="su" root="die" status="vol" vwtype="aanw" word="die"/>
+            <node begin="12" end="13" id="17" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+            <node begin="6" cat="ppart" end="14" id="18" rel="vc">
+              <node begin="6" end="7" id="19" index="2" rel="obj1"/>
+              <node begin="7" cat="pp" end="12" id="20" rel="mod">
+                <node begin="7" end="8" id="21" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                <node begin="8" cat="np" end="12" id="22" rel="obj1">
+                  <node begin="8" end="9" id="23" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="24" lemma="zomer" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="zomer" word="zomer"/>
+                  <node begin="10" cat="pp" end="12" id="25" rel="mod">
+                    <node begin="10" end="11" id="26" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                    <node begin="11" end="12" id="27" lemma="1986" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" root="1986" word="1986"/>
+                  </node>
+                </node>
+              </node>
+              <node begin="13" buiging="zonder" end="14" id="28" lemma="uit_brengen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="breng_uit" word="uitgebracht" wvorm="vd"/>
+            </node>
+          </node>
+        </node>
+        <node begin="15" cat="conj" end="26" id="29" rel="predc">
+          <node begin="17" conjtype="neven" end="18" id="30" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="15" cat="np" end="26" id="31" rel="cnj">
+            <node begin="15" end="16" id="32" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="16" buiging="met-e" end="17" graad="basis" id="33" lemma="commercieel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="commercieel" word="commerciële"/>
+            <node begin="25" end="26" genus="zijd" getal="ev" graad="basis" id="34" index="3" lemma="flop" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="flop" word="flop"/>
+          </node>
+          <node begin="19" cat="np" end="26" id="35" rel="cnj">
+            <node begin="19" cat="pp" end="22" id="36" rel="mod">
+              <node begin="19" end="20" id="37" lemma="volgens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="volgens" vztype="init" word="volgens"/>
+              <node begin="20" cat="np" end="22" id="38" rel="obj1">
+                <node begin="20" buiging="zonder" end="21" graad="basis" id="39" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,basis)" pt="vnw" rel="det" root="veel" vwtype="onbep" word="veel"/>
+                <node begin="21" end="22" getal="mv" graad="basis" id="40" lemma="criticus" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="criticus" word="critici"/>
+              </node>
+            </node>
+            <node begin="23" end="24" id="41" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="24" buiging="met-e" end="25" graad="basis" id="42" lemma="artistiek" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="artistiek" word="artistieke"/>
+            <node begin="25" end="26" id="43" index="3" rel="hd"/>
+          </node>
+        </node>
+        <node begin="26" buiging="zonder" end="27" id="44" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="27" end="28" id="45" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De film zal uiteindelijk , wanneer die in de zomer van 1986 wordt uitgebracht , een commerciële en , volgens veel critici , een artistieke flop worden .</sentence>
+</alpino_ds>

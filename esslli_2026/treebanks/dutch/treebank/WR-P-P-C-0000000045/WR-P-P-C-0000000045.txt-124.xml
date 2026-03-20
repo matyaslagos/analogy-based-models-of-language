@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="11" end="12" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="smain" end="13" id="2" rel="--">
+      <node begin="3" end="4" id="3" lemma="moeten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="moet" word="moet" wvorm="pv"/>
+      <node begin="4" cat="np" end="6" id="4" index="1" rel="su">
+        <node begin="4" buiging="zonder" end="5" getal="getal" id="5" lemma="u" naamval="stan" npagr="agr" pdtype="det" persoon="2" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,2,getal,prenom,zonder,agr)" pt="vnw" rel="det" root="u" status="vol" vwtype="bez" word="uw"/>
+        <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="6" lemma="motor_rijtuig" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="motor_rijtuig" word="motorrijtuig"/>
+      </node>
+      <node begin="0" cat="inf" end="13" id="7" rel="vc">
+        <node begin="4" end="6" id="8" index="1" rel="su"/>
+        <node begin="7" buiging="zonder" end="8" id="9" lemma="zijn" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ben" word="zijn" wvorm="inf"/>
+        <node begin="0" cat="ppart" end="13" id="10" rel="vc">
+          <node begin="0" cat="cp" end="3" id="11" rel="mod">
+            <node begin="0" conjtype="onder" end="1" id="12" lemma="zoals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zoals" word="Zoals"/>
+            <node begin="1" cat="ssub" end="3" id="13" rel="body">
+              <node begin="1" end="2" getal="getal" id="14" lemma="u" naamval="nomin" pdtype="pron" persoon="2b" pos="pron" postag="VNW(pers,pron,nomin,vol,2b,getal)" pt="vnw" rel="su" root="u" status="vol" vwtype="pers" word="u"/>
+              <node begin="2" end="3" id="15" lemma="weten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="weet" word="weet" wvorm="pv"/>
+            </node>
+          </node>
+          <node begin="4" end="6" id="16" index="1" rel="obj1"/>
+          <node begin="6" buiging="zonder" end="7" id="17" lemma="verzekeren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="verzeker" word="verzekerd" wvorm="vd"/>
+          <node begin="8" cat="pp" end="13" id="18" rel="pc">
+            <node begin="8" end="9" id="19" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" vztype="init" word="tegen"/>
+            <node begin="9" cat="np" end="13" id="20" rel="obj1">
+              <node begin="9" cat="mwu" end="11" id="21" rel="hd">
+                <node begin="9" buiging="met-e" end="10" graad="basis" id="22" lemma="wettelijk" naamval="stan" pos="name" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mwp" root="Wettelijke" word="Wettelijke"/>
+                <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="23" lemma="aansprakelijkheid" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Aansprakelijkheid" word="Aansprakelijkheid"/>
+              </node>
+              <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="24" lemma="WA" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" root="WA" word="WA"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="25" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="14" end="15" id="26" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Zoals u weet moet uw motorrijtuig verzekerd zijn tegen Wettelijke Aansprakelijkheid ( WA ) .</sentence>
+</alpino_ds>

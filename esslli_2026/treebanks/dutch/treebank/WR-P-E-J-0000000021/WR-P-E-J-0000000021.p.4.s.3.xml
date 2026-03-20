@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="44" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="10" end="11" id="2" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="13" end="14" id="3" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="16" end="17" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="26" end="27" id="5" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="32" end="33" id="6" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="35" end="36" id="7" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="40" end="41" id="8" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="0" cat="smain" end="43" id="9" rel="--">
+      <node begin="0" end="1" id="10" lemma="zo" pos="adv" postag="BW()" pt="bw" rel="mod" root="zo" word="Zo"/>
+      <node begin="1" end="2" id="11" lemma="kosten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kost" word="kost" wvorm="pv"/>
+      <node begin="2" cat="np" end="13" id="12" rel="su">
+        <node begin="2" end="3" id="13" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="14" lemma="trein_rit" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="trein_rit" word="treinrit"/>
+        <node begin="4" cat="pp" end="6" id="15" rel="mod">
+          <node begin="4" end="5" id="16" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="17" lemma="Brugge" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Brugge" word="Brugge"/>
+        </node>
+        <node begin="6" cat="pp" end="8" id="18" rel="mod">
+          <node begin="6" end="7" id="19" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+          <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="20" lemma="Moeskroen" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Moeskroen" word="Moeskroen"/>
+        </node>
+        <node begin="9" cat="du" end="13" id="21" rel="mod">
+          <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="22" lemma="afstand" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="dp" root="afstand" word="afstand"/>
+          <node begin="11" cat="np" end="13" id="23" rel="dp">
+            <node begin="11" end="12" id="24" lemma="59" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="59" word="59"/>
+            <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="25" lemma="kilo_meter" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="kilometer" word="kilometer"/>
+          </node>
+        </node>
+      </node>
+      <node begin="14" cat="np" end="16" id="26" rel="me">
+        <node begin="14" end="15" id="27" lemma="7.50" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="7.50" word="7.50"/>
+        <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="28" lemma="euro" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="euro" word="euro"/>
+      </node>
+      <node begin="17" cat="cp" end="43" id="29" rel="mod">
+        <node begin="17" conjtype="onder" end="18" id="30" lemma="terwijl" pos="vg" postag="VG(onder)" pt="vg" rel="cmp" root="terwijl" word="terwijl"/>
+        <node begin="18" cat="ssub" end="43" id="31" rel="body">
+          <node begin="18" end="19" genus="masc" getal="ev" id="32" index="1" lemma="men" naamval="nomin" pdtype="pron" persoon="3p" pos="pron" postag="VNW(pers,pron,nomin,red,3p,ev,masc)" pt="vnw" rel="su" root="men" status="red" vwtype="pers" word="men"/>
+          <node begin="41" end="42" id="33" lemma="moeten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="moet" word="moet" wvorm="pv"/>
+          <node begin="18" cat="inf" end="43" id="34" rel="vc">
+            <node begin="18" end="19" id="35" index="1" rel="su"/>
+            <node begin="19" cat="pp" end="32" id="36" rel="pc">
+              <node begin="19" end="20" id="37" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+              <node begin="20" cat="np" end="32" id="38" rel="obj1">
+                <node begin="20" end="21" id="39" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                <node begin="21" end="22" genus="zijd" getal="ev" graad="basis" id="40" lemma="rit" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="rit" word="rit"/>
+                <node begin="22" cat="pp" end="24" id="41" rel="mod">
+                  <node begin="22" end="23" id="42" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                  <node begin="23" end="24" genus="onz" getal="ev" graad="basis" id="43" lemma="Brugge" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Brugge" word="Brugge"/>
+                </node>
+                <node begin="24" cat="pp" end="26" id="44" rel="mod">
+                  <node begin="24" end="25" id="45" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+                  <node begin="25" end="26" genus="onz" getal="ev" graad="basis" id="46" lemma="Rijsel" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Rijsel" word="Rijsel"/>
+                </node>
+                <node begin="27" cat="ap" end="32" id="47" rel="mod">
+                  <node begin="27" cat="np" end="31" id="48" rel="me">
+                    <node begin="27" cat="detp" end="30" id="49" rel="det">
+                      <node begin="27" cat="mwu" end="29" id="50" rel="mod">
+                        <node begin="27" buiging="zonder" end="28" graad="comp" id="51" lemma="weinig" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mwp" root="minder" vwtype="onbep" word="minder"/>
+                        <node begin="28" conjtype="onder" end="29" id="52" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="mwp" root="dan" word="dan"/>
+                      </node>
+                      <node begin="29" end="30" id="53" lemma="30" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="hd" root="30" word="30"/>
+                    </node>
+                    <node begin="30" end="31" genus="zijd" getal="ev" graad="basis" id="54" lemma="kilo_meter" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="kilometer" word="kilometer"/>
+                  </node>
+                  <node begin="31" buiging="zonder" end="32" graad="comp" id="55" lemma="ver" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="ver" word="verder"/>
+                </node>
+              </node>
+            </node>
+            <node begin="33" cat="np" end="35" id="56" rel="obj1">
+              <node begin="33" end="34" id="57" lemma="13.80" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="13.80" word="13.80"/>
+              <node begin="34" end="35" genus="zijd" getal="ev" graad="basis" id="58" lemma="euro" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="euro" word="euro"/>
+            </node>
+            <node begin="36" cat="du" end="40" id="59" rel="mod">
+              <node begin="36" end="37" id="60" lemma="dus" pos="adv" postag="BW()" pt="bw" rel="dp" root="dus" word="dus"/>
+              <node begin="37" cat="np" end="40" id="61" rel="dp">
+                <node begin="37" end="38" id="62" lemma="bijna" pos="adv" postag="BW()" pt="bw" rel="mod" root="bijna" word="bijna"/>
+                <node begin="38" end="39" id="63" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                <node begin="39" buiging="met-e" end="40" getal-n="zonder-n" graad="basis" id="64" lemma="dubbel" naamval="stan" pos="adj" positie="nom" postag="ADJ(nom,basis,met-e,zonder-n,stan)" pt="adj" rel="hd" root="dubbel" word="dubbele"/>
+              </node>
+            </node>
+            <node begin="42" buiging="zonder" end="43" id="65" lemma="betalen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="betaal" word="betalen" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="43" end="44" id="66" lemma=";" pos="punct" postag="LET()" pt="let" rel="--" root=";" word=";"/>
+  </node>
+  <sentence>Zo kost een treinrit van Brugge naar Moeskroen ( afstand : 59 kilometer ) 7.50 euro , terwijl men voor een rit van Brugge naar Rijsel ( minder dan 30 kilometer verder ) 13.80 euro ( dus bijna het dubbele ) moet betalen ;</sentence>
+</alpino_ds>

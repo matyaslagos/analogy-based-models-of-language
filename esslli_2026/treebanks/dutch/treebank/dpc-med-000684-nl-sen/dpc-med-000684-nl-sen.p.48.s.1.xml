@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" index="1" rel="su">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" cat="mwu" end="3" id="4" rel="hd">
+          <node begin="1" end="2" id="5" lemma="NSABP" pos="noun" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="NSABP" spectype="deeleigen" word="NSABP"/>
+          <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="6" lemma="B27_studie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="B27_studie" word="B27-studie"/>
+        </node>
+      </node>
+      <node begin="3" end="4" id="7" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="heeft" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="8" id="8" rel="vc">
+        <node begin="0" end="3" id="9" index="1" rel="su"/>
+        <node begin="4" cat="np" end="7" id="10" rel="obj1">
+          <node begin="4" cat="ppres" end="6" id="11" rel="mod">
+            <node begin="4" buiging="zonder" end="5" graad="comp" id="12" lemma="eerder" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="eerder" word="eerder"/>
+            <node begin="5" buiging="met-e" end="6" id="13" lemma="ontgoochelen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="hd" root="ontgoochel" word="ontgoochelende" wvorm="od"/>
+          </node>
+          <node begin="6" end="7" getal="mv" graad="basis" id="14" lemma="resultaat" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="resultaat" word="resultaten"/>
+        </node>
+        <node begin="7" buiging="zonder" end="8" id="15" lemma="op_leveren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="lever_op" word="opgeleverd" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="16" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De NSABP B27-studie heeft eerder ontgoochelende resultaten opgeleverd .</sentence>
+</alpino_ds>

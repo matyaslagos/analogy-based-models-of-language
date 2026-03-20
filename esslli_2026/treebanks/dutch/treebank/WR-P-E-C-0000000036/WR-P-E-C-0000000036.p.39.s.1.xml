@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="np" end="5" id="1" rel="--">
+      <node begin="0" buiging="met-e" end="1" graad="basis" id="2" lemma="Leids" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Leids" word="Leidse"/>
+      <node begin="1" end="2" getal="mv" graad="basis" id="3" lemma="student_portret" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="student_portret" word="studentenportretten"/>
+      <node begin="2" cat="pp" end="5" id="4" rel="mod">
+        <node begin="2" end="3" id="5" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+        <node begin="3" cat="mwu" end="5" id="6" rel="obj1">
+          <node begin="3" end="4" id="7" lemma="J.P." pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="J.P." spectype="deeleigen" word="J.P."/>
+          <node begin="4" end="5" id="8" lemma="Berghaus" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Berghaus" spectype="deeleigen" word="Berghaus"/>
+        </node>
+      </node>
+    </node>
+    <node begin="5" end="6" id="9" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Leidse studentenportretten van J.P. Berghaus .</sentence>
+</alpino_ds>

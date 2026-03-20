@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="du" end="7" id="2" rel="--">
+      <node begin="0" cat="mwu" end="3" id="3" rel="nucl">
+        <node begin="0" end="1" id="4" lemma="0800" pos="num" postag="SPEC(symb)" pt="spec" rel="mwp" root="0800" spectype="symb" word="0800"/>
+        <node begin="1" end="2" id="5" lemma="-" pos="num" postag="LET()" pt="let" rel="mwp" root="-" word="-"/>
+        <node begin="2" end="3" id="6" lemma="7000" pos="num" postag="SPEC(symb)" pt="spec" rel="mwp" root="7000" spectype="symb" word="7000"/>
+      </node>
+      <node begin="4" cat="mwu" end="7" id="7" rel="sat">
+        <node begin="4" end="5" id="8" lemma="melden" pos="name" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="mwp" root="Meld" word="Meld" wvorm="pv"/>
+        <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="9" lemma="misdaad" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="misdaad" word="misdaad"/>
+        <node begin="6" buiging="zonder" end="7" graad="basis" id="10" lemma="anoniem" pos="name" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mwp" root="anoniem" word="anoniem"/>
+      </node>
+    </node>
+    <node begin="7" end="8" id="11" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>0800 - 7000 : Meld misdaad anoniem .</sentence>
+</alpino_ds>

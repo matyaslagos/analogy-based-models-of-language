@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="6" end="7" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="8" end="9" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="14" end="15" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="19" id="5" rel="--">
+      <node begin="0" end="1" id="6" lemma="19" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="tag" root="19" word="19"/>
+      <node begin="1" cat="du" end="19" id="7" rel="nucl">
+        <node begin="1" cat="mwu" end="3" id="8" rel="dp">
+          <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="9" lemma="nota" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Nota" word="Nota"/>
+          <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="10" lemma="energie_beleid" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="Energiebeleid" word="Energiebeleid"/>
+        </node>
+        <node begin="4" cat="mwu" end="6" id="11" rel="dp">
+          <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="12" lemma="deel" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="Deel" word="Deel"/>
+          <node begin="5" end="6" id="13" lemma="1" numtype="hoofd" pos="name" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="1" word="1"/>
+        </node>
+        <node begin="7" buiging="zonder" end="8" graad="basis" id="14" lemma="algemeen" pos="name" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="dp" root="Algemeen" word="Algemeen"/>
+        <node begin="9" cat="np" end="12" id="15" rel="dp">
+          <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="16" lemma="ministerie" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="Ministerie" word="Ministerie"/>
+          <node begin="10" cat="pp" end="12" id="17" rel="mod">
+            <node begin="10" end="11" id="18" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="11" end="12" genus="genus" getal="ev" graad="basis" id="19" lemma="EZ" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="obj1" root="EZ" word="EZ"/>
+          </node>
+        </node>
+        <node begin="12" cat="np" end="14" id="20" rel="dp">
+          <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="21" lemma="september" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="september" word="september"/>
+          <node begin="13" end="14" id="22" lemma="1979" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mod" root="1979" word="1979"/>
+        </node>
+        <node begin="15" cat="np" end="19" id="23" rel="dp">
+          <node begin="15" end="16" id="24" lemma="pagina" pos="noun" postag="SPEC(afk)" pt="spec" rel="hd" root="pg" spectype="afk" word="pg"/>
+          <node begin="16" cat="mwu" end="19" id="25" rel="app">
+            <node begin="16" end="17" id="26" lemma="85" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="85" word="85"/>
+            <node begin="17" end="18" id="27" lemma="-" pos="num" postag="LET()" pt="let" rel="mwp" root="-" word="-"/>
+            <node begin="18" end="19" id="28" lemma="86" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="86" word="86"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="29" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>19 Nota Energiebeleid , Deel 1 , Algemeen , Ministerie van EZ september 1979 , pg 85 - 86 .</sentence>
+</alpino_ds>

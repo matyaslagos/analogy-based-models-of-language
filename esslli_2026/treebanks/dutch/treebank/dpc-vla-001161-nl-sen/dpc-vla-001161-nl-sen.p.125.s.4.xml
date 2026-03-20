@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="9" end="10" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="16" id="2" rel="--">
+      <node begin="0" cat="smain" end="9" id="3" rel="cnj">
+        <node begin="0" cat="np" end="2" id="4" rel="su">
+          <node begin="0" end="1" id="5" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+          <node begin="1" end="2" getal-n="zonder-n" id="6" lemma="één" numtype="rang" pos="num" positie="nom" postag="TW(rang,nom,zonder-n)" pt="tw" rel="hd" root="eerste" word="eerste"/>
+        </node>
+        <node begin="2" end="3" id="7" lemma="vergelijken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="vergelijk" word="vergelijkt" wvorm="pv"/>
+        <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="8" lemma="Vlaanderen" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Vlaanderen" word="Vlaanderen"/>
+        <node begin="4" cat="pp" end="9" id="9" rel="pc">
+          <node begin="4" end="5" id="10" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+          <node begin="5" cat="conj" end="9" id="11" rel="obj1">
+            <node begin="5" cat="np" end="7" id="12" rel="cnj">
+              <node begin="5" buiging="met-e" end="6" graad="basis" id="13" lemma="verschillend" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="verschil" word="verschillende"/>
+              <node begin="6" end="7" getal="mv" graad="basis" id="14" lemma="top_land" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="topland" word="toplanden"/>
+            </node>
+            <node begin="7" conjtype="neven" end="8" id="15" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="8" end="9" id="16" lemma="-regio&apos;s" pos="noun" postag="SPEC(afgebr)" pt="spec" rel="cnj" root="-regio&apos;s" spectype="afgebr" word="-regio&apos;s"/>
+          </node>
+        </node>
+      </node>
+      <node begin="10" cat="smain" end="16" id="17" rel="cnj">
+        <node begin="10" cat="np" end="13" id="18" rel="su">
+          <node begin="10" end="11" id="19" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="11" end="12" id="20" lemma="twee" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="tweede" word="tweede"/>
+          <node begin="12" end="13" genus="onz" getal="ev" graad="basis" id="21" lemma="deel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="deel" word="deel"/>
+        </node>
+        <node begin="13" end="14" id="22" lemma="analyseren" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="analyseer" word="analyseert" wvorm="pv"/>
+        <node begin="14" cat="np" end="16" id="23" rel="obj1">
+          <node begin="14" end="15" id="24" lemma="zes" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="zes" word="zes"/>
+          <node begin="15" end="16" getal="mv" graad="basis" id="25" lemma="thema" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="thema" word="thema&apos;s"/>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="26" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het eerste vergelijkt Vlaanderen met verschillende toplanden en -regio&apos;s , het tweede deel analyseert zes thema&apos;s .</sentence>
+</alpino_ds>

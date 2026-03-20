@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="smain" end="12" id="1" rel="--">
+      <node begin="0" end="1" id="2" lemma="zo" pos="adv" postag="BW()" pt="bw" rel="mod" root="zo" word="Zo"/>
+      <node begin="1" end="2" id="3" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="heeft" wvorm="pv"/>
+      <node begin="2" end="3" id="4" lemma="bijvoorbeeld" pos="adv" postag="BW()" pt="bw" rel="mod" root="bijvoorbeeld" word="bijvoorbeeld"/>
+      <node begin="3" cat="advp" end="5" id="5" rel="mod">
+        <node begin="3" end="4" id="6" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" word="nog"/>
+        <node begin="4" end="5" id="7" lemma="steeds" pos="adv" postag="BW()" pt="bw" rel="hd" root="steeds" word="steeds"/>
+      </node>
+      <node begin="5" cat="np" end="10" id="8" rel="su">
+        <node begin="5" buiging="zonder" end="6" getal-n="zonder-n" graad="basis" id="9" lemma="eenderde" pos="num" positie="nom" postag="ADJ(nom,basis,zonder,zonder-n)" pt="adj" rel="hd" root="eenderde" word="eenderde"/>
+        <node begin="6" cat="pp" end="10" id="10" rel="mod">
+          <node begin="6" end="7" id="11" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="7" cat="np" end="10" id="12" rel="obj1">
+            <node begin="7" end="8" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="8" buiging="met-e" end="9" graad="basis" id="14" lemma="Nederlands" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Nederlands" word="Nederlandse"/>
+            <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="15" lemma="woning_voorraad" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="woning_voorraad" word="woningvoorraad"/>
+          </node>
+        </node>
+      </node>
+      <node begin="10" cat="np" end="12" id="16" rel="obj1">
+        <node begin="10" buiging="met-e" end="11" id="17" lemma="on_isoleren" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="on_geïsoleerd" word="ongeïsoleerde" wvorm="vd"/>
+        <node begin="11" end="12" getal="mv" graad="basis" id="18" lemma="spouw_muur" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="spouwmuren" word="spouwmuren"/>
+      </node>
+    </node>
+    <node begin="12" end="13" id="19" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Zo heeft bijvoorbeeld nog steeds eenderde van de Nederlandse woningvoorraad ongeïsoleerde spouwmuren .</sentence>
+</alpino_ds>

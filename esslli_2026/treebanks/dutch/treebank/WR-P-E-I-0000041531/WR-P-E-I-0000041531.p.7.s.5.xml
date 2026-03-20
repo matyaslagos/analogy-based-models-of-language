@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="smain" end="13" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="4" lemma="reactie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="reactie" word="Reactie"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+      <node begin="3" buiging="zonder" end="4" graad="basis" id="6" lemma="speciaal" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="speciaal" word="speciaal"/>
+      <node begin="4" cat="ppart" end="13" id="7" rel="predc">
+        <node begin="4" buiging="zonder" end="5" id="8" lemma="kanten" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="gekant" word="gekant" wvorm="vd"/>
+        <node begin="5" cat="pp" end="13" id="9" rel="pc">
+          <node begin="5" end="6" id="10" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" vztype="init" word="tegen"/>
+          <node begin="6" cat="np" end="13" id="11" rel="obj1">
+            <node begin="6" end="7" id="12" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="7" cat="ap" end="9" id="13" rel="mod">
+              <node begin="7" buiging="zonder" end="8" graad="sup" id="14" lemma="veel" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,sup)" pt="vnw" rel="mod" root="meest" vwtype="onbep" word="meest"/>
+              <node begin="8" buiging="met-e" end="9" graad="basis" id="15" lemma="radicaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="hd" root="radicaal" word="radicale"/>
+            </node>
+            <node begin="9" end="10" getal="mv" graad="basis" id="16" lemma="revolutionair" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="revoutionairen" word="revoutionairen"/>
+            <node begin="10" cat="cp" end="13" id="17" rel="mod">
+              <node begin="10" conjtype="onder" end="11" id="18" lemma="zoals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zoals" word="zoals"/>
+              <node begin="11" cat="np" end="13" id="19" rel="body">
+                <node begin="11" end="12" id="20" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="12" end="13" getal="mv" graad="basis" id="21" lemma="Jakobijn" ntype="eigen" pos="noun" postag="N(eigen,mv,basis)" pt="n" rel="hd" root="Jakobijnen" word="Jakobijnen"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De Reactie was speciaal gekant tegen de meest radicale revoutionairen zoals de Jakobijnen .</sentence>
+</alpino_ds>

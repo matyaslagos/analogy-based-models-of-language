@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="2" end="3" id="2" lemma="zullen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zal" word="zal" wvorm="pv"/>
+      <node begin="0" cat="inf" end="14" id="3" rel="vc">
+        <node begin="5" buiging="zonder" end="6" id="4" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+        <node begin="0" cat="ppart" end="14" id="5" rel="vc">
+          <node begin="0" cat="np" end="2" id="6" rel="mod">
+            <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="7" lemma="maart" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Maart" word="Maart"/>
+            <node begin="1" end="2" id="8" lemma="2005" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mod" root="2005" word="2005"/>
+          </node>
+          <node begin="6" buiging="zonder" end="7" id="9" lemma="tekenen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="teken" word="getekend" wvorm="vd"/>
+          <node begin="3" cat="np" end="14" id="10" index="1" rel="obj1">
+            <node begin="3" end="4" id="11" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="12" lemma="verdrag" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="verdrag" word="verdrag"/>
+            <node begin="7" cat="pp" end="14" id="13" rel="mod">
+              <node begin="7" end="8" id="14" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" vztype="init" word="over"/>
+              <node begin="8" cat="conj" end="14" id="15" rel="obj1">
+                <node begin="8" cat="np" end="10" id="16" rel="cnj">
+                  <node begin="8" buiging="zonder" end="9" id="17" lemma="grens_overschrijden" pos="adj" positie="prenom" postag="WW(od,prenom,zonder)" pt="ww" rel="mod" root="grensoverschrijdend" word="grensoverschrijdend" wvorm="od"/>
+                  <node begin="9" buiging="zonder" end="10" getal-n="zonder-n" id="18" lemma="politie_optreden" pos="noun" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="politie_optreden" word="politieoptreden" wvorm="inf"/>
+                </node>
+                <node begin="10" conjtype="neven" end="11" id="19" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                <node begin="11" cat="np" end="14" id="20" rel="cnj">
+                  <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="21" lemma="samenwerking" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="samenwerking" word="samenwerking"/>
+                  <node begin="12" cat="pp" end="14" id="22" rel="mod">
+                    <node begin="12" end="13" id="23" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                    <node begin="13" end="14" getal="mv" graad="basis" id="24" lemma="straf_zaak" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="strafzaak" word="strafzaken"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="3" end="14" id="25" index="1" rel="su"/>
+      </node>
+      <node begin="3" end="14" id="26" index="1" rel="su"/>
+    </node>
+    <node begin="14" end="15" id="27" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Maart 2005 zal een verdrag worden getekend over grensoverschrijdend politieoptreden en samenwerking in strafzaken .</sentence>
+</alpino_ds>

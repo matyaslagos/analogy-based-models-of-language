@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="smain" end="5" id="1" rel="--">
+      <node begin="0" end="1" getal="mv" graad="basis" id="2" lemma="school" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="school" word="SCHOLEN"/>
+      <node begin="1" end="2" id="3" lemma="maken" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="maak" word="MAKEN" wvorm="pv"/>
+      <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="4" lemma="werk" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="werk" word="WERK"/>
+      <node begin="2" cat="pp" end="5" id="5" rel="pc">
+        <node begin="2" end="3" getal="getal" id="6" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="obj1" root="er" status="red" vwtype="aanw" word="ER"/>
+        <node begin="4" end="5" id="7" lemma="van" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="van" vztype="fin" word="VAN"/>
+      </node>
+    </node>
+    <node begin="5" end="6" id="8" lemma="!" pos="punct" postag="LET()" pt="let" rel="--" root="!" word="!"/>
+  </node>
+  <sentence>SCHOLEN MAKEN ER WERK VAN !</sentence>
+</alpino_ds>

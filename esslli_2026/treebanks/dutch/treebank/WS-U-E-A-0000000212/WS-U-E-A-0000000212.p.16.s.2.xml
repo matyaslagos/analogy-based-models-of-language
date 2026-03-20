@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="10" end="11" id="2" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="0" cat="np" end="14" id="3" rel="--">
+      <node begin="0" end="1" genus="onz" getal="ev" graad="basis" id="4" lemma="vertrouwen" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="vertrouwen" word="Vertrouwen"/>
+      <node begin="1" cat="cp" end="14" id="5" rel="vc">
+        <node begin="1" conjtype="onder" end="2" id="6" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+        <node begin="2" cat="ssub" end="14" id="7" rel="body">
+          <node begin="2" cat="np" end="4" id="8" index="1" rel="su">
+            <node begin="2" end="3" id="9" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="10" lemma="Amerikaan" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Amerikaan" word="Amerikaan"/>
+          </node>
+          <node begin="12" end="13" id="11" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" word="kan" wvorm="pv"/>
+          <node begin="2" cat="inf" end="14" id="12" rel="vc">
+            <node begin="2" end="4" id="13" index="1" rel="su"/>
+            <node begin="5" cat="advp" end="10" id="14" rel="mod">
+              <node begin="5" end="6" id="15" lemma="bijvoorbeeld" pos="adv" postag="BW()" pt="bw" rel="mod" root="bijvoorbeeld" word="bijvoorbeeld"/>
+              <node begin="6" end="7" getal="getal" id="16" lemma="hier" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="hd" root="hier" status="vol" vwtype="aanw" word="hier"/>
+              <node begin="7" cat="pp" end="10" id="17" rel="mod">
+                <node begin="7" end="8" id="18" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                <node begin="8" cat="mwu" end="10" id="19" rel="obj1">
+                  <node begin="8" end="9" id="20" lemma="New" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="New" spectype="deeleigen" word="New"/>
+                  <node begin="9" end="10" id="21" lemma="York" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="York" spectype="deeleigen" word="York"/>
+                </node>
+              </node>
+            </node>
+            <node begin="11" end="12" id="22" lemma="wel" pos="adv" postag="BW()" pt="bw" rel="mod" root="wel" word="wel"/>
+            <node begin="13" buiging="zonder" end="14" id="23" lemma="gebruiken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="gebruik" word="gebruiken" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="24" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Vertrouwen dat de Amerikaan - bijvoorbeeld hier in New York - wel kan gebruiken .</sentence>
+</alpino_ds>

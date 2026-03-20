@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="smain" end="13" id="1" rel="--">
+      <node begin="3" end="4" id="2" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+      <node begin="4" cat="np" end="12" id="3" index="1" rel="su">
+        <node begin="4" end="5" id="4" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="5" lemma="aanval" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="aanval" word="aanval"/>
+        <node begin="6" cat="pp" end="10" id="6" rel="mod">
+          <node begin="6" end="7" id="7" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="7" cat="mwu" end="10" id="8" rel="obj1">
+            <node begin="7" end="8" id="9" lemma="Willem" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Willem" spectype="deeleigen" word="Willem"/>
+            <node begin="8" end="9" id="10" lemma="van" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="van" spectype="deeleigen" word="van"/>
+            <node begin="9" end="10" id="11" lemma="Oranje" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Oranje" spectype="deeleigen" word="Oranje"/>
+          </node>
+        </node>
+        <node begin="10" cat="pp" end="12" id="12" rel="mod">
+          <node begin="10" end="11" id="13" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+          <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="14" lemma="Antwerpen" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Antwerpen" word="Antwerpen"/>
+        </node>
+      </node>
+      <node begin="0" cat="ppart" end="13" id="15" rel="vc">
+        <node begin="0" cat="pp" end="3" id="16" rel="mod">
+          <node begin="0" end="1" id="17" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+          <node begin="1" cat="np" end="3" id="18" rel="obj1">
+            <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="19" lemma="januari" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="januari" word="januari"/>
+            <node begin="2" end="3" id="20" lemma="1583" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mod" root="1583" word="1583"/>
+          </node>
+        </node>
+        <node begin="4" end="12" id="21" index="1" rel="obj1"/>
+        <node begin="12" buiging="zonder" end="13" id="22" lemma="af_slaan" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="sla_af" word="afgeslagen" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="13" end="14" id="23" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>In januari 1583 was een aanval van Willem van Oranje op Antwerpen afgeslagen .</sentence>
+</alpino_ds>

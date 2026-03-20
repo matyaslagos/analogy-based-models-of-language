@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="11" end="12" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="whrel" end="16" id="2" rel="--">
+      <node begin="0" end="1" getal="ev" id="3" index="1" lemma="wat" naamval="stan" pdtype="pron" persoon="3o" pos="pron" postag="VNW(vb,pron,stan,vol,3o,ev)" pt="vnw" rel="rhd" root="wat" status="vol" vwtype="vb" word="Wat"/>
+      <node begin="0" cat="ssub" end="16" id="4" rel="body">
+        <node begin="0" end="1" id="5" index="1" rel="su"/>
+        <node begin="1" cat="np" end="10" id="6" rel="obj1">
+          <node begin="1" end="2" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="8" lemma="millennium" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mod" root="millennium" word="millennium"/>
+          <node begin="3" end="4" getal="mv" graad="basis" id="9" lemma="ontwikkeling_doelstelling" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="ontwikkeling_doelstelling" word="ontwikkelingsdoelstellingen"/>
+          <node begin="4" cat="cp" end="10" id="10" rel="mod">
+            <node begin="4" conjtype="onder" end="5" id="11" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+            <node begin="5" cat="np" end="10" id="12" rel="body">
+              <node begin="5" end="6" getal="mv" graad="basis" id="13" lemma="ijk_punt" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="ijk_punt" word="ijkpunten"/>
+              <node begin="6" cat="pp" end="10" id="14" rel="mod">
+                <node begin="6" end="7" id="15" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+                <node begin="7" cat="np" end="10" id="16" rel="obj1">
+                  <node begin="7" end="8" id="17" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                  <node begin="8" buiging="zonder" end="9" graad="basis" id="18" lemma="Europees" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="Europees" word="Europees"/>
+                  <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="19" lemma="ontwikkeling_beleid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="ontwikkeling_beleid" word="ontwikkelingsbeleid"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="10" end="11" id="20" lemma="betreffen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="betref" word="betreft" wvorm="pv"/>
+        <node begin="12" cat="pp" end="16" id="21" rel="mod">
+          <node begin="12" end="13" id="22" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="13" cat="np" end="16" id="23" rel="obj1">
+            <node begin="13" end="14" id="24" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="14" cat="mwu" end="16" id="25" rel="hd">
+              <node begin="14" end="15" id="26" lemma="Europese" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Europese" spectype="deeleigen" word="Europese"/>
+              <node begin="15" end="16" id="27" lemma="Raad" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Raad" spectype="deeleigen" word="Raad"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="28" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+  </node>
+  <sentence>Wat de millennium ontwikkelingsdoelstellingen als ijkpunten voor het Europees ontwikkelingsbeleid betreft , in de Europese Raad :</sentence>
+</alpino_ds>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="32" id="0" rel="top">
+    <node begin="11" end="12" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="15" end="16" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="22" end="23" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="31" id="4" rel="--">
+      <node begin="0" cat="smain" end="22" id="5" rel="nucl">
+        <node begin="0" end="1" getal="ev" id="6" index="1" lemma="dit" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" root="dit" status="vol" vwtype="aanw" word="Dit"/>
+        <node begin="1" end="2" id="7" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" word="kan" wvorm="pv"/>
+        <node begin="0" cat="inf" end="22" id="8" rel="vc">
+          <node begin="0" end="1" id="9" index="1" rel="su"/>
+          <node begin="3" buiging="zonder" end="4" id="10" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+          <node begin="0" cat="ppart" end="22" id="11" rel="vc">
+            <node begin="0" end="1" id="12" index="1" rel="obj1"/>
+            <node begin="2" buiging="zonder" end="3" id="13" lemma="veroorzaken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="veroorzaak" word="veroorzaakt" wvorm="vd"/>
+            <node begin="4" cat="pp" end="22" id="14" rel="mod">
+              <node begin="4" end="5" id="15" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+              <node begin="5" cat="np" end="22" id="16" rel="obj1">
+                <node begin="5" end="6" id="17" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                <node begin="6" cat="ap" end="8" id="18" rel="mod">
+                  <node begin="6" end="7" id="19" lemma="te" pos="adv" postag="BW()" pt="bw" rel="mod" root="te" word="te"/>
+                  <node begin="7" buiging="met-e" end="8" graad="basis" id="20" lemma="groot" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="hd" root="groot" word="grote"/>
+                </node>
+                <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="21" lemma="aanvoer" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="aanvoer" word="aanvoer"/>
+                <node begin="9" cat="pp" end="15" id="22" rel="mod">
+                  <node begin="9" end="10" id="23" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                  <node begin="10" cat="np" end="15" id="24" rel="obj1">
+                    <node begin="10" end="11" getal="mv" graad="basis" id="25" lemma="nutriënt" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="nutriënten" word="nutriënten"/>
+                    <node begin="12" cat="conj" end="15" id="26" rel="mod">
+                      <node begin="12" end="13" getal="mv" graad="basis" id="27" lemma="nitraat" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="nitraat" word="nitraten"/>
+                      <node begin="13" conjtype="neven" end="14" id="28" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                      <node begin="14" end="15" getal="mv" graad="basis" id="29" lemma="fosfaat" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="fosfaat" word="fosfaten"/>
+                    </node>
+                  </node>
+                </node>
+                <node begin="16" cat="conj" end="22" id="30" rel="mod">
+                  <node begin="16" cat="pp" end="18" id="31" rel="cnj">
+                    <node begin="16" end="17" id="32" lemma="via" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="via" vztype="init" word="via"/>
+                    <node begin="17" end="18" getal="mv" graad="basis" id="33" lemma="rivier" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="rivier" word="rivieren"/>
+                  </node>
+                  <node begin="18" conjtype="neven" end="19" id="34" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                  <node begin="19" cat="pp" end="22" id="35" rel="cnj">
+                    <node begin="19" end="20" id="36" lemma="via" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="via" vztype="init" word="via"/>
+                    <node begin="20" cat="np" end="22" id="37" rel="obj1">
+                      <node begin="20" end="21" id="38" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                      <node begin="21" end="22" genus="zijd" getal="ev" graad="basis" id="39" lemma="atmosfeer" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="atmosfeer" word="atmosfeer"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="23" cat="np" end="31" id="40" rel="sat">
+        <node begin="23" end="24" id="41" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="24" end="25" genus="onz" getal="ev" graad="basis" id="42" lemma="verschijnsel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="verschijnsel" word="verschijnsel"/>
+        <node begin="25" cat="rel" end="31" id="43" rel="mod">
+          <node begin="25" end="26" getal="ev" id="44" index="2" lemma="dat" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(betr,pron,stan,vol,3,ev)" pt="vnw" rel="rhd" root="dat" status="vol" vwtype="betr" word="dat"/>
+          <node begin="25" cat="ssub" end="31" id="45" rel="body">
+            <node begin="25" end="26" id="46" index="2" rel="su"/>
+            <node begin="25" cat="ppart" end="30" id="47" rel="vc">
+              <node begin="25" end="26" id="48" index="2" rel="obj1"/>
+              <node begin="26" end="27" id="49" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+              <node begin="27" end="28" id="50" lemma="wel" pos="adv" postag="BW()" pt="bw" rel="mod" root="wel" word="wel"/>
+              <node begin="28" end="29" genus="zijd" getal="ev" graad="basis" id="51" lemma="eutrofiëring" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="predc" root="eutrofiëring" word="eutrofiëring"/>
+              <node begin="29" buiging="zonder" end="30" id="52" lemma="noemen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="noem" word="genoemd" wvorm="vd"/>
+            </node>
+            <node begin="30" end="31" id="53" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="31" end="32" id="54" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dit kan veroorzaakt worden door een te grote aanvoer van nutriënten ( nitraten en fosfaten ) via rivieren en via de atmosfeer , een verschijnsel dat ook wel eutrofiëring genoemd wordt .</sentence>
+</alpino_ds>

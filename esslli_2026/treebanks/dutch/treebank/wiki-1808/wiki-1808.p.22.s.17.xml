@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="np" end="5" id="2" rel="--">
+      <node begin="0" cat="mwu" end="2" id="3" rel="hd">
+        <node begin="0" end="1" id="4" lemma="Annemie" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Annemie" spectype="deeleigen" word="Annemie"/>
+        <node begin="1" end="2" id="5" lemma="Neyts" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Neyts" spectype="deeleigen" word="Neyts"/>
+      </node>
+      <node begin="3" cat="np" end="5" id="6" rel="mod">
+        <node begin="3" buiging="zonder" end="4" graad="basis" id="7" lemma="Europees" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="Europees" word="Europees"/>
+        <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="8" lemma="parlement_lid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="parlement_lid" word="parlementslid"/>
+      </node>
+    </node>
+    <node begin="5" end="6" id="9" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+  </node>
+  <sentence>Annemie Neyts ( Europees parlementslid )</sentence>
+</alpino_ds>

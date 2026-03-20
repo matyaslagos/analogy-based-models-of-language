@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="24" id="0" rel="top">
+    <node begin="20" end="21" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="smain" end="22" id="2" rel="--">
+      <node begin="0" end="1" genus="onz" getal="ev" graad="basis" id="3" lemma="uitgangspunt" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="predc" root="uitgangspunt" word="Uitgangspunt"/>
+      <node begin="1" end="2" id="4" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="2" cat="cp" end="22" id="5" rel="su">
+        <node begin="2" conjtype="onder" end="3" id="6" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+        <node begin="3" cat="ssub" end="22" id="7" rel="body">
+          <node begin="3" cat="conj" end="6" id="8" rel="su">
+            <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="9" lemma="landbouw_beleid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="cnj" root="landbouw_beleid" word="landbouwbeleid"/>
+            <node begin="4" conjtype="neven" end="5" id="10" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="11" lemma="handel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="handel" word="handel"/>
+          </node>
+          <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="12" lemma="deel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="deel" word="deel"/>
+          <node begin="7" end="8" id="13" lemma="uit_maken" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="maak_uit" word="uitmaken" wvorm="pv"/>
+          <node begin="8" cat="pp" end="22" id="14" rel="pc">
+            <node begin="8" end="9" id="15" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="9" cat="np" end="22" id="16" rel="obj1">
+              <node begin="9" end="10" id="17" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="10" buiging="zonder" end="11" graad="comp" id="18" lemma="breed" pos="adj" positie="prenom" postag="ADJ(prenom,comp,zonder)" pt="adj" rel="mod" root="breed" word="breder"/>
+              <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="19" lemma="armoede_beleid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="armoede_beleid" word="armoedebeleid"/>
+              <node begin="12" cat="cp" end="22" id="20" rel="mod">
+                <node begin="12" conjtype="onder" end="13" id="21" lemma="zoals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zoals" word="zoals"/>
+                <node begin="13" cat="ppart" end="22" id="22" rel="body">
+                  <node begin="13" buiging="zonder" end="14" id="23" lemma="formuleren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="formuleer" word="geformuleerd" wvorm="vd"/>
+                  <node begin="14" cat="pp" end="22" id="24" rel="mod">
+                    <node begin="14" end="15" id="25" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                    <node begin="15" cat="np" end="22" id="26" rel="obj1">
+                      <node begin="15" end="16" id="27" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                      <node begin="16" cat="mwu" end="20" id="28" rel="hd">
+                        <node begin="16" end="17" id="29" lemma="Poverty" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Poverty" spectype="deeleigen" word="Poverty"/>
+                        <node begin="17" end="18" id="30" lemma="Reduction" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Reduction" spectype="deeleigen" word="Reduction"/>
+                        <node begin="18" end="19" id="31" lemma="Stategy" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Stategy" spectype="deeleigen" word="Stategy"/>
+                        <node begin="19" end="20" id="32" lemma="Papers" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Papers" spectype="deeleigen" word="Papers"/>
+                      </node>
+                      <node begin="21" end="22" getal="mv" graad="basis" id="33" lemma="PRSP" ntype="eigen" pos="name" postag="N(eigen,mv,basis)" pt="n" rel="mod" root="PRSP&apos;s" word="PRSP&apos;s"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="22" end="23" id="34" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="23" end="24" id="35" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Uitgangspunt is dat landbouwbeleid en handel deel uitmaken van een breder armoedebeleid zoals geformuleerd in de Poverty Reduction Stategy Papers ( PRSP&apos;s ) .</sentence>
+</alpino_ds>

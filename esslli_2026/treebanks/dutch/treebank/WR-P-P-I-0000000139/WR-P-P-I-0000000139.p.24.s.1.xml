@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="0" cat="smain" end="19" id="1" rel="--">
+      <node begin="0" cat="pp" end="5" id="2" rel="mod">
+        <node begin="0" cat="mwu" end="3" id="3" rel="hd">
+          <node begin="0" end="1" id="4" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="op" vztype="init" word="Op"/>
+          <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="5" lemma="basis" naamval="stan" ntype="soort" pos="prep" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="basis" word="basis"/>
+          <node begin="2" end="3" id="6" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="van" vztype="init" word="van"/>
+        </node>
+        <node begin="3" cat="np" end="5" id="7" rel="obj1">
+          <node begin="3" end="4" id="8" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="9" lemma="audit_verslag" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="auditverslag" word="auditverslag"/>
+        </node>
+      </node>
+      <node begin="5" end="6" id="10" lemma="aan_nemen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="neem_aan" word="nam" wvorm="pv"/>
+      <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="11" lemma="Aelvoet" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Aelvoet" word="Aelvoet"/>
+      <node begin="7" buiging="zonder" end="8" graad="basis" id="12" lemma="onmiddellijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="onmiddellijk" word="onmiddellijk"/>
+      <node begin="8" cat="np" end="11" id="13" rel="obj1">
+        <node begin="8" end="9" id="14" lemma="twee" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="twee" word="twee"/>
+        <node begin="9" buiging="met-e" end="10" graad="basis" id="15" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" word="nieuwe"/>
+        <node begin="10" end="11" getal="mv" graad="basis" id="16" lemma="ingenieur" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="ingenieur" word="ingenieurs"/>
+      </node>
+      <node begin="11" end="12" id="17" lemma="aan" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="aan" vztype="fin" word="aan"/>
+      <node begin="12" cat="oti" end="19" id="18" rel="mod">
+        <node begin="12" end="13" id="19" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="om"/>
+        <node begin="13" cat="ti" end="19" id="20" rel="body">
+          <node begin="17" end="18" id="21" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+          <node begin="13" cat="inf" end="19" id="22" rel="body">
+            <node begin="13" cat="np" end="17" id="23" rel="obj1">
+              <node begin="13" end="14" id="24" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="25" lemma="dienst" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="dienst" word="dienst"/>
+              <node begin="15" cat="pp" end="17" id="26" rel="mod">
+                <node begin="15" end="16" id="27" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="28" lemma="Cobbaert" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" root="Cobbaert" word="Cobbaert"/>
+              </node>
+            </node>
+            <node begin="18" buiging="zonder" end="19" id="29" lemma="versterken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="versterk" word="versterken" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="30" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Op basis van het auditverslag nam Aelvoet onmiddellijk twee nieuwe ingenieurs aan om de dienst van Cobbaert te versterken .</sentence>
+</alpino_ds>

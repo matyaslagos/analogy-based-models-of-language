@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="*" pos="tag" postag="LET()" pt="let" rel="--" root="*" word="*"/>
+    <node begin="2" end="3" id="2" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="6" end="7" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="1" cat="du" end="8" id="4" rel="--">
+      <node begin="1" cat="conj" end="4" id="5" rel="dp">
+        <node begin="1" end="2" id="6" lemma="1933" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="cnj" root="1933" word="1933"/>
+        <node begin="3" end="4" id="7" lemma="1936" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="cnj" root="1936" word="1936"/>
+      </node>
+      <node begin="4" cat="mwu" end="6" id="8" rel="dp">
+        <node begin="4" end="5" id="9" lemma="Van" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Van" spectype="deeleigen" word="Van"/>
+        <node begin="5" end="6" id="10" lemma="Abbemuseum" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Abbemuseum" spectype="deeleigen" word="Abbemuseum"/>
+      </node>
+      <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="11" lemma="Eindhoven" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="dp" root="Eindhoven" word="Eindhoven"/>
+    </node>
+  </node>
+  <sentence>* 1933 - 1936 Van Abbemuseum , Eindhoven</sentence>
+</alpino_ds>

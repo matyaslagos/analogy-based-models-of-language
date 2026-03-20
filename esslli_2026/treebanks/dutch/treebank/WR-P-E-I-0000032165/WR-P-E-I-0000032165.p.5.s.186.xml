@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="--" root="de" word="de"/>
+    <node begin="0" cat="smain" end="16" id="2" rel="--">
+      <node begin="0" cat="np" end="2" id="3" rel="su">
+        <node begin="0" buiging="met-e" end="1" graad="basis" id="4" lemma="internationaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="internationaal" word="Internationale"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="5" lemma="goud_standaard" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="goud_standaard" word="goudstandaarden"/>
+      </node>
+      <node begin="2" end="3" id="6" lemma="beperken" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="beperk" word="beperken" wvorm="pv"/>
+      <node begin="3" buiging="zonder" end="4" graad="basis" id="7" lemma="vaak" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="vaak" word="vaak"/>
+      <node begin="5" cat="whsub" end="16" id="8" rel="vc">
+        <node begin="5" cat="np" end="7" id="9" index="1" rel="whd">
+          <node begin="5" buiging="met-e" end="6" id="10" lemma="welk" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(vb,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="welk" vwtype="vb" word="welke"/>
+          <node begin="6" end="7" getal="mv" graad="basis" id="11" lemma="entiteit" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="entiteit" word="entiteiten"/>
+        </node>
+        <node begin="5" cat="ssub" end="16" id="12" rel="body">
+          <node begin="5" end="7" id="13" index="1" rel="su"/>
+          <node begin="9" end="10" id="14" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" word="hebben" wvorm="pv"/>
+          <node begin="7" cat="np" end="16" id="15" rel="obj1">
+            <node begin="7" end="8" id="16" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="17" lemma="recht" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="recht" word="recht"/>
+            <node begin="10" cat="ti" end="16" id="18" rel="vc">
+              <node begin="14" end="15" id="19" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+              <node begin="10" cat="inf" end="16" id="20" rel="body">
+                <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="21" lemma="munt" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="munt" word="munt"/>
+                <node begin="11" cat="pp" end="13" id="22" rel="pc">
+                  <node begin="11" end="12" id="23" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+                  <node begin="12" end="13" genus="onz" getal="ev" graad="basis" id="24" lemma="goud" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="goud" word="goud"/>
+                </node>
+                <node begin="13" end="14" id="25" lemma="in" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="in" vztype="fin" word="in"/>
+                <node begin="15" buiging="zonder" end="16" id="26" lemma="in_wisselen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="wissel_in" word="wisselen" wvorm="inf"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="27" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Internationale goudstandaarden beperken vaak de welke entiteiten het recht hebben munt voor goud in te wisselen .</sentence>
+  <comments>
+    <comment>ignored &apos;de&apos;</comment>
+  </comments>
+</alpino_ds>

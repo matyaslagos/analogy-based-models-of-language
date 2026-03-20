@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="8" end="9" id="2" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="9" end="10" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="1" cat="du" end="14" id="4" rel="--">
+      <node begin="1" cat="smain" end="8" id="5" rel="nucl">
+        <node begin="1" cat="np" end="6" id="6" index="1" rel="su">
+          <node begin="1" end="2" id="7" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+          <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="8" lemma="geweld" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="geweld" word="geweld"/>
+          <node begin="3" cat="pp" end="6" id="9" rel="mod">
+            <node begin="3" end="4" id="10" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="4" cat="np" end="6" id="11" rel="obj1">
+              <node begin="4" end="5" id="12" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="13" lemma="voetbal" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="voetbal" word="voetbal"/>
+            </node>
+          </node>
+        </node>
+        <node begin="6" end="7" id="14" lemma="moeten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="moet" word="moet" wvorm="pv"/>
+        <node begin="1" cat="inf" end="8" id="15" rel="vc">
+          <node begin="1" end="6" id="16" index="1" rel="su"/>
+          <node begin="7" buiging="zonder" end="8" id="17" lemma="verdwijnen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="verdwijn" word="verdwijnen" wvorm="inf"/>
+        </node>
+      </node>
+      <node begin="10" cat="sv1" end="14" id="18" rel="tag">
+        <node begin="10" end="11" id="19" lemma="benadrukken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="benadruk" word="benadrukt" wvorm="pv"/>
+        <node begin="11" cat="np" end="14" id="20" rel="su">
+          <node begin="11" end="12" id="21" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="12" buiging="met-e" end="13" graad="basis" id="22" lemma="Frans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Frans" word="Franse"/>
+          <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="23" lemma="oud_voetballer" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="oud_voetballer" word="oud-voetballer"/>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="24" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>&quot; Het geweld in het voetbal moet verdwijnen &quot; , benadrukt de Franse oud-voetballer .</sentence>
+</alpino_ds>

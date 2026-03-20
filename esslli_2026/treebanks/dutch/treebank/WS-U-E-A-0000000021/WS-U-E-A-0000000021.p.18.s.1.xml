@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="smain" end="13" id="1" rel="--">
+      <node begin="0" cat="conj" end="3" id="2" index="1" rel="su">
+        <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="3" lemma="politie" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Politie" word="Politie"/>
+        <node begin="1" conjtype="neven" end="2" id="4" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="5" lemma="justitie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="justitie" word="justitie"/>
+      </node>
+      <node begin="3" end="4" id="6" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" word="hebben" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="13" id="7" rel="vc">
+        <node begin="0" end="3" id="8" index="1" rel="su"/>
+        <node begin="7" buiging="zonder" end="8" id="9" lemma="testen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="test" word="getest" wvorm="vd"/>
+        <node begin="4" cat="np" end="13" id="10" rel="obj1">
+          <node begin="4" end="5" id="11" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="5" buiging="met-e" end="6" graad="basis" id="12" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" word="nieuwe"/>
+          <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="13" lemma="manier" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="manier" word="manier"/>
+          <node begin="8" cat="oti" end="13" id="14" rel="vc">
+            <node begin="8" end="9" id="15" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="om"/>
+            <node begin="9" cat="ti" end="13" id="16" rel="body">
+              <node begin="11" end="12" id="17" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+              <node begin="9" cat="inf" end="13" id="18" rel="body">
+                <node begin="9" cat="np" end="11" id="19" rel="obj1">
+                  <node begin="9" buiging="met-e" end="10" graad="basis" id="20" lemma="illegaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="illegaal" word="illegale"/>
+                  <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="21" lemma="prostitutie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="prostitutie" word="prostitutie"/>
+                </node>
+                <node begin="12" buiging="zonder" end="13" id="22" lemma="bestrijden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="bestrijd" word="bestrijden" wvorm="inf"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="23" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Politie en justitie hebben een nieuwe manier getest om illegale prostitutie te bestrijden .</sentence>
+</alpino_ds>

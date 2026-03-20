@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="13" id="2" rel="--">
+      <node begin="0" cat="sv1" end="4" id="3" rel="sat">
+        <node begin="0" end="1" id="4" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="Heeft" wvorm="pv"/>
+        <node begin="1" end="2" getal="getal" id="5" lemma="u" naamval="nomin" pdtype="pron" persoon="2b" pos="pron" postag="VNW(pers,pron,nomin,vol,2b,getal)" pt="vnw" rel="su" root="u" status="vol" vwtype="pers" word="u"/>
+        <node begin="2" end="3" id="6" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" word="nog"/>
+        <node begin="3" end="4" getal="mv" graad="basis" id="7" lemma="vraag" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="vraag" word="vragen"/>
+      </node>
+      <node begin="5" cat="sv1" end="13" id="8" rel="nucl">
+        <node begin="5" end="6" id="9" lemma="kijken" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kijk" word="kijk" wvorm="pv"/>
+        <node begin="6" end="7" id="10" lemma="dan" pos="adv" postag="BW()" pt="bw" rel="mod" root="dan" word="dan"/>
+        <node begin="7" end="8" id="11" lemma="eerst" pos="adv" postag="BW()" pt="bw" rel="mod" root="eerst" word="eerst"/>
+        <node begin="8" end="9" id="12" lemma="eens" pos="adv" postag="BW()" pt="bw" rel="mod" root="eens" word="eens"/>
+        <node begin="9" cat="pp" end="13" id="13" rel="ld">
+          <node begin="9" end="10" id="14" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+          <node begin="10" cat="np" end="13" id="15" rel="obj1">
+            <node begin="10" buiging="met-e" end="11" getal="mv" id="16" lemma="ons" naamval="stan" npagr="rest" pdtype="det" persoon="1" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,1,mv,prenom,met-e,rest)" pt="vnw" rel="det" root="ons" status="vol" vwtype="bez" word="onze"/>
+            <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="17" lemma="web_site" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="web_site" word="website"/>
+            <node begin="12" end="13" id="18" lemma="www.svb.nl" pos="noun" postag="SPEC(symb)" pt="spec" rel="app" root="www.svb.nl" spectype="symb" word="www.svb.nl"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="19" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Heeft u nog vragen , kijk dan eerst eens op onze website www.svb.nl .</sentence>
+</alpino_ds>

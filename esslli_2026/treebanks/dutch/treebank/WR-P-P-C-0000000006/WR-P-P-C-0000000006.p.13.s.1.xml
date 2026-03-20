@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="smain" end="15" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="4" lemma="vrouw_opvang" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="vrouwen_opvang" word="vrouwenopvang"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="op_vangen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="vang_op" word="vangt" wvorm="pv"/>
+      <node begin="8" end="9" id="6" lemma="op" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="op" vztype="fin" word="op"/>
+      <node begin="3" cat="conj" end="15" id="7" rel="obj1">
+        <node begin="6" conjtype="neven" end="7" id="8" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="3" cat="np" end="15" id="9" rel="cnj">
+          <node begin="3" cat="detp" end="5" id="10" index="1" rel="det">
+            <node begin="3" end="4" id="11" lemma="steeds" pos="adv" postag="BW()" pt="bw" rel="mod" root="steeds" word="steeds"/>
+            <node begin="4" buiging="zonder" end="5" graad="comp" id="12" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="det" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,comp)" pt="vnw" rel="hd" root="meer" vwtype="onbep" word="meer"/>
+          </node>
+          <node begin="5" end="6" getal="mv" graad="basis" id="13" lemma="vrouw" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vrouw" word="vrouwen"/>
+          <node begin="9" cat="pp" end="15" id="14" index="2" rel="mod">
+            <node begin="9" end="10" id="15" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+            <node begin="10" cat="np" end="15" id="16" rel="obj1">
+              <node begin="10" end="11" id="17" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="11" cat="conj" end="14" id="18" rel="mod">
+                <node begin="11" buiging="met-e" end="12" graad="basis" id="19" lemma="zwaar" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="zwaar" word="zware"/>
+                <node begin="12" conjtype="neven" end="13" id="20" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                <node begin="13" buiging="met-e" end="14" graad="basis" id="21" lemma="complex" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="complex" word="complexe"/>
+              </node>
+              <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="22" lemma="problematiek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="problematiek" word="problematiek"/>
+            </node>
+          </node>
+        </node>
+        <node begin="3" cat="np" end="15" id="23" rel="cnj">
+          <node begin="3" end="5" id="24" index="1" rel="det"/>
+          <node begin="7" end="8" getal="mv" graad="basis" id="25" lemma="kind" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kind" word="kinderen"/>
+          <node begin="9" end="15" id="26" index="2" rel="mod"/>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="27" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De vrouwenopvang vangt steeds meer vrouwen en kinderen op met een zware en complexe problematiek .</sentence>
+</alpino_ds>

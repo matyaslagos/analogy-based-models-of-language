@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="0" cat="ppart" end="2" id="2" rel="mod">
+        <node begin="0" buiging="zonder" end="1" graad="basis" id="3" lemma="institutioneel" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="institutioneel" word="Institutioneel"/>
+        <node begin="1" buiging="zonder" end="2" id="4" lemma="zien" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="gezien" word="gezien" wvorm="vd"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="verschillen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="verschil" word="verschilt" wvorm="pv"/>
+      <node begin="3" cat="np" end="7" id="6" rel="su">
+        <node begin="3" end="4" id="7" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+        <node begin="4" cat="mwu" end="7" id="8" rel="hd">
+          <node begin="4" buiging="met-e" end="5" graad="basis" id="9" lemma="Brussels" naamval="stan" pos="name" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mwp" root="Brusselse" word="Brusselse"/>
+          <node begin="5" buiging="met-e" end="6" graad="basis" id="10" lemma="hoofdstedelijk" naamval="stan" pos="name" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mwp" root="Hoofdstedelijke" word="Hoofdstedelijke"/>
+          <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="11" lemma="gewest" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="Gewest" word="Gewest"/>
+        </node>
+      </node>
+      <node begin="7" end="8" id="12" lemma="bijgevolg" pos="adv" postag="BW()" pt="bw" rel="mod" root="bijgevolg" word="bijgevolg"/>
+      <node begin="8" cat="pp" end="14" id="13" rel="pc">
+        <node begin="8" end="9" id="14" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+        <node begin="9" cat="np" end="14" id="15" rel="obj1">
+          <node begin="9" end="10" id="16" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="10" cat="conj" end="13" id="17" rel="mod">
+            <node begin="10" buiging="met-e" end="11" graad="basis" id="18" lemma="Vlaams" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="Vlaams" word="Vlaamse"/>
+            <node begin="11" conjtype="neven" end="12" id="19" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="12" buiging="met-e" end="13" graad="basis" id="20" lemma="Waals" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="Waals" word="Waalse"/>
+          </node>
+          <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="21" lemma="gewest" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="gewest" word="Gewest"/>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Institutioneel gezien verschilt het Brusselse Hoofdstedelijke Gewest bijgevolg van het Vlaamse en Waalse Gewest .</sentence>
+</alpino_ds>

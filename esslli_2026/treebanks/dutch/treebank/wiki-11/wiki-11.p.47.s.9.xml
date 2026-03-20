@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="4" lemma="Kammenstraat" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Kammenstraat" word="Kammenstraat"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="bevatten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="bevat" word="bevat" wvorm="pv"/>
+      <node begin="3" cat="np" end="6" id="6" rel="obj1">
+        <node begin="3" buiging="zonder" end="4" graad="basis" id="7" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,basis)" pt="vnw" rel="det" root="veel" vwtype="onbep" word="veel"/>
+        <node begin="4" buiging="zonder" end="5" graad="basis" id="8" lemma="trendy" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="trendy" word="trendy"/>
+        <node begin="5" end="6" getal="mv" graad="basis" id="9" lemma="kleding_zaak" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kleding_zaak" word="kledingzaken"/>
+      </node>
+    </node>
+    <node begin="6" end="7" id="10" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De Kammenstraat bevat veel trendy kledingzaken .</sentence>
+</alpino_ds>

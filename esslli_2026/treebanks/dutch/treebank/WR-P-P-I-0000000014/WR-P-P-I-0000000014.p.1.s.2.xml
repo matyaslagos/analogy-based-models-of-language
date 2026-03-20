@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="35" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="11" end="12" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="13" end="14" id="3" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="17" end="18" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="20" end="21" id="5" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="21" end="22" id="6" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="27" end="28" id="7" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="30" end="31" id="8" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="33" id="9" rel="--">
+      <node begin="0" cat="smain" end="20" id="10" rel="dp">
+        <node begin="0" cat="ap" end="3" id="11" rel="mod">
+          <node begin="0" end="1" id="12" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" word="Nog"/>
+          <node begin="1" end="2" id="13" lemma="maar" pos="adv" postag="BW()" pt="bw" rel="mod" root="maar" word="maar"/>
+          <node begin="2" end="3" id="14" lemma="net" pos="adj" postag="BW()" pt="bw" rel="hd" root="net" word="net"/>
+        </node>
+        <node begin="3" end="4" id="15" lemma="publiceren" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="publiceer" word="publiceerde" wvorm="pv"/>
+        <node begin="4" end="5" genus="masc" getal="ev" id="16" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="hij"/>
+        <node begin="6" cat="ap" end="11" id="17" rel="predm">
+          <node begin="6" end="7" id="18" lemma="samen" pos="adj" postag="BW()" pt="bw" rel="hd" root="samen" word="samen"/>
+          <node begin="7" cat="pp" end="11" id="19" rel="pc">
+            <node begin="7" end="8" id="20" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+            <node begin="8" cat="np" end="11" id="21" rel="obj1">
+              <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="22" lemma="collega" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="collega" word="collega"/>
+              <node begin="9" cat="mwu" end="11" id="23" rel="app">
+                <node begin="9" end="10" id="24" lemma="Katrien" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Katrien" spectype="deeleigen" word="Katrien"/>
+                <node begin="10" end="11" id="25" lemma="Devolder" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Devolder" spectype="deeleigen" word="Devolder"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="12" cat="np" end="20" id="26" rel="obj1">
+          <node begin="12" end="13" genus="onz" getal="ev" graad="basis" id="27" lemma="Copyright" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Copyright" word="Copyright"/>
+          <node begin="14" cat="conj" end="20" id="28" rel="mod">
+            <node begin="14" cat="mwu" end="17" id="29" rel="cnj">
+              <node begin="14" buiging="met-e" end="15" graad="basis" id="30" lemma="universitair" naamval="stan" pos="name" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mwp" root="Universitaire" word="Universitaire"/>
+              <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="31" lemma="pers" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Pers" word="Pers"/>
+              <node begin="16" end="17" genus="onz" getal="ev" graad="basis" id="32" lemma="Leuven" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="mwp" root="Leuven" word="Leuven"/>
+            </node>
+            <node begin="18" cat="np" end="20" id="33" rel="cnj">
+              <node begin="18" end="19" id="34" lemma="207" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="207" word="207"/>
+              <node begin="19" end="20" getal="mv" graad="basis" id="35" lemma="pagina" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="pagina" word="pagina&apos;s"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="22" cat="du" end="33" id="36" rel="dp">
+        <node begin="22" conjtype="neven" end="23" id="37" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="dlink" root="of" word="of"/>
+        <node begin="23" cat="smain" end="33" id="38" rel="nucl">
+          <node begin="23" end="24" getal="getal" id="39" lemma="daar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="mod" root="daar" status="vol" vwtype="aanw" word="daar"/>
+          <node begin="24" end="25" id="40" lemma="verschijnen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="verschijn" word="verscheen" wvorm="pv"/>
+          <node begin="25" cat="np" end="33" id="41" rel="su">
+            <node begin="25" end="26" getal="ev" graad="basis" id="42" lemma="Darwin" naamval="gen" ntype="eigen" pos="det" postag="N(eigen,ev,basis,gen)" pt="n" rel="det" root="Darwin" word="Darwins"/>
+            <node begin="26" end="27" genus="zijd" getal="ev" graad="basis" id="43" lemma="moord_bekentenis" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="moord_bekentenis" word="moordbekentenis"/>
+            <node begin="28" cat="np" end="33" id="44" rel="mod">
+              <node begin="28" cat="mwu" end="30" id="45" rel="hd">
+                <node begin="28" end="29" genus="zijd" getal="ev" graad="basis" id="46" lemma="uitgeverij" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Uitgeverij" word="Uitgeverij"/>
+                <node begin="29" end="30" genus="zijd" getal="ev" graad="basis" id="47" lemma="Nieuwezijds" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Nieuwezijds" word="Nieuwezijds"/>
+              </node>
+              <node begin="31" cat="np" end="33" id="48" rel="app">
+                <node begin="31" end="32" id="49" lemma="239" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="239" word="239"/>
+                <node begin="32" end="33" getal="mv" graad="basis" id="50" lemma="pagina" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="pagina" word="pagina&apos;s"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="33" end="34" id="51" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="34" end="35" id="52" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Nog maar net publiceerde hij , samen met collega Katrien Devolder , Copyright ( Universitaire Pers Leuven , 207 pagina&apos;s ) , of daar verscheen Darwins moordbekentenis ( Uitgeverij Nieuwezijds , 239 pagina&apos;s ) .</sentence>
+</alpino_ds>

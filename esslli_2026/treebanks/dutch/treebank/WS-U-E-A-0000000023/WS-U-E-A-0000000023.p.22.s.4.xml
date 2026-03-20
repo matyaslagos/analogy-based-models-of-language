@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="20" id="2" rel="--">
+      <node begin="0" cat="pp" end="3" id="3" rel="ld">
+        <node begin="0" end="1" id="4" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+        <node begin="1" cat="mwu" end="3" id="5" rel="obj1">
+          <node begin="1" end="2" id="6" lemma="Sukho" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Sukho" spectype="deeleigen" word="Sukho"/>
+          <node begin="2" end="3" id="7" lemma="Thai" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Thai" spectype="deeleigen" word="Thai"/>
+        </node>
+      </node>
+      <node begin="4" end="5" id="8" lemma="bekijken" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="bekijk" word="bekeken" wvorm="pv"/>
+      <node begin="5" cat="conj" end="9" id="9" rel="su">
+        <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="10" lemma="Beatrix" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Beatrix" word="Beatrix"/>
+        <node begin="6" conjtype="neven" end="7" id="11" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="7" cat="mwu" end="9" id="12" rel="cnj">
+          <node begin="7" end="8" id="13" lemma="Willem" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Willem" spectype="deeleigen" word="Willem"/>
+          <node begin="8" end="9" id="14" lemma="Alexander" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Alexander" spectype="deeleigen" word="Alexander"/>
+        </node>
+      </node>
+      <node begin="9" cat="conj" end="13" id="15" rel="obj1">
+        <node begin="9" cat="np" end="11" id="16" rel="cnj">
+          <node begin="9" end="10" id="17" index="1" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="10" end="11" id="18" lemma="licht-" pos="prefix" postag="SPEC(afgebr)" pt="spec" rel="hd" root="licht" spectype="afgebr" word="licht-"/>
+        </node>
+        <node begin="11" conjtype="neven" end="12" id="19" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="9" cat="np" end="13" id="20" rel="cnj">
+          <node begin="9" end="10" id="21" index="1" rel="det"/>
+          <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="22" lemma="theater_show" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="theater_show" word="theatershow"/>
+        </node>
+      </node>
+      <node begin="13" cat="pp" end="20" id="23" rel="mod">
+        <node begin="13" end="14" id="24" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="14" cat="np" end="20" id="25" rel="obj1">
+          <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="26" lemma="aanwezigheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="aanwezigheid" word="aanwezigheid"/>
+          <node begin="15" cat="pp" end="20" id="27" rel="mod">
+            <node begin="15" end="16" id="28" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="16" cat="np" end="20" id="29" rel="obj1">
+              <node begin="16" end="17" id="30" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="31" lemma="kroon_prinses" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="kroon_prinses" word="kroonprinses"/>
+              <node begin="18" cat="pp" end="20" id="32" rel="mod">
+                <node begin="18" end="19" id="33" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="19" end="20" genus="onz" getal="ev" graad="basis" id="34" lemma="Thailand" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Thailand" word="Thailand"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="20" end="21" id="35" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>In Sukho Thai , bekeken Beatrix en Willem Alexander een licht- en theatershow in aanwezigheid van de kroonprinses van Thailand .</sentence>
+</alpino_ds>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="7" end="8" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="np" end="17" id="3" rel="--">
+      <node begin="0" end="1" getal="mv" graad="basis" id="4" lemma="vertaling" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vertaling" word="Vertalingen"/>
+      <node begin="1" cat="pp" end="17" id="5" rel="mod">
+        <node begin="1" end="2" id="6" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+        <node begin="2" cat="conj" end="17" id="7" rel="obj1">
+          <node begin="2" buiging="zonder" end="3" graad="basis" id="8" lemma="respectievelijk" pos="vg" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="crd" root="respectievelijk" word="respectievelijk"/>
+          <node begin="3" cat="mwu" end="5" id="9" rel="cnj">
+            <node begin="3" end="4" id="10" lemma="Les" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Les" spectype="vreemd" word="Les"/>
+            <node begin="4" end="5" id="11" lemma="bourgeois" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="bourgeois" spectype="vreemd" word="bourgeois"/>
+          </node>
+          <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="12" lemma="Rosa" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Rosa" word="Rosa"/>
+          <node begin="8" cat="mwu" end="13" id="13" rel="cnj">
+            <node begin="8" end="9" id="14" lemma="Les" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Les" spectype="vreemd" word="Les"/>
+            <node begin="9" end="10" id="15" lemma="paumés" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="paumés" spectype="vreemd" word="paumés"/>
+            <node begin="10" end="11" id="16" lemma="du" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="du" spectype="vreemd" word="du"/>
+            <node begin="11" end="12" id="17" lemma="petit" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="petit" spectype="vreemd" word="petit"/>
+            <node begin="12" end="13" id="18" lemma="matin" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="matin" spectype="vreemd" word="matin"/>
+          </node>
+          <node begin="13" conjtype="neven" end="14" id="19" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="14" cat="mwu" end="17" id="20" rel="cnj">
+            <node begin="14" end="15" id="21" lemma="Le" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Le" spectype="vreemd" word="Le"/>
+            <node begin="15" end="16" id="22" lemma="plat" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="plat" spectype="vreemd" word="plat"/>
+            <node begin="16" end="17" id="23" lemma="pays" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="pays" spectype="vreemd" word="pays"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="24" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Vertalingen van respectievelijk Les bourgeois , Rosa , Les paumés du petit matin en Le plat pays .</sentence>
+</alpino_ds>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="9" end="10" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="13" id="2" rel="--">
+      <node begin="0" cat="ap" end="9" id="3" rel="mod">
+        <node begin="0" cat="mwu" end="3" id="4" rel="hd">
+          <node begin="0" end="1" id="5" lemma="voor" pos="adj" postag="VZ(init)" pt="vz" rel="mwp" root="voor" vztype="init" word="Voor"/>
+          <node begin="1" end="2" id="6" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="adj" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" word="het"/>
+          <node begin="2" end="3" getal-n="zonder-n" id="7" lemma="één" numtype="rang" pos="adj" positie="nom" postag="TW(rang,nom,zonder-n)" pt="tw" rel="mwp" root="eerst" word="eerst"/>
+        </node>
+        <node begin="3" cat="cp" end="9" id="8" rel="mod">
+          <node begin="3" end="4" id="9" lemma="sinds" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="sinds" vztype="init" word="sinds"/>
+          <node begin="4" cat="ssub" end="9" id="10" rel="body">
+            <node begin="4" cat="conj" end="7" id="11" rel="su">
+              <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="12" lemma="Ron" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Ron" word="Ron"/>
+              <node begin="5" conjtype="neven" end="6" id="13" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="14" lemma="Harry" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Harry" word="Harry"/>
+            </node>
+            <node begin="7" buiging="zonder" end="8" graad="basis" id="15" lemma="bevriend" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="bevriend" word="bevriend"/>
+            <node begin="8" end="9" id="16" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+      <node begin="10" end="11" id="17" lemma="krijgen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="krijg" word="krijgen" wvorm="pv"/>
+      <node begin="11" end="12" getal="mv" id="18" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="ze"/>
+      <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="19" lemma="ruzie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="ruzie" word="ruzie"/>
+    </node>
+    <node begin="13" end="14" id="20" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Voor het eerst sinds Ron en Harry bevriend zijn , krijgen ze ruzie .</sentence>
+</alpino_ds>

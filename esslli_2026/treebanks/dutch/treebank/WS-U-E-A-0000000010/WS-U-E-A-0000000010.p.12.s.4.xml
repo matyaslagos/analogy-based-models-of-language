@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="np" end="8" id="2" rel="--">
+      <node begin="0" end="1" id="3" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="Een"/>
+      <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="4" lemma="idee" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="idee" word="idee"/>
+      <node begin="1" cat="conj" end="8" id="5" rel="mod">
+        <node begin="1" buiging="zonder" end="2" graad="basis" id="6" lemma="simpel" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="cnj" root="simpel" word="simpel"/>
+        <node begin="4" conjtype="neven" end="5" id="7" lemma="maar" pos="adv" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+        <node begin="5" cat="ap" end="8" id="8" rel="cnj">
+          <node begin="5" buiging="zonder" end="6" graad="basis" id="9" lemma="technisch" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="technisch" word="technisch"/>
+          <node begin="6" buiging="zonder" end="7" graad="basis" id="10" lemma="behoorlijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="behoorlijk" word="behoorlijk"/>
+          <node begin="7" buiging="zonder" end="8" graad="basis" id="11" lemma="ingewikkeld" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="ingewikkeld" word="ingewikkeld"/>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" id="12" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Een simpel idee , maar technisch behoorlijk ingewikkeld .</sentence>
+</alpino_ds>

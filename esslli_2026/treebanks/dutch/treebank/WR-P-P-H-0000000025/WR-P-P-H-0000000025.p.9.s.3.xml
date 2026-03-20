@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="6" end="7" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="11" id="3" rel="--">
+      <node begin="0" cat="smain" end="3" id="4" rel="cnj">
+        <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="5" lemma="Boogerd" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Boogerd" word="Boogerd"/>
+        <node begin="1" end="2" id="6" index="1" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+        <node begin="2" end="3" getal-n="zonder-n" id="7" lemma="drie" numtype="rang" pos="num" positie="nom" postag="TW(rang,nom,zonder-n)" pt="tw" rel="predc" root="derde" word="derde"/>
+      </node>
+      <node begin="1" cat="smain" end="6" id="8" rel="cnj">
+        <node begin="1" end="2" id="9" index="1" rel="hd"/>
+        <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="10" lemma="Kemna" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Kemna" word="Kemna"/>
+        <node begin="5" end="6" getal-n="zonder-n" id="11" lemma="twee" numtype="rang" pos="num" positie="nom" postag="TW(rang,nom,zonder-n)" pt="tw" rel="predc" root="tweede" word="tweede"/>
+      </node>
+      <node begin="7" conjtype="neven" end="8" id="12" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+      <node begin="8" cat="smain" end="11" id="13" rel="cnj">
+        <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="14" lemma="Koerts" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Koerts" word="Koerts"/>
+        <node begin="9" end="10" id="15" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+        <node begin="10" buiging="zonder" end="11" graad="basis" id="16" lemma="ongenaakbaar" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="ongenaakbaar" word="ongenaakbaar"/>
+      </node>
+    </node>
+    <node begin="11" end="12" id="17" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Boogerd werd derde , Kemna tweede , maar Koerts was ongenaakbaar .</sentence>
+</alpino_ds>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="smain" end="15" id="1" rel="--">
+      <node begin="0" end="1" genus="onz" getal="ev" id="2" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="noun" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" root="het" status="red" vwtype="pers" word="Het"/>
+      <node begin="1" end="2" id="3" lemma="zijn" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="ben" word="waren" wvorm="pv"/>
+      <node begin="2" cat="np" end="4" id="4" rel="obj2">
+        <node begin="2" end="3" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="3" end="4" getal="mv" graad="basis" id="6" lemma="Japanner" ntype="eigen" pos="noun" postag="N(eigen,mv,basis)" pt="n" rel="hd" root="Japanner" word="Japanners"/>
+      </node>
+      <node begin="4" end="5" id="7" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+      <node begin="5" cat="ti" end="7" id="8" rel="svp">
+        <node begin="5" end="6" id="9" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+        <node begin="6" buiging="zonder" end="7" id="10" lemma="doen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="body" root="doe" word="doen" wvorm="inf"/>
+      </node>
+      <node begin="7" cat="oti" end="15" id="11" rel="vc">
+        <node begin="7" end="8" id="12" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="om"/>
+        <node begin="8" cat="ti" end="15" id="13" rel="body">
+          <node begin="10" end="11" id="14" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+          <node begin="8" cat="inf" end="15" id="15" rel="body">
+            <node begin="8" cat="np" end="10" id="16" rel="obj1">
+              <node begin="8" end="9" id="17" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="18" lemma="wereld_rijk" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="wereld_rijk" word="wereldrijk"/>
+            </node>
+            <node begin="11" buiging="zonder" end="12" id="19" lemma="bezitten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="bezit" word="bezitten" wvorm="inf"/>
+            <node begin="12" cat="cp" end="15" id="20" rel="mod">
+              <node begin="12" conjtype="onder" end="13" id="21" lemma="zoals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zoals" word="zoals"/>
+              <node begin="13" cat="np" end="15" id="22" rel="body">
+                <node begin="13" end="14" id="23" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="14" end="15" getal="mv" graad="basis" id="24" lemma="Duitser" ntype="eigen" pos="noun" postag="N(eigen,mv,basis)" pt="n" rel="hd" root="Duitser" word="Duitsers"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="25" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het waren de Japanners niet te doen om een wereldrijk te bezitten zoals de Duitsers .</sentence>
+  <comments>
+    <comment>&apos;waren&apos; interpreted as &apos;was&apos;</comment>
+    <comment>&apos;te doen om VP&apos; interpreted as &apos;er om te doen VP&apos;</comment>
+  </comments>
+</alpino_ds>

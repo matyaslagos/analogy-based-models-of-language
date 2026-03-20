@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="12" end="13" id="2" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="0" cat="du" end="15" id="3" rel="--">
+      <node begin="0" cat="smain" end="8" id="4" rel="nucl">
+        <node begin="1" end="2" id="5" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" word="hebben" wvorm="pv"/>
+        <node begin="2" end="3" getal="mv" id="6" index="1" lemma="we" naamval="nomin" pdtype="pron" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,red,1,mv)" pt="vnw" rel="su" root="we" status="red" vwtype="pers" word="we"/>
+        <node begin="0" cat="ppart" end="8" id="7" rel="vc">
+          <node begin="2" end="3" id="8" index="1" rel="su"/>
+          <node begin="3" end="4" getal="getal" id="9" lemma="hier" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="mod" root="hier" status="vol" vwtype="aanw" word="hier"/>
+          <node begin="4" cat="np" end="6" id="10" rel="obj1">
+            <node begin="4" end="5" id="11" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="12" lemma="rol" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="rol" word="rol"/>
+          </node>
+          <node begin="0" cat="pp" end="7" id="13" rel="mod">
+            <node begin="0" end="1" getal="getal" id="14" lemma="daar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="obj1" root="daar" status="vol" vwtype="aanw" word="Daar"/>
+            <node begin="6" end="7" id="15" lemma="voor" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="voor" vztype="fin" word="voor"/>
+          </node>
+          <node begin="7" buiging="zonder" end="8" id="16" lemma="creëren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="creëer" word="gecreëerd" wvorm="vd"/>
+        </node>
+      </node>
+      <node begin="9" cat="np" end="15" id="17" rel="sat">
+        <node begin="9" end="10" getal="getal" id="18" lemma="die" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(aanw,pron,stan,vol,3,getal)" pt="vnw" rel="hd" root="die" status="vol" vwtype="aanw" word="die"/>
+        <node begin="10" cat="pp" end="15" id="19" rel="mod">
+          <node begin="10" end="11" id="20" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="11" cat="np" end="15" id="21" rel="obj1">
+            <node begin="11" end="12" id="22" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="13" cat="mwu" end="15" id="23" rel="hd">
+              <node begin="13" end="14" id="24" lemma="assignment" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="assignment" spectype="vreemd" word="assignment"/>
+              <node begin="14" end="15" id="25" lemma="advisor" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="advisor" spectype="vreemd" word="advisor"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="26" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="16" end="17" id="27" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Daar hebben we hier een rol voor gecreëerd , die van de &quot; assignment advisor &quot; .</sentence>
+</alpino_ds>

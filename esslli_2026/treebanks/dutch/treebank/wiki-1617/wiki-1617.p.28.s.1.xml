@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="np" end="6" id="2" rel="--">
+      <node begin="0" cat="mwu" end="2" id="3" rel="hd">
+        <node begin="0" end="1" id="4" lemma="Bart" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Bart" spectype="deeleigen" word="Bart"/>
+        <node begin="1" end="2" id="5" lemma="Staes" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Staes" spectype="deeleigen" word="Staes"/>
+      </node>
+      <node begin="3" cat="np" end="6" id="6" rel="mod">
+        <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="7" lemma="ex_euro_parlementariër" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="ex_Euro_parlementariër" word="ex-Europarlementariër"/>
+        <node begin="4" cat="pp" end="6" id="8" rel="mod">
+          <node begin="4" end="5" id="9" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="5" end="6" genus="genus" getal="ev" graad="basis" id="10" lemma="Spirit" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="obj1" root="Spirit" word="Spirit"/>
+        </node>
+      </node>
+    </node>
+    <node begin="6" end="7" id="11" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+  </node>
+  <sentence>Bart Staes ( ex-Europarlementariër voor Spirit )</sentence>
+</alpino_ds>

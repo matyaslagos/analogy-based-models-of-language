@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="np" end="8" id="1" rel="--">
+      <node begin="0" end="1" id="2" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="Een"/>
+      <node begin="1" buiging="met-e" end="2" graad="basis" id="3" lemma="wollig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="wollig" word="wollige"/>
+      <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="4" lemma="tekst" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="tekst" word="tekst"/>
+      <node begin="3" cat="rel" end="8" id="5" rel="mod">
+        <node begin="3" end="4" getal="getal" id="6" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+        <node begin="3" cat="ssub" end="8" id="7" rel="body">
+          <node begin="3" end="4" id="8" index="1" rel="su"/>
+          <node begin="5" end="6" id="9" lemma="verhullen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="verhul" word="verhult" wvorm="pv"/>
+          <node begin="3" cat="np" end="8" id="10" rel="obj1">
+            <node begin="4" buiging="zonder" end="5" graad="comp" id="11" lemma="veel" naamval="stan" pdtype="grad" pos="det" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="hd" root="meer" vwtype="onbep" word="meer"/>
+            <node begin="3" cat="cp" end="8" id="12" rel="obcomp">
+              <node begin="6" conjtype="onder" end="7" id="13" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="dan" word="dan"/>
+              <node begin="3" cat="ssub" end="8" id="14" rel="body">
+                <node begin="3" end="4" id="15" index="1" rel="su"/>
+                <node begin="7" end="8" id="16" lemma="verklaren" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="verklaar" word="verklaart" wvorm="pv"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" id="17" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Een wollige tekst die meer verhult dan verklaart .</sentence>
+</alpino_ds>

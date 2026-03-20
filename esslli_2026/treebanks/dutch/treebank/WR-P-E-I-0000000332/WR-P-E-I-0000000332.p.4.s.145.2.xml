@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="11" end="12" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="17" end="18" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="20" id="3" rel="--">
+      <node begin="0" cat="pp" end="5" id="4" rel="pc">
+        <node begin="0" end="1" id="5" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="Voor"/>
+        <node begin="1" cat="np" end="5" id="6" rel="obj1">
+          <node begin="1" end="2" getal="ev" graad="basis" id="7" lemma="Ditvoorst" naamval="gen" ntype="eigen" pos="det" postag="N(eigen,ev,basis,gen)" pt="n" rel="det" root="Ditvoorst" word="Ditvoorst"/>
+          <node begin="2" end="3" id="8" lemma="één" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="eerste" word="eerste"/>
+          <node begin="3" buiging="met-e" end="4" graad="basis" id="9" lemma="lang" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="lang" word="lange"/>
+          <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="10" lemma="speel_film" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="speel_film" word="speelfilm"/>
+        </node>
+      </node>
+      <node begin="5" end="6" id="11" lemma="gebruiken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="gebruik" word="gebruikte" wvorm="pv"/>
+      <node begin="6" end="7" genus="masc" getal="ev" id="12" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="hij"/>
+      <node begin="7" cat="np" end="20" id="13" rel="obj1">
+        <node begin="7" end="8" id="14" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="8" buiging="zonder" end="9" graad="basis" id="15" lemma="kort" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="kort" word="kort"/>
+        <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="16" lemma="verhaal" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="verhaal" word="verhaal"/>
+        <node begin="10" cat="pp" end="20" id="17" rel="mod">
+          <node begin="10" end="11" id="18" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="12" cat="np" end="20" id="19" rel="obj1">
+            <node begin="12" end="13" id="20" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="13" cat="ppart" end="17" id="21" rel="mod">
+              <node begin="13" cat="pp" end="15" id="22" rel="mod">
+                <node begin="13" end="14" id="23" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+                <node begin="14" end="15" genus="masc" getal="ev" id="24" lemma="hem" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,obl,vol,3,ev,masc)" pt="vnw" rel="obj1" root="hem" status="vol" vwtype="pers" word="hem"/>
+              </node>
+              <node begin="15" end="16" id="25" lemma="zo" pos="adv" postag="BW()" pt="bw" rel="mod" root="zo" word="zo"/>
+              <node begin="16" buiging="met-e" end="17" id="26" lemma="bewonderen" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="hd" root="bewonderd" word="bewonderde" wvorm="vd"/>
+            </node>
+            <node begin="18" cat="mwu" end="20" id="27" rel="hd">
+              <node begin="18" end="19" id="28" lemma="W.F" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="W.F" spectype="deeleigen" word="W.F"/>
+              <node begin="19" end="20" id="29" lemma="Hermans" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Hermans" spectype="deeleigen" word="Hermans"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="20" end="21" id="30" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Voor Ditvoorst eerste lange speelfilm gebruikte hij een kort verhaal van , de door hem zo bewonderde , W.F Hermans .</sentence>
+</alpino_ds>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="25" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="24" id="2" rel="--">
+      <node begin="0" cat="conj" end="10" id="3" index="1" rel="su">
+        <node begin="0" cat="np" end="2" id="4" rel="cnj">
+          <node begin="0" end="1" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+          <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="6" lemma="overheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="overheid" word="overheid"/>
+        </node>
+        <node begin="3" end="4" id="7" lemma="zaibatsu" pos="noun" postag="SPEC(vreemd)" pt="spec" rel="cnj" root="zaibatsu" spectype="vreemd" word="zaibatsu"/>
+        <node begin="4" conjtype="neven" end="5" id="8" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="5" cat="np" end="10" id="9" rel="cnj">
+          <node begin="5" end="6" id="10" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="6" cat="mwu" end="8" id="11" rel="hd">
+            <node begin="6" end="7" id="12" lemma="Centrale" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Centrale" spectype="deeleigen" word="Centrale"/>
+            <node begin="7" end="8" id="13" lemma="Bank" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Bank" spectype="deeleigen" word="Bank"/>
+          </node>
+          <node begin="8" cat="pp" end="10" id="14" rel="mod">
+            <node begin="8" end="9" id="15" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="16" lemma="Japan" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Japan" word="Japan"/>
+          </node>
+        </node>
+      </node>
+      <node begin="10" end="11" id="17" lemma="trachten" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="tracht" word="trachtten" wvorm="pv"/>
+      <node begin="0" cat="ti" end="24" id="18" rel="vc">
+        <node begin="22" end="23" id="19" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+        <node begin="0" cat="inf" end="24" id="20" rel="body">
+          <node begin="0" end="10" id="21" index="1" rel="su"/>
+          <node begin="11" cat="np" end="21" id="22" rel="obj1">
+            <node begin="11" end="12" id="23" lemma="zoveel" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="hd" root="zoveel" word="zoveel"/>
+            <node begin="12" buiging="zonder" end="13" graad="basis" id="24" lemma="mogelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="obcomp" root="mogelijk" word="mogelijk"/>
+            <node begin="13" cat="pp" end="21" id="25" rel="mod">
+              <node begin="13" end="14" id="26" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="14" cat="np" end="21" id="27" rel="obj1">
+                <node begin="14" end="15" id="28" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="15" buiging="met-e" end="16" graad="basis" id="29" lemma="economisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="economisch" word="economische"/>
+                <node begin="16" end="17" getal="mv" graad="basis" id="30" lemma="hulpbron" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="hulpbron" word="hulpbronnen"/>
+                <node begin="17" cat="pp" end="21" id="31" rel="mod">
+                  <node begin="17" end="18" id="32" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                  <node begin="18" cat="np" end="21" id="33" rel="obj1">
+                    <node begin="18" end="19" id="34" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="19" buiging="met-e" end="20" id="35" lemma="bezetten" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="bezet" word="bezette" wvorm="vd"/>
+                    <node begin="20" end="21" getal="mv" graad="basis" id="36" lemma="gebied" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="gebied" word="gebieden"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="21" end="22" id="37" lemma="in" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="in" vztype="fin" word="in"/>
+          <node begin="23" buiging="zonder" end="24" id="38" lemma="in_pikken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="pik_in" word="pikken" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="24" end="25" id="39" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De overheid , zaibatsu en de Centrale Bank van Japan trachtten zoveel mogelijk van de economische hulpbronnen in de bezette gebieden in te pikken .</sentence>
+</alpino_ds>

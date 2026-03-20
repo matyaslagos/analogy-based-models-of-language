@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="13" end="14" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="17" end="18" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="19" id="3" rel="--">
+      <node begin="0" cat="smain" end="13" id="4" rel="nucl">
+        <node begin="0" cat="pp" end="6" id="5" rel="mod">
+          <node begin="0" end="1" id="6" lemma="onder" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="onder" vztype="init" word="Onder"/>
+          <node begin="1" cat="np" end="6" id="7" rel="obj1">
+            <node begin="1" end="2" id="8" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="2" buiging="met-e" end="3" graad="basis" id="9" lemma="Frans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Frans" word="Franse"/>
+            <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="10" lemma="koning" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="koning" word="koning"/>
+            <node begin="4" cat="mwu" end="6" id="11" rel="app">
+              <node begin="4" end="5" id="12" lemma="Lodewijk" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Lodewijk" spectype="deeleigen" word="Lodewijk"/>
+              <node begin="5" end="6" id="13" lemma="XIV" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="XIV" spectype="deeleigen" word="XIV"/>
+            </node>
+          </node>
+        </node>
+        <node begin="6" end="7" id="14" lemma="komen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="kom" word="kwam" wvorm="pv"/>
+        <node begin="7" cat="np" end="9" id="15" rel="su">
+          <node begin="7" end="8" id="16" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="17" lemma="stad" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="stad" word="stad"/>
+        </node>
+        <node begin="9" end="10" id="18" lemma="weer" pos="adv" postag="BW()" pt="bw" rel="mod" root="weer" word="weer"/>
+        <node begin="10" cat="pp" end="13" id="19" rel="predc">
+          <node begin="10" end="11" id="20" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="11" cat="np" end="13" id="21" rel="obj1">
+            <node begin="11" buiging="zonder" end="12" graad="basis" id="22" lemma="Frans" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="Frans" word="Frans"/>
+            <node begin="12" end="13" genus="onz" getal="ev" graad="basis" id="23" lemma="bezit" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="bezit" word="bezit"/>
+          </node>
+        </node>
+      </node>
+      <node begin="14" cat="du" end="19" id="24" rel="sat">
+        <node begin="14" cat="mwu" end="17" id="25" rel="dp">
+          <node begin="14" end="15" id="26" lemma="Verdrag" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Verdrag" spectype="deeleigen" word="Verdrag"/>
+          <node begin="15" end="16" id="27" lemma="van" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="van" spectype="deeleigen" word="van"/>
+          <node begin="16" end="17" id="28" lemma="Aken" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Aken" spectype="deeleigen" word="Aken"/>
+        </node>
+        <node begin="18" end="19" id="29" lemma="1668" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="dp" root="1668" word="1668"/>
+      </node>
+    </node>
+    <node begin="19" end="20" id="30" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="20" end="21" id="31" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Onder de Franse koning Lodewijk XIV kwam de stad weer in Frans bezit ( Verdrag van Aken , 1668 ) .</sentence>
+</alpino_ds>

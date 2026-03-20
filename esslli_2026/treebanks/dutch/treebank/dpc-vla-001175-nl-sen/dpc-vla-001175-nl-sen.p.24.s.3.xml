@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="13" end="14" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="17" id="2" rel="--">
+      <node begin="0" end="1" genus="onz" getal="ev" graad="basis" id="3" lemma="Vlaanderen" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" root="Vlaanderen" word="Vlaanderen"/>
+      <node begin="1" end="2" id="4" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="heeft" wvorm="pv"/>
+      <node begin="2" end="3" id="5" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+      <node begin="3" cat="np" end="17" id="6" rel="obj1">
+        <node begin="3" end="4" id="7" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="8" lemma="veertigtal" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="veertigtal" word="veertigtal"/>
+        <node begin="5" cat="conj" end="17" id="9" rel="mod">
+          <node begin="7" conjtype="neven" end="8" id="10" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="5" cat="np" end="17" id="11" rel="cnj">
+            <node begin="5" buiging="met-e" end="6" graad="basis" id="12" lemma="cultureel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="cultureel" word="culturele"/>
+            <node begin="6" end="7" getal="mv" graad="basis" id="13" lemma="akkoord" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="accoord" word="akkoorden"/>
+            <node begin="9" cat="pp" end="17" id="14" index="1" rel="mod">
+              <node begin="9" end="10" id="15" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+              <node begin="10" cat="np" end="17" id="16" rel="obj1">
+                <node begin="10" end="11" getal="mv" graad="basis" id="17" lemma="land" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="land" word="landen"/>
+                <node begin="11" cat="cp" end="17" id="18" rel="mod">
+                  <node begin="11" conjtype="onder" end="12" id="19" lemma="zoals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zoals" word="zoals"/>
+                  <node begin="12" cat="conj" end="17" id="20" rel="body">
+                    <node begin="12" end="13" genus="onz" getal="ev" graad="basis" id="21" lemma="Rusland" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Rusland" word="Rusland"/>
+                    <node begin="14" end="15" genus="onz" getal="ev" graad="basis" id="22" lemma="Marokko" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Marokko" word="Marokko"/>
+                    <node begin="15" conjtype="neven" end="16" id="23" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                    <node begin="16" end="17" genus="onz" getal="ev" graad="basis" id="24" lemma="Zuid-Afrika" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Zuid-Afrika" word="Zuid-Afrika"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="8" cat="np" end="17" id="25" rel="cnj">
+            <node begin="8" end="9" getal="mv" graad="basis" id="26" lemma="samenwerking_akkoord" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="samenwerking_accoord" word="samenwerkingsakkoorden"/>
+            <node begin="9" end="17" id="27" index="1" rel="mod"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="28" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Vlaanderen heeft ook een veertigtal culturele akkoorden en samenwerkingsakkoorden met landen zoals Rusland , Marokko en Zuid-Afrika .</sentence>
+</alpino_ds>

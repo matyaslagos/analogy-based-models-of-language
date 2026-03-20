@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="10" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="9" id="2" rel="--">
+      <node begin="0" cat="smain" end="3" id="3" rel="cnj">
+        <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="4" index="1" lemma="Dylan" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Dylan" word="Dylan"/>
+        <node begin="1" end="2" id="5" lemma="slapen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="slaap" word="slaapt" wvorm="pv"/>
+        <node begin="2" buiging="zonder" end="3" graad="basis" id="6" lemma="weinig" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,basis)" pt="vnw" rel="obj1" root="weinig" vwtype="onbep" word="weinig"/>
+      </node>
+      <node begin="0" cat="smain" end="6" id="7" rel="cnj">
+        <node begin="0" end="1" id="8" index="1" rel="su"/>
+        <node begin="4" end="5" id="9" lemma="gebruiken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="gebruik" word="gebruikt" wvorm="pv"/>
+        <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="10" lemma="speed" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="speed" word="speed"/>
+      </node>
+      <node begin="6" conjtype="neven" end="7" id="11" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="0" cat="smain" end="9" id="12" rel="cnj">
+        <node begin="0" end="1" id="13" index="1" rel="su"/>
+        <node begin="7" end="8" id="14" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="8" buiging="zonder" end="9" graad="basis" id="15" lemma="prikkelbaar" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="prikkelbaar" word="prikkelbaar"/>
+      </node>
+    </node>
+    <node begin="9" end="10" id="16" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dylan slaapt weinig , gebruikt speed en is prikkelbaar .</sentence>
+</alpino_ds>

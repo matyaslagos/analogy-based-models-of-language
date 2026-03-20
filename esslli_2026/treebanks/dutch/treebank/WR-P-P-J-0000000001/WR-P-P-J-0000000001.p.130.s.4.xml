@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="25" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="10" end="11" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="16" end="17" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="24" id="4" rel="--">
+      <node begin="0" end="1" id="5" lemma="bovendien" pos="adv" postag="BW()" pt="bw" rel="mod" root="bovendien" word="Bovendien"/>
+      <node begin="1" end="2" id="6" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="2" buiging="zonder" end="3" graad="basis" id="7" lemma="essentieel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="essentieel" word="essentieel"/>
+      <node begin="3" cat="cp" end="24" id="8" rel="su">
+        <node begin="3" conjtype="onder" end="4" id="9" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+        <node begin="4" cat="conj" end="24" id="10" rel="body">
+          <node begin="4" cat="ssub" end="16" id="11" rel="cnj">
+            <node begin="4" cat="np" end="10" id="12" index="1" rel="su">
+              <node begin="4" end="5" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="5" buiging="met-e" end="6" id="14" lemma="handel_relateren" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="handels_gerelateerd" word="handels-gerelateerde" wvorm="vd"/>
+              <node begin="6" buiging="met-e" end="7" graad="basis" id="15" lemma="technisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="technisch" word="technische"/>
+              <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="16" lemma="assistentie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="assistentie" word="assistentie"/>
+              <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="17" lemma="TA" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" root="TA" word="TA"/>
+            </node>
+            <node begin="11" end="12" id="18" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+            <node begin="12" cat="pp" end="15" id="19" rel="pc">
+              <node begin="12" end="13" id="20" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" vztype="init" word="uit"/>
+              <node begin="13" cat="np" end="15" id="21" rel="obj1">
+                <node begin="13" buiging="met-e" end="14" graad="basis" id="22" lemma="los" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="los" word="losse"/>
+                <node begin="14" end="15" getal="mv" graad="dim" id="23" lemma="project" ntype="soort" pos="noun" postag="N(soort,mv,dim)" pt="n" rel="hd" root="project_DIM" word="projectjes"/>
+              </node>
+            </node>
+            <node begin="15" end="16" id="24" lemma="bestaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="besta" word="bestaat" wvorm="pv"/>
+          </node>
+          <node begin="17" conjtype="neven" end="18" id="25" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+          <node begin="4" cat="ssub" end="24" id="26" rel="cnj">
+            <node begin="4" end="10" id="27" index="1" rel="su"/>
+            <node begin="18" end="19" id="28" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+            <node begin="4" cat="ppart" end="24" id="29" rel="vc">
+              <node begin="4" end="10" id="30" index="1" rel="obj1"/>
+              <node begin="19" buiging="zonder" end="20" id="31" lemma="in_passen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="pas_in" word="ingepast" wvorm="vd"/>
+              <node begin="20" cat="pp" end="24" id="32" rel="ld">
+                <node begin="20" end="21" id="33" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                <node begin="21" cat="np" end="24" id="34" rel="obj1">
+                  <node begin="21" end="22" id="35" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                  <node begin="22" buiging="zonder" end="23" id="36" lemma="samen_hangen" pos="adj" positie="prenom" postag="WW(od,prenom,zonder)" pt="ww" rel="mod" root="hang_samen" word="samenhangend" wvorm="od"/>
+                  <node begin="23" end="24" genus="onz" getal="ev" graad="basis" id="37" lemma="programma" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="programma" word="programma"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="24" end="25" id="38" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Bovendien is essentieel dat de handels-gerelateerde technische assistentie ( TA ) niet uit losse projectjes bestaat , maar is ingepast in een samenhangend programma .</sentence>
+</alpino_ds>

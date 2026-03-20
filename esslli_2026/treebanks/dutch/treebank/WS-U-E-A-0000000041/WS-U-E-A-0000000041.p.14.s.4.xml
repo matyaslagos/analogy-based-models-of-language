@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="0" cat="du" end="19" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="want" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="want" word="Want"/>
+      <node begin="1" cat="smain" end="19" id="3" rel="nucl">
+        <node begin="1" cat="np" end="4" id="4" index="1" rel="su">
+          <node begin="1" end="2" id="5" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="2" buiging="met-e" end="3" graad="basis" id="6" lemma="Italiaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Italiaans" word="Italiaanse"/>
+          <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="7" lemma="parlement" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="parlement" word="parlement"/>
+        </node>
+        <node begin="4" end="5" id="8" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="heeft" wvorm="pv"/>
+        <node begin="1" cat="ppart" end="19" id="9" rel="vc">
+          <node begin="1" end="4" id="10" index="1" rel="su"/>
+          <node begin="7" buiging="zonder" end="8" id="11" lemma="aan_nemen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="neem_aan" word="aangenomen" wvorm="vd"/>
+          <node begin="5" cat="np" end="19" id="12" rel="obj1">
+            <node begin="5" end="6" id="13" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="14" lemma="wet" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="wet" word="wet"/>
+            <node begin="8" cat="rel" end="19" id="15" rel="mod">
+              <node begin="8" end="9" getal="getal" id="16" index="2" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+              <node begin="8" cat="ssub" end="19" id="17" rel="body">
+                <node begin="8" end="9" id="18" index="2" rel="su"/>
+                <node begin="9" cat="np" end="14" id="19" rel="obj1">
+                  <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="20" lemma="bevruchting" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="bevruchting" word="bevruchting"/>
+                  <node begin="10" cat="pp" end="14" id="21" rel="mod">
+                    <node begin="10" end="11" id="22" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+                    <node begin="11" cat="np" end="14" id="23" rel="obj1">
+                      <node begin="11" end="12" id="24" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                      <node begin="12" buiging="met-e" end="13" graad="basis" id="25" lemma="niet_natuurlijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="niet_natuurlijk" word="niet-natuurlijke"/>
+                      <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="26" lemma="manier" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="manier" word="manier"/>
+                    </node>
+                  </node>
+                </node>
+                <node begin="14" end="15" id="27" lemma="voortaan" pos="adv" postag="BW()" pt="bw" rel="mod" root="voortaan" word="voortaan"/>
+                <node begin="15" buiging="zonder" end="16" graad="basis" id="28" lemma="sterk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="sterk" word="sterk"/>
+                <node begin="16" cat="mwu" end="18" id="29" rel="svp">
+                  <node begin="16" end="17" id="30" lemma="aan" pos="fixed" postag="VZ(init)" pt="vz" rel="mwp" root="aan" vztype="init" word="aan"/>
+                  <node begin="17" end="18" getal="mv" graad="basis" id="31" lemma="band" ntype="soort" pos="fixed" postag="N(soort,mv,basis)" pt="n" rel="mwp" root="band" word="banden"/>
+                </node>
+                <node begin="18" end="19" id="32" lemma="leggen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="leg" word="legt" wvorm="pv"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="33" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Want het Italiaanse parlement heeft een wet aangenomen die bevruchting op een niet-natuurlijke manier voortaan sterk aan banden legt .</sentence>
+</alpino_ds>

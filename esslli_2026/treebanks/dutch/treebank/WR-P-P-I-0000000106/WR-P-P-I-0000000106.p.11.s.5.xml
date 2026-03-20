@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="10" end="11" id="2" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="11" end="12" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="1" cat="du" end="18" id="4" rel="--">
+      <node begin="1" cat="smain" end="10" id="5" rel="nucl">
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="6" lemma="Wallonië" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" root="Wallonië" word="Wallonië"/>
+        <node begin="2" end="3" id="7" lemma="hebben" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="heb" word="had" wvorm="pv"/>
+        <node begin="3" cat="pp" end="9" id="8" rel="mod">
+          <node begin="3" end="4" id="9" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="4" cat="np" end="9" id="10" rel="obj1">
+            <node begin="4" end="5" id="11" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="12" lemma="figuur" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="figuur" word="figuur"/>
+            <node begin="6" cat="pp" end="9" id="13" rel="mod">
+              <node begin="6" end="7" id="14" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="7" cat="mwu" end="9" id="15" rel="obj1">
+                <node begin="7" end="8" id="16" lemma="Guy" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Guy" spectype="deeleigen" word="Guy"/>
+                <node begin="8" end="9" id="17" lemma="Spitaels" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Spitaels" spectype="deeleigen" word="Spitaels"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="9" end="10" id="18" lemma="Dieu" pos="name" postag="SPEC(vreemd)" pt="spec" rel="predc" root="Dieu" spectype="vreemd" word="Dieu"/>
+      </node>
+      <node begin="12" cat="smain" end="18" id="19" rel="tag">
+        <node begin="12" end="13" id="20" lemma="zeggen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="zeg" word="zegt" wvorm="pv"/>
+        <node begin="13" cat="np" end="16" id="21" rel="su">
+          <node begin="13" end="14" id="22" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="14" buiging="met-e" end="15" graad="basis" id="23" lemma="groen" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="groen" word="groene"/>
+          <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="24" lemma="bron" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="bron" word="bron"/>
+        </node>
+        <node begin="16" cat="pp" end="18" id="25" rel="mod">
+          <node begin="16" end="17" id="26" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" vztype="init" word="over"/>
+          <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="27" lemma="Stevaert" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" root="Stevaert" word="Stevaert"/>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="28" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>&apos; Wallonië had in de figuur van Guy Spitaels Dieu &apos; , zegt een groene bron over Stevaert .</sentence>
+</alpino_ds>

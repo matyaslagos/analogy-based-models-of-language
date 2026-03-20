@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="sv1" end="6" id="1" rel="--">
+      <node begin="0" end="1" id="2" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="Is" wvorm="pv"/>
+      <node begin="1" end="2" getal="ev" id="3" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" root="dat" status="vol" vwtype="aanw" word="dat"/>
+      <node begin="2" end="3" id="4" lemma="nou" pos="adv" postag="BW()" pt="bw" rel="mod" root="nou" word="nou"/>
+      <node begin="3" cat="ap" end="6" id="5" rel="predc">
+        <node begin="3" buiging="zonder" end="4" graad="basis" id="6" lemma="gunstig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="gunstig" word="gunstig"/>
+        <node begin="4" cat="pp" end="6" id="7" rel="pc">
+          <node begin="4" end="5" id="8" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="9" lemma="Florida" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Florida" word="Florida"/>
+        </node>
+      </node>
+    </node>
+    <node begin="6" end="7" id="10" lemma="?" pos="punct" postag="LET()" pt="let" rel="--" root="?" word="?"/>
+  </node>
+  <sentence>Is dat nou gunstig voor Florida ?</sentence>
+</alpino_ds>

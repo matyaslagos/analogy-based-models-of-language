@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" end="1" getal="ev" id="2" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" root="dat" status="vol" vwtype="aanw" word="Dat"/>
+      <node begin="1" end="2" id="3" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" word="kan" wvorm="pv"/>
+      <node begin="2" end="3" id="4" lemma="bijvoorbeeld" pos="adv" postag="BW()" pt="bw" rel="mod" root="bijvoorbeeld" word="bijvoorbeeld"/>
+      <node begin="3" cat="pp" end="7" id="5" rel="mod">
+        <node begin="3" end="4" id="6" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+        <node begin="4" cat="conj" end="7" id="7" rel="obj1">
+          <node begin="4" end="5" getal="mv" graad="basis" id="8" lemma="chemicaliën" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="chemicaliën" word="chemicaliën"/>
+          <node begin="5" conjtype="neven" end="6" id="9" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+          <node begin="6" end="7" getal="mv" graad="basis" id="10" lemma="bacterie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="bacterie" word="bacteriën"/>
+        </node>
+      </node>
+    </node>
+    <node begin="7" end="8" id="11" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dat kan bijvoorbeeld met chemicaliën of bacteriën .</sentence>
+</alpino_ds>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" end="1" getal="mv" graad="basis" id="2" index="1" lemma="onderzoeker" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="onderzoeker" word="Onderzoekers"/>
+      <node begin="1" end="2" id="3" lemma="hopen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="hoop" word="hopen" wvorm="pv"/>
+      <node begin="0" cat="ti" end="8" id="4" rel="vc">
+        <node begin="6" end="7" id="5" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+        <node begin="0" cat="inf" end="8" id="6" rel="body">
+          <node begin="0" end="1" id="7" index="1" rel="su"/>
+          <node begin="2" end="3" getal="getal" id="8" lemma="hier" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="ld" root="hier" status="vol" vwtype="aanw" word="hier"/>
+          <node begin="3" end="4" id="9" lemma="dan" pos="adv" postag="BW()" pt="bw" rel="mod" root="dan" word="dan"/>
+          <node begin="4" end="5" id="10" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+          <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="11" lemma="ijs" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="ijs" word="ijs"/>
+          <node begin="7" buiging="zonder" end="8" id="12" lemma="vinden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="vind" word="vinden" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" id="13" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Onderzoekers hopen hier dan ook ijs te vinden .</sentence>
+</alpino_ds>

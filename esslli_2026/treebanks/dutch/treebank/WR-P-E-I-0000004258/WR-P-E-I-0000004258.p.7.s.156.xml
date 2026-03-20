@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="27" id="0" rel="top">
+    <node begin="11" end="12" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="17" end="18" id="2" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="19" end="20" id="3" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="0" cat="smain" end="26" id="4" rel="--">
+      <node begin="0" end="1" getal="ev" id="5" lemma="dit" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" root="dit" status="vol" vwtype="aanw" word="Dit"/>
+      <node begin="1" end="2" id="6" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+      <node begin="2" end="3" id="7" lemma="vooral" pos="adv" postag="BW()" pt="bw" rel="mod" root="vooral" word="vooral"/>
+      <node begin="3" buiging="zonder" end="4" graad="basis" id="8" lemma="duidelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="duidelijk" word="duidelijk"/>
+      <node begin="4" cat="pp" end="26" id="9" rel="mod">
+        <node begin="4" end="5" id="10" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="5" cat="np" end="26" id="11" rel="obj1">
+          <node begin="5" cat="mwu" end="11" id="12" rel="hd">
+            <node begin="5" end="6" id="13" lemma="Harry" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Harry" spectype="deeleigen" word="Harry"/>
+            <node begin="6" end="7" id="14" lemma="Potter" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Potter" spectype="deeleigen" word="Potter"/>
+            <node begin="7" conjtype="neven" end="8" id="15" lemma="en" pos="name" postag="VG(neven)" pt="vg" rel="mwp" root="en" word="en"/>
+            <node begin="8" end="9" id="16" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="name" postag="LID(bep,stan,rest)" pt="lid" rel="mwp" root="de" word="de"/>
+            <node begin="9" buiging="met-e" end="10" graad="basis" id="17" lemma="geheim" naamval="stan" pos="name" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mwp" root="Geheime" word="Geheime"/>
+            <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="18" lemma="kamer" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Kamer" word="Kamer"/>
+          </node>
+          <node begin="12" cat="rel" end="26" id="19" rel="mod">
+            <node begin="12" end="13" id="20" index="1" lemma="waarin" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waarin" word="waarin"/>
+            <node begin="12" cat="conj" end="26" id="21" rel="body">
+              <node begin="12" cat="ssub" end="19" id="22" rel="cnj">
+                <node begin="12" end="13" id="23" index="1" rel="mod"/>
+                <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="24" lemma="Ron" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Ron" word="Ron"/>
+                <node begin="14" buiging="zonder" end="15" graad="basis" id="25" lemma="duidelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="duidelijk" word="duidelijk"/>
+                <node begin="15" end="16" id="26" lemma="fungeren" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="fungeer" word="fungeert" wvorm="pv"/>
+                <node begin="16" cat="cp" end="19" id="27" rel="predc">
+                  <node begin="16" conjtype="onder" end="17" id="28" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+                  <node begin="18" end="19" genus="zijd" getal="ev" graad="basis" id="29" lemma="aangever" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="body" root="aan_gever" word="aangever"/>
+                </node>
+              </node>
+              <node begin="20" conjtype="neven" end="21" id="30" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="12" cat="ssub" end="26" id="31" rel="cnj">
+                <node begin="12" end="13" id="32" index="1" rel="mod"/>
+                <node begin="21" cat="np" end="23" id="33" rel="su">
+                  <node begin="21" end="22" id="34" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                  <node begin="22" end="23" genus="onz" getal="ev" graad="basis" id="35" lemma="personage" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="personage" word="personage"/>
+                </node>
+                <node begin="23" cat="np" end="25" id="36" rel="obj1">
+                  <node begin="23" buiging="zonder" end="24" graad="basis" id="37" lemma="weinig" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,basis)" pt="vnw" rel="det" root="weinig" vwtype="onbep" word="weinig"/>
+                  <node begin="24" end="25" genus="zijd" getal="ev" graad="basis" id="38" lemma="diepgang" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="diepgang" word="diepgang"/>
+                </node>
+                <node begin="25" end="26" id="39" lemma="kennen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ken" word="kent" wvorm="pv"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="26" end="27" id="40" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dit wordt vooral duidelijk in Harry Potter en de Geheime Kamer , waarin Ron duidelijk fungeert als &apos; aangever &apos; en het personage weinig diepgang kent .</sentence>
+</alpino_ds>

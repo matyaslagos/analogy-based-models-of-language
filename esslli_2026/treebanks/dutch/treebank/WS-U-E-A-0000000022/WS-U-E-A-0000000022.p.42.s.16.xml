@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="mwu" end="2" id="2" index="1" rel="su">
+        <node begin="0" end="1" id="3" lemma="Theodora" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Theodora" spectype="deeleigen" word="Theodora"/>
+        <node begin="1" end="2" id="4" lemma="George" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="George" spectype="deeleigen" word="George"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="0" cat="inf" end="8" id="6" rel="vc">
+        <node begin="0" end="2" id="7" index="1" rel="su"/>
+        <node begin="6" buiging="zonder" end="7" id="8" lemma="gaan" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ga" word="gaan" wvorm="inf"/>
+        <node begin="0" cat="inf" end="8" id="9" rel="vc">
+          <node begin="0" end="2" id="10" index="1" rel="su"/>
+          <node begin="3" end="4" getal="getal" id="11" lemma="zich" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="se" root="zich" status="red" vwtype="refl" word="zich"/>
+          <node begin="4" end="5" getal="getal" id="12" lemma="hier" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="mod" root="hier" status="vol" vwtype="aanw" word="hier"/>
+          <node begin="5" end="6" id="13" lemma="thuis" pos="part" postag="BW()" pt="bw" rel="svp" root="thuis" word="thuis"/>
+          <node begin="7" buiging="zonder" end="8" id="14" lemma="thuis_voelen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="voel_thuis" word="voelen" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" id="15" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Theodora George is zich hier thuis gaan voelen .</sentence>
+</alpino_ds>

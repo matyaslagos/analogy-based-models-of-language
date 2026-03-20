@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="du" end="10" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" word="Maar"/>
+      <node begin="1" cat="smain" end="10" id="3" rel="nucl">
+        <node begin="1" end="2" getal="mv" graad="basis" id="4" lemma="fractie_genoot" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="fractie_genoot" word="fractiegenoten"/>
+        <node begin="2" end="3" id="5" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+        <node begin="3" cat="ap" end="10" id="6" rel="predc">
+          <node begin="3" cat="np" end="9" id="7" rel="obj1">
+            <node begin="3" end="4" id="8" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="4" buiging="met-e" end="5" graad="basis" id="9" lemma="rechts" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="rechts" word="rechtse"/>
+            <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="10" lemma="praat" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="praat" word="praat"/>
+            <node begin="6" cat="pp" end="9" id="11" rel="mod">
+              <node begin="6" end="7" id="12" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="7" cat="np" end="9" id="13" rel="obj1">
+                <node begin="7" buiging="zonder" end="8" getal="mv" id="14" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+                <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="15" lemma="collega" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="collega" word="collega"/>
+              </node>
+            </node>
+          </node>
+          <node begin="9" buiging="zonder" end="10" graad="basis" id="16" lemma="zat" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="zat" word="zat"/>
+        </node>
+      </node>
+    </node>
+    <node begin="10" end="11" id="17" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Maar fractiegenoten zijn de rechtse praat van hun collega zat .</sentence>
+</alpino_ds>

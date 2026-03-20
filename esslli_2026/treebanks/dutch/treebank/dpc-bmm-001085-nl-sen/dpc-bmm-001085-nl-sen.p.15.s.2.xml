@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="10" end="11" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="15" id="2" rel="--">
+      <node begin="0" cat="pp" end="3" id="3" rel="mod">
+        <node begin="0" end="1" id="4" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+        <node begin="1" cat="np" end="3" id="5" rel="obj1">
+          <node begin="1" buiging="met-e" end="2" id="6" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="deze"/>
+          <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="7" lemma="context" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="context" word="context"/>
+        </node>
+      </node>
+      <node begin="3" end="4" id="8" lemma="ontpoppen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ontpop" word="ontpopt" wvorm="pv"/>
+      <node begin="4" cat="np" end="6" id="9" rel="su">
+        <node begin="4" end="5" id="10" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+        <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="11" lemma="vliegtuig" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="vliegtuig" word="vliegtuig"/>
+      </node>
+      <node begin="6" end="7" getal="getal" id="12" lemma="zich" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="se" root="zich" status="red" vwtype="refl" word="zich"/>
+      <node begin="7" cat="pp" end="15" id="13" rel="pc">
+        <node begin="7" end="8" id="14" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" vztype="init" word="tot"/>
+        <node begin="8" cat="np" end="15" id="15" rel="obj1">
+          <node begin="8" end="9" id="16" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="9" cat="conj" end="14" id="17" rel="mod">
+            <node begin="9" buiging="zonder" end="10" graad="basis" id="18" lemma="snel" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="cnj" root="snel" word="snel"/>
+            <node begin="11" buiging="zonder" end="12" graad="basis" id="19" lemma="flexibel" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="cnj" root="flexibel" word="flexibel"/>
+            <node begin="12" conjtype="neven" end="13" id="20" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="13" buiging="zonder" end="14" graad="basis" id="21" lemma="doeltreffend" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="cnj" root="doeltreffend" word="doeltreffend"/>
+          </node>
+          <node begin="14" end="15" genus="onz" getal="ev" graad="basis" id="22" lemma="controle_middel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="controle_middel" word="controlemiddel"/>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="23" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>In deze context ontpopt het vliegtuig zich tot een snel , flexibel en doeltreffend controlemiddel .</sentence>
+</alpino_ds>

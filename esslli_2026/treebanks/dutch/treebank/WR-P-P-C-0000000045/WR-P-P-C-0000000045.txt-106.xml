@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="29" id="0" rel="top">
+    <node begin="12" end="13" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="14" end="15" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="18" end="19" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="28" id="4" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="5" lemma="want" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="want" word="Want"/>
+      <node begin="1" cat="du" end="28" id="6" rel="nucl">
+        <node begin="1" cat="cp" end="18" id="7" rel="sat">
+          <node begin="1" conjtype="onder" end="2" id="8" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+          <node begin="2" cat="ssub" end="18" id="9" rel="body">
+            <node begin="2" end="3" getal="getal" id="10" lemma="u" naamval="nomin" pdtype="pron" persoon="2b" pos="pron" postag="VNW(pers,pron,nomin,vol,2b,getal)" pt="vnw" rel="su" root="u" status="vol" vwtype="pers" word="u"/>
+            <node begin="3" end="4" id="11" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mod" root="al" word="al"/>
+            <node begin="4" cat="np" end="6" id="12" rel="obj1">
+              <node begin="4" end="5" id="13" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="14" lemma="rijbewijs" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="rijbewijs" word="rijbewijs"/>
+            </node>
+            <node begin="6" end="7" id="15" lemma="hebben" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="heb" word="had" wvorm="pv"/>
+            <node begin="7" cat="pp" end="18" id="16" rel="mod">
+              <node begin="7" end="8" id="17" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+              <node begin="8" cat="np" end="18" id="18" rel="obj1">
+                <node begin="8" end="9" id="19" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="20" lemma="moment" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="moment" word="moment"/>
+                <node begin="10" cat="cp" end="18" id="21" rel="vc">
+                  <node begin="10" conjtype="onder" end="11" id="22" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+                  <node begin="11" cat="ssub" end="18" id="23" rel="body">
+                    <node begin="11" end="12" getal="getal" id="24" index="1" lemma="u" naamval="nomin" pdtype="pron" persoon="2b" pos="pron" postag="VNW(pers,pron,nomin,vol,2b,getal)" pt="vnw" rel="su" root="u" status="vol" vwtype="pers" word="u"/>
+                    <node begin="16" end="17" id="25" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+                    <node begin="11" cat="ppart" end="18" id="26" rel="vc">
+                      <node begin="11" end="12" id="27" index="1" rel="obj1"/>
+                      <node begin="13" cat="ap" end="16" id="28" rel="predc">
+                        <node begin="13" buiging="zonder" end="14" graad="basis" id="29" lemma="tijdelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="tijdelijk" word="tijdelijk"/>
+                        <node begin="15" buiging="zonder" end="16" graad="basis" id="30" lemma="ongeschikt" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="ongeschikt" word="ongeschikt"/>
+                      </node>
+                      <node begin="17" buiging="zonder" end="18" id="31" lemma="verklaren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="verklaar" word="verklaard" wvorm="vd"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="19" cat="smain" end="28" id="32" rel="nucl">
+          <node begin="20" end="21" id="33" lemma="hoeven" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="hoef" word="hoeft" wvorm="pv"/>
+          <node begin="21" end="22" getal="getal" id="34" index="2" lemma="u" naamval="nomin" pdtype="pron" persoon="2b" pos="pron" postag="VNW(pers,pron,nomin,vol,2b,getal)" pt="vnw" rel="su" root="u" status="vol" vwtype="pers" word="u"/>
+          <node begin="19" cat="ti" end="28" id="35" rel="vc">
+            <node begin="26" end="27" id="36" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+            <node begin="19" cat="inf" end="28" id="37" rel="body">
+              <node begin="19" end="20" id="38" lemma="dan" pos="adv" postag="BW()" pt="bw" rel="mod" root="dan" word="dan"/>
+              <node begin="21" end="22" id="39" index="2" rel="su"/>
+              <node begin="22" end="23" id="40" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+              <node begin="23" end="24" id="41" lemma="opnieuw" pos="adv" postag="BW()" pt="bw" rel="mod" root="opnieuw" word="opnieuw"/>
+              <node begin="24" end="25" genus="onz" getal="ev" graad="basis" id="42" lemma="rij_examen" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="rij_examen" word="rijexamen"/>
+              <node begin="25" end="26" id="43" lemma="af" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="af" vztype="fin" word="af"/>
+              <node begin="27" buiging="zonder" end="28" id="44" lemma="af_leggen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="leg_af" word="leggen" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="28" end="29" id="45" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Want als u al een rijbewijs had op het moment dat u ( tijdelijk ) ongeschikt werd verklaard , dan hoeft u niet opnieuw rijexamen af te leggen .</sentence>
+</alpino_ds>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="10" end="11" id="2" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="0" cat="smain" end="17" id="3" rel="--">
+      <node begin="0" cat="np" end="2" id="4" rel="su">
+        <node begin="0" buiging="met-e" end="1" id="5" lemma="sommig" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="sommige" vwtype="onbep" word="Sommige"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="6" lemma="ex_werknemer" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="ex_werknemer" word="ex-werknemers"/>
+      </node>
+      <node begin="2" end="3" id="7" lemma="getuigen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="getuig" word="getuigen" wvorm="pv"/>
+      <node begin="3" end="4" id="8" lemma="inderdaad" pos="adv" postag="BW()" pt="bw" rel="mod" root="inderdaad" word="inderdaad"/>
+      <node begin="4" cat="cp" end="17" id="9" rel="vc">
+        <node begin="4" conjtype="onder" end="5" id="10" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+        <node begin="5" cat="ssub" end="17" id="11" rel="body">
+          <node begin="5" end="6" getal="getal" id="12" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+          <node begin="11" end="12" id="13" lemma="bestaan" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="besta" word="bestond" wvorm="pv"/>
+          <node begin="6" cat="np" end="17" id="14" rel="su">
+            <node begin="6" end="7" id="15" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="8" buiging="met-e" end="9" graad="basis" id="16" lemma="officieus" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="officieus" word="officieuze"/>
+            <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="17" lemma="pot" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="pot" word="pot"/>
+            <node begin="12" cat="oti" end="17" id="18" rel="mod">
+              <node begin="12" end="13" id="19" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="om"/>
+              <node begin="13" cat="ti" end="17" id="20" rel="body">
+                <node begin="15" end="16" id="21" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+                <node begin="13" cat="inf" end="17" id="22" rel="body">
+                  <node begin="13" cat="np" end="15" id="23" rel="obj1">
+                    <node begin="13" buiging="met-e" end="14" id="24" lemma="bepalen" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="bepaald" word="bepaalde" wvorm="vd"/>
+                    <node begin="14" end="15" getal="mv" graad="basis" id="25" lemma="extra" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="extra" word="extra&apos;s"/>
+                  </node>
+                  <node begin="16" buiging="zonder" end="17" id="26" lemma="betalen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="betaal" word="betalen" wvorm="inf"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="27" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Sommige ex-werknemers getuigen inderdaad dat er een &apos; officieuze pot &apos; bestond om bepaalde extra&apos;s te betalen .</sentence>
+</alpino_ds>

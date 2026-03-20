@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" buiging="met-e" end="2" graad="sup" id="4" lemma="belangrijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="mod" root="belangrijk" word="belangrijkste"/>
+        <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="5" lemma="vrijstelling" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="vrijstelling" word="vrijstelling"/>
+      </node>
+      <node begin="3" end="4" id="6" lemma="betreffen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="betref" word="betreft" wvorm="pv"/>
+      <node begin="4" cat="np" end="8" id="7" rel="obj1">
+        <node begin="4" end="5" id="8" lemma="artikel" pos="noun" postag="SPEC(afk)" pt="spec" rel="hd" root="artikel" spectype="afk" word="art."/>
+        <node begin="5" end="6" id="9" lemma="44" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="app" root="44" word="44"/>
+        <node begin="6" cat="np" end="8" id="10" rel="app">
+          <node begin="6" end="7" id="11" lemma="§" pos="noun" postag="SPEC(symb)" pt="spec" rel="hd" root="paragraaf" spectype="symb" word="§"/>
+          <node begin="7" end="8" id="12" lemma="4" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="app" root="4" word="4"/>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" id="13" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De belangrijkste vrijstelling betreft art. 44 § 4 .</sentence>
+</alpino_ds>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="0" end="1" getal="getal" id="2" lemma="daar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="mod" root="daar" status="vol" vwtype="aanw" word="Daar"/>
+      <node begin="1" end="2" id="3" lemma="wonen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="woon" word="wonen" wvorm="pv"/>
+      <node begin="2" cat="np" end="4" id="4" rel="su">
+        <node begin="2" end="3" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="3" end="4" getal="mv" graad="basis" id="6" lemma="65-plusser" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="65-plusser" word="65-plussers"/>
+      </node>
+      <node begin="4" cat="pp" end="11" id="7" rel="ld">
+        <node begin="4" buiging="zonder" end="5" graad="basis" id="8" lemma="juist" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="juist" word="juist"/>
+        <node begin="5" end="6" id="9" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="6" cat="np" end="11" id="10" rel="obj1">
+          <node begin="6" end="7" getal="mv" graad="basis" id="11" lemma="woning" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="woning" word="woningen"/>
+          <node begin="7" cat="pp" end="11" id="12" rel="mod">
+            <node begin="7" end="8" id="13" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+            <node begin="8" cat="np" end="11" id="14" rel="obj1">
+              <node begin="8" end="9" id="15" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="9" buiging="met-e" end="10" graad="comp" id="16" lemma="hoog" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,comp,met-e,stan)" pt="adj" rel="mod" root="hoog" word="hogere"/>
+              <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="17" lemma="score" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="score" word="score"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" id="18" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Daar wonen de 65-plussers juist in woningen met een hogere score .</sentence>
+</alpino_ds>

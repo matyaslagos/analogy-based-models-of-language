@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="pp" end="3" id="2" rel="mod">
+        <node begin="0" end="1" id="3" lemma="volgens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="volgens" vztype="init" word="Volgens"/>
+        <node begin="1" cat="np" end="3" id="4" rel="obj1">
+          <node begin="1" buiging="zonder" end="2" graad="basis" id="5" lemma="hetzelfde" pos="det" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="det" root="hetzelfde" word="hetzelfde"/>
+          <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="6" lemma="concept" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="concept" word="concept"/>
+        </node>
+      </node>
+      <node begin="3" end="4" id="7" lemma="aan_bieden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="bied_aan" word="bieden" wvorm="pv"/>
+      <node begin="4" end="5" id="8" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+      <node begin="5" end="6" getal="mv" graad="basis" id="9" lemma="universiteit" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="universiteit" word="universiteiten"/>
+      <node begin="6" end="7" getal="mv" graad="basis" id="10" lemma="leraar_opleiding" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="lerarenopleiding" word="lerarenopleidingen"/>
+      <node begin="7" end="8" id="11" lemma="aan" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="aan" vztype="fin" word="aan"/>
+    </node>
+    <node begin="8" end="9" id="12" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Volgens hetzelfde concept bieden ook universiteiten lerarenopleidingen aan .</sentence>
+</alpino_ds>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="du" end="13" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" word="Maar"/>
+      <node begin="1" cat="smain" end="13" id="3" rel="nucl">
+        <node begin="5" end="6" id="4" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+        <node begin="6" cat="np" end="9" id="5" index="1" rel="su">
+          <node begin="6" end="7" id="6" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="7" cat="mwu" end="9" id="7" rel="hd">
+            <node begin="7" end="8" id="8" lemma="Tweede" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Tweede" spectype="deeleigen" word="Tweede"/>
+            <node begin="8" end="9" id="9" lemma="Kamer" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Kamer" spectype="deeleigen" word="Kamer"/>
+          </node>
+        </node>
+        <node begin="1" cat="ppart" end="13" id="10" rel="vc">
+          <node begin="1" cat="ap" end="5" id="11" rel="mod">
+            <node begin="1" cat="np" end="3" id="12" rel="me">
+              <node begin="1" end="2" id="13" lemma="4" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="4" word="4"/>
+              <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="14" lemma="jaar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="jaar" word="jaar"/>
+            </node>
+            <node begin="3" buiging="zonder" end="4" graad="comp" id="15" lemma="laat" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="laat" word="later"/>
+            <node begin="4" end="5" id="16" lemma="pas" pos="adv" postag="BW()" pt="bw" rel="mod" root="pas" word="pas"/>
+          </node>
+          <node begin="6" end="9" id="17" index="1" rel="obj1"/>
+          <node begin="9" cat="mwu" end="12" id="18" rel="predc">
+            <node begin="9" end="10" id="19" lemma="op" pos="adj" postag="VZ(init)" pt="vz" rel="mwp" root="op" vztype="init" word="op"/>
+            <node begin="10" end="11" id="20" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="adj" postag="LID(bep,stan,rest)" pt="lid" rel="mwp" root="de" word="de"/>
+            <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="21" lemma="hoogte" naamval="stan" ntype="soort" pos="adj" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="hoogte" word="hoogte"/>
+          </node>
+          <node begin="12" buiging="zonder" end="13" id="22" lemma="brengen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="breng" word="gebracht" wvorm="vd"/>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="23" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Maar 4 jaar later pas werd de Tweede Kamer op de hoogte gebracht .</sentence>
+</alpino_ds>

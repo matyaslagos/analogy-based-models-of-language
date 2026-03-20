@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="10" id="0" rel="top">
+    <node begin="0" cat="smain" end="9" id="1" rel="--">
+      <node begin="0" cat="pp" end="6" id="2" rel="svp">
+        <node begin="0" cat="mwu" end="3" id="3" rel="hd">
+          <node begin="0" end="1" id="4" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="aan" vztype="init" word="Aan"/>
+          <node begin="1" end="2" id="5" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" word="het"/>
+          <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="6" lemma="hoofd" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="hoofd" word="hoofd"/>
+        </node>
+        <node begin="3" cat="pp" end="6" id="7" rel="pc">
+          <node begin="3" end="4" id="8" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="4" cat="np" end="6" id="9" rel="obj1">
+            <node begin="4" buiging="met-e" end="5" id="10" lemma="elk" naamval="stan" npagr="evz" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,evz)" pt="vnw" rel="det" root="elk" vwtype="onbep" word="elke"/>
+            <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="11" lemma="provincie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="provincie" word="provincie"/>
+          </node>
+        </node>
+      </node>
+      <node begin="6" end="7" id="12" lemma="staan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="sta" word="staat" wvorm="pv"/>
+      <node begin="7" cat="np" end="9" id="13" rel="su">
+        <node begin="7" end="8" id="14" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="15" lemma="gouverneur" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="gouverneur" word="gouverneur"/>
+      </node>
+    </node>
+    <node begin="9" end="10" id="16" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Aan het hoofd van elke provincie staat een gouverneur .</sentence>
+</alpino_ds>

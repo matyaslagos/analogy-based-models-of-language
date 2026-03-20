@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="0" end="1" genus="genus" getal="ev" graad="basis" id="2" index="1" lemma="Ahold" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="su" root="Ahold" word="Ahold"/>
+      <node begin="1" end="2" id="3" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="heeft" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="6" id="4" rel="vc">
+        <node begin="0" end="1" id="5" index="1" rel="su"/>
+        <node begin="2" end="3" id="6" lemma="vanmorgen" pos="adv" postag="BW()" pt="bw" rel="mod" root="vanmorgen" word="vanmorgen"/>
+        <node begin="3" cat="np" end="5" id="7" rel="obj1">
+          <node begin="3" buiging="met-e" end="4" id="8" lemma="tegen_vallen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="val_tegen" word="tegenvallende" wvorm="od"/>
+          <node begin="4" end="5" getal="mv" graad="basis" id="9" lemma="tweede_kwartaal_cijfer" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="tweede-kwartaal_cijfer" word="tweede-kwartaal-cijfers"/>
+        </node>
+        <node begin="5" buiging="zonder" end="6" id="10" lemma="presenteren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="presenteer" word="gepresenteerd" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="6" end="7" id="11" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Ahold heeft vanmorgen tegenvallende tweede-kwartaal-cijfers gepresenteerd .</sentence>
+</alpino_ds>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="1" end="2" id="2" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" word="worden" wvorm="pv"/>
+      <node begin="5" cat="np" end="7" id="3" index="1" rel="su">
+        <node begin="5" end="6" id="4" lemma="50" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="50" word="50"/>
+        <node begin="6" end="7" getal="mv" graad="basis" id="5" lemma="winkel" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="winkel" word="winkels"/>
+      </node>
+      <node begin="0" cat="ppart" end="8" id="6" rel="vc">
+        <node begin="0" end="1" id="7" lemma="daarom" pos="pp" postag="BW()" pt="bw" rel="mod" root="daarom" word="Daarom"/>
+        <node begin="2" end="3" getal="getal" id="8" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+        <node begin="3" end="4" id="9" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" word="nog"/>
+        <node begin="4" end="5" id="10" lemma="eens" pos="det" postag="BW()" pt="bw" rel="mod" root="&apos;s" word="&apos;s"/>
+        <node begin="5" end="7" id="11" index="1" rel="obj1"/>
+        <node begin="7" buiging="zonder" end="8" id="12" lemma="om_bouwen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="bouw_om" word="omgebouwd" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="13" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Daarom worden er nog &apos;s 50 winkels omgebouwd .</sentence>
+</alpino_ds>

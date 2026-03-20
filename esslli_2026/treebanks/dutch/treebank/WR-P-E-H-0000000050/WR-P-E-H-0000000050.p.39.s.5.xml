@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="0" cat="np" end="4" id="2" index="1" rel="su">
+        <node begin="0" end="1" genus="onz" getal="ev" graad="basis" id="3" lemma="gebruik" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="gebruik" word="Gebruik"/>
+        <node begin="1" cat="pp" end="4" id="4" rel="mod">
+          <node begin="1" end="2" id="5" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="2" cat="np" end="4" id="6" rel="obj1">
+            <node begin="2" buiging="zonder" end="3" graad="basis" id="7" lemma="openbaar" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="openbaar" word="openbaar"/>
+            <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="8" lemma="vervoer" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="vervoer" word="vervoer"/>
+          </node>
+        </node>
+      </node>
+      <node begin="4" end="5" id="9" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="6" id="10" rel="vc">
+        <node begin="0" end="4" id="11" index="1" rel="obj1"/>
+        <node begin="5" buiging="zonder" end="6" id="12" lemma="af_raden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="raad_af" word="afgeraden" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="6" end="7" id="13" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Gebruik van openbaar vervoer wordt afgeraden .</sentence>
+</alpino_ds>

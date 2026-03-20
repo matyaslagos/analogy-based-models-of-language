@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="su">
+        <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="3" lemma="verslaggever" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="verslaggever" word="Verslaggever"/>
+        <node begin="1" cat="mwu" end="3" id="4" rel="app">
+          <node begin="1" end="2" id="5" lemma="Lidwien" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Lidwien" spectype="deeleigen" word="Lidwien"/>
+          <node begin="2" end="3" id="6" lemma="Gevers" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Gevers" spectype="deeleigen" word="Gevers"/>
+        </node>
+      </node>
+      <node begin="3" end="4" id="7" lemma="op_zoeken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="zoek_op" word="zocht" wvorm="pv"/>
+      <node begin="4" end="5" getal="mv" id="8" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="obj1" root="ze" status="red" vwtype="pers" word="ze"/>
+      <node begin="5" end="6" id="9" lemma="op" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="op" vztype="fin" word="op"/>
+    </node>
+    <node begin="6" end="7" id="10" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Verslaggever Lidwien Gevers zocht ze op .</sentence>
+</alpino_ds>

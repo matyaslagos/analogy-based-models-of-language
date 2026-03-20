@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="32" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="5" end="6" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="8" end="9" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="11" end="12" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="17" end="18" id="5" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="25" end="26" id="6" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="27" end="28" id="7" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="31" id="8" rel="--">
+      <node begin="0" cat="np" end="17" id="9" rel="su">
+        <node begin="0" end="1" id="10" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="11" lemma="band_lid" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="band_lid" word="bandleden"/>
+        <node begin="3" cat="conj" end="17" id="12" rel="mod">
+          <node begin="3" cat="mwu" end="5" id="13" rel="cnj">
+            <node begin="3" end="4" id="14" lemma="Roy" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Roy" spectype="deeleigen" word="Roy"/>
+            <node begin="4" end="5" id="15" lemma="Bakker" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Bakker" spectype="deeleigen" word="Bakker"/>
+          </node>
+          <node begin="6" cat="mwu" end="8" id="16" rel="cnj">
+            <node begin="6" end="7" id="17" lemma="Sebas" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Sebas" spectype="deeleigen" word="Sebas"/>
+            <node begin="7" end="8" id="18" lemma="Wolfensberger" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Wolfensberger" spectype="deeleigen" word="Wolfensberger"/>
+          </node>
+          <node begin="9" cat="mwu" end="11" id="19" rel="cnj">
+            <node begin="9" end="10" id="20" lemma="Sander" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Sander" spectype="deeleigen" word="Sander"/>
+            <node begin="10" end="11" id="21" lemma="Panhuysen" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Panhuysen" spectype="deeleigen" word="Panhuysen"/>
+          </node>
+          <node begin="12" cat="mwu" end="14" id="22" rel="cnj">
+            <node begin="12" end="13" id="23" lemma="Judit" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Judit" spectype="deeleigen" word="Judit"/>
+            <node begin="13" end="14" id="24" lemma="Odijk" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Odijk" spectype="deeleigen" word="Odijk"/>
+          </node>
+          <node begin="14" conjtype="neven" end="15" id="25" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="15" cat="mwu" end="17" id="26" rel="cnj">
+            <node begin="15" end="16" id="27" lemma="Gino" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Gino" spectype="deeleigen" word="Gino"/>
+            <node begin="16" end="17" id="28" lemma="Weijsters" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Weijsters" spectype="deeleigen" word="Weijsters"/>
+          </node>
+        </node>
+      </node>
+      <node begin="18" end="19" id="29" lemma="schakelen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="schakel" word="schakelen" wvorm="pv"/>
+      <node begin="19" buiging="zonder" end="20" id="30" lemma="vloeien" pos="adj" positie="vrij" postag="WW(od,vrij,zonder)" pt="ww" rel="mod" root="vloeiend" word="vloeiend" wvorm="od"/>
+      <node begin="20" cat="mwu" end="23" id="31" rel="mod">
+        <node begin="20" end="21" id="32" lemma="heen" pos="adv" postag="VZ(fin)" pt="vz" rel="mwp" root="heen" vztype="fin" word="heen"/>
+        <node begin="21" conjtype="neven" end="22" id="33" lemma="en" pos="adv" postag="VG(neven)" pt="vg" rel="mwp" root="en" word="en"/>
+        <node begin="22" end="23" id="34" lemma="weer" pos="adv" postag="BW()" pt="bw" rel="mwp" root="weer" word="weer"/>
+      </node>
+      <node begin="23" cat="pp" end="31" id="35" rel="mod">
+        <node begin="23" end="24" id="36" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" vztype="init" word="tussen"/>
+        <node begin="24" cat="conj" end="31" id="37" rel="obj1">
+          <node begin="24" end="25" genus="zijd" getal="ev" graad="basis" id="38" lemma="funk" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="funk" word="funk"/>
+          <node begin="26" end="27" genus="zijd" getal="ev" graad="basis" id="39" lemma="rock" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="rock" word="rock"/>
+          <node begin="28" end="29" genus="zijd" getal="ev" graad="basis" id="40" lemma="reggae" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="reggae" word="reggae"/>
+          <node begin="29" conjtype="neven" end="30" id="41" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="30" end="31" id="42" lemma="country" pos="noun" postag="SPEC(vreemd)" pt="spec" rel="cnj" root="country" spectype="vreemd" word="country"/>
+        </node>
+      </node>
+    </node>
+    <node begin="31" end="32" id="43" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De bandleden - Roy Bakker , Sebas Wolfensberger , Sander Panhuysen , Judit Odijk en Gino Weijsters - schakelen vloeiend heen en weer tussen funk , rock , reggae en country .</sentence>
+</alpino_ds>

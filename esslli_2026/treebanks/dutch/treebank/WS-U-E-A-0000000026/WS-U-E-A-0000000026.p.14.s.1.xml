@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="0" cat="smain" end="18" id="1" rel="--">
+      <node begin="0" cat="np" end="11" id="2" index="1" rel="su">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" buiging="met-e" end="2" getal-n="zonder-n" id="4" lemma="verdenken" pos="noun" positie="nom" postag="WW(vd,nom,met-e,zonder-n)" pt="ww" rel="hd" root="verdachte" word="verdachte" wvorm="vd"/>
+        <node begin="2" cat="pp" end="11" id="5" rel="mod">
+          <node begin="2" end="3" id="6" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="3" cat="np" end="11" id="7" rel="obj1">
+            <node begin="3" end="4" id="8" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="9" lemma="steek_partij" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="steek_partij" word="steekpartij"/>
+            <node begin="5" cat="pp" end="11" id="10" rel="mod">
+              <node begin="5" end="6" id="11" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+              <node begin="6" cat="np" end="11" id="12" rel="obj1">
+                <node begin="6" end="7" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="7" cat="mwu" end="9" id="14" rel="hd">
+                  <node begin="7" end="8" id="15" lemma="Monseigneur" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Monseigneur" spectype="deeleigen" word="Monseigneur"/>
+                  <node begin="8" end="9" id="16" lemma="Hermusschool" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Hermusschool" spectype="deeleigen" word="Hermusschool"/>
+                </node>
+                <node begin="9" cat="pp" end="11" id="17" rel="mod">
+                  <node begin="9" end="10" id="18" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                  <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="19" lemma="Amsterdam" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Amsterdam" word="Amsterdam"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="11" end="12" id="20" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="heeft" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="18" id="21" rel="vc">
+        <node begin="0" end="11" id="22" index="1" rel="su"/>
+        <node begin="12" cat="pp" end="15" id="23" rel="mod">
+          <node begin="12" end="13" id="24" lemma="tegenover" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegenover" vztype="init" word="tegenover"/>
+          <node begin="13" cat="np" end="15" id="25" rel="obj1">
+            <node begin="13" end="14" id="26" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="27" lemma="politie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="politie" word="politie"/>
+          </node>
+        </node>
+        <node begin="15" cat="np" end="17" id="28" rel="obj1">
+          <node begin="15" end="16" id="29" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="30" lemma="verklaring" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="verklaring" word="verklaring"/>
+        </node>
+        <node begin="17" buiging="zonder" end="18" id="31" lemma="af_leggen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="leg_af" word="afgelegd" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="18" end="19" id="32" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De verdachte van de steekpartij op de Monseigneur Hermusschool in Amsterdam heeft tegenover de politie een verklaring afgelegd .</sentence>
+</alpino_ds>

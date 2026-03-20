@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="7" id="2" rel="--">
+      <node begin="0" cat="inf" end="3" id="3" rel="cnj">
+        <node begin="0" cat="mwu" end="2" id="4" rel="mod">
+          <node begin="0" end="1" getal="ev" id="5" lemma="niks" naamval="stan" pdtype="pron" persoon="3o" pos="adv" postag="VNW(onbep,pron,stan,vol,3o,ev)" pt="vnw" rel="mwp" root="niks" status="vol" vwtype="onbep" word="Niks"/>
+          <node begin="1" buiging="zonder" end="2" id="6" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="mwp" root="geen" vwtype="onbep" word="geen"/>
+        </node>
+        <node begin="2" buiging="zonder" end="3" id="7" lemma="flierefluiten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="flierefluit" word="flierefluiten" wvorm="inf"/>
+      </node>
+      <node begin="4" conjtype="neven" end="5" id="8" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+      <node begin="5" cat="inf" end="7" id="9" rel="cnj">
+        <node begin="5" buiging="zonder" end="6" graad="basis" id="10" lemma="hard" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="hard" word="hard"/>
+        <node begin="6" buiging="zonder" end="7" id="11" lemma="werken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="werk" word="werken" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="7" end="8" id="12" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Niks geen flierefluiten , maar hard werken .</sentence>
+</alpino_ds>

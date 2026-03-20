@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="0" cat="smain" end="16" id="2" rel="--">
+      <node begin="6" end="7" id="3" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+      <node begin="8" buiging="zonder" end="9" graad="basis" id="4" lemma="indicatief" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predm" root="indicatief" word="indicatief"/>
+      <node begin="9" cat="pp" end="15" id="5" index="1" rel="su">
+        <node begin="9" end="10" id="6" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+        <node begin="10" cat="np" end="15" id="7" rel="obj1">
+          <node begin="10" end="11" id="8" lemma="280,5" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="280,5" word="280,5"/>
+          <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="9" lemma="miljoen" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="miljoen" word="miljoen"/>
+          <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="10" lemma="euro" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mod" root="euro" word="euro"/>
+          <node begin="13" cat="pp" end="15" id="11" rel="mod">
+            <node begin="13" end="14" id="12" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+            <node begin="14" end="15" getal="mv" graad="basis" id="13" lemma="project" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="project" word="projecten"/>
+          </node>
+        </node>
+      </node>
+      <node begin="0" cat="ppart" end="16" id="14" rel="vc">
+        <node begin="0" cat="pp" end="6" id="15" rel="mod">
+          <node begin="0" end="1" id="16" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="Voor"/>
+          <node begin="1" cat="np" end="6" id="17" rel="obj1">
+            <node begin="1" end="2" id="18" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="2" end="3" getal="mv" graad="basis" id="19" lemma="investering_jaar" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="investering_jaar" word="investeringsjaren"/>
+            <node begin="3" cat="conj" end="6" id="20" rel="app">
+              <node begin="3" end="4" id="21" lemma="2008" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="cnj" root="2008" word="2008"/>
+              <node begin="5" end="6" id="22" lemma="2011" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="cnj" root="2011" word="2011"/>
+            </node>
+          </node>
+        </node>
+        <node begin="7" end="8" id="23" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" word="nog"/>
+        <node begin="9" end="15" id="24" index="1" rel="obj1"/>
+        <node begin="15" buiging="zonder" end="16" id="25" lemma="programmeren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="programmeer" word="geprogrammeerd" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="16" end="17" id="26" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Voor de investeringsjaren 2008 - 2011 zijn nog indicatief voor 280,5 miljoen euro aan projecten geprogrammeerd .</sentence>
+</alpino_ds>

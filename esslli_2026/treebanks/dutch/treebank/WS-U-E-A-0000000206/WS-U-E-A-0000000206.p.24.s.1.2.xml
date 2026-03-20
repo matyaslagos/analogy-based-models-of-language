@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="24" id="0" rel="top">
+    <node begin="10" end="11" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="23" id="2" rel="--">
+      <node begin="0" cat="smain" end="10" id="3" rel="cnj">
+        <node begin="0" cat="np" end="2" id="4" index="1" rel="su">
+          <node begin="0" end="1" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+          <node begin="1" end="2" getal="mv" graad="basis" id="6" lemma="bioloog" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="bioloog" word="biologen"/>
+        </node>
+        <node begin="2" end="3" id="7" lemma="kunnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kan" word="kunnen" wvorm="pv"/>
+        <node begin="0" cat="inf" end="10" id="8" rel="vc">
+          <node begin="0" end="2" id="9" index="1" rel="su"/>
+          <node begin="3" end="4" id="10" lemma="hiermee" pos="pp" postag="BW()" pt="bw" rel="mod" root="hiermee" word="hiermee"/>
+          <node begin="4" end="5" id="11" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+          <node begin="5" buiging="zonder" end="6" id="12" lemma="voorkomen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="voorkom" word="voorkomen" wvorm="inf"/>
+          <node begin="6" cat="cp" end="10" id="13" rel="vc">
+            <node begin="6" conjtype="onder" end="7" id="14" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+            <node begin="7" cat="ssub" end="10" id="15" rel="body">
+              <node begin="7" cat="np" end="9" id="16" rel="su">
+                <node begin="7" end="8" id="17" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="8" end="9" getal="mv" graad="basis" id="18" lemma="dier" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="dier" word="dieren"/>
+              </node>
+              <node begin="9" end="10" id="19" lemma="uit_sterven" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="sterf_uit" word="uitsterven" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="11" conjtype="neven" end="12" id="20" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+      <node begin="12" cat="smain" end="23" id="21" rel="cnj">
+        <node begin="12" end="13" getal="mv" id="22" index="2" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="ze"/>
+        <node begin="13" end="14" id="23" lemma="kunnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kan" word="kunnen" wvorm="pv"/>
+        <node begin="12" cat="inf" end="23" id="24" rel="vc">
+          <node begin="12" end="13" id="25" index="2" rel="su"/>
+          <node begin="17" buiging="zonder" end="18" id="26" lemma="blijven" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="blijf" word="blijven" wvorm="inf"/>
+          <node begin="12" cat="inf" end="23" id="27" rel="vc">
+            <node begin="12" end="13" id="28" index="2" rel="su"/>
+            <node begin="14" end="15" id="29" lemma="wel" pos="adv" postag="BW()" pt="bw" rel="mod" root="wel" word="wel"/>
+            <node begin="18" buiging="zonder" end="19" id="30" lemma="doen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="doe" word="doen" wvorm="inf"/>
+            <node begin="15" cat="np" end="23" id="31" rel="obj1">
+              <node begin="15" buiging="zonder" end="16" graad="basis" id="32" lemma="wetenschappelijk" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="wetenschappelijk" word="wetenschappelijk"/>
+              <node begin="16" end="17" genus="onz" getal="ev" graad="basis" id="33" lemma="onderzoek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="onderzoek" word="onderzoek"/>
+              <node begin="19" cat="pp" end="23" id="34" rel="mod">
+                <node begin="19" end="20" id="35" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+                <node begin="20" cat="np" end="23" id="36" rel="obj1">
+                  <node begin="20" end="21" id="37" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="21" buiging="met-e" end="22" graad="basis" id="38" lemma="zeldzaam" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="zeldzaam" word="zeldzame"/>
+                  <node begin="22" end="23" getal="mv" graad="basis" id="39" lemma="dier" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="dier" word="dieren"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="23" end="24" id="40" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De biologen kunnen hiermee niet voorkomen dat de dieren uitsterven , maar ze kunnen wel wetenschappelijk onderzoek blijven doen naar de zeldzame dieren .</sentence>
+</alpino_ds>

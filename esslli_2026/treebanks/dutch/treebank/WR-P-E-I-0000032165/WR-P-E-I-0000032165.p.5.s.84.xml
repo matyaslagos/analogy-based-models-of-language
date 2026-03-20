@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="14" id="2" rel="--">
+      <node begin="0" cat="np" end="2" id="3" rel="su">
+        <node begin="0" buiging="met-e" end="1" graad="basis" id="4" lemma="ander" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ander" word="Andere"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="5" lemma="natie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="natie" word="naties"/>
+      </node>
+      <node begin="2" end="3" id="6" lemma="volgen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="volg" word="volgden" wvorm="pv"/>
+      <node begin="3" buiging="zonder" end="4" graad="basis" id="7" lemma="snel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="snel" word="snel"/>
+      <node begin="4" cat="cp" end="14" id="8" rel="mod">
+        <node begin="4" conjtype="onder" end="5" id="9" lemma="omdat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="omdat" word="omdat"/>
+        <node begin="5" cat="ssub" end="14" id="10" rel="body">
+          <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="11" lemma="goud" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="su" root="goud" word="goud"/>
+          <node begin="6" cat="np" end="13" id="12" rel="predc">
+            <node begin="6" end="7" id="13" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="7" cat="conj" end="12" id="14" rel="mod">
+              <node begin="7" buiging="zonder" end="8" graad="basis" id="15" lemma="transporteerbaar" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="cnj" root="transporteer_baar" word="transporteerbaar"/>
+              <node begin="9" buiging="zonder" end="10" graad="basis" id="16" lemma="universeel" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="cnj" root="universeel" word="universeel"/>
+              <node begin="10" conjtype="neven" end="11" id="17" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="11" buiging="met-e" end="12" graad="basis" id="18" lemma="stabiel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="stabiel" word="stabiele"/>
+            </node>
+            <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="19" lemma="waardeëenheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="waardeëenheid" word="waardeëenheid"/>
+          </node>
+          <node begin="13" end="14" id="20" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="21" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Andere naties volgden snel omdat goud een transporteerbaar , universeel en stabiele waardeëenheid werd .</sentence>
+</alpino_ds>

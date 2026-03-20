@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="1" end="2" id="2" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" word="worden" wvorm="pv"/>
+      <node begin="4" cat="np" end="7" id="3" index="1" rel="su">
+        <node begin="4" end="5" id="4" lemma="36" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="36" word="36"/>
+        <node begin="5" buiging="met-e" end="6" graad="basis" id="5" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" word="nieuwe"/>
+        <node begin="6" end="7" getal="mv" graad="basis" id="6" lemma="gouverneur" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="gouverneur" word="gouverneurs"/>
+      </node>
+      <node begin="0" cat="ppart" end="8" id="7" rel="vc">
+        <node begin="0" end="1" getal="getal" id="8" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="Er"/>
+        <node begin="2" end="3" id="9" lemma="bovendien" pos="adv" postag="BW()" pt="bw" rel="mod" root="bovendien" word="bovendien"/>
+        <node begin="3" end="4" id="10" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+        <node begin="4" end="7" id="11" index="1" rel="obj1"/>
+        <node begin="7" buiging="zonder" end="8" id="12" lemma="verkiezen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="verkies" word="verkozen" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="13" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Er worden bovendien ook 36 nieuwe gouverneurs verkozen .</sentence>
+</alpino_ds>

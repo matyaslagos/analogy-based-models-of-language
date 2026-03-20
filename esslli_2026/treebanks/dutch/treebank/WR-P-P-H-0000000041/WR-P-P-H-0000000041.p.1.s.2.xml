@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="13" end="14" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="16" id="2" rel="--">
+      <node begin="0" cat="np" end="3" id="3" rel="su">
+        <node begin="0" end="1" id="4" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" buiging="met-e" end="2" graad="basis" id="5" lemma="Nederlands" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Nederlands" word="Nederlandse"/>
+        <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="6" lemma="honkbal_ploeg" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="honkbal_ploeg" word="honkbalploeg"/>
+      </node>
+      <node begin="3" end="4" id="7" lemma="liggen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="lig" word="ligt" wvorm="pv"/>
+      <node begin="4" cat="pp" end="11" id="8" rel="mod">
+        <node begin="4" end="5" id="9" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="5" cat="np" end="11" id="10" rel="obj1">
+          <node begin="5" end="6" id="11" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="6" cat="mwu" end="9" id="12" rel="hd">
+            <node begin="6" end="7" id="13" lemma="World" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="World" spectype="vreemd" word="World"/>
+            <node begin="7" end="8" id="14" lemma="Port" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Port" spectype="vreemd" word="Port"/>
+            <node begin="8" end="9" id="15" lemma="Tournament" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Tournament" spectype="vreemd" word="Tournament"/>
+          </node>
+          <node begin="9" cat="pp" end="11" id="16" rel="mod">
+            <node begin="9" end="10" id="17" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="18" lemma="Rotterdam" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Rotterdam" word="Rotterdam"/>
+          </node>
+        </node>
+      </node>
+      <node begin="11" cat="pp" end="16" id="19" rel="ld">
+        <node begin="11" end="12" id="20" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+        <node begin="12" cat="np" end="16" id="21" rel="obj1">
+          <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="22" lemma="koers" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="koers" word="koers"/>
+          <node begin="14" cat="pp" end="16" id="23" rel="mod">
+            <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="24" lemma="richting" naamval="stan" ntype="soort" pos="prep" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="richting" word="richting"/>
+            <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="25" lemma="finale" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="finale" word="finale"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="26" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De Nederlandse honkbalploeg ligt in het World Port Tournament in Rotterdam op koers , richting finale .</sentence>
+</alpino_ds>

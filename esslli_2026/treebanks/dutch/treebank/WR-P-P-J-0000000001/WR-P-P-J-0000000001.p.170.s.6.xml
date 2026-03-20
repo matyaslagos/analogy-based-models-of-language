@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="smain" end="13" id="1" rel="--">
+      <node begin="3" end="4" id="2" lemma="zullen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zal" word="zal" wvorm="pv"/>
+      <node begin="0" cat="inf" end="13" id="3" rel="vc">
+        <node begin="6" buiging="zonder" end="7" id="4" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+        <node begin="0" cat="ppart" end="13" id="5" rel="vc">
+          <node begin="0" cat="pp" end="3" id="6" rel="mod">
+            <node begin="0" end="1" id="7" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+            <node begin="1" cat="np" end="3" id="8" rel="obj1">
+              <node begin="1" buiging="zonder" end="2" id="9" lemma="dit" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dit" vwtype="aanw" word="dit"/>
+              <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="10" lemma="project" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="project" word="project"/>
+            </node>
+          </node>
+          <node begin="4" end="5" id="11" lemma="tevens" pos="adv" postag="BW()" pt="bw" rel="mod" root="tevens" word="tevens"/>
+          <node begin="5" buiging="zonder" end="6" graad="basis" id="12" lemma="nauw" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="nauw" word="nauw"/>
+          <node begin="7" buiging="zonder" end="8" id="13" lemma="samen_werken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="werk_samen" word="samengewerkt" wvorm="vd"/>
+          <node begin="8" cat="pp" end="13" id="14" rel="pc">
+            <node begin="8" end="9" id="15" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+            <node begin="9" cat="np" end="13" id="16" rel="obj1">
+              <node begin="9" end="10" id="17" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="10" buiging="met-e" end="11" id="18" lemma="exporteren" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="exporteer" word="exporterende" wvorm="od"/>
+              <node begin="11" buiging="met-e" end="12" graad="basis" id="19" lemma="Zambiaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Zambiaanse" word="Zambiaanse"/>
+              <node begin="12" end="13" genus="onz" getal="ev" graad="basis" id="20" lemma="bedrijfsleven" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="bedrijfsleven" word="bedrijfsleven"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="21" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>In dit project zal tevens nauw worden samengewerkt met het exporterende Zambiaanse bedrijfsleven .</sentence>
+</alpino_ds>

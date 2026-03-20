@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="29" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="14" end="15" id="2" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="18" end="19" id="3" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="22" end="23" id="4" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="24" end="25" id="5" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="0" cat="conj" end="28" id="6" rel="--">
+      <node begin="0" cat="smain" end="7" id="7" rel="cnj">
+        <node begin="0" end="1" genus="fem" getal="ev" id="8" index="1" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,ev,fem)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="Ze"/>
+        <node begin="1" end="2" id="9" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+        <node begin="2" cat="np" end="7" id="10" rel="predc">
+          <node begin="2" buiging="zonder" end="3" id="11" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="geen"/>
+          <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="12" lemma="eigenaar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="eigenaar" word="eigenaar"/>
+          <node begin="4" cat="pp" end="7" id="13" rel="mod">
+            <node begin="4" end="5" id="14" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="5" cat="np" end="7" id="15" rel="obj1">
+              <node begin="5" end="6" id="16" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="6" end="7" getal="mv" graad="basis" id="17" lemma="gebouw" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="gebouw" word="gebouwen"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="8" conjtype="neven" end="9" id="18" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+      <node begin="0" cat="sv1" end="28" id="19" rel="cnj">
+        <node begin="0" end="1" id="20" index="1" rel="su"/>
+        <node begin="9" end="10" id="21" lemma="krijgen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="krijg" word="krijgt" wvorm="pv"/>
+        <node begin="10" cat="pp" end="18" id="22" rel="mod">
+          <node begin="10" end="11" id="23" lemma="gedurende" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="gedurende" vztype="init" word="gedurende"/>
+          <node begin="11" cat="np" end="18" id="24" rel="obj1">
+            <node begin="11" end="12" id="25" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="12" buiging="met-e" end="13" graad="comp" id="26" lemma="lang" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,comp,met-e,stan)" pt="adj" rel="mod" root="lang" word="langere"/>
+            <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="27" lemma="tijd" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="tijd" word="tijd"/>
+            <node begin="15" cat="np" end="18" id="28" rel="mod">
+              <node begin="15" end="16" id="29" lemma="bijvoorbeeld" pos="adv" postag="SPEC(afk)" pt="spec" rel="mod" root="bijvoorbeeld" spectype="afk" word="bv."/>
+              <node begin="16" end="17" id="30" lemma="30" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="30" word="30"/>
+              <node begin="17" end="18" genus="onz" getal="ev" graad="basis" id="31" lemma="jaar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="jaar" word="jaar"/>
+            </node>
+          </node>
+        </node>
+        <node begin="19" cat="np" end="24" id="32" rel="obj1">
+          <node begin="19" end="20" id="33" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="20" buiging="met-e" end="21" graad="basis" id="34" lemma="zogenaamd" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="zogenaamd" word="zogenaamde"/>
+          <node begin="21" buiging="zonder" end="22" id="35" lemma="prestatie_binden" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="mod" root="prestatie_gebonden" word="prestatiegebonden" wvorm="vd"/>
+          <node begin="23" end="24" genus="zijd" getal="ev" graad="basis" id="36" lemma="beschikbaarheid_vergoeding" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="beschikbaarheid_vergoeding" word="beschikbaarheidsvergoeding"/>
+        </node>
+        <node begin="25" cat="pp" end="28" id="37" rel="mod">
+          <node begin="25" end="26" id="38" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="26" cat="np" end="28" id="39" rel="obj1">
+            <node begin="26" end="27" id="40" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="27" end="28" getal="mv" graad="basis" id="41" lemma="school_bestuur" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="school_bestuur" word="schoolbesturen"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="28" end="29" id="42" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Ze wordt geen eigenaar van de gebouwen , maar krijgt gedurende een langere tijd ( bv. 30 jaar ) een zogenaamde prestatiegebonden &apos; beschikbaarheidsvergoeding &apos; van de schoolbesturen .</sentence>
+</alpino_ds>

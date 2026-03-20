@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="40" id="0" rel="top">
+    <node begin="13" end="14" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="15" end="16" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="36" end="37" id="3" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="smain" end="38" id="4" rel="--">
+      <node begin="0" cat="np" end="2" id="5" index="1" rel="su">
+        <node begin="0" buiging="zonder" end="1" graad="basis" id="6" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,basis)" pt="vnw" rel="det" root="veel" vwtype="onbep" word="Veel"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="7" lemma="actie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="actie" word="acties"/>
+      </node>
+      <node begin="2" end="3" id="8" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" word="worden" wvorm="pv"/>
+      <node begin="0" cat="conj" end="38" id="9" rel="vc">
+        <node begin="0" cat="ppart" end="15" id="10" rel="cnj">
+          <node begin="0" end="2" id="11" index="1" rel="obj1"/>
+          <node begin="3" cat="pp" end="6" id="12" rel="mod">
+            <node begin="3" end="4" id="13" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="4" cat="np" end="6" id="14" rel="obj1">
+              <node begin="4" buiging="zonder" end="5" id="15" lemma="die" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,rest)" pt="vnw" rel="det" root="die" vwtype="aanw" word="die"/>
+              <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="16" lemma="tijd" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="tijd" word="tijd"/>
+            </node>
+          </node>
+          <node begin="6" buiging="zonder" end="7" id="17" index="2" lemma="uit_voeren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="voer_uit" word="uitgevoerd" wvorm="vd"/>
+          <node begin="7" cat="pp" end="15" id="18" rel="mod">
+            <node begin="7" end="8" id="19" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+            <node begin="8" cat="np" end="15" id="20" rel="obj1">
+              <node begin="8" end="9" id="21" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="9" cat="mwu" end="13" id="22" rel="hd">
+                <node begin="9" end="10" id="23" lemma="Stichting" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Stichting" spectype="deeleigen" word="Stichting"/>
+                <node begin="10" end="11" id="24" lemma="Voorlichting" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Voorlichting" spectype="deeleigen" word="Voorlichting"/>
+                <node begin="11" end="12" id="25" lemma="Energiebesparing" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Energiebesparing" spectype="deeleigen" word="Energiebesparing"/>
+                <node begin="12" end="13" id="26" lemma="Nederland" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Nederland" spectype="deeleigen" word="Nederland"/>
+              </node>
+              <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="27" lemma="Sven" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" root="Sven" word="Sven"/>
+            </node>
+          </node>
+        </node>
+        <node begin="16" conjtype="neven" end="17" id="28" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="0" cat="ppart" end="38" id="29" rel="cnj">
+          <node begin="0" end="2" id="30" index="1" rel="obj1"/>
+          <node begin="6" end="7" id="31" index="2" rel="hd"/>
+          <node begin="17" cat="pp" end="21" id="32" rel="mod">
+            <node begin="17" end="18" id="33" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="18" cat="np" end="21" id="34" rel="obj1">
+              <node begin="18" end="19" id="35" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="19" end="20" getal="mv" graad="basis" id="36" lemma="jaar" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="jaar" word="jaren"/>
+              <node begin="20" end="21" id="37" lemma="negentig" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="app" root="negentig" word="negentig"/>
+            </node>
+          </node>
+          <node begin="21" cat="pp" end="38" id="38" rel="mod">
+            <node begin="21" end="22" id="39" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+            <node begin="22" cat="np" end="38" id="40" rel="obj1">
+              <node begin="22" end="23" id="41" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="23" end="24" getal="mv" graad="basis" id="42" lemma="energie_distributie_bedrijf" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="energie_distributie_bedrijf" word="energiedistributiebedrijven"/>
+              <node begin="24" cat="conj" end="38" id="43" rel="mod">
+                <node begin="24" cat="pp" end="30" id="44" rel="cnj">
+                  <node begin="24" cat="mwu" end="28" id="45" rel="hd">
+                    <node begin="24" end="25" id="46" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="in" vztype="init" word="in"/>
+                    <node begin="25" end="26" id="47" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="prep" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" word="het"/>
+                    <node begin="26" end="27" genus="onz" getal="ev" graad="basis" id="48" lemma="kader" naamval="stan" ntype="soort" pos="prep" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="kader" word="kader"/>
+                    <node begin="27" end="28" id="49" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="van" vztype="init" word="van"/>
+                  </node>
+                  <node begin="28" cat="np" end="30" id="50" rel="obj1">
+                    <node begin="28" end="29" id="51" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                    <node begin="29" end="30" genus="onz" getal="ev" graad="basis" id="52" lemma="MAP" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="MAP" word="MAP"/>
+                  </node>
+                </node>
+                <node begin="30" conjtype="neven" end="31" id="53" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                <node begin="31" cat="pp" end="38" id="54" rel="cnj">
+                  <node begin="31" end="32" id="55" lemma="via" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="via" vztype="init" word="via"/>
+                  <node begin="32" cat="np" end="38" id="56" rel="obj1">
+                    <node begin="32" end="33" id="57" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                    <node begin="33" cat="mwu" end="36" id="58" rel="hd">
+                      <node begin="33" buiging="zonder" end="34" graad="basis" id="59" lemma="centraal" pos="name" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mwp" root="Centraal" word="Centraal"/>
+                      <node begin="34" end="35" genus="zijd" getal="ev" graad="basis" id="60" lemma="informatie" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Informatie" word="Informatie"/>
+                      <node begin="35" end="36" genus="onz" getal="ev" graad="basis" id="61" lemma="punt" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="Punt" word="Punt"/>
+                    </node>
+                    <node begin="37" end="38" genus="onz" getal="ev" graad="basis" id="62" lemma="CIP" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="mod" root="CIP" word="CIP"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="38" end="39" id="63" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="39" end="40" id="64" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Veel acties worden in die tijd uitgevoerd door de Stichting Voorlichting Energiebesparing Nederland ( Sven ) en in de jaren negentig door de energiedistributiebedrijven in het kader van het MAP en via het Centraal Informatie Punt ( CIP ) .</sentence>
+</alpino_ds>

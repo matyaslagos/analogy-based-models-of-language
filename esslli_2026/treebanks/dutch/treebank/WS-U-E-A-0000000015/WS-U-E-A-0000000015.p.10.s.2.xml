@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="0" cat="smain" end="18" id="1" rel="--">
+      <node begin="0" cat="conj" end="3" id="2" rel="su">
+        <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="3" lemma="politie" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Politie" word="Politie"/>
+        <node begin="1" conjtype="neven" end="2" id="4" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="5" lemma="justitie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="justitie" word="justitie"/>
+      </node>
+      <node begin="3" end="4" id="6" lemma="over_gaan" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="ga_over" word="gingen" wvorm="pv"/>
+      <node begin="4" end="5" id="7" lemma="pas" pos="adv" postag="BW()" pt="bw" rel="mod" root="pas" word="pas"/>
+      <node begin="5" cat="pp" end="7" id="8" rel="pc">
+        <node begin="5" end="6" id="9" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" vztype="init" word="tot"/>
+        <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="10" lemma="onderzoek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="onderzoek" word="onderzoek"/>
+      </node>
+      <node begin="7" end="8" id="11" lemma="over" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="over" vztype="fin" word="over"/>
+      <node begin="8" cat="cp" end="18" id="12" rel="mod">
+        <node begin="8" conjtype="onder" end="9" id="13" lemma="nadat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="nadat" word="nadat"/>
+        <node begin="9" cat="ssub" end="18" id="14" rel="body">
+          <node begin="9" cat="np" end="14" id="15" index="1" rel="su">
+            <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="16" lemma="misdaad_verslaggever" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="misdaad_verslaggever" word="misdaadverslaggever"/>
+            <node begin="10" cat="mwu" end="14" id="17" rel="app">
+              <node begin="10" end="11" id="18" lemma="Peter" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Peter" spectype="deeleigen" word="Peter"/>
+              <node begin="11" end="12" id="19" lemma="R." pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="R." spectype="deeleigen" word="R."/>
+              <node begin="12" end="13" id="20" lemma="de" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="de" spectype="deeleigen" word="de"/>
+              <node begin="13" end="14" id="21" lemma="Vries" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Vries" spectype="deeleigen" word="Vries"/>
+            </node>
+          </node>
+          <node begin="16" end="17" id="22" lemma="gaan" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ga" word="ging" wvorm="pv"/>
+          <node begin="9" cat="inf" end="18" id="23" rel="vc">
+            <node begin="9" end="14" id="24" index="1" rel="su"/>
+            <node begin="14" end="15" getal="getal" id="25" lemma="zich" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="se" root="zich" status="red" vwtype="refl" word="zich"/>
+            <node begin="15" end="16" id="26" lemma="ermee" pos="pp" postag="BW()" pt="bw" rel="pc" root="ermee" word="ermee"/>
+            <node begin="17" buiging="zonder" end="18" id="27" lemma="bemoeien" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="bemoei" word="bemoeien" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="28" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Politie en justitie gingen pas tot onderzoek over nadat misdaadverslaggever Peter R. de Vries zich ermee ging bemoeien .</sentence>
+</alpino_ds>

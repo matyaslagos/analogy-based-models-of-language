@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="14" id="2" rel="--">
+      <node begin="0" cat="smain" end="5" id="3" rel="cnj">
+        <node begin="0" cat="advp" end="2" id="4" rel="mod">
+          <node begin="0" end="1" id="5" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="Ook"/>
+          <node begin="1" end="2" getal="getal" id="6" lemma="hier" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="hd" root="hier" status="vol" vwtype="aanw" word="hier"/>
+        </node>
+        <node begin="2" end="3" id="7" lemma="voor_komen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="kom_voor" word="kwamen" wvorm="pv"/>
+        <node begin="3" end="4" getal="mv" graad="basis" id="8" lemma="collaborateur" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="collaborateur" word="collaborateurs"/>
+        <node begin="4" end="5" id="9" lemma="voor" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="voor" vztype="fin" word="voor"/>
+      </node>
+      <node begin="5" conjtype="neven" end="6" id="10" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="6" cat="conj" end="14" id="11" rel="cnj">
+        <node begin="6" end="7" getal="mv" graad="basis" id="12" lemma="marionet_regering" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="marionet_regering" word="marionettenregeringen"/>
+        <node begin="8" conjtype="neven" end="9" id="13" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+        <node begin="9" cat="smain" end="14" id="14" rel="cnj">
+          <node begin="9" end="10" getal="getal" id="15" lemma="die" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(aanw,pron,stan,vol,3,getal)" pt="vnw" rel="su" root="die" status="vol" vwtype="aanw" word="die"/>
+          <node begin="10" end="11" id="16" lemma="krijgen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="krijg" word="kregen" wvorm="pv"/>
+          <node begin="11" cat="np" end="14" id="17" rel="obj1">
+            <node begin="11" buiging="zonder" end="12" id="18" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="geen"/>
+            <node begin="12" buiging="met-e" end="13" graad="basis" id="19" lemma="echt" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="echt" word="echte"/>
+            <node begin="13" end="14" getal="mv" graad="basis" id="20" lemma="bevoegdheid" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="bevoegdheid" word="bevoegdheden"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="21" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Ook hier kwamen collaborateurs voor en marionettenregeringen , maar die kregen geen echte bevoegdheden .</sentence>
+</alpino_ds>

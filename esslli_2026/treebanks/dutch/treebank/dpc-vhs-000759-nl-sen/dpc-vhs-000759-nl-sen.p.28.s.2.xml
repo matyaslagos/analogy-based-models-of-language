@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="0" end="1" getal="mv" graad="basis" id="2" index="1" lemma="regering_leider" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="regering_leider" word="Regeringsleiders"/>
+      <node begin="1" end="2" id="3" lemma="zullen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="zal" word="zullen" wvorm="pv"/>
+      <node begin="0" cat="inf" end="6" id="4" rel="vc">
+        <node begin="0" end="1" id="5" index="1" rel="su"/>
+        <node begin="4" buiging="zonder" end="5" id="6" lemma="moeten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="moet" word="moeten" wvorm="inf"/>
+        <node begin="0" cat="inf" end="6" id="7" rel="vc">
+          <node begin="0" end="1" id="8" index="1" rel="su"/>
+          <node begin="2" cat="np" end="4" id="9" rel="obj1">
+            <node begin="2" buiging="met-e" end="3" graad="basis" id="10" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" word="nieuwe"/>
+            <node begin="3" end="4" getal="mv" graad="basis" id="11" lemma="evenwicht" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="even_wicht" word="evenwichten"/>
+          </node>
+          <node begin="5" buiging="zonder" end="6" id="12" lemma="vinden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="vind" word="vinden" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="6" end="7" id="13" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Regeringsleiders zullen nieuwe evenwichten moeten vinden .</sentence>
+</alpino_ds>

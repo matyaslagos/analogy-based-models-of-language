@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="0" end="1" id="2" lemma="daarnaast" pos="pp" postag="BW()" pt="bw" rel="mod" root="daarnaast" word="Daarnaast"/>
+      <node begin="1" end="2" id="3" lemma="hechten" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="hecht" word="hechtte" wvorm="pv"/>
+      <node begin="2" end="3" genus="masc" getal="ev" id="4" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="hij"/>
+      <node begin="3" cat="np" end="6" id="5" rel="obj1">
+        <node begin="3" end="4" id="6" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="4" buiging="zonder" end="5" graad="basis" id="7" lemma="groot" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="groot" word="groot"/>
+        <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="8" lemma="belang" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="belang" word="belang"/>
+      </node>
+      <node begin="6" cat="pp" end="11" id="9" rel="pc">
+        <node begin="6" end="7" id="10" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+        <node begin="7" cat="conj" end="11" id="11" rel="obj1">
+          <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="12" lemma="reclame" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="reclame" word="reclame"/>
+          <node begin="8" conjtype="neven" end="9" id="13" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="9" cat="np" end="11" id="14" rel="cnj">
+            <node begin="9" buiging="met-e" end="10" graad="basis" id="15" lemma="technisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="technisch" word="technische"/>
+            <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="16" lemma="documentatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="documentatie" word="documentatie"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" id="17" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Daarnaast hechtte hij een groot belang aan reclame en technische documentatie .</sentence>
+</alpino_ds>

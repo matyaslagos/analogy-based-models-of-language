@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="23" id="0" rel="top">
+    <node begin="0" cat="smain" end="22" id="1" rel="--">
+      <node begin="0" cat="np" end="6" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="4" lemma="verwoesting" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="verwoesting" word="verwoestingen"/>
+        <node begin="2" cat="pp" end="6" id="5" rel="mod">
+          <node begin="2" end="3" id="6" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="3" cat="np" end="6" id="7" rel="obj1">
+            <node begin="3" end="4" id="8" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="4" cat="mwu" end="6" id="9" rel="hd">
+              <node begin="4" end="5" id="10" lemma="Dertigjarige" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Dertigjarige" spectype="deeleigen" word="Dertigjarige"/>
+              <node begin="5" end="6" id="11" lemma="Oorlog" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Oorlog" spectype="deeleigen" word="Oorlog"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="6" end="7" id="12" lemma="leiden" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="leid" word="leidden" wvorm="pv"/>
+      <node begin="7" cat="pp" end="12" id="13" rel="mod">
+        <node begin="7" end="8" id="14" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="8" cat="np" end="12" id="15" rel="obj1">
+          <node begin="8" end="9" id="16" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="9" end="10" getal="mv" graad="basis" id="17" lemma="jaar" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="jaar" word="jaren"/>
+          <node begin="10" cat="rel" end="12" id="18" rel="mod">
+            <node begin="10" end="11" getal="getal" id="19" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+            <node begin="10" cat="ssub" end="12" id="20" rel="body">
+              <node begin="10" end="11" id="21" index="1" rel="su"/>
+              <node begin="11" end="12" id="22" lemma="volgen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="volg" word="volgden" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="12" cat="pp" end="22" id="23" rel="pc">
+        <node begin="12" end="13" id="24" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" vztype="init" word="tot"/>
+        <node begin="13" cat="np" end="22" id="25" rel="obj1">
+          <node begin="13" end="14" id="26" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="14" cat="ppart" end="18" id="27" rel="mod">
+            <node begin="14" cat="pp" end="17" id="28" rel="mod">
+              <node begin="14" end="15" id="29" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+              <node begin="15" cat="np" end="17" id="30" rel="obj1">
+                <node begin="15" end="16" id="31" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="16" end="17" getal="mv" graad="basis" id="32" lemma="heerser" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="heerser" word="heersers"/>
+              </node>
+            </node>
+            <node begin="17" buiging="met-e" end="18" id="33" lemma="leiden" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="hd" root="geleid" word="geleide" wvorm="vd"/>
+          </node>
+          <node begin="18" cat="conj" end="21" id="34" rel="mod">
+            <node begin="18" buiging="met-e" end="19" graad="basis" id="35" lemma="economisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="economisch" word="economische"/>
+            <node begin="19" conjtype="neven" end="20" id="36" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="20" buiging="met-e" end="21" graad="basis" id="37" lemma="sociaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="sociaal" word="sociale"/>
+          </node>
+          <node begin="21" end="22" genus="zijd" getal="ev" graad="basis" id="38" lemma="politiek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="politiek" word="politiek"/>
+        </node>
+      </node>
+    </node>
+    <node begin="22" end="23" id="39" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De verwoestingen van de Dertigjarige Oorlog leidden in de jaren die volgden tot een door de heersers geleide economische en sociale politiek .</sentence>
+</alpino_ds>

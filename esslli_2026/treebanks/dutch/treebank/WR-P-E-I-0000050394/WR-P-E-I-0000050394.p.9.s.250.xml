@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="1" end="2" id="2" lemma="zijn" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="ben" word="waren" wvorm="pv"/>
+      <node begin="4" cat="np" end="9" id="3" index="1" rel="su">
+        <node begin="4" buiging="met-e" end="5" id="4" lemma="al" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,agr)" pt="vnw" rel="det" root="alle" vwtype="onbep" word="alle"/>
+        <node begin="5" buiging="met-e" end="6" graad="basis" id="5" lemma="ander" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ander" word="andere"/>
+        <node begin="6" end="7" getal="mv" graad="basis" id="6" lemma="vloot" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vloot" word="vloten"/>
+        <node begin="7" cat="pp" end="9" id="7" rel="mod">
+          <node begin="7" end="8" id="8" lemma="te" pos="prep" postag="VZ(versm)" pt="vz" rel="hd" root="te" vztype="versm" word="ter"/>
+          <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="9" lemma="wereld" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="wereld" word="wereld"/>
+        </node>
+      </node>
+      <node begin="0" cat="ppart" end="11" id="10" rel="vc">
+        <node begin="0" end="1" id="11" lemma="hiermee" pos="pp" postag="BW()" pt="bw" rel="mod" root="hiermee" word="Hiermee"/>
+        <node begin="2" end="3" id="12" lemma="echter" pos="adj" postag="BW()" pt="bw" rel="mod" root="echt" word="echter"/>
+        <node begin="3" end="4" id="13" lemma="wel" pos="adv" postag="BW()" pt="bw" rel="mod" root="wel" word="wel"/>
+        <node begin="4" end="9" id="14" index="1" rel="su"/>
+        <node begin="9" buiging="zonder" end="10" graad="basis" id="15" lemma="aftands" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="aftands" word="aftands"/>
+        <node begin="10" buiging="zonder" end="11" id="16" lemma="worden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="word" word="geworden" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="11" end="12" id="17" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Hiermee waren echter wel alle andere vloten ter wereld aftands geworden .</sentence>
+</alpino_ds>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="su">
+        <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="3" lemma="Ahold_commissaris" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="Ahold_commissaris" word="Ahold-commissaris"/>
+        <node begin="1" cat="mwu" end="3" id="4" rel="app">
+          <node begin="1" end="2" id="5" lemma="Roland" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Roland" spectype="deeleigen" word="Roland"/>
+          <node begin="2" end="3" id="6" lemma="Fahlin" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Fahlin" spectype="deeleigen" word="Fahlin"/>
+        </node>
+      </node>
+      <node begin="3" end="4" id="7" lemma="weg_gaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ga_weg" word="gaat" wvorm="pv"/>
+      <node begin="4" end="5" id="8" lemma="weg" pos="part" postag="BW()" pt="bw" rel="svp" root="weg" word="weg"/>
+      <node begin="5" cat="pp" end="8" id="9" rel="mod">
+        <node begin="5" end="6" id="10" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+        <node begin="6" cat="np" end="8" id="11" rel="obj1">
+          <node begin="6" end="7" id="12" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="13" lemma="supermarkt_concern" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="supermarkt_concern" word="supermarktconcern"/>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" id="14" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Ahold-commissaris Roland Fahlin gaat weg bij het supermarktconcern .</sentence>
+</alpino_ds>

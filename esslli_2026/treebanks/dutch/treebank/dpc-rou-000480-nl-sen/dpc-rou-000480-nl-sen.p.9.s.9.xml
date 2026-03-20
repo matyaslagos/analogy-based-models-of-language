@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="38" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="16" end="17" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="37" id="3" rel="--">
+      <node begin="0" cat="smain" end="8" id="4" rel="cnj">
+        <node begin="0" cat="np" end="2" id="5" index="1" rel="su">
+          <node begin="0" end="1" id="6" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="Een"/>
+          <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="7" lemma="custom_motor" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="custommotor" word="custommotor"/>
+        </node>
+        <node begin="2" end="3" id="8" lemma="mogen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="mag" word="mag" wvorm="pv"/>
+        <node begin="0" cat="inf" end="8" id="9" rel="vc">
+          <node begin="0" end="2" id="10" index="1" rel="su"/>
+          <node begin="3" end="4" getal="getal" id="11" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="svp" root="er" status="red" vwtype="aanw" word="er"/>
+          <node begin="4" end="5" id="12" lemma="dan" pos="adv" postag="BW()" pt="bw" rel="mod" root="dan" word="dan"/>
+          <node begin="5" end="6" id="13" lemma="wel" pos="adj" postag="BW()" pt="bw" rel="mod" root="wel" word="wel"/>
+          <node begin="6" buiging="zonder" end="7" graad="basis" id="14" lemma="leuk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="leuk" word="leuk"/>
+          <node begin="7" buiging="zonder" end="8" id="15" lemma="uit_zien" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="zie_uit" word="uitzien" wvorm="inf"/>
+        </node>
+      </node>
+      <node begin="9" cat="smain" end="16" id="16" rel="cnj">
+        <node begin="9" end="10" getal="ev" id="17" index="2" lemma="je" naamval="nomin" pdtype="pron" persoon="2v" pos="pron" postag="VNW(pers,pron,nomin,red,2v,ev)" pt="vnw" rel="su" root="je" status="red" vwtype="pers" word="je"/>
+        <node begin="10" end="11" id="18" lemma="kunnen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="kan" word="kunt" wvorm="pv"/>
+        <node begin="9" cat="inf" end="16" id="19" rel="vc">
+          <node begin="9" end="10" id="20" index="2" rel="su"/>
+          <node begin="11" end="12" getal="getal" id="21" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+          <node begin="12" cat="np" end="14" id="22" rel="mod">
+            <node begin="12" buiging="zonder" end="13" id="23" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="geen"/>
+            <node begin="13" end="14" getal="mv" graad="basis" id="24" lemma="uur" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="uur" word="uren"/>
+          </node>
+          <node begin="14" end="15" id="25" lemma="mee" pos="adv" postag="VZ(fin)" pt="vz" rel="mod" root="mee" vztype="fin" word="mee"/>
+          <node begin="15" buiging="zonder" end="16" id="26" lemma="rijden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="rijd" word="rijden" wvorm="inf"/>
+        </node>
+      </node>
+      <node begin="17" cat="smain" end="25" id="27" rel="cnj">
+        <node begin="17" end="18" getal="ev" id="28" lemma="je" naamval="nomin" pdtype="pron" persoon="2v" pos="pron" postag="VNW(pers,pron,nomin,red,2v,ev)" pt="vnw" rel="su" root="je" status="red" vwtype="pers" word="je"/>
+        <node begin="18" end="19" id="29" lemma="mee_kunnen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="kan_mee" word="kunt" wvorm="pv"/>
+        <node begin="19" end="20" getal="getal" id="30" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+        <node begin="20" end="21" id="31" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+        <node begin="21" buiging="zonder" end="22" graad="basis" id="32" lemma="echt" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="echt" word="echt"/>
+        <node begin="22" end="23" id="33" lemma="mee" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="mee" vztype="fin" word="mee"/>
+        <node begin="23" cat="pp" end="25" id="34" rel="mod">
+          <node begin="23" end="24" id="35" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+          <node begin="24" end="25" genus="zijd" getal="ev" graad="basis" id="36" lemma="vakantie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="vakantie" word="vakantie"/>
+        </node>
+      </node>
+      <node begin="25" conjtype="neven" end="26" id="37" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="26" cat="smain" end="37" id="38" rel="cnj">
+        <node begin="26" cat="pp" end="30" id="39" rel="mod">
+          <node begin="26" end="27" id="40" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="27" cat="np" end="30" id="41" rel="obj1">
+            <node begin="27" buiging="zonder" end="28" graad="basis" id="42" lemma="snel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="snel" word="snel"/>
+            <node begin="28" end="29" getal="mv" graad="basis" id="43" lemma="bocht" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="bocht" word="bochten"/>
+            <node begin="29" buiging="zonder" end="30" getal-n="zonder-n" id="44" lemma="pikken" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="pik" word="pikken" wvorm="inf"/>
+          </node>
+        </node>
+        <node begin="30" end="31" id="45" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="31" end="32" genus="onz" getal="ev" id="46" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" root="het" status="red" vwtype="pers" word="het"/>
+        <node begin="32" cat="advp" end="34" id="47" rel="mod">
+          <node begin="32" end="33" id="48" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+          <node begin="33" end="34" id="49" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="hd" root="niet" word="niet"/>
+        </node>
+        <node begin="34" cat="np" end="37" id="50" rel="predc">
+          <node begin="34" end="35" id="51" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="35" buiging="met-e" end="36" graad="basis" id="52" lemma="ideaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ideaal" word="ideale"/>
+          <node begin="36" end="37" genus="zijd" getal="ev" graad="basis" id="53" lemma="motor" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="motor" word="motor"/>
+        </node>
+      </node>
+    </node>
+    <node begin="37" end="38" id="54" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Een custommotor mag er dan wel leuk uitzien , je kunt er geen uren mee rijden , je kunt er niet echt mee op vakantie en voor snel bochten pikken is het ook niet de ideale motor .</sentence>
+</alpino_ds>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="1" cat="smain" end="8" id="2" rel="--">
+      <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="3" lemma="Juventus" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" root="Juventus" word="Juventus"/>
+      <node begin="2" end="3" id="4" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+      <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="5" lemma="kampioen" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="predc" root="kampioen" word="kampioen"/>
+      <node begin="4" cat="cp" end="8" id="6" rel="mod">
+        <node begin="4" end="5" id="7" lemma="door" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="door" vztype="init" word="door"/>
+        <node begin="5" cat="ti" end="8" id="8" rel="body">
+          <node begin="6" end="7" id="9" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+          <node begin="5" cat="inf" end="8" id="10" rel="body">
+            <node begin="5" buiging="zonder" end="6" graad="basis" id="11" lemma="vals" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="vals" word="vals"/>
+            <node begin="7" buiging="zonder" end="8" id="12" lemma="spelen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="speel" word="spelen" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" id="13" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>- Juventus werd kampioen door vals te spelen .</sentence>
+</alpino_ds>

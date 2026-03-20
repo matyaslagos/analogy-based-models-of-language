@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="15" end="16" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="19" id="2" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="3" lemma="en" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="en" word="En"/>
+      <node begin="1" cat="smain" end="19" id="4" rel="nucl">
+        <node begin="2" end="3" id="5" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" word="hebben" wvorm="pv"/>
+        <node begin="3" end="4" id="6" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+        <node begin="4" cat="np" end="15" id="7" rel="su">
+          <node begin="4" end="5" id="8" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="5" cat="mwu" end="7" id="9" rel="hd">
+            <node begin="5" buiging="met-e" end="6" id="10" lemma="samen_werken" pos="name" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mwp" root="Samenwerkende" word="Samenwerkende" wvorm="od"/>
+            <node begin="6" end="7" getal="mv" graad="basis" id="11" lemma="hulp_organisatie" ntype="soort" pos="name" postag="N(soort,mv,basis)" pt="n" rel="mwp" root="Hulporganisaties" word="Hulporganisaties"/>
+          </node>
+          <node begin="7" cat="rel" end="15" id="12" rel="mod">
+            <node begin="7" end="8" getal="getal" id="13" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+            <node begin="7" cat="ssub" end="15" id="14" rel="body">
+              <node begin="7" end="8" id="15" index="1" rel="su"/>
+              <node begin="8" cat="np" end="10" id="16" rel="mod">
+                <node begin="8" buiging="met-e" end="9" id="17" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="deze"/>
+                <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="18" lemma="week" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="week" word="week"/>
+              </node>
+              <node begin="10" cat="np" end="14" id="19" rel="obj1">
+                <node begin="10" end="11" id="20" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="21" lemma="actie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="actie" word="actie"/>
+                <node begin="12" cat="pp" end="14" id="22" rel="mod">
+                  <node begin="12" end="13" id="23" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+                  <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="24" lemma="Iran" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Iran" word="Iran"/>
+                </node>
+              </node>
+              <node begin="14" end="15" id="25" lemma="beginnen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="begin" word="begonnen" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+        <node begin="1" cat="pp" end="17" id="26" rel="pc">
+          <node begin="1" end="2" getal="getal" id="27" lemma="daar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="noun" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="obj1" root="daar" status="vol" vwtype="aanw" word="daar"/>
+          <node begin="16" end="17" id="28" lemma="met" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="met" vztype="fin" word="mee"/>
+        </node>
+        <node begin="17" cat="ti" end="19" id="29" rel="svp">
+          <node begin="17" end="18" id="30" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+          <node begin="18" buiging="zonder" end="19" id="31" lemma="maken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="body" root="maak" word="maken" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="32" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>En daar hebben ook de Samenwerkende Hulporganisaties die deze week een actie voor Iran begonnen , mee te maken .</sentence>
+</alpino_ds>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="6" end="7" id="2" lemma="....." pos="punct" postag="LET()" pt="let" rel="--" root="....." word="....."/>
+    <node begin="0" cat="conj" end="8" id="3" rel="--">
+      <node begin="0" cat="ap" end="4" id="4" rel="cnj">
+        <node begin="0" cat="mwu" end="2" id="5" rel="mod">
+          <node begin="0" conjtype="neven" end="1" id="6" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="mwp" root="maar" word="Maar"/>
+          <node begin="1" end="2" id="7" lemma="dan" pos="adv" postag="BW()" pt="bw" rel="mwp" root="dan" word="dan"/>
+        </node>
+        <node begin="2" end="3" getal="mv" graad="basis" id="8" lemma="stuk" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="me" root="stuk" word="stukken"/>
+        <node begin="3" buiging="zonder" end="4" graad="comp" id="9" lemma="duur" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="duur" word="duurder"/>
+      </node>
+      <node begin="5" conjtype="neven" end="6" id="10" lemma="want" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="want" word="want"/>
+      <node begin="7" buiging="zonder" end="8" graad="basis" id="11" lemma="nieuw" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="cnj" root="nieuw" word="NIEUW"/>
+    </node>
+    <node begin="8" end="9" id="12" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Maar dan stukken duurder , want ..... NIEUW .</sentence>
+</alpino_ds>

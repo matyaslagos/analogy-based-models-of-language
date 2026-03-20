@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="40" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="`" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="`"/>
+    <node begin="13" end="14" id="2" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="14" end="15" id="3" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="18" end="19" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="20" end="21" id="5" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="26" end="27" id="6" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="32" end="33" id="7" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="39" id="8" rel="--">
+      <node begin="27" end="28" id="9" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" word="kan" wvorm="pv"/>
+      <node begin="28" cat="np" end="30" id="10" index="1" rel="su">
+        <node begin="28" end="29" id="11" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="29" end="30" genus="zijd" getal="ev" graad="basis" id="12" lemma="school" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="school" word="school"/>
+      </node>
+      <node begin="0" cat="inf" end="39" id="13" rel="vc">
+        <node begin="0" cat="cp" end="26" id="14" rel="mod">
+          <node begin="0" conjtype="onder" end="1" id="15" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="Als"/>
+          <node begin="1" cat="ssub" end="26" id="16" rel="body">
+            <node begin="1" end="2" getal="getal" id="17" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+            <node begin="2" end="3" getal="ev" graad="basis" id="18" lemma="spraak" naamval="dat" ntype="soort" pos="noun" postag="N(soort,ev,basis,dat)" pt="n" rel="su" root="sprake" word="sprake"/>
+            <node begin="3" end="4" id="19" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+            <node begin="4" cat="pp" end="26" id="20" rel="pc">
+              <node begin="4" end="5" id="21" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="5" cat="np" end="26" id="22" rel="obj1">
+                <node begin="5" end="6" id="23" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                <node begin="7" buiging="met-e" end="8" graad="basis" id="24" lemma="bijzonder" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="bijzonder" word="bijzondere"/>
+                <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="25" lemma="gelegenheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="gelegenheid" word="gelegenheid"/>
+                <node begin="9" cat="pp" end="13" id="26" rel="mod">
+                  <node begin="9" end="10" id="27" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                  <node begin="10" cat="np" end="13" id="28" rel="obj1">
+                    <node begin="10" cat="ap" end="12" id="29" rel="mod">
+                      <node begin="10" end="11" id="30" lemma="zeer" pos="adv" postag="BW()" pt="bw" rel="mod" root="zeer" word="zeer"/>
+                      <node begin="11" buiging="met-e" end="12" graad="basis" id="31" lemma="tijdelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="hd" root="tijdelijk" word="tijdelijke"/>
+                    </node>
+                    <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="32" lemma="aard" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="aard" word="aard"/>
+                  </node>
+                </node>
+                <node begin="15" cat="conj" end="26" id="33" rel="mod">
+                  <node begin="15" cat="np" end="18" id="34" rel="cnj">
+                    <node begin="15" end="16" id="35" index="2" lemma="bijvoorbeeld" pos="adv" postag="BW()" pt="bw" rel="mod" root="bijvoorbeeld" word="bijvoorbeeld"/>
+                    <node begin="16" end="17" id="36" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="37" lemma="kermis" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="kermis" word="kermis"/>
+                  </node>
+                  <node begin="15" cat="np" end="20" id="38" rel="cnj">
+                    <node begin="15" end="16" id="39" index="2" rel="mod"/>
+                    <node begin="19" end="20" genus="zijd" getal="ev" graad="basis" id="40" lemma="Koninginnedag" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Koninginnedag" word="Koninginnedag"/>
+                  </node>
+                  <node begin="15" cat="np" end="23" id="41" rel="cnj">
+                    <node begin="15" end="16" id="42" index="2" rel="mod"/>
+                    <node begin="21" end="22" id="43" index="3" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                    <node begin="22" end="23" genus="zijd" getal="ev" graad="basis" id="44" lemma="braderie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="braderie" word="braderie"/>
+                  </node>
+                  <node begin="23" conjtype="neven" end="24" id="45" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+                  <node begin="15" cat="np" end="26" id="46" rel="cnj">
+                    <node begin="15" end="16" id="47" index="2" rel="mod"/>
+                    <node begin="21" end="22" id="48" index="3" rel="det"/>
+                    <node begin="24" end="25" id="49" lemma="fancy" pos="adj" postag="SPEC(vreemd)" pt="spec" rel="mod" root="fancy" spectype="vreemd" word="fancy"/>
+                    <node begin="25" end="26" id="50" lemma="fair" pos="noun" postag="SPEC(vreemd)" pt="spec" rel="hd" root="fair" spectype="vreemd" word="fair"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="28" end="30" id="51" index="1" rel="su"/>
+        <node begin="30" cat="np" end="35" id="52" rel="obj1">
+          <node begin="30" end="31" id="53" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="31" buiging="met-e" end="32" graad="basis" id="54" lemma="eenmalig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="eenmalig" word="eenmalige"/>
+          <node begin="33" buiging="met-e" end="34" graad="basis" id="55" lemma="tijdelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="tijdelijk" word="tijdelijke"/>
+          <node begin="34" end="35" genus="zijd" getal="ev" graad="basis" id="56" lemma="horeca_vergunning" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="horeca_vergunning" word="horecavergunning"/>
+        </node>
+        <node begin="35" buiging="zonder" end="36" id="57" lemma="aan_vragen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="vraag_aan" word="aanvragen" wvorm="inf"/>
+        <node begin="36" cat="pp" end="39" id="58" rel="mod">
+          <node begin="36" end="37" id="59" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+          <node begin="37" cat="np" end="39" id="60" rel="obj1">
+            <node begin="37" end="38" id="61" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="38" end="39" genus="zijd" getal="ev" graad="basis" id="62" lemma="burgemeester" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="burgemeester" word="burgemeester"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="39" end="40" id="63" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Als er sprake is van een ` bijzondere gelegenheid van zeer tijdelijke aard &apos; - bijvoorbeeld de kermis , Koninginnedag , een braderie of fancy fair - kan een school een eenmalige , tijdelijke horecavergunning aanvragen bij de burgemeester .</sentence>
+</alpino_ds>

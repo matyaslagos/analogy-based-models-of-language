@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="4" end="5" id="2" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="6" end="7" id="3" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="0" cat="du" end="15" id="4" rel="--">
+      <node begin="0" cat="np" end="6" id="5" rel="dp">
+        <node begin="0" buiging="zonder" end="1" id="6" lemma="volgen" pos="adj" positie="prenom" postag="WW(od,prenom,zonder)" pt="ww" rel="mod" root="volg" word="Volgend" wvorm="od"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="7" lemma="school_jaar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="schooljaar" word="schooljaar"/>
+        <node begin="3" cat="conj" end="6" id="8" rel="mod">
+          <node begin="3" end="4" id="9" lemma="2006" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="cnj" root="2006" word="2006"/>
+          <node begin="5" end="6" id="10" lemma="2007" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="cnj" root="2007" word="2007"/>
+        </node>
+      </node>
+      <node begin="7" cat="smain" end="15" id="11" rel="dp">
+        <node begin="7" end="8" id="12" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="9" cat="np" end="12" id="13" index="1" rel="su">
+          <node begin="9" end="10" id="14" lemma="1,2" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="1,2" word="1,2"/>
+          <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="15" lemma="miljoen" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="miljoen" word="miljoen"/>
+          <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="16" lemma="euro" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mod" root="euro" word="euro"/>
+        </node>
+        <node begin="8" cat="ppart" end="15" id="17" rel="vc">
+          <node begin="8" end="9" getal="getal" id="18" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+          <node begin="9" end="12" id="19" index="1" rel="obj1"/>
+          <node begin="12" buiging="zonder" end="13" id="20" lemma="uit_trekken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="trek_uit" word="uitgetrokken" wvorm="vd"/>
+          <node begin="13" cat="pp" end="15" id="21" rel="pc">
+            <node begin="13" end="14" id="22" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+            <node begin="14" end="15" getal="mv" graad="basis" id="23" lemma="piloot_project" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="piloot_project" word="pilootprojecten"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="24" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Volgend schooljaar ( 2006 - 2007 ) is er 1,2 miljoen euro uitgetrokken voor pilootprojecten .</sentence>
+</alpino_ds>

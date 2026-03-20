@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="34" id="0" rel="top">
+    <node begin="13" end="14" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="19" end="20" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="26" end="27" id="3" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="conj" end="33" id="4" rel="--">
+      <node begin="0" cat="smain" end="19" id="5" rel="cnj">
+        <node begin="0" cat="np" end="5" id="6" index="1" rel="su">
+          <node begin="0" end="1" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+          <node begin="1" end="2" getal="mv" graad="dim" id="8" lemma="rond" ntype="soort" pos="noun" postag="N(soort,mv,dim)" pt="n" rel="hd" root="ronde_DIM" word="rondjes"/>
+          <node begin="2" cat="pp" end="5" id="9" rel="mod">
+            <node begin="2" end="3" id="10" lemma="om" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="om" vztype="init" word="om"/>
+            <node begin="3" cat="np" end="5" id="11" rel="obj1">
+              <node begin="3" end="4" id="12" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="13" lemma="kerk" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="kerk" word="kerk"/>
+            </node>
+          </node>
+        </node>
+        <node begin="5" end="6" id="14" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" word="worden" wvorm="pv"/>
+        <node begin="0" cat="ppart" end="19" id="15" rel="vc">
+          <node begin="0" end="5" id="16" index="1" rel="obj1"/>
+          <node begin="6" buiging="zonder" end="7" id="17" lemma="rijden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="rij" word="gereden" wvorm="vd"/>
+          <node begin="7" cat="pp" end="19" id="18" rel="mod">
+            <node begin="7" end="8" id="19" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+            <node begin="8" cat="np" end="19" id="20" rel="obj1">
+              <node begin="8" buiging="met-e" end="9" graad="basis" id="21" lemma="groot" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="groot" word="grote"/>
+              <node begin="9" end="10" getal="mv" graad="basis" id="22" lemma="naam" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="naam" word="namen"/>
+              <node begin="10" cat="cp" end="19" id="23" rel="mod">
+                <node begin="10" conjtype="onder" end="11" id="24" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+                <node begin="11" cat="conj" end="19" id="25" rel="body">
+                  <node begin="11" cat="mwu" end="13" id="26" rel="cnj">
+                    <node begin="11" end="12" id="27" lemma="Thomas" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Thomas" spectype="deeleigen" word="Thomas"/>
+                    <node begin="12" end="13" id="28" lemma="Vöckler" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Vöckler" spectype="deeleigen" word="Vöckler"/>
+                  </node>
+                  <node begin="14" cat="mwu" end="16" id="29" rel="cnj">
+                    <node begin="14" end="15" id="30" lemma="Servais" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Servais" spectype="deeleigen" word="Servais"/>
+                    <node begin="15" end="16" id="31" lemma="Knaven" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Knaven" spectype="deeleigen" word="Knaven"/>
+                  </node>
+                  <node begin="16" conjtype="neven" end="17" id="32" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                  <node begin="17" cat="mwu" end="19" id="33" rel="cnj">
+                    <node begin="17" end="18" id="34" lemma="Erik" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Erik" spectype="deeleigen" word="Erik"/>
+                    <node begin="18" end="19" id="35" lemma="Zabel" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Zabel" spectype="deeleigen" word="Zabel"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="20" conjtype="neven" end="21" id="36" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+      <node begin="21" cat="smain" end="33" id="37" rel="cnj">
+        <node begin="21" end="22" getal="getal" id="38" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+        <node begin="22" end="23" id="39" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+        <node begin="23" cat="np" end="33" id="40" rel="su">
+          <node begin="23" end="24" id="41" lemma="twee" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="twee" word="twee"/>
+          <node begin="24" buiging="met-e" end="25" graad="basis" id="42" lemma="belangrijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="belangrijk" word="belangrijke"/>
+          <node begin="25" buiging="met-e" end="26" getal-n="mv-n" graad="basis" id="43" lemma="afwezig" pos="adj" positie="nom" postag="ADJ(nom,basis,met-e,mv-n)" pt="adj" rel="hd" root="afwezig" word="afwezigen"/>
+          <node begin="27" cat="np" end="33" id="44" rel="app">
+            <node begin="27" end="28" genus="zijd" getal="ev" graad="basis" id="45" lemma="Tour_winnaar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="Tour_winnaar" word="Tourwinnaar"/>
+            <node begin="28" cat="conj" end="33" id="46" rel="app">
+              <node begin="28" cat="mwu" end="30" id="47" rel="cnj">
+                <node begin="28" end="29" id="48" lemma="Lance" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Lance" spectype="deeleigen" word="Lance"/>
+                <node begin="29" end="30" id="49" lemma="Armstrong" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Armstrong" spectype="deeleigen" word="Armstrong"/>
+              </node>
+              <node begin="30" conjtype="neven" end="31" id="50" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="31" cat="mwu" end="33" id="51" rel="cnj">
+                <node begin="31" end="32" id="52" lemma="Michael" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Michael" spectype="deeleigen" word="Michael"/>
+                <node begin="32" end="33" id="53" lemma="Boogerd" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Boogerd" spectype="deeleigen" word="Boogerd"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="33" end="34" id="54" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De rondjes om de kerk worden gereden door grote namen als Thomas Vöckler , Servais Knaven en Erik Zabel , maar er zijn twee belangrijke afwezigen : Tourwinnaar Lance Armstrong en Michael Boogerd .</sentence>
+</alpino_ds>

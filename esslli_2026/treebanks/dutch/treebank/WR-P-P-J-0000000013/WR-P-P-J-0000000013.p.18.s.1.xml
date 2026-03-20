@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="13" end="14" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="21" id="3" rel="--">
+      <node begin="0" cat="pp" end="6" id="4" rel="mod">
+        <node begin="0" end="1" id="5" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="Bij"/>
+        <node begin="1" cat="conj" end="6" id="6" rel="obj1">
+          <node begin="1" cat="np" end="4" id="7" rel="cnj">
+            <node begin="1" buiging="zonder" end="2" id="8" index="1" lemma="dit" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dit" vwtype="aanw" word="dit"/>
+            <node begin="2" buiging="met-e" end="3" graad="basis" id="9" index="2" lemma="uniek" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="uniek" word="unieke"/>
+            <node begin="3" end="4" id="10" lemma="informatie-" pos="prefix" postag="SPEC(afgebr)" pt="spec" rel="hd" root="informatie" spectype="afgebr" word="informatie-"/>
+          </node>
+          <node begin="4" conjtype="neven" end="5" id="11" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="1" cat="np" end="6" id="12" rel="cnj">
+            <node begin="1" end="2" id="13" index="1" rel="det"/>
+            <node begin="2" end="3" id="14" index="2" rel="mod"/>
+            <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="15" lemma="interactie_loket" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="interactie_loket" word="interactieloket"/>
+          </node>
+        </node>
+      </node>
+      <node begin="6" end="7" id="16" lemma="kunnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kan" word="kunnen" wvorm="pv"/>
+      <node begin="7" cat="conj" end="12" id="17" rel="su">
+        <node begin="7" end="8" getal="mv" graad="basis" id="18" lemma="burger" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="burger" word="burgers"/>
+        <node begin="9" end="10" getal="mv" graad="basis" id="19" lemma="bedrijf" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="bedrijf" word="bedrijven"/>
+        <node begin="10" conjtype="neven" end="11" id="20" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="11" end="12" getal="mv" graad="basis" id="21" lemma="voorziening" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="voorziening" word="voorzieningen"/>
+      </node>
+      <node begin="12" cat="conj" end="21" id="22" rel="mod">
+        <node begin="12" buiging="zonder" end="13" graad="basis" id="23" lemma="snel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="cnj" root="snel" word="snel"/>
+        <node begin="14" buiging="zonder" end="15" graad="basis" id="24" lemma="vraag_sturen" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="cnj" root="vraag_gestuurd" word="vraagge-stuurd"/>
+        <node begin="15" conjtype="neven" end="16" id="25" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="16" cat="pp" end="21" id="26" rel="cnj">
+          <node begin="16" end="17" id="27" lemma="via" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="via" vztype="init" word="via"/>
+          <node begin="17" cat="np" end="21" id="28" rel="obj1">
+            <node begin="17" cat="detp" end="19" id="29" rel="det">
+              <node begin="17" end="18" id="30" lemma="zoveel" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="hd" root="zoveel" word="zoveel"/>
+              <node begin="18" buiging="zonder" end="19" graad="basis" id="31" lemma="mogelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="obcomp" root="mogelijk" word="mogelijk"/>
+            </node>
+            <node begin="19" buiging="met-e" end="20" graad="basis" id="32" lemma="nuttig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nuttig" word="nuttige"/>
+            <node begin="20" end="21" getal="mv" graad="basis" id="33" lemma="kanaal" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kanaal" word="kanalen"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="21" end="22" id="34" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+  </node>
+  <sentence>Bij dit unieke informatie- en interactieloket kunnen burgers , bedrijven en voorzieningen snel , vraagge-stuurd en via zoveel mogelijk nuttige kanalen :</sentence>
+</alpino_ds>

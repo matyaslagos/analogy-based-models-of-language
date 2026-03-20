@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="13" id="2" rel="--">
+      <node begin="0" end="1" getal="ev" id="3" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" root="dat" status="vol" vwtype="aanw" word="Dat"/>
+      <node begin="1" end="2" id="4" lemma="gebeuren" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="gebeur" word="gebeurt" wvorm="pv"/>
+      <node begin="2" cat="pp" end="13" id="5" rel="mod">
+        <node begin="2" end="3" id="6" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="3" cat="np" end="13" id="7" rel="obj1">
+          <node begin="3" end="4" id="8" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="9" lemma="lever" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="lever" word="lever"/>
+          <node begin="6" cat="np" end="13" id="10" rel="app">
+            <node begin="6" end="7" id="11" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="12" lemma="orgaan" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="orgaan" word="orgaan"/>
+            <node begin="8" cat="rel" end="13" id="13" rel="mod">
+              <node begin="8" end="9" getal="ev" id="14" index="1" lemma="dat" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(betr,pron,stan,vol,3,ev)" pt="vnw" rel="rhd" root="dat" status="vol" vwtype="betr" word="dat"/>
+              <node begin="8" cat="ssub" end="13" id="15" rel="body">
+                <node begin="8" end="9" id="16" index="1" rel="su"/>
+                <node begin="9" cat="np" end="12" id="17" rel="obj1">
+                  <node begin="9" buiging="met-e" end="10" id="18" lemma="al" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,agr)" pt="vnw" rel="det" root="alle" vwtype="onbep" word="alle"/>
+                  <node begin="10" buiging="met-e" end="11" graad="basis" id="19" lemma="schadelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="schadelijk" word="schadelijke"/>
+                  <node begin="11" end="12" getal="mv" graad="basis" id="20" lemma="stof" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="stof" word="stoffen"/>
+                </node>
+                <node begin="12" end="13" id="21" lemma="af_breken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="breek_af" word="afbreekt" wvorm="pv"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dat gebeurt in de lever , het orgaan dat alle schadelijke stoffen afbreekt .</sentence>
+</alpino_ds>

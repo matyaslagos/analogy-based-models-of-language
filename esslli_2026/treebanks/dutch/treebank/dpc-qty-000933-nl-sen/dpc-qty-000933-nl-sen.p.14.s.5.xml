@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="12" end="13" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="16" id="2" rel="--">
+      <node begin="0" cat="smain" end="12" id="3" rel="nucl">
+        <node begin="0" cat="pp" end="3" id="4" rel="mod">
+          <node begin="0" end="1" id="5" lemma="zelfs" pos="adv" postag="BW()" pt="bw" rel="mod" root="zelfs" word="Zelfs"/>
+          <node begin="1" end="2" id="6" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="7" lemma="Azië" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Azië" word="Azië"/>
+        </node>
+        <node begin="3" end="4" id="8" lemma="af_tekenen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="teken_af" word="tekenen" wvorm="pv"/>
+        <node begin="4" end="5" getal="getal" id="9" lemma="zich" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="se" root="zich" status="red" vwtype="refl" word="zich"/>
+        <node begin="5" cat="pp" end="8" id="10" rel="mod">
+          <node begin="5" end="6" id="11" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="6" cat="np" end="8" id="12" rel="obj1">
+            <node begin="6" buiging="met-e" end="7" graad="basis" id="13" lemma="verschillend" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="verschil" word="verschillende"/>
+            <node begin="7" end="8" getal="mv" graad="basis" id="14" lemma="land" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="land" word="landen"/>
+          </node>
+        </node>
+        <node begin="8" end="9" id="15" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" word="nog"/>
+        <node begin="9" cat="np" end="11" id="16" rel="su">
+          <node begin="9" buiging="met-e" end="10" graad="basis" id="17" lemma="mooi" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="mooi" word="mooie"/>
+          <node begin="10" end="11" getal="mv" graad="basis" id="18" lemma="perspectief" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="perspectief" word="perspectieven"/>
+        </node>
+        <node begin="11" end="12" id="19" lemma="af" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="af" vztype="fin" word="af"/>
+      </node>
+      <node begin="13" cat="pp" end="16" id="20" rel="sat">
+        <node begin="13" end="14" id="21" lemma="vooral" pos="adv" postag="BW()" pt="bw" rel="mod" root="vooral" word="vooral"/>
+        <node begin="14" end="15" id="22" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="15" end="16" genus="onz" getal="ev" graad="basis" id="23" lemma="Maleisië" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Maleisië" word="Maleisië"/>
+      </node>
+    </node>
+    <node begin="16" end="17" id="24" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Zelfs in Azië tekenen zich in verschillende landen nog mooie perspectieven af , vooral in Maleisië .</sentence>
+</alpino_ds>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="45" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="15" end="16" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="44" id="3" rel="--">
+      <node begin="0" cat="cp" end="8" id="4" rel="mod">
+        <node begin="0" end="1" id="5" lemma="net" pos="adv" postag="BW()" pt="bw" rel="mod" root="net" word="Net"/>
+        <node begin="1" conjtype="onder" end="2" id="6" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+        <node begin="2" cat="pp" end="8" id="7" rel="body">
+          <node begin="2" end="3" id="8" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+          <node begin="3" cat="np" end="8" id="9" rel="obj1">
+            <node begin="3" end="4" id="10" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="4" end="5" id="11" lemma="twee" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="twee" word="twee"/>
+            <node begin="5" end="6" id="12" lemma="reeds" pos="adv" postag="BW()" pt="bw" rel="mod" root="reeds" word="reeds"/>
+            <node begin="6" buiging="met-e" end="7" id="13" lemma="noemen" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="genoemd" word="genoemde" wvorm="vd"/>
+            <node begin="7" end="8" getal="mv" graad="basis" id="14" lemma="wet" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="wet" word="wetten"/>
+          </node>
+        </node>
+      </node>
+      <node begin="9" end="10" id="15" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="10" cat="np" end="13" id="16" rel="su">
+        <node begin="10" end="11" id="17" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="11" buiging="met-e" end="12" graad="sup" id="18" lemma="groot" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="mod" root="groot" word="grootste"/>
+        <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="19" lemma="moeilijkheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="moeilijkheid" word="moeilijkheid"/>
+      </node>
+      <node begin="13" cat="conj" end="44" id="20" rel="predc">
+        <node begin="17" conjtype="neven" end="18" id="21" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="13" cat="np" end="44" id="22" rel="cnj">
+          <node begin="13" end="14" id="23" index="1" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="14" buiging="zonder" end="15" getal-n="zonder-n" id="24" lemma="verbieden" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="verbied" word="verbieden" wvorm="inf"/>
+          <node begin="19" cat="pp" end="24" id="25" index="2" rel="mod">
+            <node begin="19" end="20" id="26" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="20" cat="np" end="24" id="27" rel="obj1">
+              <node begin="20" end="21" id="28" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="21" end="22" genus="zijd" getal="ev" graad="basis" id="29" lemma="verheerlijking" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="verheerlijking" word="verheerlijking"/>
+              <node begin="22" cat="pp" end="24" id="30" rel="mod">
+                <node begin="22" end="23" id="31" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="23" end="24" genus="onz" getal="ev" graad="basis" id="32" lemma="terrorisme" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="terrorisme" word="terrorisme"/>
+              </node>
+            </node>
+          </node>
+          <node begin="24" cat="pp" end="44" id="33" index="3" rel="mod">
+            <node begin="24" end="25" id="34" lemma="zonder" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="zonder" vztype="init" word="zonder"/>
+            <node begin="25" cat="conj" end="44" id="35" rel="obj1">
+              <node begin="25" cat="ti" end="41" id="36" rel="cnj">
+                <node begin="39" end="40" id="37" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+                <node begin="25" cat="inf" end="41" id="38" rel="body">
+                  <node begin="25" cat="conj" end="38" id="39" index="4" rel="obj1">
+                    <node begin="25" cat="np" end="27" id="40" rel="cnj">
+                      <node begin="25" end="26" id="41" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                      <node begin="26" end="27" getal="mv" graad="basis" id="42" lemma="grond_recht" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="grond_recht" word="grondrechten"/>
+                    </node>
+                    <node begin="27" conjtype="neven" end="28" id="43" lemma="of" pos="comp" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+                    <node begin="28" cat="np" end="38" id="44" rel="cnj">
+                      <node begin="28" end="29" id="45" lemma="-vrijheden" pos="noun" postag="SPEC(afgebr)" pt="spec" rel="hd" root="-vrijheid" spectype="afgebr" word="-vrijheden"/>
+                      <node begin="29" cat="cp" end="38" id="46" rel="mod">
+                        <node begin="29" conjtype="onder" end="30" id="47" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+                        <node begin="30" cat="conj" end="38" id="48" rel="body">
+                          <node begin="30" cat="np" end="35" id="49" rel="cnj">
+                            <node begin="30" end="31" genus="zijd" getal="ev" graad="basis" id="50" lemma="vrijheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="vrijheid" word="vrijheid"/>
+                            <node begin="31" cat="pp" end="35" id="51" rel="mod">
+                              <node begin="31" end="32" id="52" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                              <node begin="32" cat="conj" end="35" id="53" rel="obj1">
+                                <node begin="32" end="33" genus="zijd" getal="ev" graad="basis" id="54" lemma="vergadering" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="vergadering" word="vergadering"/>
+                                <node begin="33" conjtype="neven" end="34" id="55" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                                <node begin="34" end="35" genus="zijd" getal="ev" graad="basis" id="56" lemma="vereniging" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="vereniging" word="vereniging"/>
+                              </node>
+                            </node>
+                          </node>
+                          <node begin="35" conjtype="neven" end="36" id="57" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                          <node begin="36" cat="np" end="38" id="58" rel="cnj">
+                            <node begin="36" buiging="met-e" end="37" graad="basis" id="59" lemma="vrij" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="vrij" word="vrije"/>
+                            <node begin="37" end="38" genus="zijd" getal="ev" graad="basis" id="60" lemma="meningsuiting" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="meningsuiting" word="meningsuiting"/>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node begin="38" end="39" id="61" lemma="in" pos="prep" postag="VZ(fin)" pt="vz" rel="svp" root="in" vztype="fin" word="in"/>
+                  <node begin="40" buiging="zonder" end="41" id="62" lemma="in_perken" pos="noun" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="perk" word="perken" wvorm="inf"/>
+                </node>
+              </node>
+              <node begin="41" conjtype="neven" end="42" id="63" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+              <node begin="25" cat="ti" end="44" id="64" rel="cnj">
+                <node begin="42" end="43" id="65" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+                <node begin="25" cat="inf" end="44" id="66" rel="body">
+                  <node begin="25" end="38" id="67" index="4" rel="mod"/>
+                  <node begin="43" buiging="zonder" end="44" id="68" lemma="belemmeren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="belemmer" word="belemmeren" wvorm="inf"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="13" cat="np" end="44" id="69" rel="cnj">
+          <node begin="13" end="14" id="70" index="1" rel="det"/>
+          <node begin="16" buiging="zonder" end="17" getal-n="zonder-n" id="71" lemma="beteugelen" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="beteugel" word="beteugelen" wvorm="inf"/>
+          <node begin="19" end="24" id="72" index="2" rel="mod"/>
+          <node begin="24" end="44" id="73" index="3" rel="mod"/>
+        </node>
+        <node begin="13" cat="np" end="44" id="74" rel="cnj">
+          <node begin="13" end="14" id="75" index="1" rel="det"/>
+          <node begin="18" buiging="zonder" end="19" getal-n="zonder-n" id="76" lemma="bestraffen" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="bestraf" word="bestraffen" wvorm="inf"/>
+          <node begin="19" end="24" id="77" index="2" rel="mod"/>
+          <node begin="24" end="44" id="78" index="3" rel="mod"/>
+        </node>
+      </node>
+    </node>
+    <node begin="44" end="45" id="79" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Net als bij de twee reeds genoemde wetten , is de grootste moeilijkheid het verbieden , beteugelen en bestraffen van de verheerlijking van terrorisme zonder de grondrechten of -vrijheden als vrijheid van vergadering en vereniging en vrije meningsuiting in te perken of te belemmeren .</sentence>
+</alpino_ds>

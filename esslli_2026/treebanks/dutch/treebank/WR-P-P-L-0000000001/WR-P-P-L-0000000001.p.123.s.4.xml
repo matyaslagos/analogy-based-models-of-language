@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="smain" end="15" id="1" rel="--">
+      <node begin="0" cat="cp" end="6" id="2" rel="mod">
+        <node begin="0" end="1" id="3" lemma="net" pos="adv" postag="BW()" pt="bw" rel="mod" root="net" word="Net"/>
+        <node begin="1" conjtype="onder" end="2" id="4" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+        <node begin="2" cat="pp" end="6" id="5" rel="body">
+          <node begin="2" end="3" id="6" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+          <node begin="3" cat="np" end="6" id="7" rel="obj1">
+            <node begin="3" end="4" id="8" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="4" buiging="met-e" end="5" graad="basis" id="9" lemma="sociaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="sociaal" word="sociale"/>
+            <node begin="5" end="6" getal="mv" graad="basis" id="10" lemma="huur_woning" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="huur_woning" word="huurwoningen"/>
+          </node>
+        </node>
+      </node>
+      <node begin="6" end="7" id="11" lemma="vallen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="val" word="valt" wvorm="pv"/>
+      <node begin="7" cat="np" end="9" id="12" rel="su">
+        <node begin="7" end="8" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="14" lemma="keuze" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="keuze" word="keuze"/>
+      </node>
+      <node begin="9" end="10" getal="getal" id="15" lemma="hier" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="mod" root="hier" status="vol" vwtype="aanw" word="hier"/>
+      <node begin="10" end="11" id="16" lemma="vooral" pos="adv" postag="BW()" pt="bw" rel="mod" root="vooral" word="vooral"/>
+      <node begin="11" cat="pp" end="15" id="17" rel="pc">
+        <node begin="11" end="12" id="18" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+        <node begin="12" cat="np" end="15" id="19" rel="obj1">
+          <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="20" lemma="vervanging" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="vervanging" word="vervanging"/>
+          <node begin="13" cat="pp" end="15" id="21" rel="mod">
+            <node begin="13" end="14" id="22" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+            <node begin="14" end="15" getal="mv" graad="basis" id="23" lemma="VR_ketel" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="VR_ketel" word="VR-ketels"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="24" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Net als bij de sociale huurwoningen valt de keuze hier vooral op vervanging door VR-ketels .</sentence>
+</alpino_ds>

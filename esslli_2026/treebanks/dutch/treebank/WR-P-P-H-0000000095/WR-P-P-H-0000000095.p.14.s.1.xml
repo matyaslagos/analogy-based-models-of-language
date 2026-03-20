@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="27" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="3" end="4" id="2" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="7" end="8" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="10" end="11" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="18" end="19" id="5" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="19" end="20" id="6" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="21" end="22" id="7" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="23" end="24" id="8" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="26" id="9" rel="--">
+      <node begin="0" cat="mwu" end="2" id="10" rel="dp">
+        <node begin="0" end="1" id="11" lemma="Cas" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Cas" spectype="deeleigen" word="Cas"/>
+        <node begin="1" end="2" id="12" lemma="Smithuijsen" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Smithuijsen" spectype="deeleigen" word="Smithuijsen"/>
+      </node>
+      <node begin="4" cat="np" end="18" id="13" rel="dp">
+        <node begin="4" end="5" id="14" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="Een"/>
+        <node begin="5" buiging="met-e" end="6" id="15" lemma="verbazen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="verbazend" word="verbazende" wvorm="od"/>
+        <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="16" lemma="stilte" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="stilte" word="stilte"/>
+        <node begin="8" cat="conj" end="18" id="17" rel="app">
+          <node begin="8" cat="np" end="10" id="18" rel="cnj">
+            <node begin="8" buiging="met-e" end="9" graad="basis" id="19" lemma="klassiek" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="klassiek" word="klassieke"/>
+            <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="20" lemma="muziek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="muziek" word="muziek"/>
+          </node>
+          <node begin="12" conjtype="neven" end="13" id="21" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="11" cat="np" end="18" id="22" rel="cnj">
+            <node begin="11" end="12" getal="mv" graad="basis" id="23" lemma="gedragsregel" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="gedragsregel" word="gedragsregels"/>
+            <node begin="15" cat="pp" end="18" id="24" index="1" rel="mod">
+              <node begin="15" end="16" id="25" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+              <node begin="16" cat="np" end="18" id="26" rel="obj1">
+                <node begin="16" end="17" id="27" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="28" lemma="concert_zaal" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="concertzaal" word="concertzaal"/>
+              </node>
+            </node>
+          </node>
+          <node begin="13" cat="np" end="18" id="29" rel="cnj">
+            <node begin="13" buiging="met-e" end="14" graad="basis" id="30" lemma="sociaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="sociaal" word="sociale"/>
+            <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="31" lemma="controle" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="controle" word="controle"/>
+            <node begin="15" end="18" id="32" index="1" rel="mod"/>
+          </node>
+        </node>
+      </node>
+      <node begin="20" cat="du" end="23" id="33" rel="dp">
+        <node begin="20" end="21" getal="mv" graad="basis" id="34" lemma="boekmanstudie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="dp" root="boek_man_studie" word="Boekmanstudies"/>
+        <node begin="22" end="23" id="35" lemma="2001" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="dp" root="2001" word="2001"/>
+      </node>
+      <node begin="24" cat="np" end="26" id="36" rel="dp">
+        <node begin="24" end="25" genus="onz" getal="ev" graad="basis" id="37" lemma="isbn" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="isbn" word="isbn"/>
+        <node begin="25" end="26" id="38" lemma="90-6650-0619-7" pos="num" postag="SPEC(symb)" pt="spec" rel="app" root="90-6650-0619-7" spectype="symb" word="90-6650-0619-7"/>
+      </node>
+    </node>
+    <node begin="26" end="27" id="39" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Cas Smithuijsen , &apos; Een verbazende stilte , klassieke muziek , gedragsregels en sociale controle in de concertzaal &apos; , Boekmanstudies , 2001 , isbn 90-6650-0619-7 .</sentence>
+</alpino_ds>

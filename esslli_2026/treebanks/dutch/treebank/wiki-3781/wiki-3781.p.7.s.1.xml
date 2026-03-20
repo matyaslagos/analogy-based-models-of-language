@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="4" end="5" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="6" end="7" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="8" end="9" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="10" end="11" id="5" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="np" end="14" id="6" rel="--">
+      <node begin="0" buiging="met-e" end="1" graad="sup" id="7" lemma="belangrijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="mod" root="belangrijk" word="Belangrijkste"/>
+      <node begin="1" end="2" getal="mv" graad="basis" id="8" lemma="stad" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="stad" word="steden"/>
+      <node begin="3" cat="conj" end="14" id="9" rel="app">
+        <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="10" lemma="Leuven" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Leuven" word="Leuven"/>
+        <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="11" lemma="Vilvoorde" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Vilvoorde" word="Vilvoorde"/>
+        <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="12" lemma="Halle" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Halle" word="Halle"/>
+        <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="13" lemma="Tienen" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Tienen" word="Tienen"/>
+        <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="14" lemma="Diest" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Diest" word="Diest"/>
+        <node begin="12" conjtype="neven" end="13" id="15" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="16" lemma="Aarschot" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Aarschot" word="Aarschot"/>
+      </node>
+    </node>
+    <node begin="14" end="15" id="17" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Belangrijkste steden : Leuven , Vilvoorde , Halle , Tienen , Diest en Aarschot .</sentence>
+</alpino_ds>

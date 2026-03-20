@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="33" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="10" end="11" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="12" end="13" id="3" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="13" end="14" id="4" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="0" cat="du" end="31" id="5" rel="--">
+      <node begin="0" cat="smain" end="12" id="6" rel="tag">
+        <node begin="0" cat="np" end="10" id="7" rel="su">
+          <node begin="0" cat="mwu" end="3" id="8" rel="hd">
+            <node begin="0" end="1" id="9" lemma="Filip" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Filip" spectype="deeleigen" word="Filip"/>
+            <node begin="1" end="2" id="10" lemma="Van" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Van" spectype="deeleigen" word="Van"/>
+            <node begin="2" end="3" id="11" lemma="Rossum" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Rossum" spectype="deeleigen" word="Rossum"/>
+          </node>
+          <node begin="3" cat="pp" end="10" id="12" rel="mod">
+            <node begin="3" end="4" id="13" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="4" cat="np" end="10" id="14" rel="obj1">
+              <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="15" lemma="BeCa" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="BeCa" word="BeCa"/>
+              <node begin="6" cat="np" end="10" id="16" rel="app">
+                <node begin="6" end="7" id="17" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="7" buiging="met-e" end="8" graad="basis" id="18" lemma="Belgisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Belgisch" word="Belgische"/>
+                <node begin="8" cat="mwu" end="10" id="19" rel="hd">
+                  <node begin="8" end="9" id="20" lemma="Cockpit" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Cockpit" spectype="deeleigen" word="Cockpit"/>
+                  <node begin="9" end="10" id="21" lemma="Association" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Association" spectype="deeleigen" word="Association"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="11" end="12" id="22" lemma="ontkennen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ontken" word="ontkent" wvorm="pv"/>
+      </node>
+      <node begin="14" cat="smain" end="31" id="23" rel="nucl">
+        <node begin="14" cat="np" end="16" id="24" rel="su">
+          <node begin="14" end="15" id="25" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+          <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="26" lemma="fiscus" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="fiscus" word="fiscus"/>
+        </node>
+        <node begin="16" end="17" id="27" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+        <node begin="17" cat="ap" end="31" id="28" rel="predc">
+          <node begin="17" buiging="zonder" end="18" graad="basis" id="29" lemma="perfect" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="perfect" word="perfect"/>
+          <node begin="18" cat="mwu" end="21" id="30" rel="hd">
+            <node begin="18" end="19" id="31" lemma="op" pos="adj" postag="VZ(init)" pt="vz" rel="mwp" root="op" vztype="init" word="op"/>
+            <node begin="19" end="20" id="32" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="adj" postag="LID(bep,stan,rest)" pt="lid" rel="mwp" root="de" word="de"/>
+            <node begin="20" end="21" genus="zijd" getal="ev" graad="basis" id="33" lemma="hoogte" naamval="stan" ntype="soort" pos="adj" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="hoogte" word="hoogte"/>
+          </node>
+          <node begin="21" cat="pp" end="31" id="34" rel="pc">
+            <node begin="21" end="22" id="35" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="22" cat="conj" end="31" id="36" rel="obj1">
+              <node begin="22" cat="np" end="27" id="37" rel="cnj">
+                <node begin="22" end="23" id="38" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="23" end="24" getal="mv" graad="basis" id="39" lemma="doorbetaling" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="door_betaling" word="doorbetalingen"/>
+                <node begin="24" cat="pp" end="27" id="40" rel="mod">
+                  <node begin="24" end="25" id="41" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                  <node begin="25" cat="np" end="27" id="42" rel="obj1">
+                    <node begin="25" end="26" id="43" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                    <node begin="26" end="27" genus="onz" getal="ev" graad="basis" id="44" lemma="loon" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="loon" word="loon"/>
+                  </node>
+                </node>
+              </node>
+              <node begin="27" conjtype="neven" end="28" id="45" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="28" cat="np" end="31" id="46" rel="cnj">
+                <node begin="28" end="29" id="47" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="29" buiging="zonder" end="30" graad="basis" id="48" lemma="extra" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="extra" word="extra"/>
+                <node begin="30" end="31" getal="mv" graad="basis" id="49" lemma="prestatie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="prestatie" word="prestaties"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="31" end="32" id="50" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+    <node begin="32" end="33" id="51" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+  </node>
+  <sentence>Filip Van Rossum van BeCa , de Belgische Cockpit Association , ontkent : &apos; De fiscus was perfect op de hoogte van de doorbetalingen van het loon en de extra prestaties . &apos;</sentence>
+</alpino_ds>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="12" end="13" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="14" end="15" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="18" id="3" rel="--">
+      <node begin="0" cat="np" end="8" id="4" rel="su">
+        <node begin="0" end="1" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" cat="ap" end="4" id="6" rel="mod">
+          <node begin="1" cat="pp" end="3" id="7" rel="pc">
+            <node begin="1" end="2" id="8" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+            <node begin="2" end="3" getal="mv" id="9" lemma="ons" naamval="obl" pdtype="pron" persoon="1" pos="pron" postag="VNW(pr,pron,obl,vol,1,mv)" pt="vnw" rel="obj1" root="ons" status="vol" vwtype="pr" word="ons"/>
+          </node>
+          <node begin="3" buiging="met-e" end="4" graad="sup" id="10" lemma="nuttig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="hd" root="nuttig" word="nuttigste"/>
+        </node>
+        <node begin="4" end="5" getal="mv" graad="basis" id="11" lemma="sensor" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="sensor" word="sensoren"/>
+        <node begin="5" cat="rel" end="8" id="12" rel="mod">
+          <node begin="5" end="6" getal="getal" id="13" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+          <node begin="5" cat="ssub" end="8" id="14" rel="body">
+            <node begin="5" end="6" id="15" index="1" rel="su"/>
+            <node begin="6" buiging="zonder" end="7" graad="basis" id="16" lemma="momenteel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="momenteel" word="momenteel"/>
+            <node begin="7" end="8" id="17" lemma="rond_cirkelen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="rond_cirkel" word="rondcirkelen" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+      <node begin="8" end="9" id="18" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+      <node begin="9" end="10" id="19" lemma="bijvoorbeeld" pos="adv" postag="BW()" pt="bw" rel="mod" root="bijvoorbeeld" word="bijvoorbeeld"/>
+      <node begin="10" cat="conj" end="18" id="20" rel="predc">
+        <node begin="10" cat="mwu" end="12" id="21" rel="cnj">
+          <node begin="10" end="11" id="22" lemma="NOAA" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="NOAA" spectype="deeleigen" word="NOAA"/>
+          <node begin="11" end="12" id="23" lemma="AVHRR" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="AVHRR" spectype="deeleigen" word="AVHRR"/>
+        </node>
+        <node begin="13" end="14" genus="genus" getal="ev" graad="basis" id="24" lemma="SeaWiFS" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="cnj" root="SeaWiFS" word="SeaWiFS"/>
+        <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="25" lemma="MERIS" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="MERIS" word="MERIS"/>
+        <node begin="16" end="17" id="26" lemma="or" pos="vg" postag="SPEC(vreemd)" pt="spec" rel="crd" root="or" spectype="vreemd" word="or"/>
+        <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="27" lemma="MODIS" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="MODIS" word="MODIS"/>
+      </node>
+    </node>
+    <node begin="18" end="19" id="28" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De voor ons nuttigste sensoren die momenteel rondcirkelen zijn bijvoorbeeld NOAA AVHRR , SeaWiFS , MERIS or MODIS .</sentence>
+</alpino_ds>

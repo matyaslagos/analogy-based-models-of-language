@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="30" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="14" end="15" id="2" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="18" end="19" id="3" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="20" end="21" id="4" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="26" end="27" id="5" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="du" end="28" id="6" rel="--">
+      <node begin="0" cat="smain" end="14" id="7" rel="nucl">
+        <node begin="0" end="1" id="8" lemma="soms" pos="adv" postag="BW()" pt="bw" rel="mod" root="soms" word="Soms"/>
+        <node begin="1" end="2" id="9" lemma="op_treden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="treed_op" word="treden" wvorm="pv"/>
+        <node begin="2" cat="np" end="4" id="10" rel="su">
+          <node begin="2" end="3" id="11" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="3" end="4" getal="mv" graad="basis" id="12" lemma="gemeenschap" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="gemeenschap" word="gemeenschappen"/>
+        </node>
+        <node begin="6" end="7" id="13" lemma="op" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="op" vztype="fin" word="op"/>
+        <node begin="4" cat="conj" end="12" id="14" rel="mod">
+          <node begin="4" end="5" id="15" lemma="niet" pos="vg" postag="BW()" pt="bw" rel="crd" root="niet" word="niet"/>
+          <node begin="5" buiging="zonder" end="6" graad="basis" id="16" lemma="rechtstreeks" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="cnj" root="rechtstreeks" word="rechtstreeks"/>
+          <node begin="8" conjtype="neven" end="9" id="17" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+          <node begin="9" cat="pp" end="12" id="18" rel="cnj">
+            <node begin="9" end="10" id="19" lemma="via" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="via" vztype="init" word="via"/>
+            <node begin="10" cat="np" end="12" id="20" rel="obj1">
+              <node begin="10" buiging="zonder" end="11" getal="mv" id="21" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+              <node begin="11" end="12" getal="mv" graad="basis" id="22" lemma="gemeenschap_commissie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="gemeenschap_commissie" word="gemeenschapscommissies"/>
+            </node>
+          </node>
+        </node>
+        <node begin="12" cat="pp" end="14" id="23" rel="ld">
+          <node begin="12" end="13" id="24" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="25" lemma="Brussel" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Brussel" word="Brussel"/>
+        </node>
+      </node>
+      <node begin="15" cat="conj" end="28" id="26" rel="sat">
+        <node begin="15" cat="np" end="20" id="27" rel="cnj">
+          <node begin="15" end="16" id="28" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="16" cat="mwu" end="18" id="29" rel="hd">
+            <node begin="16" end="17" id="30" lemma="Vlaamse" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Vlaamse" spectype="deeleigen" word="Vlaamse"/>
+            <node begin="17" end="18" id="31" lemma="Gemeenschapscommissie" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Gemeenschapscommissie" spectype="deeleigen" word="Gemeenschapscommissie"/>
+          </node>
+          <node begin="19" end="20" genus="zijd" getal="ev" graad="basis" id="32" lemma="VGC" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" root="VGC" word="VGC"/>
+        </node>
+        <node begin="21" conjtype="neven" end="22" id="33" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="22" cat="np" end="28" id="34" rel="cnj">
+          <node begin="22" end="23" id="35" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="23" cat="mwu" end="26" id="36" rel="hd">
+            <node begin="23" end="24" id="37" lemma="Commission" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Commission" spectype="deeleigen" word="Commission"/>
+            <node begin="24" end="25" id="38" lemma="Communautaire" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Communautaire" spectype="deeleigen" word="Communautaire"/>
+            <node begin="25" end="26" id="39" lemma="Française" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Française" spectype="deeleigen" word="Française"/>
+          </node>
+          <node begin="27" end="28" genus="zijd" getal="ev" graad="basis" id="40" lemma="Cocof" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" root="Cocof" word="Cocof"/>
+        </node>
+      </node>
+    </node>
+    <node begin="28" end="29" id="41" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="29" end="30" id="42" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Soms treden de gemeenschappen niet rechtstreeks op , maar via hun gemeenschapscommissies in Brussel : de Vlaamse Gemeenschapscommissie ( VGC ) en de Commission Communautaire Française ( Cocof ) .</sentence>
+</alpino_ds>

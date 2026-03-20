@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="44" id="0" rel="top">
+    <node begin="11" end="12" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="19" end="20" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="28" end="29" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="30" end="31" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="33" end="34" id="5" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="35" end="36" id="6" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="37" end="38" id="7" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="40" id="8" rel="--">
+      <node begin="0" cat="pp" end="2" id="9" rel="mod">
+        <node begin="0" end="1" id="10" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="11" lemma="Vlaanderen" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Vlaanderen" word="Vlaanderen"/>
+      </node>
+      <node begin="2" end="3" id="12" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+      <node begin="3" end="4" id="13" lemma="reeds" pos="adv" postag="BW()" pt="bw" rel="mod" root="reeds" word="reeds"/>
+      <node begin="4" cat="np" end="9" id="14" rel="su">
+        <node begin="4" cat="detp" end="6" id="15" rel="det">
+          <node begin="4" buiging="zonder" end="5" graad="basis" id="16" lemma="heel" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="heel" word="heel"/>
+          <node begin="5" end="6" getal="ev" id="17" lemma="wat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(onbep,pron,stan,vol,3o,ev)" pt="vnw" rel="hd" root="wat" status="vol" vwtype="onbep" word="wat"/>
+        </node>
+        <node begin="6" end="7" getal="mv" graad="basis" id="18" lemma="vorm" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vorm" word="vormen"/>
+        <node begin="7" cat="pp" end="9" id="19" rel="mod">
+          <node begin="7" end="8" id="20" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="21" lemma="flexibilisering" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="flexibilisering" word="flexibilisering"/>
+        </node>
+      </node>
+      <node begin="9" cat="ap" end="11" id="22" rel="predc">
+        <node begin="9" buiging="zonder" end="10" graad="basis" id="23" lemma="decretaal" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="decretaal" word="decretaal"/>
+        <node begin="10" buiging="zonder" end="11" graad="basis" id="24" lemma="mogelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="mogelijk" word="mogelijk"/>
+      </node>
+      <node begin="12" cat="np" end="40" id="25" rel="mod">
+        <node begin="12" end="13" getal="mv" graad="basis" id="26" lemma="overgang" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="overgang" word="overgangen"/>
+        <node begin="13" cat="pp" end="19" id="27" rel="mod">
+          <node begin="13" end="14" id="28" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" vztype="init" word="tussen"/>
+          <node begin="14" cat="np" end="19" id="29" rel="obj1">
+            <node begin="14" end="15" getal="mv" graad="basis" id="30" lemma="opleiding" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="opleiding" word="opleidingen"/>
+            <node begin="15" cat="pp" end="19" id="31" rel="mod">
+              <node begin="15" end="16" id="32" lemma="via" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="via" vztype="init" word="via"/>
+              <node begin="16" cat="conj" end="19" id="33" rel="obj1">
+                <node begin="16" end="17" id="34" lemma="schakel-" pos="prefix" postag="SPEC(afgebr)" pt="spec" rel="cnj" root="schakel" spectype="afgebr" word="schakel-"/>
+                <node begin="17" conjtype="neven" end="18" id="35" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+                <node begin="18" end="19" getal="mv" graad="basis" id="36" lemma="doorstroom_programma" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="doorstroomprogramma" word="doorstroomprogramma&apos;s"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="20" cat="np" end="40" id="37" rel="app">
+          <node begin="20" end="21" id="38" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="21" cat="pp" end="23" id="39" rel="mod">
+            <node begin="21" end="22" id="40" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="22" end="23" genus="zijd" getal="ev" graad="basis" id="41" lemma="aanmerking" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="aanmerking" word="aanmerking"/>
+          </node>
+          <node begin="23" buiging="zonder" end="24" getal-n="zonder-n" id="42" lemma="nemen" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="neem" word="nemen" wvorm="inf"/>
+          <node begin="24" cat="pp" end="40" id="43" rel="mod">
+            <node begin="24" end="25" id="44" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="25" cat="conj" end="40" id="45" rel="obj1">
+              <node begin="25" cat="np" end="28" id="46" rel="cnj">
+                <node begin="25" cat="ppart" end="27" id="47" rel="mod">
+                  <node begin="25" buiging="zonder" end="26" graad="comp" id="48" lemma="eerder" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="eerder" word="eerder"/>
+                  <node begin="26" buiging="zonder" end="27" id="49" lemma="verwerven" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="hd" root="verworven" word="verworven" wvorm="vd"/>
+                </node>
+                <node begin="27" end="28" getal="mv" graad="basis" id="50" lemma="competentie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="competentie" word="competenties"/>
+              </node>
+              <node begin="29" end="30" genus="onz" getal="ev" graad="basis" id="51" lemma="afstand_onderwijs" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="cnj" root="afstandsonderwijs" word="afstandsonderwijs"/>
+              <node begin="31" cat="np" end="33" id="52" rel="cnj">
+                <node begin="31" end="32" genus="zijd" getal="ev" graad="basis" id="53" lemma="integratie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="integratie" word="integratie"/>
+                <node begin="32" end="33" genus="zijd" getal="ev" graad="basis" id="54" lemma="ICT" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="app" root="ICT" word="ICT"/>
+              </node>
+              <node begin="34" end="35" genus="onz" getal="ev" graad="basis" id="55" lemma="avond_onderwijs" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="cnj" root="avondonderwijs" word="avondonderwijs"/>
+              <node begin="36" end="37" getal="mv" graad="basis" id="56" lemma="mobiliteit_programma" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="mobiliteitprogramma" word="mobiliteitsprogramma&apos;s"/>
+              <node begin="38" cat="np" end="40" id="57" rel="cnj">
+                <node begin="38" buiging="met-e" end="39" graad="basis" id="58" lemma="duaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="duaal" word="duale"/>
+                <node begin="39" end="40" getal="mv" graad="basis" id="59" lemma="leer_weg" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="leerweg" word="leerwegen"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="40" end="41" id="60" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="41" end="42" id="61" lemma="..." pos="punct" postag="LET()" pt="let" rel="--" root="..." word="..."/>
+    <node begin="42" end="43" id="62" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="43" end="44" id="63" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>In Vlaanderen zijn reeds heel wat vormen van flexibilisering decretaal mogelijk ( overgangen tussen opleidingen via schakel- of doorstroomprogramma&apos;s , het in aanmerking nemen van eerder verworven competenties , afstandsonderwijs , integratie ICT , avondonderwijs , mobiliteitsprogramma&apos;s , duale leerwegen , ... ) .</sentence>
+</alpino_ds>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="np" end="12" id="2" rel="--">
+      <node begin="0" cat="mwu" end="3" id="3" rel="hd">
+        <node begin="0" end="1" id="4" lemma="Jean" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Jean" spectype="deeleigen" word="Jean"/>
+        <node begin="1" end="2" id="5" lemma="Francois" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Francois" spectype="deeleigen" word="Francois"/>
+        <node begin="2" end="3" id="6" lemma="Michel" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Michel" spectype="deeleigen" word="Michel"/>
+      </node>
+      <node begin="4" cat="np" end="12" id="7" rel="app">
+        <node begin="4" cat="mwu" end="6" id="8" rel="mod">
+          <node begin="4" end="5" id="9" lemma="18" naamval="stan" numtype="rang" pos="adj" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mwp" root="18de" word="18de"/>
+          <node begin="5" buiging="zonder" end="6" graad="basis" id="10" lemma="eeuws" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mwp" root="eeuws" word="eeuws"/>
+        </node>
+        <node begin="6" buiging="zonder" end="7" id="11" lemma="verslag_geven" pos="adj" positie="prenom" postag="WW(od,prenom,zonder)" pt="ww" rel="mod" root="verslaggevend" word="verslaggevend" wvorm="od"/>
+        <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="12" lemma="reiziger" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="reiziger" word="reiziger"/>
+        <node begin="8" cat="pp" end="12" id="13" rel="mod">
+          <node begin="8" end="9" id="14" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+          <node begin="9" cat="conj" end="12" id="15" rel="obj1">
+            <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="16" lemma="China" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="China" word="China"/>
+            <node begin="10" conjtype="neven" end="11" id="17" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="18" lemma="Kaapverdië" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Kaapverdië" word="Kaapverdië"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>Jean Francois Michel , 18de eeuws verslaggevend reiziger op China en Kaapverdië</sentence>
+</alpino_ds>

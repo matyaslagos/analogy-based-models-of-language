@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="26" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="17" end="18" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="25" id="3" rel="--">
+      <node begin="0" cat="conj" end="17" id="4" rel="su">
+        <node begin="0" cat="conj" end="6" id="5" rel="cnj">
+          <node begin="2" conjtype="neven" end="3" id="6" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="0" cat="np" end="6" id="7" rel="cnj">
+            <node begin="0" end="1" id="8" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+            <node begin="1" buiging="met-e" end="2" graad="basis" id="9" lemma="politiek" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="politiek" word="politieke"/>
+            <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="10" index="1" lemma="wereld" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="wereld" word="wereld"/>
+          </node>
+          <node begin="3" cat="np" end="6" id="11" rel="cnj">
+            <node begin="3" end="4" id="12" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="4" buiging="met-e" end="5" graad="basis" id="13" lemma="economisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="economisch" word="economische"/>
+            <node begin="5" end="6" id="14" index="1" rel="hd"/>
+          </node>
+        </node>
+        <node begin="7" conjtype="neven" end="8" id="15" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="8" cat="np" end="17" id="16" rel="cnj">
+          <node begin="8" buiging="met-e" end="9" id="17" lemma="al" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,agr)" pt="vnw" rel="det" root="alle" vwtype="onbep" word="alle"/>
+          <node begin="9" buiging="met-e" end="10" id="18" lemma="controleren" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="controleer" word="controlerende" wvorm="od"/>
+          <node begin="10" end="11" getal="mv" graad="basis" id="19" lemma="instantie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="instantie" word="instanties"/>
+          <node begin="11" cat="rel" end="17" id="20" rel="mod">
+            <node begin="11" end="12" getal="getal" id="21" index="2" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+            <node begin="11" cat="ssub" end="17" id="22" rel="body">
+              <node begin="11" end="12" id="23" index="2" rel="su"/>
+              <node begin="15" end="16" id="24" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+              <node begin="11" cat="ppart" end="17" id="25" rel="vc">
+                <node begin="11" end="12" id="26" index="2" rel="obj1"/>
+                <node begin="12" cat="mwu" end="15" id="27" rel="ld">
+                  <node begin="12" end="13" id="28" lemma="her" pos="adv" postag="BW()" pt="bw" rel="mwp" root="her" word="her"/>
+                  <node begin="13" conjtype="neven" end="14" id="29" lemma="en" pos="adv" postag="VG(neven)" pt="vg" rel="mwp" root="en" word="en"/>
+                  <node begin="14" end="15" id="30" lemma="der" pos="adv" postag="BW()" pt="bw" rel="mwp" root="der" word="der"/>
+                </node>
+                <node begin="16" buiging="zonder" end="17" id="31" lemma="op_stellen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="stel_op" word="opgesteld" wvorm="vd"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="18" end="19" id="32" lemma="houden" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="houd" word="hielden" wvorm="pv"/>
+      <node begin="19" end="20" id="33" lemma="dan" pos="adv" postag="BW()" pt="bw" rel="mod" root="dan" word="dan"/>
+      <node begin="20" end="21" id="34" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+      <node begin="21" buiging="zonder" end="22" graad="basis" id="35" lemma="maand_lang" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="maandenlang" word="maandenlang"/>
+      <node begin="22" cat="np" end="24" id="36" rel="obj1">
+        <node begin="22" end="23" id="37" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="23" end="24" getal="mv" graad="basis" id="38" lemma="oog" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="oog" word="ogen"/>
+      </node>
+      <node begin="24" buiging="zonder" end="25" graad="basis" id="39" lemma="dicht" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="dicht" word="dicht"/>
+    </node>
+    <node begin="25" end="26" id="40" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De politieke en de economische wereld , en alle controlerende instanties die her en der zijn opgesteld , hielden dan ook maandenlang de ogen dicht .</sentence>
+</alpino_ds>

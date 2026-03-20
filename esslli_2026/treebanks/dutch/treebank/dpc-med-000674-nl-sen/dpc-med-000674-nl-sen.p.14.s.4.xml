@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="39" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="10" end="11" id="2" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="21" end="22" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="39" id="4" rel="--">
+      <node begin="0" cat="smain" end="10" id="5" rel="nucl">
+        <node begin="0" cat="cp" end="5" id="6" rel="mod">
+          <node begin="0" conjtype="onder" end="1" id="7" lemma="hoewel" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="hoewel" word="Hoewel"/>
+          <node begin="1" cat="ssub" end="5" id="8" rel="body">
+            <node begin="1" cat="np" end="3" id="9" rel="su">
+              <node begin="1" end="2" id="10" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="2" end="3" getal="mv" graad="basis" id="11" lemma="prikkel" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="prikkel" word="prikkels"/>
+            </node>
+            <node begin="3" buiging="zonder" end="4" graad="basis" id="12" lemma="continu" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="continu" word="continu"/>
+            <node begin="4" end="5" id="13" lemma="veranderen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="verander" word="veranderen" wvorm="pv"/>
+          </node>
+        </node>
+        <node begin="6" end="7" id="14" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="7" cat="np" end="9" id="15" rel="su">
+          <node begin="7" end="8" id="16" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="17" lemma="perceptie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="perceptie" word="perceptie"/>
+        </node>
+        <node begin="9" buiging="zonder" end="10" graad="basis" id="18" lemma="dis_continu" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="dis_continu" word="discontinu"/>
+      </node>
+      <node begin="11" cat="conj" end="39" id="19" rel="sat">
+        <node begin="11" cat="smain" end="21" id="20" rel="cnj">
+          <node begin="11" cat="np" end="13" id="21" index="1" rel="su">
+            <node begin="11" end="12" id="22" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="12" end="13" getal="mv" graad="basis" id="23" lemma="proefpersoon" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="proefpersoon" word="proefpersonen"/>
+          </node>
+          <node begin="13" end="14" id="24" lemma="herkennen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="herken" word="herkennen" wvorm="pv"/>
+          <node begin="14" cat="pp" end="16" id="25" rel="mod">
+            <node begin="14" end="15" id="26" lemma="zonder" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="zonder" vztype="init" word="zonder"/>
+            <node begin="15" buiging="zonder" end="16" getal-n="zonder-n" id="27" lemma="aarzelen" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="obj1" root="aarzel" word="aarzelen" wvorm="inf"/>
+          </node>
+          <node begin="16" cat="np" end="21" id="28" rel="obj1">
+            <node begin="16" end="17" id="29" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="17" end="18" getal="mv" graad="basis" id="30" lemma="gezicht" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="gezicht" word="gezichten"/>
+            <node begin="18" cat="pp" end="21" id="31" rel="mod">
+              <node begin="18" end="19" id="32" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+              <node begin="19" cat="np" end="21" id="33" rel="obj1">
+                <node begin="19" end="20" id="34" lemma="vooral" pos="adv" postag="BW()" pt="bw" rel="mod" root="vooral" word="vooral"/>
+                <node begin="20" end="21" id="35" lemma="A" pos="noun" postag="SPEC(symb)" pt="spec" rel="hd" root="A" spectype="symb" word="A"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="11" cat="smain" end="28" id="36" rel="cnj">
+          <node begin="11" end="13" id="37" index="1" rel="su"/>
+          <node begin="22" end="23" id="38" lemma="aarzelen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="aarzel" word="aarzelen" wvorm="pv"/>
+          <node begin="23" cat="pp" end="28" id="39" rel="mod">
+            <node begin="23" end="24" id="40" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+            <node begin="24" cat="np" end="28" id="41" rel="obj1">
+              <node begin="24" end="25" id="42" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="25" cat="ap" end="27" id="43" rel="mod">
+                <node begin="25" end="26" id="44" lemma="zeer" pos="adv" postag="BW()" pt="bw" rel="mod" root="zeer" word="zeer"/>
+                <node begin="26" buiging="met-e" end="27" graad="basis" id="45" lemma="smal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="hd" root="smal" word="smalle"/>
+              </node>
+              <node begin="27" end="28" genus="zijd" getal="ev" graad="basis" id="46" lemma="overgang_zone" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="overgang_zone" word="overgangszone"/>
+            </node>
+          </node>
+        </node>
+        <node begin="28" conjtype="neven" end="29" id="47" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="11" cat="smain" end="39" id="48" rel="cnj">
+          <node begin="11" end="13" id="49" index="1" rel="su"/>
+          <node begin="29" end="30" id="50" lemma="herkennen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="herken" word="herkennen" wvorm="pv"/>
+          <node begin="30" end="31" id="51" lemma="dan" pos="adv" postag="BW()" pt="bw" rel="mod" root="dan" word="dan"/>
+          <node begin="31" end="32" id="52" lemma="weer" pos="adv" postag="BW()" pt="bw" rel="mod" root="weer" word="weer"/>
+          <node begin="32" cat="pp" end="34" id="53" rel="mod">
+            <node begin="32" end="33" id="54" lemma="zonder" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="zonder" vztype="init" word="zonder"/>
+            <node begin="33" end="34" getal="mv" graad="basis" id="55" lemma="probleem" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="probleem" word="problemen"/>
+          </node>
+          <node begin="34" cat="np" end="39" id="56" rel="obj1">
+            <node begin="34" end="35" id="57" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="35" end="36" getal="mv" graad="basis" id="58" lemma="gezicht" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="gezicht" word="gezichten"/>
+            <node begin="36" cat="pp" end="39" id="59" rel="mod">
+              <node begin="36" end="37" id="60" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+              <node begin="37" cat="np" end="39" id="61" rel="obj1">
+                <node begin="37" end="38" id="62" lemma="vooral" pos="adv" postag="BW()" pt="bw" rel="mod" root="vooral" word="vooral"/>
+                <node begin="38" end="39" id="63" lemma="B." pos="name" postag="SPEC(symb)" pt="spec" rel="hd" root="B." spectype="symb" word="B."/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>Hoewel de prikkels continu veranderen , is de perceptie discontinu : de proefpersonen herkennen zonder aarzelen de gezichten met vooral A , aarzelen bij de zeer smalle overgangszone en herkennen dan weer zonder problemen de gezichten met vooral B.</sentence>
+</alpino_ds>

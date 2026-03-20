@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="du" end="14" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="of" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="of" word="Of"/>
+      <node begin="1" cat="smain" end="14" id="3" rel="nucl">
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="4" index="1" lemma="Braeckman" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Braeckman" word="Braeckman"/>
+        <node begin="2" end="3" id="5" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+        <node begin="1" cat="ppart" end="14" id="6" rel="vc">
+          <node begin="1" end="2" id="7" index="1" rel="obj1"/>
+          <node begin="3" end="4" id="8" lemma="vooralsnog" pos="adv" postag="BW()" pt="bw" rel="mod" root="vooralsnog" word="vooralsnog"/>
+          <node begin="4" buiging="zonder" end="5" id="9" lemma="installeren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="installeer" word="geïnstalleerd" wvorm="vd"/>
+          <node begin="5" cat="pp" end="14" id="10" rel="ld">
+            <node begin="5" end="6" id="11" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="6" cat="np" end="14" id="12" rel="obj1">
+              <node begin="6" end="7" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="14" lemma="job" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="job" word="job"/>
+              <node begin="8" cat="rel" end="14" id="15" rel="mod">
+                <node begin="8" end="9" getal="getal" id="16" index="2" lemma="waar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="noun" postag="VNW(vb,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="rhd" root="waar" status="vol" vwtype="vb" word="waar"/>
+                <node begin="8" cat="ssub" end="14" id="17" rel="body">
+                  <node begin="9" end="10" genus="masc" getal="ev" id="18" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="hij"/>
+                  <node begin="10" cat="pp" end="12" id="19" rel="mod">
+                    <node begin="10" end="11" id="20" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                    <node begin="11" end="12" id="21" lemma="1996" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" root="1996" word="1996"/>
+                  </node>
+                  <node begin="8" cat="pp" end="13" id="22" rel="ld">
+                    <node begin="8" end="9" id="23" index="2" rel="obj1"/>
+                    <node begin="12" end="13" id="24" lcat="p(pp)" lemma="naast" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="naast" vztype="fin" word="naast"/>
+                  </node>
+                  <node begin="13" end="14" id="25" lemma="grijpen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="grijp" word="greep" wvorm="pv"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="26" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Of Braeckman wordt vooralsnog geïnstalleerd in de job waar hij in 1996 naast greep .</sentence>
+</alpino_ds>

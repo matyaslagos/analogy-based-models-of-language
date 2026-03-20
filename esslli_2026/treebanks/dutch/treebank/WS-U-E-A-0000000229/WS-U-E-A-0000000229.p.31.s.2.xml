@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="28" id="0" rel="top">
+    <node begin="0" cat="smain" end="27" id="1" rel="--">
+      <node begin="0" cat="conj" end="10" id="2" rel="su">
+        <node begin="2" conjtype="neven" end="3" id="3" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="0" cat="np" end="10" id="4" rel="cnj">
+          <node begin="0" cat="mwu" end="2" id="5" rel="hd">
+            <node begin="0" end="1" id="6" lemma="Sergey" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Sergey" spectype="deeleigen" word="Sergey"/>
+            <node begin="1" end="2" id="7" lemma="Brin" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Brin" spectype="deeleigen" word="Brin"/>
+          </node>
+          <node begin="5" cat="ap" end="10" id="8" index="1" rel="mod">
+            <node begin="5" cat="np" end="9" id="9" rel="me">
+              <node begin="5" cat="conj" end="8" id="10" rel="det">
+                <node begin="5" end="6" id="11" lemma="30" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="cnj" root="30" word="30"/>
+                <node begin="6" conjtype="neven" end="7" id="12" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                <node begin="7" end="8" id="13" lemma="31" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="cnj" root="31" word="31"/>
+              </node>
+              <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="14" lemma="jaar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="jaar" word="jaar"/>
+            </node>
+            <node begin="9" buiging="zonder" end="10" graad="basis" id="15" lemma="oud" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="oud" word="oud"/>
+          </node>
+        </node>
+        <node begin="3" cat="np" end="10" id="16" rel="cnj">
+          <node begin="3" cat="mwu" end="5" id="17" rel="hd">
+            <node begin="3" end="4" id="18" lemma="Larry" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Larry" spectype="deeleigen" word="Larry"/>
+            <node begin="4" end="5" id="19" lemma="Page" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Page" spectype="deeleigen" word="Page"/>
+          </node>
+          <node begin="5" end="10" id="20" index="1" rel="mod"/>
+        </node>
+      </node>
+      <node begin="10" end="11" id="21" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" word="worden" wvorm="pv"/>
+      <node begin="11" cat="pp" end="14" id="22" rel="mod">
+        <node begin="11" end="12" id="23" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="12" cat="np" end="14" id="24" rel="obj1">
+          <node begin="12" end="13" id="25" lemma="één" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="één" word="één"/>
+          <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="26" lemma="klap" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="klap" word="klap"/>
+        </node>
+      </node>
+      <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="27" lemma="multi-miljardair" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="predc" root="multi_miljardair" word="multi-miljardair"/>
+      <node begin="15" cat="pp" end="27" id="28" rel="mod">
+        <node begin="15" end="16" id="29" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+        <node begin="16" cat="np" end="27" id="30" rel="obj1">
+          <node begin="16" end="17" id="31" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="32" lemma="zoek_machine" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="zoek_machine" word="zoekmachine"/>
+          <node begin="18" cat="rel" end="27" id="33" rel="mod">
+            <node begin="18" end="19" getal="getal" id="34" index="2" lemma="waar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="noun" postag="VNW(vb,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="rhd" root="waar" status="vol" vwtype="vb" word="waar"/>
+            <node begin="18" cat="ssub" end="27" id="35" rel="body">
+              <node begin="19" end="20" getal="mv" id="36" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="ze"/>
+              <node begin="20" cat="np" end="23" id="37" rel="mod">
+                <node begin="20" end="21" id="38" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" word="nog"/>
+                <node begin="21" end="22" id="39" lemma="maar" pos="adv" postag="BW()" pt="bw" rel="mod" root="maar" word="maar"/>
+                <node begin="22" end="23" id="40" lemma="zes" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="hd" root="zes" word="zes"/>
+              </node>
+              <node begin="23" cat="cp" end="25" id="41" rel="predm">
+                <node begin="23" conjtype="onder" end="24" id="42" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+                <node begin="24" end="25" genus="zijd" getal="ev" graad="basis" id="43" lemma="student" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="body" root="student" word="student"/>
+              </node>
+              <node begin="18" cat="pp" end="26" id="44" rel="pc">
+                <node begin="18" end="19" id="45" index="2" rel="obj1"/>
+                <node begin="25" end="26" id="46" lemma="met" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="met" vztype="fin" word="mee"/>
+              </node>
+              <node begin="26" end="27" id="47" lemma="beginnen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="begin" word="begonnen" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="27" end="28" id="48" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Sergey Brin en Larry Page 30 en 31 jaar oud worden in één klap multi-miljardair met de zoekmachine waar ze nog maar zes als student mee begonnen .</sentence>
+</alpino_ds>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="10" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="9" id="2" rel="--">
+      <node begin="0" cat="smain" end="4" id="3" rel="dp">
+        <node begin="0" cat="np" end="2" id="4" index="1" rel="su">
+          <node begin="0" end="1" id="5" lemma="negen" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="negen" word="Negen"/>
+          <node begin="1" end="2" getal="mv" graad="basis" id="6" lemma="bemanning_lid" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="bemanning_lid" word="bemanningsleden"/>
+        </node>
+        <node begin="2" end="3" id="7" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+        <node begin="0" cat="ppart" end="4" id="8" rel="vc">
+          <node begin="0" end="2" id="9" index="1" rel="obj1"/>
+          <node begin="3" buiging="zonder" end="4" id="10" lemma="redden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="red" word="gered" wvorm="vd"/>
+        </node>
+      </node>
+      <node begin="5" cat="smain" end="9" id="11" rel="dp">
+        <node begin="5" cat="np" end="7" id="12" index="2" rel="su">
+          <node begin="5" end="6" id="13" lemma="twee" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="twee" word="twee"/>
+          <node begin="6" buiging="met-e" end="7" getal-n="mv-n" graad="basis" id="14" lemma="dood" pos="adj" positie="nom" postag="ADJ(nom,basis,met-e,mv-n)" pt="adj" rel="hd" root="dood" word="doden"/>
+        </node>
+        <node begin="7" end="8" id="15" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+        <node begin="5" cat="ppart" end="9" id="16" rel="vc">
+          <node begin="5" end="7" id="17" index="2" rel="obj1"/>
+          <node begin="8" buiging="zonder" end="9" id="18" lemma="bergen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="berg" word="geborgen" wvorm="vd"/>
+        </node>
+      </node>
+    </node>
+    <node begin="9" end="10" id="19" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Negen bemanningsleden zijn gered , twee doden zijn geborgen .</sentence>
+</alpino_ds>

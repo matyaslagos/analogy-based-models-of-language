@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="du" end="10" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" word="Maar"/>
+      <node begin="1" cat="smain" end="10" id="3" rel="nucl">
+        <node begin="1" cat="np" end="3" id="4" rel="mod">
+          <node begin="1" buiging="zonder" end="2" id="5" lemma="af_lopen" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="mod" root="afgelopen" word="afgelopen" wvorm="vd"/>
+          <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="6" lemma="zondag" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="zondag" word="zondag"/>
+        </node>
+        <node begin="3" end="4" id="7" lemma="sluiten" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="sluit" word="sloot" wvorm="pv"/>
+        <node begin="4" cat="np" end="7" id="8" rel="su">
+          <node begin="4" end="5" id="9" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="5" buiging="met-e" end="6" graad="basis" id="10" lemma="befaamd" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="befaamd" word="befaamde"/>
+          <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="11" lemma="vis_restaurant" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="vis_restaurant" word="visrestaurant"/>
+        </node>
+        <node begin="7" buiging="zonder" end="8" graad="basis" id="12" lemma="plotseling" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="plotseling" word="plotseling"/>
+        <node begin="8" cat="np" end="10" id="13" rel="obj1">
+          <node begin="8" buiging="zonder" end="9" getal="ev" id="14" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,red,3,ev,prenom,zonder,agr)" pt="vnw" rel="det" root="zijn" status="red" vwtype="bez" word="z&apos;n"/>
+          <node begin="9" end="10" getal="mv" graad="basis" id="15" lemma="deur" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="deur" word="deuren"/>
+        </node>
+      </node>
+    </node>
+    <node begin="10" end="11" id="16" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Maar afgelopen zondag sloot het befaamde visrestaurant plotseling z&apos;n deuren .</sentence>
+</alpino_ds>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="13" end="14" id="2" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="smain" end="20" id="3" rel="--">
+      <node begin="0" cat="whrel" end="7" id="4" rel="su">
+        <node begin="0" end="1" getal="getal" id="5" index="1" lemma="wie" naamval="stan" pdtype="pron" persoon="3p" pos="pron" postag="VNW(vb,pron,stan,vol,3p,getal)" pt="vnw" rel="rhd" root="wie" status="vol" vwtype="vb" word="Wie"/>
+        <node begin="0" cat="ssub" end="7" id="6" rel="body">
+          <node begin="0" end="1" id="7" index="1" rel="su"/>
+          <node begin="1" buiging="zonder" end="2" graad="comp" id="8" lemma="snel" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="snel" word="sneller"/>
+          <node begin="2" end="3" id="9" lemma="weer" pos="adv" postag="BW()" pt="bw" rel="mod" root="weer" word="weer"/>
+          <node begin="3" cat="pp" end="6" id="10" rel="predc">
+            <node begin="3" end="4" id="11" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+            <node begin="4" cat="np" end="6" id="12" rel="obj1">
+              <node begin="4" end="5" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="14" lemma="slag" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="slag" word="slag"/>
+            </node>
+          </node>
+          <node begin="6" end="7" id="15" lemma="willen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="wil" word="wil" wvorm="pv"/>
+        </node>
+      </node>
+      <node begin="8" end="9" id="16" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" word="kan" wvorm="pv"/>
+      <node begin="9" end="10" getal="ev" id="17" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="obj1" root="dat" status="vol" vwtype="aanw" word="dat"/>
+      <node begin="10" cat="pp" end="20" id="18" rel="mod">
+        <node begin="10" end="11" id="19" lemma="vanaf" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="vanaf" vztype="init" word="vanaf"/>
+        <node begin="11" cat="np" end="13" id="20" rel="obj1">
+          <node begin="11" end="12" id="21" lemma="6" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="6" word="6"/>
+          <node begin="12" end="13" getal="mv" graad="basis" id="22" lemma="week" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="week" word="weken"/>
+        </node>
+        <node begin="14" cat="du" end="20" id="23" rel="mod">
+          <node begin="14" conjtype="neven" end="15" id="24" lemma="of" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="of" word="of"/>
+          <node begin="15" cat="np" end="20" id="25" rel="nucl">
+            <node begin="15" end="16" id="26" lemma="7" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="7" word="7"/>
+            <node begin="16" end="17" getal="mv" graad="basis" id="27" lemma="week" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="week" word="weken"/>
+            <node begin="17" cat="pp" end="20" id="28" rel="mod">
+              <node begin="17" end="18" id="29" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+              <node begin="18" cat="np" end="20" id="30" rel="obj1">
+                <node begin="18" end="19" id="31" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                <node begin="19" end="20" genus="zijd" getal="ev" graad="basis" id="32" lemma="meerling" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="meerling" word="meerling"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="20" end="21" id="33" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="21" end="22" id="34" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Wie sneller weer aan de slag wil , kan dat vanaf 6 weken ( of 7 weken bij een meerling ) .</sentence>
+</alpino_ds>

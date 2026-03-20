@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="23" id="0" rel="top">
+    <node begin="13" end="14" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="22" id="2" rel="--">
+      <node begin="4" end="5" id="3" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+      <node begin="5" cat="np" end="8" id="4" index="1" rel="su">
+        <node begin="5" end="6" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="6" lemma="hoofdstad" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="hoofdstad" word="hoofdstad"/>
+        <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="7" lemma="Pago" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="app" root="Pago" word="Pago"/>
+      </node>
+      <node begin="0" cat="ppart" end="22" id="8" rel="vc">
+        <node begin="0" cat="pp" end="4" id="9" rel="mod">
+          <node begin="0" end="1" id="10" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+          <node begin="1" cat="np" end="4" id="11" rel="obj1">
+            <node begin="1" end="2" id="12" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="2" end="3" id="13" lemma="17" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="17e" word="17e"/>
+            <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="14" lemma="eeuw" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="eeuw" word="eeuw"/>
+          </node>
+        </node>
+        <node begin="5" end="8" id="15" index="1" rel="obj1"/>
+        <node begin="8" buiging="zonder" end="9" id="16" lemma="plunderen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="plunder" word="geplunderd" wvorm="vd"/>
+        <node begin="9" cat="pp" end="22" id="17" rel="mod">
+          <node begin="9" end="10" id="18" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+          <node begin="10" cat="np" end="22" id="19" rel="obj1">
+            <node begin="10" end="11" id="20" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="11" buiging="met-e" end="12" graad="basis" id="21" lemma="Portugees" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Portugees" word="Portugese"/>
+            <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="22" lemma="avonturier" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="avonturier" word="avonturier"/>
+            <node begin="14" cat="rel" end="22" id="23" rel="mod">
+              <node begin="14" end="15" getal="getal" id="24" index="2" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+              <node begin="14" cat="conj" end="22" id="25" rel="body">
+                <node begin="14" cat="ssub" end="18" id="26" rel="cnj">
+                  <node begin="14" end="15" id="27" index="2" rel="su"/>
+                  <node begin="15" cat="np" end="17" id="28" index="3" rel="obj1">
+                    <node begin="15" buiging="zonder" end="16" graad="basis" id="29" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,basis)" pt="vnw" rel="det" root="veel" vwtype="onbep" word="veel"/>
+                    <node begin="16" end="17" getal="mv" graad="basis" id="30" lemma="klooster" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="klooster" word="kloosters"/>
+                  </node>
+                  <node begin="17" end="18" id="31" lemma="plunderen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="plunder" word="plunderde" wvorm="pv"/>
+                </node>
+                <node begin="18" conjtype="neven" end="19" id="32" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                <node begin="14" cat="ssub" end="22" id="33" rel="cnj">
+                  <node begin="14" end="15" id="34" index="2" rel="su"/>
+                  <node begin="15" end="17" id="35" index="3" rel="obj1"/>
+                  <node begin="19" cat="pp" end="21" id="36" rel="predc">
+                    <node begin="19" end="20" id="37" lemma="in" pos="adj" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                    <node begin="20" end="21" genus="zijd" getal="ev" graad="basis" id="38" lemma="brand" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="brand" word="brand"/>
+                  </node>
+                  <node begin="21" end="22" id="39" lemma="steken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="steek" word="stak" wvorm="pv"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="22" end="23" id="40" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>In de 17e eeuw werd de hoofdstad Pago geplunderd door een Portugese avonturier , die veel kloosters plunderde en in brand stak .</sentence>
+</alpino_ds>

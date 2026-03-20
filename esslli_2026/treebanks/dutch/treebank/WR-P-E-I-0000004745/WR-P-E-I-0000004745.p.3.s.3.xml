@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="conj" end="10" id="1" rel="--">
+      <node begin="0" cat="pp" end="6" id="2" rel="cnj">
+        <node begin="0" end="1" id="3" lemma="eerst" pos="adv" postag="BW()" pt="bw" rel="mod" root="eerst" word="Eerst"/>
+        <node begin="1" end="2" id="4" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="2" cat="np" end="6" id="5" rel="obj1">
+          <node begin="2" end="3" id="6" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="3" cat="mwu" end="6" id="7" rel="hd">
+            <node begin="3" end="4" id="8" lemma="Democratische" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Democratische" spectype="deeleigen" word="Democratische"/>
+            <node begin="4" end="5" id="9" lemma="Republiek" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Republiek" spectype="deeleigen" word="Republiek"/>
+            <node begin="5" end="6" id="10" lemma="Congo" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Congo" spectype="deeleigen" word="Congo"/>
+          </node>
+        </node>
+      </node>
+      <node begin="6" conjtype="neven" end="7" id="11" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="7" cat="pp" end="10" id="12" rel="cnj">
+        <node begin="7" buiging="zonder" end="8" graad="comp" id="13" lemma="laat" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="laat" word="later"/>
+        <node begin="8" end="9" id="14" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="15" lemma="Bolivia" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Bolivia" word="Bolivia"/>
+      </node>
+    </node>
+    <node begin="10" end="11" id="16" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Eerst in de Democratische Republiek Congo en later in Bolivia .</sentence>
+</alpino_ds>

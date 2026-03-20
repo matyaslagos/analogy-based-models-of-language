@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="5" end="6" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="11" end="12" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="17" end="18" id="4" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="18" end="19" id="5" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="1" cat="du" end="21" id="6" rel="--">
+      <node begin="1" cat="conj" end="17" id="7" rel="nucl">
+        <node begin="1" cat="smain" end="5" id="8" rel="cnj">
+          <node begin="1" end="2" getal="ev" id="9" lemma="ik" naamval="nomin" pdtype="pron" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,vol,1,ev)" pt="vnw" rel="su" root="ik" status="vol" vwtype="pers" word="Ik"/>
+          <node begin="2" end="3" id="10" lemma="lopen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="loop" word="liep" wvorm="pv"/>
+          <node begin="3" cat="pp" end="5" id="11" rel="ld">
+            <node begin="3" end="4" id="12" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+            <node begin="4" end="5" id="13" lemma="beneden" pos="adv" postag="VZ(fin)" pt="vz" rel="obj1" root="beneden" vztype="fin" word="beneden"/>
+          </node>
+        </node>
+        <node begin="6" conjtype="neven" end="7" id="14" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="7" cat="smain" end="17" id="15" rel="cnj">
+          <node begin="7" cat="cp" end="11" id="16" rel="mod">
+            <node begin="7" conjtype="onder" end="8" id="17" lemma="toen" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="toen" word="toen"/>
+            <node begin="8" cat="ssub" end="11" id="18" rel="body">
+              <node begin="8" end="9" getal="ev" id="19" lemma="ik" naamval="nomin" pdtype="pron" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,vol,1,ev)" pt="vnw" rel="su" root="ik" status="vol" vwtype="pers" word="ik"/>
+              <node begin="9" end="10" getal="getal" id="20" lemma="daar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="mod" root="daar" status="vol" vwtype="aanw" word="daar"/>
+              <node begin="10" end="11" id="21" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+            </node>
+          </node>
+          <node begin="12" end="13" id="22" lemma="krijgen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="krijg" word="kreeg" wvorm="pv"/>
+          <node begin="13" end="14" getal="ev" id="23" lemma="iemand" naamval="stan" pdtype="pron" persoon="3p" pos="noun" postag="VNW(onbep,pron,stan,vol,3p,ev)" pt="vnw" rel="su" root="iemand" status="vol" vwtype="onbep" word="iemand"/>
+          <node begin="14" end="15" getal="ev" id="24" lemma="me" naamval="obl" pdtype="pron" persoon="1" pos="pron" postag="VNW(pr,pron,obl,red,1,ev)" pt="vnw" rel="obj1" root="me" status="red" vwtype="pr" word="me"/>
+          <node begin="15" cat="mwu" end="17" id="25" rel="svp">
+            <node begin="15" end="16" id="26" lemma="te" pos="fixed" postag="VZ(init)" pt="vz" rel="mwp" root="te" vztype="init" word="te"/>
+            <node begin="16" buiging="zonder" end="17" id="27" lemma="pakken" pos="fixed" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="mwp" root="pakken" word="pakken" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+      <node begin="19" cat="sv1" end="21" id="28" rel="tag">
+        <node begin="19" end="20" id="29" lemma="zeggen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="zeg" word="zei" wvorm="pv"/>
+        <node begin="20" end="21" genus="masc" getal="ev" id="30" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="hij"/>
+      </node>
+    </node>
+    <node begin="21" end="22" id="31" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>&quot; Ik liep naar beneden , en toen ik daar was , kreeg iemand me te pakken &quot; , zei hij .</sentence>
+</alpino_ds>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="9" end="10" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="12" end="13" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="17" id="3" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="4" lemma="en" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="en" word="En"/>
+      <node begin="1" cat="smain" end="17" id="5" rel="nucl">
+        <node begin="1" cat="np" end="4" id="6" rel="su">
+          <node begin="1" end="2" getal="mv" graad="basis" id="7" lemma="student" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="student" word="studenten"/>
+          <node begin="2" cat="pp" end="4" id="8" rel="mod">
+            <node begin="2" end="3" id="9" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="10" lemma="Brussel" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Brussel" word="Brussel"/>
+          </node>
+        </node>
+        <node begin="4" end="5" id="11" lemma="genieten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="geniet" word="genieten" wvorm="pv"/>
+        <node begin="5" cat="pp" end="17" id="12" rel="pc">
+          <node begin="5" end="6" id="13" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="6" cat="np" end="17" id="14" rel="obj1">
+            <node begin="6" end="7" id="15" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="7" buiging="met-e" end="8" graad="sup" id="16" lemma="ruim" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="mod" root="ruim" word="ruimste"/>
+            <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="17" lemma="aanbod" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="aanbod" word="aanbod"/>
+            <node begin="10" cat="conj" end="17" id="18" rel="mod">
+              <node begin="10" cat="pp" end="12" id="19" rel="cnj">
+                <node begin="10" end="11" id="20" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+                <node begin="11" end="12" getal="mv" graad="basis" id="21" lemma="opleiding" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="opleiding" word="opleidingen"/>
+              </node>
+              <node begin="13" conjtype="neven" end="14" id="22" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+              <node begin="14" cat="pp" end="17" id="23" rel="cnj">
+                <node begin="14" end="15" id="24" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+                <node begin="15" end="16" id="25" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+                <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="26" lemma="afleiding" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="afleiding" word="afleiding"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="27" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>En studenten in Brussel genieten van het ruimste aanbod , aan opleidingen , maar ook aan afleiding .</sentence>
+</alpino_ds>

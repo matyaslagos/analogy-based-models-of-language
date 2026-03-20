@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="0" cat="smain" end="16" id="1" rel="--">
+      <node begin="2" end="3" id="2" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+      <node begin="3" cat="np" end="5" id="3" index="1" rel="su">
+        <node begin="3" end="4" id="4" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+        <node begin="4" end="5" genus="onz" getal="ev" graad="dim" id="5" lemma="stad" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,dim,onz,stan)" pt="n" rel="hd" root="stad_DIM" word="stadje"/>
+      </node>
+      <node begin="0" cat="conj" end="16" id="6" rel="vc">
+        <node begin="0" cat="ppart" end="12" id="7" rel="cnj">
+          <node begin="0" cat="pp" end="2" id="8" index="2" rel="mod">
+            <node begin="0" end="1" id="9" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+            <node begin="1" end="2" id="10" lemma="1583" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" root="1583" word="1583"/>
+          </node>
+          <node begin="3" end="5" id="11" index="1" rel="obj1"/>
+          <node begin="5" cat="pp" end="8" id="12" index="3" rel="mod">
+            <node begin="5" end="6" id="13" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" vztype="init" word="na"/>
+            <node begin="6" cat="np" end="8" id="14" rel="obj1">
+              <node begin="6" end="7" id="15" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="16" lemma="belegering" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="belegering" word="belegering"/>
+            </node>
+          </node>
+          <node begin="8" cat="pp" end="11" id="17" index="4" rel="mod">
+            <node begin="8" end="9" id="18" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+            <node begin="9" cat="mwu" end="11" id="19" rel="obj1">
+              <node begin="9" end="10" id="20" lemma="Alexander" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Alexander" spectype="deeleigen" word="Alexander"/>
+              <node begin="10" end="11" id="21" lemma="Farnèse" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Farnèse" spectype="deeleigen" word="Farnèse"/>
+            </node>
+          </node>
+          <node begin="11" buiging="zonder" end="12" id="22" lemma="in_nemen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="neem_in" word="ingenomen" wvorm="vd"/>
+        </node>
+        <node begin="12" conjtype="neven" end="13" id="23" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="0" cat="ppart" end="16" id="24" rel="cnj">
+          <node begin="0" end="2" id="25" index="2" rel="mod"/>
+          <node begin="3" end="5" id="26" index="1" rel="obj1"/>
+          <node begin="5" end="8" id="27" index="3" rel="mod"/>
+          <node begin="8" end="11" id="28" index="4" rel="mod"/>
+          <node begin="13" cat="pp" end="15" id="29" rel="predc">
+            <node begin="13" end="14" id="30" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="14" end="15" genus="onz" getal="ev" graad="basis" id="31" lemma="puin" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="puin" word="puin"/>
+          </node>
+          <node begin="15" buiging="zonder" end="16" id="32" lemma="leggen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="leg" word="gelegd" wvorm="vd"/>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="33" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>In 1583 wordt het stadje na een belegering door Alexander Farnèse ingenomen en in puin gelegd .</sentence>
+</alpino_ds>

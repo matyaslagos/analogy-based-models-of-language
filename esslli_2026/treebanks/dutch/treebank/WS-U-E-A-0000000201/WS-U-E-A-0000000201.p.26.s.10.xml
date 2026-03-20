@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="0" cat="du" end="17" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="en" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="en" word="En"/>
+      <node begin="1" cat="smain" end="17" id="3" rel="nucl">
+        <node begin="1" end="2" id="4" lemma="dus" pos="adv" postag="BW()" pt="bw" rel="mod" root="dus" word="dus"/>
+        <node begin="2" end="3" id="5" lemma="kiezen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="kies" word="kiest" wvorm="pv"/>
+        <node begin="3" cat="np" end="8" id="6" rel="su">
+          <node begin="3" cat="mwu" end="5" id="7" rel="hd">
+            <node begin="3" end="4" id="8" lemma="twee" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="mwp" root="twee" word="twee"/>
+            <node begin="4" end="5" getal-n="zonder-n" id="9" lemma="drie" numtype="rang" pos="num" positie="nom" postag="TW(rang,nom,zonder-n)" pt="tw" rel="mwp" root="derde" word="derde"/>
+          </node>
+          <node begin="5" cat="pp" end="8" id="10" rel="mod">
+            <node begin="5" end="6" id="11" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="6" cat="np" end="8" id="12" rel="obj1">
+              <node begin="6" end="7" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="7" end="8" getal="mv" graad="basis" id="14" lemma="man" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="man" word="mannen"/>
+            </node>
+          </node>
+        </node>
+        <node begin="8" cat="pp" end="17" id="15" rel="pc">
+          <node begin="8" end="9" id="16" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="9" cat="np" end="17" id="17" rel="obj1">
+            <node begin="9" end="10" id="18" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="10" buiging="met-e" end="11" graad="basis" id="19" lemma="islamitisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="islamitisch" word="Islamitische"/>
+            <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="20" lemma="partner" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="partner" word="partner"/>
+            <node begin="12" cat="pp" end="17" id="21" rel="mod">
+              <node begin="12" end="13" id="22" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" vztype="init" word="uit"/>
+              <node begin="13" cat="np" end="17" id="23" rel="obj1">
+                <node begin="13" end="14" id="24" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                <node begin="14" end="15" genus="onz" getal="ev" graad="basis" id="25" lemma="land" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="land" word="land"/>
+                <node begin="15" cat="pp" end="17" id="26" rel="mod">
+                  <node begin="15" end="16" id="27" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                  <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="28" lemma="herkomst" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="herkomst" word="herkomst"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="29" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>En dus kiest twee derde van de mannen voor een Islamitische partner uit het land van herkomst .</sentence>
+</alpino_ds>

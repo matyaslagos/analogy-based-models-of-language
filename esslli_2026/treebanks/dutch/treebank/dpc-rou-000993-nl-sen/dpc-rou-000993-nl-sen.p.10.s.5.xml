@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="inf" end="7" id="1" rel="--">
+      <node begin="0" buiging="zonder" end="1" id="2" lemma="af_wachten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="wacht_af" word="Afwachten" wvorm="inf"/>
+      <node begin="1" cat="cp" end="7" id="3" rel="vc">
+        <node begin="1" conjtype="onder" end="2" id="4" lemma="of" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="of" word="of"/>
+        <node begin="2" cat="ssub" end="7" id="5" rel="body">
+          <node begin="2" cat="np" end="5" id="6" rel="su">
+            <node begin="2" end="3" id="7" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="3" buiging="met-e" end="4" graad="basis" id="8" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" word="nieuwe"/>
+            <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="9" lemma="parlement" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="parlement" word="parlement"/>
+          </node>
+          <node begin="5" end="6" id="10" lemma="hiervan" pos="pp" postag="BW()" pt="bw" rel="mod" root="hiervan" word="hiervan"/>
+          <node begin="6" end="7" id="11" lemma="lusten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="lust" word="lust" wvorm="pv"/>
+        </node>
+      </node>
+    </node>
+    <node begin="7" end="8" id="12" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Afwachten of het nieuwe parlement hiervan lust .</sentence>
+</alpino_ds>

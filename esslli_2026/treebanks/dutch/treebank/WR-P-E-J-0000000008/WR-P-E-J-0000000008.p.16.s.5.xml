@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="0" cat="smain" end="16" id="1" rel="--">
+      <node begin="1" end="2" id="2" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" word="worden" wvorm="pv"/>
+      <node begin="2" cat="np" end="4" id="3" index="1" rel="su">
+        <node begin="2" end="3" id="4" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="3" end="4" getal="mv" graad="basis" id="5" lemma="formulier" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="formulier" word="formulieren"/>
+      </node>
+      <node begin="0" cat="ppart" end="16" id="6" rel="vc">
+        <node begin="0" end="1" id="7" lemma="daarnaast" pos="pp" postag="BW()" pt="bw" rel="mod" root="daarnaast" word="Daarnaast"/>
+        <node begin="2" end="4" id="8" index="1" rel="obj1"/>
+        <node begin="4" cat="advp" end="6" id="9" rel="mod">
+          <node begin="4" end="5" id="10" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+          <node begin="5" end="6" id="11" lemma="steeds" pos="adv" postag="BW()" pt="bw" rel="hd" root="steeds" word="steeds"/>
+        </node>
+        <node begin="6" cat="conj" end="9" id="12" rel="mod">
+          <node begin="6" buiging="zonder" end="7" graad="basis" id="13" lemma="volledig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="cnj" root="volledig" word="volledig"/>
+          <node begin="7" conjtype="neven" end="8" id="14" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+          <node begin="8" buiging="zonder" end="9" graad="basis" id="15" lemma="correct" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="cnj" root="correct" word="correct"/>
+        </node>
+        <node begin="9" buiging="zonder" end="10" id="16" lemma="in_vullen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="vul_in" word="ingevuld" wvorm="vd"/>
+        <node begin="10" cat="whrel" end="16" id="17" rel="mod">
+          <node begin="10" end="11" id="18" index="2" lemma="waardoor" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waardoor" word="waardoor"/>
+          <node begin="10" cat="ssub" end="16" id="19" rel="body">
+            <node begin="11" cat="np" end="13" id="20" index="3" rel="su">
+              <node begin="11" end="12" id="21" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="12" end="13" getal="mv" graad="basis" id="22" lemma="formulier" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="formulier" word="formulieren"/>
+            </node>
+            <node begin="13" end="14" id="23" lemma="moeten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="moet" word="moeten" wvorm="pv"/>
+            <node begin="10" cat="inf" end="16" id="24" rel="vc">
+              <node begin="11" end="13" id="25" index="3" rel="su"/>
+              <node begin="14" buiging="zonder" end="15" id="26" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+              <node begin="10" cat="ppart" end="16" id="27" rel="vc">
+                <node begin="10" end="11" id="28" index="2" rel="mod"/>
+                <node begin="11" end="13" id="29" index="3" rel="obj1"/>
+                <node begin="15" buiging="zonder" end="16" id="30" lemma="terug_sturen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="stuur_terug" word="teruggestuurd" wvorm="vd"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="31" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Daarnaast worden de formulieren niet steeds volledig of correct ingevuld waardoor de formulieren moeten worden teruggestuurd .</sentence>
+</alpino_ds>

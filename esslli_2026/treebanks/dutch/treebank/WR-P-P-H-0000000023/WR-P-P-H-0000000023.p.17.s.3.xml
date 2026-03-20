@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="np" end="7" id="1" rel="--">
+      <node begin="0" end="1" getal="mv" graad="basis" id="2" lemma="cijfer" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="cijfer" word="Cijfers"/>
+      <node begin="1" cat="rel" end="7" id="3" rel="mod">
+        <node begin="1" end="2" getal="getal" id="4" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+        <node begin="1" cat="ssub" end="7" id="5" rel="body">
+          <node begin="1" end="2" id="6" index="1" rel="su"/>
+          <node begin="2" cat="np" end="4" id="7" rel="obj2">
+            <node begin="2" buiging="met-e" end="3" id="8" lemma="elk" naamval="stan" npagr="evz" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,evz)" pt="vnw" rel="det" root="elk" vwtype="onbep" word="elke"/>
+            <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="9" lemma="fantasie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="fantasie" word="fantasie"/>
+          </node>
+          <node begin="4" cat="mwu" end="6" id="10" rel="svp">
+            <node begin="4" end="5" id="11" lemma="te" pos="fixed" postag="VZ(init)" pt="vz" rel="mwp" root="te" vztype="init" word="te"/>
+            <node begin="5" end="6" id="12" lemma="boven" pos="fixed" postag="VZ(fin)" pt="vz" rel="mwp" root="boven" vztype="fin" word="boven"/>
+          </node>
+          <node begin="6" end="7" id="13" lemma="gaan" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ga" word="gaan" wvorm="pv"/>
+        </node>
+      </node>
+    </node>
+    <node begin="7" end="8" id="14" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Cijfers die elke fantasie te boven gaan .</sentence>
+</alpino_ds>

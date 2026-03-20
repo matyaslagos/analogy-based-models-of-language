@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="39" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="9" end="10" id="2" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="13" end="14" id="3" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="25" end="26" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="34" end="35" id="5" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="37" end="38" id="6" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="39" id="7" rel="--">
+      <node begin="0" cat="np" end="13" id="8" index="1" rel="su">
+        <node begin="0" buiging="met-e" end="1" graad="basis" id="9" lemma="biologisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="biologisch" word="Biologische"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="10" lemma="proces" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="proces" word="processen"/>
+        <node begin="2" cat="cp" end="13" id="11" rel="mod">
+          <node begin="2" conjtype="onder" end="3" id="12" lemma="zoals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zoals" word="zoals"/>
+          <node begin="3" cat="np" end="13" id="13" rel="body">
+            <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="14" lemma="foto_synthese" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="foto_synthese" word="fotosynthese"/>
+            <node begin="5" cat="np" end="13" id="15" rel="app">
+              <node begin="5" end="6" id="16" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="17" lemma="groei" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="groei" word="groei"/>
+              <node begin="7" cat="pp" end="13" id="18" rel="mod">
+                <node begin="7" end="8" id="19" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="8" cat="np" end="13" id="20" rel="obj1">
+                  <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="21" lemma="fytoplankton" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="fytoplankton" word="fytoplankton"/>
+                  <node begin="10" cat="np" end="13" id="22" rel="mod">
+                    <node begin="10" cat="ap" end="12" id="23" rel="mod">
+                      <node begin="10" buiging="zonder" end="11" graad="basis" id="24" lemma="microscopisch" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="microscopisch" word="microscopisch"/>
+                      <node begin="11" buiging="met-e" end="12" graad="basis" id="25" lemma="klein" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="hd" root="klein" word="kleine"/>
+                    </node>
+                    <node begin="12" end="13" getal="mv" graad="basis" id="26" lemma="alg" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="alg" word="algen"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="14" end="15" id="27" lemma="kunnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kan" word="kunnen" wvorm="pv"/>
+      <node begin="0" cat="inf" end="39" id="28" rel="vc">
+        <node begin="0" end="13" id="29" index="1" rel="su"/>
+        <node begin="19" buiging="zonder" end="20" id="30" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+        <node begin="0" cat="ppart" end="39" id="31" rel="vc">
+          <node begin="0" end="13" id="32" index="1" rel="obj1"/>
+          <node begin="15" cat="pp" end="18" id="33" rel="mod">
+            <node begin="15" end="16" id="34" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="16" cat="np" end="18" id="35" rel="obj1">
+              <node begin="16" end="17" id="36" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="17" end="18" genus="onz" getal="ev" graad="basis" id="37" lemma="model" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="model" word="model"/>
+            </node>
+          </node>
+          <node begin="18" buiging="zonder" end="19" id="38" lemma="gieten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="giet" word="gegoten" wvorm="vd"/>
+          <node begin="20" cat="pp" end="39" id="39" rel="mod">
+            <node begin="20" cat="mwu" end="23" id="40" rel="hd">
+              <node begin="20" end="21" id="41" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="door" vztype="init" word="door"/>
+              <node begin="21" end="22" genus="onz" getal="ev" graad="basis" id="42" lemma="middel" naamval="stan" ntype="soort" pos="prep" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="middel" word="middel"/>
+              <node begin="22" end="23" id="43" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="van" vztype="init" word="van"/>
+            </node>
+            <node begin="23" cat="np" end="39" id="44" rel="obj1">
+              <node begin="23" buiging="met-e" end="24" graad="basis" id="45" lemma="wiskundig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="wiskundig" word="wiskundige"/>
+              <node begin="24" end="25" getal="mv" graad="basis" id="46" lemma="vergelijking" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vergelijking" word="vergelijkingen"/>
+              <node begin="26" cat="rel" end="39" id="47" rel="mod">
+                <node begin="26" end="27" getal="getal" id="48" index="2" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+                <node begin="26" cat="ssub" end="39" id="49" rel="body">
+                  <node begin="26" end="27" id="50" index="2" rel="su"/>
+                  <node begin="27" cat="np" end="29" id="51" rel="obj1">
+                    <node begin="27" end="28" id="52" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="28" end="29" genus="zijd" getal="ev" graad="basis" id="53" lemma="groei" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="groei" word="groei"/>
+                  </node>
+                  <node begin="29" end="30" id="54" lemma="relateren" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="relateer" word="relateren" wvorm="pv"/>
+                  <node begin="30" cat="pp" end="39" id="55" rel="pc">
+                    <node begin="30" end="31" id="56" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+                    <node begin="31" cat="np" end="39" id="57" rel="obj1">
+                      <node begin="31" end="32" getal="mv" graad="basis" id="58" lemma="factor" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="factor" word="factoren"/>
+                      <node begin="32" cat="cp" end="39" id="59" rel="mod">
+                        <node begin="32" conjtype="onder" end="33" id="60" lemma="zoals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zoals" word="zoals"/>
+                        <node begin="33" cat="conj" end="39" id="61" rel="body">
+                          <node begin="33" end="34" genus="onz" getal="ev" graad="basis" id="62" lemma="licht" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="cnj" root="licht" word="licht"/>
+                          <node begin="35" cat="np" end="37" id="63" rel="cnj">
+                            <node begin="35" buiging="met-e" end="36" graad="basis" id="64" lemma="beschikbaar" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="beschikbaar" word="beschikbare"/>
+                            <node begin="36" end="37" getal="mv" graad="basis" id="65" lemma="nutriënt" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="nutriënten" word="nutriënten"/>
+                          </node>
+                          <node begin="38" end="39" id="66" lemma="enzovoorts" pos="vg" postag="SPEC(afk)" pt="spec" rel="crd" root="enzovoorts" spectype="afk" word="enz."/>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>Biologische processen zoals fotosynthese , de groei van fytoplankton ( microscopisch kleine algen ) kunnen in een model gegoten worden door middel van wiskundige vergelijkingen , die de groei relateren aan factoren zoals licht , beschikbare nutriënten , enz.</sentence>
+</alpino_ds>

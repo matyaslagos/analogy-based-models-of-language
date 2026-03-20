@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="44" id="0" rel="top">
+    <node begin="10" end="11" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="15" end="16" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="19" end="20" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="23" end="24" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="30" end="31" id="5" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="33" end="34" id="6" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="36" end="37" id="7" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="43" id="8" rel="--">
+      <node begin="0" end="1" getal="ev" id="9" lemma="dit" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" root="dit" status="vol" vwtype="aanw" word="Dit"/>
+      <node begin="1" end="2" id="10" lemma="gelden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="geld" word="geldt" wvorm="pv"/>
+      <node begin="2" cat="advp" end="43" id="11" rel="mod">
+        <node begin="2" end="3" getal="getal" id="12" lemma="overal" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(onbep,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="hd" root="overal" status="vol" vwtype="onbep" word="overal"/>
+        <node begin="3" cat="rel" end="7" id="13" rel="mod">
+          <node begin="3" end="4" getal="getal" id="14" index="1" lemma="waar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(vb,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="rhd" root="waar" status="vol" vwtype="vb" word="waar"/>
+          <node begin="3" cat="ssub" end="7" id="15" rel="body">
+            <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="16" index="2" lemma="drank" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="su" root="drank" word="drank"/>
+            <node begin="5" end="6" id="17" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+            <node begin="3" cat="ppart" end="7" id="18" rel="vc">
+              <node begin="3" end="4" id="19" index="1" rel="mod"/>
+              <node begin="4" end="5" id="20" index="2" rel="obj1"/>
+              <node begin="6" buiging="zonder" end="7" id="21" lemma="verkopen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="verkoop" word="verkocht" wvorm="vd"/>
+            </node>
+          </node>
+        </node>
+        <node begin="7" cat="cp" end="43" id="22" rel="mod">
+          <node begin="7" conjtype="onder" end="8" id="23" lemma="zoals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zoals" word="zoals"/>
+          <node begin="8" cat="conj" end="43" id="24" rel="body">
+            <node begin="8" cat="pp" end="10" id="25" rel="cnj">
+              <node begin="8" end="9" id="26" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+              <node begin="9" end="10" getal="mv" graad="basis" id="27" lemma="supermarkt" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="super_markt" word="supermarkten"/>
+            </node>
+            <node begin="11" cat="pp" end="15" id="28" rel="cnj">
+              <node begin="11" end="12" id="29" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+              <node begin="12" cat="conj" end="15" id="30" rel="obj1">
+                <node begin="12" end="13" getal="mv" graad="basis" id="31" lemma="cafetaria" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="cafetaria" word="cafetaria&apos;s"/>
+                <node begin="13" conjtype="neven" end="14" id="32" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                <node begin="14" end="15" getal="mv" graad="basis" id="33" lemma="snackbar" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="snackbar" word="snackbars"/>
+              </node>
+            </node>
+            <node begin="16" cat="pp" end="19" id="34" rel="cnj">
+              <node begin="16" end="17" id="35" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+              <node begin="17" cat="np" end="19" id="36" rel="obj1">
+                <node begin="17" end="18" id="37" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="18" end="19" genus="zijd" getal="ev" graad="basis" id="38" lemma="slijter" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="slijter" word="slijter"/>
+              </node>
+            </node>
+            <node begin="20" cat="pp" end="23" id="39" rel="cnj">
+              <node begin="20" end="21" id="40" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+              <node begin="21" cat="np" end="23" id="41" rel="obj1">
+                <node begin="21" end="22" id="42" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                <node begin="22" end="23" genus="onz" getal="ev" graad="basis" id="43" lemma="café" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="café" word="café"/>
+              </node>
+            </node>
+            <node begin="24" cat="pp" end="30" id="44" rel="cnj">
+              <node begin="24" end="25" id="45" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+              <node begin="25" cat="np" end="30" id="46" rel="obj1">
+                <node begin="25" end="26" id="47" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="26" end="27" genus="zijd" getal="ev" graad="basis" id="48" lemma="kantine" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="kantine" word="kantine"/>
+                <node begin="27" cat="pp" end="30" id="49" rel="mod">
+                  <node begin="27" end="28" id="50" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                  <node begin="28" cat="np" end="30" id="51" rel="obj1">
+                    <node begin="28" end="29" id="52" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="29" end="30" genus="zijd" getal="ev" graad="basis" id="53" lemma="sport_club" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="sport_club" word="sportclub"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node begin="31" cat="pp" end="36" id="54" rel="cnj">
+              <node begin="31" end="32" id="55" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+              <node begin="32" cat="conj" end="36" id="56" rel="obj1">
+                <node begin="32" end="33" id="57" lemma="club" pos="prefix" postag="SPEC(afgebr)" pt="spec" rel="cnj" root="club" spectype="afgebr" word="club"/>
+                <node begin="34" conjtype="neven" end="35" id="58" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                <node begin="35" end="36" getal="mv" graad="basis" id="59" lemma="buurt_huis" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="buurthuis" word="buurthuizen"/>
+              </node>
+            </node>
+            <node begin="37" cat="pp" end="39" id="60" rel="cnj">
+              <node begin="37" end="38" id="61" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+              <node begin="38" end="39" getal="mv" graad="basis" id="62" lemma="pop_festival" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="pop_festival" word="popfestivals"/>
+            </node>
+            <node begin="39" conjtype="neven" end="40" id="63" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="40" cat="pp" end="43" id="64" rel="cnj">
+              <node begin="40" end="41" id="65" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+              <node begin="41" cat="np" end="43" id="66" rel="obj1">
+                <node begin="41" end="42" id="67" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="42" end="43" genus="zijd" getal="ev" graad="basis" id="68" lemma="discotheek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="discotheek" word="discotheek"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="43" end="44" id="69" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dit geldt overal waar drank wordt verkocht zoals in supermarkten , in cafetaria&apos;s en snackbars , bij de slijter , in het café , in de kantine van de sportclub , in club - en buurthuizen , op popfestivals en in de discotheek .</sentence>
+</alpino_ds>

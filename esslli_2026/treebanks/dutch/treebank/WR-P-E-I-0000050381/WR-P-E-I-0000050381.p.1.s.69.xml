@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="10" end="11" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="15" id="2" rel="--">
+      <node begin="0" cat="np" end="3" id="3" rel="su">
+        <node begin="0" end="1" id="4" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" buiging="met-e" end="2" graad="basis" id="5" lemma="Romeins" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Romeins" word="Romeinse"/>
+        <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="6" lemma="baan" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="baan" word="baan"/>
+      </node>
+      <node begin="3" end="4" id="7" lemma="lopen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="loop" word="liep" wvorm="pv"/>
+      <node begin="4" cat="pp" end="6" id="8" rel="mod">
+        <node begin="4" end="5" id="9" lemma="langs" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="langs" vztype="init" word="langs"/>
+        <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="10" lemma="Wolder" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Wolder" word="Wolder"/>
+      </node>
+      <node begin="6" cat="pp" end="15" id="11" rel="ld">
+        <node begin="6" end="7" id="12" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" vztype="init" word="tot"/>
+        <node begin="7" cat="pp" end="15" id="13" rel="obj1">
+          <node begin="7" end="8" id="14" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+          <node begin="8" cat="np" end="15" id="15" rel="obj1">
+            <node begin="8" end="9" id="16" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="17" lemma="Brusselsepoort" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Brussels_poort" word="Brusselsepoort"/>
+            <node begin="11" cat="pp" end="15" id="18" rel="mod">
+              <node begin="11" end="12" id="19" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+              <node begin="12" cat="np" end="15" id="20" rel="obj1">
+                <node begin="12" end="13" id="21" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="13" buiging="met-e" end="14" graad="basis" id="22" lemma="huidig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="huidig" word="huidige"/>
+                <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="23" lemma="Brusselsestraat" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Brussels_straat" word="Brusselsestraat"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="24" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De Romeinse baan liep langs Wolder tot aan de Brusselsepoort , aan de huidige Brusselsestraat .</sentence>
+</alpino_ds>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="10" id="2" rel="--">
+      <node begin="0" cat="smain" end="3" id="3" rel="cnj">
+        <node begin="0" end="1" getal="mv" id="4" index="1" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="Ze"/>
+        <node begin="1" end="2" id="5" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" word="worden" wvorm="pv"/>
+        <node begin="2" buiging="zonder" end="3" graad="basis" id="6" lemma="opstandig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="opstandig" word="opstandig"/>
+      </node>
+      <node begin="0" cat="smain" end="6" id="7" rel="cnj">
+        <node begin="0" end="1" id="8" index="1" rel="su"/>
+        <node begin="4" end="5" id="9" lemma="veroorzaken" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="veroorzaak" word="veroorzaken" wvorm="pv"/>
+        <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="10" lemma="overlast" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="overlast" word="overlast"/>
+      </node>
+      <node begin="6" conjtype="neven" end="7" id="11" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="0" cat="smain" end="10" id="12" rel="cnj">
+        <node begin="0" end="1" id="13" index="1" rel="su"/>
+        <node begin="7" end="8" id="14" lemma="vertonen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="vertoon" word="vertonen" wvorm="pv"/>
+        <node begin="8" cat="np" end="10" id="15" rel="obj1">
+          <node begin="8" buiging="zonder" end="9" graad="basis" id="16" lemma="crimineel" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="crimineel" word="crimineel"/>
+          <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="17" lemma="gedrag" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="gedrag" word="gedrag"/>
+        </node>
+      </node>
+    </node>
+    <node begin="10" end="11" id="18" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Ze worden opstandig , veroorzaken overlast en vertonen crimineel gedrag .</sentence>
+</alpino_ds>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="10" id="0" rel="top">
+    <node begin="0" cat="du" end="9" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" word="Maar"/>
+      <node begin="1" cat="smain" end="9" id="3" rel="nucl">
+        <node begin="1" end="2" id="4" lemma="toen" pos="adv" postag="BW()" pt="bw" rel="mod" root="toen" word="toen"/>
+        <node begin="2" end="3" id="5" lemma="beginnen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="begin" word="begon" wvorm="pv"/>
+        <node begin="3" cat="pp" end="6" id="6" rel="mod">
+          <node begin="3" end="4" id="7" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="4" cat="np" end="6" id="8" rel="obj1">
+            <node begin="4" buiging="met-e" end="5" getal="mv" graad="basis" id="9" lemma="beide" naamval="stan" pdtype="grad" pos="det" positie="prenom" postag="VNW(onbep,grad,stan,prenom,met-e,mv,basis)" pt="vnw" rel="det" root="beide" vwtype="onbep" word="beide"/>
+            <node begin="5" end="6" getal="mv" graad="basis" id="10" lemma="slachtoffer" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="slachtoffer" word="slachtoffers"/>
+          </node>
+        </node>
+        <node begin="6" cat="np" end="9" id="11" rel="su">
+          <node begin="6" end="7" id="12" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="7" buiging="met-e" end="8" graad="basis" id="13" lemma="moeilijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="moeilijk" word="moeilijke"/>
+          <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="14" lemma="tijd" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="tijd" word="tijd"/>
+        </node>
+      </node>
+    </node>
+    <node begin="9" end="10" id="15" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Maar toen begon voor beide slachtoffers een moeilijke tijd .</sentence>
+</alpino_ds>

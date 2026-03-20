@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="6" end="7" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="10" end="11" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="1" cat="smain" end="15" id="4" rel="--">
+      <node begin="1" cat="np" end="10" id="5" index="1" rel="su">
+        <node begin="1" end="2" getal="ev" id="6" lemma="niemand" naamval="stan" pdtype="pron" persoon="3p" pos="pron" postag="VNW(onbep,pron,stan,vol,3p,ev)" pt="vnw" rel="hd" root="niemand" status="vol" vwtype="onbep" word="Niemand"/>
+        <node begin="2" cat="pp" end="10" id="7" rel="mod">
+          <node begin="2" end="3" id="8" lemma="binnen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="binnen" vztype="init" word="binnen"/>
+          <node begin="3" cat="conj" end="10" id="9" rel="obj1">
+            <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="10" lemma="SP.A" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="SP.A" word="SP.A"/>
+            <node begin="4" conjtype="neven" end="5" id="11" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="12" lemma="PS" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="PS" word="PS"/>
+            <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="13" lemma="VLD" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="VLD" word="VLD"/>
+            <node begin="8" conjtype="neven" end="9" id="14" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+            <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="15" lemma="PRL" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="PRL" word="PRL"/>
+          </node>
+        </node>
+      </node>
+      <node begin="11" end="12" id="16" lemma="willen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="wil" word="wil" wvorm="pv"/>
+      <node begin="1" cat="inf" end="15" id="17" rel="vc">
+        <node begin="1" end="10" id="18" index="1" rel="su"/>
+        <node begin="12" end="13" getal="ev" id="19" index="2" lemma="dit" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="obj1" root="dit" status="vol" vwtype="aanw" word="dit"/>
+        <node begin="13" buiging="zonder" end="14" id="20" lemma="laten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="laat" word="laten" wvorm="inf"/>
+        <node begin="12" cat="inf" end="15" id="21" rel="vc">
+          <node begin="12" end="13" id="22" index="2" rel="su"/>
+          <node begin="14" buiging="zonder" end="15" id="23" lemma="ontploffen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ontplof" word="ontploffen" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="24" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>&apos; Niemand binnen SP.A en PS , VLD of PRL , wil dit laten ontploffen .</sentence>
+</alpino_ds>

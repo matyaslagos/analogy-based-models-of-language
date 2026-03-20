@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="0" cat="conj" end="17" id="1" rel="--">
+      <node begin="0" cat="smain" end="8" id="2" rel="cnj">
+        <node begin="0" cat="np" end="6" id="3" rel="su">
+          <node begin="0" end="1" id="4" lemma="29" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="29" word="29"/>
+          <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="5" lemma="procent" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="procent" word="procent"/>
+          <node begin="2" cat="pp" end="6" id="6" rel="mod">
+            <node begin="2" end="3" id="7" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="3" cat="np" end="6" id="8" rel="obj1">
+              <node begin="3" end="4" id="9" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="10" lemma="VVD" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" root="VVD" word="vvd"/>
+              <node begin="5" end="6" getal="mv" graad="basis" id="11" lemma="kiezer" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kiezer" word="kiezers"/>
+            </node>
+          </node>
+        </node>
+        <node begin="6" end="7" id="12" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="7" end="8" id="13" lemma="daarvoor" pos="pp" postag="BW()" pt="bw" rel="pc" root="daarvoor" word="daarvoor"/>
+      </node>
+      <node begin="8" conjtype="neven" end="9" id="14" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="9" cat="smain" end="17" id="15" rel="cnj">
+        <node begin="9" cat="pp" end="12" id="16" rel="mod">
+          <node begin="9" end="10" id="17" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+          <node begin="10" cat="np" end="12" id="18" rel="obj1">
+            <node begin="10" end="11" id="19" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="11" end="12" getal="mv" graad="basis" id="20" lemma="LPF_kiezer" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="LPF_kiezer" word="LPF-kiezers"/>
+          </node>
+        </node>
+        <node begin="12" end="13" id="21" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="13" end="14" getal="ev" id="22" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" root="dat" status="vol" vwtype="aanw" word="dat"/>
+        <node begin="14" end="15" id="23" lemma="zelfs" pos="adv" postag="BW()" pt="bw" rel="mod" root="zelfs" word="zelfs"/>
+        <node begin="15" cat="np" end="17" id="24" rel="predc">
+          <node begin="15" end="16" id="25" lemma="50" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="50" word="50"/>
+          <node begin="16" end="17" genus="onz" getal="ev" graad="basis" id="26" lemma="procent" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="procent" word="procent"/>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="27" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>29 procent van de vvd kiezers is daarvoor en bij de LPF-kiezers is dat zelfs 50 procent .</sentence>
+</alpino_ds>

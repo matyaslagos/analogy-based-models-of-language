@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="28" id="0" rel="top">
+    <node begin="10" end="11" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="27" id="2" rel="--">
+      <node begin="0" cat="smain" end="16" id="3" rel="dp">
+        <node begin="0" cat="np" end="3" id="4" rel="su">
+          <node begin="0" end="1" id="5" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+          <node begin="1" buiging="zonder" end="2" graad="basis" id="6" lemma="dagelijks" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="dagelijks" word="dagelijks"/>
+          <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="7" lemma="bestuur" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="bestuur" word="bestuur"/>
+        </node>
+        <node begin="3" end="4" id="8" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="4" cat="pp" end="6" id="9" rel="predc">
+          <node begin="4" end="5" id="10" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="5" end="6" getal="mv" graad="basis" id="11" lemma="hand" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="hand" word="handen"/>
+        </node>
+        <node begin="6" cat="pp" end="16" id="12" rel="pc">
+          <node begin="6" end="7" id="13" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="7" cat="np" end="16" id="14" rel="obj1">
+            <node begin="7" end="8" id="15" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="8" buiging="met-e" end="9" graad="basis" id="16" lemma="bestendig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="bestendig" word="bestendige"/>
+            <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="17" lemma="deputatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="deputatie" word="deputatie"/>
+            <node begin="11" cat="ppart" end="16" id="18" rel="mod">
+              <node begin="11" buiging="zonder" end="12" id="19" lemma="samen_stellen" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="samengesteld" word="samengesteld" wvorm="vd"/>
+              <node begin="12" cat="pp" end="16" id="20" rel="mod">
+                <node begin="12" end="13" id="21" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+                <node begin="13" cat="conj" end="16" id="22" rel="obj1">
+                  <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="23" lemma="CD&amp;V" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="CD&amp;V" word="CD&amp;V"/>
+                  <node begin="14" conjtype="neven" end="15" id="24" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                  <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="25" lemma="SP.A" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="sp.a." word="sp.a."/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="16" cat="conj" end="27" id="26" rel="dp">
+        <node begin="16" cat="smain" end="20" id="27" rel="cnj">
+          <node begin="16" end="17" getal="getal" id="28" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="3" pos="name" postag="VNW(aanw,pron,stan,vol,3,getal)" pt="vnw" rel="su" root="Die" status="vol" vwtype="aanw" word="Die"/>
+          <node begin="17" end="18" id="29" lemma="tellen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="tel" word="telt" wvorm="pv"/>
+          <node begin="18" cat="np" end="20" id="30" rel="obj1">
+            <node begin="18" end="19" id="31" lemma="6" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="6" word="6"/>
+            <node begin="19" end="20" getal="mv" graad="basis" id="32" lemma="lid" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="lid" word="leden"/>
+          </node>
+        </node>
+        <node begin="20" conjtype="neven" end="21" id="33" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="16" cat="smain" end="27" id="34" rel="cnj">
+          <node begin="16" end="17" id="35" index="1" rel="su"/>
+          <node begin="21" end="22" id="36" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+          <node begin="16" cat="ppart" end="27" id="37" rel="vc">
+            <node begin="16" end="17" id="38" index="1" rel="obj1"/>
+            <node begin="22" buiging="zonder" end="23" id="39" lemma="voor_zitten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="zit_voor" word="voorgezeten" wvorm="vd"/>
+            <node begin="23" cat="pp" end="27" id="40" rel="mod">
+              <node begin="23" end="24" id="41" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+              <node begin="24" cat="np" end="27" id="42" rel="obj1">
+                <node begin="24" end="25" genus="zijd" getal="ev" graad="basis" id="43" lemma="gouverneur" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="gouverneur" word="gouverneur"/>
+                <node begin="25" cat="mwu" end="27" id="44" rel="app">
+                  <node begin="25" end="26" id="45" lemma="Paul" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Paul" spectype="deeleigen" word="Paul"/>
+                  <node begin="26" end="27" id="46" lemma="Breyne" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Breyne" spectype="deeleigen" word="Breyne"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="27" end="28" id="47" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het dagelijks bestuur is in handen van de bestendige deputatie , samengesteld door CD&amp;V en sp.a. Die telt 6 leden en wordt voorgezeten door gouverneur Paul Breyne .</sentence>
+</alpino_ds>

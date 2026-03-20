@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="25" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="9" end="10" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="13" end="14" id="3" lemma=";" pos="punct" postag="LET()" pt="let" rel="--" root=";" word=";"/>
+    <node begin="16" end="17" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="21" end="22" id="5" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="24" id="6" rel="--">
+      <node begin="0" cat="cp" end="13" id="7" rel="dp">
+        <node begin="0" conjtype="onder" end="1" id="8" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="Dat"/>
+        <node begin="1" cat="ssub" end="13" id="9" rel="body">
+          <node begin="1" cat="mwu" end="4" id="10" rel="su">
+            <node begin="1" end="2" id="11" lemma="A" pos="name" postag="SPEC(symb)" pt="spec" rel="mwp" root="A" spectype="symb" word="A"/>
+            <node begin="2" conjtype="neven" end="3" id="12" lemma="en" pos="name" postag="VG(neven)" pt="vg" rel="mwp" root="en" word="en"/>
+            <node begin="3" end="4" id="13" lemma="B" pos="name" postag="SPEC(symb)" pt="spec" rel="mwp" root="B" spectype="symb" word="B"/>
+          </node>
+          <node begin="5" cat="cp" end="9" id="14" rel="mod">
+            <node begin="5" conjtype="onder" end="6" id="15" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+            <node begin="6" cat="ssub" end="9" id="16" rel="body">
+              <node begin="6" end="7" getal="mv" id="17" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="ze"/>
+              <node begin="7" end="8" getal="mv" graad="basis" id="18" lemma="hoeveelheid" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="predc" root="hoeveelheid" word="hoeveelheden"/>
+              <node begin="8" end="9" id="19" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+            </node>
+          </node>
+          <node begin="10" cat="np" end="12" id="20" rel="obj1">
+            <node begin="10" buiging="zonder" end="11" graad="basis" id="21" lemma="dezelfde" pos="det" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="det" root="dezelfde" word="dezelfde"/>
+            <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="22" lemma="hoeveelheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="hoeveelheid" word="hoeveelheid"/>
+          </node>
+          <node begin="12" end="13" id="23" lemma="beschrijven" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="beschrijf" word="beschrijven" wvorm="pv"/>
+        </node>
+      </node>
+      <node begin="14" cat="du" end="21" id="24" rel="dp">
+        <node begin="14" cat="du" end="16" id="25" rel="dp">
+          <node begin="14" conjtype="onder" end="15" id="26" lemma="wanneer" pos="comp" postag="VG(onder)" pt="vg" rel="dp" root="wanneer" word="wanneer"/>
+          <node begin="15" end="16" getal="mv" graad="basis" id="27" lemma="operatie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="dp" root="operatie" word="operaties"/>
+        </node>
+        <node begin="17" cat="du" end="21" id="28" rel="dp">
+          <node begin="17" cat="np" end="19" id="29" rel="dp">
+            <node begin="17" buiging="zonder" end="18" getal="mv" id="30" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+            <node begin="18" end="19" genus="onz" getal="ev" graad="basis" id="31" lemma="effect" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="effect" word="effect"/>
+          </node>
+          <node begin="19" buiging="zonder" end="20" graad="basis" id="32" lemma="hetzelfde" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="dp" root="hetzelfde" word="hetzelfde"/>
+          <node begin="20" end="21" id="33" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="dp" root="ben" word="is" wvorm="pv"/>
+        </node>
+      </node>
+      <node begin="22" cat="mwu" end="24" id="34" rel="dp">
+        <node begin="22" end="23" id="35" lemma="et" pos="vg" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="et" spectype="vreemd" word="et"/>
+        <node begin="23" end="24" id="36" lemma="cetera" pos="vg" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="cetera" spectype="vreemd" word="cetera"/>
+      </node>
+    </node>
+    <node begin="24" end="25" id="37" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dat A en B , als ze hoeveelheden zijn , dezelfde hoeveelheid beschrijven ; wanneer operaties , hun effect hetzelfde is , et cetera .</sentence>
+</alpino_ds>

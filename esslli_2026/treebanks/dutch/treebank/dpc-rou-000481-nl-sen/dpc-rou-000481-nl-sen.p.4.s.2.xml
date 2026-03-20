@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="du" end="13" id="2" rel="--">
+      <node begin="0" end="1" genus="fem" getal="ev" id="3" lemma="zij" naamval="nomin" pdtype="pron" persoon="3v" pos="pron" postag="VNW(pers,pron,nomin,vol,3v,ev,fem)" pt="vnw" rel="sat" root="zij" status="vol" vwtype="pers" word="Zij"/>
+      <node begin="2" cat="np" end="13" id="4" rel="nucl">
+        <node begin="2" end="3" id="5" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="3" buiging="met-e" end="4" id="6" lemma="in_snoeren" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="in_gesnoerd" word="ingesnoerde" wvorm="vd"/>
+        <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="7" lemma="prinses" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="prinses" word="prinses"/>
+        <node begin="5" cat="rel" end="13" id="8" rel="mod">
+          <node begin="5" end="6" getal="getal" id="9" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+          <node begin="5" cat="ssub" end="13" id="10" rel="body">
+            <node begin="5" end="6" id="11" index="1" rel="su"/>
+            <node begin="11" end="12" id="12" lemma="willen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="wil" word="wou" wvorm="pv"/>
+            <node begin="5" cat="inf" end="13" id="13" rel="vc">
+              <node begin="5" end="6" id="14" index="1" rel="su"/>
+              <node begin="6" end="7" id="15" lemma="even" pos="adj" postag="BW()" pt="bw" rel="mod" root="even" word="even"/>
+              <node begin="7" cat="pp" end="11" id="16" rel="pc">
+                <node begin="7" end="8" id="17" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="8" cat="np" end="11" id="18" rel="obj1">
+                  <node begin="8" end="9" id="19" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                  <node begin="9" buiging="met-e" end="10" graad="basis" id="20" lemma="echt" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="echt" word="echte"/>
+                  <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="21" lemma="leven" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="leven" word="leven"/>
+                </node>
+              </node>
+              <node begin="12" buiging="zonder" end="13" id="22" lemma="proeven" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="proef" word="proeven" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="23" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Zij : een ingesnoerde prinses die even van het echte leven wou proeven .</sentence>
+</alpino_ds>

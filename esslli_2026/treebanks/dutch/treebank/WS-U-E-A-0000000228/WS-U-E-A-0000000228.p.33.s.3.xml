@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="smain" end="5" id="1" rel="--">
+      <node begin="0" end="1" getal="mv" graad="basis" id="2" lemma="rivier" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="rivier" word="Rivieren"/>
+      <node begin="1" end="2" id="3" lemma="treden" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="treed" word="traden" wvorm="pv"/>
+      <node begin="2" cat="pp" end="5" id="4" rel="svp">
+        <node begin="2" end="3" id="5" lemma="buiten" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="buiten" vztype="init" word="buiten"/>
+        <node begin="3" cat="np" end="5" id="6" rel="obj1">
+          <node begin="3" buiging="zonder" end="4" getal="mv" id="7" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+          <node begin="4" end="5" getal="mv" graad="basis" id="8" lemma="oever" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="oever" word="oevers"/>
+        </node>
+      </node>
+    </node>
+    <node begin="5" end="6" id="9" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Rivieren traden buiten hun oevers .</sentence>
+</alpino_ds>

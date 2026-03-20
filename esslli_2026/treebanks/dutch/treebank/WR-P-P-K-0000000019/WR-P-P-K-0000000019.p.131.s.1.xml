@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="1" cat="inf" end="7" id="2" rel="--">
+      <node begin="1" buiging="zonder" end="2" graad="basis" id="3" lemma="actief" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="actief" word="actief"/>
+      <node begin="2" buiging="zonder" end="3" id="4" lemma="werken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="werk" word="werken" wvorm="inf"/>
+      <node begin="3" cat="pp" end="7" id="5" rel="pc">
+        <node begin="3" end="4" id="6" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+        <node begin="4" cat="np" end="7" id="7" rel="obj1">
+          <node begin="4" end="5" id="8" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="5" buiging="zonder" end="6" graad="basis" id="9" lemma="duurzaam" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="duurzaam" word="duurzaam"/>
+          <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="10" lemma="milieu" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="milieu" word="milieu"/>
+        </node>
+      </node>
+    </node>
+    <node begin="7" end="8" id="11" lemma=";" pos="punct" postag="LET()" pt="let" rel="--" root=";" word=";"/>
+  </node>
+  <sentence>- actief werken aan een duurzaam milieu ;</sentence>
+</alpino_ds>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="2" end="3" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="1" cat="du" end="7" id="3" rel="--">
+      <node begin="1" end="2" id="4" lemma="ja" pos="tag" postag="TSW()" pt="tsw" rel="tag" root="ja" word="Ja"/>
+      <node begin="3" cat="conj" end="7" id="5" rel="nucl">
+        <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="6" lemma="Lila" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Lila" word="Lila"/>
+        <node begin="4" conjtype="neven" end="5" id="7" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="5" cat="np" end="7" id="8" rel="cnj">
+          <node begin="5" end="6" id="9" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="10" lemma="bewaker" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="bewaker" word="bewaker"/>
+        </node>
+      </node>
+    </node>
+    <node begin="7" end="8" id="11" lemma="..." pos="punct" postag="LET()" pt="let" rel="--" root="..." word="..."/>
+  </node>
+  <sentence>- Ja , Lila en de bewaker ...</sentence>
+</alpino_ds>

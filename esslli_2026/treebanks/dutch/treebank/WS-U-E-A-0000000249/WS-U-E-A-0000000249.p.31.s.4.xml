@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="0" cat="du" end="18" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" word="Maar"/>
+      <node begin="1" cat="smain" end="18" id="3" rel="nucl">
+        <node begin="1" cat="np" end="3" id="4" rel="su">
+          <node begin="1" end="2" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="6" lemma="brouwerij" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="brouwerij" word="brouwerij"/>
+        </node>
+        <node begin="3" end="4" id="7" lemma="hebben" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="heb" word="had" wvorm="pv"/>
+        <node begin="4" end="5" id="8" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+        <node begin="5" cat="np" end="18" id="9" rel="obj1">
+          <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="10" lemma="last" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="last" word="last"/>
+          <node begin="6" cat="pp" end="18" id="11" rel="mod">
+            <node begin="6" end="7" id="12" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="7" cat="np" end="18" id="13" rel="obj1">
+              <node begin="7" end="8" id="14" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="8" buiging="met-e" end="9" graad="basis" id="15" lemma="economisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="economisch" word="economische"/>
+              <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="16" lemma="teruggang" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="teruggang" word="teruggang"/>
+              <node begin="10" cat="pp" end="12" id="17" rel="mod">
+                <node begin="10" end="11" id="18" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="19" lemma="Europa" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Europa" word="Europa"/>
+              </node>
+              <node begin="12" cat="rel" end="18" id="20" rel="mod">
+                <node begin="12" end="13" id="21" index="1" lemma="waardoor" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waardoor" word="waardoor"/>
+                <node begin="12" cat="ssub" end="18" id="22" rel="body">
+                  <node begin="12" end="13" id="23" index="1" rel="mod"/>
+                  <node begin="13" cat="np" end="17" id="24" rel="su">
+                    <node begin="13" end="14" id="25" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                    <node begin="14" end="15" genus="onz" getal="ev" graad="basis" id="26" lemma="bezoek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="bezoek" word="bezoek"/>
+                    <node begin="15" cat="pp" end="17" id="27" rel="mod">
+                      <node begin="15" end="16" id="28" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+                      <node begin="16" end="17" getal="mv" graad="basis" id="29" lemma="café" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="cafe&apos;s" word="cafe&apos;s"/>
+                    </node>
+                  </node>
+                  <node begin="17" end="18" id="30" lemma="af_nemen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="neem_af" word="afnam" wvorm="pv"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="31" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Maar de brouwerij had ook last van de economische teruggang in Europa waardoor het bezoek aan cafe&apos;s afnam .</sentence>
+</alpino_ds>

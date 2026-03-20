@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="conj" end="7" id="1" rel="--">
+      <node begin="0" cat="smain" end="4" id="2" rel="cnj">
+        <node begin="0" end="1" getal="mv" id="3" index="1" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="Ze"/>
+        <node begin="1" end="2" id="4" lemma="hebben" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="heb" word="hadden" wvorm="pv"/>
+        <node begin="2" cat="np" end="4" id="5" rel="obj1">
+          <node begin="2" buiging="met-e" end="3" graad="basis" id="6" lemma="administratief" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="administratief" word="administratieve"/>
+          <node begin="3" end="4" getal="mv" graad="basis" id="7" lemma="taak" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="taak" word="taken"/>
+        </node>
+      </node>
+      <node begin="4" conjtype="neven" end="5" id="8" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+      <node begin="0" cat="sv1" end="7" id="9" rel="cnj">
+        <node begin="0" end="1" id="10" index="1" rel="su"/>
+        <node begin="5" end="6" id="11" lemma="verzorgen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="verzorg" word="verzorgden" wvorm="pv"/>
+        <node begin="6" end="7" getal="mv" graad="basis" id="12" lemma="toneel_voorstelling" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="toneel_voorstelling" word="toneelvoorstellingen"/>
+      </node>
+    </node>
+    <node begin="7" end="8" id="13" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Ze hadden administratieve taken of verzorgden toneelvoorstellingen .</sentence>
+</alpino_ds>

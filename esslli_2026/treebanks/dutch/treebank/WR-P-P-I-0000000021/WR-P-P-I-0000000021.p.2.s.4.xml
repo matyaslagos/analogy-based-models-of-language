@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="12" end="13" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="19" id="2" rel="--">
+      <node begin="0" cat="pp" end="3" id="3" rel="mod">
+        <node begin="0" end="1" id="4" lemma="volgens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="volgens" vztype="init" word="Volgens"/>
+        <node begin="1" cat="np" end="3" id="5" rel="obj1">
+          <node begin="1" end="2" id="6" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="2" end="3" getal="mv" graad="basis" id="7" lemma="Amerikaan" ntype="eigen" pos="noun" postag="N(eigen,mv,basis)" pt="n" rel="hd" root="Amerikaan" word="Amerikanen"/>
+        </node>
+      </node>
+      <node begin="3" end="4" id="8" lemma="gaan" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ga" word="ging" wvorm="pv"/>
+      <node begin="4" end="5" genus="onz" getal="ev" id="9" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" root="het" status="red" vwtype="pers" word="het"/>
+      <node begin="5" cat="pp" end="19" id="10" rel="pc">
+        <node begin="5" end="6" id="11" lemma="om" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="om" vztype="init" word="om"/>
+        <node begin="6" cat="np" end="19" id="12" rel="obj1">
+          <node begin="6" end="7" id="13" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="14" lemma="bombardement" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="bombardement" word="bombardement"/>
+          <node begin="8" cat="pp" end="19" id="15" rel="mod">
+            <node begin="8" end="9" id="16" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+            <node begin="9" cat="np" end="19" id="17" rel="obj1">
+              <node begin="9" end="10" getal="mv" graad="basis" id="18" lemma="strijder" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="strijder" word="strijders"/>
+              <node begin="10" cat="pp" end="19" id="19" rel="mod">
+                <node begin="10" end="11" id="20" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="11" cat="np" end="19" id="21" rel="obj1">
+                  <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="22" lemma="al-Qaida" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="al-Qaeda" word="al-Qaeda"/>
+                  <node begin="13" cat="np" end="19" id="23" rel="app">
+                    <node begin="13" end="14" id="24" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="25" lemma="terreur_organisatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="terreur_organisatie" word="terreurorganisatie"/>
+                    <node begin="15" cat="pp" end="19" id="26" rel="mod">
+                      <node begin="15" end="16" id="27" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                      <node begin="16" cat="mwu" end="19" id="28" rel="obj1">
+                        <node begin="16" end="17" id="29" lemma="Osama" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Osama" spectype="deeleigen" word="Osama"/>
+                        <node begin="17" end="18" id="30" lemma="Bin" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Bin" spectype="deeleigen" word="Bin"/>
+                        <node begin="18" end="19" id="31" lemma="Laden" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Laden" spectype="deeleigen" word="Laden"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="32" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Volgens de Amerikanen ging het om een bombardement op strijders van al-Qaeda , de terreurorganisatie van Osama Bin Laden .</sentence>
+</alpino_ds>

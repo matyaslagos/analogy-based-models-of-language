@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="8" id="2" rel="--">
+      <node begin="0" end="1" id="3" lemma="immers" pos="comp" postag="BW()" pt="bw" rel="dlink" root="immers" word="Immers"/>
+      <node begin="2" cat="smain" end="8" id="4" rel="nucl">
+        <node begin="2" cat="np" end="7" id="5" rel="su">
+          <node begin="2" end="3" id="6" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="7" lemma="aantal" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="aantal" word="aantal"/>
+          <node begin="4" cat="np" end="7" id="8" rel="mod">
+            <node begin="4" cat="ppart" end="6" id="9" rel="mod">
+              <node begin="4" buiging="zonder" end="5" graad="basis" id="10" lemma="goed" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="goed" word="goed"/>
+              <node begin="5" buiging="met-e" end="6" id="11" lemma="op_leiden" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="hd" root="opgeleid" word="opgeleide" wvorm="vd"/>
+            </node>
+            <node begin="6" end="7" getal="mv" graad="basis" id="12" lemma="werknemer" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="werknemer" word="werknemers"/>
+          </node>
+        </node>
+        <node begin="7" end="8" id="13" lemma="slinken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="slink" word="slinkt" wvorm="pv"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="14" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Immers , het aantal goed opgeleide werknemers slinkt .</sentence>
+</alpino_ds>

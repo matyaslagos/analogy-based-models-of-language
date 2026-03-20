@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="7" end="8" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="14" end="15" id="3" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="smain" end="18" id="4" rel="--">
+      <node begin="0" cat="np" end="7" id="5" rel="su">
+        <node begin="0" end="1" id="6" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+        <node begin="1" buiging="met-e" end="2" graad="basis" id="7" lemma="gemiddeld" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="gemiddeld" word="gemiddelde"/>
+        <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="8" lemma="verbruik" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="verbruik" word="verbruik"/>
+        <node begin="3" cat="pp" end="7" id="9" rel="mod">
+          <node begin="3" end="4" id="10" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="4" cat="np" end="7" id="11" rel="obj1">
+            <node begin="4" end="5" getal="mv" graad="basis" id="12" lemma="flat" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="flat" word="flats"/>
+            <node begin="6" end="7" getal="mv" graad="basis" id="13" lemma="meer_gezin_woning" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mod" root="meer_gezin_woning" word="meergezinswoningen"/>
+          </node>
+        </node>
+      </node>
+      <node begin="8" end="9" id="14" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="9" cat="ap" end="18" id="15" rel="predc">
+        <node begin="9" buiging="zonder" end="10" graad="basis" id="16" lemma="aanzienlijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="aanzienlijk" word="aanzienlijk"/>
+        <node begin="10" buiging="zonder" end="11" graad="comp" id="17" lemma="laag" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="laag" word="lager"/>
+        <node begin="11" cat="cp" end="18" id="18" rel="obcomp">
+          <node begin="11" conjtype="onder" end="12" id="19" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="dan" word="dan"/>
+          <node begin="12" cat="pp" end="18" id="20" rel="body">
+            <node begin="12" end="13" id="21" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="13" cat="np" end="18" id="22" rel="obj1">
+              <node begin="13" end="14" getal="mv" graad="basis" id="23" lemma="eengezin_woning" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="eengezinswoningen" word="eengezinswoningen"/>
+              <node begin="15" cat="sv1" end="18" id="24" rel="mod">
+                <node begin="15" end="16" id="25" lemma="zien" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zie" word="zie" wvorm="pv"/>
+                <node begin="16" cat="np" end="18" id="26" rel="obj1">
+                  <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="27" lemma="figuur" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="figuur" word="figuur"/>
+                  <node begin="17" end="18" id="28" lemma="6.3" pos="num" postag="SPEC(symb)" pt="spec" rel="app" root="6.3" spectype="symb" word="6.3"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="29" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="19" end="20" id="30" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het gemiddelde verbruik in flats ( meergezinswoningen ) is aanzienlijk lager dan in eengezinswoningen ( zie figuur 6.3 ) .</sentence>
+</alpino_ds>

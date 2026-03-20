@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="0" cat="np" end="9" id="2" rel="su">
+        <node begin="0" cat="mwu" end="2" id="3" rel="mod">
+          <node begin="0" end="1" id="4" lemma="onder" pos="adv" postag="VZ(init)" pt="vz" rel="mwp" root="onder" vztype="init" word="Onder"/>
+          <node begin="1" buiging="zonder" end="2" graad="comp" id="5" lemma="veel" naamval="stan" pdtype="grad" pos="adv" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mwp" root="meer" vwtype="onbep" word="meer"/>
+        </node>
+        <node begin="2" end="3" id="6" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+        <node begin="3" cat="mwu" end="7" id="7" rel="hd">
+          <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="8" lemma="Refugehuis" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="mwp" root="Refugehuis" word="Refugehuis"/>
+          <node begin="4" end="5" id="9" lemma="van" pos="name" postag="VZ(init)" pt="vz" rel="mwp" root="van" vztype="init" word="van"/>
+          <node begin="5" end="6" id="10" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="name" postag="LID(bep,stan,rest)" pt="lid" rel="mwp" root="de" word="de"/>
+          <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="11" lemma="abdij" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Abdij" word="Abdij"/>
+        </node>
+        <node begin="7" cat="pp" end="9" id="12" rel="mod">
+          <node begin="7" end="8" id="13" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="14" lemma="Herkenrode" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Herkenrode" word="Herkenrode"/>
+        </node>
+      </node>
+      <node begin="9" end="10" id="15" lemma="bevinden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="bevind" word="bevindt" wvorm="pv"/>
+      <node begin="10" end="11" getal="getal" id="16" lemma="zich" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="se" root="zich" status="red" vwtype="refl" word="zich"/>
+      <node begin="11" cat="pp" end="14" id="17" rel="ld">
+        <node begin="11" end="12" id="18" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="12" cat="np" end="14" id="19" rel="obj1">
+          <node begin="12" end="13" id="20" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="21" lemma="centrum" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="centrum" word="centrum"/>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Onder meer het Refugehuis van de Abdij van Herkenrode bevindt zich in het centrum .</sentence>
+</alpino_ds>

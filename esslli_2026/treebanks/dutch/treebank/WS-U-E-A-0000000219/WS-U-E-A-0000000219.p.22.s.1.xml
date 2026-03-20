@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="0" cat="np" end="10" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="4" lemma="schande" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="schande" word="schande"/>
+        <node begin="2" cat="pp" end="10" id="5" rel="mod">
+          <node begin="2" end="3" id="6" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="3" cat="np" end="10" id="7" rel="obj1">
+            <node begin="3" end="4" id="8" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="9" lemma="mishandeling" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="mishandeling" word="mishandeling"/>
+            <node begin="5" cat="pp" end="7" id="10" rel="mod">
+              <node begin="5" end="6" id="11" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+              <node begin="6" end="7" getal="mv" graad="basis" id="12" lemma="Amerikaan" ntype="eigen" pos="noun" postag="N(eigen,mv,basis)" pt="n" rel="obj1" root="Amerikaan" word="Amerikanen"/>
+            </node>
+            <node begin="7" cat="pp" end="10" id="13" rel="mod">
+              <node begin="7" end="8" id="14" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+              <node begin="8" cat="mwu" end="10" id="15" rel="obj1">
+                <node begin="8" end="9" id="16" lemma="Abu" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Abu" spectype="deeleigen" word="Abu"/>
+                <node begin="9" end="10" id="17" lemma="Ghraib-gevangenis" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Ghraib-gevangenis" spectype="deeleigen" word="Ghraib-gevangenis"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="10" end="11" id="18" lemma="achtervolgen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="achtervolg" word="achtervolgde" wvorm="pv"/>
+      <node begin="11" end="12" getal="mv" id="19" lemma="hen" naamval="obl" pdtype="pron" persoon="3p" pos="pron" postag="VNW(pers,pron,obl,vol,3p,mv)" pt="vnw" rel="obj1" root="hen" status="vol" vwtype="pers" word="hen"/>
+      <node begin="12" cat="np" end="14" id="20" rel="mod">
+        <node begin="12" end="13" id="21" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mod" root="al" word="al"/>
+        <node begin="13" end="14" getal="mv" graad="basis" id="22" lemma="week" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="week" word="weken"/>
+      </node>
+    </node>
+    <node begin="14" end="15" id="23" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De schande van de mishandeling door Amerikanen in Abu Ghraib-gevangenis achtervolgde hen al weken .</sentence>
+</alpino_ds>

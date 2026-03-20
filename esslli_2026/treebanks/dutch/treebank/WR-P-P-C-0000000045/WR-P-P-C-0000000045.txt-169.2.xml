@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="conj" end="6" id="1" rel="--">
+      <node begin="1" conjtype="neven" end="2" id="2" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+      <node begin="0" cat="np" end="6" id="3" rel="cnj">
+        <node begin="0" buiging="zonder" end="1" getal-n="zonder-n" id="4" lemma="staken" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="staak" word="Staken" wvorm="inf"/>
+        <node begin="3" cat="pp" end="6" id="5" index="1" rel="mod">
+          <node begin="3" end="4" id="6" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="4" cat="np" end="6" id="7" rel="obj1">
+            <node begin="4" end="5" id="8" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="9" lemma="medicatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="medicatie" word="medicatie"/>
+          </node>
+        </node>
+      </node>
+      <node begin="2" cat="np" end="6" id="10" rel="cnj">
+        <node begin="2" buiging="zonder" end="3" getal-n="zonder-n" id="11" lemma="wijzigen" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="wijzig" word="wijzigen" wvorm="inf"/>
+        <node begin="3" end="6" id="12" index="1" rel="mod"/>
+      </node>
+    </node>
+    <node begin="6" end="7" id="13" lemma="G" pos="tag" postag="SPEC(symb)" pt="spec" rel="--" root="G" spectype="symb" word="G"/>
+  </node>
+  <sentence>Staken of wijzigen van de medicatie G</sentence>
+</alpino_ds>

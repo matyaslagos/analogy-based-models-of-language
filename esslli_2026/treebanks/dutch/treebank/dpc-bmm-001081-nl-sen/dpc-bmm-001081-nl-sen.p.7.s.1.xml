@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="np" end="7" id="1" rel="--">
+      <node begin="0" cat="conj" end="3" id="2" rel="mod">
+        <node begin="0" end="1" id="3" lemma="GC-MS" pos="name" postag="SPEC(symb)" pt="spec" rel="cnj" root="GC-MS" spectype="symb" word="GC-MS"/>
+        <node begin="1" conjtype="neven" end="2" id="4" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="2" end="3" id="5" lemma="GC" pos="name" postag="SPEC(symb)" pt="spec" rel="cnj" root="GC" spectype="symb" word="GC"/>
+      </node>
+      <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="6" lemma="systeem" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="systeem" word="systeem"/>
+      <node begin="4" cat="pp" end="7" id="7" rel="mod">
+        <node begin="4" end="5" id="8" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+        <node begin="5" cat="np" end="7" id="9" rel="obj1">
+          <node begin="5" buiging="met-e" end="6" graad="basis" id="10" lemma="organisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="organisch" word="organische"/>
+          <node begin="6" end="7" getal="mv" graad="basis" id="11" lemma="verbinding" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="verbinding" word="verbindingen"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>GC-MS en GC systeem voor organische verbindingen</sentence>
+</alpino_ds>

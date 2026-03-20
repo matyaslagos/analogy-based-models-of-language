@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="du" end="15" id="2" rel="--">
+      <node begin="0" end="1" id="3" lemma="1." pos="tag" postag="SPEC(symb)" pt="spec" rel="tag" root="1." spectype="symb" word="1."/>
+      <node begin="1" cat="np" end="15" id="4" rel="nucl">
+        <node begin="1" end="2" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="DE"/>
+        <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="6" lemma="unie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="unie" word="UNIE"/>
+        <node begin="3" cat="pp" end="6" id="7" rel="mod">
+          <node begin="3" end="4" id="8" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="IN"/>
+          <node begin="4" cat="np" end="6" id="9" rel="obj1">
+            <node begin="4" end="5" id="10" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="DE"/>
+            <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="11" lemma="wereld" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="wereld" word="WERELD"/>
+          </node>
+        </node>
+        <node begin="7" cat="conj" end="15" id="12" rel="app">
+          <node begin="7" cat="np" end="9" id="13" rel="cnj">
+            <node begin="7" end="8" id="14" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="EEN"/>
+            <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="15" lemma="positie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="positie" word="POSITIE"/>
+          </node>
+          <node begin="9" conjtype="neven" end="10" id="16" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="EN"/>
+          <node begin="10" cat="np" end="15" id="17" rel="cnj">
+            <node begin="10" end="11" id="18" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="EEN"/>
+            <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="19" lemma="rol" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="rol" word="ROL"/>
+            <node begin="12" cat="oti" end="15" id="20" rel="mod">
+              <node begin="12" end="13" id="21" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="OM"/>
+              <node begin="13" cat="ti" end="15" id="22" rel="body">
+                <node begin="13" end="14" id="23" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="TE"/>
+                <node begin="14" buiging="zonder" end="15" id="24" lemma="handhaven" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="body" root="handhaaf" word="HANDHAVEN" wvorm="inf"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>1. DE UNIE IN DE WERELD : EEN POSITIE EN EEN ROL OM TE HANDHAVEN</sentence>
+</alpino_ds>

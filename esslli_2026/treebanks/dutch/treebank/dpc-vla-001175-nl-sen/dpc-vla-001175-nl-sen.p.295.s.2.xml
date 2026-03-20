@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="15" id="2" rel="--">
+      <node begin="0" cat="np" end="7" id="3" index="1" rel="su">
+        <node begin="0" end="1" id="4" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="5" lemma="kwalificatie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kwalificatie" word="kwalificaties"/>
+        <node begin="2" cat="rel" end="7" id="6" rel="mod">
+          <node begin="2" end="3" getal="getal" id="7" index="2" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+          <node begin="2" cat="ssub" end="7" id="8" rel="body">
+            <node begin="2" end="3" id="9" index="2" rel="obj1"/>
+            <node begin="3" cat="np" end="6" id="10" rel="su">
+              <node begin="3" end="4" id="11" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="4" buiging="met-e" end="5" graad="basis" id="12" lemma="verschillend" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="verschil" word="verschillende"/>
+              <node begin="5" end="6" getal="mv" graad="basis" id="13" lemma="opleiding_verstrekker" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="opleidingsverstrekker" word="opleidingsverstrekkers"/>
+            </node>
+            <node begin="6" end="7" id="14" lemma="uit_reiken" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="reik_uit" word="uitreiken" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+      <node begin="8" end="9" id="15" lemma="zullen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="zal" word="zouden" wvorm="pv"/>
+      <node begin="0" cat="inf" end="15" id="16" rel="vc">
+        <node begin="0" end="7" id="17" index="1" rel="su"/>
+        <node begin="13" buiging="zonder" end="14" id="18" lemma="kunnen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="kan" word="kunnen" wvorm="inf"/>
+        <node begin="0" cat="inf" end="15" id="19" rel="vc">
+          <node begin="0" end="7" id="20" index="1" rel="su"/>
+          <node begin="9" end="10" id="21" lemma="daardoor" pos="adv" postag="BW()" pt="bw" rel="mod" root="daardoor" word="daardoor"/>
+          <node begin="10" cat="np" end="13" id="22" rel="obj1">
+            <node begin="10" end="11" id="23" lemma="één" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="één" word="één"/>
+            <node begin="11" buiging="zonder" end="12" id="24" lemma="samen_hangen" pos="adj" positie="prenom" postag="WW(od,prenom,zonder)" pt="ww" rel="mod" root="samengangend" word="samenhangend" wvorm="od"/>
+            <node begin="12" end="13" genus="onz" getal="ev" graad="basis" id="25" lemma="geheel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="geheel" word="geheel"/>
+          </node>
+          <node begin="14" buiging="zonder" end="15" id="26" lemma="vormen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="vorm" word="vormen" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="27" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De kwalificaties die de verschillende opleidingsverstrekkers uitreiken , zouden daardoor één samenhangend geheel kunnen vormen .</sentence>
+</alpino_ds>

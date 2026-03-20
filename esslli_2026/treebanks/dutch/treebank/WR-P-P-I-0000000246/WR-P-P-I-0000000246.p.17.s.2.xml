@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="du" end="7" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="en" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="en" word="En"/>
+      <node begin="1" cat="smain" end="7" id="3" rel="nucl">
+        <node begin="1" cat="np" end="4" id="4" index="1" rel="su">
+          <node begin="1" end="2" getal="ev" id="5" lemma="wat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(onbep,pron,stan,vol,3o,ev)" pt="vnw" rel="det" root="wat" status="vol" vwtype="onbep" word="wat"/>
+          <node begin="2" buiging="met-e" end="3" graad="basis" id="6" lemma="politiek" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="politiek" word="politieke"/>
+          <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="7" lemma="stabiliteit" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="stabiliteit" word="stabiliteit"/>
+        </node>
+        <node begin="4" end="5" id="8" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" word="kan" wvorm="pv"/>
+        <node begin="1" cat="inf" end="7" id="9" rel="vc">
+          <node begin="1" end="4" id="10" index="1" rel="su"/>
+          <node begin="5" end="6" getal="mv" graad="basis" id="11" lemma="wonder" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="wonder" word="wonderen"/>
+          <node begin="6" buiging="zonder" end="7" id="12" lemma="doen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="doe" word="doen" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="7" end="8" id="13" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>En wat politieke stabiliteit kan wonderen doen .</sentence>
+</alpino_ds>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="smain" end="15" id="1" rel="--">
+      <node begin="0" cat="conj" end="8" id="2" index="1" rel="su">
+        <node begin="0" cat="np" end="5" id="3" rel="cnj">
+          <node begin="0" end="1" id="4" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+          <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="5" lemma="energie_gebruik" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="energie_gebruik" word="energiegebruik"/>
+          <node begin="2" cat="pp" end="5" id="6" rel="mod">
+            <node begin="2" end="3" id="7" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="3" cat="np" end="5" id="8" rel="obj1">
+              <node begin="3" end="4" id="9" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="10" lemma="woning" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="woning" word="woning"/>
+            </node>
+          </node>
+        </node>
+        <node begin="5" conjtype="neven" end="6" id="11" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+        <node begin="6" cat="np" end="8" id="12" rel="cnj">
+          <node begin="6" end="7" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="14" lemma="besparing" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="besparing" word="besparing"/>
+        </node>
+      </node>
+      <node begin="8" end="9" id="15" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="0" cat="ti" end="15" id="16" rel="vc">
+        <node begin="13" end="14" id="17" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+        <node begin="0" cat="inf" end="15" id="18" rel="body">
+          <node begin="0" end="8" id="19" index="1" rel="obj1"/>
+          <node begin="10" end="11" id="20" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+          <node begin="11" buiging="zonder" end="12" graad="basis" id="21" lemma="rechtstreeks" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="rechtstreeks" word="rechtstreeks"/>
+          <node begin="9" cat="pp" end="13" id="22" rel="pc">
+            <node begin="9" end="10" getal="getal" id="23" lemma="hier" naamval="obl" pdtype="adv-pron" persoon="3o" pos="noun" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="obj1" root="hier" status="vol" vwtype="aanw" word="hier"/>
+            <node begin="12" end="13" id="24" lemma="aan" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="aan" vztype="fin" word="aan"/>
+          </node>
+          <node begin="14" buiging="zonder" end="15" id="25" lemma="koppelen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="koppel" word="koppelen" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="26" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het energiegebruik van een woning of de besparing is hier niet rechtstreeks aan te koppelen .</sentence>
+</alpino_ds>

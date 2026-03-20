@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="10" id="0" rel="top">
+    <node begin="0" cat="smain" end="9" id="1" rel="--">
+      <node begin="0" end="1" genus="onz" getal="ev" id="2" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="noun" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="sup" root="het" status="red" vwtype="pers" word="Het"/>
+      <node begin="1" end="2" id="3" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="2" buiging="zonder" end="3" graad="basis" id="4" lemma="onduidelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="onduidelijk" word="onduidelijk"/>
+      <node begin="3" cat="whsub" end="9" id="5" rel="su">
+        <node begin="3" cat="np" end="5" id="6" index="1" rel="whd">
+          <node begin="3" end="4" id="7" lemma="hoeveel" naamval="stan" numtype="hoofd" pos="adj" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="hoeveel" word="hoeveel"/>
+          <node begin="4" end="5" getal="mv" graad="basis" id="8" lemma="scholier" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="scholier" word="scholieren"/>
+        </node>
+        <node begin="3" cat="ssub" end="9" id="9" rel="body">
+          <node begin="3" end="5" id="10" index="1" rel="su"/>
+          <node begin="7" end="8" id="11" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" word="worden" wvorm="pv"/>
+          <node begin="3" cat="ppart" end="9" id="12" rel="vc">
+            <node begin="3" end="5" id="13" index="1" rel="obj1"/>
+            <node begin="5" end="6" getal="getal" id="14" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+            <node begin="6" buiging="zonder" end="7" graad="basis" id="15" lemma="precies" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="precies" word="precies"/>
+            <node begin="8" buiging="zonder" end="9" id="16" lemma="gijzelen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="gijzel" word="gegijzeld" wvorm="vd"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="9" end="10" id="17" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het is onduidelijk hoeveel scholieren er precies worden gegijzeld .</sentence>
+</alpino_ds>

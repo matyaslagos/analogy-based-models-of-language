@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="8" id="2" rel="--">
+      <node begin="0" cat="cp" end="4" id="3" rel="mod">
+        <node begin="0" conjtype="onder" end="1" id="4" lemma="naarmate" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="naarmate" word="Naarmate"/>
+        <node begin="1" cat="ssub" end="4" id="5" rel="body">
+          <node begin="1" cat="np" end="3" id="6" rel="su">
+            <node begin="1" end="2" id="7" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="8" lemma="feest_terrein" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="feest_terrein" word="feestterrein"/>
+          </node>
+          <node begin="3" end="4" id="9" lemma="naderen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="nader" word="nadert" wvorm="pv"/>
+        </node>
+      </node>
+      <node begin="5" end="6" id="10" lemma="raken" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="raak" word="raken" wvorm="pv"/>
+      <node begin="6" end="7" getal="mv" graad="basis" id="11" lemma="weg" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="weg" word="wegen"/>
+      <node begin="7" buiging="zonder" end="8" graad="comp" id="12" lemma="vol" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="predc" root="vol" word="voller"/>
+    </node>
+    <node begin="8" end="9" id="13" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Naarmate het feestterrein nadert , raken wegen voller .</sentence>
+</alpino_ds>

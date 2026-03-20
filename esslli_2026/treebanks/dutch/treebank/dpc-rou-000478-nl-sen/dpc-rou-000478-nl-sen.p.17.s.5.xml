@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="12" end="13" id="2" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="0" cat="smain" end="18" id="3" rel="--">
+      <node begin="0" cat="np" end="12" id="4" rel="su">
+        <node begin="0" buiging="met-e" end="1" getal="mv" id="5" lemma="ons" naamval="stan" npagr="rest" pdtype="det" persoon="1" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,1,mv,prenom,met-e,rest)" pt="vnw" rel="det" root="ons" status="vol" vwtype="bez" word="Onze"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="6" lemma="investering" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="investering" word="investering"/>
+        <node begin="2" cat="pp" end="4" id="7" rel="mod">
+          <node begin="2" end="3" id="8" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="9" lemma="technologie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="technologie" word="technologie"/>
+        </node>
+        <node begin="5" cat="np" end="12" id="10" rel="mod">
+          <node begin="5" buiging="zonder" end="6" graad="basis" id="11" lemma="vlot" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="vlot" word="vlot"/>
+          <node begin="6" end="7" id="12" lemma="20.000" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="20.000" word="20.000"/>
+          <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="13" lemma="euro" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="euro" word="euro"/>
+          <node begin="8" cat="pp" end="12" id="14" rel="mod">
+            <node begin="8" end="9" id="15" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+            <node begin="9" cat="np" end="12" id="16" rel="obj1">
+              <node begin="9" end="10" id="17" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="10" buiging="zonder" end="11" graad="basis" id="18" lemma="volwaardig" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="volwaardig" word="volwaardig"/>
+              <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="19" lemma="domotica_systeem" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="domoticasysteem" word="domoticasysteem"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="13" end="14" id="20" lemma="terug_betalen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="betaal_terug" word="betaalt" wvorm="pv"/>
+      <node begin="14" end="15" getal="getal" id="21" lemma="zich" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="obj1" root="zich" status="red" vwtype="refl" word="zich"/>
+      <node begin="15" end="16" id="22" lemma="terug" pos="part" postag="BW()" pt="bw" rel="svp" root="terug" word="terug"/>
+      <node begin="16" cat="pp" end="18" id="23" rel="mod">
+        <node begin="16" end="17" id="24" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="25" lemma="leven_kwaliteit" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="leven_kwaliteit" word="levenskwaliteit"/>
+      </node>
+    </node>
+    <node begin="18" end="19" id="26" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Onze investering in technologie - vlot 20.000 euro voor een volwaardig domoticasysteem - betaalt zich terug in levenskwaliteit .</sentence>
+</alpino_ds>

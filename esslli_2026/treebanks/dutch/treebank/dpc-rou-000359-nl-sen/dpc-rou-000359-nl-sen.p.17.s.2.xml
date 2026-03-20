@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" index="1" rel="su">
+        <node begin="0" buiging="met-e" end="1" graad="basis" id="3" lemma="ander" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ander" word="Andere"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="4" lemma="team" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="team" word="teams"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="mogen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="mag" word="mochten" wvorm="pv"/>
+      <node begin="0" cat="inf" end="14" id="6" rel="vc">
+        <node begin="0" end="2" id="7" index="1" rel="su"/>
+        <node begin="7" buiging="zonder" end="8" id="8" lemma="blijven" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="blijf" word="blijven" wvorm="inf"/>
+        <node begin="0" cat="inf" end="14" id="9" rel="vc">
+          <node begin="0" end="2" id="10" index="1" rel="su"/>
+          <node begin="3" cat="pp" end="7" id="11" rel="mod">
+            <node begin="3" end="4" id="12" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="4" cat="np" end="7" id="13" rel="obj1">
+              <node begin="4" end="5" id="14" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="5" cat="mwu" end="7" id="15" rel="hd">
+                <node begin="5" end="6" id="16" lemma="Serie" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Serie" spectype="deeleigen" word="Serie"/>
+                <node begin="6" end="7" id="17" lemma="A" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="A" spectype="deeleigen" word="A"/>
+              </node>
+            </node>
+          </node>
+          <node begin="8" buiging="zonder" end="9" id="18" lemma="spelen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="speel" word="spelen" wvorm="inf"/>
+          <node begin="9" cat="cp" end="14" id="19" rel="mod">
+            <node begin="9" conjtype="onder" end="10" id="20" lemma="alsof" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="alsof" word="alsof"/>
+            <node begin="10" cat="ssub" end="14" id="21" rel="body">
+              <node begin="11" end="12" getal="ev" id="22" index="2" lemma="niets" naamval="stan" pdtype="pron" persoon="3o" pos="noun" postag="VNW(onbep,pron,stan,vol,3o,ev)" pt="vnw" rel="su" root="niets" status="vol" vwtype="onbep" word="niets"/>
+              <node begin="12" end="13" id="23" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+              <node begin="10" cat="ppart" end="14" id="24" rel="vc">
+                <node begin="10" end="11" getal="getal" id="25" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+                <node begin="11" end="12" id="26" index="2" rel="su"/>
+                <node begin="13" buiging="zonder" end="14" id="27" lemma="gebeuren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="gebeur" word="gebeurd" wvorm="vd"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="28" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+    <node begin="15" end="16" id="29" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+  </node>
+  <sentence>Andere teams mochten in de Serie A blijven spelen alsof er niets was gebeurd . &quot;</sentence>
+</alpino_ds>

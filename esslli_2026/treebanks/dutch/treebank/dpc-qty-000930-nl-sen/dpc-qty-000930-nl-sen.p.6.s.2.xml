@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="45" id="0" rel="top">
+    <node begin="16" end="17" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="19" end="20" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="23" end="24" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="26" end="27" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="29" end="30" id="5" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="32" end="33" id="6" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="35" end="36" id="7" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="37" end="38" id="8" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="44" id="9" rel="--">
+      <node begin="0" end="1" getal="ev" id="10" lemma="dit" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" root="dit" status="vol" vwtype="aanw" word="Dit"/>
+      <node begin="1" end="2" id="11" lemma="gebeuren" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="gebeur" word="gebeurde" wvorm="pv"/>
+      <node begin="2" cat="pp" end="44" id="12" rel="mod">
+        <node begin="2" cat="mwu" end="5" id="13" rel="hd">
+          <node begin="2" end="3" id="14" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="op" vztype="init" word="op"/>
+          <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="15" lemma="initiatief" naamval="stan" ntype="soort" pos="prep" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="initiatief" word="initiatief"/>
+          <node begin="4" end="5" id="16" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="van" vztype="init" word="van"/>
+        </node>
+        <node begin="5" cat="np" end="44" id="17" rel="obj1">
+          <node begin="5" end="6" id="18" lemma="9" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="9" word="9"/>
+          <node begin="6" buiging="met-e" end="7" graad="basis" id="19" lemma="financieel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="financieel" word="financiële"/>
+          <node begin="7" end="8" getal="mv" graad="basis" id="20" lemma="instelling" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="instelling" word="instellingen"/>
+          <node begin="8" cat="pp" end="16" id="21" rel="mod">
+            <node begin="8" end="9" id="22" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+            <node begin="9" cat="np" end="16" id="23" rel="obj1">
+              <node begin="9" end="10" getal="mv" graad="basis" id="24" lemma="activiteit" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="activiteit" word="activiteiten"/>
+              <node begin="10" cat="pp" end="16" id="25" rel="mod">
+                <node begin="10" end="11" id="26" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+                <node begin="11" cat="np" end="16" id="27" rel="obj1">
+                  <node begin="11" end="12" id="28" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                  <node begin="12" end="13" genus="onz" getal="ev" graad="basis" id="29" lemma="vlak" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="vlak" word="vlak"/>
+                  <node begin="13" cat="pp" end="16" id="30" rel="mod">
+                    <node begin="13" end="14" id="31" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                    <node begin="14" cat="np" end="16" id="32" rel="obj1">
+                      <node begin="14" buiging="met-e" end="15" graad="basis" id="33" lemma="privaat" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="privaat" word="private"/>
+                      <node begin="15" end="16" id="34" lemma="banking" pos="noun" postag="SPEC(vreemd)" pt="spec" rel="hd" root="banking" spectype="vreemd" word="banking"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="17" cat="conj" end="44" id="35" rel="app">
+            <node begin="17" cat="mwu" end="19" id="36" rel="cnj">
+              <node begin="17" end="18" id="37" lemma="Bank" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Bank" spectype="deeleigen" word="Bank"/>
+              <node begin="18" end="19" id="38" lemma="Degroof" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Degroof" spectype="deeleigen" word="Degroof"/>
+            </node>
+            <node begin="20" cat="mwu" end="23" id="39" rel="cnj">
+              <node begin="20" end="21" id="40" lemma="BNP-Paribas" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="BNP-Paribas" spectype="deeleigen" word="BNP-Paribas"/>
+              <node begin="21" end="22" id="41" lemma="Private" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Private" spectype="deeleigen" word="Private"/>
+              <node begin="22" end="23" id="42" lemma="Bank" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Bank" spectype="deeleigen" word="Bank"/>
+            </node>
+            <node begin="24" cat="mwu" end="26" id="43" rel="cnj">
+              <node begin="24" end="25" id="44" lemma="Dexia" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Dexia" spectype="deeleigen" word="Dexia"/>
+              <node begin="25" end="26" id="45" lemma="Bank" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Bank" spectype="deeleigen" word="Bank"/>
+            </node>
+            <node begin="27" cat="mwu" end="29" id="46" rel="cnj">
+              <node begin="27" end="28" id="47" lemma="Fortis" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Fortis" spectype="deeleigen" word="Fortis"/>
+              <node begin="28" end="29" id="48" lemma="Bank" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Bank" spectype="deeleigen" word="Bank"/>
+            </node>
+            <node begin="30" cat="mwu" end="32" id="49" rel="cnj">
+              <node begin="30" end="31" id="50" lemma="ING" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="ING" spectype="deeleigen" word="ING"/>
+              <node begin="31" end="32" id="51" lemma="Belgium" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Belgium" spectype="deeleigen" word="Belgium"/>
+            </node>
+            <node begin="33" cat="mwu" end="35" id="52" rel="cnj">
+              <node begin="33" end="34" id="53" lemma="KBC" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="KBC" spectype="deeleigen" word="KBC"/>
+              <node begin="34" end="35" id="54" lemma="Bank" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Bank" spectype="deeleigen" word="Bank"/>
+            </node>
+            <node begin="36" end="37" genus="genus" getal="ev" graad="basis" id="55" lemma="Petercam" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="cnj" root="Petercam" word="Petercam"/>
+            <node begin="38" cat="mwu" end="41" id="56" rel="cnj">
+              <node begin="38" end="39" id="57" lemma="Puilaetco" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Puilaetco" spectype="deeleigen" word="Puilaetco"/>
+              <node begin="39" end="40" id="58" lemma="Private" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Private" spectype="deeleigen" word="Private"/>
+              <node begin="40" end="41" id="59" lemma="Bankers" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Bankers" spectype="deeleigen" word="Bankers"/>
+            </node>
+            <node begin="41" conjtype="neven" end="42" id="60" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="42" cat="mwu" end="44" id="61" rel="cnj">
+              <node begin="42" end="43" id="62" lemma="UBS" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="UBS" spectype="deeleigen" word="UBS"/>
+              <node begin="43" end="44" id="63" lemma="Belgium" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Belgium" spectype="deeleigen" word="Belgium"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="44" end="45" id="64" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dit gebeurde op initiatief van 9 financiële instellingen met activiteiten op het vlak van private banking : Bank Degroof , BNP-Paribas Private Bank , Dexia Bank , Fortis Bank , ING Belgium , KBC Bank , Petercam , Puilaetco Private Bankers en UBS Belgium .</sentence>
+</alpino_ds>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="3" end="4" id="2" lemma="mogen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="mag" word="mogen" wvorm="pv"/>
+      <node begin="4" cat="np" end="6" id="3" index="1" rel="su">
+        <node begin="4" buiging="zonder" end="5" id="4" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="géén"/>
+        <node begin="5" end="6" getal="mv" graad="basis" id="5" lemma="gezondheid_vraag" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="gezondheid_vraag" word="gezondheidsvragen"/>
+      </node>
+      <node begin="0" cat="inf" end="7" id="6" rel="vc">
+        <node begin="0" cat="pp" end="3" id="7" rel="ld">
+          <node begin="0" end="1" id="8" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="Op"/>
+          <node begin="1" cat="np" end="3" id="9" rel="obj1">
+            <node begin="1" buiging="zonder" end="2" id="10" lemma="zo&apos;n" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="zo&apos;n" vwtype="aanw" word="zo´n"/>
+            <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="11" lemma="vraag_lijst" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="vraag_lijst" word="vragenlijst"/>
+          </node>
+        </node>
+        <node begin="4" end="6" id="12" index="1" rel="su"/>
+        <node begin="6" buiging="zonder" end="7" id="13" lemma="staan" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="sta" word="staan" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="7" end="8" id="14" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Op zo´n vragenlijst mogen géén gezondheidsvragen staan .</sentence>
+</alpino_ds>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="9" end="10" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="16" id="2" rel="--">
+      <node begin="0" cat="smain" end="9" id="3" rel="cnj">
+        <node begin="0" cat="np" end="2" id="4" index="1" rel="su">
+          <node begin="0" end="1" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+          <node begin="1" end="2" getal-n="zonder-n" id="6" lemma="één" numtype="rang" pos="num" positie="nom" postag="TW(rang,nom,zonder-n)" pt="tw" rel="hd" root="eerste" word="eerste"/>
+        </node>
+        <node begin="2" end="3" id="7" index="2" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" word="kan" wvorm="pv"/>
+        <node begin="0" cat="inf" end="9" id="8" rel="vc">
+          <node begin="0" end="2" id="9" index="1" rel="su"/>
+          <node begin="3" buiging="zonder" end="4" id="10" index="3" lemma="dienen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="dien" word="dienen" wvorm="inf"/>
+          <node begin="4" cat="cp" end="9" id="11" rel="predc">
+            <node begin="4" conjtype="onder" end="5" id="12" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+            <node begin="5" cat="np" end="9" id="13" rel="body">
+              <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="14" lemma="afstandsbediening" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="afstandsbediening" word="afstandsbediening"/>
+              <node begin="6" cat="pp" end="9" id="15" rel="mod">
+                <node begin="6" end="7" id="16" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="7" cat="np" end="9" id="17" rel="obj1">
+                  <node begin="7" end="8" id="18" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                  <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="19" lemma="domotica_systeem" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="domoticasysteem" word="domoticasysteem"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="2" cat="smain" end="16" id="20" rel="cnj">
+        <node begin="2" end="3" id="21" index="2" rel="hd"/>
+        <node begin="10" cat="np" end="12" id="22" index="4" rel="su">
+          <node begin="10" end="11" id="23" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="11" end="12" getal-n="zonder-n" id="24" lemma="twee" numtype="rang" pos="num" positie="nom" postag="TW(rang,nom,zonder-n)" pt="tw" rel="hd" root="tweede" word="tweede"/>
+        </node>
+        <node begin="3" cat="inf" end="16" id="25" rel="vc">
+          <node begin="3" end="4" id="26" index="3" rel="hd"/>
+          <node begin="10" end="12" id="27" index="4" rel="su"/>
+          <node begin="12" cat="cp" end="16" id="28" rel="mod">
+            <node begin="12" end="13" id="29" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+            <node begin="13" conjtype="onder" end="14" id="30" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+            <node begin="14" cat="np" end="16" id="31" rel="body">
+              <node begin="14" end="15" id="32" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="15" end="16" genus="onz" getal="ev" graad="basis" id="33" lemma="basis_bediening_paneel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="basis_bediening_paneel" word="basisbedieningspaneel"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="34" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De eerste kan dienen als afstandsbediening van een domoticasysteem , de tweede ook als het basisbedieningspaneel .</sentence>
+</alpino_ds>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="9" end="10" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="17" id="2" rel="--">
+      <node begin="0" cat="smain" end="9" id="3" rel="cnj">
+        <node begin="0" end="1" genus="onz" getal="ev" graad="basis" id="4" index="1" lemma="Eindhoven" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" root="Eindhoven" word="Eindhoven"/>
+        <node begin="1" end="2" id="5" lemma="willen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="wil" word="wil" wvorm="pv"/>
+        <node begin="0" cat="inf" end="9" id="6" rel="vc">
+          <node begin="0" end="1" id="7" index="1" rel="su"/>
+          <node begin="2" buiging="zonder" end="3" graad="comp" id="8" lemma="hard" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="hard" word="harder"/>
+          <node begin="3" buiging="zonder" end="4" id="9" lemma="op_treden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="treed_op" word="optreden" wvorm="inf"/>
+          <node begin="4" cat="pp" end="9" id="10" rel="pc">
+            <node begin="4" end="5" id="11" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" vztype="init" word="tegen"/>
+            <node begin="5" cat="np" end="9" id="12" rel="obj1">
+              <node begin="5" buiging="met-e" end="6" graad="basis" id="13" lemma="illegaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="illegaal" word="illegale"/>
+              <node begin="6" end="7" getal="mv" graad="basis" id="14" lemma="wiet_plantage" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="wiet_plantage" word="wietplantages"/>
+              <node begin="7" cat="pp" end="9" id="15" rel="mod">
+                <node begin="7" end="8" id="16" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+                <node begin="8" end="9" getal="mv" graad="basis" id="17" lemma="woonwagen_kamp" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="woon_wagen_kamp" word="woonwagenkampen"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="10" conjtype="neven" end="11" id="18" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="0" cat="sv1" end="17" id="19" rel="cnj">
+        <node begin="0" end="1" id="20" index="1" rel="su"/>
+        <node begin="11" end="12" id="21" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="heeft" wvorm="pv"/>
+        <node begin="0" cat="ppart" end="17" id="22" rel="vc">
+          <node begin="0" end="1" id="23" index="1" rel="su"/>
+          <node begin="12" end="13" id="24" lemma="daarvoor" pos="pp" postag="BW()" pt="bw" rel="mod" root="daarvoor" word="daarvoor"/>
+          <node begin="13" cat="np" end="16" id="25" rel="obj1">
+            <node begin="13" end="14" id="26" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="14" buiging="met-e" end="15" graad="basis" id="27" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" word="nieuwe"/>
+            <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="28" lemma="methode" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="methode" word="methode"/>
+          </node>
+          <node begin="16" buiging="zonder" end="17" id="29" lemma="bedenken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="bedenk" word="bedacht" wvorm="vd"/>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="30" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Eindhoven wil harder optreden tegen illegale wietplantages op woonwagenkampen , en heeft daarvoor een nieuwe methode bedacht .</sentence>
+</alpino_ds>

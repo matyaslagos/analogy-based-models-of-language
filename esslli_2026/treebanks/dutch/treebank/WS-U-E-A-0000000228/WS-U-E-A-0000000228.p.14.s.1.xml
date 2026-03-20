@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="du" end="15" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="en" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="en" word="En"/>
+      <node begin="1" cat="smain" end="15" id="3" rel="nucl">
+        <node begin="1" cat="pp" end="10" id="4" rel="mod">
+          <node begin="1" end="2" id="5" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="2" cat="np" end="10" id="6" rel="obj1">
+            <node begin="2" end="3" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="3" buiging="met-e" end="4" graad="basis" id="8" lemma="Grieks" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Grieks" word="Griekse"/>
+            <node begin="4" end="5" getal="mv" graad="basis" id="9" lemma="sprinter" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="sprinter" word="sprinters"/>
+            <node begin="5" cat="conj" end="10" id="10" rel="app">
+              <node begin="5" cat="mwu" end="7" id="11" rel="cnj">
+                <node begin="5" end="6" id="12" lemma="Kostas" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Kostas" spectype="deeleigen" word="Kostas"/>
+                <node begin="6" end="7" id="13" lemma="Kentèris" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Kentèris" spectype="deeleigen" word="Kentèris"/>
+              </node>
+              <node begin="7" conjtype="neven" end="8" id="14" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="8" cat="mwu" end="10" id="15" rel="cnj">
+                <node begin="8" end="9" id="16" lemma="Katerina" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Katerina" spectype="deeleigen" word="Katerina"/>
+                <node begin="9" end="10" id="17" lemma="Thanou" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Thanou" spectype="deeleigen" word="Thanou"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="10" end="11" id="18" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+        <node begin="11" cat="np" end="14" id="19" rel="su">
+          <node begin="11" end="12" id="20" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="12" cat="mwu" end="14" id="21" rel="hd">
+            <node begin="12" end="13" id="22" lemma="Olympische" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Olympische" spectype="deeleigen" word="Olympische"/>
+            <node begin="13" end="14" id="23" lemma="Spelen" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Spelen" spectype="deeleigen" word="Spelen"/>
+          </node>
+        </node>
+        <node begin="14" buiging="zonder" end="15" graad="basis" id="24" lemma="voorbij" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="voorbij" word="voorbij"/>
+      </node>
+    </node>
+    <node begin="15" end="16" id="25" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>En voor de Griekse sprinters Kostas Kentèris en Katerina Thanou zijn de Olympische Spelen voorbij .</sentence>
+</alpino_ds>

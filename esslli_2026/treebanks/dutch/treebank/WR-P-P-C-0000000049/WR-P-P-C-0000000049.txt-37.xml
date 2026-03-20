@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="33" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="12" end="13" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="17" end="18" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="32" id="4" rel="--">
+      <node begin="18" end="19" id="5" lemma="blijken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="blijk" word="blijkt" wvorm="pv"/>
+      <node begin="19" cat="np" end="26" id="6" index="1" rel="su">
+        <node begin="19" end="20" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="20" end="21" genus="zijd" getal="ev" graad="basis" id="8" lemma="kans" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="kans" word="kans"/>
+        <node begin="21" cat="pp" end="26" id="9" rel="mod">
+          <node begin="21" end="22" id="10" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+          <node begin="22" cat="np" end="26" id="11" rel="obj1">
+            <node begin="22" end="23" getal="mv" graad="basis" id="12" lemma="aanval" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="aanval" word="aanvallen"/>
+            <node begin="23" cat="pp" end="26" id="13" rel="mod">
+              <node begin="23" end="24" id="14" lemma="tijdens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tijdens" vztype="init" word="tijdens"/>
+              <node begin="24" cat="np" end="26" id="15" rel="obj1">
+                <node begin="24" end="25" id="16" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                <node begin="25" buiging="zonder" end="26" getal-n="zonder-n" id="17" lemma="sporten" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="sport" word="sporten" wvorm="inf"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="0" cat="ti" end="32" id="18" rel="vc">
+        <node begin="30" end="31" id="19" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+        <node begin="0" cat="inf" end="32" id="20" rel="body">
+          <node begin="0" cat="cp" end="17" id="21" rel="mod">
+            <node begin="0" conjtype="onder" end="1" id="22" lemma="hoewel" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="hoewel" word="Hoewel"/>
+            <node begin="1" cat="ssub" end="17" id="23" rel="body">
+              <node begin="1" end="2" genus="onz" getal="ev" id="24" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="noun" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="sup" root="het" status="red" vwtype="pers" word="het"/>
+              <node begin="2" buiging="zonder" end="3" graad="basis" id="25" lemma="begrijpelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="begrijpelijk" word="begrijpelijk"/>
+              <node begin="3" end="4" id="26" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+              <node begin="4" cat="cp" end="17" id="27" rel="su">
+                <node begin="4" conjtype="onder" end="5" id="28" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+                <node begin="5" cat="ssub" end="17" id="29" rel="body">
+                  <node begin="5" cat="conj" end="12" id="30" rel="su">
+                    <node begin="5" cat="np" end="8" id="31" rel="cnj">
+                      <node begin="5" end="6" getal="mv" graad="basis" id="32" lemma="mens" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="mens" word="mensen"/>
+                      <node begin="6" cat="pp" end="8" id="33" rel="mod">
+                        <node begin="6" end="7" id="34" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+                        <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="35" lemma="epilepsie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="epilepsie" word="epilepsie"/>
+                      </node>
+                    </node>
+                    <node begin="9" conjtype="neven" end="10" id="36" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                    <node begin="10" cat="np" end="12" id="37" rel="cnj">
+                      <node begin="10" buiging="zonder" end="11" getal="mv" id="38" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+                      <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="39" lemma="omgeving" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="omgeving" word="omgeving"/>
+                    </node>
+                  </node>
+                  <node begin="13" cat="ap" end="16" id="40" rel="predc">
+                    <node begin="14" buiging="zonder" end="15" graad="basis" id="41" lemma="bang" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="bang" word="bang"/>
+                    <node begin="13" cat="pp" end="16" id="42" rel="pc">
+                      <node begin="13" end="14" getal="getal" id="43" lemma="hier" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="obj1" root="hier" status="vol" vwtype="aanw" word="hier"/>
+                      <node begin="15" end="16" id="44" lemma="voor" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="voor" vztype="fin" word="voor"/>
+                    </node>
+                  </node>
+                  <node begin="16" end="17" id="45" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="19" end="26" id="46" index="1" rel="su"/>
+          <node begin="26" cat="pp" end="29" id="47" rel="mod">
+            <node begin="26" end="27" id="48" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="27" cat="np" end="29" id="49" rel="obj1">
+              <node begin="27" end="28" id="50" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="28" end="29" genus="zijd" getal="ev" graad="basis" id="51" lemma="praktijk" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="praktijk" word="praktijk"/>
+            </node>
+          </node>
+          <node begin="29" buiging="zonder" end="30" graad="basis" id="52" lemma="klein" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="klein" word="klein"/>
+          <node begin="31" buiging="zonder" end="32" id="53" lemma="zijn" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ben" word="zijn" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="32" end="33" id="54" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Hoewel het begrijpelijk is dat mensen met epilepsie ( en hun omgeving ) hier bang voor zijn , blijkt de kans op aanvallen tijdens het sporten in de praktijk klein te zijn .</sentence>
+</alpino_ds>

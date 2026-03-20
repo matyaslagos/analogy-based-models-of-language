@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="25" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="18" end="19" id="2" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="21" end="22" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="24" id="4" rel="--">
+      <node begin="0" cat="cp" end="21" id="5" rel="su">
+        <node begin="0" conjtype="onder" end="1" id="6" lemma="of" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="of" word="Of"/>
+        <node begin="1" cat="ssub" end="21" id="7" rel="body">
+          <node begin="1" cat="np" end="18" id="8" rel="su">
+            <node begin="1" end="2" id="9" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="10" lemma="hervorming" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="hervorming" word="hervorming"/>
+            <node begin="3" cat="pp" end="6" id="11" rel="mod">
+              <node begin="3" end="4" id="12" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="4" cat="np" end="6" id="13" rel="obj1">
+                <node begin="4" end="5" id="14" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="15" lemma="kies_stelsel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="kies_stelsel" word="kiesstelsel"/>
+              </node>
+            </node>
+            <node begin="7" cat="conj" end="18" id="16" rel="mod">
+              <node begin="7" cat="ap" end="10" id="17" rel="cnj">
+                <node begin="7" cat="advp" end="9" id="18" rel="mod">
+                  <node begin="7" end="8" id="19" lemma="nu" pos="adv" postag="BW()" pt="bw" rel="hd" root="nu" word="nu"/>
+                  <node begin="8" end="9" id="20" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" word="nog"/>
+                </node>
+                <node begin="9" buiging="zonder" end="10" graad="basis" id="21" lemma="proportioneel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="proportioneel" word="proportioneel"/>
+              </node>
+              <node begin="10" conjtype="neven" end="11" id="22" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="11" cat="smain" end="18" id="23" rel="cnj">
+                <node begin="12" end="13" id="24" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+                <node begin="11" cat="ppart" end="18" id="25" rel="vc">
+                  <node begin="11" buiging="zonder" end="12" id="26" lemma="pogen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="poog" word="gepoogd" wvorm="vd"/>
+                  <node begin="13" cat="ti" end="18" id="27" rel="vc">
+                    <node begin="16" end="17" id="28" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+                    <node begin="13" cat="inf" end="18" id="29" rel="body">
+                      <node begin="13" cat="np" end="15" id="30" rel="obj1">
+                        <node begin="13" end="14" id="31" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                        <node begin="14" end="15" genus="onz" getal="ev" graad="basis" id="32" lemma="geheel" naamval="stan" ntype="soort" pos="adj" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="geheel" word="geheel"/>
+                      </node>
+                      <node begin="15" end="16" genus="onz" getal="ev" graad="basis" id="33" lemma="district_stelsel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="predc" root="district_stelsel" word="districtenstelsel"/>
+                      <node begin="17" buiging="zonder" end="18" id="34" lemma="maken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="maak" word="maken" wvorm="inf"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="19" end="20" genus="onz" getal="ev" id="35" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="obj1" root="het" status="red" vwtype="pers" word="het"/>
+          <node begin="20" end="21" id="36" lemma="halen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="haal" word="haalt" wvorm="pv"/>
+        </node>
+      </node>
+      <node begin="22" end="23" id="37" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="23" buiging="zonder" end="24" graad="basis" id="38" lemma="onzeker" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="onzeker" word="onzeker"/>
+    </node>
+    <node begin="24" end="25" id="39" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Of de hervorming van het kiesstelsel - nu nog proportioneel en gepoogd wordt het geheel districtenstelsel te maken - het haalt , is onzeker .</sentence>
+</alpino_ds>

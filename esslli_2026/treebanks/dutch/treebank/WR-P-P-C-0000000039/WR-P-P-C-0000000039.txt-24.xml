@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" buiging="met-e" end="1" id="3" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="Deze"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="4" lemma="lening" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="lening" word="lening"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="bedragen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="bedraag" word="bedraagt" wvorm="pv"/>
+      <node begin="3" cat="np" end="7" id="6" rel="me">
+        <node begin="3" buiging="zonder" end="4" graad="basis" id="7" lemma="maximaal" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="maximaal" word="maximaal"/>
+        <node begin="4" end="5" getal-n="zonder-n" graad="basis" id="8" lemma="141,48" numtype="hoofd" pos="num" positie="nom" postag="TW(hoofd,nom,zonder-n,basis)" pt="tw" rel="hd" root="141,48" word="141,48"/>
+        <node begin="5" cat="pp" end="7" id="9" rel="mod">
+          <node begin="5" end="6" id="10" lemma="per" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="per" vztype="init" word="per"/>
+          <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="11" lemma="maand" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="maand" word="maand"/>
+        </node>
+      </node>
+    </node>
+    <node begin="7" end="8" id="12" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Deze lening bedraagt maximaal 141,48 per maand .</sentence>
+</alpino_ds>

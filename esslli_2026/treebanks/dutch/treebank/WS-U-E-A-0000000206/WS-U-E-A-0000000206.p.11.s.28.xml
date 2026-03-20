@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="12" end="13" id="2" lemma=";" pos="punct" postag="LET()" pt="let" rel="--" root=";" word=";"/>
+    <node begin="0" cat="du" end="17" id="3" rel="--">
+      <node begin="0" cat="conj" end="12" id="4" rel="dp">
+        <node begin="0" cat="smain" end="3" id="5" rel="cnj">
+          <node begin="0" end="1" genus="masc" getal="ev" id="6" index="1" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="Hij"/>
+          <node begin="1" end="2" id="7" lemma="gaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ga" word="gaat" wvorm="pv"/>
+          <node begin="2" buiging="zonder" end="3" graad="basis" id="8" lemma="akkoord" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="accoord" word="akkoord"/>
+        </node>
+        <node begin="3" conjtype="neven" end="4" id="9" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="0" cat="sv1" end="12" id="10" rel="cnj">
+          <node begin="0" end="1" id="11" index="1" rel="su"/>
+          <node begin="4" end="5" id="12" lemma="zeggen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="zeg" word="zegt" wvorm="pv"/>
+          <node begin="6" cat="mwu" end="12" id="13" rel="obj1">
+            <node begin="6" end="7" id="14" lemma="Money" pos="noun" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="money" spectype="vreemd" word="Money"/>
+            <node begin="7" end="8" id="15" lemma="will" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Will" spectype="vreemd" word="will"/>
+            <node begin="8" end="9" id="16" lemma="not" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="not" spectype="vreemd" word="not"/>
+            <node begin="9" end="10" id="17" lemma="be" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="be" spectype="vreemd" word="be"/>
+            <node begin="10" end="11" id="18" lemma="a" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="a" spectype="vreemd" word="a"/>
+            <node begin="11" end="12" id="19" lemma="problem" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="problem" spectype="vreemd" word="problem"/>
+          </node>
+        </node>
+      </node>
+      <node begin="13" cat="smain" end="17" id="20" rel="dp">
+        <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="21" lemma="geld" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="su" root="geld" word="geld"/>
+        <node begin="14" end="15" id="22" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="15" cat="np" end="17" id="23" rel="predc">
+          <node begin="15" buiging="zonder" end="16" id="24" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="geen"/>
+          <node begin="16" end="17" genus="onz" getal="ev" graad="basis" id="25" lemma="probleem" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="probleem" word="probleem"/>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="26" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Hij gaat akkoord en zegt : Money will not be a problem ; geld is geen probleem .</sentence>
+</alpino_ds>

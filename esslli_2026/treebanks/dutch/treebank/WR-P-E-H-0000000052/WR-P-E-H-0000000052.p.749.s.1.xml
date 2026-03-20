@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="5" id="0" rel="top">
+    <node begin="0" cat="conj" end="5" id="1" rel="--">
+      <node begin="1" conjtype="neven" end="2" id="2" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="0" cat="np" end="5" id="3" rel="cnj">
+        <node begin="0" end="1" id="4" lemma="instrument" pos="noun" postag="SPEC(afk)" pt="spec" rel="hd" root="Instr." spectype="afk" word="Instr."/>
+        <node begin="3" cat="pp" end="5" id="5" index="1" rel="mod">
+          <node begin="3" end="4" id="6" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="7" lemma="beroep_uitoefening" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="beroep_uitoefening" word="beroepsuitoefening"/>
+        </node>
+      </node>
+      <node begin="2" cat="np" end="5" id="8" rel="cnj">
+        <node begin="2" end="3" id="9" lemma="apparaat" pos="noun" postag="SPEC(afk)" pt="spec" rel="hd" root="app." spectype="afk" word="app."/>
+        <node begin="3" end="5" id="10" index="1" rel="mod"/>
+      </node>
+    </node>
+  </node>
+  <sentence>Instr. en app. voor beroepsuitoefening</sentence>
+</alpino_ds>

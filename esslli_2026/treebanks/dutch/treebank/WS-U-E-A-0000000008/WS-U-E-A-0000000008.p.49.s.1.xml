@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="du" end="19" id="2" rel="--">
+      <node begin="0" cat="du" end="7" id="3" rel="nucl">
+        <node begin="0" conjtype="neven" end="1" id="4" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" word="Maar"/>
+        <node begin="1" cat="smain" end="7" id="5" rel="nucl">
+          <node begin="1" end="2" getal="getal" id="6" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+          <node begin="2" end="3" id="7" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+          <node begin="3" end="4" id="8" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+          <node begin="4" cat="np" end="7" id="9" rel="su">
+            <node begin="4" cat="ap" end="6" id="10" rel="mod">
+              <node begin="4" buiging="zonder" end="5" graad="basis" id="11" lemma="voorzichtig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="voorzichtig" word="voorzichtig"/>
+              <node begin="5" buiging="met-e" end="6" graad="basis" id="12" lemma="positief" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="hd" root="positief" word="positieve"/>
+            </node>
+            <node begin="6" end="7" getal="mv" graad="basis" id="13" lemma="tendens" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="tendens" word="tendensen"/>
+          </node>
+        </node>
+      </node>
+      <node begin="8" cat="smain" end="19" id="14" rel="sat">
+        <node begin="8" cat="pp" end="11" id="15" rel="mod">
+          <node begin="8" end="9" id="16" lemma="volgens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="volgens" vztype="init" word="Volgens"/>
+          <node begin="9" cat="np" end="11" id="17" rel="obj1">
+            <node begin="9" end="10" id="18" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="10" end="11" getal="mv" graad="basis" id="19" lemma="onderzoeker" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="onderzoeker" word="onderzoekers"/>
+          </node>
+        </node>
+        <node begin="11" end="12" id="20" lemma="af_nemen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="neem_af" word="nam" wvorm="pv"/>
+        <node begin="12" buiging="zonder" end="13" graad="basis" id="21" lemma="juist" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="juist" word="juist"/>
+        <node begin="13" cat="np" end="18" id="22" rel="su">
+          <node begin="13" end="14" id="23" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="14" cat="conj" end="17" id="24" rel="mod">
+            <node begin="14" buiging="zonder" end="15" graad="basis" id="25" lemma="racistisch" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="cnj" root="racistisch" word="racistisch"/>
+            <node begin="15" conjtype="neven" end="16" id="26" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="16" buiging="zonder" end="17" graad="basis" id="27" lemma="extreem_rechts" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="cnj" root="extreem-rechts" word="extreem-rechts"/>
+          </node>
+          <node begin="17" end="18" genus="onz" getal="ev" graad="basis" id="28" lemma="geweld" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="geweld" word="geweld"/>
+        </node>
+        <node begin="18" end="19" id="29" lemma="af" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="af" vztype="fin" word="AF"/>
+      </node>
+    </node>
+    <node begin="19" end="20" id="30" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Maar er zijn ook voorzichtig positieve tendensen : Volgens de onderzoekers nam juist het racistisch en extreem-rechts geweld AF .</sentence>
+</alpino_ds>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="29" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="12" end="13" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="14" end="15" id="3" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="18" end="19" id="4" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="0" cat="smain" end="28" id="5" rel="--">
+      <node begin="0" cat="np" end="18" id="6" rel="su">
+        <node begin="0" cat="mwu" end="6" id="7" rel="hd">
+          <node begin="0" end="1" id="8" lemma="Ernesto" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Ernesto" spectype="deeleigen" word="Ernesto"/>
+          <node begin="1" end="2" id="9" lemma="Rafael" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Rafael" spectype="deeleigen" word="Rafael"/>
+          <node begin="2" end="3" id="10" lemma="Guevara" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Guevara" spectype="deeleigen" word="Guevara"/>
+          <node begin="3" end="4" id="11" lemma="de" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="de" spectype="deeleigen" word="de"/>
+          <node begin="4" end="5" id="12" lemma="la" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="la" spectype="deeleigen" word="la"/>
+          <node begin="5" end="6" id="13" lemma="Serna" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Serna" spectype="deeleigen" word="Serna"/>
+        </node>
+        <node begin="7" cat="conj" end="18" id="14" rel="mod">
+          <node begin="7" cat="np" end="14" id="15" rel="cnj">
+            <node begin="7" cat="mwu" end="10" id="16" rel="hd">
+              <node begin="7" end="8" id="17" lemma="14" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="14" word="14"/>
+              <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="18" lemma="juni" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="juni" word="juni"/>
+              <node begin="9" end="10" id="19" lemma="1928" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="1928" word="1928"/>
+            </node>
+            <node begin="10" cat="pp" end="14" id="20" rel="mod">
+              <node begin="10" end="11" id="21" lemma="te" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="te" vztype="init" word="te"/>
+              <node begin="11" cat="np" end="14" id="22" rel="obj1">
+                <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="23" lemma="Rosario" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Rosario" word="Rosario"/>
+                <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="24" lemma="Argentinië" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="mod" root="Argentinië" word="Argentinië"/>
+              </node>
+            </node>
+          </node>
+          <node begin="15" cat="mwu" end="18" id="25" rel="cnj">
+            <node begin="15" end="16" id="26" lemma="7" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="7" word="7"/>
+            <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="27" lemma="oktober" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="oktober" word="oktober"/>
+            <node begin="17" end="18" id="28" lemma="1967" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="1967" word="1967"/>
+          </node>
+        </node>
+      </node>
+      <node begin="19" end="20" id="29" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+      <node begin="20" cat="conj" end="28" id="30" rel="predc">
+        <node begin="20" cat="np" end="24" id="31" rel="cnj">
+          <node begin="20" end="21" id="32" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="21" buiging="zonder" end="22" graad="basis" id="33" lemma="Argentijns" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="Argentijns" word="Argentijns"/>
+          <node begin="22" buiging="zonder" end="23" graad="basis" id="34" lemma="Marxistisch" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="marxistisch" word="marxistisch"/>
+          <node begin="23" buiging="zonder" end="24" getal-n="zonder-n" graad="basis" id="35" lemma="revolutionair" pos="noun" positie="nom" postag="ADJ(nom,basis,zonder,zonder-n)" pt="adj" rel="hd" root="revolutionair" word="revolutionair"/>
+        </node>
+        <node begin="24" conjtype="neven" end="25" id="36" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="25" cat="np" end="28" id="37" rel="cnj">
+          <node begin="25" buiging="zonder" end="26" graad="basis" id="38" lemma="Cubaans" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="Cubaans" word="Cubaans"/>
+          <node begin="26" cat="mwu" end="28" id="39" rel="hd">
+            <node begin="26" end="27" genus="zijd" getal="ev" graad="basis" id="40" lemma="guerrilla" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="guerrilla" word="guerrilla"/>
+            <node begin="27" end="28" genus="zijd" getal="ev" graad="basis" id="41" lemma="leider" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="leider" word="leider"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="28" end="29" id="42" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Ernesto Rafael Guevara de la Serna ( 14 juni 1928 te Rosario , Argentinië - 7 oktober 1967 ) was een Argentijns marxistisch revolutionair en Cubaans guerrilla leider .</sentence>
+</alpino_ds>

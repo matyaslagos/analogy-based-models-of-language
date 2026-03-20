@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="30" id="0" rel="top">
+    <node begin="21" end="22" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="24" end="25" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="29" id="3" rel="--">
+      <node begin="0" cat="smain" end="9" id="4" rel="cnj">
+        <node begin="0" cat="np" end="3" id="5" index="1" rel="su">
+          <node begin="0" end="1" id="6" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+          <node begin="1" buiging="met-e" end="2" graad="basis" id="7" lemma="Amerikaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Amerikaans" word="Amerikaanse"/>
+          <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="8" lemma="ruimte_agentschap" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="ruimte_agentschap" word="ruimteagentschap"/>
+        </node>
+        <node begin="3" end="4" id="9" lemma="zitten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zit" word="zit" wvorm="pv"/>
+        <node begin="4" cat="pp" end="9" id="10" rel="pc">
+          <node begin="4" end="5" id="11" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+          <node begin="5" cat="np" end="9" id="12" rel="obj1">
+            <node begin="5" end="6" id="13" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="6" cat="ap" end="8" id="14" rel="mod">
+              <node begin="6" buiging="zonder" end="7" graad="basis" id="15" lemma="bijzonder" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="bijzonder" word="bijzonder"/>
+              <node begin="7" buiging="zonder" end="8" graad="basis" id="16" lemma="groot" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="hd" root="groot" word="groot"/>
+            </node>
+            <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="17" lemma="probleem" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="probleem" word="probleem"/>
+          </node>
+        </node>
+      </node>
+      <node begin="9" conjtype="neven" end="10" id="18" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="0" cat="smain" end="29" id="19" rel="cnj">
+        <node begin="0" end="3" id="20" index="1" rel="su"/>
+        <node begin="10" end="11" id="21" lemma="hopen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="hoop" word="hoopt" wvorm="pv"/>
+        <node begin="11" cat="pp" end="15" id="22" rel="mod">
+          <node begin="11" end="12" id="23" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" vztype="init" word="tegen"/>
+          <node begin="12" cat="np" end="14" id="24" rel="obj1">
+            <node begin="12" buiging="zonder" end="13" graad="comp" id="25" lemma="goed" pos="fixed" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="svp" root="beter" word="beter"/>
+            <node begin="13" buiging="zonder" end="14" getal-n="zonder-n" id="26" lemma="weten" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="weet" word="weten" wvorm="inf"/>
+          </node>
+          <node begin="14" end="15" id="27" lemma="in" pos="part" postag="VZ(fin)" pt="vz" rel="hdf" root="in" vztype="fin" word="in"/>
+        </node>
+        <node begin="15" cat="cp" end="29" id="28" rel="vc">
+          <node begin="15" conjtype="onder" end="16" id="29" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+          <node begin="16" cat="ssub" end="29" id="30" rel="body">
+            <node begin="16" cat="np" end="24" id="31" index="2" rel="su">
+              <node begin="16" end="17" id="32" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="17" cat="ap" end="20" id="33" rel="mod">
+                <node begin="17" cat="np" end="19" id="34" rel="me">
+                  <node begin="17" end="18" id="35" lemma="55" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="55" word="55"/>
+                  <node begin="18" end="19" genus="onz" getal="ev" graad="basis" id="36" lemma="jaar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="jaar" word="jaar"/>
+                </node>
+                <node begin="19" buiging="met-e" end="20" graad="basis" id="37" lemma="oud" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="hd" root="oud" word="oude"/>
+              </node>
+              <node begin="20" end="21" genus="zijd" getal="ev" graad="basis" id="38" lemma="onderwijzeres" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="onderwijzeres" word="onderwijzeres"/>
+              <node begin="22" cat="mwu" end="24" id="39" rel="app">
+                <node begin="22" end="23" id="40" lemma="Barbara" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Barbara" spectype="deeleigen" word="Barbara"/>
+                <node begin="23" end="24" id="41" lemma="Morgan" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Morgan" spectype="deeleigen" word="Morgan"/>
+              </node>
+            </node>
+            <node begin="27" end="28" id="42" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" word="kan" wvorm="pv"/>
+            <node begin="16" cat="inf" end="29" id="43" rel="vc">
+              <node begin="16" end="24" id="44" index="2" rel="su"/>
+              <node begin="25" cat="np" end="27" id="45" rel="predc">
+                <node begin="25" end="26" id="46" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="26" end="27" genus="zijd" getal="ev" graad="basis" id="47" lemma="oplossing" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="oplossing" word="oplossing"/>
+              </node>
+              <node begin="28" buiging="zonder" end="29" id="48" lemma="zijn" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ben" word="zijn" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="29" end="30" id="49" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het Amerikaanse ruimteagentschap zit met een bijzonder groot probleem en hoopt tegen beter weten in dat een 55 jaar oude onderwijzeres , Barbara Morgan , de oplossing kan zijn .</sentence>
+</alpino_ds>

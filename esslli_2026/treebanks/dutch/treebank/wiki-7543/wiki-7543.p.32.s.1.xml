@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="29" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma=";" pos="punct" postag="LET()" pt="let" rel="--" root=";" word=";"/>
+    <node begin="16" end="17" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="28" id="3" rel="--">
+      <node begin="0" cat="smain" end="8" id="4" rel="dp">
+        <node begin="0" cat="conj" end="3" id="5" rel="mod">
+          <node begin="0" buiging="zonder" end="1" graad="basis" id="6" lemma="juridisch" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="cnj" root="juridisch" word="Juridisch"/>
+          <node begin="1" conjtype="neven" end="2" id="7" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="2" buiging="zonder" end="3" graad="basis" id="8" lemma="politioneel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="cnj" root="politioneel" word="politioneel"/>
+        </node>
+        <node begin="3" end="4" id="9" lemma="vormen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="vorm" word="vormt" wvorm="pv"/>
+        <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="10" lemma="Oudenaarde" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" root="Oudenaarde" word="Oudenaarde"/>
+        <node begin="5" cat="np" end="8" id="11" rel="obj1">
+          <node begin="5" end="6" id="12" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="6" buiging="met-e" end="7" graad="basis" id="13" lemma="zelfstandig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="zelfstandig" word="zelfstandige"/>
+          <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="14" lemma="eenheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="eenheid" word="eenheid"/>
+        </node>
+      </node>
+      <node begin="9" cat="conj" end="28" id="15" rel="dp">
+        <node begin="9" cat="smain" end="16" id="16" rel="cnj">
+          <node begin="9" cat="np" end="11" id="17" rel="su">
+            <node begin="9" end="10" id="18" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="19" lemma="stad" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="stad" word="stad"/>
+          </node>
+          <node begin="11" end="12" id="20" lemma="bezitten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="bezit" word="bezit" wvorm="pv"/>
+          <node begin="12" cat="conj" end="16" id="21" rel="obj1">
+            <node begin="12" cat="np" end="14" id="22" rel="cnj">
+              <node begin="12" end="13" id="23" index="1" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="24" lemma="justitie_paleis" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="justitiepaleis" word="justitiepaleis"/>
+            </node>
+            <node begin="14" conjtype="neven" end="15" id="25" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="12" cat="np" end="16" id="26" rel="cnj">
+              <node begin="12" end="13" id="27" index="1" rel="det"/>
+              <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="28" lemma="gevangenis" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="gevangenis" word="gevangenis"/>
+            </node>
+          </node>
+        </node>
+        <node begin="17" conjtype="neven" end="18" id="29" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="18" cat="smain" end="28" id="30" rel="cnj">
+          <node begin="18" cat="np" end="22" id="31" rel="su">
+            <node begin="18" end="19" id="32" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="19" end="20" genus="onz" getal="ev" graad="basis" id="33" lemma="Parket" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="parket" word="Parket"/>
+            <node begin="20" cat="pp" end="22" id="34" rel="mod">
+              <node begin="20" end="21" id="35" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="21" end="22" genus="onz" getal="ev" graad="basis" id="36" lemma="Oudenaarde" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Oudenaarde" word="Oudenaarde"/>
+            </node>
+          </node>
+          <node begin="22" end="23" id="37" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+          <node begin="23" cat="np" end="28" id="38" rel="predc">
+            <node begin="23" end="24" getal-n="zonder-n" graad="basis" id="39" lemma="één" numtype="hoofd" pos="pron" positie="nom" postag="TW(hoofd,nom,zonder-n,basis)" pt="tw" rel="hd" root="één" word="een"/>
+            <node begin="24" cat="pp" end="28" id="40" rel="mod">
+              <node begin="24" end="25" id="41" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="25" cat="np" end="28" id="42" rel="obj1">
+                <node begin="25" end="26" id="43" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="26" buiging="met-e" end="27" graad="basis" id="44" lemma="officieel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="officieel" word="officiële"/>
+                <node begin="27" end="28" getal="mv" graad="basis" id="45" lemma="parket" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="parket" word="parketten"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="28" end="29" id="46" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Juridisch en politioneel vormt Oudenaarde een zelfstandige eenheid ; de stad bezit een justitiepaleis en gevangenis , en het Parket van Oudenaarde is een van de officiële parketten .</sentence>
+</alpino_ds>

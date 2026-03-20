@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="6" end="7" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="10" end="11" id="3" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="0" cat="smain" end="21" id="4" rel="--">
+      <node begin="0" cat="np" end="10" id="5" rel="su">
+        <node begin="0" end="1" id="6" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" buiging="met-e" end="2" graad="basis" id="7" lemma="volledig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="volledig" word="volledige"/>
+        <node begin="2" buiging="met-e" end="3" graad="basis" id="8" lemma="internationaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="internationaal" word="internationale"/>
+        <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="9" lemma="student_populatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="student_populatie" word="studentenpopulatie"/>
+        <node begin="5" cat="conj" end="10" id="10" rel="mod">
+          <node begin="5" end="6" id="11" lemma="undergraduate" pos="noun" postag="SPEC(vreemd)" pt="spec" rel="cnj" root="undergraduate" spectype="vreemd" word="undergraduate"/>
+          <node begin="7" end="8" id="12" lemma="graduate" pos="noun" postag="SPEC(vreemd)" pt="spec" rel="cnj" root="graduate" spectype="vreemd" word="graduate"/>
+          <node begin="8" conjtype="neven" end="9" id="13" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="én"/>
+          <node begin="9" end="10" id="14" lemma="postgraduate" pos="noun" postag="SPEC(vreemd)" pt="spec" rel="cnj" root="postgraduate" spectype="vreemd" word="postgraduate"/>
+        </node>
+      </node>
+      <node begin="11" end="12" id="15" lemma="krijgen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="krijg" word="kreeg" wvorm="pv"/>
+      <node begin="12" cat="np" end="21" id="16" rel="obj1">
+        <node begin="12" end="13" id="17" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="18" lemma="uitnodiging_mail" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="uitnodiging_mail" word="uitnodigingsmail"/>
+        <node begin="14" cat="oti" end="21" id="19" rel="mod">
+          <node begin="14" end="15" id="20" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="om"/>
+          <node begin="15" cat="ti" end="21" id="21" rel="body">
+            <node begin="16" end="17" id="22" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+            <node begin="15" cat="inf" end="21" id="23" rel="body">
+              <node begin="15" end="16" genus="onz" getal="ev" graad="basis" id="24" lemma="deel" naamval="stan" ntype="soort" pos="part" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="svp" root="deel" word="deel"/>
+              <node begin="17" buiging="zonder" end="18" id="25" lemma="deel_nemen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="neem_deel" word="nemen" wvorm="inf"/>
+              <node begin="18" cat="pp" end="21" id="26" rel="pc">
+                <node begin="18" end="19" id="27" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+                <node begin="19" cat="np" end="21" id="28" rel="obj1">
+                  <node begin="19" end="20" id="29" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                  <node begin="20" end="21" genus="onz" getal="ev" graad="basis" id="30" lemma="onderzoek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="onderzoek" word="onderzoek"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="21" end="22" id="31" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De volledige internationale studentenpopulatie - undergraduate , graduate én postgraduate - kreeg een uitnodigingsmail om deel te nemen aan het onderzoek .</sentence>
+</alpino_ds>

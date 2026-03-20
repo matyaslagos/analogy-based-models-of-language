@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="0" cat="du" end="16" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" word="Maar"/>
+      <node begin="1" cat="smain" end="16" id="3" rel="nucl">
+        <node begin="1" cat="mwu" end="3" id="4" rel="predc">
+          <node begin="1" end="2" id="5" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="adj" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" word="het"/>
+          <node begin="2" buiging="zonder" end="3" graad="sup" id="6" lemma="leuk" pos="adj" positie="vrij" postag="ADJ(vrij,sup,zonder)" pt="adj" rel="mwp" root="leukst" word="leukst"/>
+        </node>
+        <node begin="3" end="4" id="7" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+        <node begin="4" end="5" genus="onz" getal="ev" id="8" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="noun" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" root="het" status="red" vwtype="pers" word="het"/>
+        <node begin="5" buiging="zonder" end="6" graad="basis" id="9" lemma="natuurlijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="natuurlijk" word="natuurlijk"/>
+        <node begin="6" cat="advp" end="16" id="10" rel="mod">
+          <node begin="6" end="7" id="11" lemma="boven" pos="adv" postag="VZ(fin)" pt="vz" rel="hd" root="boven" vztype="fin" word="boven"/>
+          <node begin="7" cat="rel" end="16" id="12" rel="mod">
+            <node begin="7" end="8" getal="getal" id="13" index="1" lemma="waar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(vb,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="rhd" root="waar" status="vol" vwtype="vb" word="waar"/>
+            <node begin="7" cat="ssub" end="16" id="14" rel="body">
+              <node begin="7" end="8" id="15" index="1" rel="mod"/>
+              <node begin="8" cat="np" end="11" id="16" rel="su">
+                <node begin="8" end="9" id="17" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="9" buiging="met-e" end="10" graad="basis" id="18" lemma="Turks" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Turks" word="Turkse"/>
+                <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="19" lemma="nacht" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="nacht" word="nacht"/>
+              </node>
+              <node begin="11" cat="ap" end="14" id="20" rel="mod">
+                <node begin="11" cat="advp" end="13" id="21" rel="mod">
+                  <node begin="11" buiging="zonder" end="12" graad="basis" id="22" lemma="veel" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,basis)" pt="vnw" rel="me" root="veel" vwtype="onbep" word="veel"/>
+                  <node begin="12" end="13" id="23" lemma="te" pos="adv" postag="BW()" pt="bw" rel="hd" root="te" word="te"/>
+                </node>
+                <node begin="13" buiging="zonder" end="14" graad="basis" id="24" lemma="snel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="snel" word="snel"/>
+              </node>
+              <node begin="14" buiging="zonder" end="15" graad="basis" id="25" lemma="voorbij" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="voorbij" word="voorbij"/>
+              <node begin="15" end="16" id="26" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="27" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Maar het leukst was het natuurlijk boven waar de Turkse nacht veel te snel voorbij was .</sentence>
+</alpino_ds>

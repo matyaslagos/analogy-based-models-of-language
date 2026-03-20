@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="9" end="10" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="16" id="2" rel="--">
+      <node begin="0" cat="np" end="9" id="3" rel="su">
+        <node begin="0" buiging="zonder" end="1" graad="basis" id="4" lemma="ruim" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="ruim" word="Ruim"/>
+        <node begin="1" end="2" id="5" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="6" lemma="kwart" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="kwart" word="kwart"/>
+        <node begin="3" cat="pp" end="9" id="7" rel="mod">
+          <node begin="3" end="4" id="8" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="4" cat="np" end="9" id="9" rel="obj1">
+            <node begin="4" end="5" id="10" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="5" end="6" getal="mv" graad="basis" id="11" lemma="bedrijf" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="bedrijf" word="bedrijven"/>
+            <node begin="6" cat="rel" end="9" id="12" rel="mod">
+              <node begin="6" end="7" getal="getal" id="13" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+              <node begin="6" cat="ssub" end="9" id="14" rel="body">
+                <node begin="6" end="7" id="15" index="1" rel="su"/>
+                <node begin="7" end="8" getal="mv" graad="basis" id="16" lemma="vakantie_werker" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="vakantie_werker" word="vakantiewerkers"/>
+                <node begin="8" end="9" id="17" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" word="hebben" wvorm="pv"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="10" end="11" id="18" lemma="beschermen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="bescherm" word="beschermen" wvorm="pv"/>
+      <node begin="11" cat="np" end="14" id="19" rel="obj1">
+        <node begin="11" buiging="zonder" end="12" getal="mv" id="20" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+        <node begin="12" buiging="met-e" end="13" graad="basis" id="21" lemma="tijdelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="tijdelijk" word="tijdelijke"/>
+        <node begin="13" end="14" getal="mv" graad="basis" id="22" lemma="kracht" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kracht" word="krachten"/>
+      </node>
+      <node begin="14" cat="ap" end="16" id="23" rel="mod">
+        <node begin="14" buiging="zonder" end="15" graad="basis" id="24" lemma="vaak" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="vaak" word="vaak"/>
+        <node begin="15" buiging="zonder" end="16" graad="basis" id="25" lemma="onvoldoende" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="onvoldoende" word="onvoldoende"/>
+      </node>
+    </node>
+    <node begin="16" end="17" id="26" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Ruim een kwart van de bedrijven die vakantiewerkers hebben , beschermen hun tijdelijke krachten vaak onvoldoende .</sentence>
+</alpino_ds>

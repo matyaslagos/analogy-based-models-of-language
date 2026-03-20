@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="4" end="5" id="2" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="9" end="10" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="1" cat="du" end="21" id="4" rel="--">
+      <node begin="1" cat="mwu" end="4" id="5" rel="nucl">
+        <node begin="1" end="2" id="6" lemma="Brussels" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Brussels" spectype="deeleigen" word="Brussels"/>
+        <node begin="2" end="3" id="7" lemma="Hoofdstedelijk" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Hoofdstedelijk" spectype="deeleigen" word="Hoofdstedelijk"/>
+        <node begin="3" end="4" id="8" lemma="Gewest" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Gewest" spectype="deeleigen" word="Gewest"/>
+      </node>
+      <node begin="5" cat="np" end="21" id="9" rel="sat">
+        <node begin="5" end="6" id="10" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+        <node begin="6" buiging="met-e" end="7" graad="basis" id="11" lemma="twee_talig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="tweetalige" word="tweetalige"/>
+        <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="12" lemma="gebied" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="gebied" word="gebied"/>
+        <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="13" lemma="Brussel-Hoofdstad" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="app" root="Brussel-Hoofdstad" word="Brussel-Hoofdstad"/>
+        <node begin="10" cat="rel" end="21" id="14" rel="mod">
+          <node begin="10" end="11" getal="ev" id="15" index="1" lemma="dat" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(betr,pron,stan,vol,3,ev)" pt="vnw" rel="rhd" root="dat" status="vol" vwtype="betr" word="dat"/>
+          <node begin="10" cat="ssub" end="21" id="16" rel="body">
+            <node begin="10" end="11" id="17" index="1" rel="su"/>
+            <node begin="11" end="12" id="18" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+            <node begin="12" cat="np" end="21" id="19" rel="predc">
+              <node begin="12" end="13" id="20" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="21" lemma="gebied" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="gebied" word="gebied"/>
+              <node begin="14" cat="rel" end="21" id="22" rel="mod">
+                <node begin="14" end="15" getal="ev" id="23" index="2" lemma="dat" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(betr,pron,stan,vol,3,ev)" pt="vnw" rel="rhd" root="dat" status="vol" vwtype="betr" word="dat"/>
+                <node begin="14" cat="ssub" end="21" id="24" rel="body">
+                  <node begin="14" end="15" id="25" index="2" rel="su"/>
+                  <node begin="15" end="16" id="26" lemma="overeen_komen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="kom_overeen" word="overeenkomt" wvorm="pv"/>
+                  <node begin="16" cat="pp" end="21" id="27" rel="pc">
+                    <node begin="16" end="17" id="28" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+                    <node begin="17" cat="np" end="21" id="29" rel="obj1">
+                      <node begin="17" end="18" id="30" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                      <node begin="18" end="19" id="31" lemma="19" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="19" word="19"/>
+                      <node begin="19" buiging="met-e" end="20" graad="basis" id="32" lemma="Brussels" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Brussels" word="Brusselse"/>
+                      <node begin="20" end="21" getal="mv" graad="basis" id="33" lemma="gemeente" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="gemeente" word="gemeenten"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="21" end="22" id="34" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>- Brussels Hoofdstedelijk Gewest : het tweetalige gebied Brussel-Hoofdstad , dat is het gebied dat overeenkomt met de 19 Brusselse gemeenten .</sentence>
+</alpino_ds>

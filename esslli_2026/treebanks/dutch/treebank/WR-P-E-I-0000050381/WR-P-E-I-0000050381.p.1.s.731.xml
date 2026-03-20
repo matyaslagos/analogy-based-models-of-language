@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="smain" end="12" id="1" rel="--">
+      <node begin="4" end="5" id="2" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+      <node begin="5" cat="np" end="7" id="3" index="1" rel="su">
+        <node begin="5" end="6" id="4" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="5" lemma="kolonie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="kolonie" word="kolonie"/>
+      </node>
+      <node begin="0" cat="ppart" end="12" id="6" rel="vc">
+        <node begin="0" cat="pp" end="4" id="7" rel="mod">
+          <node begin="0" end="1" id="8" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="Op"/>
+          <node begin="1" cat="mwu" end="4" id="9" rel="obj1">
+            <node begin="1" end="2" id="10" lemma="1" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="1" word="1"/>
+            <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="11" lemma="oktober" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="oktober" word="oktober"/>
+            <node begin="3" end="4" id="12" lemma="1962" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="1962" word="1962"/>
+          </node>
+        </node>
+        <node begin="5" end="7" id="13" index="1" rel="obj1"/>
+        <node begin="7" buiging="zonder" end="8" id="14" lemma="over_dragen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="draag_over" word="overgedragen" wvorm="vd"/>
+        <node begin="8" cat="pp" end="12" id="15" rel="obj2">
+          <node begin="8" end="9" id="16" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+          <node begin="9" cat="np" end="12" id="17" rel="obj1">
+            <node begin="9" end="10" id="18" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="10" cat="mwu" end="12" id="19" rel="hd">
+              <node begin="10" end="11" id="20" lemma="Verenigde" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Verenigde" spectype="deeleigen" word="Verenigde"/>
+              <node begin="11" end="12" id="21" lemma="Naties" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Naties" spectype="deeleigen" word="Naties"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Op 1 oktober 1962 werd de kolonie overgedragen aan de Verenigde Naties .</sentence>
+</alpino_ds>

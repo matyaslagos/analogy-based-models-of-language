@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="0" cat="smain" end="16" id="1" rel="--">
+      <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="2" lemma="Wolfowitz" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Wolfowitz" word="Wolfowitz"/>
+      <node begin="1" end="2" id="3" lemma="spelen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="speel" word="speelde" wvorm="pv"/>
+      <node begin="2" end="3" id="4" lemma="toen" pos="adv" postag="BW()" pt="bw" rel="mod" root="toen" word="toen"/>
+      <node begin="3" cat="np" end="6" id="5" rel="obj1">
+        <node begin="3" end="4" id="6" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="4" buiging="met-e" end="5" graad="basis" id="7" lemma="groot" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="groot" word="grote"/>
+        <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="8" lemma="rol" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="rol" word="rol"/>
+      </node>
+      <node begin="6" cat="pp" end="16" id="9" rel="pc">
+        <node begin="6" end="7" id="10" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="7" cat="np" end="16" id="11" rel="obj1">
+          <node begin="7" end="8" id="12" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="13" lemma="manier" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="manier" word="manier"/>
+          <node begin="9" cat="rel" end="16" id="14" rel="mod">
+            <node begin="9" end="10" id="15" index="1" lemma="waarop" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waarop" word="waarop"/>
+            <node begin="9" cat="ssub" end="16" id="16" rel="body">
+              <node begin="9" end="10" id="17" index="1" rel="mod"/>
+              <node begin="10" cat="np" end="13" id="18" rel="su">
+                <node begin="10" end="11" id="19" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="11" cat="mwu" end="13" id="20" rel="hd">
+                  <node begin="11" end="12" id="21" lemma="Verenigde" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Verenigde" spectype="deeleigen" word="Verenigde"/>
+                  <node begin="12" end="13" id="22" lemma="Staten" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Staten" spectype="deeleigen" word="Staten"/>
+                </node>
+              </node>
+              <node begin="13" cat="np" end="15" id="23" rel="obj1">
+                <node begin="13" end="14" id="24" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="25" lemma="Golfoorlog" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Golfoorlog" word="Golfoorlog"/>
+              </node>
+              <node begin="15" end="16" id="26" lemma="aan_pakken" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="pak_aan" word="aanpakten" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="27" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Wolfowitz speelde toen een grote rol in de manier waarop de Verenigde Staten de Golfoorlog aanpakten .</sentence>
+</alpino_ds>

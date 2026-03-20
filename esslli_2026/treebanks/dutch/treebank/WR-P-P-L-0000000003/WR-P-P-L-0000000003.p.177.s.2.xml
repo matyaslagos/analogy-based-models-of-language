@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="0" cat="smain" end="16" id="1" rel="--">
+      <node begin="7" end="8" id="2" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" word="kan" wvorm="pv"/>
+      <node begin="8" cat="np" end="10" id="3" index="1" rel="su">
+        <node begin="8" end="9" id="4" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="5" lemma="jeugd_gezondheid_zorg" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="jeugd_gezondheidszorg" word="jeugdgezondheidszorg"/>
+      </node>
+      <node begin="0" cat="inf" end="16" id="6" rel="vc">
+        <node begin="0" cat="pp" end="7" id="7" rel="mod">
+          <node begin="0" buiging="zonder" end="1" id="8" lemma="zien" pos="prep" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="gezien" word="Gezien" wvorm="vd"/>
+          <node begin="1" cat="conj" end="7" id="9" rel="obj1">
+            <node begin="1" cat="np" end="4" id="10" rel="cnj">
+              <node begin="1" end="2" id="11" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="2" buiging="met-e" end="3" graad="basis" id="12" lemma="frequent" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="frekwent" word="frequente"/>
+              <node begin="3" end="4" getal="mv" graad="basis" id="13" lemma="contact" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="contact" word="contacten"/>
+            </node>
+            <node begin="4" conjtype="neven" end="5" id="14" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="5" cat="np" end="7" id="15" rel="cnj">
+              <node begin="5" end="6" id="16" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="17" lemma="laagdrempeligheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="laagdrempeligheid" word="laagdrempeligheid"/>
+            </node>
+          </node>
+        </node>
+        <node begin="8" end="10" id="18" index="1" rel="su"/>
+        <node begin="10" cat="pp" end="13" id="19" rel="mod">
+          <node begin="10" end="11" id="20" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="11" cat="np" end="13" id="21" rel="obj1">
+            <node begin="11" buiging="zonder" end="12" graad="basis" id="22" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="det" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,basis)" pt="vnw" rel="det" root="veel" vwtype="onbep" word="veel"/>
+            <node begin="12" end="13" getal="mv" graad="basis" id="23" lemma="geval" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="geval" word="gevallen"/>
+          </node>
+        </node>
+        <node begin="13" cat="cp" end="15" id="24" rel="predc">
+          <node begin="13" conjtype="onder" end="14" id="25" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+          <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="26" lemma="zorg_coördinator" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="body" root="zorg_coördinator" word="zorgcoördinator"/>
+        </node>
+        <node begin="15" buiging="zonder" end="16" id="27" lemma="op_treden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="treed_op" word="optreden" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="16" end="17" id="28" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Gezien de frequente contacten en de laagdrempeligheid kan de jeugdgezondheidszorg in veel gevallen als zorgcoördinator optreden .</sentence>
+</alpino_ds>

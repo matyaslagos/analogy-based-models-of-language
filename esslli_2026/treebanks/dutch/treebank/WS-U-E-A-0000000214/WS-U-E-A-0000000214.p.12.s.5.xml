@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="smain" end="10" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" buiging="met-e" end="1" id="3" lemma="al" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,agr)" pt="vnw" rel="det" root="alle" vwtype="onbep" word="Alle"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="4" lemma="baby" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="babies" word="babies"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="krijgen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="krijg" word="krijgen" wvorm="pv"/>
+      <node begin="3" cat="pp" end="7" id="6" rel="mod">
+        <node begin="3" end="4" id="7" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="4" cat="np" end="7" id="8" rel="obj1">
+          <node begin="4" buiging="zonder" end="5" getal="mv" id="9" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+          <node begin="5" end="6" id="10" lemma="één" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="eerste" word="eerste"/>
+          <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="11" lemma="jaar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="jaar" word="jaar"/>
+        </node>
+      </node>
+      <node begin="7" cat="np" end="10" id="12" rel="obj1">
+        <node begin="7" cat="np" end="9" id="13" rel="det">
+          <node begin="7" end="8" id="14" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="15" lemma="aantal" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="aantal" word="aantal"/>
+        </node>
+        <node begin="9" end="10" getal="mv" graad="basis" id="16" lemma="prik" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="prik" word="prikken"/>
+      </node>
+    </node>
+    <node begin="10" end="11" id="17" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Alle babies krijgen in hun eerste jaar een aantal prikken .</sentence>
+</alpino_ds>

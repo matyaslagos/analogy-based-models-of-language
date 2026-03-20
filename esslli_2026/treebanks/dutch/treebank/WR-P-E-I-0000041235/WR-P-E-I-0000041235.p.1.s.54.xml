@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="11" id="2" rel="--">
+      <node begin="0" cat="pp" end="2" id="3" rel="mod">
+        <node begin="0" end="1" id="4" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+        <node begin="1" end="2" id="5" lemma="1837" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" root="1837" word="1837"/>
+      </node>
+      <node begin="2" end="3" id="6" lemma="huwen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="huw" word="huwde" wvorm="pv"/>
+      <node begin="3" end="4" genus="masc" getal="ev" id="7" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="hij"/>
+      <node begin="4" cat="np" end="11" id="8" rel="obj1">
+        <node begin="4" cat="mwu" end="6" id="9" rel="hd">
+          <node begin="4" end="5" id="10" lemma="Sophia" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Sophia" spectype="deeleigen" word="Sophia"/>
+          <node begin="5" end="6" id="11" lemma="Elizabeth" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Elizabeth" spectype="deeleigen" word="Elizabeth"/>
+        </node>
+        <node begin="7" cat="np" end="11" id="12" rel="app">
+          <node begin="7" end="8" getal-n="zonder-n" graad="basis" id="13" lemma="één" numtype="hoofd" pos="pron" positie="nom" postag="TW(hoofd,nom,zonder-n,basis)" pt="tw" rel="hd" root="één" word="een"/>
+          <node begin="8" cat="pp" end="11" id="14" rel="mod">
+            <node begin="8" end="9" id="15" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="9" cat="np" end="11" id="16" rel="obj1">
+              <node begin="9" end="10" getal="ev" graad="basis" id="17" lemma="Frend" naamval="gen" ntype="eigen" pos="det" postag="N(eigen,ev,basis,gen)" pt="n" rel="det" root="Frends" word="Frends"/>
+              <node begin="10" end="11" getal="mv" graad="basis" id="18" lemma="dochter" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="dochter" word="dochters"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" id="19" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>In 1837 huwde hij Sophia Elizabeth , een van Frends dochters .</sentence>
+</alpino_ds>

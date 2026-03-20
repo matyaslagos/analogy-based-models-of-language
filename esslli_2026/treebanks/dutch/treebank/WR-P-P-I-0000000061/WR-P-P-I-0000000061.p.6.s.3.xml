@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="8" end="9" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="11" end="12" id="3" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="12" end="13" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="1" cat="du" end="15" id="5" rel="--">
+      <node begin="1" cat="smain" end="11" id="6" rel="nucl">
+        <node begin="1" end="2" getal="ev" id="7" index="1" lemma="ik" naamval="nomin" pdtype="pron" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,vol,1,ev)" pt="vnw" rel="su" root="ik" status="vol" vwtype="pers" word="Ik"/>
+        <node begin="2" end="3" id="8" lemma="hebben" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="heb" word="heb" wvorm="pv"/>
+        <node begin="1" cat="ppart" end="8" id="9" rel="vc">
+          <node begin="1" end="2" id="10" index="1" rel="su"/>
+          <node begin="3" buiging="zonder" end="4" id="11" lemma="kiezen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="kies" word="gekozen" wvorm="vd"/>
+          <node begin="4" cat="pp" end="8" id="12" rel="pc">
+            <node begin="4" end="5" id="13" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+            <node begin="5" cat="np" end="8" id="14" rel="obj1">
+              <node begin="5" end="6" id="15" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="6" buiging="met-e" end="7" graad="basis" id="16" lemma="Vlaams" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Vlaams" word="Vlaamse"/>
+              <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="17" lemma="beweging" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="beweging" word="beweging"/>
+            </node>
+          </node>
+        </node>
+        <node begin="9" cat="ppart" end="11" id="18" rel="mod">
+          <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="19" lemma="partij_politiek" naamval="stan" ntype="soort" pos="adj" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mod" root="partij-politiek" word="partijpolitiek"/>
+          <node begin="10" buiging="zonder" end="11" id="20" lemma="on_binden" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="ongebonden" word="ongebonden" wvorm="vd"/>
+        </node>
+      </node>
+      <node begin="13" cat="sv1" end="15" id="21" rel="tag">
+        <node begin="13" end="14" id="22" lemma="zeggen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="zeg" word="zegt" wvorm="pv"/>
+        <node begin="14" end="15" genus="masc" getal="ev" id="23" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="hij"/>
+      </node>
+    </node>
+    <node begin="15" end="16" id="24" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>&apos; Ik heb gekozen voor de Vlaamse beweging , partijpolitiek ongebonden &apos; , zegt hij .</sentence>
+</alpino_ds>

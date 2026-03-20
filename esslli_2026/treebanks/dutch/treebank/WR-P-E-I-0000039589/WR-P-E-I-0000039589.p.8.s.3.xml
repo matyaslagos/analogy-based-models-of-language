@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="32" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="8" end="9" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="19" end="20" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="27" end="28" id="4" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="0" cat="smain" end="31" id="5" rel="--">
+      <node begin="0" cat="np" end="8" id="6" rel="su">
+        <node begin="0" end="1" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="8" lemma="mat_taart" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="mat_taart" word="mattentaart"/>
+        <node begin="3" cat="cp" end="8" id="9" rel="mod">
+          <node begin="3" conjtype="onder" end="4" id="10" lemma="zoals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zoals" word="zoals"/>
+          <node begin="4" cat="ssub" end="8" id="11" rel="body">
+            <node begin="4" end="5" getal="mv" id="12" lemma="we" naamval="nomin" pdtype="pron" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,red,1,mv)" pt="vnw" rel="su" root="we" status="red" vwtype="pers" word="we"/>
+            <node begin="5" end="6" getal="getal" id="13" lemma="die" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(aanw,pron,stan,vol,3,getal)" pt="vnw" rel="obj1" root="die" status="vol" vwtype="aanw" word="die"/>
+            <node begin="6" end="7" id="14" lemma="vandaag" pos="adv" postag="BW()" pt="bw" rel="mod" root="vandaag" word="vandaag"/>
+            <node begin="7" end="8" id="15" lemma="kennen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ken" word="kennen" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+      <node begin="9" end="10" id="16" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+      <node begin="10" cat="np" end="14" id="17" rel="predc">
+        <node begin="10" end="11" id="18" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="19" lemma="lekkernij" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="lekkernij" word="lekkernij"/>
+        <node begin="12" cat="pp" end="14" id="20" rel="mod">
+          <node begin="12" end="13" id="21" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+          <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="22" lemma="uitstek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="uitstek" word="uitstek"/>
+        </node>
+      </node>
+      <node begin="14" cat="pp" end="25" id="23" rel="mod">
+        <node begin="14" end="15" id="24" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+        <node begin="15" cat="np" end="25" id="25" rel="obj1">
+          <node begin="15" end="16" getal="mv" graad="basis" id="26" lemma="kermis" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kermis" word="kermissen"/>
+          <node begin="16" cat="pp" end="25" id="27" rel="mod">
+            <node begin="16" end="17" id="28" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="17" cat="conj" end="25" id="29" rel="obj1">
+              <node begin="17" cat="np" end="19" id="30" rel="cnj">
+                <node begin="17" buiging="zonder" end="18" graad="basis" id="31" lemma="westelijk" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="Westelijk" word="Westelijk"/>
+                <node begin="18" end="19" genus="onz" getal="ev" graad="basis" id="32" lemma="Brabant" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Brabant" word="Brabant"/>
+              </node>
+              <node begin="20" cat="np" end="22" id="33" rel="cnj">
+                <node begin="20" buiging="zonder" end="21" graad="basis" id="34" lemma="noordelijk" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="noordelijk" word="noordelijk"/>
+                <node begin="21" end="22" genus="onz" getal="ev" graad="basis" id="35" lemma="Henegouwen" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Henegouwen" word="Henegouwen"/>
+              </node>
+              <node begin="22" conjtype="neven" end="23" id="36" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="23" cat="np" end="25" id="37" rel="cnj">
+                <node begin="23" end="24" id="38" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="24" end="25" genus="zijd" getal="ev" graad="basis" id="39" lemma="Denderstreek" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Dender_streek" word="Denderstreek"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="25" cat="pp" end="31" id="40" rel="mod">
+        <node begin="25" end="26" id="41" lemma="vanaf" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="vanaf" vztype="init" word="vanaf"/>
+        <node begin="26" cat="conj" end="31" id="42" rel="obj1">
+          <node begin="26" end="27" id="43" lemma="18" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="cnj" root="18e" word="18e"/>
+          <node begin="28" cat="advp" end="31" id="44" rel="cnj">
+            <node begin="28" end="29" genus="onz" getal="ev" graad="basis" id="45" lemma="begin" naamval="stan" ntype="soort" pos="adv" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="begin" word="begin"/>
+            <node begin="29" cat="np" end="31" id="46" rel="mod">
+              <node begin="29" end="30" id="47" lemma="19" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="19e" word="19e"/>
+              <node begin="30" end="31" genus="zijd" getal="ev" graad="basis" id="48" lemma="eeuw" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="eeuw" word="eeuw"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="31" end="32" id="49" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De mattentaart , zoals we die vandaag kennen , was de lekkernij bij uitstek op kermissen in Westelijk Brabant , noordelijk Henegouwen en de Denderstreek vanaf 18e - begin 19e eeuw .</sentence>
+</alpino_ds>

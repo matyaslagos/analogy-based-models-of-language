@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="18" id="2" rel="--">
+      <node begin="0" cat="cp" end="6" id="3" rel="mod">
+        <node begin="0" conjtype="onder" end="1" id="4" lemma="voordat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="voordat" word="Voordat"/>
+        <node begin="1" cat="ssub" end="6" id="5" rel="body">
+          <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="6" index="1" lemma="Kerry" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Kerry" word="Kerry"/>
+          <node begin="3" end="4" id="7" lemma="zelf" pos="adv" postag="BW()" pt="bw" rel="predm" root="zelf" word="ZELF"/>
+          <node begin="4" end="5" id="8" lemma="mogen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="mag" word="mag" wvorm="pv"/>
+          <node begin="1" cat="inf" end="6" id="9" rel="vc">
+            <node begin="1" end="2" id="10" index="1" rel="su"/>
+            <node begin="2" end="3" getal="ev" id="11" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="obj1" root="dat" status="vol" vwtype="aanw" word="dat"/>
+            <node begin="5" buiging="zonder" end="6" id="12" lemma="recht_zetten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="zet_recht" word="rechtzetten" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+      <node begin="7" end="8" id="13" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+      <node begin="8" end="9" genus="onz" getal="ev" id="14" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" root="het" status="red" vwtype="pers" word="het"/>
+      <node begin="9" end="10" id="15" lemma="gisteravond" pos="adv" postag="BW()" pt="bw" rel="mod" root="gisteravond" word="gisteravond"/>
+      <node begin="10" cat="np" end="13" id="16" rel="mod">
+        <node begin="10" cat="detp" end="12" id="17" rel="det">
+          <node begin="10" end="11" id="18" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" word="nog"/>
+          <node begin="11" end="12" id="19" lemma="één" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="hd" root="één" word="één"/>
+        </node>
+        <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="20" lemma="keer" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="keer" word="keer"/>
+      </node>
+      <node begin="13" cat="mwu" end="15" id="21" rel="svp">
+        <node begin="13" end="14" id="22" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="fixed" postag="LID(bep,stan,rest)" pt="lid" rel="mwp" root="de" word="de"/>
+        <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="23" lemma="beurt" naamval="stan" ntype="soort" pos="fixed" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="beurt" word="beurt"/>
+      </node>
+      <node begin="15" cat="pp" end="18" id="24" rel="pc">
+        <node begin="15" end="16" id="25" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+        <node begin="16" cat="np" end="18" id="26" rel="obj1">
+          <node begin="16" buiging="met-e" end="17" graad="basis" id="27" lemma="prominent" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="prominent" word="prominente"/>
+          <node begin="17" end="18" getal="mv" graad="basis" id="28" lemma="partij_genoot" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="partij_genoot" word="partijgenoten"/>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="29" lemma="..." pos="punct" postag="LET()" pt="let" rel="--" root="..." word="..."/>
+  </node>
+  <sentence>Voordat Kerry dat ZELF mag rechtzetten , was het gisteravond nog één keer de beurt aan prominente partijgenoten ...</sentence>
+</alpino_ds>

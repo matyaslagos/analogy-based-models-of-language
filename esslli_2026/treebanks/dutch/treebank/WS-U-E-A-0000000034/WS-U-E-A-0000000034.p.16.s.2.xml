@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="11" end="12" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="du" end="15" id="2" rel="--">
+      <node begin="0" cat="smain" end="11" id="3" rel="nucl">
+        <node begin="0" end="1" id="4" lemma="nooit" pos="adv" postag="BW()" pt="bw" rel="mod" root="nooit" word="Nooit"/>
+        <node begin="1" end="2" id="5" lemma="gaan" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="ga" word="gingen" wvorm="pv"/>
+        <node begin="2" end="3" getal="getal" id="6" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+        <node begin="3" cat="pp" end="5" id="7" rel="mod">
+          <node begin="3" end="4" id="8" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="9" lemma="Nederland" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Nederland" word="Nederland"/>
+        </node>
+        <node begin="7" buiging="zonder" end="8" graad="basis" id="10" lemma="failliet" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="failliet" word="failliet"/>
+        <node begin="5" cat="np" end="11" id="11" rel="su">
+          <node begin="6" end="7" getal="mv" graad="basis" id="12" lemma="bedrijf" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="bedrijf" word="bedrijven"/>
+          <node begin="5" cat="ap" end="11" id="13" rel="det">
+            <node begin="5" buiging="zonder" end="6" graad="comp" id="14" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,comp)" pt="vnw" rel="hd" root="meer" vwtype="onbep" word="meer"/>
+            <node begin="8" cat="cp" end="11" id="15" rel="obcomp">
+              <node begin="8" conjtype="onder" end="9" id="16" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="dan" word="dan"/>
+              <node begin="9" cat="np" end="11" id="17" rel="body">
+                <node begin="9" buiging="zonder" end="10" graad="basis" id="18" lemma="vorig" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="vorig" word="vorig"/>
+                <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="19" lemma="jaar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="jaar" word="jaar"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="12" cat="np" end="15" id="20" rel="sat">
+        <node begin="12" end="13" id="21" lemma="bijna" pos="adv" postag="BW()" pt="bw" rel="mod" root="bijna" word="bijna"/>
+        <node begin="13" cat="mwu" end="15" id="22" rel="hd">
+          <node begin="13" end="14" id="23" lemma="negen" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="negen" word="negen"/>
+          <node begin="14" end="15" id="24" lemma="duizend" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="duizend" word="duizend"/>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="25" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Nooit gingen er in Nederland meer bedrijven failliet dan vorig jaar : bijna negen duizend .</sentence>
+</alpino_ds>

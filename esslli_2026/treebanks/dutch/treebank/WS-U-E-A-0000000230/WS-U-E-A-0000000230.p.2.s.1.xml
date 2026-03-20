@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="4" id="2" rel="su">
+        <node begin="0" buiging="met-e" end="1" graad="basis" id="3" lemma="Nederlands" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Nederlands" word="Nederlandse"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="4" lemma="commandant" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="commandant" word="commandant"/>
+        <node begin="2" cat="pp" end="4" id="5" rel="mod">
+          <node begin="2" end="3" id="6" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="7" lemma="Irak" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Irak" word="Irak"/>
+        </node>
+      </node>
+      <node begin="4" end="5" id="8" lemma="doen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="doe" word="doet" wvorm="pv"/>
+      <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="9" lemma="oproep" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="oproep" word="oproep"/>
+      <node begin="6" cat="pp" end="8" id="10" rel="pc">
+        <node begin="6" end="7" id="11" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+        <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="12" lemma="thuis_front" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="thuis_front" word="thuisfront"/>
+      </node>
+    </node>
+  </node>
+  <sentence>Nederlandse commandant in Irak doet oproep aan thuisfront</sentence>
+</alpino_ds>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="11" end="12" id="1" lemma="«" pos="punct" postag="LET()" pt="let" rel="--" root="«" word="«"/>
+    <node begin="13" end="14" id="2" lemma="»" pos="punct" postag="LET()" pt="let" rel="--" root="»" word="»"/>
+    <node begin="14" end="15" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="18" id="4" rel="--">
+      <node begin="0" cat="pp" end="4" id="5" rel="mod">
+        <node begin="0" end="1" id="6" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+        <node begin="1" cat="np" end="4" id="7" rel="obj1">
+          <node begin="1" end="2" id="8" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="9" lemma="academie_jaar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="academiejaar" word="academiejaar"/>
+          <node begin="3" end="4" id="10" lemma="1980-1981" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="app" root="1980-1981" word="1980-1981"/>
+        </node>
+      </node>
+      <node begin="4" end="5" id="11" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+      <node begin="5" end="6" genus="masc" getal="ev" id="12" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="hij"/>
+      <node begin="6" end="7" id="13" lemma="bovendien" pos="adv" postag="BW()" pt="bw" rel="mod" root="bovendien" word="bovendien"/>
+      <node begin="7" cat="np" end="18" id="14" rel="predc">
+        <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="15" lemma="hoofd_redacteur" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="hoofdredacteur" word="hoofdredacteur"/>
+        <node begin="8" cat="pp" end="13" id="16" rel="mod">
+          <node begin="8" end="9" id="17" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="9" cat="np" end="13" id="18" rel="obj1">
+            <node begin="9" end="10" id="19" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="20" lemma="student_blad" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="studentenblad" word="studentenblad"/>
+            <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="21" lemma="tegen_stroom" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="app" root="Tegenstroom" word="Tegenstroom"/>
+          </node>
+        </node>
+        <node begin="15" cat="np" end="18" id="22" rel="app">
+          <node begin="15" end="16" genus="onz" getal="ev" graad="basis" id="23" lemma="tijdschrift" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="tijdschrift" word="tijdschrift"/>
+          <node begin="16" cat="pp" end="18" id="24" rel="mod">
+            <node begin="16" end="17" id="25" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="17" end="18" genus="onz" getal="ev" graad="basis" id="26" lemma="KVHV-Antwerpen" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="KVHV-Antwerpen" word="KVHV-Antwerpen"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="27" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>In het academiejaar 1980-1981 was hij bovendien hoofdredacteur van het studentenblad « Tegenstroom » , tijdschrift van KVHV-Antwerpen .</sentence>
+</alpino_ds>

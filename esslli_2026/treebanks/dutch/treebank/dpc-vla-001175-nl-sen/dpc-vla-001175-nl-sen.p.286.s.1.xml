@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="34" id="0" rel="top">
+    <node begin="19" end="20" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="33" id="2" rel="--">
+      <node begin="0" cat="np" end="4" id="3" rel="su">
+        <node begin="0" cat="conj" end="3" id="4" rel="mod">
+          <node begin="0" buiging="zonder" end="1" graad="basis" id="5" lemma="leven_lang" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="cnj" root="levenslang" word="Levenslang"/>
+          <node begin="1" conjtype="neven" end="2" id="6" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="2" buiging="zonder" end="3" graad="basis" id="7" lemma="leven_breed" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="cnj" root="levensbreed" word="levensbreed"/>
+        </node>
+        <node begin="3" buiging="zonder" end="4" getal-n="zonder-n" id="8" lemma="leren" pos="noun" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="leren" word="leren" wvorm="inf"/>
+      </node>
+      <node begin="4" end="5" id="9" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="5" cat="np" end="33" id="10" rel="predc">
+        <node begin="5" end="6" id="11" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="6" buiging="zonder" end="7" graad="basis" id="12" lemma="continu" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="continu" word="continu"/>
+        <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="13" lemma="proces" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="proces" word="proces"/>
+        <node begin="8" cat="rel" end="33" id="14" rel="mod">
+          <node begin="8" end="9" id="15" index="1" lemma="waarbij" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waarbij" word="waarbij"/>
+          <node begin="8" cat="ssub" end="33" id="16" rel="body">
+            <node begin="8" end="9" id="17" index="1" rel="mod"/>
+            <node begin="9" buiging="met-e" end="10" getal-n="mv-n" id="18" lemma="leren" pos="noun" positie="nom" postag="WW(od,nom,met-e,mv-n)" pt="ww" rel="su" root="lerende" word="lerenden" wvorm="od"/>
+            <node begin="10" cat="conj" end="15" id="19" rel="obj1">
+              <node begin="10" cat="np" end="13" id="20" rel="cnj">
+                <node begin="10" end="11" id="21" index="2" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="11" buiging="met-e" end="12" graad="basis" id="22" index="3" lemma="nodig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nodig" word="nodige"/>
+                <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="23" lemma="kennis" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="kennis" word="kennis"/>
+              </node>
+              <node begin="13" conjtype="neven" end="14" id="24" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="10" cat="np" end="15" id="25" rel="cnj">
+                <node begin="10" end="11" id="26" index="2" rel="det"/>
+                <node begin="11" end="12" id="27" index="3" rel="mod"/>
+                <node begin="14" end="15" getal="mv" graad="basis" id="28" lemma="competentie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="competentie" word="competenties"/>
+              </node>
+            </node>
+            <node begin="15" end="16" id="29" lemma="verwerven" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="verwerf" word="verwerven" wvorm="pv"/>
+            <node begin="16" cat="oti" end="33" id="30" rel="mod">
+              <node begin="16" end="17" id="31" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="om"/>
+              <node begin="17" cat="ti" end="33" id="32" rel="body">
+                <node begin="31" end="32" id="33" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+                <node begin="17" cat="inf" end="33" id="34" rel="body">
+                  <node begin="17" cat="np" end="29" id="35" rel="obj1">
+                    <node begin="17" buiging="zonder" end="18" getal="mv" id="36" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+                    <node begin="18" cat="conj" end="23" id="37" rel="mod">
+                      <node begin="18" buiging="met-e" end="19" graad="basis" id="38" lemma="professioneel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="professioneel" word="professionele"/>
+                      <node begin="20" buiging="met-e" end="21" graad="basis" id="39" lemma="sociaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="sociaal" word="sociale"/>
+                      <node begin="21" conjtype="neven" end="22" id="40" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                      <node begin="22" buiging="met-e" end="23" graad="basis" id="41" lemma="cultureel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="cultureel" word="culturele"/>
+                    </node>
+                    <node begin="23" end="24" getal="mv" graad="basis" id="42" lemma="taak" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="taak" word="taken"/>
+                    <node begin="24" cat="pp" end="29" id="43" rel="mod">
+                      <node begin="24" end="25" id="44" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                      <node begin="25" cat="np" end="29" id="45" rel="obj1">
+                        <node begin="25" end="26" id="46" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                        <node begin="26" cat="ppres" end="28" id="47" rel="mod">
+                          <node begin="26" buiging="zonder" end="27" graad="basis" id="48" lemma="snel" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="snel" word="snel"/>
+                          <node begin="27" buiging="met-e" end="28" id="49" lemma="veranderen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="hd" root="verander" word="veranderende" wvorm="od"/>
+                        </node>
+                        <node begin="28" end="29" genus="zijd" getal="ev" graad="basis" id="50" lemma="samenleving" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="samenleving" word="samenleving"/>
+                      </node>
+                    </node>
+                  </node>
+                  <node begin="29" buiging="zonder" end="30" graad="comp" id="51" lemma="goed" pos="adv" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="goed" word="beter"/>
+                  <node begin="30" end="31" id="52" lemma="aan" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="aan" vztype="fin" word="aan"/>
+                  <node begin="32" buiging="zonder" end="33" id="53" lemma="aan_kunnen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="kan_aan" word="kunnen" wvorm="inf"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="33" end="34" id="54" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Levenslang en levensbreed leren is een continu proces waarbij lerenden de nodige kennis en competenties verwerven om hun professionele , sociale en culturele taken in een snel veranderende samenleving beter aan te kunnen .</sentence>
+</alpino_ds>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="smain" end="15" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" index="1" rel="su">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" buiging="met-e" end="2" graad="basis" id="4" lemma="tijdelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="tijdelijk" word="tijdelijke"/>
+        <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="5" lemma="regering" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="regering" word="regering"/>
+      </node>
+      <node begin="3" end="4" id="6" lemma="proberen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="probeer" word="probeert" wvorm="pv"/>
+      <node begin="4" cat="pp" end="7" id="7" rel="mod">
+        <node begin="4" end="5" id="8" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+        <node begin="5" cat="np" end="7" id="9" rel="obj1">
+          <node begin="5" end="6" id="10" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="11" lemma="maatregel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="maatregel" word="maatregel"/>
+        </node>
+      </node>
+      <node begin="0" cat="ti" end="15" id="12" rel="vc">
+        <node begin="13" end="14" id="13" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+        <node begin="0" cat="inf" end="15" id="14" rel="body">
+          <node begin="0" end="3" id="15" index="1" rel="su"/>
+          <node begin="7" cat="np" end="12" id="16" rel="obj1">
+            <node begin="7" end="8" id="17" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="8" buiging="met-e" end="9" id="18" lemma="toe_nemen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="neem_toe" word="toenemende" wvorm="od"/>
+            <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="19" lemma="geweld" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="geweld" word="geweld"/>
+            <node begin="10" cat="pp" end="12" id="20" rel="mod">
+              <node begin="10" end="11" id="21" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="11" end="12" getal="mv" graad="basis" id="22" lemma="opstandeling" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="opstandeling" word="opstandelingen"/>
+            </node>
+          </node>
+          <node begin="12" end="13" id="23" lemma="in" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="in" vztype="fin" word="in"/>
+          <node begin="14" buiging="zonder" end="15" id="24" lemma="in_dammen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="dam_in" word="dammen" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="25" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De tijdelijke regering probeert met de maatregel het toenemende geweld van opstandelingen in te dammen .</sentence>
+</alpino_ds>

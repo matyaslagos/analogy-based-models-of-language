@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="16" id="2" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="3" lemma="en" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="en" word="En"/>
+      <node begin="1" cat="du" end="16" id="4" rel="nucl">
+        <node begin="1" end="2" getal="ev" id="5" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="dp" root="dat" status="vol" vwtype="aanw" word="dat"/>
+        <node begin="3" cat="cp" end="16" id="6" rel="dp">
+          <node begin="3" conjtype="onder" end="4" id="7" lemma="terwijl" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="terwijl" word="terwijl"/>
+          <node begin="4" cat="ssub" end="16" id="8" rel="body">
+            <node begin="4" cat="conj" end="8" id="9" rel="su">
+              <node begin="4" cat="np" end="6" id="10" rel="cnj">
+                <node begin="4" buiging="zonder" end="5" graad="basis" id="11" index="1" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,basis)" pt="vnw" rel="det" root="veel" vwtype="onbep" word="veel"/>
+                <node begin="5" end="6" getal="mv" graad="basis" id="12" lemma="bank" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="bank" word="banken"/>
+              </node>
+              <node begin="6" conjtype="neven" end="7" id="13" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="4" cat="np" end="8" id="14" rel="cnj">
+                <node begin="4" end="5" id="15" index="1" rel="det"/>
+                <node begin="7" end="8" getal="mv" graad="basis" id="16" lemma="multinational" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="multinational" word="multinationals"/>
+              </node>
+            </node>
+            <node begin="8" cat="np" end="10" id="17" rel="obj1">
+              <node begin="8" buiging="zonder" end="9" getal="mv" id="18" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+              <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="19" lemma="ICT_werk" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="ICT_werk" word="ICT-werk"/>
+            </node>
+            <node begin="10" cat="advp" end="12" id="20" rel="mod">
+              <node begin="10" end="11" id="21" lemma="steeds" pos="adv" postag="BW()" pt="bw" rel="mod" root="steeds" word="steeds"/>
+              <node begin="11" buiging="zonder" end="12" graad="comp" id="22" lemma="veel" naamval="stan" pdtype="grad" pos="adv" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="hd" root="meer" vwtype="onbep" word="meer"/>
+            </node>
+            <node begin="12" end="13" id="23" lemma="uit_besteden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="besteed_uit" word="uitbesteden" wvorm="pv"/>
+            <node begin="13" cat="pp" end="16" id="24" rel="mod">
+              <node begin="13" end="14" id="25" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+              <node begin="14" cat="np" end="16" id="26" rel="obj1">
+                <node begin="14" buiging="met-e" end="15" graad="basis" id="27" lemma="laag" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="laag" word="lage"/>
+                <node begin="15" end="16" getal="mv" graad="basis" id="28" lemma="loon_land" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="lonen_land" word="lonen-landen"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="29" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>En dat , terwijl veel banken en multinationals hun ICT-werk steeds meer uitbesteden in lage lonen-landen .</sentence>
+</alpino_ds>

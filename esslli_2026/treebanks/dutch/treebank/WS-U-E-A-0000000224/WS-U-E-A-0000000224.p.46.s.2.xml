@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="np" end="12" id="1" rel="--">
+      <node begin="0" end="1" getal="mv" graad="basis" id="2" lemma="dance_liefhebber" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="Dance_liefhebber" word="Dance-liefhebbers"/>
+      <node begin="1" cat="rel" end="12" id="3" rel="mod">
+        <node begin="1" end="2" getal="getal" id="4" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+        <node begin="1" cat="ssub" end="12" id="5" rel="body">
+          <node begin="1" end="2" id="6" index="1" rel="su"/>
+          <node begin="10" end="11" id="7" lemma="zijn" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="ben" word="waren" wvorm="pv"/>
+          <node begin="1" cat="ppart" end="12" id="8" rel="vc">
+            <node begin="1" end="2" id="9" index="1" rel="su"/>
+            <node begin="2" end="3" id="10" lemma="anders" pos="adj" postag="BW()" pt="bw" rel="mod" root="anders" word="anders"/>
+            <node begin="3" end="4" id="11" lemma="bijvoorbeeld" pos="adv" postag="BW()" pt="bw" rel="mod" root="bijvoorbeeld" word="bijvoorbeeld"/>
+            <node begin="4" cat="pp" end="10" id="12" rel="ld">
+              <node begin="4" end="5" id="13" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+              <node begin="5" cat="np" end="10" id="14" rel="obj1">
+                <node begin="5" end="6" id="15" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="6" cat="mwu" end="8" id="16" rel="hd">
+                  <node begin="6" end="7" id="17" lemma="Love" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Love" spectype="deeleigen" word="Love"/>
+                  <node begin="7" end="8" id="18" lemma="Parade" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Parade" spectype="deeleigen" word="Parade"/>
+                </node>
+                <node begin="8" cat="pp" end="10" id="19" rel="mod">
+                  <node begin="8" end="9" id="20" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                  <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="21" lemma="Berlijn" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Berlijn" word="Berlijn"/>
+                </node>
+              </node>
+            </node>
+            <node begin="11" buiging="zonder" end="12" id="22" lemma="gaan" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="ga" word="gegaan" wvorm="vd"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" id="23" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dance-liefhebbers die anders bijvoorbeeld naar de Love Parade in Berlijn waren gegaan .</sentence>
+</alpino_ds>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="14" id="2" rel="--">
+      <node begin="0" cat="np" end="5" id="3" index="1" rel="su">
+        <node begin="0" buiging="zonder" end="1" id="4" lemma="elk" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="elk" vwtype="onbep" word="Elk"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="5" lemma="middel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="middel" word="middel"/>
+        <node begin="2" cat="rel" end="5" id="6" rel="mod">
+          <node begin="2" end="3" getal="ev" id="7" index="2" lemma="dat" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(betr,pron,stan,vol,3,ev)" pt="vnw" rel="rhd" root="dat" status="vol" vwtype="betr" word="dat"/>
+          <node begin="2" cat="ssub" end="5" id="8" rel="body">
+            <node begin="2" end="3" id="9" index="2" rel="obj1"/>
+            <node begin="3" end="4" getal="getal" id="10" lemma="u" naamval="nomin" pdtype="pron" persoon="2b" pos="pron" postag="VNW(pers,pron,nomin,vol,2b,getal)" pt="vnw" rel="su" root="u" status="vol" vwtype="pers" word="u"/>
+            <node begin="4" end="5" id="11" lemma="slikken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="slik" word="slikt" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+      <node begin="6" end="7" id="12" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" word="kan" wvorm="pv"/>
+      <node begin="0" cat="inf" end="14" id="13" rel="vc">
+        <node begin="0" end="5" id="14" index="1" rel="su"/>
+        <node begin="9" buiging="zonder" end="10" id="15" lemma="hebben" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="heb" word="hebben" wvorm="inf"/>
+        <node begin="7" cat="np" end="14" id="16" rel="obj1">
+          <node begin="7" end="8" id="17" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="18" lemma="effect" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="effect" word="effect"/>
+          <node begin="10" cat="rel" end="14" id="19" rel="mod">
+            <node begin="10" end="11" getal="ev" id="20" index="3" lemma="dat" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(betr,pron,stan,vol,3,ev)" pt="vnw" rel="rhd" root="dat" status="vol" vwtype="betr" word="dat"/>
+            <node begin="10" cat="ssub" end="14" id="21" rel="body">
+              <node begin="10" end="11" id="22" index="3" rel="obj1"/>
+              <node begin="11" end="12" getal="getal" id="23" lemma="u" naamval="nomin" pdtype="pron" persoon="2b" pos="pron" postag="VNW(pers,pron,nomin,vol,2b,getal)" pt="vnw" rel="su" root="u" status="vol" vwtype="pers" word="u"/>
+              <node begin="12" end="13" id="24" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+              <node begin="13" end="14" id="25" lemma="wensen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="wens" word="wenst" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="26" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Elk middel dat u slikt , kan een effect hebben dat u niet wenst .</sentence>
+</alpino_ds>

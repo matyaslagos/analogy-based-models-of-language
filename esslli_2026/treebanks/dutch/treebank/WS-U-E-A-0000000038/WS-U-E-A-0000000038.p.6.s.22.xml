@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="0" cat="smain" end="18" id="1" rel="--">
+      <node begin="0" cat="np" end="14" id="2" index="1" rel="su">
+        <node begin="0" end="1" id="3" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="HET"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="4" lemma="parlement_lid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="parlement_lid" word="PARLEMENTSLID"/>
+        <node begin="2" cat="mwu" end="4" id="5" rel="app">
+          <node begin="2" end="3" id="6" lemma="SERGEJ" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Sergej" spectype="deeleigen" word="SERGEJ"/>
+          <node begin="3" end="4" id="7" lemma="JOESJENKOV" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Joesjenkov" spectype="deeleigen" word="JOESJENKOV"/>
+        </node>
+        <node begin="4" cat="rel" end="14" id="8" rel="mod">
+          <node begin="4" end="5" getal="getal" id="9" index="2" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="DIE"/>
+          <node begin="4" cat="ssub" end="14" id="10" rel="body">
+            <node begin="4" end="5" id="11" index="2" rel="su"/>
+            <node begin="5" end="6" getal="getal" id="12" lemma="zich" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="se" root="zich" status="red" vwtype="refl" word="ZICH"/>
+            <node begin="6" end="7" id="13" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="OOK"/>
+            <node begin="7" cat="pp" end="13" id="14" rel="pc">
+              <node begin="7" end="8" id="15" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="MET"/>
+              <node begin="8" cat="np" end="13" id="16" rel="obj1">
+                <node begin="8" end="9" id="17" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="HET"/>
+                <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="18" lemma="onderzoek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="onderzoek" word="ONDERZOEK"/>
+                <node begin="10" cat="pp" end="13" id="19" rel="mod">
+                  <node begin="10" end="11" id="20" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="NAAR"/>
+                  <node begin="11" cat="np" end="13" id="21" rel="obj1">
+                    <node begin="11" end="12" id="22" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="DE"/>
+                    <node begin="12" end="13" getal="mv" graad="basis" id="23" lemma="bom_aanslag" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="bom_aanslag" word="BOMAANSLAGEN"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node begin="13" end="14" id="24" lemma="bemoeien" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="bemoei" word="BEMOEIDE" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+      <node begin="14" end="15" id="25" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="IS" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="18" id="26" rel="vc">
+        <node begin="0" end="14" id="27" index="1" rel="obj1"/>
+        <node begin="15" cat="np" end="17" id="28" rel="mod">
+          <node begin="15" buiging="zonder" end="16" graad="basis" id="29" lemma="vorig" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="vorig" word="VORIG"/>
+          <node begin="16" end="17" genus="onz" getal="ev" graad="basis" id="30" lemma="jaar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="jaar" word="JAAR"/>
+        </node>
+        <node begin="17" buiging="zonder" end="18" id="31" lemma="vermoorden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="vermoord" word="VERMOORD" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="18" end="19" id="32" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>HET PARLEMENTSLID SERGEJ JOESJENKOV DIE ZICH OOK MET HET ONDERZOEK NAAR DE BOMAANSLAGEN BEMOEIDE IS VORIG JAAR VERMOORD .</sentence>
+</alpino_ds>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="*" pos="tag" postag="LET()" pt="let" rel="--" root="*" word="*"/>
+    <node begin="5" end="6" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="10" end="11" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="1" cat="np" end="13" id="4" rel="--">
+      <node begin="1" end="2" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+      <node begin="2" cat="mwu" end="5" id="6" rel="hd">
+        <node begin="2" end="3" id="7" lemma="Victor" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Victor" spectype="deeleigen" word="Victor"/>
+        <node begin="3" end="4" id="8" lemma="Reader" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Reader" spectype="deeleigen" word="Reader"/>
+        <node begin="4" end="5" id="9" lemma="Classic" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Classic" spectype="deeleigen" word="Classic"/>
+      </node>
+      <node begin="6" cat="np" end="13" id="10" rel="app">
+        <node begin="6" end="7" id="11" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="12" lemma="speler" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="speler" word="speler"/>
+        <node begin="8" cat="pp" end="13" id="13" rel="mod">
+          <node begin="8" end="9" id="14" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="9" cat="np" end="13" id="15" rel="obj1">
+            <node begin="9" buiging="met-e" end="10" graad="basis" id="16" lemma="digitaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="digitaal" word="digitale"/>
+            <node begin="11" buiging="zonder" end="12" id="17" lemma="spreken" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="mod" root="gesproken" word="gesproken" wvorm="vd"/>
+            <node begin="12" end="13" getal="mv" graad="basis" id="18" lemma="boek" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="boek" word="boeken"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>* De Victor Reader Classic , de speler voor digitale , gesproken boeken</sentence>
+</alpino_ds>

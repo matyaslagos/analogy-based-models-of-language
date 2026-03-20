@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="2" end="3" id="2" lemma="hebben" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="heb" word="had" wvorm="pv"/>
+      <node begin="3" end="4" genus="onz" getal="ev" id="3" index="1" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" root="het" status="red" vwtype="pers" word="het"/>
+      <node begin="0" cat="ppart" end="7" id="4" rel="vc">
+        <node begin="0" cat="pp" end="2" id="5" rel="mod">
+          <node begin="0" end="1" id="6" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="Voor"/>
+          <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="7" lemma="Esmeralda" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" root="Esmeralda" word="Esmeralda"/>
+        </node>
+        <node begin="3" end="4" id="8" index="1" rel="su"/>
+        <node begin="4" end="5" id="9" lemma="nochtans" pos="adv" postag="BW()" pt="bw" rel="mod" root="nochtans" word="nochtans"/>
+        <node begin="5" end="6" id="10" lemma="anders" pos="adj" postag="BW()" pt="bw" rel="mod" root="anders" word="anders"/>
+        <node begin="6" buiging="zonder" end="7" id="11" lemma="kunnen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="kan" word="gekund" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="7" end="8" id="12" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Voor Esmeralda had het nochtans anders gekund .</sentence>
+</alpino_ds>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="10" id="0" rel="top">
+    <node begin="0" cat="du" end="9" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="en" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="en" word="En"/>
+      <node begin="1" cat="smain" end="9" id="3" rel="nucl">
+        <node begin="1" cat="np" end="3" id="4" rel="su">
+          <node begin="1" end="2" id="5" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+          <node begin="2" end="3" getal="ev" id="6" lemma="iedereen" naamval="stan" pdtype="pron" persoon="3p" pos="pron" postag="VNW(onbep,pron,stan,vol,3p,ev)" pt="vnw" rel="hd" root="iedereen" status="vol" vwtype="onbep" word="iedereen"/>
+        </node>
+        <node begin="3" end="4" id="7" lemma="krijgen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="krijg" word="krijgt" wvorm="pv"/>
+        <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="8" lemma="hoofd_pijn" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="hoofd_pijn" word="hoofdpijn"/>
+        <node begin="5" cat="pp" end="9" id="9" rel="pc">
+          <node begin="5" end="6" id="10" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="6" cat="np" end="9" id="11" rel="obj1">
+            <node begin="6" cat="ap" end="8" id="12" rel="det">
+              <node begin="6" end="7" id="13" lemma="te" pos="adv" postag="BW()" pt="bw" rel="mod" root="te" word="te"/>
+              <node begin="7" buiging="zonder" end="8" graad="basis" id="14" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,basis)" pt="vnw" rel="hd" root="veel" vwtype="onbep" word="veel"/>
+            </node>
+            <node begin="8" end="9" getal="mv" graad="basis" id="15" lemma="pijnstiller" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="pijnstiller" word="pijnstillers"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="9" end="10" id="16" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>En niet iedereen krijgt hoofdpijn van te veel pijnstillers .</sentence>
+</alpino_ds>

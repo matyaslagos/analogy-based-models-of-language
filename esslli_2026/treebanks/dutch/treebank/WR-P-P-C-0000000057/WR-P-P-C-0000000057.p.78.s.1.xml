@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" cat="pp" end="3" id="2" rel="mod">
+        <node begin="0" end="1" id="3" lemma="via" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="via" vztype="init" word="Via"/>
+        <node begin="1" cat="np" end="3" id="4" rel="obj1">
+          <node begin="1" buiging="met-e" end="2" id="5" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="deze"/>
+          <node begin="2" end="3" getal="mv" graad="basis" id="6" lemma="sessie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="sessie" word="sessies"/>
+        </node>
+      </node>
+      <node begin="3" end="4" id="7" lemma="trachten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="trachten" word="trachten" wvorm="pv"/>
+      <node begin="4" cat="conj" end="7" id="8" rel="su">
+        <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="9" lemma="IMEC" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="IMEC" word="IMEC"/>
+        <node begin="5" conjtype="neven" end="6" id="10" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="11" lemma="Leuven" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Leuven" word="Leuven"/>
+      </node>
+    </node>
+    <node begin="7" end="8" id="12" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Via deze sessies trachten IMEC en Leuven .</sentence>
+</alpino_ds>

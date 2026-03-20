@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="0" cat="smain" end="17" id="1" rel="--">
+      <node begin="0" cat="cp" end="3" id="2" rel="mod">
+        <node begin="0" conjtype="onder" end="1" id="3" lemma="evenals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="evenals" word="Evenals"/>
+        <node begin="1" cat="pp" end="3" id="4" rel="body">
+          <node begin="1" end="2" id="5" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+          <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="6" lemma="HR-beglazing" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" root="HR-beglazing" word="HR-beglazing"/>
+        </node>
+      </node>
+      <node begin="3" end="4" id="7" lemma="gelden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="geld" word="geldt" wvorm="pv"/>
+      <node begin="4" end="5" id="8" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+      <node begin="5" end="6" getal="getal" id="9" lemma="hier" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="mod" root="hier" status="vol" vwtype="aanw" word="hier"/>
+      <node begin="6" cat="cp" end="17" id="10" rel="su">
+        <node begin="6" conjtype="onder" end="7" id="11" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+        <node begin="7" cat="ssub" end="17" id="12" rel="body">
+          <node begin="7" cat="np" end="9" id="13" index="1" rel="su">
+            <node begin="7" end="8" id="14" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="15" lemma="overheid_stimulering" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="overheid_stimulering" word="overheidsstimulering"/>
+          </node>
+          <node begin="12" end="13" id="16" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+          <node begin="7" cat="ppart" end="17" id="17" rel="vc">
+            <node begin="7" end="9" id="18" index="1" rel="su"/>
+            <node begin="9" cat="np" end="12" id="19" rel="predc">
+              <node begin="9" end="10" id="20" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="10" buiging="met-e" end="11" graad="basis" id="21" lemma="belangrijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="belangrijk" word="belangrijke"/>
+              <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="22" lemma="factor" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="factor" word="factor"/>
+            </node>
+            <node begin="13" buiging="zonder" end="14" id="23" lemma="zijn" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="ben" word="geweest" wvorm="vd"/>
+            <node begin="14" cat="pp" end="17" id="24" rel="mod">
+              <node begin="14" end="15" id="25" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+              <node begin="15" cat="np" end="17" id="26" rel="obj1">
+                <node begin="15" buiging="met-e" end="16" id="27" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="deze"/>
+                <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="28" lemma="ontwikkeling" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="ontwikkeling" word="ontwikkeling"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="29" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Evenals bij HR-beglazing geldt ook hier dat de overheidsstimulering een belangrijke factor is geweest bij deze ontwikkeling .</sentence>
+</alpino_ds>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="2" end="3" id="2" lemma="hebben" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="heb" word="heb" wvorm="pv"/>
+      <node begin="3" end="4" getal="ev" id="3" index="1" lemma="ik" naamval="nomin" pdtype="pron" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,vol,1,ev)" pt="vnw" rel="su" root="ik" status="vol" vwtype="pers" word="ik"/>
+      <node begin="0" cat="inf" end="7" id="4" rel="vc">
+        <node begin="0" cat="pp" end="2" id="5" rel="mod">
+          <node begin="0" end="1" id="6" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+          <node begin="1" end="2" id="7" lemma="2001" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" root="2001" word="2001"/>
+        </node>
+        <node begin="3" end="4" id="8" index="1" rel="su"/>
+        <node begin="5" buiging="zonder" end="6" id="9" lemma="leren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="leer" word="leren" wvorm="inf"/>
+        <node begin="3" cat="inf" end="7" id="10" rel="vc">
+          <node begin="3" end="4" id="11" index="1" rel="su"/>
+          <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="12" lemma="saxofoon" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="saxofoon" word="saxofoon"/>
+          <node begin="6" buiging="zonder" end="7" id="13" lemma="spelen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="speel" word="spelen" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="7" end="8" id="14" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>In 2001 heb ik saxofoon leren spelen .</sentence>
+</alpino_ds>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="2" lemma="minister" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="su" root="minister" word="Minister"/>
+      <node begin="1" end="2" id="3" lemma="zien" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="zie" word="ziet" wvorm="pv"/>
+      <node begin="2" cat="np" end="4" id="4" rel="obj1">
+        <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="5" lemma="affaire" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="affaire" word="affaire"/>
+        <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="6" lemma="Millecam" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" root="Millecam" word="Millecam"/>
+      </node>
+      <node begin="4" cat="cp" end="7" id="7" rel="predc">
+        <node begin="4" conjtype="onder" end="5" id="8" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+        <node begin="5" cat="np" end="7" id="9" rel="body">
+          <node begin="5" buiging="met-e" end="6" graad="basis" id="10" lemma="ernstig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ernstig" word="ernstige"/>
+          <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="11" lemma="waarschuwing" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="waarschuwing" word="waarschuwing"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>Minister ziet affaire Millecam als ernstige waarschuwing</sentence>
+</alpino_ds>

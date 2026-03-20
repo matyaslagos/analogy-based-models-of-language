@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="0" cat="smain" end="16" id="1" rel="--">
+      <node begin="0" end="1" id="2" lemma="allemaal" pos="adv" postag="BW()" pt="bw" rel="predm" root="allemaal" word="Allemaal"/>
+      <node begin="1" end="2" id="3" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" word="hebben" wvorm="pv"/>
+      <node begin="2" end="3" getal="mv" id="4" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="ze"/>
+      <node begin="3" cat="np" end="16" id="5" rel="obj1">
+        <node begin="3" end="4" id="6" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="7" lemma="borst_stuk" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="borst_stuk" word="borststuk"/>
+        <node begin="5" cat="rel" end="16" id="8" rel="mod">
+          <node begin="5" end="6" id="9" index="1" lemma="waarvan" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waarvan" word="waarvan"/>
+          <node begin="5" cat="conj" end="16" id="10" rel="body">
+            <node begin="10" conjtype="neven" end="11" id="11" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="5" cat="ssub" end="16" id="12" rel="cnj">
+              <node begin="5" end="6" id="13" index="1" rel="mod"/>
+              <node begin="6" cat="np" end="9" id="14" rel="su">
+                <node begin="6" end="7" id="15" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                <node begin="7" buiging="met-e" end="8" graad="basis" id="16" lemma="voorste" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="voorst" word="voorste"/>
+                <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="17" lemma="deel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="deel" word="deel"/>
+              </node>
+              <node begin="9" cat="ppart" end="15" id="18" rel="predc">
+                <node begin="9" buiging="zonder" end="10" graad="basis" id="19" lemma="geel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="geel" word="geel"/>
+                <node begin="14" buiging="zonder" end="15" id="20" index="2" lemma="beharen" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="behaard" word="behaard" wvorm="vd"/>
+              </node>
+              <node begin="15" end="16" id="21" index="3" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+            </node>
+            <node begin="5" cat="ssub" end="16" id="22" rel="cnj">
+              <node begin="5" end="6" id="23" index="1" rel="mod"/>
+              <node begin="11" cat="np" end="13" id="24" rel="su">
+                <node begin="11" end="12" id="25" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="26" lemma="rest" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="rest" word="rest"/>
+              </node>
+              <node begin="13" cat="ap" end="15" id="27" rel="predc">
+                <node begin="13" buiging="zonder" end="14" graad="basis" id="28" lemma="zwart" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="zwart" word="zwart"/>
+                <node begin="14" end="15" id="29" index="2" rel="hd"/>
+              </node>
+              <node begin="15" end="16" id="30" index="3" rel="hd"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="31" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Allemaal hebben ze een borststuk waarvan het voorste deel geel en de rest zwart behaard is .</sentence>
+</alpino_ds>

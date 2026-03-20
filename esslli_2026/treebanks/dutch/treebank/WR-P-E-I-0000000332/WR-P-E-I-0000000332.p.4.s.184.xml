@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="smain" end="10" id="1" rel="--">
+      <node begin="3" end="4" id="2" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+      <node begin="7" cat="np" end="9" id="3" index="1" rel="su">
+        <node begin="7" end="8" id="4" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="5" lemma="hippie_gemeenschap" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="hippie_gemeenschap" word="hippiegemeenschap"/>
+      </node>
+      <node begin="0" cat="ppart" end="10" id="6" rel="vc">
+        <node begin="0" cat="pp" end="3" id="7" rel="mod">
+          <node begin="0" end="1" id="8" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+          <node begin="1" cat="np" end="3" id="9" rel="obj1">
+            <node begin="1" buiging="met-e" end="2" id="10" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="deze"/>
+            <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="11" lemma="film" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="film" word="film"/>
+          </node>
+        </node>
+        <node begin="4" cat="pp" end="7" id="12" rel="mod">
+          <node begin="4" end="5" id="13" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+          <node begin="5" cat="np" end="7" id="14" rel="obj1">
+            <node begin="5" buiging="met-e" end="6" graad="basis" id="15" lemma="humoristisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="humoristisch" word="humoristische"/>
+            <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="16" lemma="wijze" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="wijze" word="wijze"/>
+          </node>
+        </node>
+        <node begin="7" end="9" id="17" index="1" rel="obj1"/>
+        <node begin="9" buiging="zonder" end="10" id="18" lemma="parodiëren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="parodieer" word="geparodieerd" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="10" end="11" id="19" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>In deze film werd op humoristische wijze de hippiegemeenschap geparodieerd .</sentence>
+</alpino_ds>

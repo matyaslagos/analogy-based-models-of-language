@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="11" end="12" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="16" id="3" rel="--">
+      <node begin="0" cat="pp" end="11" id="4" rel="mod">
+        <node begin="0" end="1" id="5" lemma="pas" pos="adv" postag="BW()" pt="bw" rel="mod" root="pas" word="Pas"/>
+        <node begin="1" end="2" id="6" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="2" cat="np" end="11" id="7" rel="obj1">
+          <node begin="2" end="3" id="8" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="3" end="4" id="9" lemma="negentien" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="negentiende" word="negentiende"/>
+          <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="10" lemma="eeuw" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="eeuw" word="eeuw"/>
+          <node begin="6" cat="pp" end="11" id="11" rel="mod">
+            <node begin="6" end="7" id="12" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" vztype="init" word="na"/>
+            <node begin="7" cat="np" end="11" id="13" rel="obj1">
+              <node begin="7" end="8" id="14" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="15" lemma="onafhankelijkheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="onafhankelijkheid" word="onafhankelijkheid"/>
+              <node begin="9" cat="pp" end="11" id="16" rel="mod">
+                <node begin="9" end="10" id="17" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="18" lemma="België" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="België" word="België"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="12" end="13" id="19" lemma="veranderen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="verander" word="veranderden" wvorm="pv"/>
+      <node begin="13" cat="np" end="15" id="20" rel="su">
+        <node begin="13" end="14" id="21" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="14" end="15" getal="mv" graad="basis" id="22" lemma="taal_verhouding" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="taalverhouding" word="taalverhoudingen"/>
+      </node>
+      <node begin="15" buiging="zonder" end="16" graad="basis" id="23" lemma="echt" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="echt" word="echt"/>
+    </node>
+    <node begin="16" end="17" id="24" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Pas in de negentiende eeuw , na de onafhankelijkheid van België , veranderden de taalverhoudingen echt .</sentence>
+</alpino_ds>

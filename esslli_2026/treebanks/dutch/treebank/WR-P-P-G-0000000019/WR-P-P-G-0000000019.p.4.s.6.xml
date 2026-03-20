@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="32" id="0" rel="top">
+    <node begin="19" end="20" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="21" end="22" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="25" end="26" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="27" end="28" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="31" id="5" rel="--">
+      <node begin="0" cat="np" end="3" id="6" index="1" rel="su">
+        <node begin="0" buiging="met-e" end="1" graad="comp" id="7" lemma="oud" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,comp,met-e,stan)" pt="adj" rel="mod" root="oud" word="Oudere"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="8" lemma="homo" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="homo" word="homo&apos;s"/>
+        <node begin="2" end="3" id="9" lemma="daarentegen" pos="adv" postag="BW()" pt="bw" rel="mod" root="daarentegen" word="daarentegen"/>
+      </node>
+      <node begin="3" end="4" id="10" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="31" id="11" rel="vc">
+        <node begin="0" end="3" id="12" index="1" rel="obj1"/>
+        <node begin="4" end="5" id="13" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+        <node begin="5" end="6" id="14" lemma="alleen" pos="adj" postag="BW()" pt="bw" rel="mod" root="alleen" word="alleen"/>
+        <node begin="6" buiging="zonder" end="7" id="15" lemma="stigmatiseren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="stigmatiseer" word="gestigmatiseerd" wvorm="vd"/>
+        <node begin="7" cat="conj" end="31" id="16" rel="mod">
+          <node begin="7" cat="pp" end="14" id="17" rel="cnj">
+            <node begin="7" cat="mwu" end="10" id="18" rel="hd">
+              <node begin="7" end="8" id="19" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="op" vztype="init" word="op"/>
+              <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="20" lemma="basis" naamval="stan" ntype="soort" pos="prep" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="basis" word="basis"/>
+              <node begin="9" end="10" id="21" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="van" vztype="init" word="van"/>
+            </node>
+            <node begin="10" cat="conj" end="14" id="22" rel="obj1">
+              <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="23" lemma="leeftijd" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="leeftijd" word="leeftijd"/>
+              <node begin="11" conjtype="neven" end="12" id="24" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="12" cat="np" end="14" id="25" rel="cnj">
+                <node begin="12" buiging="met-e" end="13" graad="basis" id="26" lemma="seksueel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="seksueel" word="seksuele"/>
+                <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="27" lemma="oriëntatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="oriëntatie" word="oriëntatie"/>
+              </node>
+            </node>
+          </node>
+          <node begin="14" conjtype="neven" end="15" id="28" lemma="doch" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="doch" word="doch"/>
+          <node begin="15" cat="pp" end="31" id="29" rel="cnj">
+            <node begin="15" end="16" id="30" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+            <node begin="16" end="17" id="31" lemma="vanwege" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="vanwege" vztype="init" word="vanwege"/>
+            <node begin="17" cat="np" end="31" id="32" rel="obj1">
+              <node begin="17" end="18" id="33" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="18" buiging="met-e" end="19" graad="basis" id="34" lemma="sterk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="sterk" word="sterke"/>
+              <node begin="20" buiging="met-e" end="21" id="35" lemma="percipiëren" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="gepercipieerde" word="gepercipieerde" wvorm="vd"/>
+              <node begin="22" end="23" genus="zijd" getal="ev" graad="basis" id="36" lemma="associatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="associatie" word="associatie"/>
+              <node begin="23" cat="pp" end="31" id="37" rel="mod">
+                <node begin="23" end="24" id="38" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" vztype="init" word="tussen"/>
+                <node begin="24" cat="conj" end="31" id="39" rel="obj1">
+                  <node begin="24" buiging="zonder" end="25" getal-n="zonder-n" id="40" lemma="homo_zijn" pos="noun" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="cnj" root="homozijn" word="homozijn" wvorm="inf"/>
+                  <node begin="26" end="27" genus="genus" getal="ev" graad="basis" id="41" lemma="hiv" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,genus,stan)" pt="n" rel="cnj" root="HIV" word="HIV"/>
+                  <node begin="28" end="29" genus="zijd" getal="ev" graad="basis" id="42" lemma="promiscuïteit" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="promiscuïteit" word="promiscuïteit"/>
+                  <node begin="29" conjtype="neven" end="30" id="43" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                  <node begin="30" end="31" genus="zijd" getal="ev" graad="basis" id="44" lemma="pedofilie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="pedofilie" word="pedofilie"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="31" end="32" id="45" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Oudere homo&apos;s daarentegen zijn niet alleen gestigmatiseerd op basis van leeftijd en seksuele oriëntatie doch ook vanwege de sterke ( gepercipieerde ) associatie tussen homozijn , HIV , promiscuïteit en pedofilie .</sentence>
+</alpino_ds>

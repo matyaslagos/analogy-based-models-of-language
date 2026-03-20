@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="10" id="0" rel="top">
+    <node begin="0" cat="smain" end="9" id="1" rel="--">
+      <node begin="5" end="6" id="2" lemma="moeten" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="moet" word="moest" wvorm="pv"/>
+      <node begin="6" cat="np" end="8" id="3" index="1" rel="su">
+        <node begin="6" end="7" id="4" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="7" end="8" getal="mv" graad="basis" id="5" lemma="VS" ntype="eigen" pos="name" postag="N(eigen,mv,basis)" pt="n" rel="hd" root="VS" word="VS"/>
+      </node>
+      <node begin="0" cat="inf" end="9" id="6" rel="vc">
+        <node begin="0" cat="pp" end="5" id="7" rel="mod">
+          <node begin="0" end="1" id="8" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" vztype="init" word="Na"/>
+          <node begin="1" cat="np" end="5" id="9" rel="obj1">
+            <node begin="1" end="2" id="10" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="11" lemma="Tet_offensief" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Tet_offensief" word="Tet-offensief"/>
+            <node begin="3" cat="pp" end="5" id="12" rel="mod">
+              <node begin="3" end="4" id="13" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="4" end="5" id="14" lemma="1968" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" root="1968" word="1968"/>
+            </node>
+          </node>
+        </node>
+        <node begin="6" end="8" id="15" index="1" rel="su"/>
+        <node begin="8" buiging="zonder" end="9" id="16" lemma="terug_trekken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="trek_terug" word="terugtrekken" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="9" end="10" id="17" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Na het Tet-offensief van 1968 moest de VS terugtrekken .</sentence>
+</alpino_ds>

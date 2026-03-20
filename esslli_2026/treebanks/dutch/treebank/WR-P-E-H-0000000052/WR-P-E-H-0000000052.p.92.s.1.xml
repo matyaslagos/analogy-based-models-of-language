@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="7" end="8" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="11" end="12" id="3" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="conj" end="13" id="4" rel="--">
+      <node begin="0" cat="du" end="13" id="5" rel="cnj">
+        <node begin="0" cat="np" end="2" id="6" rel="dp">
+          <node begin="0" end="1" id="7" lemma="34" naamval="stan" numtype="hoofd" pos="adj" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="34" word="34"/>
+          <node begin="1" end="2" id="8" lemma="%" pos="noun" postag="SPEC(symb)" pt="spec" rel="hd" root="%" spectype="symb" word="%"/>
+        </node>
+        <node begin="2" buiging="zonder" end="3" graad="basis" id="9" lemma="protestant" pos="noun" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="dp" root="protestant" word="Protestant"/>
+        <node begin="12" end="13" id="10" index="1" lemma="2003" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="dp" root="2003" word="2003"/>
+      </node>
+      <node begin="4" cat="du" end="13" id="11" rel="cnj">
+        <node begin="4" cat="np" end="6" id="12" rel="dp">
+          <node begin="4" end="5" id="13" lemma="34" naamval="stan" numtype="hoofd" pos="adj" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="34" word="34"/>
+          <node begin="5" end="6" id="14" lemma="%" pos="noun" postag="SPEC(symb)" pt="spec" rel="hd" root="%" spectype="symb" word="%"/>
+        </node>
+        <node begin="6" buiging="zonder" end="7" graad="basis" id="15" lemma="rooms-katholiek" pos="noun" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="dp" root="rooms-katholiek" word="Rooms-Katholiek"/>
+        <node begin="12" end="13" id="16" index="1" rel="dp"/>
+      </node>
+      <node begin="8" cat="du" end="13" id="17" rel="cnj">
+        <node begin="8" cat="np" end="10" id="18" rel="dp">
+          <node begin="8" end="9" id="19" lemma="3,7" naamval="stan" numtype="hoofd" pos="adj" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="3,7" word="3,7"/>
+          <node begin="9" end="10" id="20" lemma="%" pos="noun" postag="SPEC(symb)" pt="spec" rel="hd" root="%" spectype="symb" word="%"/>
+        </node>
+        <node begin="10" buiging="zonder" end="11" graad="basis" id="21" lemma="moslim" pos="noun" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="dp" root="moslim" word="Moslim"/>
+        <node begin="12" end="13" id="22" index="1" rel="dp"/>
+      </node>
+    </node>
+    <node begin="13" end="14" id="23" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+  </node>
+  <sentence>34 % Protestant , 34 % Rooms-Katholiek , 3,7 % Moslim ( 2003 )</sentence>
+</alpino_ds>

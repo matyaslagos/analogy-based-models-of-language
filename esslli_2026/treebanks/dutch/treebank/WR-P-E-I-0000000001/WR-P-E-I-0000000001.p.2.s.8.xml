@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="8" end="9" id="2" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="9" end="10" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="14" id="4" rel="--">
+      <node begin="0" end="1" genus="masc" getal="ev" id="5" lemma="men" naamval="nomin" pdtype="pron" persoon="3p" pos="pron" postag="VNW(pers,pron,nomin,red,3p,ev,masc)" pt="vnw" rel="su" root="men" status="red" vwtype="pers" word="Men"/>
+      <node begin="1" end="2" id="6" lemma="spreken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="spreek" word="sprak" wvorm="pv"/>
+      <node begin="2" buiging="zonder" end="3" graad="basis" id="7" lemma="vaak" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="vaak" word="vaak"/>
+      <node begin="3" cat="pp" end="14" id="8" rel="pc">
+        <node begin="3" end="4" id="9" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+        <node begin="5" cat="np" end="14" id="10" rel="obj1">
+          <node begin="5" cat="mwu" end="8" id="11" rel="hd">
+            <node begin="5" end="6" id="12" lemma="Alexandria" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Alexandria" spectype="deeleigen" word="Alexandria"/>
+            <node begin="6" end="7" id="13" lemma="para" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="para" spectype="deeleigen" word="para"/>
+            <node begin="7" end="8" id="14" lemma="Aegypton" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Aegypton" spectype="deeleigen" word="Aegypton"/>
+          </node>
+          <node begin="10" cat="cp" end="14" id="15" rel="mod">
+            <node begin="10" end="11" id="16" lemma="dat wil zeggen" pos="comp" postag="SPEC(afk)" pt="spec" rel="cmp" root="dat_wil_zeggen" spectype="afk" word="d.w.z."/>
+            <node begin="11" cat="np" end="14" id="17" rel="body">
+              <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="18" lemma="Alexandrië" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Alexandrië" word="Alexandrië"/>
+              <node begin="12" cat="pp" end="14" id="19" rel="mod">
+                <node begin="12" end="13" id="20" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+                <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="21" lemma="Egypte" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Egypte" word="Egypte"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Men sprak vaak van &quot; Alexandria para Aegypton &quot; , d.w.z. Alexandrië bij Egypte .</sentence>
+</alpino_ds>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="20" id="2" rel="--">
+      <node begin="9" end="10" id="3" lemma="moeten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="moet" word="moet" wvorm="pv"/>
+      <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="4" index="1" lemma="Vlaanderen" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" root="Vlaanderen" word="Vlaanderen"/>
+      <node begin="0" cat="inf" end="20" id="5" rel="vc">
+        <node begin="0" cat="oti" end="8" id="6" rel="mod">
+          <node begin="0" end="1" id="7" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="Om"/>
+          <node begin="1" cat="ti" end="8" id="8" rel="body">
+            <node begin="2" end="3" id="9" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+            <node begin="1" cat="inf" end="8" id="10" rel="body">
+              <node begin="1" end="2" getal="getal" id="11" lemma="zich" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="se" root="zich" status="red" vwtype="refl" word="zich"/>
+              <node begin="3" buiging="zonder" end="4" id="12" lemma="wapenen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="wapen" word="wapenen" wvorm="inf"/>
+              <node begin="4" cat="pp" end="8" id="13" rel="pc">
+                <node begin="4" end="5" id="14" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" vztype="init" word="tegen"/>
+                <node begin="5" cat="np" end="8" id="15" rel="obj1">
+                  <node begin="5" end="6" id="16" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="6" buiging="met-e" end="7" graad="basis" id="17" lemma="socio_demografisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="socio_demografisch" word="socio-demografische"/>
+                  <node begin="7" end="8" getal="mv" graad="basis" id="18" lemma="evolutie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="evolutie" word="evoluties"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="10" end="11" id="19" index="1" rel="su"/>
+        <node begin="11" cat="np" end="16" id="20" rel="obj1">
+          <node begin="11" cat="conj" end="15" id="21" rel="det">
+            <node begin="11" buiging="zonder" end="12" graad="comp" id="22" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,comp)" pt="vnw" rel="cnj" root="meer" vwtype="onbep" word="meer"/>
+            <node begin="12" conjtype="neven" end="13" id="23" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="13" cat="ppart" end="15" id="24" rel="cnj">
+              <node begin="13" buiging="zonder" end="14" graad="comp" id="25" lemma="goed" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="goed" word="beter"/>
+              <node begin="14" buiging="met-e" end="15" id="26" lemma="op_leiden" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="hd" root="opgeleid" word="opgeleide" wvorm="vd"/>
+            </node>
+          </node>
+          <node begin="15" end="16" getal="mv" graad="basis" id="27" lemma="werknemer" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="werknemer" word="werknemers"/>
+        </node>
+        <node begin="16" cat="pp" end="19" id="28" rel="predc">
+          <node begin="16" end="17" id="29" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+          <node begin="17" cat="np" end="19" id="30" rel="obj1">
+            <node begin="17" end="18" id="31" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="18" end="19" genus="zijd" getal="ev" graad="basis" id="32" lemma="slag" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="slag" word="slag"/>
+          </node>
+        </node>
+        <node begin="19" buiging="zonder" end="20" id="33" lemma="krijgen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="krijg" word="krijgen" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="20" end="21" id="34" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Om zich te wapenen tegen de socio-demografische evoluties , moet Vlaanderen meer en beter opgeleide werknemers aan de slag krijgen .</sentence>
+</alpino_ds>

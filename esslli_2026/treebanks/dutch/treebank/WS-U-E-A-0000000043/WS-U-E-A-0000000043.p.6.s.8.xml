@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="0" cat="smain" end="17" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="4" lemma="kabinet" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="kabinet" word="kabinet"/>
+      </node>
+      <node begin="2" end="3" id="5" lcat="p(smain)" lemma="over_laten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="laat_over" word="laat" wvorm="pv"/>
+      <node begin="3" cat="pp" end="6" id="6" rel="pc">
+        <node begin="3" end="4" id="7" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+        <node begin="4" cat="np" end="6" id="8" rel="obj1">
+          <node begin="4" buiging="met-e" end="5" id="9" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="deze"/>
+          <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="10" lemma="instantie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="instantie" word="instantie"/>
+        </node>
+      </node>
+      <node begin="6" end="7" id="11" lemma="over" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="over" vztype="fin" word="over"/>
+      <node begin="7" cat="ti" end="17" id="12" rel="vc">
+        <node begin="7" end="8" id="13" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+        <node begin="8" cat="inf" end="17" id="14" rel="body">
+          <node begin="8" buiging="zonder" end="9" id="15" lemma="bepalen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="bepaal" word="bepalen" wvorm="inf"/>
+          <node begin="9" cat="whsub" end="17" id="16" rel="vc">
+            <node begin="9" cat="np" end="11" id="17" index="1" rel="whd">
+              <node begin="9" buiging="met-e" end="10" id="18" lemma="welk" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(vb,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="welk" vwtype="vb" word="welke"/>
+              <node begin="10" end="11" getal="mv" graad="basis" id="19" lemma="bedrijfstak" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="bedrijfstak" word="bedrijfstakken"/>
+            </node>
+            <node begin="9" cat="ssub" end="17" id="20" rel="body">
+              <node begin="9" end="11" id="21" index="1" rel="su"/>
+              <node begin="15" end="16" id="22" lemma="kunnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kan" word="kunnen" wvorm="pv"/>
+              <node begin="9" cat="inf" end="17" id="23" rel="vc">
+                <node begin="9" end="11" id="24" index="1" rel="su"/>
+                <node begin="11" cat="np" end="15" id="25" rel="obj1">
+                  <node begin="11" end="12" getal="mv" graad="basis" id="26" lemma="arbeider" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="arbeider" word="arbeiders"/>
+                  <node begin="12" cat="pp" end="15" id="27" rel="mod">
+                    <node begin="12" end="13" id="28" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" vztype="init" word="uit"/>
+                    <node begin="13" cat="np" end="15" id="29" rel="obj1">
+                      <node begin="13" buiging="met-e" end="14" graad="basis" id="30" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" word="nieuwe"/>
+                      <node begin="14" end="15" getal="mv" graad="basis" id="31" lemma="lidstaat" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="lidstaat" word="lidstaten"/>
+                    </node>
+                  </node>
+                </node>
+                <node begin="16" buiging="zonder" end="17" id="32" lemma="gebruiken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="gebruik" word="gebruiken" wvorm="inf"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="33" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het kabinet laat aan deze instantie over te bepalen welke bedrijfstakken arbeiders uit nieuwe lidstaten kunnen gebruiken .</sentence>
+</alpino_ds>

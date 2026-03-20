@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="30" id="0" rel="top">
+    <node begin="0" cat="np" end="29" id="1" rel="--">
+      <node begin="0" end="1" id="2" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="Een"/>
+      <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="3" lemma="toepassing_architectuur" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="toepassing_architectuur" word="toepassingsarchitectuur"/>
+      <node begin="2" cat="rel" end="29" id="4" rel="mod">
+        <node begin="2" end="3" id="5" index="1" lemma="waarin" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waarin" word="waarin"/>
+        <node begin="2" cat="ssub" end="29" id="6" rel="body">
+          <node begin="5" end="6" id="7" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+          <node begin="2" cat="ppart" end="29" id="8" rel="vc">
+            <node begin="2" end="3" id="9" index="1" rel="mod"/>
+            <node begin="6" buiging="zonder" end="7" id="10" lemma="definiëren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="definieer" word="gedefinieerd" wvorm="vd"/>
+            <node begin="7" cat="cp" end="17" id="11" rel="predc">
+              <node begin="7" conjtype="onder" end="8" id="12" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+              <node begin="8" cat="np" end="17" id="13" rel="body">
+                <node begin="8" buiging="met-e" end="9" graad="basis" id="14" lemma="afzonderlijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="afzonderlijk" word="afzonderlijke"/>
+                <node begin="9" end="10" getal="mv" graad="basis" id="15" lemma="dienst" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="dienst" word="diensten"/>
+                <node begin="10" cat="pp" end="17" id="16" rel="mod">
+                  <node begin="10" end="11" id="17" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+                  <node begin="11" cat="np" end="17" id="18" rel="obj1">
+                    <node begin="11" cat="conj" end="16" id="19" rel="mod">
+                      <node begin="11" cat="ap" end="13" id="20" rel="cnj">
+                        <node begin="11" buiging="zonder" end="12" graad="basis" id="21" lemma="gemakkelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="gemakkelijk" word="gemakkelijk"/>
+                        <node begin="12" buiging="met-e" end="13" graad="basis" id="22" lemma="toegankelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="hd" root="toegankelijk" word="toegankelijke"/>
+                      </node>
+                      <node begin="13" conjtype="neven" end="14" id="23" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                      <node begin="14" cat="ppres" end="16" id="24" rel="cnj">
+                        <node begin="14" buiging="met-e" end="15" graad="basis" id="25" lemma="duidelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="duidelijk" word="duidelijke"/>
+                        <node begin="15" buiging="met-e" end="16" id="26" lemma="omlijnen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="hd" root="omlijnd" word="omlijnde" wvorm="od"/>
+                      </node>
+                    </node>
+                    <node begin="16" end="17" getal="mv" graad="basis" id="27" lemma="interface" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="interfaces" word="interfaces"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node begin="3" cat="np" end="29" id="28" index="2" rel="obj1">
+              <node begin="3" buiging="met-e" end="4" id="29" lemma="al" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,agr)" pt="vnw" rel="det" root="alle" vwtype="onbep" word="alle"/>
+              <node begin="4" end="5" getal="mv" graad="basis" id="30" lemma="component" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="component" word="componenten"/>
+              <node begin="17" cat="rel" end="29" id="31" rel="mod">
+                <node begin="17" end="18" getal="getal" id="32" index="3" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+                <node begin="17" cat="ssub" end="29" id="33" rel="body">
+                  <node begin="17" end="18" id="34" index="3" rel="su"/>
+                  <node begin="19" end="20" id="35" lemma="kunnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kan" word="kunnen" wvorm="pv"/>
+                  <node begin="17" cat="inf" end="29" id="36" rel="vc">
+                    <node begin="17" end="18" id="37" index="3" rel="su"/>
+                    <node begin="20" buiging="zonder" end="21" id="38" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+                    <node begin="17" cat="ppart" end="29" id="39" rel="vc">
+                      <node begin="17" end="18" id="40" index="3" rel="obj1"/>
+                      <node begin="18" buiging="zonder" end="19" id="41" lemma="aan_roepen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="roep_aan" word="aangeroepen" wvorm="vd"/>
+                      <node begin="21" cat="pp" end="25" id="42" rel="mod">
+                        <node begin="21" end="22" id="43" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                        <node begin="22" cat="np" end="25" id="44" rel="obj1">
+                          <node begin="22" end="23" id="45" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                          <node begin="23" buiging="met-e" end="24" id="46" lemma="bepalen" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="bepaald" word="bepaalde" wvorm="vd"/>
+                          <node begin="24" end="25" genus="zijd" getal="ev" graad="basis" id="47" lemma="volgorde" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="volgorde" word="volgorde"/>
+                        </node>
+                      </node>
+                      <node begin="25" cat="oti" end="29" id="48" rel="mod">
+                        <node begin="25" end="26" id="49" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="om"/>
+                        <node begin="26" cat="ti" end="29" id="50" rel="body">
+                          <node begin="27" end="28" id="51" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+                          <node begin="26" cat="inf" end="29" id="52" rel="body">
+                            <node begin="26" end="27" getal="mv" graad="basis" id="53" lemma="proces" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="proces" word="processen"/>
+                            <node begin="28" buiging="zonder" end="29" id="54" lemma="vormen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="vorm" word="vormen" wvorm="inf"/>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="3" end="29" id="55" index="2" rel="su"/>
+        </node>
+      </node>
+    </node>
+    <node begin="29" end="30" id="56" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Een toepassingsarchitectuur waarin alle componenten zijn gedefinieerd als afzonderlijke diensten met gemakkelijk toegankelijke en duidelijke omlijnde interfaces die aangeroepen kunnen worden in een bepaalde volgorde om processen te vormen .</sentence>
+</alpino_ds>

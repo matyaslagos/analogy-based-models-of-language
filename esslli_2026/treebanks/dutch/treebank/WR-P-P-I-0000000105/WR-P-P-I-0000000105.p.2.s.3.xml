@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="du" end="14" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" word="Maar"/>
+      <node begin="1" cat="smain" end="14" id="3" rel="nucl">
+        <node begin="4" end="5" id="4" lemma="zullen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="zal" word="zouden" wvorm="pv"/>
+        <node begin="5" end="6" getal="mv" id="5" index="1" lemma="we" naamval="nomin" pdtype="pron" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,red,1,mv)" pt="vnw" rel="su" root="we" status="red" vwtype="pers" word="we"/>
+        <node begin="1" cat="inf" end="14" id="6" rel="vc">
+          <node begin="5" end="6" id="7" index="1" rel="su"/>
+          <node begin="12" buiging="zonder" end="13" id="8" lemma="kunnen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="kan" word="kunnen" wvorm="inf"/>
+          <node begin="1" cat="inf" end="14" id="9" rel="vc">
+            <node begin="1" cat="pp" end="4" id="10" rel="mod">
+              <node begin="1" end="2" id="11" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+              <node begin="2" cat="np" end="4" id="12" rel="obj1">
+                <node begin="2" buiging="zonder" end="3" id="13" lemma="die" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,rest)" pt="vnw" rel="det" root="die" vwtype="aanw" word="die"/>
+                <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="14" lemma="wet" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="wet" word="wet"/>
+              </node>
+            </node>
+            <node begin="5" end="6" id="15" index="1" rel="su"/>
+            <node begin="6" end="7" id="16" lemma="wel" pos="adv" postag="BW()" pt="bw" rel="mod" root="wel" word="wel"/>
+            <node begin="7" end="8" id="17" lemma="eens" pos="adv" postag="BW()" pt="bw" rel="mod" root="eens" word="eens"/>
+            <node begin="8" cat="np" end="11" id="18" rel="obj1">
+              <node begin="8" cat="np" end="10" id="19" rel="det">
+                <node begin="8" end="9" id="20" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="21" lemma="paar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="paar" word="paar"/>
+              </node>
+              <node begin="10" end="11" getal="mv" graad="basis" id="22" lemma="vrijheid" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vrijheid" word="vrijheden"/>
+            </node>
+            <node begin="11" buiging="zonder" end="12" graad="basis" id="23" lemma="kwijt" pos="part" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="svp" root="kwijt" word="kwijt"/>
+            <node begin="13" buiging="zonder" end="14" id="24" lemma="kwijt_raken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="raak_kwijt" word="raken" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="25" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Maar door die wet zouden we wel eens een paar vrijheden kwijt kunnen raken .</sentence>
+</alpino_ds>

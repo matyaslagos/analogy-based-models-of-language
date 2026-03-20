@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="23" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="14" end="15" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="22" id="3" rel="--">
+      <node begin="0" cat="np" end="14" id="4" index="1" rel="su">
+        <node begin="0" end="1" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="6" lemma="bootleg" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="bootleg" word="bootleg"/>
+        <node begin="2" cat="pp" end="5" id="7" rel="mod">
+          <node begin="2" end="3" id="8" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="3" cat="np" end="5" id="9" rel="obj1">
+            <node begin="3" buiging="zonder" end="4" id="10" lemma="dit" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dit" vwtype="aanw" word="dit"/>
+            <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="11" lemma="optreden" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="optreden" word="optreden"/>
+          </node>
+        </node>
+        <node begin="6" cat="ap" end="14" id="12" rel="mod">
+          <node begin="6" buiging="zonder" end="7" graad="basis" id="13" lemma="genaamd" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="genaamd" word="genaamd"/>
+          <node begin="7" cat="mwu" end="14" id="14" rel="obj1">
+            <node begin="7" end="8" id="15" lemma="Small" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Small" spectype="vreemd" word="Small"/>
+            <node begin="8" end="9" id="16" lemma="Club" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Club" spectype="vreemd" word="Club"/>
+            <node begin="9" end="10" id="17" lemma="-" pos="name" postag="LET()" pt="let" rel="mwp" root="-" word="-"/>
+            <node begin="10" end="11" id="18" lemma="2nd" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="2nd" spectype="vreemd" word="2nd"/>
+            <node begin="11" end="12" id="19" lemma="Show" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Show" spectype="vreemd" word="Show"/>
+            <node begin="12" end="13" id="20" lemma="That" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="That" spectype="vreemd" word="That"/>
+            <node begin="13" end="14" id="21" lemma="Night" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Night" spectype="vreemd" word="Night"/>
+          </node>
+        </node>
+      </node>
+      <node begin="15" end="16" id="22" lemma="zullen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zal" word="zal" wvorm="pv"/>
+      <node begin="0" cat="inf" end="22" id="23" rel="vc">
+        <node begin="0" end="14" id="24" index="1" rel="su"/>
+        <node begin="16" cat="np" end="21" id="25" rel="predc">
+          <node begin="16" end="17" getal-n="zonder-n" graad="basis" id="26" lemma="één" numtype="hoofd" pos="pron" positie="nom" postag="TW(hoofd,nom,zonder-n,basis)" pt="tw" rel="hd" root="één" word="een"/>
+          <node begin="17" cat="pp" end="21" id="27" rel="mod">
+            <node begin="17" end="18" id="28" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="18" cat="np" end="21" id="29" rel="obj1">
+              <node begin="18" end="19" id="30" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="19" buiging="met-e" end="20" graad="sup" id="31" lemma="bekend" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="mod" root="bekend" word="bekendste"/>
+              <node begin="20" end="21" getal="mv" graad="basis" id="32" lemma="Prince_bootleg" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="Prince-bootlegs" word="Prince-bootlegs"/>
+            </node>
+          </node>
+        </node>
+        <node begin="21" buiging="zonder" end="22" id="33" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="22" end="23" id="34" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De bootleg van dit optreden , genaamd Small Club - 2nd Show That Night , zal een van de bekendste Prince-bootlegs worden .</sentence>
+</alpino_ds>

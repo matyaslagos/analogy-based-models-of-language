@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="13" end="14" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="20" id="2" rel="--">
+      <node begin="0" cat="cp" end="13" id="3" rel="mod">
+        <node begin="0" conjtype="onder" end="1" id="4" lemma="terwijl" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="terwijl" word="Terwijl"/>
+        <node begin="1" cat="ssub" end="13" id="5" rel="body">
+          <node begin="1" cat="conj" end="5" id="6" rel="su">
+            <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="7" lemma="Dylan" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Dylan" word="Dylan"/>
+            <node begin="2" conjtype="neven" end="3" id="8" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="3" cat="mwu" end="5" id="9" rel="cnj">
+              <node begin="3" end="4" id="10" lemma="The" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="The" spectype="deeleigen" word="The"/>
+              <node begin="4" end="5" id="11" lemma="Hawks" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Hawks" spectype="deeleigen" word="Hawks"/>
+            </node>
+          </node>
+          <node begin="5" cat="pp" end="8" id="12" rel="mod">
+            <node begin="5" end="6" id="13" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+            <node begin="6" cat="np" end="8" id="14" rel="obj1">
+              <node begin="6" end="7" id="15" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="16" lemma="tournee" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="tournee" word="tournee"/>
+            </node>
+          </node>
+          <node begin="8" cat="np" end="12" id="17" rel="obj1">
+            <node begin="8" end="9" id="18" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="9" cat="ap" end="11" id="19" rel="mod">
+              <node begin="9" end="10" id="20" lemma="steeds" pos="adv" postag="BW()" pt="bw" rel="mod" root="steeds" word="steeds"/>
+              <node begin="10" buiging="zonder" end="11" graad="comp" id="21" lemma="welwillend" pos="adj" positie="prenom" postag="ADJ(prenom,comp,zonder)" pt="adj" rel="hd" root="welwillend" word="welwillender"/>
+            </node>
+            <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="22" lemma="publiek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="publiek" word="publiek"/>
+          </node>
+          <node begin="12" end="13" id="23" lemma="mee_maken" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="maak_mee" word="meemaakten" wvorm="pv"/>
+        </node>
+      </node>
+      <node begin="14" end="15" id="24" lemma="stagneren" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="stagneer" word="stagneerden" wvorm="pv"/>
+      <node begin="15" cat="np" end="20" id="25" rel="su">
+        <node begin="15" end="16" id="26" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="16" end="17" getal="mv" graad="basis" id="27" lemma="vordering" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vordering" word="vorderingen"/>
+        <node begin="17" cat="pp" end="20" id="28" rel="mod">
+          <node begin="17" end="18" id="29" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="18" cat="np" end="20" id="30" rel="obj1">
+            <node begin="18" end="19" id="31" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="19" end="20" genus="zijd" getal="ev" graad="basis" id="32" lemma="studio" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="studio" word="studio"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="20" end="21" id="33" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Terwijl Dylan en The Hawks op de tournee een steeds welwillender publiek meemaakten , stagneerden de vorderingen in de studio .</sentence>
+</alpino_ds>

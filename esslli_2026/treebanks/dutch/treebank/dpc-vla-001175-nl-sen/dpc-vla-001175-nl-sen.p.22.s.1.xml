@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="10" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="10" id="2" rel="--">
+      <node begin="0" end="1" id="3" lemma="1.4" pos="num" postag="SPEC(symb)" pt="spec" rel="tag" root="1.4" spectype="symb" word="1.4"/>
+      <node begin="1" cat="np" end="10" id="4" rel="nucl">
+        <node begin="1" buiging="zonder" end="2" graad="basis" id="5" lemma="Vlaams" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="Vlaams" word="Vlaams"/>
+        <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="6" lemma="onderwijs" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="onderwijs" word="onderwijs"/>
+        <node begin="3" cat="ppart" end="10" id="7" rel="mod">
+          <node begin="3" buiging="zonder" end="4" id="8" lemma="in_bedden" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="ingebed" word="ingebed" wvorm="vd"/>
+          <node begin="4" cat="pp" end="10" id="9" rel="mod">
+            <node begin="4" end="5" id="10" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="5" cat="conj" end="10" id="11" rel="obj1">
+              <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="12" lemma="regio" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="regio" word="regio"/>
+              <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="13" lemma="continent" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="cnj" root="continent" word="continent"/>
+              <node begin="8" conjtype="neven" end="9" id="14" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="15" lemma="wereld" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="wereld" word="wereld"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>1.4 Vlaams onderwijs ingebed in regio , continent en wereld</sentence>
+</alpino_ds>

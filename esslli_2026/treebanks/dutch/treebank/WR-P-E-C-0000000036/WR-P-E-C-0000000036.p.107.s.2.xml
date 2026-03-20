@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="3" end="4" id="2" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="0" cat="np" end="7" id="3" rel="--">
+      <node begin="0" end="1" id="4" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+      <node begin="2" buiging="zonder" end="3" getal-n="zonder-n" id="5" lemma="termen" pos="name" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="termen" word="termen" wvorm="inf"/>
+      <node begin="4" cat="pp" end="7" id="6" rel="mod">
+        <node begin="4" end="5" id="7" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+        <node begin="5" cat="np" end="7" id="8" rel="obj1">
+          <node begin="5" end="6" id="9" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="6" end="7" getal="mv" graad="basis" id="10" lemma="rederijker" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="rederij_kers" word="rederijkers"/>
+        </node>
+      </node>
+    </node>
+    <node begin="7" end="8" id="11" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het &apos; termen &apos; van de rederijkers .</sentence>
+</alpino_ds>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="20" id="2" rel="--">
+      <node begin="0" cat="smain" end="8" id="3" rel="nucl">
+        <node begin="3" end="4" id="4" lemma="worden" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="word" word="werden" wvorm="pv"/>
+        <node begin="5" cat="np" end="7" id="5" index="1" rel="su">
+          <node begin="5" buiging="met-e" end="6" graad="basis" id="6" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" word="nieuwe"/>
+          <node begin="6" end="7" getal="mv" graad="basis" id="7" lemma="techniek" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="techniek" word="technieken"/>
+        </node>
+        <node begin="0" cat="ppart" end="8" id="8" rel="vc">
+          <node begin="0" cat="pp" end="3" id="9" rel="mod">
+            <node begin="0" end="1" id="10" lemma="vanaf" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="vanaf" vztype="init" word="Vanaf"/>
+            <node begin="1" cat="np" end="3" id="11" rel="obj1">
+              <node begin="1" end="2" id="12" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="2" end="3" getal="mv" graad="basis" id="13" lemma="Middeleeuwen" ntype="eigen" pos="name" postag="N(eigen,mv,basis)" pt="n" rel="hd" root="Middeleeuwen" word="Middeleeuwen"/>
+            </node>
+          </node>
+          <node begin="4" end="5" getal="getal" id="14" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+          <node begin="5" end="7" id="15" index="1" rel="obj1"/>
+          <node begin="7" buiging="zonder" end="8" id="16" lemma="in_voeren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="voer_in" word="ingevoerd" wvorm="vd"/>
+        </node>
+      </node>
+      <node begin="9" cat="du" end="20" id="17" rel="sat">
+        <node begin="9" cat="cp" end="14" id="18" rel="dp">
+          <node begin="9" end="10" id="19" lemma="namelijk" pos="comp" postag="BW()" pt="bw" rel="cmp" root="namelijk" word="namelijk"/>
+          <node begin="10" cat="pp" end="14" id="20" rel="body">
+            <node begin="10" end="11" id="21" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+            <node begin="11" cat="mwu" end="14" id="22" rel="obj1">
+              <node begin="11" end="12" id="23" lemma="Karel" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Karel" spectype="deeleigen" word="Karel"/>
+              <node begin="12" end="13" id="24" lemma="de" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="de" spectype="deeleigen" word="de"/>
+              <node begin="13" end="14" id="25" lemma="Grote" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Grote" spectype="deeleigen" word="Grote"/>
+            </node>
+          </node>
+        </node>
+        <node begin="14" cat="conj" end="20" id="26" rel="dp">
+          <node begin="14" cat="np" end="16" id="27" rel="cnj">
+            <node begin="14" end="15" id="28" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="15" end="16" genus="onz" getal="ev" graad="basis" id="29" lemma="drie_slag_stelsel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="drie_slag_stelsel" word="drieslagstelsel"/>
+          </node>
+          <node begin="16" conjtype="neven" end="17" id="30" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="17" cat="du" end="20" id="31" rel="cnj">
+            <node begin="17" buiging="zonder" end="18" graad="comp" id="32" lemma="laat" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="dp" root="laat" word="later"/>
+            <node begin="18" cat="np" end="20" id="33" rel="dp">
+              <node begin="18" end="19" id="34" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="19" end="20" genus="onz" getal="ev" graad="basis" id="35" lemma="vier_slag_stelsel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="vier_slag_stelsel" word="vierslagstelsel"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="20" end="21" id="36" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Vanaf de Middeleeuwen werden er nieuwe technieken ingevoerd , namelijk door Karel de Grote het drieslagstelsel en later het vierslagstelsel .</sentence>
+</alpino_ds>

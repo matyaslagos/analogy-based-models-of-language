@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="0" buiging="zonder" end="1" graad="basis" id="2" lemma="zwaargewond" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predm" root="zwaargewond" word="Zwaargewond"/>
+      <node begin="1" end="2" id="3" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+      <node begin="2" end="3" genus="masc" getal="ev" id="4" index="1" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,red,3,ev,masc)" pt="vnw" rel="su" root="hij" status="red" vwtype="pers" word="ie"/>
+      <node begin="2" cat="ppart" end="11" id="5" rel="vc">
+        <node begin="2" end="3" id="6" index="1" rel="obj1"/>
+        <node begin="3" buiging="zonder" end="4" id="7" lemma="af_voeren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="voer_af" word="afgevoerd" wvorm="vd"/>
+        <node begin="4" cat="pp" end="11" id="8" rel="ld">
+          <node begin="4" end="5" id="9" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+          <node begin="5" cat="np" end="11" id="10" rel="obj1">
+            <node begin="5" end="6" id="11" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="6" cat="mwu" end="8" id="12" rel="hd">
+              <node begin="6" end="7" id="13" lemma="westeinde" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="westeinde" spectype="deeleigen" word="westeinde"/>
+              <node begin="7" end="8" id="14" lemma="ziekenhuis" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="ziekenhuis" spectype="deeleigen" word="ziekenhuis"/>
+            </node>
+            <node begin="8" cat="pp" end="11" id="15" rel="mod">
+              <node begin="8" end="9" id="16" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+              <node begin="9" cat="mwu" end="11" id="17" rel="obj1">
+                <node begin="9" end="10" id="18" lemma="Den" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Den" spectype="deeleigen" word="Den"/>
+                <node begin="10" end="11" id="19" lemma="Haag" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Haag" spectype="deeleigen" word="Haag"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" id="20" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Zwaargewond wordt ie afgevoerd naar het westeinde ziekenhuis in Den Haag .</sentence>
+</alpino_ds>

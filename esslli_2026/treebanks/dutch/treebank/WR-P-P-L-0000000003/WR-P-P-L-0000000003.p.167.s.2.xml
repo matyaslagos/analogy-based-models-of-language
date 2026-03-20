@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="15" id="2" rel="--">
+      <node begin="7" end="8" id="3" lemma="zullen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zal" word="zal" wvorm="pv"/>
+      <node begin="9" cat="np" end="13" id="4" index="1" rel="su">
+        <node begin="9" end="10" id="5" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="10" cat="ppart" end="12" id="6" rel="mod">
+          <node begin="10" buiging="zonder" end="11" graad="basis" id="7" lemma="individueel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="individueel" word="individueel"/>
+          <node begin="11" buiging="met-e" end="12" id="8" lemma="af_stemmen" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="hd" root="afgestemd" word="afgestemde" wvorm="vd"/>
+        </node>
+        <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="9" lemma="interventie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="interventie" word="interventie"/>
+      </node>
+      <node begin="0" cat="inf" end="15" id="10" rel="vc">
+        <node begin="9" end="13" id="11" index="1" rel="su"/>
+        <node begin="13" buiging="zonder" end="14" id="12" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+        <node begin="0" cat="ppart" end="15" id="13" rel="vc">
+          <node begin="0" cat="ap" end="6" id="14" rel="mod">
+            <node begin="0" buiging="zonder" end="1" graad="basis" id="15" lemma="afhankelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="afhankelijk" word="Afhankelijk"/>
+            <node begin="1" cat="pp" end="6" id="16" rel="pc">
+              <node begin="1" end="2" id="17" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="2" cat="whrel" end="6" id="18" rel="obj1">
+                <node begin="2" cat="np" end="4" id="19" index="2" rel="rhd">
+                  <node begin="2" buiging="met-e" end="3" id="20" lemma="welk" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(vb,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="welk" vwtype="vb" word="welke"/>
+                  <node begin="3" end="4" getal="mv" graad="basis" id="21" lemma="bedreiging" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="bedreiging" word="bedreigingen"/>
+                </node>
+                <node begin="2" cat="ssub" end="6" id="22" rel="body">
+                  <node begin="2" end="4" id="23" index="2" rel="su"/>
+                  <node begin="4" end="5" id="24" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+                  <node begin="2" cat="ppart" end="6" id="25" rel="vc">
+                    <node begin="2" end="4" id="26" index="2" rel="obj1"/>
+                    <node begin="5" buiging="zonder" end="6" id="27" lemma="vast_stellen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="stel_vast" word="vastgesteld" wvorm="vd"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="8" end="9" id="28" lemma="daarna" pos="adv" postag="BW()" pt="bw" rel="mod" root="daarna" word="daarna"/>
+          <node begin="9" end="13" id="29" index="1" rel="obj1"/>
+          <node begin="14" buiging="zonder" end="15" id="30" lemma="kiezen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="kies" word="gekozen" wvorm="vd"/>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="31" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Afhankelijk van welke bedreigingen zijn vastgesteld , zal daarna een individueel afgestemde interventie worden gekozen .</sentence>
+</alpino_ds>

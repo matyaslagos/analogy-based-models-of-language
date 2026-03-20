@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="26" id="0" rel="top">
+    <node begin="19" end="20" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="21" end="22" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="25" id="3" rel="--">
+      <node begin="0" buiging="zonder" end="1" graad="basis" id="4" lemma="regelmatig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="regelmatig" word="Regelmatig"/>
+      <node begin="1" end="2" id="5" lemma="organiseren" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="organiseer" word="organiseert" wvorm="pv"/>
+      <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="6" lemma="IMEC" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" root="IMEC" word="IMEC"/>
+      <node begin="3" end="4" getal="mv" graad="basis" id="7" lemma="workshop" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="workshop" word="workshops"/>
+      <node begin="4" cat="cp" end="25" id="8" rel="mod">
+        <node begin="4" conjtype="onder" end="5" id="9" lemma="zodat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zodat" word="zodat"/>
+        <node begin="5" cat="ssub" end="25" id="10" rel="body">
+          <node begin="5" end="6" getal="getal" id="11" lemma="u" naamval="nomin" pdtype="pron" persoon="2b" pos="pron" postag="VNW(pers,pron,nomin,vol,2b,getal)" pt="vnw" rel="su" root="u" status="vol" vwtype="pers" word="u"/>
+          <node begin="9" end="10" id="12" lemma="blijven" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="blijf" word="blijft" wvorm="pv"/>
+          <node begin="6" cat="ap" end="25" id="13" rel="predc">
+            <node begin="6" cat="mwu" end="9" id="14" rel="hd">
+              <node begin="6" end="7" id="15" lemma="op" pos="adj" postag="VZ(init)" pt="vz" rel="mwp" root="op" vztype="init" word="op"/>
+              <node begin="7" end="8" id="16" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="adj" postag="LID(bep,stan,rest)" pt="lid" rel="mwp" root="de" word="de"/>
+              <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="17" lemma="hoogte" naamval="stan" ntype="soort" pos="adj" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="hoogte" word="hoogte"/>
+            </node>
+            <node begin="10" cat="pp" end="25" id="18" rel="pc">
+              <node begin="10" end="11" id="19" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="11" cat="np" end="25" id="20" rel="obj1">
+                <node begin="11" end="12" id="21" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="12" buiging="met-e" end="13" graad="sup" id="22" lemma="laat" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="mod" root="laat" word="laatste"/>
+                <node begin="13" end="14" getal="mv" graad="basis" id="23" lemma="trend" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="trend" word="trends"/>
+                <node begin="14" cat="pp" end="25" id="24" rel="mod">
+                  <node begin="14" end="15" id="25" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                  <node begin="15" cat="np" end="25" id="26" rel="obj1">
+                    <node begin="15" end="16" id="27" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="16" end="17" getal="mv" graad="basis" id="28" lemma="domein" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="domein" word="domeinen"/>
+                    <node begin="17" cat="pp" end="25" id="29" rel="mod">
+                      <node begin="17" end="18" id="30" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                      <node begin="18" cat="conj" end="25" id="31" rel="obj1">
+                        <node begin="18" end="19" genus="zijd" getal="ev" graad="basis" id="32" lemma="miniaturisatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="miniaturisatie" word="miniaturisatie"/>
+                        <node begin="20" end="21" getal="mv" graad="basis" id="33" lemma="multimedia" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="multi_medium" word="multimedia"/>
+                        <node begin="22" conjtype="neven" end="23" id="34" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                        <node begin="23" cat="np" end="25" id="35" rel="cnj">
+                          <node begin="23" buiging="met-e" end="24" graad="basis" id="36" lemma="draadloos" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="draadloos" word="draadloze"/>
+                          <node begin="24" end="25" genus="zijd" getal="ev" graad="basis" id="37" lemma="communicatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="communicatie" word="communicatie"/>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="25" end="26" id="38" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Regelmatig organiseert IMEC workshops zodat u op de hoogte blijft van de laatste trends in de domeinen van miniaturisatie , multimedia , en draadloze communicatie .</sentence>
+</alpino_ds>

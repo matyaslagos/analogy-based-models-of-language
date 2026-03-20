@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="11" end="12" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="20" id="2" rel="--">
+      <node begin="0" cat="mwu" end="2" id="3" rel="su">
+        <node begin="0" end="1" id="4" lemma="Microraptor" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Microraptor" spectype="deeleigen" word="Microraptor"/>
+        <node begin="1" end="2" id="5" lemma="gui" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="gui" spectype="deeleigen" word="gui"/>
+      </node>
+      <node begin="2" end="3" id="6" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="3" end="4" id="7" lemma="misschien" pos="adv" postag="BW()" pt="bw" rel="mod" root="misschien" word="misschien"/>
+      <node begin="4" cat="conj" end="20" id="8" rel="predc">
+        <node begin="4" cat="np" end="11" id="9" rel="cnj">
+          <node begin="4" buiging="zonder" end="5" id="10" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="geen"/>
+          <node begin="5" buiging="met-e" end="6" graad="basis" id="11" lemma="direct" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="direct" word="directe"/>
+          <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="12" lemma="voorouder" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="voorouder" word="voorouder"/>
+          <node begin="7" cat="pp" end="11" id="13" rel="mod">
+            <node begin="7" end="8" id="14" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="8" cat="np" end="11" id="15" rel="obj1">
+              <node begin="8" end="9" id="16" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="9" buiging="met-e" end="10" graad="basis" id="17" lemma="hedendaags" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="hedendaags" word="hedendaagse"/>
+              <node begin="10" end="11" getal="mv" graad="basis" id="18" lemma="vogel" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vogel" word="vogels"/>
+            </node>
+          </node>
+        </node>
+        <node begin="12" conjtype="neven" end="13" id="19" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+        <node begin="13" cat="np" end="20" id="20" rel="cnj">
+          <node begin="13" buiging="zonder" end="14" graad="comp" id="21" lemma="eerder" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="eerder" word="eerder"/>
+          <node begin="14" end="15" getal-n="zonder-n" graad="basis" id="22" lemma="één" numtype="hoofd" pos="pron" positie="nom" postag="TW(hoofd,nom,zonder-n,basis)" pt="tw" rel="hd" root="één" word="een"/>
+          <node begin="15" cat="pp" end="20" id="23" rel="mod">
+            <node begin="15" end="16" id="24" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="16" cat="np" end="20" id="25" rel="obj1">
+              <node begin="16" buiging="zonder" end="17" getal="mv" id="26" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+              <node begin="17" cat="ap" end="19" id="27" rel="mod">
+                <node begin="17" buiging="zonder" end="18" graad="comp" id="28" lemma="veel" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mod" root="meer" vwtype="onbep" word="meer"/>
+                <node begin="18" buiging="met-e" end="19" graad="basis" id="29" lemma="exotisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="hd" root="exotisch" word="exotische"/>
+              </node>
+              <node begin="19" end="20" getal="mv" graad="basis" id="30" lemma="verwant" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="verwante" word="verwanten"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="20" end="21" id="31" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Microraptor gui is misschien geen directe voorouder van de hedendaagse vogels , maar eerder een van hun meer exotische verwanten .</sentence>
+</alpino_ds>

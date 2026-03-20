@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="du" end="7" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="en" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="en" word="En"/>
+      <node begin="1" cat="smain" end="7" id="3" rel="nucl">
+        <node begin="1" end="2" getal="mv" id="4" lemma="we" naamval="nomin" pdtype="pron" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,red,1,mv)" pt="vnw" rel="su" root="we" status="red" vwtype="pers" word="we"/>
+        <node begin="2" end="3" id="5" lemma="halen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="haal" word="halen" wvorm="pv"/>
+        <node begin="3" cat="np" end="5" id="6" rel="obj1">
+          <node begin="3" end="4" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="4" end="5" getal="mv" graad="dim" id="8" lemma="kleed" ntype="soort" pos="noun" postag="N(soort,mv,dim)" pt="n" rel="hd" root="kleed_DIM" word="kleedjes"/>
+        </node>
+        <node begin="5" cat="pp" end="7" id="9" rel="ld">
+          <node begin="5" end="6" id="10" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="11" lemma="tafel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="tafel" word="tafel"/>
+        </node>
+      </node>
+    </node>
+    <node begin="7" end="8" id="12" lemma="!" pos="punct" postag="LET()" pt="let" rel="--" root="!" word="!"/>
+    <node begin="8" end="9" id="13" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+  </node>
+  <sentence>En we halen de kleedjes van tafel ! &quot;</sentence>
+</alpino_ds>

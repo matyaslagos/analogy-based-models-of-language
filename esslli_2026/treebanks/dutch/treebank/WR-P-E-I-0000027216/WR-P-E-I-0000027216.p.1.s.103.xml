@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="23" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="22" id="2" rel="--">
+      <node begin="0" cat="smain" end="5" id="3" rel="cnj">
+        <node begin="0" cat="mwu" end="2" id="4" index="1" rel="su">
+          <node begin="0" end="1" id="5" lemma="Dust" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Dust" spectype="deeleigen" word="Dust"/>
+          <node begin="1" end="2" id="6" lemma="Muhammad" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Muhammad" spectype="deeleigen" word="Muhammad"/>
+        </node>
+        <node begin="2" end="3" id="7" lemma="over_geven" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="geef_over" word="gaf" wvorm="pv"/>
+        <node begin="3" end="4" getal="getal" id="8" lemma="zich" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="se" root="zich" status="red" vwtype="refl" word="zich"/>
+        <node begin="4" end="5" id="9" lemma="over" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="over" vztype="fin" word="over"/>
+      </node>
+      <node begin="0" cat="smain" end="11" id="10" rel="cnj">
+        <node begin="0" end="2" id="11" index="1" rel="su"/>
+        <node begin="6" end="7" id="12" lemma="gaan" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ga" word="ging" wvorm="pv"/>
+        <node begin="7" cat="cp" end="9" id="13" rel="predm">
+          <node begin="7" conjtype="onder" end="8" id="14" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+          <node begin="8" buiging="met-e" end="9" getal-n="zonder-n" id="15" lemma="vangen" pos="noun" positie="nom" postag="WW(vd,nom,met-e,zonder-n)" pt="ww" rel="body" root="gevangene" word="gevangene" wvorm="vd"/>
+        </node>
+        <node begin="9" cat="pp" end="11" id="16" rel="ld">
+          <node begin="9" end="10" id="17" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+          <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="18" lemma="India" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="India" word="India"/>
+        </node>
+      </node>
+      <node begin="11" conjtype="neven" end="12" id="19" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="12" cat="smain" end="22" id="20" rel="cnj">
+        <node begin="12" cat="mwu" end="14" id="21" rel="su">
+          <node begin="12" end="13" id="22" lemma="Sjah" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Sjah" spectype="deeleigen" word="Sjah"/>
+          <node begin="13" end="14" id="23" lemma="Sjua" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Sjua" spectype="deeleigen" word="Sjua"/>
+        </node>
+        <node begin="14" end="15" id="24" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+        <node begin="15" cat="pp" end="18" id="25" rel="mod">
+          <node begin="15" end="16" id="26" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="16" cat="np" end="18" id="27" rel="obj1">
+            <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="28" lemma="mei" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="mei" word="mei"/>
+            <node begin="17" end="18" id="29" lemma="1839" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mod" root="1839" word="1839"/>
+          </node>
+        </node>
+        <node begin="18" cat="pp" end="21" id="30" rel="mod">
+          <node begin="18" end="19" id="31" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+          <node begin="19" cat="np" end="21" id="32" rel="obj1">
+            <node begin="19" buiging="met-e" end="20" graad="basis" id="33" lemma="Brits" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Brits" word="Britse"/>
+            <node begin="20" end="21" genus="zijd" getal="ev" graad="basis" id="34" lemma="steun" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="steun" word="steun"/>
+          </node>
+        </node>
+        <node begin="21" end="22" genus="zijd" getal="ev" graad="basis" id="35" lemma="emir" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="predc" root="emir" word="emir"/>
+      </node>
+    </node>
+    <node begin="22" end="23" id="36" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dust Muhammad gaf zich over , ging als gevangene naar India en Sjah Sjua werd in mei 1839 met Britse steun emir .</sentence>
+</alpino_ds>

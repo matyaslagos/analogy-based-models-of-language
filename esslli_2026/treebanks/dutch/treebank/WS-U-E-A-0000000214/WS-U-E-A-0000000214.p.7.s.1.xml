@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="9" end="10" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="13" id="2" rel="--">
+      <node begin="10" end="11" id="3" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="13" id="4" rel="vc">
+        <node begin="0" cat="cp" end="9" id="5" rel="mod">
+          <node begin="0" conjtype="onder" end="1" id="6" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="Als"/>
+          <node begin="1" cat="ssub" end="9" id="7" rel="body">
+            <node begin="1" cat="np" end="5" id="8" index="1" rel="su">
+              <node begin="1" end="2" id="9" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="2" end="3" getal="mv" graad="basis" id="10" lemma="kist" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kist" word="kisten"/>
+              <node begin="3" cat="pp" end="5" id="11" rel="mod">
+                <node begin="3" end="4" id="12" lemma="rond" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="rond" vztype="init" word="rond"/>
+                <node begin="4" end="5" getal-n="mv-n" graad="basis" id="13" lemma="één" numtype="hoofd" pos="pron" positie="nom" postag="TW(hoofd,nom,mv-n,basis)" pt="tw" rel="obj1" root="één" word="enen"/>
+              </node>
+            </node>
+            <node begin="7" end="8" id="14" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" word="worden" wvorm="pv"/>
+            <node begin="1" cat="ppart" end="9" id="15" rel="vc">
+              <node begin="1" end="5" id="16" index="1" rel="obj1"/>
+              <node begin="5" cat="pp" end="7" id="17" rel="ld">
+                <node begin="5" end="6" id="18" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+                <node begin="6" end="7" id="19" lemma="buiten" pos="adv" postag="VZ(fin)" pt="vz" rel="obj1" root="buiten" vztype="fin" word="buiten"/>
+              </node>
+              <node begin="8" buiging="zonder" end="9" id="20" lemma="dragen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="draag" word="gedragen" wvorm="vd"/>
+            </node>
+          </node>
+        </node>
+        <node begin="11" end="12" getal="getal" id="21" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+        <node begin="12" buiging="zonder" end="13" id="22" lemma="applaudiseren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="applaudiseer" word="geapplaudiseerd" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="13" end="14" id="23" lemma="...." pos="punct" postag="LET()" pt="let" rel="--" root="...." word="...."/>
+  </node>
+  <sentence>Als de kisten rond enen naar buiten worden gedragen , wordt er geapplaudiseerd ....</sentence>
+</alpino_ds>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="31" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="23" end="24" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="30" id="3" rel="--">
+      <node begin="0" cat="du" end="2" id="4" rel="nucl">
+        <node begin="0" conjtype="neven" end="1" id="5" lemma="en" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="en" word="En"/>
+        <node begin="1" end="2" id="6" lemma="tenslotte" pos="adv" postag="BW()" pt="bw" rel="nucl" root="tenslotte" word="tenslotte"/>
+      </node>
+      <node begin="3" cat="whsub" end="30" id="7" rel="sat">
+        <node begin="3" cat="ap" end="5" id="8" index="1" rel="whd">
+          <node begin="3" end="4" id="9" lemma="hoe" pos="adj" postag="BW()" pt="bw" rel="mod" root="hoe" word="hoe"/>
+          <node begin="4" buiging="zonder" end="5" graad="basis" id="10" lemma="druk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="druk" word="druk"/>
+        </node>
+        <node begin="3" cat="ssub" end="30" id="11" rel="body">
+          <node begin="3" end="5" id="12" index="1" rel="predc"/>
+          <node begin="5" end="6" getal="mv" id="13" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="ze"/>
+          <node begin="6" end="7" getal="getal" id="14" lemma="zich" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="se" root="zich" status="red" vwtype="refl" word="zich"/>
+          <node begin="7" cat="pp" end="9" id="15" rel="mod">
+            <node begin="7" end="8" id="16" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="17" lemma="Amerika" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Amerika" word="Amerika"/>
+          </node>
+          <node begin="9" end="10" id="18" lemma="maken" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="maak" word="maken" wvorm="pv"/>
+          <node begin="10" cat="pp" end="30" id="19" rel="pc">
+            <node begin="10" end="11" id="20" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" vztype="init" word="over"/>
+            <node begin="11" cat="np" end="30" id="21" rel="obj1">
+              <node begin="11" end="12" id="22" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="12" buiging="met-e" end="13" graad="basis" id="23" lemma="bloot" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="bloot" word="blote"/>
+              <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="24" lemma="borst" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="borst" word="borst"/>
+              <node begin="14" cat="pp" end="17" id="25" rel="mod">
+                <node begin="14" end="15" id="26" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="15" cat="mwu" end="17" id="27" rel="obj1">
+                  <node begin="15" end="16" id="28" lemma="Janet" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Janet" spectype="deeleigen" word="Janet"/>
+                  <node begin="16" end="17" id="29" lemma="Jackson" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Jackson" spectype="deeleigen" word="Jackson"/>
+                </node>
+              </node>
+              <node begin="17" cat="pp" end="30" id="30" rel="mod">
+                <node begin="17" end="18" id="31" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                <node begin="18" cat="np" end="30" id="32" rel="obj1">
+                  <node begin="18" end="19" id="33" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="19" end="20" genus="zijd" getal="ev" graad="basis" id="34" lemma="rust" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="rust" word="rust"/>
+                  <node begin="20" cat="pp" end="30" id="35" rel="mod">
+                    <node begin="20" end="21" id="36" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                    <node begin="21" cat="np" end="30" id="37" rel="obj1">
+                      <node begin="21" end="22" id="38" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                      <node begin="22" end="23" genus="zijd" getal="ev" graad="basis" id="39" lemma="Superbowl" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Superbowl" word="Superbowl"/>
+                      <node begin="24" cat="np" end="30" id="40" rel="app">
+                        <node begin="24" end="25" id="41" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                        <node begin="25" end="26" genus="zijd" getal="ev" graad="basis" id="42" lemma="finale" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="finale" word="finale"/>
+                        <node begin="26" cat="pp" end="30" id="43" rel="mod">
+                          <node begin="26" end="27" id="44" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                          <node begin="27" cat="np" end="30" id="45" rel="obj1">
+                            <node begin="27" end="28" id="46" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                            <node begin="28" buiging="met-e" end="29" graad="basis" id="47" lemma="Amerikaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Amerikaans" word="Amerikaanse"/>
+                            <node begin="29" end="30" genus="onz" getal="ev" graad="basis" id="48" lemma="football" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="football" word="football"/>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="30" end="31" id="49" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>En tenslotte : hoe druk ze zich in Amerika maken over de blote borst van Janet Jackson in de rust van de Superbowl , de finale van het Amerikaanse football .</sentence>
+</alpino_ds>

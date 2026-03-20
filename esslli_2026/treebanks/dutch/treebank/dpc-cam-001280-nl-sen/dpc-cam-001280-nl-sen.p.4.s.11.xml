@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="0" cat="smain" end="18" id="1" rel="--">
+      <node begin="2" end="3" id="2" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+      <node begin="3" cat="np" end="6" id="3" index="1" rel="su">
+        <node begin="3" end="4" id="4" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+        <node begin="4" buiging="met-e" end="5" id="5" lemma="steriliseren" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="gesteriliseerd" word="gesteriliseerde" wvorm="vd"/>
+        <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="6" lemma="implantaat" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="implantaat" word="implantaat"/>
+      </node>
+      <node begin="0" cat="conj" end="18" id="7" rel="vc">
+        <node begin="0" cat="ppart" end="7" id="8" rel="cnj">
+          <node begin="0" cat="mwu" end="2" id="9" index="2" rel="mod">
+            <node begin="0" end="1" id="10" lemma="te" pos="adv" postag="VZ(versm)" pt="vz" rel="mwp" root="Ten" vztype="versm" word="Ten"/>
+            <node begin="1" end="2" getal="ev" graad="basis" id="11" lemma="slot" naamval="dat" ntype="soort" pos="adv" postag="N(soort,ev,basis,dat)" pt="n" rel="mwp" root="slotte" word="slotte"/>
+          </node>
+          <node begin="3" end="6" id="12" index="1" rel="obj1"/>
+          <node begin="6" buiging="zonder" end="7" id="13" lemma="in_planten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="plant_in" word="ingeplant" wvorm="vd"/>
+        </node>
+        <node begin="7" conjtype="neven" end="8" id="14" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="0" cat="ppart" end="18" id="15" rel="cnj">
+          <node begin="0" end="2" id="16" index="2" rel="mod"/>
+          <node begin="3" end="6" id="17" index="1" rel="obj1"/>
+          <node begin="8" cat="pp" end="11" id="18" rel="ld">
+            <node begin="8" end="9" id="19" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+            <node begin="9" cat="np" end="11" id="20" rel="obj1">
+              <node begin="9" end="10" id="21" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="22" lemma="schedel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="schedel" word="schedel"/>
+            </node>
+          </node>
+          <node begin="11" buiging="zonder" end="12" id="23" lemma="bevestigen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="bevestig" word="bevestigd" wvorm="vd"/>
+          <node begin="12" cat="pp" end="18" id="24" rel="mod">
+            <node begin="12" cat="mwu" end="15" id="25" rel="hd">
+              <node begin="12" end="13" id="26" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="met" vztype="init" word="met"/>
+              <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="27" lemma="behulp" naamval="stan" ntype="soort" pos="prep" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="behulp" word="behulp"/>
+              <node begin="14" end="15" id="28" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="van" vztype="init" word="van"/>
+            </node>
+            <node begin="15" cat="conj" end="18" id="29" rel="obj1">
+              <node begin="15" end="16" getal="mv" graad="dim" id="30" lemma="schroef" ntype="soort" pos="noun" postag="N(soort,mv,dim)" pt="n" rel="cnj" root="schroef_DIM" word="schroefjes"/>
+              <node begin="16" conjtype="neven" end="17" id="31" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="17" end="18" getal="mv" graad="dim" id="32" lemma="bevestiging_plaat" ntype="soort" pos="noun" postag="N(soort,mv,dim)" pt="n" rel="cnj" root="bevestiging_plaat_DIM" word="bevestigingsplaatjes"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="33" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Ten slotte wordt het gesteriliseerde implantaat ingeplant en aan de schedel bevestigd met behulp van schroefjes en bevestigingsplaatjes .</sentence>
+</alpino_ds>

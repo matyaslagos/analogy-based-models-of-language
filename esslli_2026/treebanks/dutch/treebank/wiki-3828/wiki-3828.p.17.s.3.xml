@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="5" end="6" id="2" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="du" end="7" id="3" rel="--">
+      <node begin="0" cat="mwu" end="2" id="4" rel="dp">
+        <node begin="0" end="1" id="5" lemma="Saartje" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Saartje" spectype="deeleigen" word="Saartje"/>
+        <node begin="1" end="2" id="6" lemma="Dubois" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Dubois" spectype="deeleigen" word="Dubois"/>
+      </node>
+      <node begin="3" cat="np" end="7" id="7" rel="dp">
+        <node begin="3" cat="mwu" end="5" id="8" rel="hd">
+          <node begin="3" end="4" id="9" lemma="Ella" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Ella" spectype="deeleigen" word="Ella"/>
+          <node begin="4" end="5" id="10" lemma="Leyers" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Leyers" spectype="deeleigen" word="Leyers"/>
+        </node>
+        <node begin="6" end="7" id="11" lemma="2003-" pos="num" postag="SPEC(symb)" pt="spec" rel="mod" root="2003-" spectype="symb" word="2003-"/>
+      </node>
+    </node>
+    <node begin="7" end="8" id="12" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+  </node>
+  <sentence>Saartje Dubois - Ella Leyers ( 2003- )</sentence>
+</alpino_ds>

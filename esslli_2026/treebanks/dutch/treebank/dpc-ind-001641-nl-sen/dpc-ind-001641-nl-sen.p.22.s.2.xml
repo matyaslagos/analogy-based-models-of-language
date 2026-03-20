@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="11" end="12" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="20" id="2" rel="--">
+      <node begin="0" cat="cp" end="11" id="3" rel="sat">
+        <node begin="0" end="1" id="4" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="Ook"/>
+        <node begin="1" conjtype="onder" end="2" id="5" lemma="al" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="al" word="al"/>
+        <node begin="2" cat="sv1" end="11" id="6" rel="body">
+          <node begin="2" end="3" id="7" lemma="verzekeren" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="verzeker" word="verzekerden" wvorm="pv"/>
+          <node begin="3" cat="np" end="5" id="8" rel="su">
+            <node begin="3" end="4" id="9" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="4" end="5" getal="mv" graad="basis" id="10" lemma="ontvoerder" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="ontvoerder" word="ontvoerders"/>
+          </node>
+          <node begin="5" end="6" genus="masc" getal="ev" id="11" lemma="hem" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,obl,vol,3,ev,masc)" pt="vnw" rel="obj2" root="hem" status="vol" vwtype="pers" word="hem"/>
+          <node begin="6" cat="cp" end="11" id="12" rel="vc">
+            <node begin="6" conjtype="onder" end="7" id="13" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+            <node begin="7" cat="ssub" end="11" id="14" rel="body">
+              <node begin="7" end="8" getal="ev" id="15" index="1" lemma="niemand" naamval="stan" pdtype="pron" persoon="3p" pos="pron" postag="VNW(onbep,pron,stan,vol,3p,ev)" pt="vnw" rel="su" root="niemand" status="vol" vwtype="onbep" word="niemand"/>
+              <node begin="9" end="10" id="16" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+              <node begin="7" cat="ppart" end="11" id="17" rel="vc">
+                <node begin="7" end="8" id="18" index="1" rel="su"/>
+                <node begin="8" buiging="zonder" end="9" graad="basis" id="19" lemma="gewond" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="gewond" word="gewond"/>
+                <node begin="10" buiging="zonder" end="11" id="20" lemma="raken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="raak" word="geraakt" wvorm="vd"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="12" cat="smain" end="20" id="21" rel="nucl">
+        <node begin="12" end="13" id="22" lemma="toch" pos="adv" postag="BW()" pt="bw" rel="mod" root="toch" word="toch"/>
+        <node begin="13" end="14" id="23" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+        <node begin="14" cat="np" end="16" id="24" rel="su">
+          <node begin="14" end="15" id="25" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="26" lemma="jongen" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="jongen" word="jongen"/>
+        </node>
+        <node begin="17" end="18" id="27" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+        <node begin="16" cat="ap" end="20" id="28" rel="predc">
+          <node begin="18" buiging="zonder" end="19" graad="basis" id="29" lemma="gerust" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="gerust" word="gerust"/>
+          <node begin="16" cat="pp" end="20" id="30" rel="pc">
+            <node begin="16" end="17" getal="getal" id="31" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="obj1" root="er" status="red" vwtype="aanw" word="er"/>
+            <node begin="19" end="20" id="32" lemma="op" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="op" vztype="fin" word="op"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="20" end="21" id="33" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Ook al verzekerden de ontvoerders hem dat niemand gewond was geraakt , toch was de jongen er niet gerust op .</sentence>
+</alpino_ds>

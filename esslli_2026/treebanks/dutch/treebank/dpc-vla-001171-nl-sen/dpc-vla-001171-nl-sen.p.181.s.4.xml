@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+        <node begin="1" cat="mwu" end="3" id="4" rel="hd">
+          <node begin="1" end="2" id="5" lemma="Brussels" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Brussels" spectype="deeleigen" word="Brussels"/>
+          <node begin="2" end="3" id="6" lemma="Parlement" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Parlement" spectype="deeleigen" word="Parlement"/>
+        </node>
+      </node>
+      <node begin="3" end="4" id="7" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="4" cat="np" end="11" id="8" rel="predc">
+        <node begin="4" end="5" id="9" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+        <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="10" lemma="parlement" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="parlement" word="parlement"/>
+        <node begin="6" cat="pp" end="11" id="11" rel="mod">
+          <node begin="6" end="7" id="12" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="7" cat="np" end="11" id="13" rel="obj1">
+            <node begin="7" end="8" id="14" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="8" cat="mwu" end="11" id="15" rel="hd">
+              <node begin="8" buiging="met-e" end="9" graad="basis" id="16" lemma="Brussels" naamval="stan" pos="name" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mwp" root="Brusselse" word="Brusselse"/>
+              <node begin="9" buiging="met-e" end="10" graad="basis" id="17" lemma="hoofdstedelijk" naamval="stan" pos="name" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mwp" root="Hoofdstedelijke" word="Hoofdstedelijke"/>
+              <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="18" lemma="gewest" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="Gewest" word="Gewest"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" id="19" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het Brussels Parlement is het parlement van het Brusselse Hoofdstedelijke Gewest .</sentence>
+</alpino_ds>

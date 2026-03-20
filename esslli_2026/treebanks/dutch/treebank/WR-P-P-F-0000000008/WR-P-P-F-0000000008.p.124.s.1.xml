@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="*" pos="tag" postag="LET()" pt="let" rel="--" root="*" word="*"/>
+    <node begin="2" end="3" id="2" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="1" cat="np" end="7" id="3" rel="--">
+      <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="4" lemma="gewicht" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="gewicht" word="Gewicht"/>
+      <node begin="3" cat="np" end="7" id="5" rel="app">
+        <node begin="3" end="4" id="6" lemma="1,1" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="1,1" word="1,1"/>
+        <node begin="4" end="5" id="7" lemma="kg" pos="noun" postag="SPEC(symb)" pt="spec" rel="hd" root="kilogram" spectype="symb" word="kg"/>
+        <node begin="5" cat="pp" end="7" id="8" rel="mod">
+          <node begin="5" end="6" id="9" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+          <node begin="6" end="7" getal="mv" graad="basis" id="10" lemma="batterij" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="batterij" word="batterijen"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>* Gewicht : 1,1 kg met batterijen</sentence>
+</alpino_ds>

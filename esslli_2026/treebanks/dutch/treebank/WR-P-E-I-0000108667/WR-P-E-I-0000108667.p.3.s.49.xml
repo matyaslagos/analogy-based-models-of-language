@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" buiging="met-e" end="1" getal="mv" graad="basis" id="3" lemma="beide" naamval="stan" pdtype="grad" pos="det" positie="prenom" postag="VNW(onbep,grad,stan,prenom,met-e,mv,basis)" pt="vnw" rel="det" root="beide" vwtype="onbep" word="Beide"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="4" lemma="term" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="term" word="termen"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="voor_komen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kom_voor" word="komen" wvorm="pv"/>
+      <node begin="3" end="4" id="6" lemma="nu" pos="adv" postag="BW()" pt="bw" rel="mod" root="nu" word="nu"/>
+      <node begin="4" cat="ap" end="6" id="7" rel="mod">
+        <node begin="4" end="5" id="8" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" word="nog"/>
+        <node begin="5" buiging="zonder" end="6" graad="basis" id="9" lemma="veelvuldig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="veelvuldig" word="veelvuldig"/>
+      </node>
+      <node begin="6" end="7" id="10" lemma="voor" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="voor" vztype="fin" word="voor"/>
+      <node begin="7" cat="pp" end="11" id="11" rel="ld">
+        <node begin="7" end="8" id="12" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="8" cat="np" end="11" id="13" rel="obj1">
+          <node begin="8" end="9" id="14" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="9" buiging="met-e" end="10" graad="basis" id="15" lemma="lokaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="lokaal" word="lokale"/>
+          <node begin="10" end="11" getal="mv" graad="basis" id="16" lemma="straat_naam" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="straat_naam" word="straatnamen"/>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" id="17" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Beide termen komen nu nog veelvuldig voor in de lokale straatnamen .</sentence>
+</alpino_ds>

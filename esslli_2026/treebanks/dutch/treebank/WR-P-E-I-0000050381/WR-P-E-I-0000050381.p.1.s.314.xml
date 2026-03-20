@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="11" end="12" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="19" id="3" rel="--">
+      <node begin="7" end="8" id="4" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="heeft" wvorm="pv"/>
+      <node begin="8" cat="np" end="11" id="5" index="1" rel="su">
+        <node begin="8" end="9" id="6" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="9" buiging="met-e" end="10" graad="basis" id="7" lemma="Wolders" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Wolderse" word="Wolderse"/>
+        <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="8" lemma="bevolking" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="bevolking" word="bevolking"/>
+      </node>
+      <node begin="0" cat="inf" end="19" id="9" rel="vc">
+        <node begin="8" end="11" id="10" index="1" rel="su"/>
+        <node begin="14" buiging="zonder" end="15" id="11" lemma="laten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="laat" word="laten" wvorm="inf"/>
+        <node begin="0" cat="inf" end="19" id="12" rel="vc">
+          <node begin="0" cat="oti" end="6" id="13" rel="mod">
+            <node begin="0" end="1" id="14" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="Om"/>
+            <node begin="1" cat="ti" end="6" id="15" rel="body">
+              <node begin="3" end="4" id="16" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+              <node begin="1" cat="inf" end="6" id="17" rel="body">
+                <node begin="4" buiging="zonder" end="5" id="18" lemma="blijven" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="blijf" word="blijven" wvorm="inf"/>
+                <node begin="1" cat="inf" end="6" id="19" rel="vc">
+                  <node begin="1" cat="np" end="3" id="20" rel="obj1">
+                    <node begin="1" buiging="met-e" end="2" id="21" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="deze"/>
+                    <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="22" lemma="plechtigheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="plechtigheid" word="plechtigheid"/>
+                  </node>
+                  <node begin="5" buiging="zonder" end="6" id="23" lemma="gedenken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="gedenk" word="gedenken" wvorm="inf"/>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="12" cat="np" end="14" id="24" rel="obj1">
+            <node begin="12" end="13" id="25" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="13" end="14" genus="onz" getal="ev" graad="dim" id="26" lemma="kapel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,dim,onz,stan)" pt="n" rel="hd" root="kapel_DIM" word="kapelletje"/>
+          </node>
+          <node begin="15" buiging="zonder" end="16" id="27" lemma="bouwen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="bouw" word="bouwen" wvorm="inf"/>
+          <node begin="16" cat="pp" end="19" id="28" rel="mod">
+            <node begin="16" end="17" id="29" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+            <node begin="17" cat="np" end="19" id="30" rel="obj1">
+              <node begin="17" end="18" id="31" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="18" end="19" genus="zijd" getal="ev" graad="basis" id="32" lemma="Tongerseweg" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Tongerseweg" word="Tongerseweg"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="33" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Om deze plechtigheid te blijven gedenken , heeft de Wolderse bevolking , een kapelletje laten bouwen aan de Tongerseweg .</sentence>
+</alpino_ds>

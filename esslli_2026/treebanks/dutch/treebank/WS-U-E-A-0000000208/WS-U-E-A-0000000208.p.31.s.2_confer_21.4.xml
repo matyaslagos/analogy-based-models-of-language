@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="34" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="17" end="18" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="33" id="3" rel="--">
+      <node begin="0" cat="conj" end="7" id="4" rel="su">
+        <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="5" lemma="Intertoys" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Intertoys" word="Intertoys"/>
+        <node begin="2" cat="mwu" end="4" id="6" rel="cnj">
+          <node begin="2" end="3" id="7" lemma="Bart" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Bart" spectype="deeleigen" word="Bart"/>
+          <node begin="3" end="4" id="8" lemma="Smit" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Smit" spectype="deeleigen" word="Smit"/>
+        </node>
+        <node begin="4" conjtype="neven" end="5" id="9" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="5" cat="mwu" end="7" id="10" rel="cnj">
+          <node begin="5" end="6" id="11" lemma="ToysN" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="ToysN" spectype="deeleigen" word="ToysN"/>
+          <node begin="6" end="7" id="12" lemma="Rus" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Rus" spectype="deeleigen" word="Rus"/>
+        </node>
+      </node>
+      <node begin="7" end="8" id="13" lemma="af_wachten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="wacht_af" word="wachten" wvorm="pv"/>
+      <node begin="10" end="11" id="14" lemma="af" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="af" vztype="fin" word="af"/>
+      <node begin="8" cat="np" end="33" id="15" rel="obj1">
+        <node begin="8" end="9" id="16" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="17" lemma="onderzoek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="onderzoek" word="onderzoek"/>
+        <node begin="11" cat="pp" end="33" id="18" rel="mod">
+          <node begin="11" end="12" id="19" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="12" cat="np" end="33" id="20" rel="obj1">
+            <node begin="12" end="13" id="21" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="13" cat="mwu" end="17" id="22" rel="hd">
+              <node begin="13" end="14" id="23" lemma="Voedsel" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Voedsel" spectype="deeleigen" word="Voedsel"/>
+              <node begin="14" end="15" id="24" lemma="en" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="en" spectype="deeleigen" word="en"/>
+              <node begin="15" end="16" id="25" lemma="Waren" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Waren" spectype="deeleigen" word="Waren"/>
+              <node begin="16" end="17" id="26" lemma="Autoriteit" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Autoriteit" spectype="deeleigen" word="Autoriteit"/>
+            </node>
+            <node begin="18" cat="rel" end="33" id="27" rel="mod">
+              <node begin="18" end="19" getal="getal" id="28" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+              <node begin="18" cat="ssub" end="33" id="29" rel="body">
+                <node begin="18" end="19" id="30" index="1" rel="su"/>
+                <node begin="19" end="20" id="31" lemma="bekijken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="bekijk" word="bekijkt" wvorm="pv"/>
+                <node begin="20" cat="cp" end="33" id="32" rel="vc">
+                  <node begin="20" conjtype="onder" end="21" id="33" lemma="of" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="of" word="of"/>
+                  <node begin="21" cat="ssub" end="33" id="34" rel="body">
+                    <node begin="21" end="22" getal="getal" id="35" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+                    <node begin="22" end="23" id="36" lemma="misschien" pos="adv" postag="BW()" pt="bw" rel="mod" root="misschien" word="misschien"/>
+                    <node begin="23" cat="np" end="29" id="37" rel="su">
+                      <node begin="23" end="24" id="38" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                      <node begin="24" cat="ap" end="26" id="39" rel="mod">
+                        <node begin="24" end="25" id="40" lemma="te" pos="adv" postag="BW()" pt="bw" rel="mod" root="te" word="te"/>
+                        <node begin="25" buiging="zonder" end="26" graad="basis" id="41" lemma="hoog" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="hd" root="hoog" word="hoog"/>
+                      </node>
+                      <node begin="26" end="27" genus="onz" getal="ev" graad="basis" id="42" lemma="gehalte" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="gehalte" word="gehalte"/>
+                      <node begin="27" cat="np" end="29" id="43" rel="mod">
+                        <node begin="27" buiging="met-e" end="28" graad="basis" id="44" lemma="schadelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="schadelijk" word="schadelijke"/>
+                        <node begin="28" end="29" getal="mv" graad="basis" id="45" lemma="stof" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="stof" word="stoffen"/>
+                      </node>
+                    </node>
+                    <node begin="29" cat="pp" end="32" id="46" rel="ld">
+                      <node begin="29" end="30" id="47" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                      <node begin="30" cat="np" end="32" id="48" rel="obj1">
+                        <node begin="30" end="31" id="49" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                        <node begin="31" end="32" getal="mv" graad="dim" id="50" lemma="touw" ntype="soort" pos="noun" postag="N(soort,mv,dim)" pt="n" rel="hd" root="touw_DIM" word="touwtjes"/>
+                      </node>
+                    </node>
+                    <node begin="32" end="33" id="51" lemma="zitten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="zit" word="zitten" wvorm="pv"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="33" end="34" id="52" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Intertoys , Bart Smit en ToysN Rus wachten een onderzoek af van de Voedsel en Waren Autoriteit , die bekijkt of er misschien een te hoog gehalte schadelijke stoffen in de touwtjes zitten .</sentence>
+</alpino_ds>

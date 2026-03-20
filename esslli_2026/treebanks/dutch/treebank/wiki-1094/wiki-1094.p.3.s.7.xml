@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="3" end="4" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="4" end="5" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="np" end="7" id="4" rel="--">
+      <node begin="0" end="1" genus="genus" getal="ev" graad="basis" id="5" lemma="Mol" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="hd" root="Mol" word="Mol"/>
+      <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="6" lemma="bedrijf" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mod" root="bedrijf" word="bedrijf"/>
+      <node begin="5" cat="np" end="7" id="7" rel="app">
+        <node begin="5" buiging="zonder" end="6" graad="basis" id="8" lemma="Belgisch" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="Belgisch" word="Belgisch"/>
+        <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="9" lemma="bedrijf" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="bedrijf" word="bedrijf"/>
+      </node>
+    </node>
+  </node>
+  <sentence>Mol ( bedrijf ) , Belgisch bedrijf</sentence>
+</alpino_ds>

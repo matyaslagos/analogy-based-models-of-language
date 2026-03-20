@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="1" end="2" id="2" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" word="hebben" wvorm="pv"/>
+      <node begin="2" cat="np" end="5" id="3" index="1" rel="su">
+        <node begin="2" end="3" id="4" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="3" end="4" id="5" lemma="één" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="eerste" word="eerste"/>
+        <node begin="4" end="5" getal="mv" graad="basis" id="6" lemma="athleet" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="athleten" word="athleten"/>
+      </node>
+      <node begin="0" cat="ppart" end="8" id="7" rel="vc">
+        <node begin="0" end="1" id="8" lemma="zojuist" pos="adv" postag="BW()" pt="bw" rel="mod" root="zojuist" word="Zojuist"/>
+        <node begin="2" end="5" id="9" index="1" rel="su"/>
+        <node begin="5" cat="np" end="7" id="10" rel="obj1">
+          <node begin="5" end="6" id="11" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="12" lemma="stadion" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="stadion" word="stadion"/>
+        </node>
+        <node begin="7" buiging="zonder" end="8" id="13" lemma="betreden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="betreed" word="betreden" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="14" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Zojuist hebben de eerste athleten het stadion betreden .</sentence>
+</alpino_ds>

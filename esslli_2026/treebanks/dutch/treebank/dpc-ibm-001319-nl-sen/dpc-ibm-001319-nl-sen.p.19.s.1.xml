@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="35" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="6" end="7" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="8" end="9" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="12" end="13" id="4" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="14" end="15" id="5" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="19" end="20" id="6" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="26" end="27" id="7" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="34" id="8" rel="--">
+      <node begin="1" end="2" id="9" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="34" id="10" rel="vc">
+        <node begin="0" end="1" id="11" lemma="hiervoor" pos="adv" postag="BW()" pt="bw" rel="mod" root="hiervoor" word="Hiervoor"/>
+        <node begin="7" buiging="zonder" end="8" id="12" lemma="gebruiken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="gebruik" word="gebruikt" wvorm="vd"/>
+        <node begin="2" cat="np" end="34" id="13" index="1" rel="obj1">
+          <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="14" lemma="SiGe_technologie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="SiGe_technologie" word="SiGe-technologie"/>
+          <node begin="4" cat="mwu" end="6" id="15" rel="mod">
+            <node begin="4" end="5" id="16" lemma="Silicium" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Silicium" spectype="deeleigen" word="Silicium"/>
+            <node begin="5" end="6" id="17" lemma="Germanium" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Germanium" spectype="deeleigen" word="Germanium"/>
+          </node>
+          <node begin="9" cat="rel" end="34" id="18" rel="mod">
+            <node begin="9" end="10" getal="getal" id="19" index="2" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+            <node begin="9" cat="ssub" end="34" id="20" rel="body">
+              <node begin="9" end="10" id="21" index="2" rel="su"/>
+              <node begin="10" cat="np" end="14" id="22" rel="obj1">
+                <node begin="10" buiging="met-e" end="11" graad="basis" id="23" lemma="analoog" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="analoog" word="analoge"/>
+                <node begin="11" end="12" getal="mv" graad="basis" id="24" lemma="RF_circuit" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="RF_circuit" word="RF-circuits"/>
+                <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="25" lemma="radio_frequentie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mod" root="radio_frequentie" word="radiofrequentie"/>
+              </node>
+              <node begin="15" end="16" id="26" lemma="combineren" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="combineer" word="combineert" wvorm="pv"/>
+              <node begin="16" cat="pp" end="19" id="27" rel="mod">
+                <node begin="16" end="17" id="28" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+                <node begin="17" cat="np" end="19" id="29" rel="obj1">
+                  <node begin="17" end="18" id="30" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="18" end="19" genus="zijd" getal="ev" graad="basis" id="31" lemma="chip" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="chip" word="chip"/>
+                </node>
+              </node>
+              <node begin="20" cat="pp" end="34" id="32" rel="mod">
+                <node begin="20" end="21" id="33" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+                <node begin="21" cat="cp" end="23" id="34" rel="predc">
+                  <node begin="21" conjtype="onder" end="22" id="35" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+                  <node begin="22" end="23" genus="onz" getal="ev" graad="basis" id="36" lemma="resultaat" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="body" root="resultaat" word="resultaat"/>
+                </node>
+                <node begin="23" cat="conj" end="34" id="37" rel="obj1">
+                  <node begin="23" cat="np" end="26" id="38" rel="cnj">
+                    <node begin="23" cat="ap" end="25" id="39" rel="det">
+                      <node begin="23" end="24" id="40" lemma="zeer" pos="adv" postag="BW()" pt="bw" rel="mod" root="zeer" word="zeer"/>
+                      <node begin="24" buiging="zonder" end="25" graad="basis" id="41" lemma="weinig" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,basis)" pt="vnw" rel="hd" root="weinig" vwtype="onbep" word="weinig"/>
+                    </node>
+                    <node begin="25" end="26" genus="zijd" getal="ev" graad="basis" id="42" lemma="ruis" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="ruis" word="ruis"/>
+                  </node>
+                  <node begin="27" cat="np" end="29" id="43" rel="cnj">
+                    <node begin="27" buiging="zonder" end="28" graad="basis" id="44" lemma="laag" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="laag" word="laag"/>
+                    <node begin="28" end="29" genus="onz" getal="ev" graad="basis" id="45" lemma="energie_verbruik" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="energie_verbruik" word="energieverbruik"/>
+                  </node>
+                  <node begin="29" conjtype="neven" end="30" id="46" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                  <node begin="30" cat="np" end="34" id="47" rel="cnj">
+                    <node begin="30" buiging="met-e" end="31" graad="basis" id="48" lemma="laag" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="laag" word="lage"/>
+                    <node begin="31" end="32" getal="mv" graad="basis" id="49" lemma="kost" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kosten" word="kosten"/>
+                    <node begin="32" cat="pp" end="34" id="50" rel="mod">
+                      <node begin="32" end="33" id="51" lemma="per" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="per" vztype="init" word="per"/>
+                      <node begin="33" end="34" genus="zijd" getal="ev" graad="basis" id="52" lemma="eenheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="eenheid" word="eenheid"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="2" end="34" id="53" index="1" rel="su"/>
+    </node>
+    <node begin="34" end="35" id="54" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Hiervoor wordt SiGe-technologie ( Silicium Germanium ) gebruikt , die analoge RF-circuits ( radiofrequentie ) combineert op de chip - met als resultaat zeer weinig ruis , laag energieverbruik en lage kosten per eenheid .</sentence>
+</alpino_ds>

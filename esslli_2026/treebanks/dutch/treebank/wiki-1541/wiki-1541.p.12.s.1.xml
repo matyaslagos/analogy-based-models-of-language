@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="28" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="6" end="7" id="2" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="7" end="8" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="13" end="14" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="16" end="17" id="5" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="24" end="25" id="6" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="27" id="7" rel="--">
+      <node begin="17" end="18" id="8" lemma="kunnen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="kan" word="kon" wvorm="pv"/>
+      <node begin="18" cat="mwu" end="20" id="9" index="1" rel="su">
+        <node begin="18" end="19" id="10" lemma="Edouard" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Edouard" spectype="deeleigen" word="Edouard"/>
+        <node begin="19" end="20" id="11" lemma="Mesens" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Mesens" spectype="deeleigen" word="Mesens"/>
+      </node>
+      <node begin="0" cat="inf" end="27" id="12" rel="vc">
+        <node begin="0" cat="cp" end="16" id="13" rel="mod">
+          <node begin="0" conjtype="onder" end="1" id="14" lemma="wanneer" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="wanneer" word="Wanneer"/>
+          <node begin="1" cat="ssub" end="16" id="15" rel="body">
+            <node begin="3" cat="np" end="13" id="16" index="2" rel="su">
+              <node begin="3" end="4" id="17" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="5" end="6" id="18" lemma="Centaure" pos="name" postag="SPEC(vreemd)" pt="spec" rel="hd" root="Centaure" spectype="vreemd" word="Centaure"/>
+              <node begin="8" cat="rel" end="13" id="19" rel="mod">
+                <node begin="8" end="9" getal="getal" id="20" index="3" lemma="waar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(vb,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="rhd" root="waar" status="vol" vwtype="vb" word="waar"/>
+                <node begin="8" cat="ssub" end="13" id="21" rel="body">
+                  <node begin="8" end="9" id="22" index="3" rel="mod"/>
+                  <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="23" lemma="Magritte" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Magritte" word="Magritte"/>
+                  <node begin="10" cat="pp" end="12" id="24" rel="mod">
+                    <node begin="10" end="11" id="25" lemma="onder" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="onder" vztype="init" word="onder"/>
+                    <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="26" lemma="contract" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="contract" word="contract"/>
+                  </node>
+                  <node begin="12" end="13" id="27" lemma="werken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="werk" word="werkte" wvorm="pv"/>
+                </node>
+              </node>
+            </node>
+            <node begin="1" cat="ppart" end="15" id="28" rel="vc">
+              <node begin="1" cat="pp" end="3" id="29" rel="mod">
+                <node begin="1" end="2" id="30" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                <node begin="2" end="3" id="31" lemma="1930" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" root="1930" word="1930"/>
+              </node>
+              <node begin="3" end="13" id="32" index="2" rel="obj1"/>
+              <node begin="14" buiging="zonder" end="15" id="33" lemma="failleren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="gefailleerd" word="gefailleerd" wvorm="vd"/>
+            </node>
+            <node begin="15" end="16" id="34" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+          </node>
+        </node>
+        <node begin="18" end="20" id="35" index="1" rel="su"/>
+        <node begin="23" buiging="zonder" end="24" id="36" lemma="op_kopen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="koop_op" word="opkopen" wvorm="inf"/>
+        <node begin="20" cat="np" end="27" id="37" rel="obj1">
+          <node begin="20" cat="detp" end="22" id="38" rel="det">
+            <node begin="20" buiging="zonder" end="21" id="39" lemma="al" naamval="stan" pdtype="det" pos="adv" positie="vrij" postag="VNW(onbep,det,stan,vrij,zonder)" pt="vnw" rel="mod" root="al" vwtype="onbep" word="al"/>
+            <node begin="21" buiging="zonder" end="22" getal="ev" id="40" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pt="vnw" rel="hd" root="zijn" status="vol" vwtype="bez" word="zijn"/>
+          </node>
+          <node begin="22" end="23" getal="mv" graad="basis" id="41" lemma="werk" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="werk" word="werken"/>
+          <node begin="25" cat="np" end="27" id="42" rel="mod">
+            <node begin="25" end="26" id="43" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="26" end="27" genus="onz" getal="ev" graad="basis" id="44" lemma="200-tal" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="200-tal" word="200-tal"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="27" end="28" id="45" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Wanneer in 1930 de &quot; Centaure &quot; , waar Magritte onder contract werkte , gefailleerd werd , kon Edouard Mesens al zijn werken opkopen , een 200-tal .</sentence>
+</alpino_ds>

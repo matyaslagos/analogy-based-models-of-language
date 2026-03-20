@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="25" id="0" rel="top">
+    <node begin="10" end="11" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="12" end="13" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="21" end="22" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="24" id="4" rel="--">
+      <node begin="0" cat="np" end="5" id="5" rel="su">
+        <node begin="0" end="1" id="6" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" buiging="met-e" end="2" graad="basis" id="7" lemma="Brussels" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Brussels" word="Brusselse"/>
+        <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="8" lemma="jurist" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="jurist" word="jurist"/>
+        <node begin="3" cat="mwu" end="5" id="9" rel="app">
+          <node begin="3" end="4" id="10" lemma="Octave" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Octave" spectype="deeleigen" word="Octave"/>
+          <node begin="4" end="5" id="11" lemma="Maus" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Maus" spectype="deeleigen" word="Maus"/>
+        </node>
+      </node>
+      <node begin="5" end="6" id="12" lemma="ontpoppen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ontpop" word="ontpopte" wvorm="pv"/>
+      <node begin="6" end="7" getal="getal" id="13" lemma="zich" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="se" root="zich" status="red" vwtype="refl" word="zich"/>
+      <node begin="7" cat="cp" end="24" id="14" rel="predm">
+        <node begin="7" conjtype="onder" end="8" id="15" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+        <node begin="8" cat="conj" end="24" id="16" rel="body">
+          <node begin="14" conjtype="neven" end="15" id="17" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="8" cat="np" end="24" id="18" rel="cnj">
+            <node begin="8" buiging="zonder" end="9" graad="basis" id="19" index="1" lemma="geestdriftig" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="geestdriftig" word="geestdriftig"/>
+            <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="20" lemma="organisator" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="organisator" word="organisator"/>
+            <node begin="16" cat="pp" end="24" id="21" index="2" rel="mod">
+              <node begin="16" end="17" id="22" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="17" cat="np" end="24" id="23" rel="obj1">
+                <node begin="17" end="18" id="24" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                <node begin="18" buiging="met-e" end="19" id="25" lemma="revolteren" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="revolteer" word="revolterende" wvorm="od"/>
+                <node begin="19" buiging="met-e" end="20" graad="basis" id="26" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" word="nieuwe"/>
+                <node begin="20" end="21" genus="zijd" getal="ev" graad="basis" id="27" lemma="kunstenaar_groep" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="kunstenaar_groep" word="kunstenaarsgroep"/>
+                <node begin="22" cat="mwu" end="24" id="28" rel="app">
+                  <node begin="22" end="23" id="29" lemma="Les" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Les" spectype="deeleigen" word="Les"/>
+                  <node begin="23" end="24" id="30" lemma="vingt" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="vingt" spectype="deeleigen" word="vingt"/>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="8" cat="np" end="24" id="31" rel="cnj">
+            <node begin="8" end="9" id="32" index="1" rel="mod"/>
+            <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="33" lemma="mecenas" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="mecenas" word="mecenas"/>
+            <node begin="16" end="24" id="34" index="2" rel="mod"/>
+          </node>
+          <node begin="8" cat="np" end="24" id="35" rel="cnj">
+            <node begin="8" end="9" id="36" index="1" rel="mod"/>
+            <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="37" lemma="spreekbuis" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="spreekbuis" word="spreekbuis"/>
+            <node begin="16" end="24" id="38" index="2" rel="mod"/>
+          </node>
+          <node begin="8" cat="np" end="24" id="39" rel="cnj">
+            <node begin="8" end="9" id="40" index="1" rel="mod"/>
+            <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="41" lemma="bezieler" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="bezieler" word="bezieler"/>
+            <node begin="16" end="24" id="42" index="2" rel="mod"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="24" end="25" id="43" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De Brusselse jurist Octave Maus ontpopte zich als geestdriftig organisator , mecenas , spreekbuis en bezieler van een revolterende nieuwe kunstenaarsgroep , Les vingt .</sentence>
+</alpino_ds>

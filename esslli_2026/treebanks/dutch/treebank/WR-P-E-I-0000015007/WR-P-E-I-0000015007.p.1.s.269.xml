@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="smain" end="12" id="1" rel="--">
+      <node begin="0" cat="mwu" end="3" id="2" rel="mod">
+        <node begin="0" end="1" id="3" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mwp" root="al" word="Al"/>
+        <node begin="1" end="2" id="4" lemma="met" pos="adv" postag="VZ(init)" pt="vz" rel="mwp" root="met" vztype="init" word="met"/>
+        <node begin="2" end="3" id="5" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mwp" root="al" word="al"/>
+      </node>
+      <node begin="3" end="4" id="6" lemma="krijgen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="krijg" word="kreeg" wvorm="pv"/>
+      <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="7" lemma="Nasser" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Nasser" word="Nasser"/>
+      <node begin="5" cat="np" end="8" id="8" rel="obj1">
+        <node begin="5" cat="ap" end="7" id="9" rel="det">
+          <node begin="5" end="6" id="10" lemma="steeds" pos="adv" postag="BW()" pt="bw" rel="mod" root="steeds" word="steeds"/>
+          <node begin="6" buiging="zonder" end="7" graad="comp" id="11" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,comp)" pt="vnw" rel="hd" root="meer" vwtype="onbep" word="meer"/>
+        </node>
+        <node begin="7" end="8" getal="mv" graad="basis" id="12" lemma="vijand" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vijand" word="vijanden"/>
+      </node>
+      <node begin="8" cat="pp" end="12" id="13" rel="mod">
+        <node begin="8" end="9" id="14" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="9" cat="np" end="12" id="15" rel="obj1">
+          <node begin="9" end="10" id="16" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="10" buiging="met-e" end="11" graad="basis" id="17" lemma="Arabisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Arabisch" word="Arabische"/>
+          <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="18" lemma="wereld" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="wereld" word="wereld"/>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" id="19" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Al met al kreeg Nasser steeds meer vijanden in de Arabische wereld .</sentence>
+</alpino_ds>

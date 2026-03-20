@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="10" end="11" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="17" id="2" rel="--">
+      <node begin="0" cat="np" end="2" id="3" index="1" rel="su">
+        <node begin="0" buiging="zonder" end="1" id="4" lemma="dat" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dat" vwtype="aanw" word="Dat"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="5" lemma="student_leven" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="student_leven" word="studentenleven"/>
+      </node>
+      <node begin="2" end="3" id="6" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="17" id="7" rel="vc">
+        <node begin="0" end="2" id="8" index="1" rel="obj1"/>
+        <node begin="3" end="4" id="9" lemma="opnieuw" pos="adv" postag="BW()" pt="bw" rel="mod" root="opnieuw" word="opnieuw"/>
+        <node begin="4" buiging="zonder" end="5" id="10" lemma="organiseren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="organiseer" word="georganiseerd" wvorm="vd"/>
+        <node begin="5" cat="pp" end="17" id="11" rel="mod">
+          <node begin="5" end="6" id="12" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+          <node begin="6" cat="conj" end="17" id="13" rel="obj1">
+            <node begin="8" conjtype="neven" end="9" id="14" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="6" cat="np" end="17" id="15" rel="cnj">
+              <node begin="6" buiging="met-e" end="7" id="16" index="2" lemma="enkel" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="enkel" vwtype="onbep" word="enkele"/>
+              <node begin="7" end="8" getal="mv" graad="basis" id="17" lemma="professor" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="professor" word="professoren"/>
+              <node begin="11" cat="rel" end="17" id="18" index="3" rel="mod">
+                <node begin="11" end="12" getal="getal" id="19" index="4" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+                <node begin="11" cat="ssub" end="17" id="20" rel="body">
+                  <node begin="11" end="12" id="21" index="4" rel="su"/>
+                  <node begin="12" cat="np" end="16" id="22" rel="obj1">
+                    <node begin="12" cat="mwu" end="14" id="23" rel="mod">
+                      <node begin="12" end="13" id="24" lemma="onder" pos="adv" postag="VZ(init)" pt="vz" rel="mwp" root="onder" vztype="init" word="onder"/>
+                      <node begin="13" buiging="zonder" end="14" graad="comp" id="25" lemma="veel" naamval="stan" pdtype="grad" pos="adv" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mwp" root="meer" vwtype="onbep" word="meer"/>
+                    </node>
+                    <node begin="14" end="15" id="26" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                    <node begin="15" end="16" genus="onz" getal="ev" graad="basis" id="27" lemma="L.S.G." naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="L.S.G." word="L.S.G."/>
+                  </node>
+                  <node begin="16" end="17" id="28" lemma="op_richten" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="richt_op" word="oprichtten" wvorm="pv"/>
+                </node>
+              </node>
+            </node>
+            <node begin="6" cat="np" end="17" id="29" rel="cnj">
+              <node begin="6" end="7" id="30" index="2" rel="det"/>
+              <node begin="9" end="10" getal="mv" graad="basis" id="31" lemma="student" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="student" word="studenten"/>
+              <node begin="11" end="17" id="32" index="3" rel="mod"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="33" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dat studentenleven werd opnieuw georganiseerd door enkele professoren en studenten , die onder meer het L.S.G. oprichtten .</sentence>
+</alpino_ds>

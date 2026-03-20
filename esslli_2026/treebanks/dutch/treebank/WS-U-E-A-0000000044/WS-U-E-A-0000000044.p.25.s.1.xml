@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="10" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="np" end="9" id="2" rel="--">
+      <node begin="0" end="1" id="3" lemma="1500" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="1500" word="1500"/>
+      <node begin="1" cat="conj" end="6" id="4" rel="mod">
+        <node begin="1" buiging="met-e" end="2" id="5" lemma="zoenen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="cnj" root="zoen" word="zoenende" wvorm="od"/>
+        <node begin="3" buiging="met-e" end="4" id="6" lemma="knuffelen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="cnj" root="knuffel" word="knuffelende" wvorm="od"/>
+        <node begin="4" conjtype="neven" end="5" id="7" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="5" buiging="met-e" end="6" graad="basis" id="8" lemma="verliefd" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="verliefd" word="verliefde"/>
+      </node>
+      <node begin="6" end="7" getal="mv" graad="basis" id="9" lemma="mens" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="mens" word="mensen"/>
+      <node begin="7" cat="pp" end="9" id="10" rel="mod">
+        <node begin="7" end="8" id="11" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="12" lemma="totaal" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="totaal" word="totaal"/>
+      </node>
+    </node>
+    <node begin="9" end="10" id="13" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>1500 zoenende , knuffelende en verliefde mensen in totaal .</sentence>
+</alpino_ds>

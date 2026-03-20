@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="1" cat="conj" end="8" id="2" rel="--">
+      <node begin="1" cat="mwu" end="3" id="3" rel="cnj">
+        <node begin="1" end="2" id="4" lemma="Margreet" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Margreet" spectype="deeleigen" word="Margreet"/>
+        <node begin="2" end="3" id="5" lemma="Feenstra" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Feenstra" spectype="deeleigen" word="Feenstra"/>
+      </node>
+      <node begin="3" conjtype="neven" end="4" id="6" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="4" cat="mwu" end="8" id="7" rel="cnj">
+        <node begin="4" end="5" id="8" lemma="Hadelinde" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Hadelinde" spectype="deeleigen" word="Hadelinde"/>
+        <node begin="5" end="6" id="9" lemma="van" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="van" spectype="deeleigen" word="van"/>
+        <node begin="6" end="7" id="10" lemma="der" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="der" spectype="deeleigen" word="der"/>
+        <node begin="7" end="8" id="11" lemma="Hoek" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Hoek" spectype="deeleigen" word="Hoek"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="12" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>- Margreet Feenstra en Hadelinde van der Hoek .</sentence>
+</alpino_ds>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="10" end="11" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="13" end="14" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="14" end="15" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="19" id="4" rel="--">
+      <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="5" index="1" lemma="Harry" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Harry" word="Harry"/>
+      <node begin="1" end="2" id="6" lemma="hebben" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="heb" word="had" wvorm="pv"/>
+      <node begin="0" cat="conj" end="19" id="7" rel="vc">
+        <node begin="0" cat="ppart" end="13" id="8" rel="cnj">
+          <node begin="0" end="1" id="9" index="1" rel="su"/>
+          <node begin="2" end="3" getal="mv" id="10" index="2" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="obj1" root="ze" status="red" vwtype="pers" word="ze"/>
+          <node begin="3" cat="pp" end="5" id="11" rel="mod">
+            <node begin="3" end="4" id="12" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+            <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="13" lemma="Kerst" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" root="Kerst" word="Kerst"/>
+          </node>
+          <node begin="5" buiging="zonder" end="6" id="14" lemma="krijgen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="krijg" word="gekregen" wvorm="vd"/>
+          <node begin="6" cat="pp" end="13" id="15" rel="pc">
+            <node begin="6" end="7" id="16" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="7" cat="np" end="13" id="17" rel="obj1">
+              <node begin="7" end="8" id="18" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="8" buiging="met-e" end="9" graad="basis" id="19" lemma="verliefd" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="verliefd" word="verliefde"/>
+              <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="20" lemma="klas_genote" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="klas_genoot" word="klasgenote"/>
+              <node begin="11" cat="mwu" end="13" id="21" rel="mod">
+                <node begin="11" end="12" id="22" lemma="Regina" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Regina" spectype="deeleigen" word="Regina"/>
+                <node begin="12" end="13" id="23" lemma="Valster" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Valster" spectype="deeleigen" word="Valster"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="15" conjtype="neven" end="16" id="24" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+        <node begin="0" cat="ppart" end="19" id="25" rel="cnj">
+          <node begin="0" end="1" id="26" index="1" rel="su"/>
+          <node begin="2" end="3" id="27" index="2" rel="obj1"/>
+          <node begin="16" buiging="zonder" end="17" graad="basis" id="28" lemma="wijselijk" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predm" root="wijselijk" word="wijselijk"/>
+          <node begin="17" end="18" id="29" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+          <node begin="18" buiging="zonder" end="19" id="30" lemma="op_eten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="eet_op" word="opgegeten" wvorm="vd"/>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="31" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Harry had ze voor Kerst gekregen van een verliefde klasgenote ( Regina Valster ) , maar wijselijk niet opgegeten .</sentence>
+</alpino_ds>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" end="1" id="2" lemma="nu" pos="adv" postag="BW()" pt="bw" rel="mod" root="nu" word="Nu"/>
+      <node begin="1" end="2" id="3" lemma="vertrekken" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="vertrek" word="vertrekken" wvorm="pv"/>
+      <node begin="2" cat="pp" end="5" id="4" rel="ld">
+        <node begin="2" end="3" id="5" lemma="vanaf" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="vanaf" vztype="init" word="vanaf"/>
+        <node begin="3" cat="np" end="5" id="6" rel="obj1">
+          <node begin="3" buiging="met-e" end="4" graad="basis" id="7" lemma="vast" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="vast" word="vaste"/>
+          <node begin="4" end="5" getal="mv" graad="basis" id="8" lemma="punt" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="punt" word="punten"/>
+        </node>
+      </node>
+      <node begin="5" cat="np" end="8" id="9" rel="su">
+        <node begin="5" end="6" getal="mv" graad="basis" id="10" lemma="konvooi" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="konvooi" word="konvooien"/>
+        <node begin="6" cat="pp" end="8" id="11" rel="mod">
+          <node begin="6" end="7" id="12" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+          <node begin="7" end="8" getal="mv" graad="basis" id="13" lemma="vakantie_ganger" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="vakantieganger" word="vakantiegangers"/>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" id="14" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Nu vertrekken vanaf vaste punten konvooien met vakantiegangers .</sentence>
+</alpino_ds>

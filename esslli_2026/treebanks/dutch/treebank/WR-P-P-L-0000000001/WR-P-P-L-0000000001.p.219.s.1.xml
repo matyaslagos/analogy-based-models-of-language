@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="8" end="9" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="16" end="17" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="19" id="4" rel="--">
+      <node begin="0" end="1" id="5" lemma="18" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="tag" root="18" word="18"/>
+      <node begin="1" cat="du" end="19" id="6" rel="nucl">
+        <node begin="1" cat="mwu" end="4" id="7" rel="dp">
+          <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="8" lemma="bestrijding" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Bestrijding" word="Bestrijding"/>
+          <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="9" lemma="uitstoot" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="stoot_uit" word="uitstoot"/>
+          <node begin="3" end="4" getal="mv" graad="basis" id="10" lemma="broeikas_gas" ntype="soort" pos="name" postag="N(soort,mv,basis)" pt="n" rel="mwp" root="broeikas_gas" word="broeikasgassen"/>
+        </node>
+        <node begin="5" cat="np" end="8" id="11" rel="dp">
+          <node begin="5" cat="mwu" end="7" id="12" rel="hd">
+            <node begin="5" end="6" id="13" lemma="Tweede" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Tweede" spectype="deeleigen" word="Tweede"/>
+            <node begin="6" end="7" id="14" lemma="Kamer" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Kamer" spectype="deeleigen" word="Kamer"/>
+          </node>
+          <node begin="7" end="8" id="15" lemma="2001/2002" pos="noun" postag="SPEC(symb)" pt="spec" rel="mod" root="2001/2002" spectype="symb" word="2001/2002"/>
+        </node>
+        <node begin="9" cat="np" end="19" id="16" rel="dp">
+          <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="17" lemma="kamer_stuk" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="kamer_stuk" word="kamerstuk"/>
+          <node begin="10" cat="np" end="19" id="18" rel="app">
+            <node begin="10" cat="mwu" end="12" id="19" rel="hd">
+              <node begin="10" end="11" id="20" lemma="28" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="28" word="28"/>
+              <node begin="11" end="12" id="21" lemma="272" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="272" word="272"/>
+            </node>
+            <node begin="12" cat="np" end="16" id="22" rel="app">
+              <node begin="12" end="13" id="23" lemma="nummer" pos="noun" postag="SPEC(afk)" pt="spec" rel="hd" root="nrs" spectype="afk" word="nrs"/>
+              <node begin="13" cat="mwu" end="16" id="24" rel="app">
+                <node begin="13" end="14" id="25" lemma="1" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="1" word="1"/>
+                <node begin="14" end="15" id="26" lemma="-" pos="num" postag="LET()" pt="let" rel="mwp" root="-" word="-"/>
+                <node begin="15" end="16" id="27" lemma="2" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="2" word="2"/>
+              </node>
+            </node>
+            <node begin="17" cat="np" end="19" id="28" rel="mod">
+              <node begin="17" end="18" id="29" lemma="pagina" pos="noun" postag="SPEC(afk)" pt="spec" rel="hd" root="pg" spectype="afk" word="pg"/>
+              <node begin="18" end="19" id="30" lemma="74" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="app" root="74" word="74"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="31" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>18 Bestrijding uitstoot broeikasgassen , Tweede Kamer 2001/2002 , kamerstuk 28 272 nrs 1 - 2 , pg 74 .</sentence>
+</alpino_ds>

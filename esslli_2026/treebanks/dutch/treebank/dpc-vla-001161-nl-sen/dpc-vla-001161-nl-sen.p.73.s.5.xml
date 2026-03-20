@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="1" end="2" id="2" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" word="kun" wvorm="pv"/>
+      <node begin="2" end="3" getal="ev" id="3" index="1" lemma="je" naamval="nomin" pdtype="pron" persoon="2v" pos="pron" postag="VNW(pers,pron,nomin,red,2v,ev)" pt="vnw" rel="su" root="je" status="red" vwtype="pers" word="je"/>
+      <node begin="0" cat="inf" end="8" id="4" rel="vc">
+        <node begin="0" end="1" id="5" lemma="bijgevolg" pos="adv" postag="BW()" pt="bw" rel="mod" root="bijgevolg" word="Bijgevolg"/>
+        <node begin="2" end="3" id="6" index="1" rel="su"/>
+        <node begin="3" cat="np" end="6" id="7" rel="obj1">
+          <node begin="3" buiging="met-e" end="4" id="8" lemma="bepalen" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="bepaald" word="bepaalde" wvorm="vd"/>
+          <node begin="4" buiging="met-e" end="5" graad="basis" id="9" lemma="vastgeroest" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="vastgeroest" word="vastgeroeste"/>
+          <node begin="5" end="6" getal="mv" graad="basis" id="10" lemma="zaak" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="zaak" word="zaken"/>
+        </node>
+        <node begin="6" buiging="zonder" end="7" graad="comp" id="11" lemma="makkelijk" pos="adv" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="makkelijk" word="makkelijker"/>
+        <node begin="7" buiging="zonder" end="8" id="12" lemma="los_maken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="maak_los" word="losmaken" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="13" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Bijgevolg kun je bepaalde vastgeroeste zaken makkelijker losmaken .</sentence>
+</alpino_ds>

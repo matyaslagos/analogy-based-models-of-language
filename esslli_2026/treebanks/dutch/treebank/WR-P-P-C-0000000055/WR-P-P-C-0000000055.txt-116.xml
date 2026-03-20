@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="14" id="2" rel="--">
+      <node begin="0" cat="cp" end="4" id="3" rel="mod">
+        <node begin="0" conjtype="onder" end="1" id="4" lemma="wanneer" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="wanneer" word="Wanneer"/>
+        <node begin="1" cat="ssub" end="4" id="5" rel="body">
+          <node begin="1" end="2" getal="getal" id="6" lemma="u" naamval="nomin" pdtype="pron" persoon="2b" pos="pron" postag="VNW(pers,pron,nomin,vol,2b,getal)" pt="vnw" rel="su" root="u" status="vol" vwtype="pers" word="u"/>
+          <node begin="2" end="3" id="7" lemma="hiervoor" pos="pp" postag="BW()" pt="bw" rel="pc" root="hiervoor" word="hiervoor"/>
+          <node begin="3" end="4" id="8" lemma="kiezen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="kies" word="kiest" wvorm="pv"/>
+        </node>
+      </node>
+      <node begin="5" end="6" id="9" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="6" end="7" genus="onz" getal="ev" id="10" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="noun" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="sup" root="het" status="red" vwtype="pers" word="het"/>
+      <node begin="7" buiging="zonder" end="8" graad="basis" id="11" lemma="raadzaam" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="raadzaam" word="raadzaam"/>
+      <node begin="8" cat="ti" end="14" id="12" rel="su">
+        <node begin="12" end="13" id="13" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+        <node begin="8" cat="inf" end="14" id="14" rel="body">
+          <node begin="8" cat="np" end="12" id="15" rel="obj1">
+            <node begin="8" cat="conj" end="11" id="16" rel="mod">
+              <node begin="8" buiging="met-e" end="9" graad="basis" id="17" lemma="kort" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="kort" word="korte"/>
+              <node begin="9" conjtype="neven" end="10" id="18" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="10" buiging="met-e" end="11" graad="basis" id="19" lemma="nuchter" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="nuchter" word="nuchtere"/>
+            </node>
+            <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="20" lemma="informatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="informatie" word="informatie"/>
+          </node>
+          <node begin="13" buiging="zonder" end="14" id="21" lemma="geven" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="geef" word="geven" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Wanneer u hiervoor kiest , is het raadzaam korte en nuchtere informatie te geven .</sentence>
+</alpino_ds>

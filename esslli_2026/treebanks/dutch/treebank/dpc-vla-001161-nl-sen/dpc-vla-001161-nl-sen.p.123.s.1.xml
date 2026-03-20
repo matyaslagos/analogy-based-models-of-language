@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="40" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="8" end="9" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="12" end="13" id="3" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="17" end="18" id="4" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="25" end="26" id="5" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="29" end="30" id="6" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="33" end="34" id="7" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="conj" end="38" id="8" rel="--">
+      <node begin="9" conjtype="neven" end="10" id="9" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="0" cat="np" end="38" id="10" rel="cnj">
+        <node begin="0" cat="mwu" end="2" id="11" rel="hd">
+          <node begin="0" end="1" id="12" lemma="Peter" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Peter" spectype="deeleigen" word="Peter"/>
+          <node begin="1" end="2" id="13" lemma="Bakema" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Bakema" spectype="deeleigen" word="Bakema"/>
+        </node>
+        <node begin="3" cat="np" end="8" id="14" rel="mod">
+          <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="15" lemma="team" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="Team" word="Team"/>
+          <node begin="4" cat="conj" end="8" id="16" rel="app">
+            <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="17" lemma="beleid_ondersteuning" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Beleidsondersteuning" word="Beleidsondersteuning"/>
+            <node begin="5" conjtype="neven" end="6" id="18" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="6" cat="np" end="8" id="19" rel="cnj">
+              <node begin="6" buiging="zonder" end="7" graad="basis" id="20" lemma="academisch" pos="name" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="Academisch" word="Academisch"/>
+              <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="21" lemma="beleid" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="Beleid" word="Beleid"/>
+            </node>
+          </node>
+        </node>
+        <node begin="18" cat="pp" end="38" id="22" index="1" rel="mod">
+          <node begin="18" end="19" id="23" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+          <node begin="19" cat="np" end="38" id="24" rel="obj1">
+            <node begin="19" end="20" id="25" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="20" buiging="met-e" end="21" id="26" lemma="waarderen" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="gewaardeerd" word="gewaardeerde" wvorm="vd"/>
+            <node begin="21" end="22" genus="zijd" getal="ev" graad="basis" id="27" lemma="medewerking" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="medewerking" word="medewerking"/>
+            <node begin="22" cat="pp" end="38" id="28" rel="mod">
+              <node begin="22" end="23" id="29" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="23" cat="conj" end="38" id="30" rel="obj1">
+                <node begin="23" cat="np" end="29" id="31" rel="cnj">
+                  <node begin="23" cat="mwu" end="25" id="32" rel="hd">
+                    <node begin="23" end="24" id="33" lemma="Els" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Els" spectype="deeleigen" word="Els"/>
+                    <node begin="24" end="25" id="34" lemma="Jacobs" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Jacobs" spectype="deeleigen" word="Jacobs"/>
+                  </node>
+                  <node begin="26" cat="conj" end="29" id="35" rel="mod">
+                    <node begin="26" end="27" genus="zijd" getal="ev" graad="basis" id="36" lemma="pers" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Pers" word="Pers"/>
+                    <node begin="27" conjtype="neven" end="28" id="37" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                    <node begin="28" end="29" genus="zijd" getal="ev" graad="basis" id="38" lemma="communicatie" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Communicatie" word="Communicatie"/>
+                  </node>
+                </node>
+                <node begin="30" conjtype="neven" end="31" id="39" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                <node begin="31" cat="np" end="38" id="40" rel="cnj">
+                  <node begin="31" cat="mwu" end="33" id="41" rel="hd">
+                    <node begin="31" end="32" id="42" lemma="Annie" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Annie" spectype="deeleigen" word="Annie"/>
+                    <node begin="32" end="33" id="43" lemma="Matthijs" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Matthijs" spectype="deeleigen" word="Matthijs"/>
+                  </node>
+                  <node begin="34" cat="conj" end="38" id="44" rel="mod">
+                    <node begin="34" end="35" genus="zijd" getal="ev" graad="basis" id="45" lemma="studie_dienst" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Studiedienst" word="Studiedienst"/>
+                    <node begin="35" conjtype="neven" end="36" id="46" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                    <node begin="36" cat="mwu" end="38" id="47" rel="cnj">
+                      <node begin="36" buiging="zonder" end="37" graad="basis" id="48" lemma="prospectief" pos="name" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mwp" root="Prospectief" word="Prospectief"/>
+                      <node begin="37" end="38" genus="onz" getal="ev" graad="basis" id="49" lemma="beleid" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="Beleid" word="Beleid"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="10" cat="np" end="38" id="50" rel="cnj">
+        <node begin="10" cat="mwu" end="12" id="51" rel="hd">
+          <node begin="10" end="11" id="52" lemma="Peter" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Peter" spectype="deeleigen" word="Peter"/>
+          <node begin="11" end="12" id="53" lemma="Spyns" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Spyns" spectype="deeleigen" word="Spyns"/>
+        </node>
+        <node begin="13" cat="conj" end="17" id="54" rel="mod">
+          <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="55" lemma="studie_dienst" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Studiedienst" word="Studiedienst"/>
+          <node begin="14" conjtype="neven" end="15" id="56" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="15" cat="mwu" end="17" id="57" rel="cnj">
+            <node begin="15" buiging="zonder" end="16" graad="basis" id="58" lemma="prospectief" pos="name" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mwp" root="Prospectief" word="Prospectief"/>
+            <node begin="16" end="17" genus="onz" getal="ev" graad="basis" id="59" lemma="beleid" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="Beleid" word="Beleid"/>
+          </node>
+        </node>
+        <node begin="18" end="38" id="60" index="1" rel="mod"/>
+      </node>
+    </node>
+    <node begin="38" end="39" id="61" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="39" end="40" id="62" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Peter Bakema ( Team Beleidsondersteuning en Academisch Beleid ) en Peter Spyns ( Studiedienst en Prospectief Beleid ) met de gewaardeerde medewerking van Els Jacobs ( Pers en Communicatie ) en Annie Matthijs ( Studiedienst en Prospectief Beleid ) .</sentence>
+</alpino_ds>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="9" end="10" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="18" id="2" rel="--">
+      <node begin="0" cat="np" end="2" id="3" rel="su">
+        <node begin="0" buiging="zonder" end="1" graad="basis" id="4" lemma="hetzelfde" pos="det" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="det" root="hetzelfde" word="Hetzelfde"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="5" lemma="lot" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="lot" word="lot"/>
+      </node>
+      <node begin="2" end="3" id="6" lemma="wachten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="wacht" word="wacht" wvorm="pv"/>
+      <node begin="3" end="4" id="7" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" word="nog"/>
+      <node begin="4" cat="np" end="18" id="8" rel="obj1">
+        <node begin="4" cat="detp" end="6" id="9" rel="det">
+          <node begin="4" buiging="zonder" end="5" graad="basis" id="10" lemma="ruim" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="ruim" word="ruim"/>
+          <node begin="5" end="6" id="11" lemma="twintig" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="hd" root="twintig" word="twintig"/>
+        </node>
+        <node begin="6" end="7" getal="mv" graad="basis" id="12" lemma="drug_koerier" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="drugs_koerier" word="drugskoeriers"/>
+        <node begin="7" cat="pp" end="9" id="13" rel="mod">
+          <node begin="7" end="8" id="14" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="15" lemma="Indonesië" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Indonesië" word="Indonesië"/>
+        </node>
+        <node begin="10" cat="rel" end="18" id="16" rel="mod">
+          <node begin="10" cat="pp" end="12" id="17" rel="rhd">
+            <node begin="10" end="11" id="18" lemma="onder" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="onder" vztype="init" word="onder"/>
+            <node begin="11" end="12" getal="getal" id="19" lemma="wie" naamval="stan" pdtype="pron" persoon="3p" pos="pron" postag="VNW(vb,pron,stan,vol,3p,getal)" pt="vnw" rel="obj1" root="wie" status="vol" vwtype="vb" word="wie"/>
+          </node>
+          <node begin="12" cat="np" end="18" id="20" rel="body">
+            <node begin="12" end="13" id="21" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="13" buiging="met-e" end="14" graad="basis" id="22" lemma="52_jarig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="52-jarige" word="52-jarige"/>
+            <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="23" lemma="Nederlander" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Nederlander" word="Nederlander"/>
+            <node begin="15" cat="mwu" end="18" id="24" rel="app">
+              <node begin="15" end="16" id="25" lemma="Ang" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Ang" spectype="deeleigen" word="Ang"/>
+              <node begin="16" end="17" id="26" lemma="Kim" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Kim" spectype="deeleigen" word="Kim"/>
+              <node begin="17" end="18" id="27" lemma="Soei" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Soei" spectype="deeleigen" word="Soei"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="28" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Hetzelfde lot wacht nog ruim twintig drugskoeriers in Indonesië , onder wie de 52-jarige Nederlander Ang Kim Soei .</sentence>
+</alpino_ds>

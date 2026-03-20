@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="0" cat="smain" end="16" id="1" rel="--">
+      <node begin="3" end="4" id="2" lemma="blijken" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="blijk" word="blijken" wvorm="pv"/>
+      <node begin="4" cat="np" end="6" id="3" index="1" rel="su">
+        <node begin="4" buiging="met-e" end="5" id="4" lemma="zingen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="zing" word="zingende" wvorm="od"/>
+        <node begin="5" end="6" getal="mv" graad="basis" id="5" lemma="spreeuw" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="spreeuw" word="spreeuwen"/>
+      </node>
+      <node begin="0" cat="ti" end="16" id="6" rel="vc">
+        <node begin="14" end="15" id="7" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+        <node begin="0" cat="inf" end="16" id="8" rel="body">
+          <node begin="0" cat="pp" end="3" id="9" rel="mod">
+            <node begin="0" end="1" id="10" lemma="buiten" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="buiten" vztype="init" word="Buiten"/>
+            <node begin="1" cat="np" end="3" id="11" rel="obj1">
+              <node begin="1" end="2" id="12" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="13" lemma="lente" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="lente" word="lente"/>
+            </node>
+          </node>
+          <node begin="4" end="6" id="14" index="1" rel="su"/>
+          <node begin="6" end="7" id="15" lemma="inderdaad" pos="adv" postag="BW()" pt="bw" rel="mod" root="inderdaad" word="inderdaad"/>
+          <node begin="7" cat="np" end="14" id="16" rel="obj1">
+            <node begin="7" buiging="zonder" end="8" id="17" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="geen"/>
+            <node begin="8" cat="ap" end="10" id="18" rel="mod">
+              <node begin="8" buiging="zonder" end="9" id="19" lemma="uit_spreken" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="mod" root="uitgesproken" word="uitgesproken" wvorm="vd"/>
+              <node begin="9" buiging="met-e" end="10" graad="basis" id="20" lemma="hoog" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="hd" root="hoog" word="hoge"/>
+            </node>
+            <node begin="10" end="11" getal="mv" graad="basis" id="21" lemma="testosteron_concentratie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="testosteron_concentratie" word="testosteronconcentraties"/>
+            <node begin="11" cat="pp" end="14" id="22" rel="mod">
+              <node begin="11" end="12" id="23" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+              <node begin="12" cat="np" end="14" id="24" rel="obj1">
+                <node begin="12" buiging="zonder" end="13" getal="mv" id="25" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+                <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="26" lemma="bloed_serum" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="bloed_serum" word="bloedserum"/>
+              </node>
+            </node>
+          </node>
+          <node begin="15" buiging="zonder" end="16" id="27" lemma="hebben" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="heb" word="hebben" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="28" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Buiten de lente blijken zingende spreeuwen inderdaad geen uitgesproken hoge testosteronconcentraties in hun bloedserum te hebben .</sentence>
+</alpino_ds>

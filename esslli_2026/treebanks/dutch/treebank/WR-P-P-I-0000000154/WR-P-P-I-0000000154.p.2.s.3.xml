@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="39" id="0" rel="top">
+    <node begin="18" end="19" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="27" end="28" id="2" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="31" end="32" id="3" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="0" cat="smain" end="38" id="4" rel="--">
+      <node begin="0" cat="pp" end="4" id="5" rel="mod">
+        <node begin="0" end="1" id="6" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+        <node begin="1" cat="np" end="4" id="7" rel="obj1">
+          <node begin="1" end="2" id="8" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="9" lemma="vak_blad" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="vak_blad" word="vakblad"/>
+          <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="10" lemma="Circulation" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" root="Circulation" word="Circulation"/>
+        </node>
+      </node>
+      <node begin="4" end="5" id="11" lemma="melden" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="meld" word="meldden" wvorm="pv"/>
+      <node begin="5" end="6" getal="mv" id="12" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="ze"/>
+      <node begin="6" cat="cp" end="38" id="13" rel="vc">
+        <node begin="6" conjtype="onder" end="7" id="14" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+        <node begin="7" cat="ssub" end="38" id="15" rel="body">
+          <node begin="7" cat="pp" end="18" id="16" rel="mod">
+            <node begin="7" end="8" id="17" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+            <node begin="8" cat="np" end="18" id="18" rel="obj1">
+              <node begin="8" end="9" getal="mv" graad="basis" id="19" lemma="patiënt" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="patiënt" word="patiënten"/>
+              <node begin="9" cat="rel" end="18" id="20" rel="mod">
+                <node begin="9" end="10" getal="getal" id="21" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+                <node begin="9" cat="conj" end="18" id="22" rel="body">
+                  <node begin="9" cat="ssub" end="14" id="23" rel="cnj">
+                    <node begin="9" end="10" id="24" index="1" rel="su"/>
+                    <node begin="12" end="13" id="25" lemma="hebben" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="heb" word="hadden" wvorm="pv"/>
+                    <node begin="9" cat="ppart" end="14" id="26" rel="vc">
+                      <node begin="9" end="10" id="27" index="1" rel="su"/>
+                      <node begin="10" cat="np" end="12" id="28" rel="obj1">
+                        <node begin="10" end="11" id="29" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                        <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="30" lemma="hartaanval" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="hartaanval" word="hartaanval"/>
+                      </node>
+                      <node begin="13" buiging="zonder" end="14" id="31" lemma="hebben" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="heb" word="gehad" wvorm="vd"/>
+                    </node>
+                  </node>
+                  <node begin="14" conjtype="neven" end="15" id="32" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+                  <node begin="9" cat="ssub" end="18" id="33" rel="cnj">
+                    <node begin="9" end="10" id="34" index="1" rel="su"/>
+                    <node begin="15" cat="np" end="17" id="35" rel="obj1">
+                      <node begin="15" end="16" id="36" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                      <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="37" lemma="bypass_operatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="bypass_operatie" word="bypass-operatie"/>
+                    </node>
+                    <node begin="17" end="18" id="38" lemma="ondergaan" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="onderga" word="ondergingen" wvorm="pv"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="19" cat="np" end="25" id="39" rel="su">
+            <node begin="19" end="20" id="40" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="20" buiging="zonder" end="21" id="41" lemma="uit_breiden" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="mod" root="uitgebreid" word="uitgebreid" wvorm="vd"/>
+            <node begin="21" end="22" genus="onz" getal="ev" graad="basis" id="42" lemma="revalidatie_programma" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="revalidatie_programma" word="revalidatieprogramma"/>
+            <node begin="22" cat="pp" end="25" id="43" rel="mod">
+              <node begin="22" end="23" id="44" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+              <node begin="23" cat="np" end="25" id="45" rel="obj1">
+                <node begin="23" buiging="met-e" end="24" graad="basis" id="46" lemma="individueel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="individueel" word="individuele"/>
+                <node begin="24" end="25" genus="zijd" getal="ev" graad="basis" id="47" lemma="psycho_therapie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="psycho_therapie" word="psychotherapie"/>
+              </node>
+            </node>
+          </node>
+          <node begin="25" cat="np" end="27" id="48" rel="obj1">
+            <node begin="25" end="26" id="49" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="26" end="27" genus="onz" getal="ev" graad="basis" id="50" lemma="sterfte_cijfer" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="sterfte_cijfer" word="sterftecijfer"/>
+          </node>
+          <node begin="28" cat="pp" end="31" id="51" rel="mod">
+            <node begin="28" end="29" id="52" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" vztype="init" word="na"/>
+            <node begin="29" cat="np" end="31" id="53" rel="obj1">
+              <node begin="29" end="30" id="54" lemma="negen" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="negen" word="negen"/>
+              <node begin="30" end="31" genus="onz" getal="ev" graad="basis" id="55" lemma="jaar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="jaar" word="jaar"/>
+            </node>
+          </node>
+          <node begin="32" end="33" id="56" lemma="terug_dringen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="dring_terug" word="terugdringt" wvorm="pv"/>
+          <node begin="33" cat="conj" end="38" id="57" rel="mod">
+            <node begin="33" cat="pp" end="38" id="58" rel="cnj">
+              <node begin="33" end="34" id="59" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="34" cat="np" end="38" id="60" rel="obj1">
+                <node begin="34" end="35" id="61" lemma="17" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="17" word="17"/>
+                <node begin="37" end="38" genus="onz" getal="ev" graad="basis" id="62" index="2" lemma="procent" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="procent" word="procent"/>
+              </node>
+            </node>
+            <node begin="35" cat="pp" end="38" id="63" rel="cnj">
+              <node begin="35" end="36" id="64" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" vztype="init" word="tot"/>
+              <node begin="36" cat="np" end="38" id="65" rel="obj1">
+                <node begin="36" end="37" id="66" lemma="4" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="4" word="4"/>
+                <node begin="37" end="38" id="67" index="2" rel="hd"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="38" end="39" id="68" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>In het vakblad Circulation meldden ze dat voor patiënten die een hartaanval hadden gehad of een bypass-operatie ondergingen , een uitgebreid revalidatieprogramma met individuele psychotherapie het sterftecijfer ( na negen jaar ) terugdringt van 17 tot 4 procent .</sentence>
+</alpino_ds>

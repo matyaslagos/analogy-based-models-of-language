@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="10" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="9" id="2" rel="--">
+      <node begin="0" cat="smain" end="3" id="3" rel="nucl">
+        <node begin="0" end="1" getal="mv" graad="basis" id="4" lemma="vos" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="vos" word="Vossen"/>
+        <node begin="1" end="2" id="5" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+        <node begin="2" buiging="zonder" end="3" graad="basis" id="6" lemma="gevoelig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="gevoelig" word="gevoelig"/>
+      </node>
+      <node begin="4" cat="cp" end="9" id="7" rel="sat">
+        <node begin="4" end="5" id="8" lemma="net" pos="adv" postag="BW()" pt="bw" rel="mod" root="net" word="net"/>
+        <node begin="5" conjtype="onder" end="6" id="9" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+        <node begin="6" cat="conj" end="9" id="10" rel="body">
+          <node begin="6" end="7" getal="mv" graad="basis" id="11" lemma="vlinder" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="vlinder" word="vlinders"/>
+          <node begin="7" conjtype="neven" end="8" id="12" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="8" end="9" getal="mv" graad="basis" id="13" lemma="vogel" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="vogel" word="vogels"/>
+        </node>
+      </node>
+    </node>
+    <node begin="9" end="10" id="14" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Vossen zijn gevoelig , net als vlinders en vogels .</sentence>
+</alpino_ds>

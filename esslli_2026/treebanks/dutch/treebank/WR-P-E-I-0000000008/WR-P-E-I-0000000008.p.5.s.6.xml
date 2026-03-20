@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="28" id="0" rel="top">
+    <node begin="13" end="14" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="16" end="17" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="18" end="19" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="20" end="21" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="27" id="5" rel="--">
+      <node begin="5" end="6" id="6" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+      <node begin="12" cat="conj" end="25" id="7" index="1" rel="su">
+        <node begin="12" end="13" getal="mv" graad="basis" id="8" lemma="film" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="film" word="films"/>
+        <node begin="14" cat="np" end="16" id="9" rel="cnj">
+          <node begin="14" buiging="met-e" end="15" graad="basis" id="10" lemma="populair" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="populair" word="populaire"/>
+          <node begin="15" end="16" getal="mv" graad="basis" id="11" lemma="sport" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="sport" word="sporten"/>
+        </node>
+        <node begin="17" end="18" getal="mv" graad="basis" id="12" lemma="drama_serie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="drama_serie" word="dramaseries"/>
+        <node begin="19" end="20" getal="mv" graad="basis" id="13" lemma="soap" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="soap" word="soaps"/>
+        <node begin="21" cat="np" end="23" id="14" rel="cnj">
+          <node begin="21" buiging="met-e" end="22" graad="basis" id="15" lemma="populair_medisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="populair_medisch" word="populair-medische"/>
+          <node begin="22" end="23" getal="mv" graad="basis" id="16" lemma="programma" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="programma" word="programma&apos;s"/>
+        </node>
+        <node begin="23" conjtype="neven" end="24" id="17" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+        <node begin="24" end="25" getal="mv" graad="basis" id="18" lemma="spel_programma" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="spel_programma" word="spelprogramma&apos;s"/>
+      </node>
+      <node begin="0" cat="ti" end="27" id="19" rel="vc">
+        <node begin="25" end="26" id="20" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+        <node begin="0" cat="inf" end="27" id="21" rel="body">
+          <node begin="0" cat="cp" end="5" id="22" rel="mod">
+            <node begin="0" conjtype="onder" end="1" id="23" lemma="behalve" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="behalve" word="Behalve"/>
+            <node begin="1" cat="np" end="5" id="24" rel="body">
+              <node begin="1" end="2" getal="mv" graad="basis" id="25" lemma="achtergrond" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="achtergrond" word="achtergronden"/>
+              <node begin="2" cat="pp" end="5" id="26" rel="mod">
+                <node begin="2" end="3" id="27" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+                <node begin="3" cat="np" end="5" id="28" rel="obj1">
+                  <node begin="3" end="4" id="29" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                  <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="30" lemma="nieuws" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="nieuws" word="nieuws"/>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="6" cat="pp" end="9" id="31" rel="mod">
+            <node begin="6" end="7" id="32" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+            <node begin="7" cat="mwu" end="9" id="33" rel="obj1">
+              <node begin="7" end="8" id="34" lemma="prime" pos="noun" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="prime" spectype="vreemd" word="prime"/>
+              <node begin="8" end="9" id="35" lemma="time" pos="noun" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="time" spectype="vreemd" word="time"/>
+            </node>
+          </node>
+          <node begin="9" end="10" id="36" lemma="dan" pos="adv" postag="BW()" pt="bw" rel="mod" root="dan" word="dan"/>
+          <node begin="10" end="11" id="37" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+          <node begin="11" buiging="zonder" end="12" graad="basis" id="38" lemma="vaak" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="vaak" word="vaak"/>
+          <node begin="12" end="25" id="39" index="1" rel="obj1"/>
+          <node begin="26" buiging="zonder" end="27" id="40" lemma="zien" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="zie" word="zien" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="27" end="28" id="41" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Behalve achtergronden bij het nieuws zijn op prime time dan ook vaak films , populaire sporten , dramaseries , soaps , populair-medische programma&apos;s of spelprogramma&apos;s te zien .</sentence>
+</alpino_ds>

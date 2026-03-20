@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="32" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="27" end="28" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="31" id="3" rel="--">
+      <node begin="0" cat="smain" end="4" id="4" rel="cnj">
+        <node begin="0" cat="np" end="2" id="5" rel="su">
+          <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="6" lemma="permier" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="premier" word="Permier"/>
+          <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="7" lemma="Balkenende" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" root="Balkenende" word="Balkenende"/>
+        </node>
+        <node begin="2" end="3" id="8" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="3" buiging="zonder" end="4" graad="basis" id="9" lemma="enthousiast" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="enthoesiast" word="enthousiast"/>
+      </node>
+      <node begin="5" conjtype="neven" end="6" id="10" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+      <node begin="6" cat="conj" end="31" id="11" rel="cnj">
+        <node begin="6" cat="smain" end="14" id="12" rel="cnj">
+          <node begin="6" cat="np" end="10" id="13" index="1" rel="su">
+            <node begin="6" end="7" id="14" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="7" cat="mwu" end="10" id="15" rel="hd">
+              <node begin="7" end="8" id="16" lemma="Centraal" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Centraal" spectype="deeleigen" word="Centraal"/>
+              <node begin="8" end="9" id="17" lemma="Plan" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Plan" spectype="deeleigen" word="Plan"/>
+              <node begin="9" end="10" id="18" lemma="Buro" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Buro" spectype="deeleigen" word="Buro"/>
+            </node>
+          </node>
+          <node begin="10" end="11" id="19" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="heeft" wvorm="pv"/>
+          <node begin="6" cat="ppart" end="14" id="20" rel="vc">
+            <node begin="6" end="10" id="21" index="1" rel="su"/>
+            <node begin="11" cat="np" end="13" id="22" rel="obj1">
+              <node begin="11" end="12" id="23" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="12" end="13" genus="onz" getal="ev" graad="basis" id="24" lemma="project" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="project" word="project"/>
+            </node>
+            <node begin="13" buiging="zonder" end="14" id="25" lemma="door_rekenen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="reken_door" word="doorgerekend" wvorm="vd"/>
+          </node>
+        </node>
+        <node begin="14" conjtype="neven" end="15" id="26" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="6" cat="sv1" end="31" id="27" rel="cnj">
+          <node begin="6" end="10" id="28" index="1" rel="su"/>
+          <node begin="15" end="16" id="29" lemma="verwachten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="verwacht" word="verwacht" wvorm="pv"/>
+          <node begin="16" cat="cp" end="31" id="30" rel="vc">
+            <node begin="16" conjtype="onder" end="17" id="31" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+            <node begin="17" cat="ssub" end="31" id="32" rel="body">
+              <node begin="17" cat="np" end="27" id="33" rel="su">
+                <node begin="17" end="18" id="34" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="18" end="19" genus="zijd" getal="ev" graad="basis" id="35" lemma="investering" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="investering" word="investering"/>
+                <node begin="19" cat="pp" end="23" id="36" rel="mod">
+                  <node begin="19" end="20" id="37" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                  <node begin="20" cat="np" end="23" id="38" rel="obj1">
+                    <node begin="20" end="21" id="39" lemma="2-en-een-half" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="2-en-een_half" word="2-en-een-half"/>
+                    <node begin="21" end="22" genus="onz" getal="ev" graad="basis" id="40" lemma="miljard" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="miljard" word="miljard"/>
+                    <node begin="22" end="23" genus="zijd" getal="ev" graad="basis" id="41" lemma="euro" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mod" root="euro" word="euro"/>
+                  </node>
+                </node>
+                <node begin="23" cat="pp" end="27" id="42" rel="mod">
+                  <node begin="23" end="24" id="43" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+                  <node begin="24" cat="np" end="27" id="44" rel="obj1">
+                    <node begin="24" end="25" id="45" lemma="alleen" pos="adv" postag="BW()" pt="bw" rel="mod" root="alleen" word="alleen"/>
+                    <node begin="25" end="26" id="46" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="26" end="27" genus="zijd" getal="ev" graad="basis" id="47" lemma="infrastructuur" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="infrastructuur" word="infrastructuur"/>
+                  </node>
+                </node>
+              </node>
+              <node begin="28" cat="ap" end="30" id="48" rel="predc">
+                <node begin="28" buiging="zonder" end="29" graad="basis" id="49" lemma="zwaar" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="zwaar" word="zwaar"/>
+                <node begin="29" buiging="zonder" end="30" graad="basis" id="50" lemma="verliesgevend" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="verliesgevend" word="verliesgevend"/>
+              </node>
+              <node begin="30" end="31" id="51" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="31" end="32" id="52" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Permier Balkenende is enthousiast , maar het Centraal Plan Buro heeft het project doorgerekend en verwacht dat de investering van 2-en-een-half miljard euro voor alleen de infrastructuur , zwaar verliesgevend wordt .</sentence>
+</alpino_ds>

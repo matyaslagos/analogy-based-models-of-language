@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="7" id="2" rel="--">
+      <node begin="0" cat="smain" end="3" id="3" rel="cnj">
+        <node begin="0" end="1" getal="mv" graad="basis" id="4" index="1" lemma="boerderij" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="boerderij" word="Boerderijen"/>
+        <node begin="1" end="2" id="5" index="2" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" word="worden" wvorm="pv"/>
+        <node begin="0" cat="ppart" end="3" id="6" rel="vc">
+          <node begin="0" end="1" id="7" index="1" rel="obj1"/>
+          <node begin="2" buiging="zonder" end="3" id="8" lemma="isoleren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="isoleer" word="geïsoleerd" wvorm="vd"/>
+        </node>
+      </node>
+      <node begin="4" conjtype="neven" end="5" id="9" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="1" cat="smain" end="7" id="10" rel="cnj">
+        <node begin="1" end="2" id="11" index="2" rel="hd"/>
+        <node begin="5" end="6" getal="mv" graad="basis" id="12" index="3" lemma="dier" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="dier" word="dieren"/>
+        <node begin="5" cat="ppart" end="7" id="13" rel="vc">
+          <node begin="5" end="6" id="14" index="3" rel="obj1"/>
+          <node begin="6" buiging="zonder" end="7" id="15" lemma="af_maken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="maak_af" word="afgemaakt" wvorm="vd"/>
+        </node>
+      </node>
+    </node>
+    <node begin="7" end="8" id="16" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Boerderijen worden geïsoleerd , en dieren afgemaakt .</sentence>
+</alpino_ds>

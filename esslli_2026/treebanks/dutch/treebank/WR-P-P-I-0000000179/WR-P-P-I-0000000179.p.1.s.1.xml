@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="24" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="7" end="8" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="0" cat="smain" end="23" id="3" rel="--">
+      <node begin="0" cat="conj" end="3" id="4" rel="su">
+        <node begin="0" end="1" getal="mv" graad="basis" id="5" lemma="econoom" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="econoom" word="Economen"/>
+        <node begin="1" conjtype="neven" end="2" id="6" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="2" end="3" getal="mv" graad="basis" id="7" lemma="socioloog" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="socioloog" word="sociologen"/>
+      </node>
+      <node begin="3" end="4" id="8" lemma="geloven" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="geloof" word="geloven" wvorm="pv"/>
+      <node begin="4" end="5" id="9" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+      <node begin="6" end="7" id="10" lemma="allemaal" pos="pron" postag="BW()" pt="bw" rel="predm" root="allemaal" word="allemaal"/>
+      <node begin="8" cat="cp" end="23" id="11" rel="vc">
+        <node begin="8" conjtype="onder" end="9" id="12" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+        <node begin="9" cat="ssub" end="23" id="13" rel="body">
+          <node begin="9" cat="np" end="11" id="14" index="1" rel="su">
+            <node begin="9" end="10" id="15" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="16" lemma="mens_samenleving" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="mens_samenleving" word="mensensamenleving"/>
+          </node>
+          <node begin="14" end="15" id="17" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+          <node begin="9" cat="ppart" end="23" id="18" rel="vc">
+            <node begin="9" end="11" id="19" index="1" rel="obj1"/>
+            <node begin="15" buiging="zonder" end="16" id="20" lemma="sturen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="stuur" word="gestuurd" wvorm="vd"/>
+            <node begin="11" cat="pp" end="23" id="21" rel="mod">
+              <node begin="11" end="12" id="22" lemma="volgens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="volgens" vztype="init" word="volgens"/>
+              <node begin="12" cat="np" end="23" id="23" rel="obj1">
+                <node begin="13" end="14" getal="mv" graad="basis" id="24" lemma="principe" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="principe" word="principes"/>
+                <node begin="12" cat="detp" end="23" id="25" rel="det">
+                  <node begin="12" buiging="zonder" end="13" graad="basis" id="26" lemma="dezelfde" pos="det" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="hd" root="dezelfde" word="dezelfde"/>
+                  <node begin="16" cat="cp" end="23" id="27" rel="obcomp">
+                    <node begin="16" conjtype="onder" end="17" id="28" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+                    <node begin="17" cat="np" end="23" id="29" rel="body">
+                      <node begin="17" end="18" id="30" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                      <node begin="18" buiging="met-e" end="19" graad="basis" id="31" lemma="sociaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="sociaal" word="sociale"/>
+                      <node begin="19" end="20" genus="onz" getal="ev" graad="basis" id="32" lemma="leven" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="leven" word="leven"/>
+                      <node begin="20" cat="pp" end="23" id="33" rel="mod">
+                        <node begin="20" end="21" id="34" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                        <node begin="21" cat="np" end="23" id="35" rel="obj1">
+                          <node begin="21" buiging="met-e" end="22" graad="basis" id="36" lemma="ander" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ander" word="andere"/>
+                          <node begin="22" end="23" getal="mv" graad="basis" id="37" lemma="dier" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="dier" word="dieren"/>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="23" end="24" id="38" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Economen en sociologen geloven niet ( allemaal ) dat de mensensamenleving volgens dezelfde principes wordt gestuurd als het sociale leven van andere dieren .</sentence>
+</alpino_ds>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="39" id="0" rel="top">
+    <node begin="12" end="13" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="25" end="26" id="2" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+    <node begin="26" end="27" id="3" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="31" end="32" id="4" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="33" end="34" id="5" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="smain" end="39" id="6" rel="--">
+      <node begin="8" end="9" id="7" lemma="kunnen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="kan" word="kunt" wvorm="pv"/>
+      <node begin="9" end="10" getal="getal" id="8" index="1" lemma="u" naamval="nomin" pdtype="pron" persoon="2b" pos="pron" postag="VNW(pers,pron,nomin,vol,2b,getal)" pt="vnw" rel="su" root="u" status="vol" vwtype="pers" word="u"/>
+      <node begin="0" cat="inf" end="39" id="9" rel="vc">
+        <node begin="0" cat="np" end="8" id="10" rel="obj1">
+          <node begin="0" buiging="met-e" end="1" graad="basis" id="11" lemma="specifiek" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="specifiek" word="Specifieke"/>
+          <node begin="1" end="2" getal="mv" graad="basis" id="12" lemma="vraag" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vraag" word="vragen"/>
+          <node begin="2" cat="pp" end="8" id="13" rel="mod">
+            <node begin="2" end="3" id="14" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" vztype="init" word="over"/>
+            <node begin="3" cat="np" end="8" id="15" rel="obj1">
+              <node begin="3" end="4" id="16" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="17" lemma="leer_plicht" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="leer_plicht" word="leerplicht"/>
+              <node begin="5" cat="pp" end="8" id="18" rel="mod">
+                <node begin="5" end="6" id="19" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                <node begin="6" cat="np" end="8" id="20" rel="obj1">
+                  <node begin="6" end="7" id="21" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                  <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="22" lemma="basis_onderwijs" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="basisonderwijs" word="basisonderwijs"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="9" end="10" id="23" index="1" rel="su"/>
+        <node begin="10" buiging="zonder" end="11" id="24" lemma="stellen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="stel" word="stellen" wvorm="inf"/>
+        <node begin="11" cat="pp" end="39" id="25" rel="obj2">
+          <node begin="11" end="12" id="26" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+          <node begin="13" cat="np" end="39" id="27" rel="obj1">
+            <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="28" lemma="steunpunt" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="steunpunt" word="Steunpunt"/>
+            <node begin="14" cat="mwu" end="17" id="29" rel="app">
+              <node begin="14" end="15" getal="mv" graad="basis" id="30" lemma="ouder" ntype="soort" pos="name" postag="N(soort,mv,basis)" pt="n" rel="mwp" root="Ouders" word="Ouders"/>
+              <node begin="15" conjtype="neven" end="16" id="31" lemma="en" pos="name" postag="VG(neven)" pt="vg" rel="mwp" root="en" word="en"/>
+              <node begin="16" end="17" getal="mv" graad="basis" id="32" lemma="leerling" ntype="soort" pos="name" postag="N(soort,mv,basis)" pt="n" rel="mwp" root="Leerlingen" word="Leerlingen"/>
+            </node>
+            <node begin="17" cat="mwu" end="24" id="33" rel="app">
+              <node begin="17" end="18" id="34" lemma="Koning" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Koning" spectype="deeleigen" word="Koning"/>
+              <node begin="18" end="19" id="35" lemma="Albert" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Albert" spectype="deeleigen" word="Albert"/>
+              <node begin="19" end="20" id="36" lemma="II-laan" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="II-laan" spectype="deeleigen" word="II-laan"/>
+              <node begin="20" end="21" id="37" lemma="15" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="15" spectype="deeleigen" word="15"/>
+              <node begin="21" end="22" id="38" lemma="-" pos="name" postag="LET()" pt="let" rel="mwp" root="-" word="-"/>
+              <node begin="22" end="23" id="39" lemma="1210" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="1210" spectype="deeleigen" word="1210"/>
+              <node begin="23" end="24" id="40" lemma="Brussel" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Brussel" spectype="deeleigen" word="Brussel"/>
+            </node>
+            <node begin="24" cat="np" end="31" id="41" rel="app">
+              <node begin="24" end="25" genus="zijd" getal="ev" graad="basis" id="42" lemma="telefoon" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="tel" word="tel"/>
+              <node begin="27" cat="mwu" end="31" id="43" rel="app">
+                <node begin="27" end="28" id="44" lemma="02" pos="num" postag="SPEC(symb)" pt="spec" rel="mwp" root="02" spectype="symb" word="02"/>
+                <node begin="28" end="29" id="45" lemma="553" pos="num" postag="SPEC(symb)" pt="spec" rel="mwp" root="553" spectype="symb" word="553"/>
+                <node begin="29" end="30" id="46" lemma="92" pos="num" postag="SPEC(symb)" pt="spec" rel="mwp" root="92" spectype="symb" word="92"/>
+                <node begin="30" end="31" id="47" lemma="32" pos="num" postag="SPEC(symb)" pt="spec" rel="mwp" root="32" spectype="symb" word="32"/>
+              </node>
+            </node>
+            <node begin="32" cat="np" end="38" id="48" rel="app">
+              <node begin="32" end="33" genus="zijd" getal="ev" graad="basis" id="49" lemma="fax" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="fax" word="fax"/>
+              <node begin="34" cat="mwu" end="38" id="50" rel="app">
+                <node begin="34" end="35" id="51" lemma="02" pos="num" postag="SPEC(symb)" pt="spec" rel="mwp" root="02" spectype="symb" word="02"/>
+                <node begin="35" end="36" id="52" lemma="553" pos="num" postag="SPEC(symb)" pt="spec" rel="mwp" root="553" spectype="symb" word="553"/>
+                <node begin="36" end="37" id="53" lemma="93" pos="num" postag="SPEC(symb)" pt="spec" rel="mwp" root="93" spectype="symb" word="93"/>
+                <node begin="37" end="38" id="54" lemma="95" pos="num" postag="SPEC(symb)" pt="spec" rel="mwp" root="95" spectype="symb" word="95"/>
+              </node>
+            </node>
+            <node begin="38" end="39" id="55" lemma="veronique.adriaens@ond.vlaanderen.be" pos="noun" postag="SPEC(symb)" pt="spec" rel="app" root="veronique.adriaens@ond.vlaanderen.be" spectype="symb" word="veronique.adriaens@ond.vlaanderen.be"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>Specifieke vragen over de leerplicht in het basisonderwijs kunt u stellen aan : Steunpunt Ouders en Leerlingen Koning Albert II-laan 15 - 1210 Brussel tel . : 02 553 92 32 - fax : 02 553 93 95 veronique.adriaens@ond.vlaanderen.be</sentence>
+</alpino_ds>

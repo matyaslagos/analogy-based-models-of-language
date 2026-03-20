@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="np" end="7" id="1" rel="--">
+      <node begin="0" end="1" getal="mv" graad="basis" id="2" lemma="bedrag" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="bedrag" word="Bedragen"/>
+      <node begin="1" cat="pp" end="7" id="3" rel="mod">
+        <node begin="1" end="2" id="4" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+        <node begin="2" cat="conj" end="7" id="5" rel="obj1">
+          <node begin="2" cat="np" end="4" id="6" rel="cnj">
+            <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="7" lemma="augustus" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="augustus" word="augustus"/>
+            <node begin="3" end="4" id="8" lemma="2005" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mod" root="2005" word="2005"/>
+          </node>
+          <node begin="4" end="5" id="9" lemma="tot en met" pos="vg" postag="SPEC(afk)" pt="spec" rel="crd" root="tot_en_met" spectype="afk" word="t/m"/>
+          <node begin="5" cat="np" end="7" id="10" rel="cnj">
+            <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="11" lemma="december" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="december" word="december"/>
+            <node begin="6" end="7" id="12" lemma="2005" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mod" root="2005" word="2005"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>Bedragen van augustus 2005 t/m december 2005</sentence>
+</alpino_ds>

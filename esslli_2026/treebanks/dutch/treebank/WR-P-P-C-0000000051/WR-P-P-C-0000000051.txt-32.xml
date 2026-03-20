@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="·" pos="tag" postag="LET()" pt="let" rel="--" root="·" word="·"/>
+    <node begin="1" cat="smain" end="6" id="2" rel="--">
+      <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="3" index="1" lemma="epilepsie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="su" root="epilepsie" word="Epilepsie"/>
+      <node begin="2" end="3" id="4" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" word="kan" wvorm="pv"/>
+      <node begin="1" cat="inf" end="6" id="5" rel="vc">
+        <node begin="1" end="2" id="6" index="1" rel="su"/>
+        <node begin="4" buiging="zonder" end="5" id="7" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+        <node begin="1" cat="ppart" end="6" id="8" rel="vc">
+          <node begin="1" end="2" id="9" index="1" rel="obj1"/>
+          <node begin="3" end="4" id="10" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+          <node begin="5" buiging="zonder" end="6" id="11" lemma="genezen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="genees" word="genezen" wvorm="vd"/>
+        </node>
+      </node>
+    </node>
+    <node begin="6" end="7" id="12" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>· Epilepsie kan niet worden genezen .</sentence>
+</alpino_ds>

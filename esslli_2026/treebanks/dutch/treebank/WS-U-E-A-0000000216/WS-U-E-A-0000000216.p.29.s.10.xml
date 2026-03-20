@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="sv1" end="8" id="1" rel="--">
+      <node begin="0" end="1" id="2" lemma="moeten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="moet" word="Moet" wvorm="pv"/>
+      <node begin="1" cat="inf" end="8" id="3" rel="vc">
+        <node begin="1" cat="conj" end="5" id="4" rel="obj1">
+          <node begin="1" cat="np" end="3" id="5" rel="cnj">
+            <node begin="1" buiging="met-e" end="2" graad="basis" id="6" index="1" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" word="nieuwe"/>
+            <node begin="2" end="3" getal="mv" graad="basis" id="7" lemma="bezoeker" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="bezoeker" word="bezoekers"/>
+          </node>
+          <node begin="3" conjtype="neven" end="4" id="8" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="1" cat="np" end="5" id="9" rel="cnj">
+            <node begin="1" end="2" id="10" index="1" rel="mod"/>
+            <node begin="4" end="5" getal="mv" graad="basis" id="11" lemma="bewoner" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="bewoner" word="bewoners"/>
+          </node>
+        </node>
+        <node begin="5" cat="pp" end="7" id="12" rel="ld">
+          <node begin="5" end="6" id="13" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+          <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="14" lemma="Amsterdam" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Amsterdam" word="Amsterdam"/>
+        </node>
+        <node begin="7" buiging="zonder" end="8" id="15" lemma="halen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="haal" word="halen" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="16" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Moet nieuwe bezoekers en bewoners naar Amsterdam halen .</sentence>
+</alpino_ds>

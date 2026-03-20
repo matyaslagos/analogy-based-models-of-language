@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="5" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="np" end="5" id="2" rel="--">
+      <node begin="0" cat="mwu" end="2" id="3" rel="hd">
+        <node begin="0" end="1" id="4" lemma="François" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="François" spectype="deeleigen" word="François"/>
+        <node begin="1" end="2" id="5" lemma="Schuiten" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Schuiten" spectype="deeleigen" word="Schuiten"/>
+      </node>
+      <node begin="3" cat="np" end="5" id="6" rel="app">
+        <node begin="3" buiging="met-e" end="4" graad="basis" id="7" lemma="Frans_talig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Frans_talig" word="Franstalige"/>
+        <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="8" lemma="tekenaar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="tekenaar" word="tekenaar"/>
+      </node>
+    </node>
+  </node>
+  <sentence>François Schuiten , Franstalige tekenaar</sentence>
+</alpino_ds>

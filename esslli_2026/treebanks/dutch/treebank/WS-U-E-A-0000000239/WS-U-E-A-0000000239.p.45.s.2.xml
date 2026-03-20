@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="37" id="0" rel="top">
+    <node begin="0" cat="smain" end="36" id="1" rel="--">
+      <node begin="0" end="1" genus="masc" getal="ev" id="2" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="HIJ"/>
+      <node begin="1" end="2" id="3" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="IS" wvorm="pv"/>
+      <node begin="2" cat="np" end="36" id="4" rel="predc">
+        <node begin="2" end="3" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="DE"/>
+        <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="6" lemma="man" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="man" word="MAN"/>
+        <node begin="4" cat="rel" end="36" id="7" rel="mod">
+          <node begin="4" end="5" getal="getal" id="8" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="DIE"/>
+          <node begin="4" cat="ssub" end="36" id="9" rel="body">
+            <node begin="5" cat="np" end="7" id="10" index="2" rel="su">
+              <node begin="5" end="6" id="11" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="HET"/>
+              <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="12" lemma="Kremlin" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Kremlin" word="KREMLIN"/>
+            </node>
+            <node begin="7" end="8" id="13" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="HEEFT" wvorm="pv"/>
+            <node begin="4" cat="ppart" end="36" id="14" rel="vc">
+              <node begin="4" end="5" id="15" index="1" rel="obj1"/>
+              <node begin="5" end="7" id="16" index="2" rel="su"/>
+              <node begin="8" buiging="zonder" end="9" id="17" lemma="aan_wijzen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="wijs_aan" word="AANGEWEZEN" wvorm="vd"/>
+              <node begin="9" cat="oti" end="36" id="18" rel="mod">
+                <node begin="9" end="10" id="19" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="OM"/>
+                <node begin="10" cat="ti" end="36" id="20" rel="body">
+                  <node begin="19" end="20" id="21" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="TE"/>
+                  <node begin="10" cat="inf" end="36" id="22" rel="body">
+                    <node begin="10" cat="cp" end="18" id="23" rel="predm">
+                      <node begin="10" conjtype="onder" end="11" id="24" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="ALS"/>
+                      <node begin="11" cat="np" end="18" id="25" rel="body">
+                        <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="26" lemma="president" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="president" word="PRESIDENT"/>
+                        <node begin="12" cat="pp" end="18" id="27" rel="mod">
+                          <node begin="12" end="13" id="28" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="VAN"/>
+                          <node begin="13" cat="np" end="18" id="29" rel="obj1">
+                            <node begin="13" end="14" id="30" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="DE"/>
+                            <node begin="14" buiging="met-e" end="15" graad="basis" id="31" lemma="opstandig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="opstandig" word="OPSTANDIGE"/>
+                            <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="32" lemma="deel_republiek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="deel_republiek" word="DEELREPUBLIEK"/>
+                            <node begin="16" cat="pp" end="18" id="33" rel="mod">
+                              <node begin="16" end="17" id="34" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="VAN"/>
+                              <node begin="17" end="18" genus="onz" getal="ev" graad="basis" id="35" lemma="Rusland" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Rusland" word="RUSLAND"/>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node begin="18" end="19" genus="zijd" getal="ev" graad="basis" id="36" lemma="orde" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="orde" word="ORDE"/>
+                    <node begin="20" buiging="zonder" end="21" id="37" lemma="scheppen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="schep" word="SCHEPPEN" wvorm="inf"/>
+                    <node begin="21" cat="pp" end="36" id="38" rel="mod">
+                      <node begin="21" end="22" id="39" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="IN"/>
+                      <node begin="22" cat="np" end="36" id="40" rel="obj1">
+                        <node begin="22" end="23" id="41" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="DE"/>
+                        <node begin="23" end="24" genus="zijd" getal="ev" graad="basis" id="42" lemma="chaos" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="chaos" word="CHAOS"/>
+                        <node begin="24" cat="rel" end="36" id="43" rel="mod">
+                          <node begin="24" end="25" getal="getal" id="44" index="3" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="DIE"/>
+                          <node begin="24" cat="ssub" end="36" id="45" rel="body">
+                            <node begin="25" cat="np" end="34" id="46" index="4" rel="su">
+                              <node begin="25" end="26" id="47" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="DE"/>
+                              <node begin="26" cat="ppres" end="31" id="48" rel="mod">
+                                <node begin="26" end="27" id="49" lemma="nu" pos="adv" postag="BW()" pt="bw" rel="mod" root="nu" word="NU"/>
+                                <node begin="27" cat="np" end="30" id="50" rel="me">
+                                  <node begin="27" end="28" id="51" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mod" root="al" word="AL"/>
+                                  <node begin="28" end="29" id="52" lemma="vijf" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="vijf" word="VIJF"/>
+                                  <node begin="29" end="30" genus="onz" getal="ev" graad="basis" id="53" lemma="jaar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="jaar" word="JAAR"/>
+                                </node>
+                                <node begin="30" buiging="met-e" end="31" id="54" lemma="duren" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="hd" root="durend" word="DURENDE" wvorm="od"/>
+                              </node>
+                              <node begin="31" end="32" genus="zijd" getal="ev" graad="basis" id="55" lemma="oorlog" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="oorlog" word="OORLOG"/>
+                              <node begin="32" cat="pp" end="34" id="56" rel="mod">
+                                <node begin="32" end="33" id="57" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="IN"/>
+                                <node begin="33" end="34" genus="onz" getal="ev" graad="basis" id="58" lemma="Tsdjetsjenie" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Tsjetsjenie" word="TSDJETSJENIE"/>
+                              </node>
+                            </node>
+                            <node begin="34" end="35" id="59" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="HEEFT" wvorm="pv"/>
+                            <node begin="24" cat="ppart" end="36" id="60" rel="vc">
+                              <node begin="24" end="25" id="61" index="3" rel="obj1"/>
+                              <node begin="25" end="34" id="62" index="4" rel="su"/>
+                              <node begin="35" buiging="zonder" end="36" id="63" lemma="aan_richten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="richt_aan" word="AANGERICHT" wvorm="vd"/>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="36" end="37" id="64" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>HIJ IS DE MAN DIE HET KREMLIN HEEFT AANGEWEZEN OM ALS PRESIDENT VAN DE OPSTANDIGE DEELREPUBLIEK VAN RUSLAND ORDE TE SCHEPPEN IN DE CHAOS DIE DE NU AL VIJF JAAR DURENDE OORLOG IN TSDJETSJENIE HEEFT AANGERICHT .</sentence>
+</alpino_ds>

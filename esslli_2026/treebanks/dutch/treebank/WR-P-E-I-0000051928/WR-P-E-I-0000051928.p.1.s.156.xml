@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="13" id="2" rel="--">
+      <node begin="0" cat="smain" end="6" id="3" rel="cnj">
+        <node begin="0" end="1" genus="onz" getal="ev" graad="basis" id="4" index="1" lemma="Groot-Brittannië" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" root="Groot-Brittannië" word="Groot-Brittannië"/>
+        <node begin="1" end="2" id="5" lemma="hebben" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="heb" word="had" wvorm="pv"/>
+        <node begin="0" cat="inf" end="6" id="6" rel="vc">
+          <node begin="0" end="1" id="7" index="1" rel="su"/>
+          <node begin="4" buiging="zonder" end="5" id="8" lemma="kunnen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="kan" word="kunnen" wvorm="inf"/>
+          <node begin="0" cat="inf" end="6" id="9" rel="vc">
+            <node begin="0" end="1" id="10" index="1" rel="su"/>
+            <node begin="2" cat="np" end="4" id="11" rel="obj1">
+              <node begin="2" end="3" id="12" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="13" lemma="Suezkanaal" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Suez_kanaal" word="Suezkanaal"/>
+            </node>
+            <node begin="5" buiging="zonder" end="6" id="14" lemma="af_sluiten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="sluit_af" word="afsluiten" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+      <node begin="7" conjtype="neven" end="8" id="15" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+      <node begin="0" cat="smain" end="13" id="16" rel="cnj">
+        <node begin="0" end="1" id="17" index="1" rel="su"/>
+        <node begin="8" end="9" id="18" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+        <node begin="9" cat="ap" end="13" id="19" rel="predc">
+          <node begin="9" buiging="zonder" end="10" graad="basis" id="20" lemma="bang" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="bang" word="bang"/>
+          <node begin="10" cat="pp" end="13" id="21" rel="pc">
+            <node begin="10" end="11" id="22" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+            <node begin="11" cat="np" end="13" id="23" rel="obj1">
+              <node begin="11" end="12" id="24" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="25" lemma="oorlog" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="oorlog" word="oorlog"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="26" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Groot-Brittannië had het Suezkanaal kunnen afsluiten , maar was bang voor een oorlog .</sentence>
+</alpino_ds>

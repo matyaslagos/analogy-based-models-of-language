@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="42" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="7" end="8" id="2" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="10" end="11" id="3" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="12" end="13" id="4" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="18" end="19" id="5" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="34" end="35" id="6" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="36" end="37" id="7" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="41" id="8" rel="--">
+      <node begin="0" cat="np" end="3" id="9" rel="cnj">
+        <node begin="0" buiging="zonder" end="1" id="10" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="Geen"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="11" lemma="fabel_wezen" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="fabel_wezen" word="fabelwezens"/>
+        <node begin="2" buiging="zonder" end="3" graad="comp" id="12" lemma="veel" naamval="stan" pdtype="grad" pos="adv" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mod" root="meer" vwtype="onbep" word="meer"/>
+      </node>
+      <node begin="4" conjtype="neven" end="5" id="13" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+      <node begin="5" cat="np" end="10" id="14" rel="cnj">
+        <node begin="5" buiging="met-e" end="6" graad="basis" id="15" lemma="simpel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="simpel" word="simpele"/>
+        <node begin="6" end="7" getal="mv" graad="basis" id="16" lemma="aanduiding" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="aanduiding" word="aanduidingen"/>
+        <node begin="8" cat="mwu" end="10" id="17" rel="app">
+          <node begin="8" end="9" id="18" lemma="Terra" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Terra" spectype="vreemd" word="Terra"/>
+          <node begin="9" end="10" id="19" lemma="Incognita" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Incognita" spectype="vreemd" word="Incognita"/>
+        </node>
+      </node>
+      <node begin="11" conjtype="neven" end="12" id="20" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+      <node begin="13" cat="np" end="41" id="21" rel="cnj">
+        <node begin="13" cat="ap" end="18" id="22" rel="mod">
+          <node begin="13" cat="mwu" end="16" id="23" rel="hd">
+            <node begin="13" end="14" id="24" lemma="voor" pos="adj" postag="VZ(init)" pt="vz" rel="mwp" root="voor" vztype="init" word="voor"/>
+            <node begin="14" end="15" id="25" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="adj" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" word="het"/>
+            <node begin="15" end="16" getal-n="zonder-n" id="26" lemma="één" numtype="rang" pos="adj" positie="nom" postag="TW(rang,nom,zonder-n)" pt="tw" rel="mwp" root="eerst" word="eerst"/>
+          </node>
+          <node begin="16" cat="pp" end="18" id="27" rel="mod">
+            <node begin="16" end="17" id="28" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+            <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="29" lemma="Mercator" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" root="Mercator" word="Mercator"/>
+          </node>
+        </node>
+        <node begin="19" end="20" id="30" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="20" buiging="met-e" end="21" graad="basis" id="31" lemma="correct" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="correct" word="correcte"/>
+        <node begin="21" end="22" genus="zijd" getal="ev" graad="basis" id="32" lemma="weergave" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="weergave" word="weergave"/>
+        <node begin="22" cat="pp" end="26" id="33" rel="mod">
+          <node begin="22" end="23" id="34" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="23" cat="conj" end="26" id="35" rel="obj1">
+            <node begin="23" end="24" id="36" lemma="Noord-" pos="name" postag="SPEC(afgebr)" pt="spec" rel="cnj" root="Noord-" spectype="afgebr" word="Noord-"/>
+            <node begin="24" conjtype="neven" end="25" id="37" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="25" end="26" genus="onz" getal="ev" graad="basis" id="38" lemma="Zuid-Amerika" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Zuid-Amerika" word="Zuid-Amerika"/>
+          </node>
+        </node>
+        <node begin="26" cat="pp" end="41" id="39" rel="mod">
+          <node begin="26" end="27" id="40" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+          <node begin="27" cat="conj" end="41" id="41" rel="obj1">
+            <node begin="27" cat="np" end="31" id="42" rel="cnj">
+              <node begin="27" end="28" id="43" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="28" end="29" genus="zijd" getal="ev" graad="basis" id="44" lemma="land_engte" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="landengte" word="landengte"/>
+              <node begin="29" cat="pp" end="31" id="45" rel="mod">
+                <node begin="29" end="30" id="46" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                <node begin="30" end="31" genus="onz" getal="ev" graad="basis" id="47" lemma="Panama" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Panama" word="Panama"/>
+              </node>
+            </node>
+            <node begin="31" conjtype="neven" end="32" id="48" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="32" cat="np" end="41" id="49" rel="cnj">
+              <node begin="32" end="33" id="50" lemma="één" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="één" word="één"/>
+              <node begin="33" end="34" genus="zijd" getal="ev" graad="basis" id="51" lemma="naam" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="naam" word="naam"/>
+              <node begin="35" end="36" genus="onz" getal="ev" graad="basis" id="52" lemma="America" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="app" root="America" word="America"/>
+              <node begin="37" cat="pp" end="41" id="53" rel="mod">
+                <node begin="37" end="38" id="54" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+                <node begin="38" cat="np" end="41" id="55" rel="obj1">
+                  <node begin="38" end="39" id="56" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                  <node begin="39" buiging="met-e" end="40" graad="basis" id="57" lemma="heel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="heel" word="hele"/>
+                  <node begin="40" end="41" genus="onz" getal="ev" graad="basis" id="58" lemma="continent" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="continent" word="continent"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="41" end="42" id="59" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Geen fabelwezens meer , maar simpele aanduidingen &apos; Terra Incognita &apos; of - voor het eerst bij Mercator - de correcte weergave van Noord- en Zuid-Amerika met de landengte in Panama en één naam : America , voor het hele continent .</sentence>
+</alpino_ds>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="50" id="0" rel="top">
+    <node begin="15" end="16" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="26" end="27" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="33" end="34" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="37" end="38" id="4" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="41" end="42" id="5" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="42" end="43" id="6" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="49" id="7" rel="--">
+      <node begin="0" cat="smain" end="7" id="8" rel="cnj">
+        <node begin="0" cat="np" end="5" id="9" index="1" rel="su">
+          <node begin="0" end="1" id="10" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+          <node begin="1" buiging="met-e" end="2" graad="basis" id="11" lemma="politiek" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="politiek" word="politieke"/>
+          <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="12" lemma="landschap" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="landschap" word="landschap"/>
+          <node begin="3" cat="pp" end="5" id="13" rel="mod">
+            <node begin="3" end="4" id="14" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="15" lemma="Italië" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Italië" word="Italië"/>
+          </node>
+        </node>
+        <node begin="5" end="6" id="16" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="6" buiging="zonder" end="7" id="17" lemma="fragmentariseren" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="predc" root="gefragmentariseerd" word="gefragmentariseerd" wvorm="vd"/>
+      </node>
+      <node begin="7" conjtype="neven" end="8" id="18" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="0" cat="smain" end="49" id="19" rel="cnj">
+        <node begin="0" end="5" id="20" index="1" rel="su"/>
+        <node begin="8" end="9" id="21" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+        <node begin="0" cat="ppart" end="49" id="22" rel="vc">
+          <node begin="0" end="5" id="23" index="1" rel="obj1"/>
+          <node begin="9" end="10" id="24" lemma="thans" pos="adv" postag="BW()" pt="bw" rel="mod" root="thans" word="thans"/>
+          <node begin="10" buiging="zonder" end="11" id="25" lemma="beheersen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="beheers" word="beheerst" wvorm="vd"/>
+          <node begin="11" cat="pp" end="49" id="26" rel="mod">
+            <node begin="11" end="12" id="27" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+            <node begin="12" cat="np" end="49" id="28" rel="obj1">
+              <node begin="12" end="13" id="29" lemma="twee" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="twee" word="twee"/>
+              <node begin="13" buiging="met-e" end="14" graad="basis" id="30" lemma="groot" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="groot" word="grote"/>
+              <node begin="14" end="15" getal="mv" graad="basis" id="31" lemma="coalitie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="coalitie" word="coalities"/>
+              <node begin="16" cat="conj" end="49" id="32" rel="app">
+                <node begin="16" cat="np" end="33" id="33" rel="cnj">
+                  <node begin="16" end="17" id="34" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                  <node begin="17" buiging="met-e" end="18" graad="basis" id="35" lemma="centrum_links" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="centrum_linkse" word="centrumlinkse"/>
+                  <node begin="18" end="19" genus="zijd" getal="ev" graad="basis" id="36" lemma="coalitie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="coalitie" word="coalitie"/>
+                  <node begin="19" cat="pp" end="33" id="37" rel="mod">
+                    <node begin="19" end="20" id="38" lemma="onder" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="onder" vztype="init" word="onder"/>
+                    <node begin="20" cat="np" end="33" id="39" rel="obj1">
+                      <node begin="20" cat="mwu" end="22" id="40" rel="mod">
+                        <node begin="20" end="21" id="41" lemma="de" pos="adj" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="de" spectype="vreemd" word="de"/>
+                        <node begin="21" end="22" id="42" lemma="facto" pos="adj" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="facto" spectype="vreemd" word="facto"/>
+                      </node>
+                      <node begin="22" end="23" genus="zijd" getal="ev" graad="basis" id="43" lemma="leiding" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="leiding" word="leiding"/>
+                      <node begin="23" cat="pp" end="33" id="44" rel="mod">
+                        <node begin="23" end="24" id="45" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                        <node begin="24" cat="np" end="33" id="46" rel="obj1">
+                          <node begin="24" cat="mwu" end="26" id="47" rel="hd">
+                            <node begin="24" end="25" id="48" lemma="Romano" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Romano" spectype="deeleigen" word="Romano"/>
+                            <node begin="25" end="26" id="49" lemma="Prodi" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Prodi" spectype="deeleigen" word="Prodi"/>
+                          </node>
+                          <node begin="27" cat="np" end="33" id="50" rel="app">
+                            <node begin="27" buiging="zonder" end="28" graad="basis" id="51" lemma="voormalig" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="voormalig" word="voormalig"/>
+                            <node begin="28" end="29" genus="zijd" getal="ev" graad="basis" id="52" lemma="voorzitter" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="voorzitter" word="voorzitter"/>
+                            <node begin="29" cat="pp" end="33" id="53" rel="mod">
+                              <node begin="29" end="30" id="54" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                              <node begin="30" cat="np" end="33" id="55" rel="obj1">
+                                <node begin="30" end="31" id="56" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                                <node begin="31" cat="mwu" end="33" id="57" rel="hd">
+                                  <node begin="31" end="32" id="58" lemma="Europese" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Europese" spectype="deeleigen" word="Europese"/>
+                                  <node begin="32" end="33" id="59" lemma="Commissie" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Commissie" spectype="deeleigen" word="Commissie"/>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node begin="34" conjtype="neven" end="35" id="60" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                <node begin="35" cat="np" end="49" id="61" rel="cnj">
+                  <node begin="35" end="36" id="62" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                  <node begin="36" buiging="met-e" end="37" graad="basis" id="63" lemma="centrum_rechts" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="centrum_rechts" word="centrumrechtse"/>
+                  <node begin="38" cat="mwu" end="41" id="64" rel="hd">
+                    <node begin="38" end="39" id="65" lemma="Casa" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Casa" spectype="deeleigen" word="Casa"/>
+                    <node begin="39" end="40" id="66" lemma="della" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="della" spectype="deeleigen" word="della"/>
+                    <node begin="40" end="41" id="67" lemma="Libertà" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Libertà" spectype="deeleigen" word="Libertà"/>
+                  </node>
+                  <node begin="43" cat="rel" end="49" id="68" rel="mod">
+                    <node begin="43" end="44" getal="ev" id="69" index="2" lemma="dat" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(betr,pron,stan,vol,3,ev)" pt="vnw" rel="rhd" root="dat" status="vol" vwtype="betr" word="dat"/>
+                    <node begin="43" cat="ssub" end="49" id="70" rel="body">
+                      <node begin="43" end="44" id="71" index="2" rel="su"/>
+                      <node begin="44" end="45" id="72" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+                      <node begin="43" cat="ppart" end="49" id="73" rel="vc">
+                        <node begin="43" end="44" id="74" index="2" rel="obj1"/>
+                        <node begin="45" buiging="zonder" end="46" id="75" lemma="leiden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="geleid" word="geleid" wvorm="vd"/>
+                        <node begin="46" cat="pp" end="49" id="76" rel="mod">
+                          <node begin="46" end="47" id="77" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+                          <node begin="47" cat="mwu" end="49" id="78" rel="obj1">
+                            <node begin="47" end="48" id="79" lemma="Silvio" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Silvio" spectype="deeleigen" word="Silvio"/>
+                            <node begin="48" end="49" id="80" lemma="Berlusconi" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Berlusconi" spectype="deeleigen" word="Berlusconi"/>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="49" end="50" id="81" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het politieke landschap in Italië is gefragmentariseerd en wordt thans beheerst door twee grote coalities : een centrumlinkse coalitie onder de facto leiding van Romano Prodi , voormalig voorzitter van de Europese Commissie , en het centrumrechtse &apos; Casa della Libertà &apos; , dat wordt geleid door Silvio Berlusconi .</sentence>
+</alpino_ds>

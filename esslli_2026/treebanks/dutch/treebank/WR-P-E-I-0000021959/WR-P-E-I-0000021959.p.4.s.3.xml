@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="10" end="11" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="19" id="2" rel="--">
+      <node begin="0" cat="smain" end="10" id="3" rel="nucl">
+        <node begin="0" cat="pp" end="3" id="4" rel="mod">
+          <node begin="0" end="1" id="5" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" vztype="init" word="Na"/>
+          <node begin="1" cat="np" end="3" id="6" rel="obj1">
+            <node begin="1" buiging="met-e" end="2" id="7" lemma="enkel" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="enkel" vwtype="onbep" word="enkele"/>
+            <node begin="2" end="3" getal="mv" graad="basis" id="8" lemma="jaar" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="jaar" word="jaren"/>
+          </node>
+        </node>
+        <node begin="3" end="4" id="9" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+        <node begin="4" cat="np" end="7" id="10" rel="su">
+          <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="11" lemma="professor" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="professor" word="professor"/>
+          <node begin="5" cat="mwu" end="7" id="12" rel="app">
+            <node begin="5" end="6" id="13" lemma="Jean-Baptiste" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Jean-Baptiste" spectype="deeleigen" word="Jean-Baptiste"/>
+            <node begin="6" end="7" id="14" lemma="David" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="David" spectype="deeleigen" word="David"/>
+          </node>
+        </node>
+        <node begin="7" cat="np" end="10" id="15" rel="predc">
+          <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="16" lemma="voorzitter" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="voorzitter" word="voorzitter"/>
+          <node begin="7" cat="pp" end="10" id="17" rel="mod">
+            <node begin="7" end="8" getal="getal" id="18" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="noun" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="obj1" root="er" status="red" vwtype="aanw" word="er"/>
+            <node begin="9" end="10" id="19" lemma="van" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="van" vztype="fin" word="van"/>
+          </node>
+        </node>
+      </node>
+      <node begin="11" cat="du" end="19" id="20" rel="sat">
+        <node begin="11" cat="pp" end="16" id="21" rel="dp">
+          <node begin="11" end="12" id="22" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" vztype="init" word="na"/>
+          <node begin="12" cat="np" end="16" id="23" rel="obj1">
+            <node begin="12" end="13" getal="ev" id="24" lemma="die" naamval="gen" pdtype="pron" persoon="3m" pos="det" postag="VNW(aanw,pron,gen,vol,3m,ev)" pt="vnw" rel="det" root="diens" status="vol" vwtype="aanw" word="diens"/>
+            <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="25" lemma="dood" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="dood" word="dood"/>
+            <node begin="14" cat="pp" end="16" id="26" rel="mod">
+              <node begin="14" end="15" id="27" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+              <node begin="15" end="16" id="28" lemma="1865" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" root="1865" word="1865"/>
+            </node>
+          </node>
+        </node>
+        <node begin="16" cat="np" end="19" id="29" rel="dp">
+          <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="30" lemma="professor" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="professor" word="professor"/>
+          <node begin="17" cat="mwu" end="19" id="31" rel="app">
+            <node begin="17" end="18" id="32" lemma="P." pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="P." spectype="deeleigen" word="P."/>
+            <node begin="18" end="19" id="33" lemma="Willems" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Willems" spectype="deeleigen" word="Willems"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="34" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Na enkele jaren werd professor Jean-Baptiste David er voorzitter van , na diens dood in 1865 professor P. Willems .</sentence>
+</alpino_ds>

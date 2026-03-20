@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="25" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="7" end="8" id="2" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="11" end="12" id="3" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="0" cat="du" end="24" id="4" rel="--">
+      <node begin="0" end="1" getal="mv" graad="basis" id="5" lemma="doelstelling" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="tag" root="doelstelling" word="Doelstellingen"/>
+      <node begin="2" cat="inf" end="24" id="6" rel="nucl">
+        <node begin="2" cat="np" end="15" id="7" rel="obj1">
+          <node begin="2" end="3" id="8" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+          <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="9" lemma="impact" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="impact" word="impact"/>
+          <node begin="4" cat="pp" end="15" id="10" rel="mod">
+            <node begin="4" end="5" id="11" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="5" cat="np" end="15" id="12" rel="obj1">
+              <node begin="5" buiging="met-e" end="6" graad="basis" id="13" lemma="pre_operatief" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="preoperatieve" word="preoperatieve"/>
+              <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="14" lemma="MRI" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="MRI" word="MRI"/>
+              <node begin="8" cat="np" end="11" id="15" rel="mod">
+                <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="16" lemma="beeldvorming" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="beeldvorming" word="beeldvorming"/>
+                <node begin="9" cat="pp" end="11" id="17" rel="mod">
+                  <node begin="9" end="10" id="18" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+                  <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="19" lemma="kernspintomografie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="kernspintomografie" word="kernspintomografie"/>
+                </node>
+              </node>
+              <node begin="12" cat="pp" end="15" id="20" rel="mod">
+                <node begin="12" end="13" id="21" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="13" cat="np" end="15" id="22" rel="obj1">
+                  <node begin="13" end="14" id="23" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="14" end="15" getal="mv" graad="basis" id="24" lemma="borst" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="borst" word="borsten"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="15" buiging="zonder" end="16" id="25" lemma="evalueren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="evalueer" word="evalueren" wvorm="inf"/>
+        <node begin="16" cat="pp" end="24" id="26" rel="mod">
+          <node begin="16" end="17" id="27" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+          <node begin="17" cat="np" end="24" id="28" rel="obj1">
+            <node begin="17" end="18" id="29" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="18" buiging="met-e" end="19" graad="basis" id="30" lemma="chirurgisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="chirurgisch" word="chirurgische"/>
+            <node begin="19" end="20" genus="zijd" getal="ev" graad="basis" id="31" lemma="aanpak" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="aanpak" word="aanpak"/>
+            <node begin="20" cat="pp" end="24" id="32" rel="mod">
+              <node begin="20" end="21" id="33" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="21" cat="np" end="24" id="34" rel="obj1">
+                <node begin="21" end="22" getal="mv" graad="basis" id="35" lemma="vrouw" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vrouw" word="vrouwen"/>
+                <node begin="22" cat="pp" end="24" id="36" rel="mod">
+                  <node begin="22" end="23" id="37" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+                  <node begin="23" end="24" genus="zijd" getal="ev" graad="basis" id="38" lemma="borst_kanker" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="borst_kanker" word="borstkanker"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="24" end="25" id="39" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Doelstellingen : De impact van preoperatieve MRI ( beeldvorming door kernspintomografie ) van de borsten evalueren op de chirurgische aanpak van vrouwen met borstkanker .</sentence>
+</alpino_ds>

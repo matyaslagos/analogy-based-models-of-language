@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" index="1" rel="su">
+        <node begin="0" buiging="met-e" end="1" id="3" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="Deze"/>
+        <node begin="1" buiging="met-e" end="2" graad="basis" id="4" lemma="feitelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="feitelijk" word="feitelijke"/>
+        <node begin="2" end="3" getal="mv" graad="basis" id="5" lemma="uitgave" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="uitgave" word="uitgaven"/>
+      </node>
+      <node begin="3" end="4" id="6" lemma="kunnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kan" word="kunnen" wvorm="pv"/>
+      <node begin="0" cat="inf" end="6" id="7" rel="vc">
+        <node begin="0" end="3" id="8" index="1" rel="su"/>
+        <node begin="4" buiging="zonder" end="5" id="9" lemma="bestaan" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="besta" word="bestaan" wvorm="inf"/>
+        <node begin="5" end="6" id="10" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="pc" root="uit" vztype="init" word="uit"/>
+      </node>
+    </node>
+    <node begin="6" end="7" id="11" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+  </node>
+  <sentence>Deze feitelijke uitgaven kunnen bestaan uit :</sentence>
+</alpino_ds>

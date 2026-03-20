@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="8" end="9" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="12" id="3" rel="--">
+      <node begin="0" cat="np" end="5" id="4" rel="su">
+        <node begin="0" cat="mwu" end="3" id="5" rel="hd">
+          <node begin="0" end="1" id="6" lemma="Min" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Min" spectype="deeleigen" word="Min"/>
+          <node begin="1" end="2" id="7" lemma="de" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="de" spectype="deeleigen" word="de"/>
+          <node begin="2" end="3" id="8" lemma="Zille" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Zille" spectype="deeleigen" word="Zille"/>
+        </node>
+        <node begin="3" cat="pp" end="5" id="9" rel="mod">
+          <node begin="3" end="4" id="10" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" vztype="init" word="uit"/>
+          <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="11" lemma="België" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="België" word="België"/>
+        </node>
+      </node>
+      <node begin="5" end="6" id="12" lemma="neer_zetten" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="zet_neer" word="zette" wvorm="pv"/>
+      <node begin="7" buiging="zonder" end="8" id="13" lemma="om_keren" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="mod" root="omgekeerd" word="omgekeerd" wvorm="vd"/>
+      <node begin="9" cat="np" end="11" id="14" rel="obj1">
+        <node begin="9" buiging="zonder" end="10" graad="basis" id="15" lemma="dezelfde" pos="det" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="det" root="dezelfde" word="dezelfde"/>
+        <node begin="10" end="11" getal="mv" graad="basis" id="16" lemma="prestatie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="prestatie" word="prestaties"/>
+      </node>
+      <node begin="11" end="12" id="17" lemma="neer" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="neer" vztype="fin" word="neer"/>
+    </node>
+    <node begin="12" end="13" id="18" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Min de Zille uit België zette , omgekeerd , dezelfde prestaties neer .</sentence>
+</alpino_ds>

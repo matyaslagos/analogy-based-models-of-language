@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="33" id="0" rel="top">
+    <node begin="12" end="13" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="19" end="20" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="23" end="24" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="32" id="4" rel="--">
+      <node begin="0" cat="smain" end="19" id="5" rel="cnj">
+        <node begin="0" cat="np" end="3" id="6" index="1" rel="su">
+          <node begin="0" buiging="zonder" end="1" id="7" lemma="die" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,rest)" pt="vnw" rel="det" root="die" vwtype="aanw" word="Die"/>
+          <node begin="1" buiging="met-e" end="2" graad="basis" id="8" lemma="Europees" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Europees" word="Europese"/>
+          <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="9" lemma="beweging" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="Beweging" word="Beweging"/>
+        </node>
+        <node begin="3" end="4" id="10" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+        <node begin="0" cat="conj" end="19" id="11" rel="vc">
+          <node begin="0" cat="ppart" end="12" id="12" rel="cnj">
+            <node begin="0" end="3" id="13" index="1" rel="obj1"/>
+            <node begin="4" buiging="zonder" end="5" graad="basis" id="14" lemma="aanvankelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="aanvankelijk" word="aanvankelijk"/>
+            <node begin="5" buiging="zonder" end="6" id="15" index="2" lemma="aan_voeren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="aangevoerd" word="aangevoerd" wvorm="vd"/>
+            <node begin="6" cat="pp" end="12" id="16" rel="mod">
+              <node begin="6" end="7" id="17" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+              <node begin="7" cat="np" end="12" id="18" rel="obj1">
+                <node begin="7" end="8" id="19" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="8" buiging="met-e" end="9" graad="basis" id="20" lemma="Brits" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Brits" word="Britse"/>
+                <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="21" lemma="conservatief" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="conservatief" word="conservatief"/>
+                <node begin="10" cat="mwu" end="12" id="22" rel="app">
+                  <node begin="10" end="11" id="23" lemma="Duncan" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Duncan" spectype="deeleigen" word="Duncan"/>
+                  <node begin="11" end="12" id="24" lemma="Sandys" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Sandys" spectype="deeleigen" word="Sandys"/>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="0" cat="ppart" end="19" id="25" rel="cnj">
+            <node begin="0" end="3" id="26" index="1" rel="obj1"/>
+            <node begin="5" end="6" id="27" index="2" rel="hd"/>
+            <node begin="13" buiging="zonder" end="14" graad="comp" id="28" lemma="laat" pos="adv" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="laat" word="later"/>
+            <node begin="14" cat="pp" end="19" id="29" rel="mod">
+              <node begin="14" end="15" id="30" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+              <node begin="15" cat="np" end="19" id="31" rel="obj1">
+                <node begin="15" end="16" id="32" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="33" lemma="Belg" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Belg" word="Belg"/>
+                <node begin="17" cat="mwu" end="19" id="34" rel="app">
+                  <node begin="17" end="18" id="35" lemma="Paul-Henri" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Paul-Henri" spectype="deeleigen" word="Paul-Henri"/>
+                  <node begin="18" end="19" id="36" lemma="Spaak" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Spaak" spectype="deeleigen" word="Spaak"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="20" conjtype="neven" end="21" id="37" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="0" cat="sv1" end="32" id="38" rel="cnj">
+        <node begin="0" end="3" id="39" index="1" rel="su"/>
+        <node begin="21" end="22" id="40" lemma="hebben" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="heb" word="had" wvorm="pv"/>
+        <node begin="22" cat="conj" end="30" id="41" rel="obj1">
+          <node begin="22" end="23" genus="zijd" getal="ev" graad="basis" id="42" lemma="Churchill" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Churchill" word="Churchill"/>
+          <node begin="24" cat="mwu" end="26" id="43" rel="cnj">
+            <node begin="24" end="25" id="44" lemma="Konrad" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Konrad" spectype="deeleigen" word="Konrad"/>
+            <node begin="25" end="26" id="45" lemma="Adenauer" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Adenauer" spectype="deeleigen" word="Adenauer"/>
+          </node>
+          <node begin="26" conjtype="neven" end="27" id="46" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="27" cat="mwu" end="30" id="47" rel="cnj">
+            <node begin="27" end="28" id="48" lemma="Alcide" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Alcide" spectype="deeleigen" word="Alcide"/>
+            <node begin="28" end="29" id="49" lemma="de" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="de" spectype="deeleigen" word="de"/>
+            <node begin="29" end="30" id="50" lemma="Gasperi" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Gasperi" spectype="deeleigen" word="Gasperi"/>
+          </node>
+        </node>
+        <node begin="30" cat="cp" end="32" id="51" rel="predm">
+          <node begin="30" conjtype="onder" end="31" id="52" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+          <node begin="31" end="32" getal="mv" graad="basis" id="53" lemma="gangmaker" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="body" root="gangmaker" word="gangmakers"/>
+        </node>
+      </node>
+    </node>
+    <node begin="32" end="33" id="54" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Die Europese Beweging werd aanvankelijk aangevoerd door de Britse conservatief Duncan Sandys , later door de Belg Paul-Henri Spaak , en had Churchill , Konrad Adenauer en Alcide de Gasperi als gangmakers .</sentence>
+</alpino_ds>

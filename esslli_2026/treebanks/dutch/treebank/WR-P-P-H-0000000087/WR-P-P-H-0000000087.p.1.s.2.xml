@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="13" end="14" id="2" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="15" end="16" id="3" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="0" cat="smain" end="19" id="4" rel="--">
+      <node begin="6" end="7" id="5" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="heeft" wvorm="pv"/>
+      <node begin="7" cat="np" end="12" id="6" index="1" rel="su">
+        <node begin="7" end="8" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="8" buiging="met-e" end="9" graad="basis" id="8" lemma="Amerikaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Amerikaans" word="Amerikaanse"/>
+        <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="9" lemma="vice_president" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="vice-president" word="vice-president"/>
+        <node begin="10" cat="mwu" end="12" id="10" rel="app">
+          <node begin="10" end="11" id="11" lemma="Dick" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Dick" spectype="deeleigen" word="Dick"/>
+          <node begin="11" end="12" id="12" lemma="Cheney" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Cheney" spectype="deeleigen" word="Cheney"/>
+        </node>
+      </node>
+      <node begin="0" cat="ppart" end="19" id="13" rel="vc">
+        <node begin="0" cat="cp" end="5" id="14" rel="mod">
+          <node begin="0" conjtype="onder" end="1" id="15" lemma="alsof" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="alsof" word="Alsof"/>
+          <node begin="1" cat="ssub" end="5" id="16" rel="body">
+            <node begin="1" end="2" genus="onz" getal="ev" id="17" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" root="het" status="red" vwtype="pers" word="het"/>
+            <node begin="2" cat="np" end="4" id="18" rel="obj1">
+              <node begin="2" end="3" id="19" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="3" end="4" genus="onz" getal="ev" graad="dim" id="20" lemma="weekend_uitje" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,dim,onz,stan)" pt="n" rel="hd" root="uitje" word="weekend-uitje"/>
+            </node>
+            <node begin="4" end="5" id="21" lemma="betreffen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="betref" word="betrof" wvorm="pv"/>
+          </node>
+        </node>
+        <node begin="7" end="12" id="22" index="1" rel="su"/>
+        <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="23" lemma="zaterdag" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" root="zaterdag" word="zaterdag"/>
+        <node begin="14" end="15" id="24" lemma="even" pos="adj" postag="BW()" pt="bw" rel="mod" root="even" word="even"/>
+        <node begin="16" cat="np" end="18" id="25" rel="obj1">
+          <node begin="16" end="17" id="26" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="27" lemma="operatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="operatie" word="operatie"/>
+        </node>
+        <node begin="18" buiging="zonder" end="19" id="28" lemma="ondergaan" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="onderga" word="ondergaan" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="19" end="20" id="29" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Alsof het een weekend-uitje betrof , heeft de Amerikaanse vice-president Dick Cheney zaterdag &apos; even &apos; een operatie ondergaan .</sentence>
+</alpino_ds>

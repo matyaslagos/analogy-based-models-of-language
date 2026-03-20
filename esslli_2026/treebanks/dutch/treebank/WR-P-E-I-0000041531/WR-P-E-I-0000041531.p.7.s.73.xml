@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="37" id="0" rel="top">
+    <node begin="11" end="12" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="16" end="17" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="22" end="23" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="27" end="28" id="4" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="0" cat="du" end="35" id="5" rel="--">
+      <node begin="0" cat="smain" end="11" id="6" rel="nucl">
+        <node begin="0" cat="np" end="2" id="7" rel="su">
+          <node begin="0" end="1" id="8" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+          <node begin="1" end="2" getal="mv" graad="basis" id="9" lemma="reactionair" ntype="soort" pos="adj" postag="N(soort,mv,basis)" pt="n" rel="hd" root="reactionair" word="reactionairen"/>
+        </node>
+        <node begin="2" end="3" id="10" lemma="zijn" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="ben" word="waren" wvorm="pv"/>
+        <node begin="3" cat="np" end="11" id="11" rel="predc">
+          <node begin="3" buiging="zonder" end="4" id="12" lemma="die" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,rest)" pt="vnw" rel="det" root="die" vwtype="aanw" word="die"/>
+          <node begin="4" end="5" getal="mv" graad="basis" id="13" lemma="groepering" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="groepering" word="groeperingen"/>
+          <node begin="5" cat="rel" end="11" id="14" rel="mod">
+            <node begin="5" end="6" getal="getal" id="15" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+            <node begin="5" cat="ssub" end="11" id="16" rel="body">
+              <node begin="5" end="6" id="17" index="1" rel="su"/>
+              <node begin="6" end="7" id="18" lemma="pogen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="poog" word="poogden" wvorm="pv"/>
+              <node begin="5" cat="inf" end="11" id="19" rel="vc">
+                <node begin="5" end="6" id="20" index="1" rel="su"/>
+                <node begin="7" cat="np" end="10" id="21" rel="obj1">
+                  <node begin="7" end="8" id="22" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                  <node begin="8" cat="mwu" end="10" id="23" rel="hd">
+                    <node begin="8" end="9" id="24" lemma="ancien" pos="noun" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="ancien" spectype="vreemd" word="ancien"/>
+                    <node begin="9" end="10" id="25" lemma="régimete" pos="noun" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="régimete" spectype="vreemd" word="régimete"/>
+                  </node>
+                </node>
+                <node begin="10" buiging="zonder" end="11" id="26" lemma="herstellen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="herstel" word="herstellen" wvorm="inf"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="12" cat="np" end="35" id="27" rel="sat">
+        <node begin="12" end="13" getal="mv" graad="basis" id="28" lemma="deel" ntype="soort" pos="verb" postag="N(soort,mv,basis)" pt="n" rel="hd" root="deel" word="delen"/>
+        <node begin="13" cat="pp" end="22" id="29" rel="mod">
+          <node begin="13" end="14" id="30" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="14" cat="conj" end="22" id="31" rel="obj1">
+            <node begin="14" cat="np" end="16" id="32" rel="cnj">
+              <node begin="14" end="15" id="33" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="34" lemma="aristocratie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="aristocratie" word="aristocratie"/>
+            </node>
+            <node begin="17" cat="np" end="19" id="35" rel="cnj">
+              <node begin="17" end="18" id="36" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="18" end="19" getal="mv" graad="basis" id="37" lemma="rooms-katholiek" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="rooms-katholiek" word="Rooms-katholieken"/>
+            </node>
+            <node begin="19" conjtype="neven" end="20" id="38" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="20" cat="np" end="22" id="39" rel="cnj">
+              <node begin="20" end="21" id="40" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="21" end="22" getal="mv" graad="basis" id="41" lemma="royalist" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="royalisten" word="royalisten"/>
+            </node>
+          </node>
+        </node>
+        <node begin="23" cat="ppart" end="35" id="42" rel="mod">
+          <node begin="23" buiging="zonder" end="24" graad="basis" id="43" lemma="vaak" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="vaak" word="vaak"/>
+          <node begin="24" buiging="zonder" end="25" id="44" lemma="samen_stellen" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="samengesteld" word="samengesteld" wvorm="vd"/>
+          <node begin="25" cat="pp" end="35" id="45" rel="mod">
+            <node begin="25" end="26" id="46" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="26" cat="np" end="35" id="47" rel="obj1">
+              <node begin="26" end="27" id="48" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="28" cat="mwu" end="35" id="49" rel="hd">
+                <node begin="28" end="29" id="50" lemma="Verbond" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Verbond" spectype="deeleigen" word="Verbond"/>
+                <node begin="29" end="30" id="51" lemma="van" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="van" spectype="deeleigen" word="van"/>
+                <node begin="30" end="31" id="52" lemma="de" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="de" spectype="deeleigen" word="de"/>
+                <node begin="31" end="32" id="53" lemma="Troon" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Troon" spectype="deeleigen" word="Troon"/>
+                <node begin="32" end="33" id="54" lemma="en" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="en" spectype="deeleigen" word="en"/>
+                <node begin="33" end="34" id="55" lemma="het" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="het" spectype="deeleigen" word="het"/>
+                <node begin="34" end="35" id="56" lemma="Altaar" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Altaar" spectype="deeleigen" word="Altaar"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="35" end="36" id="57" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="36" end="37" id="58" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De reactionairen waren die groeperingen die poogden het ancien régimete herstellen : delen van de aristocratie , de Rooms-katholieken en de royalisten , vaak samengesteld in het &quot; Verbond van de Troon en het Altaar &quot; .</sentence>
+</alpino_ds>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="du" end="6" id="1" rel="--">
+      <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="2" lemma="Zwanenburgbaan" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="dp" root="zwanenburg_baan" word="Zwanenburgbaan"/>
+      <node begin="1" cat="inf" end="6" id="3" rel="dp">
+        <node begin="4" buiging="zonder" end="5" id="4" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+        <node begin="1" cat="ppart" end="6" id="5" rel="vc">
+          <node begin="1" cat="np" end="4" id="6" rel="predc">
+            <node begin="1" cat="ap" end="3" id="7" rel="det">
+              <node begin="1" end="2" getal="ev" id="8" lemma="wat" naamval="stan" pdtype="pron" persoon="3o" pos="adv" postag="VNW(onbep,pron,stan,vol,3o,ev)" pt="vnw" rel="mod" root="wat" status="vol" vwtype="onbep" word="wat"/>
+              <node begin="2" buiging="zonder" end="3" graad="comp" id="9" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,comp)" pt="vnw" rel="hd" root="meer" vwtype="onbep" word="méér"/>
+            </node>
+            <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="10" lemma="lawaai" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="lawaai" word="lawaai"/>
+          </node>
+          <node begin="5" buiging="zonder" end="6" id="11" lemma="maken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="maak" word="gemaakt" wvorm="vd"/>
+        </node>
+      </node>
+    </node>
+    <node begin="6" end="7" id="12" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Zwanenburgbaan wat méér lawaai worden gemaakt .</sentence>
+</alpino_ds>

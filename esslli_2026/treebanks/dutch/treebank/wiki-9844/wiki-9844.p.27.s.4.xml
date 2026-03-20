@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="27" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma="«" pos="punct" postag="LET()" pt="let" rel="--" root="«" word="«"/>
+    <node begin="5" end="6" id="2" lemma="»" pos="punct" postag="LET()" pt="let" rel="--" root="»" word="»"/>
+    <node begin="6" end="7" id="3" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="9" end="10" id="4" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="11" end="12" id="5" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="19" end="20" id="6" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="26" id="7" rel="--">
+      <node begin="0" cat="smain" end="19" id="8" rel="cnj">
+        <node begin="0" cat="pp" end="11" id="9" rel="mod">
+          <node begin="0" end="1" id="10" lemma="vanaf" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="vanaf" vztype="init" word="Vanaf"/>
+          <node begin="2" cat="np" end="11" id="11" rel="obj1">
+            <node begin="2" cat="mwu" end="5" id="12" rel="hd">
+              <node begin="2" end="3" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="name" postag="LID(bep,stan,rest)" pt="lid" rel="mwp" root="de" word="De"/>
+              <node begin="3" buiging="met-e" end="4" graad="basis" id="14" lemma="bloot" naamval="stan" pos="name" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mwp" root="bloot" word="blote"/>
+              <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="15" lemma="Belg" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Belg" word="Belg"/>
+            </node>
+            <node begin="7" cat="np" end="11" id="16" rel="mod">
+              <node begin="7" end="8" id="17" lemma="nummer" pos="noun" postag="SPEC(afk)" pt="spec" rel="hd" root="nummer" spectype="afk" word="nr"/>
+              <node begin="8" end="9" id="18" lemma="271" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="app" root="271" word="271"/>
+              <node begin="10" end="11" id="19" lemma="2002" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mod" root="2002" word="2002"/>
+            </node>
+          </node>
+        </node>
+        <node begin="12" end="13" id="20" lemma="aan_hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb_aan" word="heeft" wvorm="pv"/>
+        <node begin="13" end="14" genus="fem" getal="ev" id="21" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,ev,fem)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="ze"/>
+        <node begin="14" end="15" id="22" lemma="weer" pos="adv" postag="BW()" pt="bw" rel="mod" root="weer" word="weer"/>
+        <node begin="15" cat="np" end="18" id="23" rel="obj1">
+          <node begin="15" end="16" id="24" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="16" buiging="met-e" end="17" graad="basis" id="25" lemma="degelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="degelijk" word="degelijke"/>
+          <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="26" lemma="jurk" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="jurk" word="jurk"/>
+        </node>
+        <node begin="18" end="19" id="27" lemma="aan" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="aan" vztype="fin" word="aan"/>
+      </node>
+      <node begin="20" conjtype="neven" end="21" id="28" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+      <node begin="21" cat="du" end="26" id="29" rel="cnj">
+        <node begin="21" end="22" id="30" lemma="dan" pos="adv" postag="BW()" pt="bw" rel="dp" root="dan" word="dan"/>
+        <node begin="22" cat="np" end="26" id="31" rel="dp">
+          <node begin="22" end="23" id="32" lemma="wel" pos="adv" postag="BW()" pt="bw" rel="mod" root="wel" word="wel"/>
+          <node begin="23" end="24" getal-n="zonder-n" graad="basis" id="33" lemma="één" numtype="hoofd" pos="pron" positie="nom" postag="TW(hoofd,nom,zonder-n,basis)" pt="tw" rel="hd" root="één" word="een"/>
+          <node begin="24" cat="pp" end="26" id="34" rel="mod">
+            <node begin="24" end="25" id="35" lemma="zonder" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="zonder" vztype="init" word="zonder"/>
+            <node begin="25" end="26" getal="mv" graad="basis" id="36" lemma="mouw" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="mouw" word="mouwen"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="26" end="27" id="37" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Vanaf « De blote Belg » ( nr 271 - 2002 ) heeft ze weer een degelijke jurk aan , maar dan wel een zonder mouwen .</sentence>
+</alpino_ds>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" buiging="zonder" end="1" id="3" lemma="die" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,rest)" pt="vnw" rel="det" root="die" vwtype="aanw" word="Die"/>
+        <node begin="1" end="2" getal="mv" graad="dim" id="4" lemma="meisje" ntype="soort" pos="noun" postag="N(soort,mv,dim)" pt="n" rel="hd" root="meisje" word="meisjes"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="zijn" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="ben" word="waren" wvorm="pv"/>
+      <node begin="3" cat="np" end="8" id="6" rel="predc">
+        <node begin="3" end="4" id="7" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+        <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="8" lemma="slachtoffer" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="slachtoffer" word="slachtoffer"/>
+        <node begin="5" cat="pp" end="8" id="9" rel="mod">
+          <node begin="5" end="6" id="10" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="6" cat="mwu" end="8" id="11" rel="obj1">
+            <node begin="6" end="7" id="12" lemma="Marc" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Marc" spectype="deeleigen" word="Marc"/>
+            <node begin="7" end="8" id="13" lemma="Dutroux" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Dutroux" spectype="deeleigen" word="Dutroux"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" id="14" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Die meisjes waren het slachtoffer van Marc Dutroux .</sentence>
+</alpino_ds>

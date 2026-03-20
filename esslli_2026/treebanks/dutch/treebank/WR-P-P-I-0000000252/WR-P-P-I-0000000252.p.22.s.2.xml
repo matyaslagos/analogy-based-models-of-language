@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="du" end="14" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" word="Maar"/>
+      <node begin="1" cat="smain" end="14" id="3" rel="nucl">
+        <node begin="1" end="2" getal="getal" id="4" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+        <node begin="2" end="3" id="5" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="3" buiging="zonder" end="4" graad="comp" id="6" lemma="veel" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="su" root="meer" vwtype="onbep" word="meer"/>
+        <node begin="4" cat="ap" end="14" id="7" rel="predc">
+          <node begin="4" buiging="zonder" end="5" graad="basis" id="8" lemma="nodig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="nodig" word="nodig"/>
+          <node begin="5" cat="oti" end="14" id="9" rel="vc">
+            <node begin="5" end="6" id="10" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="om"/>
+            <node begin="6" cat="ti" end="14" id="11" rel="body">
+              <node begin="11" end="12" id="12" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+              <node begin="6" cat="inf" end="14" id="13" rel="body">
+                <node begin="12" buiging="zonder" end="13" id="14" lemma="laten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="laat" word="laten" wvorm="inf"/>
+                <node begin="6" cat="inf" end="14" id="15" rel="vc">
+                  <node begin="6" cat="np" end="11" id="16" rel="obj1">
+                    <node begin="6" end="7" id="17" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                    <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="18" lemma="tij" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="tij" word="tij"/>
+                    <node begin="8" cat="pp" end="11" id="19" rel="mod">
+                      <node begin="8" end="9" id="20" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                      <node begin="9" cat="np" end="11" id="21" rel="obj1">
+                        <node begin="9" end="10" id="22" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                        <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="23" lemma="gehandicapt_zorg" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="gehandicaptenzorg" word="gehandicaptenzorg"/>
+                      </node>
+                    </node>
+                  </node>
+                  <node begin="13" buiging="zonder" end="14" id="24" lemma="keren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="keer" word="keren" wvorm="inf"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="25" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Maar er is meer nodig om het tij in de gehandicaptenzorg te laten keren .</sentence>
+</alpino_ds>

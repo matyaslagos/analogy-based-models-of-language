@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="14" id="2" rel="--">
+      <node begin="0" cat="mwu" end="3" id="3" rel="dlink">
+        <node begin="0" end="1" id="4" lemma="met" pos="comp" postag="VZ(init)" pt="vz" rel="mwp" root="met" vztype="init" word="Met"/>
+        <node begin="1" buiging="met-e" end="2" graad="basis" id="5" lemma="ander" naamval="stan" pos="comp" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mwp" root="andere" word="andere"/>
+        <node begin="2" end="3" getal="mv" graad="basis" id="6" lemma="woord" ntype="soort" pos="comp" postag="N(soort,mv,basis)" pt="n" rel="mwp" root="woorden" word="woorden"/>
+      </node>
+      <node begin="4" cat="smain" end="14" id="7" rel="nucl">
+        <node begin="4" end="5" getal="mv" id="8" lemma="we" naamval="nomin" pdtype="pron" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,red,1,mv)" pt="vnw" rel="su" root="we" status="red" vwtype="pers" word="we"/>
+        <node begin="5" end="6" id="9" lcat="p(smain)" lemma="waar_nemen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="neem_waar" word="nemen" wvorm="pv"/>
+        <node begin="6" cat="np" end="8" id="10" rel="obj1">
+          <node begin="6" buiging="zonder" end="7" id="11" lemma="elk" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="elk" vwtype="onbep" word="elk"/>
+          <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="12" lemma="gezicht" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="gezicht" word="gezicht"/>
+        </node>
+        <node begin="8" buiging="zonder" end="9" graad="basis" id="13" lemma="holistisch" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="holistisch" word="holistisch"/>
+        <node begin="9" buiging="zonder" end="10" graad="basis" id="14" lemma="waar" pos="part" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="svp" root="waar" word="waar"/>
+        <node begin="10" cat="cp" end="14" id="15" rel="predm">
+          <node begin="10" conjtype="onder" end="11" id="16" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+          <node begin="11" cat="np" end="14" id="17" rel="body">
+            <node begin="11" end="12" id="18" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="12" buiging="zonder" end="13" graad="basis" id="19" lemma="onscheidbaar" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="onscheidbaar" word="onscheidbaar"/>
+            <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="20" lemma="geheel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="geheel" word="geheel"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="21" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Met andere woorden , we nemen elk gezicht holistisch waar als een onscheidbaar geheel .</sentence>
+</alpino_ds>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="23" id="0" rel="top">
+    <node begin="10" end="11" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="22" id="2" rel="--">
+      <node begin="0" cat="pp" end="4" id="3" rel="mod">
+        <node begin="0" end="1" id="4" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="Op"/>
+        <node begin="1" cat="mwu" end="4" id="5" rel="obj1">
+          <node begin="1" end="2" id="6" lemma="2" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="2" word="2"/>
+          <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="7" lemma="mei" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="mei" word="mei"/>
+          <node begin="3" end="4" id="8" lemma="1816" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="1816" word="1816"/>
+        </node>
+      </node>
+      <node begin="4" end="5" id="9" lemma="trouwen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="trouw" word="trouwde" wvorm="pv"/>
+      <node begin="5" end="6" genus="masc" getal="ev" id="10" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="hij"/>
+      <node begin="6" cat="pp" end="22" id="11" rel="pc">
+        <node begin="6" end="7" id="12" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+        <node begin="7" cat="np" end="22" id="13" rel="obj1">
+          <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="14" lemma="kroon_prinses" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="kroon_prinses" word="kroonprinses"/>
+          <node begin="8" cat="mwu" end="10" id="15" rel="app">
+            <node begin="8" end="9" id="16" lemma="Charlotte" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Charlotte" spectype="deeleigen" word="Charlotte"/>
+            <node begin="9" end="10" id="17" lemma="Augusta" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Augusta" spectype="deeleigen" word="Augusta"/>
+          </node>
+          <node begin="11" cat="np" end="22" id="18" rel="app">
+            <node begin="11" end="12" id="19" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="12" buiging="met-e" end="13" id="20" lemma="enig" naamval="stan" npagr="rest" pdtype="det" pos="adj" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,rest)" pt="vnw" rel="mod" root="enig" vwtype="onbep" word="enige"/>
+            <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="21" lemma="dochter" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="dochter" word="dochter"/>
+            <node begin="14" cat="pp" end="22" id="22" rel="mod">
+              <node begin="14" end="15" id="23" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="15" cat="np" end="22" id="24" rel="obj1">
+                <node begin="15" end="16" id="25" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="16" buiging="met-e" end="17" graad="comp" id="26" lemma="laat" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,comp,met-e,stan)" pt="adj" rel="mod" root="laat" word="latere"/>
+                <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="27" lemma="koning" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="koning" word="koning"/>
+                <node begin="18" cat="mwu" end="20" id="28" rel="app">
+                  <node begin="18" end="19" id="29" lemma="George" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="George" spectype="deeleigen" word="George"/>
+                  <node begin="19" end="20" id="30" lemma="IV" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="IV" spectype="deeleigen" word="IV"/>
+                </node>
+                <node begin="20" cat="pp" end="22" id="31" rel="mod">
+                  <node begin="20" end="21" id="32" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                  <node begin="21" end="22" genus="onz" getal="ev" graad="basis" id="33" lemma="Engeland" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Engeland" word="Engeland"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="22" end="23" id="34" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Op 2 mei 1816 trouwde hij met kroonprinses Charlotte Augusta , de enige dochter van de latere koning George IV van Engeland .</sentence>
+</alpino_ds>

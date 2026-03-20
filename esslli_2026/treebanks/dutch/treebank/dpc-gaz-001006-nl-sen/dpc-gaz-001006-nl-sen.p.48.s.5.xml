@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="0" cat="smain" end="17" id="1" rel="--">
+      <node begin="0" cat="conj" end="9" id="2" rel="predc">
+        <node begin="2" conjtype="neven" end="3" id="3" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="0" cat="np" end="9" id="4" rel="cnj">
+          <node begin="0" end="1" id="5" index="1" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="Een"/>
+          <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="6" lemma="verschil" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="verschil" word="verschil"/>
+          <node begin="5" cat="pp" end="9" id="7" index="2" rel="mod">
+            <node begin="5" end="6" id="8" lemma="ten opzichte van" pos="prep" postag="SPEC(afk)" pt="spec" rel="hd" root="ten_opzichte_van" spectype="afk" word="t.o.v."/>
+            <node begin="6" cat="np" end="9" id="9" rel="obj1">
+              <node begin="6" buiging="met-e" end="7" graad="basis" id="10" lemma="commercieel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="commercieel" word="commerciële"/>
+              <node begin="7" cat="mwu" end="9" id="11" rel="hd">
+                <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="12" lemma="micro_CT" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="micro_CT" word="micro-CT"/>
+                <node begin="8" end="9" getal="mv" graad="basis" id="13" lemma="scanner" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mwp" root="scanner" word="scanners"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="0" cat="np" end="9" id="14" rel="cnj">
+          <node begin="0" end="1" id="15" index="1" rel="det"/>
+          <node begin="3" end="4" id="16" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+          <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="17" lemma="voordeel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="voordeel" word="voordeel"/>
+          <node begin="5" end="9" id="18" index="2" rel="mod"/>
+        </node>
+      </node>
+      <node begin="9" end="10" id="19" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="10" cat="cp" end="17" id="20" rel="su">
+        <node begin="10" conjtype="onder" end="11" id="21" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+        <node begin="11" cat="ssub" end="17" id="22" rel="body">
+          <node begin="11" cat="np" end="13" id="23" index="3" rel="su">
+            <node begin="11" end="12" id="24" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="25" lemma="nano_CT_scanner" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="nano-CT_scanner" word="nano-CT-scanner"/>
+          </node>
+          <node begin="15" end="16" id="26" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+          <node begin="11" cat="ppart" end="17" id="27" rel="vc">
+            <node begin="11" end="13" id="28" index="3" rel="obj1"/>
+            <node begin="13" buiging="zonder" end="14" graad="basis" id="29" lemma="volledig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="volledig" word="volledig"/>
+            <node begin="14" buiging="zonder" end="15" graad="basis" id="30" lemma="modulair" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="modulair" word="modulair"/>
+            <node begin="16" buiging="zonder" end="17" id="31" lemma="op_bouwen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="bouw_op" word="opgebouwd" wvorm="vd"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="32" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Een verschil en ook voordeel t.o.v. commerciële micro-CT scanners is dat de nano-CT-scanner volledig modulair is opgebouwd .</sentence>
+</alpino_ds>

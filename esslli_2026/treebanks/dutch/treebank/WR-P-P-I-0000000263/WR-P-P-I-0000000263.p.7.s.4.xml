@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="10" end="11" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="0" cat="smain" end="20" id="2" rel="--">
+      <node begin="0" cat="np" end="2" id="3" index="1" rel="su">
+        <node begin="0" buiging="zonder" end="1" id="4" lemma="die" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,rest)" pt="vnw" rel="det" root="die" vwtype="aanw" word="Die"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="5" lemma="onwil" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="onwil" word="onwil"/>
+      </node>
+      <node begin="2" end="3" id="6" lemma="zullen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zal" word="zal" wvorm="pv"/>
+      <node begin="0" cat="inf" end="20" id="7" rel="vc">
+        <node begin="0" end="2" id="8" index="1" rel="su"/>
+        <node begin="3" buiging="zonder" end="4" graad="basis" id="9" lemma="uiteindelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="uiteindelijk" word="uiteindelijk"/>
+        <node begin="4" buiging="zonder" end="5" id="10" lemma="leiden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="leid" word="leiden" wvorm="inf"/>
+        <node begin="5" cat="pp" end="20" id="11" rel="pc">
+          <node begin="5" end="6" id="12" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" vztype="init" word="tot"/>
+          <node begin="6" cat="np" end="20" id="13" rel="obj1">
+            <node begin="6" end="7" id="14" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="7" buiging="zonder" end="8" getal-n="zonder-n" graad="basis" id="15" lemma="failliet" pos="noun" positie="nom" postag="ADJ(nom,basis,zonder,zonder-n)" pt="adj" rel="hd" root="failliet" word="failliet"/>
+            <node begin="8" cat="pp" end="10" id="16" rel="mod">
+              <node begin="8" end="9" id="17" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="18" lemma="Lambermont" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Lambermont" word="Lambermont"/>
+            </node>
+            <node begin="11" cat="rel" end="20" id="19" rel="mod">
+              <node begin="11" end="12" id="20" index="2" lemma="waarvoor" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waarvoor" word="waarvoor"/>
+              <node begin="11" cat="ssub" end="20" id="21" rel="body">
+                <node begin="11" end="12" id="22" index="2" rel="mod"/>
+                <node begin="12" cat="np" end="15" id="23" rel="su">
+                  <node begin="12" end="13" id="24" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="13" buiging="met-e" end="14" graad="basis" id="25" lemma="federaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="federaal" word="federale"/>
+                  <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="26" lemma="regering" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="regering" word="regering"/>
+                </node>
+                <node begin="15" end="16" id="27" lemma="nochtans" pos="adv" postag="BW()" pt="bw" rel="mod" root="nochtans" word="nochtans"/>
+                <node begin="16" cat="np" end="19" id="28" rel="obj1">
+                  <node begin="16" end="17" id="29" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                  <node begin="17" end="18" genus="onz" getal="ev" graad="basis" id="30" lemma="pak" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="pak" word="pak"/>
+                  <node begin="18" end="19" genus="onz" getal="ev" graad="basis" id="31" lemma="geld" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mod" root="geld" word="geld"/>
+                </node>
+                <node begin="19" end="20" id="32" lemma="uit_trekken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="trek_uit" word="uittrok" wvorm="pv"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="20" end="21" id="33" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Die onwil zal uiteindelijk leiden tot het failliet van Lambermont - waarvoor de federale regering nochtans een pak geld uittrok .</sentence>
+</alpino_ds>

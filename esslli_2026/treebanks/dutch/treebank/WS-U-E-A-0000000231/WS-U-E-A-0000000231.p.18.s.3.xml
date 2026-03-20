@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="du" end="15" id="2" rel="--">
+      <node begin="0" cat="smain" end="5" id="3" rel="nucl">
+        <node begin="1" end="2" id="4" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="2" cat="np" end="4" id="5" index="1" rel="su">
+          <node begin="2" end="3" id="6" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="7" lemma="trend" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="trend" word="trend"/>
+        </node>
+        <node begin="0" cat="ppart" end="5" id="8" rel="vc">
+          <node begin="0" end="1" id="9" lemma="toch" pos="adv" postag="BW()" pt="bw" rel="mod" root="toch" word="Toch"/>
+          <node begin="2" end="4" id="10" index="1" rel="obj1"/>
+          <node begin="4" buiging="zonder" end="5" id="11" lemma="zetten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="zet" word="gezet" wvorm="vd"/>
+        </node>
+      </node>
+      <node begin="6" cat="smain" end="15" id="12" rel="sat">
+        <node begin="6" cat="np" end="13" id="13" rel="su">
+          <node begin="6" end="7" id="14" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+          <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="15" lemma="tijd" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="tijd" word="tijd"/>
+          <node begin="8" cat="pp" end="13" id="16" rel="mod">
+            <node begin="8" end="9" id="17" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="9" cat="np" end="13" id="18" rel="obj1">
+              <node begin="9" cat="ap" end="12" id="19" rel="mod">
+                <node begin="9" end="10" id="20" lemma="steeds" pos="adv" postag="BW()" pt="bw" rel="mod" root="steeds" word="steeds"/>
+                <node begin="10" end="11" id="21" lemma="maar" pos="adv" postag="BW()" pt="bw" rel="mod" root="maar" word="maar"/>
+                <node begin="11" buiging="zonder" end="12" graad="comp" id="22" lemma="kort" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="kort" word="korter"/>
+              </node>
+              <node begin="12" buiging="zonder" end="13" getal-n="zonder-n" id="23" lemma="werken" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="werk" word="werken" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+        <node begin="13" end="14" id="24" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="14" buiging="zonder" end="15" graad="basis" id="25" lemma="voorbij" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="voorbij" word="voorbij"/>
+      </node>
+    </node>
+    <node begin="15" end="16" id="26" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Toch is de trend gezet : De tijd van steeds maar korter werken is voorbij .</sentence>
+</alpino_ds>

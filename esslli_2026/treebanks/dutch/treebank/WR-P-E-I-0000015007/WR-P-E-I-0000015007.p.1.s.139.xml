@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="23" id="0" rel="top">
+    <node begin="12" end="13" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="14" end="15" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="16" end="17" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="18" end="19" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="22" id="5" rel="--">
+      <node begin="0" cat="smain" end="12" id="6" rel="nucl">
+        <node begin="0" cat="np" end="3" id="7" rel="mod">
+          <node begin="0" end="1" id="8" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+          <node begin="1" buiging="met-e" end="2" id="9" lemma="volgen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="volg" word="volgende" wvorm="od"/>
+          <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="10" lemma="dag" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="dag" word="dag"/>
+        </node>
+        <node begin="3" end="4" id="11" lemma="aan_vallen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="val_aan" word="vielen" wvorm="pv"/>
+        <node begin="4" cat="np" end="7" id="12" rel="su">
+          <node begin="4" end="5" id="13" lemma="vijf" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="vijf" word="vijf"/>
+          <node begin="5" buiging="met-e" end="6" graad="basis" id="14" lemma="Arabisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Arabisch" word="Arabische"/>
+          <node begin="6" end="7" getal="mv" graad="basis" id="15" lemma="land" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="land" word="landen"/>
+        </node>
+        <node begin="7" cat="np" end="11" id="16" rel="obj1">
+          <node begin="7" end="8" id="17" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="8" buiging="met-e" end="9" graad="basis" id="18" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" word="nieuwe"/>
+          <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="19" lemma="staat" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="staat" word="staat"/>
+          <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="20" lemma="Israël" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="app" root="Israël" word="Israël"/>
+        </node>
+        <node begin="11" end="12" id="21" lemma="aan" pos="prep" postag="VZ(fin)" pt="vz" rel="svp" root="aan" vztype="fin" word="aan"/>
+      </node>
+      <node begin="13" cat="conj" end="22" id="22" rel="sat">
+        <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="23" lemma="Egypte" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Egypte" word="Egypte"/>
+        <node begin="15" end="16" genus="onz" getal="ev" graad="basis" id="24" lemma="Jordanië" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Jordanië" word="Jordanië"/>
+        <node begin="17" end="18" genus="onz" getal="ev" graad="basis" id="25" lemma="Syrië" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Syrië" word="Syrië"/>
+        <node begin="19" end="20" genus="onz" getal="ev" graad="basis" id="26" lemma="Libanon" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Libanon" word="Libanon"/>
+        <node begin="20" conjtype="neven" end="21" id="27" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="21" end="22" genus="onz" getal="ev" graad="basis" id="28" lemma="Irak" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Irak" word="Irak"/>
+      </node>
+    </node>
+    <node begin="22" end="23" id="29" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De volgende dag vielen vijf Arabische landen de nieuwe staat Israël aan : Egypte , Jordanië , Syrië , Libanon en Irak .</sentence>
+</alpino_ds>

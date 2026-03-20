@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="43" id="0" rel="top">
+    <node begin="0" cat="smain" end="42" id="1" rel="--">
+      <node begin="0" cat="mwu" end="3" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="Johannes" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Johannes" spectype="deeleigen" word="Johannes"/>
+        <node begin="1" end="2" id="4" lemma="Paulus" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Paulus" spectype="deeleigen" word="Paulus"/>
+        <node begin="2" end="3" id="5" lemma="II" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="II" spectype="deeleigen" word="II"/>
+      </node>
+      <node begin="3" end="4" id="6" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+      <node begin="4" cat="mwu" end="6" id="7" rel="svp">
+        <node begin="4" end="5" id="8" lemma="van" pos="fixed" postag="VZ(init)" pt="vz" rel="mwp" root="van" vztype="init" word="van"/>
+        <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="9" lemma="mening" naamval="stan" ntype="soort" pos="fixed" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="mening" word="mening"/>
+      </node>
+      <node begin="6" cat="conj" end="42" id="10" rel="vc">
+        <node begin="6" cat="cp" end="25" id="11" rel="cnj">
+          <node begin="6" conjtype="onder" end="7" id="12" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+          <node begin="7" cat="ssub" end="25" id="13" rel="body">
+            <node begin="7" end="8" genus="onz" getal="ev" id="14" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="noun" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="sup" root="het" status="red" vwtype="pers" word="het"/>
+            <node begin="8" cat="mwu" end="10" id="15" rel="mod">
+              <node begin="8" end="9" id="16" lemma="onder" pos="adv" postag="VZ(init)" pt="vz" rel="mwp" root="onder" vztype="init" word="onder"/>
+              <node begin="9" buiging="met-e" end="10" getal-n="zonder-n" graad="basis" id="17" lemma="ander" naamval="stan" pos="adv" positie="nom" postag="ADJ(nom,basis,met-e,zonder-n,stan)" pt="adj" rel="mwp" root="andere" word="andere"/>
+            </node>
+            <node begin="10" cat="np" end="16" id="18" rel="predc">
+              <node begin="10" end="11" id="19" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="20" lemma="taak" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="taak" word="taak"/>
+              <node begin="12" cat="pp" end="16" id="21" rel="mod">
+                <node begin="12" end="13" id="22" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="13" cat="np" end="16" id="23" rel="obj1">
+                  <node begin="13" end="14" id="24" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="14" cat="mwu" end="16" id="25" rel="hd">
+                    <node begin="14" end="15" id="26" lemma="Verenigde" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Verenigde" spectype="deeleigen" word="Verenigde"/>
+                    <node begin="15" end="16" id="27" lemma="Naties" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Naties" spectype="deeleigen" word="Naties"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node begin="16" end="17" id="28" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+            <node begin="17" cat="ti" end="25" id="29" rel="su">
+              <node begin="23" end="24" id="30" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+              <node begin="17" cat="inf" end="25" id="31" rel="body">
+                <node begin="17" cat="np" end="20" id="32" rel="obj1">
+                  <node begin="17" end="18" id="33" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                  <node begin="18" buiging="zonder" end="19" graad="basis" id="34" lemma="internationaal" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="internationaal" word="internationaal"/>
+                  <node begin="19" end="20" genus="onz" getal="ev" graad="basis" id="35" lemma="conflict" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="conflict" word="conflict"/>
+                </node>
+                <node begin="20" cat="pp" end="22" id="36" rel="mod">
+                  <node begin="20" end="21" id="37" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+                  <node begin="21" end="22" genus="zijd" getal="ev" graad="basis" id="38" lemma="diplomatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="diplomatie" word="diplomatie"/>
+                </node>
+                <node begin="22" end="23" id="39" lemma="op" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="op" vztype="fin" word="op"/>
+                <node begin="24" buiging="zonder" end="25" id="40" lemma="op_lossen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="los_op" word="lossen" wvorm="inf"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="25" conjtype="neven" end="26" id="41" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="26" cat="cp" end="42" id="42" rel="cnj">
+          <node begin="26" conjtype="onder" end="27" id="43" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+          <node begin="27" cat="ssub" end="42" id="44" rel="body">
+            <node begin="27" cat="np" end="29" id="45" rel="su">
+              <node begin="27" buiging="met-e" end="28" graad="basis" id="46" lemma="unilateraal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="unilaterale" word="unilaterale"/>
+              <node begin="28" end="29" genus="zijd" getal="ev" graad="basis" id="47" lemma="agressie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="agressie" word="agressie"/>
+            </node>
+            <node begin="29" cat="conj" end="41" id="48" rel="predc">
+              <node begin="29" cat="np" end="34" id="49" rel="cnj">
+                <node begin="29" end="30" id="50" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                <node begin="30" end="31" genus="zijd" getal="ev" graad="basis" id="51" lemma="misdaad" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="misdaad" word="misdaad"/>
+                <node begin="31" cat="pp" end="34" id="52" rel="mod">
+                  <node begin="31" end="32" id="53" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" vztype="init" word="tegen"/>
+                  <node begin="32" cat="np" end="34" id="54" rel="obj1">
+                    <node begin="32" end="33" id="55" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="33" end="34" genus="zijd" getal="ev" graad="basis" id="56" lemma="vrede" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="vrede" word="vrede"/>
+                  </node>
+                </node>
+              </node>
+              <node begin="34" conjtype="neven" end="35" id="57" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="35" cat="np" end="41" id="58" rel="cnj">
+                <node begin="35" end="36" id="59" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                <node begin="36" end="37" genus="zijd" getal="ev" graad="basis" id="60" lemma="schending" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="schending" word="schending"/>
+                <node begin="37" cat="pp" end="41" id="61" rel="mod">
+                  <node begin="37" end="38" id="62" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                  <node begin="38" cat="np" end="41" id="63" rel="obj1">
+                    <node begin="38" end="39" id="64" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                    <node begin="39" buiging="zonder" end="40" graad="basis" id="65" lemma="internationaal" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="internationaal" word="internationaal"/>
+                    <node begin="40" end="41" genus="onz" getal="ev" graad="basis" id="66" lemma="recht" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="recht" word="recht"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node begin="41" end="42" id="67" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="42" end="43" id="68" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Johannes Paulus II was van mening dat het onder andere de taak van de Verenigde Naties is een internationaal conflict door diplomatie op te lossen en dat unilaterale agressie een misdaad tegen de vrede en een schending van het internationaal recht is .</sentence>
+</alpino_ds>

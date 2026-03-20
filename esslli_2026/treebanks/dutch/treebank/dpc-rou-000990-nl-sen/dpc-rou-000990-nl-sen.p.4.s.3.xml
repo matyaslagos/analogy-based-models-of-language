@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="du" end="17" id="2" rel="--">
+      <node begin="0" cat="du" end="5" id="3" rel="nucl">
+        <node begin="0" cat="pp" end="3" id="4" rel="dp">
+          <node begin="0" end="1" id="5" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="Op"/>
+          <node begin="1" cat="np" end="3" id="6" rel="obj1">
+            <node begin="1" end="2" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="8" lemma="agenda" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="agenda" word="agenda"/>
+          </node>
+        </node>
+        <node begin="3" cat="np" end="5" id="9" rel="dp">
+          <node begin="3" buiging="zonder" end="4" id="10" lemma="die" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,rest)" pt="vnw" rel="det" root="die" vwtype="aanw" word="die"/>
+          <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="11" lemma="dag" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="dag" word="dag"/>
+        </node>
+      </node>
+      <node begin="6" cat="np" end="17" id="12" rel="sat">
+        <node begin="6" end="7" getal="mv" graad="basis" id="13" lemma="voorstel" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="voorstel" word="voorstellen"/>
+        <node begin="7" cat="oti" end="17" id="14" rel="vc">
+          <node begin="7" end="8" id="15" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="om"/>
+          <node begin="8" cat="ti" end="17" id="16" rel="body">
+            <node begin="15" end="16" id="17" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+            <node begin="8" cat="inf" end="17" id="18" rel="body">
+              <node begin="8" cat="np" end="15" id="19" rel="obj1">
+                <node begin="8" end="9" id="20" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                <node begin="9" buiging="met-e" end="10" graad="basis" id="21" lemma="Amerikaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Amerikaans" word="Amerikaanse"/>
+                <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="22" lemma="leiderschap" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="leiderschap" word="leiderschap"/>
+                <node begin="11" cat="pp" end="15" id="23" rel="mod">
+                  <node begin="11" end="12" id="24" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                  <node begin="12" cat="np" end="15" id="25" rel="obj1">
+                    <node begin="12" end="13" id="26" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="13" cat="mwu" end="15" id="27" rel="hd">
+                      <node begin="13" end="14" id="28" lemma="Koude" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Koude" spectype="deeleigen" word="Koude"/>
+                      <node begin="14" end="15" id="29" lemma="Oorlog" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Oorlog" spectype="deeleigen" word="Oorlog"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node begin="16" buiging="zonder" end="17" id="30" lemma="handhaven" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="handhaaf" word="handhaven" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="31" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Op de agenda die dag : voorstellen om het Amerikaanse leiderschap in de Koude Oorlog te handhaven .</sentence>
+</alpino_ds>

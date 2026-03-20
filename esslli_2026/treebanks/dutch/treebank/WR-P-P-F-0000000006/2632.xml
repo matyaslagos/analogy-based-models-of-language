@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="du" end="8" id="2" rel="--">
+      <node begin="0" end="1" id="3" lemma="b)" pos="tag" postag="SPEC(symb)" pt="spec" rel="tag" root="b)" spectype="symb" word="b)"/>
+      <node begin="1" cat="np" end="8" id="4" rel="nucl">
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="5" lemma="autoriteit" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="autoriteit" word="autoriteit"/>
+        <node begin="3" cat="np" end="8" id="6" rel="app">
+          <node begin="3" buiging="met-e" end="4" id="7" lemma="ieder" naamval="stan" npagr="evz" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,evz)" pt="vnw" rel="det" root="ieder" vwtype="onbep" word="iedere"/>
+          <node begin="4" cat="conj" end="7" id="8" rel="mod">
+            <node begin="4" buiging="met-e" end="5" graad="basis" id="9" lemma="rechterlijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="rechterlijk" word="rechterlijke"/>
+            <node begin="5" conjtype="neven" end="6" id="10" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+            <node begin="6" buiging="met-e" end="7" graad="basis" id="11" lemma="administratief" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="administratief" word="administratieve"/>
+          </node>
+          <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="12" lemma="autoriteit" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="autoriteit" word="autoriteit"/>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" id="13" lemma=";" pos="punct" postag="LET()" pt="let" rel="--" root=";" word=";"/>
+  </node>
+  <sentence>b) autoriteit : iedere rechterlijke of administratieve autoriteit ;</sentence>
+</alpino_ds>

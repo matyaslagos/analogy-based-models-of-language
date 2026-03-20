@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="37" id="0" rel="top">
+    <node begin="16" end="17" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="36" id="2" rel="--">
+      <node begin="0" buiging="zonder" end="1" graad="basis" id="3" lemma="gelukkig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="gelukkig" word="Gelukkig"/>
+      <node begin="1" end="2" id="4" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+      <node begin="2" cat="np" end="5" id="5" rel="mod">
+        <node begin="2" end="3" id="6" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="3" buiging="met-e" end="4" graad="sup" id="7" lemma="laat" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="mod" root="laat" word="laatste"/>
+        <node begin="4" end="5" getal="mv" graad="basis" id="8" lemma="jaar" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="jaar" word="jaren"/>
+      </node>
+      <node begin="5" cat="np" end="11" id="9" index="1" rel="su">
+        <node begin="5" end="6" id="10" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="6" end="7" getal="mv" graad="basis" id="11" lemma="korstmos" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="korst_mos" word="korstmossen"/>
+        <node begin="7" cat="pp" end="11" id="12" rel="mod">
+          <node begin="7" end="8" id="13" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="8" cat="conj" end="11" id="14" rel="obj1">
+            <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="15" lemma="Nederland" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Nederland" word="Nederland"/>
+            <node begin="9" conjtype="neven" end="10" id="16" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="17" lemma="België" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="België" word="België"/>
+          </node>
+        </node>
+      </node>
+      <node begin="5" cat="ahi" end="36" id="18" rel="vc">
+        <node begin="13" cat="mwu" end="15" id="19" rel="cmp">
+          <node begin="13" end="14" id="20" lemma="aan" pos="comp" postag="VZ(init)" pt="vz" rel="mwp" root="aan" vztype="init" word="aan"/>
+          <node begin="14" end="15" id="21" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="comp" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" word="het"/>
+        </node>
+        <node begin="5" cat="inf" end="36" id="22" rel="body">
+          <node begin="5" end="11" id="23" index="1" rel="su"/>
+          <node begin="11" end="12" getal="getal" id="24" lemma="zich" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="se" root="zich" status="red" vwtype="refl" word="zich"/>
+          <node begin="12" end="13" id="25" lemma="weer" pos="adv" postag="BW()" pt="bw" rel="mod" root="weer" word="weer"/>
+          <node begin="15" buiging="zonder" end="16" id="26" lemma="herstellen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="herstel" word="herstellen" wvorm="inf"/>
+          <node begin="17" cat="cp" end="36" id="27" rel="mod">
+            <node begin="17" conjtype="onder" end="18" id="28" lemma="doordat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="doordat" word="doordat"/>
+            <node begin="18" cat="ssub" end="36" id="29" rel="body">
+              <node begin="18" cat="np" end="21" id="30" index="2" rel="su">
+                <node begin="18" end="19" id="31" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="19" end="20" id="32" lemma="SO2" pos="name" postag="SPEC(symb)" pt="spec" rel="mod" root="SO2" spectype="symb" word="SO2"/>
+                <node begin="20" end="21" genus="zijd" getal="ev" graad="basis" id="33" lemma="uitstoot" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="uitstoot" word="uitstoot"/>
+              </node>
+              <node begin="21" end="22" id="34" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+              <node begin="18" cat="ppart" end="36" id="35" rel="vc">
+                <node begin="18" end="21" id="36" index="2" rel="su"/>
+                <node begin="22" buiging="zonder" end="23" id="37" lemma="verminderen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="verminder" word="verminderd" wvorm="vd"/>
+                <node begin="23" cat="cp" end="36" id="38" rel="mod">
+                  <node begin="23" end="24" id="39" lemma="sinds" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="sinds" vztype="init" word="sinds"/>
+                  <node begin="24" cat="ssub" end="36" id="40" rel="body">
+                    <node begin="25" cat="np" end="27" id="41" index="3" rel="su">
+                      <node begin="25" buiging="zonder" end="26" graad="comp" id="42" lemma="weinig" naamval="stan" npagr="agr" pdtype="grad" pos="det" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,comp)" pt="vnw" rel="det" root="minder" vwtype="onbep" word="minder"/>
+                      <node begin="26" end="27" getal="mv" graad="basis" id="43" lemma="kolen" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kool" word="kolen"/>
+                    </node>
+                    <node begin="27" end="28" id="44" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" word="worden" wvorm="pv"/>
+                    <node begin="24" cat="ppart" end="36" id="45" rel="vc">
+                      <node begin="24" end="25" getal="getal" id="46" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+                      <node begin="25" end="27" id="47" index="3" rel="obj1"/>
+                      <node begin="28" buiging="zonder" end="29" id="48" lemma="gebruiken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="gebruik" word="gebruikt" wvorm="vd"/>
+                      <node begin="29" cat="conj" end="36" id="49" rel="mod">
+                        <node begin="29" cat="pp" end="31" id="50" rel="cnj">
+                          <node begin="29" end="30" id="51" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                          <node begin="30" end="31" getal="mv" graad="basis" id="52" lemma="elektriciteit_centrale" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="elektriciteit_centrale" word="elektriciteitscentrales"/>
+                        </node>
+                        <node begin="31" conjtype="neven" end="32" id="53" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                        <node begin="32" cat="pp" end="36" id="54" rel="cnj">
+                          <node begin="32" end="33" id="55" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+                          <node begin="33" cat="np" end="36" id="56" rel="obj1">
+                            <node begin="33" end="34" genus="zijd" getal="ev" graad="basis" id="57" lemma="verwarming" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="verwarming" word="verwarming"/>
+                            <node begin="34" cat="pp" end="36" id="58" rel="mod">
+                              <node begin="34" end="35" id="59" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                              <node begin="35" end="36" getal="mv" graad="basis" id="60" lemma="woning" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="woning" word="woningen"/>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="36" end="37" id="61" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Gelukkig zijn de laatste jaren de korstmossen in Nederland en België zich weer aan het herstellen , doordat de SO2 uitstoot is verminderd sinds er minder kolen worden gebruikt in elektriciteitscentrales en voor verwarming van woningen .</sentence>
+</alpino_ds>

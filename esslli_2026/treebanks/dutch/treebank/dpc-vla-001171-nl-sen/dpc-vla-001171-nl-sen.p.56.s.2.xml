@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="smain" end="13" id="1" rel="--">
+      <node begin="0" cat="np" end="5" id="2" rel="mod">
+        <node begin="0" buiging="met-e" end="1" id="3" lemma="elk" naamval="stan" npagr="evz" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,evz)" pt="vnw" rel="det" root="elk" vwtype="onbep" word="Elke"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="4" lemma="avond" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="avond" word="avond"/>
+        <node begin="2" cat="pp" end="5" id="5" rel="mod">
+          <node begin="2" end="3" id="6" lemma="vanaf" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="vanaf" vztype="init" word="vanaf"/>
+          <node begin="3" cat="mwu" end="5" id="7" rel="obj1">
+            <node begin="3" end="4" id="8" lemma="18" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="18" word="18"/>
+            <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="9" lemma="uur" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="uur" word="uur"/>
+          </node>
+        </node>
+      </node>
+      <node begin="5" end="6" id="10" lemma="uit_zenden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="zend_uit" word="zendt" wvorm="pv"/>
+      <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="11" lemma="TV-Brussel" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="TV-Brussel" word="TV-Brussel"/>
+      <node begin="7" cat="conj" end="12" id="12" rel="obj1">
+        <node begin="7" cat="np" end="9" id="13" rel="cnj">
+          <node begin="7" buiging="zonder" end="8" id="14" lemma="af_wisselen" pos="adj" positie="prenom" postag="WW(od,prenom,zonder)" pt="ww" rel="mod" root="afwisselend" word="afwisselend" wvorm="od"/>
+          <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="15" lemma="nieuws" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="nieuws" word="nieuws"/>
+        </node>
+        <node begin="9" conjtype="neven" end="10" id="16" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="10" cat="np" end="12" id="17" rel="cnj">
+          <node begin="10" end="11" id="18" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="19" lemma="magazine" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="magazine" word="magazine"/>
+        </node>
+      </node>
+      <node begin="12" end="13" id="20" lemma="uit" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="uit" vztype="fin" word="uit"/>
+    </node>
+    <node begin="13" end="14" id="21" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Elke avond vanaf 18 uur zendt TV-Brussel afwisselend nieuws en een magazine uit .</sentence>
+</alpino_ds>

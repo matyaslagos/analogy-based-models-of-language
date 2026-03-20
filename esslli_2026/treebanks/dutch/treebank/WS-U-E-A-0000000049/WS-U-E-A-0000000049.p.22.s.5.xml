@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="conj" end="8" id="1" rel="--">
+      <node begin="0" cat="smain" end="3" id="2" rel="cnj">
+        <node begin="0" end="1" getal="mv" graad="basis" id="3" index="1" lemma="mens" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="mens" word="Mensen"/>
+        <node begin="1" end="2" id="4" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" word="worden" wvorm="pv"/>
+        <node begin="0" cat="ppart" end="3" id="5" rel="vc">
+          <node begin="0" end="1" id="6" index="1" rel="obj1"/>
+          <node begin="2" buiging="zonder" end="3" id="7" lemma="ontslaan" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="ontsla" word="ontslagen" wvorm="vd"/>
+        </node>
+      </node>
+      <node begin="3" conjtype="neven" end="4" id="8" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+      <node begin="4" cat="smain" end="8" id="9" rel="cnj">
+        <node begin="4" end="5" getal="mv" graad="basis" id="10" index="2" lemma="jaar_contract" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="jaar_contract" word="jaarcontracten"/>
+        <node begin="5" end="6" id="11" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" word="worden" wvorm="pv"/>
+        <node begin="4" cat="ppart" end="8" id="12" rel="vc">
+          <node begin="4" end="5" id="13" index="2" rel="obj1"/>
+          <node begin="6" end="7" id="14" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+          <node begin="7" buiging="zonder" end="8" id="15" lemma="verlengen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="verleng" word="verlengd" wvorm="vd"/>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" id="16" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Mensen worden ontslagen of jaarcontracten worden niet verlengd .</sentence>
+</alpino_ds>

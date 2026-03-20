@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="12" end="13" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="14" end="15" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="0" cat="smain" end="18" id="3" rel="--">
+      <node begin="0" cat="mwu" end="3" id="4" rel="su">
+        <node begin="0" end="1" id="5" lemma="Johannes" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Johannes" spectype="deeleigen" word="Johannes"/>
+        <node begin="1" end="2" id="6" lemma="Paulus" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Paulus" spectype="deeleigen" word="Paulus"/>
+        <node begin="2" end="3" id="7" lemma="II" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="II" spectype="deeleigen" word="II"/>
+      </node>
+      <node begin="3" end="4" id="8" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+      <node begin="4" cat="pp" end="7" id="9" rel="mod">
+        <node begin="4" end="5" id="10" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+        <node begin="5" cat="np" end="7" id="11" rel="obj1">
+          <node begin="5" end="6" id="12" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="13" lemma="achtergrond" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="achtergrond" word="achtergrond"/>
+        </node>
+      </node>
+      <node begin="7" cat="np" end="18" id="14" rel="predc">
+        <node begin="7" end="8" id="15" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="8" buiging="met-e" end="9" graad="basis" id="16" lemma="sterk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="sterk" word="sterke"/>
+        <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="17" lemma="man" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="man" word="man"/>
+        <node begin="10" cat="pp" end="18" id="18" rel="mod">
+          <node begin="10" end="11" id="19" lemma="achter" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="achter" vztype="init" word="achter"/>
+          <node begin="11" cat="np" end="18" id="20" rel="obj1">
+            <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="21" lemma="Solidarność" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Solidarność" word="Solidarność"/>
+            <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="22" lemma="solidariteit" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mod" root="Solidariteit" word="Solidariteit"/>
+            <node begin="15" cat="pp" end="18" id="23" rel="mod">
+              <node begin="15" end="16" id="24" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="16" cat="mwu" end="18" id="25" rel="obj1">
+                <node begin="16" end="17" id="26" lemma="Lech" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Lech" spectype="deeleigen" word="Lech"/>
+                <node begin="17" end="18" id="27" lemma="Wałęsa" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Wałęsa" spectype="deeleigen" word="Wałęsa"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="28" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Johannes Paulus II was op de achtergrond de sterke man achter Solidarność ( Solidariteit ) van Lech Wałęsa .</sentence>
+</alpino_ds>

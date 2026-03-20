@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="26" id="0" rel="top">
+    <node begin="20" end="21" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="25" id="2" rel="--">
+      <node begin="0" end="1" genus="onz" getal="ev" graad="basis" id="3" lemma="België" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" root="België" word="België"/>
+      <node begin="1" end="2" id="4" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="2" cat="conj" end="25" id="5" rel="predc">
+        <node begin="5" conjtype="neven" end="6" id="6" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="2" cat="np" end="25" id="7" rel="cnj">
+          <node begin="2" end="3" id="8" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="3" buiging="zonder" end="4" graad="basis" id="9" lemma="federaal" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="federaal" word="federaal"/>
+          <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="10" lemma="land" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="land" word="land"/>
+          <node begin="9" cat="pp" end="25" id="11" index="1" rel="mod">
+            <node begin="9" end="10" id="12" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+            <node begin="10" cat="pp" end="13" id="13" rel="mod">
+              <node begin="10" end="11" id="14" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+              <node begin="11" cat="np" end="13" id="15" rel="obj1">
+                <node begin="11" end="12" id="16" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                <node begin="12" end="13" genus="onz" getal="ev" graad="basis" id="17" lemma="hoofd" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="hoofd" word="hoofd"/>
+              </node>
+            </node>
+            <node begin="13" cat="np" end="25" id="18" rel="obj1">
+              <node begin="13" end="14" id="19" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="14" buiging="zonder" end="15" graad="basis" id="20" lemma="rechtstreeks" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="rechtstreeks" word="rechtstreeks"/>
+              <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="21" lemma="afstammeling" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="afstammeling" word="afstammeling"/>
+              <node begin="16" cat="pp" end="20" id="22" rel="mod">
+                <node begin="16" end="17" id="23" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="17" cat="np" end="20" id="24" rel="obj1">
+                  <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="25" lemma="koning" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="koning" word="Koning"/>
+                  <node begin="18" cat="mwu" end="20" id="26" rel="app">
+                    <node begin="18" end="19" id="27" lemma="Leopold" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Leopold" spectype="deeleigen" word="Leopold"/>
+                    <node begin="19" end="20" id="28" lemma="I" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="I" spectype="deeleigen" word="I"/>
+                  </node>
+                </node>
+              </node>
+              <node begin="21" cat="np" end="25" id="29" rel="app">
+                <node begin="21" buiging="zonder" end="22" graad="basis" id="30" lemma="momenteel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="momenteel" word="momenteel"/>
+                <node begin="22" end="23" genus="zijd" getal="ev" graad="basis" id="31" lemma="koning" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="koning" word="koning"/>
+                <node begin="23" cat="mwu" end="25" id="32" rel="app">
+                  <node begin="23" end="24" id="33" lemma="Albert" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Albert" spectype="deeleigen" word="Albert"/>
+                  <node begin="24" end="25" id="34" lemma="II" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="II" spectype="deeleigen" word="II"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="6" cat="np" end="25" id="35" rel="cnj">
+          <node begin="6" end="7" id="36" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="7" buiging="met-e" end="8" graad="basis" id="37" lemma="constitutioneel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="constitutioneel" word="constitutionele"/>
+          <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="38" lemma="monarchie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="monarchie" word="monarchie"/>
+          <node begin="9" end="25" id="39" index="1" rel="mod"/>
+        </node>
+      </node>
+    </node>
+    <node begin="25" end="26" id="40" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>België is een federaal land en een constitutionele monarchie met aan het hoofd een rechtstreeks afstammeling van Koning Leopold I , momenteel koning Albert II .</sentence>
+</alpino_ds>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="smain" end="13" id="1" rel="--">
+      <node begin="2" end="3" id="2" lemma="worden" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="word" word="werden" wvorm="pv"/>
+      <node begin="3" cat="np" end="5" id="3" index="1" rel="su">
+        <node begin="3" buiging="met-e" end="4" id="4" lemma="bepalen" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="bepaald" word="bepaalde" wvorm="vd"/>
+        <node begin="4" end="5" getal="mv" graad="basis" id="5" lemma="element" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="element" word="elementen"/>
+      </node>
+      <node begin="0" cat="ppart" end="13" id="6" rel="vc">
+        <node begin="0" cat="mwu" end="2" id="7" rel="mod">
+          <node begin="0" end="1" id="8" lemma="te" pos="adv" postag="VZ(versm)" pt="vz" rel="mwp" root="Ten" vztype="versm" word="Ten"/>
+          <node begin="1" end="2" getal="ev" graad="basis" id="9" lemma="slot" naamval="dat" ntype="soort" pos="adv" postag="N(soort,ev,basis,dat)" pt="n" rel="mwp" root="slotte" word="slotte"/>
+        </node>
+        <node begin="3" end="5" id="10" index="1" rel="obj1"/>
+        <node begin="5" buiging="zonder" end="6" id="11" lemma="aan_passen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="pas_aan" word="aangepast" wvorm="vd"/>
+        <node begin="6" cat="pp" end="13" id="12" rel="pc">
+          <node begin="6" end="7" id="13" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+          <node begin="7" cat="np" end="13" id="14" rel="obj1">
+            <node begin="7" end="8" id="15" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="8" buiging="met-e" end="9" graad="basis" id="16" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" word="nieuwe"/>
+            <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="17" lemma="regelgeving" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="regelgeving" word="regelgeving"/>
+            <node begin="10" cat="pp" end="13" id="18" rel="mod">
+              <node begin="10" end="11" id="19" lemma="inzake" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="inzake" vztype="init" word="inzake"/>
+              <node begin="11" cat="np" end="13" id="20" rel="obj1">
+                <node begin="11" buiging="zonder" end="12" graad="comp" id="21" lemma="hoog" pos="adj" positie="prenom" postag="ADJ(prenom,comp,zonder)" pt="adj" rel="mod" root="hoog" word="hoger"/>
+                <node begin="12" end="13" genus="onz" getal="ev" graad="basis" id="22" lemma="onderwijs" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="onderwijs" word="onderwijs"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="23" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Ten slotte werden bepaalde elementen aangepast aan de nieuwe regelgeving inzake hoger onderwijs .</sentence>
+</alpino_ds>

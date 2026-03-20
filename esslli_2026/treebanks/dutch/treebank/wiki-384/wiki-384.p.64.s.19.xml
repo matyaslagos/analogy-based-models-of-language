@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="6" end="7" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="9" id="3" rel="--">
+      <node begin="0" cat="mwu" end="2" id="4" rel="dp">
+        <node begin="0" end="1" id="5" lemma="Winnie" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Winnie" spectype="deeleigen" word="Winnie"/>
+        <node begin="1" end="2" id="6" lemma="Sorgdrager" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Sorgdrager" spectype="deeleigen" word="Sorgdrager"/>
+      </node>
+      <node begin="3" cat="np" end="9" id="7" rel="dp">
+        <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="8" lemma="minister" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="minister" word="minister"/>
+        <node begin="4" cat="pp" end="6" id="9" rel="mod">
+          <node begin="4" end="5" id="10" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="11" lemma="justitie" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="Justitie" word="Justitie"/>
+        </node>
+        <node begin="7" cat="mwu" end="9" id="12" rel="app">
+          <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="13" lemma="kabinet_Kok" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="kabinet_Kok" word="kabinet-Kok"/>
+          <node begin="8" end="9" id="14" lemma="I" pos="noun" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="I" spectype="deeleigen" word="I"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>Winnie Sorgdrager - minister van Justitie , kabinet-Kok I</sentence>
+</alpino_ds>

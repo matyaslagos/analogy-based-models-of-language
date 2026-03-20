@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="3" end="4" id="2" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="4" end="5" id="3" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="du" end="6" id="4" rel="--">
+      <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="5" lemma="CD&amp;V" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="nucl" root="CD&amp;V" word="CD&amp;V"/>
+      <node begin="2" cat="np" end="6" id="6" rel="sat">
+        <node begin="2" end="3" id="7" lemma="5" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="hd" root="5" word="5"/>
+        <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="8" lemma="ex_CVP" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" root="ex_CVP" word="ex-CVP"/>
+      </node>
+    </node>
+    <node begin="6" end="7" id="9" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+  </node>
+  <sentence>CD&amp;V : 5 - ( ex-CVP )</sentence>
+</alpino_ds>

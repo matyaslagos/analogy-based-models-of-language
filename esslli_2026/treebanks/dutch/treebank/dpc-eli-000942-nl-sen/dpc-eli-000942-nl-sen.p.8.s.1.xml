@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="11" end="12" id="2" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="smain" end="14" id="3" rel="--">
+      <node begin="0" end="1" genus="genus" getal="ev" graad="basis" id="4" lemma="Optruma" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="su" root="OPTRUMA" word="OPTRUMA"/>
+      <node begin="1" end="2" id="5" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+      <node begin="2" cat="np" end="14" id="6" rel="predc">
+        <node begin="2" buiging="met-e" end="3" graad="basis" id="7" lemma="geel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="geel" word="gele"/>
+        <node begin="4" buiging="met-e" end="5" graad="basis" id="8" lemma="ovaal_vormig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ovaal_vormig" word="ovaalvormige"/>
+        <node begin="5" end="6" getal="mv" graad="basis" id="9" lemma="tablet" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="tablet" word="tabletten"/>
+        <node begin="6" cat="pp" end="14" id="10" rel="mod">
+          <node begin="6" end="7" id="11" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+          <node begin="7" cat="np" end="14" id="12" rel="obj1">
+            <node begin="7" end="8" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="8" buiging="met-e" end="9" graad="basis" id="14" lemma="werkzaam" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="werkzaam" word="werkzame"/>
+            <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="15" lemma="stof" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="stof" word="stof"/>
+            <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="16" lemma="raloxifenehydrochloride" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="app" root="raloxifenehydrochloride" word="raloxifenehydrochloride"/>
+            <node begin="12" cat="np" end="14" id="17" rel="mod">
+              <node begin="12" end="13" id="18" lemma="60" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="60" word="60"/>
+              <node begin="13" end="14" id="19" lemma="mg" pos="noun" postag="SPEC(symb)" pt="spec" rel="hd" root="milli_gram" spectype="symb" word="mg"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="20" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="15" end="16" id="21" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>OPTRUMA zijn gele , ovaalvormige tabletten met de werkzame stof raloxifenehydrochloride ( 60 mg ) .</sentence>
+</alpino_ds>

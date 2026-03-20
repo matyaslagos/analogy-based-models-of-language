@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="5" end="6" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="8" id="3" rel="--">
+      <node begin="0" cat="mwu" end="2" id="4" rel="cnj">
+        <node begin="0" end="1" id="5" lemma="Harry" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Harry" spectype="deeleigen" word="Harry"/>
+        <node begin="1" end="2" id="6" lemma="Potter" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Potter" spectype="deeleigen" word="Potter"/>
+      </node>
+      <node begin="3" cat="mwu" end="5" id="7" rel="cnj">
+        <node begin="3" end="4" id="8" lemma="Albus" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Albus" spectype="deeleigen" word="Albus"/>
+        <node begin="4" end="5" id="9" lemma="Perkamentus" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Perkamentus" spectype="deeleigen" word="Perkamentus"/>
+      </node>
+      <node begin="6" cat="mwu" end="8" id="10" rel="cnj">
+        <node begin="6" end="7" id="11" lemma="Hermelien" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Hermelien" spectype="deeleigen" word="Hermelien"/>
+        <node begin="7" end="8" id="12" lemma="Griffel" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Griffel" spectype="deeleigen" word="Griffel"/>
+      </node>
+    </node>
+  </node>
+  <sentence>Harry Potter , Albus Perkamentus , Hermelien Griffel</sentence>
+</alpino_ds>

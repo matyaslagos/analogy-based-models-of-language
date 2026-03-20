@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="3" end="4" id="2" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="0" cat="du" end="7" id="3" rel="--">
+      <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="4" lemma="bron" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="nucl" root="Bron" word="Bron"/>
+      <node begin="2" cat="np" end="7" id="5" rel="sat">
+        <node begin="2" end="3" id="6" lemma="www.trendstop.be" pos="noun" postag="SPEC(symb)" pt="spec" rel="hd" root="www.trendstop.be" spectype="symb" word="www.trendstop.be"/>
+        <node begin="4" cat="du" end="7" id="7" rel="mod">
+          <node begin="4" cat="np" end="6" id="8" rel="dp">
+            <node begin="4" end="5" id="9" lemma="100.000" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="100.000" word="100.000"/>
+            <node begin="5" end="6" getal="mv" graad="basis" id="10" lemma="bedrijf" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="bedrijf" word="bedrijven"/>
+          </node>
+          <node begin="6" buiging="zonder" end="7" graad="basis" id="11" lemma="online" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="dp" root="online" word="online"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>Bron : www.trendstop.be - 100.000 bedrijven online</sentence>
+</alpino_ds>

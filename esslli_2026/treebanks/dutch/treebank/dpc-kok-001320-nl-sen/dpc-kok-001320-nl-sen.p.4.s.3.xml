@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="smain" end="15" id="1" rel="--">
+      <node begin="1" end="2" id="2" lemma="hebben" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="heb" word="heb" wvorm="pv"/>
+      <node begin="2" end="3" getal="ev" id="3" index="1" lemma="ik" naamval="nomin" pdtype="pron" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,vol,1,ev)" pt="vnw" rel="su" root="ik" status="vol" vwtype="pers" word="ik"/>
+      <node begin="0" cat="ppart" end="15" id="4" rel="vc">
+        <node begin="0" end="1" id="5" lemma="vannacht" pos="adv" postag="BW()" pt="bw" rel="mod" root="vannacht" word="Vannacht"/>
+        <node begin="2" end="3" id="6" index="1" rel="su"/>
+        <node begin="3" cat="np" end="6" id="7" rel="obj2">
+          <node begin="3" end="4" id="8" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="4" buiging="met-e" end="5" graad="basis" id="9" lemma="naast" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="naast" word="naaste"/>
+          <node begin="5" end="6" getal="mv" graad="basis" id="10" lemma="familie_lid" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="familie_lid" word="familieleden"/>
+        </node>
+        <node begin="6" cat="pp" end="10" id="11" rel="mod">
+          <node begin="6" end="7" id="12" lemma="namens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="namens" vztype="init" word="namens"/>
+          <node begin="7" cat="np" end="10" id="13" rel="obj1">
+            <node begin="7" end="8" id="14" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="8" buiging="met-e" end="9" graad="basis" id="15" lemma="Nederlands" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Nederlands" word="Nederlandse"/>
+            <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="16" lemma="regering" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="regering" word="regering"/>
+          </node>
+        </node>
+        <node begin="10" end="11" id="17" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+        <node begin="11" buiging="zonder" end="12" graad="basis" id="18" lemma="persoonlijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="persoonlijk" word="persoonlijk"/>
+        <node begin="12" cat="np" end="14" id="19" rel="obj1">
+          <node begin="12" buiging="zonder" end="13" getal="ev" id="20" lemma="mijn" naamval="stan" npagr="agr" pdtype="det" persoon="1" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,1,ev,prenom,zonder,agr)" pt="vnw" rel="det" root="mijn" status="vol" vwtype="bez" word="mijn"/>
+          <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="21" lemma="deelneming" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="deelneming" word="deelneming"/>
+        </node>
+        <node begin="14" buiging="zonder" end="15" id="22" lemma="betuigen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="betuig" word="betuigd" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="15" end="16" id="23" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Vannacht heb ik de naaste familieleden namens de Nederlandse regering ook persoonlijk mijn deelneming betuigd .</sentence>
+</alpino_ds>

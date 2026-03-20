@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="conj" end="4" id="2" index="1" rel="su">
+        <node begin="0" cat="np" end="2" id="3" rel="cnj">
+          <node begin="0" buiging="met-e" end="1" graad="basis" id="4" index="2" lemma="Westers" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Westers" word="Westerse"/>
+          <node begin="1" end="2" getal="mv" graad="basis" id="5" lemma="belang" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="belang" word="belangen"/>
+        </node>
+        <node begin="2" conjtype="neven" end="3" id="6" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="0" cat="np" end="4" id="7" rel="cnj">
+          <node begin="0" end="1" id="8" index="2" rel="mod"/>
+          <node begin="3" end="4" getal="mv" graad="basis" id="9" lemma="vertegenwoordiger" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vertegenwoordiger" word="vertegenwoordigers"/>
+        </node>
+      </node>
+      <node begin="4" end="5" id="10" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="8" id="11" rel="vc">
+        <node begin="0" end="4" id="12" index="1" rel="su"/>
+        <node begin="5" end="6" id="13" lemma="tevens" pos="adv" postag="BW()" pt="bw" rel="mod" root="tevens" word="tevens"/>
+        <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="14" lemma="doelwit" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="predc" root="doelwit" word="doelwit"/>
+        <node begin="7" buiging="zonder" end="8" id="15" lemma="zijn" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="ben" word="geweest" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="16" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Westerse belangen en vertegenwoordigers zijn tevens doelwit geweest .</sentence>
+</alpino_ds>

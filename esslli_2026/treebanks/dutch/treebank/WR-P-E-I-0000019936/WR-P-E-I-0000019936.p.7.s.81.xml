@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="38" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="17" end="18" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="30" end="31" id="3" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="smain" end="36" id="4" rel="--">
+      <node begin="0" cat="np" end="17" id="5" index="1" rel="su">
+        <node begin="0" end="1" id="6" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+        <node begin="1" buiging="met-e" end="2" graad="basis" id="7" lemma="rap-achtig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="rap-achtige" word="rap-achtige"/>
+        <node begin="2" end="3" id="8" lemma="één" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="eerste" word="eerste"/>
+        <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="9" lemma="nummer" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="nummer" word="nummer"/>
+        <node begin="4" cat="mwu" end="7" id="10" rel="app">
+          <node begin="4" end="5" id="11" lemma="Subterranean" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Subterranean" spectype="deeleigen" word="Subterranean"/>
+          <node begin="5" end="6" id="12" lemma="Homesick" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Homesick" spectype="deeleigen" word="Homesick"/>
+          <node begin="6" end="7" id="13" lemma="Blues" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Blues" spectype="deeleigen" word="Blues"/>
+        </node>
+        <node begin="8" cat="ap" end="17" id="14" rel="mod">
+          <node begin="8" end="9" id="15" lemma="enigszins" pos="adv" postag="BW()" pt="bw" rel="mod" root="enigszins" word="enigszins"/>
+          <node begin="9" buiging="zonder" end="10" graad="basis" id="16" lemma="schatplichtig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="schatplichtig" word="schatplichtig"/>
+          <node begin="10" cat="pp" end="17" id="17" rel="pc">
+            <node begin="10" end="11" id="18" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+            <node begin="11" cat="np" end="17" id="19" rel="obj1">
+              <node begin="11" cat="mwu" end="13" id="20" rel="det">
+                <node begin="11" end="12" id="21" lemma="Chuck" pos="det" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Chuck" spectype="deeleigen" word="Chuck"/>
+                <node begin="12" end="13" getal="ev" graad="basis" id="22" lemma="Berry" naamval="gen" ntype="eigen" pos="det" postag="N(eigen,ev,basis,gen)" pt="n" rel="mwp" root="Berry" word="Berry&apos;s"/>
+              </node>
+              <node begin="13" cat="mwu" end="17" id="23" rel="hd">
+                <node begin="13" end="14" id="24" lemma="Too" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Too" spectype="vreemd" word="Too"/>
+                <node begin="14" end="15" id="25" lemma="Much" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Much" spectype="vreemd" word="Much"/>
+                <node begin="15" end="16" id="26" lemma="Monkey" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Monkey" spectype="vreemd" word="Monkey"/>
+                <node begin="16" end="17" id="27" lemma="Business" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Business" spectype="vreemd" word="Business"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="18" end="19" id="28" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="0" cat="ti" end="36" id="29" rel="vc">
+        <node begin="19" end="20" id="30" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+        <node begin="0" cat="inf" end="36" id="31" rel="body">
+          <node begin="0" end="17" id="32" index="1" rel="obj1"/>
+          <node begin="20" buiging="zonder" end="21" id="33" lemma="zien" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="zie" word="zien" wvorm="inf"/>
+          <node begin="21" cat="conj" end="36" id="34" rel="mod">
+            <node begin="21" cat="pp" end="30" id="35" rel="cnj">
+              <node begin="21" end="22" id="36" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+              <node begin="22" cat="np" end="30" id="37" rel="obj1">
+                <node begin="22" end="23" id="38" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                <node begin="23" end="24" genus="onz" getal="ev" graad="basis" id="39" lemma="begin" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="begin" word="begin"/>
+                <node begin="24" cat="pp" end="30" id="40" rel="mod">
+                  <node begin="24" end="25" id="41" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                  <node begin="25" cat="np" end="30" id="42" rel="obj1">
+                    <node begin="25" cat="mwu" end="27" id="43" rel="det">
+                      <node begin="25" end="26" id="44" lemma="D.A." pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="D.A." spectype="deeleigen" word="D.A."/>
+                      <node begin="26" end="27" getal="ev" graad="basis" id="45" lemma="Pennebakers" naamval="gen" ntype="eigen" pos="name" postag="N(eigen,ev,basis,gen)" pt="n" rel="mwp" root="Pennebaker" word="Pennebakers"/>
+                    </node>
+                    <node begin="27" cat="mwu" end="30" id="46" rel="hd">
+                      <node begin="27" end="28" id="47" lemma="Don&apos;t" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Don&apos;t" spectype="vreemd" word="Don&apos;t"/>
+                      <node begin="28" end="29" id="48" lemma="Look" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Look" spectype="vreemd" word="Look"/>
+                      <node begin="29" end="30" id="49" lemma="Back" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Back" spectype="vreemd" word="Back"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node begin="31" conjtype="neven" end="32" id="50" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="32" cat="ap" end="36" id="51" rel="cnj">
+              <node begin="32" buiging="zonder" end="33" graad="basis" id="52" lemma="veel" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,basis)" pt="vnw" rel="mod" root="veel" vwtype="onbep" word="veel"/>
+              <node begin="33" buiging="zonder" end="34" graad="comp" id="53" lemma="laat" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="laat" word="later"/>
+              <node begin="34" cat="pp" end="36" id="54" rel="mod">
+                <node begin="34" end="35" id="55" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+                <node begin="35" end="36" genus="zijd" getal="ev" graad="basis" id="56" lemma="MTV" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" root="MTV" word="MTV"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="36" end="37" id="57" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="37" end="38" id="58" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het rap-achtige eerste nummer Subterranean Homesick Blues , enigszins schatplichtig aan Chuck Berry&apos;s Too Much Monkey Business , is te zien in het begin van D.A. Pennebakers Don&apos;t Look Back ( en veel later op MTV ) .</sentence>
+</alpino_ds>

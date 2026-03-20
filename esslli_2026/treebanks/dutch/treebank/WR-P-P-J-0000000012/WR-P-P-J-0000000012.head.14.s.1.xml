@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="du" end="13" id="1" rel="--">
+      <node begin="0" end="1" id="2" lemma="3" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="tag" root="3" word="3"/>
+      <node begin="1" cat="np" end="13" id="3" rel="nucl">
+        <node begin="1" buiging="met-e" end="2" graad="basis" id="4" lemma="recent" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="recent" word="Recente"/>
+        <node begin="2" buiging="met-e" end="3" graad="basis" id="5" lemma="Vlaams" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Vlaams" word="Vlaamse"/>
+        <node begin="3" end="4" getal="mv" graad="basis" id="6" lemma="bijdrage" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="bijdrage" word="bijdragen"/>
+        <node begin="4" cat="pp" end="8" id="7" rel="mod">
+          <node begin="4" end="5" id="8" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" vztype="init" word="tot"/>
+          <node begin="5" cat="np" end="8" id="9" rel="obj1">
+            <node begin="5" end="6" id="10" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="6" buiging="met-e" end="7" graad="basis" id="11" lemma="duurzaam" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="duurzaam" word="duurzame"/>
+            <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="12" lemma="ontwikkeling_beleid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="ontwikkeling_beleid" word="ontwikkelingsbeleid"/>
+          </node>
+        </node>
+        <node begin="8" cat="pp" end="13" id="13" rel="mod">
+          <node begin="8" end="9" id="14" lemma="vanuit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="vanuit" vztype="init" word="vanuit"/>
+          <node begin="9" cat="conj" end="13" id="15" rel="obj1">
+            <node begin="9" cat="np" end="11" id="16" rel="cnj">
+              <node begin="9" end="10" id="17" index="1" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="10" end="11" id="18" lemma="adviesraden-" pos="prefix" postag="SPEC(afgebr)" pt="spec" rel="hd" root="adviesraden" spectype="afgebr" word="adviesraden-"/>
+            </node>
+            <node begin="11" conjtype="neven" end="12" id="19" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="9" cat="np" end="13" id="20" rel="cnj">
+              <node begin="9" end="10" id="21" index="1" rel="det"/>
+              <node begin="12" end="13" genus="onz" getal="ev" graad="basis" id="22" lemma="middenveld" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="middenveld" word="middenveld"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>3 Recente Vlaamse bijdragen tot een duurzame ontwikkelingsbeleid vanuit het adviesraden- en middenveld</sentence>
+</alpino_ds>

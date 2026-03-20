@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="pp" end="4" id="2" rel="mod">
+        <node begin="0" end="1" id="3" lemma="volgens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="volgens" vztype="init" word="Volgens"/>
+        <node begin="1" cat="np" end="4" id="4" rel="obj1">
+          <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="5" lemma="minister" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="minister" word="minister"/>
+          <node begin="2" cat="mwu" end="4" id="6" rel="app">
+            <node begin="2" end="3" id="7" lemma="De" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="De" spectype="deeleigen" word="De"/>
+            <node begin="3" end="4" id="8" lemma="Geus" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Geus" spectype="deeleigen" word="Geus"/>
+          </node>
+        </node>
+      </node>
+      <node begin="4" end="5" id="9" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+      <node begin="5" cat="np" end="7" id="10" rel="su">
+        <node begin="5" buiging="zonder" end="6" graad="comp" id="11" lemma="lang" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="lang" word="langer"/>
+        <node begin="6" buiging="zonder" end="7" getal-n="zonder-n" id="12" lemma="werken" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="werk" word="werken" wvorm="inf"/>
+      </node>
+      <node begin="7" buiging="zonder" end="8" graad="basis" id="13" lemma="onvermijdelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="onvermijdelijk" word="onvermijdelijk"/>
+    </node>
+  </node>
+  <sentence>Volgens minister De Geus wordt langer werken onvermijdelijk</sentence>
+</alpino_ds>

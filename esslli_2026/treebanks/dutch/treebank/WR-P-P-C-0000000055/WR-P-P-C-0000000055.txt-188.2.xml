@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="17" id="2" rel="--">
+      <node begin="0" cat="cp" end="5" id="3" rel="mod">
+        <node begin="0" conjtype="onder" end="1" id="4" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="Als"/>
+        <node begin="1" cat="ssub" end="5" id="5" rel="body">
+          <node begin="1" end="2" genus="masc" getal="ev" id="6" lemma="men" naamval="nomin" pdtype="pron" persoon="3p" pos="pron" postag="VNW(pers,pron,nomin,red,3p,ev,masc)" pt="vnw" rel="su" root="men" status="red" vwtype="pers" word="men"/>
+          <node begin="2" cat="np" end="4" id="7" rel="obj1">
+            <node begin="2" end="3" id="8" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="9" lemma="arbeid_overeenkomst" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="arbeid_overeenkomst" word="arbeidsovereenkomst"/>
+          </node>
+          <node begin="4" end="5" id="10" lemma="op_zeggen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="zeg_op" word="opzegt" wvorm="pv"/>
+        </node>
+      </node>
+      <node begin="6" end="7" id="11" lemma="mee_delen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="deel_mee" word="deelt" wvorm="pv"/>
+      <node begin="7" end="8" genus="masc" getal="ev" id="12" index="1" lemma="men" naamval="nomin" pdtype="pron" persoon="3p" pos="pron" postag="VNW(pers,pron,nomin,red,3p,ev,masc)" pt="vnw" rel="su" root="men" status="red" vwtype="pers" word="men"/>
+      <node begin="8" cat="np" end="11" id="13" rel="obj2">
+        <node begin="8" end="9" id="14" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="9" buiging="met-e" end="10" graad="basis" id="15" lemma="ander" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ander" word="andere"/>
+        <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="16" lemma="partij" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="partij" word="partij"/>
+      </node>
+      <node begin="11" end="12" id="17" lemma="mee" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="mee" vztype="fin" word="mee"/>
+      <node begin="7" cat="ti" end="17" id="18" rel="vc">
+        <node begin="14" end="15" id="19" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+        <node begin="7" cat="inf" end="17" id="20" rel="body">
+          <node begin="7" end="8" id="21" index="1" rel="su"/>
+          <node begin="15" buiging="zonder" end="16" id="22" lemma="willen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="wil" word="willen" wvorm="inf"/>
+          <node begin="7" cat="inf" end="17" id="23" rel="vc">
+            <node begin="7" end="8" id="24" index="1" rel="su"/>
+            <node begin="12" cat="np" end="14" id="25" rel="obj1">
+              <node begin="12" end="13" id="26" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="27" lemma="werk_verband" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="werk_verband" word="werkverband"/>
+            </node>
+            <node begin="16" buiging="zonder" end="17" id="28" lemma="beëindigen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="beëindig" word="beëindigen" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="29" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Als men een arbeidsovereenkomst opzegt , deelt men de andere partij mee het werkverband te willen beëindigen .</sentence>
+</alpino_ds>

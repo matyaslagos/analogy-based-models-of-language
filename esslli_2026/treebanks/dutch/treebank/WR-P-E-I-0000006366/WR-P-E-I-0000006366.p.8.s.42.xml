@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="13" id="2" rel="--">
+      <node begin="1" end="2" id="3" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" word="kan" wvorm="pv"/>
+      <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="4" index="1" lemma="vee" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="su" root="vee" word="vee"/>
+      <node begin="0" cat="inf" end="13" id="5" rel="vc">
+        <node begin="4" end="5" id="6" index="1" rel="su"/>
+        <node begin="5" buiging="zonder" end="6" id="7" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+        <node begin="0" cat="ppart" end="13" id="8" rel="vc">
+          <node begin="0" end="1" id="9" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="Ook"/>
+          <node begin="2" end="3" getal="getal" id="10" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+          <node begin="3" buiging="zonder" end="4" graad="basis" id="11" lemma="goed" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="goed" word="goed"/>
+          <node begin="4" end="5" id="12" index="1" rel="obj1"/>
+          <node begin="6" buiging="zonder" end="7" id="13" lemma="houden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="houd" word="gehouden" wvorm="vd"/>
+          <node begin="8" cat="cp" end="13" id="14" rel="mod">
+            <node begin="8" conjtype="onder" end="9" id="15" lemma="omdat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="omdat" word="omdat"/>
+            <node begin="9" cat="ssub" end="13" id="16" rel="body">
+              <node begin="9" end="10" getal="getal" id="17" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+              <node begin="10" cat="np" end="12" id="18" rel="su">
+                <node begin="10" buiging="met-e" end="11" graad="basis" id="19" lemma="grazig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="grazige" word="grazige"/>
+                <node begin="11" end="12" getal="mv" graad="basis" id="20" lemma="weide" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="weide" word="weiden"/>
+              </node>
+              <node begin="12" end="13" id="21" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Ook kan er goed vee worden gehouden , omdat er grazige weiden zijn .</sentence>
+</alpino_ds>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="*" pos="tag" postag="LET()" pt="let" rel="--" root="*" word="*"/>
+    <node begin="1" cat="smain" end="10" id="2" rel="--">
+      <node begin="1" cat="mwu" end="3" id="3" rel="su">
+        <node begin="1" end="2" id="4" lemma="Les" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Les" spectype="vreemd" word="Les"/>
+        <node begin="2" end="3" id="5" lemma="flamandes" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="flamandes" spectype="vreemd" word="flamandes"/>
+      </node>
+      <node begin="3" end="4" id="6" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="4" cat="np" end="10" id="7" rel="predc">
+        <node begin="4" end="5" id="8" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+        <node begin="5" end="6" id="9" lemma="één" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="eerste" word="eerste"/>
+        <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="10" lemma="Brel_chanson" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="Brel_chanson" word="Brel-chanson"/>
+        <node begin="7" cat="rel" end="10" id="11" rel="mod">
+          <node begin="7" end="8" getal="ev" id="12" index="1" lemma="dat" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(betr,pron,stan,vol,3,ev)" pt="vnw" rel="rhd" root="dat" status="vol" vwtype="betr" word="dat"/>
+          <node begin="7" cat="ssub" end="10" id="13" rel="body">
+            <node begin="7" end="8" id="14" index="1" rel="su"/>
+            <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="15" lemma="controverse" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="controverse" word="controverse"/>
+            <node begin="9" end="10" id="16" lemma="veroorzaken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="veroorzaak" word="veroorzaakte" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="10" end="11" id="17" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>* Les flamandes is het eerste Brel-chanson dat controverse veroorzaakte .</sentence>
+</alpino_ds>

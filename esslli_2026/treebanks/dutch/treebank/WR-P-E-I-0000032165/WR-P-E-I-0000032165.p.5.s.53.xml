@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="23" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="13" end="14" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="22" id="3" rel="--">
+      <node begin="0" cat="np" end="2" id="4" rel="su">
+        <node begin="0" end="1" getal="mv" graad="basis" id="5" lemma="reden" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="reden" word="Redenen"/>
+        <node begin="1" end="2" id="6" lemma="hiervoor" pos="pp" postag="BW()" pt="bw" rel="mod" root="hiervoor" word="hiervoor"/>
+      </node>
+      <node begin="2" end="3" id="7" lemma="zijn" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="ben" word="waren" wvorm="pv"/>
+      <node begin="3" cat="conj" end="22" id="8" rel="predc">
+        <node begin="4" conjtype="neven" end="5" id="9" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="3" cat="np" end="22" id="10" rel="cnj">
+          <node begin="3" end="4" getal="mv" graad="basis" id="11" lemma="oorlog" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="oorlog" word="oorlogen"/>
+          <node begin="6" cat="pp" end="22" id="12" index="1" rel="mod">
+            <node begin="6" end="7" id="13" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+            <node begin="7" cat="np" end="22" id="14" rel="obj1">
+              <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="15" lemma="China" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="China" word="China"/>
+              <node begin="9" cat="rel" end="22" id="16" rel="mod">
+                <node begin="9" end="10" getal="ev" id="17" index="2" lemma="dat" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(betr,pron,stan,vol,3,ev)" pt="vnw" rel="rhd" root="dat" status="vol" vwtype="betr" word="dat"/>
+                <node begin="9" cat="conj" end="22" id="18" rel="body">
+                  <node begin="9" cat="ssub" end="13" id="19" rel="cnj">
+                    <node begin="9" end="10" id="20" index="2" rel="su"/>
+                    <node begin="10" cat="pp" end="12" id="21" rel="obj2">
+                      <node begin="10" end="11" id="22" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+                      <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="23" lemma="Europa" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Europa" word="Europa"/>
+                    </node>
+                    <node begin="12" end="13" id="24" lemma="verkopen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="verkoop" word="verkocht" wvorm="pv"/>
+                  </node>
+                  <node begin="14" conjtype="neven" end="15" id="25" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+                  <node begin="9" cat="ssub" end="22" id="26" rel="cnj">
+                    <node begin="9" end="10" id="27" index="2" rel="su"/>
+                    <node begin="15" end="16" id="28" lemma="zelf" pos="adv" postag="BW()" pt="bw" rel="predm" root="zelf" word="zelf"/>
+                    <node begin="18" end="19" id="29" lemma="hebben" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="heb" word="had" wvorm="pv"/>
+                    <node begin="16" cat="np" end="22" id="30" rel="obj1">
+                      <node begin="16" buiging="zonder" end="17" graad="basis" id="31" lemma="weinig" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,basis)" pt="vnw" rel="det" root="weinig" vwtype="onbep" word="weinig"/>
+                      <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="32" lemma="behoefte" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="behoefte" word="behoefte"/>
+                      <node begin="19" cat="pp" end="22" id="33" rel="mod">
+                        <node begin="19" end="20" id="34" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+                        <node begin="20" cat="np" end="22" id="35" rel="obj1">
+                          <node begin="20" buiging="met-e" end="21" graad="basis" id="36" lemma="Europees" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Europees" word="Europese"/>
+                          <node begin="21" end="22" getal="mv" graad="basis" id="37" lemma="goed" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="goed" word="goederen"/>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="5" cat="np" end="22" id="38" rel="cnj">
+          <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="39" lemma="handel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="handel" word="handel"/>
+          <node begin="6" end="22" id="40" index="1" rel="mod"/>
+        </node>
+      </node>
+    </node>
+    <node begin="22" end="23" id="41" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Redenen hiervoor waren oorlogen en handel met China , dat aan Europa verkocht , maar zelf weinig behoefte had aan Europese goederen .</sentence>
+</alpino_ds>

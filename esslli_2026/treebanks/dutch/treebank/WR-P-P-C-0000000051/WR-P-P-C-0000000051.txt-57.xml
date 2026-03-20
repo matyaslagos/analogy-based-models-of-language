@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="6" end="7" id="2" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" word="worden" wvorm="pv"/>
+      <node begin="7" cat="np" end="10" id="3" index="1" rel="su">
+        <node begin="7" cat="ppres" end="9" id="4" rel="mod">
+          <node begin="7" buiging="zonder" end="8" graad="basis" id="5" lemma="abnormaal" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="abnormaal" word="abnormaal"/>
+          <node begin="8" buiging="met-e" end="9" id="6" lemma="functioneren" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="hd" root="functioneer" word="functionerende" wvorm="od"/>
+        </node>
+        <node begin="9" end="10" getal="mv" graad="basis" id="7" lemma="hersen_cel" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="hersen_cel" word="hersencellen"/>
+      </node>
+      <node begin="0" cat="ppart" end="11" id="8" rel="vc">
+        <node begin="0" cat="pp" end="6" id="9" rel="ld">
+          <node begin="0" end="1" id="10" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+          <node begin="1" cat="np" end="6" id="11" rel="obj1">
+            <node begin="1" end="2" id="12" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="13" lemma="rand" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="rand" word="rand"/>
+            <node begin="3" cat="pp" end="6" id="14" rel="mod">
+              <node begin="3" end="4" id="15" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="4" cat="np" end="6" id="16" rel="obj1">
+                <node begin="4" end="5" id="17" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="18" lemma="litteken" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="litteken" word="litteken"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="7" end="10" id="19" index="1" rel="obj1"/>
+        <node begin="10" buiging="zonder" end="11" id="20" lemma="aan_treffen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="tref_aan" word="aangetroffen" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="11" end="12" id="21" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>In de rand van het litteken worden abnormaal functionerende hersencellen aangetroffen .</sentence>
+</alpino_ds>

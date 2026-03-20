@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="du" end="15" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" word="Maar"/>
+      <node begin="1" cat="smain" end="15" id="3" rel="nucl">
+        <node begin="4" end="5" id="4" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" word="kan" wvorm="pv"/>
+        <node begin="5" end="6" genus="onz" getal="ev" id="5" index="1" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" root="het" status="red" vwtype="pers" word="het"/>
+        <node begin="1" cat="inf" end="15" id="6" rel="vc">
+          <node begin="1" cat="pp" end="4" id="7" rel="mod">
+            <node begin="1" end="2" id="8" lemma="volgens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="volgens" vztype="init" word="volgens"/>
+            <node begin="2" cat="np" end="4" id="9" rel="obj1">
+              <node begin="2" end="3" id="10" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="11" lemma="lijkschouwer" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="lijkschouwer" word="lijkschouwer"/>
+            </node>
+          </node>
+          <node begin="5" end="6" id="12" index="1" rel="su"/>
+          <node begin="6" end="7" id="13" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" word="nog"/>
+          <node begin="7" end="8" getal="mv" graad="basis" id="14" lemma="week" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="me" root="week" word="weken"/>
+          <node begin="8" buiging="zonder" end="9" id="15" lemma="duren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="duur" word="duren" wvorm="inf"/>
+          <node begin="9" cat="cp" end="15" id="16" rel="mod">
+            <node begin="9" conjtype="onder" end="10" id="17" lemma="voordat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="voordat" word="voordat"/>
+            <node begin="10" cat="ssub" end="15" id="18" rel="body">
+              <node begin="10" cat="np" end="13" id="19" rel="su">
+                <node begin="10" end="11" id="20" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="11" buiging="met-e" end="12" graad="basis" id="21" lemma="exact" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="exact" word="exacte"/>
+                <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="22" lemma="dood_oorzaak" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="dood_oorzaak" word="doodsoorzaak"/>
+              </node>
+              <node begin="13" buiging="zonder" end="14" graad="basis" id="23" lemma="bekend" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="bekend" word="bekend"/>
+              <node begin="14" end="15" id="24" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="25" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Maar volgens de lijkschouwer kan het nog weken duren voordat de exacte doodsoorzaak bekend is .</sentence>
+</alpino_ds>

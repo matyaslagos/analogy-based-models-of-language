@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="40" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="7" end="8" id="2" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="9" end="10" id="3" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="12" end="13" id="4" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="14" end="15" id="5" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="36" end="37" id="6" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="1" cat="np" end="39" id="7" rel="--">
+      <node begin="1" end="2" getal="mv" graad="basis" id="8" lemma="vraag" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vraag" word="Vragen"/>
+      <node begin="2" cat="pp" end="14" id="9" rel="mod">
+        <node begin="2" end="3" id="10" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+        <node begin="3" cat="np" end="14" id="11" rel="obj1">
+          <node begin="3" end="4" id="12" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="4" end="5" getal="mv" graad="basis" id="13" lemma="lid" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="lid" word="leden"/>
+          <node begin="5" cat="conj" end="14" id="14" rel="app">
+            <node begin="5" cat="np" end="9" id="15" rel="cnj">
+              <node begin="5" cat="mwu" end="7" id="16" rel="hd">
+                <node begin="5" end="6" id="17" lemma="Van" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Van" spectype="deeleigen" word="Van"/>
+                <node begin="6" end="7" id="18" lemma="Dam" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Dam" spectype="deeleigen" word="Dam"/>
+              </node>
+              <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="19" lemma="PvdA" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" root="PvdA" word="PvdA"/>
+            </node>
+            <node begin="10" conjtype="neven" end="11" id="20" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="11" cat="np" end="14" id="21" rel="cnj">
+              <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="22" lemma="Vendrix" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Vendrix" word="Vendrix"/>
+              <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="23" lemma="GroenLinks" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="mod" root="GroenLinks" word="GroenLinks"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="15" cat="pp" end="23" id="24" rel="mod">
+        <node begin="15" end="16" id="25" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+        <node begin="16" cat="np" end="23" id="26" rel="obj1">
+          <node begin="16" end="17" id="27" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="17" end="18" getal="mv" graad="basis" id="28" lemma="minister" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="minister" word="ministers"/>
+          <node begin="18" cat="pp" end="23" id="29" rel="mod">
+            <node begin="18" end="19" id="30" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="19" cat="conj" end="23" id="31" rel="obj1">
+              <node begin="19" end="20" getal="mv" graad="basis" id="32" lemma="financiën" ntype="soort" pos="name" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="Financiën" word="Financiën"/>
+              <node begin="20" conjtype="neven" end="21" id="33" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="21" cat="mwu" end="23" id="34" rel="cnj">
+                <node begin="21" buiging="met-e" end="22" graad="basis" id="35" lemma="economisch" naamval="stan" pos="name" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mwp" root="Economische" word="Economische"/>
+                <node begin="22" end="23" getal="mv" graad="basis" id="36" lemma="zaak" ntype="soort" pos="name" postag="N(soort,mv,basis)" pt="n" rel="mwp" root="Zaken" word="Zaken"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="23" cat="pp" end="32" id="37" rel="mod">
+        <node begin="23" end="24" id="38" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" vztype="init" word="over"/>
+        <node begin="24" cat="np" end="32" id="39" rel="obj1">
+          <node begin="24" end="25" id="40" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="25" buiging="met-e" end="26" graad="basis" id="41" lemma="mogelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="mogelijk" word="mogelijke"/>
+          <node begin="26" end="27" genus="zijd" getal="ev" graad="basis" id="42" lemma="overname" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="overname" word="overname"/>
+          <node begin="27" cat="pp" end="30" id="43" rel="mod">
+            <node begin="27" end="28" id="44" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="28" cat="mwu" end="30" id="45" rel="obj1">
+              <node begin="28" end="29" id="46" lemma="O2" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="O2" spectype="deeleigen" word="O2"/>
+              <node begin="29" end="30" id="47" lemma="Duitsland" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Duitsland" spectype="deeleigen" word="Duitsland"/>
+            </node>
+          </node>
+          <node begin="30" cat="pp" end="32" id="48" rel="mod">
+            <node begin="30" end="31" id="49" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+            <node begin="31" end="32" genus="zijd" getal="ev" graad="basis" id="50" lemma="KPN" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" root="KPN" word="KPN"/>
+          </node>
+        </node>
+      </node>
+      <node begin="32" cat="ppart" end="36" id="51" rel="mod">
+        <node begin="32" buiging="zonder" end="33" id="52" lemma="in_zenden" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="ingezonden" word="ingezonden" wvorm="vd"/>
+        <node begin="33" cat="mwu" end="36" id="53" rel="mod">
+          <node begin="33" end="34" id="54" lemma="4" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="4" word="4"/>
+          <node begin="34" end="35" genus="zijd" getal="ev" graad="basis" id="55" lemma="april" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="april" word="april"/>
+          <node begin="35" end="36" id="56" lemma="2003" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="2003" word="2003"/>
+        </node>
+      </node>
+      <node begin="37" cat="np" end="39" id="57" rel="mod">
+        <node begin="37" end="38" id="58" lemma="nummer" pos="noun" postag="SPEC(afk)" pt="spec" rel="hd" root="nummer" spectype="afk" word="nr."/>
+        <node begin="38" end="39" id="59" lemma="1274" pos="num" postag="SPEC(symb)" pt="spec" rel="app" root="1274" spectype="symb" word="1274"/>
+      </node>
+    </node>
+    <node begin="39" end="40" id="60" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+  </node>
+  <sentence>- Vragen van de leden Van Dam ( PvdA ) en Vendrix ( GroenLinks ) aan de ministers van Financiën en Economische Zaken over de mogelijke overname van O2 Duitsland door KPN ingezonden 4 april 2003 ( nr. 1274 )</sentence>
+</alpino_ds>

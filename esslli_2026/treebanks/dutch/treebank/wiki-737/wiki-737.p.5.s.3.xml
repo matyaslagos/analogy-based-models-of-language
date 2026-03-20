@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="11" end="12" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="15" end="16" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="20" id="3" rel="--">
+      <node begin="0" buiging="zonder" end="1" graad="basis" id="4" lemma="vreemd" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="vreemd" word="Vreemd"/>
+      <node begin="1" end="2" id="5" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="2" end="3" genus="onz" getal="ev" id="6" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="noun" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="sup" root="het" status="red" vwtype="pers" word="het"/>
+      <node begin="3" end="4" id="7" lemma="dan" pos="adv" postag="BW()" pt="bw" rel="mod" root="dan" word="dan"/>
+      <node begin="4" end="5" id="8" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+      <node begin="5" end="6" id="9" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+      <node begin="6" cat="cp" end="20" id="10" rel="su">
+        <node begin="6" conjtype="onder" end="7" id="11" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+        <node begin="7" cat="ssub" end="20" id="12" rel="body">
+          <node begin="7" cat="np" end="15" id="13" rel="su">
+            <node begin="7" buiging="met-e" end="8" getal-n="mv-n" graad="basis" id="14" lemma="groot" pos="adj" positie="nom" postag="ADJ(nom,basis,met-e,mv-n)" pt="adj" rel="hd" root="groot" word="groten"/>
+            <node begin="8" cat="pp" end="11" id="15" rel="mod">
+              <node begin="8" end="9" id="16" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" vztype="init" word="uit"/>
+              <node begin="9" cat="np" end="11" id="17" rel="obj1">
+                <node begin="9" end="10" id="18" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="19" lemma="film_wereld" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="film_wereld" word="filmwereld"/>
+              </node>
+            </node>
+            <node begin="12" cat="cp" end="15" id="20" rel="mod">
+              <node begin="12" conjtype="onder" end="13" id="21" lemma="zoals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zoals" word="zoals"/>
+              <node begin="13" cat="mwu" end="15" id="22" rel="body">
+                <node begin="13" end="14" id="23" lemma="Steven" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Steven" spectype="deeleigen" word="Steven"/>
+                <node begin="14" end="15" id="24" lemma="Spielberg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Spielberg" spectype="deeleigen" word="Spielberg"/>
+              </node>
+            </node>
+          </node>
+          <node begin="17" end="18" id="25" lemma="hebben" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="heb" word="hadden" wvorm="pv"/>
+          <node begin="16" cat="np" end="20" id="26" rel="obj1">
+            <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="27" lemma="bewondering" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="bewondering" word="bewondering"/>
+            <node begin="18" cat="pp" end="20" id="28" rel="mod">
+              <node begin="18" end="19" id="29" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+              <node begin="19" end="20" genus="zijd" getal="ev" graad="basis" id="30" lemma="Hergé" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" root="Hergé" word="Hergé"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="20" end="21" id="31" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Vreemd is het dan ook niet dat groten uit de filmwereld , zoals Steven Spielberg , bewondering hadden voor Hergé .</sentence>
+</alpino_ds>

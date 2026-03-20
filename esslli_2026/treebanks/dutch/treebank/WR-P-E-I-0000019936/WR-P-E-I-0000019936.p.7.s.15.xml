@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" end="1" getal="getal" id="2" lemma="hier" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="mod" root="hier" status="vol" vwtype="aanw" word="Hier"/>
+      <node begin="1" end="2" id="3" lemma="introduceren" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="introduceer" word="introduceerde" wvorm="pv"/>
+      <node begin="2" end="3" genus="masc" getal="ev" id="4" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="hij"/>
+      <node begin="3" end="4" getal="getal" id="5" lemma="zich" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="obj1" root="zich" status="red" vwtype="refl" word="zich"/>
+      <node begin="4" cat="cp" end="7" id="6" rel="predm">
+        <node begin="4" conjtype="onder" end="5" id="7" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+        <node begin="5" cat="mwu" end="7" id="8" rel="body">
+          <node begin="5" end="6" id="9" lemma="Bob" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Bob" spectype="deeleigen" word="Bob"/>
+          <node begin="6" end="7" id="10" lemma="Dylan" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Dylan" spectype="deeleigen" word="Dylan"/>
+        </node>
+      </node>
+    </node>
+    <node begin="7" end="8" id="11" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Hier introduceerde hij zich als Bob Dylan .</sentence>
+</alpino_ds>

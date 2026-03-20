@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" buiging="zonder" end="1" graad="basis" id="3" lemma="wanhopig" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="wanhopig" word="Wanhopig"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="4" lemma="Beslan" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Beslan" word="Beslan"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="tellen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="tel" word="telt" wvorm="pv"/>
+      <node begin="3" end="4" id="6" lemma="nu" pos="adv" postag="BW()" pt="bw" rel="mod" root="nu" word="nu"/>
+      <node begin="4" cat="np" end="7" id="7" rel="obj1">
+        <node begin="4" end="5" id="8" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mod" root="al" word="al"/>
+        <node begin="5" end="6" id="9" lemma="4-honderd" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="4-honderd" word="4-honderd"/>
+        <node begin="6" buiging="met-e" end="7" getal-n="mv-n" graad="basis" id="10" lemma="dood" pos="adj" positie="nom" postag="ADJ(nom,basis,met-e,mv-n)" pt="adj" rel="hd" root="dood" word="doden"/>
+      </node>
+    </node>
+    <node begin="7" end="8" id="11" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Wanhopig Beslan telt nu al 4-honderd doden .</sentence>
+</alpino_ds>

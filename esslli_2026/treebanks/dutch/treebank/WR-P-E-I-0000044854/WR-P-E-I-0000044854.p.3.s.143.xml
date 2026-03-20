@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="16" id="2" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="3" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" word="Maar"/>
+      <node begin="1" cat="smain" end="16" id="4" rel="nucl">
+        <node begin="5" end="6" id="5" lemma="kunnen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="kan" word="kon" wvorm="pv"/>
+        <node begin="6" cat="np" end="12" id="6" index="1" rel="su">
+          <node begin="6" cat="mwu" end="8" id="7" rel="hd">
+            <node begin="6" end="7" id="8" lemma="Milo" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Milo" spectype="deeleigen" word="Milo"/>
+            <node begin="7" end="8" id="9" lemma="I" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="I" spectype="deeleigen" word="I"/>
+          </node>
+          <node begin="9" cat="np" end="12" id="10" rel="app">
+            <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="11" lemma="bisschop" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="bisschop" word="bisschop"/>
+            <node begin="10" cat="pp" end="12" id="12" rel="mod">
+              <node begin="10" end="11" id="13" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="14" lemma="Terwaan" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Terwaan" word="Terwaan"/>
+            </node>
+          </node>
+        </node>
+        <node begin="1" cat="inf" end="16" id="15" rel="vc">
+          <node begin="1" cat="ap" end="5" id="16" rel="mod">
+            <node begin="1" end="2" id="17" lemma="reeds" pos="adv" postag="BW()" pt="bw" rel="mod" root="reeds" word="reeds"/>
+            <node begin="2" cat="np" end="4" id="18" rel="me">
+              <node begin="2" end="3" id="19" lemma="tien" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="tien" word="tien"/>
+              <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="20" lemma="jaar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="jaar" word="jaar"/>
+            </node>
+            <node begin="4" buiging="zonder" end="5" graad="comp" id="21" lemma="laat" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="laat" word="later"/>
+          </node>
+          <node begin="6" end="12" id="22" index="1" rel="su"/>
+          <node begin="12" cat="np" end="15" id="23" rel="obj1">
+            <node begin="12" end="13" id="24" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="13" buiging="met-e" end="14" graad="basis" id="25" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" word="nieuwe"/>
+            <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="26" lemma="kerk" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="kerk" word="kerk"/>
+          </node>
+          <node begin="15" buiging="zonder" end="16" id="27" lemma="in_wijden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="wijd_in" word="inwijden" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="28" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Maar reeds tien jaar later kon Milo I , bisschop van Terwaan de nieuwe kerk inwijden .</sentence>
+</alpino_ds>

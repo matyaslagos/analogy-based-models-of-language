@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="18" id="2" rel="--">
+      <node begin="8" end="9" id="3" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" word="kan" wvorm="pv"/>
+      <node begin="9" end="10" genus="fem" getal="ev" id="4" index="1" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,ev,fem)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="ze"/>
+      <node begin="0" cat="inf" end="18" id="5" rel="vc">
+        <node begin="9" end="10" id="6" index="1" rel="su"/>
+        <node begin="13" buiging="zonder" end="14" id="7" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+        <node begin="0" cat="ppart" end="18" id="8" rel="vc">
+          <node begin="0" cat="cp" end="7" id="9" rel="mod">
+            <node begin="0" conjtype="onder" end="1" id="10" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="Als"/>
+            <node begin="1" cat="ssub" end="7" id="11" rel="body">
+              <node begin="1" end="2" getal="getal" id="12" lemma="die" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(aanw,pron,stan,vol,3,getal)" pt="vnw" rel="su" root="die" status="vol" vwtype="aanw" word="die"/>
+              <node begin="2" end="3" getal="getal" id="13" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+              <node begin="3" end="4" id="14" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+              <node begin="4" cat="pp" end="7" id="15" rel="mod">
+                <node begin="4" end="5" id="16" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+                <node begin="5" cat="np" end="7" id="17" rel="obj1">
+                  <node begin="5" buiging="zonder" end="6" graad="basis" id="18" lemma="sportief" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="sportief" word="sportief"/>
+                  <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="19" lemma="vlak" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="vlak" word="vlak"/>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="9" end="10" id="20" index="1" rel="obj1"/>
+          <node begin="10" end="11" id="21" lemma="wellicht" pos="adv" postag="BW()" pt="bw" rel="mod" root="wellicht" word="wellicht"/>
+          <node begin="11" end="12" id="22" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+          <node begin="12" buiging="zonder" end="13" id="23" lemma="uit_breiden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="breid_uit" word="uitgebreid" wvorm="vd"/>
+          <node begin="14" cat="pp" end="18" id="24" rel="mod">
+            <node begin="14" end="15" id="25" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+            <node begin="15" cat="np" end="18" id="26" rel="obj1">
+              <node begin="15" buiging="met-e" end="16" graad="basis" id="27" lemma="ander" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ander" word="andere"/>
+              <node begin="16" buiging="met-e" end="17" graad="basis" id="28" lemma="maatschappelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="maatschappelijk" word="maatschappelijke"/>
+              <node begin="17" end="18" getal="mv" graad="basis" id="29" lemma="sfeer" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="sfeer" word="sferen"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="30" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+    <node begin="19" end="20" id="31" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+  </node>
+  <sentence>Als die er is op sportief vlak , kan ze wellicht ook uitgebreid worden naar andere maatschappelijke sferen . &quot;</sentence>
+</alpino_ds>

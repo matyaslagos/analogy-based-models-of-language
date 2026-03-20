@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="30" id="0" rel="top">
+    <node begin="16" end="17" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="17" end="18" id="2" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="21" end="22" id="3" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="22" end="23" id="4" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="0" cat="smain" end="29" id="5" rel="--">
+      <node begin="0" cat="np" end="21" id="6" index="1" rel="su">
+        <node begin="0" end="1" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="8" lemma="verhuis" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="verhuis" word="verhuis"/>
+        <node begin="2" cat="pp" end="5" id="9" rel="mod">
+          <node begin="2" end="3" id="10" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="3" cat="mwu" end="5" id="11" rel="obj1">
+            <node begin="3" end="4" id="12" lemma="Zwaluwstraat" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Zwaluwstraat" spectype="deeleigen" word="Zwaluwstraat"/>
+            <node begin="4" end="5" id="13" lemma="17" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="17" spectype="deeleigen" word="17"/>
+          </node>
+        </node>
+        <node begin="5" cat="pp" end="21" id="14" rel="mod">
+          <node begin="5" end="6" id="15" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+          <node begin="6" cat="np" end="21" id="16" rel="obj1">
+            <node begin="6" end="7" id="17" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="7" buiging="met-e" end="8" graad="basis" id="18" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" word="nieuwe"/>
+            <node begin="8" end="9" getal="mv" graad="basis" id="19" lemma="lokaal" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="lokaal" word="lokalen"/>
+            <node begin="9" cat="pp" end="21" id="20" rel="mod">
+              <node begin="9" end="10" id="21" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+              <node begin="10" cat="np" end="21" id="22" rel="obj1">
+                <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="23" lemma="Anderlechtstraat" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Anderlechtstraat" word="Anderlechtstraat"/>
+                <node begin="11" cat="mwu" end="14" id="24" rel="mod">
+                  <node begin="11" end="12" id="25" lemma="37" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="37" word="37"/>
+                  <node begin="12" end="13" id="26" lemma="-" pos="num" postag="LET()" pt="let" rel="mwp" root="-" word="-"/>
+                  <node begin="13" end="14" id="27" lemma="39" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="39" word="39"/>
+                </node>
+                <node begin="14" cat="pp" end="16" id="28" rel="mod">
+                  <node begin="14" end="15" id="29" lemma="te" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="te" vztype="init" word="te"/>
+                  <node begin="15" end="16" genus="onz" getal="ev" graad="basis" id="30" lemma="Brussel" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Brussel" word="Brussel"/>
+                </node>
+                <node begin="18" cat="mwu" end="21" id="31" rel="mod">
+                  <node begin="18" end="19" id="32" lemma="anciennes" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="anciennes" spectype="vreemd" word="anciennes"/>
+                  <node begin="19" end="20" id="33" lemma="usines" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="usines" spectype="vreemd" word="usines"/>
+                  <node begin="20" end="21" id="34" lemma="Christiaens" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Christiaens" spectype="vreemd" word="Christiaens"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="23" end="24" id="35" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="29" id="36" rel="vc">
+        <node begin="0" end="21" id="37" index="1" rel="obj1"/>
+        <node begin="24" buiging="zonder" end="25" id="38" lemma="plannen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="plan" word="gepland" wvorm="vd"/>
+        <node begin="25" cat="pp" end="29" id="39" rel="mod">
+          <node begin="25" end="26" id="40" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="26" cat="mwu" end="29" id="41" rel="obj1">
+            <node begin="26" end="27" id="42" lemma="1" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="1" word="1"/>
+            <node begin="27" end="28" genus="zijd" getal="ev" graad="basis" id="43" lemma="februari" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="februari" word="februari"/>
+            <node begin="28" end="29" id="44" lemma="1925" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="1925" word="1925"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="29" end="30" id="45" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De verhuis van Zwaluwstraat 17 naar de nieuwe lokalen in Anderlechtstraat 37 - 39 te Brussel ( &quot; anciennes usines Christiaens &quot; ) is gepland voor 1 februari 1925 .</sentence>
+</alpino_ds>

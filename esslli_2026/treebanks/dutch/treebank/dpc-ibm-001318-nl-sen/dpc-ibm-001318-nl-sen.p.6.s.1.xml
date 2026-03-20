@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="smain" end="13" id="1" rel="--">
+      <node begin="4" end="5" id="2" lemma="willen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="wil" word="wil" wvorm="pv"/>
+      <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="3" index="1" lemma="IBM" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" root="IBM" word="IBM"/>
+      <node begin="0" cat="inf" end="13" id="4" rel="vc">
+        <node begin="0" cat="pp" end="4" id="5" rel="mod">
+          <node begin="0" end="1" id="6" lemma="via" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="via" vztype="init" word="Via"/>
+          <node begin="1" cat="np" end="4" id="7" rel="obj1">
+            <node begin="1" buiging="met-e" end="2" id="8" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="deze"/>
+            <node begin="2" buiging="met-e" end="3" graad="basis" id="9" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" word="nieuwe"/>
+            <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="10" lemma="dienst" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="dienst" word="dienst"/>
+          </node>
+        </node>
+        <node begin="5" end="6" id="11" index="1" rel="su"/>
+        <node begin="6" end="7" getal="mv" graad="basis" id="12" lemma="bedrijf" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="bedrijf" word="bedrijven"/>
+        <node begin="7" buiging="zonder" end="8" id="13" lemma="helpen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="help" word="helpen" wvorm="inf"/>
+        <node begin="8" cat="oti" end="13" id="14" rel="mod">
+          <node begin="8" end="9" id="15" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="om"/>
+          <node begin="9" cat="ti" end="13" id="16" rel="body">
+            <node begin="11" end="12" id="17" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+            <node begin="9" cat="inf" end="13" id="18" rel="body">
+              <node begin="9" end="10" getal="mv" graad="basis" id="19" lemma="ERP_systeem" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="ERP_systeem" word="ERP-systemen"/>
+              <node begin="10" buiging="zonder" end="11" graad="basis" id="20" lemma="optimaal" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="optimaal" word="optimaal"/>
+              <node begin="12" buiging="zonder" end="13" id="21" lemma="implementeren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="implementeer" word="implementeren" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Via deze nieuwe dienst wil IBM bedrijven helpen om ERP-systemen optimaal te implementeren .</sentence>
+</alpino_ds>

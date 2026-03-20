@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="26" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="20" end="21" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="25" id="3" rel="--">
+      <node begin="0" cat="smain" end="11" id="4" rel="cnj">
+        <node begin="0" cat="mwu" end="2" id="5" index="1" rel="su">
+          <node begin="0" end="1" id="6" lemma="France" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="France" spectype="deeleigen" word="France"/>
+          <node begin="1" end="2" id="7" lemma="24" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="24" spectype="deeleigen" word="24"/>
+        </node>
+        <node begin="2" end="3" id="8" lemma="uit_zenden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="zend_uit" word="zendt" wvorm="pv"/>
+        <node begin="3" end="4" id="9" lemma="uit" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="uit" vztype="fin" word="uit"/>
+        <node begin="4" cat="pp" end="11" id="10" rel="mod">
+          <node begin="4" end="5" id="11" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="5" cat="conj" end="11" id="12" rel="obj1">
+            <node begin="5" cat="np" end="7" id="13" rel="cnj">
+              <node begin="5" end="6" id="14" index="2" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="15" lemma="Frans" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Frans" word="Frans"/>
+            </node>
+            <node begin="5" cat="np" end="9" id="16" rel="cnj">
+              <node begin="5" end="6" id="17" index="2" rel="det"/>
+              <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="18" lemma="Engels" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Engels" word="Engels"/>
+            </node>
+            <node begin="9" conjtype="neven" end="10" id="19" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+            <node begin="5" cat="np" end="11" id="20" rel="cnj">
+              <node begin="5" end="6" id="21" index="2" rel="det"/>
+              <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="22" lemma="Arabisch" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Arabisch" word="Arabisch"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="11" conjtype="neven" end="12" id="23" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="0" cat="smain" end="25" id="24" rel="cnj">
+        <node begin="0" end="2" id="25" index="1" rel="su"/>
+        <node begin="12" end="13" id="26" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="0" cat="ti" end="25" id="27" rel="vc">
+          <node begin="13" end="14" id="28" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+          <node begin="0" cat="inf" end="25" id="29" rel="body">
+            <node begin="0" end="2" id="30" index="1" rel="obj1"/>
+            <node begin="14" buiging="zonder" end="15" id="31" lemma="bekijken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="bekijk" word="bekijken" wvorm="inf"/>
+            <node begin="15" cat="pp" end="25" id="32" rel="mod">
+              <node begin="15" end="16" id="33" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+              <node begin="16" cat="np" end="25" id="34" rel="obj1">
+                <node begin="16" end="17" id="35" lemma="negentig" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="negentig" word="negentig"/>
+                <node begin="17" end="18" getal="mv" graad="basis" id="36" lemma="land" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="land" word="landen"/>
+                <node begin="18" cat="pp" end="25" id="37" rel="mod">
+                  <node begin="18" end="19" id="38" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                  <node begin="19" cat="conj" end="25" id="39" rel="obj1">
+                    <node begin="19" end="20" genus="onz" getal="ev" graad="basis" id="40" lemma="Europa" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Europa" word="Europa"/>
+                    <node begin="21" cat="np" end="23" id="41" rel="cnj">
+                      <node begin="21" end="22" id="42" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                      <node begin="22" end="23" genus="onz" getal="ev" graad="basis" id="43" lemma="Midden-Oosten" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Midden-Oosten" word="Midden-Oosten"/>
+                    </node>
+                    <node begin="23" conjtype="neven" end="24" id="44" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                    <node begin="24" end="25" genus="onz" getal="ev" graad="basis" id="45" lemma="Noord-Afrika" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Noord-Afrika" word="Noord-Afrika"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="25" end="26" id="46" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>France 24 zendt uit in het Frans , Engels of Arabisch en is te bekijken in negentig landen in Europa , het Midden-Oosten en Noord-Afrika .</sentence>
+</alpino_ds>

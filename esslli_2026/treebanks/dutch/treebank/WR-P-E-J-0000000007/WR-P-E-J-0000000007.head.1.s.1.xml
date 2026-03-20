@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="5" end="6" id="2" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="0" cat="ppart" end="8" id="3" rel="--">
+      <node begin="0" end="1" genus="onz" getal="ev" graad="basis" id="4" lemma="GRUP" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="mod" root="GRUP" word="GRUP"/>
+      <node begin="2" cat="np" end="5" id="5" rel="su">
+        <node begin="2" end="3" genus="genus" getal="ev" graad="basis" id="6" lemma="leem" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,genus,stan)" pt="n" rel="hd" root="leem" word="Leem"/>
+        <node begin="3" cat="pp" end="5" id="7" rel="mod">
+          <node begin="3" end="4" id="8" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="9" lemma="Zuid-Limburg" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Zuid-Limburg" word="Zuid-Limburg"/>
+        </node>
+      </node>
+      <node begin="6" buiging="zonder" end="7" graad="basis" id="10" lemma="voorlopig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="voorlopig" word="voorlopig"/>
+      <node begin="7" buiging="zonder" end="8" id="11" lemma="vast_stellen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="stel_vast" word="vastgesteld" wvorm="vd"/>
+    </node>
+  </node>
+  <sentence>GRUP &apos; Leem in Zuid-Limburg &apos; voorlopig vastgesteld</sentence>
+</alpino_ds>

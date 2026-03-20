@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="23" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="6" end="7" id="2" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="7" end="8" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="14" end="15" id="4" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="smain" end="21" id="5" rel="--">
+      <node begin="0" end="1" genus="onz" getal="ev" graad="basis" id="6" lemma="Frans" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" root="Frans" word="Frans"/>
+      <node begin="1" end="2" id="7" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="2" cat="np" end="6" id="8" rel="predc">
+        <node begin="2" end="3" id="9" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="4" cat="mwu" end="6" id="10" rel="hd">
+          <node begin="4" end="5" id="11" lemma="lingua" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="lingua" spectype="vreemd" word="lingua"/>
+          <node begin="5" end="6" id="12" lemma="franca" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="franca" spectype="vreemd" word="franca"/>
+        </node>
+      </node>
+      <node begin="8" cat="cp" end="21" id="13" rel="mod">
+        <node begin="8" conjtype="onder" end="9" id="14" lemma="hoewel" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="hoewel" word="hoewel"/>
+        <node begin="9" cat="conj" end="21" id="15" rel="body">
+          <node begin="9" cat="ssub" end="14" id="16" rel="cnj">
+            <node begin="9" cat="np" end="11" id="17" index="1" rel="su">
+              <node begin="9" buiging="met-e" end="10" graad="basis" id="18" lemma="Frans_talig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Frans_talig" word="Franstalige"/>
+              <node begin="10" end="11" getal="mv" graad="basis" id="19" lemma="moeder_taal_spreker" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="moeder_taal_spreker" word="moedertaalsprekers"/>
+            </node>
+            <node begin="11" cat="np" end="13" id="20" rel="obj1">
+              <node begin="11" buiging="zonder" end="12" id="21" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="geen"/>
+              <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="22" lemma="meerderheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="meerderheid" word="meerderheid"/>
+            </node>
+            <node begin="13" end="14" id="23" lemma="vormen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="vorm" word="vormen" wvorm="pv"/>
+          </node>
+          <node begin="15" conjtype="neven" end="16" id="24" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+          <node begin="9" cat="ssub" end="21" id="25" rel="cnj">
+            <node begin="9" end="11" id="26" index="1" rel="su"/>
+            <node begin="16" end="17" id="27" lemma="wel" pos="adv" postag="BW()" pt="bw" rel="mod" root="wel" word="wel"/>
+            <node begin="17" cat="np" end="20" id="28" rel="predc">
+              <node begin="17" end="18" id="29" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="18" buiging="met-e" end="19" graad="sup" id="30" lemma="groot" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="mod" root="groot" word="grootste"/>
+              <node begin="19" end="20" genus="zijd" getal="ev" graad="basis" id="31" lemma="groep" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="groep" word="groep"/>
+            </node>
+            <node begin="20" end="21" id="32" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="21" end="22" id="33" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="22" end="23" id="34" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Frans is de &quot; lingua franca &quot; , hoewel Franstalige moedertaalsprekers geen meerderheid vormen ( maar wel de grootste groep zijn ) .</sentence>
+</alpino_ds>

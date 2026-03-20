@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="du" end="8" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="en" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="en" word="En"/>
+      <node begin="1" cat="du" end="8" id="3" rel="nucl">
+        <node begin="1" end="2" id="4" lemma="dan" pos="adv" postag="BW()" pt="bw" rel="dp" root="dan" word="dan"/>
+        <node begin="2" cat="pp" end="8" id="5" rel="dp">
+          <node begin="2" end="3" id="6" lemma="vooral" pos="adv" postag="BW()" pt="bw" rel="mod" root="vooral" word="vooral"/>
+          <node begin="3" end="4" id="7" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+          <node begin="4" cat="conj" end="8" id="8" rel="obj1">
+            <node begin="4" cat="np" end="6" id="9" rel="cnj">
+              <node begin="4" buiging="zonder" end="5" graad="basis" id="10" lemma="verbaal" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="verbaal" word="verbaal"/>
+              <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="11" lemma="geweld" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="geweld" word="geweld"/>
+            </node>
+            <node begin="6" conjtype="neven" end="7" id="12" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="7" end="8" getal="mv" graad="basis" id="13" lemma="bedreiging" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="bedreiging" word="bedreigingen"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" id="14" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>En dan vooral met verbaal geweld en bedreigingen .</sentence>
+</alpino_ds>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="np" end="8" id="2" rel="--">
+      <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+      <node begin="1" end="2" getal="mv" graad="basis" id="4" lemma="soort" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="soort" word="soorten"/>
+      <node begin="2" cat="conj" end="5" id="5" rel="mod">
+        <node begin="2" end="3" getal="mv" graad="basis" id="6" lemma="ras" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="ras" word="Rassen"/>
+        <node begin="3" conjtype="neven" end="4" id="7" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="4" end="5" getal="mv" graad="basis" id="8" lemma="volk" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="volk" word="volkeren"/>
+      </node>
+      <node begin="6" cat="mwu" end="8" id="9" rel="mod">
+        <node begin="6" end="7" id="10" lemma="Star" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Star" spectype="vreemd" word="Star"/>
+        <node begin="7" end="8" id="11" lemma="Trek" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Trek" spectype="vreemd" word="Trek"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="12" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+  </node>
+  <sentence>De soorten Rassen en volkeren ( Star Trek )</sentence>
+</alpino_ds>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="12" end="13" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="14" end="15" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="18" id="4" rel="--">
+      <node begin="0" end="1" getal="mv" id="5" lemma="we" naamval="nomin" pdtype="pron" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,red,1,mv)" pt="vnw" rel="su" root="we" status="red" vwtype="pers" word="We"/>
+      <node begin="1" end="2" id="6" lemma="delen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="deel" word="delen" wvorm="pv"/>
+      <node begin="2" cat="conj" end="18" id="7" rel="obj1">
+        <node begin="2" cat="np" end="4" id="8" rel="cnj">
+          <node begin="2" end="3" id="9" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="10" lemma="statuut" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="Statuut" word="Statuut"/>
+        </node>
+        <node begin="5" cat="np" end="7" id="11" rel="cnj">
+          <node begin="5" end="6" id="12" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="13" lemma="staatshoofd" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="staatshoofd" word="staatshoofd"/>
+        </node>
+        <node begin="7" conjtype="neven" end="8" id="14" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="8" cat="np" end="18" id="15" rel="cnj">
+          <node begin="8" buiging="met-e" end="9" graad="basis" id="16" lemma="belangrijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="belangrijk" word="belangrijke"/>
+          <node begin="9" end="10" getal="mv" graad="basis" id="17" lemma="waarde" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="waarde" word="waarden"/>
+          <node begin="10" cat="cp" end="18" id="18" rel="mod">
+            <node begin="10" conjtype="onder" end="11" id="19" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+            <node begin="11" cat="conj" end="18" id="20" rel="body">
+              <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="21" lemma="democratie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="democratie" word="democratie"/>
+              <node begin="13" end="14" getal="mv" graad="basis" id="22" lemma="mens_recht" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="mensenrechten" word="mensenrechten"/>
+              <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="23" lemma="recht_gelijkheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="recht_gelijkheid" word="rechtsgelijkheid"/>
+              <node begin="16" conjtype="neven" end="17" id="24" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="25" lemma="rechtszekerheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="rechtszekerheid" word="rechtszekerheid"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="26" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>We delen een Statuut , een staatshoofd en belangrijke waarden als democratie , mensenrechten , rechtsgelijkheid en rechtszekerheid .</sentence>
+</alpino_ds>

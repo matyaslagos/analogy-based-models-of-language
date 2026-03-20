@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" buiging="zonder" end="1" graad="basis" id="2" lemma="jaarlijks" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="jaarlijks" word="Jaarlijks"/>
+      <node begin="1" end="2" id="3" lemma="om_gaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ga_om" word="gaat" wvorm="pv"/>
+      <node begin="3" cat="np" end="6" id="4" rel="su">
+        <node begin="3" end="4" id="5" lemma="50" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="50" word="50"/>
+        <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="6" lemma="miljoen" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="miljoen" word="miljoen"/>
+        <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="7" lemma="euro" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mod" root="euro" word="Euro"/>
+      </node>
+      <node begin="2" cat="pp" end="7" id="8" rel="ld">
+        <node begin="2" end="3" getal="getal" id="9" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="noun" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="obj1" root="er" status="red" vwtype="aanw" word="er"/>
+        <node begin="6" end="7" id="10" lemma="in" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="in" vztype="fin" word="in"/>
+      </node>
+      <node begin="7" end="8" id="11" lemma="om" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="om" vztype="fin" word="om"/>
+    </node>
+    <node begin="8" end="9" id="12" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Jaarlijks gaat er 50 miljoen Euro in om .</sentence>
+</alpino_ds>

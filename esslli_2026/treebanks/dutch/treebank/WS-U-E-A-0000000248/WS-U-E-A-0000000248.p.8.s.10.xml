@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="smain" end="5" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" index="1" rel="su">
+        <node begin="0" end="1" getal="mv" graad="basis" id="3" lemma="tiental" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="tientallen" word="Tientallen"/>
+        <node begin="1" cat="np" end="3" id="4" rel="mod">
+          <node begin="1" buiging="met-e" end="2" graad="basis" id="5" lemma="opstandig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="opstandig" word="opstandige"/>
+          <node begin="2" end="3" getal="mv" graad="basis" id="6" lemma="Irakees" ntype="eigen" pos="noun" postag="N(eigen,mv,basis)" pt="n" rel="hd" root="Irakees" word="Irakezen"/>
+        </node>
+      </node>
+      <node begin="3" end="4" id="7" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="5" id="8" rel="vc">
+        <node begin="0" end="3" id="9" index="1" rel="su"/>
+        <node begin="4" buiging="zonder" end="5" id="10" lemma="om_komen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="kom_om" word="omgekomen" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="5" end="6" id="11" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Tientallen opstandige Irakezen zijn omgekomen .</sentence>
+</alpino_ds>

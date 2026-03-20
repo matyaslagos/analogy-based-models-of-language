@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="45" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="16" end="17" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="19" end="20" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="22" end="23" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="34" end="35" id="5" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="38" end="39" id="6" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="44" id="7" rel="--">
+      <node begin="0" cat="smain" end="7" id="8" rel="dp">
+        <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="9" index="1" lemma="Bloomfield" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Bloomfield" word="Bloomfield"/>
+        <node begin="1" end="2" id="10" lemma="willen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="wil" word="wilde" wvorm="pv"/>
+        <node begin="0" cat="inf" end="7" id="11" rel="vc">
+          <node begin="0" end="1" id="12" index="1" rel="su"/>
+          <node begin="2" cat="np" end="5" id="13" rel="obj1">
+            <node begin="2" end="3" id="14" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="3" cat="mwu" end="5" id="15" rel="hd">
+              <node begin="3" end="4" id="16" lemma="Butterfield" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Butterfield" spectype="deeleigen" word="Butterfield"/>
+              <node begin="4" end="5" id="17" lemma="Band" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Band" spectype="deeleigen" word="Band"/>
+            </node>
+          </node>
+          <node begin="5" end="6" id="18" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+          <node begin="6" buiging="zonder" end="7" id="19" lemma="verlaten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="verlaat" word="verlaten" wvorm="inf"/>
+        </node>
+      </node>
+      <node begin="8" cat="smain" end="44" id="20" rel="dp">
+        <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="21" index="2" lemma="Dylan" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Dylan" word="Dylan"/>
+        <node begin="9" end="10" id="22" lemma="weten" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="weet" word="wist" wvorm="pv"/>
+        <node begin="10" end="11" id="23" lemma="echter" pos="adv" postag="BW()" pt="bw" rel="mod" root="echter" word="echter"/>
+        <node begin="8" cat="ti" end="44" id="24" rel="vc">
+          <node begin="20" end="21" id="25" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+          <node begin="8" cat="inf" end="44" id="26" rel="body">
+            <node begin="8" end="9" id="27" index="2" rel="su"/>
+            <node begin="21" buiging="zonder" end="22" id="28" lemma="interesseren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="interesseer" word="interesseren" wvorm="inf"/>
+            <node begin="11" cat="conj" end="44" id="29" rel="obj1">
+              <node begin="11" cat="conj" end="19" id="30" rel="cnj">
+                <node begin="13" conjtype="neven" end="14" id="31" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                <node begin="11" cat="np" end="19" id="32" rel="cnj">
+                  <node begin="11" cat="mwu" end="13" id="33" rel="hd">
+                    <node begin="11" end="12" id="34" lemma="Al" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Al" spectype="deeleigen" word="Al"/>
+                    <node begin="12" end="13" id="35" lemma="Kooper" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Kooper" spectype="deeleigen" word="Kooper"/>
+                  </node>
+                  <node begin="17" cat="np" end="19" id="36" index="3" rel="app">
+                    <node begin="17" buiging="met-e" end="18" getal="mv" graad="basis" id="37" lemma="beide" naamval="stan" pdtype="grad" pos="det" positie="prenom" postag="VNW(onbep,grad,stan,prenom,met-e,mv,basis)" pt="vnw" rel="det" root="beide" vwtype="onbep" word="beide"/>
+                    <node begin="18" end="19" getal="mv" graad="basis" id="38" lemma="studio_begeleider" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="studio_begeleider" word="studiobegeleiders"/>
+                  </node>
+                </node>
+                <node begin="14" cat="np" end="19" id="39" rel="cnj">
+                  <node begin="14" cat="mwu" end="16" id="40" rel="hd">
+                    <node begin="14" end="15" id="41" lemma="Harvey" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Harvey" spectype="deeleigen" word="Harvey"/>
+                    <node begin="15" end="16" id="42" lemma="Brooks" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Brooks" spectype="deeleigen" word="Brooks"/>
+                  </node>
+                  <node begin="17" end="19" id="43" index="3" rel="app"/>
+                </node>
+              </node>
+              <node begin="23" conjtype="neven" end="24" id="44" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="24" cat="np" end="44" id="45" rel="cnj">
+                <node begin="24" end="25" id="46" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="25" end="26" getal="mv" graad="basis" id="47" lemma="lid" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="lid" word="leden"/>
+                <node begin="26" cat="pp" end="29" id="48" rel="mod">
+                  <node begin="26" end="27" id="49" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                  <node begin="27" cat="np" end="29" id="50" rel="obj1">
+                    <node begin="27" end="28" id="51" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="28" end="29" genus="zijd" getal="ev" graad="basis" id="52" lemma="kroeg_band" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="kroeg_band" word="kroegband"/>
+                  </node>
+                </node>
+                <node begin="29" cat="conj" end="34" id="53" rel="app">
+                  <node begin="29" cat="mwu" end="31" id="54" rel="cnj">
+                    <node begin="29" end="30" id="55" lemma="Robbie" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Robbie" spectype="deeleigen" word="Robbie"/>
+                    <node begin="30" end="31" id="56" lemma="Robertson" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Robertson" spectype="deeleigen" word="Robertson"/>
+                  </node>
+                  <node begin="31" conjtype="neven" end="32" id="57" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                  <node begin="32" cat="mwu" end="34" id="58" rel="cnj">
+                    <node begin="32" end="33" id="59" lemma="Levon" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Levon" spectype="deeleigen" word="Levon"/>
+                    <node begin="33" end="34" id="60" lemma="Helm" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Helm" spectype="deeleigen" word="Helm"/>
+                  </node>
+                </node>
+                <node begin="35" cat="pp" end="44" id="61" rel="mod">
+                  <node begin="35" end="36" id="62" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                  <node begin="36" cat="np" end="44" id="63" rel="obj1">
+                    <node begin="36" cat="mwu" end="38" id="64" rel="hd">
+                      <node begin="36" end="37" id="65" lemma="The" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="The" spectype="deeleigen" word="The"/>
+                      <node begin="37" end="38" id="66" lemma="Hawks" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Hawks" spectype="deeleigen" word="Hawks"/>
+                    </node>
+                    <node begin="39" cat="np" end="44" id="67" rel="app">
+                      <node begin="39" end="40" id="68" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                      <node begin="40" end="41" genus="zijd" getal="ev" graad="basis" id="69" lemma="begeleiding_band" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="begeleiding_band" word="begeleidingsband"/>
+                      <node begin="41" cat="pp" end="44" id="70" rel="mod">
+                        <node begin="41" end="42" id="71" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                        <node begin="42" cat="mwu" end="44" id="72" rel="obj1">
+                          <node begin="42" end="43" id="73" lemma="Ronnie" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Ronnie" spectype="deeleigen" word="Ronnie"/>
+                          <node begin="43" end="44" id="74" lemma="Hawkins" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Hawkins" spectype="deeleigen" word="Hawkins"/>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="44" end="45" id="75" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Bloomfield wilde de Butterfield Band niet verlaten , Dylan wist echter Al Kooper en Harvey Brooks , beide studiobegeleiders , te interesseren , en de leden van de kroegband Robbie Robertson en Levon Helm , van The Hawks , de begeleidingsband van Ronnie Hawkins .</sentence>
+</alpino_ds>

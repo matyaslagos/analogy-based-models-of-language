@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="smain" end="10" id="1" rel="--">
+      <node begin="0" cat="conj" end="5" id="2" rel="su">
+        <node begin="0" cat="np" end="3" id="3" rel="cnj">
+          <node begin="0" end="1" id="4" index="1" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+          <node begin="1" buiging="met-e" end="2" graad="basis" id="5" index="2" lemma="groen" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="groen" word="groene"/>
+          <node begin="2" end="3" getal="mv" graad="basis" id="6" lemma="kiezer" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kiezer" word="kiezers"/>
+        </node>
+        <node begin="3" conjtype="neven" end="4" id="7" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="0" cat="np" end="5" id="8" rel="cnj">
+          <node begin="0" end="1" id="9" index="1" rel="det"/>
+          <node begin="1" end="2" id="10" index="2" rel="mod"/>
+          <node begin="4" end="5" getal="mv" graad="basis" id="11" lemma="lid" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="lid" word="leden"/>
+        </node>
+      </node>
+      <node begin="5" end="6" id="12" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+      <node begin="6" cat="ap" end="10" id="13" rel="predc">
+        <node begin="6" cat="ap" end="9" id="14" rel="mod">
+          <node begin="6" cat="mwu" end="8" id="15" rel="mod">
+            <node begin="6" buiging="zonder" end="7" graad="comp" id="16" lemma="veel" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mwp" root="meer" vwtype="onbep" word="méér"/>
+            <node begin="7" conjtype="onder" end="8" id="17" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="mwp" root="dan" word="dan"/>
+          </node>
+          <node begin="8" buiging="zonder" end="9" graad="basis" id="18" lemma="gemiddeld" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="gemiddeld" word="gemiddeld"/>
+        </node>
+        <node begin="9" buiging="zonder" end="10" graad="basis" id="19" lemma="kritisch" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="kritisch" word="kritisch"/>
+      </node>
+    </node>
+    <node begin="10" end="11" id="20" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De groene kiezers en leden zijn méér dan gemiddeld kritisch .</sentence>
+</alpino_ds>

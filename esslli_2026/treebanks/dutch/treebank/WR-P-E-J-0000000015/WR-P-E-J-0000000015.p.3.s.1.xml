@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="mwu" end="2" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="Flanders" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Flanders" spectype="deeleigen" word="Flanders"/>
+        <node begin="1" end="2" id="4" lemma="Food" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Food" spectype="deeleigen" word="Food"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="werken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="werk" word="werkt" wvorm="pv"/>
+      <node begin="3" buiging="zonder" end="4" id="6" lemma="vraag_sturen" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="mod" root="vraag_gestuurd" word="vraaggestuurd" wvorm="vd"/>
+      <node begin="4" cat="pp" end="8" id="7" rel="mod">
+        <node begin="4" end="5" id="8" lemma="vanuit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="vanuit" vztype="init" word="vanuit"/>
+        <node begin="5" cat="np" end="8" id="9" rel="obj1">
+          <node begin="5" end="6" id="10" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="11" lemma="voeding_sector" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="voeding_sector" word="voedingssector"/>
+          <node begin="7" end="8" id="12" lemma="zelf" pos="adv" postag="BW()" pt="bw" rel="mod" root="zelf" word="zelf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" id="13" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Flanders Food werkt vraaggestuurd vanuit de voedingssector zelf .</sentence>
+</alpino_ds>

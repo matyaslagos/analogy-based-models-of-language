@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma=")" pos="tag" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="0" cat="du" end="6" id="2" rel="--">
+      <node begin="0" end="1" id="3" lemma="j" pos="tag" postag="SPEC(symb)" pt="spec" rel="tag" root="j" spectype="symb" word="j"/>
+      <node begin="2" cat="conj" end="6" id="4" rel="nucl">
+        <node begin="2" cat="np" end="4" id="5" rel="cnj">
+          <node begin="2" buiging="zonder" end="3" graad="basis" id="6" lemma="medisch" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="medisch" word="medisch"/>
+          <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="7" lemma="onderhoud" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="onderhoud" word="onderhoud"/>
+        </node>
+        <node begin="4" conjtype="neven" end="5" id="8" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="9" lemma="behandeling" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="behandeling" word="behandeling"/>
+      </node>
+    </node>
+    <node begin="6" end="7" id="10" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+  </node>
+  <sentence>j ) medisch onderhoud en behandeling :</sentence>
+</alpino_ds>

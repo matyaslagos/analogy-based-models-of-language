@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="smain" end="12" id="1" rel="--">
+      <node begin="1" end="2" id="2" lemma="zullen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zal" word="zal" wvorm="pv"/>
+      <node begin="2" end="3" genus="fem" getal="ev" id="3" index="1" lemma="zij" naamval="nomin" pdtype="pron" persoon="3v" pos="pron" postag="VNW(pers,pron,nomin,vol,3v,ev,fem)" pt="vnw" rel="su" root="zij" status="vol" vwtype="pers" word="zij"/>
+      <node begin="0" cat="inf" end="12" id="4" rel="vc">
+        <node begin="0" end="1" id="5" lemma="daartoe" pos="adv" postag="BW()" pt="bw" rel="mod" root="daartoe" word="Daartoe"/>
+        <node begin="2" end="3" id="6" index="1" rel="su"/>
+        <node begin="3" cat="np" end="11" id="7" rel="obj1">
+          <node begin="3" end="4" getal="mv" graad="basis" id="8" lemma="samenwerking_verband" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="samenwerkingsverband" word="samenwerkingsverbanden"/>
+          <node begin="4" cat="pp" end="11" id="9" rel="mod">
+            <node begin="4" end="5" id="10" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" vztype="init" word="tussen"/>
+            <node begin="5" cat="conj" end="11" id="11" rel="obj1">
+              <node begin="5" cat="np" end="7" id="12" rel="cnj">
+                <node begin="5" end="6" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="14" lemma="overheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="overheid" word="overheid"/>
+              </node>
+              <node begin="7" conjtype="neven" end="8" id="15" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="8" cat="np" end="11" id="16" rel="cnj">
+                <node begin="8" end="9" id="17" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="9" buiging="met-e" end="10" graad="basis" id="18" lemma="particulier" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="particulier" word="particuliere"/>
+                <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="19" lemma="sector" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="sector" word="sector"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="11" buiging="zonder" end="12" id="20" lemma="stimuleren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="stimuleer" word="stimuleren" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="12" end="13" id="21" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Daartoe zal zij samenwerkingsverbanden tussen de overheid en de particuliere sector stimuleren .</sentence>
+</alpino_ds>

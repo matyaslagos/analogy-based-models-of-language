@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="`" pos="punct" postag="LET()" pt="let" rel="--" root="`" word="`"/>
+    <node begin="11" end="12" id="2" lemma=";" pos="punct" postag="LET()" pt="let" rel="--" root=";" word=";"/>
+    <node begin="1" cat="du" end="17" id="3" rel="--">
+      <node begin="1" cat="smain" end="11" id="4" rel="dp">
+        <node begin="1" cat="np" end="6" id="5" rel="su">
+          <node begin="1" end="2" id="6" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="Een"/>
+          <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="7" lemma="aanval" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="aanval" word="aanval"/>
+          <node begin="3" cat="pp" end="6" id="8" rel="mod">
+            <node begin="3" end="4" id="9" lemma="tijdens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tijdens" vztype="init" word="tijdens"/>
+            <node begin="4" cat="np" end="6" id="10" rel="obj1">
+              <node begin="4" end="5" id="11" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="5" buiging="zonder" end="6" getal-n="zonder-n" id="12" lemma="voetballen" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="voetbal" word="voetballen" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+        <node begin="6" end="7" id="13" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="heeft" wvorm="pv"/>
+        <node begin="7" end="8" id="14" lemma="meestal" pos="adv" postag="BW()" pt="bw" rel="mod" root="meestal" word="meestal"/>
+        <node begin="8" cat="np" end="11" id="15" rel="obj1">
+          <node begin="8" buiging="zonder" end="9" id="16" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="geen"/>
+          <node begin="9" buiging="met-e" end="10" graad="basis" id="17" lemma="ernstig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ernstig" word="ernstige"/>
+          <node begin="10" end="11" getal="mv" graad="basis" id="18" lemma="gevolg" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="gevolg" word="gevolgen"/>
+        </node>
+      </node>
+      <node begin="12" cat="smain" end="17" id="19" rel="dp">
+        <node begin="12" end="13" getal="getal" id="20" lemma="u" naamval="nomin" pdtype="pron" persoon="2b" pos="pron" postag="VNW(pers,pron,nomin,vol,2b,getal)" pt="vnw" rel="su" root="u" status="vol" vwtype="pers" word="u"/>
+        <node begin="13" end="14" id="21" lemma="vallen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="val" word="valt" wvorm="pv"/>
+        <node begin="14" cat="pp" end="17" id="22" rel="ld">
+          <node begin="14" end="15" id="23" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+          <node begin="15" cat="np" end="17" id="24" rel="obj1">
+            <node begin="15" end="16" id="25" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="16" end="17" genus="onz" getal="ev" graad="basis" id="26" lemma="gras" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="gras" word="gras"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="27" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+  </node>
+  <sentence>` Een aanval tijdens het voetballen heeft meestal geen ernstige gevolgen ; u valt op het gras &apos;</sentence>
+</alpino_ds>

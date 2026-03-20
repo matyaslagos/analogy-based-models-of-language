@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="5" end="6" id="2" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="du" end="7" id="3" rel="--">
+      <node begin="0" cat="mwu" end="2" id="4" rel="dp">
+        <node begin="0" end="1" id="5" lemma="Roel" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Roel" spectype="deeleigen" word="Roel"/>
+        <node begin="1" end="2" id="6" lemma="Kerssemakers" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Kerssemakers" spectype="deeleigen" word="Kerssemakers"/>
+      </node>
+      <node begin="3" cat="mwu" end="5" id="7" rel="dp">
+        <node begin="3" end="4" id="8" lemma="Rob" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Rob" spectype="deeleigen" word="Rob"/>
+        <node begin="4" end="5" id="9" lemma="Posma" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Posma" spectype="deeleigen" word="Posma"/>
+      </node>
+      <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="10" lemma="eindtekst" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="dp" root="eind_tekst" word="eindtekst"/>
+    </node>
+    <node begin="7" end="8" id="11" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+  </node>
+  <sentence>Roel Kerssemakers , Rob Posma ( eindtekst )</sentence>
+</alpino_ds>

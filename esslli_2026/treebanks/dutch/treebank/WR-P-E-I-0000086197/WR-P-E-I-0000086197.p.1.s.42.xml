@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="25" id="0" rel="top">
+    <node begin="9" end="10" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="24" id="2" rel="--">
+      <node begin="0" cat="smain" end="9" id="3" rel="cnj">
+        <node begin="3" end="4" id="4" lemma="worden" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="word" word="werden" wvorm="pv"/>
+        <node begin="4" cat="np" end="8" id="5" index="1" rel="su">
+          <node begin="4" end="5" id="6" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="7" lemma="tal" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="tal" word="tal"/>
+          <node begin="6" cat="pp" end="8" id="8" rel="mod">
+            <node begin="6" end="7" id="9" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="7" end="8" getal="mv" graad="basis" id="10" lemma="onderwerp" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="onderwerp" word="onderwerpen"/>
+          </node>
+        </node>
+        <node begin="0" cat="ppart" end="9" id="11" rel="vc">
+          <node begin="0" cat="pp" end="3" id="12" rel="mod">
+            <node begin="0" end="1" id="13" lemma="tijdens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tijdens" vztype="init" word="Tijdens"/>
+            <node begin="1" cat="np" end="3" id="14" rel="obj1">
+              <node begin="1" buiging="zonder" end="2" id="15" lemma="dit" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dit" vwtype="aanw" word="dit"/>
+              <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="16" lemma="concilie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="concilie" word="concilie"/>
+            </node>
+          </node>
+          <node begin="4" end="8" id="17" index="1" rel="obj1"/>
+          <node begin="8" buiging="zonder" end="9" id="18" lemma="bespreken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="bespreek" word="besproken" wvorm="vd"/>
+        </node>
+      </node>
+      <node begin="10" conjtype="neven" end="11" id="19" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+      <node begin="11" cat="smain" end="24" id="20" rel="cnj">
+        <node begin="11" cat="ap" end="14" id="21" rel="predc">
+          <node begin="11" buiging="zonder" end="12" graad="comp" id="22" lemma="belangrijk" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="belangrijk" word="belangrijker"/>
+          <node begin="12" cat="cp" end="14" id="23" rel="obcomp">
+            <node begin="12" conjtype="onder" end="13" id="24" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="dan" word="dan"/>
+            <node begin="13" end="14" getal="ev" id="25" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="body" root="dat" status="vol" vwtype="aanw" word="dat"/>
+          </node>
+        </node>
+        <node begin="14" end="15" id="26" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+        <node begin="15" cat="cp" end="24" id="27" rel="su">
+          <node begin="15" conjtype="onder" end="16" id="28" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+          <node begin="16" cat="ssub" end="24" id="29" rel="body">
+            <node begin="19" cat="np" end="21" id="30" index="2" rel="su">
+              <node begin="19" end="20" id="31" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="20" end="21" genus="zijd" getal="ev" graad="basis" id="32" lemma="vergadering" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="vergadering" word="vergadering"/>
+            </node>
+            <node begin="22" end="23" id="33" lemma="mogen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="mag" word="mocht" wvorm="pv"/>
+            <node begin="16" cat="inf" end="24" id="34" rel="vc">
+              <node begin="19" end="21" id="35" index="2" rel="su"/>
+              <node begin="16" cat="ppart" end="22" id="36" rel="vc">
+                <node begin="16" cat="pp" end="19" id="37" rel="mod">
+                  <node begin="16" end="17" id="38" lemma="tijdens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tijdens" vztype="init" word="tijdens"/>
+                  <node begin="17" cat="np" end="19" id="39" rel="obj1">
+                    <node begin="17" end="18" id="40" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                    <node begin="18" end="19" genus="onz" getal="ev" graad="basis" id="41" lemma="concilie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="concilie" word="concilie"/>
+                  </node>
+                </node>
+                <node begin="19" end="21" id="42" index="2" rel="obj1"/>
+                <node begin="21" buiging="zonder" end="22" id="43" lemma="aan_spreken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="spreek_aan" word="aangesproken" wvorm="vd"/>
+              </node>
+              <node begin="23" buiging="zonder" end="24" id="44" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="24" end="25" id="45" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Tijdens dit concilie werden een tal van onderwerpen besproken , maar belangrijker dan dat was dat tijdens het concilie de vergadering aangesproken mocht worden .</sentence>
+</alpino_ds>

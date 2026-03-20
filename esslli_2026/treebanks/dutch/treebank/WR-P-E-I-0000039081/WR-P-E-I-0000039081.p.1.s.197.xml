@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="27" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="21" end="22" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="26" id="3" rel="--">
+      <node begin="0" buiging="zonder" end="1" graad="basis" id="4" lemma="berucht" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="berucht" word="Berucht"/>
+      <node begin="1" end="2" id="5" lemma="zijn" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="ben" word="waren" wvorm="pv"/>
+      <node begin="2" cat="np" end="26" id="6" rel="su">
+        <node begin="2" end="3" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="3" end="4" getal="mv" graad="basis" id="8" lemma="film" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="film" word="films"/>
+        <node begin="4" cat="pp" end="7" id="9" rel="mod">
+          <node begin="4" end="5" id="10" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="5" cat="mwu" end="7" id="11" rel="obj1">
+            <node begin="5" end="6" id="12" lemma="James" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="James" spectype="deeleigen" word="James"/>
+            <node begin="6" end="7" id="13" lemma="Bond" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Bond" spectype="deeleigen" word="Bond"/>
+          </node>
+        </node>
+        <node begin="8" cat="rel" end="26" id="14" rel="mod">
+          <node begin="8" end="9" id="15" index="1" lemma="waarin" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waarin" word="waarin"/>
+          <node begin="8" cat="ssub" end="26" id="16" rel="body">
+            <node begin="8" end="9" id="17" index="1" rel="mod"/>
+            <node begin="9" cat="np" end="13" id="18" rel="su">
+              <node begin="9" end="10" id="19" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="10" buiging="met-e" end="11" graad="basis" id="20" lemma="gelijknamig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="gelijknamig" word="gelijknamige"/>
+              <node begin="11" buiging="met-e" end="12" graad="basis" id="21" lemma="Engels" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Engels" word="Engelse"/>
+              <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="22" lemma="spion" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="spionne" word="spion"/>
+            </node>
+            <node begin="13" end="14" genus="onz" getal="ev" id="23" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="obj1" root="het" status="red" vwtype="pers" word="het"/>
+            <node begin="14" cat="mwu" end="17" id="24" rel="svp">
+              <node begin="14" end="15" id="25" lemma="aan" pos="fixed" postag="VZ(init)" pt="vz" rel="mwp" root="aan" vztype="init" word="aan"/>
+              <node begin="15" end="16" id="26" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="fixed" postag="LID(bep,stan,rest)" pt="lid" rel="mwp" root="de" word="de"/>
+              <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="27" lemma="stok" naamval="stan" ntype="soort" pos="fixed" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="stok" word="stok"/>
+            </node>
+            <node begin="17" end="18" id="28" lemma="krijgen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="krijg" word="kreeg" wvorm="pv"/>
+            <node begin="18" cat="pp" end="26" id="29" rel="pc">
+              <node begin="18" end="19" id="30" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+              <node begin="19" cat="conj" end="26" id="31" rel="obj1">
+                <node begin="19" cat="np" end="21" id="32" rel="cnj">
+                  <node begin="19" buiging="met-e" end="20" graad="basis" id="33" lemma="divers" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="divers" word="diverse"/>
+                  <node begin="20" end="21" getal="mv" graad="basis" id="34" lemma="terrorist" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="terrorist" word="terroristen"/>
+                </node>
+                <node begin="22" end="23" getal="mv" graad="basis" id="35" lemma="KGB_agent" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="KGB_agent" word="KGB-agenten"/>
+                <node begin="23" conjtype="neven" end="24" id="36" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                <node begin="24" cat="np" end="26" id="37" rel="cnj">
+                  <node begin="24" buiging="zonder" end="25" graad="basis" id="38" lemma="ander" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="ander" word="ander"/>
+                  <node begin="25" end="26" genus="onz" getal="ev" graad="basis" id="39" lemma="gespuis" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="gespuis" word="gespuis"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="26" end="27" id="40" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Berucht waren de films van James Bond , waarin de gelijknamige Engelse spion het aan de stok kreeg met diverse terroristen , KGB-agenten en ander gespuis .</sentence>
+</alpino_ds>

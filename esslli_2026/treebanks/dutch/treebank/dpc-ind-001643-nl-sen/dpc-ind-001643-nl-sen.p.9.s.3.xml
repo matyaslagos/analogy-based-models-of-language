@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="12" end="13" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="20" id="2" rel="--">
+      <node begin="0" cat="cp" end="12" id="3" rel="mod">
+        <node begin="0" conjtype="onder" end="1" id="4" lemma="toen" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="toen" word="Toen"/>
+        <node begin="1" cat="ssub" end="12" id="5" rel="body">
+          <node begin="2" cat="pp" end="5" id="6" rel="ld">
+            <node begin="2" end="3" id="7" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+            <node begin="3" cat="np" end="5" id="8" rel="obj1">
+              <node begin="3" end="4" id="9" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="10" lemma="oppervlakte" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="oppervlakte" word="oppervlakte"/>
+            </node>
+          </node>
+          <node begin="5" end="6" id="11" lemma="komen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="kom" word="kwamen" wvorm="pv"/>
+          <node begin="1" cat="np" end="12" id="12" rel="su">
+            <node begin="1" buiging="zonder" end="2" getal-n="zonder-n" id="13" lemma="bewijzen" pos="noun" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="bewijs" word="bewijzen" wvorm="inf"/>
+            <node begin="6" cat="pp" end="12" id="14" rel="mod">
+              <node begin="6" end="7" id="15" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="7" cat="conj" end="12" id="16" rel="obj1">
+                <node begin="7" cat="np" end="9" id="17" rel="cnj">
+                  <node begin="7" buiging="zonder" end="8" graad="basis" id="18" lemma="marmeren" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="marmeren" word="marmeren"/>
+                  <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="19" lemma="badkamer_sanitair" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="badkamer_sanitair" word="badkamersanitair"/>
+                </node>
+                <node begin="9" conjtype="neven" end="10" id="20" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                <node begin="10" cat="np" end="12" id="21" rel="cnj">
+                  <node begin="10" buiging="zonder" end="11" graad="basis" id="22" lemma="gouden" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="gouden" word="gouden"/>
+                  <node begin="11" end="12" getal="mv" graad="basis" id="23" lemma="kraan" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kraan" word="kranen"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="13" end="14" id="24" lemma="gaan" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="ga" word="gingen" wvorm="pv"/>
+      <node begin="14" cat="np" end="18" id="25" rel="su">
+        <node begin="14" end="15" id="26" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="15" cat="mwu" end="17" id="27" rel="mod">
+          <node begin="15" end="16" id="28" lemma="New" pos="adj" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="New" spectype="deeleigen" word="New"/>
+          <node begin="16" buiging="met-e" end="17" graad="basis" id="29" lemma="Yorks" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mwp" root="Yorkse" word="Yorkse"/>
+        </node>
+        <node begin="17" end="18" getal="mv" graad="basis" id="30" lemma="tabloid" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="tabloid" word="tabloids"/>
+      </node>
+      <node begin="18" cat="pp" end="20" id="31" rel="predc">
+        <node begin="18" end="19" id="32" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="19" end="20" id="33" lemma="overdrive" pos="noun" postag="SPEC(vreemd)" pt="spec" rel="obj1" root="over_drive" spectype="vreemd" word="overdrive"/>
+      </node>
+    </node>
+    <node begin="20" end="21" id="34" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Toen bewijzen aan de oppervlakte kwamen van marmeren badkamersanitair en gouden kranen , gingen de New Yorkse tabloids in overdrive .</sentence>
+</alpino_ds>

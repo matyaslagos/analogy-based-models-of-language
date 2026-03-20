@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="11" end="12" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="14" end="15" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="20" id="3" rel="--">
+      <node begin="0" end="1" id="4" lemma="daarenboven" pos="adv" postag="BW()" pt="bw" rel="mod" root="daarenboven" word="Daarenboven"/>
+      <node begin="1" end="2" id="5" lemma="winnen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="win" word="won" wvorm="pv"/>
+      <node begin="2" end="3" genus="fem" getal="ev" id="6" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,ev,fem)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="ze"/>
+      <node begin="3" cat="pp" end="5" id="7" rel="mod">
+        <node begin="3" end="4" id="8" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="4" end="5" id="9" lemma="2001" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" root="2001" word="2001"/>
+      </node>
+      <node begin="5" cat="ap" end="14" id="10" rel="predm">
+        <node begin="5" end="6" id="11" lemma="samen" pos="adj" postag="BW()" pt="bw" rel="hd" root="samen" word="samen"/>
+        <node begin="6" cat="pp" end="14" id="12" rel="pc">
+          <node begin="6" end="7" id="13" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+          <node begin="7" cat="np" end="14" id="14" rel="obj1">
+            <node begin="7" buiging="zonder" end="8" id="15" lemma="die" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,rest)" pt="vnw" rel="det" root="die" vwtype="aanw" word="die"/>
+            <node begin="8" buiging="met-e" end="9" graad="basis" id="16" lemma="ander" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ander" word="andere"/>
+            <node begin="9" buiging="met-e" end="10" graad="basis" id="17" lemma="Belgisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Belgisch" word="Belgische"/>
+            <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="18" lemma="top_tennisster" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="top_tennisster" word="toptennisster"/>
+            <node begin="12" cat="mwu" end="14" id="19" rel="app">
+              <node begin="12" end="13" id="20" lemma="Justine" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Justine" spectype="deeleigen" word="Justine"/>
+              <node begin="13" end="14" id="21" lemma="Henin" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Henin" spectype="deeleigen" word="Henin"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="15" cat="np" end="20" id="22" rel="obj1">
+        <node begin="15" end="16" id="23" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="16" buiging="met-e" end="17" graad="basis" id="24" lemma="nationaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nationaal" word="Nationale"/>
+        <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="25" lemma="trofee" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="trofee" word="trofee"/>
+        <node begin="18" cat="pp" end="20" id="26" rel="mod">
+          <node begin="18" end="19" id="27" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="19" end="20" genus="zijd" getal="ev" graad="basis" id="28" lemma="sport_verdienste" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="sport_verdienste" word="sportverdienste"/>
+        </node>
+      </node>
+    </node>
+    <node begin="20" end="21" id="29" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Daarenboven won ze in 2001 samen met die andere Belgische toptennisster , Justine Henin , de Nationale trofee voor sportverdienste .</sentence>
+</alpino_ds>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="2" end="3" id="2" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="0" cat="du" end="12" id="3" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="4" lemma="en" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="en" word="En"/>
+      <node begin="3" cat="smain" end="12" id="5" rel="nucl">
+        <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="6" lemma="Borgerhout" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" root="Borgerhout" word="Borgerhout"/>
+        <node begin="4" end="5" id="7" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="5" cat="np" end="12" id="8" rel="predc">
+          <node begin="5" end="6" id="9" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="6" end="7" id="10" lemma="één" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="eerste" word="eerste"/>
+          <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="11" lemma="district" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="district" word="district"/>
+          <node begin="8" cat="rel" end="12" id="12" rel="mod">
+            <node begin="8" end="9" getal="getal" id="13" index="1" lemma="waar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(vb,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="rhd" root="waar" status="vol" vwtype="vb" word="waar"/>
+            <node begin="8" cat="ssub" end="12" id="14" rel="body">
+              <node begin="8" end="9" id="15" index="1" rel="mod"/>
+              <node begin="9" cat="np" end="11" id="16" rel="su">
+                <node begin="9" end="10" id="17" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="18" lemma="vreemdelingenlegioen" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="vreemdelingenlegioen" word="vreemdelingenlegioen"/>
+              </node>
+              <node begin="11" end="12" id="19" lemma="toe_slaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="sla_toe" word="toeslaat" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" id="20" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+    <node begin="13" end="14" id="21" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+  </node>
+  <sentence>En : &quot; Borgerhout is het eerste district waar het vreemdelingenlegioen toeslaat . &quot;</sentence>
+</alpino_ds>

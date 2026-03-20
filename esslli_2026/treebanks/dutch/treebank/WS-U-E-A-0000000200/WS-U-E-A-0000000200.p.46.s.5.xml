@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="conj" end="13" id="1" rel="--">
+      <node begin="0" cat="du" end="4" id="2" rel="cnj">
+        <node begin="0" end="1" getal="getal" id="3" lemma="hier" naamval="obl" pdtype="adv-pron" persoon="3o" pos="tag" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="dp" root="hier" status="vol" vwtype="aanw" word="Hier"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="4" lemma="Netwerk" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="dp" root="Netwerk" word="NETWERK"/>
+        <node begin="2" cat="mwu" end="4" id="5" rel="dp">
+          <node begin="2" end="3" id="6" lemma="zo" pos="adv" postag="BW()" pt="bw" rel="mwp" root="zo" word="zo"/>
+          <node begin="3" end="4" id="7" lemma="meteen" pos="adv" postag="BW()" pt="bw" rel="mwp" root="meteen" word="meteen"/>
+        </node>
+      </node>
+      <node begin="4" conjtype="neven" end="5" id="8" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="5" cat="smain" end="13" id="9" rel="cnj">
+        <node begin="5" end="6" getal="ev" id="10" lemma="ik" naamval="nomin" pdtype="pron" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,vol,1,ev)" pt="vnw" rel="su" root="ik" status="vol" vwtype="pers" word="ik"/>
+        <node begin="6" end="7" id="11" lemma="wensen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="wens" word="wens" wvorm="pv"/>
+        <node begin="7" end="8" getal="getal" id="12" lemma="u" naamval="obl" pdtype="pron" persoon="2" pos="pron" postag="VNW(pr,pron,obl,vol,2,getal)" pt="vnw" rel="obj2" root="u" status="vol" vwtype="pr" word="u"/>
+        <node begin="8" end="9" id="13" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" word="nog"/>
+        <node begin="9" cat="np" end="13" id="14" rel="obj1">
+          <node begin="9" end="10" id="15" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="10" cat="ap" end="12" id="16" rel="mod">
+            <node begin="10" buiging="zonder" end="11" graad="basis" id="17" lemma="heel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="heel" word="heel"/>
+            <node begin="11" buiging="met-e" end="12" graad="basis" id="18" lemma="prettig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="hd" root="prettig" word="prettige"/>
+          </node>
+          <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="19" lemma="avond" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="avond" word="avond"/>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="20" lemma="..." pos="punct" postag="LET()" pt="let" rel="--" root="..." word="..."/>
+  </node>
+  <sentence>Hier NETWERK zo meteen en ik wens u nog een heel prettige avond ...</sentence>
+</alpino_ds>

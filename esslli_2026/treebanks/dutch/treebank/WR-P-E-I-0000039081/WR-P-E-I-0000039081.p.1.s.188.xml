@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="0" cat="smain" end="17" id="1" rel="--">
+      <node begin="0" cat="pp" end="2" id="2" rel="mod">
+        <node begin="0" end="1" id="3" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="4" lemma="Nederland" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Nederland" word="Nederland"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="blijken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="blijk" word="bleek" wvorm="pv"/>
+      <node begin="3" cat="np" end="6" id="6" rel="su">
+        <node begin="3" end="4" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="4" cat="mwu" end="6" id="8" rel="hd">
+          <node begin="4" end="5" id="9" lemma="Koude" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Koude" spectype="deeleigen" word="Koude"/>
+          <node begin="5" end="6" id="10" lemma="Oorlog" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Oorlog" spectype="deeleigen" word="Oorlog"/>
+        </node>
+      </node>
+      <node begin="6" cat="np" end="12" id="11" rel="predc">
+        <node begin="6" end="7" id="12" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="13" lemma="inspiratiebron" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="inspiratiebron" word="inspiratiebron"/>
+        <node begin="8" cat="pp" end="12" id="14" rel="mod">
+          <node begin="8" end="9" id="15" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="9" cat="np" end="12" id="16" rel="obj1">
+            <node begin="9" buiging="met-e" end="10" graad="basis" id="17" lemma="divers" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="divers" word="diverse"/>
+            <node begin="10" buiging="met-e" end="11" graad="basis" id="18" lemma="Nederlands_talig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Nederlandstalig" word="Nederlandstalige"/>
+            <node begin="11" end="12" getal="mv" graad="basis" id="19" lemma="band" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="band" word="bands"/>
+          </node>
+        </node>
+      </node>
+      <node begin="12" cat="pp" end="17" id="20" rel="mod">
+        <node begin="12" end="13" id="21" lemma="vooral" pos="adv" postag="BW()" pt="bw" rel="mod" root="vooral" word="vooral"/>
+        <node begin="13" end="14" id="22" lemma="tijdens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tijdens" vztype="init" word="tijdens"/>
+        <node begin="14" cat="np" end="17" id="23" rel="obj1">
+          <node begin="14" end="15" id="24" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="15" end="16" getal="mv" graad="basis" id="25" lemma="jaar" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="jaar" word="jaren"/>
+          <node begin="16" end="17" id="26" lemma="&apos;80" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="app" root="&apos;80" word="&apos;80"/>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="27" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>In Nederland bleek de Koude Oorlog een inspiratiebron voor diverse Nederlandstalige bands vooral tijdens de jaren &apos;80 .</sentence>
+</alpino_ds>

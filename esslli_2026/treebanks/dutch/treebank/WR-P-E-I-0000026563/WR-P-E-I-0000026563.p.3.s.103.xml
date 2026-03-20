@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="conj" end="4" id="2" rel="su">
+        <node begin="0" cat="np" end="2" id="3" rel="cnj">
+          <node begin="0" end="1" id="4" index="1" lemma="vooral" pos="adv" postag="BW()" pt="bw" rel="mod" root="vooral" word="Vooral"/>
+          <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="5" lemma="Wendy" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Wendy" word="Wendy"/>
+        </node>
+        <node begin="2" end="3" id="6" lemma="&amp;" pos="name" postag="SPEC(symb)" pt="spec" rel="crd" root="&amp;" spectype="symb" word="&amp;"/>
+        <node begin="0" cat="np" end="4" id="7" rel="cnj">
+          <node begin="0" end="1" id="8" index="1" rel="mod"/>
+          <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="9" lemma="Lisa" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Lisa" word="Lisa"/>
+        </node>
+      </node>
+      <node begin="4" end="5" id="10" lemma="willen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="wil" word="wilden" wvorm="pv"/>
+      <node begin="5" cat="np" end="8" id="11" rel="obj1">
+        <node begin="5" buiging="zonder" end="6" graad="comp" id="12" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,comp)" pt="vnw" rel="det" root="meer" vwtype="onbep" word="meer"/>
+        <node begin="6" buiging="met-e" end="7" graad="basis" id="13" lemma="artistiek" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="artistiek" word="artistieke"/>
+        <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="14" lemma="inbreng" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="inbreng" word="inbreng"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="15" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Vooral Wendy &amp; Lisa wilden meer artistieke inbreng .</sentence>
+</alpino_ds>

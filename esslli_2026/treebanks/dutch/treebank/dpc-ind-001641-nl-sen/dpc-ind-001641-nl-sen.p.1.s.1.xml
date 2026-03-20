@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="np" end="8" id="2" rel="--">
+      <node begin="0" end="1" genus="onz" getal="ev" graad="basis" id="3" lemma="Réunion" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Réunion" word="Réunion"/>
+      <node begin="2" cat="np" end="8" id="4" rel="app">
+        <node begin="2" buiging="met-e" end="3" graad="basis" id="5" lemma="koloniaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="koloniaal" word="koloniale"/>
+        <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="6" lemma="kroniek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="kroniek" word="kroniek"/>
+        <node begin="4" cat="pp" end="8" id="7" rel="mod">
+          <node begin="4" end="5" id="8" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="5" cat="conj" end="8" id="9" rel="obj1">
+            <node begin="5" end="6" getal="mv" graad="basis" id="10" lemma="rite" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="rite" word="riten"/>
+            <node begin="6" conjtype="neven" end="7" id="11" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="7" end="8" getal="mv" graad="basis" id="12" lemma="kidnapping" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="kidnappingen" word="kidnappingen"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>Réunion , koloniale kroniek van riten en kidnappingen</sentence>
+</alpino_ds>

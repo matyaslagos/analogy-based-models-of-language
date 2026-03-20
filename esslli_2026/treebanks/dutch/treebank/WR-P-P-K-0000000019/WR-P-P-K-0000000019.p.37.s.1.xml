@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="16" end="17" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="conj" end="19" id="2" rel="--">
+      <node begin="0" cat="smain" end="10" id="3" rel="cnj">
+        <node begin="0" cat="np" end="2" id="4" index="1" rel="su">
+          <node begin="0" end="1" id="5" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+          <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="6" lemma="Lomé_akkoord" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Lomé-akkoord" word="Lomé-akkoord"/>
+        </node>
+        <node begin="2" end="3" id="7" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+        <node begin="0" cat="ppart" end="10" id="8" rel="vc">
+          <node begin="0" end="2" id="9" index="1" rel="obj1"/>
+          <node begin="3" cat="pp" end="6" id="10" rel="mod">
+            <node begin="3" end="4" id="11" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" vztype="init" word="tot"/>
+            <node begin="4" cat="pp" end="6" id="12" rel="obj1">
+              <node begin="4" end="5" id="13" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+              <node begin="5" end="6" id="14" lemma="vandaag" pos="adv" postag="BW()" pt="bw" rel="obj1" root="vandaag" word="vandaag"/>
+            </node>
+          </node>
+          <node begin="6" cat="np" end="9" id="15" rel="mod">
+            <node begin="6" end="7" id="16" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mod" root="al" word="al"/>
+            <node begin="7" end="8" id="17" lemma="drie" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="drie" word="drie"/>
+            <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="18" lemma="maal" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="maal" word="maal"/>
+          </node>
+          <node begin="9" buiging="zonder" end="10" id="19" lemma="vernieuwen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="vernieuw" word="vernieuwd" wvorm="vd"/>
+        </node>
+      </node>
+      <node begin="10" conjtype="neven" end="11" id="20" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="11" cat="smain" end="19" id="21" rel="cnj">
+        <node begin="11" cat="pp" end="13" id="22" rel="mod">
+          <node begin="11" end="12" id="23" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="12" end="13" id="24" lemma="2000" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" root="2000" word="2000"/>
+        </node>
+        <node begin="13" end="14" id="25" lemma="komen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="kom" word="kwam" wvorm="pv"/>
+        <node begin="14" cat="np" end="19" id="26" rel="su">
+          <node begin="14" end="15" id="27" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="28" lemma="opvolger" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="opvolger" word="opvolger"/>
+          <node begin="17" cat="np" end="19" id="29" rel="app">
+            <node begin="17" end="18" id="30" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="18" end="19" genus="onz" getal="ev" graad="basis" id="31" lemma="Cotonou_akkoord" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="Cotonou_accoord" word="Cotonou-akkoord"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="32" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het Lomé-akkoord werd tot op vandaag al drie maal vernieuwd en in 2000 kwam de opvolger : het Cotonou-akkoord .</sentence>
+</alpino_ds>

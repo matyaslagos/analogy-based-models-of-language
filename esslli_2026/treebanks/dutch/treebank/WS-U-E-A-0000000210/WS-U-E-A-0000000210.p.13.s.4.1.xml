@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="du" end="7" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" word="Maar"/>
+      <node begin="1" cat="smain" end="7" id="3" rel="nucl">
+        <node begin="1" cat="np" end="3" id="4" rel="su">
+          <node begin="1" end="2" id="5" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+          <node begin="2" end="3" getal="ev" id="6" lemma="iedereen" naamval="stan" pdtype="pron" persoon="3p" pos="pron" postag="VNW(onbep,pron,stan,vol,3p,ev)" pt="vnw" rel="hd" root="iedereen" status="vol" vwtype="onbep" word="iedereen"/>
+        </node>
+        <node begin="3" end="4" id="7" lemma="weg_gaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ga_weg" word="gaat" wvorm="pv"/>
+        <node begin="4" cat="advp" end="6" id="8" rel="mod">
+          <node begin="4" end="5" id="9" lemma="even" pos="adv" postag="BW()" pt="bw" rel="mod" root="even" word="even"/>
+          <node begin="5" buiging="zonder" end="6" graad="basis" id="10" lemma="ver" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="ver" word="ver"/>
+        </node>
+        <node begin="6" end="7" id="11" lemma="weg" pos="part" postag="BW()" pt="bw" rel="svp" root="weg" word="weg"/>
+      </node>
+    </node>
+    <node begin="7" end="8" id="12" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Maar niet iedereen gaat even ver weg .</sentence>
+</alpino_ds>

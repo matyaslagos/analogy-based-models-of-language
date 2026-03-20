@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="8" end="9" id="2" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="10" end="11" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="15" id="4" rel="--">
+      <node begin="0" cat="np" end="2" id="5" rel="su">
+        <node begin="0" buiging="met-e" end="1" id="6" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="Deze"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="7" lemma="publicatie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="publicatie" word="publicaties"/>
+      </node>
+      <node begin="2" end="3" id="8" lemma="verschijnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="verschijn" word="verschijnen" wvorm="pv"/>
+      <node begin="3" cat="conj" end="15" id="9" rel="mod">
+        <node begin="3" cat="pp" end="10" id="10" rel="cnj">
+          <node begin="3" cat="advp" end="5" id="11" rel="mod">
+            <node begin="3" end="4" id="12" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+            <node begin="4" end="5" id="13" lemma="alleen" pos="adv" postag="BW()" pt="bw" rel="hd" root="alleen" word="alleen"/>
+          </node>
+          <node begin="5" end="6" id="14" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="7" cat="np" end="10" id="15" rel="obj1">
+            <node begin="7" buiging="zonder" end="8" graad="basis" id="16" lemma="papieren" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="papieren" word="papieren"/>
+            <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="17" lemma="vorm" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="vorm" word="vorm"/>
+          </node>
+        </node>
+        <node begin="11" conjtype="neven" end="12" id="18" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+        <node begin="12" cat="advp" end="15" id="19" rel="cnj">
+          <node begin="12" cat="advp" end="14" id="20" rel="mod">
+            <node begin="12" end="13" id="21" lemma="meestal" pos="adv" postag="BW()" pt="bw" rel="mod" root="meestal" word="meestal"/>
+            <node begin="13" end="14" id="22" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="hd" root="ook" word="ook"/>
+          </node>
+          <node begin="14" buiging="zonder" end="15" graad="basis" id="23" lemma="elektronisch" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="electronisch" word="elektronisch"/>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="24" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Deze publicaties verschijnen niet alleen in &apos; papieren &apos; vorm , maar meestal ook elektronisch .</sentence>
+</alpino_ds>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="smain" end="10" id="1" rel="--">
+      <node begin="0" cat="np" end="4" id="2" rel="su">
+        <node begin="0" cat="mwu" end="2" id="3" rel="mod">
+          <node begin="0" end="1" id="4" lemma="naar" pos="adv" postag="VZ(init)" pt="vz" rel="mwp" root="naar" vztype="init" word="Naar"/>
+          <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="5" lemma="schatting" naamval="stan" ntype="soort" pos="adv" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="schatting" word="schatting"/>
+        </node>
+        <node begin="2" end="3" id="6" lemma="320_duizend" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="320-duizend" word="320-duizend"/>
+        <node begin="3" end="4" getal="mv" graad="basis" id="7" lemma="Nederlander" ntype="eigen" pos="noun" postag="N(eigen,mv,basis)" pt="n" rel="hd" root="Nederlander" word="Nederlanders"/>
+      </node>
+      <node begin="4" end="5" id="8" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" word="hebben" wvorm="pv"/>
+      <node begin="6" cat="np" end="8" id="9" rel="mod">
+        <node begin="6" buiging="met-e" end="7" id="10" lemma="ieder" naamval="stan" npagr="evz" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,evz)" pt="vnw" rel="det" root="ieder" vwtype="onbep" word="iedere"/>
+        <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="11" lemma="dag" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="dag" word="dag"/>
+      </node>
+      <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="12" lemma="last" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="last" word="last"/>
+      <node begin="5" cat="pp" end="10" id="13" rel="pc">
+        <node begin="5" end="6" getal="getal" id="14" lemma="daar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="noun" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="obj1" root="daar" status="vol" vwtype="aanw" word="daar"/>
+        <node begin="9" end="10" id="15" lemma="van" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="van" vztype="fin" word="van"/>
+      </node>
+    </node>
+    <node begin="10" end="11" id="16" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Naar schatting 320-duizend Nederlanders hebben daar iedere dag last van .</sentence>
+</alpino_ds>

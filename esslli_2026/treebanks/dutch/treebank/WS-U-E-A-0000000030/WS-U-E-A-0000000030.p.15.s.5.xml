@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="18" id="2" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="3" lemma="en" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="en" word="En"/>
+      <node begin="1" cat="smain" end="18" id="4" rel="nucl">
+        <node begin="1" end="2" id="5" lemma="daarom" pos="pp" postag="BW()" pt="bw" rel="mod" root="daarom" word="daarom"/>
+        <node begin="2" end="3" id="6" lemma="openen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="open" word="opent" wvorm="pv"/>
+        <node begin="3" end="4" getal="mv" graad="basis" id="7" lemma="FNVBondgenoot" ntype="eigen" pos="name" postag="N(eigen,mv,basis)" pt="n" rel="su" root="FNVBondgenoten" word="FNVBondgenoten"/>
+        <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="8" lemma="maandag" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" root="maandag" word="maandag"/>
+        <node begin="5" cat="np" end="18" id="9" rel="obj1">
+          <node begin="5" end="6" id="10" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="11" lemma="meldpunt" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="meldpunt" word="meldpunt"/>
+          <node begin="8" cat="rel" end="18" id="12" rel="mod">
+            <node begin="8" end="9" getal="getal" id="13" index="1" lemma="waar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(vb,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="rhd" root="waar" status="vol" vwtype="vb" word="waar"/>
+            <node begin="8" cat="ssub" end="18" id="14" rel="body">
+              <node begin="8" end="9" id="15" index="1" rel="mod"/>
+              <node begin="9" cat="conj" end="12" id="16" rel="su">
+                <node begin="9" end="10" getal="mv" graad="basis" id="17" lemma="machinist" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="machinist" word="machinisten"/>
+                <node begin="10" conjtype="neven" end="11" id="18" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                <node begin="11" end="12" getal="mv" graad="basis" id="19" lemma="conducteur" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="conducteur" word="conducteurs"/>
+              </node>
+              <node begin="12" buiging="zonder" end="13" graad="basis" id="20" lemma="kwijt" pos="part" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="svp" root="kwijt" word="kwijt"/>
+              <node begin="13" end="14" id="21" lemma="kwijt_kunnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kan_kwijt" word="kunnen" wvorm="pv"/>
+              <node begin="14" cat="whrel" end="18" id="22" rel="obj1">
+                <node begin="14" end="15" getal="ev" id="23" index="2" lemma="wat" naamval="stan" pdtype="pron" persoon="3o" pos="pron" postag="VNW(vb,pron,stan,vol,3o,ev)" pt="vnw" rel="rhd" root="wat" status="vol" vwtype="vb" word="wat"/>
+                <node begin="14" cat="ssub" end="18" id="24" rel="body">
+                  <node begin="14" end="15" id="25" index="2" rel="obj1"/>
+                  <node begin="15" end="16" getal="mv" id="26" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="ze"/>
+                  <node begin="16" end="17" id="27" lemma="allemaal" pos="adv" postag="BW()" pt="bw" rel="predm" root="allemaal" word="allemaal"/>
+                  <node begin="17" end="18" id="28" lemma="mee_maken" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="maak_mee" word="meemaken" wvorm="pv"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="29" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>En daarom opent FNVBondgenoten maandag een meldpunt , waar machinisten en conducteurs kwijt kunnen wat ze allemaal meemaken .</sentence>
+</alpino_ds>

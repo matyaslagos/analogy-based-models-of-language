@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="25" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="«" pos="punct" postag="LET()" pt="let" rel="--" root="«" word="«"/>
+    <node begin="6" end="7" id="2" lemma="»" pos="punct" postag="LET()" pt="let" rel="--" root="»" word="»"/>
+    <node begin="7" end="8" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="14" end="15" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="18" end="19" id="5" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="24" id="6" rel="--">
+      <node begin="2" end="3" id="7" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="4" cat="np" end="14" id="8" index="1" rel="su">
+        <node begin="4" end="5" id="9" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="name" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="10" lemma="Ronde" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Ronde" word="Ronde"/>
+        <node begin="8" cat="cp" end="14" id="11" rel="mod">
+          <node begin="8" conjtype="onder" end="9" id="12" lemma="zoals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zoals" word="zoals"/>
+          <node begin="9" cat="ssub" end="14" id="13" rel="body">
+            <node begin="9" cat="np" end="11" id="14" index="2" rel="su">
+              <node begin="9" end="10" id="15" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="16" lemma="wedstrijd" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="wedstrijd" word="wedstrijd"/>
+            </node>
+            <node begin="9" cat="ppart" end="13" id="17" rel="vc">
+              <node begin="9" end="11" id="18" index="2" rel="obj1"/>
+              <node begin="11" buiging="zonder" end="12" graad="basis" id="19" lemma="vaak" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="vaak" word="vaak"/>
+              <node begin="12" buiging="zonder" end="13" id="20" lemma="noemen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="noem" word="genoemd" wvorm="vd"/>
+            </node>
+            <node begin="13" end="14" id="21" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+      <node begin="0" cat="ppart" end="24" id="22" rel="vc">
+        <node begin="0" cat="pp" end="2" id="23" rel="mod">
+          <node begin="0" end="1" id="24" lemma="sinds" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="sinds" vztype="init" word="Sinds"/>
+          <node begin="1" end="2" id="25" lemma="1919" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" root="1919" word="1919"/>
+        </node>
+        <node begin="4" end="14" id="26" index="1" rel="obj1"/>
+        <node begin="15" cat="np" end="17" id="27" rel="mod">
+          <node begin="15" buiging="zonder" end="16" id="28" lemma="elk" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="elk" vwtype="onbep" word="elk"/>
+          <node begin="16" end="17" genus="onz" getal="ev" graad="basis" id="29" lemma="jaar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="jaar" word="jaar"/>
+        </node>
+        <node begin="17" buiging="zonder" end="18" id="30" lemma="verrijden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="verrijd" word="verreden" wvorm="vd"/>
+        <node begin="19" cat="pp" end="24" id="31" rel="mod">
+          <node begin="19" end="20" id="32" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+          <node begin="20" end="21" id="33" lemma="tijdens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tijdens" vztype="init" word="tijdens"/>
+          <node begin="21" cat="np" end="24" id="34" rel="obj1">
+            <node begin="21" end="22" id="35" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="22" cat="mwu" end="24" id="36" rel="hd">
+              <node begin="22" end="23" id="37" lemma="Tweede" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Tweede" spectype="deeleigen" word="Tweede"/>
+              <node begin="23" end="24" id="38" lemma="Wereldoorlog" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Wereldoorlog" spectype="deeleigen" word="Wereldoorlog"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="24" end="25" id="39" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Sinds 1919 is « de Ronde » , zoals de wedstrijd vaak genoemd wordt , elk jaar verreden , ook tijdens de Tweede Wereldoorlog .</sentence>
+</alpino_ds>

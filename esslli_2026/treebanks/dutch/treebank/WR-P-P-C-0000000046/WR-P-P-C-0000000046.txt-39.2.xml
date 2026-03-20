@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="conj" end="15" id="1" rel="--">
+      <node begin="0" cat="smain" end="8" id="2" rel="cnj">
+        <node begin="0" cat="np" end="4" id="3" index="1" rel="su">
+          <node begin="0" buiging="met-e" end="1" getal-n="mv-n" graad="comp" id="4" lemma="jong" pos="noun" positie="nom" postag="ADJ(nom,comp,met-e,mv-n)" pt="adj" rel="hd" root="jongere" word="Jongeren"/>
+          <node begin="1" cat="pp" end="4" id="5" rel="mod">
+            <node begin="1" end="2" id="6" lemma="vanaf" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="vanaf" vztype="init" word="vanaf"/>
+            <node begin="2" cat="np" end="4" id="7" rel="obj1">
+              <node begin="2" end="3" id="8" lemma="16" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="16" word="16"/>
+              <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="9" lemma="jaar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="jaar" word="jaar"/>
+            </node>
+          </node>
+        </node>
+        <node begin="4" end="5" id="10" lemma="kunnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kan" word="kunnen" wvorm="pv"/>
+        <node begin="0" cat="inf" end="8" id="11" rel="vc">
+          <node begin="0" end="4" id="12" index="1" rel="su"/>
+          <node begin="5" cat="np" end="7" id="13" rel="obj1">
+            <node begin="5" buiging="met-e" end="6" id="14" lemma="zwak_alcohol_houden" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="zwakalcoholhoudende" word="zwakalcoholhoudende" wvorm="od"/>
+            <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="15" lemma="drank" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="drank" word="drank"/>
+          </node>
+          <node begin="7" buiging="zonder" end="8" id="16" lemma="kopen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="koop" word="kopen" wvorm="inf"/>
+        </node>
+      </node>
+      <node begin="8" conjtype="neven" end="9" id="17" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="9" cat="du" end="15" id="18" rel="cnj">
+        <node begin="9" cat="np" end="13" id="19" rel="dp">
+          <node begin="9" buiging="met-e" end="10" getal-n="mv-n" graad="comp" id="20" lemma="jong" pos="noun" positie="nom" postag="ADJ(nom,comp,met-e,mv-n)" pt="adj" rel="hd" root="jongere" word="jongeren"/>
+          <node begin="10" cat="pp" end="13" id="21" rel="mod">
+            <node begin="10" end="11" id="22" lemma="vanaf" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="vanaf" vztype="init" word="vanaf"/>
+            <node begin="11" cat="np" end="13" id="23" rel="obj1">
+              <node begin="11" end="12" id="24" lemma="18" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="18" word="18"/>
+              <node begin="12" end="13" genus="onz" getal="ev" graad="basis" id="25" lemma="jaar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="jaar" word="jaar"/>
+            </node>
+          </node>
+        </node>
+        <node begin="13" cat="np" end="15" id="26" rel="dp">
+          <node begin="13" buiging="met-e" end="14" graad="basis" id="27" lemma="sterk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="sterk" word="sterke"/>
+          <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="28" lemma="drank" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="drank" word="drank"/>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="29" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Jongeren vanaf 16 jaar kunnen zwakalcoholhoudende drank kopen en jongeren vanaf 18 jaar sterke drank .</sentence>
+</alpino_ds>

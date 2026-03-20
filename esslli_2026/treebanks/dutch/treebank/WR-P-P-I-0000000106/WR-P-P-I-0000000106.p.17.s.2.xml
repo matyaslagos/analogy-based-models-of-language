@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="0" cat="conj" end="18" id="1" rel="--">
+      <node begin="0" cat="smain" end="11" id="2" rel="cnj">
+        <node begin="0" end="1" genus="onz" getal="ev" id="3" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" root="het" status="red" vwtype="pers" word="Het"/>
+        <node begin="1" end="2" id="4" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="2" cat="np" end="11" id="5" rel="predc">
+          <node begin="2" end="3" getal-n="zonder-n" graad="basis" id="6" lemma="één" numtype="hoofd" pos="det" positie="nom" postag="TW(hoofd,nom,zonder-n,basis)" pt="tw" rel="hd" root="een" word="een"/>
+          <node begin="3" cat="pp" end="11" id="7" rel="mod">
+            <node begin="3" end="4" id="8" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="4" cat="np" end="11" id="9" rel="obj1">
+              <node begin="4" end="5" id="10" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="5" buiging="met-e" end="6" graad="basis" id="11" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,met-e,agr,basis)" pt="vnw" rel="mod" root="vele" vwtype="onbep" word="vele"/>
+              <node begin="6" buiging="met-e" end="7" id="12" lemma="hangen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="hangend" word="hangende" wvorm="od"/>
+              <node begin="7" end="8" getal="mv" graad="basis" id="13" lemma="dossier" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="dossier" word="dossiers"/>
+              <node begin="8" cat="pp" end="11" id="14" rel="mod">
+                <node begin="8" end="9" id="15" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="9" cat="mwu" end="11" id="16" rel="obj1">
+                  <node begin="9" end="10" id="17" lemma="Verhofstadt" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Verhofstadt" spectype="deeleigen" word="Verhofstadt"/>
+                  <node begin="10" end="11" id="18" lemma="I" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="I" spectype="deeleigen" word="I"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="11" conjtype="neven" end="12" id="19" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="12" cat="smain" end="18" id="20" rel="cnj">
+        <node begin="13" end="14" id="21" lemma="circuleren" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="circuleer" word="circuleren" wvorm="pv"/>
+        <node begin="14" end="15" id="22" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mod" root="al" word="al"/>
+        <node begin="12" cat="np" end="18" id="23" rel="su">
+          <node begin="15" buiging="met-e" end="16" graad="basis" id="24" lemma="divers" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="divers" word="diverse"/>
+          <node begin="16" end="17" getal="mv" graad="basis" id="25" lemma="sneuvel_tekst" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="sneuvel_tekst" word="sneuvelteksten"/>
+          <node begin="12" cat="pp" end="18" id="26" rel="mod">
+            <node begin="12" end="13" getal="getal" id="27" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="noun" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="obj1" root="er" status="red" vwtype="aanw" word="er"/>
+            <node begin="17" end="18" id="28" lemma="van" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="van" vztype="fin" word="van"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="29" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het is een van de vele hangende dossiers van Verhofstadt I en er circuleren al diverse sneuvelteksten van .</sentence>
+</alpino_ds>

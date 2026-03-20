@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="1" cat="smain" end="6" id="2" rel="--">
+      <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="3" lemma="muntstuk" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="su" root="muntstuk" word="Muntstuk"/>
+      <node begin="2" end="3" id="4" lemma="verwijzen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="verwijs" word="verwijst" wvorm="pv"/>
+      <node begin="3" cat="pp" end="6" id="5" rel="pc">
+        <node begin="3" end="4" id="6" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+        <node begin="4" cat="np" end="6" id="7" rel="obj1">
+          <node begin="4" buiging="zonder" end="5" graad="basis" id="8" lemma="gouden" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="gouden" word="gouden"/>
+          <node begin="5" end="6" getal="mv" graad="basis" id="9" lemma="muntstuk" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="muntstuk" word="muntstukken"/>
+        </node>
+      </node>
+    </node>
+    <node begin="6" end="7" id="10" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+    <node begin="7" end="8" id="11" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+  </node>
+  <sentence>( Muntstuk verwijst naar gouden muntstukken . )</sentence>
+</alpino_ds>

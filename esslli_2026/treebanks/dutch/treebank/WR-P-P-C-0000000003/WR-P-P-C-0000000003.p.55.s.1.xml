@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="17" end="18" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="du" end="20" id="2" rel="--">
+      <node begin="0" end="1" id="3" lemma="c." pos="tag" postag="SPEC(symb)" pt="spec" rel="tag" root="c." spectype="symb" word="c."/>
+      <node begin="1" cat="du" end="20" id="4" rel="nucl">
+        <node begin="1" cat="cp" end="17" id="5" rel="nucl">
+          <node begin="1" conjtype="onder" end="2" id="6" lemma="indien" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="indien" word="indien"/>
+          <node begin="2" cat="ssub" end="17" id="7" rel="body">
+            <node begin="2" cat="np" end="4" id="8" rel="su">
+              <node begin="2" end="3" id="9" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="3" end="4" getal="mv" graad="basis" id="10" lemma="prijs" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="prijs" word="prijzen"/>
+            </node>
+            <node begin="7" end="8" id="11" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" word="hebben" wvorm="pv"/>
+            <node begin="4" cat="np" end="17" id="12" rel="obj1">
+              <node begin="4" end="5" id="13" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="14" lemma="waarde" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="waarde" word="waarde"/>
+              <node begin="5" cat="conj" end="17" id="15" rel="mod">
+                <node begin="5" cat="ap" end="11" id="16" rel="cnj">
+                  <node begin="5" buiging="met-e" end="6" graad="comp" id="17" lemma="groot" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,comp,met-e,stan)" pt="adj" rel="hd" root="groot" word="grotere"/>
+                  <node begin="8" cat="cp" end="11" id="18" rel="obcomp">
+                    <node begin="8" conjtype="onder" end="9" id="19" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="dan" word="dan"/>
+                    <node begin="9" cat="mwu" end="11" id="20" rel="body">
+                      <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="21" lemma="euro" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="euro" word="euro"/>
+                      <node begin="10" end="11" id="22" lemma="450.000,-" pos="num" postag="SPEC(symb)" pt="spec" rel="mwp" root="450.000,-" spectype="symb" word="450.000,-"/>
+                    </node>
+                  </node>
+                </node>
+                <node begin="11" conjtype="neven" end="12" id="23" lemma="doch" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="doch" word="doch"/>
+                <node begin="12" cat="ap" end="17" id="24" rel="cnj">
+                  <node begin="12" end="13" id="25" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+                  <node begin="13" buiging="zonder" end="14" graad="comp" id="26" lemma="groot" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="groot" word="groter"/>
+                  <node begin="14" cat="cp" end="17" id="27" rel="obcomp">
+                    <node begin="14" conjtype="onder" end="15" id="28" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="dan" word="dan"/>
+                    <node begin="15" cat="mwu" end="17" id="29" rel="body">
+                      <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="30" lemma="euro" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="euro" word="euro"/>
+                      <node begin="16" end="17" id="31" lemma="4.500.000,-" pos="num" postag="SPEC(symb)" pt="spec" rel="mwp" root="4.500.000,-" spectype="symb" word="4.500.000,-"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="18" cat="mwu" end="20" id="32" rel="sat">
+          <node begin="18" end="19" genus="zijd" getal="ev" graad="basis" id="33" lemma="euro" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="euro" word="euro"/>
+          <node begin="19" end="20" id="34" lemma="1.588,-" pos="num" postag="SPEC(symb)" pt="spec" rel="mwp" root="1.588,-" spectype="symb" word="1.588,-"/>
+        </node>
+      </node>
+    </node>
+    <node begin="20" end="21" id="35" lemma=";" pos="punct" postag="LET()" pt="let" rel="--" root=";" word=";"/>
+  </node>
+  <sentence>c. indien de prijzen een grotere waarde hebben dan euro 450.000,- doch niet groter dan euro 4.500.000,- : euro 1.588,- ;</sentence>
+</alpino_ds>

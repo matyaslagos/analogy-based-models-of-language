@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="np" end="8" id="2" rel="--">
+      <node begin="0" cat="mwu" end="4" id="3" rel="hd">
+        <node begin="0" end="1" id="4" lemma="Jhr." pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="jhr." spectype="deeleigen" word="Jhr."/>
+        <node begin="1" end="2" id="5" lemma="R." pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="R." spectype="deeleigen" word="R."/>
+        <node begin="2" end="3" id="6" lemma="H." pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="H." spectype="deeleigen" word="H."/>
+        <node begin="3" end="4" id="7" lemma="Loudon" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Loudon" spectype="deeleigen" word="Loudon"/>
+      </node>
+      <node begin="5" cat="pp" end="8" id="8" rel="mod">
+        <node begin="5" end="6" id="9" lemma="sinds" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="sinds" vztype="init" word="sinds"/>
+        <node begin="6" cat="np" end="8" id="10" rel="obj1">
+          <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="11" lemma="januari" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="januari" word="januari"/>
+          <node begin="7" end="8" id="12" lemma="2001" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mod" root="2001" word="2001"/>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" id="13" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+  </node>
+  <sentence>Jhr. R. H. Loudon ( sinds januari 2001 )</sentence>
+</alpino_ds>

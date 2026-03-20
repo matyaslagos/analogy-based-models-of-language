@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="9" end="10" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="18" id="3" rel="--">
+      <node begin="0" cat="pp" end="2" id="4" rel="mod">
+        <node begin="0" end="1" id="5" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="6" lemma="Vlaanderen" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Vlaanderen" word="Vlaanderen"/>
+      </node>
+      <node begin="2" end="3" id="7" lemma="vinden" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="vind" word="vind" wvorm="pv"/>
+      <node begin="3" end="4" getal="ev" id="8" lemma="je" naamval="nomin" pdtype="pron" persoon="2v" pos="pron" postag="VNW(pers,pron,nomin,red,2v,ev)" pt="vnw" rel="su" root="je" status="red" vwtype="pers" word="je"/>
+      <node begin="4" end="5" id="9" lemma="vooral" pos="adv" postag="BW()" pt="bw" rel="mod" root="vooral" word="vooral"/>
+      <node begin="6" cat="pp" end="9" id="10" rel="mod">
+        <node begin="6" end="7" id="11" lemma="naast" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naast" vztype="init" word="naast"/>
+        <node begin="7" cat="np" end="9" id="12" rel="obj1">
+          <node begin="7" end="8" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="8" end="9" getal="mv" graad="basis" id="14" lemma="stad" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="stad" word="steden"/>
+        </node>
+      </node>
+      <node begin="10" cat="np" end="18" id="15" rel="obj1">
+        <node begin="10" end="11" getal="mv" graad="basis" id="16" lemma="veld" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="veld" word="velden"/>
+        <node begin="11" cat="ppart" end="18" id="17" rel="mod">
+          <node begin="11" buiging="zonder" end="12" id="18" lemma="scheiden" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="gescheiden" word="gescheiden" wvorm="vd"/>
+          <node begin="12" cat="pp" end="18" id="19" rel="mod">
+            <node begin="12" end="13" id="20" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+            <node begin="13" cat="conj" end="18" id="21" rel="obj1">
+              <node begin="13" end="14" getal="mv" graad="basis" id="22" lemma="gracht" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="gracht" word="grachten"/>
+              <node begin="14" conjtype="neven" end="15" id="23" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="15" cat="np" end="18" id="24" rel="cnj">
+                <node begin="15" end="16" getal="mv" graad="basis" id="25" lemma="rij" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="rij" word="rijen"/>
+                <node begin="16" cat="pp" end="18" id="26" rel="mod">
+                  <node begin="16" end="17" id="27" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+                  <node begin="17" end="18" getal="mv" graad="basis" id="28" lemma="boom" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="boom" word="bomen"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="29" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>In Vlaanderen vind je vooral , naast de steden , velden gescheiden door grachten en rijen met bomen .</sentence>
+</alpino_ds>

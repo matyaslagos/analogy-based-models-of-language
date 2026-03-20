@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="np" end="6" id="2" rel="--">
+      <node begin="0" cat="mwu" end="2" id="3" rel="hd">
+        <node begin="0" end="1" id="4" lemma="Caroline" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Caroline" spectype="deeleigen" word="Caroline"/>
+        <node begin="1" end="2" id="5" lemma="Nijs" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Nijs" spectype="deeleigen" word="Nijs"/>
+      </node>
+      <node begin="3" cat="np" end="6" id="6" rel="app">
+        <node begin="3" buiging="zonder" end="4" graad="basis" id="7" lemma="socio_cultureel" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="sociocultureel" word="sociocultureel"/>
+        <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="8" lemma="medewerker" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="medewerker" word="medewerker"/>
+        <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="9" lemma="Pangaea" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="mod" root="Pangaea" word="Pangaea"/>
+      </node>
+    </node>
+  </node>
+  <sentence>Caroline Nijs , sociocultureel medewerker Pangaea</sentence>
+</alpino_ds>

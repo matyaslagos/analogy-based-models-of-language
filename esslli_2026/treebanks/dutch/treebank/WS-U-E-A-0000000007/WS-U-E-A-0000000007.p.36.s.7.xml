@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="17" id="2" rel="--">
+      <node begin="0" cat="cp" end="7" id="3" rel="su">
+        <node begin="0" conjtype="onder" end="1" id="4" lemma="of" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="of" word="Of"/>
+        <node begin="1" cat="ssub" end="7" id="5" rel="body">
+          <node begin="1" end="2" getal="mv" graad="basis" id="6" index="1" lemma="belegger" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="belegger" word="beleggers"/>
+          <node begin="5" end="6" id="7" lemma="kunnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kan" word="kunnen" wvorm="pv"/>
+          <node begin="1" cat="inf" end="7" id="8" rel="vc">
+            <node begin="1" end="2" id="9" index="1" rel="su"/>
+            <node begin="2" end="3" id="10" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+            <node begin="3" buiging="zonder" end="4" graad="basis" id="11" lemma="echt" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="echt" word="echt"/>
+            <node begin="4" end="5" getal="mv" graad="basis" id="12" lemma="schadeclaim" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="schadeclaim" word="schadeclaims"/>
+            <node begin="6" buiging="zonder" end="7" id="13" lemma="in_dienen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="dien_in" word="indienen" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+      <node begin="8" end="9" id="14" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+      <node begin="9" buiging="zonder" end="10" graad="basis" id="15" lemma="duidelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="duidelijk" word="duidelijk"/>
+      <node begin="10" cat="cp" end="17" id="16" rel="mod">
+        <node begin="10" conjtype="onder" end="11" id="17" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+        <node begin="11" cat="ssub" end="17" id="18" rel="body">
+          <node begin="11" cat="np" end="15" id="19" index="2" rel="su">
+            <node begin="11" end="12" id="20" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="12" end="13" genus="onz" getal="ev" graad="basis" id="21" lemma="onderzoek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="onderzoek" word="onderzoek"/>
+            <node begin="13" cat="pp" end="15" id="22" rel="mod">
+              <node begin="13" end="14" id="23" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+              <node begin="14" end="15" genus="onz" getal="ev" graad="basis" id="24" lemma="wan_beleid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="wan_beleid" word="wanbeleid"/>
+            </node>
+          </node>
+          <node begin="15" end="16" id="25" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+          <node begin="11" cat="ppart" end="17" id="26" rel="vc">
+            <node begin="11" end="15" id="27" index="2" rel="obj1"/>
+            <node begin="16" buiging="zonder" end="17" id="28" lemma="af_ronden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="rond_af" word="afgerond" wvorm="vd"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="29" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Of beleggers ook echt schadeclaims kunnen indienen , wordt duidelijk als het onderzoek naar wanbeleid is afgerond .</sentence>
+</alpino_ds>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="du" end="13" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="en" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="en" word="En"/>
+      <node begin="1" cat="smain" end="13" id="3" rel="nucl">
+        <node begin="1" cat="pp" end="3" id="4" rel="mod">
+          <node begin="1" end="2" id="5" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+          <node begin="2" end="3" getal="mv" graad="basis" id="6" lemma="verkiezing" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="verkiezing" word="verkiezingen"/>
+        </node>
+        <node begin="3" end="4" id="7" lemma="zetten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="zet" word="zetten" wvorm="pv"/>
+        <node begin="4" cat="np" end="6" id="8" rel="su">
+          <node begin="4" end="5" id="9" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="5" end="6" getal="mv" graad="basis" id="10" lemma="partij" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="partij" word="partijen"/>
+        </node>
+        <node begin="6" cat="np" end="10" id="11" rel="obj1">
+          <node begin="6" end="7" getal="mv" graad="basis" id="12" lemma="kandidaat" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kandidaat" word="kandidaten"/>
+          <node begin="7" cat="pp" end="10" id="13" rel="mod">
+            <node begin="7" end="8" id="14" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" vztype="init" word="uit"/>
+            <node begin="8" cat="np" end="10" id="15" rel="obj1">
+              <node begin="8" buiging="met-e" end="9" graad="basis" id="16" lemma="verschillend" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="verschil" word="verschillende"/>
+              <node begin="9" end="10" getal="mv" graad="basis" id="17" lemma="deel_gemeente" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="deel_gemeente" word="deelgemeenten"/>
+            </node>
+          </node>
+        </node>
+        <node begin="10" cat="pp" end="13" id="18" rel="ld">
+          <node begin="10" end="11" id="19" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+          <node begin="11" cat="np" end="13" id="20" rel="obj1">
+            <node begin="11" buiging="met-e" end="12" graad="basis" id="21" lemma="verkiesbaar" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="verkiesbaar" word="verkiesbare"/>
+            <node begin="12" end="13" getal="mv" graad="basis" id="22" lemma="plaats" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="plaats" word="plaatsen"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="23" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+    <node begin="14" end="15" id="24" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+  </node>
+  <sentence>En bij verkiezingen zetten de partijen kandidaten uit verschillende deelgemeenten op verkiesbare plaatsen . &apos;</sentence>
+</alpino_ds>

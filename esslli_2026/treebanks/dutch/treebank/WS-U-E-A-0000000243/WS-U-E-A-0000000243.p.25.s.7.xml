@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="1" end="2" id="2" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="14" id="3" rel="vc">
+        <node begin="0" end="1" id="4" lemma="bovendien" pos="adv" postag="BW()" pt="bw" rel="mod" root="bovendien" word="Bovendien"/>
+        <node begin="2" end="3" getal="getal" id="5" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+        <node begin="5" buiging="zonder" end="6" id="6" lemma="maken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="maak" word="gemaakt" wvorm="vd"/>
+        <node begin="3" cat="np" end="14" id="7" index="1" rel="obj1">
+          <node begin="3" buiging="zonder" end="4" id="8" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="geen"/>
+          <node begin="4" end="5" getal="mv" graad="basis" id="9" lemma="afspraak" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="afspraak" word="afspraken"/>
+          <node begin="6" cat="pp" end="14" id="10" rel="mod">
+            <node begin="6" end="7" id="11" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" vztype="init" word="over"/>
+            <node begin="7" cat="whrel" end="14" id="12" rel="obj1">
+              <node begin="7" end="8" getal="ev" id="13" index="2" lemma="wat" naamval="stan" pdtype="pron" persoon="3o" pos="pron" postag="VNW(vb,pron,stan,vol,3o,ev)" pt="vnw" rel="rhd" root="wat" status="vol" vwtype="vb" word="wat"/>
+              <node begin="7" cat="ssub" end="14" id="14" rel="body">
+                <node begin="7" end="8" id="15" index="2" rel="predc"/>
+                <node begin="8" cat="np" end="11" id="16" rel="su">
+                  <node begin="8" end="9" id="17" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                  <node begin="9" buiging="met-e" end="10" graad="basis" id="18" lemma="rook_vrij" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="rook_vrij" word="rookvrije"/>
+                  <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="19" lemma="zone" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="zone" word="zone"/>
+                </node>
+                <node begin="11" end="12" id="20" lemma="nu" pos="adv" postag="BW()" pt="bw" rel="mod" root="nu" word="nu"/>
+                <node begin="12" buiging="zonder" end="13" graad="basis" id="21" lemma="eigenlijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="eigenlijk" word="eigenlijk"/>
+                <node begin="13" end="14" id="22" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="3" end="14" id="23" index="1" rel="su"/>
+    </node>
+    <node begin="14" end="15" id="24" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Bovendien zijn er geen afspraken gemaakt over wat een rookvrije zone nu eigenlijk is .</sentence>
+</alpino_ds>

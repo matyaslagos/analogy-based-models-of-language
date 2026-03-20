@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="10" end="11" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="19" id="2" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="3" lemma="en" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="en" word="En"/>
+      <node begin="1" cat="conj" end="19" id="4" rel="nucl">
+        <node begin="1" cat="smain" end="10" id="5" rel="cnj">
+          <node begin="1" end="2" id="6" lemma="dan" pos="adv" postag="BW()" pt="bw" rel="mod" root="dan" word="dan"/>
+          <node begin="2" end="3" id="7" lemma="hebben" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="heb" word="heb" wvorm="pv"/>
+          <node begin="3" end="4" getal="ev" id="8" lemma="je" naamval="nomin" pdtype="pron" persoon="2v" pos="pron" postag="VNW(pers,pron,nomin,red,2v,ev)" pt="vnw" rel="su" root="je" status="red" vwtype="pers" word="je"/>
+          <node begin="4" cat="np" end="10" id="9" rel="obj1">
+            <node begin="4" end="5" getal="mv" graad="basis" id="10" lemma="mens" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="mens" word="mensen"/>
+            <node begin="5" cat="rel" end="10" id="11" rel="mod">
+              <node begin="5" end="6" getal="getal" id="12" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+              <node begin="5" cat="ssub" end="10" id="13" rel="body">
+                <node begin="5" end="6" id="14" index="1" rel="su"/>
+                <node begin="6" cat="pp" end="9" id="15" rel="pc">
+                  <node begin="6" end="7" id="16" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+                  <node begin="7" cat="np" end="9" id="17" rel="obj1">
+                    <node begin="7" buiging="zonder" end="8" getal="mv" id="18" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+                    <node begin="8" end="9" getal="mv" graad="basis" id="19" lemma="rem_blok" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="remblok" word="remblokken"/>
+                  </node>
+                </node>
+                <node begin="9" end="10" id="20" lemma="rijden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="rij" word="rijden" wvorm="pv"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="11" conjtype="neven" end="12" id="21" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+        <node begin="12" cat="smain" end="19" id="22" rel="cnj">
+          <node begin="13" end="14" id="23" lemma="zullen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zal" word="zal" wvorm="pv"/>
+          <node begin="14" end="15" getal="ev" id="24" index="2" lemma="je" naamval="nomin" pdtype="pron" persoon="2v" pos="pron" postag="VNW(pers,pron,nomin,red,2v,ev)" pt="vnw" rel="su" root="je" status="red" vwtype="pers" word="je"/>
+          <node begin="12" cat="inf" end="19" id="25" rel="vc">
+            <node begin="12" end="13" getal="ev" id="26" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="obj1" root="dat" status="vol" vwtype="aanw" word="dat"/>
+            <node begin="14" end="15" id="27" index="2" rel="su"/>
+            <node begin="15" cat="conj" end="18" id="28" rel="mod">
+              <node begin="15" end="16" id="29" lemma="altijd" pos="adv" postag="BW()" pt="bw" rel="cnj" root="altijd" word="altijd"/>
+              <node begin="16" conjtype="neven" end="17" id="30" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="17" end="18" getal="getal" id="31" lemma="overal" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(onbep,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="cnj" root="overal" status="vol" vwtype="onbep" word="overal"/>
+            </node>
+            <node begin="18" buiging="zonder" end="19" id="32" lemma="hebben" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="heb" word="hebben" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="33" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>En dan heb je mensen die op hun remblokken rijden , maar dat zal je altijd en overal hebben .</sentence>
+</alpino_ds>

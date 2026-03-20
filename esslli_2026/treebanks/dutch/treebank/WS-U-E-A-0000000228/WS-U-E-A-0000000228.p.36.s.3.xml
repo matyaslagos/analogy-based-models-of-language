@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="9" end="10" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="18" id="3" rel="--">
+      <node begin="0" cat="np" end="9" id="4" rel="su">
+        <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="5" lemma="Chodorkovski" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Chodorkovski" word="Chodorkovski"/>
+        <node begin="2" cat="conj" end="9" id="6" rel="app">
+          <node begin="3" conjtype="neven" end="4" id="7" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="2" cat="np" end="9" id="8" rel="cnj">
+            <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="9" lemma="oprichter" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="oprichter" word="oprichter"/>
+            <node begin="5" cat="pp" end="9" id="10" index="1" rel="mod">
+              <node begin="5" end="6" id="11" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="6" cat="np" end="9" id="12" rel="obj1">
+                <node begin="6" end="7" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="14" lemma="olie_maatschappij" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="olie_maatschappij" word="oliemaatschappij"/>
+                <node begin="8" end="9" genus="genus" getal="ev" graad="basis" id="15" lemma="Yukos" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="app" root="Yukos" word="Yukos"/>
+              </node>
+            </node>
+          </node>
+          <node begin="4" cat="np" end="9" id="16" rel="cnj">
+            <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="17" lemma="groot_aandeelhouder" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="grootaandeelhouder" word="grootaandeelhouder"/>
+            <node begin="5" end="9" id="18" index="1" rel="mod"/>
+          </node>
+        </node>
+      </node>
+      <node begin="10" end="11" id="19" lemma="terecht_staan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="sta_terecht" word="staat" wvorm="pv"/>
+      <node begin="11" cat="pp" end="13" id="20" rel="mod">
+        <node begin="11" end="12" id="21" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="12" end="13" genus="onz" getal="ev" graad="basis" id="22" lemma="Moskou" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Moskou" word="Moskou"/>
+      </node>
+      <node begin="13" buiging="zonder" end="14" graad="basis" id="23" lemma="terecht" pos="part" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="svp" root="terecht" word="terecht"/>
+      <node begin="14" cat="pp" end="18" id="24" rel="mod">
+        <node begin="14" end="15" id="25" lemma="wegens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="wegens" vztype="init" word="wegens"/>
+        <node begin="15" cat="conj" end="18" id="26" rel="obj1">
+          <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="27" lemma="fraude" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="fraude" word="fraude"/>
+          <node begin="16" conjtype="neven" end="17" id="28" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="29" lemma="belasting_ontduiking" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="belasting_ontduiking" word="belastingontduiking"/>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="30" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Chodorkovski , oprichter en grootaandeelhouder van de oliemaatschappij Yukos , staat in Moskou terecht wegens fraude en belastingontduiking .</sentence>
+</alpino_ds>

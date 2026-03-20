@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="smain" end="13" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+        <node begin="1" cat="mwu" end="3" id="4" rel="hd">
+          <node begin="1" end="2" id="5" lemma="Verenigd" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Verenigd" spectype="deeleigen" word="Verenigd"/>
+          <node begin="2" end="3" id="6" lemma="Koninkrijk" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Koninkrijk" spectype="deeleigen" word="Koninkrijk"/>
+        </node>
+      </node>
+      <node begin="3" end="4" id="7" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="heeft" wvorm="pv"/>
+      <node begin="4" cat="np" end="10" id="8" rel="obj1">
+        <node begin="4" end="5" id="9" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="5" cat="ppart" end="7" id="10" rel="mod">
+          <node begin="5" end="6" id="11" lemma="zeer" pos="adv" postag="BW()" pt="bw" rel="mod" root="zeer" word="zeer"/>
+          <node begin="6" buiging="met-e" end="7" id="12" lemma="uit_breiden" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="hd" root="uitgebreid" word="uitgebreide" wvorm="vd"/>
+        </node>
+        <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="13" lemma="ervaring" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="ervaring" word="ervaring"/>
+        <node begin="8" cat="pp" end="10" id="14" rel="mod">
+          <node begin="8" end="9" id="15" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+          <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="16" lemma="PPS" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="PPS" word="PPS"/>
+        </node>
+      </node>
+      <node begin="10" cat="pp" end="13" id="17" rel="mod">
+        <node begin="10" end="11" id="18" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="11" cat="np" end="13" id="19" rel="obj1">
+          <node begin="11" buiging="met-e" end="12" graad="basis" id="20" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,met-e,agr,basis)" pt="vnw" rel="mod" root="vele" vwtype="onbep" word="vele"/>
+          <node begin="12" end="13" getal="mv" graad="basis" id="21" lemma="domein" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="domein" word="domeinen"/>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het Verenigd Koninkrijk heeft een zeer uitgebreide ervaring met PPS in vele domeinen .</sentence>
+</alpino_ds>

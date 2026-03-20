@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="0" cat="smain" end="19" id="1" rel="--">
+      <node begin="0" end="1" getal="mv" id="2" lemma="we" naamval="nomin" pdtype="pron" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,red,1,mv)" pt="vnw" rel="su" root="we" status="red" vwtype="pers" word="We"/>
+      <node begin="1" end="2" id="3" lemma="merken" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="merk" word="merken" wvorm="pv"/>
+      <node begin="2" cat="cp" end="19" id="4" rel="vc">
+        <node begin="2" conjtype="onder" end="3" id="5" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+        <node begin="3" cat="ssub" end="19" id="6" rel="body">
+          <node begin="3" end="4" id="7" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+          <node begin="4" cat="ap" end="8" id="8" rel="mod">
+            <node begin="4" buiging="zonder" end="5" graad="basis" id="9" lemma="direct" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="direct" word="direct"/>
+            <node begin="5" buiging="zonder" end="6" graad="basis" id="10" lemma="links" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="links" word="links"/>
+            <node begin="6" cat="pp" end="8" id="11" rel="mod">
+              <node begin="6" end="7" id="12" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="7" end="8" getal="mv" id="13" lemma="ons" naamval="obl" pdtype="pron" persoon="1" pos="pron" postag="VNW(pr,pron,obl,vol,1,mv)" pt="vnw" rel="obj1" root="ons" status="vol" vwtype="pr" word="ons"/>
+            </node>
+          </node>
+          <node begin="8" cat="np" end="15" id="14" rel="su">
+            <node begin="8" end="9" id="15" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="16" lemma="kogel_bol" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="kogel_bol" word="kogelbol"/>
+            <node begin="10" cat="pp" end="15" id="17" rel="mod">
+              <node begin="10" end="11" id="18" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="11" cat="np" end="15" id="19" rel="obj1">
+                <node begin="11" end="12" id="20" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                <node begin="12" cat="np" end="14" id="21" rel="mod">
+                  <node begin="12" end="13" id="22" lemma="8" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="8" word="8"/>
+                  <node begin="13" end="14" id="23" lemma="mm" pos="noun" postag="SPEC(symb)" pt="spec" rel="hd" root="milli_meter" spectype="symb" word="mm"/>
+                </node>
+                <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="24" lemma="mitrailleuse" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="mitrailleuse" word="mitrailleuse"/>
+              </node>
+            </node>
+          </node>
+          <node begin="15" cat="pp" end="18" id="25" rel="ld">
+            <node begin="15" buiging="zonder" end="16" graad="basis" id="26" lemma="schuin" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="schuin" word="schuin"/>
+            <node begin="16" end="17" id="27" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+            <node begin="17" end="18" id="28" lemma="voren" pos="adv" postag="BW()" pt="bw" rel="obj1" root="voren" word="voren"/>
+          </node>
+          <node begin="18" end="19" id="29" lemma="steken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="steek" word="steekt" wvorm="pv"/>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="30" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>We merken dat ook direct links van ons de kogelbol van een 8 mm mitrailleuse schuin naar voren steekt .</sentence>
+</alpino_ds>

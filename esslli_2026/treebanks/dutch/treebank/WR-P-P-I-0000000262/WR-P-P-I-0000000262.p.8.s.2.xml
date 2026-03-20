@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="26" id="0" rel="top">
+    <node begin="11" end="12" id="1" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="14" end="15" id="2" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="15" end="16" id="3" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="du" end="25" id="4" rel="--">
+      <node begin="0" cat="smain" end="14" id="5" rel="dp">
+        <node begin="0" buiging="zonder" end="1" id="6" lemma="kenschetsen" pos="adj" positie="vrij" postag="WW(od,vrij,zonder)" pt="ww" rel="predc" root="kenschets" word="Kenschetsend" wvorm="od"/>
+        <node begin="1" end="2" id="7" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+        <node begin="2" cat="whrel" end="14" id="8" rel="su">
+          <node begin="2" end="3" id="9" index="1" lemma="hoe" pos="adj" postag="BW()" pt="bw" rel="rhd" root="hoe" word="hoe"/>
+          <node begin="2" cat="ssub" end="14" id="10" rel="body">
+            <node begin="2" end="3" id="11" index="1" rel="mod"/>
+            <node begin="3" end="4" genus="genus" getal="ev" graad="basis" id="12" lemma="S&amp;P" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="su" root="S&amp;P" word="S&amp;P"/>
+            <node begin="4" cat="np" end="7" id="13" rel="obj1">
+              <node begin="4" cat="ap" end="6" id="14" rel="mod">
+                <node begin="4" end="5" id="15" lemma="steeds" pos="adv" postag="BW()" pt="bw" rel="mod" root="steeds" word="steeds"/>
+                <node begin="5" buiging="zonder" end="6" graad="comp" id="16" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,comp)" pt="vnw" rel="hd" root="meer" vwtype="onbep" word="meer"/>
+              </node>
+              <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="17" lemma="geld" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="geld" word="geld"/>
+            </node>
+            <node begin="7" end="8" id="18" lemma="besteden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="besteed" word="besteedde" wvorm="pv"/>
+            <node begin="8" cat="pp" end="14" id="19" rel="pc">
+              <node begin="8" end="9" id="20" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+              <node begin="9" cat="conj" end="14" id="21" rel="obj1">
+                <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="22" lemma="meubilair" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="cnj" root="meubilair" word="meubilair"/>
+                <node begin="10" conjtype="neven" end="11" id="23" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                <node begin="12" cat="np" end="14" id="24" rel="cnj">
+                  <node begin="12" buiging="zonder" end="13" id="25" lemma="rollen" pos="adj" positie="prenom" postag="WW(od,prenom,zonder)" pt="ww" rel="mod" root="rol" word="rollend" wvorm="od"/>
+                  <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="26" lemma="materieel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="materieel" word="materieel"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="16" cat="conj" end="25" id="27" rel="dp">
+        <node begin="16" cat="du" end="20" id="28" rel="cnj">
+          <node begin="16" cat="np" end="18" id="29" rel="dp">
+            <node begin="16" end="17" id="30" lemma="47.099,77" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="47.099,77" word="47.099,77"/>
+            <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="31" lemma="euro" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="euro" word="euro"/>
+          </node>
+          <node begin="18" cat="pp" end="20" id="32" rel="dp">
+            <node begin="18" end="19" id="33" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="19" end="20" id="34" lemma="1998" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" root="1998" word="1998"/>
+          </node>
+        </node>
+        <node begin="20" conjtype="neven" end="21" id="35" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="21" cat="du" end="25" id="36" rel="cnj">
+          <node begin="21" cat="np" end="23" id="37" rel="dp">
+            <node begin="21" end="22" id="38" lemma="161.130,79" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="161.130,79" word="161.130,79"/>
+            <node begin="22" end="23" genus="zijd" getal="ev" graad="basis" id="39" lemma="euro" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="euro" word="euro"/>
+          </node>
+          <node begin="23" cat="pp" end="25" id="40" rel="dp">
+            <node begin="23" end="24" id="41" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="24" end="25" id="42" lemma="2000" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" root="2000" word="2000"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="25" end="26" id="43" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Kenschetsend was hoe S&amp;P steeds meer geld besteedde aan meubilair en &apos; rollend materieel &apos; : 47.099,77 euro in 1998 en 161.130,79 euro in 2000 .</sentence>
+</alpino_ds>

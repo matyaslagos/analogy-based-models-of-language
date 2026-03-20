@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="du" end="9" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="dp">
+        <node begin="0" buiging="met-e" end="1" graad="basis" id="3" lemma="geheim" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="geheim" word="Geheime"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="4" lemma="prijs_afspraak" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="prijsafspraak" word="prijsafspraken"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="dp" root="ook" word="ook"/>
+      <node begin="3" cat="pp" end="9" id="6" rel="dp">
+        <node begin="3" end="4" id="7" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+        <node begin="4" cat="np" end="9" id="8" rel="obj1">
+          <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="9" lemma="bouw" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="bouw" word="bouw"/>
+          <node begin="5" cat="pp" end="9" id="10" rel="mod">
+            <node begin="5" end="6" id="11" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="6" cat="conj" end="9" id="12" rel="obj1">
+              <node begin="6" end="7" getal="mv" graad="basis" id="13" lemma="school" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="school" word="scholen"/>
+              <node begin="7" conjtype="neven" end="8" id="14" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="8" end="9" getal="mv" graad="basis" id="15" lemma="ziekenhuis" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="ziekenhuis" word="ziekenhuizen"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>Geheime prijsafspraken ook bij bouw van scholen en ziekenhuizen</sentence>
+</alpino_ds>

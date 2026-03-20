@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="du" end="14" id="1" rel="--">
+      <node begin="0" end="1" id="2" lemma="2.3" pos="tag" postag="SPEC(symb)" pt="spec" rel="tag" root="2.3" spectype="symb" word="2.3"/>
+      <node begin="1" cat="smain" end="14" id="3" rel="nucl">
+        <node begin="2" end="3" id="4" lemma="dienen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="dien" word="dient" wvorm="pv"/>
+        <node begin="1" cat="ti" end="14" id="5" rel="vc">
+          <node begin="6" end="7" id="6" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+          <node begin="1" cat="inf" end="14" id="7" rel="body">
+            <node begin="7" buiging="zonder" end="8" id="8" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+            <node begin="1" cat="ppart" end="14" id="9" rel="vc">
+              <node begin="1" end="2" getal="getal" id="10" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+              <node begin="3" cat="ap" end="5" id="11" rel="mod">
+                <node begin="3" end="4" id="12" lemma="zeer" pos="adv" postag="BW()" pt="bw" rel="mod" root="zeer" word="zeer"/>
+                <node begin="4" buiging="zonder" end="5" graad="basis" id="13" lemma="strikt" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="strikt" word="strikt"/>
+              </node>
+              <node begin="5" buiging="zonder" end="6" id="14" lemma="toe_zien" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="zie_toe" word="toegezien" wvorm="vd"/>
+              <node begin="8" cat="pp" end="14" id="15" rel="pc">
+                <node begin="8" end="9" id="16" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+                <node begin="9" cat="np" end="14" id="17" rel="obj1">
+                  <node begin="9" end="10" id="18" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                  <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="19" lemma="scheiding" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="scheiding" word="scheiding"/>
+                  <node begin="11" cat="pp" end="14" id="20" rel="mod">
+                    <node begin="11" end="12" id="21" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" vztype="init" word="tussen"/>
+                    <node begin="12" cat="np" end="14" id="22" rel="obj1">
+                      <node begin="12" buiging="met-e" end="13" getal="mv" graad="basis" id="23" lemma="beide" naamval="stan" pdtype="grad" pos="det" positie="prenom" postag="VNW(onbep,grad,stan,prenom,met-e,mv,basis)" pt="vnw" rel="det" root="beide" vwtype="onbep" word="beide"/>
+                      <node begin="13" end="14" getal="mv" graad="basis" id="24" lemma="circuit" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="circuit" word="circuits"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>2.3 er dient zeer strikt toegezien te worden op een scheiding tussen beide circuits</sentence>
+</alpino_ds>

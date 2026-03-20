@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="9" id="1" rel="--">
+      <node begin="3" end="4" id="2" lemma="hoeven" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="hoef" word="hoeft" wvorm="pv"/>
+      <node begin="4" cat="np" end="6" id="3" index="1" rel="su">
+        <node begin="4" buiging="zonder" end="5" id="4" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="geen"/>
+        <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="5" lemma="examen" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="examen" word="examen"/>
+      </node>
+      <node begin="0" cat="ti" end="9" id="6" rel="vc">
+        <node begin="6" end="7" id="7" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+        <node begin="0" cat="inf" end="9" id="8" rel="body">
+          <node begin="4" end="6" id="9" index="1" rel="su"/>
+          <node begin="7" buiging="zonder" end="8" id="10" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+          <node begin="0" cat="ppart" end="9" id="11" rel="vc">
+            <node begin="0" cat="pp" end="3" id="12" rel="mod">
+              <node begin="0" end="1" id="13" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="Voor"/>
+              <node begin="1" cat="np" end="3" id="14" rel="obj1">
+                <node begin="1" buiging="met-e" end="2" id="15" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="deze"/>
+                <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="16" lemma="instructie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="instructie" word="instructie"/>
+              </node>
+            </node>
+            <node begin="4" end="6" id="17" index="1" rel="obj1"/>
+            <node begin="8" buiging="zonder" end="9" id="18" lemma="af_leggen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="leg_af" word="afgelegd" wvorm="vd"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>Voor deze instructie hoeft geen examen te worden afgelegd</sentence>
+</alpino_ds>

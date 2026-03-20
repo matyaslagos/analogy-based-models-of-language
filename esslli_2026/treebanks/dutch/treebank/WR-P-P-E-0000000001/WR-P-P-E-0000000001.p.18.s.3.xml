@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="smain" end="15" id="1" rel="--">
+      <node begin="0" cat="np" end="4" id="2" index="1" rel="su">
+        <node begin="0" end="1" getal="mv" graad="basis" id="3" lemma="mens" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="mens" word="Mensen"/>
+        <node begin="1" cat="pp" end="4" id="4" rel="mod">
+          <node begin="1" end="2" id="5" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+          <node begin="2" cat="np" end="4" id="6" rel="obj1">
+            <node begin="2" end="3" id="7" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="8" lemma="lees_handicap" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="lees_handicap" word="leeshandicap"/>
+          </node>
+        </node>
+      </node>
+      <node begin="4" end="5" id="9" lemma="moeten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="moet" word="moeten" wvorm="pv"/>
+      <node begin="0" cat="inf" end="15" id="10" rel="vc">
+        <node begin="0" end="4" id="11" index="1" rel="su"/>
+        <node begin="13" buiging="zonder" end="14" id="12" lemma="kunnen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="kan" word="kunnen" wvorm="inf"/>
+        <node begin="0" cat="inf" end="15" id="13" rel="vc">
+          <node begin="0" end="4" id="14" index="1" rel="su"/>
+          <node begin="5" buiging="zonder" end="6" graad="basis" id="15" lemma="rechtstreeks" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="rechtstreeks" word="rechtstreeks"/>
+          <node begin="6" cat="pp" end="11" id="16" rel="mod">
+            <node begin="6" end="7" id="17" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+            <node begin="7" cat="np" end="11" id="18" rel="obj1">
+              <node begin="7" buiging="zonder" end="8" getal="mv" id="19" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+              <node begin="8" buiging="zonder" end="9" graad="basis" id="20" lemma="eigen" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="eigen" word="eigen"/>
+              <node begin="9" buiging="met-e" end="10" graad="basis" id="21" lemma="openbaar" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="openbaar" word="openbare"/>
+              <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="22" lemma="bibliotheek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="bibliotheek" word="bibliotheek"/>
+            </node>
+          </node>
+          <node begin="11" cat="np" end="13" id="23" rel="obj1">
+            <node begin="11" buiging="zonder" end="12" id="24" lemma="spreken" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="mod" root="gesproken" word="gesproken" wvorm="vd"/>
+            <node begin="12" end="13" getal="mv" graad="basis" id="25" lemma="boek" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="boek" word="boeken"/>
+          </node>
+          <node begin="14" buiging="zonder" end="15" id="26" lemma="lenen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="leen" word="lenen" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="27" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Mensen met een leeshandicap moeten rechtstreeks bij hun eigen openbare bibliotheek gesproken boeken kunnen lenen .</sentence>
+</alpino_ds>

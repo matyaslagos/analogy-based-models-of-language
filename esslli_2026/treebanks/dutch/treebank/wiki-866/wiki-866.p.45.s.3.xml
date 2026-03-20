@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="11" end="12" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="18" id="2" rel="--">
+      <node begin="0" cat="smain" end="11" id="3" rel="cnj">
+        <node begin="0" cat="np" end="6" id="4" rel="su">
+          <node begin="0" end="1" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+          <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="6" lemma="wedstrijd" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="wedstrijd" word="wedstrijd"/>
+          <node begin="2" cat="pp" end="6" id="7" rel="mod">
+            <node begin="2" end="3" id="8" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="3" cat="np" end="6" id="9" rel="obj1">
+              <node begin="3" end="4" id="10" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="4" buiging="met-e" end="5" graad="basis" id="11" lemma="Australisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Australisch" word="Australische"/>
+              <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="12" lemma="hitte" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="hitte" word="hitte"/>
+            </node>
+          </node>
+        </node>
+        <node begin="6" end="7" id="13" lemma="duren" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="duur" word="duurde" wvorm="pv"/>
+        <node begin="7" cat="np" end="11" id="14" rel="me">
+          <node begin="7" cat="detp" end="10" id="15" rel="det">
+            <node begin="7" cat="mwu" end="9" id="16" rel="mod">
+              <node begin="7" buiging="zonder" end="8" graad="comp" id="17" lemma="veel" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mwp" root="meer" vwtype="onbep" word="meer"/>
+              <node begin="8" conjtype="onder" end="9" id="18" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="mwp" root="dan" word="dan"/>
+            </node>
+            <node begin="9" end="10" id="19" lemma="drie" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="hd" root="drie" word="drie"/>
+          </node>
+          <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="20" lemma="uur" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="uur" word="uur"/>
+        </node>
+      </node>
+      <node begin="12" conjtype="neven" end="13" id="21" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="13" cat="smain" end="18" id="22" rel="cnj">
+        <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="23" lemma="Henin" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Henin" word="Henin"/>
+        <node begin="14" end="15" id="24" lemma="hebben" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="heb" word="had" wvorm="pv"/>
+        <node begin="15" cat="np" end="18" id="25" rel="obj1">
+          <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="26" lemma="last" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="last" word="last"/>
+          <node begin="16" cat="pp" end="18" id="27" rel="mod">
+            <node begin="16" end="17" id="28" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="17" end="18" getal="mv" graad="basis" id="29" lemma="spier_kramp" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="spierkramp" word="spierkrampen"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="30" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De wedstrijd in de Australische hitte duurde meer dan drie uur , en Henin had last van spierkrampen .</sentence>
+</alpino_ds>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="conj" end="12" id="1" rel="--">
+      <node begin="0" cat="smain" end="7" id="2" rel="cnj">
+        <node begin="0" cat="np" end="4" id="3" index="1" rel="su">
+          <node begin="0" end="1" id="4" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+          <node begin="1" cat="mwu" end="4" id="5" rel="hd">
+            <node begin="1" end="2" id="6" lemma="Brussels" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Brussels" spectype="deeleigen" word="Brussels"/>
+            <node begin="2" end="3" id="7" lemma="Hoofdstedelijk" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Hoofdstedelijk" spectype="deeleigen" word="Hoofdstedelijk"/>
+            <node begin="3" end="4" id="8" lemma="Gewest" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Gewest" spectype="deeleigen" word="Gewest"/>
+          </node>
+        </node>
+        <node begin="4" end="5" id="9" lemma="omvatten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="omvat" word="omvat" wvorm="pv"/>
+        <node begin="5" cat="np" end="7" id="10" rel="obj1">
+          <node begin="5" end="6" id="11" lemma="19" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="19" word="19"/>
+          <node begin="6" end="7" getal="mv" graad="basis" id="12" lemma="gemeente" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="gemeente" word="gemeenten"/>
+        </node>
+      </node>
+      <node begin="7" conjtype="neven" end="8" id="13" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="0" cat="smain" end="12" id="14" rel="cnj">
+        <node begin="0" end="4" id="15" index="1" rel="su"/>
+        <node begin="8" end="9" id="16" lemma="tellen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="tel" word="telt" wvorm="pv"/>
+        <node begin="9" buiging="zonder" end="10" graad="basis" id="17" lemma="ruim" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="ruim" word="ruim"/>
+        <node begin="10" cat="np" end="12" id="18" rel="obj1">
+          <node begin="10" end="11" id="19" lemma="1.018.000" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="1.018.000" word="1.018.000"/>
+          <node begin="11" end="12" getal="mv" graad="basis" id="20" lemma="inwoner" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="inwoner" word="inwoners"/>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" id="21" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het Brussels Hoofdstedelijk Gewest omvat 19 gemeenten en telt ruim 1.018.000 inwoners .</sentence>
+</alpino_ds>

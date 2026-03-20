@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="np" end="5" id="1" rel="--">
+      <node begin="0" end="1" id="2" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="Een"/>
+      <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="3" lemma="type" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="type" word="type"/>
+      <node begin="2" cat="cp" end="5" id="4" rel="mod">
+        <node begin="2" conjtype="onder" end="3" id="5" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+        <node begin="3" cat="mwu" end="5" id="6" rel="body">
+          <node begin="3" end="4" id="7" lemma="Jans" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Jans" spectype="deeleigen" word="Jans"/>
+          <node begin="4" end="5" id="8" lemma="Koerts" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Koerts" spectype="deeleigen" word="Koerts"/>
+        </node>
+      </node>
+    </node>
+    <node begin="5" end="6" id="9" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Een type als Jans Koerts .</sentence>
+</alpino_ds>

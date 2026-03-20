@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="conj" end="11" id="1" rel="--">
+      <node begin="0" cat="smain" end="5" id="2" rel="cnj">
+        <node begin="0" cat="mwu" end="2" id="3" index="1" rel="su">
+          <node begin="0" end="1" id="4" lemma="Esther" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Esther" spectype="deeleigen" word="Esther"/>
+          <node begin="1" end="2" id="5" lemma="Brouwer" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Brouwer" spectype="deeleigen" word="Brouwer"/>
+        </node>
+        <node begin="2" end="3" id="6" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="3" cat="np" end="5" id="7" rel="predc">
+          <node begin="3" end="4" id="8" lemma="17" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="17" word="17"/>
+          <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="9" lemma="jaar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="jaar" word="jaar"/>
+        </node>
+      </node>
+      <node begin="5" conjtype="neven" end="6" id="10" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="0" cat="smain" end="11" id="11" rel="cnj">
+        <node begin="0" end="2" id="12" index="1" rel="su"/>
+        <node begin="6" end="7" id="13" lemma="zitten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zit" word="zit" wvorm="pv"/>
+        <node begin="7" end="8" id="14" lemma="zelf" pos="adv" postag="BW()" pt="bw" rel="predm" root="zelf" word="zelf"/>
+        <node begin="8" cat="pp" end="11" id="15" rel="ld">
+          <node begin="8" end="9" id="16" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="9" cat="np" end="11" id="17" rel="obj1">
+            <node begin="9" end="10" id="18" lemma="6" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="6" word="6"/>
+            <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="19" lemma="vwo" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="vwo" word="vwo"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" id="20" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Esther Brouwer is 17 jaar en zit zelf in 6 vwo .</sentence>
+</alpino_ds>

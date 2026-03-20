@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="0" cat="pp" end="5" id="2" rel="mod">
+        <node begin="0" end="1" id="3" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="Voor"/>
+        <node begin="1" cat="np" end="5" id="4" rel="obj1">
+          <node begin="1" cat="detp" end="3" id="5" rel="det">
+            <node begin="1" buiging="zonder" end="2" graad="basis" id="6" lemma="heel" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="heel" word="heel"/>
+            <node begin="2" end="3" getal="ev" id="7" lemma="wat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(onbep,pron,stan,vol,3o,ev)" pt="vnw" rel="hd" root="wat" status="vol" vwtype="onbep" word="wat"/>
+          </node>
+          <node begin="3" buiging="met-e" end="4" graad="basis" id="8" lemma="Brussels" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Brussels" word="Brusselse"/>
+          <node begin="4" end="5" getal="mv" graad="basis" id="9" lemma="werkgever" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="werkgever" word="werkgevers"/>
+        </node>
+      </node>
+      <node begin="5" end="6" id="10" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="6" cat="np" end="11" id="11" rel="su">
+        <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="12" lemma="kennis" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="kennis" word="kennis"/>
+        <node begin="7" cat="pp" end="11" id="13" rel="mod">
+          <node begin="7" end="8" id="14" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="8" cat="conj" end="11" id="15" rel="obj1">
+            <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="16" lemma="Frans" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Frans" word="Frans"/>
+            <node begin="9" conjtype="neven" end="10" id="17" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="én"/>
+            <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="18" lemma="Nederlands" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Nederlands" word="Nederlands"/>
+          </node>
+        </node>
+      </node>
+      <node begin="11" end="12" id="19" lemma="immers" pos="adv" postag="BW()" pt="bw" rel="mod" root="immers" word="immers"/>
+      <node begin="12" cat="np" end="14" id="20" rel="predc">
+        <node begin="12" end="13" id="21" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="13" end="14" id="22" lemma="must" pos="noun" postag="SPEC(vreemd)" pt="spec" rel="hd" root="must" spectype="vreemd" word="must"/>
+      </node>
+    </node>
+    <node begin="14" end="15" id="23" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Voor heel wat Brusselse werkgevers is kennis van Frans én Nederlands immers een must .</sentence>
+</alpino_ds>

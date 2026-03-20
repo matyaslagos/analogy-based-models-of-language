@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="34" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="6" end="7" id="2" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="7" end="8" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="16" end="17" id="4" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="18" end="19" id="5" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="20" end="21" id="6" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="29" end="30" id="7" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="31" end="32" id="8" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="0" cat="smain" end="33" id="9" rel="--">
+      <node begin="2" end="3" id="10" lemma="noemen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="noem" word="noemen" wvorm="pv"/>
+      <node begin="3" end="4" genus="masc" getal="ev" id="11" lemma="hem" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,obl,vol,3,ev,masc)" pt="vnw" rel="obj1" root="hem" status="vol" vwtype="pers" word="hem"/>
+      <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="12" lemma="Ron" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="predc" root="Ron" word="Ron"/>
+      <node begin="0" cat="np" end="33" id="13" rel="su">
+        <node begin="0" buiging="met-e" end="1" id="14" lemma="al" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,agr)" pt="vnw" rel="det" root="alle" vwtype="onbep" word="Alle"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="15" lemma="personage" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="personage" word="personages"/>
+        <node begin="8" cat="pp" end="33" id="16" rel="mod">
+          <node begin="8" cat="mwu" end="11" id="17" rel="hd">
+            <node begin="8" end="9" id="18" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="met" vztype="init" word="met"/>
+            <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="19" lemma="uitzondering" naamval="stan" ntype="soort" pos="prep" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="uitzondering" word="uitzondering"/>
+            <node begin="10" end="11" id="20" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="van" vztype="init" word="van"/>
+          </node>
+          <node begin="11" cat="conj" end="33" id="21" rel="obj1">
+            <node begin="11" cat="np" end="20" id="22" rel="cnj">
+              <node begin="11" cat="mwu" end="13" id="23" rel="hd">
+                <node begin="11" end="12" id="24" lemma="Loena" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Loena" spectype="deeleigen" word="Loena"/>
+                <node begin="12" end="13" id="25" lemma="Leeflang" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Leeflang" spectype="deeleigen" word="Leeflang"/>
+              </node>
+              <node begin="13" cat="rel" end="20" id="26" rel="mod">
+                <node begin="13" end="14" getal="getal" id="27" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+                <node begin="13" cat="ssub" end="20" id="28" rel="body">
+                  <node begin="13" end="14" id="29" index="1" rel="su"/>
+                  <node begin="14" end="15" genus="masc" getal="ev" id="30" lemma="hem" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,obl,vol,3,ev,masc)" pt="vnw" rel="obj1" root="hem" status="vol" vwtype="pers" word="hem"/>
+                  <node begin="15" end="16" id="31" lemma="voluit" pos="adv" postag="BW()" pt="bw" rel="mod" root="voluit" word="voluit"/>
+                  <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="32" lemma="Ronald" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="predc" root="Ronald" word="Ronald"/>
+                  <node begin="19" end="20" id="33" lemma="noemen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="noem" word="noemt" wvorm="pv"/>
+                </node>
+              </node>
+            </node>
+            <node begin="21" conjtype="neven" end="22" id="34" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="22" cat="np" end="33" id="35" rel="cnj">
+              <node begin="22" end="23" getal="ev" graad="basis" id="36" lemma="Ron" naamval="gen" ntype="eigen" pos="adj" postag="N(eigen,ev,basis,gen)" pt="n" rel="det" root="Rons" word="Rons"/>
+              <node begin="23" end="24" genus="onz" getal="ev" graad="dim" id="37" lemma="ex_vriendin" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,dim,onz,stan)" pt="n" rel="hd" root="ex_vriendin_DIM" word="ex-vriendinnetje"/>
+              <node begin="24" cat="mwu" end="26" id="38" rel="app">
+                <node begin="24" end="25" id="39" lemma="Belinda" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Belinda" spectype="deeleigen" word="Belinda"/>
+                <node begin="25" end="26" id="40" lemma="Broom" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Broom" spectype="deeleigen" word="Broom"/>
+              </node>
+              <node begin="26" cat="rel" end="33" id="41" rel="mod">
+                <node begin="26" end="27" getal="getal" id="42" index="2" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+                <node begin="26" cat="ssub" end="33" id="43" rel="body">
+                  <node begin="26" end="27" id="44" index="2" rel="su"/>
+                  <node begin="27" end="28" genus="masc" getal="ev" id="45" lemma="hem" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,obl,vol,3,ev,masc)" pt="vnw" rel="obj1" root="hem" status="vol" vwtype="pers" word="hem"/>
+                  <node begin="28" buiging="zonder" end="29" id="46" lemma="liefkozen" pos="adj" positie="vrij" postag="WW(od,vrij,zonder)" pt="ww" rel="predm" root="liefkoos" word="liefkozend" wvorm="od"/>
+                  <node begin="30" end="31" genus="zijd" getal="ev" graad="basis" id="47" lemma="Ronnieponnie" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="predc" root="Ronnieponnie" word="Ronnieponnie"/>
+                  <node begin="32" end="33" id="48" lemma="noemen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="noem" word="noemt" wvorm="pv"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="33" end="34" id="49" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Alle personages noemen hem &quot; Ron &quot; , met uitzondering van Loena Leeflang die hem voluit &quot; Ronald &quot; noemt , en Rons ex-vriendinnetje Belinda Broom die hem liefkozend &quot; Ronnieponnie &quot; noemt .</sentence>
+</alpino_ds>

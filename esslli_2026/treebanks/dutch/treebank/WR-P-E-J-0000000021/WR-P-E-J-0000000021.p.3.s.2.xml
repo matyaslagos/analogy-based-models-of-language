@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="2" lemma="Bourgeois" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Bourgeois" word="Bourgeois"/>
+      <node begin="1" end="2" id="3" lemma="leggen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="leg" word="legde" wvorm="pv"/>
+      <node begin="2" cat="np" end="5" id="4" rel="obj1">
+        <node begin="2" buiging="met-e" end="3" id="5" lemma="volgen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="volg" word="volgende" wvorm="od"/>
+        <node begin="3" buiging="met-e" end="4" graad="basis" id="6" lemma="concreet" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="concreet" word="concrete"/>
+        <node begin="4" end="5" getal="mv" graad="basis" id="7" lemma="punt" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="punt" word="punten"/>
+      </node>
+      <node begin="5" cat="pp" end="7" id="8" rel="ld">
+        <node begin="5" end="6" id="9" lemma="op" pos="fixed" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+        <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="10" lemma="tafel" naamval="stan" ntype="soort" pos="fixed" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="tafel" word="tafel"/>
+      </node>
+    </node>
+    <node begin="7" end="8" id="11" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+  </node>
+  <sentence>Bourgeois legde volgende concrete punten op tafel :</sentence>
+</alpino_ds>

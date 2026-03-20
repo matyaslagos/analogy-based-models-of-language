@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="10" id="0" rel="top">
+    <node begin="0" cat="smain" end="9" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" buiging="met-e" end="1" graad="comp" id="3" lemma="groot" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,comp,met-e,stan)" pt="adj" rel="mod" root="groot" word="Grotere"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="4" lemma="school" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="school" word="scholen"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="produceren" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="produceer" word="produceerden" wvorm="pv"/>
+      <node begin="3" cat="pp" end="5" id="6" rel="mod">
+        <node begin="3" end="4" id="7" lemma="per" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="per" vztype="init" word="per"/>
+        <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="8" lemma="kop" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="kop" word="kop"/>
+      </node>
+      <node begin="5" cat="np" end="9" id="9" rel="obj1">
+        <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="10" lemma="afval" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="afval" word="afval"/>
+        <node begin="5" cat="detp" end="9" id="11" rel="det">
+          <node begin="5" buiging="zonder" end="6" graad="comp" id="12" lemma="weinig" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,comp)" pt="vnw" rel="hd" root="minder" vwtype="onbep" word="minder"/>
+          <node begin="7" cat="cp" end="9" id="13" rel="obcomp">
+            <node begin="7" conjtype="onder" end="8" id="14" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="dan" word="dan"/>
+            <node begin="8" buiging="met-e" end="9" graad="comp" id="15" lemma="klein" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,comp,met-e,stan)" pt="adj" rel="body" root="klein" word="kleinere"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="9" end="10" id="16" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Grotere scholen produceerden per kop minder afval dan kleinere .</sentence>
+</alpino_ds>

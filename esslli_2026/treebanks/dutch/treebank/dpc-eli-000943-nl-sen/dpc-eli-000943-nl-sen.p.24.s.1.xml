@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="48" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="9" end="10" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="35" end="36" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="47" id="4" rel="--">
+      <node begin="0" cat="np" end="9" id="5" index="1" rel="su">
+        <node begin="0" end="1" id="6" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="7" lemma="comité" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="Comité" word="Comité"/>
+        <node begin="2" cat="pp" end="7" id="8" rel="mod">
+          <node begin="2" end="3" id="9" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="3" cat="np" end="7" id="10" rel="obj1">
+            <node begin="3" end="4" getal="mv" graad="basis" id="11" lemma="genees_middel" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="genees_middel" word="geneesmiddelen"/>
+            <node begin="4" cat="pp" end="7" id="12" rel="mod">
+              <node begin="4" end="5" id="13" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+              <node begin="5" cat="np" end="7" id="14" rel="obj1">
+                <node begin="5" buiging="zonder" end="6" graad="basis" id="15" lemma="menselijk" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="menselijk" word="menselijk"/>
+                <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="16" lemma="gebruik" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="gebruik" word="gebruik"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="17" lemma="CHMP" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="mod" root="CHMP" word="CHMP"/>
+      </node>
+      <node begin="10" end="11" id="18" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="heeft" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="47" id="19" rel="vc">
+        <node begin="0" end="9" id="20" index="1" rel="su"/>
+        <node begin="11" buiging="zonder" end="12" id="21" lemma="concluderen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="concludeer" word="geconcludeerd" wvorm="vd"/>
+        <node begin="12" cat="conj" end="47" id="22" rel="vc">
+          <node begin="12" cat="cp" end="20" id="23" rel="cnj">
+            <node begin="12" conjtype="onder" end="13" id="24" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+            <node begin="13" cat="ssub" end="20" id="25" rel="body">
+              <node begin="13" end="14" genus="genus" getal="ev" graad="basis" id="26" lemma="Ariclaim" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="su" root="Ariclaim" word="Ariclaim"/>
+              <node begin="14" cat="np" end="17" id="27" rel="obj1">
+                <node begin="14" end="15" id="28" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                <node begin="15" buiging="zonder" end="16" graad="basis" id="29" lemma="bescheiden" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="bescheiden" word="bescheiden"/>
+                <node begin="16" end="17" genus="onz" getal="ev" graad="basis" id="30" lemma="effect" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="effect" word="effect"/>
+              </node>
+              <node begin="17" end="18" id="31" lemma="vertonen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="vertoon" word="vertoonde" wvorm="pv"/>
+              <node begin="18" cat="pp" end="20" id="32" rel="mod">
+                <node begin="18" end="19" id="33" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                <node begin="19" end="20" getal="mv" graad="basis" id="34" lemma="studie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="studie" word="studies"/>
+              </node>
+            </node>
+          </node>
+          <node begin="20" conjtype="neven" end="21" id="35" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+          <node begin="21" cat="cp" end="47" id="36" rel="cnj">
+            <node begin="21" conjtype="onder" end="22" id="37" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+            <node begin="22" cat="ssub" end="47" id="38" rel="body">
+              <node begin="22" cat="np" end="24" id="39" index="2" rel="su">
+                <node begin="22" buiging="zonder" end="23" id="40" lemma="dit" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dit" vwtype="aanw" word="dit"/>
+                <node begin="23" end="24" genus="onz" getal="ev" graad="basis" id="41" lemma="effect" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="effect" word="effect"/>
+              </node>
+              <node begin="26" end="27" id="42" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" word="kan" wvorm="pv"/>
+              <node begin="22" cat="inf" end="47" id="43" rel="vc">
+                <node begin="22" end="24" id="44" index="2" rel="su"/>
+                <node begin="24" cat="np" end="26" id="45" rel="predc">
+                  <node begin="24" end="25" id="46" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                  <node begin="25" end="26" genus="onz" getal="ev" graad="basis" id="47" lemma="voordeel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="voordeel" word="voordeel"/>
+                </node>
+                <node begin="27" buiging="zonder" end="28" id="48" lemma="zijn" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ben" word="zijn" wvorm="inf"/>
+                <node begin="28" cat="pp" end="35" id="49" rel="mod">
+                  <node begin="28" end="29" id="50" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+                  <node begin="29" cat="np" end="35" id="51" rel="obj1">
+                    <node begin="29" end="30" getal="mv" graad="basis" id="52" lemma="vrouw" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vrouw" word="vrouwen"/>
+                    <node begin="30" cat="pp" end="35" id="53" rel="mod">
+                      <node begin="30" end="31" id="54" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+                      <node begin="31" cat="np" end="35" id="55" rel="obj1">
+                        <node begin="31" cat="conj" end="34" id="56" rel="mod">
+                          <node begin="31" buiging="met-e" end="32" graad="basis" id="57" lemma="matig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="matig" word="matige"/>
+                          <node begin="32" conjtype="neven" end="33" id="58" lemma="tot" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="tot" word="tot"/>
+                          <node begin="33" buiging="met-e" end="34" graad="basis" id="59" lemma="ernstig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="ernstig" word="ernstige"/>
+                        </node>
+                        <node begin="34" end="35" genus="zijd" getal="ev" graad="basis" id="60" lemma="stress_urine_incontinentie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="stress-urine-incontinentie" word="stress-urine-incontinentie"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node begin="36" cat="cp" end="47" id="61" rel="mod">
+                  <node begin="36" conjtype="onder" end="37" id="62" lemma="daar" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="daar" word="daar"/>
+                  <node begin="37" cat="ssub" end="47" id="63" rel="body">
+                    <node begin="37" end="38" getal="getal" id="64" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+                    <node begin="38" buiging="zonder" end="39" graad="basis" id="65" lemma="momenteel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="momenteel" word="momenteel"/>
+                    <node begin="39" cat="np" end="46" id="66" rel="su">
+                      <node begin="39" buiging="zonder" end="40" id="67" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="geen"/>
+                      <node begin="40" buiging="met-e" end="41" graad="basis" id="68" lemma="alternatief" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="alternatief" word="alternatieve"/>
+                      <node begin="41" buiging="met-e" end="42" graad="basis" id="69" lemma="farmacologisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="farmacologische" word="farmacologische"/>
+                      <node begin="42" end="43" genus="zijd" getal="ev" graad="basis" id="70" lemma="behandeling" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="behandeling" word="behandeling"/>
+                      <node begin="43" cat="pp" end="46" id="71" rel="mod">
+                        <node begin="43" end="44" id="72" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+                        <node begin="44" cat="np" end="46" id="73" rel="obj1">
+                          <node begin="44" buiging="met-e" end="45" id="74" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="deze"/>
+                          <node begin="45" end="46" genus="zijd" getal="ev" graad="basis" id="75" lemma="aandoening" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="aandoening" word="aandoening"/>
+                        </node>
+                      </node>
+                    </node>
+                    <node begin="46" end="47" id="76" lemma="bestaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="besta" word="bestaat" wvorm="pv"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="47" end="48" id="77" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het Comité voor geneesmiddelen voor menselijk gebruik ( CHMP ) heeft geconcludeerd dat Ariclaim een bescheiden effect vertoonde in studies maar dat dit effect een voordeel kan zijn voor vrouwen met matige tot ernstige stress-urine-incontinentie , daar er momenteel geen alternatieve farmacologische behandeling voor deze aandoening bestaat .</sentence>
+</alpino_ds>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="43" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="10" end="11" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="11" end="12" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="15" end="16" id="4" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="17" end="18" id="5" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="18" end="19" id="6" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="22" end="23" id="7" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="24" end="25" id="8" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="28" end="29" id="9" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="32" end="33" id="10" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="42" id="11" rel="--">
+      <node begin="0" cat="np" end="3" id="12" rel="predc">
+        <node begin="0" end="1" getal="mv" graad="basis" id="13" lemma="voorbeeld" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="voorbeeld" word="Voorbeelden"/>
+        <node begin="1" cat="pp" end="3" id="14" rel="mod">
+          <node begin="1" end="2" id="15" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="2" end="3" getal="mv" graad="basis" id="16" lemma="vrijhandel_zone" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="vrij_handel_zone" word="vrijhandelszones"/>
+        </node>
+      </node>
+      <node begin="3" end="4" id="17" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+      <node begin="4" cat="conj" end="42" id="18" rel="su">
+        <node begin="4" cat="np" end="10" id="19" rel="cnj">
+          <node begin="4" end="5" id="20" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="5" cat="mwu" end="8" id="21" rel="hd">
+            <node begin="5" end="6" id="22" lemma="Europese" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Europese" spectype="deeleigen" word="Europese"/>
+            <node begin="6" end="7" id="23" lemma="Economische" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Economische" spectype="deeleigen" word="Economische"/>
+            <node begin="7" end="8" id="24" lemma="Ruimte" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Ruimte" spectype="deeleigen" word="Ruimte"/>
+          </node>
+          <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="25" lemma="EER" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" root="EER" word="EER"/>
+        </node>
+        <node begin="12" cat="np" end="17" id="26" rel="cnj">
+          <node begin="12" end="13" id="27" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="13" cat="mwu" end="15" id="28" rel="hd">
+            <node begin="13" end="14" id="29" lemma="Europese" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Europese" spectype="deeleigen" word="Europese"/>
+            <node begin="14" end="15" id="30" lemma="Vrijhandelsassociatie" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Vrijhandelsassociatie" spectype="deeleigen" word="Vrijhandelsassociatie"/>
+          </node>
+          <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="31" lemma="EVA" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" root="EVA" word="EVA"/>
+        </node>
+        <node begin="19" cat="np" end="32" id="32" rel="cnj">
+          <node begin="19" end="20" id="33" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="20" cat="mwu" end="22" id="34" rel="hd">
+            <node begin="20" buiging="met-e" end="21" graad="basis" id="35" lemma="Noord-Amerikaans" naamval="stan" pos="name" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mwp" root="Noord-Amerikaanse" word="Noord-Amerikaanse"/>
+            <node begin="21" end="22" genus="zijd" getal="ev" graad="basis" id="36" lemma="vrijhandel_overeenkomst" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Vrijhandelsovereenkomst" word="Vrijhandelsovereenkomst"/>
+          </node>
+          <node begin="23" end="24" genus="zijd" getal="ev" graad="basis" id="37" lemma="NAFTA" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" root="NAFTA" word="NAFTA"/>
+          <node begin="25" cat="pp" end="32" id="38" rel="mod">
+            <node begin="25" end="26" id="39" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" vztype="init" word="tussen"/>
+            <node begin="26" cat="conj" end="32" id="40" rel="obj1">
+              <node begin="26" cat="np" end="28" id="41" rel="cnj">
+                <node begin="26" end="27" id="42" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="27" end="28" getal="mv" graad="basis" id="43" lemma="VS" ntype="eigen" pos="name" postag="N(eigen,mv,basis)" pt="n" rel="hd" root="VS" word="VS"/>
+              </node>
+              <node begin="29" end="30" genus="onz" getal="ev" graad="basis" id="44" lemma="Canada" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Canada" word="Canada"/>
+              <node begin="30" conjtype="neven" end="31" id="45" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="31" end="32" genus="onz" getal="ev" graad="basis" id="46" lemma="Mexico" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Mexico" word="Mexico"/>
+            </node>
+          </node>
+        </node>
+        <node begin="33" cat="np" end="36" id="47" rel="cnj">
+          <node begin="33" end="34" genus="zijd" getal="ev" graad="basis" id="48" lemma="Mercosur" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Mercosur" word="Mercosur"/>
+          <node begin="34" cat="pp" end="36" id="49" rel="mod">
+            <node begin="34" end="35" id="50" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="35" end="36" genus="onz" getal="ev" graad="basis" id="51" lemma="Latijns-Amerika" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Latijns-Amerika" word="Latijns-Amerika"/>
+          </node>
+        </node>
+        <node begin="36" conjtype="neven" end="37" id="52" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="37" cat="np" end="42" id="53" rel="cnj">
+          <node begin="37" end="38" genus="onz" getal="ev" graad="basis" id="54" lemma="Caricom" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Caricom" word="Caricom"/>
+          <node begin="38" cat="pp" end="42" id="55" rel="mod">
+            <node begin="38" end="39" id="56" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="39" cat="np" end="42" id="57" rel="obj1">
+              <node begin="39" end="40" id="58" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="40" buiging="zonder" end="41" graad="basis" id="59" lemma="Caribisch" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="Caribisch" word="Caribisch"/>
+              <node begin="41" end="42" genus="onz" getal="ev" graad="basis" id="60" lemma="gebied" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="gebied" word="gebied"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="42" end="43" id="61" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Voorbeelden van vrijhandelszones zijn de Europese Economische Ruimte ( EER ) , de Europese Vrijhandelsassociatie ( EVA ) , de Noord-Amerikaanse Vrijhandelsovereenkomst ( NAFTA ) tussen de VS , Canada en Mexico , Mercosur in Latijns-Amerika en Caricom in het Caribisch gebied .</sentence>
+</alpino_ds>

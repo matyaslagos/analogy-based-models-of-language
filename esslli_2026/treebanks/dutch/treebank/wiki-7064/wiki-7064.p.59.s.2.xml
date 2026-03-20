@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="5" id="0" rel="top">
+    <node begin="0" cat="np" end="5" id="1" rel="--">
+      <node begin="0" end="1" id="2" lemma="http://www.police.be/index_nl.htm" pos="noun" postag="SPEC(symb)" pt="spec" rel="hd" root="http://www.police.be/index_nl.htm" spectype="symb" word="http://www.police.be/index_nl.htm"/>
+      <node begin="1" cat="np" end="5" id="3" rel="mod">
+        <node begin="1" buiging="met-e" end="2" graad="basis" id="4" lemma="lokaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Lokale" word="Lokale"/>
+        <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="5" lemma="politie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="politie" word="politie"/>
+        <node begin="3" cat="pp" end="5" id="6" rel="mod">
+          <node begin="3" end="4" id="7" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="8" lemma="België" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="België" word="België"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>http://www.police.be/index_nl.htm Lokale politie in België</sentence>
+</alpino_ds>

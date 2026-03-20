@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="du" end="10" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="en" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="en" word="En"/>
+      <node begin="1" cat="smain" end="10" id="3" rel="nucl">
+        <node begin="3" end="4" id="4" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+        <node begin="4" cat="np" end="9" id="5" index="1" rel="su">
+          <node begin="4" end="5" id="6" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="7" lemma="omgeving" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="omgeving" word="omgeving"/>
+          <node begin="6" cat="pp" end="9" id="8" rel="mod">
+            <node begin="6" end="7" id="9" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="7" cat="np" end="9" id="10" rel="obj1">
+              <node begin="7" end="8" id="11" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="12" lemma="woon_toren" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="woon_toren" word="woontoren"/>
+            </node>
+          </node>
+        </node>
+        <node begin="1" cat="ppart" end="10" id="13" rel="vc">
+          <node begin="1" cat="pp" end="3" id="14" rel="mod">
+            <node begin="1" end="2" id="15" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="16" lemma="Tilburg" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Tilburg" word="Tilburg"/>
+          </node>
+          <node begin="4" end="9" id="17" index="1" rel="obj1"/>
+          <node begin="9" buiging="zonder" end="10" id="18" lemma="af_zetten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="zet_af" word="afgezet" wvorm="vd"/>
+        </node>
+      </node>
+    </node>
+    <node begin="10" end="11" id="19" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>En in Tilburg werd de omgeving van een woontoren afgezet .</sentence>
+</alpino_ds>

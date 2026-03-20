@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="8" id="2" rel="--">
+      <node begin="0" cat="smain" end="5" id="3" rel="dp">
+        <node begin="0" buiging="met-e" end="1" getal-n="mv-n" id="4" lemma="sommig" naamval="stan" pdtype="det" pos="adj" positie="nom" postag="VNW(onbep,det,stan,nom,met-e,mv-n)" pt="vnw" rel="su" root="sommig" vwtype="onbep" word="Sommigen"/>
+        <node begin="1" end="2" id="5" index="1" lemma="worden" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="word" word="werden" wvorm="pv"/>
+        <node begin="2" cat="ppres" end="4" id="6" rel="predm">
+          <node begin="2" end="3" id="7" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mod" root="al" word="al"/>
+          <node begin="3" buiging="zonder" end="4" id="8" lemma="slapen" pos="adj" positie="vrij" postag="WW(od,vrij,zonder)" pt="ww" rel="hd" root="slaap" word="slapend" wvorm="od"/>
+        </node>
+        <node begin="4" buiging="zonder" end="5" graad="basis" id="9" lemma="rijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="rijk" word="rijk"/>
+      </node>
+      <node begin="1" cat="smain" end="8" id="10" rel="dp">
+        <node begin="1" end="2" id="11" index="1" rel="hd"/>
+        <node begin="6" buiging="met-e" end="7" getal-n="mv-n" graad="basis" id="12" lemma="ander" pos="noun" positie="nom" postag="ADJ(nom,basis,met-e,mv-n)" pt="adj" rel="su" root="ander" word="anderen"/>
+        <node begin="7" buiging="zonder" end="8" graad="basis" id="13" lemma="straatarm" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="straatarm" word="straatarm"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="14" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Sommigen werden al slapend rijk , anderen straatarm .</sentence>
+</alpino_ds>

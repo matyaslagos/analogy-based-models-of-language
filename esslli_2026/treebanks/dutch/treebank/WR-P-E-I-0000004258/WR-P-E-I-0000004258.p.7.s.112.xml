@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="23" id="0" rel="top">
+    <node begin="14" end="15" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="22" id="2" rel="--">
+      <node begin="0" cat="smain" end="14" id="3" rel="cnj">
+        <node begin="0" cat="np" end="7" id="4" rel="su">
+          <node begin="0" end="1" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+          <node begin="1" buiging="met-e" end="2" id="6" lemma="enig" naamval="stan" npagr="rest" pdtype="det" pos="adj" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,rest)" pt="vnw" rel="mod" root="enig" vwtype="onbep" word="enige"/>
+          <node begin="2" end="3" getal="mv" graad="basis" id="7" lemma="vak" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vak" word="vakken"/>
+          <node begin="3" cat="rel" end="7" id="8" rel="mod">
+            <node begin="3" end="4" id="9" index="1" lemma="waarvoor" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waarvoor" word="waarvoor"/>
+            <node begin="3" cat="ssub" end="7" id="10" rel="body">
+              <node begin="3" end="4" id="11" index="1" rel="mod"/>
+              <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="12" lemma="Ron" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Ron" word="Ron"/>
+              <node begin="5" end="6" id="13" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+              <node begin="6" end="7" id="14" lemma="slagen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="slaag" word="slaagt" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+        <node begin="7" end="8" id="15" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+        <node begin="8" cat="conj" end="14" id="16" rel="predc">
+          <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="17" lemma="waarzeggerij" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Waarzeggerij" word="Waarzeggerij"/>
+          <node begin="9" conjtype="neven" end="10" id="18" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="10" cat="np" end="14" id="19" rel="cnj">
+            <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="20" lemma="geschiedenis" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="Geschiedenis" word="Geschiedenis"/>
+            <node begin="11" cat="pp" end="14" id="21" rel="mod">
+              <node begin="11" end="12" id="22" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="12" cat="np" end="14" id="23" rel="obj1">
+                <node begin="12" end="13" id="24" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="25" lemma="tover_kunst" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="Toverkunst" word="Toverkunst"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="15" conjtype="neven" end="16" id="26" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="16" cat="smain" end="22" id="27" rel="cnj">
+        <node begin="16" end="17" getal="ev" id="28" lemma="dit" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="obj1" root="dit" status="vol" vwtype="aanw" word="dit"/>
+        <node begin="17" end="18" id="29" lemma="vinden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="vind" word="vindt" wvorm="pv"/>
+        <node begin="18" end="19" genus="masc" getal="ev" id="30" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="hij"/>
+        <node begin="19" cat="advp" end="21" id="31" rel="mod">
+          <node begin="19" end="20" id="32" lemma="helemaal" pos="adv" postag="BW()" pt="bw" rel="mod" root="helemaal" word="helemaal"/>
+          <node begin="20" end="21" id="33" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="hd" root="niet" word="niet"/>
+        </node>
+        <node begin="21" buiging="zonder" end="22" graad="basis" id="34" lemma="erg" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="erg" word="erg"/>
+      </node>
+    </node>
+    <node begin="22" end="23" id="35" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De enige vakken waarvoor Ron niet slaagt zijn Waarzeggerij en Geschiedenis van de Toverkunst , en dit vindt hij helemaal niet erg .</sentence>
+</alpino_ds>

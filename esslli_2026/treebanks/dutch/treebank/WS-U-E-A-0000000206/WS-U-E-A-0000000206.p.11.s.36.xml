@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="0" cat="smain" end="17" id="1" rel="--">
+      <node begin="0" cat="pp" end="3" id="2" rel="mod">
+        <node begin="0" end="1" id="3" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="Op"/>
+        <node begin="1" cat="mwu" end="3" id="4" rel="obj1">
+          <node begin="1" end="2" id="5" lemma="9" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="9" word="9"/>
+          <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="6" lemma="april" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="april" word="april"/>
+        </node>
+      </node>
+      <node begin="3" end="4" id="7" lemma="vliegen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="vlieg" word="vliegt" wvorm="pv"/>
+      <node begin="4" cat="np" end="6" id="8" rel="su">
+        <node begin="4" end="5" getal="ev" graad="basis" id="9" lemma="Velitsjko" naamval="gen" ntype="eigen" pos="det" postag="N(eigen,ev,basis,gen)" pt="n" rel="det" root="Velitsjko&apos;s" word="Velitsjko&apos;s"/>
+        <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="10" lemma="club" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="club" word="club"/>
+      </node>
+      <node begin="6" cat="np" end="8" id="11" rel="obj1">
+        <node begin="6" end="7" id="12" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+        <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="13" lemma="geld" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="geld" word="geld"/>
+      </node>
+      <node begin="8" cat="pp" end="10" id="14" rel="ld">
+        <node begin="8" end="9" id="15" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+        <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="16" lemma="Dagestan" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Dagestan" word="Dagestan"/>
+      </node>
+      <node begin="10" cat="pp" end="17" id="17" rel="mod">
+        <node begin="10" end="11" id="18" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="11" cat="np" end="17" id="19" rel="obj1">
+          <node begin="11" end="12" id="20" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="12" cat="ppart" end="16" id="21" rel="mod">
+            <node begin="12" cat="pp" end="15" id="22" rel="mod">
+              <node begin="12" end="13" id="23" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+              <node begin="13" cat="np" end="15" id="24" rel="obj1">
+                <node begin="13" end="14" id="25" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="26" lemma="ambassade" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="ambassade" word="ambassade"/>
+              </node>
+            </node>
+            <node begin="15" buiging="zonder" end="16" id="27" lemma="charteren" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="hd" root="gecharterd" word="gecharterd" wvorm="vd"/>
+          </node>
+          <node begin="16" end="17" genus="onz" getal="ev" graad="basis" id="28" lemma="vliegtuig" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="vliegtuig" word="vliegtuig"/>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="29" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Op 9 april vliegt Velitsjko&apos;s club het geld naar Dagestan in een door de ambassade gecharterd vliegtuig .</sentence>
+</alpino_ds>

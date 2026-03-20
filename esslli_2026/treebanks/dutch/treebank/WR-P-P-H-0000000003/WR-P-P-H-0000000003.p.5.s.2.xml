@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" cat="ap" end="5" id="2" rel="mod">
+        <node begin="0" buiging="zonder" end="1" graad="comp" id="3" lemma="snel" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="snel" word="Sneller"/>
+        <node begin="1" end="2" id="4" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" word="nog"/>
+        <node begin="2" cat="cp" end="5" id="5" rel="obcomp">
+          <node begin="2" conjtype="onder" end="3" id="6" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="dan" word="dan"/>
+          <node begin="3" cat="np" end="5" id="7" rel="body">
+            <node begin="3" buiging="met-e" end="4" id="8" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="deze"/>
+            <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="9" lemma="automatiseerder" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="automatiseerder" word="automatiseerder"/>
+          </node>
+        </node>
+      </node>
+      <node begin="5" end="6" id="10" lemma="stijgen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="stijg" word="steeg" wvorm="pv"/>
+      <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="11" lemma="Draka" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Draka" word="Draka"/>
+    </node>
+    <node begin="7" end="8" id="12" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Sneller nog dan deze automatiseerder steeg Draka .</sentence>
+</alpino_ds>

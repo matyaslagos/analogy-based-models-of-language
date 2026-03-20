@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="1" end="2" id="2" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" word="hebben" wvorm="pv"/>
+      <node begin="2" cat="np" end="5" id="3" index="1" rel="su">
+        <node begin="2" end="3" id="4" lemma="zoveel" naamval="stan" numtype="hoofd" pos="adj" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="zoveel" word="zoveel"/>
+        <node begin="3" end="4" getal="mv" graad="basis" id="5" lemma="land" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="land" word="landen"/>
+        <node begin="4" end="5" id="6" lemma="samen" pos="adv" postag="BW()" pt="bw" rel="mod" root="samen" word="samen"/>
+      </node>
+      <node begin="0" cat="ppart" end="7" id="7" rel="vc">
+        <node begin="0" end="1" id="8" lemma="nooit" pos="adv" postag="BW()" pt="bw" rel="mod" root="nooit" word="Nooit"/>
+        <node begin="2" end="5" id="9" index="1" rel="su"/>
+        <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="10" lemma="hulp" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="hulp" word="hulp"/>
+        <node begin="6" buiging="zonder" end="7" id="11" lemma="organiseren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="organiseer" word="georganiseerd" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="7" end="8" id="12" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Nooit hebben zoveel landen samen hulp georganiseerd .</sentence>
+</alpino_ds>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" end="2" id="4" lemma="zeven" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="zeven" word="zeven"/>
+        <node begin="2" end="3" getal="mv" graad="basis" id="5" lemma="parlement" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="parlement" word="parlementen"/>
+      </node>
+      <node begin="3" end="4" id="6" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" word="hebben" wvorm="pv"/>
+      <node begin="4" cat="pp" end="6" id="7" rel="mod">
+        <node begin="4" end="5" id="8" lemma="in" pos="adv" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="9" lemma="totaal" naamval="stan" ntype="soort" pos="adv" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="totaal" word="totaal"/>
+      </node>
+      <node begin="6" cat="np" end="8" id="10" rel="obj1">
+        <node begin="6" end="7" id="11" lemma="631" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="631" word="631"/>
+        <node begin="7" end="8" getal="mv" graad="basis" id="12" lemma="lid" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="lid" word="leden"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="13" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+  </node>
+  <sentence>De zeven parlementen hebben in totaal 631 leden :</sentence>
+</alpino_ds>

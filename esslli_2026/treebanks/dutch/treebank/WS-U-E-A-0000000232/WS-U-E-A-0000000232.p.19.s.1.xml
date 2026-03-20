@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="smain" end="5" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" buiging="met-e" end="1" graad="basis" id="3" lemma="hevig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="hevig" word="Hevige"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="4" lemma="bosbrand" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="bosbrand" word="bosbranden"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="razen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="raas" word="razen" wvorm="pv"/>
+      <node begin="3" cat="pp" end="5" id="6" rel="ld">
+        <node begin="3" end="4" id="7" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" vztype="init" word="over"/>
+        <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="8" lemma="Corsica" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Corsica" word="Corsica"/>
+      </node>
+    </node>
+    <node begin="5" end="6" id="9" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Hevige bosbranden razen over Corsica .</sentence>
+</alpino_ds>

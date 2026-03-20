@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="smain" end="12" id="1" rel="--">
+      <node begin="0" cat="pp" end="3" id="2" rel="mod">
+        <node begin="0" end="1" id="3" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+        <node begin="1" cat="np" end="3" id="4" rel="obj1">
+          <node begin="1" buiging="zonder" end="2" getal="ev" id="5" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pt="vnw" rel="det" root="zijn" status="vol" vwtype="bez" word="zijn"/>
+          <node begin="2" end="3" getal="mv" graad="basis" id="6" lemma="geschrift" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="geschrift" word="geschriften"/>
+        </node>
+      </node>
+      <node begin="3" end="4" id="7" lemma="af_rekenen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="reken_af" word="rekende" wvorm="pv"/>
+      <node begin="4" end="5" genus="masc" getal="ev" id="8" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="hij"/>
+      <node begin="5" cat="pp" end="8" id="9" rel="mod">
+        <node begin="5" end="6" id="10" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="6" cat="np" end="8" id="11" rel="obj1">
+          <node begin="6" buiging="met-e" end="7" graad="basis" id="12" lemma="fel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="fel" word="felle"/>
+          <node begin="7" end="8" getal="mv" graad="basis" id="13" lemma="bewoording" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="bewoording" word="bewoordingen"/>
+        </node>
+      </node>
+      <node begin="8" end="9" id="14" lemma="af" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="af" vztype="fin" word="af"/>
+      <node begin="9" cat="pp" end="12" id="15" rel="pc">
+        <node begin="9" end="10" id="16" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+        <node begin="10" cat="np" end="12" id="17" rel="obj1">
+          <node begin="10" buiging="met-e" end="11" graad="basis" id="18" lemma="ander" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ander" word="andere"/>
+          <node begin="11" end="12" getal="mv" graad="basis" id="19" lemma="opvatting" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="opvatting" word="opvattingen"/>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" id="20" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>In zijn geschriften rekende hij in felle bewoordingen af met andere opvattingen .</sentence>
+</alpino_ds>

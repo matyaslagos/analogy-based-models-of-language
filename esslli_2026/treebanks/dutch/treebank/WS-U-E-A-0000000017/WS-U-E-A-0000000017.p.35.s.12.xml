@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="1" end="2" id="2" lemma="blijven" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="blijf" word="blijft" wvorm="pv"/>
+      <node begin="2" cat="np" end="6" id="3" index="1" rel="su">
+        <node begin="2" end="3" id="4" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="5" lemma="PvdA_fractie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="PvdA_fractie" word="PvdA-fractie"/>
+        <node begin="4" cat="pp" end="6" id="6" rel="mod">
+          <node begin="4" end="5" id="7" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="8" lemma="Amsterdam" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Amsterdam" word="Amsterdam"/>
+        </node>
+      </node>
+      <node begin="0" cat="inf" end="8" id="9" rel="vc">
+        <node begin="0" end="1" id="10" lemma="toch" pos="adv" postag="BW()" pt="bw" rel="mod" root="toch" word="Toch"/>
+        <node begin="2" end="6" id="11" index="1" rel="su"/>
+        <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="12" lemma="Oudkerk" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" root="Oudkerk" word="Oudkerk"/>
+        <node begin="7" buiging="zonder" end="8" id="13" lemma="steunen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="steun" word="steunen" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="14" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Toch blijft de PvdA-fractie in Amsterdam Oudkerk steunen .</sentence>
+</alpino_ds>

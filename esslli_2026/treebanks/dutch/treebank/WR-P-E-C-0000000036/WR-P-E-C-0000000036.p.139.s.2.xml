@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="&lt;" pos="punct" postag="LET()" pt="let" rel="--" root="&lt;" word="&lt;"/>
+    <node begin="2" end="3" id="2" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="6" end="7" id="3" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="7" end="8" id="4" lemma="&gt;" pos="punct" postag="LET()" pt="let" rel="--" root="&gt;" word="&gt;"/>
+    <node begin="11" end="12" id="5" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="13" end="14" id="6" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="14" end="15" id="7" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="1" cat="du" end="19" id="8" rel="--">
+      <node begin="1" cat="pp" end="6" id="9" rel="dp">
+        <node begin="1" end="2" id="10" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="Door"/>
+        <node begin="3" cat="mwu" end="6" id="11" rel="obj1">
+          <node begin="3" end="4" id="12" lemma="Ina" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Ina" spectype="deeleigen" word="Ina"/>
+          <node begin="4" end="5" id="13" lemma="de" pos="det" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="de" spectype="deeleigen" word="de"/>
+          <node begin="5" end="6" id="14" lemma="Weert" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Weert" spectype="deeleigen" word="Weert"/>
+        </node>
+      </node>
+      <node begin="8" cat="np" end="13" id="15" rel="dp">
+        <node begin="8" cat="mwu" end="10" id="16" rel="hd">
+          <node begin="8" end="9" id="17" lemma="A.J." pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="A.J." spectype="deeleigen" word="A.J."/>
+          <node begin="9" end="10" id="18" lemma="Gelderblom" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Gelderblom" spectype="deeleigen" word="Gelderblom"/>
+        </node>
+        <node begin="10" end="11" id="19" lemma="en andere" pos="vg" postag="SPEC(afk)" pt="spec" rel="app" root="e.a." spectype="afk" word="e.a."/>
+        <node begin="12" end="13" id="20" lemma="redactie" pos="noun" postag="SPEC(afk)" pt="spec" rel="mod" root="redactie" spectype="afk" word="red."/>
+      </node>
+      <node begin="15" cat="conj" end="19" id="21" rel="dp">
+        <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="22" lemma="neerlandistiek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Neerlandistiek" word="Neerlandistiek"/>
+        <node begin="16" cat="np" end="19" id="23" rel="cnj">
+          <node begin="16" end="17" id="24" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="17" end="18" getal="mv" graad="basis" id="25" lemma="grens" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="grens" word="grenzen"/>
+          <node begin="18" buiging="zonder" end="19" graad="basis" id="26" lemma="voorbij" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="voorbij" word="voorbij"/>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="27" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>&lt; Door : Ina de Weert : &gt; A.J. Gelderblom e.a. ( red. ) , Neerlandistiek de grenzen voorbij .</sentence>
+</alpino_ds>

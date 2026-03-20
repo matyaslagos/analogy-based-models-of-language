@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="28" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="16" end="17" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="18" end="19" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="20" end="21" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="1" cat="smain" end="27" id="5" rel="--">
+      <node begin="1" cat="np" end="4" id="6" rel="su">
+        <node begin="1" end="2" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="2" cat="mwu" end="4" id="8" rel="hd">
+          <node begin="2" end="3" id="9" lemma="Europese" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Europese" spectype="deeleigen" word="Europese"/>
+          <node begin="3" end="4" id="10" lemma="Unie" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Unie" spectype="deeleigen" word="Unie"/>
+        </node>
+      </node>
+      <node begin="4" end="5" id="11" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="heeft" wvorm="pv"/>
+      <node begin="5" cat="np" end="27" id="12" rel="obj1">
+        <node begin="5" end="6" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="14" lemma="opdracht" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="opdracht" word="opdracht"/>
+        <node begin="7" cat="ti" end="27" id="15" rel="vc">
+          <node begin="8" end="9" id="16" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+          <node begin="7" cat="inf" end="27" id="17" rel="body">
+            <node begin="7" end="8" id="18" lemma="mee" pos="adv" postag="VZ(fin)" pt="vz" rel="mod" root="mee" vztype="fin" word="mee"/>
+            <node begin="9" buiging="zonder" end="10" id="19" lemma="bouwen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="bouw" word="bouwen" wvorm="inf"/>
+            <node begin="10" cat="pp" end="27" id="20" rel="pc">
+              <node begin="10" end="11" id="21" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+              <node begin="11" cat="np" end="27" id="22" rel="obj1">
+                <node begin="11" end="12" id="23" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                <node begin="12" buiging="met-e" end="13" graad="basis" id="24" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" word="nieuwe"/>
+                <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="25" lemma="wereld_orde" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="wereld_orde" word="wereldorde"/>
+                <node begin="14" cat="rel" end="27" id="26" rel="mod">
+                  <node begin="14" end="15" getal="getal" id="27" index="1" lemma="waar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(vb,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="rhd" root="waar" status="vol" vwtype="vb" word="waar"/>
+                  <node begin="14" cat="ssub" end="27" id="28" rel="body">
+                    <node begin="14" end="15" id="29" index="1" rel="mod"/>
+                    <node begin="15" cat="conj" end="25" id="30" rel="su">
+                      <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="31" lemma="vrede" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="vrede" word="vrede"/>
+                      <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="32" lemma="veiligheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="veiligheid" word="veiligheid"/>
+                      <node begin="19" end="20" genus="zijd" getal="ev" graad="basis" id="33" lemma="zelfstandigheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="zelfstandigheid" word="zelfstandigheid"/>
+                      <node begin="21" end="22" genus="zijd" getal="ev" graad="basis" id="34" lemma="democratie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="democratie" word="democratie"/>
+                      <node begin="22" conjtype="neven" end="23" id="35" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                      <node begin="23" cat="np" end="25" id="36" rel="cnj">
+                        <node begin="23" buiging="met-e" end="24" graad="basis" id="37" lemma="duurzaam" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="duurzaam" word="duurzame"/>
+                        <node begin="24" end="25" genus="zijd" getal="ev" graad="basis" id="38" lemma="ontwikkeling" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="ontwikkeling" word="ontwikkeling"/>
+                      </node>
+                    </node>
+                    <node begin="25" buiging="zonder" end="26" graad="basis" id="39" lemma="centraal" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="centraal" word="centraal"/>
+                    <node begin="26" end="27" id="40" lemma="staan" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="sta" word="staan" wvorm="pv"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="27" end="28" id="41" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>- De Europese Unie heeft de opdracht mee te bouwen aan een nieuwe wereldorde waar vrede , veiligheid , zelfstandigheid , democratie en duurzame ontwikkeling centraal staan .</sentence>
+</alpino_ds>

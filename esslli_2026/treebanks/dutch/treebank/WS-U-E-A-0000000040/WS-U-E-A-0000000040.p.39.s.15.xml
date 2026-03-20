@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="27" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="11" end="12" id="2" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="16" end="17" id="3" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="0" cat="smain" end="26" id="4" rel="--">
+      <node begin="0" cat="np" end="16" id="5" rel="su">
+        <node begin="0" end="1" id="6" lemma="zes" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="zes" word="Zes"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="7" lemma="EU_lidstaat" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="EU_lidstaat" word="EU-lidstaten"/>
+        <node begin="3" cat="rel" end="11" id="8" rel="mod">
+          <node begin="3" end="4" getal="getal" id="9" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+          <node begin="3" cat="ssub" end="11" id="10" rel="body">
+            <node begin="3" end="4" id="11" index="1" rel="su"/>
+            <node begin="5" cat="pp" end="7" id="12" rel="obj2">
+              <node begin="5" end="6" id="13" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+              <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="14" lemma="Brussel" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Brussel" word="Brussel"/>
+            </node>
+            <node begin="7" end="8" id="15" lemma="af_dragen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="draag_af" word="afdragen" wvorm="pv"/>
+            <node begin="4" cat="np" end="11" id="16" rel="obj1">
+              <node begin="4" buiging="zonder" end="5" graad="comp" id="17" lemma="veel" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="hd" root="meer" vwtype="onbep" word="meer"/>
+              <node begin="8" cat="cp" end="11" id="18" rel="obcomp">
+                <node begin="8" conjtype="onder" end="9" id="19" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="dan" word="dan"/>
+                <node begin="9" cat="ssub" end="11" id="20" rel="body">
+                  <node begin="9" end="10" getal="mv" id="21" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="ze"/>
+                  <node begin="10" end="11" id="22" lemma="terug_krijgen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="krijg_terug" word="terugkrijgen" wvorm="pv"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="12" cat="cp" end="16" id="23" rel="mod">
+          <node begin="12" conjtype="onder" end="13" id="24" lemma="zoals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zoals" word="zoals"/>
+          <node begin="13" cat="conj" end="16" id="25" rel="body">
+            <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="26" lemma="Nederland" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Nederland" word="Nederland"/>
+            <node begin="14" conjtype="neven" end="15" id="27" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="15" end="16" genus="onz" getal="ev" graad="basis" id="28" lemma="Duitsland" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Duitsland" word="Duitsland"/>
+          </node>
+        </node>
+      </node>
+      <node begin="17" end="18" id="29" lemma="willen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="wil" word="willen" wvorm="pv"/>
+      <node begin="18" cat="conj" end="26" id="30" rel="obj1">
+        <node begin="18" cat="np" end="20" id="31" rel="cnj">
+          <node begin="18" buiging="zonder" end="19" id="32" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="geen"/>
+          <node begin="19" end="20" genus="zijd" getal="ev" graad="basis" id="33" lemma="verhoging" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="verhoging" word="verhoging"/>
+        </node>
+        <node begin="20" conjtype="neven" end="21" id="34" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+        <node begin="21" cat="np" end="26" id="35" rel="cnj">
+          <node begin="21" end="22" id="36" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="22" end="23" genus="zijd" getal="ev" graad="basis" id="37" lemma="bevriezing" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="bevriezing" word="bevriezing"/>
+          <node begin="23" cat="pp" end="26" id="38" rel="mod">
+            <node begin="23" end="24" id="39" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="24" cat="np" end="26" id="40" rel="obj1">
+              <node begin="24" end="25" id="41" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="25" end="26" getal="mv" graad="basis" id="42" lemma="EU_uitgave" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="EU_uitgave" word="EU-uitgaven"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="26" end="27" id="43" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Zes EU-lidstaten , die meer aan Brussel afdragen dan ze terugkrijgen - zoals Nederland en Duitsland - willen geen verhoging maar een bevriezing van de EU-uitgaven .</sentence>
+</alpino_ds>

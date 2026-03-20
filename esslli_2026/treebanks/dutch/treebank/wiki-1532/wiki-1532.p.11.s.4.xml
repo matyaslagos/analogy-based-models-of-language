@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="11" end="12" id="1" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="0" cat="conj" end="16" id="2" rel="--">
+      <node begin="0" cat="smain" end="6" id="3" rel="cnj">
+        <node begin="0" end="1" genus="masc" getal="ev" id="4" index="1" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="Hij"/>
+        <node begin="1" end="2" id="5" lemma="krijgen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="krijg" word="krijgt" wvorm="pv"/>
+        <node begin="2" end="3" getal="getal" id="6" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+        <node begin="3" cat="np" end="6" id="7" rel="obj1">
+          <node begin="3" end="4" id="8" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="4" end="5" id="9" lemma="1" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="1ste" word="1ste"/>
+          <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="10" lemma="expositie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="expositie" word="expositie"/>
+        </node>
+      </node>
+      <node begin="6" conjtype="neven" end="7" id="11" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="0" cat="smain" end="16" id="12" rel="cnj">
+        <node begin="0" end="1" id="13" index="1" rel="su"/>
+        <node begin="7" end="8" id="14" lemma="tonen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="toon" word="toont" wvorm="pv"/>
+        <node begin="8" end="9" getal="getal" id="15" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+        <node begin="9" cat="np" end="16" id="16" rel="obj1">
+          <node begin="9" end="10" id="17" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="10" buiging="met-e" end="11" graad="basis" id="18" lemma="wrang" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="wrang" word="wrange"/>
+          <node begin="12" cat="mwu" end="16" id="19" rel="hd">
+            <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="20" lemma="Rik" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Rik" word="Rik"/>
+            <node begin="13" end="14" id="21" lemma="met" pos="name" postag="VZ(init)" pt="vz" rel="mwp" root="met" vztype="init" word="met"/>
+            <node begin="14" buiging="zonder" end="15" graad="basis" id="22" lemma="zwart" pos="name" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mwp" root="zwart" word="zwart"/>
+            <node begin="15" end="16" genus="onz" getal="ev" graad="basis" id="23" lemma="oog_verband" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="oogverband" word="oogverband"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="24" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="17" end="18" id="25" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Hij krijgt er een 1ste expositie en toont er het wrange &quot; Rik met zwart oogverband &quot; .</sentence>
+</alpino_ds>

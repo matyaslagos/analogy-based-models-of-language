@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="11" end="12" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="16" id="2" rel="--">
+      <node begin="0" cat="cp" end="11" id="3" rel="mod">
+        <node begin="0" conjtype="onder" end="1" id="4" lemma="hoewel" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="hoewel" word="Hoewel"/>
+        <node begin="1" cat="ssub" end="11" id="5" rel="body">
+          <node begin="1" cat="conj" end="5" id="6" index="1" rel="su">
+            <node begin="1" cat="np" end="3" id="7" rel="cnj">
+              <node begin="1" buiging="zonder" end="2" graad="basis" id="8" index="2" lemma="extreem" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="extreem" word="extreem"/>
+              <node begin="2" end="3" id="9" lemma="links-" pos="prefix" postag="SPEC(afgebr)" pt="spec" rel="hd" root="links" spectype="afgebr" word="links-"/>
+            </node>
+            <node begin="3" conjtype="neven" end="4" id="10" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="1" cat="np" end="5" id="11" rel="cnj">
+              <node begin="1" end="2" id="12" index="2" rel="mod"/>
+              <node begin="4" buiging="zonder" end="5" getal-n="zonder-n" graad="basis" id="13" lemma="rechts" pos="noun" positie="nom" postag="ADJ(nom,basis,zonder,zonder-n)" pt="adj" rel="hd" root="rechts" word="rechts"/>
+            </node>
+          </node>
+          <node begin="9" end="10" id="14" lemma="zijn" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="ben" word="waren" wvorm="pv"/>
+          <node begin="1" cat="ppart" end="11" id="15" rel="vc">
+            <node begin="1" end="5" id="16" index="1" rel="su"/>
+            <node begin="5" end="6" id="17" lemma="zowat" pos="adv" postag="BW()" pt="bw" rel="mod" root="zowat" word="zowat"/>
+            <node begin="6" cat="pp" end="9" id="18" rel="ld">
+              <node begin="6" end="7" id="19" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" vztype="init" word="uit"/>
+              <node begin="7" cat="np" end="9" id="20" rel="obj1">
+                <node begin="7" end="8" id="21" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="22" lemma="Rijksdag" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Rijksdag" word="Rijksdag"/>
+              </node>
+            </node>
+            <node begin="10" buiging="zonder" end="11" id="23" lemma="verdwijnen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="verdwijn" word="verdwenen" wvorm="vd"/>
+          </node>
+        </node>
+      </node>
+      <node begin="12" end="13" id="24" lemma="bestrijden" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="bestrijd" word="bestreden" wvorm="pv"/>
+      <node begin="13" end="14" getal="mv" id="25" lemma="zij" naamval="nomin" pdtype="pron" persoon="3p" pos="pron" postag="VNW(pers,pron,nomin,vol,3p,mv)" pt="vnw" rel="su" root="zij" status="vol" vwtype="pers" word="zij"/>
+      <node begin="14" cat="np" end="16" id="26" rel="obj1">
+        <node begin="14" end="15" id="27" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="28" lemma="decadentie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="decadentie" word="decadentie"/>
+      </node>
+    </node>
+    <node begin="16" end="17" id="29" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Hoewel extreem links- en rechts zowat uit de Rijksdag waren verdwenen , bestreden zij de decadentie .</sentence>
+</alpino_ds>

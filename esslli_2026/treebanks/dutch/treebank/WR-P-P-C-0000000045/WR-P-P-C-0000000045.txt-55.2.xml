@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="1" end="2" id="2" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+      <node begin="2" cat="np" end="5" id="3" index="1" rel="su">
+        <node begin="2" end="3" id="4" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="3" cat="mwu" end="5" id="5" rel="hd">
+          <node begin="3" buiging="zonder" end="4" graad="basis" id="6" lemma="eigen" pos="name" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mwp" root="Eigen" word="Eigen"/>
+          <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="7" lemma="verklaring" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Verklaring" word="Verklaring"/>
+        </node>
+      </node>
+      <node begin="0" cat="ppart" end="11" id="8" rel="vc">
+        <node begin="0" buiging="zonder" end="1" graad="basis" id="9" lemma="gewoonlijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="gewoonlijk" word="Gewoonlijk"/>
+        <node begin="2" end="5" id="10" index="1" rel="obj1"/>
+        <node begin="5" buiging="zonder" end="6" id="11" lemma="in_vullen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="vul_in" word="ingevuld" wvorm="vd"/>
+        <node begin="6" cat="cp" end="11" id="12" rel="mod">
+          <node begin="6" conjtype="onder" end="7" id="13" lemma="wanneer" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="wanneer" word="wanneer"/>
+          <node begin="7" cat="ssub" end="11" id="14" rel="body">
+            <node begin="7" end="8" getal="getal" id="15" lemma="u" naamval="nomin" pdtype="pron" persoon="2b" pos="pron" postag="VNW(pers,pron,nomin,vol,2b,getal)" pt="vnw" rel="su" root="u" status="vol" vwtype="pers" word="u"/>
+            <node begin="8" cat="np" end="10" id="16" rel="obj1">
+              <node begin="8" end="9" id="17" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="18" lemma="rij_examen" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="rij_examen" word="rijexamen"/>
+            </node>
+            <node begin="10" end="11" id="19" lemma="aan_vragen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="vraag_aan" word="aanvraagt" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" id="20" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Gewoonlijk wordt een Eigen Verklaring ingevuld wanneer u het rijexamen aanvraagt .</sentence>
+</alpino_ds>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="0" cat="smain" end="20" id="1" rel="--">
+      <node begin="0" end="1" getal="ev" id="2" index="1" lemma="ik" naamval="nomin" pdtype="pron" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,vol,1,ev)" pt="vnw" rel="su" root="ik" status="vol" vwtype="pers" word="Ik"/>
+      <node begin="1" end="2" id="3" lemma="hebben" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="heb" word="heb" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="20" id="4" rel="vc">
+        <node begin="0" end="1" id="5" index="1" rel="su"/>
+        <node begin="2" buiging="zonder" end="3" id="6" lemma="begrijpen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="begrijp" word="begrepen" wvorm="vd"/>
+        <node begin="3" cat="cp" end="20" id="7" rel="vc">
+          <node begin="3" conjtype="onder" end="4" id="8" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+          <node begin="4" cat="ssub" end="20" id="9" rel="body">
+            <node begin="4" end="5" getal="getal" id="10" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+            <node begin="5" end="6" id="11" lemma="zelfs" pos="adv" postag="BW()" pt="bw" rel="mod" root="zelfs" word="zelfs"/>
+            <node begin="6" cat="pp" end="11" id="12" rel="mod">
+              <node begin="6" end="7" id="13" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+              <node begin="7" cat="np" end="11" id="14" rel="obj1">
+                <node begin="7" end="8" id="15" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="16" lemma="carnaval" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="carnaval" word="carnaval"/>
+                <node begin="9" cat="np" end="11" id="17" rel="mod">
+                  <node begin="9" buiging="met-e" end="10" graad="basis" id="18" lemma="vorig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="vorig" word="vorige"/>
+                  <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="19" lemma="week" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="week" word="week"/>
+                </node>
+              </node>
+            </node>
+            <node begin="11" end="12" id="20" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mod" root="al" word="al"/>
+            <node begin="13" end="14" id="21" lemma="zijn" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="ben" word="waren" wvorm="pv"/>
+            <node begin="12" cat="np" end="20" id="22" rel="su">
+              <node begin="12" end="13" getal="mv" graad="basis" id="23" lemma="mens" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="mens" word="mensen"/>
+              <node begin="14" cat="rel" end="20" id="24" rel="mod">
+                <node begin="14" end="15" getal="getal" id="25" index="2" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+                <node begin="14" cat="ssub" end="20" id="26" rel="body">
+                  <node begin="14" end="15" id="27" index="2" rel="su"/>
+                  <node begin="15" end="16" id="28" lemma="anticiperen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="anticipeer" word="anticipeerden" wvorm="pv"/>
+                  <node begin="16" cat="pp" end="20" id="29" rel="pc">
+                    <node begin="16" end="17" id="30" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+                    <node begin="17" cat="np" end="20" id="31" rel="obj1">
+                      <node begin="17" end="18" id="32" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                      <node begin="18" buiging="met-e" end="19" graad="basis" id="33" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" word="nieuwe"/>
+                      <node begin="19" end="20" genus="zijd" getal="ev" graad="basis" id="34" lemma="situatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="situatie" word="situatie"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="20" end="21" id="35" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Ik heb begrepen dat er zelfs bij het carnaval vorige week al mensen waren die anticipeerden op de nieuwe situatie .</sentence>
+</alpino_ds>

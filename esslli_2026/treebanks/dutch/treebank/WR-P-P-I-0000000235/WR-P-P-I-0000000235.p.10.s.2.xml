@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="33" id="0" rel="top">
+    <node begin="18" end="19" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="23" end="24" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="28" end="29" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="32" id="4" rel="--">
+      <node begin="0" end="1" genus="onz" getal="ev" id="5" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" root="het" status="red" vwtype="pers" word="Het"/>
+      <node begin="1" end="2" id="6" lemma="gaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ga" word="gaat" wvorm="pv"/>
+      <node begin="3" end="4" id="7" lemma="nochtans" pos="adv" postag="BW()" pt="bw" rel="mod" root="nochtans" word="nochtans"/>
+      <node begin="4" cat="advp" end="6" id="8" rel="mod">
+        <node begin="4" end="5" id="9" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="hd" root="niet" word="niet"/>
+        <node begin="5" buiging="zonder" end="6" graad="comp" id="10" lemma="lang" pos="adv" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="langer" word="langer"/>
+      </node>
+      <node begin="2" cat="pp" end="32" id="11" rel="pc">
+        <node begin="2" end="3" getal="getal" id="12" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="noun" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="pobj1" root="er" status="red" vwtype="aanw" word="er"/>
+        <node begin="6" end="7" id="13" lemma="om" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="om" vztype="init" word="om"/>
+        <node begin="7" cat="cp" end="32" id="14" rel="vc">
+          <node begin="7" conjtype="onder" end="8" id="15" lemma="of" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="of" word="of"/>
+          <node begin="8" cat="ssub" end="32" id="16" rel="body">
+            <node begin="8" end="9" getal="mv" id="17" lemma="we" naamval="nomin" pdtype="pron" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,red,1,mv)" pt="vnw" rel="su" root="we" status="red" vwtype="pers" word="we"/>
+            <node begin="9" cat="pp" end="11" id="18" rel="mod">
+              <node begin="9" end="10" id="19" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+              <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="20" lemma="Europa" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Europa" word="Europa"/>
+            </node>
+            <node begin="11" end="12" id="21" lemma="kiezen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kies" word="kiezen" wvorm="pv"/>
+            <node begin="12" cat="conj" end="32" id="22" rel="pc">
+              <node begin="12" cat="pp" end="18" id="23" rel="cnj">
+                <node begin="12" end="13" id="24" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+                <node begin="13" cat="conj" end="18" id="25" rel="obj1">
+                  <node begin="13" cat="np" end="15" id="26" rel="cnj">
+                    <node begin="13" end="14" id="27" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                    <node begin="14" end="15" genus="onz" getal="ev" graad="basis" id="28" lemma="federalisme" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="federalisme" word="federalisme"/>
+                  </node>
+                  <node begin="15" conjtype="neven" end="16" id="29" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+                  <node begin="16" cat="np" end="18" id="30" rel="cnj">
+                    <node begin="16" end="17" id="31" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                    <node begin="17" end="18" genus="onz" getal="ev" graad="basis" id="32" lemma="confederalisme" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="confederalisme" word="confederalisme"/>
+                  </node>
+                </node>
+              </node>
+              <node begin="19" conjtype="neven" end="20" id="33" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+              <node begin="20" cat="pp" end="32" id="34" rel="cnj">
+                <node begin="20" end="21" id="35" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+                <node begin="21" cat="np" end="32" id="36" rel="obj1">
+                  <node begin="21" end="22" id="37" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                  <node begin="22" end="23" genus="onz" getal="ev" graad="basis" id="38" lemma="behoud" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="behoud" word="behoud"/>
+                  <node begin="24" cat="ap" end="28" id="39" rel="mod">
+                    <node begin="24" cat="mwu" end="27" id="40" rel="mod">
+                      <node begin="24" end="25" id="41" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mwp" root="al" word="al"/>
+                      <node begin="25" end="26" id="42" lemma="dan" pos="adv" postag="BW()" pt="bw" rel="mwp" root="dan" word="dan"/>
+                      <node begin="26" end="27" id="43" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mwp" root="niet" word="niet"/>
+                    </node>
+                    <node begin="27" buiging="zonder" end="28" graad="basis" id="44" lemma="gedeeltelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="gedeeltelijk" word="gedeeltelijk"/>
+                  </node>
+                  <node begin="29" cat="pp" end="32" id="45" rel="mod">
+                    <node begin="29" end="30" id="46" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                    <node begin="30" cat="np" end="32" id="47" rel="obj1">
+                      <node begin="30" end="31" id="48" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                      <node begin="31" end="32" genus="onz" getal="ev" graad="basis" id="49" lemma="veto_recht" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="veto_recht" word="vetorecht"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="32" end="33" id="50" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het gaat er nochtans niet langer om of we met Europa kiezen voor het federalisme of het confederalisme , of voor het behoud , al dan niet gedeeltelijk , van het vetorecht .</sentence>
+</alpino_ds>

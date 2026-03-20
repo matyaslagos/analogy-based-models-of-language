@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="7" id="2" rel="--">
+      <node begin="0" cat="np" end="3" id="3" rel="cnj">
+        <node begin="0" end="1" genus="onz" getal="ev" graad="basis" id="4" lemma="hart" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="hart" word="Hart"/>
+        <node begin="1" cat="pp" end="3" id="5" rel="mod">
+          <node begin="1" end="2" id="6" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+          <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="7" lemma="hol" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="hol" word="hol"/>
+        </node>
+      </node>
+      <node begin="4" cat="np" end="7" id="8" rel="cnj">
+        <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="9" lemma="verstand" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="verstand" word="verstand"/>
+        <node begin="5" cat="pp" end="7" id="10" rel="mod">
+          <node begin="5" end="6" id="11" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+          <node begin="6" end="7" id="12" lemma="nul" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" root="nul" word="nul"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>Hart op hol , verstand op nul</sentence>
+</alpino_ds>

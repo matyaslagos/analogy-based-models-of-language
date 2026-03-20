@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="6" end="7" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="14" id="3" rel="--">
+      <node begin="0" cat="advp" end="6" id="4" rel="mod">
+        <node begin="0" end="1" getal="getal" id="5" lemma="nergens" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(onbep,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="hd" root="nergens" status="vol" vwtype="onbep" word="Nergens"/>
+        <node begin="1" end="2" id="6" lemma="elders" pos="pp" postag="BW()" pt="bw" rel="mod" root="elders" word="elders"/>
+        <node begin="3" cat="cp" end="6" id="7" rel="mod">
+          <node begin="3" conjtype="onder" end="4" id="8" lemma="behalve" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="behalve" word="behalve"/>
+          <node begin="4" cat="pp" end="6" id="9" rel="body">
+            <node begin="4" end="5" id="10" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="11" lemma="Japan" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Japan" word="Japan"/>
+          </node>
+        </node>
+      </node>
+      <node begin="7" end="8" id="12" lemma="voor_komen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="kom_voor" word="komt" wvorm="pv"/>
+      <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="13" lemma="zelfdoding" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="su" root="zelfdoding" word="zelfdoding"/>
+      <node begin="10" end="11" id="14" lemma="voor" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="voor" vztype="fin" word="voor"/>
+      <node begin="9" cat="ap" end="14" id="15" rel="mod">
+        <node begin="9" buiging="zonder" end="10" graad="comp" id="16" lemma="veel" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="hd" root="meer" vwtype="onbep" word="meer"/>
+        <node begin="11" cat="cp" end="14" id="17" rel="obcomp">
+          <node begin="11" conjtype="onder" end="12" id="18" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="dan" word="dan"/>
+          <node begin="12" cat="pp" end="14" id="19" rel="body">
+            <node begin="12" end="13" id="20" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="21" lemma="België" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="België" word="België"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Nergens elders , behalve in Japan , komt zelfdoding meer voor dan in België .</sentence>
+</alpino_ds>

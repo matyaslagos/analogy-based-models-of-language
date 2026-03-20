@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="0" buiging="zonder" end="1" getal-n="zonder-n" id="2" lemma="hijgen" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="su" root="hijg" word="Hijgen" wvorm="inf"/>
+      <node begin="1" end="2" id="3" lemma="op_leveren" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="lever_op" word="levert" wvorm="pv"/>
+      <node begin="2" end="3" id="4" lemma="echter" pos="adv" postag="BW()" pt="bw" rel="mod" root="echter" word="echter"/>
+      <node begin="3" cat="np" end="5" id="5" rel="obj1">
+        <node begin="3" buiging="zonder" end="4" id="6" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="geen"/>
+        <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="7" lemma="gevaar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="gevaar" word="gevaar"/>
+      </node>
+      <node begin="5" end="6" id="8" lemma="op" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="op" vztype="fin" word="op"/>
+    </node>
+    <node begin="6" end="7" id="9" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Hijgen levert echter geen gevaar op .</sentence>
+</alpino_ds>

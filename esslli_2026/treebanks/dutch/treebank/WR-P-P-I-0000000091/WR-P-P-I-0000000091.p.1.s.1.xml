@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="24" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="7" end="8" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="0" cat="smain" end="23" id="3" rel="--">
+      <node begin="0" cat="np" end="7" id="4" rel="su">
+        <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="5" lemma="minister" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="minister" word="Minister"/>
+        <node begin="1" cat="pp" end="3" id="6" rel="mod">
+          <node begin="1" end="2" id="7" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="8" lemma="volksgezondheid" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="Volksgezondheid" word="Volksgezondheid"/>
+        </node>
+        <node begin="3" cat="mwu" end="5" id="9" rel="app">
+          <node begin="3" end="4" id="10" lemma="Magda" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Magda" spectype="deeleigen" word="Magda"/>
+          <node begin="4" end="5" id="11" lemma="Aelvoet" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Aelvoet" spectype="deeleigen" word="Aelvoet"/>
+        </node>
+        <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="12" lemma="Agalev" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="mod" root="Agalev" word="Agalev"/>
+      </node>
+      <node begin="8" end="9" id="13" lemma="aan_kondigen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="kondig_aan" word="kondigt" wvorm="pv"/>
+      <node begin="9" end="10" id="14" lemma="aan" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="aan" vztype="fin" word="aan"/>
+      <node begin="10" cat="cp" end="23" id="15" rel="vc">
+        <node begin="10" conjtype="onder" end="11" id="16" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+        <node begin="11" cat="ssub" end="23" id="17" rel="body">
+          <node begin="11" end="12" genus="fem" getal="ev" id="18" index="1" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,ev,fem)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="ze"/>
+          <node begin="15" end="16" id="19" lemma="zullen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zal" word="zal" wvorm="pv"/>
+          <node begin="11" cat="inf" end="23" id="20" rel="vc">
+            <node begin="11" end="12" id="21" index="1" rel="su"/>
+            <node begin="12" cat="np" end="15" id="22" rel="obj1">
+              <node begin="12" end="13" id="23" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="13" buiging="zonder" end="14" graad="basis" id="24" lemma="koninklijk" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="koninklijk" word="koninklijk"/>
+              <node begin="14" end="15" genus="onz" getal="ev" graad="basis" id="25" lemma="besluit" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="besluit" word="besluit"/>
+            </node>
+            <node begin="16" buiging="zonder" end="17" id="26" lemma="wijzigen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="wijzig" word="wijzigen" wvorm="inf"/>
+            <node begin="17" cat="whrel" end="23" id="27" rel="mod">
+              <node begin="17" end="18" id="28" index="2" lemma="waardoor" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waardoor" word="waardoor"/>
+              <node begin="17" cat="ssub" end="23" id="29" rel="body">
+                <node begin="18" end="19" getal="mv" graad="basis" id="30" index="3" lemma="bedrijf" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="bedrijf" word="bedrijven"/>
+                <node begin="21" end="22" id="31" lemma="kunnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kan" word="kunnen" wvorm="pv"/>
+                <node begin="17" cat="inf" end="23" id="32" rel="vc">
+                  <node begin="17" end="18" id="33" index="2" rel="mod"/>
+                  <node begin="18" end="19" id="34" index="3" rel="su"/>
+                  <node begin="19" cat="np" end="21" id="35" rel="obj1">
+                    <node begin="19" buiging="zonder" end="20" getal="mv" id="36" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+                    <node begin="20" end="21" getal="mv" graad="basis" id="37" lemma="werknemer" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="werknemer" word="werknemers"/>
+                  </node>
+                  <node begin="22" buiging="zonder" end="23" id="38" lemma="vaccineren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="vaccineer" word="vaccineren" wvorm="inf"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="23" end="24" id="39" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Minister van Volksgezondheid Magda Aelvoet ( Agalev ) kondigt aan dat ze een koninklijk besluit zal wijzigen waardoor bedrijven hun werknemers kunnen vaccineren .</sentence>
+</alpino_ds>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="smain" end="10" id="1" rel="--">
+      <node begin="4" end="5" id="2" lemma="zullen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="zal" word="zullen" wvorm="pv"/>
+      <node begin="5" cat="np" end="7" id="3" index="1" rel="su">
+        <node begin="5" buiging="met-e" end="6" id="4" lemma="verder_gaan" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="verdergaand" word="verdergaande" wvorm="od"/>
+        <node begin="6" end="7" getal="mv" graad="basis" id="5" lemma="afspraak" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="afspraak" word="afspraken"/>
+      </node>
+      <node begin="0" cat="inf" end="10" id="6" rel="vc">
+        <node begin="5" end="7" id="7" index="1" rel="su"/>
+        <node begin="7" buiging="zonder" end="8" id="8" lemma="moeten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="moet" word="moeten" wvorm="inf"/>
+        <node begin="0" cat="inf" end="10" id="9" rel="vc">
+          <node begin="5" end="7" id="10" index="1" rel="su"/>
+          <node begin="8" buiging="zonder" end="9" id="11" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+          <node begin="0" cat="ppart" end="10" id="12" rel="vc">
+            <node begin="0" cat="pp" end="4" id="13" rel="mod">
+              <node begin="0" end="1" id="14" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+              <node begin="1" cat="np" end="4" id="15" rel="obj1">
+                <node begin="1" end="2" id="16" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="2" cat="mwu" end="4" id="17" rel="hd">
+                  <node begin="2" end="3" id="18" lemma="Doha" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Doha" spectype="deeleigen" word="Doha"/>
+                  <node begin="3" end="4" id="19" lemma="Ronde" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Ronde" spectype="deeleigen" word="Ronde"/>
+                </node>
+              </node>
+            </node>
+            <node begin="5" end="7" id="20" index="1" rel="obj1"/>
+            <node begin="9" buiging="zonder" end="10" id="21" lemma="maken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="maak" word="gemaakt" wvorm="vd"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="10" end="11" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>In de Doha Ronde zullen verdergaande afspraken moeten worden gemaakt .</sentence>
+</alpino_ds>

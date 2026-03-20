@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="0" end="1" id="2" lemma="zo" pos="adv" postag="BW()" pt="bw" rel="mod" root="zo" word="Zo"/>
+      <node begin="1" end="2" id="3" lemma="uit_groeien" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="groei_uit" word="groeiden" wvorm="pv"/>
+      <node begin="2" end="3" getal="mv" id="4" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="ze"/>
+      <node begin="3" end="4" id="5" lemma="uit" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="uit" vztype="fin" word="uit"/>
+      <node begin="4" cat="pp" end="6" id="6" rel="pc">
+        <node begin="4" end="5" id="7" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" vztype="init" word="tot"/>
+        <node begin="5" end="6" getal="mv" graad="basis" id="8" lemma="hotelier_bankier_makelaar" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="hoteliers-bankiers_makelaar" word="hoteliers-bankiers-makelaars"/>
+      </node>
+    </node>
+    <node begin="6" end="7" id="9" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Zo groeiden ze uit tot hoteliers-bankiers-makelaars .</sentence>
+</alpino_ds>

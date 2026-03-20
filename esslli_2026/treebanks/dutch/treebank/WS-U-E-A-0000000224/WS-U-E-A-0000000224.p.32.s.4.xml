@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="9" end="10" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="14" end="15" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="19" id="4" rel="--">
+      <node begin="1" end="2" id="5" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="19" id="6" rel="vc">
+        <node begin="0" end="1" getal="getal" id="7" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="Er"/>
+        <node begin="2" buiging="zonder" end="3" id="8" lemma="roeien" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="roei" word="geroeid" wvorm="vd"/>
+        <node begin="3" cat="pp" end="19" id="9" rel="ld">
+          <node begin="3" end="4" id="10" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+          <node begin="4" cat="np" end="19" id="11" rel="obj1">
+            <node begin="4" end="5" id="12" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="5" buiging="met-e" end="6" graad="basis" id="13" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" word="nieuwe"/>
+            <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="14" lemma="baan" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="baan" word="baan"/>
+            <node begin="8" cat="rel" end="19" id="15" rel="mod">
+              <node begin="8" end="9" id="16" index="1" lemma="waarover" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waarover" word="waarover"/>
+              <node begin="8" cat="ssub" end="19" id="17" rel="body">
+                <node begin="15" cat="np" end="17" id="18" index="2" rel="su">
+                  <node begin="15" buiging="zonder" end="16" graad="basis" id="19" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,basis)" pt="vnw" rel="det" root="veel" vwtype="onbep" word="veel"/>
+                  <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="20" lemma="commotie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="commotie" word="commotie"/>
+                </node>
+                <node begin="17" end="18" id="21" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+                <node begin="8" cat="ppart" end="19" id="22" rel="vc">
+                  <node begin="8" end="9" id="23" index="1" rel="mod"/>
+                  <node begin="10" cat="ppres" end="14" id="24" rel="mod">
+                    <node begin="10" buiging="zonder" end="11" id="25" lemma="vooraf_gaan" pos="adj" positie="vrij" postag="WW(od,vrij,zonder)" pt="ww" rel="hd" root="voorafgaand" word="voorafgaand" wvorm="od"/>
+                    <node begin="11" cat="pp" end="14" id="26" rel="mod">
+                      <node begin="11" end="12" id="27" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+                      <node begin="12" cat="np" end="14" id="28" rel="obj1">
+                        <node begin="12" end="13" id="29" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                        <node begin="13" end="14" getal="mv" graad="basis" id="30" lemma="Spelen" ntype="eigen" pos="name" postag="N(eigen,mv,basis)" pt="n" rel="hd" root="Spelen" word="Spelen"/>
+                      </node>
+                    </node>
+                  </node>
+                  <node begin="15" end="17" id="31" index="2" rel="su"/>
+                  <node begin="18" buiging="zonder" end="19" id="32" lemma="zijn" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="ben" word="geweest" wvorm="vd"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="33" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Er wordt geroeid op een nieuwe baan , waarover , voorafgaand aan de Spelen , veel commotie is geweest .</sentence>
+</alpino_ds>

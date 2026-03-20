@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="0" cat="smain" end="18" id="1" rel="--">
+      <node begin="0" end="1" genus="masc" getal="ev" id="2" index="1" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="Hij"/>
+      <node begin="1" end="2" id="3" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="heeft" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="18" id="4" rel="vc">
+        <node begin="0" end="1" id="5" index="1" rel="su"/>
+        <node begin="2" end="3" id="6" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+        <node begin="3" buiging="zonder" end="4" id="7" lemma="beweren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="beweer" word="beweerd" wvorm="vd"/>
+        <node begin="4" cat="cp" end="18" id="8" rel="vc">
+          <node begin="4" conjtype="onder" end="5" id="9" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+          <node begin="5" cat="ssub" end="18" id="10" rel="body">
+            <node begin="5" cat="np" end="7" id="11" rel="su">
+              <node begin="5" end="6" id="12" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="13" lemma="video" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="video" word="video"/>
+            </node>
+            <node begin="11" end="12" id="14" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+            <node begin="7" cat="ap" end="18" id="15" rel="predc">
+              <node begin="10" buiging="zonder" end="11" graad="basis" id="16" lemma="sensationeel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="sensationeel" word="sensationeel"/>
+              <node begin="7" cat="ap" end="18" id="17" rel="mod">
+                <node begin="7" cat="advp" end="9" id="18" rel="mod">
+                  <node begin="7" buiging="zonder" end="8" graad="basis" id="19" lemma="heel" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="heel" word="heel"/>
+                  <node begin="8" end="9" getal="ev" id="20" lemma="wat" naamval="stan" pdtype="pron" persoon="3o" pos="adv" postag="VNW(onbep,pron,stan,vol,3o,ev)" pt="vnw" rel="hd" root="wat" status="vol" vwtype="onbep" word="wat"/>
+                </node>
+                <node begin="9" buiging="zonder" end="10" graad="comp" id="21" lemma="weinig" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="hd" root="minder" vwtype="onbep" word="minder"/>
+                <node begin="12" cat="cp" end="18" id="22" rel="obcomp">
+                  <node begin="12" conjtype="onder" end="13" id="23" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="dan" word="dan"/>
+                  <node begin="13" cat="ssub" end="18" id="24" rel="body">
+                    <node begin="13" end="14" genus="masc" getal="ev" id="25" index="2" lemma="men" naamval="nomin" pdtype="pron" persoon="3p" pos="pron" postag="VNW(pers,pron,nomin,red,3p,ev,masc)" pt="vnw" rel="su" root="men" status="red" vwtype="pers" word="men"/>
+                    <node begin="15" end="16" id="26" lemma="hebben" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="heb" word="had" wvorm="pv"/>
+                    <node begin="13" cat="inf" end="18" id="27" rel="vc">
+                      <node begin="13" end="14" id="28" index="2" rel="su"/>
+                      <node begin="14" end="15" id="29" lemma="eerst" pos="adv" postag="BW()" pt="bw" rel="mod" root="eerst" word="eerst"/>
+                      <node begin="16" buiging="zonder" end="17" id="30" lemma="laten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="laat" word="laten" wvorm="inf"/>
+                      <node begin="17" buiging="zonder" end="18" id="31" lemma="uit_schijnen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="vc" root="uit_schijn" word="uitschijnen" wvorm="inf"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="32" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Hij heeft ook beweerd dat de video heel wat minder sensationeel is dan men eerst had laten uitschijnen .</sentence>
+</alpino_ds>

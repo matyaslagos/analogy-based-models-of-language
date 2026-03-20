@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="19" id="2" rel="--">
+      <node begin="0" cat="smain" end="6" id="3" rel="dp">
+        <node begin="0" cat="np" end="2" id="4" rel="su">
+          <node begin="0" buiging="met-e" end="1" id="5" lemma="sommig" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="sommige" vwtype="onbep" word="Sommige"/>
+          <node begin="1" end="2" getal="mv" graad="basis" id="6" lemma="drug" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="drug" word="drugs"/>
+        </node>
+        <node begin="2" end="3" id="7" lemma="versterken" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="versterk" word="versterken" wvorm="pv"/>
+        <node begin="3" cat="np" end="6" id="8" rel="obj1">
+          <node begin="3" end="4" id="9" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="4" buiging="zonder" end="5" graad="basis" id="10" lemma="dronken" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="dronken" word="dronken"/>
+          <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="11" lemma="gevoel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="gevoel" word="gevoel"/>
+        </node>
+      </node>
+      <node begin="7" cat="smain" end="19" id="12" rel="dp">
+        <node begin="7" buiging="met-e" end="8" getal-n="zonder-n" graad="basis" id="13" lemma="ander" naamval="stan" pos="adj" positie="nom" postag="ADJ(nom,basis,met-e,zonder-n,stan)" pt="adj" rel="su" root="ander" word="andere"/>
+        <node begin="8" end="9" id="14" lemma="verhogen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="verhoog" word="verhogen" wvorm="pv"/>
+        <node begin="9" buiging="zonder" end="10" graad="basis" id="15" lemma="juist" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="juist" word="juist"/>
+        <node begin="10" cat="np" end="12" id="16" rel="obj1">
+          <node begin="10" end="11" id="17" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="18" lemma="alcohol_inname" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="alcohol_inname" word="alcoholinname"/>
+        </node>
+        <node begin="12" cat="cp" end="19" id="19" rel="mod">
+          <node begin="12" conjtype="onder" end="13" id="20" lemma="omdat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="omdat" word="omdat"/>
+          <node begin="13" cat="ssub" end="19" id="21" rel="body">
+            <node begin="13" cat="np" end="16" id="22" rel="su">
+              <node begin="13" end="14" id="23" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="14" buiging="zonder" end="15" graad="basis" id="24" lemma="dronken" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="dronken" word="dronken"/>
+              <node begin="15" end="16" genus="onz" getal="ev" graad="basis" id="25" lemma="gevoel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="gevoel" word="gevoel"/>
+            </node>
+            <node begin="16" cat="np" end="18" id="26" rel="mod">
+              <node begin="16" end="17" id="27" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="28" lemma="tijd" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="tijd" word="tijd"/>
+            </node>
+            <node begin="18" end="19" id="29" lemma="uit_blijven" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="blijf_uit" word="uitblijft" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="30" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Sommige drugs versterken een dronken gevoel , andere verhogen juist de alcoholinname omdat het dronken gevoel een tijd uitblijft .</sentence>
+</alpino_ds>

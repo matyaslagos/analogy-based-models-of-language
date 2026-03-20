@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="9" end="10" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="12" end="13" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="14" id="3" rel="--">
+      <node begin="3" end="4" id="4" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+      <node begin="4" cat="np" end="12" id="5" index="1" rel="su">
+        <node begin="4" end="5" id="6" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+        <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="7" lemma="ministerie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="ministerie" word="ministerie"/>
+        <node begin="6" cat="pp" end="9" id="8" rel="mod">
+          <node begin="6" end="7" id="9" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="7" cat="np" end="9" id="10" rel="obj1">
+            <node begin="7" end="8" id="11" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="12" lemma="staat_veiligheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="staat_veiligheid" word="staatsveiligheid"/>
+          </node>
+        </node>
+        <node begin="10" cat="np" end="12" id="13" rel="app">
+          <node begin="10" end="11" id="14" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="11" end="12" id="15" lemma="stasi" pos="name" postag="SPEC(vreemd)" pt="spec" rel="hd" root="Stasi" spectype="vreemd" word="stasi"/>
+        </node>
+      </node>
+      <node begin="0" cat="ppart" end="14" id="16" rel="vc">
+        <node begin="0" cat="pp" end="3" id="17" rel="mod">
+          <node begin="0" end="1" id="18" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+          <node begin="1" cat="np" end="3" id="19" rel="obj1">
+            <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="20" lemma="februari" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="februari" word="februari"/>
+            <node begin="2" end="3" id="21" lemma="1950" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mod" root="1950" word="1950"/>
+          </node>
+        </node>
+        <node begin="4" end="12" id="22" index="1" rel="obj1"/>
+        <node begin="13" buiging="zonder" end="14" id="23" lemma="op_richten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="richt_op" word="opgericht" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="14" end="15" id="24" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>In februari 1950 werd het ministerie voor de staatsveiligheid , de stasi , opgericht .</sentence>
+</alpino_ds>

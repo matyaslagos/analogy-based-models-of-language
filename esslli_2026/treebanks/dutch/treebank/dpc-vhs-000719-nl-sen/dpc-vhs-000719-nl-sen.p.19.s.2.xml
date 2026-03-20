@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="13" id="2" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="3" lemma="en" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="en" word="En"/>
+      <node begin="1" cat="smain" end="13" id="4" rel="nucl">
+        <node begin="1" cat="pp" end="5" id="5" rel="mod">
+          <node begin="1" end="2" id="6" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+          <node begin="2" cat="np" end="4" id="7" rel="obj1">
+            <node begin="2" end="3" id="8" lemma="één" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="één" word="één"/>
+            <node begin="3" end="4" getal="ev" id="9" lemma="iemand" naamval="stan" pdtype="pron" persoon="3p" pos="noun" postag="VNW(onbep,pron,stan,vol,3p,ev)" pt="vnw" rel="hd" root="iemand" status="vol" vwtype="onbep" word="iemand"/>
+          </node>
+          <node begin="4" end="5" id="10" lemma="na" pos="part" postag="VZ(fin)" pt="vz" rel="hdf" root="na" vztype="fin" word="na"/>
+        </node>
+        <node begin="6" end="7" id="11" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+        <node begin="7" cat="np" end="10" id="12" rel="su">
+          <node begin="7" cat="detp" end="9" id="13" rel="det">
+            <node begin="7" buiging="zonder" end="8" id="14" lemma="al" naamval="stan" pdtype="det" pos="det" positie="vrij" postag="VNW(onbep,det,stan,vrij,zonder)" pt="vnw" rel="mod" root="al" vwtype="onbep" word="al"/>
+            <node begin="8" buiging="zonder" end="9" getal="ev" id="15" lemma="mijn" naamval="stan" npagr="agr" pdtype="det" persoon="1" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,1,ev,prenom,zonder,agr)" pt="vnw" rel="hd" root="mijn" status="vol" vwtype="bez" word="mijn"/>
+          </node>
+          <node begin="9" end="10" getal="mv" graad="basis" id="16" lemma="vriend" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vriend" word="vrienden"/>
+        </node>
+        <node begin="10" end="11" id="17" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" word="nog"/>
+        <node begin="11" cat="pp" end="13" id="18" rel="predc">
+          <node begin="11" end="12" id="19" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="12" end="13" genus="onz" getal="ev" graad="basis" id="20" lemma="leven" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="leven" word="leven"/>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="21" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>En op één iemand na , zijn al mijn vrienden nog in leven .</sentence>
+</alpino_ds>

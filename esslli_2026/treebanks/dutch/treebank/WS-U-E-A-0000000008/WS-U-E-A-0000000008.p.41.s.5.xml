@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="18" id="2" rel="--">
+      <node begin="9" end="10" id="3" lemma="denken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="denk" word="denkt" wvorm="pv"/>
+      <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="4" index="1" lemma="justitie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="su" root="justitie" word="justitie"/>
+      <node begin="0" cat="ti" end="18" id="5" rel="vc">
+        <node begin="12" end="13" id="6" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+        <node begin="0" cat="inf" end="18" id="7" rel="body">
+          <node begin="0" cat="cp" end="8" id="8" rel="mod">
+            <node begin="0" end="1" id="9" lemma="door" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="door" vztype="init" word="Door"/>
+            <node begin="1" cat="ti" end="8" id="10" rel="body">
+              <node begin="6" end="7" id="11" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+              <node begin="1" cat="inf" end="8" id="12" rel="body">
+                <node begin="1" cat="np" end="5" id="13" rel="obj1">
+                  <node begin="1" end="2" getal="mv" graad="basis" id="14" lemma="telefoon" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="telefoon" word="telefoons"/>
+                  <node begin="2" cat="pp" end="5" id="15" rel="mod">
+                    <node begin="2" end="3" id="16" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                    <node begin="3" cat="np" end="5" id="17" rel="obj1">
+                      <node begin="3" end="4" getal="mv" graad="basis" id="18" lemma="tiental" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="tientallen" word="tientallen"/>
+                      <node begin="4" end="5" getal="mv" graad="basis" id="19" lemma="crimineel" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mod" root="crimineel" word="criminelen"/>
+                    </node>
+                  </node>
+                </node>
+                <node begin="5" end="6" id="20" lemma="af" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="af" vztype="fin" word="af"/>
+                <node begin="7" buiging="zonder" end="8" id="21" lemma="af_luisteren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="luister_af" word="luisteren" wvorm="inf"/>
+              </node>
+            </node>
+          </node>
+          <node begin="10" end="11" id="22" index="1" rel="su"/>
+          <node begin="13" buiging="zonder" end="14" id="23" lemma="vinden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="vind" word="vinden" wvorm="inf"/>
+          <node begin="11" cat="np" end="18" id="24" rel="obj1">
+            <node begin="11" end="12" getal="mv" graad="basis" id="25" lemma="aanwijzing" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="aanwijzing" word="aanwijzingen"/>
+            <node begin="14" cat="whsub" end="18" id="26" rel="vc">
+              <node begin="14" end="15" getal="getal" id="27" index="2" lemma="wie" naamval="stan" pdtype="pron" persoon="3p" pos="pron" postag="VNW(vb,pron,stan,vol,3p,getal)" pt="vnw" rel="whd" root="wie" status="vol" vwtype="vb" word="wie"/>
+              <node begin="14" cat="ssub" end="18" id="28" rel="body">
+                <node begin="14" end="15" id="29" index="2" rel="su"/>
+                <node begin="15" cat="np" end="17" id="30" rel="predc">
+                  <node begin="15" end="16" id="31" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="32" lemma="opdrachtgever" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="opdrachtgever" word="opdrachtgever"/>
+                </node>
+                <node begin="17" end="18" id="33" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="34" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Door telefoons van tientallen criminelen af te luisteren , denkt justitie aanwijzingen te vinden wie de opdrachtgever is .</sentence>
+</alpino_ds>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="np" end="7" id="2" rel="--">
+      <node begin="0" cat="mwu" end="3" id="3" rel="hd">
+        <node begin="0" end="1" id="4" lemma="Dr." pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Dr." spectype="deeleigen" word="Dr."/>
+        <node begin="1" end="2" id="5" lemma="E.E." pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="E.E." spectype="deeleigen" word="E.E."/>
+        <node begin="2" end="3" id="6" lemma="Duckwitz" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Duckwitz" spectype="deeleigen" word="Duckwitz"/>
+      </node>
+      <node begin="4" cat="pp" end="7" id="7" rel="mod">
+        <node begin="4" end="5" id="8" lemma="sinds" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="sinds" vztype="init" word="sinds"/>
+        <node begin="5" cat="np" end="7" id="9" rel="obj1">
+          <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="10" lemma="augustus" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="augustus" word="augustus"/>
+          <node begin="6" end="7" id="11" lemma="2001" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mod" root="2001" word="2001"/>
+        </node>
+      </node>
+    </node>
+    <node begin="7" end="8" id="12" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+  </node>
+  <sentence>Dr. E.E. Duckwitz ( sinds augustus 2001 )</sentence>
+</alpino_ds>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="35" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="14" end="15" id="2" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="15" end="16" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="34" id="4" rel="--">
+      <node begin="0" cat="smain" end="14" id="5" rel="cnj">
+        <node begin="0" cat="pp" end="3" id="6" rel="mod">
+          <node begin="0" end="1" id="7" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+          <node begin="1" cat="np" end="3" id="8" rel="obj1">
+            <node begin="1" end="2" id="9" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="10" lemma="horeca" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="horeca" word="horeca"/>
+          </node>
+        </node>
+        <node begin="3" end="4" id="11" lemma="komen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kom" word="komen" wvorm="pv"/>
+        <node begin="4" end="5" getal="getal" id="12" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+        <node begin="5" cat="np" end="14" id="13" rel="su">
+          <node begin="5" end="6" getal="mv" graad="basis" id="14" lemma="verkoop_actie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="verkoop_actie" word="verkoopacties"/>
+          <node begin="6" cat="cp" end="14" id="15" rel="mod">
+            <node begin="6" conjtype="onder" end="7" id="16" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+            <node begin="8" cat="mwu" end="14" id="17" rel="body">
+              <node begin="8" end="9" id="18" lemma="2" naamval="stan" numtype="hoofd" pos="name" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="mwp" root="2" word="2"/>
+              <node begin="9" end="10" getal="mv" graad="basis" id="19" lemma="Rodenbach" ntype="eigen" pos="name" postag="N(eigen,mv,basis)" pt="n" rel="mwp" root="Rodenbachs" word="Rodenbachs"/>
+              <node begin="10" buiging="zonder" end="11" id="20" lemma="drinken" pos="name" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="mwp" root="drinken" word="drinken" wvorm="inf"/>
+              <node begin="11" end="12" id="21" lemma="," pos="name" postag="LET()" pt="let" rel="mwp" root="," word=","/>
+              <node begin="12" end="13" id="22" lemma="1" numtype="hoofd" pos="name" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="1" word="1"/>
+              <node begin="13" buiging="zonder" end="14" graad="basis" id="23" lemma="gratis" pos="name" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mwp" root="gratis" word="gratis"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="16" cat="smain" end="24" id="24" rel="cnj">
+        <node begin="16" cat="pp" end="19" id="25" rel="mod">
+          <node begin="16" end="17" id="26" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="17" cat="np" end="19" id="27" rel="obj1">
+            <node begin="17" end="18" id="28" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="18" end="19" getal="mv" graad="basis" id="29" lemma="winkel" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="winkel" word="winkels"/>
+          </node>
+        </node>
+        <node begin="19" end="20" id="30" lemma="komen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kom" word="komen" wvorm="pv"/>
+        <node begin="20" end="21" getal="getal" id="31" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+        <node begin="21" cat="conj" end="24" id="32" rel="su">
+          <node begin="21" end="22" id="33" lemma="glazen-" pos="prefix" postag="SPEC(afgebr)" pt="spec" rel="cnj" root="glazen" spectype="afgebr" word="glazen-"/>
+          <node begin="22" conjtype="neven" end="23" id="34" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="23" end="24" getal="mv" graad="basis" id="35" lemma="gadget_actie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="gadgetacties" word="gadgetacties"/>
+        </node>
+      </node>
+      <node begin="24" conjtype="neven" end="25" id="36" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="25" cat="smain" end="34" id="37" rel="cnj">
+        <node begin="25" end="26" getal="mv" graad="basis" id="38" lemma="winkelier" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="winkelier" word="winkeliers"/>
+        <node begin="26" end="27" id="39" lemma="krijgen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="krijg" word="krijgen" wvorm="pv"/>
+        <node begin="27" cat="conj" end="34" id="40" rel="obj1">
+          <node begin="28" conjtype="neven" end="29" id="41" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="27" cat="np" end="34" id="42" rel="cnj">
+            <node begin="27" end="28" getal="mv" graad="basis" id="43" lemma="affiche" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="affiche" word="affiches"/>
+            <node begin="30" cat="oti" end="34" id="44" index="1" rel="mod">
+              <node begin="30" end="31" id="45" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="om"/>
+              <node begin="31" cat="ti" end="34" id="46" rel="body">
+                <node begin="32" end="33" id="47" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+                <node begin="31" cat="inf" end="34" id="48" rel="body">
+                  <node begin="31" end="32" genus="zijd" getal="ev" graad="basis" id="49" lemma="reclame" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="reclame" word="reclame"/>
+                  <node begin="33" buiging="zonder" end="34" id="50" lemma="maken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="maak" word="maken" wvorm="inf"/>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="29" cat="np" end="34" id="51" rel="cnj">
+            <node begin="29" end="30" getal="mv" graad="basis" id="52" lemma="display" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="displays" word="displays"/>
+            <node begin="30" end="34" id="53" index="1" rel="mod"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="34" end="35" id="54" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>In de horeca komen er verkoopacties als &apos; 2 Rodenbachs drinken , 1 gratis &apos; , in de winkels komen er glazen- en gadgetacties en winkeliers krijgen affiches en displays om reclame te maken .</sentence>
+</alpino_ds>

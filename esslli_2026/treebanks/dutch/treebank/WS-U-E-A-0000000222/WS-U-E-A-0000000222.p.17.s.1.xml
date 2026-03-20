@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="smain" end="12" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" index="1" rel="su">
+        <node begin="0" buiging="met-e" end="1" graad="basis" id="3" lemma="Nederlands" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Nederlands" word="Nederlandse"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="4" lemma="F-16" ntype="eigen" pos="noun" postag="N(eigen,mv,basis)" pt="n" rel="hd" root="F-16" word="F-16&apos;s"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="gaan" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ga" word="gaan" wvorm="pv"/>
+      <node begin="0" cat="inf" end="12" id="6" rel="vc">
+        <node begin="0" end="2" id="7" index="1" rel="su"/>
+        <node begin="3" buiging="zonder" end="4" graad="basis" id="8" lemma="waarschijnlijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="waarschijnlijk" word="waarschijnlijk"/>
+        <node begin="4" buiging="zonder" end="5" id="9" lemma="patrouilleren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="patrouilleer" word="patrouilleren" wvorm="inf"/>
+        <node begin="5" cat="pp" end="7" id="10" rel="mod">
+          <node begin="5" end="6" id="11" lemma="boven" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="boven" vztype="init" word="boven"/>
+          <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="12" lemma="Afghanistan" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Afghanistan" word="Afghanistan"/>
+        </node>
+        <node begin="7" cat="cp" end="12" id="13" rel="mod">
+          <node begin="7" conjtype="onder" end="8" id="14" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+          <node begin="8" cat="ssub" end="12" id="15" rel="body">
+            <node begin="9" end="10" getal="mv" graad="basis" id="16" index="2" lemma="verkiezing" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="verkiezing" word="verkiezingen"/>
+            <node begin="10" end="11" id="17" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" word="worden" wvorm="pv"/>
+            <node begin="8" cat="ppart" end="12" id="18" rel="vc">
+              <node begin="8" end="9" getal="getal" id="19" lemma="daar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="mod" root="daar" status="vol" vwtype="aanw" word="daar"/>
+              <node begin="9" end="10" id="20" index="2" rel="obj1"/>
+              <node begin="11" buiging="zonder" end="12" id="21" lemma="houden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="houd" word="gehouden" wvorm="vd"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Nederlandse F-16&apos;s gaan waarschijnlijk patrouilleren boven Afghanistan als daar verkiezingen worden gehouden .</sentence>
+</alpino_ds>

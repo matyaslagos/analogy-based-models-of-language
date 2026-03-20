@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="smain" end="13" id="1" rel="--">
+      <node begin="0" end="1" genus="onz" getal="ev" graad="basis" id="2" index="1" lemma="Duitsland" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" root="Duitsland" word="Duitsland"/>
+      <node begin="1" end="2" id="3" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+      <node begin="6" cat="cp" end="12" id="4" rel="predm">
+        <node begin="6" conjtype="onder" end="7" id="5" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+        <node begin="7" cat="np" end="12" id="6" rel="body">
+          <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="7" lemma="voortrekker" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="voor_trekker" word="voortrekker"/>
+          <node begin="8" cat="pp" end="12" id="8" rel="mod">
+            <node begin="8" end="9" id="9" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+            <node begin="9" cat="np" end="12" id="10" rel="obj1">
+              <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="11" lemma="gebied" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="gebied" word="gebied"/>
+              <node begin="10" cat="pp" end="12" id="12" rel="mod">
+                <node begin="10" end="11" id="13" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="14" lemma="milieu_beleid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="milieubeleid" word="milieubeleid"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="0" cat="ppart" end="13" id="15" rel="vc">
+        <node begin="0" end="1" id="16" index="1" rel="obj1"/>
+        <node begin="2" cat="pp" end="6" id="17" rel="mod">
+          <node begin="2" end="3" id="18" lemma="sinds" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="sinds" vztype="init" word="sinds"/>
+          <node begin="3" cat="np" end="6" id="19" rel="obj1">
+            <node begin="3" end="4" id="20" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="4" end="5" getal="mv" graad="basis" id="21" lemma="jaar" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="jaar" word="jaren"/>
+            <node begin="5" end="6" id="22" lemma="&apos;80" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="app" root="&apos;80" word="&apos;80"/>
+          </node>
+        </node>
+        <node begin="12" buiging="zonder" end="13" id="23" lemma="zien" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="zie" word="gezien" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="13" end="14" id="24" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Duitsland wordt sinds de jaren &apos;80 als voortrekker op gebied van milieubeleid gezien .</sentence>
+</alpino_ds>

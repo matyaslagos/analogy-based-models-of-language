@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="14" id="2" rel="--">
+      <node begin="0" cat="np" end="2" id="3" rel="su">
+        <node begin="0" buiging="met-e" end="1" graad="basis" id="4" lemma="ander" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ander" word="Andere"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="5" lemma="wetenschapper" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="wetenschapper" word="wetenschappers"/>
+      </node>
+      <node begin="2" end="3" id="6" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+      <node begin="3" cat="ap" end="6" id="7" rel="predc">
+        <node begin="3" buiging="zonder" end="4" graad="basis" id="8" lemma="bang" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="bang" word="bang"/>
+        <node begin="4" cat="svan" end="6" id="9" rel="vc">
+          <node begin="4" end="5" id="10" lemma="van" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="van" vztype="init" word="van"/>
+          <node begin="5" end="6" id="11" lemma="wel" pos="adv" postag="BW()" pt="bw" rel="body" root="wel" word="wel"/>
+        </node>
+      </node>
+      <node begin="7" cat="cp" end="14" id="12" rel="mod">
+        <node begin="7" conjtype="onder" end="8" id="13" lemma="omdat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="omdat" word="omdat"/>
+        <node begin="8" cat="ssub" end="14" id="14" rel="body">
+          <node begin="8" cat="np" end="11" id="15" index="1" rel="su">
+            <node begin="8" end="9" id="16" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="9" buiging="zonder" end="10" graad="basis" id="17" lemma="ecologisch" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="ecologisch" word="ecologisch"/>
+            <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="18" lemma="evenwicht" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="evenwicht" word="evenwicht"/>
+          </node>
+          <node begin="12" end="13" id="19" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" word="kan" wvorm="pv"/>
+          <node begin="8" cat="inf" end="14" id="20" rel="vc">
+            <node begin="8" end="11" id="21" index="1" rel="su"/>
+            <node begin="11" buiging="zonder" end="12" id="22" lemma="verstoren" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="predc" root="verstoord" word="verstoord" wvorm="vd"/>
+            <node begin="13" buiging="zonder" end="14" id="23" lemma="raken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="raak" word="raken" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="24" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Andere wetenschappers zijn bang van wel , omdat het ecologisch evenwicht verstoord kan raken .</sentence>
+</alpino_ds>

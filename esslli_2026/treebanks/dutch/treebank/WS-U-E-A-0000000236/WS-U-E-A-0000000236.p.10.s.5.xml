@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="du" end="7" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="dp">
+        <node begin="0" buiging="met-e" end="1" getal-n="zonder-n" graad="basis" id="3" lemma="Midden-Oosten_deskundig" naamval="stan" pos="noun" positie="nom" postag="ADJ(nom,basis,met-e,zonder-n,stan)" pt="adj" rel="hd" root="Midden-oosten_deskundige" word="Midden-oosten-deskundige"/>
+        <node begin="1" cat="mwu" end="3" id="4" rel="app">
+          <node begin="1" end="2" id="5" lemma="Bertus" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Bertus" spectype="deeleigen" word="Bertus"/>
+          <node begin="2" end="3" id="6" lemma="Hendriks" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Hendriks" spectype="deeleigen" word="Hendriks"/>
+        </node>
+      </node>
+      <node begin="3" cat="pp" end="7" id="7" rel="dp">
+        <node begin="3" end="4" id="8" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" vztype="init" word="over"/>
+        <node begin="4" cat="np" end="7" id="9" rel="obj1">
+          <node begin="4" end="5" id="10" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="11" lemma="achtergrond" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="achtergrond" word="achtergrond"/>
+          <node begin="6" end="7" id="12" lemma="hiervan" pos="pp" postag="BW()" pt="bw" rel="mod" root="hiervan" word="hiervan"/>
+        </node>
+      </node>
+    </node>
+    <node begin="7" end="8" id="13" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Midden-oosten-deskundige Bertus Hendriks over de achtergrond hiervan .</sentence>
+</alpino_ds>

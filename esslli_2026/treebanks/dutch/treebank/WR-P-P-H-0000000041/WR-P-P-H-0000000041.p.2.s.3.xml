@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="smain" end="5" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="predc">
+        <node begin="0" buiging="met-e" end="1" id="3" lemma="winnen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="win" word="Winnende" wvorm="od"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="4" lemma="werper" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="werper" word="werper"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+      <node begin="3" cat="mwu" end="5" id="6" rel="su">
+        <node begin="3" end="4" id="7" lemma="Eelco" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Eelco" spectype="deeleigen" word="Eelco"/>
+        <node begin="4" end="5" id="8" lemma="Jansen" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Jansen" spectype="deeleigen" word="Jansen"/>
+      </node>
+    </node>
+    <node begin="5" end="6" id="9" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Winnende werper werd Eelco Jansen .</sentence>
+</alpino_ds>

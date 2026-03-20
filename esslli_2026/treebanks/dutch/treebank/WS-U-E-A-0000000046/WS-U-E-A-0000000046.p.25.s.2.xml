@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="conj" end="4" id="2" rel="su">
+        <node begin="0" end="1" genus="genus" getal="ev" graad="basis" id="3" lemma="Heijmans" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="cnj" root="Heijmans" word="Heijmans"/>
+        <node begin="1" conjtype="neven" end="2" id="4" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="2" cat="mwu" end="4" id="5" rel="cnj">
+          <node begin="2" end="3" id="6" lemma="Ballast" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Ballast" spectype="deeleigen" word="Ballast"/>
+          <node begin="3" end="4" id="7" lemma="Nedam" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Nedam" spectype="deeleigen" word="Nedam"/>
+        </node>
+      </node>
+      <node begin="4" end="5" id="8" lemma="sluiten" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="sluit" word="sloten" wvorm="pv"/>
+      <node begin="5" cat="ap" end="8" id="9" rel="mod">
+        <node begin="5" cat="np" end="7" id="10" rel="me">
+          <node begin="5" end="6" id="11" lemma="4" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="4" word="4"/>
+          <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="12" lemma="procent" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="procent" word="procent"/>
+        </node>
+        <node begin="7" buiging="zonder" end="8" graad="comp" id="13" lemma="laag" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="laag" word="lager"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="14" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Heijmans en Ballast Nedam sloten 4 procent lager .</sentence>
+</alpino_ds>

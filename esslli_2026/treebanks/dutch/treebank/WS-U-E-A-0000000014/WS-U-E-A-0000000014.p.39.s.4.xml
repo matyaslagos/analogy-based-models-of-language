@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="10" end="11" id="2" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="0" cat="smain" end="15" id="3" rel="--">
+      <node begin="0" end="1" id="4" lemma="zo" pos="adv" postag="BW()" pt="bw" rel="mod" root="zo" word="Zo"/>
+      <node begin="1" end="2" id="5" lemma="schrijven" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="schrijf" word="schrijft" wvorm="pv"/>
+      <node begin="2" end="3" genus="fem" getal="ev" id="6" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,ev,fem)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="ze"/>
+      <node begin="3" cat="mwu" end="5" id="7" rel="mod">
+        <node begin="3" end="4" id="8" lemma="onder" pos="adv" postag="VZ(init)" pt="vz" rel="mwp" root="onder" vztype="init" word="onder"/>
+        <node begin="4" buiging="met-e" end="5" getal-n="zonder-n" graad="basis" id="9" lemma="ander" naamval="stan" pos="adv" positie="nom" postag="ADJ(nom,basis,met-e,zonder-n,stan)" pt="adj" rel="mwp" root="andere" word="andere"/>
+      </node>
+      <node begin="5" cat="pp" end="15" id="10" rel="pc">
+        <node begin="5" end="6" id="11" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" vztype="init" word="over"/>
+        <node begin="6" cat="np" end="15" id="12" rel="obj1">
+          <node begin="6" end="7" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="8" buiging="zonder" end="9" graad="basis" id="14" lemma="gouden" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="gouden" word="gouden"/>
+          <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="15" lemma="kooi" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="kooi" word="kooi"/>
+          <node begin="11" cat="rel" end="15" id="16" rel="mod">
+            <node begin="11" end="12" id="17" index="1" lemma="waarin" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waarin" word="waarin"/>
+            <node begin="11" cat="ssub" end="15" id="18" rel="body">
+              <node begin="12" end="13" genus="fem" getal="ev" id="19" index="2" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,ev,fem)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="ze"/>
+              <node begin="13" end="14" id="20" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+              <node begin="11" cat="ppart" end="15" id="21" rel="vc">
+                <node begin="11" end="12" id="22" index="1" rel="ld"/>
+                <node begin="12" end="13" id="23" index="2" rel="obj1"/>
+                <node begin="14" buiging="zonder" end="15" id="24" lemma="groot_brengen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="breng_groot" word="grootgebracht" wvorm="vd"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="25" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Zo schrijft ze onder andere over de &quot; gouden kooi &quot; waarin ze werd grootgebracht .</sentence>
+</alpino_ds>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="3" end="4" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="10" end="11" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="1" cat="smain" end="16" id="4" rel="--">
+      <node begin="1" cat="np" end="10" id="5" rel="su">
+        <node begin="1" cat="mwu" end="3" id="6" rel="hd">
+          <node begin="1" end="2" id="7" lemma="Paolo" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Paolo" spectype="deeleigen" word="Paolo"/>
+          <node begin="2" end="3" id="8" lemma="Maldini" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Maldini" spectype="deeleigen" word="Maldini"/>
+        </node>
+        <node begin="4" cat="np" end="10" id="9" rel="app">
+          <node begin="4" end="5" id="10" lemma="nochtans" pos="adv" postag="BW()" pt="bw" rel="mod" root="nochtans" word="nochtans"/>
+          <node begin="5" end="6" id="11" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+          <node begin="6" end="7" id="12" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="7" cat="ap" end="9" id="13" rel="mod">
+            <node begin="7" end="8" id="14" lemma="zeer" pos="adv" postag="BW()" pt="bw" rel="mod" root="zeer" word="zeer"/>
+            <node begin="8" buiging="met-e" end="9" graad="basis" id="15" lemma="groot" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="hd" root="groot" word="grote"/>
+          </node>
+          <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="16" lemma="verdediger" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="verdediger" word="verdediger"/>
+        </node>
+      </node>
+      <node begin="11" end="12" id="17" lemma="krijgen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="krijg" word="kreeg" wvorm="pv"/>
+      <node begin="12" end="13" id="18" lemma="nooit" pos="adv" postag="BW()" pt="bw" rel="mod" root="nooit" word="nooit"/>
+      <node begin="13" cat="np" end="16" id="19" rel="obj1">
+        <node begin="13" end="14" id="20" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="14" buiging="zonder" end="15" graad="basis" id="21" lemma="gouden" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="gouden" word="Gouden"/>
+        <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="22" lemma="bal" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="bal" word="Bal"/>
+      </node>
+    </node>
+    <node begin="16" end="17" id="23" lemma="!" pos="punct" postag="LET()" pt="let" rel="--" root="!" word="!"/>
+  </node>
+  <sentence>- Paolo Maldini , nochtans ook een zeer grote verdediger , kreeg nooit de Gouden Bal !</sentence>
+</alpino_ds>

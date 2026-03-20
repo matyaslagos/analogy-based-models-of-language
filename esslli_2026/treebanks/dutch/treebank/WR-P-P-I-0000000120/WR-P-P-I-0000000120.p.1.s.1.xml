@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="0" cat="smain" end="20" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="4" lemma="CD&amp;V" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="CD&amp;V" word="CD&amp;V"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="aan_vechten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="vecht_aan" word="vecht" wvorm="pv"/>
+      <node begin="3" cat="pp" end="6" id="6" rel="mod">
+        <node begin="3" end="4" id="7" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+        <node begin="4" cat="np" end="6" id="8" rel="obj1">
+          <node begin="4" end="5" id="9" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="10" lemma="Arbitragehof" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Arbitragehof" word="Arbitragehof"/>
+        </node>
+      </node>
+      <node begin="8" end="9" id="11" lemma="aan" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="aan" vztype="fin" word="aan"/>
+      <node begin="6" cat="np" end="20" id="12" rel="obj1">
+        <node begin="6" end="7" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="7" end="8" getal="mv" graad="basis" id="14" lemma="wet" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="wet" word="wetten"/>
+        <node begin="9" cat="rel" end="20" id="15" rel="mod">
+          <node begin="9" end="10" getal="getal" id="16" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+          <node begin="9" cat="ssub" end="20" id="17" rel="body">
+            <node begin="9" end="10" id="18" index="1" rel="su"/>
+            <node begin="10" end="11" id="19" lemma="voort_vloeien" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="vloei_voort" word="voortvloeien" wvorm="pv"/>
+            <node begin="11" cat="pp" end="14" id="20" rel="pc">
+              <node begin="11" end="12" id="21" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" vztype="init" word="uit"/>
+              <node begin="12" cat="np" end="14" id="22" rel="obj1">
+                <node begin="12" end="13" id="23" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="24" lemma="Lambermont_akkoord" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Lambermontakkoord" word="Lambermontakkoord"/>
+              </node>
+            </node>
+            <node begin="14" cat="cp" end="20" id="25" rel="mod">
+              <node begin="14" conjtype="onder" end="15" id="26" lemma="omdat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="omdat" word="omdat"/>
+              <node begin="15" cat="ssub" end="20" id="27" rel="body">
+                <node begin="15" end="16" getal="mv" id="28" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="ze"/>
+                <node begin="16" cat="np" end="19" id="29" rel="obj1">
+                  <node begin="16" end="17" id="30" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="17" buiging="met-e" end="18" graad="basis" id="31" lemma="Vlaams" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Vlaams" word="Vlaamse"/>
+                  <node begin="18" end="19" getal="mv" graad="basis" id="32" lemma="belang" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="belang" word="belangen"/>
+                </node>
+                <node begin="19" end="20" id="33" lemma="schaden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="schaad" word="schaden" wvorm="pv"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="20" end="21" id="34" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De CD&amp;V vecht bij het Arbitragehof de wetten aan die voortvloeien uit het Lambermontakkoord omdat ze de Vlaamse belangen schaden .</sentence>
+</alpino_ds>

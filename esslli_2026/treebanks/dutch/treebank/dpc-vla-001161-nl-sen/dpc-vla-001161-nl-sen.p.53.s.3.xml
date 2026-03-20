@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="2" end="3" id="2" lemma="stellen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="stel" word="stelt" wvorm="pv"/>
+      <node begin="3" end="4" getal="getal" id="3" lemma="zich" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="se" root="zich" status="red" vwtype="refl" word="zich"/>
+      <node begin="0" cat="np" end="14" id="4" rel="su">
+        <node begin="0" end="1" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="6" lemma="vraag" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="vraag" word="vraag"/>
+        <node begin="4" cat="cp" end="14" id="7" rel="vc">
+          <node begin="4" conjtype="onder" end="5" id="8" lemma="of" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="of" word="of"/>
+          <node begin="5" cat="ssub" end="14" id="9" rel="body">
+            <node begin="5" cat="np" end="7" id="10" index="1" rel="su">
+              <node begin="5" buiging="met-e" end="6" graad="basis" id="11" lemma="klein" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="klein" word="kleine"/>
+              <node begin="6" end="7" getal="mv" graad="basis" id="12" lemma="fonds" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="fonds" word="fondsen"/>
+            </node>
+            <node begin="12" end="13" id="13" lemma="kunnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kan" word="kunnen" wvorm="pv"/>
+            <node begin="5" cat="inf" end="14" id="14" rel="vc">
+              <node begin="5" end="7" id="15" index="1" rel="su"/>
+              <node begin="7" cat="np" end="11" id="16" rel="obj1">
+                <node begin="7" end="8" id="17" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="18" lemma="expansie_fase" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="expansiefase" word="expansiefase"/>
+                <node begin="9" cat="pp" end="11" id="19" rel="mod">
+                  <node begin="9" end="10" id="20" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                  <node begin="10" end="11" getal="mv" graad="basis" id="21" lemma="onderneming" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="onderneming" word="ondernemingen"/>
+                </node>
+              </node>
+              <node begin="11" buiging="zonder" end="12" graad="basis" id="22" lemma="voldoende" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="voldoende" word="voldoende"/>
+              <node begin="13" buiging="zonder" end="14" id="23" lemma="ondersteunen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ondersteun" word="ondersteunen" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="24" lemma="?" pos="punct" postag="LET()" pt="let" rel="--" root="?" word="?"/>
+  </node>
+  <sentence>De vraag stelt zich of kleine fondsen de expansiefase van ondernemingen voldoende kunnen ondersteunen ?</sentence>
+</alpino_ds>

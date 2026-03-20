@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="19" id="2" rel="--">
+      <node begin="0" cat="cp" end="6" id="3" rel="mod">
+        <node begin="0" conjtype="onder" end="1" id="4" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="Als"/>
+        <node begin="1" cat="ssub" end="6" id="5" rel="body">
+          <node begin="2" cat="np" end="4" id="6" index="1" rel="su">
+            <node begin="2" buiging="met-e" end="3" graad="basis" id="7" lemma="ander" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ander" word="andere"/>
+            <node begin="3" end="4" getal="mv" graad="basis" id="8" lemma="medicijn" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="medicijn" word="medicijnen"/>
+          </node>
+          <node begin="4" end="5" id="9" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" word="worden" wvorm="pv"/>
+          <node begin="1" cat="ppart" end="6" id="10" rel="vc">
+            <node begin="1" end="2" getal="getal" id="11" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+            <node begin="2" end="4" id="12" index="1" rel="obj1"/>
+            <node begin="5" buiging="zonder" end="6" id="13" lemma="voor_schrijven" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="schrijf_voor" word="voorgeschreven" wvorm="vd"/>
+          </node>
+        </node>
+      </node>
+      <node begin="7" end="8" id="14" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="8" end="9" genus="onz" getal="ev" id="15" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="noun" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="sup" root="het" status="red" vwtype="pers" word="het"/>
+      <node begin="9" buiging="zonder" end="10" graad="basis" id="16" lemma="belangrijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="belangrijk" word="belangrijk"/>
+      <node begin="10" cat="pp" end="12" id="17" rel="mod">
+        <node begin="10" end="11" id="18" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+        <node begin="11" end="12" getal="mv" id="19" lemma="hen" naamval="obl" pdtype="pron" persoon="3p" pos="pron" postag="VNW(pers,pron,obl,vol,3p,mv)" pt="vnw" rel="obj1" root="hen" status="vol" vwtype="pers" word="hen"/>
+      </node>
+      <node begin="12" cat="oti" end="19" id="20" rel="su">
+        <node begin="12" end="13" id="21" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="om"/>
+        <node begin="13" cat="ti" end="19" id="22" rel="body">
+          <node begin="13" end="14" id="23" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+          <node begin="14" cat="inf" end="19" id="24" rel="body">
+            <node begin="14" buiging="zonder" end="15" id="25" lemma="weten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="weet" word="weten" wvorm="inf"/>
+            <node begin="15" cat="whsub" end="19" id="26" rel="vc">
+              <node begin="15" end="16" getal="ev" id="27" index="2" lemma="wat" naamval="stan" pdtype="pron" persoon="3o" pos="pron" postag="VNW(vb,pron,stan,vol,3o,ev)" pt="vnw" rel="whd" root="wat" status="vol" vwtype="vb" word="wat"/>
+              <node begin="15" cat="ssub" end="19" id="28" rel="body">
+                <node begin="15" end="16" id="29" index="2" rel="obj1"/>
+                <node begin="16" end="17" getal="getal" id="30" lemma="u" naamval="nomin" pdtype="pron" persoon="2b" pos="pron" postag="VNW(pers,pron,nomin,vol,2b,getal)" pt="vnw" rel="su" root="u" status="vol" vwtype="pers" word="u"/>
+                <node begin="17" end="18" id="31" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mod" root="al" word="al"/>
+                <node begin="18" end="19" id="32" lemma="slikken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="slik" word="slikt" wvorm="pv"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="33" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Als er andere medicijnen worden voorgeschreven , is het belangrijk voor hen om te weten wat u al slikt .</sentence>
+</alpino_ds>

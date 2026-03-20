@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="np" end="6" id="2" rel="--">
+      <node begin="0" end="1" id="3" lemma="Sinnekloas.be" pos="name" postag="SPEC(symb)" pt="spec" rel="hd" root="Sinnekloas.be" spectype="symb" word="Sinnekloas.be"/>
+      <node begin="2" cat="np" end="6" id="4" rel="app">
+        <node begin="2" end="3" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="3" end="4" getal="mv" graad="basis" id="6" lemma="jeugd_raad" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="jeugd_raad" word="jeugdraden"/>
+        <node begin="4" cat="pp" end="6" id="7" rel="mod">
+          <node begin="4" end="5" id="8" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="9" lemma="Sint-Niklaas" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Sint-Niklaas" word="Sint-Niklaas"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>Sinnekloas.be , de jeugdraden van Sint-Niklaas</sentence>
+</alpino_ds>

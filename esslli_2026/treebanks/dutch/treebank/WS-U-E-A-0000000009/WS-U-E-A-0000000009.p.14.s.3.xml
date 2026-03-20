@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="3" lemma="code" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="code" word="Code"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="4" lemma="Oranje" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="app" root="Oranje" word="Oranje"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+      <node begin="3" cat="pp" end="6" id="6" rel="mod">
+        <node begin="3" buiging="zonder" end="4" graad="basis" id="7" lemma="vlak" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="vlak" word="vlak"/>
+        <node begin="4" end="5" id="8" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+        <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="9" lemma="kerst" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="kerst" word="kerst"/>
+      </node>
+      <node begin="6" cat="mwu" end="8" id="10" rel="predc">
+        <node begin="6" end="7" id="11" lemma="van" pos="adj" postag="VZ(init)" pt="vz" rel="mwp" root="van" vztype="init" word="van"/>
+        <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="12" lemma="kracht" naamval="stan" ntype="soort" pos="adj" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="kracht" word="kracht"/>
+      </node>
+      <node begin="8" cat="cp" end="14" id="13" rel="mod">
+        <node begin="8" conjtype="onder" end="9" id="14" lemma="omdat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="omdat" word="omdat"/>
+        <node begin="9" cat="ssub" end="14" id="15" rel="body">
+          <node begin="9" end="10" getal="getal" id="16" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+          <node begin="11" end="12" id="17" lemma="zijn" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="ben" word="waren" wvorm="pv"/>
+          <node begin="10" cat="np" end="14" id="18" rel="su">
+            <node begin="10" end="11" getal="mv" graad="basis" id="19" lemma="aanwijziging" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="aanwijzing" word="aanwijzigingen"/>
+            <node begin="12" cat="pp" end="14" id="20" rel="mod">
+              <node begin="12" end="13" id="21" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+              <node begin="13" end="14" getal="mv" graad="basis" id="22" lemma="aanslag" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="aanslag" word="aanslagen"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="23" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Code Oranje werd vlak voor kerst van kracht omdat er aanwijzigingen waren voor aanslagen .</sentence>
+</alpino_ds>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="32" id="0" rel="top">
+    <node begin="21" end="22" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="23" end="24" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="27" end="28" id="3" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="0" cat="smain" end="31" id="4" rel="--">
+      <node begin="0" cat="np" end="27" id="5" index="1" rel="su">
+        <node begin="0" end="1" id="6" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" cat="conj" end="4" id="7" rel="mod">
+          <node begin="1" buiging="met-e" end="2" graad="basis" id="8" lemma="klinisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="klinisch" word="klinische"/>
+          <node begin="2" conjtype="neven" end="3" id="9" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="3" buiging="met-e" end="4" graad="basis" id="10" lemma="farmacologisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="farmacologische" word="farmacologische"/>
+        </node>
+        <node begin="4" end="5" getal="mv" graad="basis" id="11" lemma="gegeven" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="gegeven" word="gegevens"/>
+        <node begin="5" cat="rel" end="27" id="12" rel="mod">
+          <node begin="5" end="6" getal="getal" id="13" index="2" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+          <node begin="5" cat="ssub" end="27" id="14" rel="body">
+            <node begin="5" end="6" id="15" index="2" rel="su"/>
+            <node begin="9" end="10" id="16" lemma="kunnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kan" word="kunnen" wvorm="pv"/>
+            <node begin="5" cat="inf" end="27" id="17" rel="vc">
+              <node begin="5" end="6" id="18" index="2" rel="su"/>
+              <node begin="11" buiging="zonder" end="12" id="19" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+              <node begin="5" cat="ppart" end="27" id="20" rel="vc">
+                <node begin="5" end="6" id="21" index="2" rel="obj1"/>
+                <node begin="6" cat="pp" end="9" id="22" rel="mod">
+                  <node begin="6" end="7" id="23" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                  <node begin="7" cat="np" end="9" id="24" rel="obj1">
+                    <node begin="7" end="8" id="25" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="8" end="9" getal="mv" graad="basis" id="26" lemma="richtlijn" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="richtlijn" word="richtlijnen"/>
+                  </node>
+                </node>
+                <node begin="10" buiging="zonder" end="11" id="27" lemma="terug_vinden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="vind_terug" word="teruggevonden" wvorm="vd"/>
+                <node begin="12" cat="pp" end="27" id="28" rel="mod">
+                  <node begin="12" cat="mwu" end="15" id="29" rel="hd">
+                    <node begin="12" end="13" id="30" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="in" vztype="init" word="in"/>
+                    <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="31" lemma="verband" naamval="stan" ntype="soort" pos="prep" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="verband" word="verband"/>
+                    <node begin="14" end="15" id="32" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="met" vztype="init" word="met"/>
+                  </node>
+                  <node begin="15" cat="np" end="27" id="33" rel="obj1">
+                    <node begin="15" end="16" id="34" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="16" buiging="zonder" end="17" graad="basis" id="35" lemma="eerstelijns" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="eerstelijns" word="eerstelijns"/>
+                    <node begin="17" buiging="met-e" end="18" graad="basis" id="36" lemma="medicamenteus" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="medicamenteus" word="medicamenteuze"/>
+                    <node begin="18" end="19" genus="zijd" getal="ev" graad="basis" id="37" lemma="behandeling" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="behandeling" word="behandeling"/>
+                    <node begin="19" cat="pp" end="21" id="38" rel="mod">
+                      <node begin="19" end="20" id="39" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                      <node begin="20" end="21" genus="zijd" getal="ev" graad="basis" id="40" lemma="ED" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" root="Ed" word="ED"/>
+                    </node>
+                    <node begin="22" cat="conj" end="27" id="41" rel="mod">
+                      <node begin="22" end="23" genus="zijd" getal="ev" graad="basis" id="42" lemma="sildenafil" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="sildenafil" word="sildenafil"/>
+                      <node begin="24" end="25" genus="zijd" getal="ev" graad="basis" id="43" lemma="tadalafil" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="tadalafil" word="tadalafil"/>
+                      <node begin="25" conjtype="neven" end="26" id="44" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                      <node begin="26" end="27" genus="zijd" getal="ev" graad="basis" id="45" lemma="vardenafil" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="vardenafil" word="vardenafil"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="28" end="29" id="46" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="31" id="47" rel="vc">
+        <node begin="0" end="27" id="48" index="1" rel="obj1"/>
+        <node begin="29" buiging="zonder" end="30" graad="basis" id="49" lemma="sterk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="sterk" word="sterk"/>
+        <node begin="30" buiging="zonder" end="31" id="50" lemma="uit_breiden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="breid_uit" word="uitgebreid" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="31" end="32" id="51" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De klinische en farmacologische gegevens die in de richtlijnen kunnen teruggevonden worden in verband met de eerstelijns medicamenteuze behandeling van ED ( sildenafil , tadalafil en vardenafil ) zijn sterk uitgebreid .</sentence>
+</alpino_ds>

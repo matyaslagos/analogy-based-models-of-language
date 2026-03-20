@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="np" end="7" id="1" rel="--">
+      <node begin="0" buiging="met-e" end="1" graad="basis" id="2" lemma="interactief" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="interactief" word="Interactieve"/>
+      <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="3" lemma="kaart" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="kaart" word="kaart"/>
+      <node begin="2" cat="pp" end="7" id="4" rel="mod">
+        <node begin="2" end="3" id="5" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+        <node begin="3" cat="np" end="7" id="6" rel="obj1">
+          <node begin="3" end="4" id="7" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="4" cat="mwu" end="7" id="8" rel="hd">
+            <node begin="4" end="5" id="9" lemma="Brussels" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Brussels" spectype="deeleigen" word="Brussels"/>
+            <node begin="5" end="6" id="10" lemma="Hoofdstedelijk" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Hoofdstedelijk" spectype="deeleigen" word="Hoofdstedelijk"/>
+            <node begin="6" end="7" id="11" lemma="Gewest" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Gewest" spectype="deeleigen" word="Gewest"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>Interactieve kaart van het Brussels Hoofdstedelijk Gewest</sentence>
+</alpino_ds>

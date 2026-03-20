@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="15" end="16" id="2" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="0" cat="smain" end="17" id="3" rel="--">
+      <node begin="2" end="3" id="4" lemma="zullen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zal" word="zal" wvorm="pv"/>
+      <node begin="5" cat="np" end="15" id="5" index="1" rel="su">
+        <node begin="5" end="6" id="6" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="6" buiging="met-e" end="7" graad="sup" id="7" lemma="laat" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="mod" root="laat" word="laatste"/>
+        <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="8" lemma="keuze" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="keuze" word="keuze"/>
+        <node begin="8" cat="pp" end="15" id="9" rel="mod">
+          <node begin="8" end="9" id="10" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" vztype="init" word="uit"/>
+          <node begin="9" cat="np" end="15" id="11" rel="obj1">
+            <node begin="9" end="10" id="12" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="10" buiging="zonder" end="11" graad="basis" id="13" lemma="fotografisch" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="fotografisch" word="fotografisch"/>
+            <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="14" lemma="woordenboek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="woord_boek" word="woordenboek"/>
+            <node begin="12" cat="pp" end="15" id="15" rel="mod">
+              <node begin="12" end="13" id="16" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="13" cat="mwu" end="15" id="17" rel="obj1">
+                <node begin="13" end="14" id="18" lemma="Philip" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Philip" spectype="deeleigen" word="Philip"/>
+                <node begin="14" end="15" id="19" lemma="Mechanicus" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Mechanicus" spectype="deeleigen" word="Mechanicus"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="0" cat="inf" end="17" id="20" rel="vc">
+        <node begin="0" cat="np" end="2" id="21" rel="mod">
+          <node begin="0" buiging="zonder" end="1" id="22" lemma="dit" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dit" vwtype="aanw" word="Dit"/>
+          <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="23" lemma="najaar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="najaar" word="najaar"/>
+        </node>
+        <node begin="3" end="4" id="24" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" word="nog"/>
+        <node begin="5" end="15" id="25" index="1" rel="su"/>
+        <node begin="16" buiging="zonder" end="17" id="26" lemma="verschijnen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="verschijn" word="verschijnen" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="17" end="18" id="27" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dit najaar zal nog &apos; De laatste keuze uit het fotografisch woordenboek van Philip Mechanicus &apos; verschijnen .</sentence>
+</alpino_ds>

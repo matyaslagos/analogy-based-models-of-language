@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="16" end="17" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="21" id="3" rel="--">
+      <node begin="0" cat="cp" end="4" id="4" rel="mod">
+        <node begin="0" conjtype="onder" end="1" id="5" lemma="zoals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zoals" word="Zoals"/>
+        <node begin="1" cat="ssub" end="4" id="6" rel="body">
+          <node begin="2" end="3" id="7" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+          <node begin="1" cat="ppart" end="4" id="8" rel="vc">
+            <node begin="1" end="2" id="9" lemma="hierboven" pos="pp" postag="BW()" pt="bw" rel="mod" root="hierboven" word="hierboven"/>
+            <node begin="3" buiging="zonder" end="4" id="10" lemma="beschrijven" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="beschrijf" word="beschreven" wvorm="vd"/>
+          </node>
+        </node>
+      </node>
+      <node begin="5" end="6" id="11" lemma="krijgen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="krijg" word="krijgen" wvorm="pv"/>
+      <node begin="6" end="7" getal="mv" graad="basis" id="12" lemma="meer_gezin_woning" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="meer_gezin_woning" word="meergezinswoningen"/>
+      <node begin="7" cat="cp" end="16" id="13" rel="predm">
+        <node begin="7" conjtype="onder" end="8" id="14" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+        <node begin="8" cat="np" end="16" id="15" rel="body">
+          <node begin="8" end="9" getal="mv" graad="basis" id="16" lemma="woning" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="woning" word="woningen"/>
+          <node begin="9" cat="rel" end="16" id="17" rel="mod">
+            <node begin="9" end="10" getal="getal" id="18" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+            <node begin="9" cat="ssub" end="16" id="19" rel="body">
+              <node begin="9" end="10" id="20" index="1" rel="su"/>
+              <node begin="10" cat="conj" end="15" id="21" rel="obj1">
+                <node begin="10" cat="np" end="12" id="22" rel="cnj">
+                  <node begin="10" buiging="zonder" end="11" id="23" index="2" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="geen"/>
+                  <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="24" lemma="dak" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="dak" word="dak"/>
+                </node>
+                <node begin="12" conjtype="neven" end="13" id="25" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+                <node begin="10" cat="np" end="15" id="26" rel="cnj">
+                  <node begin="10" end="11" id="27" index="2" rel="det"/>
+                  <node begin="13" buiging="met-e" end="14" graad="basis" id="28" lemma="begaan" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="begaan" word="begane"/>
+                  <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="29" lemma="grond_vloer" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="grond_vloer" word="grondvloer"/>
+                </node>
+              </node>
+              <node begin="15" end="16" id="30" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" word="hebben" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="17" end="18" id="31" lemma="hiervoor" pos="pp" postag="BW()" pt="bw" rel="pc" root="hiervoor" word="hiervoor"/>
+      <node begin="18" end="19" id="32" lemma="toch" pos="adv" postag="BW()" pt="bw" rel="mod" root="toch" word="toch"/>
+      <node begin="19" cat="np" end="21" id="33" rel="obj1">
+        <node begin="19" end="20" id="34" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="20" end="21" genus="onz" getal="ev" graad="basis" id="35" lemma="punt" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="punt" word="punt"/>
+      </node>
+    </node>
+    <node begin="21" end="22" id="36" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Zoals hierboven is beschreven , krijgen meergezinswoningen als woningen die geen dak of begane grondvloer hebben , hiervoor toch een punt .</sentence>
+</alpino_ds>

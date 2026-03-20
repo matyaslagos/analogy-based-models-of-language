@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="11" end="12" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="17" id="3" rel="--">
+      <node begin="0" cat="pp" end="2" id="4" rel="mod">
+        <node begin="0" end="1" id="5" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+        <node begin="1" end="2" id="6" lemma="1992" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" root="1992" word="1992"/>
+      </node>
+      <node begin="2" end="3" id="7" lemma="maken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="maak" word="maakte" wvorm="pv"/>
+      <node begin="3" cat="np" end="11" id="8" rel="su">
+        <node begin="3" cat="mwu" end="5" id="9" rel="hd">
+          <node begin="3" end="4" id="10" lemma="Thom" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Thom" spectype="deeleigen" word="Thom"/>
+          <node begin="4" end="5" id="11" lemma="Hoffman" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Hoffman" spectype="deeleigen" word="Hoffman"/>
+        </node>
+        <node begin="6" cat="np" end="11" id="12" rel="app">
+          <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="13" lemma="hoofd_rol_speler" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="hoofd_rol_speler" word="hoofdrolspeler"/>
+          <node begin="7" cat="pp" end="11" id="14" rel="mod">
+            <node begin="7" end="8" id="15" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" vztype="init" word="uit"/>
+            <node begin="8" cat="np" end="11" id="16" rel="obj1">
+              <node begin="8" end="9" id="17" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="9" cat="mwu" end="11" id="18" rel="hd">
+                <node begin="9" buiging="met-e" end="10" graad="basis" id="19" lemma="wit" naamval="stan" pos="name" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mwp" root="Witte" word="Witte"/>
+                <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="20" lemma="waan" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Waan" word="Waan"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="12" cat="np" end="17" id="21" rel="obj1">
+        <node begin="12" end="13" id="22" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="23" lemma="documentaire" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="documentaire" word="documentaire"/>
+        <node begin="14" cat="pp" end="17" id="24" rel="mod">
+          <node begin="14" end="15" id="25" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" vztype="init" word="over"/>
+          <node begin="15" cat="np" end="17" id="26" rel="obj1">
+            <node begin="15" end="16" getal="ev" graad="basis" id="27" lemma="Ditvoorst" naamval="gen" ntype="eigen" pos="det" postag="N(eigen,ev,basis,gen)" pt="n" rel="det" root="Ditvoorst&apos;s" word="Ditvoorst&apos;s"/>
+            <node begin="16" end="17" genus="onz" getal="ev" graad="basis" id="28" lemma="leven" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="leven" word="leven"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="29" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>In 1992 maakte Thom Hoffman , hoofdrolspeler uit de Witte Waan , een documentaire over Ditvoorst&apos;s leven .</sentence>
+</alpino_ds>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="31" id="0" rel="top">
+    <node begin="0" cat="smain" end="30" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" index="1" rel="su">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" cat="mwu" end="3" id="4" rel="hd">
+          <node begin="1" end="2" id="5" lemma="Tweede" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Tweede" spectype="deeleigen" word="Tweede"/>
+          <node begin="2" end="3" id="6" lemma="Kamer" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Kamer" spectype="deeleigen" word="Kamer"/>
+        </node>
+      </node>
+      <node begin="3" end="4" id="7" lemma="willen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="wil" word="wil" wvorm="pv"/>
+      <node begin="0" cat="inf" end="30" id="8" rel="vc">
+        <node begin="0" end="3" id="9" index="1" rel="su"/>
+        <node begin="4" cat="pp" end="16" id="10" rel="mod">
+          <node begin="4" end="5" id="11" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="5" cat="conj" end="16" id="12" rel="obj1">
+            <node begin="5" cat="np" end="9" id="13" rel="cnj">
+              <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="14" lemma="minister" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="minister" word="minister"/>
+              <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="15" lemma="Zalm" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" root="Zalm" word="Zalm"/>
+              <node begin="7" cat="pp" end="9" id="16" rel="mod">
+                <node begin="7" end="8" id="17" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="8" end="9" getal="mv" graad="basis" id="18" lemma="financiën" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="financiën" word="Financien"/>
+              </node>
+            </node>
+            <node begin="9" conjtype="neven" end="10" id="19" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="10" cat="np" end="16" id="20" rel="cnj">
+              <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="21" lemma="staatssecretaris" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="staatssecretaris" word="staatssecretaris"/>
+              <node begin="11" cat="mwu" end="14" id="22" rel="app">
+                <node begin="11" end="12" id="23" lemma="van" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="van" spectype="deeleigen" word="van"/>
+                <node begin="12" end="13" id="24" lemma="der" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="der" spectype="deeleigen" word="der"/>
+                <node begin="13" end="14" id="25" lemma="Knaap" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Knaap" spectype="deeleigen" word="Knaap"/>
+              </node>
+              <node begin="14" cat="pp" end="16" id="26" rel="mod">
+                <node begin="14" end="15" id="27" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="28" lemma="defensie" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="Defensie" word="Defensie"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="16" buiging="zonder" end="17" id="29" lemma="weten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="weet" word="weten" wvorm="inf"/>
+        <node begin="17" cat="whsub" end="30" id="30" rel="vc">
+          <node begin="17" cat="conj" end="21" id="31" index="2" rel="whd">
+            <node begin="17" conjtype="onder" end="18" id="32" lemma="of" pos="comp" postag="VG(onder)" pt="vg" rel="cnj" root="of" word="of"/>
+            <node begin="18" conjtype="neven" end="19" id="33" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="19" cat="pp" end="21" id="34" rel="cnj">
+              <node begin="19" end="20" id="35" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+              <node begin="20" end="21" id="36" lemma="hoeverre" pos="adv" postag="BW()" pt="bw" rel="obj1" root="hoeverre" word="hoeverre"/>
+            </node>
+          </node>
+          <node begin="17" cat="ssub" end="30" id="37" rel="body">
+            <node begin="17" end="21" id="38" index="2" rel="mod"/>
+            <node begin="21" end="22" id="39" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+            <node begin="22" cat="np" end="24" id="40" rel="su">
+              <node begin="22" end="23" id="41" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="23" end="24" genus="zijd" getal="ev" graad="basis" id="42" lemma="rijk_overheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="rijksoverheid" word="rijksoverheid"/>
+            </node>
+            <node begin="25" end="26" id="43" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+            <node begin="24" cat="ppart" end="30" id="44" rel="predc">
+              <node begin="24" buiging="zonder" end="25" id="45" lemma="betrekken" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="betrokken" word="betrokken" wvorm="vd"/>
+              <node begin="26" cat="pp" end="30" id="46" rel="pc">
+                <node begin="26" end="27" id="47" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+                <node begin="27" cat="np" end="30" id="48" rel="obj1">
+                  <node begin="27" end="28" id="49" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                  <node begin="28" buiging="zonder" end="29" graad="basis" id="50" lemma="financieel" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="financieel" word="financieel"/>
+                  <node begin="29" end="30" genus="onz" getal="ev" graad="basis" id="51" lemma="schandaal" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="schandaal" word="schandaal"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="30" end="31" id="52" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De Tweede Kamer wil van minister Zalm van Financien en staatssecretaris van der Knaap van Defensie weten of en in hoeverre ook de rijksoverheid betrokken is bij het financieel schandaal .</sentence>
+</alpino_ds>

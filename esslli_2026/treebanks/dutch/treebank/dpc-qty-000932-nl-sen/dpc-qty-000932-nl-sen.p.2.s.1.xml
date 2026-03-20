@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="inf" end="9" id="1" rel="--">
+      <node begin="0" cat="np" end="5" id="2" rel="obj1">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="4" lemma="verkoop" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="verkoop" word="verkoop"/>
+        <node begin="2" cat="pp" end="5" id="5" rel="mod">
+          <node begin="2" end="3" id="6" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="3" cat="np" end="5" id="7" rel="obj1">
+            <node begin="3" buiging="zonder" end="4" getal="getal" id="8" lemma="u" naamval="stan" npagr="agr" pdtype="det" persoon="2" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,2,getal,prenom,zonder,agr)" pt="vnw" rel="det" root="u" status="vol" vwtype="bez" word="uw"/>
+            <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="9" lemma="onderneming" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="onderneming" word="onderneming"/>
+          </node>
+        </node>
+      </node>
+      <node begin="5" cat="pp" end="8" id="10" rel="mod">
+        <node begin="5" end="6" id="11" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="6" cat="np" end="8" id="12" rel="obj1">
+          <node begin="6" buiging="met-e" end="7" id="13" lemma="al" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,agr)" pt="vnw" rel="det" root="alle" vwtype="onbep" word="alle"/>
+          <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="14" lemma="sereniteit" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="sereniteit" word="sereniteit"/>
+        </node>
+      </node>
+      <node begin="8" buiging="zonder" end="9" id="15" lemma="voor_bereiden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="bereid_voor" word="voorbereiden" wvorm="inf"/>
+    </node>
+  </node>
+  <sentence>De verkoop van uw onderneming in alle sereniteit voorbereiden</sentence>
+</alpino_ds>

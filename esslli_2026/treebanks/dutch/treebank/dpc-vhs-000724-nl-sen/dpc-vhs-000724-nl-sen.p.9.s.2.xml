@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="pp" end="2" id="2" rel="mod">
+        <node begin="0" end="1" id="3" lemma="sinds" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="sinds" vztype="init" word="Sinds"/>
+        <node begin="1" end="2" id="4" lemma="1980" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" root="1980" word="1980"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="bestaan" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="besta" word="bestaan" wvorm="pv"/>
+      <node begin="3" end="4" getal="mv" id="6" lemma="we" naamval="nomin" pdtype="pron" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,red,1,mv)" pt="vnw" rel="su" root="we" status="red" vwtype="pers" word="we"/>
+      <node begin="4" cat="pp" end="8" id="7" rel="pc">
+        <node begin="4" end="5" id="8" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" vztype="init" word="uit"/>
+        <node begin="5" cat="conj" end="8" id="9" rel="obj1">
+          <node begin="5" end="6" getal="mv" graad="basis" id="10" lemma="gewest" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="gewest" word="gewesten"/>
+          <node begin="6" conjtype="neven" end="7" id="11" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="7" end="8" getal="mv" graad="basis" id="12" lemma="gemeenschap" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="gemeenschap" word="gemeenschappen"/>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" id="13" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Sinds 1980 bestaan we uit gewesten en gemeenschappen .</sentence>
+</alpino_ds>

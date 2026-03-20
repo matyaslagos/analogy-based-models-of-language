@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="25" id="0" rel="top">
+    <node begin="9" end="10" id="1" lemma=";" pos="punct" postag="LET()" pt="let" rel="--" root=";" word=";"/>
+    <node begin="12" end="13" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="24" id="3" rel="--">
+      <node begin="0" cat="np" end="9" id="4" rel="dp">
+        <node begin="0" end="1" id="5" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" word="Nog"/>
+        <node begin="1" end="2" id="6" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="7" lemma="voordeel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="voordeel" word="voordeel"/>
+        <node begin="3" cat="pp" end="9" id="8" rel="mod">
+          <node begin="3" end="4" id="9" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="4" cat="np" end="9" id="10" rel="obj1">
+            <node begin="4" end="5" id="11" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="5" end="6" getal="mv" graad="basis" id="12" lemma="patiënt" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="patiënt" word="patiënten"/>
+            <node begin="6" cat="pp" end="9" id="13" rel="mod">
+              <node begin="6" end="7" id="14" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="7" cat="np" end="9" id="15" rel="obj1">
+                <node begin="7" buiging="met-e" end="8" id="16" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="deze"/>
+                <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="17" lemma="praktijk" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="praktijk" word="praktijk"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="10" cat="smain" end="24" id="18" rel="dp">
+        <node begin="10" end="11" getal="mv" id="19" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="ze"/>
+        <node begin="11" end="12" id="20" lemma="terecht_kunnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kan_terecht" word="kunnen" wvorm="pv"/>
+        <node begin="13" buiging="zonder" end="14" graad="basis" id="21" lemma="snel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="snel" word="snel"/>
+        <node begin="14" cat="pp" end="19" id="22" rel="ld">
+          <node begin="14" end="15" id="23" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="15" cat="np" end="19" id="24" rel="obj1">
+            <node begin="15" end="16" id="25" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="16" cat="mwu" end="19" id="26" rel="hd">
+              <node begin="16" end="17" id="27" lemma="VU" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="VU" spectype="deeleigen" word="VU"/>
+              <node begin="17" end="18" id="28" lemma="Medisch" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Medisch" spectype="deeleigen" word="Medisch"/>
+              <node begin="18" end="19" id="29" lemma="Centrum" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Centrum" spectype="deeleigen" word="Centrum"/>
+            </node>
+          </node>
+        </node>
+        <node begin="19" buiging="zonder" end="20" graad="basis" id="30" lemma="terecht" pos="part" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="svp" root="terecht" word="terecht"/>
+        <node begin="20" cat="cp" end="24" id="31" rel="mod">
+          <node begin="20" conjtype="onder" end="21" id="32" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+          <node begin="21" cat="ssub" end="24" id="33" rel="body">
+            <node begin="21" end="22" getal="ev" id="34" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="pron" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" root="dat" status="vol" vwtype="aanw" word="dat"/>
+            <node begin="22" buiging="zonder" end="23" graad="basis" id="35" lemma="nodig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="nodig" word="nodig"/>
+            <node begin="23" end="24" id="36" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="24" end="25" id="37" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Nog een voordeel voor de patiënten van deze praktijk ; ze kunnen , snel in het VU Medisch Centrum terecht als dat nodig is .</sentence>
+</alpino_ds>

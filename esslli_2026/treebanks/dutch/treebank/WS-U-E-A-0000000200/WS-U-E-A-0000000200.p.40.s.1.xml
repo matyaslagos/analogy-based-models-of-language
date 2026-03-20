@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" end="1" getal="ev" id="2" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" root="dat" status="vol" vwtype="aanw" word="Dat"/>
+      <node begin="1" end="2" id="3" lemma="leiden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="leid" word="leidde" wvorm="pv"/>
+      <node begin="2" end="3" id="4" lemma="vanmiddag" pos="adv" postag="BW()" pt="bw" rel="mod" root="vanmiddag" word="vanmiddag"/>
+      <node begin="3" cat="pp" end="8" id="5" rel="pc">
+        <node begin="3" end="4" id="6" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" vztype="init" word="tot"/>
+        <node begin="4" cat="conj" end="8" id="7" rel="obj1">
+          <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="8" lemma="verkeer_chaos" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="verkeer_chaos" word="verkeerschaos"/>
+          <node begin="5" conjtype="neven" end="6" id="9" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="6" cat="np" end="8" id="10" rel="cnj">
+            <node begin="6" buiging="zonder" end="7" graad="basis" id="11" lemma="extra" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="extra" word="extra"/>
+            <node begin="7" end="8" getal="mv" graad="basis" id="12" lemma="veiligheidsmaatregel" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="veiligheidsmaatregel" word="veiligheidsmaatregelen"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" id="13" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dat leidde vanmiddag tot verkeerschaos en extra veiligheidsmaatregelen .</sentence>
+</alpino_ds>

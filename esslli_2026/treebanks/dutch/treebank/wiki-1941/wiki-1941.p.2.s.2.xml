@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="13" id="2" rel="--">
+      <node begin="0" cat="smain" end="6" id="3" rel="cnj">
+        <node begin="0" end="1" genus="masc" getal="ev" id="4" index="1" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="Hij"/>
+        <node begin="1" end="2" id="5" lemma="produceren" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="produceer" word="produceerde" wvorm="pv"/>
+        <node begin="2" cat="np" end="6" id="6" rel="obj1">
+          <node begin="2" end="3" id="7" lemma="slechts" pos="adv" postag="BW()" pt="bw" rel="mod" root="slechts" word="slechts"/>
+          <node begin="3" end="4" id="8" lemma="750" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="750" word="750"/>
+          <node begin="4" end="5" getal="mv" graad="basis" id="9" lemma="pagina" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="pagina" word="pagina&apos;s"/>
+          <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="10" lemma="proza" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mod" root="proza" word="proza"/>
+        </node>
+      </node>
+      <node begin="7" conjtype="neven" end="8" id="11" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+      <node begin="0" cat="smain" end="13" id="12" rel="cnj">
+        <node begin="0" end="1" id="13" index="1" rel="su"/>
+        <node begin="8" end="9" id="14" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="heeft" wvorm="pv"/>
+        <node begin="0" cat="ppart" end="13" id="15" rel="vc">
+          <node begin="0" end="1" id="16" index="1" rel="su"/>
+          <node begin="9" cat="np" end="12" id="17" rel="obj1">
+            <node begin="9" end="10" id="18" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="10" buiging="met-e" end="11" graad="basis" id="19" lemma="groot" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="groot" word="grote"/>
+            <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="20" lemma="invloed" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="invloed" word="invloed"/>
+          </node>
+          <node begin="12" buiging="zonder" end="13" id="21" lemma="hebben" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="heb" word="gehad" wvorm="vd"/>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Hij produceerde slechts 750 pagina&apos;s proza , maar heeft een grote invloed gehad .</sentence>
+</alpino_ds>

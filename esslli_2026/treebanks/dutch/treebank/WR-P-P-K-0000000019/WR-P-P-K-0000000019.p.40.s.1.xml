@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="31" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="7" end="8" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="8" end="9" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="12" end="13" id="4" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="14" end="15" id="5" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="0" cat="smain" end="30" id="6" rel="--">
+      <node begin="0" cat="pp" end="14" id="7" rel="mod">
+        <node begin="0" end="1" id="8" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="Met"/>
+        <node begin="1" cat="np" end="14" id="9" rel="obj1">
+          <node begin="1" end="2" id="10" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="11" lemma="toetreding" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="toetreding" word="toetreding"/>
+          <node begin="3" cat="pp" end="14" id="12" rel="mod">
+            <node begin="3" end="4" id="13" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="4" cat="conj" end="14" id="14" rel="obj1">
+              <node begin="4" cat="np" end="7" id="15" rel="cnj">
+                <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="16" lemma="Griekenland" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Griekenland" word="Griekenland"/>
+                <node begin="6" end="7" id="17" lemma="1981" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mod" root="1981" word="1981"/>
+              </node>
+              <node begin="9" cat="conj" end="14" id="18" rel="cnj">
+                <node begin="10" conjtype="neven" end="11" id="19" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                <node begin="9" cat="np" end="14" id="20" rel="cnj">
+                  <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="21" lemma="Spanje" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Spanje" word="Spanje"/>
+                  <node begin="13" end="14" id="22" index="1" lemma="1986" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mod" root="1986" word="1986"/>
+                </node>
+                <node begin="11" cat="np" end="14" id="23" rel="cnj">
+                  <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="24" lemma="Portugal" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Portugal" word="Portugal"/>
+                  <node begin="13" end="14" id="25" index="1" rel="mod"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="15" end="16" id="26" lemma="groeien" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="groei" word="groeide" wvorm="pv"/>
+      <node begin="16" cat="np" end="30" id="27" rel="su">
+        <node begin="16" end="17" id="28" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="29" lemma="aandacht" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="aandacht" word="aandacht"/>
+        <node begin="18" cat="pp" end="30" id="30" rel="mod">
+          <node begin="18" end="19" id="31" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="19" cat="conj" end="30" id="32" rel="obj1">
+            <node begin="19" cat="np" end="22" id="33" rel="cnj">
+              <node begin="19" end="20" id="34" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="20" cat="mwu" end="22" id="35" rel="hd">
+                <node begin="20" end="21" id="36" lemma="Middellandse" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Middellandse" spectype="deeleigen" word="Middellandse"/>
+                <node begin="21" end="22" genus="onz" getal="ev" graad="basis" id="37" lemma="Zee_gebied" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="Zeegebied" word="Zeegebied"/>
+              </node>
+            </node>
+            <node begin="22" conjtype="neven" end="23" id="38" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="23" cat="np" end="30" id="39" rel="cnj">
+              <node begin="23" end="24" id="40" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="24" buiging="met-e" end="25" graad="basis" id="41" lemma="oud" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="oud" word="oude"/>
+              <node begin="25" end="26" getal="mv" graad="basis" id="42" lemma="kolonie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kolonie" word="kolonies"/>
+              <node begin="26" cat="pp" end="30" id="43" rel="mod">
+                <node begin="26" end="27" id="44" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                <node begin="27" cat="conj" end="30" id="45" rel="obj1">
+                  <node begin="27" end="28" genus="onz" getal="ev" graad="basis" id="46" lemma="Latijns-Amerika" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Latijns-Amerika" word="Latijns-Amerika"/>
+                  <node begin="28" conjtype="neven" end="29" id="47" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                  <node begin="29" end="30" genus="onz" getal="ev" graad="basis" id="48" lemma="Azië" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Azië" word="Azië"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="30" end="31" id="49" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Met de toetreding van Griekenland ( 1981 ) , Spanje en Portugal ( 1986 ) groeide de aandacht voor het Middellandse Zeegebied en de oude kolonies in Latijns-Amerika en Azië .</sentence>
+</alpino_ds>

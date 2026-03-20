@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="5" end="6" id="2" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="7" end="8" id="3" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="8" end="9" id="4" lemma="/" pos="punct" postag="LET()" pt="let" rel="--" root="/" word="/"/>
+    <node begin="11" end="12" id="5" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="du" end="13" id="6" rel="--">
+      <node begin="0" cat="mwu" end="2" id="7" rel="dp">
+        <node begin="0" end="1" id="8" lemma="Billie" pos="det" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Billie" spectype="deeleigen" word="Billie"/>
+        <node begin="1" end="2" id="9" lemma="Coppens" pos="det" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Coppens" spectype="deeleigen" word="Coppens"/>
+      </node>
+      <node begin="3" cat="conj" end="13" id="10" rel="dp">
+        <node begin="3" cat="np" end="7" id="11" rel="cnj">
+          <node begin="3" cat="mwu" end="5" id="12" rel="hd">
+            <node begin="3" end="4" id="13" lemma="Laurent" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Laurent" spectype="deeleigen" word="Laurent"/>
+            <node begin="4" end="5" id="14" lemma="Roose" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Roose" spectype="deeleigen" word="Roose"/>
+          </node>
+          <node begin="6" end="7" id="15" lemma="2001-2002" pos="noun" postag="SPEC(symb)" pt="spec" rel="mod" root="2001-2002" spectype="symb" word="2001-2002"/>
+        </node>
+        <node begin="9" cat="np" end="13" id="16" rel="cnj">
+          <node begin="9" cat="mwu" end="11" id="17" rel="hd">
+            <node begin="9" end="10" id="18" lemma="Rob" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Rob" spectype="deeleigen" word="Rob"/>
+            <node begin="10" end="11" id="19" lemma="Teuwen" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Teuwen" spectype="deeleigen" word="Teuwen"/>
+          </node>
+          <node begin="12" end="13" id="20" lemma="2002-" pos="num" postag="SPEC(symb)" pt="spec" rel="mod" root="2002-" spectype="symb" word="2002-"/>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="21" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+  </node>
+  <sentence>Billie Coppens - Laurent Roose ( 2001-2002 ) / Rob Teuwen ( 2002- )</sentence>
+</alpino_ds>

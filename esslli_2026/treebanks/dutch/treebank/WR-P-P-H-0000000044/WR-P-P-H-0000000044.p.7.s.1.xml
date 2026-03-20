@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="1" end="2" id="2" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="heeft" wvorm="pv"/>
+      <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="3" index="1" lemma="Milosevic" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Milosevic" word="Milosevic"/>
+      <node begin="0" cat="ppart" end="11" id="4" rel="vc">
+        <node begin="0" buiging="zonder" end="1" graad="basis" id="5" lemma="mogelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="mogelijk" word="Mogelijk"/>
+        <node begin="2" end="3" id="6" index="1" rel="su"/>
+        <node begin="3" buiging="zonder" end="4" id="7" lemma="pogen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="poog" word="gepoogd" wvorm="vd"/>
+        <node begin="2" cat="ti" end="11" id="8" rel="vc">
+          <node begin="8" end="9" id="9" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+          <node begin="2" cat="inf" end="11" id="10" rel="body">
+            <node begin="2" end="3" id="11" index="1" rel="su"/>
+            <node begin="9" buiging="zonder" end="10" id="12" lemma="laten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="laat" word="laten" wvorm="inf"/>
+            <node begin="4" cat="inf" end="11" id="13" rel="vc">
+              <node begin="4" cat="np" end="8" id="14" rel="obj1">
+                <node begin="4" end="5" id="15" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="5" buiging="met-e" end="6" graad="basis" id="16" lemma="Brits" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Brits" word="Britse"/>
+                <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="17" lemma="premier" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="premier" word="premier"/>
+                <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="18" lemma="Blair" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" root="Blair" word="Blair"/>
+              </node>
+              <node begin="10" buiging="zonder" end="11" id="19" lemma="vermoorden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="vermoord" word="vermoorden" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" id="20" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Mogelijk heeft Milosevic gepoogd de Britse premier Blair te laten vermoorden .</sentence>
+</alpino_ds>

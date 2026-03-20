@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="13" end="14" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="15" id="3" rel="--">
+      <node begin="0" cat="np" end="5" id="4" index="1" rel="su">
+        <node begin="0" cat="ap" end="4" id="5" rel="mod">
+          <node begin="0" cat="conj" end="3" id="6" rel="mod">
+            <node begin="0" buiging="zonder" end="1" graad="basis" id="7" lemma="politiek" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="cnj" root="politiek" word="Politiek"/>
+            <node begin="1" conjtype="neven" end="2" id="8" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="2" buiging="zonder" end="3" graad="basis" id="9" lemma="sociaal" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="cnj" root="sociaal" word="sociaal"/>
+          </node>
+          <node begin="3" buiging="met-e" end="4" graad="basis" id="10" lemma="gevoelig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="hd" root="gevoelig" word="gevoelige"/>
+        </node>
+        <node begin="4" end="5" getal="mv" graad="basis" id="11" lemma="thema" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="thema" word="thema&apos;s"/>
+      </node>
+      <node begin="5" end="6" id="12" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" word="worden" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="15" id="13" rel="vc">
+        <node begin="0" end="5" id="14" index="1" rel="obj1"/>
+        <node begin="7" cat="pp" end="13" id="15" rel="mod">
+          <node begin="7" cat="mwu" end="10" id="16" rel="hd">
+            <node begin="7" end="8" id="17" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="in" vztype="init" word="in"/>
+            <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="18" lemma="tegenstelling" naamval="stan" ntype="soort" pos="prep" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="tegenstelling" word="tegenstelling"/>
+            <node begin="9" end="10" id="19" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="tot" vztype="init" word="tot"/>
+          </node>
+          <node begin="10" cat="np" end="13" id="20" rel="obj1">
+            <node begin="10" end="11" id="21" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="11" end="12" id="22" lemma="één" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="eerste" word="eerste"/>
+            <node begin="12" end="13" getal="mv" graad="basis" id="23" lemma="reeks" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="reeks" word="reeksen"/>
+          </node>
+        </node>
+        <node begin="14" buiging="zonder" end="15" id="24" lemma="vermijden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="vermijd" word="vermeden" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="15" end="16" id="25" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Politiek en sociaal gevoelige thema&apos;s worden , in tegenstelling tot de eerste reeksen , vermeden .</sentence>
+</alpino_ds>

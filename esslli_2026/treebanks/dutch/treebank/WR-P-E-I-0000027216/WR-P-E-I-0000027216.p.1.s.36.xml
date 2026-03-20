@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="10" end="11" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="12" end="13" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="17" id="4" rel="--">
+      <node begin="0" end="1" genus="onz" getal="ev" graad="basis" id="5" lemma="Afghanistan" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" root="Afghanistan" word="Afghanistan"/>
+      <node begin="1" end="2" id="6" lemma="blijven" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="blijf" word="bleef" wvorm="pv"/>
+      <node begin="2" end="3" id="7" lemma="echter" pos="adv" postag="BW()" pt="bw" rel="mod" root="echter" word="echter"/>
+      <node begin="3" cat="np" end="5" id="8" rel="mod">
+        <node begin="3" buiging="met-e" end="4" graad="basis" id="9" lemma="lang" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="lang" word="lange"/>
+        <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="10" lemma="tijd" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="tijd" word="tijd"/>
+      </node>
+      <node begin="5" cat="np" end="17" id="11" rel="predc">
+        <node begin="5" end="6" id="12" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="13" lemma="grens_land" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="grens_land" word="grensland"/>
+        <node begin="8" cat="pp" end="17" id="14" rel="mod">
+          <node begin="8" end="9" id="15" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+          <node begin="9" cat="np" end="17" id="16" rel="obj1">
+            <node begin="9" cat="conj" end="16" id="17" rel="mod">
+              <node begin="9" buiging="met-e" end="10" graad="basis" id="18" lemma="Arabisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="Arabisch" word="Arabische"/>
+              <node begin="11" buiging="met-e" end="12" graad="basis" id="19" lemma="Turks" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="Turks" word="Turkse"/>
+              <node begin="13" buiging="met-e" end="14" graad="basis" id="20" lemma="Chinees" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="Chinees" word="Chinese"/>
+              <node begin="14" conjtype="neven" end="15" id="21" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="15" buiging="met-e" end="16" graad="basis" id="22" lemma="Tibetaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="Tibetaans" word="Tibetaanse"/>
+            </node>
+            <node begin="16" end="17" getal="mv" graad="basis" id="23" lemma="invloed" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="invloed" word="invloeden"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="24" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Afghanistan bleef echter lange tijd een grensland , met Arabische , Turkse , Chinese en Tibetaanse invloeden .</sentence>
+</alpino_ds>

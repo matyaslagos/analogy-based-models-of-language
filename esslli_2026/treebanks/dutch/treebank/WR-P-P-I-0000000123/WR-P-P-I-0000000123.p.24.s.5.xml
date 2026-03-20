@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="0" cat="smain" end="16" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" buiging="met-e" end="2" graad="basis" id="4" lemma="Portugees" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Portugees" word="Portugese"/>
+        <node begin="2" end="3" getal="mv" graad="basis" id="5" lemma="handel_man" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="handel_lieden" word="handelslieden"/>
+      </node>
+      <node begin="3" end="4" id="6" lemma="kiezen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="kies" word="kozen" wvorm="pv"/>
+      <node begin="4" cat="np" end="9" id="7" rel="obj1">
+        <node begin="4" end="5" id="8" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="9" lemma="stad" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="stad" word="stad"/>
+        <node begin="6" cat="pp" end="9" id="10" rel="mod">
+          <node begin="6" end="7" id="11" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+          <node begin="7" cat="np" end="9" id="12" rel="obj1">
+            <node begin="7" end="8" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="14" lemma="Schelde" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Schelde" word="Schelde"/>
+          </node>
+        </node>
+      </node>
+      <node begin="9" buiging="zonder" end="10" graad="basis" id="15" lemma="snel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="snel" word="snel"/>
+      <node begin="10" cat="cp" end="16" id="16" rel="predc">
+        <node begin="10" conjtype="onder" end="11" id="17" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+        <node begin="11" cat="np" end="16" id="18" rel="body">
+          <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="19" lemma="uitval_basis" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="uitval_basis" word="uitvalsbasis"/>
+          <node begin="12" cat="pp" end="16" id="20" rel="mod">
+            <node begin="12" end="13" id="21" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+            <node begin="13" cat="np" end="16" id="22" rel="obj1">
+              <node begin="13" buiging="zonder" end="14" getal="mv" id="23" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+              <node begin="14" buiging="met-e" end="15" graad="basis" id="24" lemma="Indisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Indisch" word="Indische"/>
+              <node begin="15" end="16" getal="mv" graad="basis" id="25" lemma="goed" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="goed" word="goederen"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="26" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De Portugese handelslieden kozen de stad aan de Schelde snel als uitvalsbasis voor hun Indische goederen .</sentence>
+</alpino_ds>

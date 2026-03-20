@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="0" cat="smain" end="17" id="1" rel="--">
+      <node begin="0" cat="pp" end="4" id="2" rel="mod">
+        <node begin="0" end="1" id="3" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="Op"/>
+        <node begin="1" cat="mwu" end="4" id="4" rel="obj1">
+          <node begin="1" end="2" id="5" lemma="9" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="9" word="9"/>
+          <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="6" lemma="april" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="april" word="april"/>
+          <node begin="3" end="4" id="7" lemma="1940" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="1940" word="1940"/>
+        </node>
+      </node>
+      <node begin="4" end="5" id="8" lemma="komen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="kom" word="kwam" wvorm="pv"/>
+      <node begin="5" end="6" getal="getal" id="9" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+      <node begin="6" cat="np" end="11" id="10" rel="su">
+        <node begin="6" end="7" id="11" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="12" lemma="eind" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="eind" word="eind"/>
+        <node begin="8" cat="pp" end="11" id="13" rel="mod">
+          <node begin="8" end="9" id="14" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+          <node begin="9" cat="np" end="11" id="15" rel="obj1">
+            <node begin="9" end="10" id="16" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="17" lemma="schemer_oorlog" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="schemer_oorlog" word="schemeroorlog"/>
+          </node>
+        </node>
+      </node>
+      <node begin="11" cat="cp" end="17" id="18" rel="mod">
+        <node begin="11" conjtype="onder" end="12" id="19" lemma="doordat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="doordat" word="doordat"/>
+        <node begin="12" cat="ssub" end="17" id="20" rel="body">
+          <node begin="12" end="13" genus="onz" getal="ev" graad="basis" id="21" lemma="Nazi-Duitsland" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" root="Nazi-Duitsland" word="Nazi-Duitsland"/>
+          <node begin="13" cat="conj" end="16" id="22" rel="obj1">
+            <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="23" lemma="Noorwegen" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Noorwegen" word="Noorwegen"/>
+            <node begin="14" conjtype="neven" end="15" id="24" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="15" end="16" genus="onz" getal="ev" graad="basis" id="25" lemma="Denemarken" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Denemarken" word="Denemarken"/>
+          </node>
+          <node begin="16" end="17" id="26" lemma="binnen_vallen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="val_binnen" word="binnenviel" wvorm="pv"/>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="27" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Op 9 april 1940 kwam er een eind aan de schemeroorlog doordat Nazi-Duitsland Noorwegen en Denemarken binnenviel .</sentence>
+</alpino_ds>

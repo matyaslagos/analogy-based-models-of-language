@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="1" cat="ssub" end="11" id="2" rel="--">
+      <node begin="1" cat="np" end="6" id="3" index="1" rel="su">
+        <node begin="1" end="2" id="4" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="5" lemma="kind" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="kind" word="kind"/>
+        <node begin="3" cat="ap" end="6" id="6" rel="mod">
+          <node begin="3" buiging="zonder" end="4" graad="comp" id="7" lemma="jong" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="jong" word="jonger"/>
+          <node begin="4" cat="cp" end="6" id="8" rel="obcomp">
+            <node begin="4" conjtype="onder" end="5" id="9" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="dan" word="dan"/>
+            <node begin="5" end="6" id="10" lemma="18" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="body" root="18" word="18"/>
+          </node>
+        </node>
+      </node>
+      <node begin="9" end="10" id="11" lemma="gaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ga" word="gaat" wvorm="pv"/>
+      <node begin="1" cat="inf" end="11" id="12" rel="vc">
+        <node begin="1" end="6" id="13" index="1" rel="su"/>
+        <node begin="6" cat="pp" end="9" id="14" rel="ld">
+          <node begin="6" end="7" id="15" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+          <node begin="7" cat="np" end="9" id="16" rel="obj1">
+            <node begin="7" end="8" getal="ev" id="17" lemma="iemand" naamval="stan" pdtype="pron" persoon="3p" pos="noun" postag="VNW(onbep,pron,stan,vol,3p,ev)" pt="vnw" rel="hd" root="iemand" status="vol" vwtype="onbep" word="iemand"/>
+            <node begin="8" buiging="met-s" end="9" graad="basis" id="18" lemma="ander" pos="adj" positie="postnom" postag="ADJ(postnom,basis,met-s)" pt="adj" rel="mod" root="anders" word="anders"/>
+          </node>
+        </node>
+        <node begin="10" buiging="zonder" end="11" id="19" lemma="wonen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="woon" word="wonen" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="11" end="12" id="20" lemma=";" pos="punct" postag="LET()" pt="let" rel="--" root=";" word=";"/>
+  </node>
+  <sentence>- een kind jonger dan 18 bij iemand anders gaat wonen ;</sentence>
+</alpino_ds>

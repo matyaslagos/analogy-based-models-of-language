@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="24" id="0" rel="top">
+    <node begin="0" cat="smain" end="23" id="1" rel="--">
+      <node begin="0" cat="pp" end="6" id="2" rel="mod">
+        <node begin="0" end="1" id="3" lemma="naast" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naast" vztype="init" word="Naast"/>
+        <node begin="1" cat="np" end="6" id="4" rel="obj1">
+          <node begin="1" end="2" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="6" lemma="aanleg" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="aanleg" word="aanleg"/>
+          <node begin="3" cat="pp" end="6" id="7" rel="mod">
+            <node begin="3" end="4" id="8" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="4" cat="np" end="6" id="9" rel="obj1">
+              <node begin="4" buiging="met-e" end="5" graad="basis" id="10" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" word="nieuwe"/>
+              <node begin="5" end="6" getal="mv" graad="basis" id="11" lemma="bedrijf_terrein" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="bedrijfterrein" word="bedrijfsterreinen"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="6" end="7" id="12" lemma="spelen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="speel" word="speelt" wvorm="pv"/>
+      <node begin="7" end="8" id="13" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+      <node begin="8" cat="conj" end="15" id="14" rel="su">
+        <node begin="10" conjtype="neven" end="11" id="15" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="8" cat="np" end="15" id="16" rel="cnj">
+          <node begin="8" end="9" id="17" index="1" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="18" lemma="her_inrichting" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="her_inrichting" word="herinrichting"/>
+          <node begin="12" cat="pp" end="15" id="19" index="2" rel="mod">
+            <node begin="12" end="13" id="20" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="13" cat="np" end="15" id="21" rel="obj1">
+              <node begin="13" buiging="met-e" end="14" id="22" lemma="bestaan" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="bestaand" word="bestaande" wvorm="od"/>
+              <node begin="14" end="15" getal="mv" graad="basis" id="23" lemma="terrein" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="terrein" word="terreinen"/>
+            </node>
+          </node>
+        </node>
+        <node begin="8" cat="np" end="15" id="24" rel="cnj">
+          <node begin="8" end="9" id="25" index="1" rel="det"/>
+          <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="26" lemma="her_ontwikkeling" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="her_ontwikkeling" word="herontwikkeling"/>
+          <node begin="12" end="15" id="27" index="2" rel="mod"/>
+        </node>
+      </node>
+      <node begin="15" cat="mwu" end="17" id="28" rel="svp">
+        <node begin="15" end="16" id="29" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="mwp" root="een" word="een"/>
+        <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="30" lemma="rol" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="rol" word="rol"/>
+      </node>
+      <node begin="17" cat="pp" end="23" id="31" rel="mod">
+        <node begin="17" end="18" id="32" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="18" cat="np" end="23" id="33" rel="obj1">
+          <node begin="18" end="19" id="34" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="19" buiging="zonder" end="20" graad="basis" id="35" lemma="kwaliteit_vol" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="kwaliteitsvol" word="kwaliteitsvol"/>
+          <node begin="20" buiging="zonder" end="21" graad="basis" id="36" lemma="ruimtelijk" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="ruimtelijk" word="ruimtelijk"/>
+          <node begin="21" buiging="zonder" end="22" graad="basis" id="37" lemma="economisch" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="economisch" word="economisch"/>
+          <node begin="22" end="23" genus="onz" getal="ev" graad="basis" id="38" lemma="beleid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="beleid" word="beleid"/>
+        </node>
+      </node>
+    </node>
+    <node begin="23" end="24" id="39" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Naast de aanleg van nieuwe bedrijfsterreinen speelt ook de herinrichting en herontwikkeling van bestaande terreinen een rol in een kwaliteitsvol ruimtelijk economisch beleid .</sentence>
+</alpino_ds>

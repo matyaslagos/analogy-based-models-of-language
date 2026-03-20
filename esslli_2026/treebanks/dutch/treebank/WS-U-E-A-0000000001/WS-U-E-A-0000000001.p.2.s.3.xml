@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="10" end="11" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="19" id="2" rel="--">
+      <node begin="0" cat="smain" end="10" id="3" rel="cnj">
+        <node begin="0" cat="np" end="3" id="4" rel="su">
+          <node begin="0" end="1" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+          <node begin="1" cat="mwu" end="3" id="6" rel="hd">
+            <node begin="1" buiging="met-e" end="2" graad="basis" id="7" lemma="mobiel" naamval="stan" pos="name" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mwp" root="Mobiele" word="Mobiele"/>
+            <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="8" lemma="eenheid" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Eenheid" word="Eenheid"/>
+          </node>
+        </node>
+        <node begin="3" end="4" id="9" lemma="komen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="kom" word="kwam" wvorm="pv"/>
+        <node begin="4" cat="pp" end="8" id="10" rel="mod">
+          <node begin="4" end="5" id="11" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+          <node begin="5" cat="np" end="8" id="12" rel="obj1">
+            <node begin="5" cat="np" end="7" id="13" rel="det">
+              <node begin="5" end="6" id="14" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="15" lemma="paar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="paar" word="paar"/>
+            </node>
+            <node begin="7" end="8" getal="mv" graad="basis" id="16" lemma="plaats" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="plaats" word="plaatsen"/>
+          </node>
+        </node>
+        <node begin="8" cat="mwu" end="10" id="17" rel="svp">
+          <node begin="8" end="9" id="18" lemma="in" pos="fixed" postag="VZ(init)" pt="vz" rel="mwp" root="in" vztype="init" word="in"/>
+          <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="19" lemma="actie" naamval="stan" ntype="soort" pos="fixed" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="actie" word="actie"/>
+        </node>
+      </node>
+      <node begin="11" conjtype="neven" end="12" id="20" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+      <node begin="12" cat="smain" end="19" id="21" rel="cnj">
+        <node begin="12" end="13" getal="getal" id="22" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+        <node begin="13" end="14" id="23" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+        <node begin="14" cat="np" end="16" id="24" rel="su">
+          <node begin="14" buiging="zonder" end="15" id="25" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="geen"/>
+          <node begin="15" end="16" getal="ev" graad="basis" id="26" lemma="spraak" naamval="dat" ntype="soort" pos="noun" postag="N(soort,ev,basis,dat)" pt="n" rel="hd" root="sprake" word="sprake"/>
+        </node>
+        <node begin="16" cat="pp" end="19" id="27" rel="pc">
+          <node begin="16" end="17" id="28" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="17" cat="np" end="19" id="29" rel="obj1">
+            <node begin="17" buiging="met-e" end="18" graad="basis" id="30" lemma="grootschalig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="grootschalig" word="grootschalige"/>
+            <node begin="18" end="19" getal="mv" graad="basis" id="31" lemma="ongeregeldheid" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="ongeregeldheden" word="ongeregeldheden"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="32" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De Mobiele Eenheid kwam op een paar plaatsen in actie , maar er was geen sprake van grootschalige ongeregeldheden .</sentence>
+</alpino_ds>

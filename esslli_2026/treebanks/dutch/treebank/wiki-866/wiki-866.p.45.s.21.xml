@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="8" id="2" rel="--">
+      <node begin="0" end="1" id="3" lemma="2006" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="dp" root="2006" word="2006"/>
+      <node begin="1" cat="mwu" end="3" id="4" rel="dp">
+        <node begin="1" end="2" id="5" lemma="Australian" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Australian" spectype="deeleigen" word="Australian"/>
+        <node begin="2" end="3" id="6" lemma="Open" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Open" spectype="deeleigen" word="Open"/>
+      </node>
+      <node begin="4" cat="np" end="8" id="7" rel="dp">
+        <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="8" lemma="finale" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="finale" word="finale"/>
+        <node begin="5" cat="pp" end="8" id="9" rel="mod">
+          <node begin="5" end="6" id="10" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" vztype="init" word="tegen"/>
+          <node begin="6" cat="mwu" end="8" id="11" rel="obj1">
+            <node begin="6" end="7" id="12" lemma="Amélie" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Amélie" spectype="deeleigen" word="Amélie"/>
+            <node begin="7" end="8" id="13" lemma="Mauresmo" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Mauresmo" spectype="deeleigen" word="Mauresmo"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" id="14" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>2006 Australian Open , finale tegen Amélie Mauresmo .</sentence>
+</alpino_ds>

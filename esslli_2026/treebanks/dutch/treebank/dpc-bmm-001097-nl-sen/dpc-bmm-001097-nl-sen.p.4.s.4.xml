@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" buiging="met-e" end="1" getal="mv" graad="basis" id="3" lemma="beide" naamval="stan" pdtype="grad" pos="det" positie="prenom" postag="VNW(onbep,grad,stan,prenom,met-e,mv,basis)" pt="vnw" rel="det" root="beide" vwtype="onbep" word="Beide"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="4" lemma="lier" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="lier" word="lieren"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="bevatten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="bevat" word="bevatten" wvorm="pv"/>
+      <node begin="3" end="4" id="6" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+      <node begin="4" cat="np" end="14" id="7" rel="obj1">
+        <node begin="4" end="5" id="8" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="9" lemma="trommel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="trommel" word="trommel"/>
+        <node begin="6" cat="pp" end="14" id="10" rel="mod">
+          <node begin="6" end="7" id="11" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+          <node begin="7" cat="np" end="14" id="12" rel="obj1">
+            <node begin="7" end="8" id="13" lemma="350" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="350" word="350"/>
+            <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="14" lemma="meter" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="meter" word="meter"/>
+            <node begin="9" cat="np" end="14" id="15" rel="mod">
+              <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="16" lemma="kabel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="kabel" word="kabel"/>
+              <node begin="10" cat="pp" end="14" id="17" rel="mod">
+                <node begin="10" end="11" id="18" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+                <node begin="11" cat="np" end="14" id="19" rel="obj1">
+                  <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="20" lemma="diameter" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="diameter" word="diameter"/>
+                  <node begin="12" cat="np" end="14" id="21" rel="app">
+                    <node begin="12" end="13" id="22" lemma="24" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="24" word="24"/>
+                    <node begin="13" end="14" id="23" lemma="mm." pos="noun" postag="SPEC(symb)" pt="spec" rel="hd" root="milli_meter" spectype="symb" word="mm."/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>Beide lieren bevatten ook een trommel met 350 meter kabel met diameter 24 mm.</sentence>
+</alpino_ds>

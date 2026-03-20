@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="15" id="2" rel="--">
+      <node begin="0" cat="smain" end="7" id="3" rel="nucl">
+        <node begin="0" cat="np" end="2" id="4" rel="su">
+          <node begin="0" end="1" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+          <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="6" lemma="camera" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="camera" word="camera"/>
+        </node>
+        <node begin="2" end="3" id="7" lemma="bewegen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="beweeg" word="beweegt" wvorm="pv"/>
+        <node begin="3" buiging="zonder" end="4" graad="basis" id="8" lemma="paniekerig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="paniekerig" word="paniekerig"/>
+        <node begin="4" cat="mwu" end="7" id="9" rel="ld">
+          <node begin="4" end="5" id="10" lemma="heen" pos="adv" postag="VZ(fin)" pt="vz" rel="mwp" root="heen" vztype="fin" word="heen"/>
+          <node begin="5" conjtype="neven" end="6" id="11" lemma="en" pos="adv" postag="VG(neven)" pt="vg" rel="mwp" root="en" word="en"/>
+          <node begin="6" end="7" id="12" lemma="weer" pos="adv" postag="BW()" pt="bw" rel="mwp" root="weer" word="weer"/>
+        </node>
+      </node>
+      <node begin="8" cat="conj" end="15" id="13" rel="sat">
+        <node begin="8" cat="np" end="11" id="14" rel="cnj">
+          <node begin="8" buiging="zonder" end="9" graad="basis" id="15" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,basis)" pt="vnw" rel="det" root="veel" vwtype="onbep" word="veel"/>
+          <node begin="9" buiging="met-e" end="10" graad="basis" id="16" lemma="schuin" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="schuin" word="schuine"/>
+          <node begin="10" end="11" getal="mv" graad="basis" id="17" lemma="kader" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kader" word="kaders"/>
+        </node>
+        <node begin="11" conjtype="neven" end="12" id="18" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="12" cat="np" end="15" id="19" rel="cnj">
+          <node begin="12" buiging="zonder" end="13" graad="basis" id="20" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,basis)" pt="vnw" rel="det" root="veel" vwtype="onbep" word="veel"/>
+          <node begin="13" buiging="met-e" end="14" graad="basis" id="21" lemma="vreemd" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="vreemd" word="vreemde"/>
+          <node begin="14" end="15" getal="mv" graad="basis" id="22" lemma="schaduw" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="schaduw" word="schaduwen"/>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="23" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De camera beweegt paniekerig heen en weer , veel schuine kaders en veel vreemde schaduwen .</sentence>
+</alpino_ds>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="12" end="13" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="15" id="3" rel="--">
+      <node begin="0" cat="np" end="7" id="4" rel="cnj">
+        <node begin="0" end="1" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" buiging="met-e" end="2" graad="basis" id="6" lemma="Indiaas" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Indiaas" word="Indiase"/>
+        <node begin="3" cat="ap" end="5" id="7" rel="mod">
+          <node begin="3" end="4" id="8" lemma="vrijwel" pos="adv" postag="BW()" pt="bw" rel="mod" root="vrijwel" word="vrijwel"/>
+          <node begin="4" buiging="met-e" end="5" graad="basis" id="9" lemma="autonoom" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="hd" root="autonoom" word="autonome"/>
+        </node>
+        <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="10" lemma="deelstaat" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="deelstaat" word="deelstaat"/>
+        <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="11" lemma="Jammu_Kashmir" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="app" root="Jammu_Kashmir" word="Jammu-Kashmir"/>
+      </node>
+      <node begin="7" conjtype="neven" end="8" id="12" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="8" cat="np" end="15" id="13" rel="cnj">
+        <node begin="8" end="9" id="14" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+        <node begin="9" buiging="met-e" end="10" graad="basis" id="15" lemma="Pakistaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Pakistaans" word="Pakistaanse"/>
+        <node begin="10" cat="mwu" end="12" id="16" rel="hd">
+          <node begin="10" end="11" id="17" lemma="Azad" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Azad" spectype="deeleigen" word="Azad"/>
+          <node begin="11" end="12" id="18" lemma="Kashmir" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Kashmir" spectype="deeleigen" word="Kashmir"/>
+        </node>
+        <node begin="13" cat="mwu" end="15" id="19" rel="mod">
+          <node begin="13" buiging="zonder" end="14" graad="basis" id="20" lemma="vrij" pos="name" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mwp" root="Vrij" word="Vrij"/>
+          <node begin="14" end="15" genus="onz" getal="ev" graad="basis" id="21" lemma="Kashmir" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="mwp" root="Kashmir" word="Kashmir"/>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De Indiase , vrijwel autonome deelstaat Jammu-Kashmir en het Pakistaanse Azad Kashmir , Vrij Kashmir .</sentence>
+</alpino_ds>

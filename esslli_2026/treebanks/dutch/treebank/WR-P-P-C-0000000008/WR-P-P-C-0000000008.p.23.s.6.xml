@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="23" id="0" rel="top">
+    <node begin="12" end="13" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="15" end="16" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="17" end="18" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="22" id="4" rel="--">
+      <node begin="0" end="1" id="5" lemma="zo" pos="adv" postag="BW()" pt="bw" rel="mod" root="zo" word="Zo"/>
+      <node begin="1" end="2" id="6" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+      <node begin="2" end="3" getal="getal" id="7" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+      <node begin="3" cat="np" end="22" id="8" rel="su">
+        <node begin="3" buiging="zonder" end="4" graad="comp" id="9" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="det" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,comp)" pt="vnw" rel="det" root="meer" vwtype="onbep" word="meer"/>
+        <node begin="4" end="5" getal="mv" graad="basis" id="10" lemma="zaak" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="zaak" word="zaken"/>
+        <node begin="5" cat="rel" end="12" id="11" rel="mod">
+          <node begin="5" end="6" getal="getal" id="12" index="1" lemma="waar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="noun" postag="VNW(vb,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="rhd" root="waar" status="vol" vwtype="vb" word="waar"/>
+          <node begin="5" cat="ssub" end="12" id="13" rel="body">
+            <node begin="6" end="7" getal="getal" id="14" index="2" lemma="u" naamval="nomin" pdtype="pron" persoon="2b" pos="pron" postag="VNW(pers,pron,nomin,vol,2b,getal)" pt="vnw" rel="su" root="u" status="vol" vwtype="pers" word="u"/>
+            <node begin="7" end="8" id="15" lemma="zelf" pos="adv" postag="BW()" pt="bw" rel="predm" root="zelf" word="zelf"/>
+            <node begin="10" end="11" id="16" lemma="moeten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="moet" word="moet" wvorm="pv"/>
+            <node begin="5" cat="inf" end="12" id="17" rel="vc">
+              <node begin="6" end="7" id="18" index="2" rel="su"/>
+              <node begin="5" cat="ap" end="10" id="19" rel="predc">
+                <node begin="8" buiging="zonder" end="9" graad="basis" id="20" lemma="attent" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="attent" word="attent"/>
+                <node begin="5" cat="pp" end="10" id="21" rel="pc">
+                  <node begin="5" end="6" id="22" index="1" rel="obj1"/>
+                  <node begin="9" end="10" id="23" lemma="op" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="op" vztype="fin" word="op"/>
+                </node>
+              </node>
+              <node begin="11" buiging="zonder" end="12" id="24" lemma="zijn" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ben" word="zijn" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+        <node begin="13" cat="cp" end="22" id="25" rel="mod">
+          <node begin="13" conjtype="onder" end="14" id="26" lemma="zoals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zoals" word="zoals"/>
+          <node begin="14" cat="conj" end="22" id="27" rel="body">
+            <node begin="14" end="15" genus="onz" getal="ev" graad="basis" id="28" lemma="asbest" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="cnj" root="asbest" word="asbest"/>
+            <node begin="16" end="17" genus="onz" getal="ev" graad="basis" id="29" lemma="radon" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="cnj" root="radon" word="radon"/>
+            <node begin="18" end="19" genus="zijd" getal="ev" graad="basis" id="30" lemma="legionella" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="legionella" word="legionella"/>
+            <node begin="19" conjtype="neven" end="20" id="31" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+            <node begin="20" cat="np" end="22" id="32" rel="cnj">
+              <node begin="20" buiging="zonder" end="21" graad="basis" id="33" lemma="loden" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="loden" word="loden"/>
+              <node begin="21" end="22" getal="mv" graad="basis" id="34" lemma="water_leiding" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="waterleiding" word="waterleidingen"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="22" end="23" id="35" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Zo zijn er meer zaken waar u zelf attent op moet zijn , zoals asbest , radon , legionella of loden waterleidingen .</sentence>
+</alpino_ds>

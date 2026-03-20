@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="35" id="0" rel="top">
+    <node begin="11" end="12" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="21" end="22" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="34" id="3" rel="--">
+      <node begin="0" cat="cp" end="11" id="4" rel="su">
+        <node begin="0" conjtype="onder" end="1" id="5" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="Dat"/>
+        <node begin="1" cat="ssub" end="11" id="6" rel="body">
+          <node begin="4" end="5" id="7" lemma="kunnen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="kan" word="kon" wvorm="pv"/>
+          <node begin="1" cat="inf" end="11" id="8" rel="vc">
+            <node begin="5" buiging="zonder" end="6" id="9" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+            <node begin="1" cat="ppart" end="11" id="10" rel="vc">
+              <node begin="6" buiging="zonder" end="7" id="11" lemma="aan_tonen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="toon_aan" word="aangetoond" wvorm="vd"/>
+              <node begin="1" cat="np" end="11" id="12" index="1" rel="obj1">
+                <node begin="1" buiging="zonder" end="2" id="13" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="geen"/>
+                <node begin="2" buiging="zonder" end="3" graad="basis" id="14" lemma="significant" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="significant" word="significant"/>
+                <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="15" lemma="effect" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="effect" word="effect"/>
+                <node begin="7" cat="pp" end="11" id="16" rel="mod">
+                  <node begin="7" end="8" id="17" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+                  <node begin="8" cat="np" end="11" id="18" rel="obj1">
+                    <node begin="8" end="9" id="19" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="9" buiging="met-e" end="10" graad="basis" id="20" lemma="totaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="totaal" word="totale"/>
+                    <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="21" lemma="overleving" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="overleving" word="overleving"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node begin="1" end="11" id="22" index="1" rel="su"/>
+          </node>
+          <node begin="1" end="11" id="23" index="1" rel="su"/>
+        </node>
+      </node>
+      <node begin="12" end="13" id="24" lemma="komen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="kom" word="komt" wvorm="pv"/>
+      <node begin="13" buiging="zonder" end="14" graad="basis" id="25" lemma="waarschijnlijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="waarschijnlijk" word="waarschijnlijk"/>
+      <node begin="14" cat="cp" end="34" id="26" rel="mod">
+        <node begin="14" conjtype="onder" end="15" id="27" lemma="doordat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="doordat" word="doordat"/>
+        <node begin="15" cat="ssub" end="34" id="28" rel="body">
+          <node begin="15" cat="np" end="17" id="29" rel="su">
+            <node begin="15" end="16" id="30" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="31" lemma="follow-up" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="follow-up" word="follow-up"/>
+          </node>
+          <node begin="17" end="18" id="32" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" word="nog"/>
+          <node begin="18" cat="ap" end="20" id="33" rel="predc">
+            <node begin="18" buiging="zonder" end="19" graad="basis" id="34" lemma="vrij" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="vrij" word="vrij"/>
+            <node begin="19" buiging="zonder" end="20" graad="basis" id="35" lemma="kort" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="kort" word="kort"/>
+          </node>
+          <node begin="20" end="21" id="36" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+          <node begin="22" cat="cp" end="34" id="37" rel="mod">
+            <node begin="22" end="23" id="38" lemma="temeer" pos="adv" postag="BW()" pt="bw" rel="mod" root="temeer" word="temeer"/>
+            <node begin="23" conjtype="onder" end="24" id="39" lemma="daar" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="daar" word="daar"/>
+            <node begin="24" cat="ssub" end="34" id="40" rel="body">
+              <node begin="24" cat="np" end="26" id="41" rel="su">
+                <node begin="24" buiging="zonder" end="25" id="42" lemma="die" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,rest)" pt="vnw" rel="det" root="die" vwtype="aanw" word="die"/>
+                <node begin="25" end="26" genus="zijd" getal="ev" graad="basis" id="43" lemma="aromatase_remmer" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="aromataseremmer" word="aromataseremmer"/>
+              </node>
+              <node begin="29" end="30" id="44" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="heeft" wvorm="pv"/>
+              <node begin="26" cat="np" end="34" id="45" rel="obj1">
+                <node begin="26" end="27" id="46" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                <node begin="27" buiging="zonder" end="28" graad="comp" id="47" lemma="sterk" pos="adj" positie="prenom" postag="ADJ(prenom,comp,zonder)" pt="adj" rel="mod" root="sterk" word="sterker"/>
+                <node begin="28" end="29" genus="onz" getal="ev" graad="basis" id="48" lemma="effect" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="effect" word="effect"/>
+                <node begin="30" cat="pp" end="34" id="49" rel="mod">
+                  <node begin="30" end="31" id="50" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                  <node begin="31" cat="np" end="34" id="51" rel="obj1">
+                    <node begin="31" end="32" id="52" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="32" cat="mwu" end="34" id="53" rel="hd">
+                      <node begin="32" end="33" id="54" lemma="N-" pos="name" postag="SPEC(symb)" pt="spec" rel="mwp" root="N-" spectype="symb" word="N-"/>
+                      <node begin="33" end="34" genus="zijd" getal="ev" graad="basis" id="55" lemma="sub_groep" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="subgroep" word="subgroep"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="34" end="35" id="56" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dat geen significant effect kon worden aangetoond op de totale overleving , komt waarschijnlijk doordat de follow-up nog vrij kort is , temeer daar die aromataseremmer een sterker effect heeft in de N- subgroep .</sentence>
+</alpino_ds>

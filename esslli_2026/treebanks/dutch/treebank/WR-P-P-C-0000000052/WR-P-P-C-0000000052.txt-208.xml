@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" buiging="zonder" end="1" graad="basis" id="3" lemma="overmatig" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="overmatig" word="Overmatig"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="4" lemma="alcohol_gebruik" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="alcohol_gebruik" word="alcoholgebruik"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="heeft" wvorm="pv"/>
+      <node begin="3" cat="np" end="8" id="6" rel="obj1">
+        <node begin="3" buiging="met-e" end="4" graad="basis" id="7" lemma="enorm" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="enorm" word="enorme"/>
+        <node begin="4" cat="conj" end="7" id="8" rel="mod">
+          <node begin="4" buiging="met-e" end="5" graad="basis" id="9" lemma="sociaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="sociaal" word="sociale"/>
+          <node begin="5" conjtype="neven" end="6" id="10" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="6" buiging="met-e" end="7" graad="basis" id="11" lemma="maatschappelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="maatschappelijk" word="maatschappelijke"/>
+        </node>
+        <node begin="7" end="8" getal="mv" graad="basis" id="12" lemma="gevolg" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="gevolg" word="gevolgen"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="13" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Overmatig alcoholgebruik heeft enorme sociale en maatschappelijke gevolgen .</sentence>
+</alpino_ds>

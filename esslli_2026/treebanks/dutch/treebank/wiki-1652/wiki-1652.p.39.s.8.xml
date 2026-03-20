@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="6" end="7" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="8" end="9" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="np" end="13" id="4" rel="--">
+      <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="5" lemma="Sandrine" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Sandrine" word="Sandrine"/>
+      <node begin="2" cat="np" end="6" id="6" rel="app">
+        <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="7" lemma="deelneemster" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="deelneemster" word="deelneemster"/>
+        <node begin="3" cat="pp" end="6" id="8" rel="mod">
+          <node begin="3" end="4" id="9" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="4" cat="np" end="6" id="10" rel="obj1">
+            <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="11" lemma="Idool" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Idool" word="Idool"/>
+            <node begin="5" end="6" id="12" lemma="2004" numtype="hoofd" pos="name" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mod" root="2004" word="2004"/>
+          </node>
+        </node>
+      </node>
+      <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="13" lemma="zangeres" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="app" root="zangeres" word="zangeres"/>
+      <node begin="9" cat="np" end="13" id="14" rel="app">
+        <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="15" lemma="presentatrice" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="presentatrice" word="presentatrice"/>
+        <node begin="10" cat="mwu" end="12" id="16" rel="app">
+          <node begin="10" end="11" id="17" lemma="Big" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Big" spectype="vreemd" word="Big"/>
+          <node begin="11" end="12" id="18" lemma="Brother" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Brother" spectype="vreemd" word="Brother"/>
+        </node>
+        <node begin="12" end="13" id="19" lemma="2006" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mod" root="2006" word="2006"/>
+      </node>
+    </node>
+  </node>
+  <sentence>Sandrine , deelneemster van Idool 2004 , zangeres , presentatrice Big Brother 2006</sentence>
+</alpino_ds>

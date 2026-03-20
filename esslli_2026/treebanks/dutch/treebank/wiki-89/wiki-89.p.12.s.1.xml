@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="33" id="0" rel="top">
+    <node begin="11" end="12" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="13" end="14" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="15" end="16" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="22" end="23" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="27" end="28" id="5" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="28" end="29" id="6" lemma="«" pos="punct" postag="LET()" pt="let" rel="--" root="«" word="«"/>
+    <node begin="0" cat="smain" end="30" id="7" rel="--">
+      <node begin="0" cat="np" end="2" id="8" rel="su">
+        <node begin="0" end="1" id="9" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="10" lemma="ABVV" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="ABVV" word="ABVV"/>
+      </node>
+      <node begin="2" end="3" id="11" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="3" cat="np" end="30" id="12" rel="predc">
+        <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="13" lemma="lid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="lid" word="lid"/>
+        <node begin="4" cat="conj" end="30" id="14" rel="mod">
+          <node begin="4" cat="pp" end="13" id="15" rel="cnj">
+            <node begin="4" end="5" id="16" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="5" cat="np" end="13" id="17" rel="obj1">
+              <node begin="5" end="6" id="18" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="6" cat="mwu" end="11" id="19" rel="hd">
+                <node begin="6" end="7" id="20" lemma="Internationaal" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Internationaal" spectype="deeleigen" word="Internationaal"/>
+                <node begin="7" end="8" id="21" lemma="Verbond" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Verbond" spectype="deeleigen" word="Verbond"/>
+                <node begin="8" end="9" id="22" lemma="van" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="van" spectype="deeleigen" word="van"/>
+                <node begin="9" end="10" id="23" lemma="Vrije" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Vrije" spectype="deeleigen" word="Vrije"/>
+                <node begin="10" end="11" id="24" lemma="Vakverenigingen" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Vakverenigingen" spectype="deeleigen" word="Vakverenigingen"/>
+              </node>
+              <node begin="12" end="13" genus="onz" getal="ev" graad="basis" id="25" lemma="IVVV" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="mod" root="IVVV" word="IVVV"/>
+            </node>
+          </node>
+          <node begin="14" conjtype="neven" end="15" id="26" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="16" cat="pp" end="30" id="27" rel="cnj">
+            <node begin="16" cat="cp" end="22" id="28" rel="mod">
+              <node begin="16" end="17" id="29" lemma="net" pos="adv" postag="BW()" pt="bw" rel="mod" root="net" word="net"/>
+              <node begin="17" conjtype="onder" end="18" id="30" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+              <node begin="18" cat="np" end="22" id="31" rel="body">
+                <node begin="18" buiging="met-e" end="19" id="32" lemma="al" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,agr)" pt="vnw" rel="det" root="alle" vwtype="onbep" word="alle"/>
+                <node begin="19" buiging="met-e" end="20" graad="basis" id="33" lemma="ander" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ander" word="andere"/>
+                <node begin="20" buiging="met-e" end="21" graad="basis" id="34" lemma="Belgisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Belgisch" word="Belgische"/>
+                <node begin="21" end="22" getal="mv" graad="basis" id="35" lemma="vakbond" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vakbond" word="vakbonden"/>
+              </node>
+            </node>
+            <node begin="23" end="24" id="36" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="24" cat="np" end="30" id="37" rel="obj1">
+              <node begin="24" end="25" id="38" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="25" cat="mwu" end="27" id="39" rel="hd">
+                <node begin="25" end="26" id="40" lemma="Europees" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Europees" spectype="deeleigen" word="Europees"/>
+                <node begin="26" end="27" id="41" lemma="Vakverbond" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Vakverbond" spectype="deeleigen" word="Vakverbond"/>
+              </node>
+              <node begin="29" end="30" genus="onz" getal="ev" graad="basis" id="42" lemma="EVV" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="mod" root="EVV" word="EVV"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="30" end="31" id="43" lemma="»" pos="punct" postag="LET()" pt="let" rel="--" root="»" word="»"/>
+    <node begin="31" end="32" id="44" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="32" end="33" id="45" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het ABVV is lid van het Internationaal Verbond van Vrije Vakverenigingen ( IVVV ) en , net als alle andere Belgische vakbonden , van het Europees Vakverbond ( « EVV » ) .</sentence>
+</alpino_ds>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="smain" end="15" id="1" rel="--">
+      <node begin="0" cat="pp" end="7" id="2" rel="mod">
+        <node begin="0" end="1" id="3" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" vztype="init" word="Na"/>
+        <node begin="1" cat="np" end="7" id="4" rel="obj1">
+          <node begin="1" end="2" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="2" end="3" getal="mv" graad="basis" id="6" lemma="aanslag" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="aanslag" word="aanslagen"/>
+          <node begin="3" cat="pp" end="7" id="7" rel="mod">
+            <node begin="3" end="4" id="8" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="4" cat="mwu" end="7" id="9" rel="obj1">
+              <node begin="4" end="5" id="10" lemma="11" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="11" word="11"/>
+              <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="11" lemma="september" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="september" word="september"/>
+              <node begin="6" end="7" id="12" lemma="2001" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="2001" word="2001"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="7" end="8" id="13" lemma="scharen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="schaar" word="schaarde" wvorm="pv"/>
+      <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="14" lemma="Duitsland" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" root="Duitsland" word="Duitsland"/>
+      <node begin="9" end="10" getal="getal" id="15" lemma="zich" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="se" root="zich" status="red" vwtype="refl" word="zich"/>
+      <node begin="10" buiging="zonder" end="11" graad="basis" id="16" lemma="onvoorwaardelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="onvoorwaardelijk" word="onvoorwaardelijk"/>
+      <node begin="11" cat="pp" end="15" id="17" rel="ld">
+        <node begin="11" end="12" id="18" lemma="achter" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="achter" vztype="init" word="achter"/>
+        <node begin="12" cat="np" end="15" id="19" rel="obj1">
+          <node begin="12" end="13" id="20" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="13" cat="mwu" end="15" id="21" rel="hd">
+            <node begin="13" end="14" id="22" lemma="Verenigde" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Verenigde" spectype="deeleigen" word="Verenigde"/>
+            <node begin="14" end="15" id="23" lemma="Staten" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Staten" spectype="deeleigen" word="Staten"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="24" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Na de aanslagen van 11 september 2001 schaarde Duitsland zich onvoorwaardelijk achter de Verenigde Staten .</sentence>
+</alpino_ds>

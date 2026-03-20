@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="du" end="11" id="2" rel="--">
+      <node begin="0" cat="np" end="4" id="3" rel="nucl">
+        <node begin="0" buiging="zonder" end="1" graad="basis" id="4" lemma="overmatig" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="overmatig" word="Overmatig"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="5" lemma="drank_gebruik" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="drank_gebruik" word="drankgebruik"/>
+        <node begin="2" cat="pp" end="4" id="6" rel="mod">
+          <node begin="2" end="3" id="7" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="3" end="4" getal="mv" graad="dim" id="8" lemma="meisje" ntype="soort" pos="noun" postag="N(soort,mv,dim)" pt="n" rel="obj1" root="meisje" word="meisjes"/>
+        </node>
+      </node>
+      <node begin="5" cat="conj" end="11" id="9" rel="sat">
+        <node begin="7" conjtype="neven" end="8" id="10" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+        <node begin="5" cat="np" end="11" id="11" rel="cnj">
+          <node begin="5" end="6" id="12" lemma="14" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="14" word="14"/>
+          <node begin="6" end="7" getal="mv" graad="basis" id="13" lemma="glas" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="glas" word="glazen"/>
+          <node begin="9" cat="pp" end="11" id="14" index="1" rel="mod">
+            <node begin="9" end="10" id="15" lemma="per" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="per" vztype="init" word="per"/>
+            <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="16" lemma="week" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="week" word="week"/>
+          </node>
+        </node>
+        <node begin="8" cat="np" end="11" id="17" rel="cnj">
+          <node begin="8" buiging="zonder" end="9" graad="comp" id="18" lemma="veel" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="hd" root="meer" vwtype="onbep" word="meer"/>
+          <node begin="9" end="11" id="19" index="1" rel="mod"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>Overmatig drankgebruik voor meisjes : 14 glazen of meer per week</sentence>
+</alpino_ds>

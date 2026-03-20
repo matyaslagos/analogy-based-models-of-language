@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="conj" end="11" id="1" rel="--">
+      <node begin="0" cat="ssub" end="5" id="2" rel="cnj">
+        <node begin="0" cat="ap" end="3" id="3" index="1" rel="mod">
+          <node begin="0" cat="np" end="2" id="4" rel="me">
+            <node begin="0" end="1" id="5" lemma="zes" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="zes" word="Zes"/>
+            <node begin="1" end="2" getal="mv" graad="basis" id="6" lemma="dag" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="dag" word="dagen"/>
+          </node>
+          <node begin="2" buiging="zonder" end="3" graad="comp" id="7" lemma="laat" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="laat" word="later"/>
+        </node>
+        <node begin="3" end="4" id="8" lemma="capituleren" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="capituleer" word="capituleerde" wvorm="pv"/>
+        <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="9" lemma="Japan" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" root="Japan" word="Japan"/>
+      </node>
+      <node begin="5" conjtype="neven" end="6" id="10" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="0" cat="ssub" end="11" id="11" rel="cnj">
+        <node begin="0" end="3" id="12" index="1" rel="mod"/>
+        <node begin="6" end="7" id="13" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+        <node begin="7" cat="np" end="10" id="14" rel="su">
+          <node begin="7" end="8" id="15" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="8" cat="mwu" end="10" id="16" rel="hd">
+            <node begin="8" end="9" id="17" lemma="Tweede" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Tweede" spectype="deeleigen" word="Tweede"/>
+            <node begin="9" end="10" id="18" lemma="Wereldoorlog" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Wereldoorlog" spectype="deeleigen" word="Wereldoorlog"/>
+          </node>
+        </node>
+        <node begin="10" buiging="zonder" end="11" graad="basis" id="19" lemma="voorbij" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="voorbij" word="voorbij"/>
+      </node>
+    </node>
+    <node begin="11" end="12" id="20" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Zes dagen later capituleerde Japan en was de Tweede Wereldoorlog voorbij .</sentence>
+</alpino_ds>

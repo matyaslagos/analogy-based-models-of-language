@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="3" end="4" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="1" cat="du" end="6" id="3" rel="--">
+      <node begin="1" cat="mwu" end="3" id="4" rel="dp">
+        <node begin="1" end="2" id="5" lemma="Lodewijk" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Lodewijk" spectype="deeleigen" word="Lodewijk"/>
+        <node begin="2" end="3" id="6" lemma="Meyer" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Meyer" spectype="deeleigen" word="Meyer"/>
+      </node>
+      <node begin="4" cat="mwu" end="6" id="7" rel="dp">
+        <node begin="4" buiging="met-e" end="5" graad="basis" id="8" lemma="verloofd" naamval="stan" pos="name" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mwp" root="Verloofde" word="Verloofde"/>
+        <node begin="5" end="6" id="9" lemma="koninksbruidt" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="koninksbruidt" spectype="vreemd" word="koninksbruidt"/>
+      </node>
+    </node>
+  </node>
+  <sentence>- Lodewijk Meyer , Verloofde koninksbruidt</sentence>
+</alpino_ds>

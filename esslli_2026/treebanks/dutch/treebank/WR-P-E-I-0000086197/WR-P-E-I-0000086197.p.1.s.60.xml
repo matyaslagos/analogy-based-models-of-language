@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="33" id="0" rel="top">
+    <node begin="0" cat="conj" end="32" id="1" rel="--">
+      <node begin="0" cat="smain" end="12" id="2" rel="cnj">
+        <node begin="0" cat="np" end="2" id="3" index="1" rel="su">
+          <node begin="0" end="1" id="4" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+          <node begin="1" end="2" getal="mv" graad="basis" id="5" lemma="heiden" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="heiden" word="heidenen"/>
+        </node>
+        <node begin="2" end="3" id="6" lemma="zijn" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="ben" word="waren" wvorm="pv"/>
+        <node begin="0" cat="ppart" end="12" id="7" rel="vc">
+          <node begin="0" end="2" id="8" index="1" rel="su"/>
+          <node begin="3" cat="pp" end="11" id="9" rel="ld">
+            <node begin="3" end="4" id="10" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" vztype="init" word="tot"/>
+            <node begin="4" cat="pp" end="11" id="11" rel="obj1">
+              <node begin="4" end="5" id="12" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+              <node begin="5" cat="np" end="11" id="13" rel="obj1">
+                <node begin="5" end="6" id="14" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="15" lemma="hart" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="hart" word="hart"/>
+                <node begin="7" cat="pp" end="11" id="16" rel="mod">
+                  <node begin="7" end="8" id="17" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                  <node begin="8" cat="np" end="11" id="18" rel="obj1">
+                    <node begin="8" end="9" id="19" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="9" buiging="met-e" end="10" graad="basis" id="20" lemma="christelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="christelijk" word="christelijke"/>
+                    <node begin="10" end="11" getal="mv" graad="basis" id="21" lemma="gebied" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="gebied" word="gebieden"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="11" buiging="zonder" end="12" id="22" lemma="door_dringen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="dring_door" word="doorgedrongen" wvorm="vd"/>
+        </node>
+      </node>
+      <node begin="12" conjtype="neven" end="13" id="23" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="13" cat="smain" end="22" id="24" rel="cnj">
+        <node begin="17" end="18" id="25" lemma="worden" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="word" word="werden" wvorm="pv"/>
+        <node begin="18" cat="np" end="20" id="26" index="2" rel="su">
+          <node begin="18" end="19" id="27" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="19" end="20" getal="mv" graad="basis" id="28" lemma="christen" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="christen" word="christenen"/>
+        </node>
+        <node begin="13" cat="ppart" end="22" id="29" rel="vc">
+          <node begin="13" cat="whrel" end="17" id="30" rel="mod">
+            <node begin="13" end="14" getal="getal" id="31" index="3" lemma="waar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(vb,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="rhd" root="waar" status="vol" vwtype="vb" word="waar"/>
+            <node begin="13" cat="ssub" end="17" id="32" rel="body">
+              <node begin="13" end="14" id="33" index="3" rel="ld"/>
+              <node begin="14" end="15" getal="mv" id="34" lemma="zij" naamval="nomin" pdtype="pron" persoon="3p" pos="pron" postag="VNW(pers,pron,nomin,vol,3p,mv)" pt="vnw" rel="su" root="zij" status="vol" vwtype="pers" word="zij"/>
+              <node begin="15" end="16" getal="getal" id="35" lemma="zich" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="se" root="zich" status="red" vwtype="refl" word="zich"/>
+              <node begin="16" end="17" id="36" lemma="vestigen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="vestig" word="vestigden" wvorm="pv"/>
+            </node>
+          </node>
+          <node begin="18" end="20" id="37" index="2" rel="obj1"/>
+          <node begin="20" buiging="zonder" end="21" graad="basis" id="38" lemma="slecht" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="slecht" word="slecht"/>
+          <node begin="21" buiging="zonder" end="22" id="39" lemma="behandelen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="behandel" word="behandeld" wvorm="vd"/>
+        </node>
+      </node>
+      <node begin="22" conjtype="neven" end="23" id="40" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="23" cat="smain" end="32" id="41" rel="cnj">
+        <node begin="23" cat="np" end="26" id="42" index="4" rel="su">
+          <node begin="23" end="24" id="43" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="24" buiging="met-e" end="25" graad="basis" id="44" lemma="aanwezig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="aanwezig" word="aanwezige"/>
+          <node begin="25" end="26" getal="mv" graad="basis" id="45" lemma="heiligdom" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="heiligdom" word="heiligdommen"/>
+        </node>
+        <node begin="26" end="27" id="46" lemma="worden" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="word" word="werden" wvorm="pv"/>
+        <node begin="23" cat="ppart" end="32" id="47" rel="vc">
+          <node begin="23" end="26" id="48" index="4" rel="obj1"/>
+          <node begin="27" end="28" id="49" lemma="zelfs" pos="adv" postag="BW()" pt="bw" rel="mod" root="zelfs" word="zelfs"/>
+          <node begin="28" buiging="zonder" end="29" id="50" lemma="ontheiligen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="ontheilig" word="ontheiligd" wvorm="vd"/>
+          <node begin="29" cat="pp" end="32" id="51" rel="mod">
+            <node begin="29" end="30" id="52" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+            <node begin="30" cat="np" end="32" id="53" rel="obj1">
+              <node begin="30" end="31" id="54" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="31" end="32" getal="mv" graad="basis" id="55" lemma="heiden" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="heiden" word="heidenen"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="32" end="33" id="56" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De heidenen waren tot in het hart van de christelijke gebieden doorgedrongen en waar zij zich vestigden werden de christenen slecht behandeld en de aanwezige heiligdommen werden zelfs ontheiligd door de heidenen .</sentence>
+</alpino_ds>

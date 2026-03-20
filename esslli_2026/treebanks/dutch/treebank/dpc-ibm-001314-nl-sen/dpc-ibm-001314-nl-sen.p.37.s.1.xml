@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="8" end="9" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="14" id="3" rel="--">
+      <node begin="0" cat="np" end="2" id="4" rel="su">
+        <node begin="0" buiging="zonder" end="1" graad="basis" id="5" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,basis)" pt="vnw" rel="det" root="veel" vwtype="onbep" word="Veel"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="6" lemma="bank" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="bank" word="banken"/>
+      </node>
+      <node begin="2" end="3" id="7" lemma="kennen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ken" word="kennen" wvorm="pv"/>
+      <node begin="3" cat="np" end="14" id="8" rel="obj1">
+        <node begin="3" end="4" id="9" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+        <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="10" lemma="probleem" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="probleem" word="probleem"/>
+        <node begin="6" cat="conj" end="14" id="11" rel="mod">
+          <node begin="6" cat="np" end="8" id="12" rel="cnj">
+            <node begin="6" buiging="met-e" end="7" id="13" lemma="versnipperen" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="versnipperd" word="versnipperde" wvorm="vd"/>
+            <node begin="7" end="8" getal="mv" graad="basis" id="14" lemma="operatie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="operatie" word="operaties"/>
+          </node>
+          <node begin="9" cat="np" end="11" id="15" rel="cnj">
+            <node begin="9" buiging="met-e" end="10" graad="basis" id="16" lemma="inefficiënt" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="inefficiënt" word="inefficiënte"/>
+            <node begin="10" end="11" getal="mv" graad="basis" id="17" lemma="kost_structuur" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kosten_structuur" word="kostenstructuren"/>
+          </node>
+          <node begin="11" conjtype="neven" end="12" id="18" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="12" cat="np" end="14" id="19" rel="cnj">
+            <node begin="12" buiging="met-e" end="13" graad="basis" id="20" lemma="overbodig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="overbodig" word="overbodige"/>
+            <node begin="13" end="14" getal="mv" graad="basis" id="21" lemma="taak" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="taak" word="taken"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Veel banken kennen het probleem : versnipperde operaties , inefficiënte kostenstructuren en overbodige taken .</sentence>
+</alpino_ds>

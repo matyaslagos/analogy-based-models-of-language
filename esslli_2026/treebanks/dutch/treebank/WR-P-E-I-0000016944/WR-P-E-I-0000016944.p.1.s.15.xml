@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="sv1" end="10" id="1" rel="--">
+      <node begin="0" end="1" id="2" lemma="zien" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zie" word="Zie" wvorm="pv"/>
+      <node begin="1" cat="pp" end="4" id="3" rel="mod">
+        <node begin="1" end="2" id="4" lemma="onder" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="onder" vztype="init" word="onder"/>
+        <node begin="2" cat="np" end="4" id="5" rel="obj1">
+          <node begin="2" buiging="met-e" end="3" graad="basis" id="6" lemma="extern" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="extern" word="externe"/>
+          <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="7" lemma="link" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="link" word="link"/>
+        </node>
+      </node>
+      <node begin="4" cat="np" end="10" id="8" rel="obj1">
+        <node begin="4" end="5" id="9" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+        <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="10" lemma="artikel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="artikel" word="artikel"/>
+        <node begin="6" cat="pp" end="10" id="11" rel="mod">
+          <node begin="6" end="7" id="12" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="7" cat="mwu" end="10" id="13" rel="obj1">
+            <node begin="7" end="8" id="14" lemma="Dr" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Dr" spectype="deeleigen" word="Dr"/>
+            <node begin="8" end="9" id="15" lemma="Mark" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Mark" spectype="deeleigen" word="Mark"/>
+            <node begin="9" end="10" id="16" lemma="Ostrowski" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Ostrowski" spectype="deeleigen" word="Ostrowski"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="10" end="11" id="17" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Zie onder externe link het artikel van Dr Mark Ostrowski .</sentence>
+</alpino_ds>

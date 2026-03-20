@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="33" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="32" id="2" rel="--">
+      <node begin="0" buiging="zonder" end="1" graad="basis" id="3" lemma="essentieel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="essentieel" word="Essentieel"/>
+      <node begin="1" end="2" id="4" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="2" cat="np" end="32" id="5" rel="su">
+        <node begin="2" end="3" id="6" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="7" lemma="versmelting" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="versmelting" word="versmelting"/>
+        <node begin="4" cat="pp" end="18" id="8" rel="mod">
+          <node begin="4" end="5" id="9" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="5" cat="conj" end="18" id="10" rel="obj1">
+            <node begin="5" cat="np" end="7" id="11" rel="cnj">
+              <node begin="5" buiging="met-e" end="6" graad="basis" id="12" lemma="economisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="economisch" word="economische"/>
+              <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="13" lemma="groei" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="groei" word="groei"/>
+            </node>
+            <node begin="8" cat="np" end="10" id="14" rel="cnj">
+              <node begin="8" buiging="met-e" end="9" graad="basis" id="15" lemma="sociaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="sociaal" word="sociale"/>
+              <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="16" lemma="vooruitgang" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="vooruitgang" word="vooruitgang"/>
+            </node>
+            <node begin="10" conjtype="neven" end="11" id="17" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="11" cat="np" end="18" id="18" rel="cnj">
+              <node begin="11" buiging="zonder" end="12" graad="basis" id="19" lemma="ecologisch" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="ecologisch" word="ecologisch"/>
+              <node begin="12" end="13" genus="onz" getal="ev" graad="basis" id="20" lemma="evenwicht" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="evenwicht" word="evenwicht"/>
+              <node begin="13" cat="rel" end="18" id="21" rel="mod">
+                <node begin="13" end="14" id="22" index="1" lemma="waarbij" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waarbij" word="waarbij"/>
+                <node begin="13" cat="ssub" end="18" id="23" rel="body">
+                  <node begin="13" cat="ppart" end="17" id="24" rel="vc">
+                    <node begin="13" end="14" id="25" index="1" rel="mod"/>
+                    <node begin="14" cat="pp" end="16" id="26" rel="pc">
+                      <node begin="14" end="15" id="27" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+                      <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="28" lemma="leven_kwaliteit" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="leven_kwaliteit" word="levenskwaliteit"/>
+                    </node>
+                    <node begin="16" buiging="zonder" end="17" id="29" lemma="streven" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="streef" word="gestreefd" wvorm="vd"/>
+                  </node>
+                  <node begin="17" end="18" id="30" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="18" cat="conj" end="32" id="31" rel="mod">
+          <node begin="18" conjtype="neven" end="19" id="32" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="19" cat="detp" end="24" id="33" rel="cnj">
+            <node begin="19" end="20" getal="ev" id="34" lemma="dit" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="hd" root="dit" status="vol" vwtype="aanw" word="dit"/>
+            <node begin="20" cat="mwu" end="22" id="35" rel="mod">
+              <node begin="20" end="21" id="36" lemma="niet" pos="vg" postag="BW()" pt="bw" rel="mwp" root="niet" word="niet"/>
+              <node begin="21" end="22" id="37" lemma="alleen" pos="vg" postag="BW()" pt="bw" rel="mwp" root="alleen" word="alleen"/>
+            </node>
+            <node begin="22" cat="pp" end="24" id="38" rel="mod">
+              <node begin="22" end="23" id="39" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+              <node begin="23" end="24" genus="onz" getal="ev" graad="basis" id="40" lemma="Vlaanderen" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Vlaanderen" word="Vlaanderen"/>
+            </node>
+          </node>
+          <node begin="24" conjtype="neven" end="25" id="41" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+          <node begin="25" cat="pp" end="32" id="42" rel="cnj">
+            <node begin="25" end="26" id="43" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+            <node begin="26" end="27" id="44" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="27" cat="np" end="32" id="45" rel="obj1">
+              <node begin="27" end="28" id="46" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="28" end="29" genus="zijd" getal="ev" graad="basis" id="47" lemma="rest" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="rest" word="rest"/>
+              <node begin="29" cat="pp" end="32" id="48" rel="mod">
+                <node begin="29" end="30" id="49" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="30" cat="np" end="32" id="50" rel="obj1">
+                  <node begin="30" end="31" id="51" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="31" end="32" genus="zijd" getal="ev" graad="basis" id="52" lemma="wereld" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="wereld" word="wereld"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="32" end="33" id="53" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Essentieel is een versmelting van economische groei , sociale vooruitgang en ecologisch evenwicht waarbij naar levenskwaliteit gestreefd wordt en dit niet alleen in Vlaanderen maar ook in de rest van de wereld .</sentence>
+</alpino_ds>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="50" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="12" end="13" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="23" end="24" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="26" end="27" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="29" end="30" id="5" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="34" end="35" id="6" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="40" end="41" id="7" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="44" end="45" id="8" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="45" end="46" id="9" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="49" id="10" rel="--">
+      <node begin="4" end="5" id="11" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+      <node begin="46" cat="np" end="48" id="12" index="1" rel="su">
+        <node begin="46" end="47" id="13" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="47" end="48" genus="zijd" getal="ev" graad="basis" id="14" lemma="hypotheek_akte" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="hypotheek_akte" word="hypotheekakte"/>
+      </node>
+      <node begin="0" cat="ppart" end="49" id="15" rel="vc">
+        <node begin="0" cat="pp" end="4" id="16" rel="mod">
+          <node begin="0" end="1" id="17" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="Op"/>
+          <node begin="1" cat="mwu" end="4" id="18" rel="obj1">
+            <node begin="1" end="2" id="19" lemma="14" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="14" word="14"/>
+            <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="20" lemma="januari" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="januari" word="januari"/>
+            <node begin="3" end="4" id="21" lemma="1925" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="1925" word="1925"/>
+          </node>
+        </node>
+        <node begin="5" cat="pp" end="12" id="22" rel="mod">
+          <node begin="5" end="6" id="23" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="6" cat="np" end="12" id="24" rel="obj1">
+            <node begin="6" cat="mwu" end="8" id="25" rel="hd">
+              <node begin="6" end="7" id="26" lemma="Raphaël" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Raphaël" spectype="deeleigen" word="Raphaël"/>
+              <node begin="7" end="8" id="27" lemma="Rodenbach" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Rodenbach" spectype="deeleigen" word="Rodenbach"/>
+            </node>
+            <node begin="9" cat="np" end="12" id="28" rel="app">
+              <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="29" lemma="notaris" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="notaris" word="notaris"/>
+              <node begin="10" cat="pp" end="12" id="30" rel="mod">
+                <node begin="10" end="11" id="31" lemma="te" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="te" vztype="init" word="te"/>
+                <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="32" lemma="Anderlecht" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Anderlecht" word="Anderlecht"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="13" cat="pp" end="44" id="33" rel="mod">
+          <node begin="13" cat="mwu" end="16" id="34" rel="hd">
+            <node begin="13" end="14" id="35" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="in" vztype="init" word="in"/>
+            <node begin="14" end="15" genus="onz" getal="ev" graad="basis" id="36" lemma="verband" naamval="stan" ntype="soort" pos="prep" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="verband" word="verband"/>
+            <node begin="15" end="16" id="37" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="met" vztype="init" word="met"/>
+          </node>
+          <node begin="16" cat="np" end="44" id="38" rel="obj1">
+            <node begin="16" end="17" id="39" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="17" end="18" genus="onz" getal="ev" graad="basis" id="40" lemma="pand" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="pand" word="pand"/>
+            <node begin="18" cat="pp" end="23" id="41" rel="mod">
+              <node begin="18" end="19" id="42" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+              <node begin="19" cat="np" end="23" id="43" rel="obj1">
+                <node begin="19" end="20" genus="zijd" getal="ev" graad="basis" id="44" lemma="Anderlechtstraat" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Anderlechtstraat" word="Anderlechtstraat"/>
+                <node begin="20" cat="mwu" end="23" id="45" rel="app">
+                  <node begin="20" end="21" id="46" lemma="37" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="37" word="37"/>
+                  <node begin="21" end="22" id="47" lemma="-" pos="num" postag="LET()" pt="let" rel="mwp" root="-" word="-"/>
+                  <node begin="22" end="23" id="48" lemma="39" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="39" word="39"/>
+                </node>
+              </node>
+            </node>
+            <node begin="24" cat="du" end="40" id="49" rel="mod">
+              <node begin="24" cat="np" end="26" id="50" rel="dp">
+                <node begin="24" end="25" genus="zijd" getal="ev" graad="basis" id="51" lemma="kadaster_sectie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="kadastersectie" word="kadastersectie"/>
+                <node begin="25" end="26" id="52" lemma="3" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="app" root="3" word="3"/>
+              </node>
+              <node begin="27" cat="conj" end="34" id="53" rel="dp">
+                <node begin="27" cat="np" end="29" id="54" rel="cnj">
+                  <node begin="27" end="28" id="55" lemma="nummer" pos="noun" postag="SPEC(afk)" pt="spec" rel="hd" root="nummer" spectype="afk" word="nr"/>
+                  <node begin="28" end="29" id="56" lemma="1731u" pos="noun" postag="SPEC(symb)" pt="spec" rel="app" root="1731u" spectype="symb" word="1731u"/>
+                </node>
+                <node begin="30" conjtype="neven" end="31" id="57" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                <node begin="31" cat="np" end="34" id="58" rel="cnj">
+                  <node begin="31" end="32" genus="onz" getal="ev" graad="basis" id="59" lemma="deel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="deel" word="deel"/>
+                  <node begin="32" cat="pp" end="34" id="60" rel="mod">
+                    <node begin="32" end="33" id="61" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                    <node begin="33" end="34" id="62" lemma="1731w" pos="noun" postag="SPEC(symb)" pt="spec" rel="obj1" root="1731w" spectype="symb" word="1731w"/>
+                  </node>
+                </node>
+              </node>
+              <node begin="35" cat="np" end="40" id="63" rel="dp">
+                <node begin="35" end="36" genus="zijd" getal="ev" graad="basis" id="64" lemma="opp" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="opp" word="opp"/>
+                <node begin="36" cat="mwu" end="40" id="65" rel="app">
+                  <node begin="36" end="37" id="66" lemma="4" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="mwp" root="4" word="4"/>
+                  <node begin="37" end="38" id="67" lemma="a" pos="num" postag="SPEC(symb)" pt="spec" rel="mwp" root="a" spectype="symb" word="a"/>
+                  <node begin="38" end="39" id="68" lemma="76" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="mwp" root="76" word="76"/>
+                  <node begin="39" end="40" id="69" lemma="circa" pos="num" postag="SPEC(afk)" pt="spec" rel="mwp" root="ca" spectype="afk" word="ca"/>
+                </node>
+              </node>
+            </node>
+            <node begin="41" cat="ppart" end="44" id="70" rel="mod">
+              <node begin="41" buiging="zonder" end="42" id="71" lemma="aan_kopen" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="aangekocht" word="aangekocht" wvorm="vd"/>
+              <node begin="42" cat="pp" end="44" id="72" rel="mod">
+                <node begin="42" end="43" id="73" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+                <node begin="43" end="44" id="74" lemma="30/7/1924" pos="num" postag="SPEC(symb)" pt="spec" rel="obj1" root="30/7/1924" spectype="symb" word="30/7/1924"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="46" end="48" id="75" index="1" rel="obj1"/>
+        <node begin="48" buiging="zonder" end="49" id="76" lemma="op_maken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="maak_op" word="opgemaakt" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="49" end="50" id="77" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Op 14 januari 1925 wordt voor Raphaël Rodenbach , notaris te Anderlecht , in verband met het pand op Anderlechtstraat 37 - 39 , kadastersectie 3 , nr 1731u , en deel van 1731w , opp 4 a 76 ca ( aangekocht op 30/7/1924 ) , een hypotheekakte opgemaakt .</sentence>
+</alpino_ds>

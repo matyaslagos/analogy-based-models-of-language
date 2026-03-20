@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="29" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="8" end="9" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="28" id="3" rel="--">
+      <node begin="0" cat="np" end="4" id="4" rel="obj1">
+        <node begin="0" end="1" id="5" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="Een"/>
+        <node begin="1" end="2" id="6" lemma="zoveel" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="zoveelste" word="zoveelste"/>
+        <node begin="2" buiging="zonder" end="3" graad="basis" id="7" lemma="overspannen" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="overspannen" word="overspannen"/>
+        <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="8" lemma="reactie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="reactie" word="reactie"/>
+      </node>
+      <node begin="5" end="6" id="9" lemma="menen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="meen" word="meent" wvorm="pv"/>
+      <node begin="6" cat="np" end="8" id="10" rel="su">
+        <node begin="6" end="7" id="11" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="12" lemma="sector" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="sector" word="sector"/>
+      </node>
+      <node begin="9" cat="cp" end="28" id="13" rel="mod">
+        <node begin="9" conjtype="onder" end="10" id="14" lemma="omdat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="omdat" word="omdat"/>
+        <node begin="10" cat="ssub" end="28" id="15" rel="body">
+          <node begin="10" cat="np" end="13" id="16" rel="su">
+            <node begin="10" end="11" id="17" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="11" buiging="zonder" end="12" id="18" lemma="vinden" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="mod" root="gevonden" word="gevonden" wvorm="vd"/>
+            <node begin="12" end="13" getal="mv" graad="basis" id="19" lemma="waarde" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="waarde" word="waarden"/>
+          </node>
+          <node begin="15" end="16" id="20" lemma="zijn" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="ben" word="waren" wvorm="pv"/>
+          <node begin="13" cat="ap" end="28" id="21" rel="predc">
+            <node begin="13" end="14" id="22" lemma="zo" pos="adv" postag="BW()" pt="bw" rel="mod" root="zo" word="zo"/>
+            <node begin="14" buiging="zonder" end="15" graad="basis" id="23" lemma="laag" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="laag" word="laag"/>
+            <node begin="16" cat="cp" end="28" id="24" rel="vc">
+              <node begin="16" conjtype="onder" end="17" id="25" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+              <node begin="17" cat="ssub" end="28" id="26" rel="body">
+                <node begin="17" cat="np" end="19" id="27" index="1" rel="su">
+                  <node begin="17" end="18" id="28" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="18" end="19" getal="mv" graad="basis" id="29" lemma="laboratorium" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="laboratorium" word="laboratoria"/>
+                </node>
+                <node begin="25" end="26" id="30" lemma="hebben" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="heb" word="hadden" wvorm="pv"/>
+                <node begin="17" cat="inf" end="28" id="31" rel="vc">
+                  <node begin="17" end="19" id="32" index="1" rel="su"/>
+                  <node begin="26" buiging="zonder" end="27" id="33" lemma="kunnen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="kan" word="kunnen" wvorm="inf"/>
+                  <node begin="17" cat="inf" end="28" id="34" rel="vc">
+                    <node begin="17" end="19" id="35" index="1" rel="su"/>
+                    <node begin="19" end="20" getal="mv" id="36" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="obj1" root="ze" status="red" vwtype="pers" word="ze"/>
+                    <node begin="20" cat="mwu" end="23" id="37" rel="mod">
+                      <node begin="20" end="21" id="38" lemma="tot" pos="pp" postag="VZ(init)" pt="vz" rel="mwp" root="tot" vztype="init" word="tot"/>
+                      <node begin="21" end="22" id="39" lemma="voor" pos="pp" postag="VZ(init)" pt="vz" rel="mwp" root="voor" vztype="init" word="voor"/>
+                      <node begin="22" buiging="zonder" end="23" graad="basis" id="40" lemma="kort" pos="pp" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mwp" root="kort" word="kort"/>
+                    </node>
+                    <node begin="23" cat="advp" end="25" id="41" rel="mod">
+                      <node begin="23" end="24" id="42" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="hd" root="niet" word="niet"/>
+                      <node begin="24" end="25" id="43" lemma="eens" pos="adv" postag="BW()" pt="bw" rel="mod" root="eens" word="eens"/>
+                    </node>
+                    <node begin="27" buiging="zonder" end="28" id="44" lemma="detecteren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="detecteer" word="detecteren" wvorm="inf"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="28" end="29" id="45" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Een zoveelste overspannen reactie , meent de sector , omdat de gevonden waarden zo laag waren dat de laboratoria ze tot voor kort niet eens hadden kunnen detecteren .</sentence>
+</alpino_ds>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="39" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="8" end="9" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="17" end="18" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="38" id="4" rel="--">
+      <node begin="0" cat="smain" end="17" id="5" rel="cnj">
+        <node begin="0" cat="np" end="8" id="6" index="1" rel="su">
+          <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="7" lemma="vervuiling" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="vervuiling" word="Vervuiling"/>
+          <node begin="2" cat="pp" end="8" id="8" rel="mod">
+            <node begin="2" end="3" id="9" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="3" cat="np" end="8" id="10" rel="obj1">
+              <node begin="3" buiging="zonder" end="4" id="11" lemma="dit" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dit" vwtype="aanw" word="dit"/>
+              <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="12" lemma="geval" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="geval" word="geval"/>
+              <node begin="5" cat="pp" end="8" id="13" rel="mod">
+                <node begin="5" end="6" id="14" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+                <node begin="6" cat="np" end="8" id="15" rel="obj1">
+                  <node begin="6" buiging="met-e" end="7" graad="basis" id="16" lemma="zwaar" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="zwaar" word="zware"/>
+                  <node begin="7" end="8" getal="mv" graad="basis" id="17" lemma="metaal" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="metaal" word="metalen"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="9" end="10" id="18" lemma="blijken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="blijk" word="bleek" wvorm="pv"/>
+        <node begin="0" cat="ti" end="17" id="19" rel="vc">
+          <node begin="15" end="16" id="20" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+          <node begin="0" cat="inf" end="17" id="21" rel="body">
+            <node begin="0" end="8" id="22" index="1" rel="su"/>
+            <node begin="10" cat="np" end="12" id="23" rel="obj1">
+              <node begin="10" buiging="met-e" end="11" graad="basis" id="24" lemma="genetisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="genetisch" word="genetische"/>
+              <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="25" lemma="variatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="variatie" word="variatie"/>
+            </node>
+            <node begin="12" cat="mwu" end="15" id="26" rel="svp">
+              <node begin="12" end="13" id="27" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="in" vztype="init" word="in"/>
+              <node begin="13" end="14" id="28" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="mwp" root="de" word="de"/>
+              <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="29" lemma="hand" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="hand" word="hand"/>
+            </node>
+            <node begin="16" buiging="zonder" end="17" id="30" lemma="werken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="werk" word="werken" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+      <node begin="18" conjtype="neven" end="19" id="31" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="19" cat="du" end="38" id="32" rel="cnj">
+        <node begin="19" end="20" getal="ev" id="33" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="pron" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="dp" root="dat" status="vol" vwtype="aanw" word="dat"/>
+        <node begin="20" cat="pp" end="38" id="34" rel="dp">
+          <node begin="20" end="21" id="35" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+          <node begin="21" cat="np" end="38" id="36" rel="obj1">
+            <node begin="21" end="22" id="37" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="22" buiging="met-e" end="23" graad="basis" id="38" lemma="geografisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="geografisch" word="geografische"/>
+            <node begin="23" end="24" genus="zijd" getal="ev" graad="basis" id="39" lemma="afstand" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="afstand" word="afstand"/>
+            <node begin="24" cat="rel" end="38" id="40" rel="mod">
+              <node begin="24" end="25" getal="getal" id="41" index="2" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+              <node begin="24" cat="ssub" end="38" id="42" rel="body">
+                <node begin="24" end="25" id="43" index="2" rel="su"/>
+                <node begin="27" end="28" id="44" lemma="kunnen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="kan" word="kon" wvorm="pv"/>
+                <node begin="24" cat="inf" end="38" id="45" rel="vc">
+                  <node begin="24" end="25" id="46" index="2" rel="su"/>
+                  <node begin="28" buiging="zonder" end="29" id="47" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+                  <node begin="24" cat="ppart" end="38" id="48" rel="vc">
+                    <node begin="24" end="25" id="49" index="2" rel="obj1"/>
+                    <node begin="25" buiging="zonder" end="26" graad="basis" id="50" lemma="klein" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="klein" word="klein"/>
+                    <node begin="26" buiging="zonder" end="27" id="51" lemma="noemen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="noem" word="genoemd" wvorm="vd"/>
+                    <node begin="29" cat="pp" end="38" id="52" rel="mod">
+                      <node begin="29" end="30" id="53" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+                      <node begin="30" cat="np" end="38" id="54" rel="obj1">
+                        <node begin="30" end="31" id="55" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                        <node begin="31" end="32" genus="onz" getal="ev" graad="basis" id="56" lemma="organisme" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="organisme" word="organisme"/>
+                        <node begin="32" cat="pp" end="38" id="57" rel="mod">
+                          <node begin="32" end="33" id="58" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+                          <node begin="33" cat="np" end="38" id="59" rel="obj1">
+                            <node begin="33" end="34" id="60" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                            <node begin="34" end="35" genus="zijd" getal="ev" graad="basis" id="61" lemma="plankton_fase" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="plankton_fase" word="planktonfase"/>
+                            <node begin="35" cat="pp" end="38" id="62" rel="mod">
+                              <node begin="35" end="36" id="63" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                              <node begin="36" cat="np" end="38" id="64" rel="obj1">
+                                <node begin="36" buiging="zonder" end="37" getal="ev" id="65" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pt="vnw" rel="det" root="zijn" status="vol" vwtype="bez" word="zijn"/>
+                                <node begin="37" end="38" genus="zijd" getal="ev" graad="basis" id="66" lemma="ontwikkeling" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="ontwikkeling" word="ontwikkeling"/>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="38" end="39" id="67" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Vervuiling ( in dit geval met zware metalen ) bleek genetische variatie in de hand te werken , en dat op een geografische afstand die klein genoemd kon worden voor een organisme met een planktonfase in zijn ontwikkeling .</sentence>
+</alpino_ds>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="18" id="2" rel="--">
+      <node begin="0" end="1" id="3" lemma="helaas" pos="adv" postag="BW()" pt="bw" rel="dp" root="helaas" word="Helaas"/>
+      <node begin="1" end="2" id="4" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="dp" root="niet" word="niet"/>
+      <node begin="2" cat="np" end="5" id="5" rel="dp">
+        <node begin="2" end="3" id="6" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="3" buiging="met-e" end="4" graad="basis" id="7" lemma="Belgisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Belgisch" word="Belgische"/>
+        <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="8" lemma="frank" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="frank" word="frank"/>
+      </node>
+      <node begin="6" cat="whrel" end="18" id="9" rel="dp">
+        <node begin="6" end="7" getal="ev" id="10" index="1" lemma="wat" naamval="stan" pdtype="pron" persoon="3o" pos="pron" postag="VNW(vb,pron,stan,vol,3o,ev)" pt="vnw" rel="rhd" root="wat" status="vol" vwtype="vb" word="wat"/>
+        <node begin="6" cat="ssub" end="18" id="11" rel="body">
+          <node begin="6" end="7" id="12" index="1" rel="su"/>
+          <node begin="7" end="8" id="13" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+          <node begin="8" buiging="zonder" end="9" id="14" lemma="flatteren" pos="adj" positie="vrij" postag="WW(od,vrij,zonder)" pt="ww" rel="predc" root="flatteer" word="flatterend" wvorm="od"/>
+          <node begin="9" end="10" id="15" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+          <node begin="10" cat="pp" end="18" id="16" rel="pc">
+            <node begin="10" end="11" id="17" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+            <node begin="11" cat="np" end="18" id="18" rel="obj1">
+              <node begin="11" end="12" id="19" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="20" lemma="kracht" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="kracht" word="kracht"/>
+              <node begin="13" cat="pp" end="18" id="21" rel="mod">
+                <node begin="13" end="14" id="22" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="14" cat="np" end="18" id="23" rel="obj1">
+                  <node begin="14" buiging="met-e" end="15" getal="mv" id="24" lemma="ons" naamval="stan" npagr="rest" pdtype="det" persoon="1" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,1,mv,prenom,met-e,rest)" pt="vnw" rel="det" root="onze" status="vol" vwtype="bez" word="onze"/>
+                  <node begin="15" cat="ppart" end="17" id="25" rel="mod">
+                    <node begin="15" end="16" id="26" lemma="nu" pos="adv" postag="BW()" pt="bw" rel="mod" root="nu" word="nu"/>
+                    <node begin="16" buiging="met-e" end="17" id="27" lemma="pensioneren" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="hd" root="gepensioneerd" word="gepensioneerde" wvorm="vd"/>
+                  </node>
+                  <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="28" lemma="munt" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="munt" word="munt"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="29" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Helaas niet de Belgische frank , wat niet flatterend was voor de kracht van onze nu gepensioneerde munt .</sentence>
+</alpino_ds>

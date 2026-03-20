@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="sv1" end="6" id="1" rel="--">
+      <node begin="0" end="1" id="2" lemma="laten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="laat" word="Laten" wvorm="pv"/>
+      <node begin="1" end="2" getal="mv" id="3" index="1" lemma="we" naamval="nomin" pdtype="pron" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,red,1,mv)" pt="vnw" rel="su" root="we" status="red" vwtype="pers" word="we"/>
+      <node begin="1" cat="inf" end="6" id="4" rel="vc">
+        <node begin="1" end="2" id="5" index="1" rel="su"/>
+        <node begin="3" buiging="zonder" end="4" id="6" lemma="kijken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="kijk" word="kijken" wvorm="inf"/>
+        <node begin="2" cat="ap" end="6" id="7" rel="mod">
+          <node begin="2" buiging="zonder" end="3" graad="comp" id="8" lemma="ver" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="ver" word="verder"/>
+          <node begin="4" cat="cp" end="6" id="9" rel="obcomp">
+            <node begin="4" conjtype="onder" end="5" id="10" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="dan" word="dan"/>
+            <node begin="5" end="6" id="11" lemma="vandaag" pos="adv" postag="BW()" pt="bw" rel="body" root="vandaag" word="vandaag"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="6" end="7" id="12" lemma="!" pos="punct" postag="LET()" pt="let" rel="--" root="!" word="!"/>
+  </node>
+  <sentence>Laten we verder kijken dan vandaag !</sentence>
+</alpino_ds>

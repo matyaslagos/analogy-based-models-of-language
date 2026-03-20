@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="34" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="17" end="18" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="28" end="29" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="33" id="4" rel="--">
+      <node begin="0" cat="np" end="2" id="5" index="1" rel="su">
+        <node begin="0" end="1" id="6" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="7" lemma="simulatie_model" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="simulatie_model" word="simulatiemodel"/>
+      </node>
+      <node begin="2" end="3" id="8" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="33" id="9" rel="vc">
+        <node begin="0" end="2" id="10" index="1" rel="obj1"/>
+        <node begin="3" end="4" getal="getal" id="11" lemma="hier" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="mod" root="hier" status="vol" vwtype="aanw" word="hier"/>
+        <node begin="4" buiging="zonder" end="5" id="12" lemma="gebruiken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="gebruik" word="gebruikt" wvorm="vd"/>
+        <node begin="5" cat="oti" end="33" id="13" rel="mod">
+          <node begin="5" end="6" id="14" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="om"/>
+          <node begin="6" cat="ti" end="33" id="15" rel="body">
+            <node begin="31" end="32" id="16" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+            <node begin="6" cat="inf" end="33" id="17" rel="body">
+              <node begin="6" cat="np" end="28" id="18" rel="obj1">
+                <node begin="6" end="7" id="19" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="7" end="8" getal="mv" graad="basis" id="20" lemma="gevolg" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="gevolg" word="gevolgen"/>
+                <node begin="9" cat="conj" end="17" id="21" rel="mod">
+                  <node begin="9" end="10" id="22" lemma="zowel" pos="vg" postag="BW()" pt="bw" rel="crd" root="zowel" word="zowel"/>
+                  <node begin="10" cat="pp" end="13" id="23" rel="cnj">
+                    <node begin="10" end="11" id="24" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+                    <node begin="11" cat="np" end="13" id="25" rel="obj1">
+                      <node begin="11" end="12" id="26" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                      <node begin="12" buiging="met-e" end="13" getal-n="mv-n" id="27" lemma="betrekken" pos="adj" positie="nom" postag="WW(vd,nom,met-e,mv-n)" pt="ww" rel="hd" root="betrokken" word="betrokkenen" wvorm="vd"/>
+                    </node>
+                  </node>
+                  <node begin="13" conjtype="onder" end="14" id="28" lemma="als" pos="vg" postag="VG(onder)" pt="vg" rel="crd" root="als" word="als"/>
+                  <node begin="14" cat="pp" end="17" id="29" rel="cnj">
+                    <node begin="14" end="15" id="30" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+                    <node begin="15" cat="np" end="17" id="31" rel="obj1">
+                      <node begin="15" end="16" id="32" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                      <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="33" lemma="financiering" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="financiering" word="financiering"/>
+                    </node>
+                  </node>
+                </node>
+                <node begin="18" cat="pp" end="28" id="34" rel="mod">
+                  <node begin="18" end="19" id="35" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                  <node begin="19" cat="np" end="28" id="36" rel="obj1">
+                    <node begin="19" buiging="met-e" end="20" graad="basis" id="37" lemma="divers" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="divers" word="diverse"/>
+                    <node begin="20" buiging="met-e" end="21" graad="basis" id="38" lemma="mogelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="mogelijk" word="mogelijke"/>
+                    <node begin="21" end="22" getal="mv" graad="basis" id="39" lemma="wijziging" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="wijziging" word="wijzigingen"/>
+                    <node begin="22" cat="pp" end="28" id="40" rel="mod">
+                      <node begin="22" end="23" id="41" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                      <node begin="23" cat="np" end="28" id="42" rel="obj1">
+                        <node begin="23" end="24" id="43" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                        <node begin="24" end="25" genus="zijd" getal="ev" graad="basis" id="44" lemma="regelgeving" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="regelgeving" word="regelgeving"/>
+                        <node begin="25" cat="ppres" end="28" id="45" rel="mod">
+                          <node begin="25" buiging="zonder" end="26" id="46" lcat="ppres" lemma="betreffen" pos="prep" positie="vrij" postag="WW(od,vrij,zonder)" pt="ww" rel="hd" root="betreffende" word="betreffende" wvorm="od"/>
+                          <node begin="26" cat="np" end="28" id="47" rel="obj1">
+                            <node begin="26" end="27" id="48" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                            <node begin="27" end="28" getal="mv" graad="basis" id="49" lemma="overleving_pensioen" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="overleving_pensioen" word="overlevingspensioenen"/>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node begin="29" end="30" id="50" lemma="vooraf" pos="pp" postag="BW()" pt="bw" rel="mod" root="vooraf" word="vooraf"/>
+              <node begin="30" end="31" id="51" lemma="uit" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="uit" vztype="fin" word="uit"/>
+              <node begin="32" buiging="zonder" end="33" id="52" lemma="uit_rekenen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="reken_uit" word="rekenen" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="33" end="34" id="53" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het simulatiemodel werd hier gebruikt om de gevolgen , zowel voor de betrokkenen als voor de financiering , van diverse mogelijke wijzigingen in de regelgeving betreffende de overlevingspensioenen , vooraf uit te rekenen .</sentence>
+</alpino_ds>

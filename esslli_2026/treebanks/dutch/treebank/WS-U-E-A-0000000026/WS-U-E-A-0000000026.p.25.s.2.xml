@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="1" end="2" id="2" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="heeft" wvorm="pv"/>
+      <node begin="2" cat="np" end="7" id="3" index="1" rel="su">
+        <node begin="2" cat="mwu" end="5" id="4" rel="hd">
+          <node begin="2" end="3" getal="mv" graad="basis" id="5" lemma="VN" ntype="eigen" pos="name" postag="N(eigen,mv,basis)" pt="n" rel="mwp" root="VN" word="VN"/>
+          <node begin="3" end="4" id="6" lemma="-" pos="punct" postag="LET()" pt="let" rel="mwp" root="-" word="-"/>
+          <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="7" lemma="chef" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="chef" word="chef"/>
+        </node>
+        <node begin="5" cat="mwu" end="7" id="8" rel="app">
+          <node begin="5" end="6" id="9" lemma="Kofi" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Kofi" spectype="deeleigen" word="Kofi"/>
+          <node begin="6" end="7" id="10" lemma="Annan" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Annan" spectype="deeleigen" word="Annan"/>
+        </node>
+      </node>
+      <node begin="0" cat="ppart" end="8" id="11" rel="vc">
+        <node begin="0" end="1" getal="ev" id="12" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="obj1" root="dat" status="vol" vwtype="aanw" word="Dat"/>
+        <node begin="2" end="7" id="13" index="1" rel="su"/>
+        <node begin="7" buiging="zonder" end="8" id="14" lemma="zeggen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="zeg" word="gezegd" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="15" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dat heeft VN - chef Kofi Annan gezegd .</sentence>
+</alpino_ds>

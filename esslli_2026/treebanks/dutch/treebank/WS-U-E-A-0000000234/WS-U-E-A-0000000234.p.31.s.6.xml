@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="conj" end="8" id="1" rel="--">
+      <node begin="0" cat="smain" end="6" id="2" rel="cnj">
+        <node begin="0" cat="np" end="3" id="3" index="1" rel="su">
+          <node begin="0" end="1" id="4" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+          <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="5" lemma="aantal" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="aantal" word="aantal"/>
+          <node begin="2" end="3" getal="mv" graad="basis" id="6" lemma="lid" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mod" root="lid" word="leden"/>
+        </node>
+        <node begin="3" end="4" id="7" lemma="af_nemen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="neem_af" word="neemt" wvorm="pv"/>
+        <node begin="4" buiging="zonder" end="5" graad="basis" id="8" lemma="gestaag" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="gestaag" word="gestaag"/>
+        <node begin="5" end="6" id="9" lemma="af" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="af" vztype="fin" word="af"/>
+      </node>
+      <node begin="6" conjtype="neven" end="7" id="10" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="0" cat="sv1" end="8" id="11" rel="cnj">
+        <node begin="0" end="3" id="12" index="1" rel="su"/>
+        <node begin="7" end="8" id="13" lemma="vergrijzen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="vergrijs" word="vergrijst" wvorm="pv"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="14" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het aantal leden neemt gestaag af en vergrijst .</sentence>
+</alpino_ds>

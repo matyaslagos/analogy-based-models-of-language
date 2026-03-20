@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="31" id="0" rel="top">
+    <node begin="15" end="16" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="30" id="2" rel="--">
+      <node begin="0" cat="conj" end="15" id="3" rel="nucl">
+        <node begin="0" cat="smain" end="5" id="4" rel="cnj">
+          <node begin="0" cat="np" end="2" id="5" rel="su">
+            <node begin="0" end="1" id="6" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+            <node begin="1" end="2" getal="mv" graad="basis" id="7" lemma="onderhandeling" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="onderhandeling" word="onderhandelingen"/>
+          </node>
+          <node begin="2" end="3" id="8" lemma="verlopen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="verloop" word="verliepen" wvorm="pv"/>
+          <node begin="3" end="4" id="9" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+          <node begin="4" buiging="zonder" end="5" graad="basis" id="10" lemma="voorspoedig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="voorspoedig" word="voorspoedig"/>
+        </node>
+        <node begin="5" conjtype="neven" end="6" id="11" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="6" cat="smain" end="15" id="12" rel="cnj">
+          <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="13" index="1" lemma="Engeland" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" root="Engeland" word="Engeland"/>
+          <node begin="7" end="8" id="14" lemma="denken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="denk" word="dacht" wvorm="pv"/>
+          <node begin="6" cat="pp" end="15" id="15" rel="pc">
+            <node begin="8" end="9" id="16" lemma="erover" pos="pp" postag="BW()" pt="bw" rel="hd" root="erover" word="erover"/>
+            <node begin="6" cat="ti" end="15" id="17" rel="vc">
+              <node begin="11" end="12" id="18" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+              <node begin="6" cat="inf" end="15" id="19" rel="body">
+                <node begin="6" end="7" id="20" index="1" rel="su"/>
+                <node begin="9" end="10" getal="getal" id="21" lemma="zich" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="obj1" root="zich" status="red" vwtype="refl" word="zich"/>
+                <node begin="10" end="11" id="22" lemma="terug" pos="part" postag="BW()" pt="bw" rel="svp" root="terug" word="terug"/>
+                <node begin="12" buiging="zonder" end="13" id="23" lemma="terug_trekken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="trek_terug" word="trekken" wvorm="inf"/>
+                <node begin="13" cat="pp" end="15" id="24" rel="ld">
+                  <node begin="13" end="14" id="25" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" vztype="init" word="uit"/>
+                  <node begin="14" end="15" genus="onz" getal="ev" graad="basis" id="26" lemma="Irak" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Irak" word="Irak"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="16" cat="du" end="30" id="27" rel="sat">
+        <node begin="16" end="17" id="28" lemma="voorwaar" pos="adv" postag="BW()" pt="bw" rel="dp" root="voorwaar" word="voorwaar"/>
+        <node begin="17" cat="np" end="30" id="29" rel="dp">
+          <node begin="17" end="18" id="30" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="20" end="21" genus="zijd" getal="ev" graad="basis" id="31" lemma="opvatting" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="opvatting" word="opvatting"/>
+          <node begin="18" cat="ap" end="30" id="32" rel="mod">
+            <node begin="18" buiging="zonder" end="19" graad="basis" id="33" lemma="geheel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="geheel" word="geheel"/>
+            <node begin="19" buiging="met-e" end="20" graad="basis" id="34" lemma="ander" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="hd" root="ander" word="andere"/>
+            <node begin="21" cat="cp" end="30" id="35" rel="obcomp">
+              <node begin="21" conjtype="onder" end="22" id="36" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="dan" word="dan"/>
+              <node begin="22" cat="whrel" end="30" id="37" rel="body">
+                <node begin="22" end="23" getal="getal" id="38" index="2" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+                <node begin="22" cat="ssub" end="30" id="39" rel="body">
+                  <node begin="22" end="23" id="40" index="2" rel="obj1"/>
+                  <node begin="23" cat="np" end="25" id="41" rel="su">
+                    <node begin="23" end="24" id="42" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="24" end="25" getal="mv" graad="basis" id="43" lemma="Brit" ntype="eigen" pos="noun" postag="N(eigen,mv,basis)" pt="n" rel="hd" root="Brit" word="Britten"/>
+                  </node>
+                  <node begin="25" end="26" id="44" lemma="hebben" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="heb" word="hadden" wvorm="pv"/>
+                  <node begin="26" cat="pp" end="30" id="45" rel="mod">
+                    <node begin="26" end="27" id="46" lemma="gedurende" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="gedurende" vztype="init" word="gedurende"/>
+                    <node begin="27" cat="np" end="30" id="47" rel="obj1">
+                      <node begin="27" end="28" id="48" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                      <node begin="28" cat="mwu" end="30" id="49" rel="hd">
+                        <node begin="28" end="29" id="50" lemma="Eerste" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Eerste" spectype="deeleigen" word="Eerste"/>
+                        <node begin="29" end="30" id="51" lemma="Wereldoorlog" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Wereldoorlog" spectype="deeleigen" word="Wereldoorlog"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="30" end="31" id="52" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De onderhandelingen verliepen niet voorspoedig en Engeland dacht erover zich terug te trekken uit Irak , voorwaar een geheel andere opvatting dan die de Britten hadden gedurende de Eerste Wereldoorlog .</sentence>
+  <comments>
+    <comment>er mist een &apos;die&apos; voor &apos;die de Britten...&apos;</comment>
+  </comments>
+</alpino_ds>

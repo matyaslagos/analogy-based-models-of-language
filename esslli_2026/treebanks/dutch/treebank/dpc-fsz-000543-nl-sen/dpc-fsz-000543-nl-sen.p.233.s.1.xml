@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="*" pos="tag" postag="SPEC(symb)" pt="spec" rel="--" root="*" spectype="symb" word="*"/>
+    <node begin="1" cat="np" end="7" id="2" rel="--">
+      <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="3" lemma="aantal" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="aantal" word="aantal"/>
+      <node begin="2" cat="np" end="5" id="4" rel="mod">
+        <node begin="2" cat="ti" end="4" id="5" rel="mod">
+          <node begin="2" end="3" id="6" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+          <node begin="3" buiging="met-e" end="4" id="7" lemma="voorzien" pos="adj" positie="prenom" postag="WW(inf,prenom,met-e)" pt="ww" rel="body" root="voorzien" word="voorziene" wvorm="inf"/>
+        </node>
+        <node begin="4" end="5" getal="mv" graad="basis" id="8" lemma="maaltijd" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="maaltijd" word="maaltijden"/>
+      </node>
+      <node begin="5" cat="pp" end="7" id="9" rel="mod">
+        <node begin="5" end="6" id="10" lemma="per" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="per" vztype="init" word="per"/>
+        <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="11" lemma="dag" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="dag" word="dag"/>
+      </node>
+    </node>
+  </node>
+  <sentence>* aantal te voorziene maaltijden per dag</sentence>
+</alpino_ds>

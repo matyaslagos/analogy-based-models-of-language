@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" index="1" rel="su">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="4" lemma="aanval" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="aanval" word="aanvallen"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="kunnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kan" word="kunnen" wvorm="pv"/>
+      <node begin="0" cat="inf" end="14" id="6" rel="vc">
+        <node begin="0" end="2" id="7" index="1" rel="su"/>
+        <node begin="4" buiging="zonder" end="5" id="8" lemma="gaan" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ga" word="gaan" wvorm="inf"/>
+        <node begin="3" cat="ppart" end="14" id="9" rel="predc">
+          <node begin="3" buiging="zonder" end="4" id="10" lemma="paren" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="gepaard" word="gepaard" wvorm="vd"/>
+          <node begin="5" cat="pp" end="14" id="11" rel="pc">
+            <node begin="5" end="6" id="12" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+            <node begin="6" cat="np" end="14" id="13" rel="obj1">
+              <node begin="6" buiging="met-e" end="7" graad="basis" id="14" lemma="automatisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="automatisch" word="automatische"/>
+              <node begin="7" end="8" getal="mv" graad="basis" id="15" lemma="handeling" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="handeling" word="handelingen"/>
+              <node begin="8" cat="rel" end="14" id="16" rel="mod">
+                <node begin="8" end="9" getal="getal" id="17" index="2" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+                <node begin="8" cat="ssub" end="14" id="18" rel="body">
+                  <node begin="8" end="9" id="19" index="2" rel="su"/>
+                  <node begin="12" end="13" id="20" lemma="kunnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kan" word="kunnen" wvorm="pv"/>
+                  <node begin="8" cat="inf" end="14" id="21" rel="vc">
+                    <node begin="8" end="9" id="22" index="2" rel="su"/>
+                    <node begin="9" cat="conj" end="12" id="23" rel="me">
+                      <node begin="9" end="10" getal="mv" graad="basis" id="24" lemma="uur" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="uur" word="uren"/>
+                      <node begin="10" conjtype="neven" end="11" id="25" lemma="tot" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="tot" word="tot"/>
+                      <node begin="11" end="12" getal="mv" graad="basis" id="26" lemma="dag" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="dag" word="dagen"/>
+                    </node>
+                    <node begin="13" buiging="zonder" end="14" id="27" lemma="duren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="duur" word="duren" wvorm="inf"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="28" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De aanvallen kunnen gepaard gaan met automatische handelingen die uren tot dagen kunnen duren .</sentence>
+</alpino_ds>

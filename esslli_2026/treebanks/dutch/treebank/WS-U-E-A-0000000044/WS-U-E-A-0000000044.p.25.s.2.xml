@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="17" id="2" rel="--">
+      <node begin="8" end="9" id="3" lemma="hoeven" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="hoef" word="hoefde" wvorm="pv"/>
+      <node begin="9" end="10" getal="getal" id="4" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+      <node begin="0" cat="ti" end="17" id="5" rel="vc">
+        <node begin="15" end="16" id="6" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+        <node begin="0" cat="inf" end="17" id="7" rel="body">
+          <node begin="0" cat="ppart" end="15" id="8" rel="vc">
+            <node begin="0" cat="oti" end="7" id="9" rel="mod">
+              <node begin="0" end="1" id="10" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="Om"/>
+              <node begin="1" cat="ti" end="7" id="11" rel="body">
+                <node begin="5" end="6" id="12" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+                <node begin="1" cat="inf" end="7" id="13" rel="body">
+                  <node begin="1" cat="np" end="5" id="14" rel="obj1">
+                    <node begin="1" end="2" id="15" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                    <node begin="2" end="3" id="16" lemma="één" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="eerste" word="eerste"/>
+                    <node begin="3" buiging="met-e" end="4" graad="basis" id="17" lemma="Nederlands" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Nederlands" word="Nederlandse"/>
+                    <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="18" lemma="knuffel_record" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="knuffel_record" word="knuffel-record"/>
+                  </node>
+                  <node begin="6" buiging="zonder" end="7" id="19" lemma="vestigen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="vestig" word="vestigen" wvorm="inf"/>
+                </node>
+              </node>
+            </node>
+            <node begin="10" buiging="zonder" end="11" graad="basis" id="20" lemma="officieel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="officieel" word="officieel"/>
+            <node begin="11" cat="np" end="14" id="21" rel="mod">
+              <node begin="11" end="12" id="22" lemma="maar" pos="adv" postag="BW()" pt="bw" rel="mod" root="maar" word="maar"/>
+              <node begin="12" end="13" id="23" lemma="tien" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="tien" word="tien"/>
+              <node begin="13" end="14" getal="mv" graad="basis" id="24" lemma="seconde" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="seconde" word="seconden"/>
+            </node>
+            <node begin="14" buiging="zonder" end="15" id="25" lemma="zoenen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="zoen" word="gezoend" wvorm="vd"/>
+          </node>
+          <node begin="16" buiging="zonder" end="17" id="26" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="27" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Om het eerste Nederlandse knuffel-record te vestigen , hoefde er officieel maar tien seconden gezoend te worden .</sentence>
+</alpino_ds>

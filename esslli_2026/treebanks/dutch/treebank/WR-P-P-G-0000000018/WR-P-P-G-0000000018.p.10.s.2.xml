@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="25" id="0" rel="top">
+    <node begin="10" end="11" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="17" end="18" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="24" id="3" rel="--">
+      <node begin="0" cat="np" end="2" id="4" rel="su">
+        <node begin="0" buiging="met-e" end="1" id="5" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="Deze"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="6" lemma="verbod_bepaling" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="verbodsbepaling" word="verbodsbepaling"/>
+      </node>
+      <node begin="2" end="3" id="7" lemma="gelden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="geld" word="geldt" wvorm="pv"/>
+      <node begin="3" end="4" id="8" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+      <node begin="4" cat="pp" end="24" id="9" rel="pc">
+        <node begin="4" end="5" id="10" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+        <node begin="5" cat="np" end="24" id="11" rel="obj1">
+          <node begin="5" buiging="zonder" end="6" id="12" lemma="verbieden" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="mod" root="verboden" word="verboden" wvorm="vd"/>
+          <node begin="6" end="7" getal="mv" graad="basis" id="13" lemma="wapen" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="wapen" word="wapens"/>
+          <node begin="7" cat="rel" end="24" id="14" rel="mod">
+            <node begin="7" end="8" id="15" index="1" lemma="waarvan" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waarvan" word="waarvan"/>
+            <node begin="7" cat="ssub" end="24" id="16" rel="body">
+              <node begin="7" cat="np" end="10" id="17" index="2" rel="su">
+                <node begin="7" end="8" id="18" index="1" rel="mod"/>
+                <node begin="8" end="9" id="19" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="20" lemma="vervaardiging" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="vervaardiging" word="vervaardiging"/>
+              </node>
+              <node begin="21" end="22" id="21" lemma="mogen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="mag" word="mocht" wvorm="pv"/>
+              <node begin="7" cat="inf" end="24" id="22" rel="vc">
+                <node begin="7" end="10" id="23" index="2" rel="su"/>
+                <node begin="7" cat="ppart" end="23" id="24" rel="vc">
+                  <node begin="7" end="10" id="25" index="2" rel="obj1"/>
+                  <node begin="11" cat="pp" end="17" id="26" rel="mod">
+                    <node begin="11" cat="mwu" end="15" id="27" rel="hd">
+                      <node begin="11" end="12" id="28" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="met" vztype="init" word="met"/>
+                      <node begin="12" end="13" id="29" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="prep" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" word="het"/>
+                      <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="30" lemma="oog" naamval="stan" ntype="soort" pos="prep" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="oog" word="oog"/>
+                      <node begin="14" end="15" id="31" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="op" vztype="init" word="op"/>
+                    </node>
+                    <node begin="15" cat="np" end="17" id="32" rel="obj1">
+                      <node begin="15" end="16" id="33" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                      <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="34" lemma="uitvoer" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="uitvoer" word="uitvoer"/>
+                    </node>
+                  </node>
+                  <node begin="18" cat="pp" end="21" id="35" rel="mod">
+                    <node begin="18" end="19" id="36" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+                    <node begin="19" cat="np" end="21" id="37" rel="obj1">
+                      <node begin="19" buiging="zonder" end="20" graad="basis" id="38" lemma="koninklijk" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="koninklijk" word="koninklijk"/>
+                      <node begin="20" end="21" genus="onz" getal="ev" graad="basis" id="39" lemma="besluit" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="besluit" word="besluit"/>
+                    </node>
+                  </node>
+                  <node begin="22" buiging="zonder" end="23" id="40" lemma="machtigen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="machtig" word="gemachtigd" wvorm="vd"/>
+                </node>
+                <node begin="23" buiging="zonder" end="24" id="41" lemma="zijn" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ben" word="zijn" wvorm="inf"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="24" end="25" id="42" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Deze verbodsbepaling geldt niet voor verboden wapens waarvan de vervaardiging , met het oog op de uitvoer , bij koninklijk besluit mocht gemachtigd zijn .</sentence>
+</alpino_ds>

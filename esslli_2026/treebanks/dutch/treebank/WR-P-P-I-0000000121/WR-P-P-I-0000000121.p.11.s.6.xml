@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="smain" end="15" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" index="1" rel="su">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" buiging="met-e" end="2" graad="basis" id="4" lemma="Europees" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Europees" word="Europese"/>
+        <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="5" lemma="conjunctuur" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="conjunctuur" word="conjunctuur"/>
+      </node>
+      <node begin="3" end="4" id="6" lemma="zullen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zal" word="zal" wvorm="pv"/>
+      <node begin="0" cat="inf" end="15" id="7" rel="vc">
+        <node begin="0" end="3" id="8" index="1" rel="su"/>
+        <node begin="4" end="5" id="9" lemma="maar" pos="adv" postag="BW()" pt="bw" rel="mod" root="maar" word="maar"/>
+        <node begin="5" buiging="zonder" end="6" graad="basis" id="10" lemma="echt" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="echt" word="echt"/>
+        <node begin="6" buiging="zonder" end="7" id="11" lemma="verbeteren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="verbeter" word="verbeteren" wvorm="inf"/>
+        <node begin="7" cat="cp" end="15" id="12" rel="mod">
+          <node begin="7" conjtype="onder" end="8" id="13" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+          <node begin="8" cat="ssub" end="15" id="14" rel="body">
+            <node begin="8" end="9" getal="getal" id="15" index="2" lemma="die" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(aanw,pron,stan,vol,3,getal)" pt="vnw" rel="su" root="die" status="vol" vwtype="aanw" word="die"/>
+            <node begin="13" end="14" id="16" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+            <node begin="8" cat="ppart" end="15" id="17" rel="vc">
+              <node begin="8" end="9" id="18" index="2" rel="obj1"/>
+              <node begin="9" cat="pp" end="12" id="19" rel="mod">
+                <node begin="9" end="10" id="20" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                <node begin="10" cat="np" end="12" id="21" rel="obj1">
+                  <node begin="10" end="11" id="22" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="11" end="12" getal="mv" graad="basis" id="23" lemma="States" ntype="eigen" pos="name" postag="N(eigen,mv,basis)" pt="n" rel="hd" root="States" word="States"/>
+                </node>
+              </node>
+              <node begin="12" buiging="zonder" end="13" graad="basis" id="24" lemma="volledig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="volledig" word="volledig"/>
+              <node begin="14" buiging="zonder" end="15" id="25" lemma="herstellen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="herstel" word="hersteld" wvorm="vd"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="26" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De Europese conjunctuur zal maar echt verbeteren als die in de States volledig is hersteld .</sentence>
+</alpino_ds>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="0" cat="smain" end="19" id="1" rel="--">
+      <node begin="0" cat="conj" end="8" id="2" rel="su">
+        <node begin="0" end="1" getal="mv" graad="basis" id="3" lemma="engineering_bedrijf" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="Engineeringbedrijf" word="Engineeringbedrijven"/>
+        <node begin="1" conjtype="neven" end="2" id="4" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="2" cat="np" end="8" id="5" rel="cnj">
+          <node begin="2" end="3" id="6" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+          <node begin="3" buiging="met-e" end="4" graad="basis" id="7" lemma="groot" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="groot" word="grote"/>
+          <node begin="4" end="5" getal="mv" graad="basis" id="8" lemma="firma" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="firma" word="firma&apos;s"/>
+          <node begin="5" cat="pp" end="8" id="9" rel="mod">
+            <node begin="5" end="6" id="10" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+            <node begin="6" cat="np" end="8" id="11" rel="obj1">
+              <node begin="6" buiging="met-e" end="7" graad="basis" id="12" lemma="intern" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="intern" word="interne"/>
+              <node begin="7" end="8" getal="mv" graad="basis" id="13" lemma="expert" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="experten" word="experten"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="8" end="9" id="14" lemma="doen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="doe" word="doen" wvorm="pv"/>
+      <node begin="9" cat="np" end="11" id="15" rel="obj1">
+        <node begin="9" end="10" id="16" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="17" lemma="beroep" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="beroep" word="beroep"/>
+      </node>
+      <node begin="11" cat="pp" end="19" id="18" rel="pc">
+        <node begin="11" end="12" id="19" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+        <node begin="12" cat="conj" end="19" id="20" rel="obj1">
+          <node begin="14" end="15" id="21" lemma="en/of" pos="vg" postag="SPEC(enof)" pt="spec" rel="crd" root="en/of" spectype="enof" word="en/of"/>
+          <node begin="12" cat="np" end="19" id="22" rel="cnj">
+            <node begin="12" end="13" id="23" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="13" end="14" getal="mv" graad="basis" id="24" lemma="dienst" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="dienst" word="diensten"/>
+            <node begin="17" cat="pp" end="19" id="25" index="1" rel="mod">
+              <node begin="17" end="18" id="26" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="18" end="19" genus="genus" getal="ev" graad="basis" id="27" lemma="MOSTforWATER" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="obj1" root="MOSTforWATER" word="MOSTforWATER"/>
+            </node>
+          </node>
+          <node begin="15" cat="np" end="19" id="28" rel="cnj">
+            <node begin="15" end="16" id="29" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="30" lemma="software" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="software" word="software"/>
+            <node begin="17" end="19" id="31" index="1" rel="mod"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="32" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Engineeringbedrijven en ook grote firma&apos;s met interne experten doen een beroep op de diensten en/of de software van MOSTforWATER .</sentence>
+</alpino_ds>

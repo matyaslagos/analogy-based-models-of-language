@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="0" cat="smain" end="17" id="1" rel="--">
+      <node begin="0" end="1" id="2" lemma="bovendien" pos="adv" postag="BW()" pt="bw" rel="mod" root="bovendien" word="Bovendien"/>
+      <node begin="1" end="2" id="3" lemma="voor_komen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kom_voor" word="komen" wvorm="pv"/>
+      <node begin="2" cat="pp" end="6" id="4" rel="mod">
+        <node begin="2" end="3" id="5" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="3" cat="np" end="6" id="6" rel="obj1">
+          <node begin="3" buiging="met-e" end="4" id="7" lemma="bepalen" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="bepaald" word="bepaalde" wvorm="vd"/>
+          <node begin="4" buiging="met-e" end="5" graad="basis" id="8" lemma="etnisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="etnisch" word="etnische"/>
+          <node begin="5" end="6" getal="mv" graad="basis" id="9" lemma="groep" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="groep" word="groepen"/>
+        </node>
+      </node>
+      <node begin="11" end="12" id="10" lemma="voor" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="voor" vztype="fin" word="voor"/>
+      <node begin="6" cat="np" end="17" id="11" rel="su">
+        <node begin="6" buiging="met-e" end="7" graad="basis" id="12" lemma="specifiek" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="specifiek" word="specifieke"/>
+        <node begin="7" end="8" getal="mv" graad="basis" id="13" lemma="vorm" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vorm" word="vormen"/>
+        <node begin="8" cat="pp" end="11" id="14" rel="mod">
+          <node begin="8" end="9" id="15" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="9" cat="np" end="11" id="16" rel="obj1">
+            <node begin="9" buiging="zonder" end="10" graad="basis" id="17" lemma="huiselijk" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="huiselijk" word="huiselijk"/>
+            <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="18" lemma="geweld" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="geweld" word="geweld"/>
+          </node>
+        </node>
+        <node begin="12" cat="rel" end="17" id="19" rel="mod">
+          <node begin="12" end="13" getal="getal" id="20" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+          <node begin="12" cat="ssub" end="17" id="21" rel="body">
+            <node begin="12" end="13" id="22" index="1" rel="su"/>
+            <node begin="13" cat="np" end="16" id="23" rel="obj1">
+              <node begin="13" end="14" id="24" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="14" buiging="met-e" end="15" graad="basis" id="25" lemma="specifiek" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="specifiek" word="specifieke"/>
+              <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="26" lemma="aanpak" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="aanpak" word="aanpak"/>
+            </node>
+            <node begin="16" end="17" id="27" lemma="vereisen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="vereis" word="vereisen" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="28" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Bovendien komen in bepaalde etnische groepen specifieke vormen van huiselijk geweld voor die een specifieke aanpak vereisen .</sentence>
+</alpino_ds>

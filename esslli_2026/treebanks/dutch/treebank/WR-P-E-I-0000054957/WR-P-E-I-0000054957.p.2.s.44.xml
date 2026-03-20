@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="13" id="2" rel="--">
+      <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="3" lemma="Barbarossa" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Barbarossa" word="Barbarossa"/>
+      <node begin="1" end="2" id="4" lemma="staan" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="sta" word="stond" wvorm="pv"/>
+      <node begin="2" cat="pp" end="13" id="5" rel="pc">
+        <node begin="2" buiging="zonder" end="3" graad="basis" id="6" lemma="lijnrecht" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="lijnrecht" word="lijnrecht"/>
+        <node begin="3" end="4" id="7" lemma="tegenover" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegenover" vztype="init" word="tegenover"/>
+        <node begin="4" cat="np" end="13" id="8" rel="obj1">
+          <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="9" lemma="paus" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="paus" word="paus"/>
+          <node begin="5" cat="mwu" end="7" id="10" rel="app">
+            <node begin="5" end="6" id="11" lemma="Alexander" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Alexander" spectype="deeleigen" word="Alexander"/>
+            <node begin="6" end="7" id="12" lemma="III" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="III" spectype="deeleigen" word="III"/>
+          </node>
+          <node begin="8" cat="rel" end="13" id="13" rel="mod">
+            <node begin="8" end="9" getal="getal" id="14" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+            <node begin="8" cat="ssub" end="13" id="15" rel="body">
+              <node begin="8" end="9" id="16" index="1" rel="su"/>
+              <node begin="9" buiging="zonder" end="10" graad="basis" id="17" lemma="bekend" pos="part" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="svp" root="bekend" word="bekend"/>
+              <node begin="10" end="11" id="18" lemma="bekend_staan" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="sta_bekend" word="stond" wvorm="pv"/>
+              <node begin="11" cat="cp" end="13" id="19" rel="predc">
+                <node begin="11" conjtype="onder" end="12" id="20" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+                <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="21" lemma="keizer_hater" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="body" root="keizerhater" word="keizerhater"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Barbarossa stond lijnrecht tegenover paus Alexander III , die bekend stond als keizerhater .</sentence>
+</alpino_ds>

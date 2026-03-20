@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="26" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="9" end="10" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="12" end="13" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="21" end="22" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="25" id="5" rel="--">
+      <node begin="0" cat="smain" end="5" id="6" rel="cnj">
+        <node begin="0" end="1" getal="mv" id="7" index="1" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="Ze"/>
+        <node begin="1" end="2" id="8" lemma="uit_voeren" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="voer_uit" word="voeren" wvorm="pv"/>
+        <node begin="2" end="3" getal="getal" id="9" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+        <node begin="3" end="4" getal="mv" graad="basis" id="10" lemma="operatie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="operatie" word="operaties"/>
+        <node begin="4" end="5" id="11" lemma="uit" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="uit" vztype="fin" word="uit"/>
+      </node>
+      <node begin="0" cat="smain" end="9" id="12" rel="cnj">
+        <node begin="0" end="1" id="13" index="1" rel="su"/>
+        <node begin="6" end="7" id="14" lemma="geven" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="geef" word="geven" wvorm="pv"/>
+        <node begin="7" cat="np" end="9" id="15" rel="obj1">
+          <node begin="7" buiging="met-e" end="8" graad="basis" id="16" lemma="psychosociaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="psychosociaal" word="psychosociale"/>
+          <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="17" lemma="steun" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="steun" word="steun"/>
+        </node>
+      </node>
+      <node begin="0" cat="smain" end="12" id="18" rel="cnj">
+        <node begin="0" end="1" id="19" index="1" rel="su"/>
+        <node begin="10" end="11" id="20" lemma="installeren" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="installeer" word="installeren" wvorm="pv"/>
+        <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="21" lemma="sanitair" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="sanitair" word="sanitair"/>
+      </node>
+      <node begin="0" cat="smain" end="18" id="22" rel="cnj">
+        <node begin="0" end="1" id="23" index="1" rel="su"/>
+        <node begin="13" end="14" id="24" lemma="zorgen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="zorg" word="zorgen" wvorm="pv"/>
+        <node begin="14" cat="pp" end="18" id="25" rel="pc">
+          <node begin="14" end="15" id="26" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="15" cat="np" end="18" id="27" rel="obj1">
+            <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="28" lemma="toevoer" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="toevoer" word="toevoer"/>
+            <node begin="16" cat="pp" end="18" id="29" rel="mod">
+              <node begin="16" end="17" id="30" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="17" end="18" genus="onz" getal="ev" graad="basis" id="31" lemma="water" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="water" word="water"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="18" conjtype="neven" end="19" id="32" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="0" cat="smain" end="25" id="33" rel="cnj">
+        <node begin="0" end="1" id="34" index="1" rel="su"/>
+        <node begin="19" end="20" id="35" lemma="verdelen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="verdeel" word="verdelen" wvorm="pv"/>
+        <node begin="20" cat="conj" end="25" id="36" rel="obj1">
+          <node begin="20" end="21" genus="onz" getal="ev" graad="basis" id="37" lemma="bouw_materiaal" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="cnj" root="bouwmateriaal" word="bouwmateriaal"/>
+          <node begin="22" end="23" getal="mv" graad="basis" id="38" lemma="tent" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="tent" word="tenten"/>
+          <node begin="23" conjtype="neven" end="24" id="39" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="24" end="25" getal="mv" graad="basis" id="40" lemma="deken" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="deken" word="dekens"/>
+        </node>
+      </node>
+    </node>
+    <node begin="25" end="26" id="41" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Ze voeren er operaties uit , geven psychosociale steun , installeren sanitair , zorgen voor toevoer van water en verdelen bouwmateriaal , tenten en dekens .</sentence>
+</alpino_ds>

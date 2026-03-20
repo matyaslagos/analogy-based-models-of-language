@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="0" cat="du" end="11" id="2" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="3" lemma="en" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="en" word="En"/>
+      <node begin="1" cat="np" end="11" id="4" rel="nucl">
+        <node begin="1" end="2" id="5" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+        <node begin="2" end="3" id="6" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="3" end="4" getal="mv" graad="basis" id="7" lemma="soldaat" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="soldaat" word="soldaten"/>
+        <node begin="4" cat="rel" end="11" id="8" rel="mod">
+          <node begin="4" end="5" getal="getal" id="9" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+          <node begin="4" cat="ssub" end="11" id="10" rel="body">
+            <node begin="4" end="5" id="11" index="1" rel="su"/>
+            <node begin="5" end="6" id="12" lemma="sneuvelen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="sneuvel" word="sneuvelden" wvorm="pv"/>
+            <node begin="7" cat="ppres" end="11" id="13" rel="predm">
+              <node begin="7" buiging="zonder" end="8" id="14" lemma="liggen" pos="adj" positie="vrij" postag="WW(od,vrij,zonder)" pt="ww" rel="hd" root="lig" word="liggend" wvorm="od"/>
+              <node begin="8" cat="pp" end="11" id="15" rel="ld">
+                <node begin="8" end="9" id="16" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                <node begin="9" cat="np" end="11" id="17" rel="obj1">
+                  <node begin="9" end="10" id="18" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="19" lemma="branding" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="branding" word="branding"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" id="20" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>En ook de soldaten die sneuvelden - liggend in de branding .</sentence>
+</alpino_ds>

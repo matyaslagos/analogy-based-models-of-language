@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="smain" end="13" id="1" rel="--">
+      <node begin="2" end="3" id="2" lemma="zullen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="zal" word="zou" wvorm="pv"/>
+      <node begin="8" end="9" getal="ev" graad="basis" id="3" index="1" lemma="spraak" naamval="dat" ntype="soort" pos="noun" postag="N(soort,ev,basis,dat)" pt="n" rel="su" root="sprake" word="sprake"/>
+      <node begin="0" cat="inf" end="13" id="4" rel="vc">
+        <node begin="0" cat="pp" end="2" id="5" rel="mod">
+          <node begin="0" end="1" id="6" lemma="volgens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="volgens" vztype="init" word="Volgens"/>
+          <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="7" lemma="Gijsen" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" root="Gijsen" word="Gijsen"/>
+        </node>
+        <node begin="3" end="4" getal="getal" id="8" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+        <node begin="4" cat="pp" end="8" id="9" rel="mod">
+          <node begin="4" end="5" id="10" lemma="zonder" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="zonder" vztype="init" word="zonder"/>
+          <node begin="5" cat="np" end="8" id="11" rel="obj1">
+            <node begin="5" end="6" id="12" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="6" buiging="met-e" end="7" graad="basis" id="13" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" word="nieuwe"/>
+            <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="14" lemma="productie_systeem" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="productie_systeem" word="productiesysteem"/>
+          </node>
+        </node>
+        <node begin="8" end="9" id="15" index="1" rel="su"/>
+        <node begin="9" buiging="zonder" end="10" id="16" lemma="zijn" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ben" word="zijn" wvorm="inf"/>
+        <node begin="10" cat="pp" end="13" id="17" rel="pc">
+          <node begin="10" end="11" id="18" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="11" cat="np" end="13" id="19" rel="obj1">
+            <node begin="11" end="12" id="20" lemma="2400" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="2400" word="2400"/>
+            <node begin="12" end="13" getal="mv" graad="basis" id="21" lemma="ontslag" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="ontslag" word="ontslagen"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Volgens Gijsen zou er zonder het nieuwe productiesysteem sprake zijn van 2400 ontslagen .</sentence>
+</alpino_ds>

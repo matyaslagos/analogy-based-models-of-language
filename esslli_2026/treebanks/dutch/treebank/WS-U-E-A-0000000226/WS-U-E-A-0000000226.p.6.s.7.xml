@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="conj" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="5" id="2" rel="cnj">
+        <node begin="0" end="1" id="3" lemma="200" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="200" word="200"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="4" lemma="kogel" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kogel" word="kogels"/>
+        <node begin="2" cat="pp" end="5" id="5" rel="mod">
+          <node begin="2" end="3" id="6" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+          <node begin="3" cat="np" end="5" id="7" rel="obj1">
+            <node begin="3" buiging="met-e" end="4" graad="basis" id="8" lemma="zwaar" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="zwaar" word="zware"/>
+            <node begin="4" end="5" getal="mv" graad="basis" id="9" lemma="mitrailleur" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="mitrailleur" word="mitrailleurs"/>
+          </node>
+        </node>
+      </node>
+      <node begin="5" conjtype="neven" end="6" id="10" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="6" cat="np" end="8" id="11" rel="cnj">
+        <node begin="6" end="7" id="12" lemma="6" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="6" word="6"/>
+        <node begin="7" end="8" getal="mv" graad="basis" id="13" lemma="geweer_granaat" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="geweer_granaat" word="geweergranaten"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="14" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>200 kogels met zware mitrailleurs en 6 geweergranaten .</sentence>
+</alpino_ds>

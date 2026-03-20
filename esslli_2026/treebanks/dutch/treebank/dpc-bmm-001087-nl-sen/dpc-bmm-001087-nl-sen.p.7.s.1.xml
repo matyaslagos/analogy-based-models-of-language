@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="19" id="2" rel="--">
+      <node begin="0" cat="cp" end="6" id="3" rel="mod">
+        <node begin="0" conjtype="onder" end="1" id="4" lemma="wanneer" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="wanneer" word="Wanneer"/>
+        <node begin="1" cat="ssub" end="6" id="5" rel="body">
+          <node begin="1" cat="np" end="4" id="6" index="1" rel="su">
+            <node begin="1" end="2" id="7" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="2" buiging="met-e" end="3" graad="basis" id="8" lemma="mineraal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="mineraal" word="minerale"/>
+            <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="9" lemma="olie_vervuiling" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="olie_vervuiling" word="olievervuiling"/>
+          </node>
+          <node begin="4" end="5" id="10" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+          <node begin="1" cat="ppart" end="6" id="11" rel="vc">
+            <node begin="1" end="4" id="12" index="1" rel="obj1"/>
+            <node begin="5" buiging="zonder" end="6" id="13" lemma="op_sporen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="spoor_op" word="opgespoord" wvorm="vd"/>
+          </node>
+        </node>
+      </node>
+      <node begin="7" end="8" id="14" lemma="berekenen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="bereken" word="berekent" wvorm="pv"/>
+      <node begin="8" cat="np" end="10" id="15" rel="su">
+        <node begin="8" end="9" id="16" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="17" lemma="operator" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="operator" word="operator"/>
+      </node>
+      <node begin="10" cat="pp" end="12" id="18" rel="mod">
+        <node begin="10" end="11" id="19" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+        <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="20" lemma="benadering" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="benadering" word="benadering"/>
+      </node>
+      <node begin="12" cat="np" end="19" id="21" rel="obj1">
+        <node begin="12" end="13" id="22" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="23" lemma="hoeveelheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="hoeveelheid" word="hoeveelheid"/>
+        <node begin="14" cat="np" end="16" id="24" rel="mod">
+          <node begin="14" buiging="met-e" end="15" id="25" lemma="lozen" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="geloosd" word="geloosde" wvorm="vd"/>
+          <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="26" lemma="olie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="olie" word="olie"/>
+        </node>
+        <node begin="16" cat="pp" end="19" id="27" rel="mod">
+          <node begin="16" end="17" id="28" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="17" cat="np" end="19" id="29" rel="obj1">
+            <node begin="17" end="18" id="30" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="18" end="19" genus="onz" getal="ev" graad="basis" id="31" lemma="zeewater" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="zeewater" word="zeewater"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="32" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Wanneer een minerale olievervuiling wordt opgespoord , berekent de operator bij benadering de hoeveelheid geloosde olie in het zeewater .</sentence>
+</alpino_ds>

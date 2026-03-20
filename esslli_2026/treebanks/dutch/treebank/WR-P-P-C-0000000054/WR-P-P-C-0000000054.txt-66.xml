@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="4" id="2" index="1" rel="su">
+        <node begin="0" end="1" id="3" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="Ook"/>
+        <node begin="1" buiging="met-e" end="2" graad="basis" id="4" lemma="ander" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ander" word="andere"/>
+        <node begin="2" buiging="met-e" end="3" graad="basis" id="5" lemma="chemisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="chemisch" word="chemische"/>
+        <node begin="3" end="4" getal="mv" graad="basis" id="6" lemma="stof" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="stof" word="stoffen"/>
+      </node>
+      <node begin="4" end="5" id="7" lemma="kunnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kan" word="kunnen" wvorm="pv"/>
+      <node begin="0" cat="inf" end="8" id="8" rel="vc">
+        <node begin="0" end="4" id="9" index="1" rel="su"/>
+        <node begin="5" cat="pp" end="7" id="10" rel="pc">
+          <node begin="5" end="6" id="11" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" vztype="init" word="tot"/>
+          <node begin="6" end="7" getal="mv" graad="basis" id="12" lemma="aanval" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="aanval" word="aanvallen"/>
+        </node>
+        <node begin="7" buiging="zonder" end="8" id="13" lemma="leiden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="leid" word="leiden" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="14" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Ook andere chemische stoffen kunnen tot aanvallen leiden .</sentence>
+</alpino_ds>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="smain" end="13" id="1" rel="--">
+      <node begin="1" end="2" id="2" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="heeft" wvorm="pv"/>
+      <node begin="2" end="3" getal="getal" id="3" index="1" lemma="u" naamval="nomin" pdtype="pron" persoon="2b" pos="pron" postag="VNW(pers,pron,nomin,vol,2b,getal)" pt="vnw" rel="su" root="u" status="vol" vwtype="pers" word="u"/>
+      <node begin="0" cat="ppart" end="13" id="4" rel="vc">
+        <node begin="0" end="1" id="5" lemma="misschien" pos="adv" postag="BW()" pt="bw" rel="mod" root="misschien" word="Misschien"/>
+        <node begin="2" end="3" id="6" index="1" rel="su"/>
+        <node begin="3" cat="np" end="6" id="7" rel="mod">
+          <node begin="3" cat="np" end="5" id="8" rel="det">
+            <node begin="3" end="4" id="9" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="10" lemma="aantal" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="aantal" word="aantal"/>
+          </node>
+          <node begin="5" end="6" getal="mv" graad="basis" id="11" lemma="jaar" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="jaar" word="jaren"/>
+        </node>
+        <node begin="6" end="7" id="12" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+        <node begin="7" buiging="zonder" end="8" id="13" lemma="werken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="werk" word="gewerkt" wvorm="vd"/>
+        <node begin="8" cat="pp" end="13" id="14" rel="mod">
+          <node begin="8" cat="mwu" end="11" id="15" rel="hd">
+            <node begin="8" conjtype="onder" end="9" id="16" lemma="als" pos="prep" postag="VG(onder)" pt="vg" rel="mwp" root="als" word="als"/>
+            <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="17" lemma="gevolg" naamval="stan" ntype="soort" pos="prep" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="gevolg" word="gevolg"/>
+            <node begin="10" end="11" id="18" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="van" vztype="init" word="van"/>
+          </node>
+          <node begin="11" cat="np" end="13" id="19" rel="obj1">
+            <node begin="11" buiging="zonder" end="12" getal="getal" id="20" lemma="u" naamval="stan" npagr="agr" pdtype="det" persoon="2" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,2,getal,prenom,zonder,agr)" pt="vnw" rel="det" root="u" status="vol" vwtype="bez" word="uw"/>
+            <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="21" lemma="epilepsie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="epilepsie" word="epilepsie"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Misschien heeft u een aantal jaren niet gewerkt als gevolg van uw epilepsie .</sentence>
+</alpino_ds>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma=")" pos="tag" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="2" end="3" id="2" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="6" end="7" id="3" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="0" cat="du" end="14" id="4" rel="--">
+      <node begin="0" end="1" id="5" lemma="f" pos="tag" postag="SPEC(symb)" pt="spec" rel="tag" root="f" spectype="symb" word="f"/>
+      <node begin="3" cat="conj" end="14" id="6" rel="nucl">
+        <node begin="3" cat="np" end="8" id="7" rel="cnj">
+          <node begin="3" cat="conj" end="6" id="8" rel="mod">
+            <node begin="3" buiging="met-e" end="4" graad="basis" id="9" lemma="vast" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="vast" word="vaste"/>
+            <node begin="4" conjtype="neven" end="5" id="10" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="5" buiging="met-e" end="6" graad="basis" id="11" lemma="uitneembaar" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="uitneembare" word="uitneembare"/>
+          </node>
+          <node begin="7" end="8" getal="mv" graad="basis" id="12" lemma="tand_prothese" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="tand_prothese" word="tandprothesen"/>
+        </node>
+        <node begin="8" conjtype="neven" end="9" id="13" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="9" cat="np" end="14" id="14" rel="cnj">
+          <node begin="9" end="10" getal="mv" graad="basis" id="15" lemma="prothese" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="prothese" word="prothesen"/>
+          <node begin="10" cat="rel" end="14" id="16" rel="mod">
+            <node begin="10" end="11" getal="getal" id="17" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+            <node begin="10" cat="ssub" end="14" id="18" rel="body">
+              <node begin="10" end="11" id="19" index="1" rel="su"/>
+              <node begin="11" cat="np" end="13" id="20" rel="obj1">
+                <node begin="11" end="12" id="21" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="22" lemma="mondholte" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="mondholte" word="mondholte"/>
+              </node>
+              <node begin="13" end="14" id="23" lemma="dichten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="dicht" word="dichten" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="24" lemma=";" pos="punct" postag="LET()" pt="let" rel="--" root=";" word=";"/>
+  </node>
+  <sentence>f ) ( vaste en uitneembare ) tandprothesen en prothesen die de mondholte dichten ;</sentence>
+</alpino_ds>

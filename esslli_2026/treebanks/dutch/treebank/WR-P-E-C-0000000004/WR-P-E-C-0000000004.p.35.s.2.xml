@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="6" end="7" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="0" cat="smain" end="21" id="3" rel="--">
+      <node begin="0" cat="conj" end="6" id="4" rel="su">
+        <node begin="0" cat="np" end="2" id="5" rel="cnj">
+          <node begin="0" end="1" id="6" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+          <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="7" lemma="Leonardo_leerstoel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="Leonardoleerstoel" word="Leonardoleerstoel"/>
+        </node>
+        <node begin="3" conjtype="neven" end="4" id="8" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="4" cat="np" end="6" id="9" rel="cnj">
+          <node begin="4" end="5" id="10" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="11" lemma="lezing" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="lezing" word="lezing"/>
+        </node>
+      </node>
+      <node begin="7" end="8" id="12" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="8" cat="np" end="21" id="13" rel="predc">
+        <node begin="8" end="9" id="14" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="15" lemma="initiatief" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="initiatief" word="initiatief"/>
+        <node begin="10" cat="pp" end="21" id="16" rel="mod">
+          <node begin="10" end="11" id="17" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="11" cat="np" end="21" id="18" rel="obj1">
+            <node begin="11" end="12" id="19" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="12" cat="mwu" end="16" id="20" rel="hd">
+              <node begin="12" end="13" id="21" lemma="Faculteit" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Faculteit" spectype="deeleigen" word="Faculteit"/>
+              <node begin="13" end="14" id="22" lemma="Communicatie" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Communicatie" spectype="deeleigen" word="Communicatie"/>
+              <node begin="14" end="15" id="23" lemma="en" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="en" spectype="deeleigen" word="en"/>
+              <node begin="15" end="16" id="24" lemma="Cultuur" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Cultuur" spectype="deeleigen" word="Cultuur"/>
+            </node>
+            <node begin="16" cat="pp" end="21" id="25" rel="mod">
+              <node begin="16" end="17" id="26" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="17" cat="np" end="21" id="27" rel="obj1">
+                <node begin="17" end="18" id="28" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="18" end="19" genus="zijd" getal="ev" graad="basis" id="29" lemma="universiteit" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="universiteit" word="universiteit"/>
+                <node begin="19" cat="pp" end="21" id="30" rel="mod">
+                  <node begin="19" end="20" id="31" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                  <node begin="20" end="21" genus="onz" getal="ev" graad="basis" id="32" lemma="Tilburg" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Tilburg" word="Tilburg"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="21" end="22" id="33" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De Leonardoleerstoel ( en de lezing ) is een initiatief van de Faculteit Communicatie en Cultuur van de universiteit van Tilburg .</sentence>
+</alpino_ds>

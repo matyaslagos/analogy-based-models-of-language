@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="32" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="12" end="13" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="13" end="14" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="22" end="23" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="26" end="27" id="5" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="28" end="29" id="6" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="0" cat="du" end="30" id="7" rel="--">
+      <node begin="0" end="1" id="8" lemma="23" pos="num" postag="SPEC(symb)" pt="spec" rel="tag" root="23" spectype="symb" word="23"/>
+      <node begin="1" cat="du" end="30" id="9" rel="nucl">
+        <node begin="1" cat="np" end="12" id="10" rel="dp">
+          <node begin="1" buiging="zonder" end="2" graad="basis" id="11" lemma="gemiddeld" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="gemiddeld" word="Gemiddeld"/>
+          <node begin="2" end="3" id="12" lemma="36" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="36" word="36"/>
+          <node begin="3" end="4" id="13" lemma="%" pos="noun" postag="SPEC(symb)" pt="spec" rel="hd" root="%" spectype="symb" word="%"/>
+          <node begin="4" cat="np" end="12" id="14" rel="mod">
+            <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="15" lemma="verlaging" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="verlaging" word="verlaging"/>
+            <node begin="5" cat="pp" end="8" id="16" rel="mod">
+              <node begin="5" end="6" id="17" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="6" cat="np" end="8" id="18" rel="obj1">
+                <node begin="6" buiging="met-e" end="7" id="19" lemma="al" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,agr)" pt="vnw" rel="det" root="alle" vwtype="onbep" word="alle"/>
+                <node begin="7" end="8" getal="mv" graad="basis" id="20" lemma="tarief" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="tarief" word="tarieven"/>
+              </node>
+            </node>
+            <node begin="9" cat="pp" end="12" id="21" rel="mod">
+              <node begin="9" end="10" id="22" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" vztype="init" word="na"/>
+              <node begin="10" cat="np" end="12" id="23" rel="obj1">
+                <node begin="10" end="11" id="24" lemma="eventueel" pos="adj" postag="SPEC(afk)" pt="spec" rel="mod" root="eventueel" spectype="afk" word="evt"/>
+                <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="25" lemma="tarificatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="tarificatie" word="tarificatie"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="14" cat="pp" end="30" id="26" rel="dp">
+          <node begin="14" end="15" id="27" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+          <node begin="15" cat="np" end="30" id="28" rel="obj1">
+            <node begin="15" end="16" id="29" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="16" end="17" genus="onz" getal="ev" graad="basis" id="30" lemma="minimum" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="minimum" word="minimum"/>
+            <node begin="17" cat="pp" end="30" id="31" rel="mod">
+              <node begin="17" end="18" id="32" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="18" cat="np" end="30" id="33" rel="obj1">
+                <node begin="18" end="19" id="34" lemma="15" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="15" word="15"/>
+                <node begin="19" end="20" id="35" lemma="%" pos="noun" postag="SPEC(symb)" pt="spec" rel="hd" root="%" spectype="symb" word="%"/>
+                <node begin="20" cat="pp" end="22" id="36" rel="mod">
+                  <node begin="20" end="21" id="37" lemma="per" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="per" vztype="init" word="per"/>
+                  <node begin="21" end="22" genus="onz" getal="ev" graad="basis" id="38" lemma="product" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="product" word="product"/>
+                </node>
+                <node begin="23" cat="pp" end="30" id="39" rel="mod">
+                  <node begin="23" end="24" id="40" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                  <node begin="24" cat="np" end="30" id="41" rel="obj1">
+                    <node begin="24" end="25" id="42" lemma="6" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="6" word="6"/>
+                    <node begin="25" end="26" genus="onz" getal="ev" graad="basis" id="43" lemma="jaar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="jaar" word="jaar"/>
+                    <node begin="27" cat="conj" end="30" id="44" rel="mod">
+                      <node begin="27" end="28" id="45" lemma="1995" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="cnj" root="1995" word="1995"/>
+                      <node begin="29" end="30" id="46" lemma="2000" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="cnj" root="2000" word="2000"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="30" end="31" id="47" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="31" end="32" id="48" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>23 Gemiddeld 36 % verlaging van alle tarieven ( na evt tarificatie ) , met een minimum van 15 % per product , in 6 jaar ( 1995 - 2000 ) .</sentence>
+</alpino_ds>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="0" cat="np" end="13" id="2" rel="--">
+      <node begin="0" cat="mwu" end="6" id="3" rel="hd">
+        <node begin="0" end="1" id="4" lemma="drs." pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="drs." spectype="deeleigen" word="drs."/>
+        <node begin="1" end="2" id="5" lemma="A." pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="A." spectype="deeleigen" word="A."/>
+        <node begin="2" end="3" id="6" lemma="(" pos="name" postag="LET()" pt="let" rel="mwp" root="(" word="("/>
+        <node begin="3" end="4" id="7" lemma="Alexander" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Alexander" spectype="deeleigen" word="Alexander"/>
+        <node begin="4" end="5" id="8" lemma=")" pos="name" postag="LET()" pt="let" rel="mwp" root=")" word=")"/>
+        <node begin="5" end="6" id="9" lemma="Pechtold" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Pechtold" spectype="deeleigen" word="Pechtold"/>
+      </node>
+      <node begin="7" cat="np" end="13" id="10" rel="app">
+        <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="11" lemma="minister" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="minister" word="minister"/>
+        <node begin="8" cat="pp" end="13" id="12" rel="mod">
+          <node begin="8" end="9" id="13" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="9" cat="mwu" end="13" id="14" rel="obj1">
+            <node begin="9" buiging="met-e" end="10" graad="basis" id="15" lemma="bestuurlijk" naamval="stan" pos="name" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mwp" root="Bestuurlijke" word="Bestuurlijke"/>
+            <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="16" lemma="vernieuwing" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Vernieuwing" word="Vernieuwing"/>
+            <node begin="11" conjtype="neven" end="12" id="17" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="mwp" root="en" word="en"/>
+            <node begin="12" end="13" getal="mv" graad="basis" id="18" lemma="koninkrijk_relatie" ntype="soort" pos="name" postag="N(soort,mv,basis)" pt="n" rel="mwp" root="Koninkrijksrelaties" word="Koninkrijksrelaties"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>drs. A. ( Alexander ) Pechtold - minister van Bestuurlijke Vernieuwing en Koninkrijksrelaties</sentence>
+</alpino_ds>

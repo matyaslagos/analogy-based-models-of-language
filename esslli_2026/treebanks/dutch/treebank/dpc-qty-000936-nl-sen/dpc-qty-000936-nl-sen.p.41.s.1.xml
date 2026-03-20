@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="19" id="2" rel="--">
+      <node begin="0" cat="smain" end="8" id="3" rel="cnj">
+        <node begin="0" cat="mwu" end="2" id="4" index="1" rel="su">
+          <node begin="0" end="1" id="5" lemma="Pierre" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Pierre" spectype="deeleigen" word="Pierre"/>
+          <node begin="1" end="2" id="6" lemma="Rion" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Rion" spectype="deeleigen" word="Rion"/>
+        </node>
+        <node begin="2" end="3" id="7" index="2" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="0" cat="ppart" end="8" id="8" rel="vc">
+          <node begin="0" end="2" id="9" index="1" rel="obj1"/>
+          <node begin="3" buiging="zonder" end="4" id="10" lemma="geboren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="geboren" word="geboren" wvorm="vd"/>
+          <node begin="4" cat="pp" end="6" id="11" rel="mod">
+            <node begin="4" end="5" id="12" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="13" lemma="Charleroi" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Charleroi" word="Charleroi"/>
+          </node>
+          <node begin="6" cat="pp" end="8" id="14" rel="mod">
+            <node begin="6" end="7" id="15" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="7" end="8" id="16" lemma="1959" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" root="1959" word="1959"/>
+          </node>
+        </node>
+      </node>
+      <node begin="0" cat="smain" end="13" id="17" rel="cnj">
+        <node begin="0" end="2" id="18" index="1" rel="su"/>
+        <node begin="2" end="3" id="19" index="2" rel="hd"/>
+        <node begin="9" cat="np" end="13" id="20" rel="predc">
+          <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="21" lemma="vader" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="vader" word="vader"/>
+          <node begin="10" cat="pp" end="13" id="22" rel="mod">
+            <node begin="10" end="11" id="23" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="11" cat="np" end="13" id="24" rel="obj1">
+              <node begin="11" end="12" id="25" lemma="drie" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="drie" word="drie"/>
+              <node begin="12" end="13" getal="mv" graad="basis" id="26" lemma="kind" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kind" word="kinderen"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="13" conjtype="neven" end="14" id="27" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="0" cat="smain" end="19" id="28" rel="cnj">
+        <node begin="0" end="2" id="29" index="1" rel="su"/>
+        <node begin="14" end="15" id="30" lemma="wonen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="woon" word="woont" wvorm="pv"/>
+        <node begin="15" cat="pp" end="19" id="31" rel="ld">
+          <node begin="15" end="16" id="32" lemma="te" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="te" vztype="init" word="te"/>
+          <node begin="16" cat="np" end="19" id="33" rel="obj1">
+            <node begin="16" end="17" genus="onz" getal="ev" graad="basis" id="34" lemma="Thorembais-les-Béguines" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Thorembais-les-Béguines" word="Thorembais-les-Béguines"/>
+            <node begin="17" cat="pp" end="19" id="35" rel="mod">
+              <node begin="17" end="18" id="36" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+              <node begin="18" end="19" genus="onz" getal="ev" graad="basis" id="37" lemma="Waals-Brabant" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Waals_Brabant" word="Waals-Brabant"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="38" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Pierre Rion is geboren in Charleroi in 1959 , vader van drie kinderen en woont te Thorembais-les-Béguines in Waals-Brabant .</sentence>
+</alpino_ds>

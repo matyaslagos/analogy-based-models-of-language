@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="17" id="2" rel="--">
+      <node begin="0" cat="smain" end="4" id="3" rel="cnj">
+        <node begin="0" end="1" getal="getal" id="4" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="ER"/>
+        <node begin="1" end="2" id="5" lemma="vloeien" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="vloei" word="VLOEIDE" wvorm="pv"/>
+        <node begin="2" cat="np" end="4" id="6" rel="su">
+          <node begin="2" buiging="zonder" end="3" id="7" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="GEEN"/>
+          <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="8" lemma="bloed" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="bloed" word="BLOED"/>
+        </node>
+      </node>
+      <node begin="5" conjtype="neven" end="6" id="9" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="MAAR"/>
+      <node begin="6" cat="smain" end="17" id="10" rel="cnj">
+        <node begin="6" cat="np" end="9" id="11" rel="su">
+          <node begin="6" end="7" id="12" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="HET"/>
+          <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="13" lemma="echtpaar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="echtpaar" word="ECHTPAAR"/>
+          <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="14" lemma="Saakasjvili" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" root="Saakasjvili" word="SAAKASJVILI"/>
+        </node>
+        <node begin="9" end="10" id="15" lemma="maken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="maak" word="MAAKTE" wvorm="pv"/>
+        <node begin="10" cat="np" end="12" id="16" rel="obj1">
+          <node begin="10" buiging="met-e" end="11" graad="basis" id="17" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,met-e,agr,basis)" pt="vnw" rel="mod" root="veel" vwtype="onbep" word="VELE"/>
+          <node begin="11" end="12" getal="mv" graad="basis" id="18" lemma="vijand" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vijand" word="VIJANDEN"/>
+        </node>
+        <node begin="12" cat="pp" end="17" id="19" rel="mod">
+          <node begin="12" end="13" id="20" lemma="onder" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="onder" vztype="init" word="ONDER"/>
+          <node begin="13" cat="np" end="17" id="21" rel="obj1">
+            <node begin="13" end="14" id="22" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="DE"/>
+            <node begin="14" buiging="met-e" end="15" graad="basis" id="23" lemma="oud" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="oud" word="OUDE"/>
+            <node begin="15" buiging="met-e" end="16" graad="basis" id="24" lemma="politiek" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="politiek" word="POLITIEKE"/>
+            <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="25" lemma="garde" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="garde" word="GARDE"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="26" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>ER VLOEIDE GEEN BLOED , MAAR HET ECHTPAAR SAAKASJVILI MAAKTE VELE VIJANDEN ONDER DE OUDE POLITIEKE GARDE .</sentence>
+</alpino_ds>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="smain" end="10" id="1" rel="--">
+      <node begin="0" end="1" getal="ev" id="2" index="1" lemma="je" naamval="nomin" pdtype="pron" persoon="2v" pos="pron" postag="VNW(pers,pron,nomin,red,2v,ev)" pt="vnw" rel="su" root="je" status="red" vwtype="pers" word="Je"/>
+      <node begin="1" end="2" id="3" lemma="kunnen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="kan" word="kunt" wvorm="pv"/>
+      <node begin="0" cat="inf" end="10" id="4" rel="vc">
+        <node begin="0" end="1" id="5" index="1" rel="su"/>
+        <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="6" lemma="OPB" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="OPB" word="OPB"/>
+        <node begin="3" end="4" id="7" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+        <node begin="4" buiging="zonder" end="5" graad="basis" id="8" lemma="telefonisch" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="telefonisch" word="telefonisch"/>
+        <node begin="5" buiging="zonder" end="6" id="9" lemma="bereiken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="bereik" word="bereiken" wvorm="inf"/>
+        <node begin="6" cat="pp" end="10" id="10" rel="mod">
+          <node begin="6" end="7" id="11" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+          <node begin="7" cat="mwu" end="10" id="12" rel="obj1">
+            <node begin="7" end="8" id="13" lemma="0800" pos="num" postag="SPEC(symb)" pt="spec" rel="mwp" root="0800" spectype="symb" word="0800"/>
+            <node begin="8" end="9" id="14" lemma="13" pos="num" postag="SPEC(symb)" pt="spec" rel="mwp" root="13" spectype="symb" word="13"/>
+            <node begin="9" end="10" id="15" lemma="700" pos="num" postag="SPEC(symb)" pt="spec" rel="mwp" root="700" spectype="symb" word="700"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="10" end="11" id="16" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Je kunt OPB ook telefonisch bereiken op 0800 13 700 .</sentence>
+</alpino_ds>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="0" cat="smain" end="21" id="1" rel="--">
+      <node begin="0" cat="pp" end="5" id="2" rel="mod">
+        <node begin="0" end="1" id="3" lemma="volgens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="volgens" vztype="init" word="Volgens"/>
+        <node begin="1" cat="np" end="5" id="4" rel="obj1">
+          <node begin="1" buiging="zonder" end="2" graad="basis" id="5" lemma="dezelfde" pos="det" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="det" root="dezelfde" word="dezelfde"/>
+          <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="6" lemma="studie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="studie" word="studie"/>
+          <node begin="3" cat="pp" end="5" id="7" rel="mod">
+            <node begin="3" end="4" id="8" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="9" lemma="IBM" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="IBM" word="IBM"/>
+          </node>
+        </node>
+      </node>
+      <node begin="5" end="6" id="10" lemma="genereren" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="genereer" word="genereren" wvorm="pv"/>
+      <node begin="6" cat="conj" end="11" id="11" rel="su">
+        <node begin="6" cat="np" end="8" id="12" rel="cnj">
+          <node begin="6" end="7" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="7" end="8" getal="mv" graad="basis" id="14" lemma="partner" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="partner" word="partners"/>
+        </node>
+        <node begin="8" conjtype="neven" end="9" id="15" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="9" cat="np" end="11" id="16" rel="cnj">
+          <node begin="9" end="10" id="17" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="10" end="11" getal="mv" graad="basis" id="18" lemma="klant" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="klant" word="klanten"/>
+        </node>
+      </node>
+      <node begin="11" cat="pp" end="14" id="19" rel="mod">
+        <node begin="11" end="12" id="20" lemma="binnen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="binnen" vztype="init" word="binnen"/>
+        <node begin="12" cat="np" end="14" id="21" rel="obj1">
+          <node begin="12" buiging="met-e" end="13" graad="basis" id="22" lemma="verschillend" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="verschil" word="verschillende"/>
+          <node begin="13" end="14" getal="mv" graad="basis" id="23" lemma="sector" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="sector" word="sectoren"/>
+        </node>
+      </node>
+      <node begin="14" cat="conj" end="21" id="24" rel="obj1">
+        <node begin="15" conjtype="neven" end="16" id="25" lemma="à" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="à" word="à"/>
+        <node begin="14" cat="np" end="21" id="26" rel="cnj">
+          <node begin="14" end="15" getal-n="zonder-n" graad="basis" id="27" lemma="40" numtype="hoofd" pos="num" positie="nom" postag="TW(hoofd,nom,zonder-n,basis)" pt="tw" rel="hd" root="40" word="40"/>
+          <node begin="17" cat="pp" end="21" id="28" index="1" rel="mod">
+            <node begin="17" end="18" id="29" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="18" cat="np" end="21" id="30" rel="obj1">
+              <node begin="18" end="19" id="31" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="19" buiging="met-e" end="20" graad="basis" id="32" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" word="nieuwe"/>
+              <node begin="20" end="21" getal="mv" graad="basis" id="33" lemma="idee" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="idee" word="ideeën"/>
+            </node>
+          </node>
+        </node>
+        <node begin="16" cat="np" end="21" id="34" rel="cnj">
+          <node begin="16" end="17" id="35" lemma="50%" pos="num" postag="SPEC(symb)" pt="spec" rel="hd" root="50%" spectype="symb" word="50%"/>
+          <node begin="17" end="21" id="36" index="1" rel="mod"/>
+        </node>
+      </node>
+    </node>
+    <node begin="21" end="22" id="37" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Volgens dezelfde studie van IBM genereren de partners en de klanten binnen verschillende sectoren 40 à 50% van de nieuwe ideeën .</sentence>
+</alpino_ds>

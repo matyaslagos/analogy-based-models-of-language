@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="0" cat="smain" end="19" id="1" rel="--">
+      <node begin="15" end="16" id="2" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+      <node begin="16" cat="np" end="18" id="3" index="1" rel="su">
+        <node begin="16" end="17" id="4" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="5" lemma="mastectomie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="mastectomie" word="mastectomie"/>
+      </node>
+      <node begin="0" cat="ppart" end="19" id="6" rel="vc">
+        <node begin="0" cat="pp" end="15" id="7" rel="mod">
+          <node begin="0" end="1" id="8" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="Bij"/>
+          <node begin="1" cat="np" end="15" id="9" rel="obj1">
+            <node begin="1" end="2" id="10" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="2" buiging="met-e" end="3" graad="sup" id="11" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,met-e,agr,sup)" pt="vnw" rel="mod" root="meest" vwtype="onbep" word="meeste"/>
+            <node begin="3" end="4" getal="mv" graad="basis" id="12" lemma="patiënt" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="patiënt" word="patiënten"/>
+            <node begin="4" cat="pp" end="15" id="13" rel="mod">
+              <node begin="4" end="5" id="14" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+              <node begin="5" cat="conj" end="15" id="15" rel="obj1">
+                <node begin="5" cat="np" end="11" id="16" rel="cnj">
+                  <node begin="5" end="6" id="17" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                  <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="18" lemma="tumor" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="tumor" word="tumor"/>
+                  <node begin="7" cat="ap" end="11" id="19" rel="mod">
+                    <node begin="7" buiging="zonder" end="8" graad="comp" id="20" lemma="groot" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="groot" word="groter"/>
+                    <node begin="8" cat="cp" end="11" id="21" rel="obcomp">
+                      <node begin="8" conjtype="onder" end="9" id="22" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="dan" word="dan"/>
+                      <node begin="9" cat="np" end="11" id="23" rel="body">
+                        <node begin="9" end="10" id="24" lemma="3" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="3" word="3"/>
+                        <node begin="10" end="11" id="25" lemma="cm" pos="noun" postag="SPEC(symb)" pt="spec" rel="hd" root="centi_meter" spectype="symb" word="cm"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node begin="11" conjtype="neven" end="12" id="26" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+                <node begin="12" cat="np" end="15" id="27" rel="cnj">
+                  <node begin="12" end="13" id="28" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                  <node begin="13" buiging="met-e" end="14" graad="basis" id="29" lemma="multicentrisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="multicentrische" word="multicentrische"/>
+                  <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="30" lemma="tumor" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="tumor" word="tumor"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="16" end="18" id="31" index="1" rel="obj1"/>
+        <node begin="18" buiging="zonder" end="19" id="32" lemma="verrichten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="verricht" word="verricht" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="19" end="20" id="33" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Bij de meeste patiënten met een tumor groter dan 3 cm of een multicentrische tumor werd een mastectomie verricht .</sentence>
+</alpino_ds>

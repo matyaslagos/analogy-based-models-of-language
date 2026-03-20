@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="8" id="2" rel="--">
+      <node begin="0" cat="conj" end="5" id="3" rel="su">
+        <node begin="0" end="1" getal="mv" graad="basis" id="4" lemma="straat" ntype="soort" pos="name" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="straat" word="Straten"/>
+        <node begin="2" end="3" getal="mv" graad="basis" id="5" lemma="tuin" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="tuin" word="tuinen"/>
+        <node begin="3" conjtype="neven" end="4" id="6" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="4" end="5" getal="mv" graad="basis" id="7" lemma="kas" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="kas" word="kassen"/>
+      </node>
+      <node begin="5" end="6" id="8" lemma="staan" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="sta" word="staan" wvorm="pv"/>
+      <node begin="6" cat="pp" end="8" id="9" rel="ld">
+        <node begin="6" end="7" id="10" lemma="onder" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="onder" vztype="init" word="onder"/>
+        <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="11" lemma="water" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="water" word="water"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="12" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Straten , tuinen en kassen staan onder water .</sentence>
+</alpino_ds>

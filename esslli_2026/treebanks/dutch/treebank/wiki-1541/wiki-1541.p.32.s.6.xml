@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="np" end="7" id="1" rel="--">
+      <node begin="0" cat="mwu" end="2" id="2" rel="hd">
+        <node begin="0" end="1" id="3" lemma="René" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="René" spectype="deeleigen" word="René"/>
+        <node begin="1" end="2" id="4" lemma="Magritte" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Magritte" spectype="deeleigen" word="Magritte"/>
+      </node>
+      <node begin="2" cat="pp" end="4" id="5" rel="mod">
+        <node begin="2" end="3" id="6" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+        <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="7" lemma="artcyclopedia" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" root="artcyclopedia" word="artcyclopedia"/>
+      </node>
+      <node begin="4" cat="pp" end="7" id="8" rel="mod">
+        <node begin="4" end="5" id="9" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+        <node begin="5" cat="np" end="7" id="10" rel="obj1">
+          <node begin="5" buiging="zonder" end="6" graad="basis" id="11" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,basis)" pt="vnw" rel="det" root="veel" vwtype="onbep" word="veel"/>
+          <node begin="6" end="7" getal="mv" graad="basis" id="12" lemma="link" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="link" word="links"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>René Magritte op artcyclopedia met veel links</sentence>
+</alpino_ds>

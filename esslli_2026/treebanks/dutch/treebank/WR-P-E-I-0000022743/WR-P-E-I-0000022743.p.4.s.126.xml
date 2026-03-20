@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="0" cat="smain" end="19" id="1" rel="--">
+      <node begin="0" cat="np" end="4" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="4" lemma="instelling" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="instelling" word="instelling"/>
+        <node begin="2" cat="pp" end="4" id="5" rel="mod">
+          <node begin="2" end="3" id="6" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="3" end="4" id="7" lemma="Sangharajas" pos="name" postag="SPEC(vreemd)" pt="spec" rel="obj1" root="Sangharajas" spectype="vreemd" word="Sangharajas"/>
+        </node>
+      </node>
+      <node begin="4" end="5" id="8" lemma="zorgen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="zorg" word="zorgde" wvorm="pv"/>
+      <node begin="5" cat="pp" end="19" id="9" rel="pc">
+        <node begin="5" end="6" id="10" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+        <node begin="6" cat="conj" end="19" id="11" rel="obj1">
+          <node begin="6" cat="np" end="10" id="12" rel="cnj">
+            <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="13" lemma="stabiliteit" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="stabiliteit" word="stabiliteit"/>
+            <node begin="7" cat="pp" end="10" id="14" rel="mod">
+              <node begin="7" end="8" id="15" lemma="binnen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="binnen" vztype="init" word="binnen"/>
+              <node begin="8" cat="np" end="10" id="16" rel="obj1">
+                <node begin="8" end="9" id="17" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="18" lemma="Sangha" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Sangha" word="Sangha"/>
+              </node>
+            </node>
+          </node>
+          <node begin="10" conjtype="neven" end="11" id="19" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="11" cat="np" end="19" id="20" rel="cnj">
+            <node begin="11" end="12" id="21" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="22" lemma="groei" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="groei" word="groei"/>
+            <node begin="13" cat="pp" end="19" id="23" rel="mod">
+              <node begin="13" end="14" id="24" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+              <node begin="14" cat="np" end="19" id="25" rel="obj1">
+                <node begin="14" end="15" id="26" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="27" lemma="studie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="studie" word="studie"/>
+                <node begin="16" cat="pp" end="19" id="28" rel="mod">
+                  <node begin="16" end="17" id="29" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                  <node begin="17" cat="np" end="19" id="30" rel="obj1">
+                    <node begin="17" end="18" id="31" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                    <node begin="18" end="19" genus="onz" getal="ev" graad="basis" id="32" lemma="boeddhisme" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="boeddhisme" word="boeddhisme"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="33" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De instelling van Sangharajas zorgde voor stabiliteit binnen de Sangha en een groei in de studie van het boeddhisme .</sentence>
+</alpino_ds>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="9" end="10" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="16" id="2" rel="--">
+      <node begin="10" end="11" id="3" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" word="kan" wvorm="pv"/>
+      <node begin="11" end="12" genus="onz" getal="ev" id="4" index="1" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" root="het" status="red" vwtype="pers" word="het"/>
+      <node begin="0" cat="inf" end="16" id="5" rel="vc">
+        <node begin="0" cat="pp" end="9" id="6" rel="mod">
+          <node begin="0" end="1" id="7" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="Bij"/>
+          <node begin="1" cat="conj" end="9" id="8" rel="obj1">
+            <node begin="1" cat="np" end="4" id="9" rel="cnj">
+              <node begin="1" end="2" id="10" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="2" buiging="zonder" end="3" graad="basis" id="11" lemma="groot" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="groot" word="groot"/>
+              <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="12" lemma="bestand" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="bestand" word="bestand"/>
+            </node>
+            <node begin="4" conjtype="neven" end="5" id="13" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="5" cat="np" end="9" id="14" rel="cnj">
+              <node begin="5" end="6" id="15" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="6" cat="ap" end="8" id="16" rel="mod">
+                <node begin="6" end="7" getal="ev" id="17" lemma="wat" naamval="stan" pdtype="pron" persoon="3o" pos="adv" postag="VNW(onbep,pron,stan,vol,3o,ev)" pt="vnw" rel="mod" root="wat" status="vol" vwtype="onbep" word="wat"/>
+                <node begin="7" buiging="met-e" end="8" graad="basis" id="18" lemma="traag" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="hd" root="traag" word="trage"/>
+              </node>
+              <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="19" lemma="computer" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="computer" word="computer"/>
+            </node>
+          </node>
+        </node>
+        <node begin="11" end="12" id="20" index="1" rel="su"/>
+        <node begin="12" buiging="zonder" end="13" id="21" lemma="op_lopen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="loop_op" word="oplopen" wvorm="inf"/>
+        <node begin="13" cat="pp" end="16" id="22" rel="ld">
+          <node begin="13" end="14" id="23" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" vztype="init" word="tot"/>
+          <node begin="14" cat="np" end="16" id="24" rel="obj1">
+            <node begin="14" end="15" id="25" lemma="één" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="één" word="één"/>
+            <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="26" lemma="minuut" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="minuut" word="minuut"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="27" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Bij een groot bestand en een wat trage computer , kan het oplopen tot één minuut .</sentence>
+</alpino_ds>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="9" end="10" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="21" id="2" rel="--">
+      <node begin="0" cat="smain" end="9" id="3" rel="cnj">
+        <node begin="1" end="2" id="4" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="ben" wvorm="pv"/>
+        <node begin="2" end="3" getal="ev" id="5" index="1" lemma="ik" naamval="nomin" pdtype="pron" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,vol,1,ev)" pt="vnw" rel="su" root="ik" status="vol" vwtype="pers" word="ik"/>
+        <node begin="0" cat="ppart" end="9" id="6" rel="vc">
+          <node begin="0" buiging="zonder" end="1" graad="basis" id="7" lemma="natuurlijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="natuurlijk" word="Natuurlijk"/>
+          <node begin="2" end="3" id="8" index="1" rel="su"/>
+          <node begin="3" buiging="zonder" end="4" id="9" lemma="interesseren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="interesseer" word="geïnteresseerd" wvorm="vd"/>
+          <node begin="4" cat="pp" end="9" id="10" rel="pc">
+            <node begin="4" end="5" id="11" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="5" cat="conj" end="9" id="12" rel="obj1">
+              <node begin="5" cat="mwu" end="7" id="13" rel="cnj">
+                <node begin="5" end="6" id="14" lemma="haute" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="haute" spectype="vreemd" word="haute"/>
+                <node begin="6" end="7" id="15" lemma="couture" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="couture" spectype="vreemd" word="couture"/>
+              </node>
+              <node begin="7" conjtype="neven" end="8" id="16" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="8" end="9" id="17" lemma="prêt-à-porter" pos="noun" postag="SPEC(vreemd)" pt="spec" rel="cnj" root="prêt-à-porter" spectype="vreemd" word="prêt-à-porter"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="10" conjtype="neven" end="11" id="18" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+      <node begin="11" cat="smain" end="21" id="19" rel="cnj">
+        <node begin="11" cat="np" end="14" id="20" index="2" rel="su">
+          <node begin="11" buiging="zonder" end="12" graad="basis" id="21" lemma="mooi" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="mooi" word="mooi"/>
+          <node begin="12" buiging="zonder" end="13" graad="basis" id="22" lemma="alledaags" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="alledaags" word="alledaags"/>
+          <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="23" lemma="tricot" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="tricot" word="tricot"/>
+        </node>
+        <node begin="14" end="15" id="24" lemma="weten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="weet" word="weet" wvorm="pv"/>
+        <node begin="11" cat="ti" end="21" id="25" rel="vc">
+          <node begin="19" end="20" id="26" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+          <node begin="11" cat="inf" end="21" id="27" rel="body">
+            <node begin="11" end="14" id="28" index="2" rel="su"/>
+            <node begin="15" end="16" getal="ev" id="29" lemma="me" naamval="obl" pdtype="pron" persoon="1" pos="pron" postag="VNW(pr,pron,obl,red,1,ev)" pt="vnw" rel="obj1" root="me" status="red" vwtype="pr" word="me"/>
+            <node begin="16" end="17" id="30" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" word="nog"/>
+            <node begin="17" cat="mwu" end="19" id="31" rel="mod">
+              <node begin="17" end="18" id="32" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="adj" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" word="het"/>
+              <node begin="18" buiging="zonder" end="19" graad="sup" id="33" lemma="veel" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,sup)" pt="vnw" rel="mwp" root="meest" vwtype="onbep" word="meest"/>
+            </node>
+            <node begin="20" buiging="zonder" end="21" id="34" lemma="boeien" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="boei" word="boeien" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="21" end="22" id="35" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Natuurlijk ben ik geïnteresseerd in haute couture en prêt-à-porter , maar mooi alledaags tricot weet me nog het meest te boeien .</sentence>
+</alpino_ds>

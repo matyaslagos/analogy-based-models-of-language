@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="29" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="10" end="11" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="20" end="21" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="28" id="4" rel="--">
+      <node begin="0" cat="pp" end="10" id="5" rel="mod">
+        <node begin="0" cat="mwu" end="3" id="6" rel="hd">
+          <node begin="0" end="1" id="7" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="op" vztype="init" word="Op"/>
+          <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="8" lemma="basis" naamval="stan" ntype="soort" pos="prep" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="basis" word="basis"/>
+          <node begin="2" end="3" id="9" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="van" vztype="init" word="van"/>
+        </node>
+        <node begin="3" cat="np" end="10" id="10" rel="obj1">
+          <node begin="3" buiging="met-e" end="4" id="11" lemma="bepalen" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="bepaald" word="bepaalde" wvorm="vd"/>
+          <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="12" lemma="informatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="informatie" word="informatie"/>
+          <node begin="6" cat="ppart" end="10" id="13" rel="mod">
+            <node begin="6" buiging="zonder" end="7" id="14" lemma="vergaren" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="vergaard" word="vergaard" wvorm="vd"/>
+            <node begin="7" cat="pp" end="10" id="15" rel="mod">
+              <node begin="7" end="8" id="16" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" vztype="init" word="uit"/>
+              <node begin="8" cat="np" end="10" id="17" rel="obj1">
+                <node begin="8" buiging="met-e" end="9" graad="basis" id="18" lemma="verschillend" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="verschil" word="verschillende"/>
+                <node begin="9" end="10" getal="mv" graad="basis" id="19" lemma="bron" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="bron" word="bronnen"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="11" end="12" id="20" lemma="op_stellen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="stel_op" word="stellen" wvorm="pv"/>
+      <node begin="12" end="13" getal="mv" id="21" lemma="wij" naamval="nomin" pdtype="pron" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,vol,1,mv)" pt="vnw" rel="su" root="wij" status="vol" vwtype="pers" word="wij"/>
+      <node begin="13" buiging="zonder" end="14" graad="comp" id="22" lemma="ver" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="ver" word="verder"/>
+      <node begin="14" end="15" id="23" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+      <node begin="16" end="17" id="24" lemma="op" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="op" vztype="fin" word="op"/>
+      <node begin="15" cat="np" end="28" id="25" rel="obj1">
+        <node begin="15" end="16" getal="mv" graad="basis" id="26" lemma="rapport" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="rapport" word="rapporten"/>
+        <node begin="17" cat="rel" end="28" id="27" rel="mod">
+          <node begin="17" end="18" getal="getal" id="28" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+          <node begin="17" cat="ssub" end="28" id="29" rel="body">
+            <node begin="17" end="18" id="30" index="1" rel="su"/>
+            <node begin="18" cat="np" end="27" id="31" rel="obj1">
+              <node begin="18" end="19" id="32" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="19" cat="conj" end="24" id="33" rel="mod">
+                <node begin="19" buiging="met-e" end="20" graad="basis" id="34" lemma="geo_politiek" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="geopolitieke" word="geopolitieke"/>
+                <node begin="21" buiging="met-e" end="22" graad="basis" id="35" lemma="economisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="economisch" word="economische"/>
+                <node begin="22" conjtype="neven" end="23" id="36" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                <node begin="23" buiging="met-e" end="24" graad="basis" id="37" lemma="sociaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="sociaal" word="sociale"/>
+              </node>
+              <node begin="24" end="25" getal="mv" graad="basis" id="38" lemma="risico" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="risico" word="risico&apos;s"/>
+              <node begin="25" cat="pp" end="27" id="39" rel="mod">
+                <node begin="25" end="26" id="40" lemma="per" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="per" vztype="init" word="per"/>
+                <node begin="26" end="27" genus="onz" getal="ev" graad="basis" id="41" lemma="land" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="land" word="land"/>
+              </node>
+            </node>
+            <node begin="27" end="28" id="42" lemma="analyseren" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="analyseer" word="analyseren" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="28" end="29" id="43" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Op basis van bepaalde informatie , vergaard uit verschillende bronnen , stellen wij verder ook rapporten op die de geopolitieke , economische en sociale risico&apos;s per land analyseren .</sentence>
+</alpino_ds>

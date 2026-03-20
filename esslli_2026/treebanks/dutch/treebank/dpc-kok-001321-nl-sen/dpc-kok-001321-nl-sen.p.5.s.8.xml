@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="23" id="0" rel="top">
+    <node begin="14" end="15" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="18" end="19" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="22" id="3" rel="--">
+      <node begin="0" cat="smain" end="14" id="4" rel="cnj">
+        <node begin="0" cat="np" end="4" id="5" rel="su">
+          <node begin="0" end="1" genus="onz" getal="ev" graad="basis" id="6" lemma="respect" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="respect" word="Respect"/>
+          <node begin="1" cat="pp" end="4" id="7" rel="mod">
+            <node begin="1" end="2" id="8" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+            <node begin="2" cat="np" end="4" id="9" rel="obj1">
+              <node begin="2" end="3" getal="mv" id="10" lemma="elkaar" naamval="gen" pdtype="pron" persoon="persoon" pos="det" postag="VNW(recip,pron,gen,vol,persoon,mv)" pt="vnw" rel="det" root="elkaar" status="vol" vwtype="recip" word="elkaars"/>
+              <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="11" lemma="mening" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="mening" word="mening"/>
+            </node>
+          </node>
+        </node>
+        <node begin="4" end="5" id="12" lemma="in_houden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="houd_in" word="houdt" wvorm="pv"/>
+        <node begin="5" buiging="zonder" end="6" graad="basis" id="13" lemma="natuurlijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="natuurlijk" word="natuurlijk"/>
+        <node begin="6" end="7" id="14" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+        <node begin="7" end="8" id="15" lemma="in" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="in" vztype="fin" word="in"/>
+        <node begin="8" cat="cp" end="14" id="16" rel="vc">
+          <node begin="8" conjtype="onder" end="9" id="17" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+          <node begin="9" cat="ssub" end="14" id="18" rel="body">
+            <node begin="9" end="10" getal="ev" id="19" index="1" lemma="je" naamval="nomin" pdtype="pron" persoon="2v" pos="pron" postag="VNW(pers,pron,nomin,red,2v,ev)" pt="vnw" rel="su" root="je" status="red" vwtype="pers" word="je"/>
+            <node begin="12" end="13" id="20" lemma="kunnen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="kan" word="kunt" wvorm="pv"/>
+            <node begin="9" cat="inf" end="14" id="21" rel="vc">
+              <node begin="9" end="10" id="22" index="1" rel="su"/>
+              <node begin="10" end="11" getal="mv" id="23" lemma="elkaar" naamval="obl" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(recip,pron,obl,vol,persoon,mv)" pt="vnw" rel="obj1" root="elkaar" status="vol" vwtype="recip" word="elkaar"/>
+              <node begin="11" end="12" id="24" lemma="daarop" pos="pp" postag="BW()" pt="bw" rel="mod" root="daarop" word="daarop"/>
+              <node begin="13" buiging="zonder" end="14" id="25" lemma="bestrijden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="bestrijd" word="bestrijden" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="15" conjtype="neven" end="16" id="26" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+      <node begin="16" cat="du" end="22" id="27" rel="cnj">
+        <node begin="16" cat="pp" end="18" id="28" rel="dp">
+          <node begin="16" end="17" id="29" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+          <node begin="17" end="18" getal="mv" graad="basis" id="30" lemma="woord" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="woord" word="woorden"/>
+        </node>
+        <node begin="19" cat="pp" end="22" id="31" rel="dp">
+          <node begin="19" end="20" id="32" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+          <node begin="20" end="21" id="33" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+          <node begin="21" end="22" getal="mv" graad="basis" id="34" lemma="kogel" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="kogel" word="kogels"/>
+        </node>
+      </node>
+    </node>
+    <node begin="22" end="23" id="35" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Respect voor elkaars mening houdt natuurlijk ook in dat je elkaar daarop kunt bestrijden , maar met woorden , niet met kogels .</sentence>
+</alpino_ds>

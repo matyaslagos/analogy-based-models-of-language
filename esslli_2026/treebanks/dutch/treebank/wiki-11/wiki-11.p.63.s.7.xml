@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="np" end="5" id="2" rel="--">
+      <node begin="0" cat="mwu" end="2" id="3" rel="hd">
+        <node begin="0" end="1" id="4" lemma="Erwin" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Erwin" spectype="deeleigen" word="Erwin"/>
+        <node begin="1" end="2" id="5" lemma="Pairon" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Pairon" spectype="deeleigen" word="Pairon"/>
+      </node>
+      <node begin="3" cat="mwu" end="5" id="6" rel="mod">
+        <node begin="3" end="4" id="7" lemma="Groen" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Groen" spectype="deeleigen" word="Groen"/>
+        <node begin="4" end="5" id="8" lemma="!" pos="punct" postag="LET()" pt="let" rel="mwp" root="!" word="!"/>
+      </node>
+    </node>
+    <node begin="5" end="6" id="9" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+  </node>
+  <sentence>Erwin Pairon ( Groen ! )</sentence>
+</alpino_ds>

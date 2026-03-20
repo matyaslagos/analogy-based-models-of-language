@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="su">
+        <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="3" lemma="hoofd_officier" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="hoofdofficier" word="Hoofdofficier"/>
+        <node begin="1" cat="mwu" end="3" id="4" rel="app">
+          <node begin="1" end="2" id="5" lemma="De" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="De" spectype="deeleigen" word="De"/>
+          <node begin="2" end="3" id="6" lemma="Wit" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Wit" spectype="deeleigen" word="Wit"/>
+        </node>
+      </node>
+      <node begin="3" end="4" id="7" lemma="presenteren" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="presenteer" word="presenteerde" wvorm="pv"/>
+      <node begin="4" end="5" id="8" lemma="vanmiddag" pos="adv" postag="BW()" pt="bw" rel="mod" root="vanmiddag" word="vanmiddag"/>
+      <node begin="5" cat="np" end="8" id="9" rel="obj1">
+        <node begin="5" end="6" id="10" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+        <node begin="6" buiging="met-e" end="7" graad="basis" id="11" lemma="Amsterdams" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Amsterdams" word="Amsterdamse"/>
+        <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="12" lemma="meer_jaar_plan" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="meer_jaar_plan" word="meerjarenplan"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="13" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Hoofdofficier De Wit presenteerde vanmiddag het Amsterdamse meerjarenplan .</sentence>
+</alpino_ds>

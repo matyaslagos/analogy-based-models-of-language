@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="25" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="12" end="13" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="14" end="15" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="16" end="17" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="18" end="19" id="5" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="24" id="6" rel="--">
+      <node begin="0" cat="smain" end="8" id="7" rel="nucl">
+        <node begin="3" end="4" id="8" lemma="kunnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kan" word="kunnen" wvorm="pv"/>
+        <node begin="4" cat="np" end="7" id="9" index="1" rel="su">
+          <node begin="4" end="5" id="10" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="5" buiging="met-e" end="6" id="11" lemma="volgen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="volg" word="volgende" wvorm="od"/>
+          <node begin="6" end="7" getal="mv" graad="basis" id="12" lemma="verschijnsel" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="verschijnsel" word="verschijnselen"/>
+        </node>
+        <node begin="0" cat="inf" end="8" id="13" rel="vc">
+          <node begin="0" cat="pp" end="3" id="14" rel="mod">
+            <node begin="0" end="1" id="15" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="In"/>
+            <node begin="1" cat="np" end="3" id="16" rel="obj1">
+              <node begin="1" buiging="met-e" end="2" id="17" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="deze"/>
+              <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="18" lemma="fase" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="fase" word="fase"/>
+            </node>
+          </node>
+          <node begin="4" end="7" id="19" index="1" rel="su"/>
+          <node begin="7" buiging="zonder" end="8" id="20" lemma="op_treden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="treed_op" word="optreden" wvorm="inf"/>
+        </node>
+      </node>
+      <node begin="9" cat="conj" end="24" id="21" rel="sat">
+        <node begin="9" cat="np" end="12" id="22" rel="cnj">
+          <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="23" lemma="gevoel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="gevoel" word="gevoel"/>
+          <node begin="10" cat="pp" end="12" id="24" rel="mod">
+            <node begin="10" end="11" id="25" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="26" lemma="dronkenschap" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="dronkenschap" word="dronkenschap"/>
+          </node>
+        </node>
+        <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="27" lemma="duizeligheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="duizeligheid" word="duizeligheid"/>
+        <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="28" lemma="slaperigheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="slaperig_heid" word="slaperigheid"/>
+        <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="29" lemma="traagheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="traagheid" word="traagheid"/>
+        <node begin="19" cat="np" end="22" id="30" rel="cnj">
+          <node begin="19" end="20" genus="onz" getal="ev" graad="basis" id="31" lemma="gebrek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="gebrek" word="gebrek"/>
+          <node begin="20" cat="pp" end="22" id="32" rel="mod">
+            <node begin="20" end="21" id="33" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+            <node begin="21" end="22" genus="zijd" getal="ev" graad="basis" id="34" lemma="eetlust" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="eetlust" word="eetlust"/>
+          </node>
+        </node>
+        <node begin="22" conjtype="neven" end="23" id="35" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+        <node begin="23" end="24" genus="zijd" getal="ev" graad="basis" id="36" lemma="misselijkheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="misselijkheid" word="misselijkheid"/>
+      </node>
+    </node>
+    <node begin="24" end="25" id="37" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>In deze fase kunnen de volgende verschijnselen optreden : gevoel van dronkenschap , duizeligheid , slaperigheid , traagheid , gebrek aan eetlust of misselijkheid .</sentence>
+</alpino_ds>

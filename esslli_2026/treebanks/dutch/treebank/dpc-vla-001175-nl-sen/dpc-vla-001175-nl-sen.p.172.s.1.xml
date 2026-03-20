@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="0" cat="smain" end="19" id="1" rel="--">
+      <node begin="0" cat="pp" end="7" id="2" rel="mod">
+        <node begin="0" end="1" id="3" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="Met"/>
+        <node begin="1" cat="np" end="7" id="4" rel="obj1">
+          <node begin="1" end="2" id="5" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="6" lemma="bereik" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="bereik" word="bereik"/>
+          <node begin="3" cat="pp" end="7" id="7" rel="mod">
+            <node begin="3" end="4" id="8" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="4" cat="np" end="7" id="9" rel="obj1">
+              <node begin="4" cat="detp" end="6" id="10" rel="det">
+                <node begin="4" buiging="zonder" end="5" graad="basis" id="11" lemma="ruim" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="ruim" word="ruim"/>
+                <node begin="5" end="6" id="12" lemma="250.000" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="hd" root="250.000" word="250.000"/>
+              </node>
+              <node begin="6" end="7" getal="mv" graad="basis" id="13" lemma="cursist" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="cursist" word="cursisten"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="7" end="8" id="14" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="8" cat="np" end="13" id="15" rel="su">
+        <node begin="8" end="9" id="16" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+        <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="17" lemma="onderwijs" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="onderwijs" word="onderwijs"/>
+        <node begin="10" cat="pp" end="13" id="18" rel="mod">
+          <node begin="10" end="11" id="19" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="11" cat="np" end="13" id="20" rel="obj1">
+            <node begin="11" buiging="met-e" end="12" graad="basis" id="21" lemma="sociaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="sociaal" word="sociale"/>
+            <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="22" lemma="promotie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="promotie" word="promotie"/>
+          </node>
+        </node>
+      </node>
+      <node begin="13" cat="np" end="19" id="23" rel="predc">
+        <node begin="13" end="14" id="24" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="14" buiging="met-e" end="15" graad="sup" id="25" lemma="groot" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="mod" root="groot" word="grootste"/>
+        <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="26" lemma="poot" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="poot" word="poot"/>
+        <node begin="16" cat="pp" end="19" id="27" rel="mod">
+          <node begin="16" end="17" id="28" lemma="binnen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="binnen" vztype="init" word="binnen"/>
+          <node begin="17" cat="np" end="19" id="29" rel="obj1">
+            <node begin="17" end="18" id="30" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="18" end="19" genus="onz" getal="ev" graad="basis" id="31" lemma="volwassen_onderwijs" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="volwassenenonderwijs" word="volwassenenonderwijs"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="32" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Met een bereik van ruim 250.000 cursisten is het onderwijs voor sociale promotie de grootste poot binnen het volwassenenonderwijs .</sentence>
+</alpino_ds>

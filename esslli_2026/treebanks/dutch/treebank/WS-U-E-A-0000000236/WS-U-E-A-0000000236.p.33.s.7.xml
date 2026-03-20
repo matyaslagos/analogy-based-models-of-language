@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="du" end="7" id="1" rel="--">
+      <node begin="0" end="1" id="2" lemma="dan" pos="adv" postag="BW()" pt="bw" rel="dp" root="dan" word="Dan"/>
+      <node begin="1" cat="np" end="7" id="3" rel="dp">
+        <node begin="1" buiging="zonder" end="2" id="4" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="geen"/>
+        <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="5" lemma="vertraging" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="vertraging" word="vertraging"/>
+        <node begin="2" cat="ap" end="7" id="6" rel="mod">
+          <node begin="2" buiging="met-e" end="3" graad="comp" id="7" lemma="lang" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,comp,met-e,stan)" pt="adj" rel="hd" root="lang" word="langere"/>
+          <node begin="4" cat="cp" end="7" id="8" rel="obcomp">
+            <node begin="4" conjtype="onder" end="5" id="9" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="dan" word="dan"/>
+            <node begin="5" cat="np" end="7" id="10" rel="body">
+              <node begin="5" end="6" id="11" lemma="6" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="6" word="6"/>
+              <node begin="6" end="7" getal="mv" graad="basis" id="12" lemma="minuut" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="minuut" word="minuten"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="7" end="8" id="13" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dan geen langere vertraging dan 6 minuten .</sentence>
+</alpino_ds>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="30" id="0" rel="top">
+    <node begin="9" end="10" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="17" end="18" id="2" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="19" end="20" id="3" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="0" cat="smain" end="29" id="4" rel="--">
+      <node begin="10" end="11" id="5" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+      <node begin="11" cat="np" end="24" id="6" index="1" rel="su">
+        <node begin="11" end="12" id="7" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="12" buiging="zonder" end="13" graad="basis" id="8" lemma="stevig" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="stevig" word="stevig"/>
+        <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="9" lemma="blok" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="blok" word="blok"/>
+        <node begin="14" end="15" genus="onz" getal="ev" graad="basis" id="10" lemma="hout" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mod" root="hout" word="hout"/>
+        <node begin="15" cat="pp" end="24" id="11" rel="mod">
+          <node begin="15" end="16" id="12" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+          <node begin="16" cat="np" end="24" id="13" rel="obj1">
+            <node begin="16" end="17" id="14" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="18" buiging="met-e" end="19" graad="basis" id="15" lemma="rudimentair" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="rudimentair" word="rudimentaire"/>
+            <node begin="20" end="21" getal="mv" graad="basis" id="16" lemma="vorm" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vorm" word="vormen"/>
+            <node begin="21" cat="pp" end="24" id="17" rel="mod">
+              <node begin="21" end="22" id="18" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="22" cat="np" end="24" id="19" rel="obj1">
+                <node begin="22" end="23" id="20" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                <node begin="23" end="24" genus="zijd" getal="ev" graad="basis" id="21" lemma="vogel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="vogel" word="vogel"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="0" cat="ppart" end="29" id="22" rel="vc">
+        <node begin="0" cat="ppart" end="9" id="23" rel="mod">
+          <node begin="0" buiging="zonder" end="1" id="24" lemma="omgeven" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="omgeven" word="Omgeven" wvorm="vd"/>
+          <node begin="1" cat="pp" end="9" id="25" rel="mod">
+            <node begin="1" end="2" id="26" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+            <node begin="2" cat="np" end="9" id="27" rel="obj1">
+              <node begin="2" end="3" id="28" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="3" buiging="zonder" end="4" graad="basis" id="29" lemma="feestelijk" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="feestelijk" word="feestelijk"/>
+              <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="30" lemma="ritueel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="ritueel" word="ritueel"/>
+              <node begin="5" cat="rel" end="9" id="31" rel="mod">
+                <node begin="5" end="6" getal="ev" id="32" index="2" lemma="dat" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(betr,pron,stan,vol,3,ev)" pt="vnw" rel="rhd" root="dat" status="vol" vwtype="betr" word="dat"/>
+                <node begin="5" cat="ssub" end="9" id="33" rel="body">
+                  <node begin="5" end="6" id="34" index="2" rel="su"/>
+                  <node begin="6" cat="pp" end="8" id="35" rel="mod">
+                    <node begin="6" end="7" id="36" lemma="per" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="per" vztype="init" word="per"/>
+                    <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="37" lemma="vereniging" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="vereniging" word="vereniging"/>
+                  </node>
+                  <node begin="8" end="9" id="38" lemma="verschillen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="verschil" word="verschilt" wvorm="pv"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="11" end="24" id="39" index="1" rel="obj1"/>
+        <node begin="24" cat="pp" end="28" id="40" rel="ld">
+          <node begin="24" end="25" id="41" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+          <node begin="25" cat="np" end="28" id="42" rel="obj1">
+            <node begin="25" end="26" id="43" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="26" buiging="met-e" end="27" graad="basis" id="44" lemma="hoog" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="hoog" word="hoge"/>
+            <node begin="27" end="28" genus="zijd" getal="ev" graad="basis" id="45" lemma="stang" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="stang" word="stang"/>
+          </node>
+        </node>
+        <node begin="28" buiging="zonder" end="29" id="46" lemma="plaatsen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="plaats" word="geplaatst" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="29" end="30" id="47" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Omgeven met een feestelijk ritueel dat per vereniging verschilt , wordt een stevig blok hout met de ( rudimentaire ) vormen van een vogel op een hoge stang geplaatst .</sentence>
+</alpino_ds>

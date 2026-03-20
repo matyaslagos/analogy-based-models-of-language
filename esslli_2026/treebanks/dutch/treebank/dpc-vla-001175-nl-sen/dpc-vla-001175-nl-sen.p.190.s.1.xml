@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="32" id="0" rel="top">
+    <node begin="15" end="16" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="17" end="18" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="27" end="28" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="31" id="4" rel="--">
+      <node begin="0" cat="conj" end="6" id="5" rel="su">
+        <node begin="0" cat="mwu" end="4" id="6" rel="cnj">
+          <node begin="0" end="1" id="7" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="name" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" word="Het"/>
+          <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="8" lemma="centrum" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="centrum" word="centrum"/>
+          <node begin="2" end="3" id="9" lemma="voor" pos="name" postag="VZ(init)" pt="vz" rel="mwp" root="voor" vztype="init" word="voor"/>
+          <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="10" lemma="leerling_begeleiding" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="leerlingenbegeleiding" word="leerlingenbegeleiding"/>
+        </node>
+        <node begin="4" conjtype="neven" end="5" id="11" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+        <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="12" lemma="CLB" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="cnj" root="CLB" word="CLB"/>
+      </node>
+      <node begin="6" end="7" id="13" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="7" cat="np" end="31" id="14" rel="predc">
+        <node begin="7" end="8" id="15" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="8" cat="ppart" end="12" id="16" rel="mod">
+          <node begin="8" cat="pp" end="11" id="17" rel="mod">
+            <node begin="8" end="9" id="18" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+            <node begin="9" cat="np" end="11" id="19" rel="obj1">
+              <node begin="9" end="10" id="20" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="21" lemma="overheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="overheid" word="overheid"/>
+            </node>
+          </node>
+          <node begin="11" buiging="met-e" end="12" id="22" lemma="financieren" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="hd" root="gefinancierd" word="gefinancierde" wvorm="vd"/>
+        </node>
+        <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="23" lemma="dienst" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="dienst" word="dienst"/>
+        <node begin="13" cat="rel" end="31" id="24" rel="mod">
+          <node begin="13" end="14" id="25" index="1" lemma="waarop" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waarop" word="waarop"/>
+          <node begin="13" cat="ssub" end="31" id="26" rel="body">
+            <node begin="14" cat="conj" end="21" id="27" index="2" rel="su">
+              <node begin="14" end="15" getal="mv" graad="basis" id="28" lemma="leerling" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="leerling" word="leerlingen"/>
+              <node begin="16" end="17" getal="mv" graad="basis" id="29" lemma="ouder" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="ouder" word="ouders"/>
+              <node begin="18" end="19" getal="mv" graad="basis" id="30" lemma="leraar" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="leraar" word="leraren"/>
+              <node begin="19" conjtype="neven" end="20" id="31" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="20" end="21" getal="mv" graad="basis" id="32" lemma="school_directie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="schooldirectie" word="schooldirecties"/>
+            </node>
+            <node begin="23" end="24" id="33" lemma="kunnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kan" word="kunnen" wvorm="pv"/>
+            <node begin="13" cat="inf" end="31" id="34" rel="vc">
+              <node begin="13" end="14" id="35" index="1" rel="mod"/>
+              <node begin="14" end="21" id="36" index="2" rel="su"/>
+              <node begin="21" cat="np" end="23" id="37" rel="obj1">
+                <node begin="21" end="22" id="38" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                <node begin="22" end="23" genus="onz" getal="ev" graad="basis" id="39" lemma="beroep" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="beroep" word="beroep"/>
+              </node>
+              <node begin="24" buiging="zonder" end="25" id="40" lemma="doen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="doe" word="doen" wvorm="inf"/>
+              <node begin="25" cat="pp" end="31" id="41" rel="mod">
+                <node begin="25" end="26" id="42" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+                <node begin="26" cat="conj" end="31" id="43" rel="obj1">
+                  <node begin="26" end="27" genus="zijd" getal="ev" graad="basis" id="44" lemma="informatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="informatie" word="informatie"/>
+                  <node begin="28" end="29" genus="zijd" getal="ev" graad="basis" id="45" lemma="hulp" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="hulp" word="hulp"/>
+                  <node begin="29" conjtype="neven" end="30" id="46" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                  <node begin="30" end="31" genus="zijd" getal="ev" graad="basis" id="47" lemma="begeleiding" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="begeleiding" word="begeleiding"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="31" end="32" id="48" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het centrum voor leerlingenbegeleiding of CLB is een door de overheid gefinancierde dienst waarop leerlingen , ouders , leraren en schooldirecties een beroep kunnen doen voor informatie , hulp en begeleiding .</sentence>
+</alpino_ds>

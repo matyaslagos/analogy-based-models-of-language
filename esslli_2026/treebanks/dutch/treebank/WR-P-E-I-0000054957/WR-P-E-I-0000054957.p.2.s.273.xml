@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="23" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="19" end="20" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="22" id="3" rel="--">
+      <node begin="0" cat="smain" end="8" id="4" rel="cnj">
+        <node begin="0" end="1" genus="onz" getal="ev" graad="basis" id="5" lemma="Nederland" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" root="Nedrland" word="Nedrland"/>
+        <node begin="1" end="2" id="6" lemma="over_geven" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="geef_over" word="gaf" wvorm="pv"/>
+        <node begin="2" end="3" getal="getal" id="7" lemma="zich" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="se" root="zich" status="red" vwtype="refl" word="zich"/>
+        <node begin="3" cat="pp" end="7" id="8" rel="mod">
+          <node begin="3" end="4" id="9" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mod" root="al" word="al"/>
+          <node begin="4" end="5" id="10" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" vztype="init" word="na"/>
+          <node begin="5" cat="np" end="7" id="11" rel="obj1">
+            <node begin="5" end="6" id="12" lemma="vijf" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="vijf" word="vijf"/>
+            <node begin="6" end="7" getal="mv" graad="basis" id="13" lemma="dag" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="dag" word="dagen"/>
+          </node>
+        </node>
+        <node begin="7" end="8" id="14" lemma="over" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="over" vztype="fin" word="over"/>
+      </node>
+      <node begin="9" conjtype="neven" end="10" id="15" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+      <node begin="10" cat="smain" end="22" id="16" rel="cnj">
+        <node begin="10" cat="np" end="12" id="17" rel="su">
+          <node begin="10" end="11" id="18" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+          <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="19" lemma="Frankrijk" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Frankrijk" word="Frankrijk"/>
+        </node>
+        <node begin="12" end="13" id="20" lemma="bezwijken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="bezwijk" word="bezweek" wvorm="pv"/>
+        <node begin="13" buiging="zonder" end="14" graad="basis" id="21" lemma="snel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="snel" word="snel"/>
+        <node begin="14" cat="pp" end="22" id="22" rel="mod">
+          <node begin="14" end="15" id="23" lemma="onder" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="onder" vztype="init" word="onder"/>
+          <node begin="15" cat="np" end="22" id="24" rel="obj1">
+            <node begin="15" end="16" id="25" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="16" buiging="met-e" end="17" id="26" lemma="oefenen" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="geoefend" word="geoefende" wvorm="vd"/>
+            <node begin="17" buiging="zonder" end="18" graad="basis" id="27" lemma="Duits" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="Duits" word="Duits"/>
+            <node begin="18" end="19" getal="mv" graad="basis" id="28" lemma="leger" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="leger" word="legers"/>
+            <node begin="20" cat="np" end="22" id="29" rel="app">
+              <node begin="20" end="21" id="30" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="21" end="22" genus="zijd" getal="ev" graad="basis" id="31" lemma="Blitzkrieg" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Blitzkrieg" word="Blitzkrieg"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="22" end="23" id="32" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Nedrland gaf zich al na vijf dagen over , maar ook Frankrijk bezweek snel onder de geoefende Duits legers , de Blitzkrieg .</sentence>
+</alpino_ds>

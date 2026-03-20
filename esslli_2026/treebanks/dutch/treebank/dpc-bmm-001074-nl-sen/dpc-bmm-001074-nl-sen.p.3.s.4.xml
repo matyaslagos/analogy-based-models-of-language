@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" index="1" rel="su">
+        <node begin="0" buiging="met-e" end="1" id="3" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="Deze"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="4" lemma="sediment" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="sedimenten" word="sedimenten"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="dienen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="dien" word="dienen" wvorm="pv"/>
+      <node begin="0" cat="ti" end="8" id="6" rel="vc">
+        <node begin="6" end="7" id="7" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+        <node begin="0" cat="inf" end="8" id="8" rel="body">
+          <node begin="0" end="2" id="9" index="1" rel="su"/>
+          <node begin="0" cat="ppart" end="6" id="10" rel="vc">
+            <node begin="0" end="2" id="11" index="1" rel="obj1"/>
+            <node begin="3" end="4" id="12" lemma="dan" pos="adv" postag="BW()" pt="bw" rel="mod" root="dan" word="dan"/>
+            <node begin="4" end="5" id="13" lemma="opnieuw" pos="adv" postag="BW()" pt="bw" rel="mod" root="opnieuw" word="opnieuw"/>
+            <node begin="5" buiging="zonder" end="6" id="14" lemma="weg_baggeren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="weg_bagger" word="weggebaggerd" wvorm="vd"/>
+          </node>
+          <node begin="7" buiging="zonder" end="8" id="15" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" id="16" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Deze sedimenten dienen dan opnieuw weggebaggerd te worden .</sentence>
+</alpino_ds>

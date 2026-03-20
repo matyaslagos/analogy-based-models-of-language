@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="0" cat="smain" end="17" id="1" rel="--">
+      <node begin="0" end="1" getal="mv" graad="basis" id="2" index="1" lemma="winkelier" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="winkelier" word="Winkeliers"/>
+      <node begin="1" end="2" id="3" lemma="mogen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="mag" word="mogen" wvorm="pv"/>
+      <node begin="0" cat="inf" end="17" id="4" rel="vc">
+        <node begin="0" end="1" id="5" index="1" rel="su"/>
+        <node begin="4" cat="pp" end="7" id="6" rel="ld">
+          <node begin="4" end="5" id="7" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="5" cat="np" end="7" id="8" rel="obj1">
+            <node begin="5" end="6" id="9" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="10" lemma="etalage" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="etalage" word="etalage"/>
+          </node>
+        </node>
+        <node begin="7" buiging="zonder" end="8" id="11" lemma="op_hangen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="hang_op" word="ophangen" wvorm="inf"/>
+        <node begin="2" cat="np" end="17" id="12" rel="obj1">
+          <node begin="2" buiging="zonder" end="3" id="13" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="geen"/>
+          <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="14" lemma="foto" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="foto" word="foto"/>
+          <node begin="8" cat="pp" end="17" id="15" rel="mod">
+            <node begin="8" end="9" id="16" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="9" cat="np" end="17" id="17" rel="obj1">
+              <node begin="9" end="10" getal="ev" id="18" lemma="iemand" naamval="stan" pdtype="pron" persoon="3p" pos="noun" postag="VNW(onbep,pron,stan,vol,3p,ev)" pt="vnw" rel="hd" root="iemand" status="vol" vwtype="onbep" word="iemand"/>
+              <node begin="10" cat="rel" end="17" id="19" rel="mod">
+                <node begin="10" end="11" getal="getal" id="20" index="2" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+                <node begin="10" cat="ssub" end="17" id="21" rel="body">
+                  <node begin="10" end="11" id="22" index="2" rel="su"/>
+                  <node begin="15" end="16" id="23" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="heeft" wvorm="pv"/>
+                  <node begin="10" cat="ppart" end="17" id="24" rel="vc">
+                    <node begin="10" end="11" id="25" index="2" rel="su"/>
+                    <node begin="11" end="12" getal="ev" id="26" lemma="iets" naamval="stan" pdtype="pron" persoon="3o" pos="noun" postag="VNW(onbep,pron,stan,vol,3o,ev)" pt="vnw" rel="obj1" root="iets" status="vol" vwtype="onbep" word="iets"/>
+                    <node begin="12" cat="pp" end="15" id="27" rel="mod">
+                      <node begin="12" end="13" id="28" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                      <node begin="13" cat="np" end="15" id="29" rel="obj1">
+                        <node begin="13" end="14" id="30" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                        <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="31" lemma="winkel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="winkel" word="winkel"/>
+                      </node>
+                    </node>
+                    <node begin="16" buiging="zonder" end="17" id="32" lemma="stelen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="steel" word="gestolen" wvorm="vd"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="33" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Winkeliers mogen geen foto in de etalage ophangen van iemand die iets in de winkel heeft gestolen .</sentence>
+</alpino_ds>

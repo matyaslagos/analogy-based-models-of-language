@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="0" cat="smain" end="17" id="1" rel="--">
+      <node begin="1" end="2" id="2" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="17" id="3" rel="vc">
+        <node begin="0" end="1" id="4" lemma="gisteren" pos="adv" postag="BW()" pt="bw" rel="mod" root="gisteren" word="Gisteren"/>
+        <node begin="2" end="3" id="5" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" word="nog"/>
+        <node begin="3" buiging="zonder" end="4" id="6" lemma="vrezen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="vrees" word="gevreesd" wvorm="vd"/>
+        <node begin="4" cat="cp" end="17" id="7" rel="vc">
+          <node begin="4" conjtype="onder" end="5" id="8" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+          <node begin="5" cat="ssub" end="17" id="9" rel="body">
+            <node begin="5" cat="np" end="8" id="10" index="1" rel="su">
+              <node begin="5" end="6" id="11" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="6" buiging="met-e" end="7" graad="basis" id="12" lemma="besmettelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="besmettelijk" word="besmettelijke"/>
+              <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="13" lemma="vogel_ziekte" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="vogel_ziekte" word="vogelziekte"/>
+            </node>
+            <node begin="15" end="16" id="14" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+            <node begin="5" cat="ppart" end="17" id="15" rel="vc">
+              <node begin="5" end="8" id="16" index="1" rel="obj1"/>
+              <node begin="8" cat="mwu" end="11" id="17" rel="mod">
+                <node begin="8" end="9" id="18" lemma="voor" pos="adj" postag="VZ(init)" pt="vz" rel="mwp" root="voor" vztype="init" word="voor"/>
+                <node begin="9" end="10" id="19" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="adj" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" word="het"/>
+                <node begin="10" end="11" getal-n="zonder-n" id="20" lemma="één" numtype="rang" pos="adj" positie="nom" postag="TW(rang,nom,zonder-n)" pt="tw" rel="mwp" root="eerst" word="eerst"/>
+              </node>
+              <node begin="11" cat="pp" end="13" id="21" rel="mod">
+                <node begin="11" end="12" id="22" lemma="vanuit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="vanuit" vztype="init" word="vanuit"/>
+                <node begin="12" end="13" genus="onz" getal="ev" graad="basis" id="23" lemma="Azië" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Azië" word="Azië"/>
+              </node>
+              <node begin="13" cat="pp" end="15" id="24" rel="ld">
+                <node begin="13" end="14" id="25" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+                <node begin="14" end="15" genus="onz" getal="ev" graad="basis" id="26" lemma="Europa" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Európa" word="Európa"/>
+              </node>
+              <node begin="16" buiging="zonder" end="17" id="27" lemma="over_brengen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="breng_over" word="overgebracht" wvorm="vd"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="28" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Gisteren werd nog gevreesd dat de besmettelijke vogelziekte voor het eerst vanuit Azië naar Európa was overgebracht .</sentence>
+</alpino_ds>

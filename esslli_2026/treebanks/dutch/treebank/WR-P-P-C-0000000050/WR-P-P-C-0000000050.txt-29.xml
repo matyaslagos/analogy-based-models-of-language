@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="0" cat="smain" end="20" id="1" rel="--">
+      <node begin="0" cat="pp" end="4" id="2" rel="mod">
+        <node begin="0" end="1" id="3" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="Voor"/>
+        <node begin="1" cat="np" end="4" id="4" rel="obj1">
+          <node begin="1" end="2" id="5" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="2" buiging="zonder" end="3" graad="basis" id="6" lemma="goed" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="goed" word="goed"/>
+          <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="7" lemma="gebruik" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="gebruik" word="gebruik"/>
+        </node>
+      </node>
+      <node begin="4" end="5" id="8" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="5" end="6" genus="onz" getal="ev" id="9" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="noun" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="sup" root="het" status="red" vwtype="pers" word="het"/>
+      <node begin="6" buiging="zonder" end="7" graad="basis" id="10" lemma="belangrijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="belangrijk" word="belangrijk"/>
+      <node begin="7" cat="oti" end="20" id="11" rel="su">
+        <node begin="7" end="8" id="12" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="om"/>
+        <node begin="8" cat="ti" end="20" id="13" rel="body">
+          <node begin="8" end="9" id="14" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+          <node begin="9" cat="inf" end="20" id="15" rel="body">
+            <node begin="9" buiging="zonder" end="10" id="16" lemma="weten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="weet" word="weten" wvorm="inf"/>
+            <node begin="10" cat="conj" end="20" id="17" rel="vc">
+              <node begin="10" cat="whsub" end="13" id="18" rel="cnj">
+                <node begin="10" end="11" id="19" index="1" lemma="hoe" pos="adj" postag="BW()" pt="bw" rel="whd" root="hoe" word="hoe"/>
+                <node begin="10" cat="ssub" end="13" id="20" rel="body">
+                  <node begin="10" end="11" id="21" index="1" rel="mod"/>
+                  <node begin="11" end="12" getal="mv" graad="basis" id="22" lemma="anti_epilepticum" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="anti-epileptica" word="anti-epileptica"/>
+                  <node begin="12" end="13" id="23" lemma="werken" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="werk" word="werken" wvorm="pv"/>
+                </node>
+              </node>
+              <node begin="13" conjtype="neven" end="14" id="24" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="14" cat="whsub" end="20" id="25" rel="cnj">
+                <node begin="14" end="15" id="26" index="2" lemma="hoe" pos="adj" postag="BW()" pt="bw" rel="whd" root="hoe" word="hoe"/>
+                <node begin="14" cat="ssub" end="20" id="27" rel="body">
+                  <node begin="15" end="16" getal="getal" id="28" index="3" lemma="u" naamval="nomin" pdtype="pron" persoon="2b" pos="pron" postag="VNW(pers,pron,nomin,vol,2b,getal)" pt="vnw" rel="su" root="u" status="vol" vwtype="pers" word="u"/>
+                  <node begin="18" end="19" id="29" lemma="moeten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="moet" word="moet" wvorm="pv"/>
+                  <node begin="14" cat="inf" end="20" id="30" rel="vc">
+                    <node begin="14" end="15" id="31" index="2" rel="mod"/>
+                    <node begin="15" end="16" id="32" index="3" rel="su"/>
+                    <node begin="16" end="17" id="33" lemma="ermee" pos="pp" postag="BW()" pt="bw" rel="pc" root="ermee" word="ermee"/>
+                    <node begin="17" end="18" id="34" lemma="om" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="om" vztype="fin" word="om"/>
+                    <node begin="19" buiging="zonder" end="20" id="35" lemma="om_gaan" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ga_om" word="gaan" wvorm="inf"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="20" end="21" id="36" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Voor een goed gebruik is het belangrijk om te weten hoe anti-epileptica werken en hoe u ermee om moet gaan .</sentence>
+</alpino_ds>

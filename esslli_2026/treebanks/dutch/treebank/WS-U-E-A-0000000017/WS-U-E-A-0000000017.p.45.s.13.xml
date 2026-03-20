@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="7" id="2" rel="--">
+      <node begin="0" cat="np" end="2" id="3" rel="dp">
+        <node begin="0" buiging="zonder" end="1" id="4" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="Geen"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="dim" id="5" lemma="fabel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,dim,onz,stan)" pt="n" rel="hd" root="fabel_DIM" word="fabeltje"/>
+      </node>
+      <node begin="3" cat="np" end="7" id="6" rel="dp">
+        <node begin="3" buiging="zonder" end="4" id="7" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="geen"/>
+        <node begin="4" cat="mwu" end="6" id="8" rel="mod">
+          <node begin="4" end="5" id="9" lemma="Jams" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Jams" spectype="deeleigen" word="Jams"/>
+          <node begin="5" end="6" id="10" lemma="Bond" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Bond" spectype="deeleigen" word="Bond"/>
+        </node>
+        <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="11" lemma="verhaal" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="verhaal" word="verhaal"/>
+      </node>
+    </node>
+    <node begin="7" end="8" id="12" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Geen fabeltje , geen Jams Bond verhaal .</sentence>
+</alpino_ds>

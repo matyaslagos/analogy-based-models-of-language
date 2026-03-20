@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="11" id="2" rel="--">
+      <node begin="1" end="2" id="3" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="11" id="4" rel="vc">
+        <node begin="0" end="1" id="5" lemma="zo" pos="adv" postag="BW()" pt="bw" rel="mod" root="zo" word="Zo"/>
+        <node begin="2" end="3" id="6" lemma="meestal" pos="adv" postag="BW()" pt="bw" rel="mod" root="meestal" word="meestal"/>
+        <node begin="3" buiging="zonder" end="4" id="7" lemma="kiezen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="kies" word="gekozen" wvorm="vd"/>
+        <node begin="4" cat="pp" end="11" id="8" rel="pc">
+          <node begin="4" end="5" id="9" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="5" cat="conj" end="11" id="10" rel="obj1">
+            <node begin="5" cat="np" end="7" id="11" rel="cnj">
+              <node begin="5" buiging="met-e" end="6" graad="comp" id="12" lemma="breed" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,comp,met-e,stan)" pt="adj" rel="mod" root="breed" word="bredere"/>
+              <node begin="6" end="7" getal="mv" graad="basis" id="13" lemma="band" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="band" word="banden"/>
+            </node>
+            <node begin="8" conjtype="neven" end="9" id="14" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+            <node begin="9" cat="np" end="11" id="15" rel="cnj">
+              <node begin="9" buiging="met-e" end="10" graad="basis" id="16" lemma="specifiek" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="specifiek" word="specifieke"/>
+              <node begin="10" end="11" getal="mv" graad="basis" id="17" lemma="rem_soort" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="rem_soort" word="remsoorten"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" id="18" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Zo wordt meestal gekozen voor bredere banden , of specifieke remsoorten .</sentence>
+</alpino_ds>

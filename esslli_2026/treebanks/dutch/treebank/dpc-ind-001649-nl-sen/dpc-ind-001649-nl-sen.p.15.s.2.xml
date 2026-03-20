@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="smain" end="4" id="1" rel="--">
+      <node begin="0" end="1" getal="mv" graad="basis" id="2" lemma="Fransen" ntype="eigen" pos="noun" postag="N(eigen,mv,basis)" pt="n" rel="su" root="Fransman" word="Fransen"/>
+      <node begin="1" end="2" id="3" lemma="houden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="houd" word="houden" wvorm="pv"/>
+      <node begin="2" cat="pp" end="4" id="4" rel="pc">
+        <node begin="2" end="3" id="5" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+        <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="6" lemma="discussie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="discussie" word="discussie"/>
+      </node>
+    </node>
+    <node begin="4" end="5" id="7" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+    <node begin="5" end="6" id="8" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+  </node>
+  <sentence>Fransen houden van discussie . &quot;</sentence>
+</alpino_ds>

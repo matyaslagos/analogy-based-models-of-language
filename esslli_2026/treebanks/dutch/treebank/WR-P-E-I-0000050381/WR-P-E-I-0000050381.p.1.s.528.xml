@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="0" cat="smain" end="19" id="1" rel="--">
+      <node begin="4" end="5" id="2" lemma="moeten" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="moet" word="moesten" wvorm="pv"/>
+      <node begin="5" cat="np" end="8" id="3" index="1" rel="su">
+        <node begin="5" buiging="met-e" end="6" id="4" lemma="al" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,agr)" pt="vnw" rel="det" root="alle" vwtype="onbep" word="alle"/>
+        <node begin="6" buiging="met-e" end="7" graad="basis" id="5" lemma="Joods" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Joods" word="Joodse"/>
+        <node begin="7" end="8" getal="mv" graad="basis" id="6" lemma="mens" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="mens" word="mensen"/>
+      </node>
+      <node begin="0" cat="inf" end="19" id="7" rel="vc">
+        <node begin="0" cat="ap" end="4" id="8" rel="mod">
+          <node begin="0" buiging="zonder" end="1" graad="comp" id="9" lemma="laat" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="laat" word="Later"/>
+          <node begin="1" cat="pp" end="4" id="10" rel="mod">
+            <node begin="1" end="2" id="11" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="2" cat="np" end="4" id="12" rel="obj1">
+              <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="13" lemma="mei" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="mei" word="mei"/>
+              <node begin="3" end="4" id="14" lemma="1942" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mod" root="1942" word="1942"/>
+            </node>
+          </node>
+        </node>
+        <node begin="5" end="8" id="15" index="1" rel="su"/>
+        <node begin="8" cat="np" end="15" id="16" rel="obj1">
+          <node begin="8" end="9" id="17" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="9" buiging="met-e" end="10" graad="basis" id="18" lemma="geel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="geel" word="gele"/>
+          <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="19" lemma="ster" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="ster" word="ster"/>
+          <node begin="11" cat="pp" end="15" id="20" rel="mod">
+            <node begin="11" end="12" id="21" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+            <node begin="12" cat="np" end="15" id="22" rel="obj1">
+              <node begin="12" end="13" id="23" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="24" lemma="opschrift" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="opschrift" word="opschrift"/>
+              <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="25" lemma="Jood" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" root="jood" word="Jood"/>
+            </node>
+          </node>
+        </node>
+        <node begin="15" cat="pp" end="18" id="26" rel="ld">
+          <node begin="15" end="16" id="27" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+          <node begin="16" cat="np" end="18" id="28" rel="obj1">
+            <node begin="16" buiging="zonder" end="17" getal="mv" id="29" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+            <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="30" lemma="kleding" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="kleding" word="kleding"/>
+          </node>
+        </node>
+        <node begin="18" buiging="zonder" end="19" id="31" lemma="naaien" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="naai" word="naaien" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="19" end="20" id="32" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Later in mei 1942 moesten alle Joodse mensen een gele ster met het opschrift Jood op hun kleding naaien .</sentence>
+</alpino_ds>

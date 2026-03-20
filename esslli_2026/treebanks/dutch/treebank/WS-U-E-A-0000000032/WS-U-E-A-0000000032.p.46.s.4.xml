@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="0" cat="smain" end="17" id="1" rel="--">
+      <node begin="0" cat="pp" end="4" id="2" rel="mod">
+        <node begin="0" buiging="zonder" end="1" graad="basis" id="3" lemma="kort" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="kort" word="Kort"/>
+        <node begin="1" end="2" id="4" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" vztype="init" word="ná"/>
+        <node begin="2" cat="np" end="4" id="5" rel="obj1">
+          <node begin="2" end="3" id="6" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="7" lemma="uitspraak" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="uitspraak" word="uitspraak"/>
+        </node>
+      </node>
+      <node begin="4" end="5" id="8" lemma="zeggen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="zeg" word="zeiden" wvorm="pv"/>
+      <node begin="5" cat="np" end="7" id="9" rel="su">
+        <node begin="5" end="6" id="10" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="6" end="7" getal="mv" graad="basis" id="11" lemma="rechter" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="rechter" word="rechters"/>
+      </node>
+      <node begin="7" cat="cp" end="17" id="12" rel="vc">
+        <node begin="7" conjtype="onder" end="8" id="13" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+        <node begin="8" cat="ssub" end="17" id="14" rel="body">
+          <node begin="8" end="9" getal="mv" id="15" index="1" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="ze"/>
+          <node begin="12" end="13" id="16" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+          <node begin="8" cat="conj" end="17" id="17" rel="vc">
+            <node begin="8" cat="ppart" end="14" id="18" rel="cnj">
+              <node begin="8" end="9" id="19" index="1" rel="obj1"/>
+              <node begin="9" cat="pp" end="12" id="20" index="2" rel="mod">
+                <node begin="9" end="10" id="21" lemma="tijdens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tijdens" vztype="init" word="tijdens"/>
+                <node begin="10" cat="np" end="12" id="22" rel="obj1">
+                  <node begin="10" end="11" id="23" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                  <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="24" lemma="proces" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="proces" word="proces"/>
+                </node>
+              </node>
+              <node begin="13" buiging="zonder" end="14" id="25" lemma="bedreigen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="bedreig" word="bedreigd" wvorm="vd"/>
+            </node>
+            <node begin="14" conjtype="neven" end="15" id="26" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="8" cat="ppart" end="17" id="27" rel="cnj">
+              <node begin="8" end="9" id="28" index="1" rel="obj1"/>
+              <node begin="9" end="12" id="29" index="2" rel="mod"/>
+              <node begin="15" buiging="zonder" end="16" graad="basis" id="30" lemma="mogelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="mogelijk" word="mogelijk"/>
+              <node begin="16" buiging="zonder" end="17" id="31" lemma="af_luisteren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="luister_af" word="afgeluisterd" wvorm="vd"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="32" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Kort ná de uitspraak zeiden de rechters dat ze tijdens het proces zijn bedreigd en mogelijk afgeluisterd .</sentence>
+</alpino_ds>

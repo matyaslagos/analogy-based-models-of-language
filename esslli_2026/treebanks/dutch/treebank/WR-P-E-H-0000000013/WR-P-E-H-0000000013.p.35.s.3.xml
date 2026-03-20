@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="10" end="11" id="2" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="11" end="12" id="3" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="smain" end="13" id="4" rel="--">
+      <node begin="0" end="1" getal="mv" graad="basis" id="5" lemma="dief" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="dief" word="Dieven"/>
+      <node begin="1" end="2" id="6" lemma="werken" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="werk" word="werken" wvorm="pv"/>
+      <node begin="2" buiging="zonder" end="3" graad="basis" id="7" lemma="vaak" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="vaak" word="vaak"/>
+      <node begin="3" cat="pp" end="5" id="8" rel="mod">
+        <node begin="3" end="4" id="9" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="4" end="5" getal="mv" graad="basis" id="10" lemma="paar" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="paar" word="paren"/>
+      </node>
+      <node begin="5" cat="pp" end="13" id="11" rel="mod">
+        <node begin="5" end="6" id="12" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+        <node begin="6" cat="conj" end="13" id="13" rel="obj1">
+          <node begin="6" end="7" getal="mv" graad="basis" id="14" lemma="motor_fiets" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="motorfiets" word="motorfietsen"/>
+          <node begin="7" conjtype="neven" end="8" id="15" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="9" cat="np" end="13" id="16" rel="cnj">
+            <node begin="9" end="10" getal="mv" graad="basis" id="17" lemma="baby_taxi" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="baby-taxis" word="baby-taxis"/>
+            <node begin="12" end="13" getal="mv" graad="basis" id="18" lemma="3-wieler" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mod" root="3-wielers" word="3-wielers"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="19" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="14" end="15" id="20" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dieven werken vaak in paren op motorfietsen en &apos; baby-taxis &apos; ( 3-wielers ) .</sentence>
+</alpino_ds>

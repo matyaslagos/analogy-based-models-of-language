@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="16" id="2" rel="--">
+      <node begin="6" end="7" id="3" lemma="willen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="wil" word="wil" wvorm="pv"/>
+      <node begin="7" cat="np" end="10" id="4" index="1" rel="su">
+        <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="5" lemma="minister" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="minister" word="minister"/>
+        <node begin="8" cat="mwu" end="10" id="6" rel="app">
+          <node begin="8" end="9" id="7" lemma="De" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="De" spectype="deeleigen" word="De"/>
+          <node begin="9" end="10" id="8" lemma="Geus" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Geus" spectype="deeleigen" word="Geus"/>
+        </node>
+      </node>
+      <node begin="0" cat="inf" end="16" id="9" rel="vc">
+        <node begin="0" cat="cp" end="5" id="10" rel="mod">
+          <node begin="0" conjtype="onder" end="1" id="11" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="Als"/>
+          <node begin="1" cat="ssub" end="5" id="12" rel="body">
+            <node begin="1" end="2" id="13" lemma="daarin" pos="pp" postag="BW()" pt="bw" rel="ld" root="daarin" word="daarin"/>
+            <node begin="2" cat="np" end="4" id="14" rel="su">
+              <node begin="2" end="3" id="15" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="16" lemma="loon_verhoging" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="loons_verhoging" word="loons-verhoging"/>
+            </node>
+            <node begin="4" end="5" id="17" lemma="staan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="sta" word="staat" wvorm="pv"/>
+          </node>
+        </node>
+        <node begin="7" end="10" id="18" index="1" rel="su"/>
+        <node begin="10" cat="np" end="12" id="19" rel="obj1">
+          <node begin="10" buiging="zonder" end="11" id="20" lemma="die" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,rest)" pt="vnw" rel="det" root="die" vwtype="aanw" word="die"/>
+          <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="21" lemma="CAO" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="cao" word="CAO"/>
+        </node>
+        <node begin="12" end="13" id="22" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+        <node begin="13" cat="ppres" end="15" id="23" rel="predc">
+          <node begin="13" buiging="zonder" end="14" graad="basis" id="24" lemma="algemeen" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="algemeen" word="algemeen"/>
+          <node begin="14" buiging="zonder" end="15" id="25" lemma="verbinden" pos="adj" positie="vrij" postag="WW(od,vrij,zonder)" pt="ww" rel="hd" root="verbind" word="verbindend" wvorm="od"/>
+        </node>
+        <node begin="15" buiging="zonder" end="16" id="26" lemma="verklaren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="verklaar" word="verklaren" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="16" end="17" id="27" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Als daarin een loons-verhoging staat , wil minister De Geus die CAO niet algemeen verbindend verklaren .</sentence>
+</alpino_ds>

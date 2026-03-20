@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="19" id="2" rel="--">
+      <node begin="0" cat="smain" end="7" id="3" rel="cnj">
+        <node begin="0" end="1" getal="mv" id="4" index="1" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="Ze"/>
+        <node begin="1" end="2" id="5" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" word="worden" wvorm="pv"/>
+        <node begin="0" cat="ppart" end="7" id="6" rel="vc">
+          <node begin="0" end="1" id="7" index="1" rel="obj1"/>
+          <node begin="2" buiging="zonder" end="3" id="8" lemma="betalen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="betaal" word="betaald" wvorm="vd"/>
+          <node begin="3" cat="pp" end="7" id="9" rel="mod">
+            <node begin="3" end="4" id="10" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+            <node begin="4" cat="mwu" end="7" id="11" rel="obj1">
+              <node begin="4" end="5" id="12" lemma="Artsen" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Artsen" spectype="deeleigen" word="Artsen"/>
+              <node begin="5" end="6" id="13" lemma="zonder" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="zonder" spectype="deeleigen" word="zonder"/>
+              <node begin="6" end="7" id="14" lemma="Grenzen" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Grenzen" spectype="deeleigen" word="Grenzen"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="8" conjtype="neven" end="9" id="15" lemma="maar" pos="adv" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+      <node begin="9" cat="smain" end="19" id="16" rel="cnj">
+        <node begin="9" cat="mwu" end="11" id="17" rel="su">
+          <node begin="9" buiging="met-e" end="10" graad="basis" id="18" lemma="buitenlands" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mwp" root="buitenlands" word="Buitenlandse"/>
+          <node begin="10" end="11" getal="mv" graad="basis" id="19" lemma="zaak" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mwp" root="zaak" word="zaken"/>
+        </node>
+        <node begin="11" end="12" id="20" lemma="horen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="hoor" word="hoort" wvorm="pv"/>
+        <node begin="12" cat="ap" end="16" id="21" rel="mod">
+          <node begin="12" end="13" id="22" lemma="pas" pos="adv" postag="BW()" pt="bw" rel="mod" root="pas" word="pas"/>
+          <node begin="13" cat="np" end="15" id="23" rel="me">
+            <node begin="13" end="14" id="24" lemma="twee" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="twee" word="twee"/>
+            <node begin="14" end="15" getal="mv" graad="basis" id="25" lemma="maand" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="maand" word="maanden"/>
+          </node>
+          <node begin="15" buiging="zonder" end="16" graad="comp" id="26" lemma="laat" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="laat" word="later"/>
+        </node>
+        <node begin="16" cat="pp" end="19" id="27" rel="pc">
+          <node begin="16" end="17" id="28" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="17" cat="np" end="19" id="29" rel="obj1">
+            <node begin="17" buiging="zonder" end="18" getal="mv" id="30" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+            <node begin="18" end="19" genus="onz" getal="ev" graad="basis" id="31" lemma="bestaan" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="bestaan" word="bestaan"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="32" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Ze worden betaald door Artsen zonder Grenzen , maar Buitenlandse zaken hoort pas twee maanden later van hun bestaan .</sentence>
+</alpino_ds>

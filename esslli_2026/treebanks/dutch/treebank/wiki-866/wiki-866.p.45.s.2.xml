@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="10" end="11" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="14" id="2" rel="--">
+      <node begin="0" cat="smain" end="10" id="3" rel="nucl">
+        <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="4" lemma="Henin" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Henin" word="Henin"/>
+        <node begin="1" end="2" id="5" lemma="verslaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="versla" word="verslaat" wvorm="pv"/>
+        <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="6" lemma="Davenport" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" root="Davenport" word="Davenport"/>
+        <node begin="3" cat="pp" end="10" id="7" rel="mod">
+          <node begin="3" end="4" id="8" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="4" cat="np" end="10" id="9" rel="obj1">
+            <node begin="4" end="5" id="10" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="5" end="6" id="11" lemma="één" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="eerste" word="eerste"/>
+            <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="12" lemma="keer" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="keer" word="keer"/>
+            <node begin="7" cat="pp" end="10" id="13" rel="mod">
+              <node begin="7" end="8" id="14" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+              <node begin="8" cat="np" end="10" id="15" rel="obj1">
+                <node begin="8" buiging="zonder" end="9" getal="ev" id="16" lemma="haar" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pt="vnw" rel="det" root="haar" status="vol" vwtype="bez" word="haar"/>
+                <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="17" lemma="carrière" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="carrière" word="carrière"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="11" cat="conj" end="14" id="18" rel="sat">
+        <node begin="11" end="12" id="19" lemma="7-5" pos="noun" postag="SPEC(symb)" pt="spec" rel="cnj" root="7-5" spectype="symb" word="7-5"/>
+        <node begin="12" end="13" id="20" lemma="5-7" pos="noun" postag="SPEC(symb)" pt="spec" rel="cnj" root="5-7" spectype="symb" word="5-7"/>
+        <node begin="13" end="14" id="21" lemma="9-7" pos="noun" postag="SPEC(symb)" pt="spec" rel="cnj" root="9-7" spectype="symb" word="9-7"/>
+      </node>
+    </node>
+    <node begin="14" end="15" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Henin verslaat Davenport voor de eerste keer in haar carrière , 7-5 5-7 9-7 .</sentence>
+</alpino_ds>

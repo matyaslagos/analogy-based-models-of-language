@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="smain" end="20" id="2" rel="--">
+      <node begin="0" cat="np" end="2" id="3" rel="su">
+        <node begin="0" end="1" id="4" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="5" lemma="parlement" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="parlement" word="parlement"/>
+      </node>
+      <node begin="2" end="3" id="6" lemma="bestaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="besta" word="bestaat" wvorm="pv"/>
+      <node begin="3" cat="pp" end="20" id="7" rel="pc">
+        <node begin="3" end="4" id="8" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" vztype="init" word="uit"/>
+        <node begin="4" cat="np" end="20" id="9" rel="obj1">
+          <node begin="4" end="5" id="10" lemma="twee" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="twee" word="twee"/>
+          <node begin="5" end="6" getal="mv" graad="basis" id="11" lemma="kamer" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kamer" word="kamers"/>
+          <node begin="7" cat="conj" end="20" id="12" rel="app">
+            <node begin="7" cat="np" end="12" id="13" rel="cnj">
+              <node begin="7" end="8" id="14" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="15" lemma="senaat" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="Senaat" word="Senaat"/>
+              <node begin="9" cat="pp" end="12" id="16" rel="mod">
+                <node begin="9" end="10" id="17" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+                <node begin="10" cat="np" end="12" id="18" rel="obj1">
+                  <node begin="10" end="11" id="19" lemma="71" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="71" word="71"/>
+                  <node begin="11" end="12" getal="mv" graad="basis" id="20" lemma="lid" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="lid" word="leden"/>
+                </node>
+              </node>
+            </node>
+            <node begin="12" conjtype="neven" end="13" id="21" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="13" cat="np" end="20" id="22" rel="cnj">
+              <node begin="13" end="14" id="23" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="14" cat="mwu" end="17" id="24" rel="hd">
+                <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="25" lemma="kamer" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Kamer" word="Kamer"/>
+                <node begin="15" end="16" id="26" lemma="van" pos="name" postag="VZ(init)" pt="vz" rel="mwp" root="van" vztype="init" word="van"/>
+                <node begin="16" end="17" getal="mv" graad="basis" id="27" lemma="volksvertegenwoordiger" ntype="soort" pos="name" postag="N(soort,mv,basis)" pt="n" rel="mwp" root="Volksvertegenwoordigers" word="Volksvertegenwoordigers"/>
+              </node>
+              <node begin="17" cat="pp" end="20" id="28" rel="mod">
+                <node begin="17" end="18" id="29" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+                <node begin="18" cat="np" end="20" id="30" rel="obj1">
+                  <node begin="18" end="19" id="31" lemma="150" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="150" word="150"/>
+                  <node begin="19" end="20" getal="mv" graad="basis" id="32" lemma="lid" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="lid" word="leden"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>Het parlement bestaat uit twee kamers : de Senaat met 71 leden en de Kamer van Volksvertegenwoordigers met 150 leden</sentence>
+</alpino_ds>

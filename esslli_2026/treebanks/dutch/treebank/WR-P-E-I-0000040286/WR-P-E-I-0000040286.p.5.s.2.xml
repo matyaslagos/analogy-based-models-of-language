@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="0" cat="smain" end="19" id="1" rel="--">
+      <node begin="0" end="1" genus="onz" getal="ev" graad="basis" id="2" lemma="Nederland" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" root="Nederland" word="Nederland"/>
+      <node begin="1" end="2" id="3" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+      <node begin="2" cat="np" end="4" id="4" rel="predc">
+        <node begin="2" buiging="zonder" end="3" id="5" lemma="bezetten" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="mod" root="bezet" word="bezet" wvorm="vd"/>
+        <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="6" lemma="gebied" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="gebied" word="gebied"/>
+      </node>
+      <node begin="4" cat="pp" end="11" id="7" rel="mod">
+        <node begin="4" end="5" id="8" lemma="vanaf" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="vanaf" vztype="init" word="vanaf"/>
+        <node begin="5" cat="np" end="11" id="9" rel="obj1">
+          <node begin="5" end="6" id="10" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="11" lemma="overgave" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="overgave" word="overgave"/>
+          <node begin="7" cat="pp" end="11" id="12" rel="mod">
+            <node begin="7" end="8" id="13" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+            <node begin="8" cat="mwu" end="11" id="14" rel="obj1">
+              <node begin="8" end="9" id="15" lemma="15" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="15" word="15"/>
+              <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="16" lemma="mei" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="mei" word="mei"/>
+              <node begin="10" end="11" id="17" lemma="1940" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="1940" word="1940"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="11" cat="pp" end="19" id="18" rel="mod">
+        <node begin="11" end="12" id="19" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" vztype="init" word="tot"/>
+        <node begin="12" cat="np" end="19" id="20" rel="obj1">
+          <node begin="12" end="13" id="21" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="13" buiging="met-e" end="14" graad="basis" id="22" lemma="Duits" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Duits" word="Duitse"/>
+          <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="23" lemma="capitulatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="capitulatie" word="capitulatie"/>
+          <node begin="15" cat="pp" end="19" id="24" rel="mod">
+            <node begin="15" end="16" id="25" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+            <node begin="16" cat="mwu" end="19" id="26" rel="obj1">
+              <node begin="16" end="17" id="27" lemma="6" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="6" word="6"/>
+              <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="28" lemma="mei" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="mei" word="mei"/>
+              <node begin="18" end="19" id="29" lemma="1945" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="1945" word="1945"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="30" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Nederland was bezet gebied vanaf de overgave op 15 mei 1940 tot de Duitse capitulatie op 6 mei 1945 .</sentence>
+</alpino_ds>

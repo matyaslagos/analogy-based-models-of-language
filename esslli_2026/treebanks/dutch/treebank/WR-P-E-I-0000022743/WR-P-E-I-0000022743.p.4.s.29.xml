@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="np" end="12" id="2" rel="--">
+      <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="3" lemma="verspreiding" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="verspreiding" word="Verspreiding"/>
+      <node begin="1" cat="pp" end="6" id="4" rel="mod">
+        <node begin="1" end="2" id="5" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+        <node begin="2" cat="np" end="6" id="6" rel="obj1">
+          <node begin="2" end="3" id="7" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="3" cat="mwu" end="5" id="8" rel="mod">
+            <node begin="3" end="4" id="9" lemma="Sri" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Sri" spectype="deeleigen" word="Sri"/>
+            <node begin="4" buiging="met-e" end="5" graad="basis" id="10" lemma="Lankees" naamval="stan" pos="name" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mwp" root="Lankese" word="Lankese"/>
+          </node>
+          <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="11" lemma="Theravada" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Theravada" word="Theravada"/>
+        </node>
+      </node>
+      <node begin="7" cat="pp" end="12" id="12" rel="mod">
+        <node begin="7" end="8" id="13" lemma="vanaf" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="vanaf" vztype="init" word="vanaf"/>
+        <node begin="8" cat="np" end="12" id="14" rel="obj1">
+          <node begin="8" end="9" id="15" lemma="12" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="12e" word="12e"/>
+          <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="16" lemma="eeuw" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="eeuw" word="eeuw"/>
+          <node begin="10" cat="pp" end="12" id="17" rel="mod">
+            <node begin="10" end="11" id="18" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" vztype="init" word="na"/>
+            <node begin="11" end="12" id="19" lemma="Christus" pos="name" postag="SPEC(afk)" pt="spec" rel="obj1" root="Chr." spectype="afk" word="Chr."/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" id="20" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+  </node>
+  <sentence>Verspreiding van het Sri Lankese Theravada ( vanaf 12e eeuw na Chr. )</sentence>
+</alpino_ds>

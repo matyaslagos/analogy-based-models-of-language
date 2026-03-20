@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="17" id="2" rel="--">
+      <node begin="0" end="1" genus="masc" getal="ev" id="3" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="Hij"/>
+      <node begin="1" end="2" id="4" lemma="uit_maken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="maak_uit" word="maakt" wvorm="pv"/>
+      <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="5" lemma="deel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="deel" word="deel"/>
+      <node begin="3" end="4" id="6" lemma="uit" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="uit" vztype="fin" word="uit"/>
+      <node begin="4" cat="pp" end="17" id="7" rel="pc">
+        <node begin="4" end="5" id="8" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+        <node begin="5" cat="np" end="17" id="9" rel="obj1">
+          <node begin="5" end="6" id="10" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="6" buiging="zonder" end="7" graad="basis" id="11" lemma="strategisch" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="strategisch" word="strategisch"/>
+          <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="12" lemma="comité" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="comité" word="comité"/>
+          <node begin="9" cat="rel" end="17" id="13" rel="mod">
+            <node begin="9" end="10" getal="ev" id="14" index="1" lemma="dat" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(betr,pron,stan,vol,3,ev)" pt="vnw" rel="rhd" root="dat" status="vol" vwtype="betr" word="dat"/>
+            <node begin="9" cat="ssub" end="17" id="15" rel="body">
+              <node begin="9" end="10" id="16" index="1" rel="su"/>
+              <node begin="15" end="16" id="17" lemma="moeten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="moet" word="moet" wvorm="pv"/>
+              <node begin="9" cat="inf" end="17" id="18" rel="vc">
+                <node begin="9" end="10" id="19" index="1" rel="su"/>
+                <node begin="10" cat="np" end="15" id="20" rel="obj1">
+                  <node begin="10" end="11" id="21" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="22" lemma="toekomst" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="toekomst" word="toekomst"/>
+                  <node begin="12" cat="pp" end="15" id="23" rel="mod">
+                    <node begin="12" end="13" id="24" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                    <node begin="13" cat="mwu" end="15" id="25" rel="obj1">
+                      <node begin="13" end="14" id="26" lemma="De" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="De" spectype="deeleigen" word="De"/>
+                      <node begin="14" end="15" id="27" lemma="Post" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Post" spectype="deeleigen" word="Post"/>
+                    </node>
+                  </node>
+                </node>
+                <node begin="16" buiging="zonder" end="17" id="28" lemma="uit_stippelen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="stippel_uit" word="uitstippelen" wvorm="inf"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="29" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Hij maakt deel uit van het strategisch comité , dat de toekomst van De Post moet uitstippelen .</sentence>
+</alpino_ds>

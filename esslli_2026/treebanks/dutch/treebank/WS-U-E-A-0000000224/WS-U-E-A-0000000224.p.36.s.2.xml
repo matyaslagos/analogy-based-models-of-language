@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="smain" end="5" id="1" rel="--">
+      <node begin="2" end="3" id="2" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+      <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="3" index="1" lemma="champagne" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="su" root="champagne" word="champagne"/>
+      <node begin="0" cat="ppart" end="5" id="4" rel="vc">
+        <node begin="0" cat="np" end="2" id="5" rel="mod">
+          <node begin="0" buiging="met-e" end="1" graad="basis" id="6" lemma="vorig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="vorig" word="Vorige"/>
+          <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="7" lemma="week" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="week" word="week"/>
+        </node>
+        <node begin="3" end="4" id="8" index="1" rel="obj1"/>
+        <node begin="4" buiging="zonder" end="5" id="9" lemma="ontkurken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="ontkurk" word="ontkurkt" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="5" end="6" id="10" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Vorige week werd champagne ontkurkt .</sentence>
+</alpino_ds>

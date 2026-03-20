@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="du" end="8" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="dlink" root="of" word="Of"/>
+      <node begin="1" cat="sv1" end="8" id="3" rel="nucl">
+        <node begin="1" end="2" id="4" lemma="komen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kom" word="komen" wvorm="pv"/>
+        <node begin="2" cat="np" end="4" id="5" rel="su">
+          <node begin="2" buiging="met-e" end="3" getal="mv" graad="basis" id="6" lemma="beide" naamval="stan" pdtype="grad" pos="det" positie="prenom" postag="VNW(onbep,grad,stan,prenom,met-e,mv,basis)" pt="vnw" rel="det" root="beide" vwtype="onbep" word="beide"/>
+          <node begin="3" end="4" getal="mv" graad="basis" id="7" lemma="gegadigde" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="gegadigde" word="gegadigden"/>
+        </node>
+        <node begin="4" cat="pp" end="8" id="8" rel="pc">
+          <node begin="4" end="5" id="9" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" vztype="init" word="tot"/>
+          <node begin="5" cat="np" end="8" id="10" rel="obj1">
+            <node begin="5" end="6" id="11" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="6" buiging="met-e" end="7" graad="basis" id="12" lemma="minnelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="minnelijke" word="minnelijke"/>
+            <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="13" lemma="schikking" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="schikking" word="schikking"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" id="14" lemma="?" pos="punct" postag="LET()" pt="let" rel="--" root="?" word="?"/>
+  </node>
+  <sentence>Of komen beide gegadigden tot een minnelijke schikking ?</sentence>
+</alpino_ds>

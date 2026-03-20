@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma=")" pos="tag" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="5" end="6" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="7" id="3" rel="--">
+      <node begin="0" end="1" id="4" lemma="c" pos="tag" postag="SPEC(symb)" pt="spec" rel="tag" root="c" spectype="symb" word="c"/>
+      <node begin="2" cat="conj" end="7" id="5" rel="nucl">
+        <node begin="2" cat="conj" end="5" id="6" rel="cnj">
+          <node begin="2" end="3" id="7" lemma="kaak-" pos="prefix" postag="SPEC(afgebr)" pt="spec" rel="cnj" root="kaak" spectype="afgebr" word="kaak-"/>
+          <node begin="3" conjtype="neven" end="4" id="8" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="4" end="5" getal="mv" graad="basis" id="9" lemma="gezicht_prothese" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="gezicht_prothese" word="gezichtsprothesen"/>
+        </node>
+        <node begin="6" end="7" getal="mv" graad="basis" id="10" lemma="pruik" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="pruik" word="pruiken"/>
+      </node>
+    </node>
+    <node begin="7" end="8" id="11" lemma=";" pos="punct" postag="LET()" pt="let" rel="--" root=";" word=";"/>
+  </node>
+  <sentence>c ) kaak- en gezichtsprothesen , pruiken ;</sentence>
+</alpino_ds>

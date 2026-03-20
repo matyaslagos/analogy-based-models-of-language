@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="0" end="1" genus="onz" getal="ev" id="2" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" root="het" status="red" vwtype="pers" word="Het"/>
+      <node begin="1" end="2" id="3" lemma="gaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ga" word="gaat" wvorm="pv"/>
+      <node begin="2" end="3" getal="getal" id="4" lemma="hier" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="mod" root="hier" status="vol" vwtype="aanw" word="hier"/>
+      <node begin="3" cat="conj" end="11" id="5" rel="pc">
+        <node begin="3" end="4" id="6" lemma="niet" pos="vg" postag="BW()" pt="bw" rel="crd" root="niet" word="niet"/>
+        <node begin="4" cat="pp" end="7" id="7" rel="cnj">
+          <node begin="4" end="5" id="8" lemma="om" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="om" vztype="init" word="om"/>
+          <node begin="5" cat="np" end="7" id="9" rel="obj1">
+            <node begin="5" buiging="met-e" end="6" graad="basis" id="10" lemma="lief" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="lief" word="lieve"/>
+            <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="11" lemma="luister_muziek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="luister_muziek" word="luistermuziek"/>
+          </node>
+        </node>
+        <node begin="7" conjtype="neven" end="8" id="12" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+        <node begin="8" cat="pp" end="11" id="13" rel="cnj">
+          <node begin="8" end="9" id="14" lemma="om" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="om" vztype="init" word="om"/>
+          <node begin="9" cat="np" end="11" id="15" rel="obj1">
+            <node begin="9" buiging="met-e" end="10" graad="basis" id="16" lemma="stevig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="stevig" word="stevige"/>
+            <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="17" lemma="kleuter_pop" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="kleuter_pop" word="kleuterpop"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" id="18" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het gaat hier niet om lieve luistermuziek maar om stevige kleuterpop .</sentence>
+</alpino_ds>

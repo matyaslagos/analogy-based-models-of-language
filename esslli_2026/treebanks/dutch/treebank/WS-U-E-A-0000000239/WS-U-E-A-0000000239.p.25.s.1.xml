@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="14" end="15" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="smain" end="16" id="2" rel="--">
+      <node begin="0" cat="pp" end="3" id="3" rel="mod">
+        <node begin="0" buiging="zonder" end="1" graad="basis" id="4" lemma="vlak" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="vlak" word="Vlak"/>
+        <node begin="1" end="2" id="5" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" vztype="init" word="na"/>
+        <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="6" lemma="aankomst" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="aankomst" word="aankomst"/>
+      </node>
+      <node begin="3" end="4" id="7" lemma="geven" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="geef" word="gaf" wvorm="pv"/>
+      <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="8" lemma="Bot" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Bot" word="Bot"/>
+      <node begin="5" cat="np" end="7" id="9" rel="obj1">
+        <node begin="5" end="6" id="10" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="11" lemma="persconferentie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="persconferentie" word="persconferentie"/>
+      </node>
+      <node begin="7" cat="pp" end="16" id="12" rel="mod">
+        <node begin="7" end="8" id="13" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+        <node begin="8" cat="np" end="16" id="14" rel="obj1">
+          <node begin="8" end="9" id="15" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="9" buiging="met-e" end="10" graad="basis" id="16" lemma="Iraaks" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Iraaks" word="Iraakse"/>
+          <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="17" lemma="minister" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="minister" word="minister"/>
+          <node begin="11" cat="pp" end="14" id="18" rel="mod">
+            <node begin="11" end="12" id="19" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="12" cat="mwu" end="14" id="20" rel="obj1">
+              <node begin="12" buiging="met-e" end="13" graad="basis" id="21" lemma="buitenlands" naamval="stan" pos="name" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mwp" root="Buitenlandse" word="Buitenlandse"/>
+              <node begin="13" end="14" getal="mv" graad="basis" id="22" lemma="zaak" ntype="soort" pos="name" postag="N(soort,mv,basis)" pt="n" rel="mwp" root="Zaken" word="Zaken"/>
+            </node>
+          </node>
+          <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="23" lemma="Zebari" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" root="Zebari" word="Zebari"/>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="24" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Vlak na aankomst gaf Bot een persconferentie met de Iraakse minister van Buitenlandse Zaken : Zebari .</sentence>
+</alpino_ds>

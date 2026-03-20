@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="0" cat="conj" end="16" id="1" rel="--">
+      <node begin="0" cat="smain" end="9" id="2" rel="cnj">
+        <node begin="0" cat="conj" end="6" id="3" index="1" rel="su">
+          <node begin="2" conjtype="neven" end="3" id="4" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="0" cat="np" end="6" id="5" rel="cnj">
+            <node begin="0" end="1" id="6" index="2" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+            <node begin="1" end="2" getal="mv" graad="basis" id="7" lemma="sloot" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="sloot" word="sloten"/>
+            <node begin="4" cat="pp" end="6" id="8" index="3" rel="mod">
+              <node begin="4" end="5" id="9" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+              <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="10" lemma="Maasdijk" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Maasdijk" word="Maasdijk"/>
+            </node>
+          </node>
+          <node begin="0" cat="np" end="6" id="11" rel="cnj">
+            <node begin="0" end="1" id="12" index="2" rel="det"/>
+            <node begin="3" end="4" getal="mv" graad="basis" id="13" lemma="kanaal" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kanaal" word="kanalen"/>
+            <node begin="4" end="6" id="14" index="3" rel="mod"/>
+          </node>
+        </node>
+        <node begin="6" end="7" id="15" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+        <node begin="7" cat="ap" end="9" id="16" rel="predc">
+          <node begin="7" end="8" id="17" lemma="te" pos="adv" postag="BW()" pt="bw" rel="mod" root="te" word="te"/>
+          <node begin="8" buiging="zonder" end="9" graad="basis" id="18" lemma="smal" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="smal" word="smal"/>
+        </node>
+      </node>
+      <node begin="9" conjtype="neven" end="10" id="19" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="0" cat="sv1" end="16" id="20" rel="cnj">
+        <node begin="0" end="6" id="21" index="1" rel="su"/>
+        <node begin="10" end="11" id="22" lemma="kunnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kan" word="kunnen" wvorm="pv"/>
+        <node begin="0" cat="inf" end="16" id="23" rel="vc">
+          <node begin="0" end="6" id="24" index="1" rel="su"/>
+          <node begin="11" cat="np" end="14" id="25" rel="obj1">
+            <node begin="11" end="12" id="26" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="12" buiging="met-e" end="13" graad="basis" id="27" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,met-e,agr,basis)" pt="vnw" rel="mod" root="vele" vwtype="onbep" word="vele"/>
+            <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="28" lemma="regenwater" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="regenwater" word="regenwater"/>
+          </node>
+          <node begin="14" end="15" id="29" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+          <node begin="15" buiging="zonder" end="16" id="30" lemma="af_voeren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="voer_af" word="afvoeren" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="31" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De sloten en kanalen in Maasdijk zijn te smal en kunnen het vele regenwater niet afvoeren .</sentence>
+</alpino_ds>

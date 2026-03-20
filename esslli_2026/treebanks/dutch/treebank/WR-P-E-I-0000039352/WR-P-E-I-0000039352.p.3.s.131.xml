@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="21" id="2" rel="--">
+      <node begin="1" end="2" id="3" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" word="hebben" wvorm="pv"/>
+      <node begin="2" cat="np" end="4" id="4" index="1" rel="su">
+        <node begin="2" end="3" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="3" end="4" getal="mv" graad="basis" id="6" lemma="schutterij" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="schutterijen" word="schutterijen"/>
+      </node>
+      <node begin="0" cat="conj" end="21" id="7" rel="vc">
+        <node begin="11" conjtype="neven" end="12" id="8" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="0" cat="ppart" end="21" id="9" rel="cnj">
+          <node begin="0" end="1" id="10" index="2" lemma="inderdaad" pos="adv" postag="BW()" pt="bw" rel="mod" root="inderdaad" word="Inderdaad"/>
+          <node begin="2" end="4" id="11" index="1" rel="su"/>
+          <node begin="4" cat="mwu" end="7" id="12" index="3" rel="mod">
+            <node begin="4" end="5" id="13" lemma="her" pos="adv" postag="BW()" pt="bw" rel="mwp" root="her" word="her"/>
+            <node begin="5" conjtype="neven" end="6" id="14" lemma="en" pos="adv" postag="VG(neven)" pt="vg" rel="mwp" root="en" word="en"/>
+            <node begin="6" end="7" id="15" lemma="der" pos="adv" postag="BW()" pt="bw" rel="mwp" root="der" word="der"/>
+          </node>
+          <node begin="7" buiging="zonder" end="8" id="16" lemma="wacht_lopen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="loop_wacht" word="wachtgelopen" wvorm="vd"/>
+          <node begin="16" cat="pp" end="21" id="17" index="4" rel="mod">
+            <node begin="16" end="17" id="18" lemma="naast" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naast" vztype="init" word="naast"/>
+            <node begin="17" cat="conj" end="21" id="19" rel="obj1">
+              <node begin="17" cat="np" end="19" id="20" rel="cnj">
+                <node begin="17" buiging="met-e" end="18" graad="basis" id="21" index="5" lemma="ander" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ander" word="andere"/>
+                <node begin="18" end="19" getal="mv" graad="basis" id="22" lemma="poorter" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="poorters" word="poorters"/>
+              </node>
+              <node begin="19" conjtype="neven" end="20" id="23" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="17" cat="np" end="21" id="24" rel="cnj">
+                <node begin="17" end="18" id="25" index="5" rel="mod"/>
+                <node begin="20" end="21" getal="mv" graad="basis" id="26" lemma="boer" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="boer" word="boeren"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="0" cat="ppart" end="21" id="27" rel="cnj">
+          <node begin="0" end="1" id="28" index="2" rel="mod"/>
+          <node begin="2" end="4" id="29" index="1" rel="su"/>
+          <node begin="4" end="7" id="30" index="3" rel="mod"/>
+          <node begin="9" buiging="met-e" end="10" getal-n="mv-n" id="31" lemma="vangen" pos="noun" positie="nom" postag="WW(vd,nom,met-e,mv-n)" pt="ww" rel="obj1" root="gevangene" word="gevangenen" wvorm="vd"/>
+          <node begin="10" buiging="zonder" end="11" id="32" lemma="bewaken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="bewaak" word="bewaakt" wvorm="vd"/>
+          <node begin="16" end="21" id="33" index="4" rel="mod"/>
+        </node>
+        <node begin="0" cat="ppart" end="21" id="34" rel="cnj">
+          <node begin="0" end="1" id="35" index="2" rel="mod"/>
+          <node begin="2" end="4" id="36" index="1" rel="su"/>
+          <node begin="4" end="7" id="37" index="3" rel="mod"/>
+          <node begin="12" cat="mwu" end="15" id="38" rel="mod">
+            <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="39" lemma="schouder" naamval="stan" ntype="soort" pos="adv" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="schouder" word="schouder"/>
+            <node begin="13" end="14" id="40" lemma="aan" pos="adv" postag="VZ(init)" pt="vz" rel="mwp" root="aan" vztype="init" word="aan"/>
+            <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="41" lemma="schouder" naamval="stan" ntype="soort" pos="adv" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="schouder" word="schouder"/>
+          </node>
+          <node begin="15" buiging="zonder" end="16" id="42" lemma="vechten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="vecht" word="gevochten" wvorm="vd"/>
+          <node begin="16" end="21" id="43" index="4" rel="mod"/>
+        </node>
+      </node>
+    </node>
+    <node begin="21" end="22" id="44" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Inderdaad hebben de schutterijen her en der wachtgelopen , gevangenen bewaakt en schouder aan schouder gevochten naast andere poorters en boeren .</sentence>
+</alpino_ds>

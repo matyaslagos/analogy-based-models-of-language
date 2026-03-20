@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="du" end="21" id="2" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="3" lemma="en" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="en" word="En"/>
+      <node begin="1" cat="du" end="21" id="4" rel="nucl">
+        <node begin="1" cat="du" end="4" id="5" rel="dp">
+          <node begin="1" cat="advp" end="3" id="6" rel="dp">
+            <node begin="1" end="2" id="7" lemma="dan" pos="adv" postag="BW()" pt="bw" rel="hd" root="dan" word="dan"/>
+            <node begin="2" end="3" id="8" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" word="nog"/>
+          </node>
+          <node begin="3" end="4" getal="ev" id="9" lemma="dit" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="dp" root="dit" status="vol" vwtype="aanw" word="dit"/>
+        </node>
+        <node begin="5" cat="smain" end="21" id="10" rel="dp">
+          <node begin="5" cat="conj" end="12" id="11" index="1" rel="su">
+            <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="12" lemma="Israël" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Israel" word="Israel"/>
+            <node begin="6" conjtype="neven" end="7" id="13" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="7" cat="np" end="12" id="14" rel="cnj">
+              <node begin="7" end="8" id="15" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="8" buiging="met-e" end="9" graad="basis" id="16" lemma="radicaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="radicaal" word="radicale"/>
+              <node begin="9" buiging="met-e" end="10" graad="basis" id="17" lemma="Libanees" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Libanees" word="Libanese"/>
+              <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="18" lemma="beweging" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="beweging" word="beweging"/>
+              <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="19" lemma="Hezbollah" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" root="Hezbollah" word="Hezbollah"/>
+            </node>
+          </node>
+          <node begin="12" end="13" id="20" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" word="hebben" wvorm="pv"/>
+          <node begin="5" cat="ppart" end="21" id="21" rel="vc">
+            <node begin="5" end="12" id="22" index="1" rel="su"/>
+            <node begin="15" buiging="zonder" end="16" id="23" lemma="sluiten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="sluit" word="gesloten" wvorm="vd"/>
+            <node begin="13" cat="np" end="21" id="24" rel="obj1">
+              <node begin="13" end="14" id="25" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="26" lemma="overeenkomst" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="overeenkomst" word="overeenkomst"/>
+              <node begin="16" cat="pp" end="21" id="27" rel="mod">
+                <node begin="16" end="17" id="28" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" vztype="init" word="over"/>
+                <node begin="17" cat="np" end="21" id="29" rel="obj1">
+                  <node begin="17" end="18" id="30" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="18" end="19" genus="zijd" getal="ev" graad="basis" id="31" lemma="ruil" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="ruil" word="ruil"/>
+                  <node begin="19" cat="pp" end="21" id="32" rel="mod">
+                    <node begin="19" end="20" id="33" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                    <node begin="20" buiging="met-e" end="21" getal-n="mv-n" id="34" lemma="vangen" pos="noun" positie="nom" postag="WW(vd,nom,met-e,mv-n)" pt="ww" rel="obj1" root="gevangene" word="gevangenen" wvorm="vd"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="21" end="22" id="35" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>En dan nog dit : Israel en de radicale Libanese beweging Hezbollah hebben een overeenkomst gesloten over de ruil van gevangenen .</sentence>
+</alpino_ds>

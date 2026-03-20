@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="1" cat="smain" end="5" id="2" rel="--">
+      <node begin="1" cat="np" end="3" id="3" rel="su">
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="4" lemma="topman" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="topman" word="Topman"/>
+        <node begin="2" end="3" genus="genus" getal="ev" graad="basis" id="5" lemma="Adecco" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="app" root="Adecco" word="Adecco"/>
+      </node>
+      <node begin="3" end="4" id="6" lemma="op_stappen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="stap_op" word="stapt" wvorm="pv"/>
+      <node begin="4" end="5" id="7" lemma="op" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="op" vztype="fin" word="op"/>
+    </node>
+    <node begin="5" end="6" id="8" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>- Topman Adecco stapt op .</sentence>
+</alpino_ds>

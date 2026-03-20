@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="smain" end="15" id="1" rel="--">
+      <node begin="0" cat="np" end="4" id="2" rel="su">
+        <node begin="0" end="1" getal-n="zonder-n" graad="basis" id="3" lemma="één" numtype="hoofd" pos="pron" positie="nom" postag="TW(hoofd,nom,zonder-n,basis)" pt="tw" rel="hd" root="één" word="Een"/>
+        <node begin="1" cat="pp" end="4" id="4" rel="mod">
+          <node begin="1" end="2" id="5" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="2" cat="np" end="4" id="6" rel="obj1">
+            <node begin="2" end="3" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="3" end="4" getal-n="zonder-n" graad="basis" id="8" lemma="drie" numtype="hoofd" pos="noun" positie="nom" postag="TW(hoofd,nom,zonder-n,basis)" pt="tw" rel="hd" root="drie" word="drie"/>
+          </node>
+        </node>
+      </node>
+      <node begin="4" end="5" id="9" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+      <node begin="5" cat="np" end="15" id="10" rel="predc">
+        <node begin="5" end="6" id="11" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="12" lemma="president" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="president" word="president"/>
+        <node begin="7" cat="pp" end="15" id="13" rel="mod">
+          <node begin="7" end="8" id="14" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="8" cat="np" end="15" id="15" rel="obj1">
+            <node begin="8" end="9" id="16" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="9" cat="mwu" end="11" id="17" rel="hd">
+              <node begin="9" end="10" id="18" lemma="Hell&apos;s" pos="noun" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Hell&apos;s" spectype="deeleigen" word="Hell&apos;s"/>
+              <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="19" lemma="Angels_club" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Angels_club" word="Angels-club"/>
+            </node>
+            <node begin="11" cat="mwu" end="13" id="20" rel="app">
+              <node begin="11" end="12" id="21" lemma="De" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="De" spectype="deeleigen" word="De"/>
+              <node begin="12" end="13" id="22" lemma="Nomads" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Nomads" spectype="deeleigen" word="Nomads"/>
+            </node>
+            <node begin="13" cat="pp" end="15" id="23" rel="mod">
+              <node begin="13" end="14" id="24" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" vztype="init" word="uit"/>
+              <node begin="14" end="15" genus="onz" getal="ev" graad="basis" id="25" lemma="Oorsbeek" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Oorsbeek" word="Oorsbeek"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="26" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Een van de drie was de president van de Hell&apos;s Angels-club De Nomads uit Oorsbeek .</sentence>
+</alpino_ds>

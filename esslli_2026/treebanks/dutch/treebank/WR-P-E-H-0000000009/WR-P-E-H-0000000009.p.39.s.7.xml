@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="1" end="2" id="2" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="8" id="3" rel="vc">
+        <node begin="0" end="1" id="4" lemma="doorgaans" pos="adv" postag="BW()" pt="bw" rel="mod" root="doorgaans" word="Doorgaans"/>
+        <node begin="2" cat="pp" end="5" id="5" rel="mod">
+          <node begin="2" end="3" id="6" lemma="vanwege" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="vanwege" vztype="init" word="vanwege"/>
+          <node begin="3" cat="np" end="5" id="7" rel="obj1">
+            <node begin="3" end="4" id="8" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="4" end="5" getal="mv" graad="basis" id="9" lemma="risico" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="risico" word="risico&apos;s"/>
+          </node>
+        </node>
+        <node begin="5" cat="pp" end="7" id="10" rel="ld">
+          <node begin="5" end="6" id="11" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="12" lemma="konvooi" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="konvooi" word="konvooi"/>
+        </node>
+        <node begin="7" buiging="zonder" end="8" id="13" lemma="rijden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="rij" word="gereden" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="14" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Doorgaans wordt vanwege de risico&apos;s in konvooi gereden .</sentence>
+</alpino_ds>

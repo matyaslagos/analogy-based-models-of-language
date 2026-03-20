@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="14" end="15" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="19" id="2" rel="--">
+      <node begin="0" end="1" genus="onz" getal="ev" id="3" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" root="het" status="red" vwtype="pers" word="Het"/>
+      <node begin="1" end="2" id="4" lemma="betreffen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="betref" word="betrof" wvorm="pv"/>
+      <node begin="2" cat="np" end="19" id="5" rel="obj1">
+        <node begin="2" end="3" id="6" lemma="3" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="3" word="3"/>
+        <node begin="3" end="4" getal="mv" graad="basis" id="7" lemma="divisie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="divisie" word="divisies"/>
+        <node begin="4" cat="ppres" end="19" id="8" rel="mod">
+          <node begin="4" buiging="zonder" end="5" id="9" lemma="bestaan" pos="adj" positie="vrij" postag="WW(od,vrij,zonder)" pt="ww" rel="hd" root="besta" word="bestaande" wvorm="od"/>
+          <node begin="5" cat="pp" end="19" id="10" rel="pc">
+            <node begin="5" end="6" id="11" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" vztype="init" word="uit"/>
+            <node begin="6" cat="conj" end="19" id="12" rel="obj1">
+              <node begin="6" cat="np" end="14" id="13" rel="cnj">
+                <node begin="6" end="7" id="14" lemma="9" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="9" word="9"/>
+                <node begin="7" end="8" getal="mv" graad="basis" id="15" lemma="brigade" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="brigade" word="brigades"/>
+                <node begin="8" cat="rel" end="14" id="16" rel="mod">
+                  <node begin="8" end="9" id="17" lemma="waarvan" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waarvan" word="waarvan"/>
+                  <node begin="9" cat="np" end="14" id="18" rel="body">
+                    <node begin="9" end="10" getal-n="zonder-n" graad="basis" id="19" lemma="5" numtype="hoofd" pos="num" positie="nom" postag="TW(hoofd,nom,zonder-n,basis)" pt="tw" rel="hd" root="5" word="5"/>
+                    <node begin="10" cat="pp" end="14" id="20" rel="mod">
+                      <node begin="10" end="11" id="21" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+                      <node begin="11" cat="conj" end="14" id="22" rel="obj1">
+                        <node begin="11" end="12" getal="mv" graad="basis" id="23" lemma="tank" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="tank" word="tanks"/>
+                        <node begin="12" conjtype="neven" end="13" id="24" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                        <node begin="13" end="14" getal="mv" graad="basis" id="25" lemma="pantser_wagen" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="pantser_wagen" word="pantserwagens"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node begin="15" cat="np" end="19" id="26" rel="cnj">
+                <node begin="15" end="16" id="27" lemma="daarnaast" pos="pp" postag="BW()" pt="bw" rel="mod" root="daarnaast" word="daarnaast"/>
+                <node begin="16" end="17" id="28" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" word="nog"/>
+                <node begin="17" end="18" id="29" lemma="3" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="3" word="3"/>
+                <node begin="18" end="19" getal="mv" graad="basis" id="30" lemma="reserve_brigade" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="reserve_brigade" word="reservebrigades"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="31" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het betrof 3 divisies bestaande uit 9 brigades waarvan 5 met tanks en pantserwagens , daarnaast nog 3 reservebrigades .</sentence>
+</alpino_ds>

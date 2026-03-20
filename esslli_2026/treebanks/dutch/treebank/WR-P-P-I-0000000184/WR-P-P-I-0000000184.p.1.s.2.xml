@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="smain" end="12" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="4" lemma="draai_boek" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="draai_boek" word="draaiboeken"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="klaar_liggen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="lig" word="liggen" wvorm="pv"/>
+      <node begin="3" buiging="zonder" end="4" graad="basis" id="6" lemma="klaar" pos="fixed" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="svp" root="klaar" word="klaar"/>
+      <node begin="4" cat="cp" end="12" id="7" rel="mod">
+        <node begin="4" cat="mwu" end="7" id="8" rel="cmp">
+          <node begin="4" end="5" id="9" lemma="voor" pos="comp" postag="VZ(init)" pt="vz" rel="mwp" root="voor" vztype="init" word="voor"/>
+          <node begin="5" end="6" id="10" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="comp" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" word="het"/>
+          <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="11" lemma="geval" naamval="stan" ntype="soort" pos="comp" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="geval" word="geval"/>
+        </node>
+        <node begin="7" cat="ssub" end="12" id="12" rel="body">
+          <node begin="7" end="8" getal="getal" id="13" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="noun" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="ld" root="er" status="red" vwtype="aanw" word="er"/>
+          <node begin="8" cat="np" end="11" id="14" rel="su">
+            <node begin="8" end="9" id="15" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="9" buiging="met-e" end="10" graad="basis" id="16" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" word="nieuwe"/>
+            <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="17" lemma="voedsel_crisis" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="voedsel_crisis" word="voedselcrisis"/>
+          </node>
+          <node begin="11" end="12" id="18" lemma="uit_breken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="breek_uit" word="uitbreekt" wvorm="pv"/>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" id="19" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+    <node begin="13" end="14" id="20" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+  </node>
+  <sentence>De draaiboeken liggen klaar voor het geval er een nieuwe voedselcrisis uitbreekt . &apos;</sentence>
+</alpino_ds>

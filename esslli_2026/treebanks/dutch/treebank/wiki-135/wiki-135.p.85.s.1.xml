@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="12" end="13" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="14" end="15" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="0" cat="smain" end="19" id="3" rel="--">
+      <node begin="0" cat="np" end="2" id="4" rel="su">
+        <node begin="0" end="1" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="6" lemma="munteenheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="munteenheid" word="munteenheid"/>
+      </node>
+      <node begin="2" end="3" id="7" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="3" cat="pp" end="7" id="8" rel="mod">
+        <node begin="3" end="4" id="9" lemma="sinds" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="sinds" vztype="init" word="sinds"/>
+        <node begin="4" cat="mwu" end="7" id="10" rel="obj1">
+          <node begin="4" end="5" id="11" lemma="1" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="1" word="1"/>
+          <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="12" lemma="januari" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="januari" word="januari"/>
+          <node begin="6" end="7" id="13" lemma="2002" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="2002" word="2002"/>
+        </node>
+      </node>
+      <node begin="7" cat="np" end="19" id="14" rel="predc">
+        <node begin="7" end="8" id="15" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="8" buiging="met-e" end="9" graad="basis" id="16" lemma="gemeenschappelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="gemeenschappelijk" word="gemeenschappelijke"/>
+        <node begin="9" buiging="met-e" end="10" graad="basis" id="17" lemma="Europees" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Europees" word="Europese"/>
+        <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="18" lemma="munt" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="munt" word="munt"/>
+        <node begin="11" cat="np" end="14" id="19" rel="app">
+          <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="20" lemma="euro" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="euro" word="euro"/>
+          <node begin="13" end="14" id="21" lemma="EUR" pos="name" postag="SPEC(symb)" pt="spec" rel="mod" root="EUR" spectype="symb" word="EUR"/>
+        </node>
+        <node begin="15" cat="np" end="19" id="22" rel="app">
+          <node begin="15" end="16" id="23" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="16" buiging="met-e" end="17" id="24" lemma="enig" naamval="stan" npagr="rest" pdtype="det" pos="adj" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,rest)" pt="vnw" rel="mod" root="enig" vwtype="onbep" word="enige"/>
+          <node begin="17" buiging="met-e" end="18" graad="basis" id="25" lemma="wettelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="wettelijk" word="wettelijke"/>
+          <node begin="18" end="19" genus="onz" getal="ev" graad="basis" id="26" lemma="betaal_middel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="betaal_middel" word="betaalmiddel"/>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="27" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De munteenheid is sinds 1 januari 2002 de gemeenschappelijke Europese munt euro ( EUR ) het enige wettelijke betaalmiddel .</sentence>
+</alpino_ds>

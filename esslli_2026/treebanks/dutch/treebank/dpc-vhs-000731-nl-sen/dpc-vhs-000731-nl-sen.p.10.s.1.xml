@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="4" end="5" id="2" lemma="lijken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="lijk" word="leek" wvorm="pv"/>
+      <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="3" index="1" lemma="Europa" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" root="Europa" word="Europa"/>
+      <node begin="0" cat="ppart" end="8" id="4" rel="vc">
+        <node begin="0" cat="pp" end="4" id="5" rel="mod">
+          <node begin="0" end="1" id="6" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="Op"/>
+          <node begin="1" cat="np" end="4" id="7" rel="obj1">
+            <node begin="1" buiging="met-e" end="2" id="8" lemma="enkel" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="enkel" vwtype="onbep" word="enkele"/>
+            <node begin="2" end="3" getal="mv" graad="basis" id="9" lemma="week" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="week" word="weken"/>
+            <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="10" lemma="tijd" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mod" root="tijd" word="tijd"/>
+          </node>
+        </node>
+        <node begin="5" end="6" id="11" index="1" rel="su"/>
+        <node begin="6" buiging="zonder" end="7" graad="basis" id="12" lemma="hopeloos" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="hopeloos" word="hopeloos"/>
+        <node begin="7" buiging="zonder" end="8" id="13" lemma="verliezen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="verlies" word="verloren" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="14" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Op enkele weken tijd leek Europa hopeloos verloren .</sentence>
+</alpino_ds>

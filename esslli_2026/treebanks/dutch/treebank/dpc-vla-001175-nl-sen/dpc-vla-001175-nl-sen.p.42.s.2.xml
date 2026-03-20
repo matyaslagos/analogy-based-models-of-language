@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="0" cat="smain" end="19" id="1" rel="--">
+      <node begin="0" end="1" getal="ev" id="2" lemma="dit" naamval="stan" pdtype="pron" persoon="3o" pos="pron" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" root="dit" status="vol" vwtype="aanw" word="Dit"/>
+      <node begin="1" end="2" id="3" lemma="maken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="maak" word="maakt" wvorm="pv"/>
+      <node begin="2" cat="cp" end="19" id="4" rel="vc">
+        <node begin="2" conjtype="onder" end="3" id="5" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+        <node begin="3" cat="conj" end="19" id="6" rel="body">
+          <node begin="3" cat="ssub" end="14" id="7" rel="cnj">
+            <node begin="3" cat="conj" end="8" id="8" index="1" rel="su">
+              <node begin="3" cat="np" end="6" id="9" rel="cnj">
+                <node begin="3" buiging="met-e" end="4" id="10" index="2" lemma="elk" naamval="stan" npagr="evz" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,evz)" pt="vnw" rel="det" root="elk" vwtype="onbep" word="elke"/>
+                <node begin="4" buiging="met-e" end="5" graad="basis" id="11" index="3" lemma="natuurlijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="natuurlijk" word="natuurlijke"/>
+                <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="12" lemma="persoon" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="persoon" word="persoon"/>
+              </node>
+              <node begin="6" conjtype="neven" end="7" id="13" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+              <node begin="3" cat="np" end="8" id="14" rel="cnj">
+                <node begin="3" end="4" id="15" index="2" rel="det"/>
+                <node begin="4" end="5" id="16" index="3" rel="mod"/>
+                <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="17" lemma="recht_persoon" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="rechtspersoon" word="rechtspersoon"/>
+              </node>
+            </node>
+            <node begin="10" end="11" id="18" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="heeft" wvorm="pv"/>
+            <node begin="8" cat="np" end="14" id="19" rel="obj1">
+              <node begin="8" end="9" id="20" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="21" lemma="recht" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="recht" word="recht"/>
+              <node begin="11" cat="ti" end="14" id="22" rel="vc">
+                <node begin="12" end="13" id="23" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+                <node begin="11" cat="inf" end="14" id="24" rel="body">
+                  <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="25" lemma="onderwijs" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="onderwijs" word="onderwijs"/>
+                  <node begin="13" buiging="zonder" end="14" id="26" lemma="organiseren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="organiseer" word="organiseren" wvorm="inf"/>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="14" conjtype="neven" end="15" id="27" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="3" cat="ssub" end="19" id="28" rel="cnj">
+            <node begin="3" end="8" id="29" index="1" rel="su"/>
+            <node begin="17" end="18" id="30" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" word="kan" wvorm="pv"/>
+            <node begin="15" cat="inf" end="19" id="31" rel="vc">
+              <node begin="15" end="16" id="32" lemma="daarvoor" pos="pp" postag="BW()" pt="bw" rel="mod" root="daarvoor" word="daarvoor"/>
+              <node begin="16" end="17" getal="mv" graad="basis" id="33" lemma="instelling" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="instelling" word="instellingen"/>
+              <node begin="18" buiging="zonder" end="19" id="34" lemma="op_richten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="richt_op" word="oprichten" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="35" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dit maakt dat elke natuurlijke persoon of rechtspersoon het recht heeft onderwijs te organiseren en daarvoor instellingen kan oprichten .</sentence>
+</alpino_ds>

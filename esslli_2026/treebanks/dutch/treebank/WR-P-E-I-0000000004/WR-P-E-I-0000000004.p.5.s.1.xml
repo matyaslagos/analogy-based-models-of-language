@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="*" pos="tag" postag="LET()" pt="let" rel="--" root="*" word="*"/>
+    <node begin="2" end="3" id="2" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="11" end="12" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="1" cat="du" end="13" id="4" rel="--">
+      <node begin="1" cat="conj" end="4" id="5" rel="dp">
+        <node begin="1" end="2" id="6" lemma="1914" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="cnj" root="1914" word="1914"/>
+        <node begin="3" end="4" id="7" lemma="1915" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="cnj" root="1915" word="1915"/>
+      </node>
+      <node begin="4" cat="np" end="11" id="8" rel="dp">
+        <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="9" lemma="kerk" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="kerk" word="kerk"/>
+        <node begin="5" cat="pp" end="11" id="10" rel="mod">
+          <node begin="5" end="6" id="11" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="6" cat="mwu" end="11" id="12" rel="obj1">
+            <node begin="6" end="7" id="13" lemma="O.L." pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="O.L." spectype="deeleigen" word="O.L."/>
+            <node begin="7" end="8" id="14" lemma="Vrouw" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Vrouw" spectype="deeleigen" word="Vrouw"/>
+            <node begin="8" end="9" id="15" lemma="van" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="van" spectype="deeleigen" word="van"/>
+            <node begin="9" end="10" id="16" lemma="Goede" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Goede" spectype="deeleigen" word="Goede"/>
+            <node begin="10" end="11" id="17" lemma="Raad" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Raad" spectype="deeleigen" word="Raad"/>
+          </node>
+        </node>
+      </node>
+      <node begin="12" end="13" genus="onz" getal="ev" graad="basis" id="18" lemma="Beverwijk" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="dp" root="Beverwijk" word="Beverwijk"/>
+    </node>
+  </node>
+  <sentence>* 1914 - 1915 kerk van O.L. Vrouw van Goede Raad , Beverwijk</sentence>
+</alpino_ds>

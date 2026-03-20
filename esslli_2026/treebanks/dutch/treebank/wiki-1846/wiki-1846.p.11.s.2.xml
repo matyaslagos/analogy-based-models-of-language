@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="12" end="13" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="14" end="15" id="2" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="16" end="17" id="3" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="0" cat="conj" end="19" id="4" rel="--">
+      <node begin="0" cat="smain" end="12" id="5" rel="cnj">
+        <node begin="0" cat="np" end="3" id="6" index="1" rel="su">
+          <node begin="0" end="1" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+          <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="8" lemma="groep" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="groep" word="groep"/>
+          <node begin="2" buiging="zonder" end="3" getal-n="zonder-n" graad="basis" id="9" lemma="Vlaams_nationaal" pos="name" positie="nom" postag="ADJ(nom,basis,zonder,zonder-n)" pt="adj" rel="app" root="Vlaams-Nationaal" word="Vlaams-Nationaal"/>
+        </node>
+        <node begin="3" end="4" id="10" lemma="halen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="haal" word="haalde" wvorm="pv"/>
+        <node begin="4" cat="np" end="7" id="11" rel="obj1">
+          <node begin="4" cat="mwu" end="6" id="12" rel="mod">
+            <node begin="4" end="5" id="13" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="adj" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" word="het"/>
+            <node begin="5" buiging="met-e" end="6" getal-n="zonder-n" graad="sup" id="14" lemma="veel" naamval="stan" pdtype="grad" pos="adj" positie="nom" postag="VNW(onbep,grad,stan,nom,met-e,zonder-n,sup)" pt="vnw" rel="mwp" root="meeste" vwtype="onbep" word="meeste"/>
+          </node>
+          <node begin="6" end="7" getal="mv" graad="basis" id="15" lemma="stem" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="stem" word="stemmen"/>
+        </node>
+        <node begin="7" cat="pp" end="10" id="16" rel="mod">
+          <node begin="7" end="8" id="17" lemma="onder" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="onder" vztype="init" word="onder"/>
+          <node begin="8" cat="np" end="10" id="18" rel="obj1">
+            <node begin="8" end="9" id="19" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="9" end="10" getal="mv" graad="basis" id="20" lemma="Volksunie_lid" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="Volksunie_lid" word="Volksunie-leden"/>
+          </node>
+        </node>
+        <node begin="10" cat="pp" end="12" id="21" rel="mod">
+          <node begin="10" end="11" id="22" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+          <node begin="11" end="12" id="23" lemma="47,18%" pos="num" postag="SPEC(symb)" pt="spec" rel="obj1" root="47,18%" spectype="symb" word="47,18%"/>
+        </node>
+      </node>
+      <node begin="13" conjtype="neven" end="14" id="24" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="0" cat="smain" end="19" id="25" rel="cnj">
+        <node begin="0" end="3" id="26" index="1" rel="su"/>
+        <node begin="15" end="16" id="27" lemma="erven" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="erf" word="erfde" wvorm="pv"/>
+        <node begin="17" cat="np" end="19" id="28" rel="obj1">
+          <node begin="17" end="18" id="29" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="18" end="19" genus="zijd" getal="ev" graad="basis" id="30" lemma="infrastructuur" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="infrastructuur" word="infrastructuur"/>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="31" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De groep Vlaams-Nationaal haalde het meeste stemmen onder de Volksunie-leden met 47,18% , en &quot; erfde &quot; de infrastructuur .</sentence>
+</alpino_ds>

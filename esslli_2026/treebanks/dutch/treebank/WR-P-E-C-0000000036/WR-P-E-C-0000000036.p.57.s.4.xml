@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="np" end="5" id="1" rel="--">
+      <node begin="0" cat="mwu" end="2" id="2" rel="hd">
+        <node begin="0" end="1" id="3" lemma="Gerusalemme" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Gerusalemme" spectype="vreemd" word="Gerusalemme"/>
+        <node begin="1" end="2" id="4" lemma="liberata" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="liberata" spectype="vreemd" word="liberata"/>
+      </node>
+      <node begin="2" cat="pp" end="5" id="5" rel="mod">
+        <node begin="2" end="3" id="6" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="3" cat="np" end="5" id="7" rel="obj1">
+          <node begin="3" end="4" id="8" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="9" lemma="Nederlands" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Nederlands" word="Nederlands"/>
+        </node>
+      </node>
+    </node>
+    <node begin="5" end="6" id="10" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Gerusalemme liberata in het Nederlands .</sentence>
+</alpino_ds>

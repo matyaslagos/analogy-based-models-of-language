@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="10" end="11" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="15" id="3" rel="--">
+      <node begin="0" cat="np" end="2" id="4" rel="su">
+        <node begin="0" end="1" id="5" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="6" lemma="kantoor" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="kantoor" word="kantoor"/>
+      </node>
+      <node begin="2" end="3" id="7" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="3" end="4" id="8" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+      <node begin="4" cat="np" end="15" id="9" rel="predc">
+        <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="10" lemma="minderheid_aandeel_houder" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="minderheidsaandeelhouder" word="minderheidsaandeelhouder"/>
+        <node begin="5" cat="pp" end="15" id="11" rel="mod">
+          <node begin="5" end="6" id="12" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="6" cat="np" end="15" id="13" rel="obj1">
+            <node begin="6" end="7" id="14" lemma="drie" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="drie" word="drie"/>
+            <node begin="7" end="8" getal="mv" graad="basis" id="15" lemma="ingenieur_firma" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="ingenieur_firma" word="ingenieursfirma&apos;s"/>
+            <node begin="9" cat="conj" end="15" id="16" rel="mod">
+              <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="17" lemma="FTI" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="FTI" word="FTI"/>
+              <node begin="11" cat="mwu" end="13" id="18" rel="cnj">
+                <node begin="11" end="12" id="19" lemma="Air" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Air" spectype="deeleigen" word="Air"/>
+                <node begin="12" end="13" id="20" lemma="S.R." pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="S.R." spectype="deeleigen" word="S.R."/>
+              </node>
+              <node begin="13" conjtype="neven" end="14" id="21" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="22" lemma="DAE" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="DAE" word="DAE"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="23" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="16" end="17" id="24" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het kantoor is ook minderheidsaandeelhouder in drie ingenieursfirma&apos;s ( FTI , Air S.R. en DAE ) .</sentence>
+</alpino_ds>

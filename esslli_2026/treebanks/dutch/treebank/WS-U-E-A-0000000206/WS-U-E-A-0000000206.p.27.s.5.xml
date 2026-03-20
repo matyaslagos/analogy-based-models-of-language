@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="2" end="3" id="2" lemma="hebben" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="heb" word="had" wvorm="pv"/>
+      <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="3" index="1" lemma="Duitsland" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" root="Duitsland" word="Duitsland"/>
+      <node begin="0" cat="inf" end="14" id="4" rel="vc">
+        <node begin="3" end="4" id="5" index="1" rel="su"/>
+        <node begin="8" buiging="zonder" end="9" id="6" lemma="willen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="wil" word="willen" wvorm="inf"/>
+        <node begin="0" cat="inf" end="14" id="7" rel="vc">
+          <node begin="0" cat="advp" end="2" id="8" rel="mod">
+            <node begin="0" buiging="zonder" end="1" graad="basis" id="9" lemma="uiterlijk" pos="noun" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="uiterlijk" word="Uiterlijk"/>
+            <node begin="1" end="2" id="10" lemma="vandaag" pos="adv" postag="BW()" pt="bw" rel="hd" root="vandaag" word="vandaag"/>
+          </node>
+          <node begin="3" end="4" id="11" index="1" rel="su"/>
+          <node begin="4" end="5" genus="masc" getal="ev" id="12" lemma="hem" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,obl,vol,3,ev,masc)" pt="vnw" rel="obj1" root="hem" status="vol" vwtype="pers" word="hem"/>
+          <node begin="9" buiging="zonder" end="10" id="13" lemma="zetten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="zet" word="zetten" wvorm="inf"/>
+          <node begin="5" cat="pp" end="14" id="14" rel="ld">
+            <node begin="5" end="6" id="15" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+            <node begin="6" cat="np" end="14" id="16" rel="obj1">
+              <node begin="6" end="7" id="17" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="18" lemma="vliegtuig" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="vliegtuig" word="vliegtuig"/>
+              <node begin="10" cat="pp" end="14" id="19" rel="mod">
+                <node begin="10" end="11" id="20" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+                <node begin="11" cat="np" end="14" id="21" rel="obj1">
+                  <node begin="11" buiging="zonder" end="12" getal="ev" id="22" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pt="vnw" rel="det" root="zijn" status="vol" vwtype="bez" word="zijn"/>
+                  <node begin="12" end="13" genus="onz" getal="ev" graad="basis" id="23" lemma="thuisland" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="thuisland" word="thuisland"/>
+                  <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="24" lemma="Turkije" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="app" root="Turkije" word="Turkije"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="25" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Uiterlijk vandaag had Duitsland hem op het vliegtuig willen zetten naar zijn thuisland Turkije .</sentence>
+</alpino_ds>

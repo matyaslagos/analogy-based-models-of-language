@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="10" end="11" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="17" id="2" rel="--">
+      <node begin="0" cat="pp" end="4" id="3" rel="mod">
+        <node begin="0" end="1" id="4" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="Op"/>
+        <node begin="1" cat="np" end="4" id="5" rel="obj1">
+          <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="6" lemma="woensdag_ochtend" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="woensdag_ochtend" word="woensdagochtend"/>
+          <node begin="2" cat="mwu" end="4" id="7" rel="mod">
+            <node begin="2" end="3" id="8" lemma="16" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="16" word="16"/>
+            <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="9" lemma="januari" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="januari" word="januari"/>
+          </node>
+        </node>
+      </node>
+      <node begin="4" end="5" id="10" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+      <node begin="5" end="6" getal="getal" id="11" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+      <node begin="6" cat="np" end="17" id="12" rel="su">
+        <node begin="6" buiging="met-e" end="7" graad="basis" id="13" lemma="apart" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="apart" word="aparte"/>
+        <node begin="7" end="8" getal="mv" graad="basis" id="14" lemma="contact" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="contact" word="contacten"/>
+        <node begin="8" cat="pp" end="14" id="15" rel="mod">
+          <node begin="8" end="9" id="16" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" vztype="init" word="tussen"/>
+          <node begin="9" cat="conj" end="14" id="17" rel="obj1">
+            <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="18" lemma="Ecolo" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Ecolo" word="Ecolo"/>
+            <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="19" lemma="Agalev" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Agalev" word="Agalev"/>
+            <node begin="12" conjtype="neven" end="13" id="20" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="21" lemma="PS" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="PS" word="PS"/>
+          </node>
+        </node>
+        <node begin="14" cat="pp" end="17" id="22" rel="mod">
+          <node begin="14" end="15" id="23" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" vztype="init" word="over"/>
+          <node begin="15" cat="np" end="17" id="24" rel="obj1">
+            <node begin="15" end="16" id="25" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="26" lemma="ontwerp_nota" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="ontwerp_nota" word="ontwerpnota"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="27" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Op woensdagochtend 16 januari zijn er aparte contacten tussen Ecolo , Agalev en PS over de ontwerpnota .</sentence>
+</alpino_ds>

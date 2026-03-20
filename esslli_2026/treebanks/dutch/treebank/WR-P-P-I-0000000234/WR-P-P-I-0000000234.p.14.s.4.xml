@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="16" id="2" rel="--">
+      <node begin="0" cat="smain" end="7" id="3" rel="cnj">
+        <node begin="0" cat="np" end="4" id="4" rel="su">
+          <node begin="0" end="1" id="5" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="Een"/>
+          <node begin="1" buiging="met-e" end="2" graad="basis" id="6" lemma="groot" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="groot" word="grote"/>
+          <node begin="2" buiging="met-e" end="3" graad="basis" id="7" lemma="sociaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="sociaal" word="sociale"/>
+          <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="8" lemma="vooruitgang" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="vooruitgang" word="vooruitgang"/>
+        </node>
+        <node begin="4" end="5" id="9" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="5" end="6" getal="ev" id="10" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="pron" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="predc" root="dat" status="vol" vwtype="aanw" word="dat"/>
+        <node begin="6" end="7" id="11" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+      </node>
+      <node begin="8" conjtype="neven" end="9" id="12" lemma="want" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="want" word="want"/>
+      <node begin="9" cat="smain" end="16" id="13" rel="cnj">
+        <node begin="9" cat="np" end="11" id="14" index="1" rel="su">
+          <node begin="9" buiging="met-e" end="10" graad="basis" id="15" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,met-e,agr,basis)" pt="vnw" rel="mod" root="vele" vwtype="onbep" word="vele"/>
+          <node begin="10" end="11" getal="mv" graad="basis" id="16" lemma="bedrijfstak" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="bedrijfstak" word="bedrijfstakken"/>
+        </node>
+        <node begin="11" end="12" id="17" lemma="hebben" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="heb" word="hadden" wvorm="pv"/>
+        <node begin="9" cat="ppart" end="16" id="18" rel="vc">
+          <node begin="9" end="11" id="19" index="1" rel="su"/>
+          <node begin="12" cat="np" end="14" id="20" rel="obj1">
+            <node begin="12" end="13" id="21" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="22" lemma="carenzdag" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="carenzdag" word="carenzdag"/>
+          </node>
+          <node begin="14" end="15" id="23" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mod" root="al" word="al"/>
+          <node begin="15" buiging="zonder" end="16" id="24" lemma="af_schaffen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="schaf_af" word="afgeschaft" wvorm="vd"/>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="25" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Een grote sociale vooruitgang is dat niet , want vele bedrijfstakken hadden de carenzdag al afgeschaft .</sentence>
+</alpino_ds>

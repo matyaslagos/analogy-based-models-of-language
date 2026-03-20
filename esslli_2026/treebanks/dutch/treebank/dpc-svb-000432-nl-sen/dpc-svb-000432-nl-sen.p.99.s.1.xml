@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" index="1" rel="su">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" cat="mwu" end="3" id="4" rel="hd">
+          <node begin="1" end="2" id="5" lemma="Wet" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Wet" spectype="deeleigen" word="Wet"/>
+          <node begin="2" end="3" id="6" lemma="BEU" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="BEU" spectype="deeleigen" word="BEU"/>
+        </node>
+      </node>
+      <node begin="3" end="4" id="7" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" word="kan" wvorm="pv"/>
+      <node begin="0" cat="inf" end="11" id="8" rel="vc">
+        <node begin="0" end="3" id="9" index="1" rel="su"/>
+        <node begin="4" end="5" id="10" lemma="daarom" pos="pp" postag="BW()" pt="bw" rel="mod" root="daarom" word="daarom"/>
+        <node begin="6" buiging="zonder" end="7" id="11" lemma="hebben" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="heb" word="hebben" wvorm="inf"/>
+        <node begin="5" cat="np" end="11" id="12" rel="obj1">
+          <node begin="5" end="6" getal="mv" graad="basis" id="13" lemma="gevolg" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="gevolg" word="gevolgen"/>
+          <node begin="7" cat="pp" end="11" id="14" rel="mod">
+            <node begin="7" end="8" id="15" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+            <node begin="8" cat="np" end="11" id="16" rel="obj1">
+              <node begin="8" buiging="zonder" end="9" getal="getal" id="17" lemma="u" naamval="stan" npagr="agr" pdtype="det" persoon="2" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,2,getal,prenom,zonder,agr)" pt="vnw" rel="det" root="u" status="vol" vwtype="bez" word="uw"/>
+              <node begin="9" buiging="zonder" end="10" graad="basis" id="18" lemma="toekomstig" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="toekomstig" word="toekomstig"/>
+              <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="19" lemma="AOW_pensioen" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="AOW_pensioen" word="AOW-pensioen"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" id="20" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De Wet BEU kan daarom gevolgen hebben voor uw toekomstig AOW-pensioen .</sentence>
+</alpino_ds>

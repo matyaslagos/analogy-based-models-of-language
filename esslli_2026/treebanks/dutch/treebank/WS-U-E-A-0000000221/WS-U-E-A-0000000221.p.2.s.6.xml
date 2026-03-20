@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="du" end="8" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="want" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="want" word="Want"/>
+      <node begin="1" cat="smain" end="8" id="3" rel="nucl">
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="4" lemma="last_verzwaring" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="su" root="lastenverzwaring" word="lastenverzwaring"/>
+        <node begin="2" end="3" id="5" lemma="liggen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="lig" word="ligt" wvorm="pv"/>
+        <node begin="3" cat="ap" end="5" id="6" rel="predc">
+          <node begin="3" buiging="zonder" end="4" graad="basis" id="7" lemma="steevast" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="steevast" word="steevast"/>
+          <node begin="4" buiging="zonder" end="5" graad="basis" id="8" lemma="moeilijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="moeilijk" word="moeilijk"/>
+        </node>
+        <node begin="5" cat="pp" end="8" id="9" rel="mod">
+          <node begin="5" end="6" id="10" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+          <node begin="6" cat="np" end="8" id="11" rel="obj1">
+            <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="12" lemma="coalitie_partner" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="coalitiepartner" word="coalitiepartner"/>
+            <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="13" lemma="VVD" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" root="VVD" word="VVD"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" id="14" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Want lastenverzwaring ligt steevast moeilijk bij coalitiepartner VVD .</sentence>
+</alpino_ds>

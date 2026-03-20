@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="`" pos="punct" postag="LET()" pt="let" rel="--" root="`" word="`"/>
+    <node begin="0" cat="smain" end="6" id="2" rel="--">
+      <node begin="0" end="1" id="3" lemma="Tonisch-clonisch" pos="name" postag="SPEC(meta)" pt="spec" rel="su" root="Tonisch-clonisch" spectype="meta" word="Tonisch-clonisch"/>
+      <node begin="1" end="2" id="4" lemma="betekenen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="beteken" word="betekent" wvorm="pv"/>
+      <node begin="3" cat="conj" end="6" id="5" rel="obj1">
+        <node begin="3" buiging="zonder" end="4" id="6" lemma="verkrampen" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="cnj" root="verkramp" word="verkrampt" wvorm="vd"/>
+        <node begin="4" conjtype="neven" end="5" id="7" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="5" buiging="zonder" end="6" id="8" lemma="schokken" pos="adj" positie="vrij" postag="WW(od,vrij,zonder)" pt="ww" rel="cnj" root="schokkend" word="schokkend" wvorm="od"/>
+      </node>
+    </node>
+    <node begin="6" end="7" id="9" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="7" end="8" id="10" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Tonisch-clonisch betekent ` verkrampt en schokkend &apos; .</sentence>
+</alpino_ds>

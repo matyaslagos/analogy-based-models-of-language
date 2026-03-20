@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="smain" end="12" id="1" rel="--">
+      <node begin="1" end="2" id="2" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+      <node begin="2" cat="np" end="4" id="3" index="1" rel="su">
+        <node begin="2" end="3" id="4" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="5" lemma="Durandlijn" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="Durandlijn" word="Durandlijn"/>
+      </node>
+      <node begin="0" cat="ppart" end="12" id="6" rel="vc">
+        <node begin="0" buiging="zonder" end="1" graad="comp" id="7" lemma="laat" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="laat" word="Later"/>
+        <node begin="2" end="4" id="8" index="1" rel="obj1"/>
+        <node begin="4" cat="cp" end="11" id="9" rel="predc">
+          <node begin="4" conjtype="onder" end="5" id="10" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+          <node begin="5" cat="np" end="11" id="11" rel="body">
+            <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="12" lemma="grens" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="grens" word="grens"/>
+            <node begin="6" cat="pp" end="11" id="13" rel="mod">
+              <node begin="6" end="7" id="14" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" vztype="init" word="tussen"/>
+              <node begin="7" cat="conj" end="11" id="15" rel="obj1">
+                <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="16" lemma="Afghanistan" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Afghanistan" word="Afghanistan"/>
+                <node begin="8" conjtype="neven" end="9" id="17" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                <node begin="9" cat="mwu" end="11" id="18" rel="cnj">
+                  <node begin="9" buiging="zonder" end="10" graad="basis" id="19" lemma="Brits_Indisch" pos="name" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mwp" root="Brits-Indisch" word="Brits-Indisch"/>
+                  <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="20" lemma="Pakistan" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="mwp" root="Pakistan" word="Pakistan"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="11" buiging="zonder" end="12" id="21" lemma="trekken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="trek" word="getrokken" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="12" end="13" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Later werd de Durandlijn als grens tussen Afghanistan en Brits-Indisch Pakistan getrokken .</sentence>
+</alpino_ds>

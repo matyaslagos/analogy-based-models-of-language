@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="10" end="11" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="12" end="13" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="14" end="15" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="18" id="5" rel="--">
+      <node begin="0" cat="pp" end="3" id="6" rel="mod">
+        <node begin="0" end="1" id="7" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="Op"/>
+        <node begin="1" cat="np" end="3" id="8" rel="obj1">
+          <node begin="1" buiging="zonder" end="2" graad="basis" id="9" lemma="Frans" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="Frans" word="Frans"/>
+          <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="10" lemma="grond_gebied" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="grond_gebied" word="grondgebied"/>
+        </node>
+      </node>
+      <node begin="3" end="4" id="11" lemma="lopen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="loop" word="loopt" wvorm="pv"/>
+      <node begin="4" end="5" genus="masc" getal="ev" id="12" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="hij"/>
+      <node begin="5" buiging="zonder" end="6" graad="comp" id="13" lemma="ver" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="ver" word="verder"/>
+      <node begin="6" cat="pp" end="18" id="14" rel="ld">
+        <node begin="6" end="7" id="15" lemma="langs" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="langs" vztype="init" word="langs"/>
+        <node begin="7" cat="conj" end="18" id="16" rel="obj1">
+          <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="17" lemma="Broksele" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Broksele" word="Broksele"/>
+          <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="18" lemma="Bollezele" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Bollezele" word="Bollezele"/>
+          <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="19" lemma="Ekelsbeke" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Ekelsbeke" word="Ekelsbeke"/>
+          <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="20" lemma="Wilder" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Wilder" word="Wilder"/>
+          <node begin="15" end="16" genus="onz" getal="ev" graad="basis" id="21" lemma="Bambeke" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Bambeke" word="Bambeke"/>
+          <node begin="16" conjtype="neven" end="17" id="22" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="17" end="18" genus="onz" getal="ev" graad="basis" id="23" lemma="Houtkerke" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Houtkerke" word="Houtkerke"/>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="24" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Op Frans grondgebied loopt hij verder langs Broksele , Bollezele , Ekelsbeke , Wilder , Bambeke en Houtkerke .</sentence>
+</alpino_ds>

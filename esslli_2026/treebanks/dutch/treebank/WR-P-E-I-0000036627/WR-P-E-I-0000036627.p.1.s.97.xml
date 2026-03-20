@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="20" id="2" rel="--">
+      <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="3" lemma="Stern" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Stern" word="Stern"/>
+      <node begin="1" end="2" id="4" lemma="krijgen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="krijg" word="kreeg" wvorm="pv"/>
+      <node begin="2" cat="np" end="8" id="5" rel="obj1">
+        <node begin="2" end="3" id="6" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="7" lemma="taak" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="taak" word="taak"/>
+        <node begin="4" cat="ti" end="8" id="8" rel="vc">
+          <node begin="6" end="7" id="9" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+          <node begin="4" cat="inf" end="8" id="10" rel="body">
+            <node begin="4" cat="np" end="6" id="11" rel="obj1">
+              <node begin="4" end="5" id="12" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="13" lemma="productie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="productie" word="productie"/>
+            </node>
+            <node begin="7" buiging="zonder" end="8" id="14" lemma="coördineren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="coördineer" word="coördineren" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+      <node begin="9" cat="cp" end="20" id="15" rel="predm">
+        <node begin="9" conjtype="onder" end="10" id="16" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+        <node begin="10" cat="np" end="20" id="17" rel="body">
+          <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="18" lemma="directeur-generaal" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="directeur-generaal" word="directeur-generaal"/>
+          <node begin="11" cat="pp" end="20" id="19" rel="mod">
+            <node begin="11" end="12" id="20" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="12" cat="np" end="20" id="21" rel="obj1">
+              <node begin="12" end="13" id="22" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="13" buiging="zonder" end="14" graad="basis" id="23" lemma="nieuw" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="nieuw" word="nieuw"/>
+              <node begin="14" cat="ti" end="17" id="24" rel="mod">
+                <node begin="15" end="16" id="25" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+                <node begin="14" cat="inf" end="17" id="26" rel="body">
+                  <node begin="14" end="15" id="27" lemma="op" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="op" vztype="fin" word="op"/>
+                  <node begin="16" buiging="zonder" end="17" id="28" lemma="op_richten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="richt_op" word="richten" wvorm="inf"/>
+                </node>
+              </node>
+              <node begin="17" cat="mwu" end="20" id="29" rel="hd">
+                <node begin="17" end="18" id="30" lemma="Tank" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Tank" spectype="deeleigen" word="Tank"/>
+                <node begin="18" end="19" id="31" lemma="Supply" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Supply" spectype="deeleigen" word="Supply"/>
+                <node begin="19" end="20" id="32" lemma="Department" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Department" spectype="deeleigen" word="Department"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="20" end="21" id="33" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Stern kreeg de taak de productie te coördineren , als directeur-generaal van een nieuw op te richten Tank Supply Department .</sentence>
+</alpino_ds>

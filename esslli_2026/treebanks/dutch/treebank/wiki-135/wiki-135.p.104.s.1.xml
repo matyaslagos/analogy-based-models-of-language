@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="np" end="6" id="1" rel="--">
+      <node begin="0" buiging="met-e" end="1" graad="basis" id="2" lemma="politiek" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="politiek" word="Politieke"/>
+      <node begin="1" end="2" getal="mv" graad="basis" id="3" lemma="beweging" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="beweging" word="bewegingen"/>
+      <node begin="2" cat="rel" end="6" id="4" rel="mod">
+        <node begin="2" end="3" getal="getal" id="5" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+        <node begin="2" cat="ssub" end="6" id="6" rel="body">
+          <node begin="2" end="3" id="7" index="1" rel="su"/>
+          <node begin="3" cat="np" end="5" id="8" rel="obj1">
+            <node begin="3" end="4" id="9" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="10" lemma="communautarisme" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="communautarisme" word="communautarisme"/>
+          </node>
+          <node begin="5" end="6" id="11" lemma="problematiseren" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="problematiseren" word="problematiseren" wvorm="pv"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>Politieke bewegingen die het communautarisme problematiseren</sentence>
+</alpino_ds>

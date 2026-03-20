@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="10" end="11" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="19" id="3" rel="--">
+      <node begin="0" end="1" genus="onz" getal="ev" id="4" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" root="het" status="red" vwtype="pers" word="Het"/>
+      <node begin="1" end="2" id="5" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+      <node begin="2" cat="ap" end="4" id="6" rel="predc">
+        <node begin="2" end="3" id="7" lemma="te" pos="adv" postag="BW()" pt="bw" rel="mod" root="te" word="te"/>
+        <node begin="3" buiging="zonder" end="4" graad="basis" id="8" lemma="duur" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="duur" word="duur"/>
+      </node>
+      <node begin="5" cat="pp" end="19" id="9" rel="mod">
+        <node begin="5" end="6" id="10" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+        <node begin="6" cat="np" end="19" id="11" rel="obj1">
+          <node begin="6" end="7" id="12" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="7" buiging="met-e" end="8" id="13" lemma="verplichten" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="verplicht" word="verplichte" wvorm="vd"/>
+          <node begin="8" buiging="zonder" end="9" graad="basis" id="14" lemma="eigen" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="eigen" word="eigen"/>
+          <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="15" lemma="bijdrage" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="bijdrage" word="bijdrage"/>
+          <node begin="11" cat="rel" end="19" id="16" rel="mod">
+            <node begin="11" end="12" getal="getal" id="17" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+            <node begin="11" cat="ssub" end="19" id="18" rel="body">
+              <node begin="11" end="12" id="19" index="1" rel="su"/>
+              <node begin="12" end="13" id="20" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" word="kan" wvorm="pv"/>
+              <node begin="11" cat="inf" end="19" id="21" rel="vc">
+                <node begin="11" end="12" id="22" index="1" rel="su"/>
+                <node begin="13" buiging="zonder" end="14" id="23" lemma="op_lopen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="loop_op" word="oplopen" wvorm="inf"/>
+                <node begin="14" cat="pp" end="19" id="24" rel="ld">
+                  <node begin="14" end="15" id="25" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" vztype="init" word="tot"/>
+                  <node begin="15" cat="np" end="19" id="26" rel="obj1">
+                    <node begin="15" end="16" getal-n="mv-n" graad="basis" id="27" lemma="honderd" numtype="hoofd" pos="noun" positie="nom" postag="TW(hoofd,nom,mv-n,basis)" pt="tw" rel="hd" root="honderden" word="honderden"/>
+                    <node begin="16" cat="np" end="19" id="28" rel="mod">
+                      <node begin="16" end="17" getal="mv" graad="basis" id="29" lemma="euro" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="euro" word="euro&apos;s"/>
+                      <node begin="17" cat="pp" end="19" id="30" rel="mod">
+                        <node begin="17" end="18" id="31" lemma="per" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="per" vztype="init" word="per"/>
+                        <node begin="18" end="19" genus="zijd" getal="ev" graad="basis" id="32" lemma="maand" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="maand" word="maand"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="33" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het werd te duur , door de verplichte eigen bijdrage , die kan oplopen tot honderden euro&apos;s per maand .</sentence>
+</alpino_ds>

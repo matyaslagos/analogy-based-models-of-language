@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+    <node begin="14" end="15" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="1" cat="np" end="18" id="3" rel="--">
+      <node begin="1" end="2" id="4" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+      <node begin="2" buiging="zonder" end="3" getal-n="zonder-n" id="5" lemma="bevorderen" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="bevorder" word="bevorderen" wvorm="inf"/>
+      <node begin="3" cat="pp" end="18" id="6" rel="mod">
+        <node begin="3" end="4" id="7" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+        <node begin="4" cat="np" end="18" id="8" rel="obj1">
+          <node begin="4" end="5" id="9" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="5" buiging="zonder" end="6" graad="comp" id="10" lemma="effectief" pos="adj" positie="prenom" postag="ADJ(prenom,comp,zonder)" pt="adj" rel="mod" root="effectief" word="effectiever"/>
+          <node begin="6" buiging="zonder" end="7" graad="basis" id="11" lemma="internationaal" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="internationaal" word="internationaal"/>
+          <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="12" lemma="raamwerk" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="raam_werk" word="raamwerk"/>
+          <node begin="8" cat="pp" end="18" id="13" rel="mod">
+            <node begin="8" end="9" id="14" lemma="ten behoeve van" pos="prep" postag="SPEC(afk)" pt="spec" rel="hd" root="ten_behoeve_van" spectype="afk" word="t.b.v."/>
+            <node begin="9" cat="np" end="18" id="15" rel="obj1">
+              <node begin="9" buiging="met-e" end="10" graad="basis" id="16" lemma="bilateraal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="bilateraal" word="bilaterale"/>
+              <node begin="10" buiging="met-e" end="11" graad="basis" id="17" lemma="wederzijds" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="wederzijds" word="wederzijdse"/>
+              <node begin="11" end="12" getal="mv" graad="basis" id="18" lemma="erkenning_afspraak" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="erkenning_afspraak" word="erkenningsafspraken"/>
+              <node begin="12" cat="pp" end="18" id="19" rel="mod">
+                <node begin="12" end="13" id="20" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="13" cat="conj" end="18" id="21" rel="obj1">
+                  <node begin="13" end="14" getal="mv" graad="basis" id="22" lemma="SPS_norm" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="SPS_norm" word="SPS-normen"/>
+                  <node begin="15" end="16" getal="mv" graad="basis" id="23" lemma="conformiteit_beoordeling" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="conformiteitsbeoordelingen" word="conformiteitsbeoordelingen"/>
+                  <node begin="16" conjtype="neven" end="17" id="24" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                  <node begin="17" end="18" getal="mv" graad="basis" id="25" lemma="keurmerk" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="keurmerk" word="keurmerken"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="26" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>. Het bevorderen van een effectiever internationaal raamwerk t.b.v. bilaterale wederzijdse erkenningsafspraken van SPS-normen , conformiteitsbeoordelingen en keurmerken .</sentence>
+</alpino_ds>

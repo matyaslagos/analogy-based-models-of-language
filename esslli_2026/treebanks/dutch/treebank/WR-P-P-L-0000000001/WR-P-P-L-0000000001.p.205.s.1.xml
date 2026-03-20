@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="8" end="9" id="2" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="12" end="13" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="14" id="4" rel="--">
+      <node begin="0" end="1" id="5" lemma="4" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="tag" root="4" word="4"/>
+      <node begin="1" cat="du" end="14" id="6" rel="nucl">
+        <node begin="1" cat="np" end="5" id="7" rel="dp">
+          <node begin="1" cat="mwu" end="3" id="8" rel="hd">
+            <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="9" lemma="uitvoering_nota" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Uitvoeringsnota" word="Uitvoeringsnota"/>
+            <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="10" lemma="klimaat_beleid" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="Klimaatbeleid" word="Klimaatbeleid"/>
+          </node>
+          <node begin="3" cat="np" end="5" id="11" rel="app">
+            <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="12" lemma="deel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="deel" word="deel"/>
+            <node begin="4" end="5" id="13" lemma="1" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="app" root="1" word="1"/>
+          </node>
+        </node>
+        <node begin="6" cat="np" end="8" id="14" rel="dp">
+          <node begin="6" buiging="met-e" end="7" graad="basis" id="15" lemma="binnenlands" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Binnenlandse" word="Binnenlandse"/>
+          <node begin="7" end="8" getal="mv" graad="basis" id="16" lemma="maatregel" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="maatregel" word="maatregelen"/>
+        </node>
+        <node begin="9" cat="mwu" end="12" id="17" rel="dp">
+          <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="18" lemma="ministerie" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="Ministerie" word="Ministerie"/>
+          <node begin="10" end="11" id="19" lemma="van" pos="name" postag="VZ(init)" pt="vz" rel="mwp" root="van" vztype="init" word="van"/>
+          <node begin="11" end="12" genus="genus" getal="ev" graad="basis" id="20" lemma="VROM" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="mwp" root="VROM" word="VROM"/>
+        </node>
+        <node begin="13" end="14" id="21" lemma="1999" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="dp" root="1999" word="1999"/>
+      </node>
+    </node>
+    <node begin="14" end="15" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>4 Uitvoeringsnota Klimaatbeleid deel 1 , Binnenlandse maatregelen - Ministerie van VROM , 1999 .</sentence>
+</alpino_ds>

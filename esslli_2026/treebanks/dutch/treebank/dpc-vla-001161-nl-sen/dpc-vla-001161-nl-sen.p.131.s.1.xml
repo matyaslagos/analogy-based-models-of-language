@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="24" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="8" end="9" id="2" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="12" end="13" id="3" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="0" cat="smain" end="23" id="4" rel="--">
+      <node begin="6" end="7" id="5" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="6" index="1" lemma="Vlaanderen" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" root="Vlaanderen" word="Vlaanderen"/>
+      <node begin="0" cat="ti" end="23" id="7" rel="vc">
+        <node begin="15" end="16" id="8" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+        <node begin="0" cat="inf" end="23" id="9" rel="body">
+          <node begin="0" cat="cp" end="5" id="10" rel="mod">
+            <node begin="0" conjtype="onder" end="1" id="11" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="Als"/>
+            <node begin="1" cat="ssub" end="5" id="12" rel="body">
+              <node begin="1" end="2" genus="onz" getal="ev" id="13" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" root="het" status="red" vwtype="pers" word="het"/>
+              <node begin="2" end="3" id="14" lemma="aan_komen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="kom_aan" word="aankomt" wvorm="pv"/>
+              <node begin="3" cat="pp" end="5" id="15" rel="pc">
+                <node begin="3" end="4" id="16" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+                <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="17" lemma="innovatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="innovatie" word="innovatie"/>
+              </node>
+            </node>
+          </node>
+          <node begin="7" end="8" id="18" index="1" rel="obj1"/>
+          <node begin="9" cat="cp" end="12" id="19" rel="mod">
+            <node begin="9" conjtype="onder" end="10" id="20" lemma="behalve" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="behalve" word="behalve"/>
+            <node begin="10" cat="pp" end="12" id="21" rel="body">
+              <node begin="10" end="11" id="22" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+              <node begin="11" end="12" getal="mv" graad="basis" id="23" lemma="octrooi" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="octrooi" word="octrooien"/>
+            </node>
+          </node>
+          <node begin="13" end="14" id="24" lemma="altijd" pos="adv" postag="BW()" pt="bw" rel="mod" root="altijd" word="altijd"/>
+          <node begin="14" end="15" id="25" lemma="terug" pos="part" postag="BW()" pt="bw" rel="svp" root="terug" word="terug"/>
+          <node begin="16" buiging="zonder" end="17" id="26" lemma="terug_vinden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="vind_terug" word="vinden" wvorm="inf"/>
+          <node begin="17" cat="pp" end="23" id="27" rel="mod">
+            <node begin="17" end="18" id="28" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+            <node begin="18" cat="np" end="23" id="29" rel="obj1">
+              <node begin="18" end="19" id="30" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="19" end="20" id="31" lemma="drie" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="drie" word="drie"/>
+              <node begin="20" cat="ppres" end="22" id="32" rel="mod">
+                <node begin="20" buiging="zonder" end="21" graad="sup" id="33" lemma="goed" pos="adv" positie="vrij" postag="ADJ(vrij,sup,zonder)" pt="adj" rel="mod" root="goed" word="best"/>
+                <node begin="21" buiging="met-e" end="22" id="34" lemma="presteren" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="hd" root="presteer" word="presterende" wvorm="od"/>
+              </node>
+              <node begin="22" end="23" getal="mv" graad="basis" id="35" lemma="regio" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="regio" word="regio&apos;s"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="23" end="24" id="36" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Als het aankomt op innovatie , is Vlaanderen - behalve met octrooien - altijd terug te vinden bij de drie best presterende regio&apos;s .</sentence>
+</alpino_ds>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="6" end="7" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="10" end="11" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="16" id="4" rel="--">
+      <node begin="0" cat="np" end="2" id="5" rel="su">
+        <node begin="0" buiging="met-e" end="1" id="6" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="Deze"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="7" lemma="strijd" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="strijd" word="strijd"/>
+      </node>
+      <node begin="2" end="3" id="8" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="3" cat="conj" end="16" id="9" rel="predc">
+        <node begin="3" buiging="zonder" end="4" graad="basis" id="10" lemma="heroïsch" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="cnj" root="heroïsch" word="heroïsch"/>
+        <node begin="5" buiging="zonder" end="6" id="11" lemma="zinderen" pos="adj" positie="vrij" postag="WW(od,vrij,zonder)" pt="ww" rel="cnj" root="zinder" word="zinderend" wvorm="od"/>
+        <node begin="7" cat="pp" end="16" id="12" rel="cnj">
+          <node begin="7" end="8" id="13" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+          <node begin="8" cat="conj" end="16" id="14" rel="obj1">
+            <node begin="8" cat="np" end="10" id="15" rel="cnj">
+              <node begin="8" buiging="zonder" end="9" id="16" lemma="in_houden" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="mod" root="ingehouden" word="ingehouden" wvorm="vd"/>
+              <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="17" lemma="zenuwachtigheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="zenuwachtigheid" word="zenuwachtigheid"/>
+            </node>
+            <node begin="11" cat="np" end="13" id="18" rel="cnj">
+              <node begin="11" buiging="met-e" end="12" id="19" lemma="uit_schreeuwen" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="uitgeschreeuwd" word="uitgeschreeuwde" wvorm="vd"/>
+              <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="20" lemma="vreugde" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="vreugde" word="vreugde"/>
+            </node>
+            <node begin="13" conjtype="neven" end="14" id="21" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="14" cat="np" end="16" id="22" rel="cnj">
+              <node begin="14" buiging="zonder" end="15" id="23" lemma="uit_vloeken" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="mod" root="uitgevloekt" word="uitgevloekt" wvorm="vd"/>
+              <node begin="15" end="16" genus="onz" getal="ev" graad="basis" id="24" lemma="verdriet" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="verdriet" word="verdriet"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="25" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Deze strijd is heroïsch , zinderend , met ingehouden zenuwachtigheid , uitgeschreeuwde vreugde en uitgevloekt verdriet .</sentence>
+</alpino_ds>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" buiging="met-e" end="1" graad="basis" id="3" lemma="autochtoon" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="autochtoon" word="Autochtone"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="4" lemma="leerling" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="leerling" word="leerlingen"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="bereiken" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="bereik" word="bereiken" wvorm="pv"/>
+      <node begin="3" end="4" id="6" lemma="wel" pos="adv" postag="BW()" pt="bw" rel="mod" root="wel" word="wel"/>
+      <node begin="4" end="5" id="7" lemma="soms" pos="adv" postag="BW()" pt="bw" rel="mod" root="soms" word="soms"/>
+      <node begin="5" cat="np" end="8" id="8" rel="obj1">
+        <node begin="5" end="6" id="9" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="6" buiging="zonder" end="7" graad="comp" id="10" lemma="hoog" pos="adj" positie="prenom" postag="ADJ(prenom,comp,zonder)" pt="adj" rel="mod" root="hoog" word="hoger"/>
+        <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="11" lemma="eind_niveau" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="eindniveau" word="eindniveau"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="12" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Autochtone leerlingen bereiken wel soms een hoger eindniveau .</sentence>
+</alpino_ds>

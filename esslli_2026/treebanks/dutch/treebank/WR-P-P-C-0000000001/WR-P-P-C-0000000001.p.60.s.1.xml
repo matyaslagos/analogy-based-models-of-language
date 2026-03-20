@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="26" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="14" end="15" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="20" end="21" id="3" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="22" end="23" id="4" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="0" cat="smain" end="25" id="5" rel="--">
+      <node begin="0" cat="np" end="4" id="6" index="1" rel="su">
+        <node begin="0" end="1" id="7" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="Een"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="8" lemma="verzoek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="verzoek" word="verzoek"/>
+        <node begin="2" cat="pp" end="4" id="9" rel="mod">
+          <node begin="2" end="3" id="10" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" vztype="init" word="tot"/>
+          <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="11" lemma="plaatsing" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="plaatsing" word="plaatsing"/>
+        </node>
+      </node>
+      <node begin="4" end="5" id="12" lemma="zullen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zal" word="zal" wvorm="pv"/>
+      <node begin="0" cat="inf" end="25" id="13" rel="vc">
+        <node begin="0" end="4" id="14" index="1" rel="su"/>
+        <node begin="23" buiging="zonder" end="24" id="15" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+        <node begin="0" cat="ppart" end="25" id="16" rel="vc">
+          <node begin="0" end="4" id="17" index="1" rel="obj1"/>
+          <node begin="5" cat="pp" end="14" id="18" rel="mod">
+            <node begin="5" end="6" id="19" lemma="via" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="via" vztype="init" word="via"/>
+            <node begin="6" cat="np" end="14" id="20" rel="obj1">
+              <node begin="6" end="7" id="21" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="22" lemma="politie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="politie" word="politie"/>
+              <node begin="9" cat="rel" end="14" id="23" rel="mod">
+                <node begin="9" end="10" getal="getal" id="24" index="2" lemma="waar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(vb,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="rhd" root="waar" status="vol" vwtype="vb" word="waar"/>
+                <node begin="9" cat="ssub" end="14" id="25" rel="body">
+                  <node begin="10" cat="np" end="12" id="26" index="3" rel="su">
+                    <node begin="10" end="11" id="27" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="28" lemma="aangifte" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="aangifte" word="aangifte"/>
+                  </node>
+                  <node begin="12" end="13" id="29" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+                  <node begin="9" cat="ppart" end="14" id="30" rel="vc">
+                    <node begin="9" end="10" id="31" index="2" rel="mod"/>
+                    <node begin="10" end="12" id="32" index="3" rel="obj1"/>
+                    <node begin="13" buiging="zonder" end="14" id="33" lemma="melden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="meld" word="gemeld" wvorm="vd"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="15" cat="pp" end="22" id="34" rel="obj2">
+            <node begin="15" end="16" id="35" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+            <node begin="16" cat="np" end="22" id="36" rel="obj1">
+              <node begin="16" end="17" id="37" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="17" cat="mwu" end="20" id="38" rel="hd">
+                <node begin="17" end="18" id="39" lemma="Korps" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Korps" spectype="deeleigen" word="Korps"/>
+                <node begin="18" end="19" id="40" lemma="landelijke" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="landelijke" spectype="deeleigen" word="landelijke"/>
+                <node begin="19" end="20" id="41" lemma="politiediensten" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="politiediensten" spectype="deeleigen" word="politiediensten"/>
+              </node>
+              <node begin="21" end="22" genus="onz" getal="ev" graad="basis" id="42" lemma="KLPD" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="mod" root="KLPD" word="KLPD"/>
+            </node>
+          </node>
+          <node begin="24" buiging="zonder" end="25" id="43" lemma="doen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="doe" word="gedaan" wvorm="vd"/>
+        </node>
+      </node>
+    </node>
+    <node begin="25" end="26" id="44" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Een verzoek tot plaatsing zal via de politie , waar de aangifte is gemeld , aan het Korps landelijke politiediensten ( KLPD ) worden gedaan .</sentence>
+</alpino_ds>

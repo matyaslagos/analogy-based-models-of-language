@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="smain" end="13" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="4" lemma="vliegtuig" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="vliegtuig" word="vliegtuig"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="escorteren" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="escorteer" word="escorteerde" wvorm="pv"/>
+      <node begin="3" cat="np" end="13" id="6" rel="obj1">
+        <node begin="3" end="4" id="7" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="8" lemma="aantal" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="aantal" word="aantal"/>
+        <node begin="5" cat="np" end="13" id="9" rel="mod">
+          <node begin="5" cat="mwu" end="7" id="10" rel="hd">
+            <node begin="5" end="6" id="11" lemma="B-17" pos="noun" postag="SPEC(symb)" pt="spec" rel="mwp" root="B_17" spectype="symb" word="B-17"/>
+            <node begin="6" end="7" getal="mv" graad="basis" id="12" lemma="bommenwerper" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mwp" root="bommenwerper" word="bommenwerpers"/>
+          </node>
+          <node begin="7" cat="rel" end="13" id="13" rel="mod">
+            <node begin="7" end="8" getal="getal" id="14" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+            <node begin="7" cat="ssub" end="13" id="15" rel="body">
+              <node begin="7" end="8" id="16" index="1" rel="su"/>
+              <node begin="11" end="12" id="17" lemma="gaan" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="ga" word="gingen" wvorm="pv"/>
+              <node begin="7" cat="inf" end="13" id="18" rel="vc">
+                <node begin="7" end="8" id="19" index="1" rel="su"/>
+                <node begin="8" cat="np" end="11" id="20" rel="obj1">
+                  <node begin="8" end="9" id="21" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                  <node begin="9" buiging="met-e" end="10" graad="basis" id="22" lemma="Duits" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Duits" word="Duitse"/>
+                  <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="23" lemma="Regensburg" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Regensburg" word="Regensburg"/>
+                </node>
+                <node begin="12" buiging="zonder" end="13" id="24" lemma="bombarderen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="bombardeer" word="bombarderen" wvorm="inf"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="25" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het vliegtuig escorteerde een aantal B-17 bommenwerpers die het Duitse Regensburg gingen bombarderen .</sentence>
+</alpino_ds>

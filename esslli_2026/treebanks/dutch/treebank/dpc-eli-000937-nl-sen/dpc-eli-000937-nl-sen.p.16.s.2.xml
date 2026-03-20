@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="16" id="2" rel="--">
+      <node begin="3" end="4" id="3" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" word="kan" wvorm="pv"/>
+      <node begin="7" cat="np" end="14" id="4" index="1" rel="su">
+        <node begin="7" end="8" id="5" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="6" lemma="injectie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="injectie" word="injectie"/>
+        <node begin="9" cat="pp" end="14" id="7" rel="mod">
+          <node begin="9" end="10" id="8" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="10" cat="np" end="14" id="9" rel="obj1">
+            <node begin="10" cat="conj" end="13" id="10" rel="det">
+              <node begin="10" end="11" id="11" lemma="5" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="cnj" root="5" word="5"/>
+              <node begin="11" conjtype="neven" end="12" id="12" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+              <node begin="12" end="13" id="13" lemma="10" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="cnj" root="10" word="10"/>
+            </node>
+            <node begin="13" end="14" id="14" lemma="mg" pos="noun" postag="SPEC(symb)" pt="spec" rel="hd" root="milli_gram" spectype="symb" word="mg"/>
+          </node>
+        </node>
+      </node>
+      <node begin="0" cat="inf" end="16" id="15" rel="vc">
+        <node begin="7" end="14" id="16" index="1" rel="su"/>
+        <node begin="14" buiging="zonder" end="15" id="17" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+        <node begin="0" cat="ppart" end="16" id="18" rel="vc">
+          <node begin="0" cat="cp" end="2" id="19" rel="mod">
+            <node begin="0" conjtype="onder" end="1" id="20" lemma="indien" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="indien" word="Indien"/>
+            <node begin="1" buiging="zonder" end="2" graad="basis" id="21" lemma="nodig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="body" root="nodig" word="nodig"/>
+          </node>
+          <node begin="4" cat="ap" end="7" id="22" rel="mod">
+            <node begin="4" cat="np" end="6" id="23" rel="me">
+              <node begin="4" end="5" id="24" lemma="twee" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="twee" word="twee"/>
+              <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="25" lemma="uur" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="uur" word="uur"/>
+            </node>
+            <node begin="6" buiging="zonder" end="7" graad="comp" id="26" lemma="laat" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="laat" word="later"/>
+          </node>
+          <node begin="7" end="14" id="27" index="1" rel="obj1"/>
+          <node begin="15" buiging="zonder" end="16" id="28" lemma="toe_dienen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="dien_toe" word="toegediend" wvorm="vd"/>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="29" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Indien nodig , kan twee uur later een injectie van 5 of 10 mg worden toegediend .</sentence>
+</alpino_ds>

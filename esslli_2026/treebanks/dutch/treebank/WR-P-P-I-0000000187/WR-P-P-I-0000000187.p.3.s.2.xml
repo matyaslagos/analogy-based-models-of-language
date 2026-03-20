@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="8" end="9" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="12" end="13" id="3" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="0" cat="smain" end="17" id="4" rel="--">
+      <node begin="0" cat="np" end="8" id="5" rel="su">
+        <node begin="0" end="1" id="6" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" buiging="met-e" end="2" graad="basis" id="7" lemma="Europees" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Europees" word="Europese"/>
+        <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="8" lemma="commissaris" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="commissaris" word="commissaris"/>
+        <node begin="3" cat="pp" end="5" id="9" rel="mod">
+          <node begin="3" end="4" id="10" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="4" end="5" getal="mv" graad="basis" id="11" lemma="milieu_zaak" ntype="soort" pos="name" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="Milieuzaken" word="Milieuzaken"/>
+        </node>
+        <node begin="6" cat="mwu" end="8" id="12" rel="app">
+          <node begin="6" end="7" id="13" lemma="Margot" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Margot" spectype="deeleigen" word="Margot"/>
+          <node begin="7" end="8" id="14" lemma="Wallström" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Wallström" spectype="deeleigen" word="Wallström"/>
+        </node>
+      </node>
+      <node begin="9" end="10" id="15" lemma="noemen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="noem" word="noemt" wvorm="pv"/>
+      <node begin="10" cat="np" end="12" id="16" rel="obj1">
+        <node begin="10" end="11" id="17" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+        <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="18" lemma="plan" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="plan" word="plan"/>
+      </node>
+      <node begin="13" cat="mwu" end="17" id="19" rel="predc">
+        <node begin="13" buiging="zonder" end="14" id="20" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="name" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="mwp" root="geen" vwtype="onbep" word="geen"/>
+        <node begin="14" end="15" genus="onz" getal="ev" graad="basis" id="21" lemma="alternatief" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="alternatief" word="alternatief"/>
+        <node begin="15" end="16" id="22" lemma="voor" pos="name" postag="VZ(init)" pt="vz" rel="mwp" root="voor" vztype="init" word="voor"/>
+        <node begin="16" end="17" genus="onz" getal="ev" graad="basis" id="23" lemma="Kyoto" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="mwp" root="Kyoto" word="Kyoto"/>
+      </node>
+    </node>
+    <node begin="17" end="18" id="24" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="18" end="19" id="25" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De Europese commissaris voor Milieuzaken , Margot Wallström , noemt het plan &apos; geen alternatief voor Kyoto &apos; .</sentence>
+</alpino_ds>

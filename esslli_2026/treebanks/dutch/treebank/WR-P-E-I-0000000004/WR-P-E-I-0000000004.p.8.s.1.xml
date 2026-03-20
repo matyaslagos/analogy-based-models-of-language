@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="*" pos="tag" postag="LET()" pt="let" rel="--" root="*" word="*"/>
+    <node begin="2" end="3" id="2" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="6" end="7" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="8" end="9" id="4" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="1" cat="du" end="10" id="5" rel="--">
+      <node begin="1" cat="conj" end="4" id="6" rel="dp">
+        <node begin="1" end="2" id="7" lemma="1928" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="cnj" root="1928" word="1928"/>
+        <node begin="3" end="4" id="8" lemma="1930" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="cnj" root="1930" word="1930"/>
+      </node>
+      <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="9" lemma="Rotterdam" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="dp" root="Rotterdam" word="Rotterdam"/>
+      <node begin="4" cat="np" end="10" id="10" rel="dp">
+        <node begin="4" cat="mwu" end="6" id="11" rel="hd">
+          <node begin="4" end="5" id="12" lemma="St." pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="St." spectype="deeleigen" word="St."/>
+          <node begin="5" end="6" id="13" lemma="Antoniuskerk" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Antoniuskerk" spectype="deeleigen" word="Antoniuskerk"/>
+        </node>
+        <node begin="9" buiging="zonder" end="10" id="14" lemma="slopen" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="mod" root="gesloopt" word="gesloopt" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="10" end="11" id="15" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+  </node>
+  <sentence>* 1928 - 1930 St. Antoniuskerk , Rotterdam ( gesloopt )</sentence>
+</alpino_ds>

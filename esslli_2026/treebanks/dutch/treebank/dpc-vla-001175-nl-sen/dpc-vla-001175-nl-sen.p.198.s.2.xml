@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="smain" end="10" id="1" rel="--">
+      <node begin="0" cat="pp" end="4" id="2" rel="mod">
+        <node begin="0" end="1" id="3" lemma="naast" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naast" vztype="init" word="Naast"/>
+        <node begin="1" cat="np" end="4" id="4" rel="obj1">
+          <node begin="1" end="2" id="5" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="2" buiging="zonder" end="3" graad="basis" id="6" lemma="medisch" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="medisch" word="medisch"/>
+          <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="7" lemma="onderzoek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="onderzoek" word="onderzoek"/>
+        </node>
+      </node>
+      <node begin="4" end="5" id="8" lemma="doen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="doe" word="doet" wvorm="pv"/>
+      <node begin="5" cat="np" end="7" id="9" rel="su">
+        <node begin="5" end="6" id="10" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+        <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="11" lemma="CLB" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="CLB" word="CLB"/>
+      </node>
+      <node begin="7" cat="pp" end="10" id="12" rel="pc">
+        <node begin="7" end="8" id="13" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+        <node begin="8" cat="np" end="10" id="14" rel="obj1">
+          <node begin="8" buiging="met-e" end="9" graad="basis" id="15" lemma="preventief" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="preventief" word="preventieve"/>
+          <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="16" lemma="jeugd_gezondheid_zorg" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="jeugdgezondheidszorg" word="jeugdgezondheidszorg"/>
+        </node>
+      </node>
+    </node>
+    <node begin="10" end="11" id="17" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Naast het medisch onderzoek doet het CLB aan preventieve jeugdgezondheidszorg .</sentence>
+</alpino_ds>

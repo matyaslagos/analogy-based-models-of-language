@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="10" end="11" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="15" end="16" id="2" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="smain" end="18" id="3" rel="--">
+      <node begin="2" end="3" id="4" lemma="kunnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kan" word="kunnen" wvorm="pv"/>
+      <node begin="3" cat="np" end="5" id="5" index="1" rel="su">
+        <node begin="3" end="4" id="6" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="4" end="5" getal="mv" graad="basis" id="7" lemma="Brusselaar" ntype="eigen" pos="noun" postag="N(eigen,mv,basis)" pt="n" rel="hd" root="Brusselaar" word="Brusselaars"/>
+      </node>
+      <node begin="0" cat="inf" end="18" id="8" rel="vc">
+        <node begin="0" cat="pp" end="2" id="9" rel="mod">
+          <node begin="0" end="1" id="10" lemma="sinds" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="sinds" vztype="init" word="Sinds"/>
+          <node begin="1" end="2" id="11" lemma="1989" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" root="1989" word="1989"/>
+        </node>
+        <node begin="3" end="5" id="12" index="1" rel="su"/>
+        <node begin="9" buiging="zonder" end="10" id="13" lemma="kiezen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="kies" word="kiezen" wvorm="inf"/>
+        <node begin="5" cat="np" end="18" id="14" rel="obj1">
+          <node begin="5" buiging="zonder" end="6" getal="mv" id="15" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+          <node begin="6" buiging="zonder" end="7" graad="basis" id="16" lemma="eigen" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="eigen" word="eigen"/>
+          <node begin="7" buiging="met-e" end="8" graad="basis" id="17" lemma="gewestelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="gewestelijk" word="gewestelijke"/>
+          <node begin="8" end="9" getal="mv" graad="basis" id="18" lemma="vertegenwoordiger" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vertegenwoordiger" word="vertegenwoordigers"/>
+          <node begin="11" cat="np" end="18" id="19" rel="app">
+            <node begin="11" end="12" id="20" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="12" cat="mwu" end="15" id="21" rel="hd">
+              <node begin="12" end="13" id="22" lemma="Brusselse" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Brusselse" spectype="deeleigen" word="Brusselse"/>
+              <node begin="13" end="14" id="23" lemma="Hoofdstedelijke" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Hoofdstedelijke" spectype="deeleigen" word="Hoofdstedelijke"/>
+              <node begin="14" end="15" id="24" lemma="Raad" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Raad" spectype="deeleigen" word="Raad"/>
+            </node>
+            <node begin="16" cat="mwu" end="18" id="25" rel="mod">
+              <node begin="16" end="17" id="26" lemma="Brussels" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Brussels" spectype="deeleigen" word="Brussels"/>
+              <node begin="17" end="18" id="27" lemma="Parlement" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Parlement" spectype="deeleigen" word="Parlement"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="28" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="19" end="20" id="29" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Sinds 1989 kunnen de Brusselaars hun eigen gewestelijke vertegenwoordigers kiezen : de Brusselse Hoofdstedelijke Raad ( Brussels Parlement ) .</sentence>
+</alpino_ds>

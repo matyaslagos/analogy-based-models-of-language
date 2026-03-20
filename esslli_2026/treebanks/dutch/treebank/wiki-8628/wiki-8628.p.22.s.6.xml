@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="27" id="0" rel="top">
+    <node begin="10" end="11" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="12" end="13" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="14" end="15" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="17" end="18" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="20" end="21" id="5" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="21" end="22" id="6" lemma="..." pos="punct" postag="LET()" pt="let" rel="--" root="..." word="..."/>
+    <node begin="22" end="23" id="7" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="0" cat="smain" end="26" id="8" rel="--">
+      <node begin="0" cat="pp" end="7" id="9" rel="mod">
+        <node begin="0" end="1" id="10" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" vztype="init" word="Tegen"/>
+        <node begin="1" cat="np" end="7" id="11" rel="obj1">
+          <node begin="1" end="2" id="12" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="13" lemma="einde" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="einde" word="einde"/>
+          <node begin="3" cat="pp" end="7" id="14" rel="mod">
+            <node begin="3" end="4" id="15" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="4" cat="np" end="7" id="16" rel="obj1">
+              <node begin="4" end="5" id="17" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="5" end="6" id="18" lemma="20" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="20e" word="20e"/>
+              <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="19" lemma="eeuw" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="eeuw" word="eeuw"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="7" end="8" id="20" lemma="winnen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="win" word="wonnen" wvorm="pv"/>
+      <node begin="8" cat="np" end="20" id="21" rel="su">
+        <node begin="8" end="9" id="22" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="9" end="10" getal="mv" graad="basis" id="23" lemma="speciaal_bier" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="speciaalbier" word="speciaalbieren"/>
+        <node begin="11" cat="conj" end="20" id="24" rel="mod">
+          <node begin="11" end="12" getal="mv" graad="basis" id="25" lemma="wit_bier" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="witbier" word="witbieren"/>
+          <node begin="13" end="14" getal="mv" graad="basis" id="26" lemma="abdij_bier" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="abdijbier" word="abdijbieren"/>
+          <node begin="15" cat="np" end="17" id="27" rel="cnj">
+            <node begin="15" buiging="met-e" end="16" graad="basis" id="28" lemma="spontaan" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="spontaan" word="spontane"/>
+            <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="29" lemma="gisting" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="gisting" word="gisting"/>
+          </node>
+          <node begin="18" cat="np" end="20" id="30" rel="cnj">
+            <node begin="18" buiging="met-e" end="19" graad="basis" id="31" lemma="hoog" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="hoog" word="hoge"/>
+            <node begin="19" end="20" genus="zijd" getal="ev" graad="basis" id="32" lemma="gisting" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="gisting" word="gisting"/>
+          </node>
+        </node>
+      </node>
+      <node begin="23" end="24" id="33" lemma="opnieuw" pos="adv" postag="BW()" pt="bw" rel="mod" root="opnieuw" word="opnieuw"/>
+      <node begin="24" cat="pp" end="26" id="34" rel="pc">
+        <node begin="24" end="25" id="35" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+        <node begin="25" end="26" genus="zijd" getal="ev" graad="basis" id="36" lemma="populariteit" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="populariteit" word="populariteit"/>
+      </node>
+    </node>
+    <node begin="26" end="27" id="37" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Tegen het einde van de 20e eeuw wonnen de speciaalbieren ( witbieren , abdijbieren , spontane gisting , hoge gisting , ... ) opnieuw aan populariteit .</sentence>
+</alpino_ds>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+    <node begin="0" cat="du" end="16" id="2" rel="--">
+      <node begin="0" end="1" id="3" lemma="4" numtype="hoofd" pos="tag" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="tag" root="4" word="4"/>
+      <node begin="2" cat="smain" end="16" id="4" rel="nucl">
+        <node begin="2" cat="np" end="5" id="5" rel="su">
+          <node begin="2" end="3" id="6" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+          <node begin="3" buiging="met-e" end="4" graad="basis" id="7" lemma="analoog" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="analoog" word="analoge"/>
+          <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="8" lemma="video_camera" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="video_camera" word="videocamera"/>
+        </node>
+        <node begin="5" end="6" id="9" lemma="zorgen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="zorg" word="zorgt" wvorm="pv"/>
+        <node begin="6" cat="pp" end="16" id="10" rel="pc">
+          <node begin="6" end="7" id="11" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="7" cat="np" end="16" id="12" rel="obj1">
+            <node begin="7" end="8" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="14" lemma="opname" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="opname" word="opname"/>
+            <node begin="9" cat="pp" end="16" id="15" rel="mod">
+              <node begin="9" end="10" id="16" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="10" cat="conj" end="16" id="17" rel="obj1">
+                <node begin="10" cat="np" end="14" id="18" rel="cnj">
+                  <node begin="10" buiging="met-e" end="11" id="19" index="1" lemma="al" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,agr)" pt="vnw" rel="det" root="alle" vwtype="onbep" word="alle"/>
+                  <node begin="11" cat="ap" end="13" id="20" index="2" rel="mod">
+                    <node begin="11" buiging="zonder" end="12" graad="basis" id="21" lemma="visueel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="visueel" word="visueel"/>
+                    <node begin="12" buiging="met-e" end="13" graad="basis" id="22" lemma="waarneembaar" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="hd" root="waarneembaar" word="waarneembare"/>
+                  </node>
+                  <node begin="13" end="14" getal="mv" graad="basis" id="23" lemma="verschijnsel" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="verschijnsel" word="verschijnselen"/>
+                </node>
+                <node begin="14" conjtype="neven" end="15" id="24" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                <node begin="10" cat="np" end="16" id="25" rel="cnj">
+                  <node begin="10" end="11" id="26" index="1" rel="det"/>
+                  <node begin="11" end="13" id="27" index="2" rel="mod"/>
+                  <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="28" lemma="zee_verontreiniging" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="zee_verontreiniging" word="zeeverontreiniging"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="29" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>4 . De analoge videocamera zorgt voor de opname van alle visueel waarneembare verschijnselen en zeeverontreiniging .</sentence>
+</alpino_ds>

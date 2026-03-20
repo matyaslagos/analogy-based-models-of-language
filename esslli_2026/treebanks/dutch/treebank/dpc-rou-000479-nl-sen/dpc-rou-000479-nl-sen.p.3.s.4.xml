@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="0" cat="smain" end="19" id="1" rel="--">
+      <node begin="0" end="1" id="2" lemma="zo" pos="adv" postag="BW()" pt="bw" rel="mod" root="zo" word="Zo"/>
+      <node begin="1" end="2" id="3" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+      <node begin="2" end="3" genus="onz" getal="ev" id="4" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="noun" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="sup" root="het" status="red" vwtype="pers" word="het"/>
+      <node begin="3" buiging="zonder" end="4" graad="basis" id="5" lemma="mogelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="mogelijk" word="mogelijk"/>
+      <node begin="4" cat="oti" end="19" id="6" rel="su">
+        <node begin="4" end="5" id="7" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="om"/>
+        <node begin="5" cat="conj" end="19" id="8" rel="body">
+          <node begin="5" cat="ti" end="11" id="9" rel="cnj">
+            <node begin="9" end="10" id="10" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+            <node begin="5" cat="inf" end="11" id="11" rel="body">
+              <node begin="5" cat="pp" end="8" id="12" rel="mod">
+                <node begin="5" end="6" id="13" lemma="via" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="via" vztype="init" word="via"/>
+                <node begin="6" cat="np" end="8" id="14" rel="obj1">
+                  <node begin="6" end="7" id="15" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="16" lemma="gsm" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="gsm" word="gsm"/>
+                </node>
+              </node>
+              <node begin="8" end="9" getal="mv" graad="dim" id="17" lemma="bioscoop_kaart" ntype="soort" pos="noun" postag="N(soort,mv,dim)" pt="n" rel="obj1" root="bioscoop_kaart_DIM" word="bioscoopkaartjes"/>
+              <node begin="10" buiging="zonder" end="11" id="18" lemma="kopen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="koop" word="kopen" wvorm="inf"/>
+            </node>
+          </node>
+          <node begin="11" conjtype="neven" end="12" id="19" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+          <node begin="12" cat="ti" end="19" id="20" rel="cnj">
+            <node begin="17" end="18" id="21" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+            <node begin="12" cat="inf" end="19" id="22" rel="body">
+              <node begin="12" cat="np" end="17" id="23" rel="obj1">
+                <node begin="12" end="13" id="24" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="25" lemma="parkeer_plaats" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="parkeer_plaats" word="parkeerplaats"/>
+                <node begin="14" cat="pp" end="17" id="26" rel="mod">
+                  <node begin="14" end="15" id="27" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                  <node begin="15" cat="np" end="17" id="28" rel="obj1">
+                    <node begin="15" end="16" id="29" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="30" lemma="stad" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="stad" word="stad"/>
+                  </node>
+                </node>
+              </node>
+              <node begin="18" buiging="zonder" end="19" id="31" lemma="reserveren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="reserveer" word="reserveren" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="32" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Zo wordt het mogelijk om via de gsm bioscoopkaartjes te kopen of een parkeerplaats in de stad te reserveren .</sentence>
+</alpino_ds>

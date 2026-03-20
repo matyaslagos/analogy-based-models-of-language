@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="smain" end="13" id="1" rel="--">
+      <node begin="0" cat="np" end="8" id="2" index="1" rel="su">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" buiging="met-e" end="2" graad="basis" id="4" lemma="humanitair" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="humanitair" word="humanitaire"/>
+        <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="5" lemma="situatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="situatie" word="situatie"/>
+        <node begin="3" cat="pp" end="8" id="6" rel="mod">
+          <node begin="3" end="4" id="7" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="4" cat="np" end="8" id="8" rel="obj1">
+            <node begin="4" end="5" id="9" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="5" buiging="met-e" end="6" graad="basis" id="10" lemma="Sudanees" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Sudanees" word="Sudanese"/>
+            <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="11" lemma="regio" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="regio" word="regio"/>
+            <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="12" lemma="Darfur" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="app" root="Darfur" word="Darfur"/>
+          </node>
+        </node>
+      </node>
+      <node begin="8" end="9" id="13" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="13" id="14" rel="vc">
+        <node begin="0" end="8" id="15" index="1" rel="obj1"/>
+        <node begin="9" buiging="zonder" end="10" id="16" lemma="bedreigen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="bedreig" word="bedreigd" wvorm="vd"/>
+        <node begin="10" cat="pp" end="13" id="17" rel="mod">
+          <node begin="10" end="11" id="18" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+          <node begin="11" cat="np" end="13" id="19" rel="obj1">
+            <node begin="11" buiging="met-e" end="12" graad="basis" id="20" lemma="hevig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="hevig" word="hevige"/>
+            <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="21" lemma="regen_val" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="regen_val" word="regenval"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De humanitaire situatie in de Sudanese regio Darfur wordt bedreigd door hevige regenval .</sentence>
+</alpino_ds>

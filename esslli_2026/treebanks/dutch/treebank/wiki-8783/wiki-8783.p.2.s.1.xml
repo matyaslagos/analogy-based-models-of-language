@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="46" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="4" end="5" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="8" end="9" id="3" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="15" end="16" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="31" end="32" id="5" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="35" end="36" id="6" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="37" end="38" id="7" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="40" end="41" id="8" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="42" end="43" id="9" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="0" cat="smain" end="45" id="10" rel="--">
+      <node begin="0" cat="np" end="8" id="11" rel="su">
+        <node begin="0" cat="mwu" end="2" id="12" rel="hd">
+          <node begin="0" end="1" id="13" lemma="Gaston" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Gaston" spectype="deeleigen" word="Gaston"/>
+          <node begin="1" end="2" id="14" lemma="Roelants" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Roelant" spectype="deeleigen" word="Roelants"/>
+        </node>
+        <node begin="3" cat="du" end="8" id="15" rel="mod">
+          <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="16" lemma="Opvelp" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="dp" root="Opvelp" word="Opvelp"/>
+          <node begin="5" cat="mwu" end="8" id="17" rel="dp">
+            <node begin="5" end="6" id="18" lemma="5" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="5" word="5"/>
+            <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="19" lemma="februari" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="februari" word="februari"/>
+            <node begin="7" end="8" id="20" lemma="1937" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="1937" word="1937"/>
+          </node>
+        </node>
+      </node>
+      <node begin="9" end="10" id="21" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="10" cat="np" end="45" id="22" rel="predc">
+        <node begin="10" end="11" id="23" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="11" buiging="zonder" end="12" graad="basis" id="24" lemma="voormalig" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="voormalig" word="voormalig"/>
+        <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="25" lemma="atleet" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="atleet" word="atleet"/>
+        <node begin="13" cat="pp" end="15" id="26" rel="mod">
+          <node begin="13" end="14" id="27" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" vztype="init" word="uit"/>
+          <node begin="14" end="15" genus="onz" getal="ev" graad="basis" id="28" lemma="België" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="België" word="België"/>
+        </node>
+        <node begin="16" cat="conj" end="45" id="29" rel="mod">
+          <node begin="16" cat="rel" end="31" id="30" rel="cnj">
+            <node begin="16" end="17" getal="getal" id="31" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+            <node begin="16" cat="ssub" end="31" id="32" rel="body">
+              <node begin="16" end="17" id="33" index="1" rel="su"/>
+              <node begin="18" end="19" id="34" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+              <node begin="17" cat="np" end="31" id="35" rel="predc">
+                <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="36" lemma="wereld_record_houder" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="wereldrecordhouder" word="wereldrecordhouder"/>
+                <node begin="19" cat="pp" end="24" id="37" rel="mod">
+                  <node begin="19" end="20" id="38" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+                  <node begin="20" cat="np" end="24" id="39" rel="obj1">
+                    <node begin="20" end="21" id="40" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="21" end="22" id="41" lemma="3000" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="3000" word="3000"/>
+                    <node begin="22" end="23" id="42" lemma="m" pos="noun" postag="SPEC(symb)" pt="spec" rel="hd" root="meter" spectype="symb" word="m"/>
+                    <node begin="23" end="24" genus="zijd" getal="ev" graad="basis" id="43" lemma="steeplechase" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mod" root="steeplechase" word="steeplechase"/>
+                  </node>
+                </node>
+                <node begin="24" cat="pp" end="31" id="44" rel="mod">
+                  <node begin="24" end="25" id="45" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                  <node begin="25" cat="np" end="31" id="46" rel="obj1">
+                    <node begin="25" end="26" id="47" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                    <node begin="26" end="27" genus="onz" getal="ev" graad="basis" id="48" lemma="begin" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="begin" word="begin"/>
+                    <node begin="27" cat="pp" end="31" id="49" rel="mod">
+                      <node begin="27" end="28" id="50" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                      <node begin="28" cat="np" end="31" id="51" rel="obj1">
+                        <node begin="28" end="29" id="52" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                        <node begin="29" end="30" getal="mv" graad="basis" id="53" lemma="jaar" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="jaar" word="jaren"/>
+                        <node begin="30" end="31" id="54" lemma="zestig" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="app" root="zestig" word="zestig"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="32" conjtype="neven" end="33" id="55" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="33" cat="rel" end="45" id="56" rel="cnj">
+            <node begin="33" end="34" getal="getal" id="57" index="2" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+            <node begin="33" cat="ssub" end="45" id="58" rel="body">
+              <node begin="33" end="34" id="59" index="2" rel="su"/>
+              <node begin="34" cat="conj" end="44" id="60" rel="obj1">
+                <node begin="38" conjtype="neven" end="39" id="61" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                <node begin="34" cat="np" end="44" id="62" rel="cnj">
+                  <node begin="34" buiging="met-e" end="35" graad="basis" id="63" lemma="Europees" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Europees" word="Europese"/>
+                  <node begin="36" end="37" id="64" lemma="1962" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mod" root="1962" word="1962"/>
+                  <node begin="43" end="44" getal="mv" graad="basis" id="65" index="3" lemma="titel" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="titel" word="titels"/>
+                </node>
+                <node begin="39" cat="np" end="44" id="66" rel="cnj">
+                  <node begin="39" buiging="met-e" end="40" graad="basis" id="67" lemma="Olympisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="olympisch" word="Olympische"/>
+                  <node begin="41" end="42" id="68" lemma="1964" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mod" root="1964" word="1964"/>
+                  <node begin="43" end="44" id="69" index="3" rel="hd"/>
+                </node>
+              </node>
+              <node begin="44" end="45" id="70" lemma="winnen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="win" word="won" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="45" end="46" id="71" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Gaston Roelants ( Opvelp , 5 februari 1937 ) is een voormalig atleet uit België , die wereldrecordhouder was op de 3000 m steeplechase in het begin van de jaren zestig , en die Europese ( 1962 ) en Olympische ( 1964 ) titels won .</sentence>
+</alpino_ds>

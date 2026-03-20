@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="smain" end="12" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="mod">
+        <node begin="0" buiging="met-e" end="1" graad="basis" id="3" lemma="vorig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="vorig" word="Vorige"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="4" lemma="maand" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="maand" word="maand"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="arresteren" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="arresteer" word="arresteerde" wvorm="pv"/>
+      <node begin="3" cat="np" end="6" id="6" rel="su">
+        <node begin="3" end="4" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="4" buiging="met-e" end="5" graad="basis" id="8" lemma="Pakistaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Pakistaans" word="Pakistaanse"/>
+        <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="9" lemma="politie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="politie" word="politie"/>
+      </node>
+      <node begin="6" cat="np" end="12" id="10" rel="obj1">
+        <node begin="6" end="7" id="11" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="7" buiging="met-e" end="8" graad="basis" id="12" lemma="25_jarig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="25-jarige" word="25-jarige"/>
+        <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="13" lemma="computer_specialist" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="computer_specialist" word="computer-specialist"/>
+        <node begin="9" cat="mwu" end="12" id="14" rel="app">
+          <node begin="9" end="10" id="15" lemma="Muhammed" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Muhammed" spectype="deeleigen" word="Muhammed"/>
+          <node begin="10" end="11" id="16" lemma="Noor" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Noor" spectype="deeleigen" word="Noor"/>
+          <node begin="11" end="12" id="17" lemma="Khan" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Khan" spectype="deeleigen" word="Khan"/>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" id="18" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Vorige maand arresteerde de Pakistaanse politie de 25-jarige computer-specialist Muhammed Noor Khan .</sentence>
+</alpino_ds>

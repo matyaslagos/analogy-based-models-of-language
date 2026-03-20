@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="26" id="0" rel="top">
+    <node begin="11" end="12" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="13" end="14" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="0" cat="smain" end="25" id="3" rel="--">
+      <node begin="0" cat="mwu" end="2" id="4" index="1" rel="su">
+        <node begin="0" end="1" id="5" lemma="ZYPREXA" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="ZYPREXA" spectype="deeleigen" word="ZYPREXA"/>
+        <node begin="1" end="2" id="6" lemma="VELOTAB" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="VELOTAB" spectype="deeleigen" word="VELOTAB"/>
+      </node>
+      <node begin="2" end="3" id="7" lemma="mogen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="mag" word="mag" wvorm="pv"/>
+      <node begin="0" cat="inf" end="25" id="8" rel="vc">
+        <node begin="0" end="2" id="9" index="1" rel="su"/>
+        <node begin="4" buiging="zonder" end="5" id="10" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+        <node begin="0" cat="ppart" end="25" id="11" rel="vc">
+          <node begin="0" end="2" id="12" index="1" rel="obj1"/>
+          <node begin="3" end="4" id="13" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+          <node begin="5" buiging="zonder" end="6" id="14" lemma="gebruiken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="gebruik" word="gebruikt" wvorm="vd"/>
+          <node begin="6" cat="pp" end="25" id="15" rel="mod">
+            <node begin="6" end="7" id="16" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+            <node begin="7" cat="np" end="25" id="17" rel="obj1">
+              <node begin="7" end="8" getal="mv" graad="basis" id="18" lemma="mens" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="mens" word="mensen"/>
+              <node begin="8" cat="rel" end="25" id="19" rel="mod">
+                <node begin="8" end="9" getal="getal" id="20" index="2" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+                <node begin="8" cat="ssub" end="25" id="21" rel="body">
+                  <node begin="8" end="9" id="22" index="2" rel="su"/>
+                  <node begin="9" buiging="zonder" end="10" graad="basis" id="23" lemma="mogelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="mogelijk" word="mogelijk"/>
+                  <node begin="14" end="15" id="24" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+                  <node begin="10" cat="ap" end="25" id="25" rel="predc">
+                    <node begin="10" buiging="zonder" end="11" graad="basis" id="26" lemma="overgevoelig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="overgevoelig" word="overgevoelig"/>
+                    <node begin="12" buiging="zonder" end="13" graad="basis" id="27" lemma="allergisch" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="allergisch" word="allergisch"/>
+                    <node begin="15" cat="conj" end="25" id="28" rel="pc">
+                      <node begin="15" cat="pp" end="17" id="29" rel="cnj">
+                        <node begin="15" end="16" id="30" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+                        <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="31" lemma="olanzapine" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="olanzapine" word="olanzapine"/>
+                      </node>
+                      <node begin="17" conjtype="neven" end="18" id="32" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+                      <node begin="18" cat="pp" end="25" id="33" rel="cnj">
+                        <node begin="18" end="19" id="34" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+                        <node begin="19" cat="np" end="25" id="35" rel="obj1">
+                          <node begin="19" buiging="zonder" end="20" id="36" lemma="enig" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="enig" vwtype="onbep" word="enig"/>
+                          <node begin="20" buiging="zonder" end="21" graad="basis" id="37" lemma="ander" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="ander" word="ander"/>
+                          <node begin="21" end="22" genus="onz" getal="ev" graad="basis" id="38" lemma="bestanddeel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="bestanddeel" word="bestanddeel"/>
+                          <node begin="22" cat="pp" end="25" id="39" rel="mod">
+                            <node begin="22" end="23" id="40" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                            <node begin="23" cat="np" end="25" id="41" rel="obj1">
+                              <node begin="23" end="24" id="42" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                              <node begin="24" end="25" genus="onz" getal="ev" graad="basis" id="43" lemma="middel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="middel" word="middel"/>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="25" end="26" id="44" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>ZYPREXA VELOTAB mag niet worden gebruikt bij mensen die mogelijk overgevoelig ( allergisch ) zijn voor olanzapine of voor enig ander bestanddeel van het middel .</sentence>
+</alpino_ds>

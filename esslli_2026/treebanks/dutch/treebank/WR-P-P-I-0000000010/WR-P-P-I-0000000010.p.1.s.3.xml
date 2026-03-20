@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="smain" end="12" id="1" rel="--">
+      <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="2" lemma="koolstofdioxide" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="su" root="Koolstofdioxide" word="Koolstofdioxide"/>
+      <node begin="1" end="2" id="3" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="2" cat="np" end="12" id="4" rel="predc">
+        <node begin="2" end="3" id="5" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="3" buiging="zonder" end="4" graad="basis" id="6" lemma="essentieel" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="essentieel" word="essentieel"/>
+        <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="7" lemma="element" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="element" word="element"/>
+        <node begin="5" cat="pp" end="8" id="8" rel="mod">
+          <node begin="5" end="6" id="9" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" vztype="init" word="uit"/>
+          <node begin="6" cat="np" end="8" id="10" rel="obj1">
+            <node begin="6" end="7" id="11" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="12" lemma="foto_synthese" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="foto_synthese" word="fotosynthese"/>
+          </node>
+        </node>
+        <node begin="8" cat="rel" end="12" id="13" rel="mod">
+          <node begin="8" end="9" id="14" index="1" lemma="waarmee" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waarmee" word="waarmee"/>
+          <node begin="8" cat="ssub" end="12" id="15" rel="body">
+            <node begin="8" end="9" id="16" index="1" rel="mod"/>
+            <node begin="9" end="10" getal="mv" graad="basis" id="17" lemma="plant" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="plant" word="planten"/>
+            <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="18" lemma="energie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="energie" word="energie"/>
+            <node begin="11" end="12" id="19" lemma="op_doen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="doe_op" word="opdoen" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" id="20" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Koolstofdioxide is een essentieel element uit de fotosynthese waarmee planten energie opdoen .</sentence>
+</alpino_ds>

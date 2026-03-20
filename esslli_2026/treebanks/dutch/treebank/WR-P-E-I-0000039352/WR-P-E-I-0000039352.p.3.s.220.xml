@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="8" id="2" rel="--">
+      <node begin="1" end="2" id="3" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" word="wordt" wvorm="pv"/>
+      <node begin="2" cat="np" end="4" id="4" index="1" rel="su">
+        <node begin="2" end="3" id="5" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+        <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="6" lemma="feest" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="feest" word="feest"/>
+      </node>
+      <node begin="0" cat="conj" end="8" id="7" rel="vc">
+        <node begin="0" cat="ppart" end="5" id="8" rel="cnj">
+          <node begin="0" end="1" getal="getal" id="9" index="2" lemma="hier" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="mod" root="hier" status="vol" vwtype="aanw" word="Hier"/>
+          <node begin="2" end="4" id="10" index="1" rel="obj1"/>
+          <node begin="4" buiging="zonder" end="5" id="11" lemma="winnen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="win" word="gewonnen" wvorm="vd"/>
+        </node>
+        <node begin="6" conjtype="neven" end="7" id="12" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+        <node begin="0" cat="ppart" end="8" id="13" rel="cnj">
+          <node begin="0" end="1" id="14" index="2" rel="mod"/>
+          <node begin="2" end="4" id="15" index="1" rel="obj1"/>
+          <node begin="7" buiging="zonder" end="8" id="16" lemma="verliezen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="verlies" word="verloren" wvorm="vd"/>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" id="17" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Hier wordt het feest gewonnen , of verloren .</sentence>
+</alpino_ds>

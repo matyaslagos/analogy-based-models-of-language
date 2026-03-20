@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="du" end="6" id="1" rel="--">
+      <node begin="0" cat="mwu" end="2" id="2" rel="dp">
+        <node begin="0" end="1" id="3" lemma="Captains" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Captains" spectype="deeleigen" word="Captains"/>
+        <node begin="1" end="2" id="4" lemma="Council" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Council" spectype="deeleigen" word="Council"/>
+      </node>
+      <node begin="2" cat="pp" end="6" id="5" rel="dp">
+        <node begin="2" end="3" id="6" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" vztype="init" word="over"/>
+        <node begin="3" cat="mwu" end="6" id="7" rel="obj1">
+          <node begin="3" end="4" id="8" lemma="Service" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Service" spectype="vreemd" word="Service"/>
+          <node begin="4" end="5" id="9" lemma="Oriented" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Oriented" spectype="vreemd" word="Oriented"/>
+          <node begin="5" end="6" id="10" lemma="Architecture" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Architecture" spectype="vreemd" word="Architecture"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>Captains Council over Service Oriented Architecture</sentence>
+</alpino_ds>

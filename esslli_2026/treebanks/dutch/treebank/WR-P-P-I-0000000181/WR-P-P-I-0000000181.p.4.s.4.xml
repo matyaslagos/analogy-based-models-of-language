@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="11" id="2" rel="--">
+      <node begin="0" end="1" id="3" lemma="daarvan" pos="pp" postag="BW()" pt="bw" rel="mod" root="daarvan" word="Daarvan"/>
+      <node begin="1" end="2" id="4" lemma="steunen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="steun" word="steunen" wvorm="pv"/>
+      <node begin="2" end="3" getal="mv" id="5" lemma="wij" naamval="nomin" pdtype="pron" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,vol,1,mv)" pt="vnw" rel="su" root="wij" status="vol" vwtype="pers" word="wij"/>
+      <node begin="3" cat="conj" end="11" id="6" rel="obj1">
+        <node begin="3" cat="np" end="6" id="7" rel="cnj">
+          <node begin="3" end="4" id="8" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="9" lemma="dienst" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="dienst" word="dienst"/>
+          <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="10" lemma="cardiologie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="app" root="cardiologie" word="cardiologie"/>
+        </node>
+        <node begin="7" conjtype="neven" end="8" id="11" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="8" cat="np" end="11" id="12" rel="cnj">
+          <node begin="8" end="9" id="13" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="9" buiging="met-e" end="10" graad="basis" id="14" lemma="neonataal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="neonatale" word="neonatale"/>
+          <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="15" lemma="dienst" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="dienst" word="dienst"/>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" id="16" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Daarvan steunen wij een dienst cardiologie , en een neonatale dienst .</sentence>
+</alpino_ds>

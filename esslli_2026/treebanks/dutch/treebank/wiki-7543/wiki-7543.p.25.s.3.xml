@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="np" end="7" id="2" rel="--">
+      <node begin="0" cat="mwu" end="2" id="3" rel="hd">
+        <node begin="0" buiging="met-e" end="1" graad="basis" id="4" lemma="provinciaal" naamval="stan" pos="name" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mwp" root="Provinciale" word="Provinciale"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="5" lemma="Fokveedag" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Fokveedag" word="Fokveedag"/>
+      </node>
+      <node begin="3" cat="np" end="7" id="6" rel="mod">
+        <node begin="3" buiging="met-e" end="4" graad="sup" id="7" lemma="laat" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="mod" root="laat" word="laatste"/>
+        <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="8" lemma="vrijdag" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="vrijdag" word="vrijdag"/>
+        <node begin="5" cat="pp" end="7" id="9" rel="mod">
+          <node begin="5" end="6" id="10" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="11" lemma="februari" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" root="februari" word="februari"/>
+        </node>
+      </node>
+    </node>
+    <node begin="7" end="8" id="12" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+  </node>
+  <sentence>Provinciale Fokveedag ( laatste vrijdag van februari )</sentence>
+</alpino_ds>

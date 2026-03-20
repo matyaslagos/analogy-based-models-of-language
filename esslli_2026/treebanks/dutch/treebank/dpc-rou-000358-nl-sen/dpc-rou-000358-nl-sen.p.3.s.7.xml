@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="7" end="8" id="2" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="8" end="9" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="1" cat="du" end="11" id="4" rel="--">
+      <node begin="1" cat="pp" end="7" id="5" rel="nucl">
+        <node begin="1" end="2" id="6" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="Aan"/>
+        <node begin="2" cat="conj" end="7" id="7" rel="obj1">
+          <node begin="2" cat="np" end="4" id="8" rel="cnj">
+            <node begin="2" buiging="zonder" end="3" graad="basis" id="9" lemma="hard" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="hard" word="hard"/>
+            <node begin="3" buiging="zonder" end="4" getal-n="zonder-n" id="10" lemma="werken" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="werk" word="werken" wvorm="inf"/>
+          </node>
+          <node begin="4" conjtype="neven" end="5" id="11" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="5" cat="np" end="7" id="12" rel="cnj">
+            <node begin="5" buiging="zonder" end="6" graad="basis" id="13" lemma="nederig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="nederig" word="nederig"/>
+            <node begin="6" buiging="zonder" end="7" getal-n="zonder-n" id="14" lemma="blijven" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="blijf" word="blijven" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+      <node begin="9" cat="sv1" end="11" id="15" rel="tag">
+        <node begin="9" end="10" id="16" lemma="menen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="meen" word="meent" wvorm="pv"/>
+        <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="17" lemma="Houllier" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Houllier" word="Houllier"/>
+      </node>
+    </node>
+    <node begin="11" end="12" id="18" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>&quot; Aan hard werken en nederig blijven &quot; , meent Houllier .</sentence>
+</alpino_ds>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="10" end="11" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="16" id="2" rel="--">
+      <node begin="0" buiging="zonder" end="1" graad="basis" id="3" lemma="spoedig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="spoedig" word="Spoedig"/>
+      <node begin="1" end="2" id="4" lemma="verschijnen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="verschijn" word="verschenen" wvorm="pv"/>
+      <node begin="4" cat="pp" end="10" id="5" rel="ld">
+        <node begin="4" end="5" id="6" lemma="boven" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="boven" vztype="init" word="boven"/>
+        <node begin="5" cat="np" end="10" id="7" rel="obj1">
+          <node begin="5" end="6" id="8" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="6" cat="conj" end="9" id="9" rel="mod">
+            <node begin="6" buiging="met-e" end="7" graad="basis" id="10" lemma="Duits" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="Duits" word="Duitse"/>
+            <node begin="7" conjtype="neven" end="8" id="11" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="8" buiging="met-e" end="9" graad="basis" id="12" lemma="Japans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="Japans" word="Japanse"/>
+          </node>
+          <node begin="9" end="10" getal="mv" graad="basis" id="13" lemma="stad" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="stad" word="steden"/>
+        </node>
+      </node>
+      <node begin="2" cat="np" end="16" id="14" rel="su">
+        <node begin="2" end="3" getal-n="mv-n" graad="basis" id="15" lemma="duizend" numtype="hoofd" pos="noun" positie="nom" postag="TW(hoofd,nom,mv-n,basis)" pt="tw" rel="hd" root="duizenden" word="duizenden"/>
+        <node begin="3" end="4" getal="mv" graad="basis" id="16" lemma="Superfort" ntype="eigen" pos="name" postag="N(eigen,mv,basis)" pt="n" rel="mod" root="Superforten" word="Superforten"/>
+        <node begin="11" cat="rel" end="16" id="17" rel="mod">
+          <node begin="11" end="12" getal="getal" id="18" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+          <node begin="11" cat="ssub" end="16" id="19" rel="body">
+            <node begin="11" end="12" id="20" index="1" rel="su"/>
+            <node begin="12" cat="np" end="14" id="21" index="2" rel="obj1">
+              <node begin="12" buiging="zonder" end="13" getal="mv" id="22" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+              <node begin="13" end="14" getal="mv" graad="basis" id="23" lemma="bom" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="bom" word="bommen"/>
+            </node>
+            <node begin="14" end="15" id="24" lemma="laten" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="laat" word="lieten" wvorm="pv"/>
+            <node begin="12" cat="inf" end="16" id="25" rel="vc">
+              <node begin="12" end="14" id="26" index="2" rel="su"/>
+              <node begin="15" buiging="zonder" end="16" id="27" lemma="neer_regenen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="neer_regen" word="neerregenen" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="28" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Spoedig verschenen duizenden Superforten boven de Duitse en Japanse steden , die hun bommen lieten neerregenen .</sentence>
+</alpino_ds>

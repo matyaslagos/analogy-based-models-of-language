@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="1" lemma="quote" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="--" root="quote" word="QUOTE"/>
+    <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="2" lemma="Natasja" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="--" root="Natasja" word="NATASJA"/>
+    <node begin="2" cat="conj" end="8" id="3" rel="--">
+      <node begin="2" cat="smain" end="5" id="4" rel="cnj">
+        <node begin="2" end="3" getal="mv" id="5" index="1" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="Ze"/>
+        <node begin="3" end="4" id="6" lemma="zijn" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="ben" word="waren" wvorm="pv"/>
+        <node begin="2" cat="ppart" end="5" id="7" rel="vc">
+          <node begin="2" end="3" id="8" index="1" rel="obj1"/>
+          <node begin="4" buiging="zonder" end="5" id="9" lemma="maskeren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="masker" word="gemaskerd" wvorm="vd"/>
+        </node>
+      </node>
+      <node begin="5" conjtype="neven" end="6" id="10" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="2" cat="smain" end="8" id="11" rel="cnj">
+        <node begin="2" end="3" id="12" index="1" rel="su"/>
+        <node begin="6" end="7" id="13" lemma="hebben" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="heb" word="hadden" wvorm="pv"/>
+        <node begin="7" end="8" getal="mv" graad="basis" id="14" lemma="wapen" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="wapen" word="wapens"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="15" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>QUOTE NATASJA Ze waren gemaskerd en hadden wapens .</sentence>
+</alpino_ds>

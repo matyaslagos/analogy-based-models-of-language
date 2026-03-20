@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="24" id="0" rel="top">
+    <node begin="9" end="10" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="14" end="15" id="2" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="du" end="23" id="3" rel="--">
+      <node begin="0" cat="smain" end="9" id="4" rel="nucl">
+        <node begin="2" end="3" id="5" lemma="zullen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="zal" word="zult" wvorm="pv"/>
+        <node begin="3" end="4" getal="getal" id="6" index="1" lemma="u" naamval="nomin" pdtype="pron" persoon="2b" pos="pron" postag="VNW(pers,pron,nomin,vol,2b,getal)" pt="vnw" rel="su" root="u" status="vol" vwtype="pers" word="u"/>
+        <node begin="0" cat="inf" end="9" id="7" rel="vc">
+          <node begin="3" end="4" id="8" index="1" rel="su"/>
+          <node begin="7" buiging="zonder" end="8" id="9" lemma="moeten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="moet" word="moeten" wvorm="inf"/>
+          <node begin="0" cat="inf" end="9" id="10" rel="vc">
+            <node begin="0" cat="np" end="2" id="11" rel="obj1">
+              <node begin="0" buiging="met-e" end="1" id="12" lemma="volgen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="volg" word="Volgende" wvorm="od"/>
+              <node begin="1" end="2" getal="mv" graad="basis" id="13" lemma="gegeven" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="gegeven" word="gegevens"/>
+            </node>
+            <node begin="3" end="4" id="14" index="1" rel="su"/>
+            <node begin="4" cat="pp" end="7" id="15" rel="ld">
+              <node begin="4" end="5" id="16" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+              <node begin="5" cat="np" end="7" id="17" rel="obj1">
+                <node begin="5" end="6" id="18" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="19" lemma="agent" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="agent" word="agent"/>
+              </node>
+            </node>
+            <node begin="8" buiging="zonder" end="9" id="20" lemma="bezorgen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="bezorg" word="bezorgen" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+      <node begin="10" cat="conj" end="23" id="21" rel="sat">
+        <node begin="10" cat="np" end="12" id="22" rel="cnj">
+          <node begin="10" buiging="zonder" end="11" graad="basis" id="23" lemma="eventueel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="eventueel" word="eventueel"/>
+          <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="24" lemma="bedrijf_naam" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="bedrijf_naam" word="bedrijfsnaam"/>
+        </node>
+        <node begin="12" end="13" id="25" lemma="+" pos="vg" postag="SPEC(symb)" pt="spec" rel="crd" root="+" spectype="symb" word="+"/>
+        <node begin="13" cat="np" end="23" id="26" rel="cnj">
+          <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="27" lemma="contactpersoon" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="contactpersoon" word="contactpersoon"/>
+          <node begin="15" cat="conj" end="23" id="28" rel="app">
+            <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="29" lemma="naam" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="naam" word="naam"/>
+            <node begin="16" end="17" id="30" lemma="+" pos="vg" postag="SPEC(symb)" pt="spec" rel="crd" root="+" spectype="symb" word="+"/>
+            <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="31" lemma="telefoon" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="tel" word="tel"/>
+            <node begin="18" end="19" id="32" lemma="+" pos="vg" postag="SPEC(symb)" pt="spec" rel="crd" root="+" spectype="symb" word="+"/>
+            <node begin="19" end="20" genus="onz" getal="ev" graad="basis" id="33" lemma="adres" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="cnj" root="adres" word="adres"/>
+            <node begin="20" end="21" id="34" lemma="+" pos="vg" postag="SPEC(symb)" pt="spec" rel="crd" root="+" spectype="symb" word="+"/>
+            <node begin="21" cat="np" end="23" id="35" rel="cnj">
+              <node begin="21" buiging="zonder" end="22" graad="basis" id="36" lemma="geldig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="geldig" word="geldig"/>
+              <node begin="22" end="23" genus="onz" getal="ev" graad="basis" id="37" lemma="e-mail_adres" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="email_adres" word="emailadres"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="23" end="24" id="38" lemma="!!!" pos="punct" postag="LET()" pt="let" rel="--" root="!!!" word="!!!"/>
+  </node>
+  <sentence>Volgende gegevens zult u aan de agent moeten bezorgen : eventueel bedrijfsnaam + contactpersoon : naam + tel + adres + geldig emailadres !!!</sentence>
+</alpino_ds>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="0" cat="smain" end="19" id="1" rel="--">
+      <node begin="0" cat="np" end="4" id="2" rel="su">
+        <node begin="0" end="1" genus="onz" getal="ev" graad="basis" id="3" lemma="onderzoek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="onderzoek" word="Onderzoek"/>
+        <node begin="1" cat="pp" end="4" id="4" rel="mod">
+          <node begin="1" end="2" id="5" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="2" cat="np" end="4" id="6" rel="obj1">
+            <node begin="2" end="3" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="3" end="4" getal="mv" graad="basis" id="8" lemma="VS" ntype="eigen" pos="name" postag="N(eigen,mv,basis)" pt="n" rel="hd" root="VS" word="VS"/>
+          </node>
+        </node>
+      </node>
+      <node begin="4" end="5" id="9" lemma="aan_tonen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="toon_aan" word="toont" wvorm="pv"/>
+      <node begin="5" end="6" id="10" lemma="aan" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="aan" vztype="fin" word="aan"/>
+      <node begin="6" cat="cp" end="19" id="11" rel="vc">
+        <node begin="6" conjtype="onder" end="7" id="12" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+        <node begin="7" cat="ssub" end="19" id="13" rel="body">
+          <node begin="7" cat="np" end="14" id="14" index="1" rel="su">
+            <node begin="7" end="8" id="15" lemma="ongeveer" pos="adv" postag="BW()" pt="bw" rel="mod" root="ongeveer" word="ongeveer"/>
+            <node begin="8" end="9" id="16" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="9" end="10" getal-n="zonder-n" id="17" lemma="vijf" numtype="rang" pos="num" positie="nom" postag="TW(rang,nom,zonder-n)" pt="tw" rel="hd" root="vijfde" word="vijfde"/>
+            <node begin="10" cat="pp" end="14" id="18" rel="mod">
+              <node begin="10" end="11" id="19" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="11" cat="np" end="14" id="20" rel="obj1">
+                <node begin="11" end="12" id="21" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="12" buiging="met-e" end="13" graad="basis" id="22" lemma="Amerikaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Amerikaans" word="Amerikaanse"/>
+                <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="23" lemma="bevolking" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="bevolking" word="bevolking"/>
+              </node>
+            </node>
+          </node>
+          <node begin="15" end="16" id="24" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" word="kan" wvorm="pv"/>
+          <node begin="7" cat="conj" end="19" id="25" rel="vc">
+            <node begin="7" cat="inf" end="17" id="26" rel="cnj">
+              <node begin="7" end="14" id="27" index="1" rel="su"/>
+              <node begin="14" end="15" id="28" index="2" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+              <node begin="16" buiging="zonder" end="17" id="29" lemma="lezen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="lees" word="lezen" wvorm="inf"/>
+            </node>
+            <node begin="17" conjtype="neven" end="18" id="30" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+            <node begin="7" cat="inf" end="19" id="31" rel="cnj">
+              <node begin="7" end="14" id="32" index="1" rel="su"/>
+              <node begin="14" end="15" id="33" index="2" rel="mod"/>
+              <node begin="18" buiging="zonder" end="19" id="34" lemma="schrijven" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="schrijf" word="schrijven" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="35" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Onderzoek in de VS toont aan dat ongeveer een vijfde van de Amerikaanse bevolking niet kan lezen of schrijven .</sentence>
+</alpino_ds>

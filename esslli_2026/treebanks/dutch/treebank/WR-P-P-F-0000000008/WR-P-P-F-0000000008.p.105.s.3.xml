@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="conj" end="13" id="1" rel="--">
+      <node begin="0" cat="sv1" end="5" id="2" rel="cnj">
+        <node begin="0" end="1" id="3" lemma="bevestigen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="bevestig" word="Bevestig" wvorm="pv"/>
+        <node begin="1" cat="pp" end="5" id="4" rel="mod">
+          <node begin="1" end="2" id="5" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+          <node begin="2" cat="mwu" end="5" id="6" rel="obj1">
+            <node begin="2" end="3" id="7" lemma="starten" pos="name" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="mwp" root="Start" word="Start" wvorm="pv"/>
+            <node begin="3" end="4" id="8" lemma="/" pos="name" postag="LET()" pt="let" rel="mwp" root="/" word="/"/>
+            <node begin="4" end="5" id="9" lemma="stoppen" pos="name" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="mwp" root="Stop" word="Stop" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+      <node begin="5" conjtype="neven" end="6" id="10" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+      <node begin="6" cat="sv1" end="13" id="11" rel="cnj">
+        <node begin="6" end="7" id="12" lemma="gebruiken" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="gebruik" word="gebruik" wvorm="pv"/>
+        <node begin="7" cat="np" end="13" id="13" rel="obj1">
+          <node begin="7" end="8" id="14" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="8" buiging="met-e" end="9" graad="basis" id="15" lemma="ander" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ander" word="andere"/>
+          <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="16" lemma="toets" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="toets" word="toets"/>
+          <node begin="10" cat="oti" end="13" id="17" rel="mod">
+            <node begin="10" end="11" id="18" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="om"/>
+            <node begin="11" cat="ti" end="13" id="19" rel="body">
+              <node begin="11" end="12" id="20" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+              <node begin="12" buiging="zonder" end="13" id="21" lemma="annuleren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="body" root="annuleer" word="annuleren" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="22" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="14" end="15" id="23" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Bevestig met Start / Stop of gebruik een andere toets om te annuleren &apos; .</sentence>
+</alpino_ds>

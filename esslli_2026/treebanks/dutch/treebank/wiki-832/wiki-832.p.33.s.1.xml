@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="27" id="0" rel="top">
+    <node begin="20" end="21" id="1" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="0" cat="conj" end="25" id="2" rel="--">
+      <node begin="0" cat="smain" end="13" id="3" rel="cnj">
+        <node begin="0" cat="mwu" end="2" id="4" index="1" rel="su">
+          <node begin="0" end="1" id="5" lemma="Eugène" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Eugène" spectype="deeleigen" word="Eugène"/>
+          <node begin="1" end="2" id="6" lemma="Demolder" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Demolder" spectype="deeleigen" word="Demolder"/>
+        </node>
+        <node begin="2" end="3" id="7" lemma="behoren" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="behoor" word="behoorde" wvorm="pv"/>
+        <node begin="3" cat="pp" end="13" id="8" rel="pc">
+          <node begin="3" end="4" id="9" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" vztype="init" word="tot"/>
+          <node begin="4" cat="np" end="13" id="10" rel="obj1">
+            <node begin="4" end="5" id="11" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="5" buiging="met-e" end="6" graad="basis" id="12" lemma="klein" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="klein" word="kleine"/>
+            <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="13" lemma="kring" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="kring" word="kring"/>
+            <node begin="7" end="8" getal="mv" graad="basis" id="14" lemma="intellectueel" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mod" root="intellectueel" word="intellectuelen"/>
+            <node begin="8" cat="rel" end="13" id="15" rel="mod">
+              <node begin="8" end="9" getal="getal" id="16" index="2" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+              <node begin="8" cat="ssub" end="13" id="17" rel="body">
+                <node begin="8" end="9" id="18" index="2" rel="su"/>
+                <node begin="9" end="10" genus="onz" getal="ev" id="19" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="noun" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="obj1" root="het" status="red" vwtype="pers" word="het"/>
+                <node begin="10" end="11" id="20" lemma="op_nemen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="neem_op" word="opnam" wvorm="pv"/>
+                <node begin="11" cat="pp" end="13" id="21" rel="pc">
+                  <node begin="11" end="12" id="22" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+                  <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="23" lemma="Ensor" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" root="Ensor" word="Ensor"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="13" conjtype="neven" end="14" id="24" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="0" cat="smain" end="25" id="25" rel="cnj">
+        <node begin="0" end="2" id="26" index="1" rel="su"/>
+        <node begin="14" end="15" id="27" lemma="schrijven" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="schrijf" word="schreef" wvorm="pv"/>
+        <node begin="15" cat="np" end="25" id="28" rel="obj1">
+          <node begin="15" end="16" id="29" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="16" end="17" id="30" lemma="één" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="eerste" word="eerste"/>
+          <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="31" lemma="monografie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="monografie" word="monografie"/>
+          <node begin="18" cat="pp" end="20" id="32" rel="mod">
+            <node begin="18" end="19" id="33" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" vztype="init" word="over"/>
+            <node begin="19" end="20" genus="zijd" getal="ev" graad="basis" id="34" lemma="Ensor" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" root="Ensor" word="Ensor"/>
+          </node>
+          <node begin="21" cat="mwu" end="25" id="35" rel="app">
+            <node begin="21" end="22" id="36" lemma="Mort" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Mort" spectype="vreemd" word="Mort"/>
+            <node begin="22" end="23" id="37" lemma="Mystique" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Mystique" spectype="vreemd" word="Mystique"/>
+            <node begin="23" end="24" id="38" lemma="d&apos;un" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="d&apos;un" spectype="vreemd" word="d&apos;un"/>
+            <node begin="24" end="25" id="39" lemma="théologien" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="théologien" spectype="vreemd" word="théologien"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="25" end="26" id="40" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="26" end="27" id="41" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Eugène Demolder behoorde tot de kleine kring intellectuelen die het opnam voor Ensor en schreef de eerste monografie over Ensor &quot; Mort Mystique d&apos;un théologien &quot; .</sentence>
+</alpino_ds>

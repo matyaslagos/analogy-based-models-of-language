@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="du" end="6" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="dp">
+        <node begin="0" buiging="zonder" end="1" id="3" lemma="dit" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dit" vwtype="aanw" word="Dit"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="4" lemma="keer" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="keer" word="keer"/>
+      </node>
+      <node begin="2" cat="pp" end="6" id="5" rel="dp">
+        <node begin="2" end="3" id="6" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="3" cat="np" end="6" id="7" rel="obj1">
+          <node begin="3" cat="ppart" end="5" id="8" rel="mod">
+            <node begin="3" buiging="zonder" end="4" graad="basis" id="9" lemma="zwaar" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="zwaar" word="zwaar"/>
+            <node begin="4" buiging="met-e" end="5" id="10" lemma="pantseren" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="hd" root="gepantserd" word="gepantserde" wvorm="vd"/>
+          </node>
+          <node begin="5" end="6" getal="mv" graad="basis" id="11" lemma="wagen" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="wagen" word="wagens"/>
+        </node>
+      </node>
+    </node>
+    <node begin="6" end="7" id="12" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dit keer in zwaar gepantserde wagens .</sentence>
+</alpino_ds>

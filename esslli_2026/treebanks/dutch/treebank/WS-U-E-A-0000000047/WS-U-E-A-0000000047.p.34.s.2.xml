@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" buiging="met-e" end="2" graad="basis" id="4" lemma="20_jarig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="20-jarige" word="20-jarige"/>
+        <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="5" lemma="hoofd_verdenken" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="HOOFDverdachte" word="HOOFDverdachte"/>
+      </node>
+      <node begin="3" end="4" id="6" lemma="toe_brengen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="breng_toe" word="bracht" wvorm="pv"/>
+      <node begin="4" cat="np" end="7" id="7" rel="obj1">
+        <node begin="4" end="5" id="8" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="5" buiging="met-e" end="6" graad="basis" id="9" lemma="dodelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="dodelijk" word="dodelijke"/>
+        <node begin="6" end="7" getal="mv" graad="basis" id="10" lemma="messteek" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="messteek" word="messteken"/>
+      </node>
+      <node begin="7" end="8" id="11" lemma="toe" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="toe" vztype="fin" word="toe"/>
+    </node>
+    <node begin="8" end="9" id="12" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De 20-jarige HOOFDverdachte bracht de dodelijke messteken toe .</sentence>
+</alpino_ds>

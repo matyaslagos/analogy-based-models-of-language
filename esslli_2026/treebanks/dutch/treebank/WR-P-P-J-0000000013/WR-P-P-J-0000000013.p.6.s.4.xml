@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="29" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="23" end="24" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="28" id="3" rel="--">
+      <node begin="0" cat="smain" end="8" id="4" rel="cnj">
+        <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="5" index="1" lemma="communicatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="su" root="communicatie" word="Communicatie"/>
+        <node begin="1" end="2" id="6" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" word="kan" wvorm="pv"/>
+        <node begin="0" cat="inf" end="8" id="7" rel="vc">
+          <node begin="0" end="1" id="8" index="1" rel="su"/>
+          <node begin="2" end="3" id="9" lemma="nooit" pos="adv" postag="BW()" pt="bw" rel="mod" root="nooit" word="nooit"/>
+          <node begin="3" cat="np" end="7" id="10" rel="predc">
+            <node begin="3" end="4" id="11" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="12" lemma="doel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="doel" word="doel"/>
+            <node begin="5" cat="pp" end="7" id="13" rel="mod">
+              <node begin="5" end="6" id="14" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+              <node begin="6" end="7" getal="getal" id="15" lemma="zich" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="obj1" root="zich" status="red" vwtype="refl" word="zich"/>
+            </node>
+          </node>
+          <node begin="7" buiging="zonder" end="8" id="16" lemma="zijn" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ben" word="zijn" wvorm="inf"/>
+        </node>
+      </node>
+      <node begin="9" conjtype="neven" end="10" id="17" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+      <node begin="0" cat="sv1" end="28" id="18" rel="cnj">
+        <node begin="0" end="1" id="19" index="1" rel="su"/>
+        <node begin="10" end="11" id="20" lemma="dienen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="dien" word="dient" wvorm="pv"/>
+        <node begin="0" cat="ti" end="28" id="21" rel="vc">
+          <node begin="12" end="13" id="22" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+          <node begin="0" cat="inf" end="28" id="23" rel="body">
+            <node begin="0" end="1" id="24" index="1" rel="su"/>
+            <node begin="11" end="12" id="25" lemma="tegemoet" pos="part" postag="BW()" pt="bw" rel="svp" root="tegemoet" word="tegemoet"/>
+            <node begin="13" buiging="zonder" end="14" id="26" lemma="tegemoet_komen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="kom_tegemoet" word="komen" wvorm="inf"/>
+            <node begin="14" cat="pp" end="28" id="27" rel="obj2">
+              <node begin="14" end="15" id="28" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+              <node begin="15" cat="conj" end="28" id="29" rel="obj1">
+                <node begin="17" conjtype="neven" end="18" id="30" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                <node begin="15" cat="np" end="28" id="31" rel="cnj">
+                  <node begin="15" end="16" id="32" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="16" end="17" getal="mv" graad="basis" id="33" lemma="behoefte" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="behoefte" word="behoeften"/>
+                  <node begin="20" cat="pp" end="28" id="34" index="2" rel="mod">
+                    <node begin="20" end="21" id="35" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                    <node begin="21" cat="np" end="28" id="36" rel="obj1">
+                      <node begin="21" end="22" id="37" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                      <node begin="22" end="23" getal="mv" graad="basis" id="38" lemma="ontvanger" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="ontvanger" word="ontvangers"/>
+                      <node begin="24" cat="cp" end="28" id="39" rel="mod">
+                        <node begin="24" cat="mwu" end="26" id="40" rel="cmp">
+                          <node begin="24" end="25" id="41" lemma="in" pos="comp" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="in" spectype="vreemd" word="in"/>
+                          <node begin="25" end="26" id="42" lemma="casu" pos="comp" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="casu" spectype="vreemd" word="casu"/>
+                        </node>
+                        <node begin="26" cat="np" end="28" id="43" rel="body">
+                          <node begin="26" end="27" id="44" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                          <node begin="27" end="28" getal="mv" graad="basis" id="45" lemma="burger" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="burger" word="burgers"/>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node begin="18" cat="np" end="28" id="46" rel="cnj">
+                  <node begin="18" end="19" id="47" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="19" end="20" getal="mv" graad="basis" id="48" lemma="vraag" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vraag" word="vragen"/>
+                  <node begin="20" end="28" id="49" index="2" rel="mod"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="28" end="29" id="50" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Communicatie kan nooit een doel op zich zijn , maar dient tegemoet te komen aan de behoeften en de vragen van de ontvangers , in casu de burgers .</sentence>
+</alpino_ds>

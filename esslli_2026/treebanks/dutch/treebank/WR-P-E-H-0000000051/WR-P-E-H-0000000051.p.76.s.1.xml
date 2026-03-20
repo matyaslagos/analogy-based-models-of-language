@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="·" pos="tag" postag="LET()" pt="let" rel="--" root="·" word="·"/>
+    <node begin="3" end="4" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="1" cat="conj" end="7" id="3" rel="--">
+      <node begin="1" cat="np" end="3" id="4" rel="cnj">
+        <node begin="1" buiging="met-e" end="2" graad="basis" id="5" lemma="economisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="economisch" word="Economische"/>
+        <node begin="2" end="3" getal="mv" graad="basis" id="6" lemma="gegeven" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="gegeven" word="gegevens"/>
+      </node>
+      <node begin="4" cat="mwu" end="7" id="7" rel="cnj">
+        <node begin="4" end="5" id="8" lemma="Economic" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Economic" spectype="deeleigen" word="Economic"/>
+        <node begin="5" end="6" id="9" lemma="Intelligence" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Intelligence" spectype="deeleigen" word="Intelligence"/>
+        <node begin="6" end="7" id="10" lemma="Unit" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Unit" spectype="deeleigen" word="Unit"/>
+      </node>
+    </node>
+  </node>
+  <sentence>· Economische gegevens , Economic Intelligence Unit</sentence>
+</alpino_ds>

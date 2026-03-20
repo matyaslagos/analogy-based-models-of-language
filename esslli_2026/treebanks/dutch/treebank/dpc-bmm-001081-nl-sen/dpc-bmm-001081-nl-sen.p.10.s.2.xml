@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="0" cat="smain" end="19" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="4" lemma="bepaling" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="bepaling" word="bepaling"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="gebeuren" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="gebeur" word="gebeurt" wvorm="pv"/>
+      <node begin="3" cat="pp" end="19" id="6" rel="mod">
+        <node begin="3" cat="mwu" end="6" id="7" rel="hd">
+          <node begin="3" end="4" id="8" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="op" vztype="init" word="op"/>
+          <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="9" lemma="basis" naamval="stan" ntype="soort" pos="prep" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="basis" word="basis"/>
+          <node begin="5" end="6" id="10" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="van" vztype="init" word="van"/>
+        </node>
+        <node begin="6" cat="np" end="19" id="11" rel="obj1">
+          <node begin="6" end="7" id="12" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="7" buiging="met-e" end="8" graad="basis" id="13" lemma="chemisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="chemisch" word="chemische"/>
+          <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="14" lemma="reactie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="reactie" word="reactie"/>
+          <node begin="9" cat="rel" end="19" id="15" rel="mod">
+            <node begin="9" end="10" getal="getal" id="16" index="1" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+            <node begin="9" cat="ssub" end="19" id="17" rel="body">
+              <node begin="9" end="10" id="18" index="1" rel="su"/>
+              <node begin="10" end="11" id="19" lemma="leiden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="leid" word="leidt" wvorm="pv"/>
+              <node begin="11" cat="pp" end="19" id="20" rel="pc">
+                <node begin="11" end="12" id="21" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" vztype="init" word="tot"/>
+                <node begin="12" cat="np" end="19" id="22" rel="obj1">
+                  <node begin="12" end="13" id="23" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                  <node begin="13" buiging="met-e" end="14" graad="basis" id="24" lemma="specifiek" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="specifiek" word="specifieke"/>
+                  <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="25" lemma="kleuring" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="kleuring" word="kleuring"/>
+                  <node begin="15" cat="pp" end="19" id="26" rel="mod">
+                    <node begin="15" end="16" id="27" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+                    <node begin="16" cat="np" end="19" id="28" rel="obj1">
+                      <node begin="16" end="17" id="29" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                      <node begin="17" buiging="met-e" end="18" graad="basis" id="30" lemma="verschillend" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="verschil" word="verschillende"/>
+                      <node begin="18" end="19" getal="mv" graad="basis" id="31" lemma="nutriënt" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="nutriënten" word="nutriënten"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="32" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De bepaling gebeurt op basis van een chemische reactie die leidt tot een specifieke kleuring voor de verschillende nutriënten .</sentence>
+</alpino_ds>

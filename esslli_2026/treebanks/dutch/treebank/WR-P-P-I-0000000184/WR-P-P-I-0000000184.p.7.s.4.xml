@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="11" end="12" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="19" id="3" rel="--">
+      <node begin="0" cat="pp" end="2" id="4" rel="mod">
+        <node begin="0" end="1" id="5" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" vztype="init" word="Tot"/>
+        <node begin="1" end="2" id="6" lemma="vandaag" pos="adv" postag="BW()" pt="bw" rel="obj1" root="vandaag" word="vandaag"/>
+      </node>
+      <node begin="2" end="3" id="7" lemma="nemen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="neem" word="nam" wvorm="pv"/>
+      <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="8" lemma="ontslag" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="ontslag" word="ontslag"/>
+      <node begin="3" cat="np" end="11" id="9" rel="su">
+        <node begin="3" end="4" id="10" lemma="slechts" pos="adv" postag="BW()" pt="bw" rel="mod" root="slechts" word="slechts"/>
+        <node begin="4" end="5" id="11" lemma="één" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="één" word="één"/>
+        <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="12" lemma="man" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="man" word="man"/>
+        <node begin="8" cat="np" end="11" id="13" rel="app">
+          <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="14" lemma="staatssecretaris" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="staatssecretaris" word="staatssecretaris"/>
+          <node begin="9" cat="mwu" end="11" id="15" rel="app">
+            <node begin="9" end="10" id="16" lemma="Pierre" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Pierre" spectype="deeleigen" word="Pierre"/>
+            <node begin="10" end="11" id="17" lemma="Chevalier" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Chevalier" spectype="deeleigen" word="Chevalier"/>
+          </node>
+        </node>
+      </node>
+      <node begin="12" cat="pp" end="19" id="18" rel="mod">
+        <node begin="12" end="13" id="19" lemma="om" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="om" vztype="init" word="om"/>
+        <node begin="13" cat="np" end="19" id="20" rel="obj1">
+          <node begin="13" end="14" getal="ev" id="21" lemma="iets" naamval="stan" pdtype="pron" persoon="3o" pos="noun" postag="VNW(onbep,pron,stan,vol,3o,ev)" pt="vnw" rel="hd" root="iets" status="vol" vwtype="onbep" word="iets"/>
+          <node begin="14" cat="rel" end="19" id="22" rel="mod">
+            <node begin="14" end="15" getal="ev" id="23" index="1" lemma="wat" naamval="stan" pdtype="pron" persoon="3o" pos="pron" postag="VNW(vb,pron,stan,vol,3o,ev)" pt="vnw" rel="rhd" root="wat" status="vol" vwtype="vb" word="wat"/>
+            <node begin="14" cat="ssub" end="19" id="24" rel="body">
+              <node begin="14" end="15" id="25" index="1" rel="su"/>
+              <node begin="15" cat="np" end="17" id="26" rel="obj1">
+                <node begin="15" buiging="met-e" end="16" id="27" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="deze"/>
+                <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="28" lemma="regering" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="regering" word="regering"/>
+              </node>
+              <node begin="17" end="18" id="29" lemma="geenszins" pos="adv" postag="BW()" pt="bw" rel="mod" root="geenszins" word="geenszins"/>
+              <node begin="18" end="19" id="30" lemma="aan_belangen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="belang_aan" word="aanbelangde" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="31" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Tot vandaag nam slechts één man ontslag , staatssecretaris Pierre Chevalier , om iets wat deze regering geenszins aanbelangde .</sentence>
+</alpino_ds>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="18" id="2" rel="--">
+      <node begin="0" cat="smain" end="13" id="3" rel="cnj">
+        <node begin="0" cat="cp" end="7" id="4" index="1" rel="mod">
+          <node begin="0" conjtype="onder" end="1" id="5" lemma="eens" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="eens" word="Eens"/>
+          <node begin="1" cat="ssub" end="7" id="6" rel="body">
+            <node begin="1" cat="np" end="4" id="7" index="2" rel="su">
+              <node begin="1" end="2" id="8" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="2" buiging="met-e" end="3" graad="basis" id="9" lemma="Belgisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Belgisch" word="Belgische"/>
+              <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="10" lemma="leger" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="leger" word="leger"/>
+            </node>
+            <node begin="5" end="6" id="11" lemma="hebben" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="heb" word="had" wvorm="pv"/>
+            <node begin="1" cat="ppart" end="7" id="12" rel="vc">
+              <node begin="1" end="4" id="13" index="2" rel="su"/>
+              <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="14" lemma="Congo" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Congo" word="Congo"/>
+              <node begin="6" buiging="zonder" end="7" id="15" lemma="verlaten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="verlaat" word="verlaten" wvorm="vd"/>
+            </node>
+          </node>
+        </node>
+        <node begin="8" end="9" id="16" lemma="verliezen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="verlies" word="verloor" wvorm="pv"/>
+        <node begin="9" end="10" genus="fem" getal="ev" id="17" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,ev,fem)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="ze"/>
+        <node begin="10" cat="np" end="13" id="18" rel="obj1">
+          <node begin="10" buiging="zonder" end="11" getal="ev" id="19" lemma="haar" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pt="vnw" rel="det" root="haar" status="vol" vwtype="bez" word="haar"/>
+          <node begin="11" buiging="met-e" end="12" graad="basis" id="20" lemma="politiek" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="politiek" word="politieke"/>
+          <node begin="12" end="13" genus="onz" getal="ev" graad="basis" id="21" lemma="nut" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="nut" word="nut"/>
+        </node>
+      </node>
+      <node begin="13" conjtype="neven" end="14" id="22" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="0" cat="smain" end="18" id="23" rel="cnj">
+        <node begin="0" end="7" id="24" index="1" rel="mod"/>
+        <node begin="14" end="15" id="25" lemma="verdwijnen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="verdwijn" word="verdween" wvorm="pv"/>
+        <node begin="15" end="16" id="26" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+        <node begin="16" cat="np" end="18" id="27" rel="su">
+          <node begin="16" buiging="met-e" end="17" id="28" lemma="al" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,agr)" pt="vnw" rel="det" root="alle" vwtype="onbep" word="alle"/>
+          <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="29" lemma="haast" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="haast" word="haast"/>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="30" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Eens het Belgische leger Congo had verlaten , verloor ze haar politieke nut en verdween ook alle haast .</sentence>
+</alpino_ds>

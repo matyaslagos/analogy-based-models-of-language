@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="np" end="6" id="1" rel="--">
+      <node begin="0" cat="mwu" end="3" id="2" rel="hd">
+        <node begin="0" end="1" id="3" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="bij" vztype="init" word="Bij"/>
+        <node begin="1" buiging="zonder" end="2" graad="comp" id="4" lemma="nader" pos="adj" positie="prenom" postag="ADJ(prenom,comp,zonder)" pt="adj" rel="mwp" root="nader" word="nader"/>
+        <node begin="2" buiging="zonder" end="3" getal-n="zonder-n" id="5" lemma="in_zien" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="mwp" root="zie_in" word="inzien" wvorm="inf"/>
+      </node>
+      <node begin="3" cat="pp" end="6" id="6" rel="mod">
+        <node begin="3" end="4" id="7" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+        <node begin="4" cat="mwu" end="6" id="8" rel="obj1">
+          <node begin="4" end="5" id="9" lemma="J.J." pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="J.J." spectype="deeleigen" word="J.J."/>
+          <node begin="5" end="6" id="10" lemma="Voskuil" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Voskuil" spectype="deeleigen" word="Voskuil"/>
+        </node>
+      </node>
+    </node>
+    <node begin="6" end="7" id="11" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Bij nader inzien van J.J. Voskuil .</sentence>
+</alpino_ds>

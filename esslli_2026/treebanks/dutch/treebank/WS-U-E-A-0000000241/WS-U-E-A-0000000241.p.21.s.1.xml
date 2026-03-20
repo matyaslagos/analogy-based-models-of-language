@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="7" end="8" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="18" end="19" id="3" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="du" end="21" id="4" rel="--">
+      <node begin="0" cat="smain" end="18" id="5" rel="nucl">
+        <node begin="0" cat="pp" end="7" id="6" rel="mod">
+          <node begin="0" end="1" id="7" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" vztype="init" word="Na"/>
+          <node begin="1" cat="conj" end="7" id="8" rel="obj1">
+            <node begin="1" cat="np" end="3" id="9" rel="cnj">
+              <node begin="1" end="2" id="10" index="1" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="2" end="3" getal="mv" graad="basis" id="11" lemma="flits_paal" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="flits_paal" word="flitspalen"/>
+            </node>
+            <node begin="1" cat="np" end="5" id="12" rel="cnj">
+              <node begin="1" end="2" id="13" index="1" rel="det"/>
+              <node begin="4" end="5" getal="mv" graad="basis" id="14" lemma="radar_controle" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="radar_controle" word="radarcontroles"/>
+            </node>
+            <node begin="5" conjtype="neven" end="6" id="15" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="1" cat="np" end="7" id="16" rel="cnj">
+              <node begin="1" end="2" id="17" index="1" rel="det"/>
+              <node begin="6" end="7" getal="mv" graad="basis" id="18" lemma="laser_gun" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="laserguns" word="laserguns"/>
+            </node>
+          </node>
+        </node>
+        <node begin="8" end="9" id="19" lemma="krijgen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="krijg" word="krijgen" wvorm="pv"/>
+        <node begin="9" end="10" getal="mv" graad="basis" id="20" lemma="hard_rijder" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="hard_rijder" word="hardrijders"/>
+        <node begin="11" cat="pp" end="14" id="21" rel="mod">
+          <node begin="11" end="12" id="22" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" vztype="init" word="na"/>
+          <node begin="12" cat="np" end="14" id="23" rel="obj1">
+            <node begin="12" buiging="met-e" end="13" graad="basis" id="24" lemma="succesvol" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="succesvol" word="succesvolle"/>
+            <node begin="13" end="14" getal="mv" graad="basis" id="25" lemma="proef" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="proef" word="proeven"/>
+          </node>
+        </node>
+        <node begin="14" cat="np" end="17" id="26" rel="obj1">
+          <node begin="14" end="15" id="27" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="15" buiging="met-e" end="16" graad="basis" id="28" lemma="permanent" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="permanent" word="permanente"/>
+          <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="29" lemma="vijand" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="vijand" word="vijand"/>
+        </node>
+        <node begin="10" cat="pp" end="18" id="30" rel="svp">
+          <node begin="10" end="11" getal="getal" id="31" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="obj1" root="er" status="red" vwtype="aanw" word="er"/>
+          <node begin="17" end="18" id="32" lemma="bij" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="bij" vztype="fin" word="bij"/>
+        </node>
+      </node>
+      <node begin="19" cat="np" end="21" id="33" rel="sat">
+        <node begin="19" end="20" id="34" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="20" end="21" genus="zijd" getal="ev" graad="basis" id="35" lemma="traject_controle" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="traject_controle" word="trajectcontrole"/>
+      </node>
+    </node>
+    <node begin="21" end="22" id="36" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Na de flitspalen , radarcontroles en laserguns , krijgen hardrijders er na succesvolle proeven een permanente vijand bij : de trajectcontrole .</sentence>
+</alpino_ds>

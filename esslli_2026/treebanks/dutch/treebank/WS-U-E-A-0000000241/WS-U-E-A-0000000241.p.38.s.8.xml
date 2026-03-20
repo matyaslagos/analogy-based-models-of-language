@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="0" cat="conj" end="17" id="1" rel="--">
+      <node begin="0" cat="smain" end="11" id="2" rel="cnj">
+        <node begin="0" end="1" id="3" lemma="daarna" pos="pp" postag="BW()" pt="bw" rel="mod" root="daarna" word="Daarna"/>
+        <node begin="1" end="2" id="4" lemma="spreken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="spreek" word="sprak" wvorm="pv"/>
+        <node begin="2" end="3" genus="masc" getal="ev" id="5" index="1" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="hij"/>
+        <node begin="3" end="4" id="6" lemma="daarna" pos="adv" postag="BW()" pt="bw" rel="mod" root="daarna" word="daarna"/>
+        <node begin="4" end="5" id="7" lemma="namelijk" pos="adv" postag="BW()" pt="bw" rel="mod" root="namelijk" word="namelijk"/>
+        <node begin="5" cat="conj" end="11" id="8" rel="obj1">
+          <node begin="7" conjtype="neven" end="8" id="9" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="5" cat="np" end="11" id="10" rel="cnj">
+            <node begin="5" cat="ap" end="7" id="11" rel="mod">
+              <node begin="5" buiging="zonder" end="6" graad="basis" id="12" lemma="veel" naamval="stan" pdtype="grad" pos="adv" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,basis)" pt="vnw" rel="mod" root="veel" vwtype="onbep" word="veel"/>
+              <node begin="6" buiging="met-e" end="7" graad="comp" id="13" lemma="fel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,comp,met-e,stan)" pt="adj" rel="hd" root="fel" word="fellere"/>
+            </node>
+            <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="14" index="2" lemma="taal" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="taal" word="taal"/>
+          </node>
+          <node begin="8" cat="np" end="11" id="15" rel="cnj">
+            <node begin="8" end="9" id="16" lemma="vooral" pos="adv" postag="BW()" pt="bw" rel="mod" root="vooral" word="vooral"/>
+            <node begin="9" buiging="zonder" end="10" graad="comp" id="17" lemma="duidelijk" pos="adj" positie="prenom" postag="ADJ(prenom,comp,zonder)" pt="adj" rel="mod" root="duidelijk" word="duidelijker"/>
+            <node begin="10" end="11" id="18" index="2" rel="hd"/>
+          </node>
+        </node>
+      </node>
+      <node begin="11" conjtype="neven" end="12" id="19" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="2" cat="smain" end="17" id="20" rel="cnj">
+        <node begin="2" end="3" id="21" index="1" rel="su"/>
+        <node begin="12" end="13" id="22" lemma="proberen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="probeer" word="probeerde" wvorm="pv"/>
+        <node begin="2" cat="ti" end="17" id="23" rel="vc">
+          <node begin="15" end="16" id="24" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+          <node begin="2" cat="inf" end="17" id="25" rel="body">
+            <node begin="2" end="3" id="26" index="1" rel="su"/>
+            <node begin="13" end="14" getal="getal" id="27" lemma="zichzelf" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,nadr,3,getal)" pt="vnw" rel="obj1" root="zichzelf" status="nadr" vwtype="refl" word="zichzelf"/>
+            <node begin="14" buiging="zonder" end="15" graad="basis" id="28" lemma="echt" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="echt" word="echt"/>
+            <node begin="16" buiging="zonder" end="17" id="29" lemma="verdedigen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="verdedig" word="verdedigen" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="30" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Daarna sprak hij daarna namelijk veel fellere en vooral duidelijker taal en probeerde zichzelf echt te verdedigen .</sentence>
+</alpino_ds>

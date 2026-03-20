@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="25" id="0" rel="top">
+    <node begin="16" end="17" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="18" end="19" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="0" cat="conj" end="24" id="3" rel="--">
+      <node begin="0" cat="smain" end="7" id="4" rel="cnj">
+        <node begin="0" end="1" getal="mv" graad="basis" id="5" lemma="boef" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="boef" word="Boeven"/>
+        <node begin="1" end="2" id="6" lemma="eindigen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="eindig" word="eindigen" wvorm="pv"/>
+        <node begin="2" buiging="zonder" end="3" graad="basis" id="7" lemma="vaak" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="vaak" word="vaak"/>
+        <node begin="3" cat="whrel" end="7" id="8" rel="mod">
+          <node begin="3" end="4" getal="getal" id="9" index="1" lemma="waar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(vb,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="rhd" root="waar" status="vol" vwtype="vb" word="waar"/>
+          <node begin="3" cat="ssub" end="7" id="10" rel="body">
+            <node begin="4" end="5" getal="mv" id="11" index="2" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="ze"/>
+            <node begin="3" cat="ppart" end="6" id="12" rel="vc">
+              <node begin="3" end="4" id="13" index="1" rel="mod"/>
+              <node begin="4" end="5" id="14" index="2" rel="su"/>
+              <node begin="5" buiging="zonder" end="6" id="15" lemma="beginnen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="begin" word="begonnen" wvorm="vd"/>
+            </node>
+            <node begin="6" end="7" id="16" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+      <node begin="7" conjtype="neven" end="8" id="17" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="8" cat="smain" end="24" id="18" rel="cnj">
+        <node begin="8" end="9" genus="onz" getal="ev" id="19" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="sup" root="het" status="red" vwtype="pers" word="het"/>
+        <node begin="9" end="10" id="20" lemma="laten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="laat" word="laat" wvorm="pv"/>
+        <node begin="10" end="11" getal="getal" id="21" lemma="zich" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="se" root="zich" status="red" vwtype="refl" word="zich"/>
+        <node begin="11" buiging="zonder" end="12" id="22" lemma="aan_zien" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="svp" root="zie_aan" word="aanzien" wvorm="inf"/>
+        <node begin="12" cat="cp" end="24" id="23" rel="su">
+          <node begin="12" conjtype="onder" end="13" id="24" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+          <node begin="13" cat="ssub" end="24" id="25" rel="body">
+            <node begin="13" cat="np" end="18" id="26" rel="su">
+              <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="27" lemma="Zillion_baas" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="Zillion_baas" word="Zillionbaas"/>
+              <node begin="14" cat="mwu" end="16" id="28" rel="app">
+                <node begin="14" end="15" id="29" lemma="Frank" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Frank" spectype="deeleigen" word="Frank"/>
+                <node begin="15" end="16" id="30" lemma="Verstraeten" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Verstraeten" spectype="deeleigen" word="Verstraeten"/>
+              </node>
+              <node begin="17" end="18" id="31" lemma="33" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mod" root="33" word="33"/>
+            </node>
+            <node begin="20" cat="np" end="22" id="32" rel="obj1">
+              <node begin="20" buiging="zonder" end="21" id="33" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="geen"/>
+              <node begin="21" end="22" genus="zijd" getal="ev" graad="basis" id="34" lemma="uitzondering" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="uitzondering" word="uitzondering"/>
+            </node>
+            <node begin="19" cat="pp" end="23" id="35" rel="pc">
+              <node begin="19" end="20" getal="getal" id="36" lemma="daar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="pron" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="obj1" root="daar" status="vol" vwtype="aanw" word="daar"/>
+              <node begin="22" end="23" id="37" lemma="op" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="op" vztype="fin" word="op"/>
+            </node>
+            <node begin="23" end="24" id="38" lemma="vormen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="vorm" word="vormt" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="24" end="25" id="39" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Boeven eindigen vaak waar ze begonnen zijn en het laat zich aanzien dat Zillionbaas Frank Verstraeten ( 33 ) daar geen uitzondering op vormt .</sentence>
+</alpino_ds>

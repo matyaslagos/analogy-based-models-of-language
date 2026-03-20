@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="16" id="2" rel="--">
+      <node begin="3" end="4" id="3" lemma="kunnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kan" word="kunnen" wvorm="pv"/>
+      <node begin="0" cat="inf" end="16" id="4" rel="vc">
+        <node begin="7" buiging="zonder" end="8" id="5" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+        <node begin="0" cat="ppart" end="16" id="6" rel="vc">
+          <node begin="0" cat="pp" end="3" id="7" rel="mod">
+            <node begin="0" end="1" id="8" lemma="dankzij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="dankzij" vztype="init" word="Dankzij"/>
+            <node begin="1" cat="np" end="3" id="9" rel="obj1">
+              <node begin="1" end="2" id="10" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="2" end="3" getal="mv" graad="basis" id="11" lemma="model" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="model" word="modellen"/>
+            </node>
+          </node>
+          <node begin="6" buiging="zonder" end="7" id="12" lemma="op_sporen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="spoor_op" word="opgespoord" wvorm="vd"/>
+          <node begin="4" cat="np" end="16" id="13" index="1" rel="obj1">
+            <node begin="4" buiging="met-e" end="5" graad="basis" id="14" lemma="alternatief" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="alternatief" word="alternatieve"/>
+            <node begin="5" end="6" getal="mv" graad="basis" id="15" lemma="stort_plaats" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="stort_plaats" word="stortplaatsen"/>
+            <node begin="9" cat="rel" end="16" id="16" rel="mod">
+              <node begin="9" end="10" getal="getal" id="17" index="2" lemma="waar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(vb,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="rhd" root="waar" status="vol" vwtype="vb" word="waar"/>
+              <node begin="9" cat="ssub" end="16" id="18" rel="body">
+                <node begin="9" end="10" id="19" index="2" rel="mod"/>
+                <node begin="10" cat="np" end="12" id="20" rel="su">
+                  <node begin="10" end="11" id="21" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                  <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="22" lemma="materieel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="materieel" word="materieel"/>
+                </node>
+                <node begin="12" buiging="zonder" end="13" graad="comp" id="23" lemma="goed" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="goed" word="beter"/>
+                <node begin="13" cat="mwu" end="15" id="24" rel="ld">
+                  <node begin="13" end="14" id="25" lemma="te" pos="adv" postag="VZ(versm)" pt="vz" rel="mwp" root="ter" vztype="versm" word="ter"/>
+                  <node begin="14" end="15" getal="ev" graad="basis" id="26" lemma="plaats" naamval="dat" ntype="soort" pos="adv" postag="N(soort,ev,basis,dat)" pt="n" rel="mwp" root="plaatse" word="plaatse"/>
+                </node>
+                <node begin="15" end="16" id="27" lemma="blijven" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="blijf" word="blijft" wvorm="pv"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="4" end="16" id="28" index="1" rel="su"/>
+      </node>
+      <node begin="4" end="16" id="29" index="1" rel="su"/>
+    </node>
+    <node begin="16" end="17" id="30" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dankzij de modellen kunnen alternatieve stortplaatsen opgespoord worden , waar het materieel beter ter plaatse blijft .</sentence>
+</alpino_ds>

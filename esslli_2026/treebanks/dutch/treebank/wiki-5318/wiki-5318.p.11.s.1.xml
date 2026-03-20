@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="11" end="12" id="1" lemma=";" pos="punct" postag="LET()" pt="let" rel="--" root=";" word=";"/>
+    <node begin="0" cat="du" end="19" id="2" rel="--">
+      <node begin="0" cat="smain" end="11" id="3" rel="dp">
+        <node begin="0" cat="np" end="7" id="4" rel="mod">
+          <node begin="0" end="1" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+          <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="6" lemma="nacht" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="nacht" word="nacht"/>
+          <node begin="2" cat="pp" end="4" id="7" rel="mod">
+            <node begin="2" end="3" id="8" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="3" end="4" id="9" lemma="17" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" root="17" word="17"/>
+          </node>
+          <node begin="4" cat="pp" end="7" id="10" rel="mod">
+            <node begin="4" end="5" id="11" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+            <node begin="5" cat="mwu" end="7" id="12" rel="obj1">
+              <node begin="5" end="6" id="13" lemma="18" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="18" word="18"/>
+              <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="14" lemma="juni" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="juni" word="juni"/>
+            </node>
+          </node>
+        </node>
+        <node begin="7" end="8" id="15" lemma="regenen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="regen" word="regende" wvorm="pv"/>
+        <node begin="8" end="9" genus="onz" getal="ev" id="16" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="noun" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" root="het" status="red" vwtype="pers" word="het"/>
+        <node begin="9" cat="advp" end="11" id="17" rel="mod">
+          <node begin="9" end="10" id="18" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" word="nog"/>
+          <node begin="10" end="11" id="19" lemma="altijd" pos="adv" postag="BW()" pt="bw" rel="hd" root="altijd" word="altijd"/>
+        </node>
+      </node>
+      <node begin="12" cat="smain" end="19" id="20" rel="dp">
+        <node begin="12" cat="np" end="15" id="21" rel="su">
+          <node begin="12" end="13" id="22" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="13" buiging="met-e" end="14" graad="basis" id="23" lemma="lössachtig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="lössachtige" word="lössachtige"/>
+          <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="24" lemma="grond" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="grond" word="grond"/>
+        </node>
+        <node begin="15" end="16" id="25" lemma="veranderen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="verander" word="veranderde" wvorm="pv"/>
+        <node begin="16" cat="pp" end="19" id="26" rel="pc">
+          <node begin="16" end="17" id="27" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="17" cat="np" end="19" id="28" rel="obj1">
+            <node begin="17" buiging="met-e" end="18" graad="basis" id="29" lemma="bruin" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="bruin" word="bruine"/>
+            <node begin="18" end="19" genus="zijd" getal="ev" graad="basis" id="30" lemma="modder" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="modder" word="modder"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" id="31" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De nacht van 17 op 18 juni regende het nog altijd ; de lössachtige grond veranderde in bruine modder .</sentence>
+</alpino_ds>

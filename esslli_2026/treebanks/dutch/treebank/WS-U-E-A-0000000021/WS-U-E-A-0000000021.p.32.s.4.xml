@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="smain" end="10" id="1" rel="--">
+      <node begin="0" cat="pp" end="2" id="2" rel="mod">
+        <node begin="0" buiging="zonder" end="1" graad="basis" id="3" lemma="juist" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="juist" word="Juist"/>
+        <node begin="1" end="2" id="4" lemma="daarom" pos="pp" postag="BW()" pt="bw" rel="hd" root="daarom" word="daarom"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="zetten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="zet" word="zetten" wvorm="pv"/>
+      <node begin="3" cat="np" end="5" id="6" rel="su">
+        <node begin="3" end="4" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="4" end="5" getal="mv" graad="basis" id="8" lemma="vakbond" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vakbond" word="vakbonden"/>
+      </node>
+      <node begin="5" cat="np" end="7" id="9" rel="obj1">
+        <node begin="5" buiging="zonder" end="6" getal="mv" id="10" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+        <node begin="6" end="7" getal="mv" graad="basis" id="11" lemma="vraagteken" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vraagteken" word="vraagtekens"/>
+      </node>
+      <node begin="7" cat="pp" end="10" id="12" rel="ld">
+        <node begin="7" end="8" id="13" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+        <node begin="8" cat="np" end="10" id="14" rel="obj1">
+          <node begin="8" end="9" id="15" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="16" lemma="reorganisatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="reorganisatie" word="reorganisatie"/>
+        </node>
+      </node>
+    </node>
+    <node begin="10" end="11" id="17" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Juist daarom zetten de vakbonden hun vraagtekens bij de reorganisatie .</sentence>
+</alpino_ds>

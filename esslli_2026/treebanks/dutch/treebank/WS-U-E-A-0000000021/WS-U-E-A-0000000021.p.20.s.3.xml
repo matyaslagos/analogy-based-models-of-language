@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="11" end="12" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="19" id="3" rel="--">
+      <node begin="0" cat="smain" end="5" id="4" rel="dp">
+        <node begin="0" cat="np" end="2" id="5" rel="su">
+          <node begin="0" end="1" id="6" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+          <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="7" lemma="proef" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="proef" word="proef"/>
+        </node>
+        <node begin="2" end="3" id="8" lemma="duren" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="duur" word="duurde" wvorm="pv"/>
+        <node begin="3" cat="np" end="5" id="9" rel="me">
+          <node begin="3" end="4" id="10" lemma="drie" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="drie" word="drie"/>
+          <node begin="4" end="5" getal="mv" graad="basis" id="11" lemma="dag" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="dag" word="dagen"/>
+        </node>
+      </node>
+      <node begin="6" cat="smain" end="19" id="12" rel="dp">
+        <node begin="7" end="8" id="13" lemma="worden" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="word" word="werden" wvorm="pv"/>
+        <node begin="6" cat="ppart" end="19" id="14" rel="vc">
+          <node begin="6" end="7" id="15" lemma="daarbij" pos="pp" postag="BW()" pt="bw" rel="mod" root="daarbij" word="daarbij"/>
+          <node begin="10" buiging="zonder" end="11" id="16" lemma="bestellen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="bestel" word="besteld" wvorm="vd"/>
+          <node begin="8" cat="np" end="19" id="17" index="1" rel="obj1">
+            <node begin="8" end="9" id="18" lemma="12" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="12" word="12"/>
+            <node begin="9" end="10" getal="mv" graad="basis" id="19" lemma="vrouw" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vrouw" word="vrouwen"/>
+            <node begin="12" cat="rel" end="19" id="20" rel="mod">
+              <node begin="12" end="13" id="21" index="2" lemma="waarvan" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waarvan" word="waarvan"/>
+              <node begin="12" cat="ssub" end="19" id="22" rel="body">
+                <node begin="13" cat="np" end="15" id="23" index="3" rel="su">
+                  <node begin="13" end="14" id="24" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="25" lemma="helft" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="helft" word="helft"/>
+                </node>
+                <node begin="16" end="17" id="26" lemma="blijken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="blijk" word="bleek" wvorm="pv"/>
+                <node begin="12" cat="ti" end="19" id="27" rel="vc">
+                  <node begin="17" end="18" id="28" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+                  <node begin="12" cat="inf" end="19" id="29" rel="body">
+                    <node begin="12" end="13" id="30" index="2" rel="mod"/>
+                    <node begin="13" end="15" id="31" index="3" rel="su"/>
+                    <node begin="15" buiging="zonder" end="16" graad="basis" id="32" lemma="illegaal" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="illegaal" word="illegaal"/>
+                    <node begin="18" buiging="zonder" end="19" id="33" lemma="zijn" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ben" word="zijn" wvorm="inf"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="8" end="19" id="34" index="1" rel="su"/>
+      </node>
+    </node>
+    <node begin="19" end="20" id="35" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De proef duurde drie dagen , daarbij werden 12 vrouwen besteld , waarvan de helft illegaal bleek te zijn .</sentence>
+</alpino_ds>

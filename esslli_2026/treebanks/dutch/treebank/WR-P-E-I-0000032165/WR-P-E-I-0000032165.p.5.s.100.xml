@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="17" id="2" rel="--">
+      <node begin="0" cat="smain" end="6" id="3" rel="cnj">
+        <node begin="0" buiging="zonder" end="1" graad="basis" id="4" lemma="uiteindelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="uiteindelijk" word="Uiteindelijk"/>
+        <node begin="1" end="2" id="5" lemma="zetten" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="zet" word="zette" wvorm="pv"/>
+        <node begin="2" end="3" getal="ev" id="6" index="1" lemma="dit" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" root="dit" status="vol" vwtype="aanw" word="dit"/>
+        <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="7" lemma="druk" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="druk" word="druk"/>
+        <node begin="4" cat="pp" end="6" id="8" rel="ld">
+          <node begin="4" end="5" id="9" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+          <node begin="5" end="6" getal="mv" graad="basis" id="10" lemma="belasting_stelsel" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="belasting_stelsel" word="belastingstelsels"/>
+        </node>
+      </node>
+      <node begin="7" conjtype="neven" end="8" id="11" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="2" cat="smain" end="17" id="12" rel="cnj">
+        <node begin="2" end="3" id="13" index="1" rel="su"/>
+        <node begin="8" end="9" id="14" lemma="duwen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="duw" word="duwde" wvorm="pv"/>
+        <node begin="9" end="10" getal="mv" graad="basis" id="15" lemma="land" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="land" word="landen"/>
+        <node begin="10" cat="pp" end="12" id="16" rel="mod">
+          <node begin="10" end="11" id="17" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="11" end="12" getal="mv" graad="basis" id="18" lemma="tarief" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="tarief" word="tarieven"/>
+        </node>
+        <node begin="12" cat="pp" end="17" id="19" rel="ld">
+          <node begin="12" end="13" id="20" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" vztype="init" word="naar"/>
+          <node begin="13" cat="conj" end="17" id="21" rel="obj1">
+            <node begin="13" cat="np" end="15" id="22" rel="cnj">
+              <node begin="13" end="14" id="23" index="2" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="14" end="15" id="24" lemma="inkomsten-" pos="prefix" postag="SPEC(afgebr)" pt="spec" rel="hd" root="inkomsten" spectype="afgebr" word="inkomsten-"/>
+            </node>
+            <node begin="15" conjtype="neven" end="16" id="25" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="13" cat="np" end="17" id="26" rel="cnj">
+              <node begin="13" end="14" id="27" index="2" rel="det"/>
+              <node begin="16" end="17" genus="onz" getal="ev" graad="basis" id="28" lemma="verkoop_belastingenstelsel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="verkoop_belasting_stelsel" word="verkoopbelastingenstelsel"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="29" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Uiteindelijk zette dit druk op belastingstelsels , en duwde landen van tarieven naar een inkomsten- en verkoopbelastingenstelsel .</sentence>
+</alpino_ds>

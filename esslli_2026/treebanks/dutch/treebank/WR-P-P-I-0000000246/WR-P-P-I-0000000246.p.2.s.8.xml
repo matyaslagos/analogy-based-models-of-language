@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="26" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="9" end="10" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="10" end="11" id="3" lemma="_" pos="punct" postag="LET()" pt="let" rel="--" root="_" word="_"/>
+    <node begin="12" end="13" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="21" end="22" id="5" lemma="_" pos="punct" postag="LET()" pt="let" rel="--" root="_" word="_"/>
+    <node begin="0" cat="smain" end="25" id="6" rel="--">
+      <node begin="0" cat="pp" end="3" id="7" rel="mod">
+        <node begin="0" end="1" id="8" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="Op"/>
+        <node begin="1" cat="mwu" end="3" id="9" rel="obj1">
+          <node begin="1" end="2" id="10" lemma="23" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="23" word="23"/>
+          <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="11" lemma="december" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="december" word="december"/>
+        </node>
+      </node>
+      <node begin="3" end="4" id="12" lemma="af_leggen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="leg_af" word="legde" wvorm="pv"/>
+      <node begin="4" cat="np" end="21" id="13" rel="su">
+        <node begin="4" cat="mwu" end="7" id="14" rel="hd">
+          <node begin="4" end="5" id="15" lemma="Adolfo" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Adolfo" spectype="deeleigen" word="Adolfo"/>
+          <node begin="5" end="6" id="16" lemma="Rodriguez" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Rodriguez" spectype="deeleigen" word="Rodriguez"/>
+          <node begin="6" end="7" id="17" lemma="Saa" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Saa" spectype="deeleigen" word="Saa"/>
+        </node>
+        <node begin="8" end="9" id="18" lemma="54" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mod" root="54" word="54"/>
+        <node begin="11" cat="conj" end="21" id="19" rel="app">
+          <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="20" lemma="advocaat" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="advocaat" word="advocaat"/>
+          <node begin="13" cat="np" end="19" id="21" rel="cnj">
+            <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="22" lemma="gouverneur" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="gouverneur" word="gouverneur"/>
+            <node begin="14" cat="pp" end="19" id="23" rel="mod">
+              <node begin="14" end="15" id="24" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+              <node begin="15" cat="np" end="19" id="25" rel="obj1">
+                <node begin="15" end="16" id="26" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="27" lemma="provincie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="provincie" word="provincie"/>
+                <node begin="17" cat="mwu" end="19" id="28" rel="app">
+                  <node begin="17" end="18" id="29" lemma="San" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="San" spectype="deeleigen" word="San"/>
+                  <node begin="18" end="19" id="30" lemma="Luis" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Luis" spectype="deeleigen" word="Luis"/>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="19" conjtype="neven" end="20" id="31" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="én" word="én"/>
+          <node begin="20" end="21" genus="zijd" getal="ev" graad="basis" id="32" lemma="peronist" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="peronist" word="peronist"/>
+        </node>
+      </node>
+      <node begin="22" cat="np" end="24" id="33" rel="obj1">
+        <node begin="22" end="23" id="34" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="23" end="24" genus="zijd" getal="ev" graad="basis" id="35" lemma="eed" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="eed" word="eed"/>
+      </node>
+      <node begin="24" end="25" id="36" lemma="af" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="af" vztype="fin" word="af"/>
+    </node>
+    <node begin="25" end="26" id="37" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Op 23 december legde Adolfo Rodriguez Saa ( 54 ) _ advocaat , gouverneur van de provincie San Luis én peronist _ de eed af .</sentence>
+</alpino_ds>

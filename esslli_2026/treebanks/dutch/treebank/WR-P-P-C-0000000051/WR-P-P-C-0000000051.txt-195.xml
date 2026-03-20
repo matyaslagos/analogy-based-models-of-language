@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="12" id="2" rel="--">
+      <node begin="0" cat="np" end="2" id="3" rel="su">
+        <node begin="0" end="1" id="4" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="5" lemma="hartslag" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="hartslag" word="hartslag"/>
+      </node>
+      <node begin="2" end="3" id="6" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="3" end="4" id="7" lemma="soms" pos="adv" postag="BW()" pt="bw" rel="mod" root="soms" word="soms"/>
+      <node begin="4" cat="conj" end="12" id="8" rel="predc">
+        <node begin="4" cat="ap" end="7" id="9" rel="cnj">
+          <node begin="4" end="5" id="10" lemma="even" pos="adj" postag="BW()" pt="bw" rel="mod" root="even" word="even"/>
+          <node begin="5" end="6" getal="ev" id="11" lemma="wat" naamval="stan" pdtype="pron" persoon="3o" pos="adv" postag="VNW(onbep,pron,stan,vol,3o,ev)" pt="vnw" rel="mod" root="wat" status="vol" vwtype="onbep" word="wat"/>
+          <node begin="6" buiging="zonder" end="7" graad="basis" id="12" lemma="onregelmatig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="onregelmatig" word="onregelmatig"/>
+        </node>
+        <node begin="8" cat="ap" end="12" id="13" rel="cnj">
+          <node begin="8" end="9" id="14" lemma="daarna" pos="adv" postag="BW()" pt="bw" rel="mod" root="daarna" word="daarna"/>
+          <node begin="9" buiging="zonder" end="10" graad="comp" id="15" lemma="snel" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="snel" word="sneller"/>
+          <node begin="10" cat="cp" end="12" id="16" rel="obcomp">
+            <node begin="10" conjtype="onder" end="11" id="17" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="dan" word="dan"/>
+            <node begin="11" buiging="zonder" end="12" graad="basis" id="18" lemma="normaal" pos="noun" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="body" root="normaal" word="normaal"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" id="19" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De hartslag is soms even wat onregelmatig , daarna sneller dan normaal .</sentence>
+</alpino_ds>

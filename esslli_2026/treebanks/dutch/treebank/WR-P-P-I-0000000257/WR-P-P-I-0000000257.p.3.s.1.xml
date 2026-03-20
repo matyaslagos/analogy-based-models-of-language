@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="32" id="0" rel="top">
+    <node begin="6" end="7" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="17" end="18" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="31" id="3" rel="--">
+      <node begin="0" cat="mwu" end="2" id="4" rel="su">
+        <node begin="0" end="1" id="5" lemma="De" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="De" spectype="deeleigen" word="De"/>
+        <node begin="1" end="2" id="6" lemma="Gucht" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Gucht" spectype="deeleigen" word="Gucht"/>
+      </node>
+      <node begin="2" end="3" id="7" lemma="vinden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="vind" word="vindt" wvorm="pv"/>
+      <node begin="7" cat="cp" end="17" id="8" rel="mod">
+        <node begin="7" conjtype="onder" end="8" id="9" lemma="al" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="al" word="al"/>
+        <node begin="8" cat="sv1" end="17" id="10" rel="body">
+          <node begin="8" end="9" id="11" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+          <node begin="9" end="10" genus="onz" getal="ev" id="12" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" root="het" status="red" vwtype="pers" word="het"/>
+          <node begin="10" end="11" id="13" lemma="maar" pos="adv" postag="BW()" pt="bw" rel="mod" root="maar" word="maar"/>
+          <node begin="11" cat="cp" end="17" id="14" rel="mod">
+            <node begin="11" conjtype="onder" end="12" id="15" lemma="omdat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="omdat" word="omdat"/>
+            <node begin="12" cat="ssub" end="17" id="16" rel="body">
+              <node begin="12" end="13" getal="mv" id="17" index="1" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="ze"/>
+              <node begin="15" end="16" id="18" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" word="worden" wvorm="pv"/>
+              <node begin="12" cat="ppart" end="17" id="19" rel="vc">
+                <node begin="12" end="13" id="20" index="1" rel="obj1"/>
+                <node begin="13" cat="pp" end="15" id="21" rel="mod">
+                  <node begin="13" end="14" id="22" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+                  <node begin="14" end="15" genus="onz" getal="ev" graad="basis" id="23" lemma="gemeenschap_geld" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="gemeenschap_geld" word="gemeenschapsgeld"/>
+                </node>
+                <node begin="16" buiging="zonder" end="17" id="24" lemma="financieren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="financier" word="gefinancierd" wvorm="vd"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="3" cat="cp" end="31" id="25" rel="vc">
+        <node begin="3" conjtype="onder" end="4" id="26" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+        <node begin="4" cat="ssub" end="31" id="27" rel="body">
+          <node begin="4" cat="np" end="6" id="28" index="2" rel="su">
+            <node begin="4" buiging="met-e" end="5" graad="basis" id="29" lemma="katholiek" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="katholiek" word="katholieke"/>
+            <node begin="5" end="6" getal="mv" graad="basis" id="30" lemma="school" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="school" word="scholen"/>
+          </node>
+          <node begin="20" end="21" id="31" lemma="moeten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="moet" word="moeten" wvorm="pv"/>
+          <node begin="4" cat="conj" end="31" id="32" rel="vc">
+            <node begin="4" cat="inf" end="26" id="33" rel="cnj">
+              <node begin="4" end="6" id="34" index="2" rel="su"/>
+              <node begin="18" end="19" id="35" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+              <node begin="19" end="20" genus="zijd" getal="ev" graad="basis" id="36" lemma="zede_leer" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="zede_leer" word="zedenleer"/>
+              <node begin="21" buiging="zonder" end="22" id="37" lemma="aan_bieden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="bied_aan" word="aanbieden" wvorm="inf"/>
+              <node begin="22" cat="pp" end="26" id="38" rel="obj2">
+                <node begin="22" end="23" id="39" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+                <node begin="23" cat="np" end="26" id="40" rel="obj1">
+                  <node begin="23" buiging="zonder" end="24" getal="mv" id="41" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+                  <node begin="24" buiging="met-e" end="25" graad="basis" id="42" lemma="vrijzinnig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="vrijzinnig" word="vrijzinnige"/>
+                  <node begin="25" end="26" getal="mv" graad="basis" id="43" lemma="leerling" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="leerling" word="leerlingen"/>
+                </node>
+              </node>
+            </node>
+            <node begin="26" conjtype="neven" end="27" id="44" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="4" cat="ssub" end="31" id="45" rel="cnj">
+              <node begin="4" end="6" id="46" index="2" rel="su"/>
+              <node begin="29" end="30" id="47" lemma="moeten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="moet" word="moeten" wvorm="pv"/>
+              <node begin="4" cat="inf" end="31" id="48" rel="vc">
+                <node begin="4" end="6" id="49" index="2" rel="su"/>
+                <node begin="27" cat="np" end="29" id="50" rel="obj1">
+                  <node begin="27" buiging="zonder" end="28" getal="mv" id="51" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+                  <node begin="28" end="29" genus="onz" getal="ev" graad="basis" id="52" lemma="beheer" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="beheer" word="beheer"/>
+                </node>
+                <node begin="30" buiging="zonder" end="31" id="53" lemma="democratiseren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="democratiseer" word="democratiseren" wvorm="inf"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="31" end="32" id="54" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De Gucht vindt dat katholieke scholen , al was het maar omdat ze met gemeenschapsgeld worden gefinancierd , ook zedenleer moeten aanbieden aan hun vrijzinnige leerlingen en hun beheer moeten democratiseren .</sentence>
+</alpino_ds>

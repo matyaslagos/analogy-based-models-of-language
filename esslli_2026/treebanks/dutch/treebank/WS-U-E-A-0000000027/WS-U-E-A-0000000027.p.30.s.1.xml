@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" index="1" rel="su">
+        <node begin="0" buiging="met-e" end="1" graad="basis" id="3" lemma="Nederlands" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Nederlands" word="Nederlandse"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="4" lemma="internetprovider" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="internetprovider" word="internetproviders"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" word="hebben" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="8" id="6" rel="vc">
+        <node begin="0" end="2" id="7" index="1" rel="su"/>
+        <node begin="3" end="4" id="8" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mod" root="al" word="al"/>
+        <node begin="4" cat="np" end="7" id="9" rel="obj1">
+          <node begin="4" end="5" getal-n="mv-n" graad="basis" id="10" lemma="honderd_duizend" numtype="hoofd" pos="noun" positie="nom" postag="TW(hoofd,nom,mv-n,basis)" pt="tw" rel="hd" root="honderdduizenden" word="honderdduizenden"/>
+          <node begin="5" cat="np" end="7" id="11" rel="mod">
+            <node begin="5" buiging="met-e" end="6" id="12" lemma="besmetten" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="besmet" word="besmette" wvorm="vd"/>
+            <node begin="6" end="7" getal="mv" graad="basis" id="13" lemma="e-mail" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="e-mail" word="e-mails"/>
+          </node>
+        </node>
+        <node begin="7" buiging="zonder" end="8" id="14" lemma="tegen_houden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="houd_tegen" word="tegengehouden" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="15" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Nederlandse internetproviders hebben al honderdduizenden besmette e-mails tegengehouden .</sentence>
+</alpino_ds>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="6" id="2" rel="--">
+      <node begin="0" cat="pp" end="2" id="3" rel="cnj">
+        <node begin="0" end="1" id="4" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="Op"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="5" lemma="school" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="school" word="school"/>
+      </node>
+      <node begin="3" cat="pp" end="6" id="6" rel="cnj">
+        <node begin="3" end="4" id="7" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="4" cat="np" end="6" id="8" rel="obj1">
+          <node begin="4" buiging="zonder" end="5" id="9" lemma="besluiten" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="mod" root="besloten" word="besloten" wvorm="vd"/>
+          <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="10" lemma="kring" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="kring" word="kring"/>
+        </node>
+      </node>
+    </node>
+    <node begin="6" end="7" id="11" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Op school , in besloten kring .</sentence>
+</alpino_ds>

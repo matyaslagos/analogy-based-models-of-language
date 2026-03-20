@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="np" end="8" id="2" rel="--">
+      <node begin="0" buiging="zonder" end="1" graad="basis" id="3" lemma="online" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="online" word="Online"/>
+      <node begin="1" end="2" getal="mv" graad="basis" id="4" lemma="studie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="studie" word="studies"/>
+      <node begin="2" cat="pp" end="4" id="5" rel="mod">
+        <node begin="2" end="3" id="6" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" vztype="init" word="over"/>
+        <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="7" lemma="Brussel" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Brussel" word="Brussel"/>
+      </node>
+      <node begin="5" cat="np" end="8" id="8" rel="mod">
+        <node begin="5" buiging="met-e" end="6" graad="basis" id="9" lemma="digitaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="digitaal" word="Digitale"/>
+        <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="10" lemma="bibliotheek" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="bibliotheek" word="bibliotheek"/>
+        <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="11" lemma="NIS" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="app" root="NIS" word="NIS"/>
+      </node>
+    </node>
+    <node begin="8" end="9" id="12" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+  </node>
+  <sentence>Online studies over Brussel ( Digitale bibliotheek NIS )</sentence>
+</alpino_ds>

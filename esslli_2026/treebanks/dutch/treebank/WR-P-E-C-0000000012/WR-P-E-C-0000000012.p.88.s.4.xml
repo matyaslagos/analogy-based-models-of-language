@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="du" end="6" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="en" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="en" word="En"/>
+      <node begin="1" cat="whq" end="6" id="3" rel="nucl">
+        <node begin="1" end="2" id="4" index="1" lemma="waaruit" pos="pp" postag="BW()" pt="bw" rel="whd" root="waaruit" word="waaruit"/>
+        <node begin="1" cat="sv1" end="6" id="5" rel="body">
+          <node begin="1" end="2" id="6" index="1" rel="pc"/>
+          <node begin="2" end="3" id="7" lemma="bestaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="besta" word="bestaat" wvorm="pv"/>
+          <node begin="3" cat="np" end="6" id="8" rel="su">
+            <node begin="3" buiging="zonder" end="4" id="9" lemma="dit" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dit" vwtype="aanw" word="dit"/>
+            <node begin="4" buiging="met-e" end="5" graad="basis" id="10" lemma="etnisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="etnisch" word="etnische"/>
+            <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="11" lemma="Nederlands" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Nederlands" word="Nederlands"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="6" end="7" id="12" lemma="?" pos="punct" postag="LET()" pt="let" rel="--" root="?" word="?"/>
+  </node>
+  <sentence>En waaruit bestaat dit etnische Nederlands ?</sentence>
+</alpino_ds>

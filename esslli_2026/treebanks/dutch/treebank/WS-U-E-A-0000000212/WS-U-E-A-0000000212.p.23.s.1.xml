@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="smain" end="13" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" index="1" rel="su">
+        <node begin="0" buiging="met-e" end="1" graad="basis" id="3" lemma="Turks" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Turks" word="Turkse"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="4" lemma="vracht_wagen_chauffeur" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vrachtwagen_chauffeur" word="vrachtwagenchauffeurs"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="zullen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="zal" word="zullen" wvorm="pv"/>
+      <node begin="0" cat="inf" end="13" id="6" rel="vc">
+        <node begin="0" end="2" id="7" index="1" rel="su"/>
+        <node begin="3" cat="pp" end="5" id="8" rel="mod">
+          <node begin="3" end="4" id="9" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="10" lemma="Irak" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Irak" word="Irak"/>
+        </node>
+        <node begin="5" cat="np" end="7" id="11" rel="obj1">
+          <node begin="5" buiging="zonder" end="6" id="12" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="geen"/>
+          <node begin="6" end="7" getal="mv" graad="basis" id="13" lemma="goed" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="goed" word="goederen"/>
+        </node>
+        <node begin="7" buiging="zonder" end="8" graad="comp" id="14" lemma="veel" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mod" root="meer" vwtype="onbep" word="meer"/>
+        <node begin="8" cat="pp" end="12" id="15" rel="mod">
+          <node begin="8" end="9" id="16" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="9" cat="np" end="12" id="17" rel="obj1">
+            <node begin="9" end="10" id="18" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="10" buiging="met-e" end="11" graad="basis" id="19" lemma="Amerikaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Amerikaans" word="Amerikaanse"/>
+            <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="20" lemma="leger" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="leger" word="leger"/>
+          </node>
+        </node>
+        <node begin="12" buiging="zonder" end="13" id="21" lemma="vervoeren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="vervoer" word="vervoeren" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="13" end="14" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Turkse vrachtwagenchauffeurs zullen in Irak geen goederen meer voor het Amerikaanse leger vervoeren .</sentence>
+</alpino_ds>

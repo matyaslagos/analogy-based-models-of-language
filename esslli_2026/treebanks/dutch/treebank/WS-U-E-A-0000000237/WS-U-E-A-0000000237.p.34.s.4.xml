@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="smain" end="12" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" index="1" rel="su">
+        <node begin="0" buiging="zonder" end="1" id="3" lemma="die" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,rest)" pt="vnw" rel="det" root="die" vwtype="aanw" word="Die"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="4" lemma="beschadiging" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="beschadiging" word="beschadigingen"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="12" id="6" rel="vc">
+        <node begin="0" end="2" id="7" index="1" rel="su"/>
+        <node begin="3" buiging="zonder" end="4" graad="basis" id="8" lemma="mogelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="mogelijk" word="mogelijk"/>
+        <node begin="4" buiging="zonder" end="5" id="9" lemma="ontstaan" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="ontsta" word="ontstaan" wvorm="vd"/>
+        <node begin="5" cat="cp" end="12" id="10" rel="mod">
+          <node begin="5" conjtype="onder" end="6" id="11" lemma="toen" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="toen" word="toen"/>
+          <node begin="6" cat="ssub" end="12" id="12" rel="body">
+            <node begin="6" cat="np" end="8" id="13" rel="su">
+              <node begin="6" end="7" id="14" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="15" lemma="dier" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="dier" word="dier"/>
+            </node>
+            <node begin="8" cat="pp" end="11" id="16" rel="ld">
+              <node begin="8" end="9" id="17" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+              <node begin="9" cat="np" end="11" id="18" rel="obj1">
+                <node begin="9" end="10" id="19" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="20" lemma="Noordzee_strand" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Noordzeestrand" word="Noordzeestrand"/>
+              </node>
+            </node>
+            <node begin="11" end="12" id="21" lemma="aan_spoelen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="spoel_aan" word="aanspoelde" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Die beschadigingen zijn mogelijk ontstaan toen het dier op het Noordzeestrand aanspoelde .</sentence>
+</alpino_ds>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" cat="conj" end="3" id="2" index="1" rel="su">
+        <node begin="0" buiging="zonder" end="1" id="3" lemma="spreken" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="cnj" root="gesproken" word="Gesproken" wvorm="vd"/>
+        <node begin="1" conjtype="neven" end="2" id="4" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="2" end="3" getal="mv" graad="basis" id="5" lemma="braille_versie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="brailleversies" word="brailleversies"/>
+      </node>
+      <node begin="3" end="4" id="6" lemma="kunnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kan" word="kunnen" wvorm="pv"/>
+      <node begin="0" cat="inf" end="7" id="7" rel="vc">
+        <node begin="0" end="3" id="8" index="1" rel="su"/>
+        <node begin="0" cat="ppart" end="6" id="9" rel="vc">
+          <node begin="0" end="3" id="10" index="1" rel="obj1"/>
+          <node begin="4" buiging="zonder" end="5" graad="basis" id="11" lemma="on-line" pos="noun" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="on-line" word="on-line"/>
+          <node begin="5" buiging="zonder" end="6" id="12" lemma="bestellen" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="bestel" word="besteld" wvorm="vd"/>
+        </node>
+        <node begin="6" buiging="zonder" end="7" id="13" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="7" end="8" id="14" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Gesproken en brailleversies kunnen on-line besteld worden .</sentence>
+</alpino_ds>

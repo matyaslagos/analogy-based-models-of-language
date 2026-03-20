@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="smain" end="13" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="4" lemma="goud_standaard_aanhanger" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="goud_standaard_aanhanger" word="goudstandaardaanhangers"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" word="hebben" wvorm="pv"/>
+      <node begin="3" cat="np" end="13" id="6" rel="obj1">
+        <node begin="3" end="4" id="7" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="4" buiging="met-e" end="5" graad="basis" id="8" lemma="sterk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="sterk" word="sterke"/>
+        <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="9" lemma="aanhang" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="aanhang" word="aanhang"/>
+        <node begin="6" cat="pp" end="13" id="10" rel="mod">
+          <node begin="6" end="7" id="11" lemma="onder" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="onder" vztype="init" word="onder"/>
+          <node begin="7" cat="conj" end="13" id="12" rel="obj1">
+            <node begin="7" end="8" getal="mv" graad="basis" id="13" lemma="goed_handelaar" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="goed_handelaar" word="goederenhandelaren"/>
+            <node begin="8" conjtype="neven" end="9" id="14" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="9" cat="np" end="13" id="15" rel="cnj">
+              <node begin="9" end="10" getal="mv" graad="basis" id="16" lemma="haag_fonds" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="haag_fonds" word="haagfondsen"/>
+              <node begin="10" cat="pp" end="13" id="17" rel="mod">
+                <node begin="10" end="11" id="18" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+                <node begin="11" cat="np" end="13" id="19" rel="obj1">
+                  <node begin="11" end="12" id="20" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                  <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="21" lemma="baisserichtlijn" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="baisserichtlijn" word="baisserichtlijn"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De goudstandaardaanhangers hebben een sterke aanhang onder goederenhandelaren en haagfondsen met een baisserichtlijn .</sentence>
+</alpino_ds>

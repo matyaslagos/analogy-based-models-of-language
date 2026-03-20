@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="0" cat="conj" end="10" id="2" index="1" rel="su">
+        <node begin="0" cat="np" end="2" id="3" rel="cnj">
+          <node begin="0" buiging="zonder" end="1" id="4" lemma="overdrijven" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="mod" root="overdreven" word="Overdreven" wvorm="vd"/>
+          <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="5" lemma="papier_werk" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="papierwerk" word="papierwerk"/>
+        </node>
+        <node begin="2" conjtype="neven" end="3" id="6" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="3" cat="np" end="10" id="7" rel="cnj">
+          <node begin="3" end="4" getal="mv" graad="basis" id="8" lemma="taak" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="taak" word="taken"/>
+          <node begin="4" cat="rel" end="10" id="9" rel="mod">
+            <node begin="4" end="5" getal="getal" id="10" index="2" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+            <node begin="4" cat="ssub" end="10" id="11" rel="body">
+              <node begin="4" end="5" id="12" index="2" rel="su"/>
+              <node begin="5" end="6" id="13" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+              <node begin="6" cat="pp" end="9" id="14" rel="pc">
+                <node begin="6" end="7" id="15" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" vztype="init" word="tot"/>
+                <node begin="7" cat="np" end="9" id="16" rel="obj1">
+                  <node begin="7" buiging="zonder" end="8" getal="mv" id="17" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+                  <node begin="8" end="9" getal="mv" graad="basis" id="18" lemma="kern_taak" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kerntaak" word="kerntaken"/>
+                </node>
+              </node>
+              <node begin="9" end="10" id="19" lemma="behoren" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="behoor" word="behoren" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="10" end="11" id="20" lemma="moeten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="moet" word="moeten" wvorm="pv"/>
+      <node begin="0" cat="inf" end="14" id="21" rel="vc">
+        <node begin="0" end="10" id="22" index="1" rel="su"/>
+        <node begin="0" cat="ppart" end="13" id="23" rel="vc">
+          <node begin="0" end="10" id="24" index="1" rel="obj1"/>
+          <node begin="11" end="12" id="25" lemma="daarom" pos="pp" postag="BW()" pt="bw" rel="mod" root="daarom" word="daarom"/>
+          <node begin="12" buiging="zonder" end="13" id="26" lemma="vermijden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="vermijd" word="vermeden" wvorm="vd"/>
+        </node>
+        <node begin="13" buiging="zonder" end="14" id="27" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" word="worden" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="14" end="15" id="28" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Overdreven papierwerk en taken die niet tot hun kerntaken behoren moeten daarom vermeden worden .</sentence>
+</alpino_ds>

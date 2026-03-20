@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="du" end="7" id="1" rel="--">
+      <node begin="0" cat="du" end="6" id="2" rel="nucl">
+        <node begin="0" end="1" id="3" lemma="ja" pos="tag" postag="TSW()" pt="tsw" rel="tag" root="ja" word="JA"/>
+        <node begin="1" cat="smain" end="6" id="4" rel="nucl">
+          <node begin="1" cat="np" end="3" id="5" rel="su">
+            <node begin="1" end="2" id="6" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="7" lemma="uitkomst" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="uitkomst" word="uitkomst"/>
+          </node>
+          <node begin="3" end="4" id="8" lemma="vast_staan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="sta_vast" word="staat" wvorm="pv"/>
+          <node begin="4" end="5" id="9" lemma="wel" pos="adv" postag="BW()" pt="bw" rel="mod" root="wel" word="wel"/>
+          <node begin="5" buiging="zonder" end="6" graad="basis" id="10" lemma="vast" pos="part" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="svp" root="vast" word="vast"/>
+        </node>
+      </node>
+      <node begin="6" end="7" id="11" lemma="hoor" pos="tag" postag="TSW()" pt="tsw" rel="tag" root="hoor" word="hoor"/>
+    </node>
+    <node begin="7" end="8" id="12" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>JA de uitkomst staat wel vast hoor .</sentence>
+</alpino_ds>

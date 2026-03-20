@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="smain" end="12" id="1" rel="--">
+      <node begin="0" cat="np" end="4" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+        <node begin="1" end="2" genus="onz" getal="ev" graad="basis" id="4" lemma="vak" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="vak" word="vak"/>
+        <node begin="2" cat="pp" end="4" id="5" rel="mod">
+          <node begin="2" end="3" id="6" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="7" lemma="vracht_wagen_chauffeur" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="vrachtwagen_chauffeur" word="vrachtwagenchauffeur"/>
+        </node>
+      </node>
+      <node begin="4" end="5" id="8" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="5" cat="mwu" end="7" id="9" rel="mod">
+        <node begin="5" buiging="zonder" end="6" id="10" lemma="zo&apos;n" naamval="stan" npagr="agr" pdtype="det" pos="adv" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,agr)" pt="vnw" rel="mwp" root="zo&apos;n" vwtype="aanw" word="zo&apos;n"/>
+        <node begin="6" end="7" genus="onz" getal="ev" graad="dim" id="11" lemma="beetje" naamval="stan" ntype="soort" pos="adv" postag="N(soort,ev,dim,onz,stan)" pt="n" rel="mwp" root="beetje" word="beetje"/>
+      </node>
+      <node begin="7" cat="np" end="12" id="12" rel="predc">
+        <node begin="7" end="8" id="13" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+        <node begin="8" buiging="met-e" end="9" graad="sup" id="14" lemma="eenzaam" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="mod" root="eenzaam" word="eenzaamste"/>
+        <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="15" lemma="beroep" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="beroep" word="beroep"/>
+        <node begin="10" cat="pp" end="12" id="16" rel="mod">
+          <node begin="10" end="11" id="17" lemma="te" pos="prep" postag="VZ(versm)" pt="vz" rel="hd" root="te" vztype="versm" word="ter"/>
+          <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="18" lemma="wereld" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="wereld" word="wereld"/>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" id="19" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het vak van vrachtwagenchauffeur is zo&apos;n beetje het eenzaamste beroep ter wereld .</sentence>
+</alpino_ds>

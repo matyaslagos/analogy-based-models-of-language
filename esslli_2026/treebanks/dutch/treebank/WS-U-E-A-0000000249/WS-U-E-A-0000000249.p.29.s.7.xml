@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="du" end="7" id="1" rel="--">
+      <node begin="0" cat="smain" end="5" id="2" rel="nucl">
+        <node begin="0" end="1" getal="ev" id="3" lemma="dit" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" root="dit" status="vol" vwtype="aanw" word="Dit"/>
+        <node begin="1" end="2" id="4" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="2" cat="np" end="5" id="5" rel="predc">
+          <node begin="2" buiging="zonder" end="3" id="6" lemma="zo&apos;n" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="zo&apos;n" vwtype="aanw" word="zo&apos;n"/>
+          <node begin="3" buiging="zonder" end="4" graad="basis" id="7" lemma="full-time" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="full-time" word="fulltime"/>
+          <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="8" lemma="affiche_ontwerper" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="affiche_ontwerper" word="affiche-ontwerper"/>
+        </node>
+      </node>
+      <node begin="5" cat="mwu" end="7" id="9" rel="sat">
+        <node begin="5" end="6" id="10" lemma="Gijs" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Gijs" spectype="deeleigen" word="Gijs"/>
+        <node begin="6" end="7" id="11" lemma="Kuijper" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Kuijper" spectype="deeleigen" word="Kuijper"/>
+      </node>
+    </node>
+    <node begin="7" end="8" id="12" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dit is zo&apos;n fulltime affiche-ontwerper Gijs Kuijper .</sentence>
+</alpino_ds>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="2" end="3" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="1" cat="du" end="20" id="3" rel="--">
+      <node begin="1" conjtype="neven" end="2" id="4" lemma="en" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="en" word="En"/>
+      <node begin="3" cat="smain" end="20" id="5" rel="nucl">
+        <node begin="3" cat="np" end="5" id="6" index="1" rel="su">
+          <node begin="3" end="4" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="8" lemma="getuige" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="getuige" word="getuige"/>
+        </node>
+        <node begin="5" end="6" id="9" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" word="kan" wvorm="pv"/>
+        <node begin="3" cat="inf" end="20" id="10" rel="vc">
+          <node begin="3" end="5" id="11" index="1" rel="su"/>
+          <node begin="6" cat="np" end="8" id="12" rel="obj1">
+            <node begin="6" buiging="zonder" end="7" id="13" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="geen"/>
+            <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="14" lemma="immuniteit" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="immuniteit" word="immuniteit"/>
+          </node>
+          <node begin="8" buiging="zonder" end="9" id="15" lemma="krijgen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="krijg" word="krijgen" wvorm="inf"/>
+          <node begin="9" cat="cp" end="20" id="16" rel="mod">
+            <node begin="9" conjtype="onder" end="10" id="17" lemma="omdat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="omdat" word="omdat"/>
+            <node begin="10" cat="ssub" end="20" id="18" rel="body">
+              <node begin="10" end="11" genus="masc" getal="ev" id="19" index="2" lemma="hij" naamval="nomin" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="hij"/>
+              <node begin="11" end="12" id="20" lemma="zelf" pos="adv" postag="BW()" pt="bw" rel="predm" root="zelf" word="zelf"/>
+              <node begin="14" end="15" id="21" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+              <node begin="10" cat="ppart" end="20" id="22" rel="vc">
+                <node begin="10" end="11" id="23" index="2" rel="su"/>
+                <node begin="15" buiging="zonder" end="16" id="24" lemma="zijn" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="ben" word="geweest" wvorm="vd"/>
+                <node begin="12" cat="ppart" end="20" id="25" rel="predc">
+                  <node begin="12" buiging="zonder" end="13" graad="basis" id="26" lemma="zijdelings" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="zijdelings" word="zijdelings"/>
+                  <node begin="13" buiging="zonder" end="14" id="27" lemma="betrekken" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="betrokken" word="betrokken" wvorm="vd"/>
+                  <node begin="16" cat="pp" end="20" id="28" rel="pc">
+                    <node begin="16" end="17" id="29" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+                    <node begin="17" cat="np" end="20" id="30" rel="obj1">
+                      <node begin="17" end="18" getal="mv" graad="basis" id="31" lemma="liquidatie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="liquidatie" word="liquidaties"/>
+                      <node begin="18" cat="pp" end="20" id="32" rel="mod">
+                        <node begin="18" end="19" id="33" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                        <node begin="19" end="20" genus="onz" getal="ev" graad="basis" id="34" lemma="Amsterdam" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Amsterdam" word="Amsterdam"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="20" end="21" id="35" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>- En , de getuige kan geen immuniteit krijgen omdat hij zelf zijdelings betrokken is geweest bij liquidaties in Amsterdam .</sentence>
+</alpino_ds>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="5" end="6" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="14" id="3" rel="--">
+      <node begin="0" cat="np" end="5" id="4" rel="su">
+        <node begin="0" end="1" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="6" lemma="priester" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="priester" word="priester"/>
+        <node begin="3" cat="mwu" end="5" id="7" rel="app">
+          <node begin="3" end="4" id="8" lemma="Gaston" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Gaston" spectype="deeleigen" word="Gaston"/>
+          <node begin="4" end="5" id="9" lemma="Schoonbroodt" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Schoonbroodt" spectype="deeleigen" word="Schoonbroodt"/>
+        </node>
+      </node>
+      <node begin="6" end="7" id="10" lemma="verzorgen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="verzorg" word="verzorgde" wvorm="pv"/>
+      <node begin="7" end="8" id="11" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+      <node begin="8" cat="np" end="14" id="12" rel="obj1">
+        <node begin="8" end="9" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="14" lemma="uitvaart" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="uitvaart" word="uitvaart"/>
+        <node begin="10" cat="pp" end="14" id="15" rel="mod">
+          <node begin="10" end="11" id="16" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="11" cat="conj" end="14" id="17" rel="obj1">
+            <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="18" lemma="Julie" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Julie" word="Julie"/>
+            <node begin="12" conjtype="neven" end="13" id="19" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="20" lemma="Melissa" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Melissa" word="Melissa"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="21" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De priester , Gaston Schoonbroodt , verzorgde ook de uitvaart van Julie en Melissa .</sentence>
+</alpino_ds>

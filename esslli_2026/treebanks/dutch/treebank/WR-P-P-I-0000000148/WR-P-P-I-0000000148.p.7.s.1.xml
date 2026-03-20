@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="52" id="0" rel="top">
+    <node begin="11" end="12" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="22" end="23" id="2" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="23" end="24" id="3" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="28" end="29" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="38" end="39" id="5" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="47" end="48" id="6" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="50" id="7" rel="--">
+      <node begin="0" cat="smain" end="22" id="8" rel="tag">
+        <node begin="0" cat="pp" end="11" id="9" rel="mod">
+          <node begin="0" buiging="zonder" end="1" graad="basis" id="10" lemma="geheel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="geheel" word="Geheel"/>
+          <node begin="1" cat="mwu" end="4" id="11" rel="hd">
+            <node begin="1" end="2" id="12" lemma="in" pos="fixed" postag="VZ(init)" pt="vz" rel="mwp" root="in" vztype="init" word="in"/>
+            <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="13" lemma="strijd" naamval="stan" ntype="soort" pos="fixed" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="strijd" word="strijd"/>
+            <node begin="3" end="4" id="14" lemma="met" pos="fixed" postag="VZ(init)" pt="vz" rel="mwp" root="met" vztype="init" word="met"/>
+          </node>
+          <node begin="4" cat="conj" end="11" id="15" rel="obj1">
+            <node begin="5" conjtype="neven" end="6" id="16" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="4" cat="np" end="8" id="17" rel="cnj">
+              <node begin="4" buiging="zonder" end="5" id="18" lemma="die" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,rest)" pt="vnw" rel="det" root="die" vwtype="aanw" word="die"/>
+              <node begin="7" end="8" getal="mv" graad="basis" id="19" index="1" lemma="bevinding" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="bevinding" word="bevindingen"/>
+            </node>
+            <node begin="6" cat="np" end="11" id="20" rel="cnj">
+              <node begin="6" buiging="met-e" end="7" graad="basis" id="21" lemma="analoog" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="analoog" word="analoge"/>
+              <node begin="7" end="8" id="22" index="1" rel="hd"/>
+              <node begin="8" cat="pp" end="11" id="23" rel="mod">
+                <node begin="8" end="9" id="24" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="9" cat="np" end="11" id="25" rel="obj1">
+                  <node begin="9" end="10" id="26" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="27" lemma="commissie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="commissie" word="commissie"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="12" end="13" id="28" lemma="stellen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="stel" word="stelde" wvorm="pv"/>
+        <node begin="13" cat="mwu" end="15" id="29" rel="su">
+          <node begin="13" end="14" id="30" lemma="Louis" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Louis" spectype="deeleigen" word="Louis"/>
+          <node begin="14" end="15" id="31" lemma="Michel" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Michel" spectype="deeleigen" word="Michel"/>
+        </node>
+        <node begin="15" cat="pp" end="21" id="32" rel="mod">
+          <node begin="15" end="16" id="33" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="16" cat="np" end="21" id="34" rel="obj1">
+            <node begin="16" buiging="zonder" end="17" getal="ev" id="35" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pt="vnw" rel="det" root="zijn" status="vol" vwtype="bez" word="zijn"/>
+            <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="36" lemma="reactie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="reactie" word="reactie"/>
+            <node begin="18" cat="pp" end="21" id="37" rel="mod">
+              <node begin="18" end="19" id="38" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+              <node begin="19" cat="np" end="21" id="39" rel="obj1">
+                <node begin="19" end="20" id="40" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                <node begin="20" end="21" genus="onz" getal="ev" graad="basis" id="41" lemma="rapport" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="rapport" word="rapport"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="21" end="22" id="42" lemma="evenwel" pos="adv" postag="BW()" pt="bw" rel="mod" root="evenwel" word="evenwel"/>
+      </node>
+      <node begin="24" cat="smain" end="50" id="43" rel="nucl">
+        <node begin="29" end="30" id="44" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" word="hebben" wvorm="pv"/>
+        <node begin="30" cat="np" end="38" id="45" index="2" rel="su">
+          <node begin="30" end="31" id="46" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="31" end="32" getal="mv" graad="basis" id="47" lemma="informatie_kanaal" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="informatie_kanaal" word="informatiekanalen"/>
+          <node begin="32" cat="pp" end="38" id="48" rel="mod">
+            <node begin="32" end="33" id="49" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" vztype="init" word="tussen"/>
+            <node begin="33" cat="conj" end="38" id="50" rel="obj1">
+              <node begin="33" cat="np" end="35" id="51" rel="cnj">
+                <node begin="33" end="34" id="52" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                <node begin="34" end="35" genus="onz" getal="ev" graad="basis" id="53" lemma="staatshoofd" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="staatshoofd" word="staatshoofd"/>
+              </node>
+              <node begin="35" conjtype="neven" end="36" id="54" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="36" cat="np" end="38" id="55" rel="cnj">
+                <node begin="36" end="37" id="56" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="37" end="38" genus="zijd" getal="ev" graad="basis" id="57" lemma="regering" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="regering" word="regering"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="24" cat="ppart" end="50" id="58" rel="vc">
+          <node begin="24" cat="whrel" end="28" id="59" rel="mod">
+            <node begin="24" end="25" getal="ev" id="60" index="3" lemma="wat" naamval="stan" pdtype="pron" persoon="3o" pos="pron" postag="VNW(vb,pron,stan,vol,3o,ev)" pt="vnw" rel="rhd" root="wat" status="vol" vwtype="vb" word="wat"/>
+            <node begin="24" cat="ssub" end="28" id="61" rel="body">
+              <node begin="24" end="25" id="62" index="3" rel="su"/>
+              <node begin="25" cat="np" end="27" id="63" rel="obj1">
+                <node begin="25" end="26" id="64" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="26" end="27" genus="zijd" getal="ev" graad="basis" id="65" lemma="koning" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="koning" word="koning"/>
+              </node>
+              <node begin="27" end="28" id="66" lemma="betreffen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="betref" word="betreft" wvorm="pv"/>
+            </node>
+          </node>
+          <node begin="30" end="38" id="67" index="2" rel="su"/>
+          <node begin="39" cat="cp" end="47" id="68" rel="mod">
+            <node begin="39" conjtype="onder" end="40" id="69" lemma="zoals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zoals" word="zoals"/>
+            <node begin="40" cat="ppart" end="47" id="70" rel="body">
+              <node begin="40" buiging="zonder" end="41" id="71" lemma="vast_leggen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="leg_vast" word="vastgelegd" wvorm="vd"/>
+              <node begin="41" cat="pp" end="47" id="72" rel="mod">
+                <node begin="41" end="42" id="73" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+                <node begin="42" cat="conj" end="47" id="74" rel="obj1">
+                  <node begin="42" cat="np" end="44" id="75" rel="cnj">
+                    <node begin="42" end="43" id="76" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="43" end="44" genus="zijd" getal="ev" graad="basis" id="77" lemma="grond_wet" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="grond_wet" word="grondwet"/>
+                  </node>
+                  <node begin="44" conjtype="neven" end="45" id="78" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                  <node begin="45" cat="np" end="47" id="79" rel="cnj">
+                    <node begin="45" end="46" id="80" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+                    <node begin="46" end="47" genus="onz" getal="ev" graad="basis" id="81" lemma="gewoonte_recht" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="gewoonte_recht" word="gewoonterecht"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="48" buiging="zonder" end="49" graad="basis" id="82" lemma="normaal" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="normaal" word="normaal"/>
+          <node begin="49" buiging="zonder" end="50" id="83" lemma="functioneren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="functioneer" word="gefunctioneerd" wvorm="vd"/>
+        </node>
+      </node>
+    </node>
+    <node begin="50" end="51" id="84" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="51" end="52" id="85" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Geheel in strijd met die en analoge bevindingen van de commissie , stelde Louis Michel in zijn reactie op het rapport evenwel : &apos; wat de koning betreft , hebben de informatiekanalen tussen het staatshoofd en de regering , zoals vastgelegd door de grondwet en het gewoonterecht , normaal gefunctioneerd &apos; .</sentence>
+</alpino_ds>

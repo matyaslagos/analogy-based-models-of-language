@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="0" cat="conj" end="7" id="2" rel="--">
+      <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="3" lemma="stap_en_trap_zone" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Stap-en-trap_zone" word="Stap-en-trap-zone"/>
+      <node begin="2" cat="conj" end="7" id="4" rel="cnj">
+        <node begin="2" cat="np" end="5" id="5" rel="cnj">
+          <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="6" lemma="voorrang" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="voorrang" word="voorrang"/>
+          <node begin="3" cat="pp" end="5" id="7" rel="mod">
+            <node begin="3" end="4" id="8" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+            <node begin="4" end="5" getal="mv" graad="basis" id="9" lemma="voetganger" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="voetganger" word="voetgangers"/>
+          </node>
+        </node>
+        <node begin="5" conjtype="neven" end="6" id="10" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="6" end="7" getal="mv" graad="basis" id="11" lemma="fietser" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="fietser" word="fietsers"/>
+      </node>
+    </node>
+  </node>
+  <sentence>Stap-en-trap-zone : voorrang aan voetgangers en fietsers</sentence>
+</alpino_ds>

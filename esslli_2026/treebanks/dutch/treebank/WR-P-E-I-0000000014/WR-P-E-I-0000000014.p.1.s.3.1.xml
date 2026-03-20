@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="10" end="11" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="18" id="2" rel="--">
+      <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="3" lemma="aspirine" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="su" root="aspirine" word="Aspirine"/>
+      <node begin="1" end="2" id="4" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="2" end="3" id="5" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+      <node begin="3" cat="ap" end="18" id="6" rel="predc">
+        <node begin="3" buiging="zonder" end="4" graad="basis" id="7" lemma="bekend" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="bekend" word="bekend"/>
+        <node begin="4" cat="pp" end="18" id="8" rel="mod">
+          <node begin="4" end="5" id="9" lemma="onder" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="onder" vztype="init" word="onder"/>
+          <node begin="5" cat="np" end="18" id="10" rel="obj1">
+            <node begin="5" end="6" id="11" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="12" lemma="naam" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="naam" word="naam"/>
+            <node begin="7" cat="conj" end="18" id="13" rel="app">
+              <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="14" lemma="acetosal" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="acetosal" word="acetosal"/>
+              <node begin="8" conjtype="neven" end="9" id="15" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="9" cat="np" end="18" id="16" rel="cnj">
+                <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="17" lemma="aspro" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="aspro" word="aspro"/>
+                <node begin="11" cat="rel" end="18" id="18" rel="mod">
+                  <node begin="11" end="12" getal="ev" id="19" index="1" lemma="dat" naamval="stan" pdtype="pron" persoon="3" pos="comp" postag="VNW(betr,pron,stan,vol,3,ev)" pt="vnw" rel="rhd" root="dat" status="vol" vwtype="betr" word="dat"/>
+                  <node begin="11" cat="ssub" end="18" id="20" rel="body">
+                    <node begin="11" end="12" id="21" index="1" rel="su"/>
+                    <node begin="14" end="15" id="22" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+                    <node begin="12" cat="np" end="18" id="23" rel="predc">
+                      <node begin="12" end="13" id="24" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                      <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="25" lemma="merknaam" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="merknaam" word="merknaam"/>
+                      <node begin="15" cat="pp" end="18" id="26" rel="mod">
+                        <node begin="15" end="16" id="27" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                        <node begin="16" cat="mwu" end="18" id="28" rel="obj1">
+                          <node begin="16" end="17" id="29" lemma="Nicholas" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Nicholas" spectype="deeleigen" word="Nicholas"/>
+                          <node begin="17" end="18" id="30" lemma="Ltd" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Ltd" spectype="deeleigen" word="Ltd"/>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="31" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Aspirine is ook bekend onder de naam acetosal en aspro , dat een merknaam is van Nicholas Ltd .</sentence>
+</alpino_ds>

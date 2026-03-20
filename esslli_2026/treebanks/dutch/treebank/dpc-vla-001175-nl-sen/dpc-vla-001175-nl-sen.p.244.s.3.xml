@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="10" end="11" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="13" end="14" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="21" id="3" rel="--">
+      <node begin="0" cat="smain" end="10" id="4" rel="dp">
+        <node begin="0" end="1" id="5" lemma="toch" pos="adv" postag="BW()" pt="bw" rel="mod" root="toch" word="Toch"/>
+        <node begin="1" end="2" id="6" lemma="blijven" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="blijf" word="blijven" wvorm="pv"/>
+        <node begin="2" end="3" getal="getal" id="7" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+        <node begin="3" cat="np" end="10" id="8" rel="su">
+          <node begin="3" end="4" id="9" lemma="drie" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="drie" word="drie"/>
+          <node begin="4" end="5" getal="mv" graad="basis" id="10" lemma="constante" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="constante" word="constanten"/>
+          <node begin="5" cat="rel" end="10" id="11" rel="mod">
+            <node begin="5" end="6" id="12" index="1" lemma="waarrond" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waarrond" word="waarrond"/>
+            <node begin="5" cat="ssub" end="10" id="13" rel="body">
+              <node begin="6" cat="np" end="8" id="14" index="2" rel="su">
+                <node begin="6" buiging="met-e" end="7" getal="mv" graad="basis" id="15" lemma="beide" naamval="stan" pdtype="grad" pos="det" positie="prenom" postag="VNW(onbep,grad,stan,prenom,met-e,mv,basis)" pt="vnw" rel="det" root="beide" vwtype="onbep" word="beide"/>
+                <node begin="7" end="8" getal="mv" graad="basis" id="16" lemma="regelgeving" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="regelgeving" word="regelgevingen"/>
+              </node>
+              <node begin="8" end="9" id="17" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+              <node begin="5" cat="ppart" end="10" id="18" rel="vc">
+                <node begin="5" end="6" id="19" index="1" rel="mod"/>
+                <node begin="6" end="8" id="20" index="2" rel="obj1"/>
+                <node begin="9" buiging="zonder" end="10" id="21" lemma="op_bouwen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="bouw_op" word="opgebouwd" wvorm="vd"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="11" cat="conj" end="21" id="22" rel="dp">
+        <node begin="11" cat="np" end="13" id="23" rel="cnj">
+          <node begin="11" end="12" id="24" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="25" lemma="nationaliteit_voorwaarde" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="nationaliteitsvoorwaarde" word="nationaliteitsvoorwaarde"/>
+        </node>
+        <node begin="14" cat="np" end="17" id="26" rel="cnj">
+          <node begin="14" end="15" id="27" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="15" buiging="met-e" end="16" graad="basis" id="28" lemma="pedagogisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="pedagogisch" word="pedagogische"/>
+          <node begin="16" end="17" getal="mv" graad="basis" id="29" lemma="voorwaarde" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="voorwaarde" word="voorwaarden"/>
+        </node>
+        <node begin="17" conjtype="neven" end="18" id="30" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="18" cat="np" end="21" id="31" rel="cnj">
+          <node begin="18" end="19" id="32" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="19" buiging="met-e" end="20" graad="basis" id="33" lemma="financieel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="financieel" word="financiële"/>
+          <node begin="20" end="21" getal="mv" graad="basis" id="34" lemma="voorwaarde" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="voorwaarde" word="voorwaarden"/>
+        </node>
+      </node>
+    </node>
+    <node begin="21" end="22" id="35" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Toch blijven er drie constanten waarrond beide regelgevingen zijn opgebouwd : de nationaliteitsvoorwaarde , de pedagogische voorwaarden en de financiële voorwaarden .</sentence>
+</alpino_ds>

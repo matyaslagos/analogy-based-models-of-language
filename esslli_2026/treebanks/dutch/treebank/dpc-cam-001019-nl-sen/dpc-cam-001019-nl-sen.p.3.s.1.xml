@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="5" end="6" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="7" end="8" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="9" end="10" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="11" end="12" id="5" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="13" end="14" id="6" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="15" end="16" id="7" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="17" end="18" id="8" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="21" id="9" rel="--">
+      <node begin="0" cat="smain" end="17" id="10" rel="dp">
+        <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="11" lemma="sport" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="su" root="Sport" word="Sport"/>
+        <node begin="1" end="2" id="12" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="2" cat="conj" end="17" id="13" rel="predc">
+          <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="14" lemma="Ronaldinho" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Ronaldinho" word="Ronaldinho"/>
+          <node begin="4" end="5" getal="mv" graad="basis" id="15" lemma="hooligan" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="hooligan" word="hooligans"/>
+          <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="16" lemma="gezondheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="gezondheid" word="gezondheid"/>
+          <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="17" lemma="commercie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="commercie" word="commercie"/>
+          <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="18" lemma="competitie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="competitie" word="competitie"/>
+          <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="19" lemma="organisatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="organisatie" word="organisatie"/>
+          <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="20" lemma="wetenschap" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="wetenschap" word="wetenschap"/>
+          <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="21" lemma="ontspanning" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="ontspanning" word="ontspanning"/>
+        </node>
+      </node>
+      <node begin="18" cat="mwu" end="21" id="22" rel="dp">
+        <node begin="18" end="19" id="23" lemma="noemen" pos="vg" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="mwp" root="noem" word="noem" wvorm="pv"/>
+        <node begin="19" end="20" id="24" lemma="maar" pos="vg" postag="BW()" pt="bw" rel="mwp" root="maar" word="maar"/>
+        <node begin="20" end="21" id="25" lemma="op" pos="vg" postag="VZ(fin)" pt="vz" rel="mwp" root="op" vztype="fin" word="op"/>
+      </node>
+    </node>
+    <node begin="21" end="22" id="26" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Sport is Ronaldinho , hooligans , gezondheid , commercie , competitie , organisatie , wetenschap , ontspanning , noem maar op .</sentence>
+</alpino_ds>

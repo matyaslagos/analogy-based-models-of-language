@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="13" end="14" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="21" id="2" rel="--">
+      <node begin="1" end="2" id="3" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" word="was" wvorm="pv"/>
+      <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="4" index="1" lemma="Dutroux" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" root="Dutroux" word="Dutroux"/>
+      <node begin="0" cat="ppart" end="21" id="5" rel="vc">
+        <node begin="0" buiging="zonder" end="1" graad="comp" id="6" lemma="eerder" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="eerder" word="Eerder"/>
+        <node begin="2" end="3" id="7" index="1" rel="obj1"/>
+        <node begin="3" end="4" id="8" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mod" root="al" word="al"/>
+        <node begin="4" buiging="zonder" end="5" id="9" lemma="beschuldigen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="beschuldig" word="beschuldigd" wvorm="vd"/>
+        <node begin="5" cat="conj" end="21" id="10" rel="pc">
+          <node begin="5" cat="pp" end="13" id="11" rel="cnj">
+            <node begin="5" end="6" id="12" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="6" cat="np" end="13" id="13" rel="obj1">
+              <node begin="6" end="7" getal="mv" graad="basis" id="14" lemma="verkrachting" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="verkrachting" word="verkrachtingen"/>
+              <node begin="7" cat="pp" end="13" id="15" rel="mod">
+                <node begin="7" end="8" id="16" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="8" cat="conj" end="13" id="17" rel="obj1">
+                  <node begin="8" cat="mwu" end="10" id="18" rel="cnj">
+                    <node begin="8" end="9" id="19" lemma="Sabine" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Sabine" spectype="deeleigen" word="Sabine"/>
+                    <node begin="9" end="10" id="20" lemma="Dardenne" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Dardenne" spectype="deeleigen" word="Dardenne"/>
+                  </node>
+                  <node begin="10" conjtype="neven" end="11" id="21" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                  <node begin="11" cat="mwu" end="13" id="22" rel="cnj">
+                    <node begin="11" end="12" id="23" lemma="Laetitia" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Laetitia" spectype="deeleigen" word="Laetitia"/>
+                    <node begin="12" end="13" id="24" lemma="Delhez" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Delhez" spectype="deeleigen" word="Delhez"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="14" conjtype="neven" end="15" id="25" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="15" cat="pp" end="21" id="26" rel="cnj">
+            <node begin="15" end="16" id="27" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="16" cat="np" end="21" id="28" rel="obj1">
+              <node begin="16" end="17" id="29" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="17" end="18" genus="zijd" getal="ev" graad="basis" id="30" lemma="aanranding" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="aanranding" word="aanranding"/>
+              <node begin="18" cat="pp" end="21" id="31" rel="mod">
+                <node begin="18" end="19" id="32" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="19" cat="mwu" end="21" id="33" rel="obj1">
+                  <node begin="19" end="20" id="34" lemma="Eefje" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Eefje" spectype="deeleigen" word="Eefje"/>
+                  <node begin="20" end="21" id="35" lemma="Lambrecks" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Lambrecks" spectype="deeleigen" word="Lambrecks"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="21" end="22" id="36" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Eerder was Dutroux al beschuldigd van verkrachtingen van Sabine Dardenne en Laetitia Delhez , en van de aanranding van Eefje Lambrecks .</sentence>
+</alpino_ds>

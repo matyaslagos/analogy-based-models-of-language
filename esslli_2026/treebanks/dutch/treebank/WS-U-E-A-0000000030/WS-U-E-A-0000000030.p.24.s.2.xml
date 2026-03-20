@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="1" end="2" id="2" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="2" cat="mwu" end="5" id="3" index="1" rel="su">
+        <node begin="2" end="3" id="4" lemma="Abdul" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Abdul" spectype="deeleigen" word="Abdul"/>
+        <node begin="3" end="4" id="5" lemma="Qadeer" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Qadeer" spectype="deeleigen" word="Qadeer"/>
+        <node begin="4" end="5" id="6" lemma="Khan" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Khan" spectype="deeleigen" word="Khan"/>
+      </node>
+      <node begin="0" cat="ppart" end="6" id="7" rel="vc">
+        <node begin="0" end="1" getal="getal" id="8" lemma="daar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="mod" root="daar" status="vol" vwtype="aanw" word="Daar"/>
+        <node begin="2" end="5" id="9" index="1" rel="obj1"/>
+        <node begin="5" buiging="zonder" end="6" id="10" lemma="ontslaan" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="ontsla" word="ontslagen" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="6" end="7" id="11" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Daar is Abdul Qadeer Khan ontslagen .</sentence>
+</alpino_ds>

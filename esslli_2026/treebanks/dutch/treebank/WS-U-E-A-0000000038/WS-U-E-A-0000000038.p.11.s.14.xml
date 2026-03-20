@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="0" end="1" id="2" lemma="bovendien" pos="adv" postag="BW()" pt="bw" rel="mod" root="bovendien" word="Bovendien"/>
+      <node begin="1" end="2" id="3" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="2" end="3" getal="getal" id="4" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+      <node begin="3" cat="pp" end="5" id="5" rel="mod">
+        <node begin="3" end="4" id="6" lemma="volgens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="volgens" vztype="init" word="volgens"/>
+        <node begin="4" end="5" getal="mv" graad="basis" id="7" lemma="waarnemer" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="waarnemer" word="waarnemers"/>
+      </node>
+      <node begin="5" cat="np" end="11" id="8" rel="su">
+        <node begin="5" buiging="zonder" end="6" id="9" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="geen"/>
+        <node begin="6" buiging="zonder" end="7" graad="basis" id="10" lemma="goed" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="goed" word="goed"/>
+        <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="11" lemma="alternatief" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="alternatief" word="alternatief"/>
+        <node begin="8" cat="pp" end="11" id="12" rel="mod">
+          <node begin="8" end="9" id="13" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="9" cat="np" end="11" id="14" rel="obj1">
+            <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="15" lemma="president" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="president" word="president"/>
+            <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="16" lemma="Aristide" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" root="Aristide" word="Aristide"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" id="17" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Bovendien is er volgens waarnemers geen goed alternatief voor president Aristide .</sentence>
+</alpino_ds>

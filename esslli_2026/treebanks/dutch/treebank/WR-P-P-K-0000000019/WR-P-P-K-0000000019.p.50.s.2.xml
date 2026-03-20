@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="28" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="17" end="18" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="27" id="3" rel="--">
+      <node begin="0" end="1" genus="onz" getal="ev" id="4" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="noun" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="sup" root="het" status="red" vwtype="pers" word="Het"/>
+      <node begin="1" end="2" id="5" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="2" cat="ti" end="27" id="6" rel="vc">
+        <node begin="2" end="3" id="7" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+        <node begin="3" cat="inf" end="27" id="8" rel="body">
+          <node begin="3" buiging="zonder" end="4" id="9" lemma="betreuren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="betreur" word="betreuren" wvorm="inf"/>
+          <node begin="4" cat="cp" end="27" id="10" index="1" rel="vc">
+            <node begin="4" conjtype="onder" end="5" id="11" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+            <node begin="5" cat="ssub" end="27" id="12" rel="body">
+              <node begin="5" cat="conj" end="17" id="13" index="2" rel="su">
+                <node begin="5" cat="np" end="8" id="14" rel="cnj">
+                  <node begin="5" end="6" id="15" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="6" cat="mwu" end="8" id="16" rel="hd">
+                    <node begin="6" end="7" id="17" lemma="Europese" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Europese" spectype="deeleigen" word="Europese"/>
+                    <node begin="7" end="8" id="18" lemma="Commissie" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Commissie" spectype="deeleigen" word="Commissie"/>
+                  </node>
+                </node>
+                <node begin="9" conjtype="neven" end="10" id="19" lemma="noch" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="noch" word="noch"/>
+                <node begin="10" cat="np" end="17" id="20" rel="cnj">
+                  <node begin="10" end="11" id="21" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="11" buiging="met-e" end="12" graad="basis" id="22" lemma="verschillend" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="verschil" word="verschillende"/>
+                  <node begin="12" end="13" getal="mv" graad="basis" id="23" lemma="voorzitterschap" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="voorzitterschap" word="voorzitterschappen"/>
+                  <node begin="13" cat="pp" end="17" id="24" rel="mod">
+                    <node begin="13" end="14" id="25" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                    <node begin="14" cat="np" end="17" id="26" rel="obj1">
+                      <node begin="14" end="15" id="27" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                      <node begin="15" cat="mwu" end="17" id="28" rel="hd">
+                        <node begin="15" end="16" id="29" lemma="Europese" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Europese" spectype="deeleigen" word="Europese"/>
+                        <node begin="16" end="17" id="30" lemma="Unie" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Unie" spectype="deeleigen" word="Unie"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node begin="22" end="23" id="31" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" word="hebben" wvorm="pv"/>
+              <node begin="5" cat="ppart" end="27" id="32" rel="vc">
+                <node begin="5" end="17" id="33" index="2" rel="su"/>
+                <node begin="18" cat="np" end="20" id="34" rel="obj1">
+                  <node begin="18" end="19" id="35" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="19" end="20" genus="zijd" getal="ev" graad="basis" id="36" lemma="ontwikkeling_samenwerking" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="ontwikkeling_samenwerking" word="ontwikkelingssamenwerking"/>
+                </node>
+                <node begin="20" cat="mwu" end="22" id="37" rel="svp">
+                  <node begin="20" end="21" id="38" lemma="te" pos="fixed" postag="VZ(versm)" pt="vz" rel="mwp" root="ter" vztype="versm" word="ter"/>
+                  <node begin="21" end="22" getal="ev" graad="basis" id="39" lemma="spraak" naamval="dat" ntype="soort" pos="fixed" postag="N(soort,ev,basis,dat)" pt="n" rel="mwp" root="sprake" word="sprake"/>
+                </node>
+                <node begin="23" buiging="zonder" end="24" id="40" lemma="brengen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="breng" word="gebracht" wvorm="vd"/>
+                <node begin="24" cat="pp" end="27" id="41" rel="mod">
+                  <node begin="24" end="25" id="42" lemma="tijdens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tijdens" vztype="init" word="tijdens"/>
+                  <node begin="25" cat="np" end="27" id="43" rel="obj1">
+                    <node begin="25" end="26" id="44" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="26" end="27" getal="mv" graad="basis" id="45" lemma="pre_toetreding_onderhandeling" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="prétoetredings_onderhandeling" word="prétoetredings-onderhandelingen"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="4" end="27" id="46" index="1" rel="su"/>
+    </node>
+    <node begin="27" end="28" id="47" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Het is te betreuren dat de Europese Commissie , noch de verschillende voorzitterschappen van de Europese Unie , de ontwikkelingssamenwerking ter sprake hebben gebracht tijdens de prétoetredings-onderhandelingen .</sentence>
+</alpino_ds>

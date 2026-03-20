@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="30" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="6" end="7" id="2" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="15" end="16" id="3" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="17" end="18" id="4" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="26" end="27" id="5" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="1" cat="np" end="28" id="6" rel="--">
+      <node begin="1" end="2" id="7" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+      <node begin="2" cat="conj" end="5" id="8" rel="mod">
+        <node begin="2" end="3" id="9" lemma="technical" pos="adj" postag="SPEC(vreemd)" pt="spec" rel="cnj" root="technical" spectype="vreemd" word="technical"/>
+        <node begin="3" conjtype="neven" end="4" id="10" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+        <node begin="4" end="5" id="11" lemma="onsite" pos="adj" postag="SPEC(vreemd)" pt="spec" rel="cnj" root="on_site" spectype="vreemd" word="onsite"/>
+      </node>
+      <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="12" lemma="contact" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="contact" word="contact"/>
+      <node begin="7" cat="smain" end="28" id="13" rel="app">
+        <node begin="7" end="8" getal="ev" id="14" lemma="dit" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" root="dit" status="vol" vwtype="aanw" word="Dit"/>
+        <node begin="8" end="9" id="15" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="9" cat="np" end="28" id="16" rel="predc">
+          <node begin="9" end="10" id="17" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="10" buiging="zonder" end="11" graad="basis" id="18" lemma="technisch" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="technisch" word="technisch"/>
+          <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="19" lemma="contact" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="contact" word="contact"/>
+          <node begin="12" cat="conj" end="28" id="20" rel="mod">
+            <node begin="12" cat="pp" end="17" id="21" rel="cnj">
+              <node begin="12" end="13" id="22" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+              <node begin="13" cat="np" end="17" id="23" rel="obj1">
+                <node begin="13" buiging="zonder" end="14" getal="getal" id="24" lemma="u" naamval="stan" npagr="agr" pdtype="det" persoon="2" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,2,getal,prenom,zonder,agr)" pt="vnw" rel="det" root="u" status="vol" vwtype="bez" word="uw"/>
+                <node begin="14" end="15" genus="onz" getal="ev" graad="basis" id="25" lemma="bedrijf" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="bedrijf" word="bedrijf"/>
+                <node begin="16" end="17" id="26" lemma="technical" pos="noun" postag="SPEC(vreemd)" pt="spec" rel="mod" root="technical" spectype="vreemd" word="technical"/>
+              </node>
+            </node>
+            <node begin="18" conjtype="neven" end="19" id="27" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+            <node begin="19" cat="pp" end="28" id="28" rel="cnj">
+              <node begin="19" end="20" id="29" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="bij"/>
+              <node begin="20" cat="conj" end="28" id="30" rel="obj1">
+                <node begin="22" conjtype="neven" end="23" id="31" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+                <node begin="20" cat="np" end="28" id="32" rel="cnj">
+                  <node begin="20" end="21" id="33" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                  <node begin="21" end="22" genus="zijd" getal="ev" graad="basis" id="34" lemma="klant" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="klant" word="klant"/>
+                  <node begin="27" end="28" id="35" index="1" lemma="onsite" pos="noun" postag="SPEC(vreemd)" pt="spec" rel="mod" root="on_site" spectype="vreemd" word="onsite"/>
+                </node>
+                <node begin="23" cat="np" end="28" id="36" rel="cnj">
+                  <node begin="23" end="24" id="37" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                  <node begin="24" end="25" id="38" lemma="drie" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="derde" word="derde"/>
+                  <node begin="25" end="26" genus="zijd" getal="ev" graad="basis" id="39" lemma="partij" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="partij" word="partij"/>
+                  <node begin="27" end="28" id="40" index="1" rel="mod"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="28" end="29" id="41" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="29" end="30" id="42" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>- een technical of onsite contact : Dit is een technisch contact in uw bedrijf ( technical ) of bij de klant of een derde partij ( onsite ) .</sentence>
+</alpino_ds>

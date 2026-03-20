@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="3" end="4" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="10" end="11" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="21" id="3" rel="--">
+      <node begin="0" cat="np" end="10" id="4" rel="su">
+        <node begin="0" buiging="met-e" end="1" graad="basis" id="5" lemma="divers" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="divers" word="Diverse"/>
+        <node begin="1" buiging="met-e" end="2" graad="basis" id="6" lemma="joods" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="joods" word="joodse"/>
+        <node begin="2" end="3" getal="mv" graad="basis" id="7" lemma="verzet_groep" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="verzet_groep" word="verzetsgroepen"/>
+        <node begin="4" cat="cp" end="10" id="8" rel="mod">
+          <node begin="4" conjtype="onder" end="5" id="9" lemma="zoals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zoals" word="zoals"/>
+          <node begin="5" cat="conj" end="10" id="10" rel="body">
+            <node begin="5" cat="np" end="7" id="11" rel="cnj">
+              <node begin="5" end="6" id="12" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="13" lemma="Irgoen" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Irgoen" word="Irgoen"/>
+            </node>
+            <node begin="7" conjtype="neven" end="8" id="14" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="8" cat="np" end="10" id="15" rel="cnj">
+              <node begin="8" end="9" id="16" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="17" lemma="Stern_groep" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Sterngroep" word="Sterngroep"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="11" end="12" id="18" lemma="aan_binden" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="bind_aan" word="bonden" wvorm="pv"/>
+      <node begin="12" cat="np" end="14" id="19" rel="obj1">
+        <node begin="12" end="13" id="20" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="21" lemma="strijd" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="strijd" word="strijd"/>
+      </node>
+      <node begin="14" end="15" id="22" lemma="aan" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="aan" vztype="fin" word="aan"/>
+      <node begin="15" cat="pp" end="21" id="23" rel="pc">
+        <node begin="15" end="16" id="24" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+        <node begin="16" cat="np" end="21" id="25" rel="obj1">
+          <node begin="16" end="17" id="26" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="17" buiging="met-e" end="18" graad="basis" id="27" lemma="Brits" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Brits" word="Britse"/>
+          <node begin="18" end="19" getal="mv" graad="basis" id="28" lemma="autoriteit" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="autoriteit" word="autoriteiten"/>
+          <node begin="19" cat="pp" end="21" id="29" rel="mod">
+            <node begin="19" end="20" id="30" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="20" end="21" genus="onz" getal="ev" graad="basis" id="31" lemma="Palestina" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Palestina" word="Palestina"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="21" end="22" id="32" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Diverse joodse verzetsgroepen , zoals de Irgoen en de Sterngroep , bonden de strijd aan met de Britse autoriteiten in Palestina .</sentence>
+</alpino_ds>

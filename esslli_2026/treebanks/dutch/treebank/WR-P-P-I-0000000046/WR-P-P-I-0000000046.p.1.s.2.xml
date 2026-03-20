@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="0" cat="smain" end="20" id="1" rel="--">
+      <node begin="0" cat="conj" end="14" id="2" rel="su">
+        <node begin="0" cat="np" end="8" id="3" rel="cnj">
+          <node begin="0" end="1" id="4" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+          <node begin="1" buiging="met-e" end="2" graad="basis" id="5" lemma="Afghaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Afghaans" word="Afghaanse"/>
+          <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="6" lemma="minister" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="minister" word="minister"/>
+          <node begin="3" cat="pp" end="6" id="7" rel="mod">
+            <node begin="3" end="4" id="8" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="4" cat="mwu" end="6" id="9" rel="obj1">
+              <node begin="4" buiging="met-e" end="5" graad="basis" id="10" lemma="binnenlands" naamval="stan" pos="name" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mwp" root="Binnenlandse" word="Binnenlandse"/>
+              <node begin="5" end="6" getal="mv" graad="basis" id="11" lemma="zaak" ntype="soort" pos="name" postag="N(soort,mv,basis)" pt="n" rel="mwp" root="Zaken" word="Zaken"/>
+            </node>
+          </node>
+          <node begin="6" cat="mwu" end="8" id="12" rel="app">
+            <node begin="6" end="7" id="13" lemma="Younis" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Younis" spectype="deeleigen" word="Younis"/>
+            <node begin="7" end="8" id="14" lemma="Qanooni" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Qanooni" spectype="deeleigen" word="Qanooni"/>
+          </node>
+        </node>
+        <node begin="8" conjtype="neven" end="9" id="15" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="9" cat="np" end="14" id="16" rel="cnj">
+          <node begin="9" end="10" id="17" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="10" buiging="met-e" end="11" graad="basis" id="18" lemma="Brits" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Brits" word="Britse"/>
+          <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="19" lemma="generaal" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="generaal" word="generaal"/>
+          <node begin="12" cat="mwu" end="14" id="20" rel="app">
+            <node begin="12" end="13" id="21" lemma="John" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="John" spectype="deeleigen" word="John"/>
+            <node begin="13" end="14" id="22" lemma="McColl" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="McColl" spectype="deeleigen" word="McColl"/>
+          </node>
+        </node>
+      </node>
+      <node begin="14" end="15" id="23" lemma="plaatsen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="plaats" word="plaatsen" wvorm="pv"/>
+      <node begin="15" cat="np" end="17" id="24" rel="obj1">
+        <node begin="15" buiging="zonder" end="16" getal="mv" id="25" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+        <node begin="16" end="17" genus="zijd" getal="ev" graad="basis" id="26" lemma="handtekening" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="handtekening" word="handtekening"/>
+      </node>
+      <node begin="17" cat="pp" end="20" id="27" rel="ld">
+        <node begin="17" end="18" id="28" lemma="onder" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="onder" vztype="init" word="onder"/>
+        <node begin="18" cat="np" end="20" id="29" rel="obj1">
+          <node begin="18" end="19" id="30" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="19" end="20" genus="onz" getal="ev" graad="basis" id="31" lemma="document" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="document" word="document"/>
+        </node>
+      </node>
+    </node>
+    <node begin="20" end="21" id="32" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De Afghaanse minister van Binnenlandse Zaken Younis Qanooni en de Britse generaal John McColl plaatsen hun handtekening onder het document .</sentence>
+</alpino_ds>

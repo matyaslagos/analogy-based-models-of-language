@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="du" end="13" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="dlink" root="en" word="EN"/>
+      <node begin="1" cat="smain" end="13" id="3" rel="nucl">
+        <node begin="8" end="9" id="4" lemma="proberen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="probeer" word="PROBEERT" wvorm="pv"/>
+        <node begin="1" cat="ti" end="13" id="5" rel="vc">
+          <node begin="11" end="12" id="6" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="TE"/>
+          <node begin="1" cat="inf" end="13" id="7" rel="body">
+            <node begin="1" cat="pp" end="8" id="8" rel="mod">
+              <node begin="1" end="2" id="9" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="MET"/>
+              <node begin="2" cat="np" end="8" id="10" rel="obj1">
+                <node begin="2" end="3" getal="mv" graad="basis" id="11" lemma="straat_actie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="straatactie" word="STRAATACTIES"/>
+                <node begin="3" cat="pp" end="8" id="12" rel="mod">
+                  <node begin="3" end="4" id="13" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" vztype="init" word="BIJ"/>
+                  <node begin="4" cat="conj" end="8" id="14" rel="obj1">
+                    <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="15" lemma="weer" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="cnj" root="weer" word="WEER"/>
+                    <node begin="5" conjtype="neven" end="6" id="16" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="OF"/>
+                    <node begin="6" cat="np" end="8" id="17" rel="cnj">
+                      <node begin="6" buiging="zonder" end="7" id="18" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="GEEN"/>
+                      <node begin="7" end="8" genus="onz" getal="ev" graad="basis" id="19" lemma="weer" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="weer" word="WEER"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node begin="9" cat="np" end="11" id="20" rel="obj1">
+              <node begin="9" buiging="met-e" end="10" graad="basis" id="21" lemma="potentieel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="potentieel" word="POTENTIELE"/>
+              <node begin="10" end="11" getal="mv" graad="basis" id="22" lemma="slachtoffer" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="slachtoffer" word="SLACHTOFFERS"/>
+            </node>
+            <node begin="12" buiging="zonder" end="13" id="23" lemma="waarschuwen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="waarschuw" word="WAARSCHUWEN" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="24" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>EN MET STRAATACTIES BIJ WEER OF GEEN WEER PROBEERT POTENTIELE SLACHTOFFERS TE WAARSCHUWEN .</sentence>
+</alpino_ds>

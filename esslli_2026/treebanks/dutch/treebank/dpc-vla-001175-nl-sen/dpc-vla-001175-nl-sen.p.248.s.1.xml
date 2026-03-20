@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="su">
+        <node begin="0" end="1" id="3" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="Het"/>
+        <node begin="1" buiging="met-e" end="2" graad="basis" id="4" lemma="gelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="gelijk" word="gelijke"/>
+        <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="5" lemma="onderwijs_kans_decreet" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="onderwijskansendecreet" word="onderwijskansendecreet"/>
+      </node>
+      <node begin="3" end="4" id="6" lemma="bevatten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="bevat" word="bevat" wvorm="pv"/>
+      <node begin="4" cat="np" end="7" id="7" rel="obj1">
+        <node begin="4" end="5" id="8" lemma="drie" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="drie" word="drie"/>
+        <node begin="5" buiging="met-e" end="6" graad="basis" id="9" lemma="belangrijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="belangrijk" word="belangrijke"/>
+        <node begin="6" end="7" getal="mv" graad="basis" id="10" lemma="kracht_lijn" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="krachtlijn" word="krachtlijnen"/>
+      </node>
+    </node>
+    <node begin="7" end="8" id="11" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+  </node>
+  <sentence>Het gelijke onderwijskansendecreet bevat drie belangrijke krachtlijnen :</sentence>
+</alpino_ds>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="29" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="5" end="6" id="2" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="0" cat="conj" end="28" id="3" rel="--">
+      <node begin="0" cat="smain" end="16" id="4" rel="cnj">
+        <node begin="0" cat="pp" end="5" id="5" index="1" rel="mod">
+          <node begin="0" end="1" id="6" lemma="dankzij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="dankzij" vztype="init" word="Dankzij"/>
+          <node begin="2" cat="mwu" end="5" id="7" rel="obj1">
+            <node begin="2" end="3" id="8" lemma="Applications" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Applications" spectype="vreemd" word="Applications"/>
+            <node begin="3" end="4" id="9" lemma="on" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="on" spectype="vreemd" word="on"/>
+            <node begin="4" end="5" id="10" lemma="Demand" pos="name" postag="SPEC(vreemd)" pt="spec" rel="mwp" root="Demand" spectype="vreemd" word="Demand"/>
+          </node>
+        </node>
+        <node begin="6" end="7" id="11" lemma="genieten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="geniet" word="genieten" wvorm="pv"/>
+        <node begin="7" end="8" getal="mv" graad="basis" id="12" lemma="bedrijf" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" root="bedrijf" word="bedrijven"/>
+        <node begin="8" end="9" id="13" lemma="immers" pos="adv" postag="BW()" pt="bw" rel="mod" root="immers" word="immers"/>
+        <node begin="9" cat="conj" end="16" id="14" rel="obj1">
+          <node begin="11" conjtype="neven" end="12" id="15" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="9" cat="np" end="16" id="16" rel="cnj">
+            <node begin="9" buiging="zonder" end="10" graad="comp" id="17" index="2" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,comp)" pt="vnw" rel="det" root="meer" vwtype="onbep" word="meer"/>
+            <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="18" lemma="flexibiliteit" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="flexibiliteit" word="flexibiliteit"/>
+            <node begin="13" cat="pp" end="16" id="19" index="3" rel="mod">
+              <node begin="13" end="14" id="20" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+              <node begin="14" cat="np" end="16" id="21" rel="obj1">
+                <node begin="14" buiging="zonder" end="15" getal="mv" id="22" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+                <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="23" lemma="ERP_infrastructuur" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="ERP_infrastructuur" word="ERP-infrastructuur"/>
+              </node>
+            </node>
+          </node>
+          <node begin="9" cat="np" end="16" id="24" rel="cnj">
+            <node begin="9" end="10" id="25" index="2" rel="det"/>
+            <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="26" lemma="autonomie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="autonomie" word="autonomie"/>
+            <node begin="13" end="16" id="27" index="3" rel="mod"/>
+          </node>
+        </node>
+      </node>
+      <node begin="16" conjtype="neven" end="17" id="28" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="0" cat="smain" end="28" id="29" rel="cnj">
+        <node begin="17" end="18" id="30" lemma="kunnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kan" word="kunnen" wvorm="pv"/>
+        <node begin="18" end="19" getal="mv" id="31" index="4" lemma="ze" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" root="ze" status="red" vwtype="pers" word="ze"/>
+        <node begin="0" cat="inf" end="28" id="32" rel="vc">
+          <node begin="0" end="5" id="33" index="1" rel="mod"/>
+          <node begin="18" end="19" id="34" index="4" rel="su"/>
+          <node begin="19" cat="np" end="21" id="35" rel="obj1">
+            <node begin="19" buiging="zonder" end="20" getal="mv" id="36" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+            <node begin="20" end="21" getal="mv" graad="basis" id="37" lemma="kost" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kosten" word="kosten"/>
+          </node>
+          <node begin="21" buiging="zonder" end="22" id="38" lemma="af_stemmen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="stem_af" word="afstemmen" wvorm="inf"/>
+          <node begin="22" cat="pp" end="28" id="39" rel="pc">
+            <node begin="22" end="23" id="40" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+            <node begin="23" cat="np" end="28" id="41" rel="obj1">
+              <node begin="23" end="24" id="42" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="24" end="25" genus="zijd" getal="ev" graad="basis" id="43" lemma="fluctuatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="fluctuatie" word="fluctuatie"/>
+              <node begin="25" cat="pp" end="28" id="44" rel="mod">
+                <node begin="25" end="26" id="45" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="26" cat="np" end="28" id="46" rel="obj1">
+                  <node begin="26" buiging="zonder" end="27" getal="mv" id="47" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+                  <node begin="27" end="28" getal="mv" graad="basis" id="48" lemma="zaak" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="zaak" word="zaken"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="28" end="29" id="49" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dankzij &apos; Applications on Demand &apos; genieten bedrijven immers meer flexibiliteit en autonomie voor hun ERP-infrastructuur en kunnen ze hun kosten afstemmen op de fluctuatie van hun zaken .</sentence>
+</alpino_ds>

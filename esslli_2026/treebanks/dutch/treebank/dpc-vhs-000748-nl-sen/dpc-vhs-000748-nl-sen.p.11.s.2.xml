@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="smain" end="13" id="1" rel="--">
+      <node begin="0" cat="ap" end="3" id="2" rel="mod">
+        <node begin="0" buiging="zonder" end="1" graad="comp" id="3" lemma="veel" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="hd" root="meer" vwtype="onbep" word="Meer"/>
+        <node begin="1" cat="cp" end="3" id="4" rel="obcomp">
+          <node begin="1" conjtype="onder" end="2" id="5" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="dan" word="dan"/>
+          <node begin="2" end="3" id="6" lemma="ooit" pos="adv" postag="BW()" pt="bw" rel="body" root="ooit" word="ooit"/>
+        </node>
+      </node>
+      <node begin="3" end="4" id="7" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="4" end="5" genus="onz" getal="ev" id="8" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="noun" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="sup" root="het" status="red" vwtype="pers" word="het"/>
+      <node begin="5" buiging="zonder" end="6" graad="basis" id="9" lemma="nodig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="nodig" word="nodig"/>
+      <node begin="6" cat="oti" end="13" id="10" rel="su">
+        <node begin="6" end="7" id="11" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="om"/>
+        <node begin="7" cat="ti" end="13" id="12" rel="body">
+          <node begin="11" end="12" id="13" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+          <node begin="7" cat="inf" end="13" id="14" rel="body">
+            <node begin="7" end="8" id="15" lemma="samen" pos="adj" postag="BW()" pt="bw" rel="predm" root="samen" word="samen"/>
+            <node begin="8" cat="pp" end="11" id="16" rel="pc">
+              <node begin="8" end="9" id="17" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+              <node begin="9" cat="np" end="11" id="18" rel="obj1">
+                <node begin="9" buiging="zonder" end="10" graad="basis" id="19" lemma="hetzelfde" pos="det" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="det" root="hetzelfde" word="hetzelfde"/>
+                <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="20" lemma="zeel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="zeel" word="zeel"/>
+              </node>
+            </node>
+            <node begin="12" buiging="zonder" end="13" id="21" lemma="trekken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="trek" word="trekken" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Meer dan ooit is het nodig om samen aan hetzelfde zeel te trekken .</sentence>
+</alpino_ds>

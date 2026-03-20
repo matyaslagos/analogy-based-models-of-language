@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="10" end="11" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="14" id="2" rel="--">
+      <node begin="0" cat="advp" end="6" id="3" rel="dp">
+        <node begin="0" cat="pp" end="2" id="4" rel="mod">
+          <node begin="0" end="1" id="5" lemma="naast" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naast" vztype="init" word="Naast"/>
+          <node begin="1" end="2" getal="ev" id="6" lemma="mij" naamval="obl" pdtype="pron" persoon="1" pos="pron" postag="VNW(pr,pron,obl,vol,1,ev)" pt="vnw" rel="obj1" root="mij" status="vol" vwtype="pr" word="mij"/>
+        </node>
+        <node begin="2" end="3" getal="getal" id="7" lemma="hier" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="hd" root="hier" status="vol" vwtype="aanw" word="hier"/>
+        <node begin="3" cat="pp" end="6" id="8" rel="mod">
+          <node begin="3" end="4" id="9" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="4" cat="np" end="6" id="10" rel="obj1">
+            <node begin="4" end="5" id="11" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="12" lemma="studio" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="studio" word="studio"/>
+          </node>
+        </node>
+      </node>
+      <node begin="6" cat="np" end="14" id="13" rel="dp">
+        <node begin="6" end="7" id="14" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="15" lemma="heer" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="heer" word="heer"/>
+        <node begin="8" cat="mwu" end="10" id="16" rel="app">
+          <node begin="8" end="9" id="17" lemma="Herre" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Herre" spectype="deeleigen" word="Herre"/>
+          <node begin="9" end="10" id="18" lemma="Kingma" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Kingma" spectype="deeleigen" word="Kingma"/>
+        </node>
+        <node begin="11" cat="np" end="14" id="19" rel="app">
+          <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="20" lemma="hoofd" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="hoofd" word="hoofd"/>
+          <node begin="12" cat="mwu" end="14" id="21" rel="app">
+            <node begin="12" end="13" id="22" lemma="Inspectie" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Inspectie" spectype="deeleigen" word="Inspectie"/>
+            <node begin="13" end="14" id="23" lemma="Volksgezondheid" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Volksgezondheid" spectype="deeleigen" word="Volksgezondheid"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="24" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Naast mij hier in de studio de heer Herre Kingma , hoofd Inspectie Volksgezondheid .</sentence>
+</alpino_ds>

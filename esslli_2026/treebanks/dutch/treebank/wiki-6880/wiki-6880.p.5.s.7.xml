@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="5" id="0" rel="top">
+    <node begin="0" cat="np" end="5" id="1" rel="--">
+      <node begin="0" cat="mwu" end="2" id="2" rel="hd">
+        <node begin="0" end="1" id="3" lemma="Boudewijn" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Boudewijn" spectype="deeleigen" word="Boudewijn"/>
+        <node begin="1" end="2" id="4" lemma="IV" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="IV" spectype="deeleigen" word="IV"/>
+      </node>
+      <node begin="2" cat="pp" end="5" id="5" rel="mod">
+        <node begin="2" end="3" id="6" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+        <node begin="3" cat="np" end="5" id="7" rel="obj1">
+          <node begin="3" end="4" id="8" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="9" lemma="baard" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="Baard" word="Baard"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>Boudewijn IV met de Baard</sentence>
+</alpino_ds>

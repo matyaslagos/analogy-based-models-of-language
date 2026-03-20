@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="smain" end="13" id="1" rel="--">
+      <node begin="0" end="1" id="2" lemma="zo" pos="adv" postag="BW()" pt="bw" rel="mod" root="zo" word="Zo"/>
+      <node begin="1" end="2" id="3" lemma="mogen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="mag" word="mag" wvorm="pv"/>
+      <node begin="2" cat="np" end="4" id="4" index="1" rel="su">
+        <node begin="2" end="3" id="5" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+        <node begin="3" end="4" id="6" lemma="Openbaar Ministerie" pos="name" postag="SPEC(afk)" pt="spec" rel="hd" root="OM" spectype="afk" word="OM"/>
+      </node>
+      <node begin="2" cat="conj" end="13" id="7" rel="vc">
+        <node begin="2" cat="inf" end="8" id="8" rel="cnj">
+          <node begin="2" end="4" id="9" index="1" rel="su"/>
+          <node begin="4" cat="conj" end="7" id="10" rel="obj1">
+            <node begin="4" end="5" getal="mv" graad="basis" id="11" lemma="taak_straf" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="taak_straf" word="taakstraffen"/>
+            <node begin="5" conjtype="neven" end="6" id="12" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="6" end="7" getal="mv" graad="basis" id="13" lemma="geld_boete" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="geldboete" word="geldboetes"/>
+          </node>
+          <node begin="7" buiging="zonder" end="8" id="14" lemma="op_leggen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="leg_op" word="opleggen" wvorm="inf"/>
+        </node>
+        <node begin="8" conjtype="neven" end="9" id="15" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="2" cat="inf" end="13" id="16" rel="cnj">
+          <node begin="2" end="4" id="17" index="1" rel="su"/>
+          <node begin="9" buiging="zonder" end="10" graad="basis" id="18" lemma="tijdelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="tijdelijk" word="tijdelijk"/>
+          <node begin="10" cat="np" end="12" id="19" rel="obj1">
+            <node begin="10" end="11" id="20" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="21" lemma="rij_bevoegdheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="rij_bevoegdheid" word="rijbevoegdheid"/>
+          </node>
+          <node begin="12" buiging="zonder" end="13" id="22" lemma="ontnemen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ontneem" word="ontnemen" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="23" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Zo mag het OM taakstraffen en geldboetes opleggen en tijdelijk de rijbevoegdheid ontnemen .</sentence>
+</alpino_ds>

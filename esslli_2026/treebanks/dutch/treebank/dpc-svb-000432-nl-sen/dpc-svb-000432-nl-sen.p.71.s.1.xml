@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="33" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="8" end="9" id="2" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="10" end="11" id="3" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="17" end="18" id="4" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+    <node begin="25" end="26" id="5" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="32" id="6" rel="--">
+      <node begin="0" cat="smain" end="17" id="7" rel="dp">
+        <node begin="0" cat="np" end="10" id="8" index="1" rel="su">
+          <node begin="0" end="1" getal="mv" graad="basis" id="9" lemma="inkomst" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="inkomst" word="Inkomsten"/>
+          <node begin="1" cat="pp" end="10" id="10" rel="mod">
+            <node begin="1" end="2" id="11" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" vztype="init" word="uit"/>
+            <node begin="2" cat="np" end="10" id="12" rel="obj1">
+              <node begin="2" buiging="met-e" end="3" graad="comp" id="13" lemma="vroeg" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,comp,met-e,stan)" pt="adj" rel="mod" root="vroeg" word="vroegere"/>
+              <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="14" lemma="arbeid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="arbeid" word="arbeid"/>
+              <node begin="5" cat="cp" end="10" id="15" rel="mod">
+                <node begin="5" conjtype="onder" end="6" id="16" lemma="zoals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zoals" word="zoals"/>
+                <node begin="6" cat="np" end="10" id="17" rel="body">
+                  <node begin="6" end="7" id="18" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                  <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="19" lemma="arbeidsongeschiktheidsuitkering" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="arbeidsongeschiktheid_uitkering" word="arbeidsongeschiktheidsuitkering"/>
+                  <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="20" lemma="WAO" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" root="WAO" word="WAO"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="11" end="12" id="21" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" word="worden" wvorm="pv"/>
+        <node begin="0" cat="ppart" end="17" id="22" rel="vc">
+          <node begin="0" end="10" id="23" index="1" rel="obj1"/>
+          <node begin="12" end="13" id="24" lemma="helemaal" pos="adv" postag="BW()" pt="bw" rel="mod" root="helemaal" word="helemaal"/>
+          <node begin="13" cat="pp" end="16" id="25" rel="ld">
+            <node begin="13" end="14" id="26" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="14" cat="np" end="16" id="27" rel="obj1">
+              <node begin="14" end="15" id="28" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="15" end="16" genus="zijd" getal="ev" graad="basis" id="29" lemma="toeslag" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="toeslag" word="toeslag"/>
+            </node>
+          </node>
+          <node begin="16" buiging="zonder" end="17" id="30" lemma="af_trekken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="trek_af" word="afgetrokken" wvorm="vd"/>
+        </node>
+      </node>
+      <node begin="18" cat="smain" end="32" id="31" rel="dp">
+        <node begin="18" buiging="zonder" end="19" getal-n="zonder-n" graad="basis" id="32" lemma="datzelfde" pos="det" positie="nom" postag="ADJ(nom,basis,zonder,zonder-n)" pt="adj" rel="su" root="datzelfde" word="Datzelfde"/>
+        <node begin="19" end="20" id="33" lemma="gelden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="geld" word="geldt" wvorm="pv"/>
+        <node begin="20" cat="pp" end="32" id="34" rel="pc">
+          <node begin="20" end="21" id="35" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" vztype="init" word="voor"/>
+          <node begin="21" cat="conj" end="32" id="36" rel="obj1">
+            <node begin="21" cat="conj" end="25" id="37" rel="cnj">
+              <node begin="21" cat="np" end="23" id="38" rel="cnj">
+                <node begin="21" buiging="met-e" end="22" id="39" index="2" lemma="aan_vullen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="vul_aan" word="aanvullende" wvorm="od"/>
+                <node begin="22" end="23" id="40" lemma="ouderdoms-" pos="prefix" postag="SPEC(afgebr)" pt="spec" rel="hd" root="ouderdoms" spectype="afgebr" word="ouderdoms-"/>
+              </node>
+              <node begin="23" conjtype="neven" end="24" id="41" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="21" cat="np" end="25" id="42" rel="cnj">
+                <node begin="21" end="22" id="43" index="2" rel="mod"/>
+                <node begin="24" end="25" getal="mv" graad="basis" id="44" lemma="invaliditeit_pensioen" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="invaliditeit_pensioen" word="invaliditeitspensioenen"/>
+              </node>
+            </node>
+            <node begin="26" end="27" getal="mv" graad="basis" id="45" lemma="VUT_uitkering" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="VUT_uitkering" word="VUT-uitkeringen"/>
+            <node begin="27" conjtype="neven" end="28" id="46" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="28" cat="np" end="32" id="47" rel="cnj">
+              <node begin="28" buiging="met-e" end="29" graad="basis" id="48" lemma="ander" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ander" word="andere"/>
+              <node begin="29" end="30" getal="mv" graad="basis" id="49" lemma="uitkering" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="uitkering" word="uitkeringen"/>
+              <node begin="30" cat="cp" end="32" id="50" rel="mod">
+                <node begin="30" conjtype="onder" end="31" id="51" lemma="zoals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zoals" word="zoals"/>
+                <node begin="31" end="32" getal="mv" graad="basis" id="52" lemma="nabestaande_uitkering" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="body" root="nabestaanden_uitkering" word="nabestaanden-uitkeringen"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="32" end="33" id="53" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Inkomsten uit vroegere arbeid , zoals een arbeidsongeschiktheidsuitkering ( WAO ) worden helemaal van de toeslag afgetrokken . Datzelfde geldt voor aanvullende ouderdoms- en invaliditeitspensioenen , VUT-uitkeringen en andere uitkeringen zoals nabestaanden-uitkeringen .</sentence>
+</alpino_ds>

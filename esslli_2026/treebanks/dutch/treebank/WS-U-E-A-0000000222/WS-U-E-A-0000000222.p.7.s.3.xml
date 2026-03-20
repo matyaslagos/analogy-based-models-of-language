@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+    <node begin="10" end="11" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="12" end="13" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="17" id="4" rel="--">
+      <node begin="0" cat="smain" end="5" id="5" rel="dp">
+        <node begin="0" cat="pp" end="2" id="6" rel="ld">
+          <node begin="0" end="1" id="7" lemma="onder" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="onder" vztype="init" word="Onder"/>
+          <node begin="1" end="2" genus="masc" getal="ev" id="8" lemma="hem" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,obl,vol,3,ev,masc)" pt="vnw" rel="obj1" root="hem" status="vol" vwtype="pers" word="hem"/>
+        </node>
+        <node begin="2" end="3" id="9" lemma="staan" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="sta" word="staan" wvorm="pv"/>
+        <node begin="3" cat="np" end="5" id="10" rel="su">
+          <node begin="3" end="4" id="11" lemma="5" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="5" word="5"/>
+          <node begin="4" end="5" getal="mv" graad="basis" id="12" lemma="vice_voorzitter" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vice-voorzitter" word="vice-voorzitters"/>
+        </node>
+      </node>
+      <node begin="6" cat="smain" end="17" id="13" rel="dp">
+        <node begin="6" end="7" getal="getal" id="14" lemma="die" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(aanw,pron,stan,vol,3,getal)" pt="vnw" rel="su" root="die" status="vol" vwtype="aanw" word="die"/>
+        <node begin="7" end="8" id="15" lemma="komen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kom" word="komen" wvorm="pv"/>
+        <node begin="8" cat="pp" end="17" id="16" rel="ld">
+          <node begin="8" end="9" id="17" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" vztype="init" word="uit"/>
+          <node begin="9" cat="conj" end="17" id="18" rel="obj1">
+            <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="19" lemma="Duitsland" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Duitsland" word="Duitsland"/>
+            <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="20" lemma="Estland" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Estland" word="Estland"/>
+            <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="21" lemma="Frankrijk" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Frankrijk" word="Frankrijk"/>
+            <node begin="14" end="15" genus="onz" getal="ev" graad="basis" id="22" lemma="Italië" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Italie" word="Italie"/>
+            <node begin="15" conjtype="neven" end="16" id="23" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="16" end="17" genus="onz" getal="ev" graad="basis" id="24" lemma="Zweden" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" root="Zweden" word="Zweden"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" id="25" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Onder hem staan 5 vice-voorzitters . die komen uit Duitsland , Estland , Frankrijk Italie en Zweden .</sentence>
+</alpino_ds>

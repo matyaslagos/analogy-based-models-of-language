@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="7" end="8" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="12" end="13" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="16" id="4" rel="--">
+      <node begin="0" cat="np" end="3" id="5" rel="su">
+        <node begin="0" buiging="met-e" end="1" graad="basis" id="6" lemma="ander" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ander" word="Andere"/>
+        <node begin="1" buiging="met-e" end="2" graad="basis" id="7" lemma="huidig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="huidig" word="huidige"/>
+        <node begin="2" end="3" getal="mv" graad="basis" id="8" lemma="toepassing" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="toepassing" word="toepassingen"/>
+      </node>
+      <node begin="3" end="4" id="9" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+      <node begin="4" cat="conj" end="16" id="10" rel="predc">
+        <node begin="4" end="5" id="11" lemma="coatings" pos="noun" postag="SPEC(vreemd)" pt="spec" rel="cnj" root="coatings" spectype="vreemd" word="coatings"/>
+        <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="12" lemma="isolatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="isolatie" word="isolatie"/>
+        <node begin="8" cat="np" end="12" id="13" rel="cnj">
+          <node begin="8" buiging="met-e" end="9" graad="basis" id="14" lemma="brand_veilig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="brand_veilig" word="brandveilige"/>
+          <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="15" lemma="binnen_bekleding" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="binnen_bekleding" word="binnenbekleding"/>
+          <node begin="10" cat="pp" end="12" id="16" rel="mod">
+            <node begin="10" end="11" id="17" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="11" end="12" getal="mv" graad="basis" id="18" lemma="vliegtuig" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="vliegtuig" word="vliegtuigen"/>
+          </node>
+        </node>
+        <node begin="13" cat="np" end="16" id="19" rel="cnj">
+          <node begin="13" end="14" genus="zijd" getal="ev" graad="basis" id="20" lemma="impregnatie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="impregnatie" word="impregnatie"/>
+          <node begin="14" cat="pp" end="16" id="21" rel="mod">
+            <node begin="14" end="15" id="22" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="15" end="16" genus="onz" getal="ev" graad="basis" id="23" lemma="papier" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="papier" word="papier"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="24" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Andere huidige toepassingen zijn coatings , isolatie , brandveilige binnenbekleding van vliegtuigen , impregnatie van papier .</sentence>
+</alpino_ds>

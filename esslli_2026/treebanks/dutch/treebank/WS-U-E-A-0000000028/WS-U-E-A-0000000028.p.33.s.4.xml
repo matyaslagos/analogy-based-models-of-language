@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="0" cat="smain" end="18" id="1" rel="--">
+      <node begin="6" end="7" id="2" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="18" id="3" rel="vc">
+        <node begin="0" cat="pp" end="6" id="4" rel="mod">
+          <node begin="0" end="1" id="5" lemma="tijdens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tijdens" vztype="init" word="Tijdens"/>
+          <node begin="1" cat="np" end="6" id="6" rel="obj1">
+            <node begin="1" end="2" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="2" end="3" getal="mv" graad="basis" id="8" lemma="verhoor" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="verhoor" word="verhoren"/>
+            <node begin="3" cat="pp" end="6" id="9" rel="mod">
+              <node begin="3" end="4" id="10" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+              <node begin="4" cat="np" end="6" id="11" rel="obj1">
+                <node begin="4" end="5" id="12" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="13" lemma="bouw_enquete" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="bouwenquete" word="bouwenquete"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="7" buiging="zonder" end="8" id="14" lemma="zeggen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="zeg" word="gezegd" wvorm="vd"/>
+        <node begin="8" cat="cp" end="18" id="15" rel="vc">
+          <node begin="8" conjtype="onder" end="9" id="16" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+          <node begin="9" cat="ssub" end="18" id="17" rel="body">
+            <node begin="9" cat="np" end="12" id="18" index="1" rel="su">
+              <node begin="9" buiging="zonder" end="10" graad="basis" id="19" lemma="zeker" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="zeker" word="zeker"/>
+              <node begin="10" end="11" id="20" lemma="50" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="50" word="50"/>
+              <node begin="11" end="12" getal="mv" graad="basis" id="21" lemma="ambtenaar" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="ambtenaar" word="ambtenaren"/>
+            </node>
+            <node begin="13" end="14" id="22" lemma="hebben" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="heb" word="hadden" wvorm="pv"/>
+            <node begin="9" cat="inf" end="18" id="23" rel="vc">
+              <node begin="9" end="12" id="24" index="1" rel="su"/>
+              <node begin="14" buiging="zonder" end="15" id="25" lemma="laten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="laat" word="laten" wvorm="inf"/>
+              <node begin="12" cat="inf" end="18" id="26" rel="vc">
+                <node begin="12" end="13" getal="getal" id="27" lemma="zich" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="obj1" root="zich" status="red" vwtype="refl" word="zich"/>
+                <node begin="15" buiging="zonder" end="16" id="28" lemma="om_kopen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="koop_om" word="omkopen" wvorm="inf"/>
+                <node begin="16" cat="pp" end="18" id="29" rel="mod">
+                  <node begin="16" end="17" id="30" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+                  <node begin="17" end="18" getal="mv" graad="basis" id="31" lemma="bouw_bedrijf" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="bouw_bedrijf" word="bouwbedrijven"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="32" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Tijdens de verhoren in de bouwenquete werd gezegd dat zeker 50 ambtenaren zich hadden laten omkopen door bouwbedrijven .</sentence>
+</alpino_ds>

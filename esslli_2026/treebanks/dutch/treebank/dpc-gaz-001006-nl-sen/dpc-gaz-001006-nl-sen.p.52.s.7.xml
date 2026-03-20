@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="32" id="0" rel="top">
+    <node begin="15" end="16" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="20" end="21" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="31" id="3" rel="--">
+      <node begin="0" cat="np" end="4" id="4" rel="su">
+        <node begin="0" buiging="met-e" end="1" graad="basis" id="5" lemma="belangrijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="belangrijk" word="Belangrijke"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="6" lemma="klant" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="klant" word="klanten"/>
+        <node begin="2" cat="pp" end="4" id="7" rel="mod">
+          <node begin="2" end="3" id="8" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="9" lemma="Octopus" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" root="Octopus" word="Octopus"/>
+        </node>
+      </node>
+      <node begin="4" end="5" id="10" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="zijn" wvorm="pv"/>
+      <node begin="5" cat="conj" end="31" id="11" rel="predc">
+        <node begin="5" cat="np" end="15" id="12" rel="cnj">
+          <node begin="5" cat="mwu" end="7" id="13" index="1" rel="mod">
+            <node begin="5" end="6" id="14" lemma="onder" pos="adv" postag="VZ(init)" pt="vz" rel="mwp" root="onder" vztype="init" word="onder"/>
+            <node begin="6" buiging="zonder" end="7" graad="comp" id="15" lemma="veel" naamval="stan" pdtype="grad" pos="adv" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mwp" root="meer" vwtype="onbep" word="meer"/>
+          </node>
+          <node begin="7" end="8" id="16" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="8" buiging="met-e" end="9" graad="basis" id="17" lemma="Amerikaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Amerikaans" word="Amerikaanse"/>
+          <node begin="9" cat="mwu" end="15" id="18" rel="hd">
+            <node begin="9" end="10" id="19" lemma="National" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="National" spectype="deeleigen" word="National"/>
+            <node begin="10" end="11" id="20" lemma="Institute" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Institute" spectype="deeleigen" word="Institute"/>
+            <node begin="11" end="12" id="21" lemma="of" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="of" spectype="deeleigen" word="of"/>
+            <node begin="12" end="13" id="22" lemma="Standards" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Standards" spectype="deeleigen" word="Standards"/>
+            <node begin="13" end="14" id="23" lemma="and" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="and" spectype="deeleigen" word="and"/>
+            <node begin="14" end="15" id="24" lemma="Technology" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Technology" spectype="deeleigen" word="Technology"/>
+          </node>
+        </node>
+        <node begin="5" cat="np" end="20" id="25" rel="cnj">
+          <node begin="5" end="7" id="26" index="1" rel="mod"/>
+          <node begin="16" end="17" id="27" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="17" cat="mwu" end="20" id="28" rel="hd">
+            <node begin="17" end="18" id="29" lemma="Penn" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Penn" spectype="deeleigen" word="Penn"/>
+            <node begin="18" end="19" id="30" lemma="State" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="State" spectype="deeleigen" word="State"/>
+            <node begin="19" end="20" id="31" lemma="University" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="University" spectype="deeleigen" word="University"/>
+          </node>
+        </node>
+        <node begin="5" cat="np" end="26" id="32" rel="cnj">
+          <node begin="5" end="7" id="33" index="1" rel="mod"/>
+          <node begin="21" end="22" id="34" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="22" cat="mwu" end="26" id="35" rel="hd">
+            <node begin="22" end="23" id="36" lemma="Massachusetts" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Massachusetts" spectype="deeleigen" word="Massachusetts"/>
+            <node begin="23" end="24" id="37" lemma="Institute" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Institute" spectype="deeleigen" word="Institute"/>
+            <node begin="24" end="25" id="38" lemma="of" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="of" spectype="deeleigen" word="of"/>
+            <node begin="25" end="26" id="39" lemma="Technology" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Technology" spectype="deeleigen" word="Technology"/>
+          </node>
+        </node>
+        <node begin="26" conjtype="neven" end="27" id="40" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="5" cat="np" end="31" id="41" rel="cnj">
+          <node begin="5" end="7" id="42" index="1" rel="mod"/>
+          <node begin="27" end="28" id="43" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="28" end="29" genus="zijd" getal="ev" graad="basis" id="44" lemma="universiteit" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="universiteit" word="universiteit"/>
+          <node begin="29" cat="pp" end="31" id="45" rel="mod">
+            <node begin="29" end="30" id="46" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="30" end="31" genus="onz" getal="ev" graad="basis" id="47" lemma="Berkeley" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Berkeley" word="Berkeley"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="31" end="32" id="48" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Belangrijke klanten van Octopus zijn onder meer het Amerikaanse National Institute of Standards and Technology , de Penn State University , het Massachusetts Institute of Technology en de universiteit van Berkeley .</sentence>
+</alpino_ds>

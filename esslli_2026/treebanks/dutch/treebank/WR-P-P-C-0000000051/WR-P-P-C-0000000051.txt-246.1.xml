@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="`" pos="punct" postag="LET()" pt="let" rel="--" root="`" word="`"/>
+    <node begin="10" end="11" id="2" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="1" cat="smain" end="12" id="3" rel="--">
+      <node begin="1" cat="np" end="6" id="4" index="1" rel="su">
+        <node begin="1" end="2" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="2" buiging="met-e" end="3" graad="sup" id="6" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,met-e,agr,sup)" pt="vnw" rel="mod" root="meest" vwtype="onbep" word="meeste"/>
+        <node begin="3" end="4" getal="mv" graad="basis" id="7" lemma="mens" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="mens" word="mensen"/>
+        <node begin="4" cat="pp" end="6" id="8" rel="mod">
+          <node begin="4" end="5" id="9" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+          <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="10" lemma="epilepsie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="epilepsie" word="epilepsie"/>
+        </node>
+      </node>
+      <node begin="6" end="7" id="11" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" word="worden" wvorm="pv"/>
+      <node begin="1" cat="ppart" end="12" id="12" rel="vc">
+        <node begin="1" end="6" id="13" index="1" rel="obj1"/>
+        <node begin="7" buiging="zonder" end="8" id="14" lemma="behandelen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="behandel" word="behandeld" wvorm="vd"/>
+        <node begin="8" cat="pp" end="12" id="15" rel="mod">
+          <node begin="8" end="9" id="16" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+          <node begin="9" cat="np" end="12" id="17" rel="obj1">
+            <node begin="9" end="10" getal="mv" graad="basis" id="18" lemma="medicijn" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="medicijn" word="medicijnen"/>
+            <node begin="11" end="12" getal="mv" graad="basis" id="19" lemma="anti_epilepticum" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mod" root="anti-epileptica" word="anti-epileptica"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" id="20" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="13" end="14" id="21" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+  </node>
+  <sentence>` De meeste mensen met epilepsie worden behandeld met medicijnen ( anti-epileptica ) &apos;</sentence>
+</alpino_ds>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="0" end="1" getal="getal" id="2" index="1" lemma="u" naamval="nomin" pdtype="pron" persoon="2b" pos="pron" postag="VNW(pers,pron,nomin,vol,2b,getal)" pt="vnw" rel="su" root="u" status="vol" vwtype="pers" word="U"/>
+      <node begin="1" end="2" id="3" lemma="dienen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="dien" word="dient" wvorm="pv"/>
+      <node begin="0" cat="ti" end="14" id="4" rel="vc">
+        <node begin="3" end="4" id="5" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+        <node begin="0" cat="inf" end="14" id="6" rel="body">
+          <node begin="0" end="1" id="7" index="1" rel="su"/>
+          <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="8" lemma="rekening" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="rekening" word="rekening"/>
+          <node begin="4" buiging="zonder" end="5" id="9" lemma="houden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="houd" word="houden" wvorm="inf"/>
+          <node begin="5" cat="pp" end="14" id="10" rel="pc">
+            <node begin="5" end="6" id="11" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+            <node begin="6" cat="np" end="14" id="12" rel="obj1">
+              <node begin="6" end="7" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+              <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="14" lemma="mogelijkheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="mogelijkheid" word="mogelijkheid"/>
+              <node begin="8" cat="pp" end="14" id="15" rel="mod">
+                <node begin="8" end="9" id="16" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="9" cat="np" end="14" id="17" rel="obj1">
+                  <node begin="9" buiging="met-e" end="10" graad="basis" id="18" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" word="nieuwe"/>
+                  <node begin="10" buiging="met-e" end="11" graad="basis" id="19" lemma="terroristisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="terroristisch" word="terroristische"/>
+                  <node begin="11" end="12" getal="mv" graad="basis" id="20" lemma="activiteit" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="activiteit" word="activiteiten"/>
+                  <node begin="12" cat="pp" end="14" id="21" rel="mod">
+                    <node begin="12" end="13" id="22" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                    <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="23" lemma="Indonesië" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" root="Indonesië" word="Indonesië"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="24" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>U dient rekening te houden met de mogelijkheid van nieuwe terroristische activiteiten in Indonesië .</sentence>
+</alpino_ds>

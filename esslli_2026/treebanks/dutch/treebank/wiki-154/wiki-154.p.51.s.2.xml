@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="4" end="5" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="5" end="6" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="8" end="9" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="12" id="5" rel="--">
+      <node begin="0" cat="np" end="4" id="6" rel="nucl">
+        <node begin="0" cat="mwu" end="2" id="7" rel="hd">
+          <node begin="0" end="1" id="8" lemma="Emir" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Emir" spectype="deeleigen" word="Emir"/>
+          <node begin="1" end="2" id="9" lemma="Kir" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Kir" spectype="deeleigen" word="Kir"/>
+        </node>
+        <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="10" lemma="PS" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" root="PS" word="PS"/>
+      </node>
+      <node begin="6" cat="conj" end="12" id="11" rel="sat">
+        <node begin="6" cat="np" end="8" id="12" rel="cnj">
+          <node begin="6" buiging="met-e" end="7" graad="basis" id="13" lemma="openbaar" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="openbaar" word="openbare"/>
+          <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="14" lemma="netheid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="netheid" word="netheid"/>
+        </node>
+        <node begin="9" end="10" getal="mv" graad="basis" id="15" lemma="monument" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="monument" word="monumenten"/>
+        <node begin="10" conjtype="neven" end="11" id="16" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="11" end="12" getal="mv" graad="basis" id="17" lemma="landschap" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="landschap" word="landschappen"/>
+      </node>
+    </node>
+  </node>
+  <sentence>Emir Kir ( PS ) , openbare netheid , monumenten en landschappen</sentence>
+</alpino_ds>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="30" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="conj" end="29" id="2" rel="--">
+      <node begin="0" cat="smain" end="8" id="3" rel="cnj">
+        <node begin="0" cat="np" end="3" id="4" index="1" rel="su">
+          <node begin="0" buiging="met-e" end="1" id="5" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="Deze"/>
+          <node begin="1" buiging="zonder" end="2" graad="basis" id="6" lemma="eigen" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="eigen" word="eigen"/>
+          <node begin="2" end="3" genus="zijd" getal="ev" graad="basis" id="7" lemma="strategie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="strategie" word="strategie"/>
+        </node>
+        <node begin="3" end="4" id="8" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="heeft" wvorm="pv"/>
+        <node begin="4" cat="np" end="8" id="9" rel="obj1">
+          <node begin="4" end="5" id="10" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="11" lemma="belang" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="belang" word="belang"/>
+          <node begin="6" cat="pp" end="8" id="12" rel="mod">
+            <node begin="6" end="7" id="13" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+            <node begin="7" end="8" getal="getal" id="14" lemma="zich" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="obj1" root="zich" status="red" vwtype="refl" word="zich"/>
+          </node>
+        </node>
+      </node>
+      <node begin="9" conjtype="neven" end="10" id="15" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" word="maar"/>
+      <node begin="0" cat="sv1" end="29" id="16" rel="cnj">
+        <node begin="0" end="3" id="17" index="1" rel="su"/>
+        <node begin="10" end="11" id="18" lemma="geven" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="geef" word="geeft" wvorm="pv"/>
+        <node begin="11" end="12" id="19" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+        <node begin="12" cat="cp" end="14" id="20" rel="predc">
+          <node begin="12" conjtype="onder" end="13" id="21" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+          <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="22" lemma="voordeel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="body" root="voordeel" word="voordeel"/>
+        </node>
+        <node begin="14" cat="cp" end="29" id="23" rel="vc">
+          <node begin="14" conjtype="onder" end="15" id="24" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+          <node begin="15" cat="ssub" end="29" id="25" rel="body">
+            <node begin="15" end="16" genus="onz" getal="ev" graad="basis" id="26" index="2" lemma="Vlaanderen" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" root="Vlaanderen" word="Vlaanderen"/>
+            <node begin="17" end="18" id="27" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" word="kan" wvorm="pv"/>
+            <node begin="15" cat="inf" end="29" id="28" rel="vc">
+              <node begin="15" end="16" id="29" index="2" rel="su"/>
+              <node begin="16" buiging="zonder" end="17" graad="comp" id="30" lemma="goed" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="goed" word="beter"/>
+              <node begin="18" buiging="zonder" end="19" id="31" lemma="bij_dragen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="draag_bij" word="bijdragen" wvorm="inf"/>
+              <node begin="19" cat="pp" end="29" id="32" rel="pc">
+                <node begin="19" end="20" id="33" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+                <node begin="20" cat="np" end="29" id="34" rel="obj1">
+                  <node begin="20" end="21" id="35" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                  <node begin="21" buiging="met-e" end="22" graad="basis" id="36" lemma="nationaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nationaal" word="nationale"/>
+                  <node begin="22" end="23" genus="zijd" getal="ev" graad="basis" id="37" lemma="strategie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="strategie" word="strategie"/>
+                  <node begin="23" cat="rel" end="29" id="38" rel="mod">
+                    <node begin="23" end="24" id="39" index="3" lemma="waarvan" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waarvan" word="waarvan"/>
+                    <node begin="23" cat="ssub" end="29" id="40" rel="body">
+                      <node begin="25" cat="np" end="27" id="41" index="4" rel="su">
+                        <node begin="25" end="26" id="42" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                        <node begin="26" end="27" getal="mv" graad="basis" id="43" lemma="voorbereiding" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="voorbereiding" word="voorbereidingen"/>
+                      </node>
+                      <node begin="27" end="28" id="44" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" word="worden" wvorm="pv"/>
+                      <node begin="23" cat="ppart" end="29" id="45" rel="vc">
+                        <node begin="23" end="24" id="46" index="3" rel="mod"/>
+                        <node begin="24" buiging="zonder" end="25" graad="basis" id="47" lemma="momenteel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="momenteel" word="momenteel"/>
+                        <node begin="25" end="27" id="48" index="4" rel="obj1"/>
+                        <node begin="28" buiging="zonder" end="29" id="49" lemma="treffen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="tref" word="getroffen" wvorm="vd"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="29" end="30" id="50" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Deze eigen strategie heeft een belang op zich , maar geeft ook als voordeel dat Vlaanderen beter kan bijdragen aan een nationale strategie waarvan momenteel de voorbereidingen worden getroffen .</sentence>
+</alpino_ds>

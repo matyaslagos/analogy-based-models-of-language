@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="du" end="8" id="1" rel="--">
+      <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="2" lemma="olie_prijs" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="dp" root="olie_prijs" word="Olieprijs"/>
+      <node begin="1" end="2" id="3" lemma="bijna" pos="adv" postag="BW()" pt="bw" rel="dp" root="bijna" word="bijna"/>
+      <node begin="2" cat="pp" end="8" id="4" rel="dp">
+        <node begin="2" end="3" id="5" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+        <node begin="3" cat="np" end="8" id="6" rel="obj1">
+          <node begin="3" buiging="met-e" end="4" graad="basis" id="7" lemma="psychologisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="psychologisch" word="psychologische"/>
+          <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="8" lemma="grens" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="grens" word="grens"/>
+          <node begin="5" cat="pp" end="8" id="9" rel="mod">
+            <node begin="5" end="6" id="10" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="6" cat="np" end="8" id="11" rel="obj1">
+              <node begin="6" end="7" id="12" lemma="vijftig" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="vijftig" word="vijftig"/>
+              <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="13" lemma="dollar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="dollar" word="dollar"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>Olieprijs bijna aan psychologische grens van vijftig dollar</sentence>
+</alpino_ds>

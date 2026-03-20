@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="smain" end="12" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" buiging="met-e" end="1" id="3" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="Deze"/>
+        <node begin="1" buiging="met-e" end="2" getal-n="mv-n" graad="comp" id="4" lemma="jong" pos="noun" positie="nom" postag="ADJ(nom,comp,met-e,mv-n)" pt="adj" rel="hd" root="jongere" word="jongeren"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" word="hebben" wvorm="pv"/>
+      <node begin="3" cat="conj" end="6" id="6" rel="mod">
+        <node begin="3" buiging="zonder" end="4" graad="basis" id="7" lemma="tijdelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="cnj" root="tijdelijk" word="tijdelijk"/>
+        <node begin="4" conjtype="neven" end="5" id="8" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+        <node begin="5" buiging="zonder" end="6" graad="basis" id="9" lemma="permanent" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="cnj" root="permanent" word="permanent"/>
+      </node>
+      <node begin="6" cat="conj" end="11" id="10" rel="obj1">
+        <node begin="6" cat="np" end="8" id="11" rel="cnj">
+          <node begin="6" buiging="met-e" end="7" graad="basis" id="12" lemma="speciaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="speciaal" word="speciale"/>
+          <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="13" lemma="hulp" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="hulp" word="hulp"/>
+        </node>
+        <node begin="8" conjtype="neven" end="9" id="14" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="9" cat="np" end="11" id="15" rel="cnj">
+          <node begin="9" buiging="zonder" end="10" graad="basis" id="16" lemma="aan_passen" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="aangepast" word="aangepast"/>
+          <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="17" lemma="onderwijs" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="onderwijs" word="onderwijs"/>
+        </node>
+      </node>
+      <node begin="11" buiging="zonder" end="12" graad="basis" id="18" lemma="nodig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="nodig" word="nodig"/>
+    </node>
+    <node begin="12" end="13" id="19" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Deze jongeren hebben tijdelijk of permanent speciale hulp en aangepast onderwijs nodig .</sentence>
+</alpino_ds>

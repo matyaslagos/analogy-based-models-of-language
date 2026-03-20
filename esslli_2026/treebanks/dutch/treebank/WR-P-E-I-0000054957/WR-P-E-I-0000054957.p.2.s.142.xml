@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="smain" end="15" id="1" rel="--">
+      <node begin="0" buiging="met-e" end="1" getal-n="zonder-n" id="2" lemma="deze" naamval="stan" pdtype="det" pos="det" positie="nom" postag="VNW(aanw,det,stan,nom,met-e,zonder-n)" pt="vnw" rel="su" root="deze" vwtype="aanw" word="Deze"/>
+      <node begin="1" end="2" id="3" lemma="voorzien" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="voorzie" word="voorzag" wvorm="pv"/>
+      <node begin="2" cat="pp" end="15" id="4" rel="pc">
+        <node begin="2" end="3" id="5" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+        <node begin="3" cat="np" end="15" id="6" rel="obj1">
+          <node begin="3" end="4" id="7" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="4" buiging="zonder" end="5" graad="basis" id="8" lemma="erfelijk" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="erfelijk" word="erfelijk"/>
+          <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="9" lemma="keizerrijk" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="keizerrijk" word="keizerrijk"/>
+          <node begin="6" cat="conj" end="15" id="10" rel="mod">
+            <node begin="6" cat="pp" end="12" id="11" rel="cnj">
+              <node begin="6" end="7" id="12" index="1" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+              <node begin="7" cat="np" end="9" id="13" rel="obj1">
+                <node begin="7" end="8" id="14" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+                <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="15" lemma="rijksdag" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" root="Rijksdag" word="Rijksdag"/>
+              </node>
+              <node begin="9" cat="cp" end="12" id="16" rel="predc">
+                <node begin="9" conjtype="onder" end="10" id="17" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="als"/>
+                <node begin="10" cat="np" end="12" id="18" rel="body">
+                  <node begin="10" buiging="met-e" end="11" graad="basis" id="19" lemma="legislatief" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="legislatieve" word="legislatieve"/>
+                  <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="20" lemma="macht" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="macht" word="macht"/>
+                </node>
+              </node>
+            </node>
+            <node begin="12" conjtype="neven" end="13" id="21" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="6" cat="pp" end="15" id="22" rel="cnj">
+              <node begin="6" end="7" id="23" index="1" rel="hd"/>
+              <node begin="13" cat="np" end="15" id="24" rel="obj1">
+                <node begin="13" buiging="zonder" end="14" graad="basis" id="25" lemma="algemeen" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="algemeen" word="algemeen"/>
+                <node begin="14" end="15" genus="onz" getal="ev" graad="basis" id="26" lemma="kies_recht" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="kies_recht" word="kiesrecht"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="27" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Deze voorzag in een erfelijk keizerrijk met een Rijksdag als legislatieve macht en algemeen kiesrecht .</sentence>
+</alpino_ds>

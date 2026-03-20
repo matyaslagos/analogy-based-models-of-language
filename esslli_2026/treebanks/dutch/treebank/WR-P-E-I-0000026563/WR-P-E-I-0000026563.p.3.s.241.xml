@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="4" end="5" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="7" end="8" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="13" id="3" rel="--">
+      <node begin="5" cat="sv1" end="7" id="4" rel="tag">
+        <node begin="5" end="6" id="5" lemma="blijken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="blijk" word="bleek" wvorm="pv"/>
+        <node begin="6" buiging="zonder" end="7" graad="comp" id="6" lemma="laat" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="laat" word="later"/>
+      </node>
+      <node begin="0" cat="smain" end="13" id="7" rel="nucl">
+        <node begin="0" cat="cp" end="2" id="8" rel="predm">
+          <node begin="0" conjtype="onder" end="1" id="9" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" word="Als"/>
+          <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="10" lemma="verrassing" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="body" root="verrassing" word="verrassing"/>
+        </node>
+        <node begin="2" end="3" id="11" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" word="werd" wvorm="pv"/>
+        <node begin="10" cat="np" end="12" id="12" index="1" rel="su">
+          <node begin="10" end="11" id="13" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="11" end="12" genus="onz" getal="ev" graad="basis" id="14" lemma="T-shirt" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="T-shirt" word="t-shirt"/>
+        </node>
+        <node begin="3" cat="ppart" end="13" id="15" rel="vc">
+          <node begin="3" end="4" getal="getal" id="16" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+          <node begin="8" cat="advp" end="10" id="17" rel="mod">
+            <node begin="8" end="9" id="18" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" word="ook"/>
+            <node begin="9" end="10" id="19" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="hd" root="nog" word="nog"/>
+          </node>
+          <node begin="10" end="12" id="20" index="1" rel="obj1"/>
+          <node begin="12" buiging="zonder" end="13" id="21" lemma="mee_zenden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="mee_zend" word="meegezonden" wvorm="vd"/>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="22" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Als verrassing werd er , bleek later , ook nog een t-shirt meegezonden .</sentence>
+</alpino_ds>

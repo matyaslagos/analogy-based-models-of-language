@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="28" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="3" end="4" id="2" lemma="&quot;" pos="punct" postag="LET()" pt="let" rel="--" root="&quot;" word="&quot;"/>
+    <node begin="7" end="8" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="15" end="16" id="4" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="23" end="24" id="5" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="25" end="26" id="6" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="0" cat="du" end="27" id="7" rel="--">
+      <node begin="0" cat="mwu" end="2" id="8" rel="tag">
+        <node begin="0" end="1" id="9" lemma="Rudy" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Rudy" spectype="deeleigen" word="Rudy"/>
+        <node begin="1" end="2" id="10" lemma="Aernoudt" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Aernoudt" spectype="deeleigen" word="Aernoudt"/>
+      </node>
+      <node begin="4" cat="du" end="27" id="11" rel="nucl">
+        <node begin="4" cat="sv1" end="15" id="12" rel="sat">
+          <node begin="4" end="5" id="13" lemma="mogen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="mag" word="Mochten" wvorm="pv"/>
+          <node begin="5" end="6" getal="mv" id="14" index="1" lemma="we" naamval="nomin" pdtype="pron" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,red,1,mv)" pt="vnw" rel="su" root="we" status="red" vwtype="pers" word="we"/>
+          <node begin="5" cat="inf" end="15" id="15" rel="vc">
+            <node begin="5" end="6" id="16" index="1" rel="su"/>
+            <node begin="6" cat="conj" end="11" id="17" rel="obj1">
+              <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="18" lemma="economie" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Economie" word="Economie"/>
+              <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="19" lemma="wetenschap" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Wetenschap" word="Wetenschap"/>
+              <node begin="9" conjtype="neven" end="10" id="20" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="21" lemma="innovatie" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Innovatie" word="Innovatie"/>
+            </node>
+            <node begin="11" cat="ap" end="14" id="22" rel="mod">
+              <node begin="11" buiging="zonder" end="12" graad="basis" id="23" lemma="los" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="los" word="los"/>
+              <node begin="12" cat="pp" end="14" id="24" rel="pc">
+                <node begin="12" end="13" id="25" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="13" end="14" getal="mv" id="26" lemma="elkaar" naamval="obl" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(recip,pron,obl,vol,persoon,mv)" pt="vnw" rel="obj1" root="elkaar" status="vol" vwtype="recip" word="elkaar"/>
+              </node>
+            </node>
+            <node begin="14" buiging="zonder" end="15" id="27" lemma="bekijken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="bekijk" word="bekijken" wvorm="inf"/>
+          </node>
+        </node>
+        <node begin="16" cat="smain" end="27" id="28" rel="nucl">
+          <node begin="17" end="18" id="29" lemma="zullen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="zal" word="zou" wvorm="pv"/>
+          <node begin="18" end="19" getal="ev" id="30" index="2" lemma="dit" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" root="dit" status="vol" vwtype="aanw" word="dit"/>
+          <node begin="16" cat="inf" end="27" id="31" rel="vc">
+            <node begin="16" end="17" id="32" lemma="dan" pos="adv" postag="BW()" pt="bw" rel="mod" root="dan" word="dan"/>
+            <node begin="18" end="19" id="33" index="2" rel="su"/>
+            <node begin="19" buiging="zonder" end="20" id="34" lemma="leiden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="leid" word="leiden" wvorm="inf"/>
+            <node begin="20" cat="pp" end="27" id="35" rel="pc">
+              <node begin="20" end="21" id="36" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" vztype="init" word="tot"/>
+              <node begin="21" cat="whrel" end="27" id="37" rel="obj1">
+                <node begin="21" end="22" getal="ev" id="38" index="3" lemma="wat" naamval="stan" pdtype="pron" persoon="3o" pos="pron" postag="VNW(vb,pron,stan,vol,3o,ev)" pt="vnw" rel="rhd" root="wat" status="vol" vwtype="vb" word="wat"/>
+                <node begin="21" cat="ssub" end="27" id="39" rel="body">
+                  <node begin="21" end="22" id="40" index="3" rel="predc"/>
+                  <node begin="22" end="23" getal="mv" graad="basis" id="41" lemma="Nederlander" ntype="eigen" pos="noun" postag="N(eigen,mv,basis)" pt="n" rel="su" root="Nederlander" word="Nederlanders"/>
+                  <node begin="24" end="25" genus="zijd" getal="ev" graad="basis" id="42" lemma="verkokering" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="verkokering" word="verkokering"/>
+                  <node begin="26" end="27" id="43" lemma="noemen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="noem" word="noemen" wvorm="pv"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="27" end="28" id="44" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Rudy Aernoudt : &quot; Mochten we Economie , Wetenschap en Innovatie los van elkaar bekijken , dan zou dit leiden tot wat Nederlanders &apos; verkokering &apos; noemen .</sentence>
+</alpino_ds>

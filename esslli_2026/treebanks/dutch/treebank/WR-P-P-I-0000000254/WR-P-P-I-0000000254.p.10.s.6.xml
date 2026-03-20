@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="2" end="3" id="1" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="4" end="5" id="2" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="0" cat="smain" end="13" id="3" rel="--">
+      <node begin="0" cat="pp" end="4" id="4" rel="mod">
+        <node begin="0" end="1" id="5" lemma="dankzij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="dankzij" vztype="init" word="Dankzij"/>
+        <node begin="1" cat="np" end="4" id="6" rel="obj1">
+          <node begin="1" end="2" id="7" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="8" lemma="yen-light" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="yen-light" word="yen-light"/>
+        </node>
+      </node>
+      <node begin="5" end="6" id="9" lemma="versterken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="versterk" word="versterkt" wvorm="pv"/>
+      <node begin="6" cat="np" end="8" id="10" rel="su">
+        <node begin="6" end="7" id="11" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="12" lemma="Nippon_economie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="Nippon_economie" word="Nippon-economie"/>
+      </node>
+      <node begin="8" cat="np" end="13" id="13" rel="obj1">
+        <node begin="8" buiging="zonder" end="9" getal="ev" id="14" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pt="vnw" rel="det" root="zijn" status="vol" vwtype="bez" word="zijn"/>
+        <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="15" lemma="concurrentie_kracht" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="concurrentie_kracht" word="concurrentiekracht"/>
+        <node begin="10" cat="pp" end="13" id="16" rel="mod">
+          <node begin="10" end="11" id="17" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+          <node begin="11" cat="np" end="13" id="18" rel="obj1">
+            <node begin="11" end="12" id="19" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+            <node begin="12" end="13" getal="mv" graad="basis" id="20" lemma="export_markt" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="export_markt" word="exportmarkten"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="21" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dankzij de &apos; yen-light &apos; versterkt de Nippon-economie zijn concurrentiekracht op de exportmarkten .</sentence>
+</alpino_ds>

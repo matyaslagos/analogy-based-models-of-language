@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="31" id="0" rel="top">
+    <node begin="7" end="8" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="13" end="14" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="20" end="21" id="3" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="26" end="27" id="4" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" word="&apos;"/>
+    <node begin="27" end="28" id="5" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="smain" end="29" id="6" rel="--">
+      <node begin="0" cat="np" end="3" id="7" rel="su">
+        <node begin="0" end="1" getal="mv" graad="basis" id="8" lemma="foto" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="foto" word="Foto&apos;s"/>
+        <node begin="1" cat="pp" end="3" id="9" rel="mod">
+          <node begin="1" end="2" id="10" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="2" end="3" genus="masc" getal="ev" id="11" lemma="hem" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,obl,vol,3,ev,masc)" pt="vnw" rel="obj1" root="hem" status="vol" vwtype="pers" word="hem"/>
+        </node>
+      </node>
+      <node begin="3" end="4" id="12" lemma="verschijnen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="verschijn" word="verschenen" wvorm="pv"/>
+      <node begin="4" cat="conj" end="29" id="13" rel="mod">
+        <node begin="4" cat="pp" end="13" id="14" rel="cnj">
+          <node begin="4" end="5" id="15" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="5" cat="np" end="13" id="16" rel="obj1">
+            <node begin="5" buiging="met-e" end="6" graad="basis" id="17" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,met-e,agr,basis)" pt="vnw" rel="mod" root="vele" vwtype="onbep" word="vele"/>
+            <node begin="6" end="7" getal="mv" graad="basis" id="18" lemma="kook_boek" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kook_boek" word="kookboeken"/>
+            <node begin="8" cat="ppart" end="13" id="19" rel="mod">
+              <node begin="8" buiging="zonder" end="9" id="20" lemma="schrijven" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="hd" root="geschreven" word="geschreven" wvorm="vd"/>
+              <node begin="9" cat="pp" end="13" id="21" rel="mod">
+                <node begin="9" end="10" id="22" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+                <node begin="10" cat="conj" end="13" id="23" rel="obj1">
+                  <node begin="10" end="11" genus="masc" getal="ev" id="24" lemma="hemzelf" naamval="obl" pdtype="pron" persoon="3m" pos="pron" postag="VNW(pers,pron,obl,nadr,3m,ev,masc)" pt="vnw" rel="cnj" root="hemzelf" status="nadr" vwtype="pers" word="hemzelf"/>
+                  <node begin="11" conjtype="neven" end="12" id="25" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+                  <node begin="12" buiging="met-e" end="13" getal-n="mv-n" graad="basis" id="26" lemma="ander" pos="adj" positie="nom" postag="ADJ(nom,basis,met-e,mv-n)" pt="adj" rel="cnj" root="ander" word="anderen"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="14" conjtype="neven" end="15" id="27" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="15" cat="pp" end="29" id="28" rel="cnj">
+          <node begin="15" end="16" id="29" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="16" cat="np" end="29" id="30" rel="obj1">
+            <node begin="16" end="17" id="31" lemma="bijvoorbeeld" pos="adv" postag="BW()" pt="bw" rel="mod" root="bijvoorbeeld" word="bijvoorbeeld"/>
+            <node begin="17" cat="mwu" end="20" id="32" rel="mod">
+              <node begin="17" end="18" id="33" lemma="Theun" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Theun" spectype="deeleigen" word="Theun"/>
+              <node begin="18" end="19" id="34" lemma="de" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="de" spectype="deeleigen" word="de"/>
+              <node begin="19" end="20" getal="ev" graad="basis" id="35" lemma="Winter" naamval="gen" ntype="eigen" pos="name" postag="N(eigen,ev,basis,gen)" pt="n" rel="mwp" root="Winters" word="Winters"/>
+            </node>
+            <node begin="21" cat="mwu" end="26" id="36" rel="hd">
+              <node begin="21" end="22" id="37" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="name" postag="LID(bep,stan,rest)" pt="lid" rel="mwp" root="De" word="De"/>
+              <node begin="22" end="23" getal="mv" graad="basis" id="38" lemma="bil" ntype="soort" pos="name" postag="N(soort,mv,basis)" pt="n" rel="mwp" root="billen" word="billen"/>
+              <node begin="23" end="24" id="39" lemma="van" pos="name" postag="VZ(init)" pt="vz" rel="mwp" root="van" vztype="init" word="van"/>
+              <node begin="24" end="25" id="40" lemma="Jan" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Jan" spectype="deeleigen" word="Jan"/>
+              <node begin="25" end="26" id="41" lemma="Cremer" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Cremer" spectype="deeleigen" word="Cremer"/>
+            </node>
+            <node begin="28" end="29" id="42" lemma="1975" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mod" root="1975" word="1975"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="29" end="30" id="43" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="30" end="31" id="44" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Foto&apos;s van hem verschenen in vele kookboeken , geschreven door hemzelf of anderen , en in bijvoorbeeld Theun de Winters &apos; De billen van Jan Cremer &apos; ( 1975 ) .</sentence>
+</alpino_ds>

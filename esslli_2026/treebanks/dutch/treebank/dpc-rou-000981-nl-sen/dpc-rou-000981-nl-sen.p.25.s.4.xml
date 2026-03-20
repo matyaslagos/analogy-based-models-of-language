@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="9" end="10" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="18" id="2" rel="--">
+      <node begin="1" end="2" id="3" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" word="hebben" wvorm="pv"/>
+      <node begin="2" end="3" getal="mv" id="4" index="1" lemma="we" naamval="nomin" pdtype="pron" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,red,1,mv)" pt="vnw" rel="su" root="we" status="red" vwtype="pers" word="we"/>
+      <node begin="0" cat="ppart" end="18" id="5" rel="vc">
+        <node begin="0" end="1" id="6" lemma="zo" pos="adv" postag="BW()" pt="bw" rel="mod" root="zo" word="Zo"/>
+        <node begin="2" end="3" id="7" index="1" rel="su"/>
+        <node begin="8" buiging="zonder" end="9" id="8" lemma="op_richten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="richt_op" word="opgericht" wvorm="vd"/>
+        <node begin="3" cat="np" end="18" id="9" rel="obj1">
+          <node begin="3" end="4" id="10" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="4" cat="mwu" end="8" id="11" rel="hd">
+            <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="12" lemma="Dove" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Dove" word="Dove"/>
+            <node begin="5" end="6" genus="onz" getal="ev" graad="basis" id="13" lemma="fonds" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="Fonds" word="Fonds"/>
+            <node begin="6" end="7" id="14" lemma="voor" pos="name" postag="VZ(init)" pt="vz" rel="mwp" root="voor" vztype="init" word="voor"/>
+            <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="15" lemma="zelfwaardering" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Zelfwaardering" word="Zelfwaardering"/>
+          </node>
+          <node begin="10" cat="rel" end="18" id="16" rel="mod">
+            <node begin="10" end="11" getal="ev" id="17" index="2" lemma="dat" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(betr,pron,stan,vol,3,ev)" pt="vnw" rel="rhd" root="dat" status="vol" vwtype="betr" word="dat"/>
+            <node begin="10" cat="ssub" end="18" id="18" rel="body">
+              <node begin="10" end="11" id="19" index="2" rel="su"/>
+              <node begin="11" cat="pp" end="13" id="20" rel="mod">
+                <node begin="11" end="12" id="21" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+                <node begin="12" end="13" getal="mv" graad="basis" id="22" lemma="school" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="school" word="scholen"/>
+              </node>
+              <node begin="13" cat="pp" end="15" id="23" rel="mod">
+                <node begin="13" end="14" id="24" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+                <node begin="14" end="15" getal="mv" graad="dim" id="25" lemma="meisje" ntype="soort" pos="noun" postag="N(soort,mv,dim)" pt="n" rel="obj1" root="meisje" word="meisjes"/>
+              </node>
+              <node begin="15" cat="pp" end="17" id="26" rel="pc">
+                <node begin="15" end="16" id="27" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" vztype="init" word="over"/>
+                <node begin="16" end="17" getal="mv" graad="basis" id="28" lemma="schoonheid_stereotype" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="schoonheid_stereotype" word="schoonheidsstereotypes"/>
+              </node>
+              <node begin="17" end="18" id="29" lemma="spreken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="spreek" word="spreekt" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" id="30" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Zo hebben we het Dove Fonds voor Zelfwaardering opgericht , dat in scholen met meisjes over schoonheidsstereotypes spreekt .</sentence>
+</alpino_ds>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" end="1" id="2" lemma="daarmee" pos="pp" postag="BW()" pt="bw" rel="mod" root="daarmee" word="Daarmee"/>
+      <node begin="1" end="2" id="3" lemma="voort_zetten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="zet_voort" word="zetten" wvorm="pv"/>
+      <node begin="2" cat="np" end="4" id="4" rel="su">
+        <node begin="2" end="3" id="5" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="3" end="4" getal="mv" graad="basis" id="6" lemma="diesel" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="diesels" word="diesels"/>
+      </node>
+      <node begin="4" cat="np" end="6" id="7" rel="obj1">
+        <node begin="4" buiging="zonder" end="5" getal="mv" id="8" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+        <node begin="5" end="6" genus="zijd" getal="ev" graad="basis" id="9" lemma="opmars" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="opmars" word="opmars"/>
+      </node>
+      <node begin="6" buiging="zonder" end="7" id="10" lemma="on_verminderen" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="mod" root="onverminderd" word="onverminderd" wvorm="vd"/>
+      <node begin="7" end="8" id="11" lemma="voort" pos="part" postag="BW()" pt="bw" rel="svp" root="voort" word="voort"/>
+    </node>
+    <node begin="8" end="9" id="12" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Daarmee zetten de diesels hun opmars onverminderd voort .</sentence>
+</alpino_ds>

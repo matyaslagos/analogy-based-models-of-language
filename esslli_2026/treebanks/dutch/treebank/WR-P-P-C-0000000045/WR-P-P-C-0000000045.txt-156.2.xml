@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="5" end="6" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="15" id="2" rel="--">
+      <node begin="0" cat="sv1" end="5" id="3" rel="sat">
+        <node begin="0" end="1" id="4" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" word="Zijn" wvorm="pv"/>
+        <node begin="2" cat="np" end="4" id="5" index="1" rel="su">
+          <node begin="2" buiging="zonder" end="3" graad="comp" id="6" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,comp)" pt="vnw" rel="det" root="meer" vwtype="onbep" word="meer"/>
+          <node begin="3" end="4" getal="mv" graad="basis" id="7" lemma="epilepsie_aanval" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="epilepsie_aanval" word="epilepsieaanvallen"/>
+        </node>
+        <node begin="1" cat="ppart" end="5" id="8" rel="vc">
+          <node begin="1" end="2" getal="getal" id="9" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" status="red" vwtype="aanw" word="er"/>
+          <node begin="2" end="4" id="10" index="1" rel="su"/>
+          <node begin="4" buiging="zonder" end="5" id="11" lemma="op_treden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="treed_op" word="opgetreden" wvorm="vd"/>
+        </node>
+      </node>
+      <node begin="6" cat="smain" end="15" id="12" rel="nucl">
+        <node begin="7" end="8" id="13" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="8" cat="np" end="14" id="14" index="2" rel="su">
+          <node begin="8" end="9" id="15" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+          <node begin="9" buiging="met-e" end="10" graad="basis" id="16" lemma="aanval_vrij" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="aanval_vrij" word="aanvalsvrije"/>
+          <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="17" lemma="periode" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="periode" word="periode"/>
+          <node begin="11" cat="pp" end="14" id="18" rel="mod">
+            <node begin="11" end="12" id="19" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+            <node begin="12" cat="np" end="14" id="20" rel="obj1">
+              <node begin="12" end="13" id="21" lemma="één" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="één" word="één"/>
+              <node begin="13" end="14" genus="onz" getal="ev" graad="basis" id="22" lemma="jaar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="jaar" word="jaar"/>
+            </node>
+          </node>
+        </node>
+        <node begin="6" cat="ppart" end="15" id="23" rel="vc">
+          <node begin="6" end="7" id="24" lemma="dan" pos="adv" postag="BW()" pt="bw" rel="mod" root="dan" word="dan"/>
+          <node begin="8" end="14" id="25" index="2" rel="obj1"/>
+          <node begin="14" buiging="zonder" end="15" id="26" lemma="vereisen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="vereis" word="vereist" wvorm="vd"/>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="27" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Zijn er meer epilepsieaanvallen opgetreden , dan is een aanvalsvrije periode van één jaar vereist .</sentence>
+</alpino_ds>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="5" id="0" rel="top">
+    <node begin="0" cat="np" end="4" id="1" rel="--">
+      <node begin="0" buiging="met-e" end="1" graad="basis" id="2" lemma="gewoon" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="gewoon" word="Gewone"/>
+      <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="3" lemma="aard_hommel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="aard_hommel" word="aardhommel"/>
+      <node begin="2" cat="pp" end="4" id="4" rel="mod">
+        <node begin="2" end="3" id="5" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+        <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="6" lemma="distel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="distel" word="distel"/>
+      </node>
+    </node>
+    <node begin="4" end="5" id="7" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+  </node>
+  <sentence>Gewone aardhommel op distel -</sentence>
+</alpino_ds>

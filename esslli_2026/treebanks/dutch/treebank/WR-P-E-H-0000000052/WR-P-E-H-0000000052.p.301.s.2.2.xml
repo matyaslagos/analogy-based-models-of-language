@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="25" id="0" rel="top">
+    <node begin="11" end="12" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="20" end="21" id="2" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="du" end="24" id="3" rel="--">
+      <node begin="0" cat="smain" end="11" id="4" rel="nucl">
+        <node begin="0" end="1" getal="ev" id="5" lemma="dit" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" root="dit" status="vol" vwtype="aanw" word="Dit"/>
+        <node begin="1" end="2" id="6" lemma="impliceren" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="impliceer" word="impliceert" wvorm="pv"/>
+        <node begin="2" cat="pp" end="5" id="7" rel="mod">
+          <node begin="2" end="3" id="8" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="3" cat="np" end="5" id="9" rel="obj1">
+            <node begin="3" buiging="met-e" end="4" graad="basis" id="10" lemma="Duits" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Duits" word="Duitse"/>
+            <node begin="4" end="5" getal="mv" graad="basis" id="11" lemma="oog" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="oog" word="ogen"/>
+          </node>
+        </node>
+        <node begin="5" cat="conj" end="11" id="12" rel="obj1">
+          <node begin="5" cat="np" end="9" id="13" rel="cnj">
+            <node begin="5" end="6" id="14" index="1" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+            <node begin="6" buiging="zonder" end="7" graad="basis" id="15" index="2" lemma="sterk" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="sterk" word="sterk"/>
+            <node begin="7" buiging="zonder" end="8" graad="basis" id="16" index="3" lemma="Europees" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="Europees" word="Europees"/>
+            <node begin="8" end="9" id="17" lemma="Veiligheids-" pos="prefix" postag="SPEC(afgebr)" pt="spec" rel="hd" root="Veiligheids" spectype="afgebr" word="Veiligheids-"/>
+          </node>
+          <node begin="9" conjtype="neven" end="10" id="18" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="5" cat="np" end="11" id="19" rel="cnj">
+            <node begin="5" end="6" id="20" index="1" rel="det"/>
+            <node begin="6" end="7" id="21" index="2" rel="mod"/>
+            <node begin="7" end="8" id="22" index="3" rel="mod"/>
+            <node begin="10" end="11" genus="onz" getal="ev" graad="basis" id="23" lemma="defensie_beleid" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="defensie_beleid" word="Defensiebeleid"/>
+          </node>
+        </node>
+      </node>
+      <node begin="12" cat="np" end="24" id="24" rel="sat">
+        <node begin="12" end="13" getal="ev" id="25" lemma="iets" naamval="stan" pdtype="pron" persoon="3o" pos="noun" postag="VNW(onbep,pron,stan,vol,3o,ev)" pt="vnw" rel="hd" root="iets" status="vol" vwtype="onbep" word="iets"/>
+        <node begin="13" cat="rel" end="24" id="26" rel="mod">
+          <node begin="13" end="14" id="27" index="4" lemma="waarvoor" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waarvoor" word="waarvoor"/>
+          <node begin="13" cat="ssub" end="24" id="28" rel="body">
+            <node begin="13" end="14" id="29" index="4" rel="pc"/>
+            <node begin="14" end="15" genus="onz" getal="ev" id="30" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" root="het" status="red" vwtype="pers" word="het"/>
+            <node begin="15" end="16" getal="getal" id="31" lemma="zich" naamval="obl" pdtype="pron" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="se" root="zich" status="red" vwtype="refl" word="zich"/>
+            <node begin="16" end="17" id="32" lemma="in_zetten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zet_in" word="inzet" wvorm="pv"/>
+            <node begin="17" cat="pp" end="24" id="33" rel="mod">
+              <node begin="17" end="18" id="34" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" vztype="init" word="met"/>
+              <node begin="18" cat="conj" end="24" id="35" rel="obj1">
+                <node begin="18" cat="np" end="20" id="36" rel="cnj">
+                  <node begin="18" end="19" id="37" index="5" lemma="ondermeer" pos="adv" postag="BW()" pt="bw" rel="mod" root="ondermeer" word="ondermeer"/>
+                  <node begin="19" end="20" genus="onz" getal="ev" graad="basis" id="38" lemma="Frankrijk" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Frankrijk" word="Frankrijk"/>
+                </node>
+                <node begin="18" cat="np" end="22" id="39" rel="cnj">
+                  <node begin="18" end="19" id="40" index="5" rel="mod"/>
+                  <node begin="21" end="22" genus="onz" getal="ev" graad="basis" id="41" lemma="België" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="België" word="België"/>
+                </node>
+                <node begin="22" conjtype="neven" end="23" id="42" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+                <node begin="18" cat="np" end="24" id="43" rel="cnj">
+                  <node begin="18" end="19" id="44" index="5" rel="mod"/>
+                  <node begin="23" end="24" genus="onz" getal="ev" graad="basis" id="45" lemma="Luxemburg" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Luxemburg" word="Luxemburg"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="24" end="25" id="46" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dit impliceert in Duitse ogen een sterk Europees Veiligheids- en Defensiebeleid , iets waarvoor het zich inzet met ondermeer Frankrijk , België en Luxemburg .</sentence>
+</alpino_ds>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="4" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" word="-"/>
+    <node begin="1" cat="conj" end="4" id="2" rel="--">
+      <node begin="1" end="2" id="3" lemma="patiënten-" pos="prefix" postag="SPEC(afgebr)" pt="spec" rel="cnj" root="patiënten" spectype="afgebr" word="patiënten-"/>
+      <node begin="2" conjtype="neven" end="3" id="4" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+      <node begin="3" end="4" getal="mv" graad="basis" id="5" lemma="cliënt_organisatie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="cliënt_organisatie" word="cliëntenorganisaties"/>
+    </node>
+  </node>
+  <sentence>- patiënten- en cliëntenorganisaties</sentence>
+</alpino_ds>

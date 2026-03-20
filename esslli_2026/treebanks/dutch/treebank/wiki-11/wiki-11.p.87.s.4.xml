@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="1" end="2" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="3" end="4" id="2" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="4" end="5" id="3" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="np" end="9" id="4" rel="--">
+      <node begin="0" end="1" genus="onz" getal="ev" graad="basis" id="5" lemma="Haifa" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Haifa" word="Haifa"/>
+      <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="6" lemma="Israël" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="mod" root="Israël" word="Israël"/>
+      <node begin="5" cat="pp" end="9" id="7" rel="mod">
+        <node begin="5" end="6" id="8" lemma="sinds" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="sinds" vztype="init" word="sinds"/>
+        <node begin="6" cat="mwu" end="9" id="9" rel="obj1">
+          <node begin="6" end="7" id="10" lemma="24" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="24" word="24"/>
+          <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="11" lemma="oktober" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="oktober" word="oktober"/>
+          <node begin="8" end="9" id="12" lemma="1995" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="1995" word="1995"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>Haifa ( Israël ) , sinds 24 oktober 1995</sentence>
+</alpino_ds>

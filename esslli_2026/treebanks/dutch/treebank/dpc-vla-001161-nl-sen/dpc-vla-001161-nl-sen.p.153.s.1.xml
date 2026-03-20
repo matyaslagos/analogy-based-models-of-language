@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="du" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="5" id="2" rel="dp">
+        <node begin="0" cat="conj" end="4" id="3" rel="mod">
+          <node begin="0" buiging="zonder" end="1" graad="comp" id="4" lemma="veel" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="cnj" root="meer" vwtype="onbep" word="Meer"/>
+          <node begin="1" conjtype="neven" end="2" id="5" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="2" cat="ppart" end="4" id="6" rel="cnj">
+            <node begin="2" buiging="zonder" end="3" graad="comp" id="7" lemma="goed" pos="adv" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="goed" word="beter"/>
+            <node begin="3" buiging="met-e" end="4" id="8" lemma="op_leiden" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="hd" root="opgeleid" word="opgeleide" wvorm="vd"/>
+          </node>
+        </node>
+        <node begin="4" end="5" getal="mv" graad="basis" id="9" lemma="werknemer" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="werknemer" word="werknemers"/>
+      </node>
+      <node begin="5" cat="pp" end="8" id="10" rel="dp">
+        <node begin="5" end="6" id="11" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" vztype="init" word="aan"/>
+        <node begin="6" cat="np" end="8" id="12" rel="obj1">
+          <node begin="6" end="7" id="13" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+          <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="14" lemma="slag" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="slag" word="slag"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>Meer en beter opgeleide werknemers aan de slag</sentence>
+</alpino_ds>

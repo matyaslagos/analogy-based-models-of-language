@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="smain" end="15" id="1" rel="--">
+      <node begin="0" buiging="zonder" end="1" graad="basis" id="2" lemma="zeker" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="zeker" word="Zeker"/>
+      <node begin="1" end="2" id="3" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="2" cat="cp" end="15" id="4" rel="su">
+        <node begin="2" conjtype="onder" end="3" id="5" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" word="dat"/>
+        <node begin="3" cat="ssub" end="15" id="6" rel="body">
+          <node begin="3" cat="np" end="7" id="7" rel="su">
+            <node begin="3" cat="conj" end="6" id="8" rel="mod">
+              <node begin="3" buiging="met-e" end="4" id="9" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="cnj" root="deze" vwtype="aanw" word="deze"/>
+              <node begin="4" conjtype="neven" end="5" id="10" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+              <node begin="5" buiging="met-e" end="6" graad="basis" id="11" lemma="vergelijkbaar" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="vergelijkbaar" word="vergelijkbare"/>
+            </node>
+            <node begin="6" end="7" getal="mv" graad="basis" id="12" lemma="constructie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="constructie" word="constructies"/>
+          </node>
+          <node begin="7" end="8" id="13" lemma="voor_komen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kom_voor" word="voorkomen" wvorm="pv"/>
+          <node begin="8" cat="pp" end="15" id="14" rel="ld">
+            <node begin="8" end="9" id="15" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+            <node begin="9" cat="np" end="15" id="16" rel="obj1">
+              <node begin="9" end="10" id="17" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+              <node begin="10" buiging="met-e" end="11" graad="basis" id="18" lemma="zogenoemd" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="zogenoemd" word="zogenoemde"/>
+              <node begin="11" cat="conj" end="14" id="19" rel="mod">
+                <node begin="11" buiging="met-e" end="12" graad="basis" id="20" lemma="etnisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="etnisch" word="etnische"/>
+                <node begin="12" conjtype="neven" end="13" id="21" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+                <node begin="13" buiging="met-e" end="14" graad="basis" id="22" lemma="allochtoon" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="cnj" root="allochtoon" word="allochtone"/>
+              </node>
+              <node begin="14" end="15" genus="onz" getal="ev" graad="basis" id="23" lemma="Nederlands" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" root="Nederlands" word="Nederlands"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="24" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Zeker is dat deze en vergelijkbare constructies voorkomen in het zogenoemde etnische of allochtone Nederlands .</sentence>
+</alpino_ds>

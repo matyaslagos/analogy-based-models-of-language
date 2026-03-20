@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="du" end="7" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" id="2" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" word="Maar"/>
+      <node begin="1" cat="du" end="7" id="3" rel="nucl">
+        <node begin="1" cat="conj" end="5" id="4" rel="dp">
+          <node begin="1" cat="np" end="3" id="5" rel="cnj">
+            <node begin="1" buiging="zonder" end="2" graad="basis" id="6" lemma="verbaal" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="verbaal" word="verbaal"/>
+            <node begin="2" end="3" genus="onz" getal="ev" graad="basis" id="7" lemma="geweld" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="geweld" word="geweld"/>
+          </node>
+          <node begin="3" conjtype="neven" end="4" id="8" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="4" end="5" getal="mv" graad="basis" id="9" lemma="bedreiging" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="bedreiging" word="bedreigingen"/>
+        </node>
+        <node begin="5" cat="advp" end="7" id="10" rel="dp">
+          <node begin="5" buiging="zonder" end="6" graad="basis" id="11" lemma="zeker" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="zeker" word="zeker"/>
+          <node begin="6" end="7" id="12" lemma="wel" pos="adv" postag="BW()" pt="bw" rel="hd" root="wel" word="wel"/>
+        </node>
+      </node>
+    </node>
+    <node begin="7" end="8" id="13" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Maar verbaal geweld en bedreigingen zeker wel .</sentence>
+</alpino_ds>

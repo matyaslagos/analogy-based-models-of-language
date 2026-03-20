@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="0" end="1" id="1" lemma="beginnen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="--" root="begin" word="BEGINT" wvorm="pv"/>
+    <node begin="1" end="2" id="2" lemma="op" pos="name" postag="VZ(init)" pt="vz" rel="--" root="OP" vztype="init" word="OP"/>
+    <node begin="2" buiging="zonder" end="3" graad="basis" id="3" lemma="algemeen" pos="name" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="--" root="ALGEMEEN" word="ALGEMEEN"/>
+    <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="4" lemma="geluid" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="--" root="GELUID" word="GELUID"/>
+    <node begin="4" end="5" genus="zijd" getal="ev" graad="basis" id="5" lemma="quote" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="--" root="KWOOT" word="KWOOT"/>
+    <node begin="5" end="6" id="6" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="7" lemma="Hans" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="--" root="HANS" word="HANS"/>
+    <node begin="7" end="8" id="8" lemma="beginnen" pos="name" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="--" root="BEGINT" word="BEGINT" wvorm="pv"/>
+    <node begin="8" end="9" id="9" lemma="te" pos="name" postag="VZ(init)" pt="vz" rel="--" root="TE" vztype="init" word="TE"/>
+    <node begin="9" buiging="zonder" end="10" id="10" lemma="lezen" pos="name" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="--" root="LEZEN" word="LEZEN" wvorm="inf"/>
+    <node begin="10" end="11" id="11" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="--" root="op" vztype="init" word="OP"/>
+    <node begin="11" end="12" id="12" lemma="14&quot;" pos="num" postag="SPEC(symb)" pt="spec" rel="--" root="14&quot;" spectype="symb" word="14&quot;"/>
+    <node begin="12" cat="du" end="16" id="13" rel="--">
+      <node begin="12" end="13" genus="onz" getal="ev" graad="basis" id="14" lemma="Bagdad" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="dp" root="Bagdad" word="Bagdad"/>
+      <node begin="13" cat="np" end="16" id="15" rel="dp">
+        <node begin="13" cat="mwu" end="15" id="16" rel="hd">
+          <node begin="13" end="14" id="17" lemma="acht" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" root="acht" word="acht"/>
+          <node begin="14" end="15" genus="onz" getal="ev" graad="basis" id="18" lemma="uur" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="uur" word="uur"/>
+        </node>
+        <node begin="15" end="16" id="19" lemma="vanochtend" pos="adv" postag="BW()" pt="bw" rel="mod" root="vanochtend" word="vanochtend"/>
+      </node>
+    </node>
+    <node begin="16" end="17" id="20" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>BEGINT OP ALGEMEEN GELUID KWOOT , HANS BEGINT TE LEZEN OP 14&quot; Bagdad acht uur vanochtend .</sentence>
+</alpino_ds>

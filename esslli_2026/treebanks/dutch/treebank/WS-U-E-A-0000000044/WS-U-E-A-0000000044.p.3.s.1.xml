@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" buiging="met-e" end="1" graad="basis" id="3" lemma="Marokkaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Marokkaans" word="Marokkaanse"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="4" lemma="voetbal_fan" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="voetbal_fan" word="voetbalfans"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="treuren" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="treur" word="treuren" wvorm="pv"/>
+      <node begin="3" cat="pp" end="7" id="6" rel="mod">
+        <node begin="3" end="4" id="7" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" vztype="init" word="na"/>
+        <node begin="4" cat="np" end="7" id="8" rel="obj1">
+          <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="9" lemma="verlies" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="verlies" word="verlies"/>
+          <node begin="5" cat="mwu" end="7" id="10" rel="mod">
+            <node begin="5" buiging="met-e" end="6" graad="basis" id="11" lemma="Afrikaans" naamval="stan" pos="name" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mwp" root="Afrikaanse" word="Afrikaanse"/>
+            <node begin="6" end="7" genus="zijd" getal="ev" graad="basis" id="12" lemma="cup_finale" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Cupfinale" word="Cupfinale"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence>Marokkaanse voetbalfans treuren na verlies Afrikaanse Cupfinale</sentence>
+</alpino_ds>

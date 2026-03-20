@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="0" cat="smain" end="16" id="1" rel="--">
+      <node begin="0" cat="conj" end="3" id="2" rel="su">
+        <node begin="0" end="1" getal="mv" graad="basis" id="3" lemma="bedrijf" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="bedrijf" word="Bedrijven"/>
+        <node begin="1" conjtype="neven" end="2" id="4" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="2" end="3" getal="mv" graad="basis" id="5" lemma="winkel_keten" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" root="winkelketen" word="winkelketens"/>
+      </node>
+      <node begin="3" end="4" id="6" lemma="op_vangen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="vang_op" word="vangen" wvorm="pv"/>
+      <node begin="4" cat="np" end="7" id="7" rel="obj1">
+        <node begin="4" end="5" id="8" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+        <node begin="5" buiging="met-e" end="6" graad="comp" id="9" lemma="hoog" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,comp,met-e,stan)" pt="adj" rel="mod" root="hoog" word="hogere"/>
+        <node begin="6" end="7" getal="mv" graad="basis" id="10" lemma="kost" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="kosten" word="kosten"/>
+      </node>
+      <node begin="7" end="8" id="11" lemma="op" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="op" vztype="fin" word="op"/>
+      <node begin="8" cat="cp" end="16" id="12" rel="mod">
+        <node begin="8" end="9" id="13" lemma="door" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="door" vztype="init" word="door"/>
+        <node begin="9" cat="conj" end="16" id="14" rel="body">
+          <node begin="9" cat="ti" end="12" id="15" rel="cnj">
+            <node begin="10" end="11" id="16" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+            <node begin="9" cat="inf" end="12" id="17" rel="body">
+              <node begin="9" buiging="zonder" end="10" graad="comp" id="18" lemma="ver" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="ver" word="verder"/>
+              <node begin="11" buiging="zonder" end="12" id="19" lemma="reorganiseren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="reorganiseer" word="reorganiseren" wvorm="inf"/>
+            </node>
+          </node>
+          <node begin="12" conjtype="neven" end="13" id="20" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+          <node begin="13" cat="ti" end="16" id="21" rel="cnj">
+            <node begin="14" end="15" id="22" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+            <node begin="13" cat="inf" end="16" id="23" rel="body">
+              <node begin="13" end="14" getal="mv" graad="basis" id="24" lemma="werknemer" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="werknemer" word="werknemers"/>
+              <node begin="15" buiging="zonder" end="16" id="25" lemma="ontslaan" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ontsla" word="ontslaan" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" id="26" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Bedrijven en winkelketens vangen de hogere kosten op door verder te reorganiseren en werknemers te ontslaan .</sentence>
+</alpino_ds>
